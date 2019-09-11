@@ -32,6 +32,14 @@
   </item>
 
   <item>
+    <title>Quantum Natural Gradient</title>
+    <link>http://arxiv.org/pdf/1909.02108</link>
+    <author>James Stokes, Josh Izaac, Nathan Killoran, Giuseppe Carleo</author>
+    <pubDate>Sep 06 2019</pubDate>
+    <description>A quantum generalization of Natural Gradient Descent is presented as part of a general-purpose optimization framework for variational quantum circuits. The optimization dynamics is interpreted as moving in the steepest descent direction with respect to the Quantum Information Geometry, corresponding to the real part of the Quantum Geometric Tensor (QGT), also known as the Fubini-Study metric tensor. An efficient algorithm is presented for computing a block-diagonal approximation to the Fubini-Study metric tensor for parametrized quantum circuits, which may be of independent interest.</description>
+  </item>
+
+  <item>
     <title>Discontinuous Galerkin discretization for quantum simulation of chemistry</title>
     <link>http://arxiv.org/pdf/1909.00028</link>
     <author>Jarrod R. McClean, Fabian M. Faulstich, Qinyi Zhu, Bryan O'Gorman, Yiheng Qiu, Steven R. White, Ryan Babbush, Lin Lin</author>
@@ -40,11 +48,11 @@
   </item>
 
   <item>
-    <title>Quantum Natural Gradient</title>
-    <link>http://arxiv.org/pdf/1909.02108</link>
-    <author>James Stokes, Josh Izaac, Nathan Killoran, Giuseppe Carleo</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>A quantum generalization of Natural Gradient Descent is presented as part of a general-purpose optimization framework for variational quantum circuits. The optimization dynamics is interpreted as moving in the steepest descent direction with respect to the Quantum Information Geometry, corresponding to the real part of the Quantum Geometric Tensor (QGT), also known as the Fubini-Study metric tensor. An efficient algorithm is presented for computing a block-diagonal approximation to the Fubini-Study metric tensor for parametrized quantum circuits, which may be of independent interest.</description>
+    <title>Variational algorithms for linear algebra</title>
+    <link>http://arxiv.org/pdf/1909.03898</link>
+    <author>Xiaosi Xu, Jinzhao Sun, Suguru Endo, Ying Li, Simon C. Benjamin, Xiao Yuan</author>
+    <pubDate>Sep 10 2019</pubDate>
+    <description>Quantum algorithms have been developed for efficiently solving linear algebra tasks. However they generally require deep circuits and therefore universal fault-tolerant quantum computers. In this work, we propose variational algorithms for linear algebra tasks that are compatible with Noisy Intermediate Scaled Quantum devices. We show that the solutions of linear systems of equations and matrix-vector multiplications can be translated as the ground states of the constructed Hamiltonians. Based on recently proposed variational quantum algorithms, we introduce Hamiltonian morphing together with an adaptive ansatz for efficiently finding the ground state. As the ground state always has zero energy, it also enables us to verify the solution. Our algorithms have wide applications in machine learning and optimisation problems, and the algorithm for matrix multiplications can be also used for variational Hamiltonian simulation. Finally, we conduct numerical simulations of the algorithm for solving linear systems of equations.</description>
   </item>
 
   <item>
@@ -69,6 +77,14 @@
     <author>Ryuji Takagi, Hiroyasu Tajima</author>
     <pubDate>Sep 05 2019</pubDate>
     <description>We derive a fundamental trade-off relation between accuracy of implementing a desired unitary evolution using a restricted set of free unitaries and the size of the assisting system, in terms of the resource generating/losing capacity of the target unitary. In particular, this relation implies that, for any theory that is equipped with a resource measure satisfying lenient conditions, any resource changing unitary cannot be perfectly implemented by a free unitary applied to system and environment if the environment has finite dimensions. Our results are applicable to a wide class of resources including energy, asymmetry, coherence, entanglement, and magic, imposing ultimate limitations inherent in those important physical settings, as well as providing new insights into operational restrictions in general resource theories.</description>
+  </item>
+
+  <item>
+    <title>On the Universality of the Quantum Approximate Optimization Algorithm</title>
+    <link>http://arxiv.org/pdf/1909.03123</link>
+    <author>Mauro E. S. Morales, Jacob Biamonte, Zoltán Zimborás</author>
+    <pubDate>Sep 10 2019</pubDate>
+    <description>The quantum approximate optimization algorithm (QAOA) is considered to be one of the most promising approaches towards using near-term quantum computers for practical application. In its original form, the algorithm applies two different Hamiltonians, called the mixer and the cost Hamiltonian, in alternation with the goal being to approach the ground state of the cost Hamiltonian. Recently, it has been suggested that one might use such a set-up as a parametric quantum circuit with possibly some other goal than reaching ground states. From this perspective, a recent work [S. Lloyd, arXiv:1812.11075] argued that for one-dimensional local cost Hamiltonians, composed of nearest neighbor ZZ terms, this set-up is quantum computationally universal, i.e., all unitaries can be reached up to arbitrary precision. In the present paper, we give the complete proof of this statement and the precise conditions under which such a one-dimensional QAOA might be considered universal. We further generalize this type of universality for certain cost Hamiltonians with ZZ and ZZZ terms arranged according to the adjacency structure of certain graphs and hypergraphs.</description>
   </item>
 
   <item>
