@@ -16,19 +16,19 @@
   </item>
 
   <item>
+    <title>Faster quantum and classical SDP approximations for quadratic binary optimization</title>
+    <link>http://arxiv.org/pdf/1909.04613</link>
+    <author>Fernando G.S L. Brandão, Richard Kueng, Daniel Stilck França</author>
+    <pubDate>Sep 11 2019</pubDate>
+    <description>We give a quantum speedup for solving the canonical semidefinite programming relaxation for binary quadratic optimization. The class of relaxations for combinatorial optimization has so far eluded quantum speedups. Our methods combine ideas from quantum Gibbs sampling and matrix exponent updates. A de-quantization of the algorithm also leads to a faster classical solver. For generic instances, our quantum solver gives a nearly quadratic speedup over state-of-the-art algorithms. We also provide an efficient randomized rounding procedure that converts approximately optimal SDP solutions into constant factor approximations of the original quadratic optimization problem.</description>
+  </item>
+
+  <item>
     <title>Quantum Brascamp-Lieb Dualities</title>
     <link>http://arxiv.org/pdf/1909.02383</link>
     <author>Mario Berta, David Sutter, Michael Walter</author>
     <pubDate>Sep 06 2019</pubDate>
     <description>Brascamp-Lieb inequalities are entropy inequalities which have a dual formulation as generalized Young inequalities. In this work, we introduce a fully quantum version of this duality, relating quantum relative entropy inequalities to matrix exponential inequalities of Young type. We demonstrate this novel duality by means of examples from quantum information theory - including entropic uncertainty relations, strong data-processing inequalities, super-additivity inequalities, and many more. As an application we find novel uncertainty relations for Gaussian quantum operations that can be interpreted as quantum duals of the well-known family of geometric Brascamp-Lieb inequalities.</description>
-  </item>
-
-  <item>
-    <title>Improved local spectral gap thresholds for lattices of finite dimension</title>
-    <link>http://arxiv.org/pdf/1909.01516</link>
-    <author>Anurag Anshu</author>
-    <pubDate>Sep 05 2019</pubDate>
-    <description>Knabe's theorem lower bounds the spectral gap of a one dimensional frustration-free local hamiltonian in terms of the local spectral gaps of finite regions. It also provides a local spectral gap threshold for hamiltonians that are gapless in the thermodynamic limit, showing that the local spectral gap much scale inverse linearly with the length of the region for such systems. Recent works have further improved upon this threshold, tightening it in the one dimensional case and extending it to higher dimensions. Here, we show a local spectral gap threshold for frustration-free hamiltonians on a finite dimensional lattice, that is optimal up to a constant factor that depends on the dimension of the lattice. Our proof is based on the detectability lemma framework and uses the notion of coarse-grained hamiltonian (introduced in [Phys. Rev. B 93, 205142]) as a link connecting the (global) spectral gap and the local spectral gap.</description>
   </item>
 
   <item>
@@ -40,6 +40,14 @@
   </item>
 
   <item>
+    <title>Improved local spectral gap thresholds for lattices of finite dimension</title>
+    <link>http://arxiv.org/pdf/1909.01516</link>
+    <author>Anurag Anshu</author>
+    <pubDate>Sep 05 2019</pubDate>
+    <description>Knabe's theorem lower bounds the spectral gap of a one dimensional frustration-free local hamiltonian in terms of the local spectral gaps of finite regions. It also provides a local spectral gap threshold for hamiltonians that are gapless in the thermodynamic limit, showing that the local spectral gap much scale inverse linearly with the length of the region for such systems. Recent works have further improved upon this threshold, tightening it in the one dimensional case and extending it to higher dimensions. Here, we show a local spectral gap threshold for frustration-free hamiltonians on a finite dimensional lattice, that is optimal up to a constant factor that depends on the dimension of the lattice. Our proof is based on the detectability lemma framework and uses the notion of coarse-grained hamiltonian (introduced in [Phys. Rev. B 93, 205142]) as a link connecting the (global) spectral gap and the local spectral gap.</description>
+  </item>
+
+  <item>
     <title>Quantum Natural Gradient</title>
     <link>http://arxiv.org/pdf/1909.02108</link>
     <author>James Stokes, Josh Izaac, Nathan Killoran, Giuseppe Carleo</author>
@@ -48,11 +56,11 @@
   </item>
 
   <item>
-    <title>Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design</title>
-    <link>http://arxiv.org/pdf/1909.02559</link>
-    <author>Cupjin Huang, Mario Szegedy, Fang Zhang, Xun Gao, Jianxin Chen, Yaoyun Shi</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>We report our work on the Alibaba Cloud Quantum Development Platform (AC-QDP). The capability of AC-QDP's computational engine was already reported in \citeCZH+18, ZHN+19.In this follow-up article, we demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs. AC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers. Then we discuss two interesting use cases we have implemented on the platform: 1. Optimal QAOA sequences for small-cycle free graphs; 2. Graph structure discovery.</description>
+    <title>On the Universality of the Quantum Approximate Optimization Algorithm</title>
+    <link>http://arxiv.org/pdf/1909.03123</link>
+    <author>Mauro E. S. Morales, Jacob Biamonte, Zoltán Zimborás</author>
+    <pubDate>Sep 10 2019</pubDate>
+    <description>The quantum approximate optimization algorithm (QAOA) is considered to be one of the most promising approaches towards using near-term quantum computers for practical application. In its original form, the algorithm applies two different Hamiltonians, called the mixer and the cost Hamiltonian, in alternation with the goal being to approach the ground state of the cost Hamiltonian. Recently, it has been suggested that one might use such a set-up as a parametric quantum circuit with possibly some other goal than reaching ground states. From this perspective, a recent work [S. Lloyd, arXiv:1812.11075] argued that for one-dimensional local cost Hamiltonians, composed of nearest neighbor ZZ terms, this set-up is quantum computationally universal, i.e., all unitaries can be reached up to arbitrary precision. In the present paper, we give the complete proof of this statement and the precise conditions under which such a one-dimensional QAOA might be considered universal. We further generalize this type of universality for certain cost Hamiltonians with ZZ and ZZZ terms arranged according to the adjacency structure of certain graphs and hypergraphs.</description>
   </item>
 
   <item>
@@ -64,11 +72,11 @@
   </item>
 
   <item>
-    <title>On the Universality of the Quantum Approximate Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/1909.03123</link>
-    <author>Mauro E. S. Morales, Jacob Biamonte, Zoltán Zimborás</author>
-    <pubDate>Sep 10 2019</pubDate>
-    <description>The quantum approximate optimization algorithm (QAOA) is considered to be one of the most promising approaches towards using near-term quantum computers for practical application. In its original form, the algorithm applies two different Hamiltonians, called the mixer and the cost Hamiltonian, in alternation with the goal being to approach the ground state of the cost Hamiltonian. Recently, it has been suggested that one might use such a set-up as a parametric quantum circuit with possibly some other goal than reaching ground states. From this perspective, a recent work [S. Lloyd, arXiv:1812.11075] argued that for one-dimensional local cost Hamiltonians, composed of nearest neighbor ZZ terms, this set-up is quantum computationally universal, i.e., all unitaries can be reached up to arbitrary precision. In the present paper, we give the complete proof of this statement and the precise conditions under which such a one-dimensional QAOA might be considered universal. We further generalize this type of universality for certain cost Hamiltonians with ZZ and ZZZ terms arranged according to the adjacency structure of certain graphs and hypergraphs.</description>
+    <title>Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design</title>
+    <link>http://arxiv.org/pdf/1909.02559</link>
+    <author>Cupjin Huang, Mario Szegedy, Fang Zhang, Xun Gao, Jianxin Chen, Yaoyun Shi</author>
+    <pubDate>Sep 06 2019</pubDate>
+    <description>We report our work on the Alibaba Cloud Quantum Development Platform (AC-QDP). The capability of AC-QDP's computational engine was already reported in \citeCZH+18, ZHN+19.In this follow-up article, we demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs. AC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers. Then we discuss two interesting use cases we have implemented on the platform: 1. Optimal QAOA sequences for small-cycle free graphs; 2. Graph structure discovery.</description>
   </item>
 
   <item>
@@ -93,6 +101,14 @@
     <author>Andreas Bauer</author>
     <pubDate>Sep 09 2019</pubDate>
     <description>We formalize and generalize the concept of a topological state-sum construction using the language of tensor networks. We give examples for constructions that are possibly more general than all state-sum constructions in the literature that we are aware of. In particular we propose a state-sum construction that is universal in the sense that it can emulate every other state-sum construction. Physically, state-sum models in $n$ dimensions correspond to fixed point models for topological phases of matter in $n$ space-time dimensions. We conjecture that our universal state-sum construction contains fixed point models for topological phases that are not captured by known constructions. In particular we demonstrate that, unlike common state-sum constructions, the construction is compatible with the absence of gapped boundaries and commuting-projector Hamiltonians in $2+1$-dimensional chiral topological phases.</description>
+  </item>
+
+  <item>
+    <title>General framework for verifying pure quantum states in the adversarial scenario</title>
+    <link>http://arxiv.org/pdf/1909.01943</link>
+    <author>Huangjun Zhu, Masahito Hayashi</author>
+    <pubDate>Sep 05 2019</pubDate>
+    <description>Bipartite and multipartite entangled states are of central interest in quantum information processing and foundational studies. Efficient verification of these states, especially in the adversarial scenario, is a key to various applications, including quantum computation, quantum simulation, and quantum networks. However, little is know about this topic in the adversarial scenario. Here we initiate a systematic study of pure-state verification in the adversarial scenario. In particular, we introduce a general method for determining the minimal number of tests required by a given strategy to achieve a given precision. In the case of homogeneous strategies, we can even derive an analytical formula. Furthermore, we propose a general recipe to verifying pure quantum states in the adversarial scenario by virtue of protocols for the nonadversarial scenario. Thanks to this recipe, the resource cost for verifying an arbitrary pure state in the adversarial scenario is comparable to the counterpart for the nonadversarial scenario, and the overhead is at most three times for high-precision verification. Our recipe can readily be applied to efficiently verify bipartite pure states, stabilizer states, hypergraph states, weighted graph states, and Dicke states in the adversarial scenario.</description>
   </item>
 
 </channel>
