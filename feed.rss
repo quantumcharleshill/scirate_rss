@@ -8,14 +8,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>No-Go Theorems for Quantum Resource Distillation</title>
-    <link>http://arxiv.org/pdf/1909.02540</link>
-    <author>Kun Fang, Zi-Wen Liu</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>Distillation, which generally means converting noisy states into better approximations of some valuable pure states by low-cost operations, is a fundamental type of resource trading protocol that plays major roles in quantum computation and information processing. In this work, we establish a series of fundamental limits to the efficiency of distillation with finite resources which apply to any reasonable resource theory, using an information-theoretic tool called the quantum hypothesis testing relative entropy. We show that, for highly generic noisy inputs, there is an insuperable limitation to the accuracy (or lower bound on the error) of any distillation protocol, even probabilistic ones. More explicitly, our bounds indicate a forbidden regime of the accuracy and success probability that no protocol with the corresponding parameters can exist. We use these no-go theorems to derive bounds which imply that the total overhead i.e. the number of noisy inputs needed to distill a pure resource state with small error $\epsilon$ must scale at least as $\Omega(\log(1/\epsilon))$. This allows us to establish specific lower bounds on the cost of magic state distillation, a task crucial to fault-tolerant quantum computation, which in particular address an open problem raised by Hastings and Haah [PRL 120, 050504 (2018)]. Finally, we showcase a basic no-go result for simulating unitary resource channels to demonstrate that the analogous understandings may extend to channel resource theories.</description>
-  </item>
-
-  <item>
     <title>Faster quantum and classical SDP approximations for quadratic binary optimization</title>
     <link>http://arxiv.org/pdf/1909.04613</link>
     <author>Fernando G.S L. Brandão, Richard Kueng, Daniel Stilck França</author>
@@ -24,11 +16,11 @@
   </item>
 
   <item>
-    <title>Quantum Brascamp-Lieb Dualities</title>
-    <link>http://arxiv.org/pdf/1909.02383</link>
-    <author>Mario Berta, David Sutter, Michael Walter</author>
+    <title>No-Go Theorems for Quantum Resource Distillation</title>
+    <link>http://arxiv.org/pdf/1909.02540</link>
+    <author>Kun Fang, Zi-Wen Liu</author>
     <pubDate>Sep 06 2019</pubDate>
-    <description>Brascamp-Lieb inequalities are entropy inequalities which have a dual formulation as generalized Young inequalities. In this work, we introduce a fully quantum version of this duality, relating quantum relative entropy inequalities to matrix exponential inequalities of Young type. We demonstrate this novel duality by means of examples from quantum information theory - including entropic uncertainty relations, strong data-processing inequalities, super-additivity inequalities, and many more. As an application we find novel uncertainty relations for Gaussian quantum operations that can be interpreted as quantum duals of the well-known family of geometric Brascamp-Lieb inequalities.</description>
+    <description>Distillation, which generally means converting noisy states into better approximations of some valuable pure states by low-cost operations, is a fundamental type of resource trading protocol that plays major roles in quantum computation and information processing. In this work, we establish a series of fundamental limits to the efficiency of distillation with finite resources which apply to any reasonable resource theory, using an information-theoretic tool called the quantum hypothesis testing relative entropy. We show that, for highly generic noisy inputs, there is an insuperable limitation to the accuracy (or lower bound on the error) of any distillation protocol, even probabilistic ones. More explicitly, our bounds indicate a forbidden regime of the accuracy and success probability that no protocol with the corresponding parameters can exist. We use these no-go theorems to derive bounds which imply that the total overhead i.e. the number of noisy inputs needed to distill a pure resource state with small error $\epsilon$ must scale at least as $\Omega(\log(1/\epsilon))$. This allows us to establish specific lower bounds on the cost of magic state distillation, a task crucial to fault-tolerant quantum computation, which in particular address an open problem raised by Hastings and Haah [PRL 120, 050504 (2018)]. Finally, we showcase a basic no-go result for simulating unitary resource channels to demonstrate that the analogous understandings may extend to channel resource theories.</description>
   </item>
 
   <item>
@@ -40,11 +32,19 @@
   </item>
 
   <item>
-    <title>Improved local spectral gap thresholds for lattices of finite dimension</title>
-    <link>http://arxiv.org/pdf/1909.01516</link>
-    <author>Anurag Anshu</author>
-    <pubDate>Sep 05 2019</pubDate>
-    <description>Knabe's theorem lower bounds the spectral gap of a one dimensional frustration-free local hamiltonian in terms of the local spectral gaps of finite regions. It also provides a local spectral gap threshold for hamiltonians that are gapless in the thermodynamic limit, showing that the local spectral gap much scale inverse linearly with the length of the region for such systems. Recent works have further improved upon this threshold, tightening it in the one dimensional case and extending it to higher dimensions. Here, we show a local spectral gap threshold for frustration-free hamiltonians on a finite dimensional lattice, that is optimal up to a constant factor that depends on the dimension of the lattice. Our proof is based on the detectability lemma framework and uses the notion of coarse-grained hamiltonian (introduced in [Phys. Rev. B 93, 205142]) as a link connecting the (global) spectral gap and the local spectral gap.</description>
+    <title>Quantum Brascamp-Lieb Dualities</title>
+    <link>http://arxiv.org/pdf/1909.02383</link>
+    <author>Mario Berta, David Sutter, Michael Walter</author>
+    <pubDate>Sep 06 2019</pubDate>
+    <description>Brascamp-Lieb inequalities are entropy inequalities which have a dual formulation as generalized Young inequalities. In this work, we introduce a fully quantum version of this duality, relating quantum relative entropy inequalities to matrix exponential inequalities of Young type. We demonstrate this novel duality by means of examples from quantum information theory - including entropic uncertainty relations, strong data-processing inequalities, super-additivity inequalities, and many more. As an application we find novel uncertainty relations for Gaussian quantum operations that can be interpreted as quantum duals of the well-known family of geometric Brascamp-Lieb inequalities.</description>
+  </item>
+
+  <item>
+    <title>Noise-robust exploration of quantum matter on near-term quantum devices</title>
+    <link>http://arxiv.org/pdf/1909.04786</link>
+    <author>Johannes Borregaard, Matthias Christandl, Daniel Stilck França</author>
+    <pubDate>Sep 12 2019</pubDate>
+    <description>We describe a resource-efficient approach to studying many-body quantum states on noisy, intermediate-scale quantum devices. We employ a sequential generation model that allows to bound the range of correlations in the resulting many-body quantum states. From this, we characterize situations where the estimation of local observables does not require the preparation of the entire state. Instead smaller patches of the state can be generated from which the observables can be estimated. This reduces the required circuit size and number of qubits for the computation of physical properties of quantum matter. Moreover, we show that the effect of noise decreases along the computation. Our results apply to a broad class of widely studied tensor network states and can be directly applied to near-term implementations of variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -64,14 +64,6 @@
   </item>
 
   <item>
-    <title>Playing Games with Multiple Access Channels</title>
-    <link>http://arxiv.org/pdf/1909.02479</link>
-    <author>Felix Leditzky, Mohammad A. Alhejji, Joshua Levin, Graeme Smith</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>Communication networks have multiple users, each sending and receiving messages. A multiple access channel (MAC) models multiple senders transmitting to a single receiver, such as the uplink from many mobile phones to a single base station. The optimal performance of a MAC is quantified by a capacity region of simultaneously achievable communication rates. We study the two-sender classical MAC, the simplest and best-understood network, and find a surprising richness in both a classical and quantum context. First, we find that quantum entanglement shared between senders can substantially boost the capacity of a classical MAC. Second, we find that optimal performance of a MAC with bounded-size inputs may require unbounded amounts of entanglement. Third, determining whether a perfect communication rate is achievable using finite-dimensional entanglement is undecidable. Finally, we show that evaluating the capacity region of a two-sender classical MAC is in fact NP-hard.</description>
-  </item>
-
-  <item>
     <title>Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design</title>
     <link>http://arxiv.org/pdf/1909.02559</link>
     <author>Cupjin Huang, Mario Szegedy, Fang Zhang, Xun Gao, Jianxin Chen, Yaoyun Shi</author>
@@ -80,11 +72,35 @@
   </item>
 
   <item>
-    <title>Universal limitations on implementing resourceful unitary evolutions</title>
-    <link>http://arxiv.org/pdf/1909.01336</link>
-    <author>Ryuji Takagi, Hiroyasu Tajima</author>
-    <pubDate>Sep 05 2019</pubDate>
-    <description>We derive a fundamental trade-off relation between accuracy of implementing a desired unitary evolution using a restricted set of free unitaries and the size of the assisting system, in terms of the resource generating/losing capacity of the target unitary. In particular, this relation implies that, for any theory that is equipped with a resource measure satisfying lenient conditions, any resource changing unitary cannot be perfectly implemented by a free unitary applied to system and environment if the environment has finite dimensions. Our results are applicable to a wide class of resources including energy, asymmetry, coherence, entanglement, and magic, imposing ultimate limitations inherent in those important physical settings, as well as providing new insights into operational restrictions in general resource theories.</description>
+    <title>Playing Games with Multiple Access Channels</title>
+    <link>http://arxiv.org/pdf/1909.02479</link>
+    <author>Felix Leditzky, Mohammad A. Alhejji, Joshua Levin, Graeme Smith</author>
+    <pubDate>Sep 06 2019</pubDate>
+    <description>Communication networks have multiple users, each sending and receiving messages. A multiple access channel (MAC) models multiple senders transmitting to a single receiver, such as the uplink from many mobile phones to a single base station. The optimal performance of a MAC is quantified by a capacity region of simultaneously achievable communication rates. We study the two-sender classical MAC, the simplest and best-understood network, and find a surprising richness in both a classical and quantum context. First, we find that quantum entanglement shared between senders can substantially boost the capacity of a classical MAC. Second, we find that optimal performance of a MAC with bounded-size inputs may require unbounded amounts of entanglement. Third, determining whether a perfect communication rate is achievable using finite-dimensional entanglement is undecidable. Finally, we show that evaluating the capacity region of a two-sender classical MAC is in fact NP-hard.</description>
+  </item>
+
+  <item>
+    <title>Correlation measures and distillable entanglement in AdS/CFT</title>
+    <link>http://arxiv.org/pdf/1909.04727</link>
+    <author>Joshua Levin, Oliver DeWolfe, Graeme Smith</author>
+    <pubDate>Sep 12 2019</pubDate>
+    <description>Recent developments have exposed close connections between quantum information and holography. In this paper, we explore the geometrical interpretations of the recently introduced $Q$-correlation and $R$-correlation, $E_Q$ and $E_R$. We find that $E_Q$ admits a natural geometric interpretation via the surface-state correspondence: it is a minimal mutual information between a surface region $A$ and a cross-section of $A$'s entanglement wedge with $B$. We note a strict trade-off between this minimal mutual information and the symmetric side-channel assisted distillable entanglement from the environment $E$ to $A$, $I^{ss}(E\rangle A)$. We also show that the $R$-correlation, $E_R$, coincides holographically with the entanglement wedge cross-section. This further elucidates the intricate relationship between entanglement, correlations, and geometry in holographic field theories.</description>
+  </item>
+
+  <item>
+    <title>Quantifying LOSR nonclassicality across arbitrary resource types</title>
+    <link>http://arxiv.org/pdf/1909.04065</link>
+    <author>David Schmid, Denis Rosset, Francesco Buscemi</author>
+    <pubDate>Sep 11 2019</pubDate>
+    <description>In space-like separated experiments and other scenarios where multiple parties share a classical common cause but no cause-effect relations, quantum theory allows a variety of nonsignaling resources which are useful for distributed quantum information processing. These include quantum states, nonlocal boxes, steering assemblages, teleportages, channel steering assemblages, and so on. Such resources are often studied using nonlocal games, semiquantum games, entanglement-witnesses, teleportation experiments, and similar tasks. We introduce a unifying framework which subsumes the full range of nonsignaling resources, as well as the games and experiments which probe them, into a common resource theory: that of local operations and shared randomness (LOSR). Crucially, we allow these LOSR operations to locally change the type of a resource, so that players can convert resources of any type into resources of any other type, and in particular into strategies for the specific type of game they are playing. We then prove several theorems relating resources and games of different types. These theorems generalize a number of seminal results from the literature, and can be applied to lessen the assumptions and technological requirements needed to characterize the nonclassicality of certain types of resources. As just one example, we prove that semiquantum games are able to perfectly characterize the LOSR nonclassicality of every resource of any type (not just quantum states, as was previously shown). As a consequence, we show that any resource can be characterized in a measurement-device-independent manner.</description>
+  </item>
+
+  <item>
+    <title>A Quantum Search Decoder for Natural Language Processing</title>
+    <link>http://arxiv.org/pdf/1909.05023</link>
+    <author>Johannes Bausch, Sathyawageeswar Subramanian, Stephen Piddock</author>
+    <pubDate>Sep 12 2019</pubDate>
+    <description>Probabilistic language models, e.g. those based on an LSTM, often face the problem of finding a high probability prediction from a sequence of random variables over a set of words. This is commonly addressed using a form of greedy decoding such as beam search, where a limited number of highest-likelihood paths (the beam width) of the decoder are kept, and at the end the maximum-likelihood path is chosen. The resulting algorithm has linear runtime in the beam width. However, the input is not necessarily distributed such that a high-likelihood input symbol at any given time step also leads to the global optimum. Limiting the beam width can thus result in a failure to recognise long-range dependencies. In practice, only an exponentially large beam width can guarantee that the global optimum is found: for an input of length $n$ and average parser branching ratio $R$, the baseline classical algorithm needs to query the input on average $R^n$ times. In this work, we construct a quantum algorithm to find the globally optimal parse with high constant success probability. Given the input to the decoder is distributed like a power-law with exponent $k>0$, our algorithm yields a runtime $R^{n f(R,k)}$, where $f\le 1/2$, and $f\rightarrow 0$ exponentially quickly for growing $k$. This implies that our algorithm always yields a super-Grover type speedup, i.e. it is more than quadratically faster than its classical counterpart. We further modify our procedure to recover a quantum beam search variant, which enables an even stronger empirical speedup, while sacrificing accuracy. Finally, we apply this quantum beam search decoder to Mozilla's implementation of Baidu's DeepSpeech neural net, which we show to exhibit such a power law word rank frequency, underpinning the applicability of our model.</description>
   </item>
 
   <item>
@@ -101,14 +117,6 @@
     <author>Andreas Bauer</author>
     <pubDate>Sep 09 2019</pubDate>
     <description>We formalize and generalize the concept of a topological state-sum construction using the language of tensor networks. We give examples for constructions that are possibly more general than all state-sum constructions in the literature that we are aware of. In particular we propose a state-sum construction that is universal in the sense that it can emulate every other state-sum construction. Physically, state-sum models in $n$ dimensions correspond to fixed point models for topological phases of matter in $n$ space-time dimensions. We conjecture that our universal state-sum construction contains fixed point models for topological phases that are not captured by known constructions. In particular we demonstrate that, unlike common state-sum constructions, the construction is compatible with the absence of gapped boundaries and commuting-projector Hamiltonians in $2+1$-dimensional chiral topological phases.</description>
-  </item>
-
-  <item>
-    <title>General framework for verifying pure quantum states in the adversarial scenario</title>
-    <link>http://arxiv.org/pdf/1909.01943</link>
-    <author>Huangjun Zhu, Masahito Hayashi</author>
-    <pubDate>Sep 05 2019</pubDate>
-    <description>Bipartite and multipartite entangled states are of central interest in quantum information processing and foundational studies. Efficient verification of these states, especially in the adversarial scenario, is a key to various applications, including quantum computation, quantum simulation, and quantum networks. However, little is know about this topic in the adversarial scenario. Here we initiate a systematic study of pure-state verification in the adversarial scenario. In particular, we introduce a general method for determining the minimal number of tests required by a given strategy to achieve a given precision. In the case of homogeneous strategies, we can even derive an analytical formula. Furthermore, we propose a general recipe to verifying pure quantum states in the adversarial scenario by virtue of protocols for the nonadversarial scenario. Thanks to this recipe, the resource cost for verifying an arbitrary pure state in the adversarial scenario is comparable to the counterpart for the nonadversarial scenario, and the overhead is at most three times for high-precision verification. Our recipe can readily be applied to efficiently verify bipartite pure states, stabilizer states, hypergraph states, weighted graph states, and Dicke states in the adversarial scenario.</description>
   </item>
 
 </channel>
