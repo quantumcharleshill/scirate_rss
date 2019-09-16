@@ -16,27 +16,11 @@
   </item>
 
   <item>
-    <title>No-Go Theorems for Quantum Resource Distillation</title>
-    <link>http://arxiv.org/pdf/1909.02540</link>
-    <author>Kun Fang, Zi-Wen Liu</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>Distillation, which generally means converting noisy states into better approximations of some valuable pure states by low-cost operations, is a fundamental type of resource trading protocol that plays major roles in quantum computation and information processing. In this work, we establish a series of fundamental limits to the efficiency of distillation with finite resources which apply to any reasonable resource theory, using an information-theoretic tool called the quantum hypothesis testing relative entropy. We show that, for highly generic noisy inputs, there is an insuperable limitation to the accuracy (or lower bound on the error) of any distillation protocol, even probabilistic ones. More explicitly, our bounds indicate a forbidden regime of the accuracy and success probability that no protocol with the corresponding parameters can exist. We use these no-go theorems to derive bounds which imply that the total overhead i.e. the number of noisy inputs needed to distill a pure resource state with small error $\epsilon$ must scale at least as $\Omega(\log(1/\epsilon))$. This allows us to establish specific lower bounds on the cost of magic state distillation, a task crucial to fault-tolerant quantum computation, which in particular address an open problem raised by Hastings and Haah [PRL 120, 050504 (2018)]. Finally, we showcase a basic no-go result for simulating unitary resource channels to demonstrate that the analogous understandings may extend to channel resource theories.</description>
-  </item>
-
-  <item>
-    <title>Variational algorithms for linear algebra</title>
-    <link>http://arxiv.org/pdf/1909.03898</link>
-    <author>Xiaosi Xu, Jinzhao Sun, Suguru Endo, Ying Li, Simon C. Benjamin, Xiao Yuan</author>
-    <pubDate>Sep 10 2019</pubDate>
-    <description>Quantum algorithms have been developed for efficiently solving linear algebra tasks. However they generally require deep circuits and therefore universal fault-tolerant quantum computers. In this work, we propose variational algorithms for linear algebra tasks that are compatible with Noisy Intermediate Scaled Quantum devices. We show that the solutions of linear systems of equations and matrix-vector multiplications can be translated as the ground states of the constructed Hamiltonians. Based on recently proposed variational quantum algorithms, we introduce Hamiltonian morphing together with an adaptive ansatz for efficiently finding the ground state. As the ground state always has zero energy, it also enables us to verify the solution. Our algorithms have wide applications in machine learning and optimisation problems, and the algorithm for matrix multiplications can be also used for variational Hamiltonian simulation. Finally, we conduct numerical simulations of the algorithm for solving linear systems of equations.</description>
-  </item>
-
-  <item>
-    <title>Quantum Brascamp-Lieb Dualities</title>
-    <link>http://arxiv.org/pdf/1909.02383</link>
-    <author>Mario Berta, David Sutter, Michael Walter</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>Brascamp-Lieb inequalities are entropy inequalities which have a dual formulation as generalized Young inequalities. In this work, we introduce a fully quantum version of this duality, relating quantum relative entropy inequalities to matrix exponential inequalities of Young type. We demonstrate this novel duality by means of examples from quantum information theory - including entropic uncertainty relations, strong data-processing inequalities, super-additivity inequalities, and many more. As an application we find novel uncertainty relations for Gaussian quantum operations that can be interpreted as quantum duals of the well-known family of geometric Brascamp-Lieb inequalities.</description>
+    <title>A chain rule for the quantum relative entropy</title>
+    <link>http://arxiv.org/pdf/1909.05826</link>
+    <author>Kun Fang, Omar Fawzi, Renato Renner, David Sutter</author>
+    <pubDate>Sep 13 2019</pubDate>
+    <description>The chain rule for the classical relative entropy ensures that the relative entropy between probability distributions on multipartite systems can be decomposed into a sum of relative entropies of suitably chosen conditional distributions on the individual systems. Here, we prove a similar chain rule inequality for the quantum relative entropy in terms of channel relative entropies. The new chain rule allows us to solve an open problem in the context of asymptotic quantum channel discrimination: surprisingly, adaptive protocols cannot improve the error rate for asymmetric channel discrimination compared to non-adaptive strategies. In addition, we give examples of quantum channels showing that the channel relative entropy is not additive under the tensor product.</description>
   </item>
 
   <item>
@@ -48,35 +32,19 @@
   </item>
 
   <item>
-    <title>Quantum Natural Gradient</title>
-    <link>http://arxiv.org/pdf/1909.02108</link>
-    <author>James Stokes, Josh Izaac, Nathan Killoran, Giuseppe Carleo</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>A quantum generalization of Natural Gradient Descent is presented as part of a general-purpose optimization framework for variational quantum circuits. The optimization dynamics is interpreted as moving in the steepest descent direction with respect to the Quantum Information Geometry, corresponding to the real part of the Quantum Geometric Tensor (QGT), also known as the Fubini-Study metric tensor. An efficient algorithm is presented for computing a block-diagonal approximation to the Fubini-Study metric tensor for parametrized quantum circuits, which may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>On the Universality of the Quantum Approximate Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/1909.03123</link>
-    <author>Mauro E. S. Morales, Jacob Biamonte, Zoltán Zimborás</author>
+    <title>Variational algorithms for linear algebra</title>
+    <link>http://arxiv.org/pdf/1909.03898</link>
+    <author>Xiaosi Xu, Jinzhao Sun, Suguru Endo, Ying Li, Simon C. Benjamin, Xiao Yuan</author>
     <pubDate>Sep 10 2019</pubDate>
-    <description>The quantum approximate optimization algorithm (QAOA) is considered to be one of the most promising approaches towards using near-term quantum computers for practical application. In its original form, the algorithm applies two different Hamiltonians, called the mixer and the cost Hamiltonian, in alternation with the goal being to approach the ground state of the cost Hamiltonian. Recently, it has been suggested that one might use such a set-up as a parametric quantum circuit with possibly some other goal than reaching ground states. From this perspective, a recent work [S. Lloyd, arXiv:1812.11075] argued that for one-dimensional local cost Hamiltonians, composed of nearest neighbor ZZ terms, this set-up is quantum computationally universal, i.e., all unitaries can be reached up to arbitrary precision. In the present paper, we give the complete proof of this statement and the precise conditions under which such a one-dimensional QAOA might be considered universal. We further generalize this type of universality for certain cost Hamiltonians with ZZ and ZZZ terms arranged according to the adjacency structure of certain graphs and hypergraphs.</description>
+    <description>Quantum algorithms have been developed for efficiently solving linear algebra tasks. However they generally require deep circuits and therefore universal fault-tolerant quantum computers. In this work, we propose variational algorithms for linear algebra tasks that are compatible with Noisy Intermediate Scaled Quantum devices. We show that the solutions of linear systems of equations and matrix-vector multiplications can be translated as the ground states of the constructed Hamiltonians. Based on recently proposed variational quantum algorithms, we introduce Hamiltonian morphing together with an adaptive ansatz for efficiently finding the ground state. As the ground state always has zero energy, it also enables us to verify the solution. Our algorithms have wide applications in machine learning and optimisation problems, and the algorithm for matrix multiplications can be also used for variational Hamiltonian simulation. Finally, we conduct numerical simulations of the algorithm for solving linear systems of equations.</description>
   </item>
 
   <item>
-    <title>Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design</title>
-    <link>http://arxiv.org/pdf/1909.02559</link>
-    <author>Cupjin Huang, Mario Szegedy, Fang Zhang, Xun Gao, Jianxin Chen, Yaoyun Shi</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>We report our work on the Alibaba Cloud Quantum Development Platform (AC-QDP). The capability of AC-QDP's computational engine was already reported in \citeCZH+18, ZHN+19.In this follow-up article, we demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs. AC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers. Then we discuss two interesting use cases we have implemented on the platform: 1. Optimal QAOA sequences for small-cycle free graphs; 2. Graph structure discovery.</description>
-  </item>
-
-  <item>
-    <title>Playing Games with Multiple Access Channels</title>
-    <link>http://arxiv.org/pdf/1909.02479</link>
-    <author>Felix Leditzky, Mohammad A. Alhejji, Joshua Levin, Graeme Smith</author>
-    <pubDate>Sep 06 2019</pubDate>
-    <description>Communication networks have multiple users, each sending and receiving messages. A multiple access channel (MAC) models multiple senders transmitting to a single receiver, such as the uplink from many mobile phones to a single base station. The optimal performance of a MAC is quantified by a capacity region of simultaneously achievable communication rates. We study the two-sender classical MAC, the simplest and best-understood network, and find a surprising richness in both a classical and quantum context. First, we find that quantum entanglement shared between senders can substantially boost the capacity of a classical MAC. Second, we find that optimal performance of a MAC with bounded-size inputs may require unbounded amounts of entanglement. Third, determining whether a perfect communication rate is achievable using finite-dimensional entanglement is undecidable. Finally, we show that evaluating the capacity region of a two-sender classical MAC is in fact NP-hard.</description>
+    <title>Variational Quantum Linear Solver: A Hybrid Algorithm for Linear Systems</title>
+    <link>http://arxiv.org/pdf/1909.05820</link>
+    <author>Carlos Bravo-Prieto, Ryan LaRose, M. Cerezo, Yigit Subasi, Lukasz Cincio, Patrick J. Coles</author>
+    <pubDate>Sep 13 2019</pubDate>
+    <description>Solving linear systems of equations is central to many engineering and scientific fields. Several quantum algorithms have been proposed for linear systems, where the goal is to prepare $|x\rangle$ such that $A|x\rangle \propto |b\rangle$. While these algorithms are promising, the time horizon for their implementation is long due to the required quantum circuit depth. In this work, we propose a variational hybrid quantum-classical algorithm for solving linear systems, with the aim of reducing the circuit depth and doing much of the computation classically. We propose a cost function based on the overlap between $|b\rangle$ and $A|x\rangle$, and we derive an operational meaning for this cost in terms of the solution precision $\epsilon$. We also introduce a quantum circuit to estimate this cost, while showing that this cost cannot be efficiently estimated classically. Using Rigetti's quantum computer, we successfully implement our algorithm up to a problem size of $32 \times 32$. Furthermore, we numerically find that the complexity of our algorithm scales efficiently in both $1/\epsilon$ and $\kappa$, with $\kappa$ the condition number of $A$. Our algorithm provides a heuristic for quantum linear systems that could make this application more near term.</description>
   </item>
 
   <item>
@@ -88,14 +56,6 @@
   </item>
 
   <item>
-    <title>Quantifying LOSR nonclassicality across arbitrary resource types</title>
-    <link>http://arxiv.org/pdf/1909.04065</link>
-    <author>David Schmid, Denis Rosset, Francesco Buscemi</author>
-    <pubDate>Sep 11 2019</pubDate>
-    <description>In space-like separated experiments and other scenarios where multiple parties share a classical common cause but no cause-effect relations, quantum theory allows a variety of nonsignaling resources which are useful for distributed quantum information processing. These include quantum states, nonlocal boxes, steering assemblages, teleportages, channel steering assemblages, and so on. Such resources are often studied using nonlocal games, semiquantum games, entanglement-witnesses, teleportation experiments, and similar tasks. We introduce a unifying framework which subsumes the full range of nonsignaling resources, as well as the games and experiments which probe them, into a common resource theory: that of local operations and shared randomness (LOSR). Crucially, we allow these LOSR operations to locally change the type of a resource, so that players can convert resources of any type into resources of any other type, and in particular into strategies for the specific type of game they are playing. We then prove several theorems relating resources and games of different types. These theorems generalize a number of seminal results from the literature, and can be applied to lessen the assumptions and technological requirements needed to characterize the nonclassicality of certain types of resources. As just one example, we prove that semiquantum games are able to perfectly characterize the LOSR nonclassicality of every resource of any type (not just quantum states, as was previously shown). As a consequence, we show that any resource can be characterized in a measurement-device-independent manner.</description>
-  </item>
-
-  <item>
     <title>A Quantum Search Decoder for Natural Language Processing</title>
     <link>http://arxiv.org/pdf/1909.05023</link>
     <author>Johannes Bausch, Sathyawageeswar Subramanian, Stephen Piddock</author>
@@ -104,11 +64,51 @@
   </item>
 
   <item>
+    <title>On the Universality of the Quantum Approximate Optimization Algorithm</title>
+    <link>http://arxiv.org/pdf/1909.03123</link>
+    <author>Mauro E. S. Morales, Jacob Biamonte, Zoltán Zimborás</author>
+    <pubDate>Sep 10 2019</pubDate>
+    <description>The quantum approximate optimization algorithm (QAOA) is considered to be one of the most promising approaches towards using near-term quantum computers for practical application. In its original form, the algorithm applies two different Hamiltonians, called the mixer and the cost Hamiltonian, in alternation with the goal being to approach the ground state of the cost Hamiltonian. Recently, it has been suggested that one might use such a set-up as a parametric quantum circuit with possibly some other goal than reaching ground states. From this perspective, a recent work [S. Lloyd, arXiv:1812.11075] argued that for one-dimensional local cost Hamiltonians, composed of nearest neighbor ZZ terms, this set-up is quantum computationally universal, i.e., all unitaries can be reached up to arbitrary precision. In the present paper, we give the complete proof of this statement and the precise conditions under which such a one-dimensional QAOA might be considered universal. We further generalize this type of universality for certain cost Hamiltonians with ZZ and ZZZ terms arranged according to the adjacency structure of certain graphs and hypergraphs.</description>
+  </item>
+
+  <item>
+    <title>Geometric Rényi Divergence and its Applications in Quantum Channel Capacities</title>
+    <link>http://arxiv.org/pdf/1909.05758</link>
+    <author>Kun Fang, Hamza Fawzi</author>
+    <pubDate>Sep 13 2019</pubDate>
+    <description>We present a systematic study of the geometric Rényi divergence (GRD), also known as the maximal Rényi divergence, from the point of view of quantum information theory. We show that this divergence, together with its extension to channels, has many appealing structural properties. For example we prove a chain rule inequality that immediately implies the "amortization collapse" for the geometric Rényi divergence, addressing an open question by Berta et al. [arXiv:1808.01498, Equation (55)] in the area of quantum channel discrimination. As applications, we explore various channel capacity problems and construct new channel information measures based on the geometric Rényi divergence, sharpening the previously best-known bounds based on the max-relative entropy while still keeping the new bounds single-letter efficiently computable. A plethora of examples are investigated and the improvements are evident for almost all cases.</description>
+  </item>
+
+  <item>
+    <title>Quantifying LOSR nonclassicality across arbitrary resource types</title>
+    <link>http://arxiv.org/pdf/1909.04065</link>
+    <author>David Schmid, Denis Rosset, Francesco Buscemi</author>
+    <pubDate>Sep 11 2019</pubDate>
+    <description>In space-like separated experiments and other scenarios where multiple parties share a classical common cause but no cause-effect relations, quantum theory allows a variety of nonsignaling resources which are useful for distributed quantum information processing. These include quantum states, nonlocal boxes, steering assemblages, teleportages, channel steering assemblages, and so on. Such resources are often studied using nonlocal games, semiquantum games, entanglement-witnesses, teleportation experiments, and similar tasks. We introduce a unifying framework which subsumes the full range of nonsignaling resources, as well as the games and experiments which probe them, into a common resource theory: that of local operations and shared randomness (LOSR). Crucially, we allow these LOSR operations to locally change the type of a resource, so that players can convert resources of any type into resources of any other type, and in particular into strategies for the specific type of game they are playing. We then prove several theorems relating resources and games of different types. These theorems generalize a number of seminal results from the literature, and can be applied to lessen the assumptions and technological requirements needed to characterize the nonclassicality of certain types of resources. As just one example, we prove that semiquantum games are able to perfectly characterize the LOSR nonclassicality of every resource of any type (not just quantum states, as was previously shown). As a consequence, we show that any resource can be characterized in a measurement-device-independent manner.</description>
+  </item>
+
+  <item>
+    <title>On the natural gradient for variational quantum eigensolver</title>
+    <link>http://arxiv.org/pdf/1909.05074</link>
+    <author>Naoki Yamamoto</author>
+    <pubDate>Sep 12 2019</pubDate>
+    <description>The variational quantum eigensolver is a hybrid algorithm composed of quantum state driving and classical parameter optimization, for finding the ground state of a given Hamiltonian. The natural gradient method is an optimization method taking into account the geometric structure of the parameter space. Very recently, Stokes et al. developed the general method for employing the natural gradient for the variational quantum eigensolver. This paper gives some simple case-studies of this optimization method, to see in detail how the natural gradient optimizer makes use of the geometric property to change and improve the ordinary gradient method.</description>
+  </item>
+
+  <item>
     <title>Optimizing Clifford gate generation for measurement-only topological quantum computation with Majorana zero modes</title>
     <link>http://arxiv.org/pdf/1909.03002</link>
     <author>Alan Tran, Alex Bocharov, Bela Bauer, Parsa Bonderson</author>
     <pubDate>Sep 09 2019</pubDate>
     <description>One of the main challenges for quantum computation is that while the number of gates required to perform a non-trivial quantum computation may be very large, decoherence and errors in realistic quantum architectures limits the number of physical gate operations that can be performed coherently. Therefore, an optimal mapping of the quantum algorithm into the physically available set of operations is of crucial importance. We examine this problem for a measurement-only topological quantum computer based on Majorana zero modes, where gates are performed through sequences of measurements. Such a scheme has been proposed as a practical, scalable approach to process quantum information in an array of topological qubits built using Majorana zero modes. Building on previous work that has shown that multi-qubit Clifford gates can be enacted in a topologically protected fashion in such qubit networks, we discuss methods to obtain the optimal measurement sequence for a given Clifford gate under the constraints imposed by the physical architecture, such as layout and the relative difficulty of implementing different types of measurements. Our methods also provide tools for comparative analysis of different architectures and strategies, given experimental characterizations of particular aspects of the systems under consideration.</description>
+  </item>
+
+  <item>
+    <title>Robustness-optimized quantum error correction</title>
+    <link>http://arxiv.org/pdf/1909.05156</link>
+    <author>David Layden, Louisa Ruixue Huang, Paola Cappellaro</author>
+    <pubDate>Sep 12 2019</pubDate>
+    <description>Quantum error correction codes are usually designed to correct errors regardless of their physical origins. In large-scale devices, this is an essential feature. In smaller-scale devices, however, the main error sources are often understood, and this knowledge could be exploited for more efficient error correction. Optimizing the quantum error correction protocol is therefore a promising strategy in smaller devices. Typically, this involves tailoring the protocol to a given decoherence channel by solving an appropriate optimization problem. Here we introduce a new optimization-based approach, which maximizes the robustness to faults in the recovery. Our approach is inspired by recent experiments, where such faults have been a significant source of logical errors. We illustrate this approach with a three-qubit model, and show how near-term experiments could benefit from more robust quantum error correction protocols.</description>
   </item>
 
   <item>
