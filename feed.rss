@@ -8,14 +8,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Faster quantum and classical SDP approximations for quadratic binary optimization</title>
-    <link>http://arxiv.org/pdf/1909.04613</link>
-    <author>Fernando G.S L. Brandão, Richard Kueng, Daniel Stilck França</author>
-    <pubDate>Sep 11 2019</pubDate>
-    <description>We give a quantum speedup for solving the canonical semidefinite programming relaxation for binary quadratic optimization. The class of relaxations for combinatorial optimization has so far eluded quantum speedups. Our methods combine ideas from quantum Gibbs sampling and matrix exponent updates. A de-quantization of the algorithm also leads to a faster classical solver. For generic instances, our quantum solver gives a nearly quadratic speedup over state-of-the-art algorithms. We also provide an efficient randomized rounding procedure that converts approximately optimal SDP solutions into constant factor approximations of the original quadratic optimization problem.</description>
-  </item>
-
-  <item>
     <title>A chain rule for the quantum relative entropy</title>
     <link>http://arxiv.org/pdf/1909.05826</link>
     <author>Kun Fang, Omar Fawzi, Renato Renner, David Sutter</author>
@@ -32,11 +24,11 @@
   </item>
 
   <item>
-    <title>Variational algorithms for linear algebra</title>
-    <link>http://arxiv.org/pdf/1909.03898</link>
-    <author>Xiaosi Xu, Jinzhao Sun, Suguru Endo, Ying Li, Simon C. Benjamin, Xiao Yuan</author>
-    <pubDate>Sep 10 2019</pubDate>
-    <description>Quantum algorithms have been developed for efficiently solving linear algebra tasks. However they generally require deep circuits and therefore universal fault-tolerant quantum computers. In this work, we propose variational algorithms for linear algebra tasks that are compatible with Noisy Intermediate Scaled Quantum devices. We show that the solutions of linear systems of equations and matrix-vector multiplications can be translated as the ground states of the constructed Hamiltonians. Based on recently proposed variational quantum algorithms, we introduce Hamiltonian morphing together with an adaptive ansatz for efficiently finding the ground state. As the ground state always has zero energy, it also enables us to verify the solution. Our algorithms have wide applications in machine learning and optimisation problems, and the algorithm for matrix multiplications can be also used for variational Hamiltonian simulation. Finally, we conduct numerical simulations of the algorithm for solving linear systems of equations.</description>
+    <title>Cayley path and quantum computational supremacy: A proof of average-case $\#P-$hardness of Random Circuit Sampling with quantified robustness</title>
+    <link>http://arxiv.org/pdf/1909.06210</link>
+    <author>Ramis Movassagh</author>
+    <pubDate>Sep 16 2019</pubDate>
+    <description>A one-parameter unitary-valued interpolation between any two unitary matrices (e.g., quantum gates) is constructed based on the Cayley transformation, which extends our previous work [15]. We prove that this path provides scrambled unitaries with probability distributions arbitrarily close to the Haar measure. We then prove the simplest known average-case #$P$-hardness of random circuit sampling (RCS), which is the task of sampling from the output distribution of a quantum circuit whose local gates are random Haar unitaries, and is the lead candidate for demonstrating quantum supremacy in the NISQ era. We show that previous work based on the truncations of the power series representation of the exponential function does not provide practical robustness. Explicit bound on noise resilience is proved, which for an $n-$qubit device with the near term experimental parameters is $2^{-\Theta(n^{3.51})}$ robustness with respect to additive error. Improving this to $\mathcal{O}(2^{-n}/\text{poly}(n))$ would prove the quantum supremacy conjecture; and proving our construction optimal would disprove it</description>
   </item>
 
   <item>
@@ -48,11 +40,11 @@
   </item>
 
   <item>
-    <title>Correlation measures and distillable entanglement in AdS/CFT</title>
-    <link>http://arxiv.org/pdf/1909.04727</link>
-    <author>Joshua Levin, Oliver DeWolfe, Graeme Smith</author>
-    <pubDate>Sep 12 2019</pubDate>
-    <description>Recent developments have exposed close connections between quantum information and holography. In this paper, we explore the geometrical interpretations of the recently introduced $Q$-correlation and $R$-correlation, $E_Q$ and $E_R$. We find that $E_Q$ admits a natural geometric interpretation via the surface-state correspondence: it is a minimal mutual information between a surface region $A$ and a cross-section of $A$'s entanglement wedge with $B$. We note a strict trade-off between this minimal mutual information and the symmetric side-channel assisted distillable entanglement from the environment $E$ to $A$, $I^{ss}(E\rangle A)$. We also show that the $R$-correlation, $E_R$, coincides holographically with the entanglement wedge cross-section. This further elucidates the intricate relationship between entanglement, correlations, and geometry in holographic field theories.</description>
+    <title>Near-term quantum algorithms for linear systems of equations</title>
+    <link>http://arxiv.org/pdf/1909.07344</link>
+    <author>Hsin-Yuan Huang, Kishor Bharti, Patrick Rebentrost</author>
+    <pubDate>Sep 17 2019</pubDate>
+    <description>Solving linear systems of equations is an essential component in science and technology, including in many machine learning algorithms. Existing quantum algorithms have demonstrated large speedup in solving linear systems, but the required quantum resources are not available on near-term quantum devices. In this work, we study potential near-term quantum algorithms for linear systems of equations. We investigate the use of variational algorithms for solving $Ax = b$ and analyze the optimization landscape for variational algorithms. We found that a wide range of variational algorithms designed to avoid barren plateaus, such as properly-initialized imaginary time evolution and adiabatic-inspired optimization, still suffer from a fundamentally different plateau problem. To circumvent this issue, we design a potentially near-term adaptive alternating algorithm based on a core idea: the classical combination of variational quantum states. We have conducted numerical experiments solving linear systems as large as $2^{300} \times 2^{300}$ by considering special systems that can be simulated efficiently on a classical computer. These experiments demonstrate the algorithm's ability to scale to system sizes within reach in near-term quantum devices of about $100$-$300$ qubits.</description>
   </item>
 
   <item>
@@ -64,11 +56,11 @@
   </item>
 
   <item>
-    <title>On the Universality of the Quantum Approximate Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/1909.03123</link>
-    <author>Mauro E. S. Morales, Jacob Biamonte, Zoltán Zimborás</author>
-    <pubDate>Sep 10 2019</pubDate>
-    <description>The quantum approximate optimization algorithm (QAOA) is considered to be one of the most promising approaches towards using near-term quantum computers for practical application. In its original form, the algorithm applies two different Hamiltonians, called the mixer and the cost Hamiltonian, in alternation with the goal being to approach the ground state of the cost Hamiltonian. Recently, it has been suggested that one might use such a set-up as a parametric quantum circuit with possibly some other goal than reaching ground states. From this perspective, a recent work [S. Lloyd, arXiv:1812.11075] argued that for one-dimensional local cost Hamiltonians, composed of nearest neighbor ZZ terms, this set-up is quantum computationally universal, i.e., all unitaries can be reached up to arbitrary precision. In the present paper, we give the complete proof of this statement and the precise conditions under which such a one-dimensional QAOA might be considered universal. We further generalize this type of universality for certain cost Hamiltonians with ZZ and ZZZ terms arranged according to the adjacency structure of certain graphs and hypergraphs.</description>
+    <title>Oracle complexity classes and local measurements on physical Hamiltonians</title>
+    <link>http://arxiv.org/pdf/1909.05981</link>
+    <author>Sevag Gharibian, Stephen Piddock, Justin Yirka</author>
+    <pubDate>Sep 16 2019</pubDate>
+    <description>The canonical problem for the class Quantum Merlin-Arthur (QMA) is that of estimating ground state energies of local Hamiltonians. Perhaps surprisingly, [Ambainis, CCC 2014] showed that the related, but arguably more natural, problem of simulating local measurements on ground states of local Hamiltonians (APX-SIM) is likely harder than QMA. Indeed, [Ambainis, CCC 2014] showed that APX-SIM is P^QMA[log]-complete, for P^QMA[log] the class of languages decidable by a P machine making a logarithmic number of adaptive queries to a QMA oracle. In this work, we show that APX-SIM is P^QMA[log]-complete even when restricted to more physical Hamiltonians, obtaining as intermediate steps a variety of related complexity-theoretic results. We first give a sequence of results which together yield P^QMA[log]-hardness for APX-SIM on well-motivated Hamiltonians: (1) We show that for NP, StoqMA, and QMA oracles, a logarithmic number of adaptive queries is equivalent to polynomially many parallel queries. These equalities simplify the proofs of our subsequent results. (2) Next, we show that the hardness of APX-SIM is preserved under Hamiltonian simulations (a la [Cubitt, Montanaro, Piddock, 2017]). As a byproduct, we obtain a full complexity classification of APX-SIM, showing it is complete for P, P^||NP, P^||StoqMA, or P^||QMA depending on the Hamiltonians employed. (3) Leveraging the above, we show that APX-SIM is P^QMA[log]-complete for any family of Hamiltonians which can efficiently simulate spatially sparse Hamiltonians, including physically motivated models such as the 2D Heisenberg model. Our second focus considers 1D systems: We show that APX-SIM remains P^QMA[log]-complete even for local Hamiltonians on a 1D line of 8-dimensional qudits. This uses a number of ideas from above, along with replacing the "query Hamiltonian" of [Ambainis, CCC 2014] with a new "sifter" construction.</description>
   </item>
 
   <item>
@@ -80,11 +72,19 @@
   </item>
 
   <item>
-    <title>Quantifying LOSR nonclassicality across arbitrary resource types</title>
-    <link>http://arxiv.org/pdf/1909.04065</link>
-    <author>David Schmid, Denis Rosset, Francesco Buscemi</author>
-    <pubDate>Sep 11 2019</pubDate>
-    <description>In space-like separated experiments and other scenarios where multiple parties share a classical common cause but no cause-effect relations, quantum theory allows a variety of nonsignaling resources which are useful for distributed quantum information processing. These include quantum states, nonlocal boxes, steering assemblages, teleportages, channel steering assemblages, and so on. Such resources are often studied using nonlocal games, semiquantum games, entanglement-witnesses, teleportation experiments, and similar tasks. We introduce a unifying framework which subsumes the full range of nonsignaling resources, as well as the games and experiments which probe them, into a common resource theory: that of local operations and shared randomness (LOSR). Crucially, we allow these LOSR operations to locally change the type of a resource, so that players can convert resources of any type into resources of any other type, and in particular into strategies for the specific type of game they are playing. We then prove several theorems relating resources and games of different types. These theorems generalize a number of seminal results from the literature, and can be applied to lessen the assumptions and technological requirements needed to characterize the nonclassicality of certain types of resources. As just one example, we prove that semiquantum games are able to perfectly characterize the LOSR nonclassicality of every resource of any type (not just quantum states, as was previously shown). As a consequence, we show that any resource can be characterized in a measurement-device-independent manner.</description>
+    <title>Correlation measures and distillable entanglement in AdS/CFT</title>
+    <link>http://arxiv.org/pdf/1909.04727</link>
+    <author>Joshua Levin, Oliver DeWolfe, Graeme Smith</author>
+    <pubDate>Sep 12 2019</pubDate>
+    <description>Recent developments have exposed close connections between quantum information and holography. In this paper, we explore the geometrical interpretations of the recently introduced $Q$-correlation and $R$-correlation, $E_Q$ and $E_R$. We find that $E_Q$ admits a natural geometric interpretation via the surface-state correspondence: it is a minimal mutual information between a surface region $A$ and a cross-section of $A$'s entanglement wedge with $B$. We note a strict trade-off between this minimal mutual information and the symmetric side-channel assisted distillable entanglement from the environment $E$ to $A$, $I^{ss}(E\rangle A)$. We also show that the $R$-correlation, $E_R$, coincides holographically with the entanglement wedge cross-section. This further elucidates the intricate relationship between entanglement, correlations, and geometry in holographic field theories.</description>
+  </item>
+
+  <item>
+    <title>On maximum-likelihood decoding with circuit-level errors</title>
+    <link>http://arxiv.org/pdf/1909.06732</link>
+    <author>Leonid P. Pryadko</author>
+    <pubDate>Sep 17 2019</pubDate>
+    <description>Error probability distribution associated with a given Clifford measurement circuit is described exactly in terms of the circuit subsystem code previously introduced by Bacon, Flammia, Harrow, and Shi. In particular, this gives a prescription for maximum-likelihood decoding with a given measurement circuit.</description>
   </item>
 
   <item>
@@ -96,27 +96,11 @@
   </item>
 
   <item>
-    <title>Optimizing Clifford gate generation for measurement-only topological quantum computation with Majorana zero modes</title>
-    <link>http://arxiv.org/pdf/1909.03002</link>
-    <author>Alan Tran, Alex Bocharov, Bela Bauer, Parsa Bonderson</author>
-    <pubDate>Sep 09 2019</pubDate>
-    <description>One of the main challenges for quantum computation is that while the number of gates required to perform a non-trivial quantum computation may be very large, decoherence and errors in realistic quantum architectures limits the number of physical gate operations that can be performed coherently. Therefore, an optimal mapping of the quantum algorithm into the physically available set of operations is of crucial importance. We examine this problem for a measurement-only topological quantum computer based on Majorana zero modes, where gates are performed through sequences of measurements. Such a scheme has been proposed as a practical, scalable approach to process quantum information in an array of topological qubits built using Majorana zero modes. Building on previous work that has shown that multi-qubit Clifford gates can be enacted in a topologically protected fashion in such qubit networks, we discuss methods to obtain the optimal measurement sequence for a given Clifford gate under the constraints imposed by the physical architecture, such as layout and the relative difficulty of implementing different types of measurements. Our methods also provide tools for comparative analysis of different architectures and strategies, given experimental characterizations of particular aspects of the systems under consideration.</description>
-  </item>
-
-  <item>
     <title>Robustness-optimized quantum error correction</title>
     <link>http://arxiv.org/pdf/1909.05156</link>
     <author>David Layden, Louisa Ruixue Huang, Paola Cappellaro</author>
     <pubDate>Sep 12 2019</pubDate>
     <description>Quantum error correction codes are usually designed to correct errors regardless of their physical origins. In large-scale devices, this is an essential feature. In smaller-scale devices, however, the main error sources are often understood, and this knowledge could be exploited for more efficient error correction. Optimizing the quantum error correction protocol is therefore a promising strategy in smaller devices. Typically, this involves tailoring the protocol to a given decoherence channel by solving an appropriate optimization problem. Here we introduce a new optimization-based approach, which maximizes the robustness to faults in the recovery. Our approach is inspired by recent experiments, where such faults have been a significant source of logical errors. We illustrate this approach with a three-qubit model, and show how near-term experiments could benefit from more robust quantum error correction protocols.</description>
-  </item>
-
-  <item>
-    <title>Generalized topological state-sum constructions and their universality</title>
-    <link>http://arxiv.org/pdf/1909.03031</link>
-    <author>Andreas Bauer</author>
-    <pubDate>Sep 09 2019</pubDate>
-    <description>We formalize and generalize the concept of a topological state-sum construction using the language of tensor networks. We give examples for constructions that are possibly more general than all state-sum constructions in the literature that we are aware of. In particular we propose a state-sum construction that is universal in the sense that it can emulate every other state-sum construction. Physically, state-sum models in $n$ dimensions correspond to fixed point models for topological phases of matter in $n$ space-time dimensions. We conjecture that our universal state-sum construction contains fixed point models for topological phases that are not captured by known constructions. In particular we demonstrate that, unlike common state-sum constructions, the construction is compatible with the absence of gapped boundaries and commuting-projector Hamiltonians in $2+1$-dimensional chiral topological phases.</description>
   </item>
 
 </channel>
