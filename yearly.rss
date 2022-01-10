@@ -167,19 +167,19 @@
   </item>
 
   <item>
-    <title>Error mitigation for universal gates on encoded qubits</title>
-    <link>http://arxiv.org/pdf/2103.04915</link>
-    <author>Christophe Piveteau, David Sutter, Sergey Bravyi, Jay M. Gambetta, Kristan Temme</author>
-    <pubDate>Mar 09 2021</pubDate>
-    <description>The Eastin-Knill theorem states that no quantum error correcting code can have a universal set of transversal gates. For CSS codes that can implement Clifford gates transversally it suffices to provide one additional non-Clifford gate, such as the T-gate, to achieve universality. Common methods to implement fault-tolerant T-gates like magic state distillation generate a significant hardware overhead that will likely prevent their practical usage in the near-term future. Recently methods have been developed to mitigate the effect of noise in shallow quantum circuits that are not protected by error correction. Error mitigation methods require no additional hardware resources but suffer from a bad asymptotic scaling and apply only to a restricted class of quantum algorithms. In this work, we combine both approaches and show how to implement encoded Clifford+T circuits where Clifford gates are protected from noise by error correction while errors introduced by noisy encoded T-gates are mitigated using the quasi-probability method. As a result, Clifford+T circuits with a number of T-gates inversely proportional to the physical noise rate can be implemented on small error-corrected devices without magic state distillation. We argue that such circuits can be out of reach for state-of-the-art classical simulation algorithms.</description>
-  </item>
-
-  <item>
     <title>Improved upper bounds on the stabilizer rank of magic states</title>
     <link>http://arxiv.org/pdf/2106.07740</link>
     <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
     <pubDate>Jun 16 2021</pubDate>
     <description>In this work we improve the runtime of recent classical algorithms for strong simulation of quantum circuits composed of Clifford and T gates. The improvement is obtained by establishing a new upper bound on the stabilizer rank of $m$ copies of the magic state $|T\rangle=\sqrt{2}^{-1}(|0\rangle+e^{i\pi/4}|1\rangle)$ in the limit of large $m$. In particular, we show that $|T\rangle^{\otimes m}$ can be exactly expressed as a superposition of at most $O(2^{\alpha m})$ stabilizer states, where $\alpha\leq 0.3963$, improving on the best previously known bound $\alpha \leq 0.463$. This furnishes, via known techniques, a classical algorithm which approximates output probabilities of an $n$-qubit Clifford + T circuit $U$ with $m$ uses of the T gate to within a given inverse polynomial relative error using a runtime $\mathrm{poly}(n,m)2^{\alpha m}$. We also provide improved upper bounds on the stabilizer rank of symmetric product states $|\psi\rangle^{\otimes m}$ more generally; as a consequence we obtain a strong simulation algorithm for circuits consisting of Clifford gates and $m$ instances of any (fixed) single-qubit $Z$-rotation gate with runtime $\text{poly}(n,m) 2^{m/2}$. We suggest a method to further improve the upper bounds by constructing linear codes with certain properties.</description>
+  </item>
+
+  <item>
+    <title>Error mitigation for universal gates on encoded qubits</title>
+    <link>http://arxiv.org/pdf/2103.04915</link>
+    <author>Christophe Piveteau, David Sutter, Sergey Bravyi, Jay M. Gambetta, Kristan Temme</author>
+    <pubDate>Mar 09 2021</pubDate>
+    <description>The Eastin-Knill theorem states that no quantum error correcting code can have a universal set of transversal gates. For CSS codes that can implement Clifford gates transversally it suffices to provide one additional non-Clifford gate, such as the T-gate, to achieve universality. Common methods to implement fault-tolerant T-gates like magic state distillation generate a significant hardware overhead that will likely prevent their practical usage in the near-term future. Recently methods have been developed to mitigate the effect of noise in shallow quantum circuits that are not protected by error correction. Error mitigation methods require no additional hardware resources but suffer from a bad asymptotic scaling and apply only to a restricted class of quantum algorithms. In this work, we combine both approaches and show how to implement encoded Clifford+T circuits where Clifford gates are protected from noise by error correction while errors introduced by noisy encoded T-gates are mitigated using the quasi-probability method. As a result, Clifford+T circuits with a number of T-gates inversely proportional to the physical noise rate can be implemented on small error-corrected devices without magic state distillation. We argue that such circuits can be out of reach for state-of-the-art classical simulation algorithms.</description>
   </item>
 
   <item>
