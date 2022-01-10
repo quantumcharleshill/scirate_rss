@@ -246,6 +246,166 @@
     <description>In this work we develop a general tensor network decoder for 2D codes. Specifically, we propose a decoder that approximates maximally likelihood decoding for 2D stabiliser and subsystem codes subject to Pauli noise. For a code consisting of $n$ qubits our decoder has a runtime of $O(n\log n+n\chi^3)$, where $\chi$ is an approximation parameter. We numerically demonstrate the power of this decoder by studying four classes of codes under three noise models, namely regular surface codes, irregular surface codes, subsystem surface codes and colour codes, under bit-flip, phase-flip and depolarising noise. We show that the thresholds yielded by our decoder are state-of-the-art, and numerically consistent with optimal thresholds where available, suggesting that the tensor network decoder well approximates optimal decoding in all these cases. Novel to our decoder is an efficient and effective approximate contraction scheme for arbitrary 2D tensor networks, which may be of independent interest. We have also released an implementation of this algorithm as a stand-alone Julia package: SweepContractor.jl.</description>
   </item>
 
+  <item>
+    <title>Random quantum circuits transform local noise into global white noise</title>
+    <link>http://arxiv.org/pdf/2111.14907</link>
+    <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
+    <pubDate>Dec 01 2021</pubDate>
+    <description>We study the distribution over measurement outcomes of noisy random quantum circuits in the low-fidelity regime. We show that, for local noise that is sufficiently weak and unital, correlations (measured by the linear cross-entropy benchmark) between the output distribution $p_{\text{noisy}}$ of a generic noisy circuit instance and the output distribution $p_{\text{ideal}}$ of the corresponding noiseless instance shrink exponentially with the expected number of gate-level errors, as $F=\text{exp}(-2s\epsilon \pm O(s\epsilon^2))$, where $\epsilon$ is the probability of error per circuit location and $s$ is the number of two-qubit gates. Furthermore, if the noise is incoherent, the output distribution approaches the uniform distribution $p_{\text{unif}}$ at precisely the same rate and can be approximated as $p_{\text{noisy}} \approx Fp_{\text{ideal}} + (1-F)p_{\text{unif}}$, that is, local errors are scrambled by the random quantum circuit and contribute only white noise (uniform output). Importantly, we upper bound the total variation error (averaged over random circuit instance) in this approximation as $O(F\epsilon \sqrt{s})$, so the "white-noise approximation" is meaningful when $\epsilon \sqrt{s} \ll 1$, a quadratically weaker condition than the $\epsilon s\ll 1$ requirement to maintain high fidelity. The bound applies when the circuit size satisfies $s \geq \Omega(n\log(n))$ and the inverse error rate satisfies $\epsilon^{-1} \geq \tilde{\Omega}(n)$. The white-noise approximation is useful for salvaging the signal from a noisy quantum computation; it was an underlying assumption in complexity-theoretic arguments that low-fidelity random quantum circuits cannot be efficiently sampled classically. Our method is based on a map from second-moment quantities in random quantum circuits to expectation values of certain stochastic processes for which we compute upper and lower bounds.</description>
+  </item>
+
+  <item>
+    <title>Fundamental limits of quantum error mitigation</title>
+    <link>http://arxiv.org/pdf/2109.04457</link>
+    <author>Ryuji Takagi, Suguru Endo, Shintaro Minagawa, Mile Gu</author>
+    <pubDate>Sep 10 2021</pubDate>
+    <description>The inevitable accumulation of errors in near-future quantum devices represents a key obstacle in delivering practical quantum advantage. This motivated the development of various quantum error-mitigation protocols, each representing a method to extract useful computational output by combining measurement data from multiple samplings of the available imperfect quantum device. What are the ultimate performance limits universally imposed on such protocols? Here, we derive a fundamental bound on the sampling overhead that applies to a general class of error-mitigation protocols, assuming only the laws of quantum mechanics. We use it to show that (1) the sampling overhead to mitigate local depolarizing noise for layered circuits -- such as the ones used for variational quantum algorithms -- must scale exponentially with circuit depth, and (2) the optimality of probabilistic error cancellation method among all strategies in mitigating a certain class of noise, demonstrating that our results provide a means to identify when a given quantum error-mitigation strategy is optimal and when there is potential room for improvement.</description>
+  </item>
+
+  <item>
+    <title>Entangling power and quantum circuit complexity</title>
+    <link>http://arxiv.org/pdf/2104.03332</link>
+    <author>J. Eisert</author>
+    <pubDate>Apr 09 2021</pubDate>
+    <description>Notions of circuit complexity and cost play a key role in quantum computing and simulation where they capture the (weighted) minimal number of gates that is required to implement a unitary. Similar notions also become increasingly prominent in high energy physics in the study of holography. While notions of entanglement have in general little implications for the quantum circuit complexity and the cost of a unitary, in this note, we discuss a simple such relationship when both the entanglement of a state and the cost of a unitary take small values, building on ideas on how values of entangling power of quantum gates add up. This bound implies that if entanglement entropies grow linearly in time, so does the cost. The implications are two-fold: It provides insights into complexity growth for short times. In the context of quantum simulation, it allows to compare digital and analog quantum simulators. The main technical contribution is a continuous-variable small incremental entangling bound.</description>
+  </item>
+
+  <item>
+    <title>Fusion-based quantum computation</title>
+    <link>http://arxiv.org/pdf/2101.09310</link>
+    <author>Sara Bartolucci, Patrick Birchall, Hector Bombin, Hugo Cable, Chris Dawson, Mercedes Gimeno-Segovia, Eric Johnston, Konrad Kieling, Naomi Nickerson, Mihir Pant, Fernando Pastawski, Terry Rudolph, Chris Sparrow</author>
+    <pubDate>Jan 26 2021</pubDate>
+    <description>We introduce fusion-based quantum computing (FBQC) - a model of universal quantum computation in which entangling measurements, called fusions, are performed on the qubits of small constant-sized entangled resource states. We introduce a stabilizer formalism for analyzing fault tolerance and computation in these schemes. This framework naturally captures the error structure that arises in certain physical systems for quantum computing, such as photonics. FBQC can offer significant architectural simplifications, enabling hardware made up of many identical modules, requiring an extremely low depth of operations on each physical qubit and reducing classical processing requirements. We present two pedagogical examples of fault-tolerant schemes constructed in this framework and numerically evaluate their threshold under a hardware agnostic fusion error model including both erasure and Pauli error. We also study an error model of linear optical quantum computing with probabilistic fusion and photon loss. In FBQC the non-determinism of fusion is directly dealt with by the quantum error correction protocol, along with other errors. We find that tailoring the fault-tolerance framework to the physical system allows the scheme to have a higher threshold than schemes reported in literature. We present a ballistic scheme which can tolerate a 10.4% probability of suffering photon loss in each fusion.</description>
+  </item>
+
+  <item>
+    <title>Estimating gate-set properties from random sequences</title>
+    <link>http://arxiv.org/pdf/2110.13178</link>
+    <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
+    <pubDate>Oct 27 2021</pubDate>
+    <description>With quantum devices for computing and simulation increasing in scale and complexity, there is a growing need for the development of tools that obtain precise diagnostic information about quantum operations. In this work, we show that by measuring random gate sequences, one can accurately and efficiently estimate a wealth of different properties of noisy implementations of gate sets. This simple experimental protocol is independent of the properties one intends to estimate. It generates `sequence shadows' from which gate-set properties can be extracted, through classical post-processing, in a state preparation and measurement error robust way. The proposed classical post-processing schemes include protocols to extract many average gate fidelities with respect to arbitrary unitary channels. This - as a special case - emulates (interleaved) randomized benchmarking, but is vastly more general in its applicability. We establish that the sequence estimation scheme can be used as a primitive for partial, compressive and full process tomography, and the learning of Pauli noise. This gives rise to channel variants of shadow estimation with close-to optimal performance guarantees. Finally, we discuss applications to the engineering cycle for the optimization of quantum gates, for instance as a novel method to diagnose crosstalk.</description>
+  </item>
+
+  <item>
+    <title>Open Problems Related to Quantum Query Complexity</title>
+    <link>http://arxiv.org/pdf/2109.06917</link>
+    <author>Scott Aaronson</author>
+    <pubDate>Sep 16 2021</pubDate>
+    <description>I offer a case that quantum query complexity still has loads of enticing and fundamental open problems -- from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.</description>
+  </item>
+
+  <item>
+    <title>Classical algorithms for Forrelation</title>
+    <link>http://arxiv.org/pdf/2102.06963</link>
+    <author>Sergey Bravyi, David Gosset, Daniel Grier, Luke Schaeffer</author>
+    <pubDate>Feb 16 2021</pubDate>
+    <description>We study the forrelation problem: given a pair of $n$-bit Boolean functions $f$ and $g$, estimate the correlation between $f$ and the Fourier transform of $g$. This problem is known to provide the largest possible quantum speedup in terms of its query complexity and achieves the landmark oracle separation between the complexity class BQP and the Polynomial Hierarchy. Our first result is a classical algorithm for the forrelation problem which has runtime $O(n2^{n/2})$. This is a nearly quadratic improvement over the best previously known algorithm. Secondly, we show that quantum query algorithm that makes $t$ queries to an $n$-bit oracle can be simulated by classical query algorithm making only $O(2^{n(1-1/2t)})$ queries. This fixes a gap in the literature arising from a recently discovered critical error in a previous proof; it matches recently established lower bounds (up to $poly(n,t))$ factors) and thus characterizes the maximal separation in query complexity between quantum and classical algorithms. Finally, we introduce a graph-based forrelation problem where $n$ binary variables live at vertices of some fixed graph and the functions $f,g$ are products of terms describing interactions between nearest-neighbor variables. We show that the graph-based forrelation problem can be solved on a classical computer in time $O(n)$ for any bipartite graph, any planar graph, or, more generally, any graph which can be partitioned into two subgraphs of constant treewidth. The graph-based forrelation is simply related to the variational energy achieved by the Quantum Approximate Optimization Algorithm (QAOA) with two entangling layers and Ising-type cost functions. By exploiting the connection between QAOA and the graph-based forrelation we were able to simulate the recently proposed Recursive QAOA with two entangling layers and $225$ qubits on a laptop computer.</description>
+  </item>
+
+  <item>
+    <title>Low-overhead fault-tolerant quantum computing using long-range connectivity</title>
+    <link>http://arxiv.org/pdf/2110.10794</link>
+    <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
+    <pubDate>Oct 22 2021</pubDate>
+    <description>Vast numbers of qubits will be needed for large-scale quantum computing using today's fault-tolerant architectures due to the overheads associated with quantum error correction. We present a scheme for low-overhead fault-tolerant quantum computation based on quantum low-density parity-check (LDPC) codes, where the capability of performing long-range entangling interactions allows a large number of logical qubits to be encoded with a modest number of physical qubits. In our approach, quantum logic gates operate via logical Pauli measurements that preserve both the protection of the LDPC codes as well as the low overheads in terms of required number of additional ancilla qubits. Compared with the surface code architecture, resource estimates for our scheme indicate order-of-magnitude improvements in the overheads for encoding and processing around one hundred logical qubits, meaning fault-tolerant quantum computation at this scale may be achievable with a few thousand physical qubits at achievable error rates.</description>
+  </item>
+
+  <item>
+    <title>Learnability of the output distributions of local quantum circuits</title>
+    <link>http://arxiv.org/pdf/2110.05517</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Oct 13 2021</pubDate>
+    <description>There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective.</description>
+  </item>
+
+  <item>
+    <title>Clifford groups are not always 2-designs</title>
+    <link>http://arxiv.org/pdf/2108.04200</link>
+    <author>Matthew A. Graydon, Joshua Skanes-Norman, Joel J. Wallman</author>
+    <pubDate>Aug 10 2021</pubDate>
+    <description>The Clifford group is the quotient of the normalizer of the Weyl-Heisenberg group in dimension $d$ by its centre. We prove that when $d$ is not prime the Clifford group is not a group unitary $2$-design. Furthermore, we prove that the multipartite Clifford group is not a group unitary 2-design except for the known cases wherein the local Hilbert space dimensions are a constant prime number. We also clarify the structure of projective group unitary $2$-designs. We show that the adjoint action induced by a group unitary $2$-design decomposes into exactly two irreducible components; moreover, a group is a unitary 2-design if and only if the character of its so-called $U\overline{U}$ representation is $\sqrt{2}$.</description>
+  </item>
+
+  <item>
+    <title>A Note on the Second Spectral Gap Incompleteness Theorem</title>
+    <link>http://arxiv.org/pdf/2105.09854</link>
+    <author>Toby S. Cubitt</author>
+    <pubDate>May 21 2021</pubDate>
+    <description>Pick a formal system. Any formal system. Whatever your favourite formal system is, as long as it's capable of reasoning about elementary arithmetic. The First Spectral Gap Incompleteness Theorem of [CPGW15] proved that there exist Hamiltonians whose spectral gap is independent of that system; your formal system is incapable of proving that the Hamiltonian is gapped, and equally incapable of proving that it's gapless. In this note, I prove a Second Spectral Gap Incompleteness Theorem: I show how to explicitly construct, within the formal system, a concrete example of a Hamiltonian whose spectral gap is independent of that system. Just to be sure, I prove this result three times. Once with Gödel's help. Once with Zermelo and Fraenkel's help. And finally, doing away with these high-powered friends, I give a simple, direct argument which reveals the inherent self-referential structure at the heart of these results, by asking the Hamiltonian about its own spectral gap.</description>
+  </item>
+
+  <item>
+    <title>Lifting decoders for classical codes to decoders for quantum codes</title>
+    <link>http://arxiv.org/pdf/2105.02370</link>
+    <author>Armanda O. Quintavalle, Earl T. Campbell</author>
+    <pubDate>May 07 2021</pubDate>
+    <description>The design of decoding algorithms is a significant technological component in the development of fault-tolerant quantum computers. Often design of quantum decoders is inspired by classical decoding algorithms, but there are no general principles for building quantum decoders from classical decoders. Given any pair of classical codes, we can build a quantum code using the hypergraph product, yielding a hypergraph product code. Here we show we can also lift the decoders for these classical codes. That is, given oracle access to a minimum weight decoder for the relevant classical codes, the corresponding $[[n,k,d]]$ quantum code can be efficiently decoded for any error of weight smaller than $(d-1)/2$. The quantum decoder requires only $O(k)$ oracle calls to the classical decoder and $O(n^2)$ classical resources. The lift and the correctness proof of the decoder have a purely algebraic nature that draws on the discovery of some novel homological invariants of the hypergraph product codespace. While the decoder works perfectly for adversarial errors, it is not suitable for more realistic stochastic noise models and therefore can not be used to establish an error correcting threshold.</description>
+  </item>
+
+  <item>
+    <title>Stim: a fast stabilizer circuit simulator</title>
+    <link>http://arxiv.org/pdf/2103.02202</link>
+    <author>Craig Gidney</author>
+    <pubDate>Mar 04 2021</pubDate>
+    <description>This paper presents ``Stim", a fast simulator for quantum stabilizer circuits. The paper explains how Stim works and compares it to existing tools. With no foreknowledge, Stim can analyze a distance 100 surface code circuit (20 thousand qubits, 8 million gates, 1 million measurements) in 15 seconds and then begin sampling full circuit shots at a rate of 1 kHz. Stim uses a stabilizer tableau representation, similar to Aaronson and Gottesman's CHP simulator, but with three main improvements. First, Stim improves the asymptotic complexity of deterministic measurement from quadratic to linear by tracking the \em inverse of the circuit's stabilizer tableau. Second, Stim improves the constant factors of the algorithm by using a cache-friendly data layout and 256 bit wide SIMD instructions. Third, Stim only uses expensive stabilizer tableau simulation to create an initial reference sample. Further samples are collected in bulk by using that sample as a reference for batches of Pauli frames propagating through the circuit.</description>
+  </item>
+
+  <item>
+    <title>A genuinely natural information measure</title>
+    <link>http://arxiv.org/pdf/2103.16662</link>
+    <author>Andreas Winter</author>
+    <pubDate>Apr 01 2021</pubDate>
+    <description>The theoretical measuring of information was famously initiated by Shannon in his mathematical theory of communication, in which he proposed a now widely used quantity, the entropy, measured in bits. Yet, in the same paper, Shannon also chose to measure the information in continuous systems in nats, which differ from bits by the use of the natural rather than the binary logarithm. We point out that there is nothing natural about the choice of logarithm basis, rather it is arbitrary. We remedy this problematic state of affairs by proposing a genuinely natural measure of information, which we dub gnats. We show that gnats have many advantages in information theory, and propose to adopt the underlying methodology throughout science, arts and everyday life.</description>
+  </item>
+
+  <item>
+    <title>Limitations of Linear Cross-Entropy as a Measure for Quantum Advantage</title>
+    <link>http://arxiv.org/pdf/2112.01657</link>
+    <author>Xun Gao, Marcin Kalinowski, Chi-Ning Chou, Mikhail D. Lukin, Boaz Barak, Soonwon Choi</author>
+    <pubDate>Dec 06 2021</pubDate>
+    <description>Demonstrating quantum advantage requires experimental implementation of a computational task that is hard to achieve using state-of-the-art classical systems. One approach is to perform sampling from a probability distribution associated with a class of highly entangled many-body wavefunctions. It has been suggested that this approach can be certified with the Linear Cross-Entropy Benchmark (XEB). We critically examine this notion. First, in a "benign" setting where an honest implementation of noisy quantum circuits is assumed, we characterize the conditions under which the XEB approximates the fidelity. Second, in an "adversarial" setting where all possible classical algorithms are considered for comparison, we show that achieving relatively high XEB values does not imply faithful simulation of quantum dynamics. We present an efficient classical algorithm that, with 1 GPU within 2s, yields high XEB values, namely 2-12% of those obtained in experiments. By identifying and exploiting several vulnerabilities of the XEB, we achieve high XEB values without full simulation of quantum circuits. Remarkably, our algorithm features better scaling with the system size than noisy quantum devices for commonly studied random circuit ensembles. To quantitatively explain the success of our algorithm and the limitations of the XEB, we use a theoretical framework in which the average XEB and fidelity are mapped to statistical models. We illustrate the relation between the XEB and the fidelity for quantum circuits in various architectures, with different gate choices, and in the presence of noise. Our results show that XEB's utility as a proxy for fidelity hinges on several conditions, which must be checked in the benign setting but cannot be assumed in the adversarial setting. Thus, the XEB alone has limited utility as a benchmark for quantum advantage. We discuss ways to overcome these limitations.</description>
+  </item>
+
+  <item>
+    <title>Supervised quantum machine learning models are kernel methods</title>
+    <link>http://arxiv.org/pdf/2101.11020</link>
+    <author>Maria Schuld</author>
+    <pubDate>Jan 28 2021</pubDate>
+    <description>With near-term quantum devices available and the race for fault-tolerant quantum computers in full swing, researchers became interested in the question of what happens if we replace a supervised machine learning model with a quantum circuit. While such "quantum models" are sometimes called "quantum neural networks", it has been repeatedly noted that their mathematical structure is actually much more closely related to kernel methods: they analyse data in high-dimensional Hilbert spaces to which we only have access through inner products revealed by measurements. This technical manuscript summarises and extends the idea of systematically rephrasing supervised quantum models as a kernel method. With this, a lot of near-term and fault-tolerant quantum models can be replaced by a general support vector machine whose kernel computes distances between data-encoding quantum states. Kernel-based training is then guaranteed to find better or equally good quantum models than variational circuit training. Overall, the kernel perspective of quantum machine learning tells us that the way that data is encoded into quantum states is the main ingredient that can potentially set quantum models apart from classical machine learning models.</description>
+  </item>
+
+  <item>
+    <title>Symmetry Protected Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2105.04649</link>
+    <author>Michael H. Freedman, Matthew B. Hastings, Modjtaba Shokrian Zini</author>
+    <pubDate>May 12 2021</pubDate>
+    <description>We consider a model of quantum computation using qubits where it is possible to measure whether a given pair are in a singlet (total spin $0$) or triplet (total spin $1$) state. The physical motivation is that we can do these measurements in a way that is protected against revealing other information so long as all terms in the Hamiltonian are $SU(2)$-invariant. We conjecture that this model is equivalent to BQP. Towards this goal, we show: (1) this model is capable of universal quantum computation with polylogarithmic overhead if it is supplemented by single qubit $X$ and $Z$ gates. (2) Without any additional gates, it is at least as powerful as the weak model of "permutational quantum computation" of Jordan [14, 18]. (3) With postselection, the model is equivalent to PostBQP.</description>
+  </item>
+
+  <item>
+    <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
+    <link>http://arxiv.org/pdf/2112.03708</link>
+    <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
+    <pubDate>Dec 08 2021</pubDate>
+    <description>Quantum computers hold the promise of solving computational problems which are intractable using conventional methods. For fault-tolerant operation quantum computers must correct errors occurring due to unavoidable decoherence and limited control accuracy. Here, we demonstrate quantum error correction using the surface code, which is known for its exceptionally high tolerance to errors. Using 17 physical qubits in a superconducting circuit we encode quantum information in a distance-three logical qubit building up on recent distance-two error detection experiments. In an error correction cycle taking only $1.1\,\mu$s, we demonstrate the preservation of four cardinal states of the logical qubit. Repeatedly executing the cycle, we measure and decode both bit- and phase-flip error syndromes using a minimum-weight perfect-matching algorithm in an error-model-free approach and apply corrections in postprocessing. We find a low error probability of $3\,\%$ per cycle when rejecting experimental runs in which leakage is detected. The measured characteristics of our device agree well with a numerical model. Our demonstration of repeated, fast and high-performance quantum error correction cycles, together with recent advances in ion traps, support our understanding that fault-tolerant quantum computation will be practically realizable.</description>
+  </item>
+
+  <item>
+    <title>Constant-overhead quantum error correction with thin planar connectivity</title>
+    <link>http://arxiv.org/pdf/2109.14609</link>
+    <author>Maxime A. Tremblay, Nicolas Delfosse, Michael E. Beverland</author>
+    <pubDate>Sep 30 2021</pubDate>
+    <description>Quantum LDPC codes may provide a path to build low-overhead fault-tolerant quantum computers. However, as general LDPC codes lack geometric constraints, naïve layouts couple many distant qubits with crossing connections which could be hard to build in hardware and could result in performance-degrading crosstalk. We propose a 2D layout for quantum LDPC codes by decomposing their Tanner graphs into a small number of planar layers. Each layer contains long-range connections which do not cross. For any CSS code with a degree-$\delta$ Tanner graph, we design stabilizer measurement circuits with depth at most $(2\delta +2)$ using at most $\lceil \delta/2 \rceil$ layers. We observe a circuit-noise threshold of 0.28\% for a positive-rate code family using 49 physical qubits per logical qubit. For a physical error rate of $10^{-4}$, this family reaches a logical error rate of $10^{-15}$ using fourteen times fewer physical qubits than the surface code.</description>
+  </item>
+
+  <item>
+    <title>Permanent of random matrices from representation theory: moments, numerics, concentration, and comments on hardness of boson-sampling</title>
+    <link>http://arxiv.org/pdf/2104.06423</link>
+    <author>Sepehr Nezami</author>
+    <pubDate>Apr 15 2021</pubDate>
+    <description>Computing the distribution of permanents of random matrices has been an outstanding open problem for several decades. In quantum computing, "anti-concentration" of this distribution is an unproven input for the proof of hardness of the task of boson-sampling. We study permanents of random i.i.d. complex Gaussian matrices, and more broadly, submatrices of random unitary matrices. Using a hybrid representation-theoretic and combinatorial approach, we prove strong lower bounds for all moments of the permanent distribution. We provide substantial evidence that our bounds are close to being tight and constitute accurate estimates for the moments. Let $U(d)^{k\times k}$ be the distribution of $k\times k$ submatrices of $d\times d$ random unitary matrices, and $G^{k\times k}$ be the distribution of $k\times k$ complex Gaussian matrices. (1) Using the Schur-Weyl duality (or the Howe duality), we prove an expansion formula for the $2t$-th moment of $|Perm(M)|$ when $M$ is drawn from $U(d)^{k\times k}$ or $G^{k\times k}$. (2) We prove a surprising size-moment duality: the $2t$-th moment of the permanent of random $k\times k$ matrices is equal to the $2k$-th moment of the permanent of $t\times t$ matrices. (3) We design an algorithm to exactly compute high moments of the permanent of small matrices. (4) We prove lower bounds for arbitrary moments of permanents of matrices drawn from $G^{ k\times k}$ or $U(k)$, and conjecture that our lower bounds are close to saturation up to a small multiplicative error. (5) Assuming our conjectures, we use the large deviation theory to compute the tail of the distribution of log-permanent of Gaussian matrices for the first time. (6) We argue that it is unlikely that the permanent distribution can be uniquely determined from the integer moments and one may need to supplement the moment calculations with extra assumptions to prove the anti-concentration conjecture.</description>
+  </item>
+
 </channel>
 
 </rss>
