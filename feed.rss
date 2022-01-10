@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Logical blocks for fault-tolerant topological quantum computation</title>
+    <link>http://arxiv.org/pdf/2112.12160</link>
+    <author>Hector Bombin, Chris Dawson, Ryan V. Mishmash, Naomi Nickerson, Fernando Pastawski, Sam Roberts</author>
+    <pubDate>Dec 24 2021</pubDate>
+    <description>Logical gates are the building blocks of fault-tolerant quantum computation. While quantum error-corrected memories have been extensively studied in the literature, detailed analyses of thresholds and resource overheads of universal logical gate sets have so far been limited. In this paper, we present a comprehensive framework for universal fault-tolerant logic motivated by the combined need for (i) platform-independent logical gate definitions, (ii) flexible and scalable tools for numerical analysis, and (iii) exploration of novel schemes for universal logic that improve resource overheads. We first introduce the theory of fault-tolerant channels for describing logical gates holistically in space-time. Focusing on channels based on surface codes, we introduce explicit, platform-independent representations of topological logic gates -- called logical blocks -- and generate new, overhead-efficient methods for universal quantum computation. As a specific example, we propose fault-tolerant schemes based on surface codes concatenated with more general low-density parity check (LDPC) codes. The logical blocks framework enables a convenient mapping from an abstract description of the logical gate to a precise set of physical instructions for both circuit-based and fusion-based quantum computation (FBQC). Using this, we numerically simulate a surface-code-based universal gate set implemented with FBQC, and verify that the threshold for fault-tolerant gates is consistent with the bulk memory threshold. We find that boundaries, defects, and twists, can significantly impact the logical error rate scaling, with periodic boundary conditions potentially halving the memory resource requirements. Motivated by the favorable logical error rate suppression for boundaryless computation, we introduce a novel computational scheme based on the teleportation of twists that may offer further resource reductions.</description>
+  </item>
+
+  <item>
     <title>A smallest computable entanglement monotone</title>
     <link>http://arxiv.org/pdf/2201.00835</link>
     <author>J. Eisert, M. M. Wilde</author>
@@ -39,6 +47,14 @@
   </item>
 
   <item>
+    <title>Cryptography from Pseudorandom Quantum States</title>
+    <link>http://arxiv.org/pdf/2112.10020</link>
+    <author>Prabhanjan Ananth, Luowen Qian, Henry Yuen</author>
+    <pubDate>Dec 21 2021</pubDate>
+    <description>Pseudorandom states, introduced by Ji, Liu and Song (Crypto'18), are efficiently-computable quantum states that are computationally indistinguishable from Haar-random states. One-way functions imply the existence of pseudorandom states, but Kretschmer (TQC'20) recently constructed an oracle relative to which there are no one-way functions but pseudorandom states still exist. Motivated by this, we study the intriguing possibility of basing interesting cryptographic tasks on pseudorandom states. We construct, assuming the existence of pseudorandom state generators that map a $\lambda$-bit seed to a $\omega(\log\lambda)$-qubit state, (a) statistically binding and computationally hiding commitments and (b) pseudo one-time encryption schemes. A consequence of (a) is that pseudorandom states are sufficient to construct maliciously secure multiparty computation protocols in the dishonest majority setting. Our constructions are derived via a new notion called pseudorandom function-like states (PRFS), a generalization of pseudorandom states that parallels the classical notion of pseudorandom functions. Beyond the above two applications, we believe our notion can effectively replace pseudorandom functions in many other cryptographic applications.</description>
+  </item>
+
+  <item>
     <title>Quantum Merkle Trees</title>
     <link>http://arxiv.org/pdf/2112.14317</link>
     <author>Lijie Chen, Ramis Movassagh</author>
@@ -52,6 +68,14 @@
     <author>Wenjun Yu, Jinzhao Sun, Zeyao Han, Xiao Yuan</author>
     <pubDate>Jan 04 2022</pubDate>
     <description>With the fast development of quantum technology, the size of quantum systems we can digitally manipulate and analogly probe increase drastically. In order to have a better control and understanding of the quantum hardware, an important task is to characterize the interaction, i.e., to learn the Hamiltonian, which determines both static or dynamic properties of the system. Conventional Hamiltonian learning methods either require costly process tomography or adopt impractical assumptions, such as prior information of the Hamiltonian structure and the ground or thermal states of the system. In this work, we present a practical and efficient Hamiltonian learning method that circumvents these limitations. The proposed method can efficiently learn any Hamiltonian that is sparse on the Pauli basis using only short time dynamics and local operations without any information of the Hamiltonian or preparing any eigenstates or thermal states. The method has scalable complexity and vanishing failure probability regarding the qubit number. Meanwhile, it is free from state preparation and measurement error and robust against a certain amount of circuit and shot noise. We numerically test the scaling and the estimation accuracy of the method for transverse field Ising Hamiltonian with random interaction strengths and molecular Hamiltonians, both with varying sizes. All these results verify the practicality and efficacy of the method, paving the way for a systematic understanding of large quantum systems.</description>
+  </item>
+
+  <item>
+    <title>Pauli stabilizer models of twisted quantum doubles</title>
+    <link>http://arxiv.org/pdf/2112.11394</link>
+    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
+    <pubDate>Dec 22 2021</pubDate>
+    <description>We construct a Pauli stabilizer model for every two-dimensional Abelian topological order that admits a gapped boundary. Our primary example is a Pauli stabilizer model on four-dimensional qudits that belongs to the double semion (DS) phase of matter. The DS stabilizer Hamiltonian is constructed by condensing an emergent boson in a $\mathbb{Z}_4$ toric code, where the condensation is implemented by making certain two-body measurements. We rigorously verify the topological order of the DS stabilizer model by identifying an explicit finite-depth quantum circuit (with ancillary qubits) that maps its ground state subspace to that of a DS string-net model. We show that the construction of the DS stabilizer Hamiltonian generalizes to all twisted quantum doubles (TQDs) with Abelian anyons. This yields a Pauli stabilizer code on composite-dimensional qudits for each such TQD, implying that the classification of topological Pauli stabilizer codes extends well beyond stacks of toric codes - in fact, exhausting all Abelian anyon theories that admit a gapped boundary. We also demonstrate that symmetry-protected topological phases of matter characterized by type I and type II cocycles can be modeled by Pauli stabilizer Hamiltonians by gauging certain 1-form symmetries of the TQD stabilizer models.</description>
   </item>
 
   <item>
@@ -84,6 +108,142 @@
     <author>Arjan Cornelissen, Nikhil S. Mande, Maris Ozols, Ronald de Wolf</author>
     <pubDate>Dec 30 2021</pubDate>
     <description>We study the problem of computing the Hamming weight of an $n$-bit string modulo $m$, for any positive integer $m \leq n$ whose only prime factors are 2 and 3. We show that the exact quantum query complexity of this problem is $\left\lceil n(1 - 1/m) \right\rceil$. The upper bound is via an iterative query algorithm whose core components are the well-known 1-query quantum algorithm (essentially due to Deutsch) to compute the Hamming weight a 2-bit string mod 2 (i.e., the parity of the input bits), and a new 2-query quantum algorithm to compute the Hamming weight of a 3-bit string mod 3. We show a matching lower bound (in fact for arbitrary moduli $m$) via a variant of the polynomial method [de Wolf, SIAM J. Comput., 32(3), 2003]. This bound is for the weaker task of deciding whether or not a given $n$-bit input has Hamming weight 0 modulo $m$, and it holds even in the stronger non-deterministic quantum query model where an algorithm must have positive acceptance probability iff its input evaluates to 1. For $m>2$ our lower bound exceeds $n/2$, beating the best lower bound provable using the general polynomial method [Theorem 4.3, Beals et al., J. ACM 48(4), 2001].</description>
+  </item>
+
+  <item>
+    <title>Diagonal unitary and orthogonal symmetries in quantum theory II: Evolution operators</title>
+    <link>http://arxiv.org/pdf/2112.11123</link>
+    <author>Satvik Singh, Ion Nechita</author>
+    <pubDate>Dec 22 2021</pubDate>
+    <description>We study bipartite unitary operators which stay invariant under the local actions of diagonal unitary and orthogonal groups. We investigate structural properties of these operators, arguing that the diagonal symmetry makes them suitable for analytical study. As a first application, we construct large new families of dual unitary gates in arbitrary finite dimensions, which are important toy models for entanglement spreading in quantum circuits. We then analyze the non-local nature of these invariant operators, both in discrete (operator Schmidt rank) and continuous (entangling power) settings. Our scrutiny reveals that these operators can be used to simulate any bipartite unitary gate via stochastic local operations and classical communication. Furthermore, we establish a one-to-one connection between the set of local diagonal unitary invariant dual unitary operators with maximum entangling power and the set of complex Hadamard matrices. Finally, we discuss distinguishability of unitary operators in the setting of the stated diagonal symmetry.</description>
+  </item>
+
+  <item>
+    <title>Toward Trainability of Deep Quantum Neural Networks</title>
+    <link>http://arxiv.org/pdf/2112.15002</link>
+    <author>Kaining Zhang, Min-Hsiu Hsieh, Liu Liu, Dacheng Tao</author>
+    <pubDate>Jan 03 2022</pubDate>
+    <description>Quantum Neural Networks (QNNs) with random structures have poor trainability due to the exponentially vanishing gradient as the circuit depth and the qubit number increase. This result leads to a general belief that a deep QNN will not be feasible. In this work, we provide the first viable solution to the vanishing gradient problem for deep QNNs with theoretical guarantees. Specifically, we prove that for circuits with controlled-layer architectures, the expectation of the gradient norm can be lower bounded by a value that is independent of the qubit number and the circuit depth. Our results follow from a careful analysis of the gradient behaviour on parameter space consisting of rotation angles, as employed in almost any QNNs, instead of relying on impractical 2-design assumptions. We explicitly construct examples where only our QNNs are trainable and converge, while others in comparison cannot.</description>
+  </item>
+
+  <item>
+    <title>On nonlinear transformations in quantum computation</title>
+    <link>http://arxiv.org/pdf/2112.12307</link>
+    <author>Zoë Holmes, Nolan Coble, Andrew T. Sornborger, Yiğit Subaşı</author>
+    <pubDate>Dec 24 2021</pubDate>
+    <description>While quantum computers are naturally well-suited to implementing linear operations, it is less clear how to implement nonlinear operations on quantum computers. However, nonlinear subroutines may prove key to a range of applications of quantum computing from solving nonlinear equations to data processing and quantum machine learning. Here we develop algorithms for implementing nonlinear transformations of input quantum states. Our algorithms are framed around the concept of a weighted state, a mathematical entity describing the output of an operational procedure involving both quantum circuits and classical post-processing.</description>
+  </item>
+
+  <item>
+    <title>Oracle separations of hybrid quantum-classical circuits</title>
+    <link>http://arxiv.org/pdf/2201.01904</link>
+    <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
+    <pubDate>Jan 07 2022</pubDate>
+    <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
+  </item>
+
+  <item>
+    <title>Higher-Form Subsystem Symmetry Breaking: Subdimensional Criticality and Fracton Phase Transitions</title>
+    <link>http://arxiv.org/pdf/2112.12735</link>
+    <author>Brandon C. Rayhaun, Dominic J. Williamson</author>
+    <pubDate>Dec 24 2021</pubDate>
+    <description>Subsystem symmetry has emerged as a powerful organizing principle for unconventional quantum phases of matter, most prominently fracton topological orders. Here, we focus on a special subclass of such symmetries, known as higher-form subsystem symmetries, which allow us to adapt tools from the study of conventional topological phases to the fracton setting. We demonstrate that certain transitions out of familiar fracton phases, including the X-cube model, can be understood in terms of the spontaneous breaking of higher-form subsystem symmetries. We find simple pictures for these seemingly complicated fracton topological phase transitions by relating them in an exact manner, via gauging, to spontaneous higher-form subsystem symmetry breaking phase transitions of decoupled stacks of lower-dimensional models. We harness this perspective to construct a sequence of unconventional subdimensional critical points in two and three spatial dimensions based on the stacking and gauging of canonical models with higher-form symmetry. Through numerous examples, we illustrate the ubiquity of coupled layer constructions in theories with higher-form subsystem symmetries.</description>
+  </item>
+
+  <item>
+    <title>Tight constraints on probabilistic convertibility of quantum states</title>
+    <link>http://arxiv.org/pdf/2112.11321</link>
+    <author>Bartosz Regula</author>
+    <pubDate>Dec 22 2021</pubDate>
+    <description>We develop two general approaches to characterising the manipulation of quantum states by means of probabilistic protocols constrained by the limitations of some quantum resource theory. First, we give a general necessary condition for the existence of a physical transformation between quantum states, obtained using a new resource monotone based on the Hilbert projective metric. In all affine quantum resource theories (e.g. coherence, asymmetry, imaginarity) as well as in entanglement distillation, we show that the monotone provides a necessary and sufficient condition for resource convertibility, and hence no better restrictions on all probabilistic protocols are possible. We use the monotone to establish improved bounds on the performance of both one-shot and many-copy probabilistic resource distillation protocols. Complementing this approach, we introduce a general method for bounding achievable probabilities in resource transformations through a family of convex optimisation problems. We show it to tightly characterise single-shot probabilistic distillation in broad types of resource theories, allowing an exact analysis of the trade-offs between the probabilities and errors in distilling maximally resourceful states. We demonstrate the usefulness of both of our approaches in the study of quantum entanglement distillation.</description>
+  </item>
+
+  <item>
+    <title>Scalable randomized benchmarking of quantum computers using mirror circuits</title>
+    <link>http://arxiv.org/pdf/2112.09853</link>
+    <author>Timothy Proctor, Stefan Seritan, Kenneth Rudinger, Erik Nielsen, Robin Blume-Kohout, Kevin Young</author>
+    <pubDate>Dec 21 2021</pubDate>
+    <description>The performance of quantum gates is often assessed using some form of randomized benchmarking. However, the existing methods become infeasible for more than approximately five qubits. Here we show how to use a simple and customizable class of circuits -- randomized mirror circuits -- to perform scalable, robust, and flexible randomized benchmarking of Clifford gates. We show that this technique approximately estimates the infidelity of an average many-qubit logic layer, and we use simulations of up to 225 qubits with physically realistic error rates in the range 0.1%-1% to demonstrate its scalability. We then use experiments on up to 16 qubits to demonstrate that our technique can reveal and quantify crosstalk errors in many-qubit circuits.</description>
+  </item>
+
+  <item>
+    <title>Deniable Encryption in a Quantum World</title>
+    <link>http://arxiv.org/pdf/2112.14988</link>
+    <author>Andrea Coladangelo, Shafi Goldwasser, Umesh Vazirani</author>
+    <pubDate>Jan 03 2022</pubDate>
+    <description>(Sender-)Deniable encryption provides a very strong privacy guarantee: a sender who is coerced by an attacker into "opening" their ciphertext after-the-fact is able to generate "fake" local random choices that are consistent with any plaintext of their choice. The only known fully-efficient constructions of public-key deniable encryption rely on indistinguishability obfuscation (iO) (which currently can only be based on sub-exponential hardness assumptions). In this work, we study (sender-)deniable encryption in a setting where the encryption procedure is a quantum algorithm, but the ciphertext is classical. We propose two notions of deniable encryption in this setting. The first notion, called quantum deniability, parallels the classical one. We give a fully efficient construction satisfying this definition, assuming the quantum hardness of the Learning with Errors (LWE) problem. The second notion, unexplainability, starts from a new perspective on deniability, and leads to a natural common view of deniability in the classical and quantum settings. We give a construction which is secure in the random oracle model, assuming the quantum hardness of LWE. Notably, our construction satisfies a strong form of unexplainability which is impossible to achieve classically, thus highlighting a new quantum phenomenon that may be of independent interest.</description>
+  </item>
+
+  <item>
+    <title>Active Learning of Quantum System Hamiltonians yields Query Advantage</title>
+    <link>http://arxiv.org/pdf/2112.14553</link>
+    <author>Arkopal Dutt, Edwin Pednault, Chai Wah Wu, Sarah Sheldon, John Smolin, Lev Bishop, Isaac L. Chuang</author>
+    <pubDate>Dec 30 2021</pubDate>
+    <description>Hamiltonian learning is an important procedure in quantum system identification, calibration, and successful operation of quantum computers. Through queries to the quantum system, this procedure seeks to obtain the parameters of a given Hamiltonian model and description of noise sources. Standard techniques for Hamiltonian learning require careful design of queries and $O(\epsilon^{-2})$ queries in achieving learning error $\epsilon$ due to the standard quantum limit. With the goal of efficiently and accurately estimating the Hamiltonian parameters within learning error $\epsilon$ through minimal queries, we introduce an active learner that is given an initial set of training examples and the ability to interactively query the quantum system to generate new training data. We formally specify and experimentally assess the performance of this Hamiltonian active learning (HAL) algorithm for learning the six parameters of a two-qubit cross-resonance Hamiltonian on four different superconducting IBM Quantum devices. Compared with standard techniques for the same problem and a specified learning error, HAL achieves up to a $99.8\%$ reduction in queries required, and a $99.1\%$ reduction over the comparable non-adaptive learning algorithm. Moreover, with access to prior information on a subset of Hamiltonian parameters and given the ability to select queries with linearly (or exponentially) longer system interaction times during learning, HAL can exceed the standard quantum limit and achieve Heisenberg (or super-Heisenberg) limited convergence rates during learning.</description>
+  </item>
+
+  <item>
+    <title>Quadratic speedup for spatial search by continuous-time quantum walk</title>
+    <link>http://arxiv.org/pdf/2112.12746</link>
+    <author>Simon Apers, Shantanav Chakraborty, Leonardo Novo, Jérémie Roland</author>
+    <pubDate>Dec 24 2021</pubDate>
+    <description>Continuous-time quantum walks provide a natural framework to tackle the fundamental problem of finding a node among a set of marked nodes in a graph, known as spatial search. Whether spatial search by continuous-time quantum walk provides a quadratic advantage over classical random walks has been an outstanding problem. Thus far, this advantage is obtained only for specific graphs or when a single node of the underlying graph is marked. In this article, we provide a new continuous-time quantum walk search algorithm that completely resolves this: our algorithm can find a marked node in any graph with any number of marked nodes, in a time that is quadratically faster than classical random walks. The overall algorithm is quite simple, requiring time evolution of the quantum walk Hamiltonian followed by a projective measurement. A key component of our algorithm is a purely analog procedure to perform operations on a state of the form $e^{-tH^2}|\psi\rangle$, for a given Hamiltonian $H$: it only requires evolving $H$ for time scaling as $\sqrt{t}$. This allows us to quadratically fast-forward the dynamics of a continuous-time classical random walk. The applications of our work thus go beyond the realm of quantum walks and can lead to new analog quantum algorithms for preparing ground states of Hamiltonians or solving optimization problems.</description>
+  </item>
+
+  <item>
+    <title>Classical Sampling of Random Quantum Circuits with Bounded Fidelity</title>
+    <link>http://arxiv.org/pdf/2112.15083</link>
+    <author>Gleb Kalachev, Pavel Panteleev, PengFei Zhou, Man-Hong Yung</author>
+    <pubDate>Jan 03 2022</pubDate>
+    <description>Random circuit sampling has become a popular means for demonstrating the superiority of quantum computers over classical supercomputers. While quantum chips are evolving rapidly, classical sampling algorithms are also getting better and better. The major challenge is to generate bitstrings exhibiting an XEB fidelity above that of the quantum chips. Here we present a classical sampling algorithm for producing the probability distribution of any given random quantum circuit, where the fidelity can be rigorously bounded. Specifically, our algorithm performs rejection sampling after the introduced very recently multi-tensor contraction algorithm. We show that the fidelity can be controlled by partially contracting the dominant paths in the tensor network and by adjusting the number of batches used in the rejection sampling. As a demonstration, we classically produced 1 million samples with the fidelity bounded by 0.2%, based on the 20-cycle circuit of the Sycamore 53-qubit quantum chip. Though this task was initially estimated to take 10,000 years on the Summit supercomputer, it took about 14.5 days using our algorithm on a relatively small cluster with 32 GPUs (Tesla V100 16GB). Furthermore, we estimate that for the Zuchongzhi 56-qubit 20-cycle circuit one can produce 1M samples with fidelity 0.066% using the Selene supercomputer with 4480 GPUs (Tesla A100 80GB) in about 4 days.</description>
+  </item>
+
+  <item>
+    <title>Mapping between Morita equivalent string-net states with a constant depth quantum circuit</title>
+    <link>http://arxiv.org/pdf/2112.12757</link>
+    <author>Laurens Lootens, Bram Vancraeynest-De Cuiper, Norbert Schuch, Frank Verstraete</author>
+    <pubDate>Dec 24 2021</pubDate>
+    <description>We construct a constant depth quantum circuit that maps between Morita equivalent string-net models. Due to its constant depth and unitarity, the circuit cannot alter the topological order, which demonstrates that Morita equivalent string-nets are in the same phase. The circuit is constructed from an invertible bimodule category connecting the two input fusion categories of the relevant string-net models, acting as a generalized Fourier transform for fusion categories. The circuit does not only act on the ground state subspace, but acts unitarily on the full Hilbert space when supplemented with ancillas.</description>
+  </item>
+
+  <item>
+    <title>Quantum Information Scrambling in Quantum Many-body Scarred Systems</title>
+    <link>http://arxiv.org/pdf/2201.01777</link>
+    <author>Dong Yuan, Shun-Yao Zhang, Yu Wang, L.-M. Duan, Dong-Ling Deng</author>
+    <pubDate>Jan 07 2022</pubDate>
+    <description>Quantum many-body scarred systems host special non-thermal eigenstates which support periodic revival dynamics and weakly break the ergodicity. In this paper, we study the quantum information scrambling dynamics in quantum many-body scarred systems, with a focus on the "PXP" model. We use the out-of-time-ordered correlator (OTOC) and Holevo information as measures of the information scrambling, and apply an efficient numerical method based on matrix product operators to compute them up to 41 spins. We find that both the OTOC and Holevo information exhibit a linear light cone and periodic oscillations inside the light cone for initial states within the scarred subspace, which is in sharp contrast to thermal or many-body localized systems. To explain the formation of the linear light cone structure, we provide a perturbation-type calculation based on a phenomenological model. In addition, we demonstrate that the OTOC and Holevo information dynamics of the "PXP" model can be measured using the Rydberg-atom quantum simulators with current experimental technologies, and numerically identify the measurable signatures using experimental parameters.</description>
+  </item>
+
+  <item>
+    <title>Chaos by Magic</title>
+    <link>http://arxiv.org/pdf/2112.14593</link>
+    <author>Kanato Goto, Tomoki Nosaka, Masahiro Nozaki</author>
+    <pubDate>Dec 30 2021</pubDate>
+    <description>There is a property of a quantum state called magic. It measures how difficult for a classical computer to simulate the state. In this paper, we study magic of states in the integrable and chaotic regimes of the higher-spin generalization of the Ising model through two quantities called "Mana" and "Robustness of Magic" (RoM). We find that in the chaotic regime, Mana increases monotonically in time in the early-time region, and at late times these quantities oscillate around some non-zero value that increases linearly with respect to the system size. Our result also suggests that under chaotic dynamics, any state evolves to a state whose Mana almost saturates the optimal upper bound, i.e., the state becomes "maximally magical." We find that RoM also shows similar behaviors. On the other hand, in the integrable regime, Mana and RoM behave periodically in time in contrast to the chaotic case. In the anti-de Sitter/conformal field theory correspondence (AdS/CFT correspondence), classical spacetime emerges from the chaotic nature of the dual quantum system. Our result suggests that magic of quantum states is strongly involved behind the emergence of spacetime geometry.</description>
+  </item>
+
+  <item>
+    <title>Unobservable entities in QBism and phenomenology</title>
+    <link>http://arxiv.org/pdf/2112.14302</link>
+    <author>Jacques L. Pienaar</author>
+    <pubDate>Dec 30 2021</pubDate>
+    <description>The interpretation of quantum theory known as QBism argues that many elements of the formalism have a subjective interpretation. At the same time, QBism claims to be a broadly realist program. This implies that reality in QBism must be somehow founded upon an agent's subjective experiences (measurement outcomes). To make this idea more precise, we propose to interpret QBism's "experiences" as synonymous with the concept of "perceived phenomena" in phenomenology. This suggests an approach to ontology in which objects can only be physically real if they are in principle observable. But what does "observable" mean? Are atoms, electromagnetic fields, quantum states, or probabilities observable? Here we discuss the different answers to this question given by QBists and phenomenologists, and attempt to reconcile them.</description>
+  </item>
+
+  <item>
+    <title>Topological quantum computation is hyperbolic</title>
+    <link>http://arxiv.org/pdf/2201.00857</link>
+    <author>Eric Samperton</author>
+    <pubDate>Jan 05 2022</pubDate>
+    <description>We show that a topological quantum computer based on the evaluation of a Witten-Reshetikhin-Turaev TQFT invariant of knots can always be arranged so that the knot diagrams one compiles are hyperbolic. Furthermore, the diagrams can be arranged to have additional nice properties, such as being alternating with minimal crossing number. Various complexity-theoretic hardness results regarding the calculation of quantum invariants of knots follow as corollaries. In particular, we argue that the hyperbolic geometry of knots is unlikely to be useful for topological quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Quantum error mitigation via matrix product operators</title>
+    <link>http://arxiv.org/pdf/2201.00752</link>
+    <author>Yuchen Guo, Shuo Yang</author>
+    <pubDate>Jan 04 2022</pubDate>
+    <description>In the era of noisy intermediate-scale quantum (NISQ) devices, the number of controllable hardware qubits is insufficient to implement quantum error correction (QEC). As an alternative, quantum error mitigation (QEM) can suppress the error of measurement results via repeated experiments and postprocessing of data. Typical techniques for error mitigation, e.g., the quasi-probability decomposition method, incur exponentially increasing costs with system size $N_q$ in order to model and mitigate errors for each gate. Here, we introduce a QEM method based on the matrix product operator (MPO) representation of a quantum circuit, which can characterize the noise channel of the entire circuit with polynomial complexity. Our QEM technique is demonstrated on a $\rm{depth}=4$ fully parallel quantum circuit of up to $N_q=10$ qubits. The circuit error is mitigated by several orders of magnitude with only a small bond dimension for the noise channel. Our method dramatically reduces the computational cost and can be generalized to models beyond localized and Markovian noise.</description>
   </item>
 
 </channel>
