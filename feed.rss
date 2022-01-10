@@ -143,6 +143,14 @@
   </item>
 
   <item>
+    <title>Equivalence of contextuality and Wigner function negativity in continuous-variable quantum optics</title>
+    <link>http://arxiv.org/pdf/2112.14788</link>
+    <author>Jonas Haferkamp, Juani Bermejo-Vega</author>
+    <pubDate>Jan 03 2022</pubDate>
+    <description>One of the central foundational questions of physics is to identify what makes a system quantum as opposed to classical. One seminal notion of classicality of a quantum system is the existence of a non-contextual hidden variable model as introduced in the early work by Bell, Kochen and Specker. In quantum optics, the non-negativity of the Wigner function is a ubiquitous notion of classicality. In this work we establish an equivalence between these two concepts. In particular, we show that any non-contextual hidden variable model for Gaussian quantum optics has an alternative non-negative Wigner function description. Conversely, it was known that the Wigner representation provides a non-negative non-contextual description of Gaussian quantum optics. It follows that contextuality and Wigner negativity are equivalent notions of non-classicality and equivalent resources for this quantum subtheory. In particular, both contextuality and Wigner negativity are necessary for a computational speed-up of quantum Gaussian optics. At the technical level, our result holds true for any subfamily of Gaussian measurements that include homodyne measurements, i.e., measurements of standard quadrature observables.</description>
+  </item>
+
+  <item>
     <title>Pauli stabilizer models of twisted quantum doubles</title>
     <link>http://arxiv.org/pdf/2112.11394</link>
     <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
@@ -156,14 +164,6 @@
     <author>Adam R. Brown</author>
     <pubDate>Dec 13 2021</pubDate>
     <description>The Bishop-Gromov bound -- a cousin of the focusing lemmas that Hawking and Penrose used to prove their black hole singularity theorems -- is a differential geometry result that upperbounds the rate of growth of volume of geodesic balls in terms of the Ricci curvature. In this paper, I apply the Bishop-Gromov bound to Nielsen's complexity geometry to prove lowerbounds on the quantum complexity of a typical unitary. For a broad class of penalty schedules, the typical complexity is shown to be exponentially large in the number of qubits. This technique gives results that are tighter than all known lowerbounds in the literature, as well as establishing lowerbounds for a much broader class of complexity geometry metrics than has hitherto been bounded. For some metrics, I prove these lowerbounds are tight. This method realizes the original vision of Nielsen, which was to apply the tools of differential geometry to study quantum complexity.</description>
-  </item>
-
-  <item>
-    <title>Equivalence of contextuality and Wigner function negativity in continuous-variable quantum optics</title>
-    <link>http://arxiv.org/pdf/2112.14788</link>
-    <author>Jonas Haferkamp, Juani Bermejo-Vega</author>
-    <pubDate>Jan 03 2022</pubDate>
-    <description>One of the central foundational questions of physics is to identify what makes a system quantum as opposed to classical. One seminal notion of classicality of a quantum system is the existence of a non-contextual hidden variable model as introduced in the early work by Bell, Kochen and Specker. In quantum optics, the non-negativity of the Wigner function is a ubiquitous notion of classicality. In this work we establish an equivalence between these two concepts. In particular, we show that any non-contextual hidden variable model for Gaussian quantum optics has an alternative non-negative Wigner function description. Conversely, it was known that the Wigner representation provides a non-negative non-contextual description of Gaussian quantum optics. It follows that contextuality and Wigner negativity are equivalent notions of non-classicality and equivalent resources for this quantum subtheory. In particular, both contextuality and Wigner negativity are necessary for a computational speed-up of quantum Gaussian optics. At the technical level, our result holds true for any subfamily of Gaussian measurements that include homodyne measurements, i.e., measurements of standard quadrature observables.</description>
   </item>
 
   <item>
@@ -196,6 +196,14 @@
     <author>Vishal Katariya</author>
     <pubDate>Jan 06 2022</pubDate>
     <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
+  </item>
+
+  <item>
+    <title>Oracle separations of hybrid quantum-classical circuits</title>
+    <link>http://arxiv.org/pdf/2201.01904</link>
+    <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
+    <pubDate>Jan 07 2022</pubDate>
+    <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Kaining Zhang, Min-Hsiu Hsieh, Liu Liu, Dacheng Tao</author>
     <pubDate>Jan 03 2022</pubDate>
     <description>Quantum Neural Networks (QNNs) with random structures have poor trainability due to the exponentially vanishing gradient as the circuit depth and the qubit number increase. This result leads to a general belief that a deep QNN will not be feasible. In this work, we provide the first viable solution to the vanishing gradient problem for deep QNNs with theoretical guarantees. Specifically, we prove that for circuits with controlled-layer architectures, the expectation of the gradient norm can be lower bounded by a value that is independent of the qubit number and the circuit depth. Our results follow from a careful analysis of the gradient behaviour on parameter space consisting of rotation angles, as employed in almost any QNNs, instead of relying on impractical 2-design assumptions. We explicitly construct examples where only our QNNs are trainable and converge, while others in comparison cannot.</description>
-  </item>
-
-  <item>
-    <title>On nonlinear transformations in quantum computation</title>
-    <link>http://arxiv.org/pdf/2112.12307</link>
-    <author>Zoë Holmes, Nolan Coble, Andrew T. Sornborger, Yiğit Subaşı</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>While quantum computers are naturally well-suited to implementing linear operations, it is less clear how to implement nonlinear operations on quantum computers. However, nonlinear subroutines may prove key to a range of applications of quantum computing from solving nonlinear equations to data processing and quantum machine learning. Here we develop algorithms for implementing nonlinear transformations of input quantum states. Our algorithms are framed around the concept of a weighted state, a mathematical entity describing the output of an operational procedure involving both quantum circuits and classical post-processing.</description>
   </item>
 
 </channel>
