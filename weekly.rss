@@ -47,11 +47,27 @@
   </item>
 
   <item>
+    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2201.02243</link>
+    <author>Megan L. Dahlhauser, Travis S. Humble</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
+  </item>
+
+  <item>
     <title>Quantum Information Scrambling in Quantum Many-body Scarred Systems</title>
     <link>http://arxiv.org/pdf/2201.01777</link>
     <author>Dong Yuan, Shun-Yao Zhang, Yu Wang, L.-M. Duan, Dong-Ling Deng</author>
     <pubDate>Jan 07 2022</pubDate>
     <description>Quantum many-body scarred systems host special non-thermal eigenstates which support periodic revival dynamics and weakly break the ergodicity. In this paper, we study the quantum information scrambling dynamics in quantum many-body scarred systems, with a focus on the "PXP" model. We use the out-of-time-ordered correlator (OTOC) and Holevo information as measures of the information scrambling, and apply an efficient numerical method based on matrix product operators to compute them up to 41 spins. We find that both the OTOC and Holevo information exhibit a linear light cone and periodic oscillations inside the light cone for initial states within the scarred subspace, which is in sharp contrast to thermal or many-body localized systems. To explain the formation of the linear light cone structure, we provide a perturbation-type calculation based on a phenomenological model. In addition, we demonstrate that the OTOC and Holevo information dynamics of the "PXP" model can be measured using the Rydberg-atom quantum simulators with current experimental technologies, and numerically identify the measurable signatures using experimental parameters.</description>
+  </item>
+
+  <item>
+    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
+    <link>http://arxiv.org/pdf/2201.02450</link>
+    <author>Masahito Hayashi</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
   </item>
 
   <item>
@@ -68,22 +84,6 @@
     <author>Yuchen Guo, Shuo Yang</author>
     <pubDate>Jan 04 2022</pubDate>
     <description>In the era of noisy intermediate-scale quantum (NISQ) devices, the number of controllable hardware qubits is insufficient to implement quantum error correction (QEC). As an alternative, quantum error mitigation (QEM) can suppress the error of measurement results via repeated experiments and postprocessing of data. Typical techniques for error mitigation, e.g., the quasi-probability decomposition method, incur exponentially increasing costs with system size $N_q$ in order to model and mitigate errors for each gate. Here, we introduce a QEM method based on the matrix product operator (MPO) representation of a quantum circuit, which can characterize the noise channel of the entire circuit with polynomial complexity. Our QEM technique is demonstrated on a $\rm{depth}=4$ fully parallel quantum circuit of up to $N_q=10$ qubits. The circuit error is mitigated by several orders of magnitude with only a small bond dimension for the noise channel. Our method dramatically reduces the computational cost and can be generalized to models beyond localized and Markovian noise.</description>
-  </item>
-
-  <item>
-    <title>Improving Optimal Quantum State Verification</title>
-    <link>http://arxiv.org/pdf/2201.01782</link>
-    <author>Jorge Miguel-Ramiro, Ferran Riera-Sàbat, Wolfgang Dür</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>Maximally entangled states are a key resource in many quantum communication and computation tasks, and their certification is a crucial element to guarantee the desired functionality. We introduce collective strategies for the efficient, local verification of ensembles of Bell pairs that make use of an initial information and noise transfer to few copies prior to their measurement. In this way the number of entangled pairs that need to be measured and hence destroyed is significantly reduced as compared to previous, even optimal, approaches that operate on individual copies. We show that our tools can be extended to other problems and larger classes of multipartite states.</description>
-  </item>
-
-  <item>
-    <title>Quantum Capsule Networks</title>
-    <link>http://arxiv.org/pdf/2201.01778</link>
-    <author>Zidu Liu, Pei-Xin Shen, Weikang Li, L.-M. Duan, Dong-Ling Deng</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>Capsule networks, which incorporate the paradigms of connectionism and symbolism, have brought fresh insights into artificial intelligence. The capsule, as the building block of capsule networks, is a group of neurons represented by a vector to encode different features of an entity. The information is extracted hierarchically through capsule layers via routing algorithms. Here, we introduce a quantum capsule network (dubbed QCapsNet) together with a quantum dynamic routing algorithm. Our model enjoys an exponential speedup in the dynamic routing process and exhibits an enhanced representation power. To benchmark the performance of the QCapsNet, we carry out extensive numerical simulations on the classification of handwritten digits and symmetry-protected topological phases, and show that the QCapsNet can achieve the state-of-the-art accuracy and outperforms conventional quantum classifiers evidently. We further unpack the output capsule state and find that a particular subspace may correspond to a human-understandable feature of the input data, which indicates the potential explainability of such networks. Our work reveals an intriguing prospect of quantum capsule networks in quantum machine learning, which may provide a valuable guide towards explainable quantum artificial intelligence.</description>
   </item>
 
 </channel>
