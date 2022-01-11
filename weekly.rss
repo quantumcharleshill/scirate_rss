@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Practical and Efficient Hamiltonian Learning</title>
-    <link>http://arxiv.org/pdf/2201.00190</link>
-    <author>Wenjun Yu, Jinzhao Sun, Zeyao Han, Xiao Yuan</author>
-    <pubDate>Jan 04 2022</pubDate>
-    <description>With the fast development of quantum technology, the size of quantum systems we can digitally manipulate and analogly probe increase drastically. In order to have a better control and understanding of the quantum hardware, an important task is to characterize the interaction, i.e., to learn the Hamiltonian, which determines both static or dynamic properties of the system. Conventional Hamiltonian learning methods either require costly process tomography or adopt impractical assumptions, such as prior information of the Hamiltonian structure and the ground or thermal states of the system. In this work, we present a practical and efficient Hamiltonian learning method that circumvents these limitations. The proposed method can efficiently learn any Hamiltonian that is sparse on the Pauli basis using only short time dynamics and local operations without any information of the Hamiltonian or preparing any eigenstates or thermal states. The method has scalable complexity and vanishing failure probability regarding the qubit number. Meanwhile, it is free from state preparation and measurement error and robust against a certain amount of circuit and shot noise. We numerically test the scaling and the estimation accuracy of the method for transverse field Ising Hamiltonian with random interaction strengths and molecular Hamiltonians, both with varying sizes. All these results verify the practicality and efficacy of the method, paving the way for a systematic understanding of large quantum systems.</description>
-  </item>
-
-  <item>
     <title>Limits on Parameter Estimation of Quantum Channels</title>
     <link>http://arxiv.org/pdf/2201.01738</link>
     <author>Vishal Katariya</author>
@@ -71,19 +63,27 @@
   </item>
 
   <item>
-    <title>Quantum error mitigation via matrix product operators</title>
-    <link>http://arxiv.org/pdf/2201.00752</link>
-    <author>Yuchen Guo, Shuo Yang</author>
-    <pubDate>Jan 04 2022</pubDate>
-    <description>In the era of noisy intermediate-scale quantum (NISQ) devices, the number of controllable hardware qubits is insufficient to implement quantum error correction (QEC). As an alternative, quantum error mitigation (QEM) can suppress the error of measurement results via repeated experiments and postprocessing of data. Typical techniques for error mitigation, e.g., the quasi-probability decomposition method, incur exponentially increasing costs with system size $N_q$ in order to model and mitigate errors for each gate. Here, we introduce a QEM method based on the matrix product operator (MPO) representation of a quantum circuit, which can characterize the noise channel of the entire circuit with polynomial complexity. Our QEM technique is demonstrated on a $\rm{depth}=4$ fully parallel quantum circuit of up to $N_q=10$ qubits. The circuit error is mitigated by several orders of magnitude with only a small bond dimension for the noise channel. Our method dramatically reduces the computational cost and can be generalized to models beyond localized and Markovian noise.</description>
-  </item>
-
-  <item>
     <title>Topological quantum computation is hyperbolic</title>
     <link>http://arxiv.org/pdf/2201.00857</link>
     <author>Eric Samperton</author>
     <pubDate>Jan 05 2022</pubDate>
     <description>We show that a topological quantum computer based on the evaluation of a Witten-Reshetikhin-Turaev TQFT invariant of knots can always be arranged so that the knot diagrams one compiles are hyperbolic. Furthermore, the diagrams can be arranged to have additional nice properties, such as being alternating with minimal crossing number. Various complexity-theoretic hardness results regarding the calculation of quantum invariants of knots follow as corollaries. In particular, we argue that the hyperbolic geometry of knots is unlikely to be useful for topological quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Quantum Capsule Networks</title>
+    <link>http://arxiv.org/pdf/2201.01778</link>
+    <author>Zidu Liu, Pei-Xin Shen, Weikang Li, L.-M. Duan, Dong-Ling Deng</author>
+    <pubDate>Jan 07 2022</pubDate>
+    <description>Capsule networks, which incorporate the paradigms of connectionism and symbolism, have brought fresh insights into artificial intelligence. The capsule, as the building block of capsule networks, is a group of neurons represented by a vector to encode different features of an entity. The information is extracted hierarchically through capsule layers via routing algorithms. Here, we introduce a quantum capsule network (dubbed QCapsNet) together with a quantum dynamic routing algorithm. Our model enjoys an exponential speedup in the dynamic routing process and exhibits an enhanced representation power. To benchmark the performance of the QCapsNet, we carry out extensive numerical simulations on the classification of handwritten digits and symmetry-protected topological phases, and show that the QCapsNet can achieve the state-of-the-art accuracy and outperforms conventional quantum classifiers evidently. We further unpack the output capsule state and find that a particular subspace may correspond to a human-understandable feature of the input data, which indicates the potential explainability of such networks. Our work reveals an intriguing prospect of quantum capsule networks in quantum machine learning, which may provide a valuable guide towards explainable quantum artificial intelligence.</description>
+  </item>
+
+  <item>
+    <title>Improving Optimal Quantum State Verification</title>
+    <link>http://arxiv.org/pdf/2201.01782</link>
+    <author>Jorge Miguel-Ramiro, Ferran Riera-Sàbat, Wolfgang Dür</author>
+    <pubDate>Jan 07 2022</pubDate>
+    <description>Maximally entangled states are a key resource in many quantum communication and computation tasks, and their certification is a crucial element to guarantee the desired functionality. We introduce collective strategies for the efficient, local verification of ensembles of Bell pairs that make use of an initial information and noise transfer to few copies prior to their measurement. In this way the number of entangled pairs that need to be measured and hence destroyed is significantly reduced as compared to previous, even optimal, approaches that operate on individual copies. We show that our tools can be extended to other problems and larger classes of multipartite states.</description>
   </item>
 
 </channel>
