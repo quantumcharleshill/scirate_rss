@@ -71,14 +71,6 @@
   </item>
 
   <item>
-    <title>Variational Quantum Algorithms for Semidefinite Programming</title>
-    <link>http://arxiv.org/pdf/2112.08859</link>
-    <author>Dhrumil Patel, Patrick J. Coles, Mark M. Wilde</author>
-    <pubDate>Dec 17 2021</pubDate>
-    <description>A semidefinite program (SDP) is a particular kind of convex optimization problem with applications in operations research, combinatorial optimization, quantum information science, and beyond. In this work, we propose variational quantum algorithms for approximately solving SDPs. For one class of SDPs, we provide a rigorous analysis of their convergence to approximate locally optimal solutions, under the assumption that they are weakly constrained (i.e., $N\gg M$, where $N$ is the dimension of the input matrices and $M$ is the number of constraints). We also provide algorithms for a more general class of SDPs that requires fewer assumptions. Finally, we numerically simulate our quantum algorithms for applications such as MaxCut, and the results of these simulations provide evidence that convergence still occurs in noisy settings.</description>
-  </item>
-
-  <item>
     <title>Algorithms for Gibbs state preparation on noiseless and noisy random quantum circuits</title>
     <link>http://arxiv.org/pdf/2112.14688</link>
     <author>Oles Shtanko, Ramis Movassagh</author>
@@ -92,6 +84,14 @@
     <author>Youwei Zhao, Yangsen Ye, He-Liang Huang, Yiming Zhang, Dachao Wu, Huijie Guan, Qingling Zhu, Zuolin Wei, Tan He, Sirui Cao, Fusheng Chen, Tung-Hsun Chung, Hui Deng, Daojin Fan, Ming Gong, Cheng Guo, Shaojun Guo, Lianchen Han, Na Li, Shaowei Li, et al (19)</author>
     <pubDate>Dec 28 2021</pubDate>
     <description>Quantum error correction is a critical technique for transitioning from noisy intermediate-scale quantum (NISQ) devices to fully fledged quantum computers. The surface code, which has a high threshold error rate, is the leading quantum error correction code for two-dimensional grid architecture. So far, the repeated error correction capability of the surface code has not been realized experimentally. Here, we experimentally implement an error-correcting surface code, the distance-3 surface code which consists of 17 qubits, on the \textitZuchongzhi 2.1 superconducting quantum processor. By executing several consecutive error correction cycles, the logical error can be significantly reduced after applying corrections, achieving the repeated error correction of surface code for the first time. This experiment represents a fully functional instance of an error-correcting surface code, providing a key step on the path towards scalable fault-tolerant quantum computing.</description>
+  </item>
+
+  <item>
+    <title>Variational Quantum Algorithms for Semidefinite Programming</title>
+    <link>http://arxiv.org/pdf/2112.08859</link>
+    <author>Dhrumil Patel, Patrick J. Coles, Mark M. Wilde</author>
+    <pubDate>Dec 17 2021</pubDate>
+    <description>A semidefinite program (SDP) is a particular kind of convex optimization problem with applications in operations research, combinatorial optimization, quantum information science, and beyond. In this work, we propose variational quantum algorithms for approximately solving SDPs. For one class of SDPs, we provide a rigorous analysis of their convergence to approximate locally optimal solutions, under the assumption that they are weakly constrained (i.e., $N\gg M$, where $N$ is the dimension of the input matrices and $M$ is the number of constraints). We also provide algorithms for a more general class of SDPs that requires fewer assumptions. Finally, we numerically simulate our quantum algorithms for applications such as MaxCut, and the results of these simulations provide evidence that convergence still occurs in noisy settings.</description>
   </item>
 
   <item>
@@ -167,6 +167,14 @@
   </item>
 
   <item>
+    <title>Limits on Parameter Estimation of Quantum Channels</title>
+    <link>http://arxiv.org/pdf/2201.01738</link>
+    <author>Vishal Katariya</author>
+    <pubDate>Jan 06 2022</pubDate>
+    <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
+  </item>
+
+  <item>
     <title>Yet Another Proof of the Joint Convexity of Relative Entropy</title>
     <link>http://arxiv.org/pdf/2112.13763</link>
     <author>Mary Beth Ruskai</author>
@@ -191,11 +199,11 @@
   </item>
 
   <item>
-    <title>Limits on Parameter Estimation of Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2201.01738</link>
-    <author>Vishal Katariya</author>
-    <pubDate>Jan 06 2022</pubDate>
-    <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
+    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2201.02243</link>
+    <author>Megan L. Dahlhauser, Travis S. Humble</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Abhishek Rajput, Alessandro Roggero, Nathan Wiebe</author>
     <pubDate>Dec 13 2021</pubDate>
     <description>Quantum simulations of Lattice Gauge Theories (LGTs) are often formulated on an enlarged Hilbert space containing both physical and unphysical sectors in order to retain a local Hamiltonian. We provide simple fault-tolerant procedures that exploit such redundancy by combining a phase flip error correction code with the Gauss' law constraint to correct one-qubit errors for a $\mathbb{Z}_2$ or truncated U(1) LGT in 1+1 dimensions with a link flux cutoff of $1$. Unlike existing work on detecting violations of Gauss' law, our circuits are fault tolerant and the overall error correction scheme outperforms a naïve application of the $[5,1,3]$ code. The constructions outlined can be extended to LGT systems with larger cutoffs and may be of use in understanding how to hybridize error correction and quantum simulation for LGTs in higher space-time dimensions and with different symmetry groups.</description>
-  </item>
-
-  <item>
-    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2201.02243</link>
-    <author>Megan L. Dahlhauser, Travis S. Humble</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
   </item>
 
 </channel>
