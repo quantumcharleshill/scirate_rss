@@ -15,19 +15,11 @@
   </item>
 
   <item>
-    <title>Limits on Parameter Estimation of Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2201.01738</link>
-    <author>Vishal Katariya</author>
-    <pubDate>Jan 06 2022</pubDate>
-    <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
-  </item>
-
-  <item>
-    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2201.02243</link>
-    <author>Megan L. Dahlhauser, Travis S. Humble</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
+    <title>Quantum error correction with fractal topological codes</title>
+    <link>http://arxiv.org/pdf/2201.03568</link>
+    <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
+    <pubDate>Jan 12 2022</pubDate>
+    <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
   </item>
 
   <item>
@@ -36,6 +28,14 @@
     <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
     <pubDate>Jan 07 2022</pubDate>
     <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
+  </item>
+
+  <item>
+    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2201.02243</link>
+    <author>Megan L. Dahlhauser, Travis S. Humble</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
   </item>
 
   <item>
@@ -63,6 +63,14 @@
   </item>
 
   <item>
+    <title>Quantum Distributed Algorithms for Detection of Cliques</title>
+    <link>http://arxiv.org/pdf/2201.03000</link>
+    <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>The possibilities offered by quantum computing have drawn attention in the distributed computing community recently, with several breakthrough results showing quantum distributed algorithms that run faster than the fastest known classical counterparts, and even separations between the two models. A prime example is the result by Izumi, Le Gall, and Magniez [STACS 2020], who showed that triangle detection by quantum distributed algorithms is easier than triangle listing, while an analogous result is not known in the classical case. In this paper we present a framework for fast quantum distributed clique detection. This improves upon the state-of-the-art for the triangle case, and is also more general, applying to larger clique sizes. Our main technical contribution is a new approach for detecting cliques by encapsulating this as a search task for nodes that can be added to smaller cliques. To extract the best complexities out of our approach, we develop a framework for nested distributed quantum searches, which employ checking procedures that are quantum themselves. Moreover, we show a circuit-complexity barrier on proving a lower bound of the form $\Omega(n^{3/5+\epsilon})$ for $K_p$-detection for any $p \geq 4$, even in the classical (non-quantum) distributed CONGEST setting.</description>
+  </item>
+
+  <item>
     <title>Improving Optimal Quantum State Verification</title>
     <link>http://arxiv.org/pdf/2201.01782</link>
     <author>Jorge Miguel-Ramiro, Ferran Riera-Sàbat, Wolfgang Dür</author>
@@ -76,14 +84,6 @@
     <author>Zidu Liu, Pei-Xin Shen, Weikang Li, L.-M. Duan, Dong-Ling Deng</author>
     <pubDate>Jan 07 2022</pubDate>
     <description>Capsule networks, which incorporate the paradigms of connectionism and symbolism, have brought fresh insights into artificial intelligence. The capsule, as the building block of capsule networks, is a group of neurons represented by a vector to encode different features of an entity. The information is extracted hierarchically through capsule layers via routing algorithms. Here, we introduce a quantum capsule network (dubbed QCapsNet) together with a quantum dynamic routing algorithm. Our model enjoys an exponential speedup in the dynamic routing process and exhibits an enhanced representation power. To benchmark the performance of the QCapsNet, we carry out extensive numerical simulations on the classification of handwritten digits and symmetry-protected topological phases, and show that the QCapsNet can achieve the state-of-the-art accuracy and outperforms conventional quantum classifiers evidently. We further unpack the output capsule state and find that a particular subspace may correspond to a human-understandable feature of the input data, which indicates the potential explainability of such networks. Our work reveals an intriguing prospect of quantum capsule networks in quantum machine learning, which may provide a valuable guide towards explainable quantum artificial intelligence.</description>
-  </item>
-
-  <item>
-    <title>Quantum Information Techniques for Quantum Metrology</title>
-    <link>http://arxiv.org/pdf/2201.01523</link>
-    <author>Nathan Shettell</author>
-    <pubDate>Jan 06 2022</pubDate>
-    <description>Quantum metrology is an auspicious discipline of quantum information which is currently witnessing a surge of experimental breakthroughs and theoretical developments. The main goal of quantum metrology is to estimate unknown parameters as accurately as possible. By using quantum resources as probes, it is possible to attain a measurement precision that would be otherwise impossible using the best classical strategies. For example, with respect to the task of phase estimation, the maximum precision (the Heisenberg limit) is a quadratic gain in precision with respect to the best classical strategies. Of course, quantum metrology is not the sole quantum technology currently undergoing advances. The theme of this thesis is exploring how quantum metrology can be enhanced with other quantum techniques when appropriate, namely: graph states, error correction and cryptography.</description>
   </item>
 
 </channel>
