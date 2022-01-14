@@ -7,27 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Testing matrix product states</title>
-    <link>http://arxiv.org/pdf/2201.01824</link>
-    <author>Mehdi Soleimanifar, John Wright</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>Devising schemes for testing the amount of entanglement in quantum systems has played a crucial role in quantum computing and information theory. Here, we study the problem of testing whether an unknown state $|\psi\rangle$ is a matrix product state (MPS) in the property testing model. MPS are a class of physically-relevant quantum states which arise in the study of quantum many-body systems. A quantum state $|\psi_{1,...,n}\rangle$ comprised of $n$ qudits is said to be an MPS of bond dimension $r$ if the reduced density matrix $\psi_{1,...,k}$ has rank $r$ for each $k \in \{1,...,n\}$. When $r=1$, this corresponds to the set of product states. For larger values of $r$, this yields a more expressive class of quantum states, which are allowed to possess limited amounts of entanglement. In the property testing model, one is given $m$ identical copies of $|\psi\rangle$, and the goal is to determine whether $|\psi\rangle$ is an MPS of bond dimension $r$ or whether $|\psi\rangle$ is far from all such states. For the case of product states, we study the product test, a simple two-copy test previously analyzed by Harrow and Montanaro (FOCS 2010), and a key ingredient in their proof that $\mathsf{QMA(2)}=\mathsf{QMA}(k)$ for $k \geq 2$. We give a new and simpler analysis of the product test which achieves an optimal bound for a wide range of parameters, answering open problems of Harrow and Montanaro (FOCS 2010) and Montanaro and de Wolf (2016). For the case of $r\geq 2$, we give an efficient algorithm for testing whether $|\psi\rangle$ is an MPS of bond dimension $r$ using $m = O(n r^2)$ copies, independent of the dimensions of the qudits, and we show that $\Omega(n^{1/2})$ copies are necessary for this task. This lower bound shows that a dependence on the number of qudits $n$ is necessary, in sharp contrast to the case of product states where a constant number of copies suffices.</description>
-  </item>
-
-  <item>
     <title>Quantum error correction with fractal topological codes</title>
     <link>http://arxiv.org/pdf/2201.03568</link>
     <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
     <pubDate>Jan 12 2022</pubDate>
     <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
-  </item>
-
-  <item>
-    <title>Oracle separations of hybrid quantum-classical circuits</title>
-    <link>http://arxiv.org/pdf/2201.01904</link>
-    <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
   </item>
 
   <item>
@@ -55,14 +39,6 @@
   </item>
 
   <item>
-    <title>Quantum Information Scrambling in Quantum Many-body Scarred Systems</title>
-    <link>http://arxiv.org/pdf/2201.01777</link>
-    <author>Dong Yuan, Shun-Yao Zhang, Yu Wang, L.-M. Duan, Dong-Ling Deng</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>Quantum many-body scarred systems host special non-thermal eigenstates which support periodic revival dynamics and weakly break the ergodicity. In this paper, we study the quantum information scrambling dynamics in quantum many-body scarred systems, with a focus on the "PXP" model. We use the out-of-time-ordered correlator (OTOC) and Holevo information as measures of the information scrambling, and apply an efficient numerical method based on matrix product operators to compute them up to 41 spins. We find that both the OTOC and Holevo information exhibit a linear light cone and periodic oscillations inside the light cone for initial states within the scarred subspace, which is in sharp contrast to thermal or many-body localized systems. To explain the formation of the linear light cone structure, we provide a perturbation-type calculation based on a phenomenological model. In addition, we demonstrate that the OTOC and Holevo information dynamics of the "PXP" model can be measured using the Rydberg-atom quantum simulators with current experimental technologies, and numerically identify the measurable signatures using experimental parameters.</description>
-  </item>
-
-  <item>
     <title>Quantum Distributed Algorithms for Detection of Cliques</title>
     <link>http://arxiv.org/pdf/2201.03000</link>
     <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
-    <title>Improving Optimal Quantum State Verification</title>
-    <link>http://arxiv.org/pdf/2201.01782</link>
-    <author>Jorge Miguel-Ramiro, Ferran Riera-Sàbat, Wolfgang Dür</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>Maximally entangled states are a key resource in many quantum communication and computation tasks, and their certification is a crucial element to guarantee the desired functionality. We introduce collective strategies for the efficient, local verification of ensembles of Bell pairs that make use of an initial information and noise transfer to few copies prior to their measurement. In this way the number of entangled pairs that need to be measured and hence destroyed is significantly reduced as compared to previous, even optimal, approaches that operate on individual copies. We show that our tools can be extended to other problems and larger classes of multipartite states.</description>
+    <title>Dynamical preparation of quantum spin liquids in Rydberg atom arrays</title>
+    <link>http://arxiv.org/pdf/2201.04034</link>
+    <author>Giuliano Giudici, Mikhail D. Lukin, Hannes Pichler</author>
+    <pubDate>Jan 12 2022</pubDate>
+    <description>We theoretically analyze recent experiments [G. Semeghini et al., Science 374, 1242 (2021)] demonstrating the onset of a topological spin liquid using a programmable quantum simulator based on Rydberg atom arrays. In the experiment, robust signatures of topological order emerge in out-of-equilibrium states that are prepared using a quasi-adiabatic state preparation protocol. We show theoretically that the state preparation protocol can be optimized to target the fixed point of the topological phase -- the resonating valence bond (RVB) state of hard dimers -- in a time that scales linearly with the number of atoms. Moreover, we provide a two-parameter variational manifold of tensor network (TN) states that accurately describe the many-body dynamics of the preparation process. Using this approach we analyze the nature of the non-equilibrium state, establishing the emergence of topological order.</description>
+  </item>
+
+  <item>
+    <title>Snowmass White Paper: Quantum Aspects of Black Holes and the Emergence of Spacetime</title>
+    <link>http://arxiv.org/pdf/2201.03096</link>
+    <author>Raphael Bousso, Xi Dong, Netta Engelhardt, Thomas Faulkner, Thomas Hartman, Stephen H. Shenker, Douglas Stanford</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>Black holes provide a window into the microscopic structure of spacetime in quantum gravity. Recently the quantum information contained in Hawking radiation has been calculated, verifying a key aspect of the consistency of black hole evaporation with quantum mechanical unitarity. This calculation relied crucially on recent progress in understanding the emergence of bulk spacetime from a boundary holographic description. Spacetime wormholes have played an important role in understanding the underpinnings of this result, and the precision study of such wormholes, in this and other contexts, has been enabled by the development of low-dimensional models of holography. In this white paper we review these developments and describe some of the deep open questions in this subject. These include the nature of the black hole interior, potential applications to quantum cosmology, the gravitational explanation of the fine structure of black holes, and the development of further connections to quantum information and laboratory quantum simulation.</description>
+  </item>
+
+  <item>
+    <title>Scaling Quantum Approximate Optimization on Near-term Hardware</title>
+    <link>http://arxiv.org/pdf/2201.02247</link>
+    <author>Phillip C. Lotshaw, Thien Nguyen, Anthony Santana, Alexander McCaskey, Rebekah Herrman, James Ostrowski, George Siopsis, Travis S. Humble</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>The quantum approximate optimization algorithm (QAOA) is an approach for near-term quantum computers to potentially demonstrate computational advantage in solving combinatorial optimization problems. However, the viability of the QAOA depends on how its performance and resource requirements scale with problem size and complexity for realistic hardware implementations. Here, we quantify scaling of the expected resource requirements by synthesizing optimized circuits for hardware architectures with varying levels of connectivity. Assuming noisy gate operations, we estimate the number of measurements needed to sample the output of the idealized QAOA circuit with high probability. We show the number of measurements, and hence total time to solution, grows exponentially in problem size and problem graph degree as well as depth of the QAOA ansatz, gate infidelities, and inverse hardware graph degree. These problems may be alleviated by increasing hardware connectivity or by recently proposed modifications to the QAOA that achieve higher performance with fewer circuit layers.</description>
+  </item>
+
+  <item>
+    <title>QAOA pseudo-Boltzmann states</title>
+    <link>http://arxiv.org/pdf/2201.03358</link>
+    <author>Pablo Díez-Valle, Diego Porras, Juan José García-Ripoll</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>In this letter, we provide analytical and numerical evidence that the single-layer Quantum Approximate Optimization Algorithm (QAOA) on universal Ising spin models produces thermal states with Gaussian perturbations. We find that these pseudo-Boltzman states can not be efficiently simulated on classical computers according to state-of-art techniques, and we relate this distribution to the optimization potential of QAOA. Moreover, we observe that the temperature depends on a hidden universal correlation between the energy of a state and the covariance of other energy levels and the Hamming distances of the state to those energies.</description>
   </item>
 
 </channel>
