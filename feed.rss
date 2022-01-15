@@ -55,6 +55,14 @@
   </item>
 
   <item>
+    <title>Quantum error correction with fractal topological codes</title>
+    <link>http://arxiv.org/pdf/2201.03568</link>
+    <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
+    <pubDate>Jan 12 2022</pubDate>
+    <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
+  </item>
+
+  <item>
     <title>Realizing an Error-Correcting Surface Code with Superconducting Qubits</title>
     <link>http://arxiv.org/pdf/2112.13505</link>
     <author>Youwei Zhao, Yangsen Ye, He-Liang Huang, Yiming Zhang, Dachao Wu, Huijie Guan, Qingling Zhu, Zuolin Wei, Tan He, Sirui Cao, Fusheng Chen, Tung-Hsun Chung, Hui Deng, Daojin Fan, Ming Gong, Cheng Guo, Shaojun Guo, Lianchen Han, Na Li, Shaowei Li, et al (19)</author>
@@ -87,14 +95,6 @@
   </item>
 
   <item>
-    <title>Quantum error correction with fractal topological codes</title>
-    <link>http://arxiv.org/pdf/2201.03568</link>
-    <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
-    <pubDate>Jan 12 2022</pubDate>
-    <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
-  </item>
-
-  <item>
     <title>Cryptography from Pseudorandom Quantum States</title>
     <link>http://arxiv.org/pdf/2112.10020</link>
     <author>Prabhanjan Ananth, Luowen Qian, Henry Yuen</author>
@@ -111,19 +111,19 @@
   </item>
 
   <item>
-    <title>Practical and Efficient Hamiltonian Learning</title>
-    <link>http://arxiv.org/pdf/2201.00190</link>
-    <author>Wenjun Yu, Jinzhao Sun, Zeyao Han, Xiao Yuan</author>
-    <pubDate>Jan 04 2022</pubDate>
-    <description>With the fast development of quantum technology, the size of quantum systems we can digitally manipulate and analogly probe increase drastically. In order to have a better control and understanding of the quantum hardware, an important task is to characterize the interaction, i.e., to learn the Hamiltonian, which determines both static or dynamic properties of the system. Conventional Hamiltonian learning methods either require costly process tomography or adopt impractical assumptions, such as prior information of the Hamiltonian structure and the ground or thermal states of the system. In this work, we present a practical and efficient Hamiltonian learning method that circumvents these limitations. The proposed method can efficiently learn any Hamiltonian that is sparse on the Pauli basis using only short time dynamics and local operations without any information of the Hamiltonian or preparing any eigenstates or thermal states. The method has scalable complexity and vanishing failure probability regarding the qubit number. Meanwhile, it is free from state preparation and measurement error and robust against a certain amount of circuit and shot noise. We numerically test the scaling and the estimation accuracy of the method for transverse field Ising Hamiltonian with random interaction strengths and molecular Hamiltonians, both with varying sizes. All these results verify the practicality and efficacy of the method, paving the way for a systematic understanding of large quantum systems.</description>
-  </item>
-
-  <item>
     <title>Quantum Merkle Trees</title>
     <link>http://arxiv.org/pdf/2112.14317</link>
     <author>Lijie Chen, Ramis Movassagh</author>
     <pubDate>Dec 30 2021</pubDate>
     <description>Commitment scheme is a central task in cryptography, where a party (typically called a prover) stores a piece of information (e.g., a bit string) with the promise of not changing it. This information can be accessed by another party (typically called the verifier), who can later learn the information and verify that it was not meddled with. Merkle tree is a well-known construction for doing so in a succinct manner, in which the verfier can learn any part of the information by receiving a short proof from the honest prover. Despite its significance in classical cryptography, there was no quantum analog of the Merkle tree. A direct generalization using the Quantum Random Oracle Model (QROM) does not seem to be secure. In this work, we propose the quantum Merkle tree. It is based on what we call the Quantum Haar Random Oracle Model (QHROM). In QHROM, both the prover and the verifier have access to a Haar random quantum oracle G and its inverse. Using the quantum Merkle tree, we propose a succinct quantum argument for the Gap-k-Local-Hamiltonian problem. We prove it is secure against semi-honest provers in QHROM and conjecture its general security. Assuming the Quantum PCP conjecture is true, this succinct argument extends to all of QMA. This work raises a number of interesting open research problems.</description>
+  </item>
+
+  <item>
+    <title>Practical and Efficient Hamiltonian Learning</title>
+    <link>http://arxiv.org/pdf/2201.00190</link>
+    <author>Wenjun Yu, Jinzhao Sun, Zeyao Han, Xiao Yuan</author>
+    <pubDate>Jan 04 2022</pubDate>
+    <description>With the fast development of quantum technology, the size of quantum systems we can digitally manipulate and analogly probe increase drastically. In order to have a better control and understanding of the quantum hardware, an important task is to characterize the interaction, i.e., to learn the Hamiltonian, which determines both static or dynamic properties of the system. Conventional Hamiltonian learning methods either require costly process tomography or adopt impractical assumptions, such as prior information of the Hamiltonian structure and the ground or thermal states of the system. In this work, we present a practical and efficient Hamiltonian learning method that circumvents these limitations. The proposed method can efficiently learn any Hamiltonian that is sparse on the Pauli basis using only short time dynamics and local operations without any information of the Hamiltonian or preparing any eigenstates or thermal states. The method has scalable complexity and vanishing failure probability regarding the qubit number. Meanwhile, it is free from state preparation and measurement error and robust against a certain amount of circuit and shot noise. We numerically test the scaling and the estimation accuracy of the method for transverse field Ising Hamiltonian with random interaction strengths and molecular Hamiltonians, both with varying sizes. All these results verify the practicality and efficacy of the method, paving the way for a systematic understanding of large quantum systems.</description>
   </item>
 
   <item>
@@ -183,6 +183,14 @@
   </item>
 
   <item>
+    <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
+    <link>http://arxiv.org/pdf/2201.05153</link>
+    <author>Yu-An Chen, Yijia Xu</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>We argue that all locality-preserving mappings between fermionic observables and Pauli matrices on a two-dimensional lattice can be generated from the exact bosonization in Ref. [1], whose gauge constraints project onto the subspace of the toric code with emergent fermions. Starting from the exact bosonization and applying Clifford finite-depth generalized local unitary (gLU) transformation, we can achieve all possible fermion-to-qubit mappings (up to the re-pairing of Majorana fermions). In particular, we discover a new super-compact encoding using 1.25 qubits per fermion on the square lattice, which is lower than any method in the literature. We prove the existence of fermion-to-qubit mappings with qubit-fermion ratios $r=1+ \frac{1}{2k}$ for positive integers $k$, where the proof utilizes the trivialness of quantum cellular automata (QCA) in two spatial dimensions. When the ratio approaches 1, the fermion-to-qubit mapping reduces to the 1d Jordan-Wigner transformation along a certain path in the two-dimensional lattice. Finally, we explicitly demonstrate that the Bravyi-Kitaev superfast simulation, the Verstraete-Cirac auxiliary method, Kitaev's exactly solved model, the Majorana loop stabilizer codes, and the compact fermion-to-qubit mapping can all be obtained from the exact bosonization.</description>
+  </item>
+
+  <item>
     <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
     <link>http://arxiv.org/pdf/2201.03540</link>
     <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
@@ -236,14 +244,6 @@
     <author>Jin-Long Huang, John McGreevy, Bowen Shi</author>
     <pubDate>Dec 17 2021</pubDate>
     <description>We extend the entanglement bootstrap approach to (3+1)-dimensions. We study knotted excitations of (3+1)-dimensional liquid topological orders and exotic fusion processes of loops. As in previous work in (2+1)-dimensions, we define a variety of superselection sectors and fusion spaces from two axioms on the ground state entanglement entropy. In particular, we identify fusion spaces associated with knots. We generalize the information convex set to a new class of regions called immersed regions, promoting various theorems to this new context. Examples from solvable models are provided; for instance, a concrete calculation of knot multiplicity shows that the knot complement of a trefoil knot can store quantum information. We define spiral maps that allow us to understand consistency relations for torus knots as well as spiral fusions of fluxes.</description>
-  </item>
-
-  <item>
-    <title>Quadratic speedup for spatial search by continuous-time quantum walk</title>
-    <link>http://arxiv.org/pdf/2112.12746</link>
-    <author>Simon Apers, Shantanav Chakraborty, Leonardo Novo, Jérémie Roland</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>Continuous-time quantum walks provide a natural framework to tackle the fundamental problem of finding a node among a set of marked nodes in a graph, known as spatial search. Whether spatial search by continuous-time quantum walk provides a quadratic advantage over classical random walks has been an outstanding problem. Thus far, this advantage is obtained only for specific graphs or when a single node of the underlying graph is marked. In this article, we provide a new continuous-time quantum walk search algorithm that completely resolves this: our algorithm can find a marked node in any graph with any number of marked nodes, in a time that is quadratically faster than classical random walks. The overall algorithm is quite simple, requiring time evolution of the quantum walk Hamiltonian followed by a projective measurement. A key component of our algorithm is a purely analog procedure to perform operations on a state of the form $e^{-tH^2}|\psi\rangle$, for a given Hamiltonian $H$: it only requires evolving $H$ for time scaling as $\sqrt{t}$. This allows us to quadratically fast-forward the dynamics of a continuous-time classical random walk. The applications of our work thus go beyond the realm of quantum walks and can lead to new analog quantum algorithms for preparing ground states of Hamiltonians or solving optimization problems.</description>
   </item>
 
 </channel>
