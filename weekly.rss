@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2201.02243</link>
-    <author>Megan L. Dahlhauser, Travis S. Humble</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
-  </item>
-
-  <item>
     <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
     <link>http://arxiv.org/pdf/2201.05153</link>
     <author>Yu-An Chen, Yijia Xu</author>
@@ -36,14 +28,6 @@
     <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
     <pubDate>Jan 11 2022</pubDate>
     <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
-  </item>
-
-  <item>
-    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
-    <link>http://arxiv.org/pdf/2201.02450</link>
-    <author>Masahito Hayashi</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
   </item>
 
   <item>
@@ -63,6 +47,22 @@
   </item>
 
   <item>
+    <title>On the Consilience between QBism and Phenomenology</title>
+    <link>http://arxiv.org/pdf/2201.04734</link>
+    <author>Hans Christian von Baeyer</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>Two decades after its creation, the interpretation of quantum mechanics called QBism is entering a new phase. Since it shares a personalist, subjective world-view with phenomenology, the philosophical study of human experience, there is a growing interest in the relationship between the two subjects. I call attention to the little-known philosopher Samuel Todes, whose phenomenology focused on the essential role of the human body in our understanding of the world. After reviewing this radical proposal, and illustrating it with some examples, I recommend it as an interesting mediator between the communities of physicists and phenomenologists. In addition, I argue that it may prove useful for promoting the public understanding of QBism.</description>
+  </item>
+
+  <item>
+    <title>Quantum networks self-test all entangled states</title>
+    <link>http://arxiv.org/pdf/2201.05032</link>
+    <author>Ivan Šupić, Joseph Bowles, Marc-Olivier Renou, Antonio Acín, Matty J. Hoban</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>Certifying quantum properties with minimal assumptions is a fundamental problem in quantum information science. Self-testing is a method to infer the underlying physics of a quantum experiment only from the measured statistics. While all bipartite pure entangled states can be self-tested, little is known about how to self-test quantum states of an arbitrary number of systems. Here, we introduce a framework for network-assisted self-testing and use it to self-test any pure entangled quantum state of an arbitrary number of systems. The scheme requires the preparation of a number of singlets that scales linearly with the number of systems, and the implementation of standard projective and Bell measurements, all feasible with current technology. When all the network constraints are exploited, the obtained self-testing certification is stronger than what is achievable in any Bell-type scenario. Our work does not only solve an open question in the field, but also shows how properly designed networks offer new opportunities for the certification of quantum phenomena.</description>
+  </item>
+
+  <item>
     <title>Dynamical preparation of quantum spin liquids in Rydberg atom arrays</title>
     <link>http://arxiv.org/pdf/2201.04034</link>
     <author>Giuliano Giudici, Mikhail D. Lukin, Hannes Pichler</author>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>On the Consilience between QBism and Phenomenology</title>
-    <link>http://arxiv.org/pdf/2201.04734</link>
-    <author>Hans Christian von Baeyer</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Two decades after its creation, the interpretation of quantum mechanics called QBism is entering a new phase. Since it shares a personalist, subjective world-view with phenomenology, the philosophical study of human experience, there is a growing interest in the relationship between the two subjects. I call attention to the little-known philosopher Samuel Todes, whose phenomenology focused on the essential role of the human body in our understanding of the world. After reviewing this radical proposal, and illustrating it with some examples, I recommend it as an interesting mediator between the communities of physicists and phenomenologists. In addition, I argue that it may prove useful for promoting the public understanding of QBism.</description>
+    <title>QAOA pseudo-Boltzmann states</title>
+    <link>http://arxiv.org/pdf/2201.03358</link>
+    <author>Pablo Díez-Valle, Diego Porras, Juan José García-Ripoll</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>In this letter, we provide analytical and numerical evidence that the single-layer Quantum Approximate Optimization Algorithm (QAOA) on universal Ising spin models produces thermal states with Gaussian perturbations. We find that these pseudo-Boltzman states can not be efficiently simulated on classical computers according to state-of-art techniques, and we relate this distribution to the optimization potential of QAOA. Moreover, we observe that the temperature depends on a hidden universal correlation between the energy of a state and the covariance of other energy levels and the Hamming distances of the state to those energies.</description>
   </item>
 
 </channel>

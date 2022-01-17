@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
-    <link>http://arxiv.org/pdf/2201.05153</link>
-    <author>Yu-An Chen, Yijia Xu</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>We argue that all locality-preserving mappings between fermionic observables and Pauli matrices on a two-dimensional lattice can be generated from the exact bosonization in Ref. [1], whose gauge constraints project onto the subspace of the toric code with emergent fermions. Starting from the exact bosonization and applying Clifford finite-depth generalized local unitary (gLU) transformation, we can achieve all possible fermion-to-qubit mappings (up to the re-pairing of Majorana fermions). In particular, we discover a new super-compact encoding using 1.25 qubits per fermion on the square lattice, which is lower than any method in the literature. We prove the existence of fermion-to-qubit mappings with qubit-fermion ratios $r=1+ \frac{1}{2k}$ for positive integers $k$, where the proof utilizes the trivialness of quantum cellular automata (QCA) in two spatial dimensions. When the ratio approaches 1, the fermion-to-qubit mapping reduces to the 1d Jordan-Wigner transformation along a certain path in the two-dimensional lattice. Finally, we explicitly demonstrate that the Bravyi-Kitaev superfast simulation, the Verstraete-Cirac auxiliary method, Kitaev's exactly solved model, the Majorana loop stabilizer codes, and the compact fermion-to-qubit mapping can all be obtained from the exact bosonization.</description>
+    <title>Efficient realization of quantum primitives for Shor's algorithm using PennyLane library</title>
+    <link>http://arxiv.org/pdf/2201.05426</link>
+    <author>A.V. Antipov, E.O. Kiktenko, A.K. Fedorov</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>Efficient realization of quantum algorithms is among main challenges on the way towards practical quantum computing. Various libraries and frameworks for quantum software engineering have been developed. Here we present a software package containing implementations of various quantum gates and well-known quantum algorithms using PennyLane library. Templates within the package include all required elements from the quantum part of Shor's algorithm, specifically, efficient modular exponentiation and quantum Fourier transform that can be realized for an arbitrary number of qubits specified by a user. All the qubit operations are decomposed into elementary gates realized in PennyLane library. Templates from the developed package can be used as qubit-operations when defining a QNode.</description>
   </item>
 
   <item>
-    <title>On the Consilience between QBism and Phenomenology</title>
-    <link>http://arxiv.org/pdf/2201.04734</link>
-    <author>Hans Christian von Baeyer</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Two decades after its creation, the interpretation of quantum mechanics called QBism is entering a new phase. Since it shares a personalist, subjective world-view with phenomenology, the philosophical study of human experience, there is a growing interest in the relationship between the two subjects. I call attention to the little-known philosopher Samuel Todes, whose phenomenology focused on the essential role of the human body in our understanding of the world. After reviewing this radical proposal, and illustrating it with some examples, I recommend it as an interesting mediator between the communities of physicists and phenomenologists. In addition, I argue that it may prove useful for promoting the public understanding of QBism.</description>
+    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2201.05215</link>
+    <author>Dmitri Maslov, Ben Zindorf</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
   </item>
 
   <item>
-    <title>Quantum networks self-test all entangled states</title>
-    <link>http://arxiv.org/pdf/2201.05032</link>
-    <author>Ivan Šupić, Joseph Bowles, Marc-Olivier Renou, Antonio Acín, Matty J. Hoban</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Certifying quantum properties with minimal assumptions is a fundamental problem in quantum information science. Self-testing is a method to infer the underlying physics of a quantum experiment only from the measured statistics. While all bipartite pure entangled states can be self-tested, little is known about how to self-test quantum states of an arbitrary number of systems. Here, we introduce a framework for network-assisted self-testing and use it to self-test any pure entangled quantum state of an arbitrary number of systems. The scheme requires the preparation of a number of singlets that scales linearly with the number of systems, and the implementation of standard projective and Bell measurements, all feasible with current technology. When all the network constraints are exploited, the obtained self-testing certification is stronger than what is achievable in any Bell-type scenario. Our work does not only solve an open question in the field, but also shows how properly designed networks offer new opportunities for the certification of quantum phenomena.</description>
+    <title>When less is more: Simplifying inputs aids neural network understanding</title>
+    <link>http://arxiv.org/pdf/2201.05610</link>
+    <author>Robin Tibor Schirrmeister, Rosanne Liu, Sara Hooker, Tonio Ball</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>How do neural network image classifiers respond to simpler and simpler inputs? And what do such responses reveal about the learning process? To answer these questions, we need a clear measure of input simplicity (or inversely, complexity), an optimization objective that correlates with simplification, and a framework to incorporate such objective into training and inference. Lastly we need a variety of testbeds to experiment and evaluate the impact of such simplification on learning. In this work, we measure simplicity with the encoding bit size given by a pretrained generative model, and minimize the bit size to simplify inputs in training and inference. We investigate the effect of such simplification in several scenarios: conventional training, dataset condensation and post-hoc explanations. In all settings, inputs are simplified along with the original classification task, and we investigate the trade-off between input simplicity and task performance. For images with injected distractors, such simplification naturally removes superfluous information. For dataset condensation, we find that inputs can be simplified with almost no accuracy degradation. When used in post-hoc explanation, our learning-based simplification approach offers a valuable new tool to explore the basis of network decisions.</description>
   </item>
 
   <item>
-    <title>Universality and sharp matrix concentration inequalities</title>
-    <link>http://arxiv.org/pdf/2201.05142</link>
-    <author>Tatiana Brailovskaya, Ramon van Handel</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>We show that, under mild assumptions, the spectrum of a sum of independent random matrices is close to that of the Gaussian random matrix whose entries have the same mean and covariance. This nonasymptotic universality principle both explains the phenomenon behind classical matrix concentration inequalities such as the matrix Bernstein inequality, and yields new sharp matrix concentration inequalities for general sums of independent random matrices when combined with the recent Gaussian theory of Bandeira, Boedihardjo, and Van Handel. As an application of our main results, we prove strong asymptotic freeness of a very general class of random matrix models with non-Gaussian, nonhomogeneous, and dependent entries.</description>
+    <title>Multilingual Open Text 1.0: Public Domain News in 44 Languages</title>
+    <link>http://arxiv.org/pdf/2201.05609</link>
+    <author>Chester Palen-Michel, June Kim, Constantine Lignos</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We present a new multilingual corpus containing text in 44 languages, many of which have relatively few existing resources for natural language processing. The first release of the corpus contains over 2.7 million news articles and 1 million shorter passages published between 2001--2021, collected from Voice of America news websites. We describe our process for collecting, filtering, and processing the data. The source material is in the public domain, our collection is licensed using a creative commons license (CC BY 4.0), and all software used to create the corpus is released under the MIT License. The corpus will be regularly updated as additional documents are published.</description>
   </item>
 
   <item>
-    <title>Towards real-world quantum networks: a review</title>
-    <link>http://arxiv.org/pdf/2201.04802</link>
-    <author>Shi-Hai Wei, Bo Jing, Xue-Ying Zhang, Jin-Yu Liao, Chen-Zhi Yuan, Bo-Yu Fan, Chen Lyu, Dian-Li Zhou, You Wang, Guang-Wei Deng, Hai-Zhi Song, Daniel Oblak, Guang-Can Guo, Qiang Zhou</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Quantum networks play an extremely important role in quantum information science, with application to quantum communication, computation, metrology and fundamental tests. One of the key challenges for implementing a quantum network is to distribute entangled flying qubits to spatially separated nodes, at which quantum interfaces or transducers map the entanglement onto stationary qubits. The stationary qubits at the separated nodes constitute quantum memories realized in matter while the flying qubits constitute quantum channels realized in photons. Dedicated efforts around the world for more than twenty years have resulted in both major theoretical and experimental progress towards entangling quantum nodes and ultimately building a global quantum network. Here, we review the development of quantum networks and the experimental progress over the past two decades leading to the current state of the art for generating entanglement of quantum nodes based on various physical systems such as single atoms, cold atomic ensembles, trapped ions, diamonds with Nitrogen-Vacancy centers, solid-state host doped with rare-earth ions, etc. Along the way we discuss the merits and compare the potential of each of these systems towards realizing a quantum network.</description>
+    <title>Energies for elastic plates and shells from quadratic-stretch elasticity</title>
+    <link>http://arxiv.org/pdf/2201.05608</link>
+    <author>E. Vitral, J. A. Hanna</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We derive stretching and bending energies for isotropic elastic plates and shells. Through the dimensional reduction of a bulk elastic energy quadratic in Biot strains, we obtain two-dimensional bending energies quadratic in bending measures featuring a bilinear coupling of stretches and geometric curvatures. For plates, the bending measure is invariant under spatial dilations and naturally extends primitive bending strains for straight rods. For shells or naturally-curved rods, the measure is not dilation invariant, and contrasts with previous \emphad hoc postulated forms. The corresponding field equations and boundary conditions feature moments linear in the bending measures, such that application of a pure moment results in isometric deformation of a unique neutral surface, a primitive behavior in agreement with classical linear response but not displayed by commonly used analytical models. We briefly comment on relations between our energies, those derived from a neo-Hookean bulk energy, and a commonly used discrete model for flat membranes. Although the derivation requires consideration of stretch and rotation fields, the resulting energy and field equations can be expressed entirely in terms of metric and curvature components of deformed and reference surfaces.</description>
   </item>
 
 </channel>
