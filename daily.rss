@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Efficient realization of quantum primitives for Shor's algorithm using PennyLane library</title>
-    <link>http://arxiv.org/pdf/2201.05426</link>
-    <author>A.V. Antipov, E.O. Kiktenko, A.K. Fedorov</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>Efficient realization of quantum algorithms is among main challenges on the way towards practical quantum computing. Various libraries and frameworks for quantum software engineering have been developed. Here we present a software package containing implementations of various quantum gates and well-known quantum algorithms using PennyLane library. Templates within the package include all required elements from the quantum part of Shor's algorithm, specifically, efficient modular exponentiation and quantum Fourier transform that can be realized for an arbitrary number of qubits specified by a user. All the qubit operations are decomposed into elementary gates realized in PennyLane library. Templates from the developed package can be used as qubit-operations when defining a QNode.</description>
+    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
+    <link>http://arxiv.org/pdf/2201.06533</link>
+    <author>Tyler Helmuth, Ryan L. Mann</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
   </item>
 
   <item>
-    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2201.05215</link>
-    <author>Dmitri Maslov, Ben Zindorf</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
+    <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
+    <link>http://arxiv.org/pdf/2201.05678</link>
+    <author>Christopher Chamberland, Earl T. Campbell</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
   </item>
 
   <item>
-    <title>When less is more: Simplifying inputs aids neural network understanding</title>
-    <link>http://arxiv.org/pdf/2201.05610</link>
-    <author>Robin Tibor Schirrmeister, Rosanne Liu, Sara Hooker, Tonio Ball</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>How do neural network image classifiers respond to simpler and simpler inputs? And what do such responses reveal about the learning process? To answer these questions, we need a clear measure of input simplicity (or inversely, complexity), an optimization objective that correlates with simplification, and a framework to incorporate such objective into training and inference. Lastly we need a variety of testbeds to experiment and evaluate the impact of such simplification on learning. In this work, we measure simplicity with the encoding bit size given by a pretrained generative model, and minimize the bit size to simplify inputs in training and inference. We investigate the effect of such simplification in several scenarios: conventional training, dataset condensation and post-hoc explanations. In all settings, inputs are simplified along with the original classification task, and we investigate the trade-off between input simplicity and task performance. For images with injected distractors, such simplification naturally removes superfluous information. For dataset condensation, we find that inputs can be simplified with almost no accuracy degradation. When used in post-hoc explanation, our learning-based simplification approach offers a valuable new tool to explore the basis of network decisions.</description>
+    <title>Gaussian Elimination versus Greedy Methods for the Synthesis of Linear Reversible Circuits</title>
+    <link>http://arxiv.org/pdf/2201.06508</link>
+    <author>Timothée Goubault de Brugière, Marc Baboulin, Benoît Valiron, Simon Martiel, Cyril Allouche</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Linear reversible circuits represent a subclass of reversible circuits with many applications in quantum computing. These circuits can be efficiently simulated by classical computers and their size is polynomially bounded by the number of qubits, making them a good candidate to deploy efficient methods to reduce computational costs. We propose a new algorithm for synthesizing any linear reversible operator by using an optimized version of the Gaussian elimination algorithm coupled with a tuned LU factorization. We also improve the scalability of purely greedy methods. Overall, on random operators, our algorithms improve the state-of-the-art methods for specific ranges of problem sizes: the custom Gaussian elimination algorithm provides the best results for large problem sizes (n > 150) while the purely greedy methods provide quasi optimal results when n < 30. On a benchmark of reversible functions, we manage to significantly reduce the CNOT count and the depth of the circuit while keeping other metrics of importance (T-count, T-depth) as low as possible.</description>
   </item>
 
   <item>
-    <title>Multilingual Open Text 1.0: Public Domain News in 44 Languages</title>
-    <link>http://arxiv.org/pdf/2201.05609</link>
-    <author>Chester Palen-Michel, June Kim, Constantine Lignos</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We present a new multilingual corpus containing text in 44 languages, many of which have relatively few existing resources for natural language processing. The first release of the corpus contains over 2.7 million news articles and 1 million shorter passages published between 2001--2021, collected from Voice of America news websites. We describe our process for collecting, filtering, and processing the data. The source material is in the public domain, our collection is licensed using a creative commons license (CC BY 4.0), and all software used to create the corpus is released under the MIT License. The corpus will be regularly updated as additional documents are published.</description>
+    <title>Decoding techniques applied to the compilation of CNOT circuits for NISQ architectures</title>
+    <link>http://arxiv.org/pdf/2201.06457</link>
+    <author>Timothée Goubault de Brugière, Marc Baboulin, Benoît Valiron, Simon Martiel, Cyril Allouche</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Current proposals for quantum compilers require the synthesis and optimization of linear reversible circuits and among them CNOT circuits. Since these circuits represent a significant part of the cost of running an entire quantum circuit, we aim at reducing their size. In this paper we present a new algorithm for the synthesis of CNOT circuits based on the solution of the syndrome decoding problem. Our method addresses the case of ideal hardware with an all-to-all qubit connectivity and the case of near-term quantum devices with restricted connectivity. For both cases, we present benchmarks showing that our algorithm outperforms existing algorithms.</description>
   </item>
 
   <item>
-    <title>Energies for elastic plates and shells from quadratic-stretch elasticity</title>
-    <link>http://arxiv.org/pdf/2201.05608</link>
-    <author>E. Vitral, J. A. Hanna</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We derive stretching and bending energies for isotropic elastic plates and shells. Through the dimensional reduction of a bulk elastic energy quadratic in Biot strains, we obtain two-dimensional bending energies quadratic in bending measures featuring a bilinear coupling of stretches and geometric curvatures. For plates, the bending measure is invariant under spatial dilations and naturally extends primitive bending strains for straight rods. For shells or naturally-curved rods, the measure is not dilation invariant, and contrasts with previous \emphad hoc postulated forms. The corresponding field equations and boundary conditions feature moments linear in the bending measures, such that application of a pure moment results in isometric deformation of a unique neutral surface, a primitive behavior in agreement with classical linear response but not displayed by commonly used analytical models. We briefly comment on relations between our energies, those derived from a neo-Hookean bulk energy, and a commonly used discrete model for flat membranes. Although the derivation requires consideration of stretch and rotation fields, the resulting energy and field equations can be expressed entirely in terms of metric and curvature components of deformed and reference surfaces.</description>
+    <title>Reducing the Depth of Linear Reversible Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2201.06380</link>
+    <author>Timothée Goubault de Brugière, Marc Baboulin, Benoît Valiron, Simon Martiel, Cyril Allouche</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>In quantum computing the decoherence time of the qubits determines the computation time available and this time is very limited when using current hardware. In this paper we minimize the execution time (the depth) for a class of circuits referred to as linear reversible circuits, which has many applications in quantum computing (e.g., stabilizer circuits, CNOT+T circuits, etc.). We propose a practical formulation of a divide and conquer algorithm that produces quantum circuits that are twice as shallow as those produced by existing algorithms. We improve the theoretical upper bound of the depth in the worst case for some range of qubits. We also propose greedy algorithms based on cost minimization to find more optimal circuits for small or simple operators. Overall, we manage to consistently reduce the total depth of a class of reversible functions, with up to 92% savings in an ancilla-free case and up to 99% when ancillary qubits are available.</description>
   </item>
 
 </channel>

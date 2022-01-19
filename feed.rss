@@ -55,27 +55,19 @@
   </item>
 
   <item>
-    <title>Cryptography from Pseudorandom Quantum States</title>
-    <link>http://arxiv.org/pdf/2112.10020</link>
-    <author>Prabhanjan Ananth, Luowen Qian, Henry Yuen</author>
-    <pubDate>Dec 21 2021</pubDate>
-    <description>Pseudorandom states, introduced by Ji, Liu and Song (Crypto'18), are efficiently-computable quantum states that are computationally indistinguishable from Haar-random states. One-way functions imply the existence of pseudorandom states, but Kretschmer (TQC'20) recently constructed an oracle relative to which there are no one-way functions but pseudorandom states still exist. Motivated by this, we study the intriguing possibility of basing interesting cryptographic tasks on pseudorandom states. We construct, assuming the existence of pseudorandom state generators that map a $\lambda$-bit seed to a $\omega(\log\lambda)$-qubit state, (a) statistically binding and computationally hiding commitments and (b) pseudo one-time encryption schemes. A consequence of (a) is that pseudorandom states are sufficient to construct maliciously secure multiparty computation protocols in the dishonest majority setting. Our constructions are derived via a new notion called pseudorandom function-like states (PRFS), a generalization of pseudorandom states that parallels the classical notion of pseudorandom functions. Beyond the above two applications, we believe our notion can effectively replace pseudorandom functions in many other cryptographic applications.</description>
-  </item>
-
-  <item>
-    <title>Quantum Merkle Trees</title>
-    <link>http://arxiv.org/pdf/2112.14317</link>
-    <author>Lijie Chen, Ramis Movassagh</author>
-    <pubDate>Dec 30 2021</pubDate>
-    <description>Commitment scheme is a central task in cryptography, where a party (typically called a prover) stores a piece of information (e.g., a bit string) with the promise of not changing it. This information can be accessed by another party (typically called the verifier), who can later learn the information and verify that it was not meddled with. Merkle tree is a well-known construction for doing so in a succinct manner, in which the verfier can learn any part of the information by receiving a short proof from the honest prover. Despite its significance in classical cryptography, there was no quantum analog of the Merkle tree. A direct generalization using the Quantum Random Oracle Model (QROM) does not seem to be secure. In this work, we propose the quantum Merkle tree. It is based on what we call the Quantum Haar Random Oracle Model (QHROM). In QHROM, both the prover and the verifier have access to a Haar random quantum oracle G and its inverse. Using the quantum Merkle tree, we propose a succinct quantum argument for the Gap-k-Local-Hamiltonian problem. We prove it is secure against semi-honest provers in QHROM and conjecture its general security. Assuming the Quantum PCP conjecture is true, this succinct argument extends to all of QMA. This work raises a number of interesting open research problems.</description>
-  </item>
-
-  <item>
     <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
     <link>http://arxiv.org/pdf/2201.05153</link>
     <author>Yu-An Chen, Yijia Xu</author>
     <pubDate>Jan 14 2022</pubDate>
     <description>We argue that all locality-preserving mappings between fermionic observables and Pauli matrices on a two-dimensional lattice can be generated from the exact bosonization in Ref. [1], whose gauge constraints project onto the subspace of the toric code with emergent fermions. Starting from the exact bosonization and applying Clifford finite-depth generalized local unitary (gLU) transformation, we can achieve all possible fermion-to-qubit mappings (up to the re-pairing of Majorana fermions). In particular, we discover a new super-compact encoding using 1.25 qubits per fermion on the square lattice, which is lower than any method in the literature. We prove the existence of fermion-to-qubit mappings with qubit-fermion ratios $r=1+ \frac{1}{2k}$ for positive integers $k$, where the proof utilizes the trivialness of quantum cellular automata (QCA) in two spatial dimensions. When the ratio approaches 1, the fermion-to-qubit mapping reduces to the 1d Jordan-Wigner transformation along a certain path in the two-dimensional lattice. Finally, we explicitly demonstrate that the Bravyi-Kitaev superfast simulation, the Verstraete-Cirac auxiliary method, Kitaev's exactly solved model, the Majorana loop stabilizer codes, and the compact fermion-to-qubit mapping can all be obtained from the exact bosonization.</description>
+  </item>
+
+  <item>
+    <title>Cryptography from Pseudorandom Quantum States</title>
+    <link>http://arxiv.org/pdf/2112.10020</link>
+    <author>Prabhanjan Ananth, Luowen Qian, Henry Yuen</author>
+    <pubDate>Dec 21 2021</pubDate>
+    <description>Pseudorandom states, introduced by Ji, Liu and Song (Crypto'18), are efficiently-computable quantum states that are computationally indistinguishable from Haar-random states. One-way functions imply the existence of pseudorandom states, but Kretschmer (TQC'20) recently constructed an oracle relative to which there are no one-way functions but pseudorandom states still exist. Motivated by this, we study the intriguing possibility of basing interesting cryptographic tasks on pseudorandom states. We construct, assuming the existence of pseudorandom state generators that map a $\lambda$-bit seed to a $\omega(\log\lambda)$-qubit state, (a) statistically binding and computationally hiding commitments and (b) pseudo one-time encryption schemes. A consequence of (a) is that pseudorandom states are sufficient to construct maliciously secure multiparty computation protocols in the dishonest majority setting. Our constructions are derived via a new notion called pseudorandom function-like states (PRFS), a generalization of pseudorandom states that parallels the classical notion of pseudorandom functions. Beyond the above two applications, we believe our notion can effectively replace pseudorandom functions in many other cryptographic applications.</description>
   </item>
 
   <item>
@@ -87,19 +79,19 @@
   </item>
 
   <item>
+    <title>Quantum Merkle Trees</title>
+    <link>http://arxiv.org/pdf/2112.14317</link>
+    <author>Lijie Chen, Ramis Movassagh</author>
+    <pubDate>Dec 30 2021</pubDate>
+    <description>Commitment scheme is a central task in cryptography, where a party (typically called a prover) stores a piece of information (e.g., a bit string) with the promise of not changing it. This information can be accessed by another party (typically called the verifier), who can later learn the information and verify that it was not meddled with. Merkle tree is a well-known construction for doing so in a succinct manner, in which the verfier can learn any part of the information by receiving a short proof from the honest prover. Despite its significance in classical cryptography, there was no quantum analog of the Merkle tree. A direct generalization using the Quantum Random Oracle Model (QROM) does not seem to be secure. In this work, we propose the quantum Merkle tree. It is based on what we call the Quantum Haar Random Oracle Model (QHROM). In QHROM, both the prover and the verifier have access to a Haar random quantum oracle G and its inverse. Using the quantum Merkle tree, we propose a succinct quantum argument for the Gap-k-Local-Hamiltonian problem. We prove it is secure against semi-honest provers in QHROM and conjecture its general security. Assuming the Quantum PCP conjecture is true, this succinct argument extends to all of QMA. This work raises a number of interesting open research problems.</description>
+  </item>
+
+  <item>
     <title>Oracle separations of hybrid quantum-classical circuits</title>
     <link>http://arxiv.org/pdf/2201.01904</link>
     <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
     <pubDate>Jan 07 2022</pubDate>
     <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
-  </item>
-
-  <item>
-    <title>Limits on Parameter Estimation of Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2201.01738</link>
-    <author>Vishal Katariya</author>
-    <pubDate>Jan 06 2022</pubDate>
-    <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
   </item>
 
   <item>
@@ -119,27 +111,19 @@
   </item>
 
   <item>
+    <title>Limits on Parameter Estimation of Quantum Channels</title>
+    <link>http://arxiv.org/pdf/2201.01738</link>
+    <author>Vishal Katariya</author>
+    <pubDate>Jan 06 2022</pubDate>
+    <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
+  </item>
+
+  <item>
     <title>Pauli stabilizer models of twisted quantum doubles</title>
     <link>http://arxiv.org/pdf/2112.11394</link>
     <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
     <pubDate>Dec 22 2021</pubDate>
     <description>We construct a Pauli stabilizer model for every two-dimensional Abelian topological order that admits a gapped boundary. Our primary example is a Pauli stabilizer model on four-dimensional qudits that belongs to the double semion (DS) phase of matter. The DS stabilizer Hamiltonian is constructed by condensing an emergent boson in a $\mathbb{Z}_4$ toric code, where the condensation is implemented by making certain two-body measurements. We rigorously verify the topological order of the DS stabilizer model by identifying an explicit finite-depth quantum circuit (with ancillary qubits) that maps its ground state subspace to that of a DS string-net model. We show that the construction of the DS stabilizer Hamiltonian generalizes to all twisted quantum doubles (TQDs) with Abelian anyons. This yields a Pauli stabilizer code on composite-dimensional qudits for each such TQD, implying that the classification of topological Pauli stabilizer codes extends well beyond stacks of toric codes - in fact, exhausting all Abelian anyon theories that admit a gapped boundary. We also demonstrate that symmetry-protected topological phases of matter characterized by type I and type II cocycles can be modeled by Pauli stabilizer Hamiltonians by gauging certain 1-form symmetries of the TQD stabilizer models.</description>
-  </item>
-
-  <item>
-    <title>Yet Another Proof of the Joint Convexity of Relative Entropy</title>
-    <link>http://arxiv.org/pdf/2112.13763</link>
-    <author>Mary Beth Ruskai</author>
-    <pubDate>Dec 28 2021</pubDate>
-    <description>The joint convexity of the map $(X,A) \mapsto X^* A^{-1} X$, an integral representation of convex operator functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.</description>
-  </item>
-
-  <item>
-    <title>Rescaling decoder for 2D topological quantum color codes on 4.8.8 lattices</title>
-    <link>http://arxiv.org/pdf/2112.09584</link>
-    <author>Pedro Parrado-Rodríguez, Manuel Rispler, Markus Müller</author>
-    <pubDate>Dec 20 2021</pubDate>
-    <description>Fault-tolerant quantum computation relies on scaling up quantum error correcting codes in order to suppress the error rate on the encoded quantum states. Topological codes, such as the surface code or color codes are leading candidates for practical scalable quantum error correction and require efficient and scalable decoders. In this work, we propose and study the efficiency of a decoder for 2D topological color codes on the 4.8.8 lattice, by building on the work of [1] for color codes on hexagonal lattices. The decoder is based on a rescaling approach, in which syndrome information on a part of the qubit lattice is processed locally, and then the lattice is rescaled iteratively to smaller sizes. We find a threshold of 6.0% for code capacity noise.</description>
   </item>
 
   <item>
@@ -159,6 +143,30 @@
   </item>
 
   <item>
+    <title>Yet Another Proof of the Joint Convexity of Relative Entropy</title>
+    <link>http://arxiv.org/pdf/2112.13763</link>
+    <author>Mary Beth Ruskai</author>
+    <pubDate>Dec 28 2021</pubDate>
+    <description>The joint convexity of the map $(X,A) \mapsto X^* A^{-1} X$, an integral representation of convex operator functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.</description>
+  </item>
+
+  <item>
+    <title>Rescaling decoder for 2D topological quantum color codes on 4.8.8 lattices</title>
+    <link>http://arxiv.org/pdf/2112.09584</link>
+    <author>Pedro Parrado-Rodríguez, Manuel Rispler, Markus Müller</author>
+    <pubDate>Dec 20 2021</pubDate>
+    <description>Fault-tolerant quantum computation relies on scaling up quantum error correcting codes in order to suppress the error rate on the encoded quantum states. Topological codes, such as the surface code or color codes are leading candidates for practical scalable quantum error correction and require efficient and scalable decoders. In this work, we propose and study the efficiency of a decoder for 2D topological color codes on the 4.8.8 lattice, by building on the work of [1] for color codes on hexagonal lattices. The decoder is based on a rescaling approach, in which syndrome information on a part of the qubit lattice is processed locally, and then the lattice is rescaled iteratively to smaller sizes. We find a threshold of 6.0% for code capacity noise.</description>
+  </item>
+
+  <item>
+    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2201.05215</link>
+    <author>Dmitri Maslov, Ben Zindorf</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
+  </item>
+
+  <item>
     <title>Exact quantum query complexity of computing Hamming weight modulo powers of two and three</title>
     <link>http://arxiv.org/pdf/2112.14682</link>
     <author>Arjan Cornelissen, Nikhil S. Mande, Maris Ozols, Ronald de Wolf</author>
@@ -175,6 +183,14 @@
   </item>
 
   <item>
+    <title>Quantum Distributed Algorithms for Detection of Cliques</title>
+    <link>http://arxiv.org/pdf/2201.03000</link>
+    <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>The possibilities offered by quantum computing have drawn attention in the distributed computing community recently, with several breakthrough results showing quantum distributed algorithms that run faster than the fastest known classical counterparts, and even separations between the two models. A prime example is the result by Izumi, Le Gall, and Magniez [STACS 2020], who showed that triangle detection by quantum distributed algorithms is easier than triangle listing, while an analogous result is not known in the classical case. In this paper we present a framework for fast quantum distributed clique detection. This improves upon the state-of-the-art for the triangle case, and is also more general, applying to larger clique sizes. Our main technical contribution is a new approach for detecting cliques by encapsulating this as a search task for nodes that can be added to smaller cliques. To extract the best complexities out of our approach, we develop a framework for nested distributed quantum searches, which employ checking procedures that are quantum themselves. Moreover, we show a circuit-complexity barrier on proving a lower bound of the form $\Omega(n^{3/5+\epsilon})$ for $K_p$-detection for any $p \geq 4$, even in the classical (non-quantum) distributed CONGEST setting.</description>
+  </item>
+
+  <item>
     <title>Toward Trainability of Deep Quantum Neural Networks</title>
     <link>http://arxiv.org/pdf/2112.15002</link>
     <author>Kaining Zhang, Min-Hsiu Hsieh, Liu Liu, Dacheng Tao</author>
@@ -188,6 +204,14 @@
     <author>Zoë Holmes, Nolan Coble, Andrew T. Sornborger, Yiğit Subaşı</author>
     <pubDate>Dec 24 2021</pubDate>
     <description>While quantum computers are naturally well-suited to implementing linear operations, it is less clear how to implement nonlinear operations on quantum computers. However, nonlinear subroutines may prove key to a range of applications of quantum computing from solving nonlinear equations to data processing and quantum machine learning. Here we develop algorithms for implementing nonlinear transformations of input quantum states. Our algorithms are framed around the concept of a weighted state, a mathematical entity describing the output of an operational procedure involving both quantum circuits and classical post-processing.</description>
+  </item>
+
+  <item>
+    <title>Systematic Literature Review: Quantum Machine Learning and its applications</title>
+    <link>http://arxiv.org/pdf/2201.04093</link>
+    <author>David Peral García, Juan Cruz-Benito, Francisco José García-Peñalvo</author>
+    <pubDate>Jan 12 2022</pubDate>
+    <description>Quantum computing is the process of performing calculations using quantum mechanics. This field studies the quantum behavior of certain subatomic particles for subsequent use in performing calculations, as well as for large-scale information processing. These capabilities can give quantum computers an advantage in terms of computational time and cost over classical computers. Nowadays, there are scientific challenges that are impossible to perform by classical computation due to computational complexity or the time the calculation would take, and quantum computation is one of the possible answers. However, current quantum devices have not yet the necessary qubits and are not fault-tolerant enough to achieve these goals. Nonetheless, there are other fields like machine learning or chemistry where quantum computation could be useful with current quantum devices. This manuscript aims to present a Systematic Literature Review of the papers published between 2017 and 2021 to identify, analyze and classify the different algorithms used in quantum machine learning and their applications. Consequently, this study identified 52 articles that used quantum machine learning techniques and algorithms. The main types of found algorithms are quantum implementations of classical machine learning algorithms, such as support vector machines or the k-nearest neighbor model, and classical deep learning algorithms, like quantum neural networks. Many articles try to solve problems currently answered by classical machine learning but using quantum devices and algorithms. Even though results are promising, quantum machine learning is far from achieving its full potential. An improvement in the quantum hardware is required since the existing quantum computers lack enough quality, speed, and scale to allow quantum computing to achieve its full potential.</description>
   </item>
 
   <item>
@@ -220,30 +244,6 @@
     <author>Bartosz Regula</author>
     <pubDate>Dec 22 2021</pubDate>
     <description>We develop two general approaches to characterising the manipulation of quantum states by means of probabilistic protocols constrained by the limitations of some quantum resource theory. First, we give a general necessary condition for the existence of a physical transformation between quantum states, obtained using a new resource monotone based on the Hilbert projective metric. In all affine quantum resource theories (e.g. coherence, asymmetry, imaginarity) as well as in entanglement distillation, we show that the monotone provides a necessary and sufficient condition for resource convertibility, and hence no better restrictions on all probabilistic protocols are possible. We use the monotone to establish improved bounds on the performance of both one-shot and many-copy probabilistic resource distillation protocols. Complementing this approach, we introduce a general method for bounding achievable probabilities in resource transformations through a family of convex optimisation problems. We show it to tightly characterise single-shot probabilistic distillation in broad types of resource theories, allowing an exact analysis of the trade-offs between the probabilities and errors in distilling maximally resourceful states. We demonstrate the usefulness of both of our approaches in the study of quantum entanglement distillation.</description>
-  </item>
-
-  <item>
-    <title>Scalable randomized benchmarking of quantum computers using mirror circuits</title>
-    <link>http://arxiv.org/pdf/2112.09853</link>
-    <author>Timothy Proctor, Stefan Seritan, Kenneth Rudinger, Erik Nielsen, Robin Blume-Kohout, Kevin Young</author>
-    <pubDate>Dec 21 2021</pubDate>
-    <description>The performance of quantum gates is often assessed using some form of randomized benchmarking. However, the existing methods become infeasible for more than approximately five qubits. Here we show how to use a simple and customizable class of circuits -- randomized mirror circuits -- to perform scalable, robust, and flexible randomized benchmarking of Clifford gates. We show that this technique approximately estimates the infidelity of an average many-qubit logic layer, and we use simulations of up to 225 qubits with physically realistic error rates in the range 0.1%-1% to demonstrate its scalability. We then use experiments on up to 16 qubits to demonstrate that our technique can reveal and quantify crosstalk errors in many-qubit circuits.</description>
-  </item>
-
-  <item>
-    <title>Quantum Distributed Algorithms for Detection of Cliques</title>
-    <link>http://arxiv.org/pdf/2201.03000</link>
-    <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
-    <pubDate>Jan 11 2022</pubDate>
-    <description>The possibilities offered by quantum computing have drawn attention in the distributed computing community recently, with several breakthrough results showing quantum distributed algorithms that run faster than the fastest known classical counterparts, and even separations between the two models. A prime example is the result by Izumi, Le Gall, and Magniez [STACS 2020], who showed that triangle detection by quantum distributed algorithms is easier than triangle listing, while an analogous result is not known in the classical case. In this paper we present a framework for fast quantum distributed clique detection. This improves upon the state-of-the-art for the triangle case, and is also more general, applying to larger clique sizes. Our main technical contribution is a new approach for detecting cliques by encapsulating this as a search task for nodes that can be added to smaller cliques. To extract the best complexities out of our approach, we develop a framework for nested distributed quantum searches, which employ checking procedures that are quantum themselves. Moreover, we show a circuit-complexity barrier on proving a lower bound of the form $\Omega(n^{3/5+\epsilon})$ for $K_p$-detection for any $p \geq 4$, even in the classical (non-quantum) distributed CONGEST setting.</description>
-  </item>
-
-  <item>
-    <title>Active Learning of Quantum System Hamiltonians yields Query Advantage</title>
-    <link>http://arxiv.org/pdf/2112.14553</link>
-    <author>Arkopal Dutt, Edwin Pednault, Chai Wah Wu, Sarah Sheldon, John Smolin, Lev Bishop, Isaac L. Chuang</author>
-    <pubDate>Dec 30 2021</pubDate>
-    <description>Hamiltonian learning is an important procedure in quantum system identification, calibration, and successful operation of quantum computers. Through queries to the quantum system, this procedure seeks to obtain the parameters of a given Hamiltonian model and description of noise sources. Standard techniques for Hamiltonian learning require careful design of queries and $O(\epsilon^{-2})$ queries in achieving learning error $\epsilon$ due to the standard quantum limit. With the goal of efficiently and accurately estimating the Hamiltonian parameters within learning error $\epsilon$ through minimal queries, we introduce an active learner that is given an initial set of training examples and the ability to interactively query the quantum system to generate new training data. We formally specify and experimentally assess the performance of this Hamiltonian active learning (HAL) algorithm for learning the six parameters of a two-qubit cross-resonance Hamiltonian on four different superconducting IBM Quantum devices. Compared with standard techniques for the same problem and a specified learning error, HAL achieves up to a $99.8\%$ reduction in queries required, and a $99.1\%$ reduction over the comparable non-adaptive learning algorithm. Moreover, with access to prior information on a subset of Hamiltonian parameters and given the ability to select queries with linearly (or exponentially) longer system interaction times during learning, HAL can exceed the standard quantum limit and achieve Heisenberg (or super-Heisenberg) limited convergence rates during learning.</description>
   </item>
 
 </channel>
