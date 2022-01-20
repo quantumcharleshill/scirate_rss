@@ -71,14 +71,6 @@
   </item>
 
   <item>
-    <title>Training variational quantum algorithms is NP-hard -- even for logarithmically many qubits and free fermionic systems</title>
-    <link>http://arxiv.org/pdf/2101.07267</link>
-    <author>Lennart Bittel, Martin Kliesch</author>
-    <pubDate>Jan 20 2021</pubDate>
-    <description>Variational quantum algorithms (VQAs) are proposed to solve relevant computational problems on near term quantum devices. Popular versions are variational quantum eigensolvers (VQEs) and quantum approximate optimization algorithms (QAOAs) that solve ground state problems from quantum chemistry and binary optimization problems, respectively. They are based on the idea to use a classical computer to train a parameterized quantum circuit. We show that the corresponding classical optimization problems are NP-hard. Moreover, the hardness is robust in the sense that for every polynomial time algorithm, there exists instances for which the relative error resulting from the classical optimization problem can be arbitrarily large, unless P = NP. Even for classically tractable systems, composed of only logarithmically many qubits or free fermions, we show that the optimization is NP-hard. This elucidates that the classical optimization is intrinsically hard and does not merely inherit the hardness from the ground state problem. Our analysis shows that the training landscape can have many far from optimal persistent local minima. This means gradient and higher order decent algorithms will generally converge to far from optimal solutions.</description>
-  </item>
-
-  <item>
     <title>Asymptotically Good Quantum and Locally Testable Classical LDPC Codes</title>
     <link>http://arxiv.org/pdf/2111.03654</link>
     <author>Pavel Panteleev, Gleb Kalachev</author>
@@ -119,19 +111,19 @@
   </item>
 
   <item>
-    <title>An area law for 2D frustration-free spin systems</title>
-    <link>http://arxiv.org/pdf/2103.02492</link>
-    <author>Anurag Anshu, Itai Arad, David Gosset</author>
-    <pubDate>Mar 04 2021</pubDate>
-    <description>We prove that the entanglement entropy of the ground state of a locally gapped frustration-free 2D lattice spin system satisfies an area law with respect to a vertical bipartition of the lattice into left and right regions. We first establish that the ground state projector of any locally gapped frustration-free 1D spin system can be approximated to within error $\epsilon$ by a degree $O(\sqrt{n\log(\epsilon^{-1})})$ multivariate polynomial in the interaction terms of the Hamiltonian. This generalizes the optimal bound on the approximate degree of the boolean AND function, which corresponds to the special case of commuting Hamiltonian terms. For 2D spin systems we then construct an approximate ground state projector (AGSP) that employs the optimal 1D approximation in the vicinity of the boundary of the bipartition of interest. This AGSP has sufficiently low entanglement and error to establish the area law using a known technique.</description>
-  </item>
-
-  <item>
     <title>Averaged circuit eigenvalue sampling</title>
     <link>http://arxiv.org/pdf/2108.05803</link>
     <author>Steven T. Flammia</author>
     <pubDate>Aug 13 2021</pubDate>
     <description>We introduce ACES, a method for scalable noise metrology of quantum circuits that stands for Averaged Circuit Eigenvalue Sampling. It simultaneously estimates the individual error rates of all the gates in collections of quantum circuits, and can even account for space and time correlations between these gates. ACES strictly generalizes randomized benchmarking (RB), interleaved RB, simultaneous RB, and several other related techniques. However, ACES provides much more information and provably works under strictly weaker assumptions than these techniques. Finally, ACES is extremely scalable: we demonstrate with numerical simulations that it simultaneously and precisely estimates all the Pauli error rates on every gate and measurement in a 100 qubit quantum device using fewer than 20 relatively shallow Clifford circuits and an experimentally feasible number of samples. By learning the detailed gate errors for large quantum devices, ACES opens new possibilities for error mitigation, bespoke quantum error correcting codes and decoders, customized compilers, and more.</description>
+  </item>
+
+  <item>
+    <title>An area law for 2D frustration-free spin systems</title>
+    <link>http://arxiv.org/pdf/2103.02492</link>
+    <author>Anurag Anshu, Itai Arad, David Gosset</author>
+    <pubDate>Mar 04 2021</pubDate>
+    <description>We prove that the entanglement entropy of the ground state of a locally gapped frustration-free 2D lattice spin system satisfies an area law with respect to a vertical bipartition of the lattice into left and right regions. We first establish that the ground state projector of any locally gapped frustration-free 1D spin system can be approximated to within error $\epsilon$ by a degree $O(\sqrt{n\log(\epsilon^{-1})})$ multivariate polynomial in the interaction terms of the Hamiltonian. This generalizes the optimal bound on the approximate degree of the boolean AND function, which corresponds to the special case of commuting Hamiltonian terms. For 2D spin systems we then construct an approximate ground state projector (AGSP) that employs the optimal 1D approximation in the vicinity of the boundary of the bipartition of interest. This AGSP has sufficiently low entanglement and error to establish the area law using a known technique.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Maxime A. Tremblay, Nicolas Delfosse, Michael E. Beverland</author>
     <pubDate>Sep 30 2021</pubDate>
     <description>Quantum LDPC codes may provide a path to build low-overhead fault-tolerant quantum computers. However, as general LDPC codes lack geometric constraints, naïve layouts couple many distant qubits with crossing connections which could be hard to build in hardware and could result in performance-degrading crosstalk. We propose a 2D layout for quantum LDPC codes by decomposing their Tanner graphs into a small number of planar layers. Each layer contains long-range connections which do not cross. For any CSS code with a degree-$\delta$ Tanner graph, we design stabilizer measurement circuits with depth at most $(2\delta +2)$ using at most $\lceil \delta/2 \rceil$ layers. We observe a circuit-noise threshold of 0.28\% for a positive-rate code family using 49 physical qubits per logical qubit. For a physical error rate of $10^{-4}$, this family reaches a logical error rate of $10^{-15}$ using fourteen times fewer physical qubits than the surface code.</description>
+  </item>
+
+  <item>
+    <title>Permanent of random matrices from representation theory: moments, numerics, concentration, and comments on hardness of boson-sampling</title>
+    <link>http://arxiv.org/pdf/2104.06423</link>
+    <author>Sepehr Nezami</author>
+    <pubDate>Apr 15 2021</pubDate>
+    <description>Computing the distribution of permanents of random matrices has been an outstanding open problem for several decades. In quantum computing, "anti-concentration" of this distribution is an unproven input for the proof of hardness of the task of boson-sampling. We study permanents of random i.i.d. complex Gaussian matrices, and more broadly, submatrices of random unitary matrices. Using a hybrid representation-theoretic and combinatorial approach, we prove strong lower bounds for all moments of the permanent distribution. We provide substantial evidence that our bounds are close to being tight and constitute accurate estimates for the moments. Let $U(d)^{k\times k}$ be the distribution of $k\times k$ submatrices of $d\times d$ random unitary matrices, and $G^{k\times k}$ be the distribution of $k\times k$ complex Gaussian matrices. (1) Using the Schur-Weyl duality (or the Howe duality), we prove an expansion formula for the $2t$-th moment of $|Perm(M)|$ when $M$ is drawn from $U(d)^{k\times k}$ or $G^{k\times k}$. (2) We prove a surprising size-moment duality: the $2t$-th moment of the permanent of random $k\times k$ matrices is equal to the $2k$-th moment of the permanent of $t\times t$ matrices. (3) We design an algorithm to exactly compute high moments of the permanent of small matrices. (4) We prove lower bounds for arbitrary moments of permanents of matrices drawn from $G^{ k\times k}$ or $U(k)$, and conjecture that our lower bounds are close to saturation up to a small multiplicative error. (5) Assuming our conjectures, we use the large deviation theory to compute the tail of the distribution of log-permanent of Gaussian matrices for the first time. (6) We argue that it is unlikely that the permanent distribution can be uniquely determined from the integer moments and one may need to supplement the moment calculations with extra assumptions to prove the anti-concentration conjecture.</description>
   </item>
 
 </channel>

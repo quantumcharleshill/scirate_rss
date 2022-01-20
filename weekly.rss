@@ -15,6 +15,22 @@
   </item>
 
   <item>
+    <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
+    <link>http://arxiv.org/pdf/2201.05678</link>
+    <author>Christopher Chamberland, Earl T. Campbell</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
+  </item>
+
+  <item>
+    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
+    <link>http://arxiv.org/pdf/2201.06533</link>
+    <author>Tyler Helmuth, Ryan L. Mann</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
+  </item>
+
+  <item>
     <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
     <link>http://arxiv.org/pdf/2201.05215</link>
     <author>Dmitri Maslov, Ben Zindorf</author>
@@ -31,11 +47,11 @@
   </item>
 
   <item>
-    <title>On the Consilience between QBism and Phenomenology</title>
-    <link>http://arxiv.org/pdf/2201.04734</link>
-    <author>Hans Christian von Baeyer</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Two decades after its creation, the interpretation of quantum mechanics called QBism is entering a new phase. Since it shares a personalist, subjective world-view with phenomenology, the philosophical study of human experience, there is a growing interest in the relationship between the two subjects. I call attention to the little-known philosopher Samuel Todes, whose phenomenology focused on the essential role of the human body in our understanding of the world. After reviewing this radical proposal, and illustrating it with some examples, I recommend it as an interesting mediator between the communities of physicists and phenomenologists. In addition, I argue that it may prove useful for promoting the public understanding of QBism.</description>
+    <title>Cut query algorithms with star contraction</title>
+    <link>http://arxiv.org/pdf/2201.05674</link>
+    <author>Simon Apers, Yuval Efron, Paweł Gawrychowski, Troy Lee, Sagnik Mukhopadhyay, Danupon Nanongkai</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>We study the complexity of determining the edge connectivity of a simple graph with cut queries. We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$ cut queries, and (ii) there is a bounded-error quantum algorithm that computes edge connectivity with $\~O(\sqrt{n})$ cut queries. We prove these results using a new technique called "star contraction" to randomly contract edges of a graph while preserving non-trivial minimum cuts. In star contraction vertices randomly contract an edge incident on a small set of randomly chosen vertices. In contrast to the related 2-out contraction technique of Ghaffari, Nowicki, and Thorup [SODA'20], star contraction only contracts vertex-disjoint star subgraphs, which allows it to be efficiently implemented via cut queries. The $O(n)$ bound from item (i) was not known even for the simpler problem of connectivity, and improves the $O(n\log^3 n)$ bound by Rubinstein, Schramm, and Weinberg [ITCS'18]. The bound is tight under the reasonable conjecture that the randomized communication complexity of connectivity is $\Omega(n\log n)$, an open question since the seminal work of Babai, Frankl, and Simon [FOCS'86]. The bound also excludes using edge connectivity on simple graphs to prove a superlinear randomized query lower bound for minimizing a symmetric submodular function. Item (ii) gives a nearly-quadratic separation with the randomized complexity and addresses an open question of Lee, Santha, and Zhang [SODA'21]. The algorithm can also be viewed as making $\~O(\sqrt{n})$ matrix-vector multiplication queries to the adjacency matrix. Finally, we demonstrate the use of star contraction outside of the cut query setting by designing a one-pass semi-streaming algorithm for computing edge connectivity in the vertex arrival setting. This contrasts with the edge arrival setting where two passes are required.</description>
   </item>
 
   <item>
@@ -47,6 +63,14 @@
   </item>
 
   <item>
+    <title>On the Consilience between QBism and Phenomenology</title>
+    <link>http://arxiv.org/pdf/2201.04734</link>
+    <author>Hans Christian von Baeyer</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>Two decades after its creation, the interpretation of quantum mechanics called QBism is entering a new phase. Since it shares a personalist, subjective world-view with phenomenology, the philosophical study of human experience, there is a growing interest in the relationship between the two subjects. I call attention to the little-known philosopher Samuel Todes, whose phenomenology focused on the essential role of the human body in our understanding of the world. After reviewing this radical proposal, and illustrating it with some examples, I recommend it as an interesting mediator between the communities of physicists and phenomenologists. In addition, I argue that it may prove useful for promoting the public understanding of QBism.</description>
+  </item>
+
+  <item>
     <title>Test-measured Rényi divergences</title>
     <link>http://arxiv.org/pdf/2201.05477</link>
     <author>Milán Mosonyi, Fumio Hiai</author>
@@ -55,35 +79,11 @@
   </item>
 
   <item>
-    <title>Towards real-world quantum networks: a review</title>
-    <link>http://arxiv.org/pdf/2201.04802</link>
-    <author>Shi-Hai Wei, Bo Jing, Xue-Ying Zhang, Jin-Yu Liao, Chen-Zhi Yuan, Bo-Yu Fan, Chen Lyu, Dian-Li Zhou, You Wang, Guang-Wei Deng, Hai-Zhi Song, Daniel Oblak, Guang-Can Guo, Qiang Zhou</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Quantum networks play an extremely important role in quantum information science, with application to quantum communication, computation, metrology and fundamental tests. One of the key challenges for implementing a quantum network is to distribute entangled flying qubits to spatially separated nodes, at which quantum interfaces or transducers map the entanglement onto stationary qubits. The stationary qubits at the separated nodes constitute quantum memories realized in matter while the flying qubits constitute quantum channels realized in photons. Dedicated efforts around the world for more than twenty years have resulted in both major theoretical and experimental progress towards entangling quantum nodes and ultimately building a global quantum network. Here, we review the development of quantum networks and the experimental progress over the past two decades leading to the current state of the art for generating entanglement of quantum nodes based on various physical systems such as single atoms, cold atomic ensembles, trapped ions, diamonds with Nitrogen-Vacancy centers, solid-state host doped with rare-earth ions, etc. Along the way we discuss the merits and compare the potential of each of these systems towards realizing a quantum network.</description>
-  </item>
-
-  <item>
-    <title>Universality and sharp matrix concentration inequalities</title>
-    <link>http://arxiv.org/pdf/2201.05142</link>
-    <author>Tatiana Brailovskaya, Ramon van Handel</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>We show that, under mild assumptions, the spectrum of a sum of independent random matrices is close to that of the Gaussian random matrix whose entries have the same mean and covariance. This nonasymptotic universality principle both explains the phenomenon behind classical matrix concentration inequalities such as the matrix Bernstein inequality, and yields new sharp matrix concentration inequalities for general sums of independent random matrices when combined with the recent Gaussian theory of Bandeira, Boedihardjo, and Van Handel. As an application of our main results, we prove strong asymptotic freeness of a very general class of random matrix models with non-Gaussian, nonhomogeneous, and dependent entries.</description>
-  </item>
-
-  <item>
-    <title>A local-realistic theory for fermions</title>
-    <link>http://arxiv.org/pdf/2201.04553</link>
-    <author>Nicetu Tibau Vidal, Vlatko Vedral, Chiara Marletto</author>
-    <pubDate>Jan 13 2022</pubDate>
-    <description>We propose a local model for general fermionic systems, which we express in the Heisenberg picture. To this end, we shall use a recently proposed formalism, the so-called "Raymond-Robichaud" construction, which allows one to construct an explicitly local model for any dynamical theory that satisfies no-signalling, in terms of equivalence classes of transformations that can be attached to each individual subsystem. By following the rigorous use of the parity superselection rule for fermions, we show how this construction removes the usual difficulties that fermionic systems display in regard to the definition of local states and local transformations.</description>
-  </item>
-
-  <item>
-    <title>Decompositional Quantum Graph Neural Network</title>
-    <link>http://arxiv.org/pdf/2201.05158</link>
-    <author>Xing Ai, Zhihong Zhang, Luzhe Sun, Junchi Yan, Edwin Hancock</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>Quantum machine learning is a fast emerging field that aims to tackle machine learning using quantum algorithms and quantum computing. Due to the lack of physical qubits and an effective means to map real-world data from Euclidean space to Hilbert space, most of these methods focus on quantum analogies or process simulations rather than devising concrete architectures based on qubits. In this paper, we propose a novel hybrid quantum-classical algorithm for graph-structured data, which we refer to as the Decompositional Quantum Graph Neural Network (DQGNN). DQGNN implements the GNN theoretical framework using the tensor product and unity matrices representation, which greatly reduces the number of model parameters required. When controlled by a classical computer, DQGNN can accommodate arbitrarily sized graphs by processing substructures from the input graph using a modestly-sized quantum device. The architecture is based on a novel mapping from real-world data to Hilbert space. This mapping maintains the distance relations present in the data and reduces information loss. Experimental results show that the proposed method outperforms competitive state-of-the-art models with only 1.68\% parameters compared to those models.</description>
+    <title>Decoding techniques applied to the compilation of CNOT circuits for NISQ architectures</title>
+    <link>http://arxiv.org/pdf/2201.06457</link>
+    <author>Timothée Goubault de Brugière, Marc Baboulin, Benoît Valiron, Simon Martiel, Cyril Allouche</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Current proposals for quantum compilers require the synthesis and optimization of linear reversible circuits and among them CNOT circuits. Since these circuits represent a significant part of the cost of running an entire quantum circuit, we aim at reducing their size. In this paper we present a new algorithm for the synthesis of CNOT circuits based on the solution of the syndrome decoding problem. Our method addresses the case of ideal hardware with an all-to-all qubit connectivity and the case of near-term quantum devices with restricted connectivity. For both cases, we present benchmarks showing that our algorithm outperforms existing algorithms.</description>
   </item>
 
 </channel>

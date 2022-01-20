@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
+    <link>http://arxiv.org/pdf/2201.05678</link>
+    <author>Christopher Chamberland, Earl T. Campbell</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
+  </item>
+
+  <item>
     <title>Oracle separations of hybrid quantum-classical circuits</title>
     <link>http://arxiv.org/pdf/2201.01904</link>
     <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
@@ -119,6 +127,14 @@
   </item>
 
   <item>
+    <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
+    <link>http://arxiv.org/pdf/2201.03540</link>
+    <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
+  </item>
+
+  <item>
     <title>Pauli stabilizer models of twisted quantum doubles</title>
     <link>http://arxiv.org/pdf/2112.11394</link>
     <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
@@ -127,11 +143,11 @@
   </item>
 
   <item>
-    <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
-    <link>http://arxiv.org/pdf/2201.03540</link>
-    <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
-    <pubDate>Jan 11 2022</pubDate>
-    <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
+    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
+    <link>http://arxiv.org/pdf/2201.06533</link>
+    <author>Tyler Helmuth, Ryan L. Mann</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
   </item>
 
   <item>
@@ -148,14 +164,6 @@
     <author>Mary Beth Ruskai</author>
     <pubDate>Dec 28 2021</pubDate>
     <description>The joint convexity of the map $(X,A) \mapsto X^* A^{-1} X$, an integral representation of convex operator functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.</description>
-  </item>
-
-  <item>
-    <title>Rescaling decoder for 2D topological quantum color codes on 4.8.8 lattices</title>
-    <link>http://arxiv.org/pdf/2112.09584</link>
-    <author>Pedro Parrado-Rodríguez, Manuel Rispler, Markus Müller</author>
-    <pubDate>Dec 20 2021</pubDate>
-    <description>Fault-tolerant quantum computation relies on scaling up quantum error correcting codes in order to suppress the error rate on the encoded quantum states. Topological codes, such as the surface code or color codes are leading candidates for practical scalable quantum error correction and require efficient and scalable decoders. In this work, we propose and study the efficiency of a decoder for 2D topological color codes on the 4.8.8 lattice, by building on the work of [1] for color codes on hexagonal lattices. The decoder is based on a rescaling approach, in which syndrome information on a part of the qubit lattice is processed locally, and then the lattice is rescaled iteratively to smaller sizes. We find a threshold of 6.0% for code capacity noise.</description>
   </item>
 
   <item>
@@ -183,6 +191,14 @@
   </item>
 
   <item>
+    <title>Quantum networks self-test all entangled states</title>
+    <link>http://arxiv.org/pdf/2201.05032</link>
+    <author>Ivan Šupić, Joseph Bowles, Marc-Olivier Renou, Antonio Acín, Matty J. Hoban</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>Certifying quantum properties with minimal assumptions is a fundamental problem in quantum information science. Self-testing is a method to infer the underlying physics of a quantum experiment only from the measured statistics. While all bipartite pure entangled states can be self-tested, little is known about how to self-test quantum states of an arbitrary number of systems. Here, we introduce a framework for network-assisted self-testing and use it to self-test any pure entangled quantum state of an arbitrary number of systems. The scheme requires the preparation of a number of singlets that scales linearly with the number of systems, and the implementation of standard projective and Bell measurements, all feasible with current technology. When all the network constraints are exploited, the obtained self-testing certification is stronger than what is achievable in any Bell-type scenario. Our work does not only solve an open question in the field, but also shows how properly designed networks offer new opportunities for the certification of quantum phenomena.</description>
+  </item>
+
+  <item>
     <title>Quantum Distributed Algorithms for Detection of Cliques</title>
     <link>http://arxiv.org/pdf/2201.03000</link>
     <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
@@ -196,6 +212,14 @@
     <author>Kaining Zhang, Min-Hsiu Hsieh, Liu Liu, Dacheng Tao</author>
     <pubDate>Jan 03 2022</pubDate>
     <description>Quantum Neural Networks (QNNs) with random structures have poor trainability due to the exponentially vanishing gradient as the circuit depth and the qubit number increase. This result leads to a general belief that a deep QNN will not be feasible. In this work, we provide the first viable solution to the vanishing gradient problem for deep QNNs with theoretical guarantees. Specifically, we prove that for circuits with controlled-layer architectures, the expectation of the gradient norm can be lower bounded by a value that is independent of the qubit number and the circuit depth. Our results follow from a careful analysis of the gradient behaviour on parameter space consisting of rotation angles, as employed in almost any QNNs, instead of relying on impractical 2-design assumptions. We explicitly construct examples where only our QNNs are trainable and converge, while others in comparison cannot.</description>
+  </item>
+
+  <item>
+    <title>Quadratic speedup for spatial search by continuous-time quantum walk</title>
+    <link>http://arxiv.org/pdf/2112.12746</link>
+    <author>Simon Apers, Shantanav Chakraborty, Leonardo Novo, Jérémie Roland</author>
+    <pubDate>Dec 24 2021</pubDate>
+    <description>Continuous-time quantum walks provide a natural framework to tackle the fundamental problem of finding a node among a set of marked nodes in a graph, known as spatial search. Whether spatial search by continuous-time quantum walk provides a quadratic advantage over classical random walks has been an outstanding problem. Thus far, this advantage is obtained only for specific graphs or when a single node of the underlying graph is marked. In this article, we provide a new continuous-time quantum walk search algorithm that completely resolves this: our algorithm can find a marked node in any graph with any number of marked nodes, in a time that is quadratically faster than classical random walks. The overall algorithm is quite simple, requiring time evolution of the quantum walk Hamiltonian followed by a projective measurement. A key component of our algorithm is a purely analog procedure to perform operations on a state of the form $e^{-tH^2}|\psi\rangle$, for a given Hamiltonian $H$: it only requires evolving $H$ for time scaling as $\sqrt{t}$. This allows us to quadratically fast-forward the dynamics of a continuous-time classical random walk. The applications of our work thus go beyond the realm of quantum walks and can lead to new analog quantum algorithms for preparing ground states of Hamiltonians or solving optimization problems.</description>
   </item>
 
   <item>
@@ -220,30 +244,6 @@
     <author>Andrea Coladangelo, Shafi Goldwasser, Umesh Vazirani</author>
     <pubDate>Jan 03 2022</pubDate>
     <description>(Sender-)Deniable encryption provides a very strong privacy guarantee: a sender who is coerced by an attacker into "opening" their ciphertext after-the-fact is able to generate "fake" local random choices that are consistent with any plaintext of their choice. The only known fully-efficient constructions of public-key deniable encryption rely on indistinguishability obfuscation (iO) (which currently can only be based on sub-exponential hardness assumptions). In this work, we study (sender-)deniable encryption in a setting where the encryption procedure is a quantum algorithm, but the ciphertext is classical. We propose two notions of deniable encryption in this setting. The first notion, called quantum deniability, parallels the classical one. We give a fully efficient construction satisfying this definition, assuming the quantum hardness of the Learning with Errors (LWE) problem. The second notion, unexplainability, starts from a new perspective on deniability, and leads to a natural common view of deniability in the classical and quantum settings. We give a construction which is secure in the random oracle model, assuming the quantum hardness of LWE. Notably, our construction satisfies a strong form of unexplainability which is impossible to achieve classically, thus highlighting a new quantum phenomenon that may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>Quadratic speedup for spatial search by continuous-time quantum walk</title>
-    <link>http://arxiv.org/pdf/2112.12746</link>
-    <author>Simon Apers, Shantanav Chakraborty, Leonardo Novo, Jérémie Roland</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>Continuous-time quantum walks provide a natural framework to tackle the fundamental problem of finding a node among a set of marked nodes in a graph, known as spatial search. Whether spatial search by continuous-time quantum walk provides a quadratic advantage over classical random walks has been an outstanding problem. Thus far, this advantage is obtained only for specific graphs or when a single node of the underlying graph is marked. In this article, we provide a new continuous-time quantum walk search algorithm that completely resolves this: our algorithm can find a marked node in any graph with any number of marked nodes, in a time that is quadratically faster than classical random walks. The overall algorithm is quite simple, requiring time evolution of the quantum walk Hamiltonian followed by a projective measurement. A key component of our algorithm is a purely analog procedure to perform operations on a state of the form $e^{-tH^2}|\psi\rangle$, for a given Hamiltonian $H$: it only requires evolving $H$ for time scaling as $\sqrt{t}$. This allows us to quadratically fast-forward the dynamics of a continuous-time classical random walk. The applications of our work thus go beyond the realm of quantum walks and can lead to new analog quantum algorithms for preparing ground states of Hamiltonians or solving optimization problems.</description>
-  </item>
-
-  <item>
-    <title>Higher-Form Subsystem Symmetry Breaking: Subdimensional Criticality and Fracton Phase Transitions</title>
-    <link>http://arxiv.org/pdf/2112.12735</link>
-    <author>Brandon C. Rayhaun, Dominic J. Williamson</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>Subsystem symmetry has emerged as a powerful organizing principle for unconventional quantum phases of matter, most prominently fracton topological orders. Here, we focus on a special subclass of such symmetries, known as higher-form subsystem symmetries, which allow us to adapt tools from the study of conventional topological phases to the fracton setting. We demonstrate that certain transitions out of familiar fracton phases, including the X-cube model, can be understood in terms of the spontaneous breaking of higher-form subsystem symmetries. We find simple pictures for these seemingly complicated fracton topological phase transitions by relating them in an exact manner, via gauging, to spontaneous higher-form subsystem symmetry breaking phase transitions of decoupled stacks of lower-dimensional models. We harness this perspective to construct a sequence of unconventional subdimensional critical points in two and three spatial dimensions based on the stacking and gauging of canonical models with higher-form symmetry. Through numerous examples, we illustrate the ubiquity of coupled layer constructions in theories with higher-form subsystem symmetries.</description>
-  </item>
-
-  <item>
-    <title>Tight constraints on probabilistic convertibility of quantum states</title>
-    <link>http://arxiv.org/pdf/2112.11321</link>
-    <author>Bartosz Regula</author>
-    <pubDate>Dec 22 2021</pubDate>
-    <description>We develop two general approaches to characterising the manipulation of quantum states by means of probabilistic protocols constrained by the limitations of some quantum resource theory. First, we give a general necessary condition for the existence of a physical transformation between quantum states, obtained using a new resource monotone based on the Hilbert projective metric. In all affine quantum resource theories (e.g. coherence, asymmetry, imaginarity) as well as in entanglement distillation, we show that the monotone provides a necessary and sufficient condition for resource convertibility, and hence no better restrictions on all probabilistic protocols are possible. We use the monotone to establish improved bounds on the performance of both one-shot and many-copy probabilistic resource distillation protocols. Complementing this approach, we introduce a general method for bounding achievable probabilities in resource transformations through a family of convex optimisation problems. We show it to tightly characterise single-shot probabilistic distillation in broad types of resource theories, allowing an exact analysis of the trade-offs between the probabilities and errors in distilling maximally resourceful states. We demonstrate the usefulness of both of our approaches in the study of quantum entanglement distillation.</description>
   </item>
 
 </channel>
