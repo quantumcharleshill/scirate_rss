@@ -7,6 +7,30 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
+    <link>http://arxiv.org/pdf/2201.08309</link>
+    <author>Lin Lin</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
+    <title>Clifford-deformed Surface Codes</title>
+    <link>http://arxiv.org/pdf/2201.07802</link>
+    <author>Arpit Dua, Aleksander Kubica, Liang Jiang, Steven T. Flammia, Michael J. Gullans</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Various realizations of Kitaev's surface code perform surprisingly well for biased Pauli noise. Attracted by these potential gains, we study the performance of Clifford-deformed surface codes (CDSCs) obtained from the surface code by the application of single-qubit Clifford operators. We first analyze CDSCs on the $3\times 3$ square lattice and find that depending on the noise bias, their logical error rates can differ by orders of magnitude. To explain the observed behavior, we introduce the effective distance $d'$, which reduces to the standard distance for unbiased noise. To study CDSC performance in the thermodynamic limit, we focus on random CDSCs. Using the statistical mechanical mapping for quantum codes, we uncover a phase diagram that describes random CDSCs with $50\%$ threshold at infinite bias. In the high-threshold region, we further demonstrate that typical code realizations at finite bias outperform the thresholds and subthreshold logical error rates of the best known translationally invariant codes.</description>
+  </item>
+
+  <item>
+    <title>Low-overhead quantum computing with the color code</title>
+    <link>http://arxiv.org/pdf/2201.07806</link>
+    <author>Felix Thomsen, Markus S. Kesselring, Stephen D. Bartlett, Benjamin J. Brown</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Fault-tolerant quantum computation demands significant resources: large numbers of physical qubits must be checked for errors repeatedly to protect quantum data as logic gates are implemented in the presence of noise. We demonstrate that an approach based on the color code can lead to considerable reductions in the resource overheads compared with conventional methods, while remaining compatible with a two-dimensional layout. We propose a lattice surgery scheme that exploits the color code's rich structure to perform arbitrary pairs of commuting logical Pauli measurements in parallel while keeping the space cost low. Compared to lattice surgery schemes based on the surface code with the same code distance, our approach yields about a $3\times$ improvement in the space-time overhead. Even when taking into account the color code's lower error threshold using current decoders, the overhead is reduced by $10\%$ at a physical error rate of $10^{-3}$ and by $50\%$ at $10^{-4}$.</description>
+  </item>
+
+  <item>
     <title>Free-Fermion Subsystem Codes</title>
     <link>http://arxiv.org/pdf/2201.07254</link>
     <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
@@ -31,11 +55,11 @@
   </item>
 
   <item>
-    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2201.05215</link>
-    <author>Dmitri Maslov, Ben Zindorf</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
+    <title>Avoiding barren plateaus using classical shadows</title>
+    <link>http://arxiv.org/pdf/2201.08194</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
   </item>
 
   <item>
@@ -55,35 +79,11 @@
   </item>
 
   <item>
-    <title>Uniform continuity bound for sandwiched Rényi conditional entropy</title>
-    <link>http://arxiv.org/pdf/2201.05534</link>
-    <author>Ashutosh Marwah, Frédéric Dupuis</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We prove a simple uniform continuity bound for the sandwiched Rényi conditional entropy for $\alpha \in [1/2, 1) \cup (1, \infty]$, which is independent of the dimension of the conditioning system.</description>
-  </item>
-
-  <item>
-    <title>Test-measured Rényi divergences</title>
-    <link>http://arxiv.org/pdf/2201.05477</link>
-    <author>Milán Mosonyi, Fumio Hiai</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>One possibility of defining a quantum Rényi $\alpha$-divergence of two quantum states is to optimize the classical Rényi $\alpha$-divergence of their post-measurement probability distributions over all possible measurements (measured Rényi divergence), and maybe regularize these quantities over multiple copies of the two states (regularized measured Rényi $\alpha$-divergence). A key observation behind the theorem for the strong converse exponent of asymptotic binary quantum state discrimination is that the regularized measured Rényi $\alpha$-divergence coincides with the sandwiched Rényi $\alpha$-divergence when $\alpha>1$. Moreover, it also follows from the same theorem that to achieve this, it is sufficient to consider $2$-outcome measurements (tests) for any number of copies (this is somewhat surprising, as achieving the measured Rényi $\alpha$-divergence for $n$ copies might require a number of measurement outcomes that diverges in $n$, in general). In view of this, it seems natural to expect the same when $\alpha<1$; however, we show that this is not the case. In fact, we show that even for commuting states (classical case) the regularized quantity attainable using $2$-outcome measurements is in general strictly smaller than the Rényi $\alpha$-divergence (which is unique in the classical case). In the general quantum case this shows that the above ``regularized test-measured'' Rényi $\alpha$-divergence is not even a quantum extension of the classical Rényi divergence when $\alpha<1$, in sharp contrast to the $\alpha>1$ case.</description>
-  </item>
-
-  <item>
-    <title>Characterizing Long-Range Entanglement in a Mixed State Through an Emergent Order on the Entangling Surface</title>
-    <link>http://arxiv.org/pdf/2201.07792</link>
-    <author>Tsung-Cheng Lu, Sagar Vijay</author>
+    <title>The Optimization Landscape of Hybrid Quantum-Classical Algorithms: from Quantum Control to NISQ Applications</title>
+    <link>http://arxiv.org/pdf/2201.07448</link>
+    <author>Xiaozhen Ge, Re-Bing Wu, Herschel Rabitz</author>
     <pubDate>Jan 20 2022</pubDate>
-    <description>Topologically-ordered phases of matter at non-zero temperature are conjectured to exhibit universal patterns of long-range entanglement which may be detected by a mixed-state entanglement measure known as entanglement negativity. We show that the entanglement negativity in certain topological orders can be understood through the properties of an emergent symmetry-protected topological (SPT) order which is localized on the entanglement bipartition. This connection leads to an understanding of ($i$) universal contributions to the entanglement negativity which diagnose finite-temperature topological order, and ($ii$) the behavior of the entanglement negativity across certain phase transitions in which thermal fluctuations eventually destroy long-range entanglement across the bipartition surface. Within this correspondence, the universal patterns of entanglement in the finite-temperature topological order are related to the stability of an emergent SPT order against a symmetry-breaking field. SPT orders protected by higher-form symmetries -- which arise, for example, in the description of the entanglement negativity for $\mathbb{Z}_{2}$ topological order in $d=4$ spatial dimensions -- remain robust even in the presence of a weak symmetry-breaking perturbation, leading to long-range entanglement at non-zero temperature for certain topological orders.</description>
-  </item>
-
-  <item>
-    <title>Decoding techniques applied to the compilation of CNOT circuits for NISQ architectures</title>
-    <link>http://arxiv.org/pdf/2201.06457</link>
-    <author>Timothée Goubault de Brugière, Marc Baboulin, Benoît Valiron, Simon Martiel, Cyril Allouche</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>Current proposals for quantum compilers require the synthesis and optimization of linear reversible circuits and among them CNOT circuits. Since these circuits represent a significant part of the cost of running an entire quantum circuit, we aim at reducing their size. In this paper we present a new algorithm for the synthesis of CNOT circuits based on the solution of the syndrome decoding problem. Our method addresses the case of ideal hardware with an all-to-all qubit connectivity and the case of near-term quantum devices with restricted connectivity. For both cases, we present benchmarks showing that our algorithm outperforms existing algorithms.</description>
+    <description>This review investigates the landscapes of prevalent hybrid quantum-classical optimization algorithms in many rapidly developing quantum technologies, where the objective function is either computed by a natural quantum system or a quantum ansatz that is engineered, but the optimizer is classical. In any particular case, the nature of the underlying control landscape is fundamentally important for systematic optimization of the objective. In early studies on the optimal control of few-body dynamics, the optimizer could take full control of the quantum systems to be manipulated whose Hilbert space dimension is relatively small. Stepping into the noisy intermediate-scale quantum (NISQ) era, the experimentally growing computational power of the ansatz expressed as quantum hardware may bring quantum advantage over classical computers, but the classical optimizer is often limited by the available control resources. Across these different scales, we will show that the landscape's geometry experiences morphological changes from favorable trap-free landscapes to easily trapping rugged landscapes, and eventually to barren-plateau landscapes on which the optimizer can hardly move. This unified view provides the basis for understanding classes of systems that may be readily controlled out to those with special consideration, including the difficulties and potential advantages of NISQ technologies, as well as seeking possible ways to escape traps or plateaus, in particular circumstances.</description>
   </item>
 
 </channel>

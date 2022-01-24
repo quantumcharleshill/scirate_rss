@@ -7,11 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Logical blocks for fault-tolerant topological quantum computation</title>
-    <link>http://arxiv.org/pdf/2112.12160</link>
-    <author>Hector Bombin, Chris Dawson, Ryan V. Mishmash, Naomi Nickerson, Fernando Pastawski, Sam Roberts</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>Logical gates are the building blocks of fault-tolerant quantum computation. While quantum error-corrected memories have been extensively studied in the literature, detailed analyses of thresholds and resource overheads of universal logical gate sets have so far been limited. In this paper, we present a comprehensive framework for universal fault-tolerant logic motivated by the combined need for (i) platform-independent logical gate definitions, (ii) flexible and scalable tools for numerical analysis, and (iii) exploration of novel schemes for universal logic that improve resource overheads. We first introduce the theory of fault-tolerant channels for describing logical gates holistically in space-time. Focusing on channels based on surface codes, we introduce explicit, platform-independent representations of topological logic gates -- called logical blocks -- and generate new, overhead-efficient methods for universal quantum computation. As a specific example, we propose fault-tolerant schemes based on surface codes concatenated with more general low-density parity check (LDPC) codes. The logical blocks framework enables a convenient mapping from an abstract description of the logical gate to a precise set of physical instructions for both circuit-based and fusion-based quantum computation (FBQC). Using this, we numerically simulate a surface-code-based universal gate set implemented with FBQC, and verify that the threshold for fault-tolerant gates is consistent with the bulk memory threshold. We find that boundaries, defects, and twists, can significantly impact the logical error rate scaling, with periodic boundary conditions potentially halving the memory resource requirements. Motivated by the favorable logical error rate suppression for boundaryless computation, we introduce a novel computational scheme based on the teleportation of twists that may offer further resource reductions.</description>
+    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
+    <link>http://arxiv.org/pdf/2201.08309</link>
+    <author>Lin Lin</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
+    <title>Clifford-deformed Surface Codes</title>
+    <link>http://arxiv.org/pdf/2201.07802</link>
+    <author>Arpit Dua, Aleksander Kubica, Liang Jiang, Steven T. Flammia, Michael J. Gullans</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Various realizations of Kitaev's surface code perform surprisingly well for biased Pauli noise. Attracted by these potential gains, we study the performance of Clifford-deformed surface codes (CDSCs) obtained from the surface code by the application of single-qubit Clifford operators. We first analyze CDSCs on the $3\times 3$ square lattice and find that depending on the noise bias, their logical error rates can differ by orders of magnitude. To explain the observed behavior, we introduce the effective distance $d'$, which reduces to the standard distance for unbiased noise. To study CDSC performance in the thermodynamic limit, we focus on random CDSCs. Using the statistical mechanical mapping for quantum codes, we uncover a phase diagram that describes random CDSCs with $50\%$ threshold at infinite bias. In the high-threshold region, we further demonstrate that typical code realizations at finite bias outperform the thresholds and subthreshold logical error rates of the best known translationally invariant codes.</description>
   </item>
 
   <item>
@@ -31,6 +39,22 @@
   </item>
 
   <item>
+    <title>Low-overhead quantum computing with the color code</title>
+    <link>http://arxiv.org/pdf/2201.07806</link>
+    <author>Felix Thomsen, Markus S. Kesselring, Stephen D. Bartlett, Benjamin J. Brown</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Fault-tolerant quantum computation demands significant resources: large numbers of physical qubits must be checked for errors repeatedly to protect quantum data as logic gates are implemented in the presence of noise. We demonstrate that an approach based on the color code can lead to considerable reductions in the resource overheads compared with conventional methods, while remaining compatible with a two-dimensional layout. We propose a lattice surgery scheme that exploits the color code's rich structure to perform arbitrary pairs of commuting logical Pauli measurements in parallel while keeping the space cost low. Compared to lattice surgery schemes based on the surface code with the same code distance, our approach yields about a $3\times$ improvement in the space-time overhead. Even when taking into account the color code's lower error threshold using current decoders, the overhead is reduced by $10\%$ at a physical error rate of $10^{-3}$ and by $50\%$ at $10^{-4}$.</description>
+  </item>
+
+  <item>
+    <title>Free-Fermion Subsystem Codes</title>
+    <link>http://arxiv.org/pdf/2201.07254</link>
+    <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
+    <pubDate>Jan 20 2022</pubDate>
+    <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
+  </item>
+
+  <item>
     <title>A smallest computable entanglement monotone</title>
     <link>http://arxiv.org/pdf/2201.00835</link>
     <author>J. Eisert, M. M. Wilde</author>
@@ -44,14 +68,6 @@
     <author>Youwei Zhao, Yangsen Ye, He-Liang Huang, Yiming Zhang, Dachao Wu, Huijie Guan, Qingling Zhu, Zuolin Wei, Tan He, Sirui Cao, Fusheng Chen, Tung-Hsun Chung, Hui Deng, Daojin Fan, Ming Gong, Cheng Guo, Shaojun Guo, Lianchen Han, Na Li, Shaowei Li, et al (19)</author>
     <pubDate>Dec 28 2021</pubDate>
     <description>Quantum error correction is a critical technique for transitioning from noisy intermediate-scale quantum (NISQ) devices to fully fledged quantum computers. The surface code, which has a high threshold error rate, is the leading quantum error correction code for two-dimensional grid architecture. So far, the repeated error correction capability of the surface code has not been realized experimentally. Here, we experimentally implement an error-correcting surface code, the distance-3 surface code which consists of 17 qubits, on the \textitZuchongzhi 2.1 superconducting quantum processor. By executing several consecutive error correction cycles, the logical error can be significantly reduced after applying corrections, achieving the repeated error correction of surface code for the first time. This experiment represents a fully functional instance of an error-correcting surface code, providing a key step on the path towards scalable fault-tolerant quantum computing.</description>
-  </item>
-
-  <item>
-    <title>Free-Fermion Subsystem Codes</title>
-    <link>http://arxiv.org/pdf/2201.07254</link>
-    <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
-    <pubDate>Jan 20 2022</pubDate>
-    <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
   </item>
 
   <item>
@@ -95,19 +111,19 @@
   </item>
 
   <item>
-    <title>Equivalence of contextuality and Wigner function negativity in continuous-variable quantum optics</title>
-    <link>http://arxiv.org/pdf/2112.14788</link>
-    <author>Jonas Haferkamp, Juani Bermejo-Vega</author>
-    <pubDate>Jan 03 2022</pubDate>
-    <description>One of the central foundational questions of physics is to identify what makes a system quantum as opposed to classical. One seminal notion of classicality of a quantum system is the existence of a non-contextual hidden variable model as introduced in the early work by Bell, Kochen and Specker. In quantum optics, the non-negativity of the Wigner function is a ubiquitous notion of classicality. In this work we establish an equivalence between these two concepts. In particular, we show that any non-contextual hidden variable model for Gaussian quantum optics has an alternative non-negative Wigner function description. Conversely, it was known that the Wigner representation provides a non-negative non-contextual description of Gaussian quantum optics. It follows that contextuality and Wigner negativity are equivalent notions of non-classicality and equivalent resources for this quantum subtheory. In particular, both contextuality and Wigner negativity are necessary for a computational speed-up of quantum Gaussian optics. At the technical level, our result holds true for any subfamily of Gaussian measurements that include homodyne measurements, i.e., measurements of standard quadrature observables.</description>
-  </item>
-
-  <item>
     <title>Oracle separations of hybrid quantum-classical circuits</title>
     <link>http://arxiv.org/pdf/2201.01904</link>
     <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
     <pubDate>Jan 07 2022</pubDate>
     <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
+  </item>
+
+  <item>
+    <title>Equivalence of contextuality and Wigner function negativity in continuous-variable quantum optics</title>
+    <link>http://arxiv.org/pdf/2112.14788</link>
+    <author>Jonas Haferkamp, Juani Bermejo-Vega</author>
+    <pubDate>Jan 03 2022</pubDate>
+    <description>One of the central foundational questions of physics is to identify what makes a system quantum as opposed to classical. One seminal notion of classicality of a quantum system is the existence of a non-contextual hidden variable model as introduced in the early work by Bell, Kochen and Specker. In quantum optics, the non-negativity of the Wigner function is a ubiquitous notion of classicality. In this work we establish an equivalence between these two concepts. In particular, we show that any non-contextual hidden variable model for Gaussian quantum optics has an alternative non-negative Wigner function description. Conversely, it was known that the Wigner representation provides a non-negative non-contextual description of Gaussian quantum optics. It follows that contextuality and Wigner negativity are equivalent notions of non-classicality and equivalent resources for this quantum subtheory. In particular, both contextuality and Wigner negativity are necessary for a computational speed-up of quantum Gaussian optics. At the technical level, our result holds true for any subfamily of Gaussian measurements that include homodyne measurements, i.e., measurements of standard quadrature observables.</description>
   </item>
 
   <item>
@@ -127,11 +143,11 @@
   </item>
 
   <item>
-    <title>Pauli stabilizer models of twisted quantum doubles</title>
-    <link>http://arxiv.org/pdf/2112.11394</link>
-    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Dec 22 2021</pubDate>
-    <description>We construct a Pauli stabilizer model for every two-dimensional Abelian topological order that admits a gapped boundary. Our primary example is a Pauli stabilizer model on four-dimensional qudits that belongs to the double semion (DS) phase of matter. The DS stabilizer Hamiltonian is constructed by condensing an emergent boson in a $\mathbb{Z}_4$ toric code, where the condensation is implemented by making certain two-body measurements. We rigorously verify the topological order of the DS stabilizer model by identifying an explicit finite-depth quantum circuit (with ancillary qubits) that maps its ground state subspace to that of a DS string-net model. We show that the construction of the DS stabilizer Hamiltonian generalizes to all twisted quantum doubles (TQDs) with Abelian anyons. This yields a Pauli stabilizer code on composite-dimensional qudits for each such TQD, implying that the classification of topological Pauli stabilizer codes extends well beyond stacks of toric codes - in fact, exhausting all Abelian anyon theories that admit a gapped boundary. We also demonstrate that symmetry-protected topological phases of matter characterized by type I and type II cocycles can be modeled by Pauli stabilizer Hamiltonians by gauging certain 1-form symmetries of the TQD stabilizer models.</description>
+    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
+    <link>http://arxiv.org/pdf/2201.06533</link>
+    <author>Tyler Helmuth, Ryan L. Mann</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
   </item>
 
   <item>
@@ -143,19 +159,11 @@
   </item>
 
   <item>
-    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
-    <link>http://arxiv.org/pdf/2201.06533</link>
-    <author>Tyler Helmuth, Ryan L. Mann</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
-  </item>
-
-  <item>
-    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
-    <link>http://arxiv.org/pdf/2201.02450</link>
-    <author>Masahito Hayashi</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
+    <title>Avoiding barren plateaus using classical shadows</title>
+    <link>http://arxiv.org/pdf/2201.08194</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
   </item>
 
   <item>
@@ -164,6 +172,14 @@
     <author>Mary Beth Ruskai</author>
     <pubDate>Dec 28 2021</pubDate>
     <description>The joint convexity of the map $(X,A) \mapsto X^* A^{-1} X$, an integral representation of convex operator functions, and an observation of Ando are used to obtain a simple proof of both the joint convexity of relative entropy and a trace convexity result of Lieb. The latter was the key ingredient in the original proof of the strong subadditivity of quantum entropy.</description>
+  </item>
+
+  <item>
+    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
+    <link>http://arxiv.org/pdf/2201.02450</link>
+    <author>Masahito Hayashi</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
   </item>
 
   <item>
@@ -180,14 +196,6 @@
     <author>Arjan Cornelissen, Nikhil S. Mande, Maris Ozols, Ronald de Wolf</author>
     <pubDate>Dec 30 2021</pubDate>
     <description>We study the problem of computing the Hamming weight of an $n$-bit string modulo $m$, for any positive integer $m \leq n$ whose only prime factors are 2 and 3. We show that the exact quantum query complexity of this problem is $\left\lceil n(1 - 1/m) \right\rceil$. The upper bound is via an iterative query algorithm whose core components are the well-known 1-query quantum algorithm (essentially due to Deutsch) to compute the Hamming weight a 2-bit string mod 2 (i.e., the parity of the input bits), and a new 2-query quantum algorithm to compute the Hamming weight of a 3-bit string mod 3. We show a matching lower bound (in fact for arbitrary moduli $m$) via a variant of the polynomial method [de Wolf, SIAM J. Comput., 32(3), 2003]. This bound is for the weaker task of deciding whether or not a given $n$-bit input has Hamming weight 0 modulo $m$, and it holds even in the stronger non-deterministic quantum query model where an algorithm must have positive acceptance probability iff its input evaluates to 1. For $m>2$ our lower bound exceeds $n/2$, beating the best lower bound provable using the general polynomial method [Theorem 4.3, Beals et al., J. ACM 48(4), 2001].</description>
-  </item>
-
-  <item>
-    <title>Diagonal unitary and orthogonal symmetries in quantum theory II: Evolution operators</title>
-    <link>http://arxiv.org/pdf/2112.11123</link>
-    <author>Satvik Singh, Ion Nechita</author>
-    <pubDate>Dec 22 2021</pubDate>
-    <description>We study bipartite unitary operators which stay invariant under the local actions of diagonal unitary and orthogonal groups. We investigate structural properties of these operators, arguing that the diagonal symmetry makes them suitable for analytical study. As a first application, we construct large new families of dual unitary gates in arbitrary finite dimensions, which are important toy models for entanglement spreading in quantum circuits. We then analyze the non-local nature of these invariant operators, both in discrete (operator Schmidt rank) and continuous (entangling power) settings. Our scrutiny reveals that these operators can be used to simulate any bipartite unitary gate via stochastic local operations and classical communication. Furthermore, we establish a one-to-one connection between the set of local diagonal unitary invariant dual unitary operators with maximum entangling power and the set of complex Hadamard matrices. Finally, we discuss distinguishability of unitary operators in the setting of the stated diagonal symmetry.</description>
   </item>
 
   <item>
@@ -223,27 +231,19 @@
   </item>
 
   <item>
-    <title>Quadratic speedup for spatial search by continuous-time quantum walk</title>
-    <link>http://arxiv.org/pdf/2112.12746</link>
-    <author>Simon Apers, Shantanav Chakraborty, Leonardo Novo, Jérémie Roland</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>Continuous-time quantum walks provide a natural framework to tackle the fundamental problem of finding a node among a set of marked nodes in a graph, known as spatial search. Whether spatial search by continuous-time quantum walk provides a quadratic advantage over classical random walks has been an outstanding problem. Thus far, this advantage is obtained only for specific graphs or when a single node of the underlying graph is marked. In this article, we provide a new continuous-time quantum walk search algorithm that completely resolves this: our algorithm can find a marked node in any graph with any number of marked nodes, in a time that is quadratically faster than classical random walks. The overall algorithm is quite simple, requiring time evolution of the quantum walk Hamiltonian followed by a projective measurement. A key component of our algorithm is a purely analog procedure to perform operations on a state of the form $e^{-tH^2}|\psi\rangle$, for a given Hamiltonian $H$: it only requires evolving $H$ for time scaling as $\sqrt{t}$. This allows us to quadratically fast-forward the dynamics of a continuous-time classical random walk. The applications of our work thus go beyond the realm of quantum walks and can lead to new analog quantum algorithms for preparing ground states of Hamiltonians or solving optimization problems.</description>
-  </item>
-
-  <item>
-    <title>On nonlinear transformations in quantum computation</title>
-    <link>http://arxiv.org/pdf/2112.12307</link>
-    <author>Zoë Holmes, Nolan Coble, Andrew T. Sornborger, Yiğit Subaşı</author>
-    <pubDate>Dec 24 2021</pubDate>
-    <description>While quantum computers are naturally well-suited to implementing linear operations, it is less clear how to implement nonlinear operations on quantum computers. However, nonlinear subroutines may prove key to a range of applications of quantum computing from solving nonlinear equations to data processing and quantum machine learning. Here we develop algorithms for implementing nonlinear transformations of input quantum states. Our algorithms are framed around the concept of a weighted state, a mathematical entity describing the output of an operational procedure involving both quantum circuits and classical post-processing.</description>
-  </item>
-
-  <item>
     <title>Cut query algorithms with star contraction</title>
     <link>http://arxiv.org/pdf/2201.05674</link>
     <author>Simon Apers, Yuval Efron, Paweł Gawrychowski, Troy Lee, Sagnik Mukhopadhyay, Danupon Nanongkai</author>
     <pubDate>Jan 19 2022</pubDate>
     <description>We study the complexity of determining the edge connectivity of a simple graph with cut queries. We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$ cut queries, and (ii) there is a bounded-error quantum algorithm that computes edge connectivity with $\~O(\sqrt{n})$ cut queries. We prove these results using a new technique called "star contraction" to randomly contract edges of a graph while preserving non-trivial minimum cuts. In star contraction vertices randomly contract an edge incident on a small set of randomly chosen vertices. In contrast to the related 2-out contraction technique of Ghaffari, Nowicki, and Thorup [SODA'20], star contraction only contracts vertex-disjoint star subgraphs, which allows it to be efficiently implemented via cut queries. The $O(n)$ bound from item (i) was not known even for the simpler problem of connectivity, and improves the $O(n\log^3 n)$ bound by Rubinstein, Schramm, and Weinberg [ITCS'18]. The bound is tight under the reasonable conjecture that the randomized communication complexity of connectivity is $\Omega(n\log n)$, an open question since the seminal work of Babai, Frankl, and Simon [FOCS'86]. The bound also excludes using edge connectivity on simple graphs to prove a superlinear randomized query lower bound for minimizing a symmetric submodular function. Item (ii) gives a nearly-quadratic separation with the randomized complexity and addresses an open question of Lee, Santha, and Zhang [SODA'21]. The algorithm can also be viewed as making $\~O(\sqrt{n})$ matrix-vector multiplication queries to the adjacency matrix. Finally, we demonstrate the use of star contraction outside of the cut query setting by designing a one-pass semi-streaming algorithm for computing edge connectivity in the vertex arrival setting. This contrasts with the edge arrival setting where two passes are required.</description>
+  </item>
+
+  <item>
+    <title>Systematic Literature Review: Quantum Machine Learning and its applications</title>
+    <link>http://arxiv.org/pdf/2201.04093</link>
+    <author>David Peral García, Juan Cruz-Benito, Francisco José García-Peñalvo</author>
+    <pubDate>Jan 12 2022</pubDate>
+    <description>Quantum computing is the process of performing calculations using quantum mechanics. This field studies the quantum behavior of certain subatomic particles for subsequent use in performing calculations, as well as for large-scale information processing. These capabilities can give quantum computers an advantage in terms of computational time and cost over classical computers. Nowadays, there are scientific challenges that are impossible to perform by classical computation due to computational complexity or the time the calculation would take, and quantum computation is one of the possible answers. However, current quantum devices have not yet the necessary qubits and are not fault-tolerant enough to achieve these goals. Nonetheless, there are other fields like machine learning or chemistry where quantum computation could be useful with current quantum devices. This manuscript aims to present a Systematic Literature Review of the papers published between 2017 and 2021 to identify, analyze and classify the different algorithms used in quantum machine learning and their applications. Consequently, this study identified 52 articles that used quantum machine learning techniques and algorithms. The main types of found algorithms are quantum implementations of classical machine learning algorithms, such as support vector machines or the k-nearest neighbor model, and classical deep learning algorithms, like quantum neural networks. Many articles try to solve problems currently answered by classical machine learning but using quantum devices and algorithms. Even though results are promising, quantum machine learning is far from achieving its full potential. An improvement in the quantum hardware is required since the existing quantum computers lack enough quality, speed, and scale to allow quantum computing to achieve its full potential.</description>
   </item>
 
 </channel>
