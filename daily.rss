@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Short-Range Microwave Networks to Scale Superconducting Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2201.08825</link>
-    <author>Nicholas LaRacuente, Kaitlin N. Smith, Poolad Imany, Kevin L. Silverman, Frederic T. Chong</author>
-    <pubDate>Jan 24 2022</pubDate>
-    <description>A core challenge for superconducting quantum computers is to scale up the number of qubits in each processor without increasing noise or cross-talk. Distributing a quantum computer across nearby small qubit arrays, known as chiplets, could solve many problems associated with size. We propose a chiplet architecture over microwave links with potential to exceed monolithic performance on near-term hardware. We model and evaluate the chiplet architecture in a way that bridges the physical and network layers. We find concrete evidence that distributed quantum computing may accelerate the path toward useful and ultimately scalable quantum computers. In the long-term, short-range networks may underlie quantum computers just as local area networks underlie classical datacenters and supercomputers today.</description>
-  </item>
-
-  <item>
     <title>Evaluating Generalization in Classical and Quantum Generative Models</title>
     <link>http://arxiv.org/pdf/2201.08770</link>
     <author>Kaitlin Gili, Marta Mauri, Alejandro Perdomo-Ortiz</author>
@@ -23,27 +15,35 @@
   </item>
 
   <item>
+    <title>Short-Range Microwave Networks to Scale Superconducting Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2201.08825</link>
+    <author>Nicholas LaRacuente, Kaitlin N. Smith, Poolad Imany, Kevin L. Silverman, Frederic T. Chong</author>
+    <pubDate>Jan 24 2022</pubDate>
+    <description>A core challenge for superconducting quantum computers is to scale up the number of qubits in each processor without increasing noise or cross-talk. Distributing a quantum computer across nearby small qubit arrays, known as chiplets, could solve many problems associated with size. We propose a chiplet architecture over microwave links with potential to exceed monolithic performance on near-term hardware. We model and evaluate the chiplet architecture in a way that bridges the physical and network layers. We find concrete evidence that distributed quantum computing may accelerate the path toward useful and ultimately scalable quantum computers. In the long-term, short-range networks may underlie quantum computers just as local area networks underlie classical datacenters and supercomputers today.</description>
+  </item>
+
+  <item>
+    <title>Genuine multipartite entanglement of quantum states in the multiple-copy scenario</title>
+    <link>http://arxiv.org/pdf/2201.08694</link>
+    <author>Carlos Palazuelos, Julio I. de Vicente</author>
+    <pubDate>Jan 24 2022</pubDate>
+    <description>Genuine multipartite entanglement (GME) is considered a powerful form of entanglement since it corresponds to those states that are not biseparable, i.e. a mixture of partially separable states across different bipartitions of the parties. In this work we study this phenomenon in the multiple-copy regime, where many perfect copies of a given state can be produced and controlled. In this scenario the above definition leads to subtle intricacies as biseparable states can be GME-activatable, i.e. several copies of a biseparable state can display GME. We show that the set of GME-activatable states admits a simple characterization: a state is GME-activatable if and only if it is not partially separable across one bipartition of the parties. This leads to the second question of whether there is a general upper bound in the number of copies that needs to be considered in order to observe the activation of GME, which we answer in the negative. In particular, by providing an explicit construction, we prove that for any number of parties and any number $k\in\mathbb{N}$ there exist GME-activatable multipartite states of fixed (i.e. independent of $k$) local dimensions such that $k$ copies of them remain biseparable.</description>
+  </item>
+
+  <item>
+    <title>Quantum error correction with silicon spin qubits</title>
+    <link>http://arxiv.org/pdf/2201.08581</link>
+    <author>Kenta Takeda, Akito Noiri, Takashi Nakajima, Takashi Kobayashi, Seigo Tarucha</author>
+    <pubDate>Jan 24 2022</pubDate>
+    <description>Large-scale quantum computers rely on quantum error correction to protect the fragile quantum information. Among the possible candidates of quantum computing devices, silicon-based spin qubits hold a great promise due to their compatibility to mature nanofabrication technologies for scaling up. Recent advances in silicon-based qubits have enabled the implementations of high quality one and two qubit systems. However, the demonstration of quantum error correction, which requires three or more coupled qubits and often involves a three-qubit gate, remains an open challenge. Here, we demonstrate a three-qubit phase correcting code in silicon, where an encoded three-qubit state is protected against any phase-flip error on one of the three qubits. The correction to this encoded state is performed by a three-qubit conditional rotation, which we implement by an efficient single-step resonantly driven iToffoli gate. As expected, the error correction mitigates the errors due to one qubit phase-flip as well as the intrinsic dephasing due to quasi-static phase noise. These results show a successful implementation of quantum error correction and the potential of silicon-based platform for large-scale quantum computing.</description>
+  </item>
+
+  <item>
     <title>Training Hybrid Classical-Quantum Classifiers via Stochastic Variational Optimization</title>
     <link>http://arxiv.org/pdf/2201.08629</link>
     <author>Ivana Nikoloska, Osvaldo Simeone</author>
     <pubDate>Jan 24 2022</pubDate>
     <description>Quantum machine learning has emerged as a potential practical application of near-term quantum devices. In this work, we study a two-layer hybrid classical-quantum classifier in which a first layer of quantum stochastic neurons implementing generalized linear models (QGLMs) is followed by a second classical combining layer. The input to the first, hidden, layer is obtained via amplitude encoding in order to leverage the exponential size of the fan-in of the quantum neurons in the number of qubits per neuron. To facilitate implementation of the QGLMs, all weights and activations are binary. While the state of the art on training strategies for this class of models is limited to exhaustive search and single-neuron perceptron-like bit-flip strategies, this letter introduces a stochastic variational optimization approach that enables the joint training of quantum and classical layers via stochastic gradient descent. Experiments show the advantages of the approach for a variety of activation functions implemented by QGLM neurons.</description>
-  </item>
-
-  <item>
-    <title>Instance-Dependent Confidence and Early Stopping for Reinforcement Learning</title>
-    <link>http://arxiv.org/pdf/2201.08536</link>
-    <author>Koulik Khamaru, Eric Xia, Martin J. Wainwright, Michael I. Jordan</author>
-    <pubDate>Jan 24 2022</pubDate>
-    <description>Various algorithms for reinforcement learning (RL) exhibit dramatic variation in their convergence rates as a function of problem structure. Such problem-dependent behavior is not captured by worst-case analyses and has accordingly inspired a growing effort in obtaining instance-dependent guarantees and deriving instance-optimal algorithms for RL problems. This research has been carried out, however, primarily within the confines of theory, providing guarantees that explain \textitex post the performance differences observed. A natural next step is to convert these theoretical guarantees into guidelines that are useful in practice. We address the problem of obtaining sharp instance-dependent confidence regions for the policy evaluation problem and the optimal value estimation problem of an MDP, given access to an instance-optimal algorithm. As a consequence, we propose a data-dependent stopping rule for instance-optimal algorithms. The proposed stopping rule adapts to the instance-specific difficulty of the problem and allows for early termination for problems with favorable structure.</description>
-  </item>
-
-  <item>
-    <title>Optimal variance-reduced stochastic approximation in Banach spaces</title>
-    <link>http://arxiv.org/pdf/2201.08518</link>
-    <author>Wenlong Mou, Koulik Khamaru, Martin J. Wainwright, Peter L. Bartlett, Michael I. Jordan</author>
-    <pubDate>Jan 24 2022</pubDate>
-    <description>We study the problem of estimating the fixed point of a contractive operator defined on a separable Banach space. Focusing on a stochastic query model that provides noisy evaluations of the operator, we analyze a variance-reduced stochastic approximation scheme, and establish non-asymptotic bounds for both the operator defect and the estimation error, measured in an arbitrary semi-norm. In contrast to worst-case guarantees, our bounds are instance-dependent, and achieve the local asymptotic minimax risk non-asymptotically. For linear operators, contractivity can be relaxed to multi-step contractivity, so that the theory can be applied to problems like average reward policy evaluation problem in reinforcement learning. We illustrate the theory via applications to stochastic shortest path problems, two-player zero-sum Markov games, as well as policy evaluation and $Q$-learning for tabular Markov decision processes.</description>
   </item>
 
 </channel>

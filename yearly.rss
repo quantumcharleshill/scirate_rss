@@ -367,6 +367,14 @@
   </item>
 
   <item>
+    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
+    <link>http://arxiv.org/pdf/2201.08309</link>
+    <author>Lin Lin</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
     <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
     <link>http://arxiv.org/pdf/2112.03708</link>
     <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
@@ -396,14 +404,6 @@
     <author>Sepehr Nezami</author>
     <pubDate>Apr 15 2021</pubDate>
     <description>Computing the distribution of permanents of random matrices has been an outstanding open problem for several decades. In quantum computing, "anti-concentration" of this distribution is an unproven input for the proof of hardness of the task of boson-sampling. We study permanents of random i.i.d. complex Gaussian matrices, and more broadly, submatrices of random unitary matrices. Using a hybrid representation-theoretic and combinatorial approach, we prove strong lower bounds for all moments of the permanent distribution. We provide substantial evidence that our bounds are close to being tight and constitute accurate estimates for the moments. Let $U(d)^{k\times k}$ be the distribution of $k\times k$ submatrices of $d\times d$ random unitary matrices, and $G^{k\times k}$ be the distribution of $k\times k$ complex Gaussian matrices. (1) Using the Schur-Weyl duality (or the Howe duality), we prove an expansion formula for the $2t$-th moment of $|Perm(M)|$ when $M$ is drawn from $U(d)^{k\times k}$ or $G^{k\times k}$. (2) We prove a surprising size-moment duality: the $2t$-th moment of the permanent of random $k\times k$ matrices is equal to the $2k$-th moment of the permanent of $t\times t$ matrices. (3) We design an algorithm to exactly compute high moments of the permanent of small matrices. (4) We prove lower bounds for arbitrary moments of permanents of matrices drawn from $G^{ k\times k}$ or $U(k)$, and conjecture that our lower bounds are close to saturation up to a small multiplicative error. (5) Assuming our conjectures, we use the large deviation theory to compute the tail of the distribution of log-permanent of Gaussian matrices for the first time. (6) We argue that it is unlikely that the permanent distribution can be uniquely determined from the integer moments and one may need to supplement the moment calculations with extra assumptions to prove the anti-concentration conjecture.</description>
-  </item>
-
-  <item>
-    <title>Realization of real-time fault-tolerant quantum error correction</title>
-    <link>http://arxiv.org/pdf/2107.07505</link>
-    <author>C. Ryan-Anderson, J. G. Bohnet, K. Lee, D. Gresh, A. Hankin, J. P. Gaebler, D. Francois, A. Chernoguzov, D. Lucchetti, N. C. Brown, T. M. Gatterman, S. K. Halit, K. Gilmore, J. Gerber, B. Neyenhuis, D. Hayes, R. P. Stutz</author>
-    <pubDate>Jul 16 2021</pubDate>
-    <description>Correcting errors in real time is essential for reliable large-scale quantum computations. Realizing this high-level function requires a system capable of several low-level primitives, including single-qubit and two-qubit operations, mid-circuit measurements of subsets of qubits, real-time processing of measurement outcomes, and the ability to condition subsequent gate operations on those measurements. In this work, we use a ten qubit QCCD trapped-ion quantum computer to encode a single logical qubit using the $[[7,1,3]]$ color code, first proposed by Steane~\citesteane1996error. The logical qubit is initialized into the eigenstates of three mutually unbiased bases using an encoding circuit, and we measure an average logical SPAM error of $1.7(6) \times 10^{-3}$, compared to the average physical SPAM error $2.4(8) \times 10^{-3}$ of our qubits. We then perform multiple syndrome measurements on the encoded qubit, using a real-time decoder to determine any necessary corrections that are done either as software updates to the Pauli frame or as physically applied gates. Moreover, these procedures are done repeatedly while maintaining coherence, demonstrating a dynamically protected logical qubit memory. Additionally, we demonstrate non-Clifford qubit operations by encoding a logical magic state with an error rate below the threshold required for magic state distillation. Finally, we present system-level simulations that allow us to identify key hardware upgrades that may enable the system to reach the pseudo-threshold.</description>
   </item>
 
 </channel>

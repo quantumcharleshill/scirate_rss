@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>Free-Fermion Subsystem Codes</title>
+    <link>http://arxiv.org/pdf/2201.07254</link>
+    <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
+    <pubDate>Jan 20 2022</pubDate>
+    <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
+  </item>
+
+  <item>
     <title>Quantum error correction with fractal topological codes</title>
     <link>http://arxiv.org/pdf/2201.03568</link>
     <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
@@ -44,14 +52,6 @@
     <author>Felix Thomsen, Markus S. Kesselring, Stephen D. Bartlett, Benjamin J. Brown</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>Fault-tolerant quantum computation demands significant resources: large numbers of physical qubits must be checked for errors repeatedly to protect quantum data as logic gates are implemented in the presence of noise. We demonstrate that an approach based on the color code can lead to considerable reductions in the resource overheads compared with conventional methods, while remaining compatible with a two-dimensional layout. We propose a lattice surgery scheme that exploits the color code's rich structure to perform arbitrary pairs of commuting logical Pauli measurements in parallel while keeping the space cost low. Compared to lattice surgery schemes based on the surface code with the same code distance, our approach yields about a $3\times$ improvement in the space-time overhead. Even when taking into account the color code's lower error threshold using current decoders, the overhead is reduced by $10\%$ at a physical error rate of $10^{-3}$ and by $50\%$ at $10^{-4}$.</description>
-  </item>
-
-  <item>
-    <title>Free-Fermion Subsystem Codes</title>
-    <link>http://arxiv.org/pdf/2201.07254</link>
-    <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
-    <pubDate>Jan 20 2022</pubDate>
-    <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
   </item>
 
   <item>
@@ -127,19 +127,19 @@
   </item>
 
   <item>
-    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2201.02243</link>
-    <author>Megan L. Dahlhauser, Travis S. Humble</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
-  </item>
-
-  <item>
     <title>Limits on Parameter Estimation of Quantum Channels</title>
     <link>http://arxiv.org/pdf/2201.01738</link>
     <author>Vishal Katariya</author>
     <pubDate>Jan 06 2022</pubDate>
     <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
+  </item>
+
+  <item>
+    <title>Avoiding barren plateaus using classical shadows</title>
+    <link>http://arxiv.org/pdf/2201.08194</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
   </item>
 
   <item>
@@ -151,19 +151,19 @@
   </item>
 
   <item>
+    <title>Benchmarking Characterization Methods for Noisy Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2201.02243</link>
+    <author>Megan L. Dahlhauser, Travis S. Humble</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
+  </item>
+
+  <item>
     <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
     <link>http://arxiv.org/pdf/2201.03540</link>
     <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
     <pubDate>Jan 11 2022</pubDate>
     <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
-  </item>
-
-  <item>
-    <title>Avoiding barren plateaus using classical shadows</title>
-    <link>http://arxiv.org/pdf/2201.08194</link>
-    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
   </item>
 
   <item>
@@ -199,14 +199,6 @@
   </item>
 
   <item>
-    <title>Quantum networks self-test all entangled states</title>
-    <link>http://arxiv.org/pdf/2201.05032</link>
-    <author>Ivan Šupić, Joseph Bowles, Marc-Olivier Renou, Antonio Acín, Matty J. Hoban</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Certifying quantum properties with minimal assumptions is a fundamental problem in quantum information science. Self-testing is a method to infer the underlying physics of a quantum experiment only from the measured statistics. While all bipartite pure entangled states can be self-tested, little is known about how to self-test quantum states of an arbitrary number of systems. Here, we introduce a framework for network-assisted self-testing and use it to self-test any pure entangled quantum state of an arbitrary number of systems. The scheme requires the preparation of a number of singlets that scales linearly with the number of systems, and the implementation of standard projective and Bell measurements, all feasible with current technology. When all the network constraints are exploited, the obtained self-testing certification is stronger than what is achievable in any Bell-type scenario. Our work does not only solve an open question in the field, but also shows how properly designed networks offer new opportunities for the certification of quantum phenomena.</description>
-  </item>
-
-  <item>
     <title>Quantum Distributed Algorithms for Detection of Cliques</title>
     <link>http://arxiv.org/pdf/2201.03000</link>
     <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
@@ -231,6 +223,14 @@
   </item>
 
   <item>
+    <title>On Lieb-Robinson Bounds for the Double Bracket Flow</title>
+    <link>http://arxiv.org/pdf/2201.07141</link>
+    <author>Matthew B. Hastings</author>
+    <pubDate>Jan 20 2022</pubDate>
+    <description>We consider the possibility of developing a Lieb-Robinson bound for the double bracket flow. This is a differential equation $$\partial_B H(B)=[[V,H(B)],H(B)]$$ which may be used to diagonalize Hamiltonians. Here, $V$ is fixed and $H(0)=H$. We argue (but do not prove) that $H(B)$ need not converge to a limit for nonzero real $B$ in the infinite volume limit, even assuming several conditions on $H(0)$. However, we prove Lieb-Robinson bounds for all $B$ for the double-bracket flow for free fermion systems, but the range increases \emphexponentially with the control parameter $B$.</description>
+  </item>
+
+  <item>
     <title>Cut query algorithms with star contraction</title>
     <link>http://arxiv.org/pdf/2201.05674</link>
     <author>Simon Apers, Yuval Efron, Paweł Gawrychowski, Troy Lee, Sagnik Mukhopadhyay, Danupon Nanongkai</author>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Systematic Literature Review: Quantum Machine Learning and its applications</title>
-    <link>http://arxiv.org/pdf/2201.04093</link>
-    <author>David Peral García, Juan Cruz-Benito, Francisco José García-Peñalvo</author>
-    <pubDate>Jan 12 2022</pubDate>
-    <description>Quantum computing is the process of performing calculations using quantum mechanics. This field studies the quantum behavior of certain subatomic particles for subsequent use in performing calculations, as well as for large-scale information processing. These capabilities can give quantum computers an advantage in terms of computational time and cost over classical computers. Nowadays, there are scientific challenges that are impossible to perform by classical computation due to computational complexity or the time the calculation would take, and quantum computation is one of the possible answers. However, current quantum devices have not yet the necessary qubits and are not fault-tolerant enough to achieve these goals. Nonetheless, there are other fields like machine learning or chemistry where quantum computation could be useful with current quantum devices. This manuscript aims to present a Systematic Literature Review of the papers published between 2017 and 2021 to identify, analyze and classify the different algorithms used in quantum machine learning and their applications. Consequently, this study identified 52 articles that used quantum machine learning techniques and algorithms. The main types of found algorithms are quantum implementations of classical machine learning algorithms, such as support vector machines or the k-nearest neighbor model, and classical deep learning algorithms, like quantum neural networks. Many articles try to solve problems currently answered by classical machine learning but using quantum devices and algorithms. Even though results are promising, quantum machine learning is far from achieving its full potential. An improvement in the quantum hardware is required since the existing quantum computers lack enough quality, speed, and scale to allow quantum computing to achieve its full potential.</description>
+    <title>Quantum networks self-test all entangled states</title>
+    <link>http://arxiv.org/pdf/2201.05032</link>
+    <author>Ivan Šupić, Joseph Bowles, Marc-Olivier Renou, Antonio Acín, Matty J. Hoban</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>Certifying quantum properties with minimal assumptions is a fundamental problem in quantum information science. Self-testing is a method to infer the underlying physics of a quantum experiment only from the measured statistics. While all bipartite pure entangled states can be self-tested, little is known about how to self-test quantum states of an arbitrary number of systems. Here, we introduce a framework for network-assisted self-testing and use it to self-test any pure entangled quantum state of an arbitrary number of systems. The scheme requires the preparation of a number of singlets that scales linearly with the number of systems, and the implementation of standard projective and Bell measurements, all feasible with current technology. When all the network constraints are exploited, the obtained self-testing certification is stronger than what is achievable in any Bell-type scenario. Our work does not only solve an open question in the field, but also shows how properly designed networks offer new opportunities for the certification of quantum phenomena.</description>
   </item>
 
 </channel>
