@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Quantum error correction with fractal topological codes</title>
-    <link>http://arxiv.org/pdf/2201.03568</link>
-    <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
-    <pubDate>Jan 12 2022</pubDate>
-    <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
-  </item>
-
-  <item>
     <title>Low-overhead quantum computing with the color code</title>
     <link>http://arxiv.org/pdf/2201.07806</link>
     <author>Felix Thomsen, Markus S. Kesselring, Stephen D. Bartlett, Benjamin J. Brown</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>Fault-tolerant quantum computation demands significant resources: large numbers of physical qubits must be checked for errors repeatedly to protect quantum data as logic gates are implemented in the presence of noise. We demonstrate that an approach based on the color code can lead to considerable reductions in the resource overheads compared with conventional methods, while remaining compatible with a two-dimensional layout. We propose a lattice surgery scheme that exploits the color code's rich structure to perform arbitrary pairs of commuting logical Pauli measurements in parallel while keeping the space cost low. Compared to lattice surgery schemes based on the surface code with the same code distance, our approach yields about a $3\times$ improvement in the space-time overhead. Even when taking into account the color code's lower error threshold using current decoders, the overhead is reduced by $10\%$ at a physical error rate of $10^{-3}$ and by $50\%$ at $10^{-4}$.</description>
+  </item>
+
+  <item>
+    <title>Quantum error correction with fractal topological codes</title>
+    <link>http://arxiv.org/pdf/2201.03568</link>
+    <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
+    <pubDate>Jan 12 2022</pubDate>
+    <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
   </item>
 
   <item>
@@ -95,6 +95,14 @@
   </item>
 
   <item>
+    <title>Probabilistic error cancellation with sparse Pauli-Lindblad models on noisy quantum processors</title>
+    <link>http://arxiv.org/pdf/2201.09866</link>
+    <author>Ewout van den Berg, Zlatko K. Minev, Abhinav Kandala, Kristan Temme</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Error-mitigation techniques can enable access to accurate estimates of physical observables that are otherwise biased by noise in pre-fault-tolerant quantum computers. One particularly general error-mitigation technique is probabilistic error cancellation (PEC), which effectively inverts a well-characterized noise channel to produce noise-free estimates of observables. Experimental realizations of this technique, however, have been impeded by the challenge of learning correlated noise in large quantum circuits. In this work, we present a practical protocol for learning a sparse noise model that scales to large quantum devices and is efficient to learn and invert. These advances enable us to demonstrate PEC on a superconducting quantum processor with crosstalk errors, thereby revealing a path to error-mitigated quantum computation with noise-free observables at larger circuit volumes.</description>
+  </item>
+
+  <item>
     <title>Practical and Efficient Hamiltonian Learning</title>
     <link>http://arxiv.org/pdf/2201.00190</link>
     <author>Wenjun Yu, Jinzhao Sun, Zeyao Han, Xiao Yuan</author>
@@ -119,6 +127,14 @@
   </item>
 
   <item>
+    <title>Avoiding barren plateaus using classical shadows</title>
+    <link>http://arxiv.org/pdf/2201.08194</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
+  </item>
+
+  <item>
     <title>Equivalence of contextuality and Wigner function negativity in continuous-variable quantum optics</title>
     <link>http://arxiv.org/pdf/2112.14788</link>
     <author>Jonas Haferkamp, Juani Bermejo-Vega</author>
@@ -132,14 +148,6 @@
     <author>Vishal Katariya</author>
     <pubDate>Jan 06 2022</pubDate>
     <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
-  </item>
-
-  <item>
-    <title>Avoiding barren plateaus using classical shadows</title>
-    <link>http://arxiv.org/pdf/2201.08194</link>
-    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
   </item>
 
   <item>
@@ -199,22 +207,6 @@
   </item>
 
   <item>
-    <title>Quantum Distributed Algorithms for Detection of Cliques</title>
-    <link>http://arxiv.org/pdf/2201.03000</link>
-    <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
-    <pubDate>Jan 11 2022</pubDate>
-    <description>The possibilities offered by quantum computing have drawn attention in the distributed computing community recently, with several breakthrough results showing quantum distributed algorithms that run faster than the fastest known classical counterparts, and even separations between the two models. A prime example is the result by Izumi, Le Gall, and Magniez [STACS 2020], who showed that triangle detection by quantum distributed algorithms is easier than triangle listing, while an analogous result is not known in the classical case. In this paper we present a framework for fast quantum distributed clique detection. This improves upon the state-of-the-art for the triangle case, and is also more general, applying to larger clique sizes. Our main technical contribution is a new approach for detecting cliques by encapsulating this as a search task for nodes that can be added to smaller cliques. To extract the best complexities out of our approach, we develop a framework for nested distributed quantum searches, which employ checking procedures that are quantum themselves. Moreover, we show a circuit-complexity barrier on proving a lower bound of the form $\Omega(n^{3/5+\epsilon})$ for $K_p$-detection for any $p \geq 4$, even in the classical (non-quantum) distributed CONGEST setting.</description>
-  </item>
-
-  <item>
-    <title>Toward Trainability of Deep Quantum Neural Networks</title>
-    <link>http://arxiv.org/pdf/2112.15002</link>
-    <author>Kaining Zhang, Min-Hsiu Hsieh, Liu Liu, Dacheng Tao</author>
-    <pubDate>Jan 03 2022</pubDate>
-    <description>Quantum Neural Networks (QNNs) with random structures have poor trainability due to the exponentially vanishing gradient as the circuit depth and the qubit number increase. This result leads to a general belief that a deep QNN will not be feasible. In this work, we provide the first viable solution to the vanishing gradient problem for deep QNNs with theoretical guarantees. Specifically, we prove that for circuits with controlled-layer architectures, the expectation of the gradient norm can be lower bounded by a value that is independent of the qubit number and the circuit depth. Our results follow from a careful analysis of the gradient behaviour on parameter space consisting of rotation angles, as employed in almost any QNNs, instead of relying on impractical 2-design assumptions. We explicitly construct examples where only our QNNs are trainable and converge, while others in comparison cannot.</description>
-  </item>
-
-  <item>
     <title>Deniable Encryption in a Quantum World</title>
     <link>http://arxiv.org/pdf/2112.14988</link>
     <author>Andrea Coladangelo, Shafi Goldwasser, Umesh Vazirani</author>
@@ -239,11 +231,19 @@
   </item>
 
   <item>
-    <title>Quantum networks self-test all entangled states</title>
-    <link>http://arxiv.org/pdf/2201.05032</link>
-    <author>Ivan Šupić, Joseph Bowles, Marc-Olivier Renou, Antonio Acín, Matty J. Hoban</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>Certifying quantum properties with minimal assumptions is a fundamental problem in quantum information science. Self-testing is a method to infer the underlying physics of a quantum experiment only from the measured statistics. While all bipartite pure entangled states can be self-tested, little is known about how to self-test quantum states of an arbitrary number of systems. Here, we introduce a framework for network-assisted self-testing and use it to self-test any pure entangled quantum state of an arbitrary number of systems. The scheme requires the preparation of a number of singlets that scales linearly with the number of systems, and the implementation of standard projective and Bell measurements, all feasible with current technology. When all the network constraints are exploited, the obtained self-testing certification is stronger than what is achievable in any Bell-type scenario. Our work does not only solve an open question in the field, but also shows how properly designed networks offer new opportunities for the certification of quantum phenomena.</description>
+    <title>Quantum Distributed Algorithms for Detection of Cliques</title>
+    <link>http://arxiv.org/pdf/2201.03000</link>
+    <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>The possibilities offered by quantum computing have drawn attention in the distributed computing community recently, with several breakthrough results showing quantum distributed algorithms that run faster than the fastest known classical counterparts, and even separations between the two models. A prime example is the result by Izumi, Le Gall, and Magniez [STACS 2020], who showed that triangle detection by quantum distributed algorithms is easier than triangle listing, while an analogous result is not known in the classical case. In this paper we present a framework for fast quantum distributed clique detection. This improves upon the state-of-the-art for the triangle case, and is also more general, applying to larger clique sizes. Our main technical contribution is a new approach for detecting cliques by encapsulating this as a search task for nodes that can be added to smaller cliques. To extract the best complexities out of our approach, we develop a framework for nested distributed quantum searches, which employ checking procedures that are quantum themselves. Moreover, we show a circuit-complexity barrier on proving a lower bound of the form $\Omega(n^{3/5+\epsilon})$ for $K_p$-detection for any $p \geq 4$, even in the classical (non-quantum) distributed CONGEST setting.</description>
+  </item>
+
+  <item>
+    <title>Toward Trainability of Deep Quantum Neural Networks</title>
+    <link>http://arxiv.org/pdf/2112.15002</link>
+    <author>Kaining Zhang, Min-Hsiu Hsieh, Liu Liu, Dacheng Tao</author>
+    <pubDate>Jan 03 2022</pubDate>
+    <description>Quantum Neural Networks (QNNs) with random structures have poor trainability due to the exponentially vanishing gradient as the circuit depth and the qubit number increase. This result leads to a general belief that a deep QNN will not be feasible. In this work, we provide the first viable solution to the vanishing gradient problem for deep QNNs with theoretical guarantees. Specifically, we prove that for circuits with controlled-layer architectures, the expectation of the gradient norm can be lower bounded by a value that is independent of the qubit number and the circuit depth. Our results follow from a careful analysis of the gradient behaviour on parameter space consisting of rotation angles, as employed in almost any QNNs, instead of relying on impractical 2-design assumptions. We explicitly construct examples where only our QNNs are trainable and converge, while others in comparison cannot.</description>
   </item>
 
 </channel>

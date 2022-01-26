@@ -39,11 +39,11 @@
   </item>
 
   <item>
-    <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
-    <link>http://arxiv.org/pdf/2201.05678</link>
-    <author>Christopher Chamberland, Earl T. Campbell</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
+    <title>Probabilistic error cancellation with sparse Pauli-Lindblad models on noisy quantum processors</title>
+    <link>http://arxiv.org/pdf/2201.09866</link>
+    <author>Ewout van den Berg, Zlatko K. Minev, Abhinav Kandala, Kristan Temme</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Error-mitigation techniques can enable access to accurate estimates of physical observables that are otherwise biased by noise in pre-fault-tolerant quantum computers. One particularly general error-mitigation technique is probabilistic error cancellation (PEC), which effectively inverts a well-characterized noise channel to produce noise-free estimates of observables. Experimental realizations of this technique, however, have been impeded by the challenge of learning correlated noise in large quantum circuits. In this work, we present a practical protocol for learning a sparse noise model that scales to large quantum devices and is efficient to learn and invert. These advances enable us to demonstrate PEC on a superconducting quantum processor with crosstalk errors, thereby revealing a path to error-mitigated quantum computation with noise-free observables at larger circuit volumes.</description>
   </item>
 
   <item>
@@ -55,14 +55,6 @@
   </item>
 
   <item>
-    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
-    <link>http://arxiv.org/pdf/2201.06533</link>
-    <author>Tyler Helmuth, Ryan L. Mann</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
-  </item>
-
-  <item>
     <title>On Lieb-Robinson Bounds for the Double Bracket Flow</title>
     <link>http://arxiv.org/pdf/2201.07141</link>
     <author>Matthew B. Hastings</author>
@@ -71,11 +63,19 @@
   </item>
 
   <item>
-    <title>Cut query algorithms with star contraction</title>
-    <link>http://arxiv.org/pdf/2201.05674</link>
-    <author>Simon Apers, Yuval Efron, Paweł Gawrychowski, Troy Lee, Sagnik Mukhopadhyay, Danupon Nanongkai</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>We study the complexity of determining the edge connectivity of a simple graph with cut queries. We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$ cut queries, and (ii) there is a bounded-error quantum algorithm that computes edge connectivity with $\~O(\sqrt{n})$ cut queries. We prove these results using a new technique called "star contraction" to randomly contract edges of a graph while preserving non-trivial minimum cuts. In star contraction vertices randomly contract an edge incident on a small set of randomly chosen vertices. In contrast to the related 2-out contraction technique of Ghaffari, Nowicki, and Thorup [SODA'20], star contraction only contracts vertex-disjoint star subgraphs, which allows it to be efficiently implemented via cut queries. The $O(n)$ bound from item (i) was not known even for the simpler problem of connectivity, and improves the $O(n\log^3 n)$ bound by Rubinstein, Schramm, and Weinberg [ITCS'18]. The bound is tight under the reasonable conjecture that the randomized communication complexity of connectivity is $\Omega(n\log n)$, an open question since the seminal work of Babai, Frankl, and Simon [FOCS'86]. The bound also excludes using edge connectivity on simple graphs to prove a superlinear randomized query lower bound for minimizing a symmetric submodular function. Item (ii) gives a nearly-quadratic separation with the randomized complexity and addresses an open question of Lee, Santha, and Zhang [SODA'21]. The algorithm can also be viewed as making $\~O(\sqrt{n})$ matrix-vector multiplication queries to the adjacency matrix. Finally, we demonstrate the use of star contraction outside of the cut query setting by designing a one-pass semi-streaming algorithm for computing edge connectivity in the vertex arrival setting. This contrasts with the edge arrival setting where two passes are required.</description>
+    <title>Scalable High-Performance Fluxonium Quantum Processor</title>
+    <link>http://arxiv.org/pdf/2201.09374</link>
+    <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Multicore Quantum Computing</title>
+    <link>http://arxiv.org/pdf/2201.08861</link>
+    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
   </item>
 
   <item>
