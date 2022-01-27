@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Free-Fermion Subsystem Codes</title>
-    <link>http://arxiv.org/pdf/2201.07254</link>
-    <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
-    <pubDate>Jan 20 2022</pubDate>
-    <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
-  </item>
-
-  <item>
     <title>Low-overhead quantum computing with the color code</title>
     <link>http://arxiv.org/pdf/2201.07806</link>
     <author>Felix Thomsen, Markus S. Kesselring, Stephen D. Bartlett, Benjamin J. Brown</author>
@@ -55,14 +47,6 @@
   </item>
 
   <item>
-    <title>On Lieb-Robinson Bounds for the Double Bracket Flow</title>
-    <link>http://arxiv.org/pdf/2201.07141</link>
-    <author>Matthew B. Hastings</author>
-    <pubDate>Jan 20 2022</pubDate>
-    <description>We consider the possibility of developing a Lieb-Robinson bound for the double bracket flow. This is a differential equation $$\partial_B H(B)=[[V,H(B)],H(B)]$$ which may be used to diagonalize Hamiltonians. Here, $V$ is fixed and $H(0)=H$. We argue (but do not prove) that $H(B)$ need not converge to a limit for nonzero real $B$ in the infinite volume limit, even assuming several conditions on $H(0)$. However, we prove Lieb-Robinson bounds for all $B$ for the double-bracket flow for free fermion systems, but the range increases \emphexponentially with the control parameter $B$.</description>
-  </item>
-
-  <item>
     <title>Scalable High-Performance Fluxonium Quantum Processor</title>
     <link>http://arxiv.org/pdf/2201.09374</link>
     <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
@@ -84,6 +68,22 @@
     <author>Kaitlin Gili, Marta Mauri, Alejandro Perdomo-Ortiz</author>
     <pubDate>Jan 24 2022</pubDate>
     <description>Defining and accurately measuring generalization in generative models remains an ongoing challenge and a topic of active research within the machine learning community. This is in contrast to discriminative models, where there is a clear definition of generalization, i.e., the model's classification accuracy when faced with unseen data. In this work, we construct a simple and unambiguous approach to evaluate the generalization capabilities of generative models. Using the sample-based generalization metrics proposed here, any generative model, from state-of-the-art classical generative models such as GANs to quantum models such as Quantum Circuit Born Machines, can be evaluated on the same ground on a concrete well-defined framework. In contrast to other sample-based metrics for probing generalization, we leverage constrained optimization problems (e.g., cardinality constrained problems) and use these discrete datasets to define specific metrics capable of unambiguously measuring the quality of the samples and the model's generalization capabilities for generating data beyond the training set but still within the valid solution space. Additionally, our metrics can diagnose trainability issues such as mode collapse and overfitting, as we illustrate when comparing GANs to quantum-inspired models built out of tensor networks. Our simulation results show that our quantum-inspired models have up to a $68 \times$ enhancement in generating unseen unique and valid samples compared to GANs, and a ratio of 61:2 for generating samples with better quality than those observed in the training set. We foresee these metrics as valuable tools for rigorously defining practical quantum advantage in the domain of generative modeling.</description>
+  </item>
+
+  <item>
+    <title>Computable lower bounds on the entanglement cost of quantum channels</title>
+    <link>http://arxiv.org/pdf/2201.09257</link>
+    <author>Ludovico Lami, Bartosz Regula</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>A class of lower bounds for the entanglement cost of any quantum state was recently introduced in [arXiv:2111.02438] in the form of entanglement monotones known as the tempered robustness and tempered negativity. Here we extend their definitions to point-to-point quantum channels, establishing a lower bound for the entanglement cost of any channel, whether finite or infinite dimensional. This leads, in particular, to a bound that is computable as a semidefinite program and that can outperform previously known lower bounds, including ones based on quantum relative entropy. In the course of our proof we establish a useful link between the robustness of entanglement of quantum states and quantum channels, which requires several technical developments such as showing the lower semicontinuity of the robustness of entanglement of a channel in the weak*-operator topology on bounded linear maps between spaces of trace class operators.</description>
+  </item>
+
+  <item>
+    <title>Quantum Computing 2022</title>
+    <link>http://arxiv.org/pdf/2201.09877</link>
+    <author>James D. Whitfield, Jun Yan, Weishi Wang, Joshuah T. Heath, Brent Harrison</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Quantum technology is full of figurative and literal noise obscuring its promise. In this overview, we will attempt to provide a sober assessment of the promise of quantum technology with a focus on computing. We provide a tour of quantum computing and quantum technology that is aimed to be comprehensible to scientists and engineers without becoming a popular account. The goal is not a comprehensive review nor a superficial introduction but rather to serve as a useful map to navigate the hype, the scientific literature, and upcoming press releases about quantum technology and quantum computing. We have aimed to cite the most recent topical reviews, key results, and guide the reader away from fallacies and towards active discussions in the current quantum computing literature. The goal of this article was to be pedantic and introductory without compromising on the science.</description>
   </item>
 
 </channel>

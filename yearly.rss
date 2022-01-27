@@ -119,14 +119,6 @@
   </item>
 
   <item>
-    <title>Quantum theory based on real numbers can be experimentally falsified</title>
-    <link>http://arxiv.org/pdf/2101.10873</link>
-    <author>Marc-Olivier Renou, David Trillo, Mirjam Weilenmann, Thinh P. Le, Armin Tavakoli, Nicolas Gisin, Antonio Acin, Miguel Navascues</author>
-    <pubDate>Jan 27 2021</pubDate>
-    <description>While complex numbers are essential in mathematics, they are not needed to describe physical experiments, expressed in terms of probabilities, hence real numbers. Physics however aims to explain, rather than describe, experiments through theories. While most theories of physics are based on real numbers, quantum theory was the first to be formulated in terms of operators acting on complex Hilbert spaces. This has puzzled countless physicists, including the fathers of the theory, for whom a real version of quantum theory, in terms of real operators, seemed much more natural. In fact, previous works showed that such "real quantum theory" can reproduce the outcomes of any multipartite experiment, as long as the parts share arbitrary real quantum states. Thus, are complex numbers really needed in the quantum formalism? Here, we show this to be case by proving that real and complex quantum theory make different predictions in network scenarios comprising independent states and measurements. This allows us to devise a Bell-like experiment whose successful realization would disprove real quantum theory, in the same way as standard Bell experiments disproved local physics.</description>
-  </item>
-
-  <item>
     <title>Dynamically Generated Logical Qubits</title>
     <link>http://arxiv.org/pdf/2107.02194</link>
     <author>Matthew B. Hastings, Jeongwan Haah</author>
@@ -263,6 +255,14 @@
   </item>
 
   <item>
+    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
+    <link>http://arxiv.org/pdf/2201.08309</link>
+    <author>Lin Lin</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
     <title>Estimating gate-set properties from random sequences</title>
     <link>http://arxiv.org/pdf/2110.13178</link>
     <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
@@ -300,14 +300,6 @@
     <author>Toby S. Cubitt</author>
     <pubDate>May 21 2021</pubDate>
     <description>Pick a formal system. Any formal system. Whatever your favourite formal system is, as long as it's capable of reasoning about elementary arithmetic. The First Spectral Gap Incompleteness Theorem of [CPGW15] proved that there exist Hamiltonians whose spectral gap is independent of that system; your formal system is incapable of proving that the Hamiltonian is gapped, and equally incapable of proving that it's gapless. In this note, I prove a Second Spectral Gap Incompleteness Theorem: I show how to explicitly construct, within the formal system, a concrete example of a Hamiltonian whose spectral gap is independent of that system. Just to be sure, I prove this result three times. Once with Gödel's help. Once with Zermelo and Fraenkel's help. And finally, doing away with these high-powered friends, I give a simple, direct argument which reveals the inherent self-referential structure at the heart of these results, by asking the Hamiltonian about its own spectral gap.</description>
-  </item>
-
-  <item>
-    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
-    <link>http://arxiv.org/pdf/2201.08309</link>
-    <author>Lin Lin</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>C. Ryan-Anderson, J. G. Bohnet, K. Lee, D. Gresh, A. Hankin, J. P. Gaebler, D. Francois, A. Chernoguzov, D. Lucchetti, N. C. Brown, T. M. Gatterman, S. K. Halit, K. Gilmore, J. Gerber, B. Neyenhuis, D. Hayes, R. P. Stutz</author>
     <pubDate>Jul 16 2021</pubDate>
     <description>Correcting errors in real time is essential for reliable large-scale quantum computations. Realizing this high-level function requires a system capable of several low-level primitives, including single-qubit and two-qubit operations, mid-circuit measurements of subsets of qubits, real-time processing of measurement outcomes, and the ability to condition subsequent gate operations on those measurements. In this work, we use a ten qubit QCCD trapped-ion quantum computer to encode a single logical qubit using the $[[7,1,3]]$ color code, first proposed by Steane~\citesteane1996error. The logical qubit is initialized into the eigenstates of three mutually unbiased bases using an encoding circuit, and we measure an average logical SPAM error of $1.7(6) \times 10^{-3}$, compared to the average physical SPAM error $2.4(8) \times 10^{-3}$ of our qubits. We then perform multiple syndrome measurements on the encoded qubit, using a real-time decoder to determine any necessary corrections that are done either as software updates to the Pauli frame or as physically applied gates. Moreover, these procedures are done repeatedly while maintaining coherence, demonstrating a dynamically protected logical qubit memory. Additionally, we demonstrate non-Clifford qubit operations by encoding a logical magic state with an error rate below the threshold required for magic state distillation. Finally, we present system-level simulations that allow us to identify key hardware upgrades that may enable the system to reach the pseudo-threshold.</description>
+  </item>
+
+  <item>
+    <title>Single-shot quantum error correction with the three-dimensional subsystem toric code</title>
+    <link>http://arxiv.org/pdf/2106.02621</link>
+    <author>Aleksander Kubica, Michael Vasmer</author>
+    <pubDate>Jun 07 2021</pubDate>
+    <description>We introduce a new topological quantum code, the three-dimensional subsystem toric code (3D STC), which is a generalization of the stabilizer toric code. The 3D STC can be realized by measuring geometrically-local parity checks of weight at most three on the cubic lattice with open boundary conditions. We prove that single-shot quantum error correction (QEC) is possible with the 3D STC, i.e., one round of local parity-check measurements suffices to perform reliable QEC even in the presence of measurement errors. We also propose an efficient single-shot QEC strategy for the 3D STC and investigate its performance. In particular, we numerically estimate the resulting storage threshold against independent bit-flip, phase-flip and measurement errors to be $p_\text{STC} \approx 1.045\%$. Such a high threshold together with local parity-check measurements of small weight make the 3D STC particularly appealing for realizing fault-tolerant quantum computing.</description>
   </item>
 
 </channel>
