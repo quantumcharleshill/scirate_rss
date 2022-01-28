@@ -7,30 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>BBGKY Hierarchy and Generalised Hydrodynamics</title>
-    <link>http://arxiv.org/pdf/2201.10549</link>
-    <author>Bruno Bertini, Fabian H. L. Essler, Etienne Granet</author>
-    <pubDate>Jan 26 2022</pubDate>
-    <description>We consider fermions defined on a continuous one-dimensional interval and subject to weak repulsive two-body interactions. We show that it is possible to perturbatively construct an extensive number of mutually compatible conserved charges for any interaction potential. However, the contributions to the densities of these charges at second order and higher are generally non-local and become spatially localized only if the potential fulfils certain compatibility conditions. We prove that the only solution to the first of these conditions with strictly local densities of charges is the Cheon-Shigehara potential (fermionic dual to the Lieb-Liniger model), and observe numerically that the only other solutions appear to be the Calogero-Sutherland potentials. We use our construction to show how Generalized Hydrodynamics (GHD) emerges from the Bogoliubov-Born-Green-Kirkwood-Yvon hierarchy, and argue that GHD in the weak interaction regime is robust under non-integrable perturbations.</description>
-  </item>
-
-  <item>
-    <title>State retrieval beyond Bayes' retrodiction and reverse processes</title>
-    <link>http://arxiv.org/pdf/2201.09899</link>
-    <author>Jacopo Surace, Matteo Scandi</author>
-    <pubDate>Jan 26 2022</pubDate>
-    <description>In the context of irreversible dynamics, associating to a physical process its intuitive reverse can result to be a quite ambiguous task. It is a standard choice to define the reverse process using Bayes' theorem, but, in general, this choice is not optimal. In this work we explore whether it is possible to characterise an optimal reverse map building from the concept of state retrieval maps. In doing so, we propose a set of principles that state retrieval maps should satisfy. We find out that the Bayes inspired reverse is just one case in a whole class of possible choices, which can be optimised to give a map retrieving the initial state more precisely than the Bayes rule. Our analysis has the advantage of naturally extending to the quantum regime. In fact, we find a class of reverse transformations containing the Petz recovery map as a particular case, corroborating its interpretation as quantum analogue of the Bayes retrieval. Finally, we present numerical evidences that by adding a single extra axiom one can isolate the usual reverse process derived from Bayes' theorem.</description>
-  </item>
-
-  <item>
-    <title>Stochastic diagonal estimation: probabilistic bounds and an improved algorithm</title>
-    <link>http://arxiv.org/pdf/2201.10684</link>
-    <author>Robert A. Baston, Yuji Nakatsukasa</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study the problem of estimating the diagonal of an implicitly given matrix $A$. For such a matrix we have access to an oracle that allows us to evaluate the matrix vector product $Av$. For random variable $v$ drawn from an appropriate distribution, this may be used to return an estimate of the diagonal of the matrix $A$. Whilst results exist for probabilistic guarantees relating to the error of estimates of the trace of $A$, no such results have yet been derived for the diagonal. We analyse the number of queries $s$ required to guarantee that with probability at least $1-\delta$ the estimates of the relative error of the diagonal entries is at most $\varepsilon$. We extend this analysis to the 2-norm of the difference between the estimate and the diagonal of $A$. We prove, discuss and experiment with bounds on the number of queries $s$ required to guarantee a probabilistic bound on the estimates of the diagonal by employing Rademacher and Gaussian random variables. Two sufficient upper bounds on the minimum number of query vectors are proved, extending the work of Avron and Toledo [JACM 58(2)8, 2011], and later work of Roosta-Khorasani and Ascher [FoCM 15, 1187-1212, 2015]. We find that, generally, there is little difference between the two, with convergence going as $O(\log(1/\delta)/\varepsilon^2)$ for individual diagonal elements. However for small $s$, we find that the Rademacher estimator is superior. These results allow us to then extend the ideas of Meyer, Musco, Musco and Woodruff [SOSA, 142-155, 2021], suggesting algorithm Diag++, to speed up the convergence of diagonal estimation from $O(1/\varepsilon^2)$ to $O(1/\varepsilon)$ and make it robust to the spectrum of any positive semi-definite matrix $A$.</description>
-  </item>
-
-  <item>
     <title>Efficiently improving the performance of noisy quantum computers</title>
     <link>http://arxiv.org/pdf/2201.10672</link>
     <author>Samuele Ferracin, Akel Hashim, Jean-Loup Ville, Ravi Naik, Arnaud Carignan-Dugas, Hammam Qassim, Alexis Morvan, David I. Santiago, Irfan Siddiqi, Joel J. Wallman</author>
@@ -39,11 +15,35 @@
   </item>
 
   <item>
-    <title>Online Active Learning with Dynamic Marginal Gain Thresholding</title>
-    <link>http://arxiv.org/pdf/2201.10547</link>
-    <author>Mariel A. Werner, Anastasios Angelopoulos, Stephen Bates, Michael I. Jordan</author>
-    <pubDate>Jan 26 2022</pubDate>
-    <description>The blessing of ubiquitous data also comes with a curse: the communication, storage, and labeling of massive, mostly redundant datasets. In our work, we seek to solve the problem at its source, collecting only valuable data and throwing out the rest, via active learning. We propose an online algorithm which, given any stream of data, any assessment of its value, and any formulation of its selection cost, extracts the most valuable subset of the stream up to a constant factor while using minimal memory. Notably, our analysis also holds for the federated setting, in which multiple agents select online from individual data streams without coordination and with potentially very different appraisals of cost. One particularly important use case is selecting and labeling training sets from unlabeled collections of data that maximize the test-time performance of a given classifier. In prediction tasks on ImageNet and MNIST, we show that our selection method outperforms random selection by up to 5-20%.</description>
+    <title>Tailored cluster states with high threshold under biased noise</title>
+    <link>http://arxiv.org/pdf/2201.10566</link>
+    <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>Fault-tolerant cluster states form the basis for scalable measurement-based quantum computation. Recently, new stabilizer codes for scalable circuit-based quantum computation have been introduced that have very high thresholds under biased noise where the qubit predominantly suffers from one type of error, e.g. dephasing. However, extending these advances in stabilizer codes to generate high-threshold cluster states for biased noise has been a challenge, as the standard method for foliating stabilizer codes to generate fault-tolerant cluster states does not preserve the noise bias. In this work, we overcome this barrier by introducing a generalization of the cluster state that allows us to foliate stabilizer codes in a bias-preserving way. As an example of our approach, we construct a foliated version of the XZZX code which we call the XZZX cluster state. We demonstrate that under a circuit-level noise model, our XZZX cluster state has a threshold more than double the usual cluster state when dephasing errors are more likely than errors which cause bit flips by a factor of $O(100)$ or more.</description>
+  </item>
+
+  <item>
+    <title>Simultaneous Measurement and Entanglement</title>
+    <link>http://arxiv.org/pdf/2201.10667</link>
+    <author>Andrey Boris Khesin, Peter Shor</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+  </item>
+
+  <item>
+    <title>An Efficient Quantum Readout Error Mitigation for Sparse Measurement Outcomes of Near-term Quantum Devices</title>
+    <link>http://arxiv.org/pdf/2201.11046</link>
+    <author>Bo Yang, Rudy Raymond, Shumpei Uno</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>The readout error on the near-term quantum devices is one of the dominant noise factors, which can be mitigated by classical post-processing called quantum readout error mitigation (QREM). The standard QREM method applies the inverse of noise calibration matrix to the outcome probability distribution using exponential computational resources to the system size. Hence this standard approach is not applicable to the current quantum devices with tens of qubits and more. We propose two efficient QREM methods on such devices whose computational complexity is $O(ns^2)$ for probability distributions on measuring $n$ qubits with $s$ shots. The main targets of the proposed methods are the sparse probability distributions where only a few states are dominant. We compare the proposed methods with several recent QREM methods on the following three cases: expectation values of GHZ state, its fidelities, and the estimation error of maximum likelihood amplitude estimation (MLAE) algorithm with modified Grover iterator. The two cases of the GHZ state are on real IBM quantum devices, while the third is by numerical simulation. The proposed methods can be applied to mitigate GHZ states up to 65 qubits on IBM Quantum devices within a few seconds to confirm the existence of a 29-qubit GHZ state with fidelity larger than 0.5. The proposed methods also succeed in the estimation of the amplitude in MLAE with the modified Grover operator where other QREM methods fail.</description>
+  </item>
+
+  <item>
+    <title>Basic Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2201.10574</link>
+    <author>Renato Portugal</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>Quantum computing is evolving so quickly that forces us to revisit, rewrite, and update the basis of the theory. Basic Quantum Algorithms revisits the first quantum algorithms. It started in 1995 with Deutsch trying to evaluate a function at two domain points simultaneously. Then, Deutsch and Jozsa created in 1992 a quantum algorithm that determines whether a Boolean function is constant or balanced. In the next year, Bernstein and Vazirani realized that the same algorithm can be used to find a specific Boolean function in the set of linear Boolean functions. In 1994, Simon presented a new quantum algorithm that determines whether a function is one-to-one or two-to-one exponentially faster than any classical algorithm for the same problem. In the same year, Shor created two new quantum algorithms for factoring integers and calculating discrete logarithms, threatening the cryptography methods widely used nowadays. In 1995, Kitaev described an alternative version for Shor's algorithms that proved useful in many other applications. In the following year, Grover created a quantum search algorithm quadratically faster than its classical counterpart. In this work, all those remarkable algorithms are described in detail with a focus on the circuit model.</description>
   </item>
 
 </channel>
