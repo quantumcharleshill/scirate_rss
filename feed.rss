@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>Efficiently improving the performance of noisy quantum computers</title>
+    <link>http://arxiv.org/pdf/2201.10672</link>
+    <author>Samuele Ferracin, Akel Hashim, Jean-Loup Ville, Ravi Naik, Arnaud Carignan-Dugas, Hammam Qassim, Alexis Morvan, David I. Santiago, Irfan Siddiqi, Joel J. Wallman</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>Using near-term quantum computers to achieve a quantum advantage requires efficient strategies to improve the performance of the noisy quantum devices presently available. We develop and experimentally validate two efficient error mitigation protocols named "Noiseless Output Extrapolation" and "Pauli Error Cancellation" that can drastically enhance the performance of quantum circuits composed of noisy cycles of gates. By combining popular mitigation strategies such as probabilistic error cancellation and noise amplification with efficient noise reconstruction methods, our protocols can mitigate a wide range of noise processes that do not satisfy the assumptions underlying existing mitigation protocols, including non-local and gate-dependent processes. We test our protocols on a four-qubit superconducting processor at the Advanced Quantum Testbed. We observe significant improvements in the performance of both structured and random circuits, with up to $86\%$ improvement in variation distance over the unmitigated outputs. Our experiments demonstrate the effectiveness of our protocols, as well as their practicality for current hardware platforms.</description>
+  </item>
+
+  <item>
     <title>Testing matrix product states</title>
     <link>http://arxiv.org/pdf/2201.01824</link>
     <author>Mehdi Soleimanifar, John Wright</author>
@@ -52,14 +60,6 @@
     <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
     <pubDate>Jan 12 2022</pubDate>
     <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
-  </item>
-
-  <item>
-    <title>Efficiently improving the performance of noisy quantum computers</title>
-    <link>http://arxiv.org/pdf/2201.10672</link>
-    <author>Samuele Ferracin, Akel Hashim, Jean-Loup Ville, Ravi Naik, Arnaud Carignan-Dugas, Hammam Qassim, Alexis Morvan, David I. Santiago, Irfan Siddiqi, Joel J. Wallman</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Using near-term quantum computers to achieve a quantum advantage requires efficient strategies to improve the performance of the noisy quantum devices presently available. We develop and experimentally validate two efficient error mitigation protocols named "Noiseless Output Extrapolation" and "Pauli Error Cancellation" that can drastically enhance the performance of quantum circuits composed of noisy cycles of gates. By combining popular mitigation strategies such as probabilistic error cancellation and noise amplification with efficient noise reconstruction methods, our protocols can mitigate a wide range of noise processes that do not satisfy the assumptions underlying existing mitigation protocols, including non-local and gate-dependent processes. We test our protocols on a four-qubit superconducting processor at the Advanced Quantum Testbed. We observe significant improvements in the performance of both structured and random circuits, with up to $86\%$ improvement in variation distance over the unmitigated outputs. Our experiments demonstrate the effectiveness of our protocols, as well as their practicality for current hardware platforms.</description>
   </item>
 
   <item>
@@ -127,6 +127,14 @@
   </item>
 
   <item>
+    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
+    <link>http://arxiv.org/pdf/2201.11495</link>
+    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
+    <pubDate>Jan 28 2022</pubDate>
+    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates. For sparse quantum states with $d\geqslant2$ non-zero entries, the circuit depth can be further reduced to $\Theta(\log(nd))$, which is exponentially faster than best-known results. Both results achieve the optimal circuit depth complexities. The main idea of our protocols is to make use of ancillary qubits to reduce the circuit depth. We show that the number of ancillary qubits is also nearly optimal. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
+  </item>
+
+  <item>
     <title>Oracle separations of hybrid quantum-classical circuits</title>
     <link>http://arxiv.org/pdf/2201.01904</link>
     <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
@@ -183,22 +191,6 @@
   </item>
 
   <item>
-    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2201.05215</link>
-    <author>Dmitri Maslov, Ben Zindorf</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
-  </item>
-
-  <item>
-    <title>Exact quantum query complexity of computing Hamming weight modulo powers of two and three</title>
-    <link>http://arxiv.org/pdf/2112.14682</link>
-    <author>Arjan Cornelissen, Nikhil S. Mande, Maris Ozols, Ronald de Wolf</author>
-    <pubDate>Dec 30 2021</pubDate>
-    <description>We study the problem of computing the Hamming weight of an $n$-bit string modulo $m$, for any positive integer $m \leq n$ whose only prime factors are 2 and 3. We show that the exact quantum query complexity of this problem is $\left\lceil n(1 - 1/m) \right\rceil$. The upper bound is via an iterative query algorithm whose core components are the well-known 1-query quantum algorithm (essentially due to Deutsch) to compute the Hamming weight a 2-bit string mod 2 (i.e., the parity of the input bits), and a new 2-query quantum algorithm to compute the Hamming weight of a 3-bit string mod 3. We show a matching lower bound (in fact for arbitrary moduli $m$) via a variant of the polynomial method [de Wolf, SIAM J. Comput., 32(3), 2003]. This bound is for the weaker task of deciding whether or not a given $n$-bit input has Hamming weight 0 modulo $m$, and it holds even in the stronger non-deterministic quantum query model where an algorithm must have positive acceptance probability iff its input evaluates to 1. For $m>2$ our lower bound exceeds $n/2$, beating the best lower bound provable using the general polynomial method [Theorem 4.3, Beals et al., J. ACM 48(4), 2001].</description>
-  </item>
-
-  <item>
     <title>Tailored cluster states with high threshold under biased noise</title>
     <link>http://arxiv.org/pdf/2201.10566</link>
     <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
@@ -207,11 +199,11 @@
   </item>
 
   <item>
-    <title>Scalable High-Performance Fluxonium Quantum Processor</title>
-    <link>http://arxiv.org/pdf/2201.09374</link>
-    <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
+    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2201.05215</link>
+    <author>Dmitri Maslov, Ben Zindorf</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
   </item>
 
   <item>
@@ -223,27 +215,35 @@
   </item>
 
   <item>
+    <title>Exact quantum query complexity of computing Hamming weight modulo powers of two and three</title>
+    <link>http://arxiv.org/pdf/2112.14682</link>
+    <author>Arjan Cornelissen, Nikhil S. Mande, Maris Ozols, Ronald de Wolf</author>
+    <pubDate>Dec 30 2021</pubDate>
+    <description>We study the problem of computing the Hamming weight of an $n$-bit string modulo $m$, for any positive integer $m \leq n$ whose only prime factors are 2 and 3. We show that the exact quantum query complexity of this problem is $\left\lceil n(1 - 1/m) \right\rceil$. The upper bound is via an iterative query algorithm whose core components are the well-known 1-query quantum algorithm (essentially due to Deutsch) to compute the Hamming weight a 2-bit string mod 2 (i.e., the parity of the input bits), and a new 2-query quantum algorithm to compute the Hamming weight of a 3-bit string mod 3. We show a matching lower bound (in fact for arbitrary moduli $m$) via a variant of the polynomial method [de Wolf, SIAM J. Comput., 32(3), 2003]. This bound is for the weaker task of deciding whether or not a given $n$-bit input has Hamming weight 0 modulo $m$, and it holds even in the stronger non-deterministic quantum query model where an algorithm must have positive acceptance probability iff its input evaluates to 1. For $m>2$ our lower bound exceeds $n/2$, beating the best lower bound provable using the general polynomial method [Theorem 4.3, Beals et al., J. ACM 48(4), 2001].</description>
+  </item>
+
+  <item>
+    <title>Simultaneous Measurement and Entanglement</title>
+    <link>http://arxiv.org/pdf/2201.10667</link>
+    <author>Andrey Boris Khesin, Peter Shor</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+  </item>
+
+  <item>
+    <title>Scalable High-Performance Fluxonium Quantum Processor</title>
+    <link>http://arxiv.org/pdf/2201.09374</link>
+    <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
+  </item>
+
+  <item>
     <title>Cut query algorithms with star contraction</title>
     <link>http://arxiv.org/pdf/2201.05674</link>
     <author>Simon Apers, Yuval Efron, Paweł Gawrychowski, Troy Lee, Sagnik Mukhopadhyay, Danupon Nanongkai</author>
     <pubDate>Jan 19 2022</pubDate>
     <description>We study the complexity of determining the edge connectivity of a simple graph with cut queries. We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$ cut queries, and (ii) there is a bounded-error quantum algorithm that computes edge connectivity with $\~O(\sqrt{n})$ cut queries. We prove these results using a new technique called "star contraction" to randomly contract edges of a graph while preserving non-trivial minimum cuts. In star contraction vertices randomly contract an edge incident on a small set of randomly chosen vertices. In contrast to the related 2-out contraction technique of Ghaffari, Nowicki, and Thorup [SODA'20], star contraction only contracts vertex-disjoint star subgraphs, which allows it to be efficiently implemented via cut queries. The $O(n)$ bound from item (i) was not known even for the simpler problem of connectivity, and improves the $O(n\log^3 n)$ bound by Rubinstein, Schramm, and Weinberg [ITCS'18]. The bound is tight under the reasonable conjecture that the randomized communication complexity of connectivity is $\Omega(n\log n)$, an open question since the seminal work of Babai, Frankl, and Simon [FOCS'86]. The bound also excludes using edge connectivity on simple graphs to prove a superlinear randomized query lower bound for minimizing a symmetric submodular function. Item (ii) gives a nearly-quadratic separation with the randomized complexity and addresses an open question of Lee, Santha, and Zhang [SODA'21]. The algorithm can also be viewed as making $\~O(\sqrt{n})$ matrix-vector multiplication queries to the adjacency matrix. Finally, we demonstrate the use of star contraction outside of the cut query setting by designing a one-pass semi-streaming algorithm for computing edge connectivity in the vertex arrival setting. This contrasts with the edge arrival setting where two passes are required.</description>
-  </item>
-
-  <item>
-    <title>Deniable Encryption in a Quantum World</title>
-    <link>http://arxiv.org/pdf/2112.14988</link>
-    <author>Andrea Coladangelo, Shafi Goldwasser, Umesh Vazirani</author>
-    <pubDate>Jan 03 2022</pubDate>
-    <description>(Sender-)Deniable encryption provides a very strong privacy guarantee: a sender who is coerced by an attacker into "opening" their ciphertext after-the-fact is able to generate "fake" local random choices that are consistent with any plaintext of their choice. The only known fully-efficient constructions of public-key deniable encryption rely on indistinguishability obfuscation (iO) (which currently can only be based on sub-exponential hardness assumptions). In this work, we study (sender-)deniable encryption in a setting where the encryption procedure is a quantum algorithm, but the ciphertext is classical. We propose two notions of deniable encryption in this setting. The first notion, called quantum deniability, parallels the classical one. We give a fully efficient construction satisfying this definition, assuming the quantum hardness of the Learning with Errors (LWE) problem. The second notion, unexplainability, starts from a new perspective on deniability, and leads to a natural common view of deniability in the classical and quantum settings. We give a construction which is secure in the random oracle model, assuming the quantum hardness of LWE. Notably, our construction satisfies a strong form of unexplainability which is impossible to achieve classically, thus highlighting a new quantum phenomenon that may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>On Lieb-Robinson Bounds for the Double Bracket Flow</title>
-    <link>http://arxiv.org/pdf/2201.07141</link>
-    <author>Matthew B. Hastings</author>
-    <pubDate>Jan 20 2022</pubDate>
-    <description>We consider the possibility of developing a Lieb-Robinson bound for the double bracket flow. This is a differential equation $$\partial_B H(B)=[[V,H(B)],H(B)]$$ which may be used to diagonalize Hamiltonians. Here, $V$ is fixed and $H(0)=H$. We argue (but do not prove) that $H(B)$ need not converge to a limit for nonzero real $B$ in the infinite volume limit, even assuming several conditions on $H(0)$. However, we prove Lieb-Robinson bounds for all $B$ for the double-bracket flow for free fermion systems, but the range increases \emphexponentially with the control parameter $B$.</description>
   </item>
 
 </channel>

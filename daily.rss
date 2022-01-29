@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
+    <link>http://arxiv.org/pdf/2201.11495</link>
+    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
+    <pubDate>Jan 28 2022</pubDate>
+    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates. For sparse quantum states with $d\geqslant2$ non-zero entries, the circuit depth can be further reduced to $\Theta(\log(nd))$, which is exponentially faster than best-known results. Both results achieve the optimal circuit depth complexities. The main idea of our protocols is to make use of ancillary qubits to reduce the circuit depth. We show that the number of ancillary qubits is also nearly optimal. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
+  </item>
+
+  <item>
     <title>Tailored cluster states with high threshold under biased noise</title>
     <link>http://arxiv.org/pdf/2201.10566</link>
     <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
@@ -36,14 +44,6 @@
     <author>Bo Yang, Rudy Raymond, Shumpei Uno</author>
     <pubDate>Jan 27 2022</pubDate>
     <description>The readout error on the near-term quantum devices is one of the dominant noise factors, which can be mitigated by classical post-processing called quantum readout error mitigation (QREM). The standard QREM method applies the inverse of noise calibration matrix to the outcome probability distribution using exponential computational resources to the system size. Hence this standard approach is not applicable to the current quantum devices with tens of qubits and more. We propose two efficient QREM methods on such devices whose computational complexity is $O(ns^2)$ for probability distributions on measuring $n$ qubits with $s$ shots. The main targets of the proposed methods are the sparse probability distributions where only a few states are dominant. We compare the proposed methods with several recent QREM methods on the following three cases: expectation values of GHZ state, its fidelities, and the estimation error of maximum likelihood amplitude estimation (MLAE) algorithm with modified Grover iterator. The two cases of the GHZ state are on real IBM quantum devices, while the third is by numerical simulation. The proposed methods can be applied to mitigate GHZ states up to 65 qubits on IBM Quantum devices within a few seconds to confirm the existence of a 29-qubit GHZ state with fidelity larger than 0.5. The proposed methods also succeed in the estimation of the amplitude in MLAE with the modified Grover operator where other QREM methods fail.</description>
-  </item>
-
-  <item>
-    <title>Basic Quantum Algorithms</title>
-    <link>http://arxiv.org/pdf/2201.10574</link>
-    <author>Renato Portugal</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Quantum computing is evolving so quickly that forces us to revisit, rewrite, and update the basis of the theory. Basic Quantum Algorithms revisits the first quantum algorithms. It started in 1995 with Deutsch trying to evaluate a function at two domain points simultaneously. Then, Deutsch and Jozsa created in 1992 a quantum algorithm that determines whether a Boolean function is constant or balanced. In the next year, Bernstein and Vazirani realized that the same algorithm can be used to find a specific Boolean function in the set of linear Boolean functions. In 1994, Simon presented a new quantum algorithm that determines whether a function is one-to-one or two-to-one exponentially faster than any classical algorithm for the same problem. In the same year, Shor created two new quantum algorithms for factoring integers and calculating discrete logarithms, threatening the cryptography methods widely used nowadays. In 1995, Kitaev described an alternative version for Shor's algorithms that proved useful in many other applications. In the following year, Grover created a quantum search algorithm quadratically faster than its classical counterpart. In this work, all those remarkable algorithms are described in detail with a focus on the circuit model.</description>
   </item>
 
 </channel>
