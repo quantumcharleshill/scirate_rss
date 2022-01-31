@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Multicore Quantum Computing</title>
-    <link>http://arxiv.org/pdf/2201.08861</link>
-    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
-  </item>
-
-  <item>
     <title>Simultaneous Measurement and Entanglement</title>
     <link>http://arxiv.org/pdf/2201.10667</link>
     <author>Andrey Boris Khesin, Peter Shor</author>
     <pubDate>Jan 27 2022</pubDate>
     <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+  </item>
+
+  <item>
+    <title>Multicore Quantum Computing</title>
+    <link>http://arxiv.org/pdf/2201.08861</link>
+    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
   </item>
 
   <item>
@@ -63,14 +63,6 @@
   </item>
 
   <item>
-    <title>Computable lower bounds on the entanglement cost of quantum channels</title>
-    <link>http://arxiv.org/pdf/2201.09257</link>
-    <author>Ludovico Lami, Bartosz Regula</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>A class of lower bounds for the entanglement cost of any quantum state was recently introduced in [arXiv:2111.02438] in the form of entanglement monotones known as the tempered robustness and tempered negativity. Here we extend their definitions to point-to-point quantum channels, establishing a lower bound for the entanglement cost of any channel, whether finite or infinite dimensional. This leads, in particular, to a bound that is computable as a semidefinite program and that can outperform previously known lower bounds, including ones based on quantum relative entropy. In the course of our proof we establish a useful link between the robustness of entanglement of quantum states and quantum channels, which requires several technical developments such as showing the lower semicontinuity of the robustness of entanglement of a channel in the weak*-operator topology on bounded linear maps between spaces of trace class operators.</description>
-  </item>
-
-  <item>
     <title>Quantum Computing 2022</title>
     <link>http://arxiv.org/pdf/2201.09877</link>
     <author>James D. Whitfield, Jun Yan, Weishi Wang, Joshuah T. Heath, Brent Harrison</author>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>Evaluating Generalization in Classical and Quantum Generative Models</title>
-    <link>http://arxiv.org/pdf/2201.08770</link>
-    <author>Kaitlin Gili, Marta Mauri, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Jan 24 2022</pubDate>
-    <description>Defining and accurately measuring generalization in generative models remains an ongoing challenge and a topic of active research within the machine learning community. This is in contrast to discriminative models, where there is a clear definition of generalization, i.e., the model's classification accuracy when faced with unseen data. In this work, we construct a simple and unambiguous approach to evaluate the generalization capabilities of generative models. Using the sample-based generalization metrics proposed here, any generative model, from state-of-the-art classical generative models such as GANs to quantum models such as Quantum Circuit Born Machines, can be evaluated on the same ground on a concrete well-defined framework. In contrast to other sample-based metrics for probing generalization, we leverage constrained optimization problems (e.g., cardinality constrained problems) and use these discrete datasets to define specific metrics capable of unambiguously measuring the quality of the samples and the model's generalization capabilities for generating data beyond the training set but still within the valid solution space. Additionally, our metrics can diagnose trainability issues such as mode collapse and overfitting, as we illustrate when comparing GANs to quantum-inspired models built out of tensor networks. Our simulation results show that our quantum-inspired models have up to a $68 \times$ enhancement in generating unseen unique and valid samples compared to GANs, and a ratio of 61:2 for generating samples with better quality than those observed in the training set. We foresee these metrics as valuable tools for rigorously defining practical quantum advantage in the domain of generative modeling.</description>
+    <title>Computable lower bounds on the entanglement cost of quantum channels</title>
+    <link>http://arxiv.org/pdf/2201.09257</link>
+    <author>Ludovico Lami, Bartosz Regula</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>A class of lower bounds for the entanglement cost of any quantum state was recently introduced in [arXiv:2111.02438] in the form of entanglement monotones known as the tempered robustness and tempered negativity. Here we extend their definitions to point-to-point quantum channels, establishing a lower bound for the entanglement cost of any channel, whether finite or infinite dimensional. This leads, in particular, to a bound that is computable as a semidefinite program and that can outperform previously known lower bounds, including ones based on quantum relative entropy. In the course of our proof we establish a useful link between the robustness of entanglement of quantum states and quantum channels, which requires several technical developments such as showing the lower semicontinuity of the robustness of entanglement of a channel in the weak*-operator topology on bounded linear maps between spaces of trace class operators.</description>
+  </item>
+
+  <item>
+    <title>An Efficient Quantum Readout Error Mitigation for Sparse Measurement Outcomes of Near-term Quantum Devices</title>
+    <link>http://arxiv.org/pdf/2201.11046</link>
+    <author>Bo Yang, Rudy Raymond, Shumpei Uno</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>The readout error on the near-term quantum devices is one of the dominant noise factors, which can be mitigated by classical post-processing called quantum readout error mitigation (QREM). The standard QREM method applies the inverse of noise calibration matrix to the outcome probability distribution using exponential computational resources to the system size. Hence this standard approach is not applicable to the current quantum devices with tens of qubits and more. We propose two efficient QREM methods on such devices whose computational complexity is $O(ns^2)$ for probability distributions on measuring $n$ qubits with $s$ shots. The main targets of the proposed methods are the sparse probability distributions where only a few states are dominant. We compare the proposed methods with several recent QREM methods on the following three cases: expectation values of GHZ state, its fidelities, and the estimation error of maximum likelihood amplitude estimation (MLAE) algorithm with modified Grover iterator. The two cases of the GHZ state are on real IBM quantum devices, while the third is by numerical simulation. The proposed methods can be applied to mitigate GHZ states up to 65 qubits on IBM Quantum devices within a few seconds to confirm the existence of a 29-qubit GHZ state with fidelity larger than 0.5. The proposed methods also succeed in the estimation of the amplitude in MLAE with the modified Grover operator where other QREM methods fail.</description>
   </item>
 
 </channel>

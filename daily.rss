@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Efficiently improving the performance of noisy quantum computers</title>
-    <link>http://arxiv.org/pdf/2201.10672</link>
-    <author>Samuele Ferracin, Akel Hashim, Jean-Loup Ville, Ravi Naik, Arnaud Carignan-Dugas, Hammam Qassim, Alexis Morvan, David I. Santiago, Irfan Siddiqi, Joel J. Wallman</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Using near-term quantum computers to achieve a quantum advantage requires efficient strategies to improve the performance of the noisy quantum devices presently available. We develop and experimentally validate two efficient error mitigation protocols named "Noiseless Output Extrapolation" and "Pauli Error Cancellation" that can drastically enhance the performance of quantum circuits composed of noisy cycles of gates. By combining popular mitigation strategies such as probabilistic error cancellation and noise amplification with efficient noise reconstruction methods, our protocols can mitigate a wide range of noise processes that do not satisfy the assumptions underlying existing mitigation protocols, including non-local and gate-dependent processes. We test our protocols on a four-qubit superconducting processor at the Advanced Quantum Testbed. We observe significant improvements in the performance of both structured and random circuits, with up to $86\%$ improvement in variation distance over the unmitigated outputs. Our experiments demonstrate the effectiveness of our protocols, as well as their practicality for current hardware platforms.</description>
+    <title>Encoding qubits in multimode grid states</title>
+    <link>http://arxiv.org/pdf/2201.12337</link>
+    <author>Baptiste Royer, Shraddha Sing, Steven M. Girvin</author>
+    <pubDate>Jan 31 2022</pubDate>
+    <description>Encoding logical quantum information in harmonic oscillator modes is a promising and hardware- efficient approach to the realization of a quantum computer. In this work, we propose to encode logical qubits in grid states of an ensemble of harmonic oscillator modes. We first discuss general results about these multimode bosonic codes; how to design them, how to practically implement them in different experimental platforms and how lattice symmetries can be leveraged to perform logical non-Clifford operations. We then introduce in detail two two-mode grid codes based on the hypercubic and D4 lattices, respectively, showing how to perform a universal set of logical operations. We demonstrate numerically that multimode grid codes have, compared to their single- mode counterpart, increased robustness against propagation of errors from ancillas used for error correction. Finally, we highlight some interesting links between multidimensional lattices and single- mode grid codes concatenated with qubit codes.</description>
   </item>
 
   <item>
-    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
-    <link>http://arxiv.org/pdf/2201.11495</link>
-    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
-    <pubDate>Jan 28 2022</pubDate>
-    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates. For sparse quantum states with $d\geqslant2$ non-zero entries, the circuit depth can be further reduced to $\Theta(\log(nd))$, which is exponentially faster than best-known results. Both results achieve the optimal circuit depth complexities. The main idea of our protocols is to make use of ancillary qubits to reduce the circuit depth. We show that the number of ancillary qubits is also nearly optimal. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
+    <title>Multi-round QAOA and advanced mixers on a trapped-ion quantum computer</title>
+    <link>http://arxiv.org/pdf/2201.12335</link>
+    <author>Yingyue Zhu, Zewen Zhang, Bhuvanesh Sundar, Alaina M. Green, C. Huerta Alderete, Nhung H. Nguyen, Kaden R. A. Hazzard, Norbert M. Linke</author>
+    <pubDate>Jan 31 2022</pubDate>
+    <description>Combinatorial optimization problems on graphs have broad applications in science and engineering. The Quantum Approximate Optimization Algorithm (QAOA) is a method to solve these problems on a quantum computer by applying multiple rounds of variational circuits. However, there exist several challenges limiting the real-world applications of QAOA. In this paper, we demonstrate on a trapped-ion quantum computer that QAOA results improve with the number of rounds for multiple problems on several arbitrary graphs. We also demonstrate an advanced mixing Hamiltonian that allows sampling of all optimal solutions with predetermined weights. Our results are a step towards applying quantum algorithms to real-world problems.</description>
   </item>
 
   <item>
-    <title>Tailored cluster states with high threshold under biased noise</title>
-    <link>http://arxiv.org/pdf/2201.10566</link>
-    <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Fault-tolerant cluster states form the basis for scalable measurement-based quantum computation. Recently, new stabilizer codes for scalable circuit-based quantum computation have been introduced that have very high thresholds under biased noise where the qubit predominantly suffers from one type of error, e.g. dephasing. However, extending these advances in stabilizer codes to generate high-threshold cluster states for biased noise has been a challenge, as the standard method for foliating stabilizer codes to generate fault-tolerant cluster states does not preserve the noise bias. In this work, we overcome this barrier by introducing a generalization of the cluster state that allows us to foliate stabilizer codes in a bias-preserving way. As an example of our approach, we construct a foliated version of the XZZX code which we call the XZZX cluster state. We demonstrate that under a circuit-level noise model, our XZZX cluster state has a threshold more than double the usual cluster state when dephasing errors are more likely than errors which cause bit flips by a factor of $O(100)$ or more.</description>
+    <title>Adaptive Accelerated (Extra-)Gradient Methods with Variance Reduction</title>
+    <link>http://arxiv.org/pdf/2201.12302</link>
+    <author>Zijian Liu, Ta Duy Nguyen, Alina Ene, Huy L. Nguyen</author>
+    <pubDate>Jan 31 2022</pubDate>
+    <description>In this paper, we study the finite-sum convex optimization problem focusing on the general convex case. Recently, the study of variance reduced (VR) methods and their accelerated variants has made exciting progress. However, the step size used in the existing VR algorithms typically depends on the smoothness parameter, which is often unknown and requires tuning in practice. To address this problem, we propose two novel adaptive VR algorithms: Adaptive Variance Reduced Accelerated Extra-Gradient (AdaVRAE) and Adaptive Variance Reduced Accelerated Gradient (AdaVRAG). Our algorithms do not require knowledge of the smoothness parameter. AdaVRAE uses $\mathcal{O}\left(n\log\log n+\sqrt{\frac{n\beta}{\epsilon}}\right)$ gradient evaluations and AdaVRAG uses $\mathcal{O}\left(n\log\log n+\sqrt{\frac{n\beta\log\beta}{\epsilon}}\right)$ gradient evaluations to attain an $\mathcal{O}(\epsilon)$-suboptimal solution, where $n$ is the number of functions in the finite sum and $\beta$ is the smoothness parameter. This result matches the best-known convergence rate of non-adaptive VR methods and it improves upon the convergence of the state of the art adaptive VR method, AdaSVRG. We demonstrate the superior performance of our algorithms compared with previous methods in experiments on real-world datasets.</description>
   </item>
 
   <item>
-    <title>Simultaneous Measurement and Entanglement</title>
-    <link>http://arxiv.org/pdf/2201.10667</link>
-    <author>Andrey Boris Khesin, Peter Shor</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+    <title>Solving MaxCut with Quantum Imaginary Time Evolution</title>
+    <link>http://arxiv.org/pdf/2201.12221</link>
+    <author>Rizwanul Alam, George Siopsis, Rebekah Herrman, James Ostrowski, Phillip Lotshaw, Travis Humble</author>
+    <pubDate>Jan 31 2022</pubDate>
+    <description>We introduce a method to solve the MaxCut problem efficiently based on quantum imaginary time evolution (QITE). We employ a linear Ansatz for unitary updates and an initial state that involve no entanglement. We apply the method to graphs with number of vertices |V| = 4,6,8,10, and show that after ten QITE steps, the average solution is 100%, 99%, 98%, 97%, respectively, of the maximum MaxCut solution. By employing an imaginary-time-dependent Hamiltonian interpolating between a given graph and a subgraph with two edges excised, we show that the modified algorithm has a 100% performance converging to the maximum solution of the MaxCut problem for all graphs up to eight vertices as well as about 100 random samples of ten-vertex graphs. This improved method has an overhead which is polynomial in the number of vertices.</description>
   </item>
 
   <item>
-    <title>An Efficient Quantum Readout Error Mitigation for Sparse Measurement Outcomes of Near-term Quantum Devices</title>
-    <link>http://arxiv.org/pdf/2201.11046</link>
-    <author>Bo Yang, Rudy Raymond, Shumpei Uno</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>The readout error on the near-term quantum devices is one of the dominant noise factors, which can be mitigated by classical post-processing called quantum readout error mitigation (QREM). The standard QREM method applies the inverse of noise calibration matrix to the outcome probability distribution using exponential computational resources to the system size. Hence this standard approach is not applicable to the current quantum devices with tens of qubits and more. We propose two efficient QREM methods on such devices whose computational complexity is $O(ns^2)$ for probability distributions on measuring $n$ qubits with $s$ shots. The main targets of the proposed methods are the sparse probability distributions where only a few states are dominant. We compare the proposed methods with several recent QREM methods on the following three cases: expectation values of GHZ state, its fidelities, and the estimation error of maximum likelihood amplitude estimation (MLAE) algorithm with modified Grover iterator. The two cases of the GHZ state are on real IBM quantum devices, while the third is by numerical simulation. The proposed methods can be applied to mitigate GHZ states up to 65 qubits on IBM Quantum devices within a few seconds to confirm the existence of a 29-qubit GHZ state with fidelity larger than 0.5. The proposed methods also succeed in the estimation of the amplitude in MLAE with the modified Grover operator where other QREM methods fail.</description>
+    <title>Differential Privacy Guarantees for Stochastic Gradient Langevin Dynamics</title>
+    <link>http://arxiv.org/pdf/2201.11980</link>
+    <author>Théo Ryffel, Francis Bach, David Pointcheval</author>
+    <pubDate>Jan 31 2022</pubDate>
+    <description>We analyse the privacy leakage of noisy stochastic gradient descent by modeling Rényi divergence dynamics with Langevin diffusions. Inspired by recent work on non-stochastic algorithms, we derive similar desirable properties in the stochastic setting. In particular, we prove that the privacy loss converges exponentially fast for smooth and strongly convex objectives under constant step size, which is a significant improvement over previous DP-SGD analyses. We also extend our analysis to arbitrary sequences of varying step sizes and derive new utility bounds. Last, we propose an implementation and our experiments show the practical utility of our approach compared to classical DP-SGD libraries.</description>
   </item>
 
 </channel>
