@@ -79,6 +79,14 @@
   </item>
 
   <item>
+    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
+    <link>http://arxiv.org/pdf/2201.11495</link>
+    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
+    <pubDate>Jan 28 2022</pubDate>
+    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates, although with a cost of an exponential amount of ancillary qubits. On the other hand, for sparse quantum states with $d\geqslant2$ non-zero entries, we can reduce the circuit depth to $\Theta(\log(nd))$ with $O(nd\log d)$ ancillary qubits. The algorithm for sparse states is exponentially faster than best-known results and the number of ancillary qubits is nearly optimal and only increases polynomially with the system size. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
+  </item>
+
+  <item>
     <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
     <link>http://arxiv.org/pdf/2201.05153</link>
     <author>Yu-An Chen, Yijia Xu</author>
@@ -108,14 +116,6 @@
     <author>Wenjun Yu, Jinzhao Sun, Zeyao Han, Xiao Yuan</author>
     <pubDate>Jan 04 2022</pubDate>
     <description>With the fast development of quantum technology, the size of quantum systems we can digitally manipulate and analogly probe increase drastically. In order to have a better control and understanding of the quantum hardware, an important task is to characterize the interaction, i.e., to learn the Hamiltonian, which determines both static or dynamic properties of the system. Conventional Hamiltonian learning methods either require costly process tomography or adopt impractical assumptions, such as prior information of the Hamiltonian structure and the ground or thermal states of the system. In this work, we present a practical and efficient Hamiltonian learning method that circumvents these limitations. The proposed method can efficiently learn any Hamiltonian that is sparse on the Pauli basis using only short time dynamics and local operations without any information of the Hamiltonian or preparing any eigenstates or thermal states. The method has scalable complexity and vanishing failure probability regarding the qubit number. Meanwhile, it is free from state preparation and measurement error and robust against a certain amount of circuit and shot noise. We numerically test the scaling and the estimation accuracy of the method for transverse field Ising Hamiltonian with random interaction strengths and molecular Hamiltonians, both with varying sizes. All these results verify the practicality and efficacy of the method, paving the way for a systematic understanding of large quantum systems.</description>
-  </item>
-
-  <item>
-    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
-    <link>http://arxiv.org/pdf/2201.11495</link>
-    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
-    <pubDate>Jan 28 2022</pubDate>
-    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates. For sparse quantum states with $d\geqslant2$ non-zero entries, the circuit depth can be further reduced to $\Theta(\log(nd))$, which is exponentially faster than best-known results. Both results achieve the optimal circuit depth complexities. The main idea of our protocols is to make use of ancillary qubits to reduce the circuit depth. We show that the number of ancillary qubits is also nearly optimal. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
   </item>
 
   <item>
@@ -167,11 +167,19 @@
   </item>
 
   <item>
-    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
-    <link>http://arxiv.org/pdf/2201.02450</link>
-    <author>Masahito Hayashi</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
+    <title>Simultaneous Measurement and Entanglement</title>
+    <link>http://arxiv.org/pdf/2201.10667</link>
+    <author>Andrey Boris Khesin, Peter Shor</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+  </item>
+
+  <item>
+    <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
+    <link>http://arxiv.org/pdf/2201.12450</link>
+    <author>Noah Shutty, Christopher Chamberland</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how SMT solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
   </item>
 
   <item>
@@ -183,11 +191,11 @@
   </item>
 
   <item>
-    <title>Simultaneous Measurement and Entanglement</title>
-    <link>http://arxiv.org/pdf/2201.10667</link>
-    <author>Andrey Boris Khesin, Peter Shor</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
+    <link>http://arxiv.org/pdf/2201.02450</link>
+    <author>Masahito Hayashi</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
   </item>
 
   <item>
@@ -199,19 +207,19 @@
   </item>
 
   <item>
-    <title>Multicore Quantum Computing</title>
-    <link>http://arxiv.org/pdf/2201.08861</link>
-    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
-  </item>
-
-  <item>
     <title>Scalable High-Performance Fluxonium Quantum Processor</title>
     <link>http://arxiv.org/pdf/2201.09374</link>
     <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
     <pubDate>Jan 25 2022</pubDate>
     <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Multicore Quantum Computing</title>
+    <link>http://arxiv.org/pdf/2201.08861</link>
+    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
   </item>
 
   <item>
@@ -223,27 +231,19 @@
   </item>
 
   <item>
-    <title>Deniable Encryption in a Quantum World</title>
-    <link>http://arxiv.org/pdf/2112.14988</link>
-    <author>Andrea Coladangelo, Shafi Goldwasser, Umesh Vazirani</author>
-    <pubDate>Jan 03 2022</pubDate>
-    <description>(Sender-)Deniable encryption provides a very strong privacy guarantee: a sender who is coerced by an attacker into "opening" their ciphertext after-the-fact is able to generate "fake" local random choices that are consistent with any plaintext of their choice. The only known fully-efficient constructions of public-key deniable encryption rely on indistinguishability obfuscation (iO) (which currently can only be based on sub-exponential hardness assumptions). In this work, we study (sender-)deniable encryption in a setting where the encryption procedure is a quantum algorithm, but the ciphertext is classical. We propose two notions of deniable encryption in this setting. The first notion, called quantum deniability, parallels the classical one. We give a fully efficient construction satisfying this definition, assuming the quantum hardness of the Learning with Errors (LWE) problem. The second notion, unexplainability, starts from a new perspective on deniability, and leads to a natural common view of deniability in the classical and quantum settings. We give a construction which is secure in the random oracle model, assuming the quantum hardness of LWE. Notably, our construction satisfies a strong form of unexplainability which is impossible to achieve classically, thus highlighting a new quantum phenomenon that may be of independent interest.</description>
+    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
+    <link>http://arxiv.org/pdf/2201.13450</link>
+    <author>Lior Eldar, Sean Hallgren</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
   </item>
 
   <item>
-    <title>On Lieb-Robinson Bounds for the Double Bracket Flow</title>
-    <link>http://arxiv.org/pdf/2201.07141</link>
-    <author>Matthew B. Hastings</author>
-    <pubDate>Jan 20 2022</pubDate>
-    <description>We consider the possibility of developing a Lieb-Robinson bound for the double bracket flow. This is a differential equation $$\partial_B H(B)=[[V,H(B)],H(B)]$$ which may be used to diagonalize Hamiltonians. Here, $V$ is fixed and $H(0)=H$. We argue (but do not prove) that $H(B)$ need not converge to a limit for nonzero real $B$ in the infinite volume limit, even assuming several conditions on $H(0)$. However, we prove Lieb-Robinson bounds for all $B$ for the double-bracket flow for free fermion systems, but the range increases \emphexponentially with the control parameter $B$.</description>
-  </item>
-
-  <item>
-    <title>Quantum Distributed Algorithms for Detection of Cliques</title>
-    <link>http://arxiv.org/pdf/2201.03000</link>
-    <author>Keren Censor-Hillel, Orr Fischer, François Le Gall, Dean Leitersdorf, Rotem Oshman</author>
-    <pubDate>Jan 11 2022</pubDate>
-    <description>The possibilities offered by quantum computing have drawn attention in the distributed computing community recently, with several breakthrough results showing quantum distributed algorithms that run faster than the fastest known classical counterparts, and even separations between the two models. A prime example is the result by Izumi, Le Gall, and Magniez [STACS 2020], who showed that triangle detection by quantum distributed algorithms is easier than triangle listing, while an analogous result is not known in the classical case. In this paper we present a framework for fast quantum distributed clique detection. This improves upon the state-of-the-art for the triangle case, and is also more general, applying to larger clique sizes. Our main technical contribution is a new approach for detecting cliques by encapsulating this as a search task for nodes that can be added to smaller cliques. To extract the best complexities out of our approach, we develop a framework for nested distributed quantum searches, which employ checking procedures that are quantum themselves. Moreover, we show a circuit-complexity barrier on proving a lower bound of the form $\Omega(n^{3/5+\epsilon})$ for $K_p$-detection for any $p \geq 4$, even in the classical (non-quantum) distributed CONGEST setting.</description>
+    <title>Quantum cryptography with classical communication: parallel remote state preparation for copy-protection, verification, and more</title>
+    <link>http://arxiv.org/pdf/2201.13445</link>
+    <author>Alexandru Gheorghiu, Tony Metger, Alexander Poremba</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Quantum mechanical effects have enabled the construction of cryptographic primitives that are impossible classically. For example, quantum copy-protection allows for a program to be encoded in a quantum state in such a way that the program can be evaluated, but not copied. Many of these cryptographic primitives are two-party protocols, where one party, Bob, has full quantum computational capabilities, and the other party, Alice, is only required to send random BB84 states to Bob. In this work, we show how such protocols can generically be converted to ones where Alice is fully classical, assuming that Bob cannot efficiently solve the LWE problem. In particular, this means that all communication between (classical) Alice and (quantum) Bob is classical, yet they can still make use of cryptographic primitives that would be impossible if both parties were classical. We apply this conversion procedure to obtain quantum cryptographic protocols with classical communication for unclonable encryption, copy-protection, computing on encrypted data, and verifiable blind delegated computation. The key technical ingredient for our result is a protocol for classically-instructed parallel remote state preparation of BB84 states. This is a multi-round protocol between (classical) Alice and (quantum polynomial-time) Bob that allows Alice to certify that Bob must have prepared $n$ uniformly random BB84 states (up to a change of basis on his space). Furthermore, Alice knows which specific BB84 states Bob has prepared, while Bob himself does not. Hence, the situation at the end of this protocol is (almost) equivalent to one where Alice sent $n$ random BB84 states to Bob. This allows us to replace the step of preparing and sending BB84 states in existing protocols by our remote-state preparation protocol in a generic and modular way.</description>
   </item>
 
 </channel>

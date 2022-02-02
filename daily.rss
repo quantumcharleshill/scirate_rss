@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Encoding qubits in multimode grid states</title>
-    <link>http://arxiv.org/pdf/2201.12337</link>
-    <author>Baptiste Royer, Shraddha Sing, Steven M. Girvin</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>Encoding logical quantum information in harmonic oscillator modes is a promising and hardware- efficient approach to the realization of a quantum computer. In this work, we propose to encode logical qubits in grid states of an ensemble of harmonic oscillator modes. We first discuss general results about these multimode bosonic codes; how to design them, how to practically implement them in different experimental platforms and how lattice symmetries can be leveraged to perform logical non-Clifford operations. We then introduce in detail two two-mode grid codes based on the hypercubic and D4 lattices, respectively, showing how to perform a universal set of logical operations. We demonstrate numerically that multimode grid codes have, compared to their single- mode counterpart, increased robustness against propagation of errors from ancillas used for error correction. Finally, we highlight some interesting links between multidimensional lattices and single- mode grid codes concatenated with qubit codes.</description>
+    <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
+    <link>http://arxiv.org/pdf/2201.12450</link>
+    <author>Noah Shutty, Christopher Chamberland</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how SMT solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
   </item>
 
   <item>
-    <title>Multi-round QAOA and advanced mixers on a trapped-ion quantum computer</title>
-    <link>http://arxiv.org/pdf/2201.12335</link>
-    <author>Yingyue Zhu, Zewen Zhang, Bhuvanesh Sundar, Alaina M. Green, C. Huerta Alderete, Nhung H. Nguyen, Kaden R. A. Hazzard, Norbert M. Linke</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>Combinatorial optimization problems on graphs have broad applications in science and engineering. The Quantum Approximate Optimization Algorithm (QAOA) is a method to solve these problems on a quantum computer by applying multiple rounds of variational circuits. However, there exist several challenges limiting the real-world applications of QAOA. In this paper, we demonstrate on a trapped-ion quantum computer that QAOA results improve with the number of rounds for multiple problems on several arbitrary graphs. We also demonstrate an advanced mixing Hamiltonian that allows sampling of all optimal solutions with predetermined weights. Our results are a step towards applying quantum algorithms to real-world problems.</description>
+    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
+    <link>http://arxiv.org/pdf/2201.13450</link>
+    <author>Lior Eldar, Sean Hallgren</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
   </item>
 
   <item>
-    <title>Adaptive Accelerated (Extra-)Gradient Methods with Variance Reduction</title>
-    <link>http://arxiv.org/pdf/2201.12302</link>
-    <author>Zijian Liu, Ta Duy Nguyen, Alina Ene, Huy L. Nguyen</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>In this paper, we study the finite-sum convex optimization problem focusing on the general convex case. Recently, the study of variance reduced (VR) methods and their accelerated variants has made exciting progress. However, the step size used in the existing VR algorithms typically depends on the smoothness parameter, which is often unknown and requires tuning in practice. To address this problem, we propose two novel adaptive VR algorithms: Adaptive Variance Reduced Accelerated Extra-Gradient (AdaVRAE) and Adaptive Variance Reduced Accelerated Gradient (AdaVRAG). Our algorithms do not require knowledge of the smoothness parameter. AdaVRAE uses $\mathcal{O}\left(n\log\log n+\sqrt{\frac{n\beta}{\epsilon}}\right)$ gradient evaluations and AdaVRAG uses $\mathcal{O}\left(n\log\log n+\sqrt{\frac{n\beta\log\beta}{\epsilon}}\right)$ gradient evaluations to attain an $\mathcal{O}(\epsilon)$-suboptimal solution, where $n$ is the number of functions in the finite sum and $\beta$ is the smoothness parameter. This result matches the best-known convergence rate of non-adaptive VR methods and it improves upon the convergence of the state of the art adaptive VR method, AdaSVRG. We demonstrate the superior performance of our algorithms compared with previous methods in experiments on real-world datasets.</description>
+    <title>Quantum cryptography with classical communication: parallel remote state preparation for copy-protection, verification, and more</title>
+    <link>http://arxiv.org/pdf/2201.13445</link>
+    <author>Alexandru Gheorghiu, Tony Metger, Alexander Poremba</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Quantum mechanical effects have enabled the construction of cryptographic primitives that are impossible classically. For example, quantum copy-protection allows for a program to be encoded in a quantum state in such a way that the program can be evaluated, but not copied. Many of these cryptographic primitives are two-party protocols, where one party, Bob, has full quantum computational capabilities, and the other party, Alice, is only required to send random BB84 states to Bob. In this work, we show how such protocols can generically be converted to ones where Alice is fully classical, assuming that Bob cannot efficiently solve the LWE problem. In particular, this means that all communication between (classical) Alice and (quantum) Bob is classical, yet they can still make use of cryptographic primitives that would be impossible if both parties were classical. We apply this conversion procedure to obtain quantum cryptographic protocols with classical communication for unclonable encryption, copy-protection, computing on encrypted data, and verifiable blind delegated computation. The key technical ingredient for our result is a protocol for classically-instructed parallel remote state preparation of BB84 states. This is a multi-round protocol between (classical) Alice and (quantum polynomial-time) Bob that allows Alice to certify that Bob must have prepared $n$ uniformly random BB84 states (up to a change of basis on his space). Furthermore, Alice knows which specific BB84 states Bob has prepared, while Bob himself does not. Hence, the situation at the end of this protocol is (almost) equivalent to one where Alice sent $n$ random BB84 states to Bob. This allows us to replace the step of preparing and sending BB84 states in existing protocols by our remote-state preparation protocol in a generic and modular way.</description>
   </item>
 
   <item>
-    <title>Solving MaxCut with Quantum Imaginary Time Evolution</title>
-    <link>http://arxiv.org/pdf/2201.12221</link>
-    <author>Rizwanul Alam, George Siopsis, Rebekah Herrman, James Ostrowski, Phillip Lotshaw, Travis Humble</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>We introduce a method to solve the MaxCut problem efficiently based on quantum imaginary time evolution (QITE). We employ a linear Ansatz for unitary updates and an initial state that involve no entanglement. We apply the method to graphs with number of vertices |V| = 4,6,8,10, and show that after ten QITE steps, the average solution is 100%, 99%, 98%, 97%, respectively, of the maximum MaxCut solution. By employing an imaginary-time-dependent Hamiltonian interpolating between a given graph and a subgraph with two edges excised, we show that the modified algorithm has a 100% performance converging to the maximum solution of the MaxCut problem for all graphs up to eight vertices as well as about 100 random samples of ten-vertex graphs. This improved method has an overhead which is polynomial in the number of vertices.</description>
+    <title>Differentiating and Integrating ZX Diagrams</title>
+    <link>http://arxiv.org/pdf/2201.13250</link>
+    <author>Quanlong Wang, Richie Yeung</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>ZX-calculus has proved to be a useful tool for quantum technology with a wide range of successful applications. Most of these applications are of an algebraic nature. However, other tasks that involve differentiation and integration remain unreachable with current ZX techniques. Here we elevate ZX to an analytical perspective by realising differentiation and integration entirely within the framework of ZX-calculus. We explicitly illustrate the new analytic framework of ZX-calculus by applying it in context of quantum machine learning.</description>
   </item>
 
   <item>
-    <title>Differential Privacy Guarantees for Stochastic Gradient Langevin Dynamics</title>
-    <link>http://arxiv.org/pdf/2201.11980</link>
-    <author>Théo Ryffel, Francis Bach, David Pointcheval</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>We analyse the privacy leakage of noisy stochastic gradient descent by modeling Rényi divergence dynamics with Langevin diffusions. Inspired by recent work on non-stochastic algorithms, we derive similar desirable properties in the stochastic setting. In particular, we prove that the privacy loss converges exponentially fast for smooth and strongly convex objectives under constant step size, which is a significant improvement over previous DP-SGD analyses. We also extend our analysis to arbitrary sequences of varying step sizes and derive new utility bounds. Last, we propose an implementation and our experiments show the practical utility of our approach compared to classical DP-SGD libraries.</description>
+    <title>Computational self-testing of multi-qubit states and measurements</title>
+    <link>http://arxiv.org/pdf/2201.13430</link>
+    <author>Honghao Fu, Daochen Wang, Qi Zhao</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Self-testing is a fundamental technique within quantum information theory that allows a classical verifier to force (untrusted) quantum devices to prepare certain states and perform certain measurements on them. The standard approach assumes at least two spatially separated devices. Recently, Metger and Vidick [Quantum, 2021] showed that a single EPR pair of a single quantum device can be self-tested under standard computational assumptions. In this work, we generalize their techniques to give the first protocol that self-tests $N$ EPR pairs and measurements in the single-device setting under the same computational assumptions. We show that our protocol can be passed with probability negligibly close to $1$ by an honest quantum device using poly$(N)$ resources. Moreover, we show that any quantum device that fails our protocol with probability at most $\epsilon$ must be poly$(N,\epsilon)$-close to being honest in the appropriate sense. In particular, a simplified version of our protocol is the first that can efficiently certify an arbitrary number of qubits of a cloud quantum computer, on which we cannot enforce spatial separation, using only classical communication.</description>
   </item>
 
 </channel>
