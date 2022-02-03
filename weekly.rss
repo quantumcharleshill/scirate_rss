@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Efficiently improving the performance of noisy quantum computers</title>
-    <link>http://arxiv.org/pdf/2201.10672</link>
-    <author>Samuele Ferracin, Akel Hashim, Jean-Loup Ville, Ravi Naik, Arnaud Carignan-Dugas, Hammam Qassim, Alexis Morvan, David I. Santiago, Irfan Siddiqi, Joel J. Wallman</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Using near-term quantum computers to achieve a quantum advantage requires efficient strategies to improve the performance of the noisy quantum devices presently available. We develop and experimentally validate two efficient error mitigation protocols named "Noiseless Output Extrapolation" and "Pauli Error Cancellation" that can drastically enhance the performance of quantum circuits composed of noisy cycles of gates. By combining popular mitigation strategies such as probabilistic error cancellation and noise amplification with efficient noise reconstruction methods, our protocols can mitigate a wide range of noise processes that do not satisfy the assumptions underlying existing mitigation protocols, including non-local and gate-dependent processes. We test our protocols on a four-qubit superconducting processor at the Advanced Quantum Testbed. We observe significant improvements in the performance of both structured and random circuits, with up to $86\%$ improvement in variation distance over the unmitigated outputs. Our experiments demonstrate the effectiveness of our protocols, as well as their practicality for current hardware platforms.</description>
+    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2202.00119</link>
+    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
   </item>
 
   <item>
@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Simultaneous Measurement and Entanglement</title>
-    <link>http://arxiv.org/pdf/2201.10667</link>
-    <author>Andrey Boris Khesin, Peter Shor</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
-  </item>
-
-  <item>
     <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
     <link>http://arxiv.org/pdf/2201.12450</link>
     <author>Noah Shutty, Christopher Chamberland</author>
@@ -39,11 +31,11 @@
   </item>
 
   <item>
-    <title>Tailored cluster states with high threshold under biased noise</title>
-    <link>http://arxiv.org/pdf/2201.10566</link>
-    <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Fault-tolerant cluster states form the basis for scalable measurement-based quantum computation. Recently, new stabilizer codes for scalable circuit-based quantum computation have been introduced that have very high thresholds under biased noise where the qubit predominantly suffers from one type of error, e.g. dephasing. However, extending these advances in stabilizer codes to generate high-threshold cluster states for biased noise has been a challenge, as the standard method for foliating stabilizer codes to generate fault-tolerant cluster states does not preserve the noise bias. In this work, we overcome this barrier by introducing a generalization of the cluster state that allows us to foliate stabilizer codes in a bias-preserving way. As an example of our approach, we construct a foliated version of the XZZX code which we call the XZZX cluster state. We demonstrate that under a circuit-level noise model, our XZZX cluster state has a threshold more than double the usual cluster state when dephasing errors are more likely than errors which cause bit flips by a factor of $O(100)$ or more.</description>
+    <title>Quantum machine learning with subspace states</title>
+    <link>http://arxiv.org/pdf/2202.00054</link>
+    <author>Iordanis Kerenidis, Anupam Prakash</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
   </item>
 
   <item>
@@ -63,6 +55,14 @@
   </item>
 
   <item>
+    <title>Quantum Error Correction with Quantum Autoencoders</title>
+    <link>http://arxiv.org/pdf/2202.00555</link>
+    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
+  </item>
+
+  <item>
     <title>Reducing the impact of time-correlated noise on zero-noise extrapolation</title>
     <link>http://arxiv.org/pdf/2201.11792</link>
     <author>Kevin Schultz, Ryan LaRose, Andrea Mari, Gregory Quiroz, Nathan Shammah, B. David Clader, William J. Zeng</author>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>An Efficient Quantum Readout Error Mitigation for Sparse Measurement Outcomes of Near-term Quantum Devices</title>
-    <link>http://arxiv.org/pdf/2201.11046</link>
-    <author>Bo Yang, Rudy Raymond, Shumpei Uno</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>The readout error on the near-term quantum devices is one of the dominant noise factors, which can be mitigated by classical post-processing called quantum readout error mitigation (QREM). The standard QREM method applies the inverse of noise calibration matrix to the outcome probability distribution using exponential computational resources to the system size. Hence this standard approach is not applicable to the current quantum devices with tens of qubits and more. We propose two efficient QREM methods on such devices whose computational complexity is $O(ns^2)$ for probability distributions on measuring $n$ qubits with $s$ shots. The main targets of the proposed methods are the sparse probability distributions where only a few states are dominant. We compare the proposed methods with several recent QREM methods on the following three cases: expectation values of GHZ state, its fidelities, and the estimation error of maximum likelihood amplitude estimation (MLAE) algorithm with modified Grover iterator. The two cases of the GHZ state are on real IBM quantum devices, while the third is by numerical simulation. The proposed methods can be applied to mitigate GHZ states up to 65 qubits on IBM Quantum devices within a few seconds to confirm the existence of a 29-qubit GHZ state with fidelity larger than 0.5. The proposed methods also succeed in the estimation of the amplitude in MLAE with the modified Grover operator where other QREM methods fail.</description>
+    <title>Differentiating and Integrating ZX Diagrams</title>
+    <link>http://arxiv.org/pdf/2201.13250</link>
+    <author>Quanlong Wang, Richie Yeung</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>ZX-calculus has proved to be a useful tool for quantum technology with a wide range of successful applications. Most of these applications are of an algebraic nature. However, other tasks that involve differentiation and integration remain unreachable with current ZX techniques. Here we elevate ZX to an analytical perspective by realising differentiation and integration entirely within the framework of ZX-calculus. We explicitly illustrate the new analytic framework of ZX-calculus by applying it in context of quantum machine learning.</description>
   </item>
 
 </channel>

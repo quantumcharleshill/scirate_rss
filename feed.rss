@@ -79,6 +79,14 @@
   </item>
 
   <item>
+    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2202.00119</link>
+    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
+  </item>
+
+  <item>
     <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
     <link>http://arxiv.org/pdf/2201.11495</link>
     <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
@@ -135,14 +143,6 @@
   </item>
 
   <item>
-    <title>Equivalence of contextuality and Wigner function negativity in continuous-variable quantum optics</title>
-    <link>http://arxiv.org/pdf/2112.14788</link>
-    <author>Jonas Haferkamp, Juani Bermejo-Vega</author>
-    <pubDate>Jan 03 2022</pubDate>
-    <description>One of the central foundational questions of physics is to identify what makes a system quantum as opposed to classical. One seminal notion of classicality of a quantum system is the existence of a non-contextual hidden variable model as introduced in the early work by Bell, Kochen and Specker. In quantum optics, the non-negativity of the Wigner function is a ubiquitous notion of classicality. In this work we establish an equivalence between these two concepts. In particular, we show that any non-contextual hidden variable model for Gaussian quantum optics has an alternative non-negative Wigner function description. Conversely, it was known that the Wigner representation provides a non-negative non-contextual description of Gaussian quantum optics. It follows that contextuality and Wigner negativity are equivalent notions of non-classicality and equivalent resources for this quantum subtheory. In particular, both contextuality and Wigner negativity are necessary for a computational speed-up of quantum Gaussian optics. At the technical level, our result holds true for any subfamily of Gaussian measurements that include homodyne measurements, i.e., measurements of standard quadrature observables.</description>
-  </item>
-
-  <item>
     <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
     <link>http://arxiv.org/pdf/2201.06533</link>
     <author>Tyler Helmuth, Ryan L. Mann</author>
@@ -159,11 +159,11 @@
   </item>
 
   <item>
-    <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
-    <link>http://arxiv.org/pdf/2201.03540</link>
-    <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
-    <pubDate>Jan 11 2022</pubDate>
-    <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
+    <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
+    <link>http://arxiv.org/pdf/2201.12450</link>
+    <author>Noah Shutty, Christopher Chamberland</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how SMT solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
   </item>
 
   <item>
@@ -175,11 +175,19 @@
   </item>
 
   <item>
-    <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
-    <link>http://arxiv.org/pdf/2201.12450</link>
-    <author>Noah Shutty, Christopher Chamberland</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how SMT solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
+    <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
+    <link>http://arxiv.org/pdf/2201.03540</link>
+    <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
+    <pubDate>Jan 11 2022</pubDate>
+    <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
+  </item>
+
+  <item>
+    <title>Quantum machine learning with subspace states</title>
+    <link>http://arxiv.org/pdf/2202.00054</link>
+    <author>Iordanis Kerenidis, Anupam Prakash</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
   </item>
 
   <item>
@@ -199,11 +207,27 @@
   </item>
 
   <item>
+    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
+    <link>http://arxiv.org/pdf/2201.13450</link>
+    <author>Lior Eldar, Sean Hallgren</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
+  </item>
+
+  <item>
     <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
     <link>http://arxiv.org/pdf/2201.05215</link>
     <author>Dmitri Maslov, Ben Zindorf</author>
     <pubDate>Jan 17 2022</pubDate>
     <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
+  </item>
+
+  <item>
+    <title>Quantum cryptography with classical communication: parallel remote state preparation for copy-protection, verification, and more</title>
+    <link>http://arxiv.org/pdf/2201.13445</link>
+    <author>Alexandru Gheorghiu, Tony Metger, Alexander Poremba</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Quantum mechanical effects have enabled the construction of cryptographic primitives that are impossible classically. For example, quantum copy-protection allows for a program to be encoded in a quantum state in such a way that the program can be evaluated, but not copied. Many of these cryptographic primitives are two-party protocols, where one party, Bob, has full quantum computational capabilities, and the other party, Alice, is only required to send random BB84 states to Bob. In this work, we show how such protocols can generically be converted to ones where Alice is fully classical, assuming that Bob cannot efficiently solve the LWE problem. In particular, this means that all communication between (classical) Alice and (quantum) Bob is classical, yet they can still make use of cryptographic primitives that would be impossible if both parties were classical. We apply this conversion procedure to obtain quantum cryptographic protocols with classical communication for unclonable encryption, copy-protection, computing on encrypted data, and verifiable blind delegated computation. The key technical ingredient for our result is a protocol for classically-instructed parallel remote state preparation of BB84 states. This is a multi-round protocol between (classical) Alice and (quantum polynomial-time) Bob that allows Alice to certify that Bob must have prepared $n$ uniformly random BB84 states (up to a change of basis on his space). Furthermore, Alice knows which specific BB84 states Bob has prepared, while Bob himself does not. Hence, the situation at the end of this protocol is (almost) equivalent to one where Alice sent $n$ random BB84 states to Bob. This allows us to replace the step of preparing and sending BB84 states in existing protocols by our remote-state preparation protocol in a generic and modular way.</description>
   </item>
 
   <item>
@@ -220,30 +244,6 @@
     <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
     <pubDate>Jan 25 2022</pubDate>
     <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
-  </item>
-
-  <item>
-    <title>Cut query algorithms with star contraction</title>
-    <link>http://arxiv.org/pdf/2201.05674</link>
-    <author>Simon Apers, Yuval Efron, Paweł Gawrychowski, Troy Lee, Sagnik Mukhopadhyay, Danupon Nanongkai</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>We study the complexity of determining the edge connectivity of a simple graph with cut queries. We show that (i) there is a bounded-error randomized algorithm that computes edge connectivity with $O(n)$ cut queries, and (ii) there is a bounded-error quantum algorithm that computes edge connectivity with $\~O(\sqrt{n})$ cut queries. We prove these results using a new technique called "star contraction" to randomly contract edges of a graph while preserving non-trivial minimum cuts. In star contraction vertices randomly contract an edge incident on a small set of randomly chosen vertices. In contrast to the related 2-out contraction technique of Ghaffari, Nowicki, and Thorup [SODA'20], star contraction only contracts vertex-disjoint star subgraphs, which allows it to be efficiently implemented via cut queries. The $O(n)$ bound from item (i) was not known even for the simpler problem of connectivity, and improves the $O(n\log^3 n)$ bound by Rubinstein, Schramm, and Weinberg [ITCS'18]. The bound is tight under the reasonable conjecture that the randomized communication complexity of connectivity is $\Omega(n\log n)$, an open question since the seminal work of Babai, Frankl, and Simon [FOCS'86]. The bound also excludes using edge connectivity on simple graphs to prove a superlinear randomized query lower bound for minimizing a symmetric submodular function. Item (ii) gives a nearly-quadratic separation with the randomized complexity and addresses an open question of Lee, Santha, and Zhang [SODA'21]. The algorithm can also be viewed as making $\~O(\sqrt{n})$ matrix-vector multiplication queries to the adjacency matrix. Finally, we demonstrate the use of star contraction outside of the cut query setting by designing a one-pass semi-streaming algorithm for computing edge connectivity in the vertex arrival setting. This contrasts with the edge arrival setting where two passes are required.</description>
-  </item>
-
-  <item>
-    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
-    <link>http://arxiv.org/pdf/2201.13450</link>
-    <author>Lior Eldar, Sean Hallgren</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
-  </item>
-
-  <item>
-    <title>Quantum cryptography with classical communication: parallel remote state preparation for copy-protection, verification, and more</title>
-    <link>http://arxiv.org/pdf/2201.13445</link>
-    <author>Alexandru Gheorghiu, Tony Metger, Alexander Poremba</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>Quantum mechanical effects have enabled the construction of cryptographic primitives that are impossible classically. For example, quantum copy-protection allows for a program to be encoded in a quantum state in such a way that the program can be evaluated, but not copied. Many of these cryptographic primitives are two-party protocols, where one party, Bob, has full quantum computational capabilities, and the other party, Alice, is only required to send random BB84 states to Bob. In this work, we show how such protocols can generically be converted to ones where Alice is fully classical, assuming that Bob cannot efficiently solve the LWE problem. In particular, this means that all communication between (classical) Alice and (quantum) Bob is classical, yet they can still make use of cryptographic primitives that would be impossible if both parties were classical. We apply this conversion procedure to obtain quantum cryptographic protocols with classical communication for unclonable encryption, copy-protection, computing on encrypted data, and verifiable blind delegated computation. The key technical ingredient for our result is a protocol for classically-instructed parallel remote state preparation of BB84 states. This is a multi-round protocol between (classical) Alice and (quantum polynomial-time) Bob that allows Alice to certify that Bob must have prepared $n$ uniformly random BB84 states (up to a change of basis on his space). Furthermore, Alice knows which specific BB84 states Bob has prepared, while Bob himself does not. Hence, the situation at the end of this protocol is (almost) equivalent to one where Alice sent $n$ random BB84 states to Bob. This allows us to replace the step of preparing and sending BB84 states in existing protocols by our remote-state preparation protocol in a generic and modular way.</description>
   </item>
 
 </channel>
