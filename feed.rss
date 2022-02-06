@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2202.00119</link>
+    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
+  </item>
+
+  <item>
     <title>Low-overhead quantum computing with the color code</title>
     <link>http://arxiv.org/pdf/2201.07806</link>
     <author>Felix Thomsen, Markus S. Kesselring, Stephen D. Bartlett, Benjamin J. Brown</author>
@@ -44,14 +52,6 @@
     <author>Mehdi Soleimanifar, John Wright</author>
     <pubDate>Jan 07 2022</pubDate>
     <description>Devising schemes for testing the amount of entanglement in quantum systems has played a crucial role in quantum computing and information theory. Here, we study the problem of testing whether an unknown state $|\psi\rangle$ is a matrix product state (MPS) in the property testing model. MPS are a class of physically-relevant quantum states which arise in the study of quantum many-body systems. A quantum state $|\psi_{1,...,n}\rangle$ comprised of $n$ qudits is said to be an MPS of bond dimension $r$ if the reduced density matrix $\psi_{1,...,k}$ has rank $r$ for each $k \in \{1,...,n\}$. When $r=1$, this corresponds to the set of product states. For larger values of $r$, this yields a more expressive class of quantum states, which are allowed to possess limited amounts of entanglement. In the property testing model, one is given $m$ identical copies of $|\psi\rangle$, and the goal is to determine whether $|\psi\rangle$ is an MPS of bond dimension $r$ or whether $|\psi\rangle$ is far from all such states. For the case of product states, we study the product test, a simple two-copy test previously analyzed by Harrow and Montanaro (FOCS 2010), and a key ingredient in their proof that $\mathsf{QMA(2)}=\mathsf{QMA}(k)$ for $k \geq 2$. We give a new and simpler analysis of the product test which achieves an optimal bound for a wide range of parameters, answering open problems of Harrow and Montanaro (FOCS 2010) and Montanaro and de Wolf (2016). For the case of $r\geq 2$, we give an efficient algorithm for testing whether $|\psi\rangle$ is an MPS of bond dimension $r$ using $m = O(n r^2)$ copies, independent of the dimensions of the qudits, and we show that $\Omega(n^{1/2})$ copies are necessary for this task. This lower bound shows that a dependence on the number of qudits $n$ is necessary, in sharp contrast to the case of product states where a constant number of copies suffices.</description>
-  </item>
-
-  <item>
-    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2202.00119</link>
-    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
   </item>
 
   <item>
@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>Bias-tailored quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2202.01702</link>
+    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
+    <pubDate>Feb 04 2022</pubDate>
+    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
+  </item>
+
+  <item>
     <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
     <link>http://arxiv.org/pdf/2201.11495</link>
     <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
@@ -119,11 +127,11 @@
   </item>
 
   <item>
-    <title>Oracle separations of hybrid quantum-classical circuits</title>
-    <link>http://arxiv.org/pdf/2201.01904</link>
-    <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
+    <title>Quantum machine learning with subspace states</title>
+    <link>http://arxiv.org/pdf/2202.00054</link>
+    <author>Iordanis Kerenidis, Anupam Prakash</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
   </item>
 
   <item>
@@ -132,6 +140,14 @@
     <author>Noah Shutty, Christopher Chamberland</author>
     <pubDate>Feb 01 2022</pubDate>
     <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how SMT solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
+  </item>
+
+  <item>
+    <title>Oracle separations of hybrid quantum-classical circuits</title>
+    <link>http://arxiv.org/pdf/2201.01904</link>
+    <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
+    <pubDate>Jan 07 2022</pubDate>
+    <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
   </item>
 
   <item>
@@ -151,11 +167,11 @@
   </item>
 
   <item>
-    <title>Quantum machine learning with subspace states</title>
-    <link>http://arxiv.org/pdf/2202.00054</link>
-    <author>Iordanis Kerenidis, Anupam Prakash</author>
+    <title>Quantum Error Correction with Quantum Autoencoders</title>
+    <link>http://arxiv.org/pdf/2202.00555</link>
+    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
     <pubDate>Feb 02 2022</pubDate>
-    <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
+    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
   </item>
 
   <item>
@@ -183,6 +199,14 @@
   </item>
 
   <item>
+    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
+    <link>http://arxiv.org/pdf/2201.13450</link>
+    <author>Lior Eldar, Sean Hallgren</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
+  </item>
+
+  <item>
     <title>Tailored cluster states with high threshold under biased noise</title>
     <link>http://arxiv.org/pdf/2201.10566</link>
     <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
@@ -191,11 +215,11 @@
   </item>
 
   <item>
-    <title>Quantum Error Correction with Quantum Autoencoders</title>
-    <link>http://arxiv.org/pdf/2202.00555</link>
-    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
+    <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
+    <link>http://arxiv.org/pdf/2202.01054</link>
+    <author>Hari Krovi</author>
+    <pubDate>Feb 03 2022</pubDate>
+    <description>We present substantially generalized and improved quantum algorithms over prior work for inhomogeneous linear and nonlinear ordinary differential equations (ODE). In Berry et al., (2017), a quantum algorithm for a certain class of linear ODEs is given, where the matrix involved needs to be diagonalizable. The quantum algorithm for linear ODEs presented here extends to many classes of non-diagonalizable matrices. The algorithm here can also be exponentially faster for certain classes of diagonalizable matrices. Our linear ODE algorithm is then applied to nonlinear differential equations using Carleman linearization (an approach taken recently by us in Liu et al., (2021)). The improvement over that result is two-fold. First, we obtain an exponentially better dependence on error. This kind of logarithmic dependence on error has also been achieved by Xue et al., (2021), but only for homogeneous nonlinear equations. Second, the present algorithm can handle any sparse, invertible matrix (that models dissipation) if it has a negative log-norm (including non-diagonalizable matrices), whereas Liu et al., (2021) and Xue et al., (2021) additionally require normality.</description>
   </item>
 
   <item>
@@ -207,22 +231,6 @@
   </item>
 
   <item>
-    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
-    <link>http://arxiv.org/pdf/2201.13450</link>
-    <author>Lior Eldar, Sean Hallgren</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
-  </item>
-
-  <item>
-    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2201.05215</link>
-    <author>Dmitri Maslov, Ben Zindorf</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
-  </item>
-
-  <item>
     <title>Quantum cryptography with classical communication: parallel remote state preparation for copy-protection, verification, and more</title>
     <link>http://arxiv.org/pdf/2201.13445</link>
     <author>Alexandru Gheorghiu, Tony Metger, Alexander Poremba</author>
@@ -231,19 +239,11 @@
   </item>
 
   <item>
-    <title>Reducing the impact of time-correlated noise on zero-noise extrapolation</title>
-    <link>http://arxiv.org/pdf/2201.11792</link>
-    <author>Kevin Schultz, Ryan LaRose, Andrea Mari, Gregory Quiroz, Nathan Shammah, B. David Clader, William J. Zeng</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>Zero-noise extrapolation is a quantum error mitigation technique that has typically been studied under the ideal approximation that the noise acting on a quantum device is not time-correlated. In this work, we investigate the feasibility and performance of zero-noise extrapolation in the presence of time-correlated noise. We show that, in contrast to white noise, time-correlated noise is harder to mitigate via zero-noise extrapolation because it is difficult to scale the noise level without also modifying its spectral distribution. This limitation is particularly strong if "local" gate-level methods are applied for noise scaling. However, we find that "global" noise scaling methods, e.g., global unitary folding, can be sufficiently reliable even in the presence of time-correlated noise. We also introduce gate Trotterization as a new noise scaling technique that may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>Scalable High-Performance Fluxonium Quantum Processor</title>
-    <link>http://arxiv.org/pdf/2201.09374</link>
-    <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
+    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2201.05215</link>
+    <author>Dmitri Maslov, Ben Zindorf</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
   </item>
 
 </channel>
