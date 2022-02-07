@@ -47,19 +47,19 @@
   </item>
 
   <item>
-    <title>Testing matrix product states</title>
-    <link>http://arxiv.org/pdf/2201.01824</link>
-    <author>Mehdi Soleimanifar, John Wright</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>Devising schemes for testing the amount of entanglement in quantum systems has played a crucial role in quantum computing and information theory. Here, we study the problem of testing whether an unknown state $|\psi\rangle$ is a matrix product state (MPS) in the property testing model. MPS are a class of physically-relevant quantum states which arise in the study of quantum many-body systems. A quantum state $|\psi_{1,...,n}\rangle$ comprised of $n$ qudits is said to be an MPS of bond dimension $r$ if the reduced density matrix $\psi_{1,...,k}$ has rank $r$ for each $k \in \{1,...,n\}$. When $r=1$, this corresponds to the set of product states. For larger values of $r$, this yields a more expressive class of quantum states, which are allowed to possess limited amounts of entanglement. In the property testing model, one is given $m$ identical copies of $|\psi\rangle$, and the goal is to determine whether $|\psi\rangle$ is an MPS of bond dimension $r$ or whether $|\psi\rangle$ is far from all such states. For the case of product states, we study the product test, a simple two-copy test previously analyzed by Harrow and Montanaro (FOCS 2010), and a key ingredient in their proof that $\mathsf{QMA(2)}=\mathsf{QMA}(k)$ for $k \geq 2$. We give a new and simpler analysis of the product test which achieves an optimal bound for a wide range of parameters, answering open problems of Harrow and Montanaro (FOCS 2010) and Montanaro and de Wolf (2016). For the case of $r\geq 2$, we give an efficient algorithm for testing whether $|\psi\rangle$ is an MPS of bond dimension $r$ using $m = O(n r^2)$ copies, independent of the dimensions of the qudits, and we show that $\Omega(n^{1/2})$ copies are necessary for this task. This lower bound shows that a dependence on the number of qudits $n$ is necessary, in sharp contrast to the case of product states where a constant number of copies suffices.</description>
-  </item>
-
-  <item>
     <title>Free-Fermion Subsystem Codes</title>
     <link>http://arxiv.org/pdf/2201.07254</link>
     <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
     <pubDate>Jan 20 2022</pubDate>
     <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
+  </item>
+
+  <item>
+    <title>Bias-tailored quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2202.01702</link>
+    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
+    <pubDate>Feb 04 2022</pubDate>
+    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
   </item>
 
   <item>
@@ -76,22 +76,6 @@
     <author>Arpit Dua, Tomas Jochym-O'Connor, Guanyu Zhu</author>
     <pubDate>Jan 12 2022</pubDate>
     <description>Recently, a class of fractal surface codes (FSCs), has been constructed on fractal lattices with Hausdorff dimension $2+\epsilon$, which admits a fault-tolerant non-Clifford CCZ gate. We investigate the performance of such FSCs as fault-tolerant quantum memories. We prove that there exist decoding strategies with non-zero thresholds for bit-flip and phase-flip errors in the FSCs with Hausdorff dimension $2+\epsilon$. For the bit-flip errors, we adapt the sweep decoder, developed for string-like syndromes in the regular 3D surface code, to the FSCs by designing suitable modifications on the boundaries of the holes in the fractal lattice. Moreover, our adaptation of the sweep decoder for the FSCs maintains its self-correcting and single-shot nature. For the phase-flip errors, we employ the minimum-weight-perfect-matching (MWPM) decoder for the point-like syndromes. We report a sustainable fault-tolerant threshold ($\sim 1.7\%$) under phenomenological noise for the sweep decoder and the code capacity threshold (lower bounded by $2.95\%$) for the MWPM decoder for a particular FSC with Hausdorff dimension $D_H\approx2.966$. The latter can be mapped to the critical point of a zero-temperature confinement-Higgs transition on the fractal lattice, which is tunable via the Hausdorff dimension.</description>
-  </item>
-
-  <item>
-    <title>A smallest computable entanglement monotone</title>
-    <link>http://arxiv.org/pdf/2201.00835</link>
-    <author>J. Eisert, M. M. Wilde</author>
-    <pubDate>Jan 05 2022</pubDate>
-    <description>The Rains relative entropy of a bipartite quantum state is the tightest known upper bound on its distillable entanglement - which has a crisp physical interpretation of entanglement as a resource - and it is efficiently computable by convex programming. It has not been known to be a selective entanglement monotone in its own right. In this work, we strengthen the interpretation of the Rains relative entropy by showing that it is monotone under the action of selective operations that completely preserve the positivity of the partial transpose, reasonably quantifying entanglement. That is, we prove that Rains relative entropy of an ensemble generated by such an operation does not exceed the Rains relative entropy of the initial state in expectation, giving rise to the smallest, most conservative known computable selective entanglement monotone. Additionally, we show that this is true not only for the original Rains relative entropy, but also for Rains relative entropies derived from various Renyi relative entropies. As an application of these findings, we prove, in both the non-asymptotic and asymptotic settings, that the probabilistic approximate distillable entanglement of a state is bounded from above by various Rains relative entropies.</description>
-  </item>
-
-  <item>
-    <title>Bias-tailored quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2202.01702</link>
-    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
   </item>
 
   <item>
@@ -143,19 +127,11 @@
   </item>
 
   <item>
-    <title>Oracle separations of hybrid quantum-classical circuits</title>
-    <link>http://arxiv.org/pdf/2201.01904</link>
-    <author>Atul Singh Arora, Alexandru Gheorghiu, Uttam Singh</author>
-    <pubDate>Jan 07 2022</pubDate>
-    <description>An important theoretical problem in the study of quantum computation, that is also practically relevant in the context of near-term quantum devices, is to understand the computational power of hybrid models, that combine poly-time classical computation with short-depth quantum computation. Here, we consider two such models: CQ_d which captures the scenario of a polynomial-time classical algorithm that queries a d-depth quantum computer many times; and QC_d which is more analogous to measurement-based quantum computation and captures the scenario of a d-depth quantum computer with the ability to change the sequence of gates being applied depending on measurement outcomes processed by a classical computation. Chia, Chung & Lai (STOC 2020) and Coudron & Menda (STOC 2020) showed that these models (with d=log^O(1) (n)) are strictly weaker than BQP (the class of problems solvable by poly-time quantum computation), relative to an oracle, disproving a conjecture of Jozsa in the relativised world. We show that, despite the similarities between CQ_d and QC_d, the two models are incomparable, i.e. CQ_d $\nsubseteq$ QC_d and QC_d $\nsubseteq$ CQ_d relative to an oracle. In other words, there exist problems that one model can solve but not the other and vice versa. We do this by considering new oracle problems that capture the distinctions between the two models and by introducing the notion of an intrinsically stochastic oracle, an oracle whose responses are inherently randomised, which is used for our second result. While we leave showing the second separation relative to a standard oracle as an open problem, we believe the notion of stochastic oracles could be of independent interest for studying complexity classes which have resisted separation in the standard oracle model. Our constructions also yield simpler oracle separations between the hybrid models and BQP, compared to earlier works.</description>
-  </item>
-
-  <item>
-    <title>Limits on Parameter Estimation of Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2201.01738</link>
-    <author>Vishal Katariya</author>
-    <pubDate>Jan 06 2022</pubDate>
-    <description>The aim of this thesis is to develop a theoretical framework to study parameter estimation of quantum channels. We study the task of estimating unknown parameters encoded in a channel in the sequential setting. A sequential strategy is the most general way to use a channel multiple times. Our goal is to establish lower bounds (called Cramer-Rao bounds) on the estimation error. The bounds we develop are universally applicable; i.e., they apply to all permissible quantum dynamics. We consider the use of catalysts to enhance the power of a channel estimation strategy. This is termed amortization. The power of a channel for a parameter estimation is determined by its Fisher information. Thus, we study how much a catalyst quantum state can enhance the Fisher information of a channel by defining the amortized Fisher information. We establish our bounds by proving that for certain Fisher information quantities, catalyst states do not improve the performance of a sequential estimation protocol compared to a parallel one. The technical term for this is an amortization collapse. We use this to establish bounds when estimating one parameter, or multiple parameters simultaneously. Our bounds apply universally and we also cast them as optimization problems. For the single parameter case, we establish bounds for general quantum channels using both the symmetric logarithmic derivative (SLD) Fisher information and the right logarithmic derivative (RLD) Fisher information. The task of estimating multiple parameters simultaneously is more involved than the single parameter case, because the Cramer-Rao bounds take the form of matrix inequalities. We establish a scalar Cramer-Rao bound for multiparameter channel estimation using the RLD Fisher information. For both single and multiparameter estimation, we provide a no-go condition for the so-called Heisenberg scaling using our RLD-based bound.</description>
+    <title>Quantum Error Correction with Quantum Autoencoders</title>
+    <link>http://arxiv.org/pdf/2202.00555</link>
+    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
   </item>
 
   <item>
@@ -164,14 +140,6 @@
     <author>Tyler Helmuth, Ryan L. Mann</author>
     <pubDate>Jan 19 2022</pubDate>
     <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
-  </item>
-
-  <item>
-    <title>Quantum Error Correction with Quantum Autoencoders</title>
-    <link>http://arxiv.org/pdf/2202.00555</link>
-    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
   </item>
 
   <item>
@@ -239,11 +207,43 @@
   </item>
 
   <item>
+    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
+    <link>http://arxiv.org/pdf/2202.01669</link>
+    <author>Henrik Wilming, Ingo Roth</author>
+    <pubDate>Feb 04 2022</pubDate>
+    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
+  </item>
+
+  <item>
     <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
     <link>http://arxiv.org/pdf/2201.05215</link>
     <author>Dmitri Maslov, Ben Zindorf</author>
     <pubDate>Jan 17 2022</pubDate>
     <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
+  </item>
+
+  <item>
+    <title>Reducing the impact of time-correlated noise on zero-noise extrapolation</title>
+    <link>http://arxiv.org/pdf/2201.11792</link>
+    <author>Kevin Schultz, Ryan LaRose, Andrea Mari, Gregory Quiroz, Nathan Shammah, B. David Clader, William J. Zeng</author>
+    <pubDate>Jan 31 2022</pubDate>
+    <description>Zero-noise extrapolation is a quantum error mitigation technique that has typically been studied under the ideal approximation that the noise acting on a quantum device is not time-correlated. In this work, we investigate the feasibility and performance of zero-noise extrapolation in the presence of time-correlated noise. We show that, in contrast to white noise, time-correlated noise is harder to mitigate via zero-noise extrapolation because it is difficult to scale the noise level without also modifying its spectral distribution. This limitation is particularly strong if "local" gate-level methods are applied for noise scaling. However, we find that "global" noise scaling methods, e.g., global unitary folding, can be sufficiently reliable even in the presence of time-correlated noise. We also introduce gate Trotterization as a new noise scaling technique that may be of independent interest.</description>
+  </item>
+
+  <item>
+    <title>Scalable High-Performance Fluxonium Quantum Processor</title>
+    <link>http://arxiv.org/pdf/2201.09374</link>
+    <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Multicore Quantum Computing</title>
+    <link>http://arxiv.org/pdf/2201.08861</link>
+    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
+    <pubDate>Jan 25 2022</pubDate>
+    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
   </item>
 
 </channel>

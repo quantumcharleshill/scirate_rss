@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Bias-tailored quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2202.01702</link>
-    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
+    <title>Singleton bounds for entanglement-assisted classical and quantum error correcting codes</title>
+    <link>http://arxiv.org/pdf/2202.02184</link>
+    <author>Manideep Mamindlapally, Andreas Winter</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We show that entirely information theoretic methods, based on von Neumann entropies and their properties, can be used to derive Singleton bounds on the performance of entanglement-assisted hybrid classical-quantum (EACQ) error correcting codes. Concretely we show that the triple-rate region of qubits, cbits and ebits of possible EACQ codes over arbitrary alphabet sizes is contained in the quantum Shannon theoretic rate region of an associated memoryless erasure channel, which turns out to be a polytope. We show that a large part of this region is attainable by certain EACQ codes, whenever the local alphabet size (i.e. Hilbert space dimension) is large enough, in keeping with known facts about classical and quantum minimum distance separable (MDS) codes: in particular all of its extreme points and several important extremal lines.</description>
   </item>
 
   <item>
-    <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
-    <link>http://arxiv.org/pdf/2202.01054</link>
-    <author>Hari Krovi</author>
-    <pubDate>Feb 03 2022</pubDate>
-    <description>We present substantially generalized and improved quantum algorithms over prior work for inhomogeneous linear and nonlinear ordinary differential equations (ODE). In Berry et al., (2017), a quantum algorithm for a certain class of linear ODEs is given, where the matrix involved needs to be diagonalizable. The quantum algorithm for linear ODEs presented here extends to many classes of non-diagonalizable matrices. The algorithm here can also be exponentially faster for certain classes of diagonalizable matrices. Our linear ODE algorithm is then applied to nonlinear differential equations using Carleman linearization (an approach taken recently by us in Liu et al., (2021)). The improvement over that result is two-fold. First, we obtain an exponentially better dependence on error. This kind of logarithmic dependence on error has also been achieved by Xue et al., (2021), but only for homogeneous nonlinear equations. Second, the present algorithm can handle any sparse, invertible matrix (that models dissipation) if it has a negative log-norm (including non-diagonalizable matrices), whereas Liu et al., (2021) and Xue et al., (2021) additionally require normality.</description>
+    <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
+    <link>http://arxiv.org/pdf/2202.02138</link>
+    <author>Glen Evenbly</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We present an overview of the key ideas and skills necessary to begin implementing tensor network methods numerically, which is intended to facilitate the practical application of tensor network methods for researchers that are already versed with their theoretical foundations. These skills include an introduction to the contraction of tensor networks, to optimal tensor decompositions, and to the manipulation of gauge degrees of freedom in tensor networks. The topics presented are of key importance to many common tensor network algorithms such as DMRG, TEBD, TRG, PEPS and MERA.</description>
   </item>
 
   <item>
-    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
-    <link>http://arxiv.org/pdf/2202.01669</link>
-    <author>Henrik Wilming, Ingo Roth</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
+    <title>Koopman von Neumann mechanics and the Koopman representation: A perspective on solving nonlinear dynamical systems with quantum computers</title>
+    <link>http://arxiv.org/pdf/2202.02188</link>
+    <author>Yen Ting Lin, Robert B. Lowrie, Denis Aslangil, Yiğit Subaşı, Andrew T. Sornborger</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>A number of recent studies have proposed that linear representations are appropriate for solving nonlinear dynamical systems with quantum computers, which fundamentally act linearly on a wave function in a Hilbert space. Linear representations, such as the Koopman representation and Koopman von Neumann mechanics, have regained attention from the dynamical-systems research community. Here, we aim to present a unified theoretical framework, currently missing in the literature, with which one can compare and relate existing methods, their conceptual basis, and their representations. We also aim to show that, despite the fact that quantum simulation of nonlinear classical systems may be possible with such linear representations, a necessary projection into a feasible finite-dimensional space will in practice eventually induce numerical artifacts which can be hard to eliminate or even control. As a result a practical, reliable and accurate way to use quantum computation for solving general nonlinear dynamical systems is still an open problem.</description>
   </item>
 
   <item>
-    <title>Order preserving maps on quantum measurements</title>
-    <link>http://arxiv.org/pdf/2202.00725</link>
-    <author>Teiko Heinosaari, Maria Anastasia Jivulescu, Ion Nechita</author>
-    <pubDate>Feb 03 2022</pubDate>
-    <description>We study the partially ordered set of equivalence classes of quantum measurements endowed with the post-processing partial order. The post-processing order is fundamental as it enables to compare measurements by their intrinsic noise and it gives grounds to define the important concept of quantum incompatibility. Our approach is based on mapping this set into a simpler partially ordered set using an order preserving map and investigating the resulting image. The aim is to ignore unnecessary details while keeping the essential structure, thereby simplifying e.g. detection of incompatibility. One possible choice is the map based on Fisher information introduced by Huangjun Zhu, known to be an order morphism taking values in the cone of positive semidefinite matrices. We explore the properties of that construction and improve Zhu's incompatibility criterion by adding a constraint depending on the number of measurement outcomes. We generalize this type of construction to other ordered vector spaces and we show that this map is optimal among all quadratic maps.</description>
+    <title>Beware of Greeks bearing entanglement? Quantum covert channels, information flow and non-local games</title>
+    <link>http://arxiv.org/pdf/2202.02069</link>
+    <author>David Mestel</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>Can quantum entanglement increase the capacity of (classical) covert channels? To one familiar with Holevo's Theorem it is tempting to think that the answer is obviously no. However, in this work we show: quantum entanglement can in fact increase the capacity of a classical covert channel, in the presence of an active adversary; on the other hand, a zero-capacity channel is not improved by entanglement, so entanglement cannot create `purely quantum' covert channels; the problem of determining the capacity of a given channel in the presence of entanglement is undecidable; but there is an algorithm to bound the entangled capacity of a channel from above, adapted from the semi-definite hierarchy from the theory of non-local games, whose close connection to channel capacity is at the core of all of our results.</description>
   </item>
 
   <item>
-    <title>Deviation from maximal entanglement for mid-spectrum eigenstates of local Hamiltonians</title>
-    <link>http://arxiv.org/pdf/2202.01173</link>
-    <author>Yichen Huang</author>
-    <pubDate>Feb 03 2022</pubDate>
-    <description>In a chain of $N$ spins governed by a local Hamiltonian, we consider eigenstates in a microcanonical ensemble in the middle of the energy spectrum. We prove that if the bandwidth of the ensemble is $C\ln^2N$ for a large constant $C$, then the average entanglement entropy of these eigenstates is bounded away from the maximum entropy. This result highlights the difference between the entanglement of mid-spectrum eigenstates of (chaotic) local Hamiltonians and that of random states, for the latter is nearly maximal. We also prove that the former is different from the thermodynamic entropy at the same energy.</description>
+    <title>Mitigating the quantum hype</title>
+    <link>http://arxiv.org/pdf/2202.01925</link>
+    <author>Olivier Ezratty</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It can cut short research and innovation funding in the mid to long term. After looking at the shape and form of technology and science hypes and driving some lessons from past technology hypes, we investigate the current quantum hype phenomenon and identify some of its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively solid compared to other technology hypes. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach. All-in-all, it is about restoring the role of science and scientists in the current debates.</description>
   </item>
 
 </channel>
