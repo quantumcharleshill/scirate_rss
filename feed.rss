@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2202.00119</link>
+    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
+  </item>
+
+  <item>
     <title>Clifford-deformed Surface Codes</title>
     <link>http://arxiv.org/pdf/2201.07802</link>
     <author>Arpit Dua, Aleksander Kubica, Liang Jiang, Steven T. Flammia, Michael J. Gullans</author>
@@ -31,11 +39,11 @@
   </item>
 
   <item>
-    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2202.00119</link>
-    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
+    <title>Bias-tailored quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2202.01702</link>
+    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
+    <pubDate>Feb 04 2022</pubDate>
+    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
   </item>
 
   <item>
@@ -52,14 +60,6 @@
     <author>Adrian Chapman, Steven T. Flammia, Alicia J. Kollár</author>
     <pubDate>Jan 20 2022</pubDate>
     <description>We consider quantum error-correcting subsystem codes whose gauge generators realize a translation-invariant, free-fermion-solvable spin model. In this setting, errors are suppressed by a Hamiltonian whose terms are the gauge generators of the code and whose exact spectrum and eigenstates can be found via a generalized Jordan-Wigner transformation. Such solutions are characterized by the frustration graph of the Hamiltonian: the graph whose vertices are Hamiltonian terms, which are neighboring if the terms anticommute. We provide methods for embedding a given frustration graph in the anticommutation relations of a spin model and present the first known example of an exactly solvable spin model with a two-dimensional free-fermion description and exact topological qubits. This model can be viewed as a free-fermionized version of the two-dimensional Bacon-Shor code. Using graph-theoretic tools to study the unit cell, we give an efficient algorithm for deciding if a given translation-invariant spin model is solvable, and explicitly construct the solution. Further, we examine the energetics of these exactly solvable models from the graph-theoretic perspective and show that the relevant gaps of the spin model correspond to known graph-theoretic quantities: the skew energy and the median eigenvalue of an oriented graph. Finally, we numerically search for models which have large spectral gaps above the ground state spin configuration and thus exhibit particularly robust thermal suppression of errors. These results suggest that optimal models will have low dimensionality and odd coordination numbers, and that the primary limit to energetic error suppression is the skew energy difference between different symmetry sectors rather than single-particle excitations of the free fermions.</description>
-  </item>
-
-  <item>
-    <title>Bias-tailored quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2202.01702</link>
-    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
   </item>
 
   <item>
@@ -95,6 +95,14 @@
   </item>
 
   <item>
+    <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
+    <link>http://arxiv.org/pdf/2202.02138</link>
+    <author>Glen Evenbly</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We present an overview of the key ideas and skills necessary to begin implementing tensor network methods numerically, which is intended to facilitate the practical application of tensor network methods for researchers that are already versed with their theoretical foundations. These skills include an introduction to the contraction of tensor networks, to optimal tensor decompositions, and to the manipulation of gauge degrees of freedom in tensor networks. The topics presented are of key importance to many common tensor network algorithms such as DMRG, TEBD, TRG, PEPS and MERA.</description>
+  </item>
+
+  <item>
     <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
     <link>http://arxiv.org/pdf/2201.05678</link>
     <author>Christopher Chamberland, Earl T. Campbell</author>
@@ -127,6 +135,14 @@
   </item>
 
   <item>
+    <title>Mitigating the quantum hype</title>
+    <link>http://arxiv.org/pdf/2202.01925</link>
+    <author>Olivier Ezratty</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It can cut short research and innovation funding in the mid to long term. After looking at the shape and form of technology and science hypes and driving some lessons from past technology hypes, we investigate the current quantum hype phenomenon and identify some of its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively solid compared to other technology hypes. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach. All-in-all, it is about restoring the role of science and scientists in the current debates.</description>
+  </item>
+
+  <item>
     <title>Quantum Error Correction with Quantum Autoencoders</title>
     <link>http://arxiv.org/pdf/2202.00555</link>
     <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
@@ -140,6 +156,14 @@
     <author>Tyler Helmuth, Ryan L. Mann</author>
     <pubDate>Jan 19 2022</pubDate>
     <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
+  </item>
+
+  <item>
+    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
+    <link>http://arxiv.org/pdf/2201.13450</link>
+    <author>Lior Eldar, Sean Hallgren</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
   </item>
 
   <item>
@@ -159,19 +183,19 @@
   </item>
 
   <item>
+    <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
+    <link>http://arxiv.org/pdf/2202.01054</link>
+    <author>Hari Krovi</author>
+    <pubDate>Feb 03 2022</pubDate>
+    <description>We present substantially generalized and improved quantum algorithms over prior work for inhomogeneous linear and nonlinear ordinary differential equations (ODE). In Berry et al., (2017), a quantum algorithm for a certain class of linear ODEs is given, where the matrix involved needs to be diagonalizable. The quantum algorithm for linear ODEs presented here extends to many classes of non-diagonalizable matrices. The algorithm here can also be exponentially faster for certain classes of diagonalizable matrices. Our linear ODE algorithm is then applied to nonlinear differential equations using Carleman linearization (an approach taken recently by us in Liu et al., (2021)). The improvement over that result is two-fold. First, we obtain an exponentially better dependence on error. This kind of logarithmic dependence on error has also been achieved by Xue et al., (2021), but only for homogeneous nonlinear equations. Second, the present algorithm can handle any sparse, invertible matrix (that models dissipation) if it has a negative log-norm (including non-diagonalizable matrices), whereas Liu et al., (2021) and Xue et al., (2021) additionally require normality.</description>
+  </item>
+
+  <item>
     <title>Erasure conversion for fault-tolerant quantum computing in alkaline earth Rydberg atom arrays</title>
     <link>http://arxiv.org/pdf/2201.03540</link>
     <author>Yue Wu, Shimon Kolkowitz, Shruti Puri, Jeff D Thompson</author>
     <pubDate>Jan 11 2022</pubDate>
     <description>Executing quantum algorithms on error-corrected logical qubits is a critical step for scalable quantum computing, but the requisite numbers of qubits and physical error rates are demanding for current experimental hardware. Recently, the development of error correcting codes tailored to particular physical noise models has helped relax these requirements. In this work, we propose a qubit encoding and gate protocol for ${}^{171}$Yb neutral atom qubits that converts the dominant physical errors into erasures, that is, errors in known locations. The key idea is to encode qubits in a metastable electronic level, such that gate errors predominantly result in transitions to disjoint subspaces whose populations can be continuously monitored via fluorescence. We estimate that 98% of errors can be converted into erasures. We quantify the benefit of this approach via circuit-level simulations of the surface code, finding a threshold increase from 0.937% to 4.15%. We also observe a larger code distance near the threshold, leading to a faster decrease in the logical error rate for the same number of physical qubits, which is important for near-term implementations. Erasure conversion should benefit any error correcting code, and may also be applied to design new gates and encodings in other qubit platforms.</description>
-  </item>
-
-  <item>
-    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
-    <link>http://arxiv.org/pdf/2201.13450</link>
-    <author>Lior Eldar, Sean Hallgren</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
   </item>
 
   <item>
@@ -183,19 +207,11 @@
   </item>
 
   <item>
-    <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
-    <link>http://arxiv.org/pdf/2202.01054</link>
-    <author>Hari Krovi</author>
-    <pubDate>Feb 03 2022</pubDate>
-    <description>We present substantially generalized and improved quantum algorithms over prior work for inhomogeneous linear and nonlinear ordinary differential equations (ODE). In Berry et al., (2017), a quantum algorithm for a certain class of linear ODEs is given, where the matrix involved needs to be diagonalizable. The quantum algorithm for linear ODEs presented here extends to many classes of non-diagonalizable matrices. The algorithm here can also be exponentially faster for certain classes of diagonalizable matrices. Our linear ODE algorithm is then applied to nonlinear differential equations using Carleman linearization (an approach taken recently by us in Liu et al., (2021)). The improvement over that result is two-fold. First, we obtain an exponentially better dependence on error. This kind of logarithmic dependence on error has also been achieved by Xue et al., (2021), but only for homogeneous nonlinear equations. Second, the present algorithm can handle any sparse, invertible matrix (that models dissipation) if it has a negative log-norm (including non-diagonalizable matrices), whereas Liu et al., (2021) and Xue et al., (2021) additionally require normality.</description>
-  </item>
-
-  <item>
-    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
-    <link>http://arxiv.org/pdf/2201.02450</link>
-    <author>Masahito Hayashi</author>
-    <pubDate>Jan 10 2022</pubDate>
-    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
+    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
+    <link>http://arxiv.org/pdf/2202.01669</link>
+    <author>Henrik Wilming, Ingo Roth</author>
+    <pubDate>Feb 04 2022</pubDate>
+    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
   </item>
 
   <item>
@@ -207,11 +223,11 @@
   </item>
 
   <item>
-    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
-    <link>http://arxiv.org/pdf/2202.01669</link>
-    <author>Henrik Wilming, Ingo Roth</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
+    <title>Analytical calculation formulas for capacities of classical and classical-quantum channels</title>
+    <link>http://arxiv.org/pdf/2201.02450</link>
+    <author>Masahito Hayashi</author>
+    <pubDate>Jan 10 2022</pubDate>
+    <description>We derive an analytical calculation formula for the channel capacity of a classical channel without any iteration while its existing algorithms require iterations and the number of iteration depends on the required precision level. Hence, our formula is its first analytical formula without any iteration. We apply the obtained formula to examples and see how the obtained formula works in these examples. Then, we extend it to the channel capacity of a classical-quantum (cq-) channel. Many existing studies proposed algorithms for a cq-channel and all of them require iterations. Our extended analytical algorithm have also no iteration and output the exactly optimum values.</description>
   </item>
 
   <item>
@@ -223,27 +239,11 @@
   </item>
 
   <item>
-    <title>Reducing the impact of time-correlated noise on zero-noise extrapolation</title>
-    <link>http://arxiv.org/pdf/2201.11792</link>
-    <author>Kevin Schultz, Ryan LaRose, Andrea Mari, Gregory Quiroz, Nathan Shammah, B. David Clader, William J. Zeng</author>
-    <pubDate>Jan 31 2022</pubDate>
-    <description>Zero-noise extrapolation is a quantum error mitigation technique that has typically been studied under the ideal approximation that the noise acting on a quantum device is not time-correlated. In this work, we investigate the feasibility and performance of zero-noise extrapolation in the presence of time-correlated noise. We show that, in contrast to white noise, time-correlated noise is harder to mitigate via zero-noise extrapolation because it is difficult to scale the noise level without also modifying its spectral distribution. This limitation is particularly strong if "local" gate-level methods are applied for noise scaling. However, we find that "global" noise scaling methods, e.g., global unitary folding, can be sufficiently reliable even in the presence of time-correlated noise. We also introduce gate Trotterization as a new noise scaling technique that may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>Scalable High-Performance Fluxonium Quantum Processor</title>
-    <link>http://arxiv.org/pdf/2201.09374</link>
-    <author>Long B. Nguyen, Gerwin Koolstra, Yosep Kim, Alexis Morvan, Trevor Chistolini, Shraddha Singh, Konstantin N. Nesterov, Christian Jünger, Larry Chen, Zahra Pedramrazi, Bradley K. Mitchell, John Mark Kreikebaum, Shruti Puri, David I. Santiago, Irfan Siddiqi Singh</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>The technological development of hardware heading toward universal fault-tolerant quantum computation requires a large-scale processing unit with high performance. While fluxonium qubits are promising with high coherence and large anharmonicity, their scalability has not been systematically explored. In this work, we propose a superconducting quantum information processor based on compact high-coherence fluxoniums with suppressed crosstalk, reduced design complexity, improved operational efficiency, high-fidelity gates, and resistance to parameter fluctuations. In this architecture, the qubits are readout dispersively using individual resonators connected to a common bus and manipulated via combined on-chip RF and DC control lines, both of which can be designed to have low crosstalk. A multi-path coupling approach enables exchange interactions between the high-coherence computational states and at the same time suppresses the spurious static ZZ rate, leading to fast and high-fidelity entangling gates. We numerically investigate the cross resonance controlled-NOT and the differential AC-Stark controlled-Z operations, revealing low gate error for qubit-qubit detuning bandwidth of up to 1 GHz. Our study on frequency crowding indicates high fabrication yield for quantum processors consisting of over thousands of qubits. In addition, we estimate low resource overhead to suppress logical error rate using the XZZX surface code. These results promise a scalable quantum architecture with high performance for the pursuit of universal quantum computation.</description>
-  </item>
-
-  <item>
-    <title>Multicore Quantum Computing</title>
-    <link>http://arxiv.org/pdf/2201.08861</link>
-    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
+    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
+    <link>http://arxiv.org/pdf/2202.01861</link>
+    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
   </item>
 
 </channel>

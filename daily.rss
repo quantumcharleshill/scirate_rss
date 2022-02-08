@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Singleton bounds for entanglement-assisted classical and quantum error correcting codes</title>
-    <link>http://arxiv.org/pdf/2202.02184</link>
-    <author>Manideep Mamindlapally, Andreas Winter</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>We show that entirely information theoretic methods, based on von Neumann entropies and their properties, can be used to derive Singleton bounds on the performance of entanglement-assisted hybrid classical-quantum (EACQ) error correcting codes. Concretely we show that the triple-rate region of qubits, cbits and ebits of possible EACQ codes over arbitrary alphabet sizes is contained in the quantum Shannon theoretic rate region of an associated memoryless erasure channel, which turns out to be a polytope. We show that a large part of this region is attainable by certain EACQ codes, whenever the local alphabet size (i.e. Hilbert space dimension) is large enough, in keeping with known facts about classical and quantum minimum distance separable (MDS) codes: in particular all of its extreme points and several important extremal lines.</description>
-  </item>
-
-  <item>
     <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
     <link>http://arxiv.org/pdf/2202.02138</link>
     <author>Glen Evenbly</author>
@@ -23,27 +15,35 @@
   </item>
 
   <item>
-    <title>Koopman von Neumann mechanics and the Koopman representation: A perspective on solving nonlinear dynamical systems with quantum computers</title>
-    <link>http://arxiv.org/pdf/2202.02188</link>
-    <author>Yen Ting Lin, Robert B. Lowrie, Denis Aslangil, Yiğit Subaşı, Andrew T. Sornborger</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>A number of recent studies have proposed that linear representations are appropriate for solving nonlinear dynamical systems with quantum computers, which fundamentally act linearly on a wave function in a Hilbert space. Linear representations, such as the Koopman representation and Koopman von Neumann mechanics, have regained attention from the dynamical-systems research community. Here, we aim to present a unified theoretical framework, currently missing in the literature, with which one can compare and relate existing methods, their conceptual basis, and their representations. We also aim to show that, despite the fact that quantum simulation of nonlinear classical systems may be possible with such linear representations, a necessary projection into a feasible finite-dimensional space will in practice eventually induce numerical artifacts which can be hard to eliminate or even control. As a result a practical, reliable and accurate way to use quantum computation for solving general nonlinear dynamical systems is still an open problem.</description>
-  </item>
-
-  <item>
-    <title>Beware of Greeks bearing entanglement? Quantum covert channels, information flow and non-local games</title>
-    <link>http://arxiv.org/pdf/2202.02069</link>
-    <author>David Mestel</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>Can quantum entanglement increase the capacity of (classical) covert channels? To one familiar with Holevo's Theorem it is tempting to think that the answer is obviously no. However, in this work we show: quantum entanglement can in fact increase the capacity of a classical covert channel, in the presence of an active adversary; on the other hand, a zero-capacity channel is not improved by entanglement, so entanglement cannot create `purely quantum' covert channels; the problem of determining the capacity of a given channel in the presence of entanglement is undecidable; but there is an algorithm to bound the entangled capacity of a channel from above, adapted from the semi-definite hierarchy from the theory of non-local games, whose close connection to channel capacity is at the core of all of our results.</description>
-  </item>
-
-  <item>
     <title>Mitigating the quantum hype</title>
     <link>http://arxiv.org/pdf/2202.01925</link>
     <author>Olivier Ezratty</author>
     <pubDate>Feb 07 2022</pubDate>
     <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It can cut short research and innovation funding in the mid to long term. After looking at the shape and form of technology and science hypes and driving some lessons from past technology hypes, we investigate the current quantum hype phenomenon and identify some of its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively solid compared to other technology hypes. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach. All-in-all, it is about restoring the role of science and scientists in the current debates.</description>
+  </item>
+
+  <item>
+    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
+    <link>http://arxiv.org/pdf/2202.01861</link>
+    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
+  </item>
+
+  <item>
+    <title>Singleton bounds for entanglement-assisted classical and quantum error correcting codes</title>
+    <link>http://arxiv.org/pdf/2202.02184</link>
+    <author>Manideep Mamindlapally, Andreas Winter</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We show that entirely information theoretic methods, based on von Neumann entropies and their properties, can be used to derive Singleton bounds on the performance of entanglement-assisted hybrid classical-quantum (EACQ) error correcting codes. Concretely we show that the triple-rate region of qubits, cbits and ebits of possible EACQ codes over arbitrary alphabet sizes is contained in the quantum Shannon theoretic rate region of an associated memoryless erasure channel, which turns out to be a polytope. We show that a large part of this region is attainable by certain EACQ codes, whenever the local alphabet size (i.e. Hilbert space dimension) is large enough, in keeping with known facts about classical and quantum minimum distance separable (MDS) codes: in particular all of its extreme points and several important extremal lines.</description>
+  </item>
+
+  <item>
+    <title>Koopman von Neumann mechanics and the Koopman representation: A perspective on solving nonlinear dynamical systems with quantum computers</title>
+    <link>http://arxiv.org/pdf/2202.02188</link>
+    <author>Yen Ting Lin, Robert B. Lowrie, Denis Aslangil, Yiğit Subaşı, Andrew T. Sornborger</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>A number of recent studies have proposed that linear representations are appropriate for solving nonlinear dynamical systems with quantum computers, which fundamentally act linearly on a wave function in a Hilbert space. Linear representations, such as the Koopman representation and Koopman von Neumann mechanics, have regained attention from the dynamical-systems research community. Here, we aim to present a unified theoretical framework, currently missing in the literature, with which one can compare and relate existing methods, their conceptual basis, and their representations. We also aim to show that, despite the fact that quantum simulation of nonlinear classical systems may be possible with such linear representations, a necessary projection into a feasible finite-dimensional space will in practice eventually induce numerical artifacts which can be hard to eliminate or even control. As a result a practical, reliable and accurate way to use quantum computation for solving general nonlinear dynamical systems is still an open problem.</description>
   </item>
 
 </channel>
