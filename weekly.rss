@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2202.00119</link>
-    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
-  </item>
-
-  <item>
     <title>Bias-tailored quantum LDPC codes</title>
     <link>http://arxiv.org/pdf/2202.01702</link>
     <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
@@ -31,27 +23,11 @@
   </item>
 
   <item>
-    <title>Quantum machine learning with subspace states</title>
-    <link>http://arxiv.org/pdf/2202.00054</link>
-    <author>Iordanis Kerenidis, Anupam Prakash</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
-  </item>
-
-  <item>
     <title>Mitigating the quantum hype</title>
     <link>http://arxiv.org/pdf/2202.01925</link>
     <author>Olivier Ezratty</author>
     <pubDate>Feb 07 2022</pubDate>
     <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It can cut short research and innovation funding in the mid to long term. After looking at the shape and form of technology and science hypes and driving some lessons from past technology hypes, we investigate the current quantum hype phenomenon and identify some of its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively solid compared to other technology hypes. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach. All-in-all, it is about restoring the role of science and scientists in the current debates.</description>
-  </item>
-
-  <item>
-    <title>Quantum Error Correction with Quantum Autoencoders</title>
-    <link>http://arxiv.org/pdf/2202.00555</link>
-    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
   </item>
 
   <item>
@@ -84,6 +60,30 @@
     <author>Teiko Heinosaari, Maria Anastasia Jivulescu, Ion Nechita</author>
     <pubDate>Feb 03 2022</pubDate>
     <description>We study the partially ordered set of equivalence classes of quantum measurements endowed with the post-processing partial order. The post-processing order is fundamental as it enables to compare measurements by their intrinsic noise and it gives grounds to define the important concept of quantum incompatibility. Our approach is based on mapping this set into a simpler partially ordered set using an order preserving map and investigating the resulting image. The aim is to ignore unnecessary details while keeping the essential structure, thereby simplifying e.g. detection of incompatibility. One possible choice is the map based on Fisher information introduced by Huangjun Zhu, known to be an order morphism taking values in the cone of positive semidefinite matrices. We explore the properties of that construction and improve Zhu's incompatibility criterion by adding a constraint depending on the number of measurement outcomes. We generalize this type of construction to other ordered vector spaces and we show that this map is optimal among all quadratic maps.</description>
+  </item>
+
+  <item>
+    <title>Singleton bounds for entanglement-assisted classical and quantum error correcting codes</title>
+    <link>http://arxiv.org/pdf/2202.02184</link>
+    <author>Manideep Mamindlapally, Andreas Winter</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We show that entirely information theoretic methods, based on von Neumann entropies and their properties, can be used to derive Singleton bounds on the performance of entanglement-assisted hybrid classical-quantum (EACQ) error correcting codes. Concretely we show that the triple-rate region of qubits, cbits and ebits of possible EACQ codes over arbitrary alphabet sizes is contained in the quantum Shannon theoretic rate region of an associated memoryless erasure channel, which turns out to be a polytope. We show that a large part of this region is attainable by certain EACQ codes, whenever the local alphabet size (i.e. Hilbert space dimension) is large enough, in keeping with known facts about classical and quantum minimum distance separable (MDS) codes: in particular all of its extreme points and several important extremal lines.</description>
+  </item>
+
+  <item>
+    <title>Classical shadows with Pauli-invariant unitary ensembles</title>
+    <link>http://arxiv.org/pdf/2202.03272</link>
+    <author>Kaifeng Bu, Dax Enshan Koh, Roy J. Garcia, Arthur Jaffe</author>
+    <pubDate>Feb 08 2022</pubDate>
+    <description>The classical shadow estimation protocol is a noise-resilient and sample-efficient quantum algorithm for learning the properties of quantum systems. Its performance depends on the choice of a unitary ensemble, which must be chosen by a user in advance. What is the weakest assumption that can be made on the chosen unitary ensemble that would still yield meaningful and interesting results? To address this question, we consider the class of Pauli-invariant unitary ensembles, i.e. unitary ensembles that are invariant under multiplication by a Pauli operator. This class includes many previously studied ensembles like the local and global Clifford ensembles as well as locally scrambled unitary ensembles. For this class of ensembles, we provide an explicit formula for the reconstruction map corresponding to the shadow channel and give explicit sample complexity bounds. In addition, we provide two applications of our results. Our first application is to locally scrambled unitary ensembles, where we give explicit formulas for the reconstruction map and sample complexity bounds that circumvent the need to solve an exponential-sized linear system. Our second application is to the classical shadow tomography of quantum channels with Pauli-invariant unitary ensembles. Our results pave the way for more efficient or robust protocols for predicting important properties of quantum states, such as their fidelity, entanglement entropy, and quantum Fisher information.</description>
+  </item>
+
+  <item>
+    <title>Transitions in Entanglement Complexity in Random Circuits</title>
+    <link>http://arxiv.org/pdf/2202.02648</link>
+    <author>Sarah True, Alioscia Hamma</author>
+    <pubDate>Feb 08 2022</pubDate>
+    <description>Entanglement is the defining characteristic of quantum mechanics. Bipartite entanglement is characterized by the von Neumann entropy. Entanglement is not just described by a number, however; it is also characterized by its level of complexity. The complexity of entanglement is at the root of the onset of quantum chaos, universal distribution of entanglement spectrum statistics, difficulty of the disentangling algorithm, and temporal entanglement fluctuations. In this paper, we numerically show how a crossover from a simple pattern of entanglement to a universal, complex pattern can be driven by doping a random Clifford circuit with $T$ gates. This work shows that quantum complexity and complex entanglement stem from the conjunction of entanglement and non-stabilizer resources, also known as magic.</description>
   </item>
 
 </channel>

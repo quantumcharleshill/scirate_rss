@@ -87,14 +87,6 @@
   </item>
 
   <item>
-    <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
-    <link>http://arxiv.org/pdf/2201.05153</link>
-    <author>Yu-An Chen, Yijia Xu</author>
-    <pubDate>Jan 14 2022</pubDate>
-    <description>We argue that all locality-preserving mappings between fermionic observables and Pauli matrices on a two-dimensional lattice can be generated from the exact bosonization in Ref. [1], whose gauge constraints project onto the subspace of the toric code with emergent fermions. Starting from the exact bosonization and applying Clifford finite-depth generalized local unitary (gLU) transformation, we can achieve all possible fermion-to-qubit mappings (up to the re-pairing of Majorana fermions). In particular, we discover a new super-compact encoding using 1.25 qubits per fermion on the square lattice, which is lower than any method in the literature. We prove the existence of fermion-to-qubit mappings with qubit-fermion ratios $r=1+ \frac{1}{2k}$ for positive integers $k$, where the proof utilizes the trivialness of quantum cellular automata (QCA) in two spatial dimensions. When the ratio approaches 1, the fermion-to-qubit mapping reduces to the 1d Jordan-Wigner transformation along a certain path in the two-dimensional lattice. Finally, we explicitly demonstrate that the Bravyi-Kitaev superfast simulation, the Verstraete-Cirac auxiliary method, Kitaev's exactly solved model, the Majorana loop stabilizer codes, and the compact fermion-to-qubit mapping can all be obtained from the exact bosonization.</description>
-  </item>
-
-  <item>
     <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
     <link>http://arxiv.org/pdf/2202.02138</link>
     <author>Glen Evenbly</author>
@@ -111,11 +103,27 @@
   </item>
 
   <item>
+    <title>Equivalence between fermion-to-qubit mappings in two spatial dimensions</title>
+    <link>http://arxiv.org/pdf/2201.05153</link>
+    <author>Yu-An Chen, Yijia Xu</author>
+    <pubDate>Jan 14 2022</pubDate>
+    <description>We argue that all locality-preserving mappings between fermionic observables and Pauli matrices on a two-dimensional lattice can be generated from the exact bosonization in Ref. [1], whose gauge constraints project onto the subspace of the toric code with emergent fermions. Starting from the exact bosonization and applying Clifford finite-depth generalized local unitary (gLU) transformation, we can achieve all possible fermion-to-qubit mappings (up to the re-pairing of Majorana fermions). In particular, we discover a new super-compact encoding using 1.25 qubits per fermion on the square lattice, which is lower than any method in the literature. We prove the existence of fermion-to-qubit mappings with qubit-fermion ratios $r=1+ \frac{1}{2k}$ for positive integers $k$, where the proof utilizes the trivialness of quantum cellular automata (QCA) in two spatial dimensions. When the ratio approaches 1, the fermion-to-qubit mapping reduces to the 1d Jordan-Wigner transformation along a certain path in the two-dimensional lattice. Finally, we explicitly demonstrate that the Bravyi-Kitaev superfast simulation, the Verstraete-Cirac auxiliary method, Kitaev's exactly solved model, the Majorana loop stabilizer codes, and the compact fermion-to-qubit mapping can all be obtained from the exact bosonization.</description>
+  </item>
+
+  <item>
     <title>Avoiding barren plateaus using classical shadows</title>
     <link>http://arxiv.org/pdf/2201.08194</link>
     <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
+  </item>
+
+  <item>
+    <title>Mitigating the quantum hype</title>
+    <link>http://arxiv.org/pdf/2202.01925</link>
+    <author>Olivier Ezratty</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It can cut short research and innovation funding in the mid to long term. After looking at the shape and form of technology and science hypes and driving some lessons from past technology hypes, we investigate the current quantum hype phenomenon and identify some of its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively solid compared to other technology hypes. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach. All-in-all, it is about restoring the role of science and scientists in the current debates.</description>
   </item>
 
   <item>
@@ -131,15 +139,7 @@
     <link>http://arxiv.org/pdf/2201.12450</link>
     <author>Noah Shutty, Christopher Chamberland</author>
     <pubDate>Feb 01 2022</pubDate>
-    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how SMT solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
-  </item>
-
-  <item>
-    <title>Mitigating the quantum hype</title>
-    <link>http://arxiv.org/pdf/2202.01925</link>
-    <author>Olivier Ezratty</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It can cut short research and innovation funding in the mid to long term. After looking at the shape and form of technology and science hypes and driving some lessons from past technology hypes, we investigate the current quantum hype phenomenon and identify some of its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively solid compared to other technology hypes. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach. All-in-all, it is about restoring the role of science and scientists in the current debates.</description>
+    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how satisfiability modulo theories (SMT) solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
   </item>
 
   <item>
@@ -159,14 +159,6 @@
   </item>
 
   <item>
-    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
-    <link>http://arxiv.org/pdf/2201.13450</link>
-    <author>Lior Eldar, Sean Hallgren</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
-  </item>
-
-  <item>
     <title>Simultaneous Measurement and Entanglement</title>
     <link>http://arxiv.org/pdf/2201.10667</link>
     <author>Andrey Boris Khesin, Peter Shor</author>
@@ -180,6 +172,14 @@
     <author>Megan L. Dahlhauser, Travis S. Humble</author>
     <pubDate>Jan 10 2022</pubDate>
     <description>Effective methods for characterizing the noise in quantum computing devices are essential for programming and debugging circuit performance. Existing approaches vary in the information obtained as well as the amount of quantum and classical resources required, with more information generally requiring more resources. Here we benchmark the characterization methods of gate set tomography, Pauli channel noise reconstruction, and empirical direct characterization for developing models that describe noisy quantum circuit performance on a 27-qubit superconducting transmon device. We evaluate these models by comparing the accuracy of noisy circuit simulations with the corresponding experimental observations. We find that the agreement of noise model to experiment does not correlate with the information gained by characterization and that the underlying circuit strongly influences the best choice of characterization approach. Empirical direct characterization scales best of the methods we tested and produced the most accurate characterizations across our benchmarks.</description>
+  </item>
+
+  <item>
+    <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
+    <link>http://arxiv.org/pdf/2201.13450</link>
+    <author>Lior Eldar, Sean Hallgren</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>We give a quantum algorithm for solving the Bounded Distance Decoding (BDD) problem with a subexponential approximation factor on a class of integer lattices. The quantum algorithm uses a well-known but challenging-to-use quantum state on lattices as a type of approximate quantum eigenvector to randomly self-reduce the BDD instance to a random BDD instance which is solvable classically. The running time of the quantum algorithm is polynomial for one range of approximation factors and subexponential time for a second range of approximation factors. The subclass of lattices we study has a natural description in terms of the lattice's periodicity and finite abelian group rank. This view makes for a clean quantum algorithm in terms of finite abelian groups, uses very relatively little from lattice theory, and suggests exploring approximation algorithms for lattice problems in parameters other than dimension alone. A talk on this paper sparked many lively discussions and resulted in a new classical algorithm matching part of our result. We leave it as a challenge to give a classcial algorithm matching the general case.</description>
   </item>
 
   <item>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
-    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2201.05215</link>
-    <author>Dmitri Maslov, Ben Zindorf</author>
-    <pubDate>Jan 17 2022</pubDate>
-    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
-  </item>
-
-  <item>
     <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
     <link>http://arxiv.org/pdf/2202.01861</link>
     <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
     <pubDate>Feb 07 2022</pubDate>
     <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
+  </item>
+
+  <item>
+    <title>Depth optimization of CZ, CNOT, and Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2201.05215</link>
+    <author>Dmitri Maslov, Ben Zindorf</author>
+    <pubDate>Jan 17 2022</pubDate>
+    <description>We seek to develop better upper bound guarantees on the depth of quantum CZ gate, CNOT gate, and Clifford circuits than those reported previously. We focus on the number of qubits $n\,{\leq}\,$1,345,000 [1], which represents the most practical use case. Our upper bound on the depth of CZ circuits is $\lfloor n/2 + 0.4993{\cdot}\log^2(n) + 3.0191{\cdot}\log(n) - 10.9139\rfloor$, improving best known depth by a factor of roughly 2. We extend the constructions used to prove this upper bound to obtain depth upper bound of $\lfloor n + 1.9496{\cdot}\log^2(n) + 3.5075{\cdot}\log(n) - 23.4269 \rfloor$ for CNOT gate circuits, offering an improvement by a factor of roughly $4/3$ over state of the art, and depth upper bound of $\lfloor 2n + 2.9487{\cdot}\log^2(n) + 8.4909{\cdot}\log(n) - 44.4798\rfloor$ for Clifford circuits, offering an improvement by a factor of roughly $5/3$.</description>
   </item>
 
 </channel>
