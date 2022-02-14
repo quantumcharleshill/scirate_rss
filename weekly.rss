@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
-    <link>http://arxiv.org/pdf/2202.02138</link>
-    <author>Glen Evenbly</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>We present an overview of the key ideas and skills necessary to begin implementing tensor network methods numerically, which is intended to facilitate the practical application of tensor network methods for researchers that are already versed with their theoretical foundations. These skills include an introduction to the contraction of tensor networks, to optimal tensor decompositions, and to the manipulation of gauge degrees of freedom in tensor networks. The topics presented are of key importance to many common tensor network algorithms such as DMRG, TEBD, TRG, PEPS and MERA.</description>
-  </item>
-
-  <item>
-    <title>Mitigating the quantum hype</title>
-    <link>http://arxiv.org/pdf/2202.01925</link>
-    <author>Olivier Ezratty</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It could cut short research and innovation funding, creating some sort of quantum winter. After looking at the shape and form of technology and science hypes and driving some lessons from past hypes, we investigate the current quantum hype and its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively sane and solid compared to other technology hypes. The vendors hype has some profound and disruptive impact on the organization of fundamental research. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach.</description>
-  </item>
-
-  <item>
     <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
     <link>http://arxiv.org/pdf/2202.04047</link>
     <author>Muhammad Imran, Gabor Ivanyos</author>
@@ -47,27 +31,11 @@
   </item>
 
   <item>
-    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
-    <link>http://arxiv.org/pdf/2202.01861</link>
-    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
-  </item>
-
-  <item>
     <title>Transitions in Entanglement Complexity in Random Circuits</title>
     <link>http://arxiv.org/pdf/2202.02648</link>
     <author>Sarah True, Alioscia Hamma</author>
     <pubDate>Feb 08 2022</pubDate>
     <description>Entanglement is the defining characteristic of quantum mechanics. Bipartite entanglement is characterized by the von Neumann entropy. Entanglement is not just described by a number, however; it is also characterized by its level of complexity. The complexity of entanglement is at the root of the onset of quantum chaos, universal distribution of entanglement spectrum statistics, difficulty of the disentangling algorithm, and temporal entanglement fluctuations. In this paper, we numerically show how a crossover from a simple pattern of entanglement to a universal, complex pattern can be driven by doping a random Clifford circuit with $T$ gates. This work shows that quantum complexity and complex entanglement stem from the conjunction of entanglement and non-stabilizer resources, also known as magic.</description>
-  </item>
-
-  <item>
-    <title>Singleton bounds for entanglement-assisted classical and quantum error correcting codes</title>
-    <link>http://arxiv.org/pdf/2202.02184</link>
-    <author>Manideep Mamindlapally, Andreas Winter</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>We show that entirely information theoretic methods, based on von Neumann entropies and their properties, can be used to derive Singleton bounds on the performance of entanglement-assisted hybrid classical-quantum (EACQ) error correcting codes. Concretely we show that the triple-rate region of qubits, cbits and ebits of possible EACQ codes over arbitrary alphabet sizes is contained in the quantum Shannon theoretic rate region of an associated memoryless erasure channel, which turns out to be a polytope. We show that a large part of this region is attainable by certain EACQ codes, whenever the local alphabet size (i.e. Hilbert space dimension) is large enough, in keeping with known facts about classical and quantum minimum distance separable (MDS) codes: in particular all of its extreme points and several important extremal lines.</description>
   </item>
 
   <item>
@@ -84,6 +52,38 @@
     <author>Ken N. Okada, Keita Osaki, Kosuke Mitarai, Keisuke Fujii</author>
     <pubDate>Feb 08 2022</pubDate>
     <description>Variational quantum eigensolver (VQE) is regarded as a promising candidate of hybrid quantum-classical algorithm for the near-term quantum computers. Meanwhile, VQE is confronted with a challenge that statistical error associated with the measurement as well as systematic error could significantly hamper the optimization. To circumvent this issue, we propose classically-optimized VQE (co-VQE), where the whole process of the optimization is efficiently conducted on a classical computer. The efficacy of the method is guaranteed by the observation that quantum circuits with a constant (or logarithmic) depth are classically tractable via simulations of local subsystems. In co-VQE, we only use quantum computers to measure nonlocal quantities after the parameters are optimized. As proof-of-concepts, we present numerical experiments on quantum spin models with topological phases. After the optimization, we identify the topological phases by nonlocal order parameters as well as unsupervised machine learning on inner products between quantum states. The proposed method maximizes the advantage of using quantum computers while avoiding strenuous optimization on noisy quantum devices. Furthermore, in terms of quantum machine learning, our study shows an intriguing approach that employs quantum computers to generate data of quantum systems while using classical computers for the learning process.</description>
+  </item>
+
+  <item>
+    <title>Entanglement catalysis for quantum states and noisy channels</title>
+    <link>http://arxiv.org/pdf/2202.05228</link>
+    <author>Chandan Datta, Tulja Varun Kondra, Marek Miller, Alexander Streltsov</author>
+    <pubDate>Feb 11 2022</pubDate>
+    <description>Many applications of the emerging quantum technologies, such as quantum teleportation and quantum key distribution, require singlets, maximally entangled states of two quantum bits. It is thus of utmost importance to develop optimal procedures for establishing singlets between remote parties. As has been shown very recently, singlets can be obtained from other quantum states by using a quantum catalyst, an entangled quantum system which is not changed in the procedure. In this work we put this idea further, investigating properties of entanglement catalysis and its role for quantum communication. For transformations between bipartite pure states we prove the existence of a universal catalyst, which can enable all possible transformations in this setup. We demonstrate the advantage of catalysis in asymptotic settings, going beyond the typical assumption of independent and identically distributed systems. We further develop methods to estimate the number of singlets which can be established via a noisy quantum channel when assisted by entangled catalysts. For various types of quantum channels our results lead to optimal protocols, allowing to establish the maximal number of singlets with a single use of the channel.</description>
+  </item>
+
+  <item>
+    <title>Universal logic with encoded spin qubits in silicon</title>
+    <link>http://arxiv.org/pdf/2202.03605</link>
+    <author>Aaron J. Weinstein, Matthew D. Reed, Aaron M. Jones, Reed W. Andrews, David Barnes, Jacob Z. Blumoff, Larken E. Euliss, Kevin Eng, Bryan Fong, Sieu D. Ha, Daniel R. Hulbert, Clayton Jackson, Michael Jura, Tyler E. Keating, Joseph Kerckhoff, Andrey A. Kiselev, Justine Matten, Golam Sabbir, Aaron Smith, Jeffrey Wright, et al (3)</author>
+    <pubDate>Feb 09 2022</pubDate>
+    <description>Qubits encoded in a decoherence-free subsystem and realized in exchange-coupled silicon quantum dots are promising candidates for fault-tolerant quantum computing. Benefits of this approach include excellent coherence, low control crosstalk, and configurable insensitivity to certain error sources. Key difficulties are that encoded entangling gates require a large number of control pulses and high-yielding quantum dot arrays. Here we show a device made using the single-layer etch-defined gate electrode architecture that achieves both the required functional yield needed for full control and the coherence necessary for thousands of calibrated exchange pulses to be applied. We measure an average two-qubit Clifford fidelity of $97.1 \pm 0.2\%$ with randomized benchmarking. We also use interleaved randomized benchmarking to demonstrate the controlled-NOT gate with $96.3 \pm 0.7\%$ fidelity, SWAP with $99.3 \pm 0.5\%$ fidelity, and a specialized entangling gate that limits spreading of leakage with $93.8 \pm 0.7\%$ fidelity.</description>
+  </item>
+
+  <item>
+    <title>Quantifying information scrambling via Classical Shadow Tomography on Programmable Quantum Simulators</title>
+    <link>http://arxiv.org/pdf/2202.05132</link>
+    <author>Max McGinley, Sebastian Leontica, Samuel J. Garratt, Jovan Jovanovic, Steven H. Simon</author>
+    <pubDate>Feb 11 2022</pubDate>
+    <description>We develop techniques to probe the dynamics of quantum information, and implement them experimentally on an IBM superconducting quantum processor. Our protocols adapt shadow tomography for the study of time evolution channels rather than of quantum states, and rely only on single-qubit operations and measurements. We identify two unambiguous signatures of quantum information scrambling, neither of which can be mimicked by dissipative processes, and relate these to many-body teleportation. By realizing quantum chaotic dynamics in experiment, we measure both signatures, and support our results with numerical simulations of the quantum system. We additionally investigate operator growth under this dynamics, and observe behaviour characteristic of quantum chaos. As our methods require only a single quantum state at a time, they can be readily applied on a wide variety of quantum simulators.</description>
+  </item>
+
+  <item>
+    <title>Deconfinement and Error Thresholds in Holography</title>
+    <link>http://arxiv.org/pdf/2202.04710</link>
+    <author>Ning Bao, Charles Cao, Guanyu Zhu</author>
+    <pubDate>Feb 11 2022</pubDate>
+    <description>We study the error threshold properties of holographic quantum error-correcting codes. We demonstrate that holographic CFTs admit an algebraic threshold, which is related to the confinement-deconfinement phase transition. We then apply geometric intuition from holography and the Hawking-Page phase transition to motivate the CFT result, and comment on potential extensions to other confining theories.</description>
   </item>
 
 </channel>
