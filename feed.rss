@@ -95,14 +95,6 @@
   </item>
 
   <item>
-    <title>Avoiding barren plateaus using classical shadows</title>
-    <link>http://arxiv.org/pdf/2201.08194</link>
-    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
-  </item>
-
-  <item>
     <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
     <link>http://arxiv.org/pdf/2201.05678</link>
     <author>Christopher Chamberland, Earl T. Campbell</author>
@@ -111,11 +103,27 @@
   </item>
 
   <item>
+    <title>Avoiding barren plateaus using classical shadows</title>
+    <link>http://arxiv.org/pdf/2201.08194</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
+  </item>
+
+  <item>
     <title>Quantum machine learning with subspace states</title>
     <link>http://arxiv.org/pdf/2202.00054</link>
     <author>Iordanis Kerenidis, Anupam Prakash</author>
     <pubDate>Feb 02 2022</pubDate>
     <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
+  </item>
+
+  <item>
+    <title>Non-Pauli Errors in the Three-Dimensional Surface Code</title>
+    <link>http://arxiv.org/pdf/2202.05746</link>
+    <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>A powerful feature of stabiliser error correcting codes is the fact that stabiliser measurement projects arbitrary errors to Pauli errors, greatly simplifying the physical error correction process as well as classical simulations of code performance. However, logical non-Clifford operations can map Pauli errors to non-Pauli (Clifford) errors, and while subsequent stabiliser measurements will project the Clifford errors back to Pauli errors the resulting distributions will possess additional correlations that depend on both the nature of the logical operation and the structure of the code. Previous work has studied these effects when applying a transversal $T$ gate to the three-dimensional colour code and shown the existence of a non-local "linking charge" phenomenon between membranes of intersecting errors. In this work we generalise these results to the case of a $CCZ$ gate in the three-dimensional surface code and find that many aspects of the problem are much more easily understood in this setting. In particular, the emergence of linking charge is a local effect rather than a non-local one. We use the relative simplicity of Clifford errors in this setting to simulate their effect on the performance of a single-shot magic state preparation process (the first such simulation to account for the full effect of these errors) and find that while they lead to an increase in the logical error rate their effect on the threshold is minimal.</description>
   </item>
 
   <item>
@@ -135,14 +143,6 @@
   </item>
 
   <item>
-    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
-    <link>http://arxiv.org/pdf/2201.06533</link>
-    <author>Tyler Helmuth, Ryan L. Mann</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
-  </item>
-
-  <item>
     <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
     <link>http://arxiv.org/pdf/2201.13450</link>
     <author>Lior Eldar, Sean Hallgren</author>
@@ -151,11 +151,11 @@
   </item>
 
   <item>
-    <title>Simultaneous Measurement and Entanglement</title>
-    <link>http://arxiv.org/pdf/2201.10667</link>
-    <author>Andrey Boris Khesin, Peter Shor</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
+    <title>Efficient Algorithms for Approximating Quantum Partition Functions at Low Temperature</title>
+    <link>http://arxiv.org/pdf/2201.06533</link>
+    <author>Tyler Helmuth, Ryan L. Mann</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>We establish an efficient approximation algorithm for the partition functions of a class of quantum spin systems at low temperature, which can be viewed as stable quantum perturbations of classical spin systems. Our algorithm is based on combining the contour representation of quantum spin systems of this type due to Borgs, Kotecký, and Ueltschi with the algorithmic framework developed by Helmuth, Perkins, and Regts, and Borgs et al.</description>
   </item>
 
   <item>
@@ -164,6 +164,14 @@
     <author>Muhammad Imran, Gabor Ivanyos</author>
     <pubDate>Feb 09 2022</pubDate>
     <description>We present a polynomial time exact quantum algorithm for the hidden subgroup problem in $Z_{m^k}^n$. The algorithm uses the quantum Fourier transform modulo m and does not require factorization of m. For smooth m, i.e., when the prime factors of m are of size poly(log m), the quantum Fourier transform can be exactly computed using the method discovered independently by Cleve and Coppersmith, while for general m, the algorithm of Mosca and Zalka is available. Even for m=3 and k=1 our result appears to be new. We also present applications to compute the structure of abelian and solvable groups whose order has the same (but possibly unknown) prime factors as m. The applications for solvable groups also rely on an exact version of a technique proposed by Watrous for computing the uniform superposition of elements of subgroups.</description>
+  </item>
+
+  <item>
+    <title>Simultaneous Measurement and Entanglement</title>
+    <link>http://arxiv.org/pdf/2201.10667</link>
+    <author>Andrey Boris Khesin, Peter Shor</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
   </item>
 
   <item>
@@ -231,19 +239,11 @@
   </item>
 
   <item>
-    <title>Transitions in Entanglement Complexity in Random Circuits</title>
-    <link>http://arxiv.org/pdf/2202.02648</link>
-    <author>Sarah True, Alioscia Hamma</author>
+    <title>Classical shadows with Pauli-invariant unitary ensembles</title>
+    <link>http://arxiv.org/pdf/2202.03272</link>
+    <author>Kaifeng Bu, Dax Enshan Koh, Roy J. Garcia, Arthur Jaffe</author>
     <pubDate>Feb 08 2022</pubDate>
-    <description>Entanglement is the defining characteristic of quantum mechanics. Bipartite entanglement is characterized by the von Neumann entropy. Entanglement is not just described by a number, however; it is also characterized by its level of complexity. The complexity of entanglement is at the root of the onset of quantum chaos, universal distribution of entanglement spectrum statistics, difficulty of the disentangling algorithm, and temporal entanglement fluctuations. In this paper, we numerically show how a crossover from a simple pattern of entanglement to a universal, complex pattern can be driven by doping a random Clifford circuit with $T$ gates. This work shows that quantum complexity and complex entanglement stem from the conjunction of entanglement and non-stabilizer resources, also known as magic.</description>
-  </item>
-
-  <item>
-    <title>Multicore Quantum Computing</title>
-    <link>http://arxiv.org/pdf/2201.08861</link>
-    <author>Hamza Jnane, Brennan Undseth, Zhenyu Cai, Simon C Benjamin, Bálint Koczor</author>
-    <pubDate>Jan 25 2022</pubDate>
-    <description>Any architecture for practical quantum computing must be scalable. An attractive approach is to create multiple cores, computing regions of fixed size that are well-spaced but interlinked with communication channels. This exploded architecture can relax the demands associated with a single monolithic device: the complexity of control, cooling and power infrastructure as well as the difficulties of cross-talk suppression and near-perfect component yield. Here we explore interlinked multicore architectures through analytic and numerical modelling. While elements of our analysis are relevant to diverse platforms, our focus is on semiconductor electron spin systems in which numerous cores may exist on a single chip. We model shuttling and microwave-based interlinks and estimate the achievable fidelities, finding values that are encouraging but markedly inferior to intra-core operations. We therefore introduce optimsed entanglement purification to enable high-fidelity communication, finding that $99.5\%$ is a very realistic goal. We then assess the prospects for quantum advantage using such devices in the NISQ-era and beyond: we simulate recently proposed exponentially-powerful error mitigation schemes in the multicore environment and conclude that these techniques impressively suppress imperfections in both the inter- and intra-core operations.</description>
+    <description>The classical shadow estimation protocol is a noise-resilient and sample-efficient quantum algorithm for learning the properties of quantum systems. Its performance depends on the choice of a unitary ensemble, which must be chosen by a user in advance. What is the weakest assumption that can be made on the chosen unitary ensemble that would still yield meaningful and interesting results? To address this question, we consider the class of Pauli-invariant unitary ensembles, i.e. unitary ensembles that are invariant under multiplication by a Pauli operator. This class includes many previously studied ensembles like the local and global Clifford ensembles as well as locally scrambled unitary ensembles. For this class of ensembles, we provide an explicit formula for the reconstruction map corresponding to the shadow channel and give explicit sample complexity bounds. In addition, we provide two applications of our results. Our first application is to locally scrambled unitary ensembles, where we give explicit formulas for the reconstruction map and sample complexity bounds that circumvent the need to solve an exponential-sized linear system. Our second application is to the classical shadow tomography of quantum channels with Pauli-invariant unitary ensembles. Our results pave the way for more efficient or robust protocols for predicting important properties of quantum states, such as their fidelity, entanglement entropy, and quantum Fisher information.</description>
   </item>
 
 </channel>

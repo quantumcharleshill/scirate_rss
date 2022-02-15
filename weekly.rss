@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Non-Pauli Errors in the Three-Dimensional Surface Code</title>
+    <link>http://arxiv.org/pdf/2202.05746</link>
+    <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>A powerful feature of stabiliser error correcting codes is the fact that stabiliser measurement projects arbitrary errors to Pauli errors, greatly simplifying the physical error correction process as well as classical simulations of code performance. However, logical non-Clifford operations can map Pauli errors to non-Pauli (Clifford) errors, and while subsequent stabiliser measurements will project the Clifford errors back to Pauli errors the resulting distributions will possess additional correlations that depend on both the nature of the logical operation and the structure of the code. Previous work has studied these effects when applying a transversal $T$ gate to the three-dimensional colour code and shown the existence of a non-local "linking charge" phenomenon between membranes of intersecting errors. In this work we generalise these results to the case of a $CCZ$ gate in the three-dimensional surface code and find that many aspects of the problem are much more easily understood in this setting. In particular, the emergence of linking charge is a local effect rather than a non-local one. We use the relative simplicity of Clifford errors in this setting to simulate their effect on the performance of a single-shot magic state preparation process (the first such simulation to account for the full effect of these errors) and find that while they lead to an increase in the logical error rate their effect on the threshold is minimal.</description>
+  </item>
+
+  <item>
     <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
     <link>http://arxiv.org/pdf/2202.04047</link>
     <author>Muhammad Imran, Gabor Ivanyos</author>
@@ -31,27 +39,27 @@
   </item>
 
   <item>
-    <title>Transitions in Entanglement Complexity in Random Circuits</title>
-    <link>http://arxiv.org/pdf/2202.02648</link>
-    <author>Sarah True, Alioscia Hamma</author>
-    <pubDate>Feb 08 2022</pubDate>
-    <description>Entanglement is the defining characteristic of quantum mechanics. Bipartite entanglement is characterized by the von Neumann entropy. Entanglement is not just described by a number, however; it is also characterized by its level of complexity. The complexity of entanglement is at the root of the onset of quantum chaos, universal distribution of entanglement spectrum statistics, difficulty of the disentangling algorithm, and temporal entanglement fluctuations. In this paper, we numerically show how a crossover from a simple pattern of entanglement to a universal, complex pattern can be driven by doping a random Clifford circuit with $T$ gates. This work shows that quantum complexity and complex entanglement stem from the conjunction of entanglement and non-stabilizer resources, also known as magic.</description>
+    <title>Three-dimensional quantum cellular automata from chiral semion surface topological order and beyond</title>
+    <link>http://arxiv.org/pdf/2202.05442</link>
+    <author>Wilbur Shirley, Yu-An Chen, Arpit Dua, Tyler D. Ellison, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>We construct a novel three-dimensional quantum cellular automaton (QCA) based on a system with short-range entangled bulk and chiral semion boundary topological order. We argue that either the QCA is nontrivial, i.e. not a finite-depth circuit of local quantum gates, or there exists a two-dimensional commuting projector Hamiltonian realizing the chiral semion topological order (characterized by $U(1)_2$ Chern-Simons theory). Our QCA is obtained by first constructing the Walker-Wang Hamiltonian of a certain premodular tensor category of order four, then condensing the deconfined bulk boson at the level of lattice operators. We show that the resulting Hamiltonian hosts chiral semion surface topological order in the presence of a boundary and can be realized as a non-Pauli stabilizer code on qubits, from which the QCA is defined. The construction is then generalized to a class of QCAs defined by non-Pauli stabilizer codes on ${2^n}$-dimensional qudits that feature surface anyons described by $U(1)_{2^n}$ Chern-Simons theory. Our results support the conjecture that the group of nontrivial three-dimensional QCAs is isomorphic to the Witt group of non-degenerate braided fusion categories.</description>
   </item>
 
   <item>
-    <title>Classical shadows with Pauli-invariant unitary ensembles</title>
-    <link>http://arxiv.org/pdf/2202.03272</link>
-    <author>Kaifeng Bu, Dax Enshan Koh, Roy J. Garcia, Arthur Jaffe</author>
-    <pubDate>Feb 08 2022</pubDate>
-    <description>The classical shadow estimation protocol is a noise-resilient and sample-efficient quantum algorithm for learning the properties of quantum systems. Its performance depends on the choice of a unitary ensemble, which must be chosen by a user in advance. What is the weakest assumption that can be made on the chosen unitary ensemble that would still yield meaningful and interesting results? To address this question, we consider the class of Pauli-invariant unitary ensembles, i.e. unitary ensembles that are invariant under multiplication by a Pauli operator. This class includes many previously studied ensembles like the local and global Clifford ensembles as well as locally scrambled unitary ensembles. For this class of ensembles, we provide an explicit formula for the reconstruction map corresponding to the shadow channel and give explicit sample complexity bounds. In addition, we provide two applications of our results. Our first application is to locally scrambled unitary ensembles, where we give explicit formulas for the reconstruction map and sample complexity bounds that circumvent the need to solve an exponential-sized linear system. Our second application is to the classical shadow tomography of quantum channels with Pauli-invariant unitary ensembles. Our results pave the way for more efficient or robust protocols for predicting important properties of quantum states, such as their fidelity, entanglement entropy, and quantum Fisher information.</description>
+    <title>Matrix concentration inequalities and efficiency of random universal sets of quantum gates</title>
+    <link>http://arxiv.org/pdf/2202.05371</link>
+    <author>Piotr Dulian, Adam Sawicki</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>For a random set $\mathcal{S}$ of quantum gates we provide bounds on the probability that $\mathcal{S}$ forms a $\delta$-approximate $t$-design. In particular we show how many random gates are needed to have a $\delta$-approximate $t$-design with high probability. We also analyze how $\delta$ concentrates around its expected value $\mathbb{E}\delta$ for random $\mathcal{S}$. Our results are valid for both symmetric and non-symmetric sets of gates.</description>
   </item>
 
   <item>
-    <title>Identification of topological phases using classically-optimized variational quantum eigensolver</title>
-    <link>http://arxiv.org/pdf/2202.02909</link>
-    <author>Ken N. Okada, Keita Osaki, Kosuke Mitarai, Keisuke Fujii</author>
-    <pubDate>Feb 08 2022</pubDate>
-    <description>Variational quantum eigensolver (VQE) is regarded as a promising candidate of hybrid quantum-classical algorithm for the near-term quantum computers. Meanwhile, VQE is confronted with a challenge that statistical error associated with the measurement as well as systematic error could significantly hamper the optimization. To circumvent this issue, we propose classically-optimized VQE (co-VQE), where the whole process of the optimization is efficiently conducted on a classical computer. The efficacy of the method is guaranteed by the observation that quantum circuits with a constant (or logarithmic) depth are classically tractable via simulations of local subsystems. In co-VQE, we only use quantum computers to measure nonlocal quantities after the parameters are optimized. As proof-of-concepts, we present numerical experiments on quantum spin models with topological phases. After the optimization, we identify the topological phases by nonlocal order parameters as well as unsupervised machine learning on inner products between quantum states. The proposed method maximizes the advantage of using quantum computers while avoiding strenuous optimization on noisy quantum devices. Furthermore, in terms of quantum machine learning, our study shows an intriguing approach that employs quantum computers to generate data of quantum systems while using classical computers for the learning process.</description>
+    <title>Neural-Network Decoders for Quantum Error Correction using Surface Codes:A Space Exploration of the Hardware Cost-Performance Trade-Offs</title>
+    <link>http://arxiv.org/pdf/2202.05741</link>
+    <author>Ramon Overwater, Masoud Babaie, Fabio Sebastiano</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>Quantum Error Correction (QEC) is required in quantum computers to mitigate the effect of errors on physical qubits. When adopting a QEC scheme based on surface codes, error decoding is the most computationally expensive task in the classical electronic back-end. Decoders employing neural networks (NN) are well-suited for this task but their hardware implementation has not been presented yet. This work presents a space exploration of fully-connected feed-forward NN decoders for small distance surface codes. The goal is to optimize the neural network for high decoding performance, while keeping a minimalistic hardware implementation. This is needed to meet the tight delay constraints of real-time surface code decoding. We demonstrate that hardware based NN-decoders can achieve high decoding performance comparable to other state-of-the-art decoding algorithms whilst being well below the tight delay requirements $(\approx 440\ \mathrm{ns})$ of current solid-state qubit technologies for both ASIC designs $(<30\ \mathrm{ns})$ and FPGA implementations $(<90\ \mathrm{ns})$. These results designates NN-decoders as fitting candidates for an integrated hardware implementation in future large-scale quantum computers.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Max McGinley, Sebastian Leontica, Samuel J. Garratt, Jovan Jovanovic, Steven H. Simon</author>
     <pubDate>Feb 11 2022</pubDate>
     <description>We develop techniques to probe the dynamics of quantum information, and implement them experimentally on an IBM superconducting quantum processor. Our protocols adapt shadow tomography for the study of time evolution channels rather than of quantum states, and rely only on single-qubit operations and measurements. We identify two unambiguous signatures of quantum information scrambling, neither of which can be mimicked by dissipative processes, and relate these to many-body teleportation. By realizing quantum chaotic dynamics in experiment, we measure both signatures, and support our results with numerical simulations of the quantum system. We additionally investigate operator growth under this dynamics, and observe behaviour characteristic of quantum chaos. As our methods require only a single quantum state at a time, they can be readily applied on a wide variety of quantum simulators.</description>
-  </item>
-
-  <item>
-    <title>Deconfinement and Error Thresholds in Holography</title>
-    <link>http://arxiv.org/pdf/2202.04710</link>
-    <author>Ning Bao, Charles Cao, Guanyu Zhu</author>
-    <pubDate>Feb 11 2022</pubDate>
-    <description>We study the error threshold properties of holographic quantum error-correcting codes. We demonstrate that holographic CFTs admit an algebraic threshold, which is related to the confinement-deconfinement phase transition. We then apply geometric intuition from holography and the Hawking-Page phase transition to motivate the CFT result, and comment on potential extensions to other confining theories.</description>
   </item>
 
 </channel>
