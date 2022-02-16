@@ -135,14 +135,6 @@
   </item>
 
   <item>
-    <title>Improved upper bounds on the stabilizer rank of magic states</title>
-    <link>http://arxiv.org/pdf/2106.07740</link>
-    <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
-    <pubDate>Jun 16 2021</pubDate>
-    <description>In this work we improve the runtime of recent classical algorithms for strong simulation of quantum circuits composed of Clifford and T gates. The improvement is obtained by establishing a new upper bound on the stabilizer rank of $m$ copies of the magic state $|T\rangle=\sqrt{2}^{-1}(|0\rangle+e^{i\pi/4}|1\rangle)$ in the limit of large $m$. In particular, we show that $|T\rangle^{\otimes m}$ can be exactly expressed as a superposition of at most $O(2^{\alpha m})$ stabilizer states, where $\alpha\leq 0.3963$, improving on the best previously known bound $\alpha \leq 0.463$. This furnishes, via known techniques, a classical algorithm which approximates output probabilities of an $n$-qubit Clifford + T circuit $U$ with $m$ uses of the T gate to within a given inverse polynomial relative error using a runtime $\mathrm{poly}(n,m)2^{\alpha m}$. We also provide improved upper bounds on the stabilizer rank of symmetric product states $|\psi\rangle^{\otimes m}$ more generally; as a consequence we obtain a strong simulation algorithm for circuits consisting of Clifford gates and $m$ instances of any (fixed) single-qubit $Z$-rotation gate with runtime $\text{poly}(n,m) 2^{m/2}$. We suggest a method to further improve the upper bounds by constructing linear codes with certain properties.</description>
-  </item>
-
-  <item>
     <title>Error mitigation for universal gates on encoded qubits</title>
     <link>http://arxiv.org/pdf/2103.04915</link>
     <author>Christophe Piveteau, David Sutter, Sergey Bravyi, Jay M. Gambetta, Kristan Temme</author>
@@ -156,6 +148,14 @@
     <author>Lin Lin</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
+    <title>Improved upper bounds on the stabilizer rank of magic states</title>
+    <link>http://arxiv.org/pdf/2106.07740</link>
+    <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
+    <pubDate>Jun 16 2021</pubDate>
+    <description>In this work we improve the runtime of recent classical algorithms for strong simulation of quantum circuits composed of Clifford and T gates. The improvement is obtained by establishing a new upper bound on the stabilizer rank of $m$ copies of the magic state $|T\rangle=\sqrt{2}^{-1}(|0\rangle+e^{i\pi/4}|1\rangle)$ in the limit of large $m$. In particular, we show that $|T\rangle^{\otimes m}$ can be exactly expressed as a superposition of at most $O(2^{\alpha m})$ stabilizer states, where $\alpha\leq 0.3963$, improving on the best previously known bound $\alpha \leq 0.463$. This furnishes, via known techniques, a classical algorithm which approximates output probabilities of an $n$-qubit Clifford + T circuit $U$ with $m$ uses of the T gate to within a given inverse polynomial relative error using a runtime $\mathrm{poly}(n,m)2^{\alpha m}$. We also provide improved upper bounds on the stabilizer rank of symmetric product states $|\psi\rangle^{\otimes m}$ more generally; as a consequence we obtain a strong simulation algorithm for circuits consisting of Clifford gates and $m$ instances of any (fixed) single-qubit $Z$-rotation gate with runtime $\text{poly}(n,m) 2^{m/2}$. We suggest a method to further improve the upper bounds by constructing linear codes with certain properties.</description>
   </item>
 
   <item>
@@ -231,14 +231,6 @@
   </item>
 
   <item>
-    <title>Classical algorithms for Forrelation</title>
-    <link>http://arxiv.org/pdf/2102.06963</link>
-    <author>Sergey Bravyi, David Gosset, Daniel Grier, Luke Schaeffer</author>
-    <pubDate>Feb 16 2021</pubDate>
-    <description>We study the forrelation problem: given a pair of $n$-bit Boolean functions $f$ and $g$, estimate the correlation between $f$ and the Fourier transform of $g$. This problem is known to provide the largest possible quantum speedup in terms of its query complexity and achieves the landmark oracle separation between the complexity class BQP and the Polynomial Hierarchy. Our first result is a classical algorithm for the forrelation problem which has runtime $O(n2^{n/2})$. This is a nearly quadratic improvement over the best previously known algorithm. Secondly, we show that quantum query algorithm that makes $t$ queries to an $n$-bit oracle can be simulated by classical query algorithm making only $O(2^{n(1-1/2t)})$ queries. This fixes a gap in the literature arising from a recently discovered critical error in a previous proof; it matches recently established lower bounds (up to $poly(n,t))$ factors) and thus characterizes the maximal separation in query complexity between quantum and classical algorithms. Finally, we introduce a graph-based forrelation problem where $n$ binary variables live at vertices of some fixed graph and the functions $f,g$ are products of terms describing interactions between nearest-neighbor variables. We show that the graph-based forrelation problem can be solved on a classical computer in time $O(n)$ for any bipartite graph, any planar graph, or, more generally, any graph which can be partitioned into two subgraphs of constant treewidth. The graph-based forrelation is simply related to the variational energy achieved by the Quantum Approximate Optimization Algorithm (QAOA) with two entangling layers and Ising-type cost functions. By exploiting the connection between QAOA and the graph-based forrelation we were able to simulate the recently proposed Recursive QAOA with two entangling layers and $225$ qubits on a laptop computer.</description>
-  </item>
-
-  <item>
     <title>Estimating gate-set properties from random sequences</title>
     <link>http://arxiv.org/pdf/2110.13178</link>
     <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
@@ -279,6 +271,14 @@
   </item>
 
   <item>
+    <title>A genuinely natural information measure</title>
+    <link>http://arxiv.org/pdf/2103.16662</link>
+    <author>Andreas Winter</author>
+    <pubDate>Apr 01 2021</pubDate>
+    <description>The theoretical measuring of information was famously initiated by Shannon in his mathematical theory of communication, in which he proposed a now widely used quantity, the entropy, measured in bits. Yet, in the same paper, Shannon also chose to measure the information in continuous systems in nats, which differ from bits by the use of the natural rather than the binary logarithm. We point out that there is nothing natural about the choice of logarithm basis, rather it is arbitrary. We remedy this problematic state of affairs by proposing a genuinely natural measure of information, which we dub gnats. We show that gnats have many advantages in information theory, and propose to adopt the underlying methodology throughout science, arts and everyday life.</description>
+  </item>
+
+  <item>
     <title>Lifting decoders for classical codes to decoders for quantum codes</title>
     <link>http://arxiv.org/pdf/2105.02370</link>
     <author>Armanda O. Quintavalle, Earl T. Campbell</author>
@@ -292,14 +292,6 @@
     <author>Craig Gidney</author>
     <pubDate>Mar 04 2021</pubDate>
     <description>This paper presents ``Stim", a fast simulator for quantum stabilizer circuits. The paper explains how Stim works and compares it to existing tools. With no foreknowledge, Stim can analyze a distance 100 surface code circuit (20 thousand qubits, 8 million gates, 1 million measurements) in 15 seconds and then begin sampling full circuit shots at a rate of 1 kHz. Stim uses a stabilizer tableau representation, similar to Aaronson and Gottesman's CHP simulator, but with three main improvements. First, Stim improves the asymptotic complexity of deterministic measurement from quadratic to linear by tracking the \em inverse of the circuit's stabilizer tableau. Second, Stim improves the constant factors of the algorithm by using a cache-friendly data layout and 256 bit wide SIMD instructions. Third, Stim only uses expensive stabilizer tableau simulation to create an initial reference sample. Further samples are collected in bulk by using that sample as a reference for batches of Pauli frames propagating through the circuit.</description>
-  </item>
-
-  <item>
-    <title>A genuinely natural information measure</title>
-    <link>http://arxiv.org/pdf/2103.16662</link>
-    <author>Andreas Winter</author>
-    <pubDate>Apr 01 2021</pubDate>
-    <description>The theoretical measuring of information was famously initiated by Shannon in his mathematical theory of communication, in which he proposed a now widely used quantity, the entropy, measured in bits. Yet, in the same paper, Shannon also chose to measure the information in continuous systems in nats, which differ from bits by the use of the natural rather than the binary logarithm. We point out that there is nothing natural about the choice of logarithm basis, rather it is arbitrary. We remedy this problematic state of affairs by proposing a genuinely natural measure of information, which we dub gnats. We show that gnats have many advantages in information theory, and propose to adopt the underlying methodology throughout science, arts and everyday life.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Shir Peleg, Amir Shpilka, Ben Lee Volk</author>
     <pubDate>Jun 08 2021</pubDate>
     <description>The stabilizer rank of a quantum state $\psi$ is the minimal $r$ such that $\left| \psi \right \rangle = \sum_{j=1}^r c_j \left|\varphi_j \right\rangle$ for $c_j \in \mathbb{C}$ and stabilizer states $\varphi_j$. The running time of several classical simulation methods for quantum circuits is determined by the stabilizer rank of the $n$-th tensor power of single-qubit magic states. We prove a lower bound of $\Omega(n)$ on the stabilizer rank of such states, improving a previous lower bound of $\Omega(\sqrt{n})$ of Bravyi, Smith and Smolin (arXiv:1506.01396). Further, we prove that for a sufficiently small constant $\delta$, the stabilizer rank of any state which is $\delta$-close to those states is $\Omega(\sqrt{n}/\log n)$. This is the first non-trivial lower bound for approximate stabilizer rank. Our techniques rely on the representation of stabilizer states as quadratic functions over affine subspaces of $\mathbb{F}_2^n$, and we use tools from analysis of boolean functions and complexity theory. The proof of the first result involves a careful analysis of directional derivatives of quadratic polynomials, whereas the proof of the second result uses Razborov-Smolensky low degree polynomial approximations and correlation bounds against the majority function.</description>
+  </item>
+
+  <item>
+    <title>Improved quantum error correction using soft information</title>
+    <link>http://arxiv.org/pdf/2107.13589</link>
+    <author>Christopher A. Pattison, Michael E. Beverland, Marcus P. da Silva, Nicolas Delfosse</author>
+    <pubDate>Jul 30 2021</pubDate>
+    <description>The typical model for measurement noise in quantum error correction is to randomly flip the binary measurement outcome. In experiments, measurements yield much richer information - e.g., continuous current values, discrete photon counts - which is then mapped into binary outcomes by discarding some of this information. In this work, we consider methods to incorporate all of this richer information, typically called soft information, into the decoding of quantum error correction codes, and in particular the surface code. We describe how to modify both the Minimum Weight Perfect Matching and Union-Find decoders to leverage soft information, and demonstrate these soft decoders outperform the standard (hard) decoders that can only access the binary measurement outcomes. Moreover, we observe that the soft decoder achieves a threshold 25\% higher than any hard decoder for phenomenological noise with Gaussian soft measurement outcomes. We also introduce a soft measurement error model with amplitude damping, in which measurement time leads to a trade-off between measurement resolution and additional disturbance of the qubits. Under this model we observe that the performance of the surface code is very sensitive to the choice of the measurement time - for a distance-19 surface code, a five-fold increase in measurement time can lead to a thousand-fold increase in logical error rate. Moreover, the measurement time that minimizes the physical error rate is distinct from the one that minimizes the logical performance, pointing to the benefits of jointly optimizing the physical and quantum error correction layers.</description>
   </item>
 
 </channel>

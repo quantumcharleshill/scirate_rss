@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Non-Pauli Errors in the Three-Dimensional Surface Code</title>
-    <link>http://arxiv.org/pdf/2202.05746</link>
-    <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>A powerful feature of stabiliser error correcting codes is the fact that stabiliser measurement projects arbitrary errors to Pauli errors, greatly simplifying the physical error correction process as well as classical simulations of code performance. However, logical non-Clifford operations can map Pauli errors to non-Pauli (Clifford) errors, and while subsequent stabiliser measurements will project the Clifford errors back to Pauli errors the resulting distributions will possess additional correlations that depend on both the nature of the logical operation and the structure of the code. Previous work has studied these effects when applying a transversal $T$ gate to the three-dimensional colour code and shown the existence of a non-local "linking charge" phenomenon between membranes of intersecting errors. In this work we generalise these results to the case of a $CCZ$ gate in the three-dimensional surface code and find that many aspects of the problem are much more easily understood in this setting. In particular, the emergence of linking charge is a local effect rather than a non-local one. We use the relative simplicity of Clifford errors in this setting to simulate their effect on the performance of a single-shot magic state preparation process (the first such simulation to account for the full effect of these errors) and find that while they lead to an increase in the logical error rate their effect on the threshold is minimal.</description>
+    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
+    <link>http://arxiv.org/pdf/2202.06647</link>
+    <author>Nikolas P. Breuckmann, Simon Burton</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
   </item>
 
   <item>
-    <title>Three-dimensional quantum cellular automata from chiral semion surface topological order and beyond</title>
-    <link>http://arxiv.org/pdf/2202.05442</link>
-    <author>Wilbur Shirley, Yu-An Chen, Arpit Dua, Tyler D. Ellison, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>We construct a novel three-dimensional quantum cellular automaton (QCA) based on a system with short-range entangled bulk and chiral semion boundary topological order. We argue that either the QCA is nontrivial, i.e. not a finite-depth circuit of local quantum gates, or there exists a two-dimensional commuting projector Hamiltonian realizing the chiral semion topological order (characterized by $U(1)_2$ Chern-Simons theory). Our QCA is obtained by first constructing the Walker-Wang Hamiltonian of a certain premodular tensor category of order four, then condensing the deconfined bulk boson at the level of lattice operators. We show that the resulting Hamiltonian hosts chiral semion surface topological order in the presence of a boundary and can be realized as a non-Pauli stabilizer code on qubits, from which the QCA is defined. The construction is then generalized to a class of QCAs defined by non-Pauli stabilizer codes on ${2^n}$-dimensional qudits that feature surface anyons described by $U(1)_{2^n}$ Chern-Simons theory. Our results support the conjecture that the group of nontrivial three-dimensional QCAs is isomorphic to the Witt group of non-degenerate braided fusion categories.</description>
+    <title>Comparison of 2D topological codes and their decoding performances</title>
+    <link>http://arxiv.org/pdf/2202.06612</link>
+    <author>Kao-Yueh Kuo, Ching-Yi Lai</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>Topological quantum codes are favored because they allow qubit layouts that are suitable for practical implementation. An $N$-qubit topological code can be decoded by minimum-weight perfect matching (MWPM) with complexity $O(\text{poly}(N))$ if it is of CSS-type. Recently it is shown that various quantum codes, including non-CSS codes, can be decoded by an adapted belief propagation with memory effects (denoted MBP) with complexity almost linear in $N$. In this paper, we show that various two-dimensional topological codes, CSS or non-CSS, regardless of the layout, can be decoded by MBP, including color codes and twisted XZZX codes. We will comprehensively compare these codes in terms of code efficiency and decoding performance, assuming perfect error syndromes.</description>
   </item>
 
   <item>
-    <title>Matrix concentration inequalities and efficiency of random universal sets of quantum gates</title>
-    <link>http://arxiv.org/pdf/2202.05371</link>
-    <author>Piotr Dulian, Adam Sawicki</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>For a random set $\mathcal{S}$ of quantum gates we provide bounds on the probability that $\mathcal{S}$ forms a $\delta$-approximate $t$-design. In particular we show how many random gates are needed to have a $\delta$-approximate $t$-design with high probability. We also analyze how $\delta$ concentrates around its expected value $\mathbb{E}\delta$ for random $\mathcal{S}$. Our results are valid for both symmetric and non-symmetric sets of gates.</description>
+    <title>An elegant proof of self-testing for multipartite Bell inequalities</title>
+    <link>http://arxiv.org/pdf/2202.06908</link>
+    <author>Ekta Panwar, Palash Pandya, Marcin Wieśniak</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>The predictions of quantum theory are incompatible with local-causal explanations. This phenomenon is called Bell non-locality and is witnessed by violation of Bell-inequalities. The maximal violation of certain Bell-inequalities can only be attained in an essentially unique manner. This feature is referred to as self-testing and constitutes the most accurate form of certification of quantum devices. While self-testing in bipartite Bell scenarios has been thoroughly studied, self-testing in the more complex multipartite Bell scenarios remains largely unexplored. This work presents a simple and broadly applicable self-testing argument for N-partite correlation Bell inequalities with two binary outcome observables per party. Our proof technique forms a generalization of the Mayer-Yao formulation and is not restricted to linear Bell-inequalities, unlike the usual sum of squares method. To showcase the versatility of our proof technique, we obtain self-testing statements for N party Mermin-Ardehali-Belinskii-Klyshko (MABK) and Werner-Wolf-Weinfurter-Żukowski-Brukner (WWWŻB) family of linear Bell inequalities, and Uffink's family of N party quadratic Bell-inequalities.</description>
   </item>
 
   <item>
-    <title>Neural-Network Decoders for Quantum Error Correction using Surface Codes:A Space Exploration of the Hardware Cost-Performance Trade-Offs</title>
-    <link>http://arxiv.org/pdf/2202.05741</link>
-    <author>Ramon Overwater, Masoud Babaie, Fabio Sebastiano</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>Quantum Error Correction (QEC) is required in quantum computers to mitigate the effect of errors on physical qubits. When adopting a QEC scheme based on surface codes, error decoding is the most computationally expensive task in the classical electronic back-end. Decoders employing neural networks (NN) are well-suited for this task but their hardware implementation has not been presented yet. This work presents a space exploration of fully-connected feed-forward NN decoders for small distance surface codes. The goal is to optimize the neural network for high decoding performance, while keeping a minimalistic hardware implementation. This is needed to meet the tight delay constraints of real-time surface code decoding. We demonstrate that hardware based NN-decoders can achieve high decoding performance comparable to other state-of-the-art decoding algorithms whilst being well below the tight delay requirements $(\approx 440\ \mathrm{ns})$ of current solid-state qubit technologies for both ASIC designs $(<30\ \mathrm{ns})$ and FPGA implementations $(<90\ \mathrm{ns})$. These results designates NN-decoders as fitting candidates for an integrated hardware implementation in future large-scale quantum computers.</description>
+    <title>Matrix quantum groups as matrix product operator representations of Lie groups</title>
+    <link>http://arxiv.org/pdf/2202.06937</link>
+    <author>Romain Couvreur, Laurens Lootens, Frank Verstraete</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>We demonstrate that the matrix quantum group $SL_q(2)$ gives rise to nontrivial matrix product operator representations of the Lie group $SL(2)$, providing an explicit characterization of the nontrivial global $SU(2)$ symmetry of the XXZ model with periodic boundary conditions. The matrix product operators are non-injective and their set is closed under multiplication. This allows to calculate the fusion tensors acting on the virtual or quantum degrees of freedom and to obtain the recoupling coefficients, which satisfy a type of pentagon relation. We argue that the combination of this data with the well known $q$-deformed Clebsch-Gordan coefficients and 6j-symbols is consistent with a description of this quantum group in terms of bimodule categories.</description>
   </item>
 
   <item>
-    <title>Engineered Dissipation for Quantum Information Science</title>
-    <link>http://arxiv.org/pdf/2202.05280</link>
-    <author>Patrick M. Harrington, Erich Mueller, Kater Murch</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>Quantum information processing relies on precise control of non-classical states in the presence of many uncontrolled environmental degrees of freedom -- requiring careful orchestration of how the relevant degrees of freedom interact with that environment. These interactions are often viewed as detrimental, as they dissipate energy and decohere quantum states. Nonetheless, when controlled, dissipation is an essential tool for manipulating quantum information: Dissipation engineering enables quantum measurement, quantum state preparation, and quantum state stabilization. The progress of quantum device technology, marked by improvements of characteristic coherence times and extensible architectures for quantum control, has coincided with the development of such dissipation engineering tools which interface quantum and classical degrees of freedom. This Review presents dissipation as a fundamental aspect of the measurement and control of quantum devices and highlights the role of dissipation engineering for quantum error correction and quantum simulation that enables quantum information processing on a practical scale.</description>
+    <title>Grid-based methods for chemistry modelling on a quantum computer</title>
+    <link>http://arxiv.org/pdf/2202.05864</link>
+    <author>Hans Hon Sang Chan, Richard Meister, Tyson Jones, David P. Tew, Simon C. Benjamin</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>We explore grid-based techniques for simulating multi-electron dynamics using a quantum computer, an approach sometimes called first quantized chemistry. Using a split-operator Fourier transform (SO-FT) method on exactly-emulated quantum computers with up to 36 qubits, we model the dynamics of 2D and 3D atoms with single and paired particles interacting via the Coulomb potential. The grid-based method enables direct visualisation of quantum dynamics, including the behaviour of bound states, electron ionization by an applied electric field, and electron-electron scattering. We exploit ancilla-qubit measurements for iterative phase estimation, state preparation and for implementing complex (absorbing) potentials. Ancilla-based methods for obtaining observables such as binding energies are found to be far more efficient and robust than direct sampling. We also introduce an augmented split-operator (ASO) method where the usual kinetic and potential operators are supplemented by a core-stabilisation operator that dramatically improves wavepacket propagation near a Coulomb singularity. Overall, the grid-based method scales well in terms of the quantum processor's size and execution time; we extrapolate the resource requirements for accurate modelling of classically-intractable systems from our numerical results, and we describe suitable quantum architectures. We conclude by noting that the approach should be successful in far broader settings, from high energy physics to financial portfolio modelling.</description>
   </item>
 
 </channel>

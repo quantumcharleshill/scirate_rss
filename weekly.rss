@@ -15,11 +15,11 @@
   </item>
 
   <item>
-    <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
-    <link>http://arxiv.org/pdf/2202.04047</link>
-    <author>Muhammad Imran, Gabor Ivanyos</author>
-    <pubDate>Feb 09 2022</pubDate>
-    <description>We present a polynomial time exact quantum algorithm for the hidden subgroup problem in $Z_{m^k}^n$. The algorithm uses the quantum Fourier transform modulo m and does not require factorization of m. For smooth m, i.e., when the prime factors of m are of size poly(log m), the quantum Fourier transform can be exactly computed using the method discovered independently by Cleve and Coppersmith, while for general m, the algorithm of Mosca and Zalka is available. Even for m=3 and k=1 our result appears to be new. We also present applications to compute the structure of abelian and solvable groups whose order has the same (but possibly unknown) prime factors as m. The applications for solvable groups also rely on an exact version of a technique proposed by Watrous for computing the uniform superposition of elements of subgroups.</description>
+    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
+    <link>http://arxiv.org/pdf/2202.06647</link>
+    <author>Nikolas P. Breuckmann, Simon Burton</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
   </item>
 
   <item>
@@ -63,6 +63,14 @@
   </item>
 
   <item>
+    <title>Comparison of 2D topological codes and their decoding performances</title>
+    <link>http://arxiv.org/pdf/2202.06612</link>
+    <author>Kao-Yueh Kuo, Ching-Yi Lai</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>Topological quantum codes are favored because they allow qubit layouts that are suitable for practical implementation. An $N$-qubit topological code can be decoded by minimum-weight perfect matching (MWPM) with complexity $O(\text{poly}(N))$ if it is of CSS-type. Recently it is shown that various quantum codes, including non-CSS codes, can be decoded by an adapted belief propagation with memory effects (denoted MBP) with complexity almost linear in $N$. In this paper, we show that various two-dimensional topological codes, CSS or non-CSS, regardless of the layout, can be decoded by MBP, including color codes and twisted XZZX codes. We will comprehensively compare these codes in terms of code efficiency and decoding performance, assuming perfect error syndromes.</description>
+  </item>
+
+  <item>
     <title>Entanglement catalysis for quantum states and noisy channels</title>
     <link>http://arxiv.org/pdf/2202.05228</link>
     <author>Chandan Datta, Tulja Varun Kondra, Marek Miller, Alexander Streltsov</author>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>Universal logic with encoded spin qubits in silicon</title>
-    <link>http://arxiv.org/pdf/2202.03605</link>
-    <author>Aaron J. Weinstein, Matthew D. Reed, Aaron M. Jones, Reed W. Andrews, David Barnes, Jacob Z. Blumoff, Larken E. Euliss, Kevin Eng, Bryan Fong, Sieu D. Ha, Daniel R. Hulbert, Clayton Jackson, Michael Jura, Tyler E. Keating, Joseph Kerckhoff, Andrey A. Kiselev, Justine Matten, Golam Sabbir, Aaron Smith, Jeffrey Wright, et al (3)</author>
-    <pubDate>Feb 09 2022</pubDate>
-    <description>Qubits encoded in a decoherence-free subsystem and realized in exchange-coupled silicon quantum dots are promising candidates for fault-tolerant quantum computing. Benefits of this approach include excellent coherence, low control crosstalk, and configurable insensitivity to certain error sources. Key difficulties are that encoded entangling gates require a large number of control pulses and high-yielding quantum dot arrays. Here we show a device made using the single-layer etch-defined gate electrode architecture that achieves both the required functional yield needed for full control and the coherence necessary for thousands of calibrated exchange pulses to be applied. We measure an average two-qubit Clifford fidelity of $97.1 \pm 0.2\%$ with randomized benchmarking. We also use interleaved randomized benchmarking to demonstrate the controlled-NOT gate with $96.3 \pm 0.7\%$ fidelity, SWAP with $99.3 \pm 0.5\%$ fidelity, and a specialized entangling gate that limits spreading of leakage with $93.8 \pm 0.7\%$ fidelity.</description>
-  </item>
-
-  <item>
-    <title>Quantifying information scrambling via Classical Shadow Tomography on Programmable Quantum Simulators</title>
-    <link>http://arxiv.org/pdf/2202.05132</link>
-    <author>Max McGinley, Sebastian Leontica, Samuel J. Garratt, Jovan Jovanovic, Steven H. Simon</author>
-    <pubDate>Feb 11 2022</pubDate>
-    <description>We develop techniques to probe the dynamics of quantum information, and implement them experimentally on an IBM superconducting quantum processor. Our protocols adapt shadow tomography for the study of time evolution channels rather than of quantum states, and rely only on single-qubit operations and measurements. We identify two unambiguous signatures of quantum information scrambling, neither of which can be mimicked by dissipative processes, and relate these to many-body teleportation. By realizing quantum chaotic dynamics in experiment, we measure both signatures, and support our results with numerical simulations of the quantum system. We additionally investigate operator growth under this dynamics, and observe behaviour characteristic of quantum chaos. As our methods require only a single quantum state at a time, they can be readily applied on a wide variety of quantum simulators.</description>
+    <title>An elegant proof of self-testing for multipartite Bell inequalities</title>
+    <link>http://arxiv.org/pdf/2202.06908</link>
+    <author>Ekta Panwar, Palash Pandya, Marcin Wieśniak</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>The predictions of quantum theory are incompatible with local-causal explanations. This phenomenon is called Bell non-locality and is witnessed by violation of Bell-inequalities. The maximal violation of certain Bell-inequalities can only be attained in an essentially unique manner. This feature is referred to as self-testing and constitutes the most accurate form of certification of quantum devices. While self-testing in bipartite Bell scenarios has been thoroughly studied, self-testing in the more complex multipartite Bell scenarios remains largely unexplored. This work presents a simple and broadly applicable self-testing argument for N-partite correlation Bell inequalities with two binary outcome observables per party. Our proof technique forms a generalization of the Mayer-Yao formulation and is not restricted to linear Bell-inequalities, unlike the usual sum of squares method. To showcase the versatility of our proof technique, we obtain self-testing statements for N party Mermin-Ardehali-Belinskii-Klyshko (MABK) and Werner-Wolf-Weinfurter-Żukowski-Brukner (WWWŻB) family of linear Bell inequalities, and Uffink's family of N party quadratic Bell-inequalities.</description>
   </item>
 
 </channel>
