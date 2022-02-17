@@ -15,27 +15,19 @@
   </item>
 
   <item>
+    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
+    <link>http://arxiv.org/pdf/2202.07060</link>
+    <author>Shenglong Xu, Brian Swingle</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+  </item>
+
+  <item>
     <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
     <link>http://arxiv.org/pdf/2202.06647</link>
     <author>Nikolas P. Breuckmann, Simon Burton</author>
     <pubDate>Feb 15 2022</pubDate>
     <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
-  </item>
-
-  <item>
-    <title>Counting unitaries of T-depth one</title>
-    <link>http://arxiv.org/pdf/2202.04163</link>
-    <author>Vadym Kliuchnikov</author>
-    <pubDate>Feb 10 2022</pubDate>
-    <description>We show that the number of T-depth one unitaries on $n$ qubits is $ \sum_{m=1}^{n}\tfrac{1}{m!}\prod_{k=0}^{m-1}(4^n/2^k - 2^k) \times \# \mathcal{C}_n, $ where $\#\mathcal{C}_n$ is the size of the $n$-qubit Clifford group, that is the number of unitaries of T-depth zero. The number of T-depth one unitaries on $n$ qubits grows as $2^{\Omega(n^2)} \cdot \# \mathcal{C}_n$.</description>
-  </item>
-
-  <item>
-    <title>Entanglement estimation in tensor network states via sampling</title>
-    <link>http://arxiv.org/pdf/2202.04089</link>
-    <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
-    <pubDate>Feb 10 2022</pubDate>
-    <description>We introduce a method for extracting meaningful entanglement measures of tensor network states in general dimensions. Current methods require the explicit reconstruction of the density matrix, which is highly demanding, or the contraction of replicas, which requires an effort exponential in the number of replicas and which is costly in terms of memory. In contrast, our method requires the stochastic sampling of matrix elements of the classically represented reduced states with respect to random states drawn from simple product probability measures constituting frames. Even though not corresponding to physical operations, such matrix elements are straightforward to calculate for tensor network states, and their moments provide the Rényi entropies and negativities as well as their symmetry-resolved components. We test our method on the one-dimensional critical XX chain and the two-dimensional toric code. Although the cost is exponential in the subsystem size, it is sufficiently moderate so that - in contrast with other approaches - accurate results can be obtained on a personal computer for relatively large subsystem sizes.</description>
   </item>
 
   <item>
@@ -55,6 +47,14 @@
   </item>
 
   <item>
+    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
+    <link>http://arxiv.org/pdf/2202.06976</link>
+    <author>Roeland Wiersema, Nathan Killoran</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
+  </item>
+
+  <item>
     <title>Neural-Network Decoders for Quantum Error Correction using Surface Codes:A Space Exploration of the Hardware Cost-Performance Trade-Offs</title>
     <link>http://arxiv.org/pdf/2202.05741</link>
     <author>Ramon Overwater, Masoud Babaie, Fabio Sebastiano</author>
@@ -63,11 +63,11 @@
   </item>
 
   <item>
-    <title>Comparison of 2D topological codes and their decoding performances</title>
-    <link>http://arxiv.org/pdf/2202.06612</link>
-    <author>Kao-Yueh Kuo, Ching-Yi Lai</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>Topological quantum codes are favored because they allow qubit layouts that are suitable for practical implementation. An $N$-qubit topological code can be decoded by minimum-weight perfect matching (MWPM) with complexity $O(\text{poly}(N))$ if it is of CSS-type. Recently it is shown that various quantum codes, including non-CSS codes, can be decoded by an adapted belief propagation with memory effects (denoted MBP) with complexity almost linear in $N$. In this paper, we show that various two-dimensional topological codes, CSS or non-CSS, regardless of the layout, can be decoded by MBP, including color codes and twisted XZZX codes. We will comprehensively compare these codes in terms of code efficiency and decoding performance, assuming perfect error syndromes.</description>
+    <title>State Preparation Boosters for Early Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2202.06978</link>
+    <author>Guoming Wang, Sukin Sim, Peter D. Johnson</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Quantum computing is believed to be particularly useful for the simulation of chemistry and materials, among the various applications. In recent years, there have been significant advancements in the development of near-term quantum algorithms for quantum simulation, including VQE and many of its variants. However, for such algorithms to be useful, they need to overcome several critical barriers including the inability to prepare high-quality approximations of the ground state. Current challenges to state preparation, including barren plateaus and the high-dimensionality of the optimization landscape, make state preparation through ansatz optimization unreliable. In this work, we introduce the method of ground state boosting, which uses a limited-depth quantum circuit to reliably increase the overlap with the ground state. This circuit, which we call a booster, can be used to augment an ansatz from VQE or be used as a stand-alone state preparation method. The booster converts circuit depth into ground state overlap in a controllable manner. We numerically demonstrate the capabilities of boosters by simulating the performance of a particular type of booster, namely the Gaussian booster, for preparing the ground state of $N_2$ molecular system. Beyond ground state preparation as a direct objective, many quantum algorithms, such as quantum phase estimation, rely on high-quality state preparation as a subroutine. Therefore, we foresee ground state boosting and similar methods as becoming essential algorithmic components as the field transitions into using early fault-tolerant quantum computers.</description>
   </item>
 
   <item>

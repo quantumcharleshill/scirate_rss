@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
-    <link>http://arxiv.org/pdf/2202.06647</link>
-    <author>Nikolas P. Breuckmann, Simon Burton</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
+    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
+    <link>http://arxiv.org/pdf/2202.07060</link>
+    <author>Shenglong Xu, Brian Swingle</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
   </item>
 
   <item>
-    <title>Comparison of 2D topological codes and their decoding performances</title>
-    <link>http://arxiv.org/pdf/2202.06612</link>
-    <author>Kao-Yueh Kuo, Ching-Yi Lai</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>Topological quantum codes are favored because they allow qubit layouts that are suitable for practical implementation. An $N$-qubit topological code can be decoded by minimum-weight perfect matching (MWPM) with complexity $O(\text{poly}(N))$ if it is of CSS-type. Recently it is shown that various quantum codes, including non-CSS codes, can be decoded by an adapted belief propagation with memory effects (denoted MBP) with complexity almost linear in $N$. In this paper, we show that various two-dimensional topological codes, CSS or non-CSS, regardless of the layout, can be decoded by MBP, including color codes and twisted XZZX codes. We will comprehensively compare these codes in terms of code efficiency and decoding performance, assuming perfect error syndromes.</description>
+    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
+    <link>http://arxiv.org/pdf/2202.06976</link>
+    <author>Roeland Wiersema, Nathan Killoran</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
   </item>
 
   <item>
-    <title>An elegant proof of self-testing for multipartite Bell inequalities</title>
-    <link>http://arxiv.org/pdf/2202.06908</link>
-    <author>Ekta Panwar, Palash Pandya, Marcin Wieśniak</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>The predictions of quantum theory are incompatible with local-causal explanations. This phenomenon is called Bell non-locality and is witnessed by violation of Bell-inequalities. The maximal violation of certain Bell-inequalities can only be attained in an essentially unique manner. This feature is referred to as self-testing and constitutes the most accurate form of certification of quantum devices. While self-testing in bipartite Bell scenarios has been thoroughly studied, self-testing in the more complex multipartite Bell scenarios remains largely unexplored. This work presents a simple and broadly applicable self-testing argument for N-partite correlation Bell inequalities with two binary outcome observables per party. Our proof technique forms a generalization of the Mayer-Yao formulation and is not restricted to linear Bell-inequalities, unlike the usual sum of squares method. To showcase the versatility of our proof technique, we obtain self-testing statements for N party Mermin-Ardehali-Belinskii-Klyshko (MABK) and Werner-Wolf-Weinfurter-Żukowski-Brukner (WWWŻB) family of linear Bell inequalities, and Uffink's family of N party quadratic Bell-inequalities.</description>
+    <title>State Preparation Boosters for Early Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2202.06978</link>
+    <author>Guoming Wang, Sukin Sim, Peter D. Johnson</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Quantum computing is believed to be particularly useful for the simulation of chemistry and materials, among the various applications. In recent years, there have been significant advancements in the development of near-term quantum algorithms for quantum simulation, including VQE and many of its variants. However, for such algorithms to be useful, they need to overcome several critical barriers including the inability to prepare high-quality approximations of the ground state. Current challenges to state preparation, including barren plateaus and the high-dimensionality of the optimization landscape, make state preparation through ansatz optimization unreliable. In this work, we introduce the method of ground state boosting, which uses a limited-depth quantum circuit to reliably increase the overlap with the ground state. This circuit, which we call a booster, can be used to augment an ansatz from VQE or be used as a stand-alone state preparation method. The booster converts circuit depth into ground state overlap in a controllable manner. We numerically demonstrate the capabilities of boosters by simulating the performance of a particular type of booster, namely the Gaussian booster, for preparing the ground state of $N_2$ molecular system. Beyond ground state preparation as a direct objective, many quantum algorithms, such as quantum phase estimation, rely on high-quality state preparation as a subroutine. Therefore, we foresee ground state boosting and similar methods as becoming essential algorithmic components as the field transitions into using early fault-tolerant quantum computers.</description>
   </item>
 
   <item>
-    <title>Matrix quantum groups as matrix product operator representations of Lie groups</title>
-    <link>http://arxiv.org/pdf/2202.06937</link>
-    <author>Romain Couvreur, Laurens Lootens, Frank Verstraete</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>We demonstrate that the matrix quantum group $SL_q(2)$ gives rise to nontrivial matrix product operator representations of the Lie group $SL(2)$, providing an explicit characterization of the nontrivial global $SU(2)$ symmetry of the XXZ model with periodic boundary conditions. The matrix product operators are non-injective and their set is closed under multiplication. This allows to calculate the fusion tensors acting on the virtual or quantum degrees of freedom and to obtain the recoupling coefficients, which satisfy a type of pentagon relation. We argue that the combination of this data with the well known $q$-deformed Clebsch-Gordan coefficients and 6j-symbols is consistent with a description of this quantum group in terms of bimodule categories.</description>
+    <title>Hardware-efficient entangled measurements for variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2202.06979</link>
+    <author>Francisco Escudero, David Fernández-Fernández, Gabriel Jaumà, Guillermo F. Peñas, Luciano Pereira</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Variational algorithms have received significant attention in recent years due to their potential to solve practical problems in noisy intermediate-scale quantum (NISQ) devices. A fundamental step of these algorithms is the evaluation of the expected value of Hamiltonians. Efficient schemes to perform this task are required to speed up these algorithm. The standard approach employs local measurements of Pauli operators, which requires a large number of circuits. An alternative is to make use of entangled measurements, which significantly reduce the number of circuits but involve entangling gates between non-physically connected qubits, introducing intermediate entangling operations that increase the depth of the circuits. As a solution to this problem we propose hardware-efficient entangled measurements (HEEM), that is, measurements that only permit entanglement between physically connected qubits. We show that this strategy enhances the evaluation of molecular Hamiltonians in NISQ devices because it reduces the number of circuits required without increasing their depth. We provide quantitative metrics of how this approach offers better results than only local measurements and arbitrarily entangled ones. We estimate with classical simulators and quantum hardware the ground state energy of the H$_2$O molecule by the variational quantum eigensolver using HEEM.</description>
   </item>
 
   <item>
-    <title>Grid-based methods for chemistry modelling on a quantum computer</title>
-    <link>http://arxiv.org/pdf/2202.05864</link>
-    <author>Hans Hon Sang Chan, Richard Meister, Tyson Jones, David P. Tew, Simon C. Benjamin</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>We explore grid-based techniques for simulating multi-electron dynamics using a quantum computer, an approach sometimes called first quantized chemistry. Using a split-operator Fourier transform (SO-FT) method on exactly-emulated quantum computers with up to 36 qubits, we model the dynamics of 2D and 3D atoms with single and paired particles interacting via the Coulomb potential. The grid-based method enables direct visualisation of quantum dynamics, including the behaviour of bound states, electron ionization by an applied electric field, and electron-electron scattering. We exploit ancilla-qubit measurements for iterative phase estimation, state preparation and for implementing complex (absorbing) potentials. Ancilla-based methods for obtaining observables such as binding energies are found to be far more efficient and robust than direct sampling. We also introduce an augmented split-operator (ASO) method where the usual kinetic and potential operators are supplemented by a core-stabilisation operator that dramatically improves wavepacket propagation near a Coulomb singularity. Overall, the grid-based method scales well in terms of the quantum processor's size and execution time; we extrapolate the resource requirements for accurate modelling of classically-intractable systems from our numerical results, and we describe suitable quantum architectures. We conclude by noting that the approach should be successful in far broader settings, from high energy physics to financial portfolio modelling.</description>
+    <title>A tensor-based entanglement measure for mixed states</title>
+    <link>http://arxiv.org/pdf/2202.07420</link>
+    <author>Christian Carisch, Oded Zilberberg</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Entanglement is a key resource for quantum technologies and is at the root of exciting many-body phenomena. Nevertheless, quantifying the amount of entanglement in a real-world quantum system is challenging when it interacts with its environment. Here, we devise an entanglement measure for such realistic open systems. Our measure relies on a tensor-network representation of the system's density matrix and is readily computed using our presented algorithm. We showcase the virtues of our scheme using a case study of spinless particles moving on a chain in presence of dephasing. Crucially, our approach distinguishes classical from quantum correlations in a broad plethora of systems and motivates efficient experimental entanglement quantification.</description>
   </item>
 
 </channel>
