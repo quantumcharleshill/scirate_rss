@@ -95,22 +95,6 @@
   </item>
 
   <item>
-    <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
-    <link>http://arxiv.org/pdf/2201.05678</link>
-    <author>Christopher Chamberland, Earl T. Campbell</author>
-    <pubDate>Jan 19 2022</pubDate>
-    <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
-  </item>
-
-  <item>
-    <title>Avoiding barren plateaus using classical shadows</title>
-    <link>http://arxiv.org/pdf/2201.08194</link>
-    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
-  </item>
-
-  <item>
     <title>Non-Pauli Errors in the Three-Dimensional Surface Code</title>
     <link>http://arxiv.org/pdf/2202.05746</link>
     <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
@@ -119,11 +103,35 @@
   </item>
 
   <item>
+    <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
+    <link>http://arxiv.org/pdf/2201.05678</link>
+    <author>Christopher Chamberland, Earl T. Campbell</author>
+    <pubDate>Jan 19 2022</pubDate>
+    <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
+  </item>
+
+  <item>
+    <title>The Parameterized Complexity of Quantum Verification</title>
+    <link>http://arxiv.org/pdf/2202.08119</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
+  </item>
+
+  <item>
     <title>Quantum machine learning with subspace states</title>
     <link>http://arxiv.org/pdf/2202.00054</link>
     <author>Iordanis Kerenidis, Anupam Prakash</author>
     <pubDate>Feb 02 2022</pubDate>
     <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
+  </item>
+
+  <item>
+    <title>Avoiding barren plateaus using classical shadows</title>
+    <link>http://arxiv.org/pdf/2201.08194</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>Variational quantum algorithms are promising algorithms for achieving quantum advantage on near-term devices. The quantum hardware is used to implement a variational wave function and measure observables, whereas the classical computer is used to store and update the variational parameters. The optimization landscape of expressive variational ansätze is however dominated by large regions in parameter space, known as barren plateaus, with vanishing gradients which prevents efficient optimization. In this work we propose a general algorithm to avoid barren plateaus in the initialization and throughout the optimization. To this end we define a notion of weak barren plateaus (WBP) based on the entropies of local reduced density matrices. The presence of WBPs can be efficiently quantified using recently introduced shadow tomography of the quantum state with a classical computer. We demonstrate that avoidance of WBPs suffices to ensure sizable gradients in the initialization. In addition, we demonstrate that decreasing the gradient step size, guided by the entropies allows to avoid WBPs during the optimization process. This paves the way for efficient barren plateau free optimization on near-term devices.</description>
   </item>
 
   <item>
@@ -143,6 +151,14 @@
   </item>
 
   <item>
+    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
+    <link>http://arxiv.org/pdf/2202.07060</link>
+    <author>Shenglong Xu, Brian Swingle</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+  </item>
+
+  <item>
     <title>An efficient quantum algorithm for lattice problems achieving subexponential approximation factor</title>
     <link>http://arxiv.org/pdf/2201.13450</link>
     <author>Lior Eldar, Sean Hallgren</author>
@@ -159,27 +175,19 @@
   </item>
 
   <item>
+    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
+    <link>http://arxiv.org/pdf/2202.06647</link>
+    <author>Nikolas P. Breuckmann, Simon Burton</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
+  </item>
+
+  <item>
     <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
     <link>http://arxiv.org/pdf/2202.04047</link>
     <author>Muhammad Imran, Gabor Ivanyos</author>
     <pubDate>Feb 09 2022</pubDate>
     <description>We present a polynomial time exact quantum algorithm for the hidden subgroup problem in $Z_{m^k}^n$. The algorithm uses the quantum Fourier transform modulo m and does not require factorization of m. For smooth m, i.e., when the prime factors of m are of size poly(log m), the quantum Fourier transform can be exactly computed using the method discovered independently by Cleve and Coppersmith, while for general m, the algorithm of Mosca and Zalka is available. Even for m=3 and k=1 our result appears to be new. We also present applications to compute the structure of abelian and solvable groups whose order has the same (but possibly unknown) prime factors as m. The applications for solvable groups also rely on an exact version of a technique proposed by Watrous for computing the uniform superposition of elements of subgroups.</description>
-  </item>
-
-  <item>
-    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
-    <link>http://arxiv.org/pdf/2202.07060</link>
-    <author>Shenglong Xu, Brian Swingle</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
-  </item>
-
-  <item>
-    <title>Simultaneous Measurement and Entanglement</title>
-    <link>http://arxiv.org/pdf/2201.10667</link>
-    <author>Andrey Boris Khesin, Peter Shor</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
   </item>
 
   <item>
@@ -191,11 +199,11 @@
   </item>
 
   <item>
-    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
-    <link>http://arxiv.org/pdf/2202.06647</link>
-    <author>Nikolas P. Breuckmann, Simon Burton</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
+    <title>Simultaneous Measurement and Entanglement</title>
+    <link>http://arxiv.org/pdf/2201.10667</link>
+    <author>Andrey Boris Khesin, Peter Shor</author>
+    <pubDate>Jan 27 2022</pubDate>
+    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
     <pubDate>Jan 27 2022</pubDate>
     <description>Fault-tolerant cluster states form the basis for scalable measurement-based quantum computation. Recently, new stabilizer codes for scalable circuit-based quantum computation have been introduced that have very high thresholds under biased noise where the qubit predominantly suffers from one type of error, e.g. dephasing. However, extending these advances in stabilizer codes to generate high-threshold cluster states for biased noise has been a challenge, as the standard method for foliating stabilizer codes to generate fault-tolerant cluster states does not preserve the noise bias. In this work, we overcome this barrier by introducing a generalization of the cluster state that allows us to foliate stabilizer codes in a bias-preserving way. As an example of our approach, we construct a foliated version of the XZZX code which we call the XZZX cluster state. We demonstrate that under a circuit-level noise model, our XZZX cluster state has a threshold more than double the usual cluster state when dephasing errors are more likely than errors which cause bit flips by a factor of $O(100)$ or more.</description>
-  </item>
-
-  <item>
-    <title>Quantum cryptography with classical communication: parallel remote state preparation for copy-protection, verification, and more</title>
-    <link>http://arxiv.org/pdf/2201.13445</link>
-    <author>Alexandru Gheorghiu, Tony Metger, Alexander Poremba</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>Quantum mechanical effects have enabled the construction of cryptographic primitives that are impossible classically. For example, quantum copy-protection allows for a program to be encoded in a quantum state in such a way that the program can be evaluated, but not copied. Many of these cryptographic primitives are two-party protocols, where one party, Bob, has full quantum computational capabilities, and the other party, Alice, is only required to send random BB84 states to Bob. In this work, we show how such protocols can generically be converted to ones where Alice is fully classical, assuming that Bob cannot efficiently solve the LWE problem. In particular, this means that all communication between (classical) Alice and (quantum) Bob is classical, yet they can still make use of cryptographic primitives that would be impossible if both parties were classical. We apply this conversion procedure to obtain quantum cryptographic protocols with classical communication for unclonable encryption, copy-protection, computing on encrypted data, and verifiable blind delegated computation. The key technical ingredient for our result is a protocol for classically-instructed parallel remote state preparation of BB84 states. This is a multi-round protocol between (classical) Alice and (quantum polynomial-time) Bob that allows Alice to certify that Bob must have prepared $n$ uniformly random BB84 states (up to a change of basis on his space). Furthermore, Alice knows which specific BB84 states Bob has prepared, while Bob himself does not. Hence, the situation at the end of this protocol is (almost) equivalent to one where Alice sent $n$ random BB84 states to Bob. This allows us to replace the step of preparing and sending BB84 states in existing protocols by our remote-state preparation protocol in a generic and modular way.</description>
   </item>
 
 </channel>

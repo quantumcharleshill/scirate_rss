@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
-    <link>http://arxiv.org/pdf/2202.07060</link>
-    <author>Shenglong Xu, Brian Swingle</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+    <title>The Parameterized Complexity of Quantum Verification</title>
+    <link>http://arxiv.org/pdf/2202.08119</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
   </item>
 
   <item>
-    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
-    <link>http://arxiv.org/pdf/2202.06976</link>
-    <author>Roeland Wiersema, Nathan Killoran</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
+    <title>Quantifying dynamical magic with completely stabilizer preserving operations as free</title>
+    <link>http://arxiv.org/pdf/2202.07867</link>
+    <author>Gaurav Saxena, Gilad Gour</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
   </item>
 
   <item>
-    <title>State Preparation Boosters for Early Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2202.06978</link>
-    <author>Guoming Wang, Sukin Sim, Peter D. Johnson</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Quantum computing is believed to be particularly useful for the simulation of chemistry and materials, among the various applications. In recent years, there have been significant advancements in the development of near-term quantum algorithms for quantum simulation, including VQE and many of its variants. However, for such algorithms to be useful, they need to overcome several critical barriers including the inability to prepare high-quality approximations of the ground state. Current challenges to state preparation, including barren plateaus and the high-dimensionality of the optimization landscape, make state preparation through ansatz optimization unreliable. In this work, we introduce the method of ground state boosting, which uses a limited-depth quantum circuit to reliably increase the overlap with the ground state. This circuit, which we call a booster, can be used to augment an ansatz from VQE or be used as a stand-alone state preparation method. The booster converts circuit depth into ground state overlap in a controllable manner. We numerically demonstrate the capabilities of boosters by simulating the performance of a particular type of booster, namely the Gaussian booster, for preparing the ground state of $N_2$ molecular system. Beyond ground state preparation as a direct objective, many quantum algorithms, such as quantum phase estimation, rely on high-quality state preparation as a subroutine. Therefore, we foresee ground state boosting and similar methods as becoming essential algorithmic components as the field transitions into using early fault-tolerant quantum computers.</description>
+    <title>Quantum speedups for treewidth</title>
+    <link>http://arxiv.org/pdf/2202.08186</link>
+    <author>Vladislavs Kļevickis, Krišjānis Prūsis, Jevgēnijs Vihrovs</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>In this paper, we study quantum algorithms for computing the exact value of the treewidth of a graph. Our algorithms are based on the classical algorithm by Fomin and Villanger (Combinatorica 32, 2012) that uses $O(2.616^n)$ time and polynomial space. We show three quantum algorithms with the following complexity, using QRAM in both exponential space algorithms: $\bullet$ $O(1.618^n)$ time and polynomial space; $\bullet$ $O(1.554^n)$ time and $O(1.452^n)$ space; $\bullet$ $O(1.538^n)$ time and space. In contrast, the fastest known classical algorithm for treewidth uses $O(1.755^n)$ time and space. The first two speed-ups are obtained in a fairly straightforward way. The first version uses additionally only Grover's search and provides a quadratic speedup. The second speedup is more time-efficient and uses both Grover's search and the quantum exponential dynamic programming by Ambainis et al. (SODA '19). The third version uses the specific properties of the classical algorithm and treewidth, with a modified version of the quantum dynamic programming on the hypercube. Lastly, as a small side result, we also give a new classical time-space tradeoff for computing treewidth in $O^*(2^n)$ time and $O^*(\sqrt{2^n})$ space.</description>
   </item>
 
   <item>
-    <title>Hardware-efficient entangled measurements for variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2202.06979</link>
-    <author>Francisco Escudero, David Fernández-Fernández, Gabriel Jaumà, Guillermo F. Peñas, Luciano Pereira</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Variational algorithms have received significant attention in recent years due to their potential to solve practical problems in noisy intermediate-scale quantum (NISQ) devices. A fundamental step of these algorithms is the evaluation of the expected value of Hamiltonians. Efficient schemes to perform this task are required to speed up these algorithm. The standard approach employs local measurements of Pauli operators, which requires a large number of circuits. An alternative is to make use of entangled measurements, which significantly reduce the number of circuits but involve entangling gates between non-physically connected qubits, introducing intermediate entangling operations that increase the depth of the circuits. As a solution to this problem we propose hardware-efficient entangled measurements (HEEM), that is, measurements that only permit entanglement between physically connected qubits. We show that this strategy enhances the evaluation of molecular Hamiltonians in NISQ devices because it reduces the number of circuits required without increasing their depth. We provide quantitative metrics of how this approach offers better results than only local measurements and arbitrarily entangled ones. We estimate with classical simulators and quantum hardware the ground state energy of the H$_2$O molecule by the variational quantum eigensolver using HEEM.</description>
+    <title>Generative modeling with projected entangled-pair states</title>
+    <link>http://arxiv.org/pdf/2202.08177</link>
+    <author>Tom Vieijra, Laurens Vanderstraeten, Frank Verstraete</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>We argue and demonstrate that projected entangled-pair states (PEPS) outperform matrix product states significantly for the task of generative modeling of datasets with an intrinsic two-dimensional structure such as images. Our approach builds on a recently introduced algorithm for sampling PEPS, which allows for the efficient optimization and sampling of the distributions.</description>
   </item>
 
   <item>
-    <title>A tensor-based entanglement measure for mixed states</title>
-    <link>http://arxiv.org/pdf/2202.07420</link>
-    <author>Christian Carisch, Oded Zilberberg</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Entanglement is a key resource for quantum technologies and is at the root of exciting many-body phenomena. Nevertheless, quantifying the amount of entanglement in a real-world quantum system is challenging when it interacts with its environment. Here, we devise an entanglement measure for such realistic open systems. Our measure relies on a tensor-network representation of the system's density matrix and is readily computed using our presented algorithm. We showcase the virtues of our scheme using a case study of spinless particles moving on a chain in presence of dephasing. Crucially, our approach distinguishes classical from quantum correlations in a broad plethora of systems and motivates efficient experimental entanglement quantification.</description>
+    <title>The platypus of the quantum channel zoo</title>
+    <link>http://arxiv.org/pdf/2202.08380</link>
+    <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
+    <pubDate>Feb 18 2022</pubDate>
+    <description>Understanding quantum channels and the strange behavior of their capacities is a key objective of quantum information theory. Here we study a remarkably simple, low-dimensional, single-parameter family of quantum channels with exotic quantum information-theoretic features. As the simplest example from this family, we focus on a qutrit-to-qutrit channel that is intuitively obtained by hybridizing together a simple degradable channel and a completely useless qubit channel. Such hybridizing makes this channel's capacities behave in a variety of interesting ways. For instance, the private and classical capacity of this channel coincide and can be explicitly calculated, even though the channel does not belong to any class for which the underlying information quantities are known to be additive. Moreover, the quantum capacity of the channel can be computed explicitly, given a clear and compelling conjecture is true. This "spin alignment conjecture", which may be of independent interest, is proved in certain special cases and additional numerical evidence for its validity is provided. Finally, we generalize the qutrit channel in two ways, and the resulting channels and their capacities display similarly rich behavior. In a companion paper, we further show that the qutrit channel demonstrates superadditivity when transmitting quantum information jointly with a variety of assisting channels, in a manner unknown before.</description>
   </item>
 
 </channel>

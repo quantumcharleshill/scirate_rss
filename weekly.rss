@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>The Parameterized Complexity of Quantum Verification</title>
+    <link>http://arxiv.org/pdf/2202.08119</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
+  </item>
+
+  <item>
     <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
     <link>http://arxiv.org/pdf/2202.07060</link>
     <author>Shenglong Xu, Brian Swingle</author>
@@ -39,14 +47,6 @@
   </item>
 
   <item>
-    <title>Matrix concentration inequalities and efficiency of random universal sets of quantum gates</title>
-    <link>http://arxiv.org/pdf/2202.05371</link>
-    <author>Piotr Dulian, Adam Sawicki</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>For a random set $\mathcal{S}$ of quantum gates we provide bounds on the probability that $\mathcal{S}$ forms a $\delta$-approximate $t$-design. In particular we show how many random gates are needed to have a $\delta$-approximate $t$-design with high probability. We also analyze how $\delta$ concentrates around its expected value $\mathbb{E}\delta$ for random $\mathcal{S}$. Our results are valid for both symmetric and non-symmetric sets of gates.</description>
-  </item>
-
-  <item>
     <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
     <link>http://arxiv.org/pdf/2202.06976</link>
     <author>Roeland Wiersema, Nathan Killoran</author>
@@ -55,11 +55,19 @@
   </item>
 
   <item>
-    <title>Neural-Network Decoders for Quantum Error Correction using Surface Codes:A Space Exploration of the Hardware Cost-Performance Trade-Offs</title>
-    <link>http://arxiv.org/pdf/2202.05741</link>
-    <author>Ramon Overwater, Masoud Babaie, Fabio Sebastiano</author>
+    <title>Matrix concentration inequalities and efficiency of random universal sets of quantum gates</title>
+    <link>http://arxiv.org/pdf/2202.05371</link>
+    <author>Piotr Dulian, Adam Sawicki</author>
     <pubDate>Feb 14 2022</pubDate>
-    <description>Quantum Error Correction (QEC) is required in quantum computers to mitigate the effect of errors on physical qubits. When adopting a QEC scheme based on surface codes, error decoding is the most computationally expensive task in the classical electronic back-end. Decoders employing neural networks (NN) are well-suited for this task but their hardware implementation has not been presented yet. This work presents a space exploration of fully-connected feed-forward NN decoders for small distance surface codes. The goal is to optimize the neural network for high decoding performance, while keeping a minimalistic hardware implementation. This is needed to meet the tight delay constraints of real-time surface code decoding. We demonstrate that hardware based NN-decoders can achieve high decoding performance comparable to other state-of-the-art decoding algorithms whilst being well below the tight delay requirements $(\approx 440\ \mathrm{ns})$ of current solid-state qubit technologies for both ASIC designs $(<30\ \mathrm{ns})$ and FPGA implementations $(<90\ \mathrm{ns})$. These results designates NN-decoders as fitting candidates for an integrated hardware implementation in future large-scale quantum computers.</description>
+    <description>For a random set $\mathcal{S}$ of quantum gates we provide bounds on the probability that $\mathcal{S}$ forms a $\delta$-approximate $t$-design. In particular we show how many random gates are needed to have a $\delta$-approximate $t$-design with high probability. We also analyze how $\delta$ concentrates around its expected value $\mathbb{E}\delta$ for random $\mathcal{S}$. Our results are valid for both symmetric and non-symmetric sets of gates.</description>
+  </item>
+
+  <item>
+    <title>Quantifying dynamical magic with completely stabilizer preserving operations as free</title>
+    <link>http://arxiv.org/pdf/2202.07867</link>
+    <author>Gaurav Saxena, Gilad Gour</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
   </item>
 
   <item>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>Entanglement catalysis for quantum states and noisy channels</title>
-    <link>http://arxiv.org/pdf/2202.05228</link>
-    <author>Chandan Datta, Tulja Varun Kondra, Marek Miller, Alexander Streltsov</author>
-    <pubDate>Feb 11 2022</pubDate>
-    <description>Many applications of the emerging quantum technologies, such as quantum teleportation and quantum key distribution, require singlets, maximally entangled states of two quantum bits. It is thus of utmost importance to develop optimal procedures for establishing singlets between remote parties. As has been shown very recently, singlets can be obtained from other quantum states by using a quantum catalyst, an entangled quantum system which is not changed in the procedure. In this work we put this idea further, investigating properties of entanglement catalysis and its role for quantum communication. For transformations between bipartite pure states we prove the existence of a universal catalyst, which can enable all possible transformations in this setup. We demonstrate the advantage of catalysis in asymptotic settings, going beyond the typical assumption of independent and identically distributed systems. We further develop methods to estimate the number of singlets which can be established via a noisy quantum channel when assisted by entangled catalysts. For various types of quantum channels our results lead to optimal protocols, allowing to establish the maximal number of singlets with a single use of the channel.</description>
-  </item>
-
-  <item>
-    <title>An elegant proof of self-testing for multipartite Bell inequalities</title>
-    <link>http://arxiv.org/pdf/2202.06908</link>
-    <author>Ekta Panwar, Palash Pandya, Marcin Wieśniak</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>The predictions of quantum theory are incompatible with local-causal explanations. This phenomenon is called Bell non-locality and is witnessed by violation of Bell-inequalities. The maximal violation of certain Bell-inequalities can only be attained in an essentially unique manner. This feature is referred to as self-testing and constitutes the most accurate form of certification of quantum devices. While self-testing in bipartite Bell scenarios has been thoroughly studied, self-testing in the more complex multipartite Bell scenarios remains largely unexplored. This work presents a simple and broadly applicable self-testing argument for N-partite correlation Bell inequalities with two binary outcome observables per party. Our proof technique forms a generalization of the Mayer-Yao formulation and is not restricted to linear Bell-inequalities, unlike the usual sum of squares method. To showcase the versatility of our proof technique, we obtain self-testing statements for N party Mermin-Ardehali-Belinskii-Klyshko (MABK) and Werner-Wolf-Weinfurter-Żukowski-Brukner (WWWŻB) family of linear Bell inequalities, and Uffink's family of N party quadratic Bell-inequalities.</description>
+    <title>Neural-Network Decoders for Quantum Error Correction using Surface Codes:A Space Exploration of the Hardware Cost-Performance Trade-Offs</title>
+    <link>http://arxiv.org/pdf/2202.05741</link>
+    <author>Ramon Overwater, Masoud Babaie, Fabio Sebastiano</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>Quantum Error Correction (QEC) is required in quantum computers to mitigate the effect of errors on physical qubits. When adopting a QEC scheme based on surface codes, error decoding is the most computationally expensive task in the classical electronic back-end. Decoders employing neural networks (NN) are well-suited for this task but their hardware implementation has not been presented yet. This work presents a space exploration of fully-connected feed-forward NN decoders for small distance surface codes. The goal is to optimize the neural network for high decoding performance, while keeping a minimalistic hardware implementation. This is needed to meet the tight delay constraints of real-time surface code decoding. We demonstrate that hardware based NN-decoders can achieve high decoding performance comparable to other state-of-the-art decoding algorithms whilst being well below the tight delay requirements $(\approx 440\ \mathrm{ns})$ of current solid-state qubit technologies for both ASIC designs $(<30\ \mathrm{ns})$ and FPGA implementations $(<90\ \mathrm{ns})$. These results designates NN-decoders as fitting candidates for an integrated hardware implementation in future large-scale quantum computers.</description>
   </item>
 
 </channel>
