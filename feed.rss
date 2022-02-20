@@ -63,6 +63,14 @@
   </item>
 
   <item>
+    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
+    <link>http://arxiv.org/pdf/2201.11495</link>
+    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
+    <pubDate>Jan 28 2022</pubDate>
+    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates, although with a cost of an exponential amount of ancillary qubits. On the other hand, for sparse quantum states with $d\geqslant2$ non-zero entries, we can reduce the circuit depth to $\Theta(\log(nd))$ with $O(nd\log d)$ ancillary qubits. The algorithm for sparse states is exponentially faster than best-known results and the number of ancillary qubits is nearly optimal and only increases polynomially with the system size. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
+  </item>
+
+  <item>
     <title>Probabilistic error cancellation with sparse Pauli-Lindblad models on noisy quantum processors</title>
     <link>http://arxiv.org/pdf/2201.09866</link>
     <author>Ewout van den Berg, Zlatko K. Minev, Abhinav Kandala, Kristan Temme</author>
@@ -71,11 +79,19 @@
   </item>
 
   <item>
-    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
-    <link>http://arxiv.org/pdf/2201.11495</link>
-    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
-    <pubDate>Jan 28 2022</pubDate>
-    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates, although with a cost of an exponential amount of ancillary qubits. On the other hand, for sparse quantum states with $d\geqslant2$ non-zero entries, we can reduce the circuit depth to $\Theta(\log(nd))$ with $O(nd\log d)$ ancillary qubits. The algorithm for sparse states is exponentially faster than best-known results and the number of ancillary qubits is nearly optimal and only increases polynomially with the system size. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
+    <title>The Parameterized Complexity of Quantum Verification</title>
+    <link>http://arxiv.org/pdf/2202.08119</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
+  </item>
+
+  <item>
+    <title>The platypus of the quantum channel zoo</title>
+    <link>http://arxiv.org/pdf/2202.08380</link>
+    <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
+    <pubDate>Feb 18 2022</pubDate>
+    <description>Understanding quantum channels and the strange behavior of their capacities is a key objective of quantum information theory. Here we study a remarkably simple, low-dimensional, single-parameter family of quantum channels with exotic quantum information-theoretic features. As the simplest example from this family, we focus on a qutrit-to-qutrit channel that is intuitively obtained by hybridizing together a simple degradable channel and a completely useless qubit channel. Such hybridizing makes this channel's capacities behave in a variety of interesting ways. For instance, the private and classical capacity of this channel coincide and can be explicitly calculated, even though the channel does not belong to any class for which the underlying information quantities are known to be additive. Moreover, the quantum capacity of the channel can be computed explicitly, given a clear and compelling conjecture is true. This "spin alignment conjecture", which may be of independent interest, is proved in certain special cases and additional numerical evidence for its validity is provided. Finally, we generalize the qutrit channel in two ways, and the resulting channels and their capacities display similarly rich behavior. In a companion paper, we further show that the qutrit channel demonstrates superadditivity when transmitting quantum information jointly with a variety of assisting channels, in a manner unknown before.</description>
   </item>
 
   <item>
@@ -103,19 +119,19 @@
   </item>
 
   <item>
+    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
+    <link>http://arxiv.org/pdf/2202.07060</link>
+    <author>Shenglong Xu, Brian Swingle</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+  </item>
+
+  <item>
     <title>A circuit-level protocol and analysis for twist-based lattice surgery</title>
     <link>http://arxiv.org/pdf/2201.05678</link>
     <author>Christopher Chamberland, Earl T. Campbell</author>
     <pubDate>Jan 19 2022</pubDate>
     <description>Lattice surgery is a measurement-based technique for performing fault-tolerant quantum computation in two dimensions. When using the surface code, the most general lattice surgery operations require lattice irregularities called twist defects. However, implementing twist-based lattice surgery may require additional resources, such as extra device connectivity, and could lower the threshold and overall performance for the surface code. Here we provide an explicit twist-based lattice surgery protocol and its requisite connectivity layout. We also provide new stabilizer measurement circuits for measuring twist defects which are compatible with our chosen gate scheduling. We undertake the first circuit-level error correction simulations during twist-based lattice surgery using a biased depolarizing noise model. Our results indicate a slight decrease in the threshold for timelike logical failures compared to lattice surgery protocols with no twist defects in the bulk. However, comfortably below threshold (i.e. with CNOT infidelities below $5 \times 10^{-3}$), the performance degradation is mild and in fact preferable over proposed alternative twist-free schemes. Lastly, we provide an efficient scheme for measuring $Y$ operators along boundaries of surface codes which bypasses certain steps that were required in previous schemes.</description>
-  </item>
-
-  <item>
-    <title>The Parameterized Complexity of Quantum Verification</title>
-    <link>http://arxiv.org/pdf/2202.08119</link>
-    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
-    <pubDate>Feb 17 2022</pubDate>
-    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
   </item>
 
   <item>
@@ -127,6 +143,14 @@
   </item>
 
   <item>
+    <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
+    <link>http://arxiv.org/pdf/2201.12450</link>
+    <author>Noah Shutty, Christopher Chamberland</author>
+    <pubDate>Feb 01 2022</pubDate>
+    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how satisfiability modulo theories (SMT) solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
+  </item>
+
+  <item>
     <title>Avoiding barren plateaus using classical shadows</title>
     <link>http://arxiv.org/pdf/2201.08194</link>
     <author>Stefan H. Sack, Raimel A. Medina, Alexios A. Michailidis, Richard Kueng, Maksym Serbyn</author>
@@ -135,11 +159,19 @@
   </item>
 
   <item>
-    <title>Finding fault-tolerant Clifford circuits using SMT solvers</title>
-    <link>http://arxiv.org/pdf/2201.12450</link>
-    <author>Noah Shutty, Christopher Chamberland</author>
-    <pubDate>Feb 01 2022</pubDate>
-    <description>Universal fault-tolerant quantum computers will require the use of efficient protocols to implement encoded operations necessary in the execution of algorithms. In this work, we show how satisfiability modulo theories (SMT) solvers can be used to automate the construction of Clifford circuits with certain fault-tolerance properties and apply our techniques to a fault-tolerant magic state preparation protocol. Part of the protocol requires converting magic states encoded in the color code to magic states encoded in the surface code. Since the teleportation step involves decoding a color code merged with a surface code, we develop a new decoding algorithm applicable to such codes.</description>
+    <title>Generic nonadditivity of quantum capacity in simple channels</title>
+    <link>http://arxiv.org/pdf/2202.08377</link>
+    <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
+    <pubDate>Feb 18 2022</pubDate>
+    <description>Determining capacities of quantum channels is a fundamental question in quantum information theory. Despite having rigorous coding theorems quantifying the flow of information across quantum channels, their capacities are poorly understood due to super-additivity effects. Studying these phenomena is important for deepening our understanding of quantum information, yet simple and clean examples of super-additive channels are scarce. Here we study a simple family of qutrit channels called the platypus channel, and show that it exhibits super-additivity of coherent information when used jointly with a variety of qubit channels. A higher-dimensional variant of the platypus channel displays super-additivity of quantum capacity together with an erasure channel. Subject to the "spin-alignment conjecture" introduced in a companion paper, our results on super-additivity of quantum capacity extend to lower-dimensional channels as well as larger parameter ranges. In particular, super-additivity occurs between two weakly additive channels each with large capacity on their own, in stark contrast to previous results. Remarkably, a single, novel transmission strategy achieves super-additivity in all examples. Our results show that super-additivity is much more prevalent than previously thought. It can occur across a wide variety of channels, even when both participating channels have large quantum capacity.</description>
+  </item>
+
+  <item>
+    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
+    <link>http://arxiv.org/pdf/2202.06647</link>
+    <author>Nikolas P. Breuckmann, Simon Burton</author>
+    <pubDate>Feb 15 2022</pubDate>
+    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
   </item>
 
   <item>
@@ -151,11 +183,11 @@
   </item>
 
   <item>
-    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
-    <link>http://arxiv.org/pdf/2202.07060</link>
-    <author>Shenglong Xu, Brian Swingle</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+    <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
+    <link>http://arxiv.org/pdf/2202.04047</link>
+    <author>Muhammad Imran, Gabor Ivanyos</author>
+    <pubDate>Feb 09 2022</pubDate>
+    <description>We present a polynomial time exact quantum algorithm for the hidden subgroup problem in $Z_{m^k}^n$. The algorithm uses the quantum Fourier transform modulo m and does not require factorization of m. For smooth m, i.e., when the prime factors of m are of size poly(log m), the quantum Fourier transform can be exactly computed using the method discovered independently by Cleve and Coppersmith, while for general m, the algorithm of Mosca and Zalka is available. Even for m=3 and k=1 our result appears to be new. We also present applications to compute the structure of abelian and solvable groups whose order has the same (but possibly unknown) prime factors as m. The applications for solvable groups also rely on an exact version of a technique proposed by Watrous for computing the uniform superposition of elements of subgroups.</description>
   </item>
 
   <item>
@@ -175,22 +207,6 @@
   </item>
 
   <item>
-    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
-    <link>http://arxiv.org/pdf/2202.06647</link>
-    <author>Nikolas P. Breuckmann, Simon Burton</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
-  </item>
-
-  <item>
-    <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
-    <link>http://arxiv.org/pdf/2202.04047</link>
-    <author>Muhammad Imran, Gabor Ivanyos</author>
-    <pubDate>Feb 09 2022</pubDate>
-    <description>We present a polynomial time exact quantum algorithm for the hidden subgroup problem in $Z_{m^k}^n$. The algorithm uses the quantum Fourier transform modulo m and does not require factorization of m. For smooth m, i.e., when the prime factors of m are of size poly(log m), the quantum Fourier transform can be exactly computed using the method discovered independently by Cleve and Coppersmith, while for general m, the algorithm of Mosca and Zalka is available. Even for m=3 and k=1 our result appears to be new. We also present applications to compute the structure of abelian and solvable groups whose order has the same (but possibly unknown) prime factors as m. The applications for solvable groups also rely on an exact version of a technique proposed by Watrous for computing the uniform superposition of elements of subgroups.</description>
-  </item>
-
-  <item>
     <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
     <link>http://arxiv.org/pdf/2202.01054</link>
     <author>Hari Krovi</author>
@@ -207,22 +223,6 @@
   </item>
 
   <item>
-    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
-    <link>http://arxiv.org/pdf/2202.01669</link>
-    <author>Henrik Wilming, Ingo Roth</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
-  </item>
-
-  <item>
-    <title>Counting unitaries of T-depth one</title>
-    <link>http://arxiv.org/pdf/2202.04163</link>
-    <author>Vadym Kliuchnikov</author>
-    <pubDate>Feb 10 2022</pubDate>
-    <description>We show that the number of T-depth one unitaries on $n$ qubits is $ \sum_{m=1}^{n}\tfrac{1}{m!}\prod_{k=0}^{m-1}(4^n/2^k - 2^k) \times \# \mathcal{C}_n, $ where $\#\mathcal{C}_n$ is the size of the $n$-qubit Clifford group, that is the number of unitaries of T-depth zero. The number of T-depth one unitaries on $n$ qubits grows as $2^{\Omega(n^2)} \cdot \# \mathcal{C}_n$.</description>
-  </item>
-
-  <item>
     <title>Entanglement estimation in tensor network states via sampling</title>
     <link>http://arxiv.org/pdf/2202.04089</link>
     <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
-    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
-    <link>http://arxiv.org/pdf/2202.01861</link>
-    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
+    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
+    <link>http://arxiv.org/pdf/2202.01669</link>
+    <author>Henrik Wilming, Ingo Roth</author>
+    <pubDate>Feb 04 2022</pubDate>
+    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
   </item>
 
   <item>
-    <title>Tailored cluster states with high threshold under biased noise</title>
-    <link>http://arxiv.org/pdf/2201.10566</link>
-    <author>Jahan Claes, J. Eli Bourassa, Shruti Puri</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Fault-tolerant cluster states form the basis for scalable measurement-based quantum computation. Recently, new stabilizer codes for scalable circuit-based quantum computation have been introduced that have very high thresholds under biased noise where the qubit predominantly suffers from one type of error, e.g. dephasing. However, extending these advances in stabilizer codes to generate high-threshold cluster states for biased noise has been a challenge, as the standard method for foliating stabilizer codes to generate fault-tolerant cluster states does not preserve the noise bias. In this work, we overcome this barrier by introducing a generalization of the cluster state that allows us to foliate stabilizer codes in a bias-preserving way. As an example of our approach, we construct a foliated version of the XZZX code which we call the XZZX cluster state. We demonstrate that under a circuit-level noise model, our XZZX cluster state has a threshold more than double the usual cluster state when dephasing errors are more likely than errors which cause bit flips by a factor of $O(100)$ or more.</description>
+    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
+    <link>http://arxiv.org/pdf/2202.06976</link>
+    <author>Roeland Wiersema, Nathan Killoran</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
   </item>
 
 </channel>
