@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Non-Pauli Errors in the Three-Dimensional Surface Code</title>
-    <link>http://arxiv.org/pdf/2202.05746</link>
-    <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>A powerful feature of stabiliser error correcting codes is the fact that stabiliser measurement projects arbitrary errors to Pauli errors, greatly simplifying the physical error correction process as well as classical simulations of code performance. However, logical non-Clifford operations can map Pauli errors to non-Pauli (Clifford) errors, and while subsequent stabiliser measurements will project the Clifford errors back to Pauli errors the resulting distributions will possess additional correlations that depend on both the nature of the logical operation and the structure of the code. Previous work has studied these effects when applying a transversal $T$ gate to the three-dimensional colour code and shown the existence of a non-local "linking charge" phenomenon between membranes of intersecting errors. In this work we generalise these results to the case of a $CCZ$ gate in the three-dimensional surface code and find that many aspects of the problem are much more easily understood in this setting. In particular, the emergence of linking charge is a local effect rather than a non-local one. We use the relative simplicity of Clifford errors in this setting to simulate their effect on the performance of a single-shot magic state preparation process (the first such simulation to account for the full effect of these errors) and find that while they lead to an increase in the logical error rate their effect on the threshold is minimal.</description>
-  </item>
-
-  <item>
     <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
     <link>http://arxiv.org/pdf/2202.07060</link>
     <author>Shenglong Xu, Brian Swingle</author>
@@ -47,11 +39,11 @@
   </item>
 
   <item>
-    <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
-    <link>http://arxiv.org/pdf/2202.06647</link>
-    <author>Nikolas P. Breuckmann, Simon Burton</author>
-    <pubDate>Feb 15 2022</pubDate>
-    <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
+    <title>Circuit Extraction for ZX-diagrams can be #P-hard</title>
+    <link>http://arxiv.org/pdf/2202.09194</link>
+    <author>Niel de Beaudrap, Aleks Kissinger, John van de Wetering</author>
+    <pubDate>Feb 21 2022</pubDate>
+    <description>The ZX-calculus is a graphical language for reasoning about quantum computation using ZX-diagrams, a certain flexible generalisation of quantum circuits that can be used to represent linear maps from $m$ to $n$ qubits for any $m,n \geq 0$. Some applications for the ZX-calculus, such as quantum circuit optimisation and synthesis, rely on being able to efficiently translate a ZX-diagram back into a quantum circuit of comparable size. While several sufficient conditions are known for describing families of ZX-diagrams that can be efficiently transformed back into circuits, it has previously been conjectured that the general problem of circuit extraction is hard. That is, that it should not be possible to efficiently convert an arbitrary ZX-diagram describing a unitary linear map into an equivalent quantum circuit. In this paper we prove this conjecture by showing that the circuit extraction problem is #P-hard, and so is itself at least as hard as strong simulation of quantum circuits. In addition to our main hardness result, which relies specifically on the circuit representation, we give a representation-agnostic hardness result. Namely, we show that any oracle that takes as input a ZX-diagram description of a unitary and produces samples of the output of the associated quantum computation enables efficient probabilistic solutions to NP-complete problems.</description>
   </item>
 
   <item>
@@ -63,14 +55,6 @@
   </item>
 
   <item>
-    <title>Three-dimensional quantum cellular automata from chiral semion surface topological order and beyond</title>
-    <link>http://arxiv.org/pdf/2202.05442</link>
-    <author>Wilbur Shirley, Yu-An Chen, Arpit Dua, Tyler D. Ellison, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>We construct a novel three-dimensional quantum cellular automaton (QCA) based on a system with short-range entangled bulk and chiral semion boundary topological order. We argue that either the QCA is nontrivial, i.e. not a finite-depth circuit of local quantum gates, or there exists a two-dimensional commuting projector Hamiltonian realizing the chiral semion topological order (characterized by $U(1)_2$ Chern-Simons theory). Our QCA is obtained by first constructing the Walker-Wang Hamiltonian of a certain premodular tensor category of order four, then condensing the deconfined bulk boson at the level of lattice operators. We show that the resulting Hamiltonian hosts chiral semion surface topological order in the presence of a boundary and can be realized as a non-Pauli stabilizer code on qubits, from which the QCA is defined. The construction is then generalized to a class of QCAs defined by non-Pauli stabilizer codes on ${2^n}$-dimensional qudits that feature surface anyons described by $U(1)_{2^n}$ Chern-Simons theory. Our results support the conjecture that the group of nontrivial three-dimensional QCAs is isomorphic to the Witt group of non-degenerate braided fusion categories.</description>
-  </item>
-
-  <item>
     <title>Quantifying dynamical magic with completely stabilizer preserving operations as free</title>
     <link>http://arxiv.org/pdf/2202.07867</link>
     <author>Gaurav Saxena, Gilad Gour</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
-    <title>Matrix concentration inequalities and efficiency of random universal sets of quantum gates</title>
-    <link>http://arxiv.org/pdf/2202.05371</link>
-    <author>Piotr Dulian, Adam Sawicki</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>For a random set $\mathcal{S}$ of quantum gates we provide bounds on the probability that $\mathcal{S}$ forms a $\delta$-approximate $t$-design. In particular we show how many random gates are needed to have a $\delta$-approximate $t$-design with high probability. We also analyze how $\delta$ concentrates around its expected value $\mathbb{E}\delta$ for random $\mathcal{S}$. Our results are valid for both symmetric and non-symmetric sets of gates.</description>
+    <title>Approximating Output Probabilities of Shallow Quantum Circuits which are Geometrically-local in any Fixed Dimension</title>
+    <link>http://arxiv.org/pdf/2202.08349</link>
+    <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
+    <pubDate>Feb 18 2022</pubDate>
+    <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
+  </item>
+
+  <item>
+    <title>State Preparation Boosters for Early Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2202.06978</link>
+    <author>Guoming Wang, Sukin Sim, Peter D. Johnson</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Quantum computing is believed to be particularly useful for the simulation of chemistry and materials, among the various applications. In recent years, there have been significant advancements in the development of near-term quantum algorithms for quantum simulation, including VQE and many of its variants. However, for such algorithms to be useful, they need to overcome several critical barriers including the inability to prepare high-quality approximations of the ground state. Current challenges to state preparation, including barren plateaus and the high-dimensionality of the optimization landscape, make state preparation through ansatz optimization unreliable. In this work, we introduce the method of ground state boosting, which uses a limited-depth quantum circuit to reliably increase the overlap with the ground state. This circuit, which we call a booster, can be used to augment an ansatz from VQE or be used as a stand-alone state preparation method. The booster converts circuit depth into ground state overlap in a controllable manner. We numerically demonstrate the capabilities of boosters by simulating the performance of a particular type of booster, namely the Gaussian booster, for preparing the ground state of $N_2$ molecular system. Beyond ground state preparation as a direct objective, many quantum algorithms, such as quantum phase estimation, rely on high-quality state preparation as a subroutine. Therefore, we foresee ground state boosting and similar methods as becoming essential algorithmic components as the field transitions into using early fault-tolerant quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
+    <link>http://arxiv.org/pdf/2202.09202</link>
+    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
+    <pubDate>Feb 21 2022</pubDate>
+    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
   </item>
 
 </channel>
