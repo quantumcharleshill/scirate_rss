@@ -7,27 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The Parameterized Complexity of Quantum Verification</title>
-    <link>http://arxiv.org/pdf/2202.08119</link>
-    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
-    <pubDate>Feb 17 2022</pubDate>
-    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
-  </item>
-
-  <item>
     <title>The platypus of the quantum channel zoo</title>
     <link>http://arxiv.org/pdf/2202.08380</link>
     <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
     <pubDate>Feb 18 2022</pubDate>
     <description>Understanding quantum channels and the strange behavior of their capacities is a key objective of quantum information theory. Here we study a remarkably simple, low-dimensional, single-parameter family of quantum channels with exotic quantum information-theoretic features. As the simplest example from this family, we focus on a qutrit-to-qutrit channel that is intuitively obtained by hybridizing together a simple degradable channel and a completely useless qubit channel. Such hybridizing makes this channel's capacities behave in a variety of interesting ways. For instance, the private and classical capacity of this channel coincide and can be explicitly calculated, even though the channel does not belong to any class for which the underlying information quantities are known to be additive. Moreover, the quantum capacity of the channel can be computed explicitly, given a clear and compelling conjecture is true. This "spin alignment conjecture", which may be of independent interest, is proved in certain special cases and additional numerical evidence for its validity is provided. Finally, we generalize the qutrit channel in two ways, and the resulting channels and their capacities display similarly rich behavior. In a companion paper, we further show that the qutrit channel demonstrates superadditivity when transmitting quantum information jointly with a variety of assisting channels, in a manner unknown before.</description>
-  </item>
-
-  <item>
-    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
-    <link>http://arxiv.org/pdf/2202.07060</link>
-    <author>Shenglong Xu, Brian Swingle</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
   </item>
 
   <item>
@@ -39,6 +23,14 @@
   </item>
 
   <item>
+    <title>A Quantum Polynomial-Time Solution to The Dihedral Hidden Subgroup Problem</title>
+    <link>http://arxiv.org/pdf/2202.09697</link>
+    <author>Matthew Moore, Grace Young</author>
+    <pubDate>Feb 22 2022</pubDate>
+    <description>We present a polynomial-time quantum algorithm for the Hidden Subgroup Problem over $\mathbb{D}_{2^n}$. The usual approach to the Hidden Subgroup Problem relies on harmonic analysis in the domain of the problem, and the best known algorithm using this approach has time complexity in $2^{\mathcal{O}(\sqrt{n})}$. By focusing on structure encoded in the codomain of the problem, we develop a polynomial-time algorithm which uses this structure to direct a "walk" down the subgroup lattice of $\mathbb{D}_{2^n}$ terminating at the hidden subgroup.</description>
+  </item>
+
+  <item>
     <title>Circuit Extraction for ZX-diagrams can be #P-hard</title>
     <link>http://arxiv.org/pdf/2202.09194</link>
     <author>Niel de Beaudrap, Aleks Kissinger, John van de Wetering</author>
@@ -47,19 +39,35 @@
   </item>
 
   <item>
-    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
-    <link>http://arxiv.org/pdf/2202.06976</link>
-    <author>Roeland Wiersema, Nathan Killoran</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
+    <title>Quantum Differential Privacy: An Information Theory Perspective</title>
+    <link>http://arxiv.org/pdf/2202.10717</link>
+    <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
+    <pubDate>Feb 23 2022</pubDate>
+    <description>Differential privacy has been an exceptionally successful concept when it comes to providing provable security guarantees for classical computations. More recently, the concept was generalized to quantum computations. While classical computations are essentially noiseless and differential privacy is often achieved by artificially adding noise, near-term quantum computers are inherently noisy and it was observed that this leads to natural differential privacy as a feature. In this work we discuss quantum differential privacy in an information theoretic framework by casting it as a quantum divergence. A main advantage of this approach is that differential privacy becomes a property solely based on the output states of the computation, without the need to check it for every measurement. This leads to simpler proofs and generalized statements of its properties as well as several new bounds for both, general and specific, noise models. In particular, these include common representations of quantum circuits and quantum machine learning concepts. Here, we focus on the difference in the amount of noise required to achieve certain levels of differential privacy versus the amount that would make any computation useless. Finally, we also generalize the classical concepts of local differential privacy, Rényi differential privacy and the hypothesis testing interpretation to the quantum setting, providing several new properties and insights.</description>
   </item>
 
   <item>
-    <title>Quantifying dynamical magic with completely stabilizer preserving operations as free</title>
-    <link>http://arxiv.org/pdf/2202.07867</link>
-    <author>Gaurav Saxena, Gilad Gour</author>
-    <pubDate>Feb 17 2022</pubDate>
-    <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
+    <title>Limitations of nearest-neighbour quantum networks</title>
+    <link>http://arxiv.org/pdf/2202.10886</link>
+    <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
+    <pubDate>Feb 23 2022</pubDate>
+    <description>Quantum communication research has in recent years shifted to include multi-partite networks for which questions of quantum network routing naturally emerge. To understand the potential for multi-partite routing, we focus on the most promising architectures for future quantum networks - those connecting nodes close to each other. Nearest-neighbour networks such as rings, lines, and grids, have been studied under different communication scenarios to facilitate the sharing of quantum resources, especially in the presence of bottlenecks. We here analyze the potential of nearest-neighbour quantum networks and identify some serious limitations, by demonstrating that rings and lines cannot overcome common bottleneck communication problems.</description>
+  </item>
+
+  <item>
+    <title>Quantum Optimization of Maximum Independent Set using Rydberg Atom Arrays</title>
+    <link>http://arxiv.org/pdf/2202.09372</link>
+    <author>Sepehr Ebadi, Alexander Keesling, Madelyn Cain, Tout T. Wang, Harry Levine, Dolev Bluvstein, Giulia Semeghini, Ahmed Omran, Jinguo Liu, Rhine Samajdar, Xiu-Zhe Luo, Beatrice Nash, Xun Gao, Boaz Barak, Edward Farhi, Subir Sachdev, Nathan Gemelke, Leo Zhou, Soonwon Choi, Hannes Pichler, et al (4)</author>
+    <pubDate>Feb 22 2022</pubDate>
+    <description>Realizing quantum speedup for practically relevant, computationally hard problems is a central challenge in quantum information science. Using Rydberg atom arrays with up to 289 qubits in two spatial dimensions, we experimentally investigate quantum algorithms for solving the Maximum Independent Set problem. We use a hardware-efficient encoding associated with Rydberg blockade, realize closed-loop optimization to test several variational algorithms, and subsequently apply them to systematically explore a class of graphs with programmable connectivity. We find the problem hardness is controlled by the solution degeneracy and number of local minima, and experimentally benchmark the quantum algorithm's performance against classical simulated annealing. On the hardest graphs, we observe a superlinear quantum speedup in finding exact solutions in the deep circuit regime and analyze its origins.</description>
+  </item>
+
+  <item>
+    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
+    <link>http://arxiv.org/pdf/2202.09202</link>
+    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
+    <pubDate>Feb 21 2022</pubDate>
+    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
   </item>
 
   <item>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>State Preparation Boosters for Early Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2202.06978</link>
-    <author>Guoming Wang, Sukin Sim, Peter D. Johnson</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Quantum computing is believed to be particularly useful for the simulation of chemistry and materials, among the various applications. In recent years, there have been significant advancements in the development of near-term quantum algorithms for quantum simulation, including VQE and many of its variants. However, for such algorithms to be useful, they need to overcome several critical barriers including the inability to prepare high-quality approximations of the ground state. Current challenges to state preparation, including barren plateaus and the high-dimensionality of the optimization landscape, make state preparation through ansatz optimization unreliable. In this work, we introduce the method of ground state boosting, which uses a limited-depth quantum circuit to reliably increase the overlap with the ground state. This circuit, which we call a booster, can be used to augment an ansatz from VQE or be used as a stand-alone state preparation method. The booster converts circuit depth into ground state overlap in a controllable manner. We numerically demonstrate the capabilities of boosters by simulating the performance of a particular type of booster, namely the Gaussian booster, for preparing the ground state of $N_2$ molecular system. Beyond ground state preparation as a direct objective, many quantum algorithms, such as quantum phase estimation, rely on high-quality state preparation as a subroutine. Therefore, we foresee ground state boosting and similar methods as becoming essential algorithmic components as the field transitions into using early fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
-    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
-    <link>http://arxiv.org/pdf/2202.09202</link>
-    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
+    <title>Universal control of a six-qubit quantum processor in silicon</title>
+    <link>http://arxiv.org/pdf/2202.09252</link>
+    <author>Stephan G.J. Philips, Mateusz T. Mądzik, Sergey V. Amitonov, Sander L. de Snoo, Maximilian Russ, Nima Kalhor, Christian Volk, William I.L. Lawrie, Delphine Brousse, Larysa Tryputen, Brian Paquelet Wuetz, Amir Sammak, Menno Veldhorst, Giordano Scappucci, Lieven M.K. Vandersypen</author>
     <pubDate>Feb 21 2022</pubDate>
-    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
+    <description>Future quantum computers capable of solving relevant problems will require a large number of qubits that can be operated reliably. However, the requirements of having a large qubit count and operating with high-fidelity are typically conflicting. Spins in semiconductor quantum dots show long-term promise but demonstrations so far use between one and four qubits and typically optimize the fidelity of either single- or two-qubit operations, or initialization and readout. Here we increase the number of qubits and simultaneously achieve respectable fidelities for universal operation, state preparation and measurement. We design, fabricate and operate a six-qubit processor with a focus on careful Hamiltonian engineering, on a high level of abstraction to program the quantum circuits and on efficient background calibration, all of which are essential to achieve high fidelities on this extended system. State preparation combines initialization by measurement and real-time feedback with quantum-non-demolition measurements. These advances will allow for testing of increasingly meaningful quantum protocols and constitute a major stepping stone towards large-scale quantum computers.</description>
   </item>
 
 </channel>
