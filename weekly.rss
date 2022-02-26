@@ -7,27 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The platypus of the quantum channel zoo</title>
-    <link>http://arxiv.org/pdf/2202.08380</link>
-    <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
-    <pubDate>Feb 18 2022</pubDate>
-    <description>Understanding quantum channels and the strange behavior of their capacities is a key objective of quantum information theory. Here we study a remarkably simple, low-dimensional, single-parameter family of quantum channels with exotic quantum information-theoretic features. As the simplest example from this family, we focus on a qutrit-to-qutrit channel that is intuitively obtained by hybridizing together a simple degradable channel and a completely useless qubit channel. Such hybridizing makes this channel's capacities behave in a variety of interesting ways. For instance, the private and classical capacity of this channel coincide and can be explicitly calculated, even though the channel does not belong to any class for which the underlying information quantities are known to be additive. Moreover, the quantum capacity of the channel can be computed explicitly, given a clear and compelling conjecture is true. This "spin alignment conjecture", which may be of independent interest, is proved in certain special cases and additional numerical evidence for its validity is provided. Finally, we generalize the qutrit channel in two ways, and the resulting channels and their capacities display similarly rich behavior. In a companion paper, we further show that the qutrit channel demonstrates superadditivity when transmitting quantum information jointly with a variety of assisting channels, in a manner unknown before.</description>
-  </item>
-
-  <item>
-    <title>Generic nonadditivity of quantum capacity in simple channels</title>
-    <link>http://arxiv.org/pdf/2202.08377</link>
-    <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
-    <pubDate>Feb 18 2022</pubDate>
-    <description>Determining capacities of quantum channels is a fundamental question in quantum information theory. Despite having rigorous coding theorems quantifying the flow of information across quantum channels, their capacities are poorly understood due to super-additivity effects. Studying these phenomena is important for deepening our understanding of quantum information, yet simple and clean examples of super-additive channels are scarce. Here we study a simple family of qutrit channels called the platypus channel, and show that it exhibits super-additivity of coherent information when used jointly with a variety of qubit channels. A higher-dimensional variant of the platypus channel displays super-additivity of quantum capacity together with an erasure channel. Subject to the "spin-alignment conjecture" introduced in a companion paper, our results on super-additivity of quantum capacity extend to lower-dimensional channels as well as larger parameter ranges. In particular, super-additivity occurs between two weakly additive channels each with large capacity on their own, in stark contrast to previous results. Remarkably, a single, novel transmission strategy achieves super-additivity in all examples. Our results show that super-additivity is much more prevalent than previously thought. It can occur across a wide variety of channels, even when both participating channels have large quantum capacity.</description>
-  </item>
-
-  <item>
-    <title>A Quantum Polynomial-Time Solution to The Dihedral Hidden Subgroup Problem</title>
-    <link>http://arxiv.org/pdf/2202.09697</link>
-    <author>Matthew Moore, Grace Young</author>
-    <pubDate>Feb 22 2022</pubDate>
-    <description>We present a polynomial-time quantum algorithm for the Hidden Subgroup Problem over $\mathbb{D}_{2^n}$. The usual approach to the Hidden Subgroup Problem relies on harmonic analysis in the domain of the problem, and the best known algorithm using this approach has time complexity in $2^{\mathcal{O}(\sqrt{n})}$. By focusing on structure encoded in the codomain of the problem, we develop a polynomial-time algorithm which uses this structure to direct a "walk" down the subgroup lattice of $\mathbb{D}_{2^n}$ terminating at the hidden subgroup.</description>
+    <title>Benchmarking the Planar Honeycomb Code</title>
+    <link>http://arxiv.org/pdf/2202.11845</link>
+    <author>Craig Gidney, Michael Newman</author>
+    <pubDate>Feb 25 2022</pubDate>
+    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
   </item>
 
   <item>
@@ -47,11 +31,27 @@
   </item>
 
   <item>
+    <title>A Quantum Polynomial-Time Solution to The Dihedral Hidden Subgroup Problem</title>
+    <link>http://arxiv.org/pdf/2202.09697</link>
+    <author>Matthew Moore, Grace Young</author>
+    <pubDate>Feb 22 2022</pubDate>
+    <description>We present a polynomial-time quantum algorithm for the Hidden Subgroup Problem over $\mathbb{D}_{2^n}$. The usual approach to the Hidden Subgroup Problem relies on harmonic analysis in the domain of the problem, and the best known algorithm using this approach has time complexity in $2^{\mathcal{O}(\sqrt{n})}$. By focusing on structure encoded in the codomain of the problem, we develop a polynomial-time algorithm which uses this structure to direct a "walk" down the subgroup lattice of $\mathbb{D}_{2^n}$ terminating at the hidden subgroup.</description>
+  </item>
+
+  <item>
     <title>Limitations of nearest-neighbour quantum networks</title>
     <link>http://arxiv.org/pdf/2202.10886</link>
     <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
     <pubDate>Feb 23 2022</pubDate>
     <description>Quantum communication research has in recent years shifted to include multi-partite networks for which questions of quantum network routing naturally emerge. To understand the potential for multi-partite routing, we focus on the most promising architectures for future quantum networks - those connecting nodes close to each other. Nearest-neighbour networks such as rings, lines, and grids, have been studied under different communication scenarios to facilitate the sharing of quantum resources, especially in the presence of bottlenecks. We here analyze the potential of nearest-neighbour quantum networks and identify some serious limitations, by demonstrating that rings and lines cannot overcome common bottleneck communication problems.</description>
+  </item>
+
+  <item>
+    <title>Performance of planar Floquet codes with Majorana-based qubits</title>
+    <link>http://arxiv.org/pdf/2202.11829</link>
+    <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
+    <pubDate>Feb 25 2022</pubDate>
+    <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Approximating Output Probabilities of Shallow Quantum Circuits which are Geometrically-local in any Fixed Dimension</title>
-    <link>http://arxiv.org/pdf/2202.08349</link>
-    <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
-    <pubDate>Feb 18 2022</pubDate>
-    <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
+    <title>Bounding quantum capacities via partial orders and complementarity</title>
+    <link>http://arxiv.org/pdf/2202.11688</link>
+    <author>Christoph Hirche, Felix Leditzky</author>
+    <pubDate>Feb 24 2022</pubDate>
+    <description>Quantum capacities are fundamental quantities that are notoriously hard to compute and can exhibit surprising properties such as superadditivity. Thus, a vast amount of literature is devoted to finding tight and computable bounds on these capacities. We add a new viewpoint by giving operationally motivated bounds on several capacities, including the quantum capacity and private capacity of a quantum channel and the one-way distillable entanglement and private key of a quantum state. These bounds are generally phrased in terms of capacity quantities involving the complementary channel or state. As a tool to obtain these bounds, we discuss partial orders on quantum channels and states, such as the less noisy and the more capable order. Our bounds help to further understand the interplay between different capacities, as they give operational limitations on superadditivity and the difference between capacities in terms of the information-theoretic properties of the complementary channel or state. They can also be used as a new approach towards numerically bounding capacities, as discussed with some examples.</description>
   </item>
 
   <item>
-    <title>Universal control of a six-qubit quantum processor in silicon</title>
-    <link>http://arxiv.org/pdf/2202.09252</link>
-    <author>Stephan G.J. Philips, Mateusz T. Mądzik, Sergey V. Amitonov, Sander L. de Snoo, Maximilian Russ, Nima Kalhor, Christian Volk, William I.L. Lawrie, Delphine Brousse, Larysa Tryputen, Brian Paquelet Wuetz, Amir Sammak, Menno Veldhorst, Giordano Scappucci, Lieven M.K. Vandersypen</author>
-    <pubDate>Feb 21 2022</pubDate>
-    <description>Future quantum computers capable of solving relevant problems will require a large number of qubits that can be operated reliably. However, the requirements of having a large qubit count and operating with high-fidelity are typically conflicting. Spins in semiconductor quantum dots show long-term promise but demonstrations so far use between one and four qubits and typically optimize the fidelity of either single- or two-qubit operations, or initialization and readout. Here we increase the number of qubits and simultaneously achieve respectable fidelities for universal operation, state preparation and measurement. We design, fabricate and operate a six-qubit processor with a focus on careful Hamiltonian engineering, on a high level of abstraction to program the quantum circuits and on efficient background calibration, all of which are essential to achieve high fidelities on this extended system. State preparation combines initialization by measurement and real-time feedback with quantum-non-demolition measurements. These advances will allow for testing of increasingly meaningful quantum protocols and constitute a major stepping stone towards large-scale quantum computers.</description>
+    <title>Hybrid Quantum-Classical Search Algorithms</title>
+    <link>http://arxiv.org/pdf/2202.11443</link>
+    <author>Ansis Rosmanis</author>
+    <pubDate>Feb 24 2022</pubDate>
+    <description>Search is one of the most commonly used primitives in quantum algorithm design. It is known that quadratic speedups provided by Grover's algorithm are optimal, and no faster quantum algorithms for Search exist. While it is known that at least some quantum computation is required to achieve these speedups, the existing bounds do not rule out the possibility of an equally fast hybrid quantum-classical algorithm where most of the computation is classical. In this work, we study such hybrid algorithms and we show that classical computation, unless it by itself can solve the Search problem, cannot assist quantum computation. In addition, we generalize this result to algorithms with subconstant success probabilities.</description>
   </item>
 
 </channel>
