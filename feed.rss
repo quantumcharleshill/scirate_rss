@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Efficiently improving the performance of noisy quantum computers</title>
-    <link>http://arxiv.org/pdf/2201.10672</link>
-    <author>Samuele Ferracin, Akel Hashim, Jean-Loup Ville, Ravi Naik, Arnaud Carignan-Dugas, Hammam Qassim, Alexis Morvan, David I. Santiago, Irfan Siddiqi, Joel J. Wallman</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>Using near-term quantum computers to achieve a quantum advantage requires efficient strategies to improve the performance of the noisy quantum devices presently available. We develop and experimentally validate two efficient error mitigation protocols named "Noiseless Output Extrapolation" and "Pauli Error Cancellation" that can drastically enhance the performance of quantum circuits composed of noisy cycles of gates. By combining popular mitigation strategies such as probabilistic error cancellation and noise amplification with efficient noise reconstruction methods, our protocols can mitigate a wide range of noise processes that do not satisfy the assumptions underlying existing mitigation protocols, including non-local and gate-dependent processes. We test our protocols on a four-qubit superconducting processor at the Advanced Quantum Testbed. We observe significant improvements in the performance of both structured and random circuits, with up to $86\%$ improvement in variation distance over the unmitigated outputs. Our experiments demonstrate the effectiveness of our protocols, as well as their practicality for current hardware platforms.</description>
-  </item>
-
-  <item>
     <title>Bias-tailored quantum LDPC codes</title>
     <link>http://arxiv.org/pdf/2202.01702</link>
     <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
@@ -44,14 +36,6 @@
     <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
     <pubDate>Feb 17 2022</pubDate>
     <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
-  </item>
-
-  <item>
-    <title>Quantum State Preparation with Optimal Circuit Depth: Implementations and Applications</title>
-    <link>http://arxiv.org/pdf/2201.11495</link>
-    <author>Xiao-Ming Zhang, Tongyang Li, Xiao Yuan</author>
-    <pubDate>Jan 28 2022</pubDate>
-    <description>Quantum state preparation is an important subroutine for quantum computing. We show that any $n$-qubit quantum state can be prepared with a $\Theta(n)$-depth circuit using only single- and two-qubit gates, although with a cost of an exponential amount of ancillary qubits. On the other hand, for sparse quantum states with $d\geqslant2$ non-zero entries, we can reduce the circuit depth to $\Theta(\log(nd))$ with $O(nd\log d)$ ancillary qubits. The algorithm for sparse states is exponentially faster than best-known results and the number of ancillary qubits is nearly optimal and only increases polynomially with the system size. We discuss applications of the results in different quantum computing tasks, such as Hamiltonian simulation, solving linear systems of equations, and realizing quantum random access memories, and find cases with exponential reductions of the circuit depth for all these three tasks. In particular, using our algorithm, we find a family of linear system solving problems enjoying exponential speedups, even compared to the best-known quantum and classical dequantization algorithms.</description>
   </item>
 
   <item>
@@ -191,6 +175,14 @@
   </item>
 
   <item>
+    <title>Quantum Optimization of Maximum Independent Set using Rydberg Atom Arrays</title>
+    <link>http://arxiv.org/pdf/2202.09372</link>
+    <author>Sepehr Ebadi, Alexander Keesling, Madelyn Cain, Tout T. Wang, Harry Levine, Dolev Bluvstein, Giulia Semeghini, Ahmed Omran, Jinguo Liu, Rhine Samajdar, Xiu-Zhe Luo, Beatrice Nash, Xun Gao, Boaz Barak, Edward Farhi, Subir Sachdev, Nathan Gemelke, Leo Zhou, Soonwon Choi, Hannes Pichler, et al (4)</author>
+    <pubDate>Feb 22 2022</pubDate>
+    <description>Realizing quantum speedup for practically relevant, computationally hard problems is a central challenge in quantum information science. Using Rydberg atom arrays with up to 289 qubits in two spatial dimensions, we experimentally investigate quantum algorithms for solving the Maximum Independent Set problem. We use a hardware-efficient encoding associated with Rydberg blockade, realize closed-loop optimization to test several variational algorithms, and subsequently apply them to systematically explore a class of graphs with programmable connectivity. We find the problem hardness is controlled by the solution degeneracy and number of local minima, and experimentally benchmark the quantum algorithm's performance against classical simulated annealing. On the hardest graphs, we observe a superlinear quantum speedup in finding exact solutions in the deep circuit regime and analyze its origins.</description>
+  </item>
+
+  <item>
     <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
     <link>http://arxiv.org/pdf/2202.01054</link>
     <author>Hari Krovi</author>
@@ -199,27 +191,11 @@
   </item>
 
   <item>
-    <title>Simultaneous Measurement and Entanglement</title>
-    <link>http://arxiv.org/pdf/2201.10667</link>
-    <author>Andrey Boris Khesin, Peter Shor</author>
-    <pubDate>Jan 27 2022</pubDate>
-    <description>We study scenarios which arise when two spatially-separated observers, Alice and Bob, are try to identify a quantum state sampled from several possibilities. In particular, we examine their strategies for maximizing both the probability of guessing their state correctly as well as their information gain about it. It is known that there are scenarios where allowing Alice and Bob to use LOCC offers an improvement over the case where they must make their measurements simultaneously. Similarly, Alice and Bob can sometimes improve their outcomes if they have access to a Bell pair. We show how LOCC allows Alice and Bob to distinguish between two product states optimally and find that a LOCC is almost always more helpful than a Bell pair for distinguishing product states.</description>
-  </item>
-
-  <item>
     <title>High-temperature thermalization implies the emergence of quantum state designs</title>
     <link>http://arxiv.org/pdf/2202.01669</link>
     <author>Henrik Wilming, Ingo Roth</author>
     <pubDate>Feb 04 2022</pubDate>
     <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
-  </item>
-
-  <item>
-    <title>Quantum Optimization of Maximum Independent Set using Rydberg Atom Arrays</title>
-    <link>http://arxiv.org/pdf/2202.09372</link>
-    <author>Sepehr Ebadi, Alexander Keesling, Madelyn Cain, Tout T. Wang, Harry Levine, Dolev Bluvstein, Giulia Semeghini, Ahmed Omran, Jinguo Liu, Rhine Samajdar, Xiu-Zhe Luo, Beatrice Nash, Xun Gao, Boaz Barak, Edward Farhi, Subir Sachdev, Nathan Gemelke, Leo Zhou, Soonwon Choi, Hannes Pichler, et al (4)</author>
-    <pubDate>Feb 22 2022</pubDate>
-    <description>Realizing quantum speedup for practically relevant, computationally hard problems is a central challenge in quantum information science. Using Rydberg atom arrays with up to 289 qubits in two spatial dimensions, we experimentally investigate quantum algorithms for solving the Maximum Independent Set problem. We use a hardware-efficient encoding associated with Rydberg blockade, realize closed-loop optimization to test several variational algorithms, and subsequently apply them to systematically explore a class of graphs with programmable connectivity. We find the problem hardness is controlled by the solution degeneracy and number of local minima, and experimentally benchmark the quantum algorithm's performance against classical simulated annealing. On the hardest graphs, we observe a superlinear quantum speedup in finding exact solutions in the deep circuit regime and analyze its origins.</description>
   </item>
 
   <item>
@@ -244,6 +220,30 @@
     <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
     <pubDate>Feb 10 2022</pubDate>
     <description>We introduce a method for extracting meaningful entanglement measures of tensor network states in general dimensions. Current methods require the explicit reconstruction of the density matrix, which is highly demanding, or the contraction of replicas, which requires an effort exponential in the number of replicas and which is costly in terms of memory. In contrast, our method requires the stochastic sampling of matrix elements of the classically represented reduced states with respect to random states drawn from simple product probability measures constituting frames. Even though not corresponding to physical operations, such matrix elements are straightforward to calculate for tensor network states, and their moments provide the Rényi entropies and negativities as well as their symmetry-resolved components. We test our method on the one-dimensional critical XX chain and the two-dimensional toric code. Although the cost is exponential in the subsystem size, it is sufficiently moderate so that - in contrast with other approaches - accurate results can be obtained on a personal computer for relatively large subsystem sizes.</description>
+  </item>
+
+  <item>
+    <title>Approximating Output Probabilities of Shallow Quantum Circuits which are Geometrically-local in any Fixed Dimension</title>
+    <link>http://arxiv.org/pdf/2202.08349</link>
+    <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
+    <pubDate>Feb 18 2022</pubDate>
+    <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
+  </item>
+
+  <item>
+    <title>Counting unitaries of T-depth one</title>
+    <link>http://arxiv.org/pdf/2202.04163</link>
+    <author>Vadym Kliuchnikov</author>
+    <pubDate>Feb 10 2022</pubDate>
+    <description>We show that the number of T-depth one unitaries on $n$ qubits is $ \sum_{m=1}^{n}\tfrac{1}{m!}\prod_{k=0}^{m-1}(4^n/2^k - 2^k) \times \# \mathcal{C}_n, $ where $\#\mathcal{C}_n$ is the size of the $n$-qubit Clifford group, that is the number of unitaries of T-depth zero. The number of T-depth one unitaries on $n$ qubits grows as $2^{\Omega(n^2)} \cdot \# \mathcal{C}_n$.</description>
+  </item>
+
+  <item>
+    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
+    <link>http://arxiv.org/pdf/2202.01861</link>
+    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
   </item>
 
 </channel>

@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Benchmarking the Planar Honeycomb Code</title>
-    <link>http://arxiv.org/pdf/2202.11845</link>
-    <author>Craig Gidney, Michael Newman</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
+    <title>Biological error correction codes generate fault-tolerant neural networks</title>
+    <link>http://arxiv.org/pdf/2202.12887</link>
+    <author>Alexander Zlokapa, Andrew K. Tan, John M. Martyn, Max Tegmark, Isaac L. Chuang</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>It has been an open question in deep learning if fault-tolerant computation is possible: can arbitrarily reliable computation be achieved using only unreliable neurons? In the mammalian cortex, analog error correction codes known as grid codes have been observed to protect states against neural spiking noise, but their role in information processing is unclear. Here, we use these biological codes to show that a universal fault-tolerant neural network can be achieved if the faultiness of each neuron lies below a sharp threshold, which we find coincides in order of magnitude with noise observed in biological neurons. The discovery of a sharp phase transition from faulty to fault-tolerant neural computation opens a path towards understanding noisy analog systems in artificial intelligence and neuroscience.</description>
   </item>
 
   <item>
-    <title>Performance of planar Floquet codes with Majorana-based qubits</title>
-    <link>http://arxiv.org/pdf/2202.11829</link>
-    <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
+    <title>One-dimensional SPT phases protected by frieze symmetries</title>
+    <link>http://arxiv.org/pdf/2202.12880</link>
+    <author>Bram Vancraeynest-De Cuiper, Nicolas Dewolf, Jutho Haegeman, Frank Verstraete</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>We undertake a systematic study of symmetry-protected topological gapped phases of quantum spin chains in the presence of the quasi-one-dimensional frieze space groups. Here, the spatial symmetries of the one-dimensional lattice are considered together with an additional 'vertical reflection', which we take to be an on-site $\mathbb{Z}_2$ symmetry. We identify seventeen distinct non-trivial phases and define canonical forms. If time-reversal is combined with a shift over one site, then no new topological phases arise. We furthermore construct explicit renormalization-group fixed point wavefunctions for symmetry-protected topological phases with global on-site symmetries, and demonstrate how group cohomology can be computed using the Smith normal form</description>
   </item>
 
   <item>
-    <title>Bounding quantum capacities via partial orders and complementarity</title>
-    <link>http://arxiv.org/pdf/2202.11688</link>
-    <author>Christoph Hirche, Felix Leditzky</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>Quantum capacities are fundamental quantities that are notoriously hard to compute and can exhibit surprising properties such as superadditivity. Thus, a vast amount of literature is devoted to finding tight and computable bounds on these capacities. We add a new viewpoint by giving operationally motivated bounds on several capacities, including the quantum capacity and private capacity of a quantum channel and the one-way distillable entanglement and private key of a quantum state. These bounds are generally phrased in terms of capacity quantities involving the complementary channel or state. As a tool to obtain these bounds, we discuss partial orders on quantum channels and states, such as the less noisy and the more capable order. Our bounds help to further understand the interplay between different capacities, as they give operational limitations on superadditivity and the difference between capacities in terms of the information-theoretic properties of the complementary channel or state. They can also be used as a new approach towards numerically bounding capacities, as discussed with some examples.</description>
+    <title>Learning Dynamic Mechanisms in Unknown Environments: A Reinforcement Learning Approach</title>
+    <link>http://arxiv.org/pdf/2202.12797</link>
+    <author>Boxiang Lyu, Qinglin Meng, Shuang Qiu, Zhaoran Wang, Zhuoran Yang, Michael I. Jordan</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>Dynamic mechanism design studies how mechanism designers should allocate resources among agents in a time-varying environment. We consider the problem where the agents interact with the mechanism designer according to an unknown Markov Decision Process (MDP), where agent rewards and the mechanism designer's state evolve according to an episodic MDP with unknown reward functions and transition kernels. We focus on the online setting with linear function approximation and attempt to recover the dynamic Vickrey-Clarke-Grove (VCG) mechanism over multiple rounds of interaction. A key contribution of our work is incorporating reward-free online Reinforcement Learning (RL) to aid exploration over a rich policy space to estimate prices in the dynamic VCG mechanism. We show that the regret of our proposed method is upper bounded by $\tilde{\mathcal{O}}(T^{2/3})$ and further devise a lower bound to show that our algorithm is efficient, incurring the same $\tilde{\mathcal{O}}(T^{2 / 3})$ regret as the lower bound, where $T$ is the total number of rounds. Our work establishes the regret guarantee for online RL in solving dynamic mechanism design problems without prior knowledge of the underlying model.</description>
   </item>
 
   <item>
-    <title>Hybrid Quantum-Classical Search Algorithms</title>
-    <link>http://arxiv.org/pdf/2202.11443</link>
-    <author>Ansis Rosmanis</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>Search is one of the most commonly used primitives in quantum algorithm design. It is known that quadratic speedups provided by Grover's algorithm are optimal, and no faster quantum algorithms for Search exist. While it is known that at least some quantum computation is required to achieve these speedups, the existing bounds do not rule out the possibility of an equally fast hybrid quantum-classical algorithm where most of the computation is classical. In this work, we study such hybrid algorithms and we show that classical computation, unless it by itself can solve the Search problem, cannot assist quantum computation. In addition, we generalize this result to algorithms with subconstant success probabilities.</description>
+    <title>Towards Optimal Lower Bounds for k-median and k-means Coresets</title>
+    <link>http://arxiv.org/pdf/2202.12793</link>
+    <author>Vincent Cohen-Addad, Kasper Green Larsen, David Saulpic, Chris Schwiegelshohn</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>Given a set of points in a metric space, the $(k,z)$-clustering problem consists of finding a set of $k$ points called centers, such that the sum of distances raised to the power of $z$ of every data point to its closest center is minimized. Special cases include the famous k-median problem ($z = 1$) and k-means problem ($z = 2$). The $k$-median and $k$-means problems are at the heart of modern data analysis and massive data applications have given raise to the notion of coreset: a small (weighted) subset of the input point set preserving the cost of any solution to the problem up to a multiplicative $(1 \pm \varepsilon)$ factor, hence reducing from large to small scale the input to the problem. In this paper, we present improved lower bounds for coresets in various metric spaces. In finite metrics consisting of $n$ points and doubling metrics with doubling constant $D$, we show that any coreset for $(k,z)$ clustering must consist of at least $\Omega(k \varepsilon^{-2} \log n)$ and $\Omega(k \varepsilon^{-2} D)$ points, respectively. Both bounds match previous upper bounds up to polylog factors. In Euclidean spaces, we show that any coreset for $(k,z)$ clustering must consists of at least $\Omega(k\varepsilon^{-2})$ points. We complement these lower bounds with a coreset construction consisting of at most $\tilde{O}(k\varepsilon^{-2}\cdot \min(\varepsilon^{-z},k))$ points.</description>
   </item>
 
   <item>
-    <title>Towards a general framework of Randomized Benchmarking for non-Markovian Noise</title>
-    <link>http://arxiv.org/pdf/2202.11338</link>
-    <author>Pedro Figueroa-Romero, Kavan Modi, Min-Hsiu Hsieh</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>The rapid progress in the development of quantum devices is in large part due to the availability of a wide range of characterization techniques allowing to probe, test and adjust them. Nevertheless, these methods often make use of approximations that hold in rather simplistic circumstances. In particular, assuming that error mechanisms stay constant in time and have no dependence in the past, is something that will be impossible to do as quantum processors continue scaling up in depth and size. We establish a theoretical framework for the Randomized Benchmarking protocol encompassing temporally-correlated, so-called non-Markovian noise, at the gate level, for any gate set belonging to a wide class of finite groups. We obtain a general expression for the Average Sequence Fidelity (ASF) and propose a way to obtain average gate fidelities of full non-Markovian noise processes. Moreover, we obtain conditions that are fulfilled when an ASF displays authentic non-Markovian deviations. Finally, we show that even though gate-dependence does not translate into a perturbative term within the ASF, as in the Markovian case, the non-Markovian sequence fidelity nevertheless remains stable under small gate-dependent perturbations.</description>
+    <title>Relation between Quantum Coherence and Quantum Entanglement in Quantum Measurements</title>
+    <link>http://arxiv.org/pdf/2202.12656</link>
+    <author>Ho-Joon Kim, Soojoon Lee</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>Quantum measurement is a class of quantum channels that sends quantum states to classical states. We set up resource theories of quantum coherence and quantum entanglement for quantum measurements and find relations between them. For this, we conceive a relative entropy type quantity to account for the quantum resources of quantum measurements. The quantum coherence of a quantum measurement can be converted into the entanglement in a bipartite quantum measurement through coherence-non generating transformations. Conversely, a quantum entanglement monotone of quantum measurements induces a quantum coherence monotone of quantum measurement. Our results confirm that the intuition on the link between quantum coherence and quantum entanglement is valid even for quantum measurements which do not generate any quantum resource.</description>
   </item>
 
 </channel>

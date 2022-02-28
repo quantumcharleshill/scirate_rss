@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Circuit Extraction for ZX-diagrams can be #P-hard</title>
-    <link>http://arxiv.org/pdf/2202.09194</link>
-    <author>Niel de Beaudrap, Aleks Kissinger, John van de Wetering</author>
-    <pubDate>Feb 21 2022</pubDate>
-    <description>The ZX-calculus is a graphical language for reasoning about quantum computation using ZX-diagrams, a certain flexible generalisation of quantum circuits that can be used to represent linear maps from $m$ to $n$ qubits for any $m,n \geq 0$. Some applications for the ZX-calculus, such as quantum circuit optimisation and synthesis, rely on being able to efficiently translate a ZX-diagram back into a quantum circuit of comparable size. While several sufficient conditions are known for describing families of ZX-diagrams that can be efficiently transformed back into circuits, it has previously been conjectured that the general problem of circuit extraction is hard. That is, that it should not be possible to efficiently convert an arbitrary ZX-diagram describing a unitary linear map into an equivalent quantum circuit. In this paper we prove this conjecture by showing that the circuit extraction problem is #P-hard, and so is itself at least as hard as strong simulation of quantum circuits. In addition to our main hardness result, which relies specifically on the circuit representation, we give a representation-agnostic hardness result. Namely, we show that any oracle that takes as input a ZX-diagram description of a unitary and produces samples of the output of the associated quantum computation enables efficient probabilistic solutions to NP-complete problems.</description>
-  </item>
-
-  <item>
     <title>Quantum Differential Privacy: An Information Theory Perspective</title>
     <link>http://arxiv.org/pdf/2202.10717</link>
     <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
@@ -63,14 +55,6 @@
   </item>
 
   <item>
-    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
-    <link>http://arxiv.org/pdf/2202.09202</link>
-    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
-    <pubDate>Feb 21 2022</pubDate>
-    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
-  </item>
-
-  <item>
     <title>Bounding quantum capacities via partial orders and complementarity</title>
     <link>http://arxiv.org/pdf/2202.11688</link>
     <author>Christoph Hirche, Felix Leditzky</author>
@@ -84,6 +68,22 @@
     <author>Ansis Rosmanis</author>
     <pubDate>Feb 24 2022</pubDate>
     <description>Search is one of the most commonly used primitives in quantum algorithm design. It is known that quadratic speedups provided by Grover's algorithm are optimal, and no faster quantum algorithms for Search exist. While it is known that at least some quantum computation is required to achieve these speedups, the existing bounds do not rule out the possibility of an equally fast hybrid quantum-classical algorithm where most of the computation is classical. In this work, we study such hybrid algorithms and we show that classical computation, unless it by itself can solve the Search problem, cannot assist quantum computation. In addition, we generalize this result to algorithms with subconstant success probabilities.</description>
+  </item>
+
+  <item>
+    <title>SupermarQ: A Scalable Quantum Benchmark Suite</title>
+    <link>http://arxiv.org/pdf/2202.11045</link>
+    <author>Teague Tomesh, Pranav Gokhale, Victory Omole, Gokul Subramanian Ravi, Kaitlin N. Smith, Joshua Viszlai, Xin-Chuan Wu, Nikos Hardavellas, Margaret R. Martonosi, Frederic T. Chong</author>
+    <pubDate>Feb 23 2022</pubDate>
+    <description>The emergence of quantum computers as a new computational paradigm has been accompanied by speculation concerning the scope and timeline of their anticipated revolutionary changes. While quantum computing is still in its infancy, the variety of different architectures used to implement quantum computations make it difficult to reliably measure and compare performance. This problem motivates our introduction of SupermarQ, a scalable, hardware-agnostic quantum benchmark suite which uses application-level metrics to measure performance. SupermarQ is the first attempt to systematically apply techniques from classical benchmarking methodology to the quantum domain. We define a set of feature vectors to quantify coverage, select applications from a variety of domains to ensure the suite is representative of real workloads, and collect benchmark results from the IBM, IonQ, and AQT@LBNL platforms. Looking forward, we envision that quantum benchmarking will encompass a large cross-community effort built on open source, constantly evolving benchmark suites. We introduce SupermarQ as an important step in this direction.</description>
+  </item>
+
+  <item>
+    <title>Towards a general framework of Randomized Benchmarking for non-Markovian Noise</title>
+    <link>http://arxiv.org/pdf/2202.11338</link>
+    <author>Pedro Figueroa-Romero, Kavan Modi, Min-Hsiu Hsieh</author>
+    <pubDate>Feb 24 2022</pubDate>
+    <description>The rapid progress in the development of quantum devices is in large part due to the availability of a wide range of characterization techniques allowing to probe, test and adjust them. Nevertheless, these methods often make use of approximations that hold in rather simplistic circumstances. In particular, assuming that error mechanisms stay constant in time and have no dependence in the past, is something that will be impossible to do as quantum processors continue scaling up in depth and size. We establish a theoretical framework for the Randomized Benchmarking protocol encompassing temporally-correlated, so-called non-Markovian noise, at the gate level, for any gate set belonging to a wide class of finite groups. We obtain a general expression for the Average Sequence Fidelity (ASF) and propose a way to obtain average gate fidelities of full non-Markovian noise processes. Moreover, we obtain conditions that are fulfilled when an ASF displays authentic non-Markovian deviations. Finally, we show that even though gate-dependence does not translate into a perturbative term within the ASF, as in the Markovian case, the non-Markovian sequence fidelity nevertheless remains stable under small gate-dependent perturbations.</description>
   </item>
 
 </channel>
