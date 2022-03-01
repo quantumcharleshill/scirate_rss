@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Biological error correction codes generate fault-tolerant neural networks</title>
-    <link>http://arxiv.org/pdf/2202.12887</link>
-    <author>Alexander Zlokapa, Andrew K. Tan, John M. Martyn, Max Tegmark, Isaac L. Chuang</author>
+    <title>Optimizing thermalizations</title>
+    <link>http://arxiv.org/pdf/2202.12616</link>
+    <author>Kamil Korzekwa, Matteo Lostaglio</author>
     <pubDate>Feb 28 2022</pubDate>
-    <description>It has been an open question in deep learning if fault-tolerant computation is possible: can arbitrarily reliable computation be achieved using only unreliable neurons? In the mammalian cortex, analog error correction codes known as grid codes have been observed to protect states against neural spiking noise, but their role in information processing is unclear. Here, we use these biological codes to show that a universal fault-tolerant neural network can be achieved if the faultiness of each neuron lies below a sharp threshold, which we find coincides in order of magnitude with noise observed in biological neurons. The discovery of a sharp phase transition from faulty to fault-tolerant neural computation opens a path towards understanding noisy analog systems in artificial intelligence and neuroscience.</description>
+    <description>We present a rigorous approach, based on the concept of continuous thermomajorisation, to algorithmically characterise the full set of energy occupations of a quantum system accessible from a given initial state through weak interactions with a heat bath. The algorithm can be deployed to solve complex optimization problems in out-of-equilibrium setups and it returns explicit elementary control sequences realizing optimal transformations. We illustrate this by finding optimal protocols in the context of cooling, work extraction and catalysis. The same tools also allow one to quantitatively assess the role played by memory effects in the performance of thermodynamic protocols. We obtained exhaustive solutions on a laptop machine for systems with dimension $d\leq 7$, but with heuristic methods one could access much higher $d$.</description>
   </item>
 
   <item>
@@ -23,19 +23,11 @@
   </item>
 
   <item>
-    <title>Learning Dynamic Mechanisms in Unknown Environments: A Reinforcement Learning Approach</title>
-    <link>http://arxiv.org/pdf/2202.12797</link>
-    <author>Boxiang Lyu, Qinglin Meng, Shuang Qiu, Zhaoran Wang, Zhuoran Yang, Michael I. Jordan</author>
+    <title>Physics solutions for machine learning privacy leaks</title>
+    <link>http://arxiv.org/pdf/2202.12319</link>
+    <author>Alejandro Pozas-Kerstjens, Senaida Hernández-Santana, José Ramón Pareja Monturiol, Marco Castrillón López, Giannicola Scarpa, Carlos E. González-Guillén, David Pérez-García</author>
     <pubDate>Feb 28 2022</pubDate>
-    <description>Dynamic mechanism design studies how mechanism designers should allocate resources among agents in a time-varying environment. We consider the problem where the agents interact with the mechanism designer according to an unknown Markov Decision Process (MDP), where agent rewards and the mechanism designer's state evolve according to an episodic MDP with unknown reward functions and transition kernels. We focus on the online setting with linear function approximation and attempt to recover the dynamic Vickrey-Clarke-Grove (VCG) mechanism over multiple rounds of interaction. A key contribution of our work is incorporating reward-free online Reinforcement Learning (RL) to aid exploration over a rich policy space to estimate prices in the dynamic VCG mechanism. We show that the regret of our proposed method is upper bounded by $\tilde{\mathcal{O}}(T^{2/3})$ and further devise a lower bound to show that our algorithm is efficient, incurring the same $\tilde{\mathcal{O}}(T^{2 / 3})$ regret as the lower bound, where $T$ is the total number of rounds. Our work establishes the regret guarantee for online RL in solving dynamic mechanism design problems without prior knowledge of the underlying model.</description>
-  </item>
-
-  <item>
-    <title>Towards Optimal Lower Bounds for k-median and k-means Coresets</title>
-    <link>http://arxiv.org/pdf/2202.12793</link>
-    <author>Vincent Cohen-Addad, Kasper Green Larsen, David Saulpic, Chris Schwiegelshohn</author>
-    <pubDate>Feb 28 2022</pubDate>
-    <description>Given a set of points in a metric space, the $(k,z)$-clustering problem consists of finding a set of $k$ points called centers, such that the sum of distances raised to the power of $z$ of every data point to its closest center is minimized. Special cases include the famous k-median problem ($z = 1$) and k-means problem ($z = 2$). The $k$-median and $k$-means problems are at the heart of modern data analysis and massive data applications have given raise to the notion of coreset: a small (weighted) subset of the input point set preserving the cost of any solution to the problem up to a multiplicative $(1 \pm \varepsilon)$ factor, hence reducing from large to small scale the input to the problem. In this paper, we present improved lower bounds for coresets in various metric spaces. In finite metrics consisting of $n$ points and doubling metrics with doubling constant $D$, we show that any coreset for $(k,z)$ clustering must consist of at least $\Omega(k \varepsilon^{-2} \log n)$ and $\Omega(k \varepsilon^{-2} D)$ points, respectively. Both bounds match previous upper bounds up to polylog factors. In Euclidean spaces, we show that any coreset for $(k,z)$ clustering must consists of at least $\Omega(k\varepsilon^{-2})$ points. We complement these lower bounds with a coreset construction consisting of at most $\tilde{O}(k\varepsilon^{-2}\cdot \min(\varepsilon^{-z},k))$ points.</description>
+    <description>Machine learning systems are becoming more and more ubiquitous in increasingly complex areas, including cutting-edge scientific research. The opposite is also true: the interest in better understanding the inner workings of machine learning systems motivates their analysis under the lens of different scientific disciplines. Physics is particularly successful in this, due to its ability to describe complex dynamical systems. While explanations of phenomena in machine learning based on physics are increasingly present, examples of direct application of notions akin to physics in order to improve machine learning systems are more scarce. Here we provide one such application in the problem of developing algorithms that preserve the privacy of the manipulated data, which is especially important in tasks such as the processing of medical records. We develop well-defined conditions to guarantee robustness to specific types of privacy leaks, and rigorously prove that such conditions are satisfied by tensor-network architectures. These are inspired by the efficient representation of quantum many-body systems, and have shown to compete and even surpass traditional machine learning architectures in certain cases. Given the growing expertise in training tensor-network architectures, these results imply that one may not have to be forced to make a choice between accuracy in prediction and ensuring the privacy of the information processed.</description>
   </item>
 
   <item>
@@ -44,6 +36,14 @@
     <author>Ho-Joon Kim, Soojoon Lee</author>
     <pubDate>Feb 28 2022</pubDate>
     <description>Quantum measurement is a class of quantum channels that sends quantum states to classical states. We set up resource theories of quantum coherence and quantum entanglement for quantum measurements and find relations between them. For this, we conceive a relative entropy type quantity to account for the quantum resources of quantum measurements. The quantum coherence of a quantum measurement can be converted into the entanglement in a bipartite quantum measurement through coherence-non generating transformations. Conversely, a quantum entanglement monotone of quantum measurements induces a quantum coherence monotone of quantum measurement. Our results confirm that the intuition on the link between quantum coherence and quantum entanglement is valid even for quantum measurements which do not generate any quantum resource.</description>
+  </item>
+
+  <item>
+    <title>On distinguishability distillation and dilution exponents</title>
+    <link>http://arxiv.org/pdf/2202.12433</link>
+    <author>Mark M. Wilde</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>In this note, I define error exponents and strong converse exponents for the tasks of distinguishability distillation and dilution. These are counterparts to the one-shot distillable distinguishability and the one-shot distinguishability cost, as previously defined in the resource theory of asymmetric distinguishability. I show that they can be evaluated by semi-definite programming, establish a number of their properties, bound them using Rényi relative entropies, and relate them to each other.</description>
   </item>
 
 </channel>

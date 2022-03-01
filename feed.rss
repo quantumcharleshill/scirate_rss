@@ -39,6 +39,14 @@
   </item>
 
   <item>
+    <title>Benchmarking the Planar Honeycomb Code</title>
+    <link>http://arxiv.org/pdf/2202.11845</link>
+    <author>Craig Gidney, Michael Newman</author>
+    <pubDate>Feb 25 2022</pubDate>
+    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
+  </item>
+
+  <item>
     <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
     <link>http://arxiv.org/pdf/2202.02138</link>
     <author>Glen Evenbly</author>
@@ -52,14 +60,6 @@
     <author>Olivier Ezratty</author>
     <pubDate>Feb 07 2022</pubDate>
     <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It could cut short research and innovation funding, creating some sort of quantum winter. After looking at the shape and form of technology and science hypes and driving some lessons from past hypes, we investigate the current quantum hype and its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively sane and solid compared to other technology hypes. The vendors hype has some profound and disruptive impact on the organization of fundamental research. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach.</description>
-  </item>
-
-  <item>
-    <title>Benchmarking the Planar Honeycomb Code</title>
-    <link>http://arxiv.org/pdf/2202.11845</link>
-    <author>Craig Gidney, Michael Newman</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
   </item>
 
   <item>
@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Circuit Extraction for ZX-diagrams can be #P-hard</title>
-    <link>http://arxiv.org/pdf/2202.09194</link>
-    <author>Niel de Beaudrap, Aleks Kissinger, John van de Wetering</author>
-    <pubDate>Feb 21 2022</pubDate>
-    <description>The ZX-calculus is a graphical language for reasoning about quantum computation using ZX-diagrams, a certain flexible generalisation of quantum circuits that can be used to represent linear maps from $m$ to $n$ qubits for any $m,n \geq 0$. Some applications for the ZX-calculus, such as quantum circuit optimisation and synthesis, rely on being able to efficiently translate a ZX-diagram back into a quantum circuit of comparable size. While several sufficient conditions are known for describing families of ZX-diagrams that can be efficiently transformed back into circuits, it has previously been conjectured that the general problem of circuit extraction is hard. That is, that it should not be possible to efficiently convert an arbitrary ZX-diagram describing a unitary linear map into an equivalent quantum circuit. In this paper we prove this conjecture by showing that the circuit extraction problem is #P-hard, and so is itself at least as hard as strong simulation of quantum circuits. In addition to our main hardness result, which relies specifically on the circuit representation, we give a representation-agnostic hardness result. Namely, we show that any oracle that takes as input a ZX-diagram description of a unitary and produces samples of the output of the associated quantum computation enables efficient probabilistic solutions to NP-complete problems.</description>
-  </item>
-
-  <item>
     <title>Quantum Differential Privacy: An Information Theory Perspective</title>
     <link>http://arxiv.org/pdf/2202.10717</link>
     <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
     <pubDate>Feb 23 2022</pubDate>
     <description>Differential privacy has been an exceptionally successful concept when it comes to providing provable security guarantees for classical computations. More recently, the concept was generalized to quantum computations. While classical computations are essentially noiseless and differential privacy is often achieved by artificially adding noise, near-term quantum computers are inherently noisy and it was observed that this leads to natural differential privacy as a feature. In this work we discuss quantum differential privacy in an information theoretic framework by casting it as a quantum divergence. A main advantage of this approach is that differential privacy becomes a property solely based on the output states of the computation, without the need to check it for every measurement. This leads to simpler proofs and generalized statements of its properties as well as several new bounds for both, general and specific, noise models. In particular, these include common representations of quantum circuits and quantum machine learning concepts. Here, we focus on the difference in the amount of noise required to achieve certain levels of differential privacy versus the amount that would make any computation useless. Finally, we also generalize the classical concepts of local differential privacy, Rényi differential privacy and the hypothesis testing interpretation to the quantum setting, providing several new properties and insights.</description>
+  </item>
+
+  <item>
+    <title>Circuit Extraction for ZX-diagrams can be #P-hard</title>
+    <link>http://arxiv.org/pdf/2202.09194</link>
+    <author>Niel de Beaudrap, Aleks Kissinger, John van de Wetering</author>
+    <pubDate>Feb 21 2022</pubDate>
+    <description>The ZX-calculus is a graphical language for reasoning about quantum computation using ZX-diagrams, a certain flexible generalisation of quantum circuits that can be used to represent linear maps from $m$ to $n$ qubits for any $m,n \geq 0$. Some applications for the ZX-calculus, such as quantum circuit optimisation and synthesis, rely on being able to efficiently translate a ZX-diagram back into a quantum circuit of comparable size. While several sufficient conditions are known for describing families of ZX-diagrams that can be efficiently transformed back into circuits, it has previously been conjectured that the general problem of circuit extraction is hard. That is, that it should not be possible to efficiently convert an arbitrary ZX-diagram describing a unitary linear map into an equivalent quantum circuit. In this paper we prove this conjecture by showing that the circuit extraction problem is #P-hard, and so is itself at least as hard as strong simulation of quantum circuits. In addition to our main hardness result, which relies specifically on the circuit representation, we give a representation-agnostic hardness result. Namely, we show that any oracle that takes as input a ZX-diagram description of a unitary and produces samples of the output of the associated quantum computation enables efficient probabilistic solutions to NP-complete problems.</description>
   </item>
 
   <item>
