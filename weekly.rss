@@ -15,19 +15,11 @@
   </item>
 
   <item>
-    <title>Quantum Differential Privacy: An Information Theory Perspective</title>
-    <link>http://arxiv.org/pdf/2202.10717</link>
-    <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
-    <pubDate>Feb 23 2022</pubDate>
-    <description>Differential privacy has been an exceptionally successful concept when it comes to providing provable security guarantees for classical computations. More recently, the concept was generalized to quantum computations. While classical computations are essentially noiseless and differential privacy is often achieved by artificially adding noise, near-term quantum computers are inherently noisy and it was observed that this leads to natural differential privacy as a feature. In this work we discuss quantum differential privacy in an information theoretic framework by casting it as a quantum divergence. A main advantage of this approach is that differential privacy becomes a property solely based on the output states of the computation, without the need to check it for every measurement. This leads to simpler proofs and generalized statements of its properties as well as several new bounds for both, general and specific, noise models. In particular, these include common representations of quantum circuits and quantum machine learning concepts. Here, we focus on the difference in the amount of noise required to achieve certain levels of differential privacy versus the amount that would make any computation useless. Finally, we also generalize the classical concepts of local differential privacy, Rényi differential privacy and the hypothesis testing interpretation to the quantum setting, providing several new properties and insights.</description>
-  </item>
-
-  <item>
-    <title>Limitations of nearest-neighbour quantum networks</title>
-    <link>http://arxiv.org/pdf/2202.10886</link>
-    <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
-    <pubDate>Feb 23 2022</pubDate>
-    <description>Quantum communication research has in recent years shifted to include multi-partite networks for which questions of quantum network routing naturally emerge. To understand the potential for multi-partite routing, we focus on the most promising architectures for future quantum networks - those connecting nodes close to each other. Nearest-neighbour networks such as rings, lines, and grids, have been studied under different communication scenarios to facilitate the sharing of quantum resources, especially in the presence of bottlenecks. We here analyze the potential of nearest-neighbour quantum networks and identify some serious limitations, by demonstrating that rings and lines cannot overcome common bottleneck communication problems.</description>
+    <title>Quantum Tanner codes</title>
+    <link>http://arxiv.org/pdf/2202.13641</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>Tanner codes are long error correcting codes obtained from short codes and a graph, with bits on the edges and parity-check constraints from the short codes enforced at the vertices of the graph. Combining good short codes together with a spectral expander graph yields the celebrated expander codes of Sipser and Spielman, which are asymptotically good classical LDPC codes. In this work we apply this prescription to the left-right Cayley complex that lies at the heart of the recent construction of a $c^3$ locally testable code by Dinur et al. Specifically, we view this complex as two graphs that share the same set of edges. By defining a Tanner code on each of those graphs we obtain two classical codes that together define a quantum code. This construction can be seen as a simplified variant of the Panteleev and Kalachev asymptotically good quantum LDPC code, with improved estimates for its minimum distance. This quantum code is closely related to the Dinur et al. code in more than one sense: indeed, we prove a theorem that simultaneously gives a linearly growing minimum distance for the quantum code and recovers the local testability of the Dinur et al. code.</description>
   </item>
 
   <item>
@@ -39,11 +31,11 @@
   </item>
 
   <item>
-    <title>Bounding quantum capacities via partial orders and complementarity</title>
-    <link>http://arxiv.org/pdf/2202.11688</link>
-    <author>Christoph Hirche, Felix Leditzky</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>Quantum capacities are fundamental quantities that are notoriously hard to compute and can exhibit surprising properties such as superadditivity. Thus, a vast amount of literature is devoted to finding tight and computable bounds on these capacities. We add a new viewpoint by giving operationally motivated bounds on several capacities, including the quantum capacity and private capacity of a quantum channel and the one-way distillable entanglement and private key of a quantum state. These bounds are generally phrased in terms of capacity quantities involving the complementary channel or state. As a tool to obtain these bounds, we discuss partial orders on quantum channels and states, such as the less noisy and the more capable order. Our bounds help to further understand the interplay between different capacities, as they give operational limitations on superadditivity and the difference between capacities in terms of the information-theoretic properties of the complementary channel or state. They can also be used as a new approach towards numerically bounding capacities, as discussed with some examples.</description>
+    <title>Classical Verification of Quantum Computations in Linear Time</title>
+    <link>http://arxiv.org/pdf/2202.13997</link>
+    <author>Jiayu Zhang</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
   </item>
 
   <item>
@@ -63,6 +55,14 @@
   </item>
 
   <item>
+    <title>Bounding quantum capacities via partial orders and complementarity</title>
+    <link>http://arxiv.org/pdf/2202.11688</link>
+    <author>Christoph Hirche, Felix Leditzky</author>
+    <pubDate>Feb 24 2022</pubDate>
+    <description>Quantum capacities are fundamental quantities that are notoriously hard to compute and can exhibit surprising properties such as superadditivity. Thus, a vast amount of literature is devoted to finding tight and computable bounds on these capacities. We add a new viewpoint by giving operationally motivated bounds on several capacities, including the quantum capacity and private capacity of a quantum channel and the one-way distillable entanglement and private key of a quantum state. These bounds are generally phrased in terms of capacity quantities involving the complementary channel or state. As a tool to obtain these bounds, we discuss partial orders on quantum channels and states, such as the less noisy and the more capable order. Our bounds help to further understand the interplay between different capacities, as they give operational limitations on superadditivity and the difference between capacities in terms of the information-theoretic properties of the complementary channel or state. They can also be used as a new approach towards numerically bounding capacities, as discussed with some examples.</description>
+  </item>
+
+  <item>
     <title>One-dimensional SPT phases protected by frieze symmetries</title>
     <link>http://arxiv.org/pdf/2202.12880</link>
     <author>Bram Vancraeynest-De Cuiper, Nicolas Dewolf, Jutho Haegeman, Frank Verstraete</author>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>SupermarQ: A Scalable Quantum Benchmark Suite</title>
-    <link>http://arxiv.org/pdf/2202.11045</link>
-    <author>Teague Tomesh, Pranav Gokhale, Victory Omole, Gokul Subramanian Ravi, Kaitlin N. Smith, Joshua Viszlai, Xin-Chuan Wu, Nikos Hardavellas, Margaret R. Martonosi, Frederic T. Chong</author>
-    <pubDate>Feb 23 2022</pubDate>
-    <description>The emergence of quantum computers as a new computational paradigm has been accompanied by speculation concerning the scope and timeline of their anticipated revolutionary changes. While quantum computing is still in its infancy, the variety of different architectures used to implement quantum computations make it difficult to reliably measure and compare performance. This problem motivates our introduction of SupermarQ, a scalable, hardware-agnostic quantum benchmark suite which uses application-level metrics to measure performance. SupermarQ is the first attempt to systematically apply techniques from classical benchmarking methodology to the quantum domain. We define a set of feature vectors to quantify coverage, select applications from a variety of domains to ensure the suite is representative of real workloads, and collect benchmark results from the IBM, IonQ, and AQT@LBNL platforms. Looking forward, we envision that quantum benchmarking will encompass a large cross-community effort built on open source, constantly evolving benchmark suites. We introduce SupermarQ as an important step in this direction.</description>
-  </item>
-
-  <item>
     <title>Physics solutions for machine learning privacy leaks</title>
     <link>http://arxiv.org/pdf/2202.12319</link>
     <author>Alejandro Pozas-Kerstjens, Senaida Hernández-Santana, José Ramón Pareja Monturiol, Marco Castrillón López, Giannicola Scarpa, Carlos E. González-Guillén, David Pérez-García</author>
     <pubDate>Feb 28 2022</pubDate>
     <description>Machine learning systems are becoming more and more ubiquitous in increasingly complex areas, including cutting-edge scientific research. The opposite is also true: the interest in better understanding the inner workings of machine learning systems motivates their analysis under the lens of different scientific disciplines. Physics is particularly successful in this, due to its ability to describe complex dynamical systems. While explanations of phenomena in machine learning based on physics are increasingly present, examples of direct application of notions akin to physics in order to improve machine learning systems are more scarce. Here we provide one such application in the problem of developing algorithms that preserve the privacy of the manipulated data, which is especially important in tasks such as the processing of medical records. We develop well-defined conditions to guarantee robustness to specific types of privacy leaks, and rigorously prove that such conditions are satisfied by tensor-network architectures. These are inspired by the efficient representation of quantum many-body systems, and have shown to compete and even surpass traditional machine learning architectures in certain cases. Given the growing expertise in training tensor-network architectures, these results imply that one may not have to be forced to make a choice between accuracy in prediction and ensuring the privacy of the information processed.</description>
+  </item>
+
+  <item>
+    <title>Towards a general framework of Randomized Benchmarking for non-Markovian Noise</title>
+    <link>http://arxiv.org/pdf/2202.11338</link>
+    <author>Pedro Figueroa-Romero, Kavan Modi, Min-Hsiu Hsieh</author>
+    <pubDate>Feb 24 2022</pubDate>
+    <description>The rapid progress in the development of quantum devices is in large part due to the availability of a wide range of characterization techniques allowing to probe, test and adjust them. Nevertheless, these methods often make use of approximations that hold in rather simplistic circumstances. In particular, assuming that error mechanisms stay constant in time and have no dependence in the past, is something that will be impossible to do as quantum processors continue scaling up in depth and size. We establish a theoretical framework for the Randomized Benchmarking protocol encompassing temporally-correlated, so-called non-Markovian noise, at the gate level, for any gate set belonging to a wide class of finite groups. We obtain a general expression for the Average Sequence Fidelity (ASF) and propose a way to obtain average gate fidelities of full non-Markovian noise processes. Moreover, we obtain conditions that are fulfilled when an ASF displays authentic non-Markovian deviations. Finally, we show that even though gate-dependence does not translate into a perturbative term within the ASF, as in the Markovian case, the non-Markovian sequence fidelity nevertheless remains stable under small gate-dependent perturbations.</description>
   </item>
 
 </channel>

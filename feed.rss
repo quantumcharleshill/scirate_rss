@@ -95,6 +95,14 @@
   </item>
 
   <item>
+    <title>Quantum Tanner codes</title>
+    <link>http://arxiv.org/pdf/2202.13641</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>Tanner codes are long error correcting codes obtained from short codes and a graph, with bits on the edges and parity-check constraints from the short codes enforced at the vertices of the graph. Combining good short codes together with a spectral expander graph yields the celebrated expander codes of Sipser and Spielman, which are asymptotically good classical LDPC codes. In this work we apply this prescription to the left-right Cayley complex that lies at the heart of the recent construction of a $c^3$ locally testable code by Dinur et al. Specifically, we view this complex as two graphs that share the same set of edges. By defining a Tanner code on each of those graphs we obtain two classical codes that together define a quantum code. This construction can be seen as a simplified variant of the Panteleev and Kalachev asymptotically good quantum LDPC code, with improved estimates for its minimum distance. This quantum code is closely related to the Dinur et al. code in more than one sense: indeed, we prove a theorem that simultaneously gives a linearly growing minimum distance for the quantum code and recovers the local testability of the Dinur et al. code.</description>
+  </item>
+
+  <item>
     <title>A Quantum Polynomial-Time Solution to The Dihedral Hidden Subgroup Problem</title>
     <link>http://arxiv.org/pdf/2202.09697</link>
     <author>Matthew Moore, Grace Young</author>
@@ -127,6 +135,14 @@
   </item>
 
   <item>
+    <title>Limitations of nearest-neighbour quantum networks</title>
+    <link>http://arxiv.org/pdf/2202.10886</link>
+    <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
+    <pubDate>Feb 23 2022</pubDate>
+    <description>Quantum communication research has in recent years shifted to include multi-partite networks for which questions of quantum network routing naturally emerge. To understand the potential for multi-partite routing, we focus on the most promising architectures for future quantum networks - those connecting nodes close to each other. Nearest-neighbour networks such as rings, lines, and grids, have been studied under different communication scenarios to facilitate the sharing of quantum resources, especially in the presence of bottlenecks. We here analyze the potential of nearest-neighbour quantum networks and identify some serious limitations, by demonstrating that rings and lines cannot overcome common bottleneck communication problems.</description>
+  </item>
+
+  <item>
     <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
     <link>http://arxiv.org/pdf/2202.06647</link>
     <author>Nikolas P. Breuckmann, Simon Burton</author>
@@ -143,19 +159,19 @@
   </item>
 
   <item>
-    <title>Limitations of nearest-neighbour quantum networks</title>
-    <link>http://arxiv.org/pdf/2202.10886</link>
-    <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
-    <pubDate>Feb 23 2022</pubDate>
-    <description>Quantum communication research has in recent years shifted to include multi-partite networks for which questions of quantum network routing naturally emerge. To understand the potential for multi-partite routing, we focus on the most promising architectures for future quantum networks - those connecting nodes close to each other. Nearest-neighbour networks such as rings, lines, and grids, have been studied under different communication scenarios to facilitate the sharing of quantum resources, especially in the presence of bottlenecks. We here analyze the potential of nearest-neighbour quantum networks and identify some serious limitations, by demonstrating that rings and lines cannot overcome common bottleneck communication problems.</description>
-  </item>
-
-  <item>
     <title>Performance of planar Floquet codes with Majorana-based qubits</title>
     <link>http://arxiv.org/pdf/2202.11829</link>
     <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
     <pubDate>Feb 25 2022</pubDate>
     <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
+  </item>
+
+  <item>
+    <title>Classical Verification of Quantum Computations in Linear Time</title>
+    <link>http://arxiv.org/pdf/2202.13997</link>
+    <author>Jiayu Zhang</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
   </item>
 
   <item>
@@ -228,22 +244,6 @@
     <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
     <pubDate>Feb 18 2022</pubDate>
     <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
-  </item>
-
-  <item>
-    <title>Counting unitaries of T-depth one</title>
-    <link>http://arxiv.org/pdf/2202.04163</link>
-    <author>Vadym Kliuchnikov</author>
-    <pubDate>Feb 10 2022</pubDate>
-    <description>We show that the number of T-depth one unitaries on $n$ qubits is $ \sum_{m=1}^{n}\tfrac{1}{m!}\prod_{k=0}^{m-1}(4^n/2^k - 2^k) \times \# \mathcal{C}_n, $ where $\#\mathcal{C}_n$ is the size of the $n$-qubit Clifford group, that is the number of unitaries of T-depth zero. The number of T-depth one unitaries on $n$ qubits grows as $2^{\Omega(n^2)} \cdot \# \mathcal{C}_n$.</description>
-  </item>
-
-  <item>
-    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
-    <link>http://arxiv.org/pdf/2202.01861</link>
-    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
   </item>
 
 </channel>
