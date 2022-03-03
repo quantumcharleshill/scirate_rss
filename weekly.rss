@@ -23,11 +23,11 @@
   </item>
 
   <item>
-    <title>Performance of planar Floquet codes with Majorana-based qubits</title>
-    <link>http://arxiv.org/pdf/2202.11829</link>
-    <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
+    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
+    <link>http://arxiv.org/pdf/2203.00103</link>
+    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
   </item>
 
   <item>
@@ -39,11 +39,19 @@
   </item>
 
   <item>
-    <title>Hybrid Quantum-Classical Search Algorithms</title>
-    <link>http://arxiv.org/pdf/2202.11443</link>
-    <author>Ansis Rosmanis</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>Search is one of the most commonly used primitives in quantum algorithm design. It is known that quadratic speedups provided by Grover's algorithm are optimal, and no faster quantum algorithms for Search exist. While it is known that at least some quantum computation is required to achieve these speedups, the existing bounds do not rule out the possibility of an equally fast hybrid quantum-classical algorithm where most of the computation is classical. In this work, we study such hybrid algorithms and we show that classical computation, unless it by itself can solve the Search problem, cannot assist quantum computation. In addition, we generalize this result to algorithms with subconstant success probabilities.</description>
+    <title>Performance of planar Floquet codes with Majorana-based qubits</title>
+    <link>http://arxiv.org/pdf/2202.11829</link>
+    <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
+    <pubDate>Feb 25 2022</pubDate>
+    <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
+  </item>
+
+  <item>
+    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2203.00212</link>
+    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
   </item>
 
   <item>
@@ -52,14 +60,6 @@
     <author>Kamil Korzekwa, Matteo Lostaglio</author>
     <pubDate>Feb 28 2022</pubDate>
     <description>We present a rigorous approach, based on the concept of continuous thermomajorisation, to algorithmically characterise the full set of energy occupations of a quantum system accessible from a given initial state through weak interactions with a heat bath. The algorithm can be deployed to solve complex optimization problems in out-of-equilibrium setups and it returns explicit elementary control sequences realizing optimal transformations. We illustrate this by finding optimal protocols in the context of cooling, work extraction and catalysis. The same tools also allow one to quantitatively assess the role played by memory effects in the performance of thermodynamic protocols. We obtained exhaustive solutions on a laptop machine for systems with dimension $d\leq 7$, but with heuristic methods one could access much higher $d$.</description>
-  </item>
-
-  <item>
-    <title>Bounding quantum capacities via partial orders and complementarity</title>
-    <link>http://arxiv.org/pdf/2202.11688</link>
-    <author>Christoph Hirche, Felix Leditzky</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>Quantum capacities are fundamental quantities that are notoriously hard to compute and can exhibit surprising properties such as superadditivity. Thus, a vast amount of literature is devoted to finding tight and computable bounds on these capacities. We add a new viewpoint by giving operationally motivated bounds on several capacities, including the quantum capacity and private capacity of a quantum channel and the one-way distillable entanglement and private key of a quantum state. These bounds are generally phrased in terms of capacity quantities involving the complementary channel or state. As a tool to obtain these bounds, we discuss partial orders on quantum channels and states, such as the less noisy and the more capable order. Our bounds help to further understand the interplay between different capacities, as they give operational limitations on superadditivity and the difference between capacities in terms of the information-theoretic properties of the complementary channel or state. They can also be used as a new approach towards numerically bounding capacities, as discussed with some examples.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Towards a general framework of Randomized Benchmarking for non-Markovian Noise</title>
-    <link>http://arxiv.org/pdf/2202.11338</link>
-    <author>Pedro Figueroa-Romero, Kavan Modi, Min-Hsiu Hsieh</author>
-    <pubDate>Feb 24 2022</pubDate>
-    <description>The rapid progress in the development of quantum devices is in large part due to the availability of a wide range of characterization techniques allowing to probe, test and adjust them. Nevertheless, these methods often make use of approximations that hold in rather simplistic circumstances. In particular, assuming that error mechanisms stay constant in time and have no dependence in the past, is something that will be impossible to do as quantum processors continue scaling up in depth and size. We establish a theoretical framework for the Randomized Benchmarking protocol encompassing temporally-correlated, so-called non-Markovian noise, at the gate level, for any gate set belonging to a wide class of finite groups. We obtain a general expression for the Average Sequence Fidelity (ASF) and propose a way to obtain average gate fidelities of full non-Markovian noise processes. Moreover, we obtain conditions that are fulfilled when an ASF displays authentic non-Markovian deviations. Finally, we show that even though gate-dependence does not translate into a perturbative term within the ASF, as in the Markovian case, the non-Markovian sequence fidelity nevertheless remains stable under small gate-dependent perturbations.</description>
+    <title>Optimal quantum dataset for learning a unitary transformation</title>
+    <link>http://arxiv.org/pdf/2203.00546</link>
+    <author>Zhan Yu, Xuanqiang Zhao, Benchi Zhao, Xin Wang</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>Unitary transformations formulate the time evolution of quantum states. How to learn a unitary transformation efficiently is a fundamental problem in quantum machine learning. The most natural and leading strategy is to train a quantum machine learning model based on a quantum dataset. Although presence of more training data results in better models, using too much data reduces the efficiency of training. In this work, we solve the problem on the minimum size of sufficient quantum datasets for learning a unitary transformation exactly, which reveals the power and limitation of quantum data. First, we prove that the minimum size of dataset with pure states is $2^n$ for learning an $n$-qubit unitary transformation. To fully explore the capability of quantum data, we introduce a quantum dataset consisting of $n+1$ mixed states that are sufficient for exact training. The main idea is to simplify the structure utilizing decoupling, which leads to an exponential improvement on the size over the datasets with pure states. Furthermore, we show that the size of quantum dataset with mixed states can be reduced to a constant, which yields an optimal quantum dataset for learning a unitary. We showcase the applications of our results in oracle compiling and Hamiltonian simulation. Notably, to accurately simulate a 3-qubit one-dimensional nearest-neighbor Heisenberg model, our circuit only uses $48$ elementary quantum gates, which is significantly less than $4320$ gates in the circuit constructed by the Trotter-Suzuki product formula.</description>
   </item>
 
 </channel>
