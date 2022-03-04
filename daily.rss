@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
-    <link>http://arxiv.org/pdf/2203.00103</link>
-    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
+    <title>The quantum low-rank approximation problem</title>
+    <link>http://arxiv.org/pdf/2203.00811</link>
+    <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
   </item>
 
   <item>
-    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
-    <link>http://arxiv.org/pdf/2203.00212</link>
-    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
+    <title>Boson bunching is not maximized by indistinguishable particles</title>
+    <link>http://arxiv.org/pdf/2203.01306</link>
+    <author>Benoît Seron, Leonardo Novo, Nicolas J. Cerf</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>Boson bunching is amongst the most remarkable features of quantum physics. A celebrated example in optics is the Hong-Ou-Mandel effect, where the bunching of two photons arises from a destructive quantum interference between the trajectories where they both either cross a beam splitter or are reflected. This effect takes its roots in the indistinguishability of identical photons. Hence, it is generally admitted -- and experimentally verified -- that bunching vanishes as soon as photons can be distinguished, e.g., when they occupy distinct time bins or have different polarizations. Here we disproof this alleged straightforward link between indistinguishability and bunching by exploiting a recent finding in the theory of matrix permanents. We exhibit a family of optical circuits where the bunching of photons into two modes can be significantly boosted by making them partially distinguishable via an appropriate polarization pattern. This boosting effect is already visible in a 7-photon interferometric process, making the observation of this phenomenon within reach of current photonic technology. This unexpected behavior questions our understanding of multiparticle interference in the grey zone between indistinguishable bosons and classical particles.</description>
   </item>
 
   <item>
-    <title>Optimal quantum dataset for learning a unitary transformation</title>
-    <link>http://arxiv.org/pdf/2203.00546</link>
-    <author>Zhan Yu, Xuanqiang Zhao, Benchi Zhao, Xin Wang</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>Unitary transformations formulate the time evolution of quantum states. How to learn a unitary transformation efficiently is a fundamental problem in quantum machine learning. The most natural and leading strategy is to train a quantum machine learning model based on a quantum dataset. Although presence of more training data results in better models, using too much data reduces the efficiency of training. In this work, we solve the problem on the minimum size of sufficient quantum datasets for learning a unitary transformation exactly, which reveals the power and limitation of quantum data. First, we prove that the minimum size of dataset with pure states is $2^n$ for learning an $n$-qubit unitary transformation. To fully explore the capability of quantum data, we introduce a quantum dataset consisting of $n+1$ mixed states that are sufficient for exact training. The main idea is to simplify the structure utilizing decoupling, which leads to an exponential improvement on the size over the datasets with pure states. Furthermore, we show that the size of quantum dataset with mixed states can be reduced to a constant, which yields an optimal quantum dataset for learning a unitary. We showcase the applications of our results in oracle compiling and Hamiltonian simulation. Notably, to accurately simulate a 3-qubit one-dimensional nearest-neighbor Heisenberg model, our circuit only uses $48$ elementary quantum gates, which is significantly less than $4320$ gates in the circuit constructed by the Trotter-Suzuki product formula.</description>
+    <title>Time-frequency as quantum continuous variables</title>
+    <link>http://arxiv.org/pdf/2203.01220</link>
+    <author>Nicolas Fabre, Camille Nous, Arne Keller, Pérola Milman</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>We present a second quantization description of frequency-based continuous variables quantum computation in the subspace of single photons. For this, we define frequency and time operators using the free field Hamiltonian and its Fourier transform, and show that these observables, when restricted to the one photon per mode subspace, reproduce the canonical position-momentum commutation relations. As a consequence, frequency and time operators can be used to define a universal set of gates in this particular subspace. We discuss the physical implementation of these gates as well as their effect on single photon states, and show that frequency and time variables can also be used to implement continuous variables quantum information protocols, in the same way than polarization is currently used as a two-dimensional quantum variable.</description>
   </item>
 
   <item>
-    <title>Maximum Flow and Minimum-Cost Flow in Almost-Linear Time</title>
-    <link>http://arxiv.org/pdf/2203.00671</link>
-    <author>Li Chen, Rasmus Kyng, Yang P. Liu, Richard Peng, Maximilian Probst Gutenberg, Sushant Sachdeva</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>We give an algorithm that computes exact maximum flows and minimum-cost flows on directed graphs with $m$ edges and polynomially bounded integral demands, costs, and capacities in $m^{1+o(1)}$ time. Our algorithm builds the flow through a sequence of $m^{1+o(1)}$ approximate undirected minimum-ratio cycles, each of which is computed and processed in amortized $m^{o(1)}$ time using a dynamic data structure. Our framework extends to an algorithm running in $m^{1+o(1)}$ time for computing flows that minimize general edge-separable convex functions to high accuracy. This gives an almost-linear time algorithm for several problems including entropy-regularized optimal transport, matrix scaling, $p$-norm flows, and isotonic regression.</description>
+    <title>Holographic quantum simulation of entanglement renormalization circuits</title>
+    <link>http://arxiv.org/pdf/2203.00886</link>
+    <author>Sajant Anand, Johannes Hauschild, Yuxuan Zhang, Andrew C. Potter, Michael P. Zaletel</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>While standard approaches to quantum simulation require a number of qubits proportional to the number of simulated particles, current noisy quantum computers are limited to tens of qubits. With the technique of holographic quantum simulation, a $D$-dimensional system can be simulated with a $D{\rm -}1$-dimensional subset of qubits, enabling the study of systems significantly larger than current quantum computers. Using circuits derived from the multiscale entanglement renormalization ansatz (MERA), we accurately prepare the ground state of an $L=32$ critical, non-integrable perturbed Ising model and measure long-range correlations on the 10 qubit Quantinuum trapped ion computer. We introduce generalized MERA (gMERA) networks that interpolate between MERA and matrix product state networks and demonstrate that gMERA can capture far longer correlations than a MERA with the same number of qubits, at the expense of greater circuit depth. Finally, we perform noisy simulations of these two network ansätze and find that the optimal choice of network depends on noise level, available qubits, and the state to be represented.</description>
   </item>
 
   <item>
-    <title>The complexity of quantum support vector machines</title>
-    <link>http://arxiv.org/pdf/2203.00031</link>
-    <author>Gian Gentinetta, Arne Thomsen, David Sutter, Stefan Woerner</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>Quantum support vector machines employ quantum circuits to define the kernel function. It has been shown that this approach offers a provable exponential speedup compared to any known classical algorithm for certain data sets. The training of such models corresponds to solving a convex optimization problem either via its primal or dual formulation. Due to the probabilistic nature of quantum mechanics, the training algorithms are affected by statistical uncertainty, which has a major impact on their complexity. We show that the dual problem can be solved in $\mathcal{O}(M^{4.67}/\varepsilon^2)$ quantum circuit evaluations, where $M$ denotes the size of the data set and $\varepsilon$ the solution accuracy. We prove under an empirically motivated assumption that the kernelized primal problem can alternatively be solved in $\mathcal{O}(\min \{ M^2/\varepsilon^6, \, 1/\varepsilon^{10} \})$ evaluations by employing a generalization of a known classical algorithm called Pegasos. Accompanying empirical results demonstrate these analytical complexities to be essentially tight. In addition, we investigate a variational approximation to quantum support vector machines and show that their heuristic training achieves considerably better scaling in our experiments.</description>
+    <title>Achieving Heisenberg Scaling on Measurement of A Three-Qubit System via Quantum Error Correction</title>
+    <link>http://arxiv.org/pdf/2203.01179</link>
+    <author>Le Hu, Shengshi Pang, Andrew Jordan</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>In many-body quantum systems, the quantum Fisher information an observer can obtain is susceptible to decoherence. Consequently, quantum enhanced metrology, such as Heisenberg scaling, cannot usually be achieved. We show, via two distinct methods, that by applying periodic quantum error corrections, we can achieve the Heisenberg scaling for an extended period of time on a three-qubit Tavis-Cumming Model, where three two-level atoms interact with a single cavity mode, under certain approximations. The generalization to arbitrary number of atoms case is also discussed.</description>
   </item>
 
 </channel>

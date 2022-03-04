@@ -111,14 +111,6 @@
   </item>
 
   <item>
-    <title>An area law for 2D frustration-free spin systems</title>
-    <link>http://arxiv.org/pdf/2103.02492</link>
-    <author>Anurag Anshu, Itai Arad, David Gosset</author>
-    <pubDate>Mar 04 2021</pubDate>
-    <description>We prove that the entanglement entropy of the ground state of a locally gapped frustration-free 2D lattice spin system satisfies an area law with respect to a vertical bipartition of the lattice into left and right regions. We first establish that the ground state projector of any locally gapped frustration-free 1D spin system can be approximated to within error $\epsilon$ by a degree $O(\sqrt{n\log(\epsilon^{-1})})$ multivariate polynomial in the interaction terms of the Hamiltonian. This generalizes the optimal bound on the approximate degree of the boolean AND function, which corresponds to the special case of commuting Hamiltonian terms. For 2D spin systems we then construct an approximate ground state projector (AGSP) that employs the optimal 1D approximation in the vicinity of the boundary of the bipartition of interest. This AGSP has sufficiently low entanglement and error to establish the area law using a known technique.</description>
-  </item>
-
-  <item>
     <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
     <link>http://arxiv.org/pdf/2201.08309</link>
     <author>Lin Lin</author>
@@ -211,7 +203,7 @@
     <link>http://arxiv.org/pdf/2109.04457</link>
     <author>Ryuji Takagi, Suguru Endo, Shintaro Minagawa, Mile Gu</author>
     <pubDate>Sep 10 2021</pubDate>
-    <description>The inevitable accumulation of errors in near-future quantum devices represents a key obstacle in delivering practical quantum advantage. This motivated the development of various quantum error-mitigation protocols, each representing a method to extract useful computational output by combining measurement data from multiple samplings of the available imperfect quantum device. What are the ultimate performance limits universally imposed on such protocols? Here, we derive a fundamental bound on the sampling overhead that applies to a general class of error-mitigation protocols, assuming only the laws of quantum mechanics. We use it to show that (1) the sampling overhead to mitigate local depolarizing noise for layered circuits -- such as the ones used for variational quantum algorithms -- must scale exponentially with circuit depth, and (2) the optimality of probabilistic error cancellation method among all strategies in mitigating a certain class of noise, demonstrating that our results provide a means to identify when a given quantum error-mitigation strategy is optimal and when there is potential room for improvement.</description>
+    <description>The inevitable accumulation of errors in near-future quantum devices represents a key obstacle in delivering practical quantum advantages. Yet, such quantum devices are often unable to perform adaptive quantum operations, disallowing quantum error correction. These constraints motivated the development of various quantum error-mitigation methods, each presenting a technique to improve the accuracy of our computation by repeated sampling of various pre-configured circuits. What are the performance limits imposed on such protocols? Here we derive fundamental bounds concerning how such algorithms can reduce the computation error as a function of their extra sampling overhead. We use it to show that (1) the sampling overhead that ensures a certain computational accuracy in mitigating local depolarizing noise for layered circuits -- such as the ones used for variational quantum algorithms -- scales exponentially with the circuit depth for general error-mitigation protocols, and (2) the optimality of probabilistic error cancellation among a wide class of strategies in mitigating a single-qubit dephasing noise. Our results provide a means to identify when a given quantum error-mitigation strategy is optimal and when there is potential room for improvement.</description>
   </item>
 
   <item>
@@ -284,14 +276,6 @@
     <author>Armanda O. Quintavalle, Earl T. Campbell</author>
     <pubDate>May 07 2021</pubDate>
     <description>The design of decoding algorithms is a significant technological component in the development of fault-tolerant quantum computers. Often design of quantum decoders is inspired by classical decoding algorithms, but there are no general principles for building quantum decoders from classical decoders. Given any pair of classical codes, we can build a quantum code using the hypergraph product, yielding a hypergraph product code. Here we show we can also lift the decoders for these classical codes. That is, given oracle access to a minimum weight decoder for the relevant classical codes, the corresponding $[[n,k,d]]$ quantum code can be efficiently decoded for any error of weight smaller than $(d-1)/2$. The quantum decoder requires only $O(k)$ oracle calls to the classical decoder and $O(n^2)$ classical resources. The lift and the correctness proof of the decoder have a purely algebraic nature that draws on the discovery of some novel homological invariants of the hypergraph product codespace. While the decoder works perfectly for adversarial errors, it is not suitable for more realistic stochastic noise models and therefore can not be used to establish an error correcting threshold.</description>
-  </item>
-
-  <item>
-    <title>Stim: a fast stabilizer circuit simulator</title>
-    <link>http://arxiv.org/pdf/2103.02202</link>
-    <author>Craig Gidney</author>
-    <pubDate>Mar 04 2021</pubDate>
-    <description>This paper presents ``Stim", a fast simulator for quantum stabilizer circuits. The paper explains how Stim works and compares it to existing tools. With no foreknowledge, Stim can analyze a distance 100 surface code circuit (20 thousand qubits, 8 million gates, 1 million measurements) in 15 seconds and then begin sampling full circuit shots at a rate of 1 kHz. Stim uses a stabilizer tableau representation, similar to Aaronson and Gottesman's CHP simulator, but with three main improvements. First, Stim improves the asymptotic complexity of deterministic measurement from quadratic to linear by tracking the \em inverse of the circuit's stabilizer tableau. Second, Stim improves the constant factors of the algorithm by using a cache-friendly data layout and 256 bit wide SIMD instructions. Third, Stim only uses expensive stabilizer tableau simulation to create an initial reference sample. Further samples are collected in bulk by using that sample as a reference for batches of Pauli frames propagating through the circuit.</description>
   </item>
 
   <item>
@@ -404,6 +388,22 @@
     <author>Christopher A. Pattison, Michael E. Beverland, Marcus P. da Silva, Nicolas Delfosse</author>
     <pubDate>Jul 30 2021</pubDate>
     <description>The typical model for measurement noise in quantum error correction is to randomly flip the binary measurement outcome. In experiments, measurements yield much richer information - e.g., continuous current values, discrete photon counts - which is then mapped into binary outcomes by discarding some of this information. In this work, we consider methods to incorporate all of this richer information, typically called soft information, into the decoding of quantum error correction codes, and in particular the surface code. We describe how to modify both the Minimum Weight Perfect Matching and Union-Find decoders to leverage soft information, and demonstrate these soft decoders outperform the standard (hard) decoders that can only access the binary measurement outcomes. Moreover, we observe that the soft decoder achieves a threshold 25\% higher than any hard decoder for phenomenological noise with Gaussian soft measurement outcomes. We also introduce a soft measurement error model with amplitude damping, in which measurement time leads to a trade-off between measurement resolution and additional disturbance of the qubits. Under this model we observe that the performance of the surface code is very sensitive to the choice of the measurement time - for a distance-19 surface code, a five-fold increase in measurement time can lead to a thousand-fold increase in logical error rate. Moreover, the measurement time that minimizes the physical error rate is distinct from the one that minimizes the logical performance, pointing to the benefits of jointly optimizing the physical and quantum error correction layers.</description>
+  </item>
+
+  <item>
+    <title>Learning quantum many-body systems from a few copies</title>
+    <link>http://arxiv.org/pdf/2107.03333</link>
+    <author>Cambyse Rouzé, Daniel Stilck França</author>
+    <pubDate>Jul 08 2021</pubDate>
+    <description>Estimating physical properties of quantum states from measurements is one of the most fundamental tasks in quantum science. In this work, we identify conditions on states under which it is possible to infer the expectation values of all quasi-local observables of a given locality up to a relative error from a number of samples that grows polylogarithmically with the system's size and polynomially on the locality of the target observables. This constitutes an exponential improvement over known tomography methods in some regimes. We achieve our results by combining one of the most well-established techniques to learn quantum states, namely the maximum entropy method, with tools from the emerging fields of quantum optimal transport and classical shadows. We conjecture that our condition holds for all states exhibiting some form of decay of correlations and establish it for several subsets thereof. These include widely studied classes of states such as one-dimensional thermal and high-temperature Gibbs states of local commuting Hamiltonians on arbitrary hypergraphs or outputs of shallow circuits. Moreover, we show improvements of the maximum entropy method beyond the sample complexity of independent interest. These include identifying regimes in which it is possible to perform the postprocessing efficiently as well as novel bounds on the condition number of covariance matrices of many-body states.</description>
+  </item>
+
+  <item>
+    <title>Realizing topologically ordered states on a quantum processor</title>
+    <link>http://arxiv.org/pdf/2104.01180</link>
+    <author>K. J. Satzinger, Y. Liu, A. Smith, C. Knapp, M. Newman, C. Jones, Z. Chen, C. Quintana, X. Mi, A. Dunsworth, C. Gidney, I. Aleiner, F. Arute, K. Arya, J. Atalaya, R. Babbush, J. C. Bardin, R. Barends, J. Basso, A. Bengtsson, et al (78)</author>
+    <pubDate>Apr 06 2021</pubDate>
+    <description>The discovery of topological order has revolutionized the understanding of quantum matter in modern physics and provided the theoretical foundation for many quantum error correcting codes. Realizing topologically ordered states has proven to be extremely challenging in both condensed matter and synthetic quantum systems. Here, we prepare the ground state of the toric code Hamiltonian using an efficient quantum circuit on a superconducting quantum processor. We measure a topological entanglement entropy near the expected value of $\ln2$, and simulate anyon interferometry to extract the braiding statistics of the emergent excitations. Furthermore, we investigate key aspects of the surface code, including logical state injection and the decay of the non-local order parameter. Our results demonstrate the potential for quantum processors to provide key insights into topological quantum matter and quantum error correction.</description>
   </item>
 
 </channel>
