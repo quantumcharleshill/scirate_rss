@@ -31,19 +31,19 @@
   </item>
 
   <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+  </item>
+
+  <item>
     <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
     <link>http://arxiv.org/pdf/2203.00212</link>
     <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
     <pubDate>Mar 02 2022</pubDate>
     <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
-  </item>
-
-  <item>
-    <title>Optimizing thermalizations</title>
-    <link>http://arxiv.org/pdf/2202.12616</link>
-    <author>Kamil Korzekwa, Matteo Lostaglio</author>
-    <pubDate>Feb 28 2022</pubDate>
-    <description>We present a rigorous approach, based on the concept of continuous thermomajorisation, to algorithmically characterise the full set of energy occupations of a quantum system accessible from a given initial state through weak interactions with a heat bath. The algorithm can be deployed to solve complex optimization problems in out-of-equilibrium setups and it returns explicit elementary control sequences realizing optimal transformations. We illustrate this by finding optimal protocols in the context of cooling, work extraction and catalysis. The same tools also allow one to quantitatively assess the role played by memory effects in the performance of thermodynamic protocols. We obtained exhaustive solutions on a laptop machine for systems with dimension $d\leq 7$, but with heuristic methods one could access much higher $d$.</description>
   </item>
 
   <item>
@@ -55,6 +55,14 @@
   </item>
 
   <item>
+    <title>Optimizing thermalizations</title>
+    <link>http://arxiv.org/pdf/2202.12616</link>
+    <author>Kamil Korzekwa, Matteo Lostaglio</author>
+    <pubDate>Feb 28 2022</pubDate>
+    <description>We present a rigorous approach, based on the concept of continuous thermomajorisation, to algorithmically characterise the full set of energy occupations of a quantum system accessible from a given initial state through weak interactions with a heat bath. The algorithm can be deployed to solve complex optimization problems in out-of-equilibrium setups and it returns explicit elementary control sequences realizing optimal transformations. We illustrate this by finding optimal protocols in the context of cooling, work extraction and catalysis. The same tools also allow one to quantitatively assess the role played by memory effects in the performance of thermodynamic protocols. We obtained exhaustive solutions on a laptop machine for systems with dimension $d\leq 7$, but with heuristic methods one could access much higher $d$.</description>
+  </item>
+
+  <item>
     <title>One-dimensional SPT phases protected by frieze symmetries</title>
     <link>http://arxiv.org/pdf/2202.12880</link>
     <author>Bram Vancraeynest-De Cuiper, Nicolas Dewolf, Jutho Haegeman, Frank Verstraete</author>
@@ -63,27 +71,19 @@
   </item>
 
   <item>
+    <title>Quantum circuit compilation and hybrid computation using Pauli-based computation</title>
+    <link>http://arxiv.org/pdf/2203.01789</link>
+    <author>F.C.R. Peres, Ernesto F. Galvão</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
+  </item>
+
+  <item>
     <title>Physics solutions for machine learning privacy leaks</title>
     <link>http://arxiv.org/pdf/2202.12319</link>
     <author>Alejandro Pozas-Kerstjens, Senaida Hernández-Santana, José Ramón Pareja Monturiol, Marco Castrillón López, Giannicola Scarpa, Carlos E. González-Guillén, David Pérez-García</author>
     <pubDate>Feb 28 2022</pubDate>
     <description>Machine learning systems are becoming more and more ubiquitous in increasingly complex areas, including cutting-edge scientific research. The opposite is also true: the interest in better understanding the inner workings of machine learning systems motivates their analysis under the lens of different scientific disciplines. Physics is particularly successful in this, due to its ability to describe complex dynamical systems. While explanations of phenomena in machine learning based on physics are increasingly present, examples of direct application of notions akin to physics in order to improve machine learning systems are more scarce. Here we provide one such application in the problem of developing algorithms that preserve the privacy of the manipulated data, which is especially important in tasks such as the processing of medical records. We develop well-defined conditions to guarantee robustness to specific types of privacy leaks, and rigorously prove that such conditions are satisfied by tensor-network architectures. These are inspired by the efficient representation of quantum many-body systems, and have shown to compete and even surpass traditional machine learning architectures in certain cases. Given the growing expertise in training tensor-network architectures, these results imply that one may not have to be forced to make a choice between accuracy in prediction and ensuring the privacy of the information processed.</description>
-  </item>
-
-  <item>
-    <title>Maximum Flow and Minimum-Cost Flow in Almost-Linear Time</title>
-    <link>http://arxiv.org/pdf/2203.00671</link>
-    <author>Li Chen, Rasmus Kyng, Yang P. Liu, Richard Peng, Maximilian Probst Gutenberg, Sushant Sachdeva</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>We give an algorithm that computes exact maximum flows and minimum-cost flows on directed graphs with $m$ edges and polynomially bounded integral demands, costs, and capacities in $m^{1+o(1)}$ time. Our algorithm builds the flow through a sequence of $m^{1+o(1)}$ approximate undirected minimum-ratio cycles, each of which is computed and processed in amortized $m^{o(1)}$ time using a dynamic data structure. Our framework extends to an algorithm running in $m^{1+o(1)}$ time for computing flows that minimize general edge-separable convex functions to high accuracy. This gives an almost-linear time algorithm for several problems including entropy-regularized optimal transport, matrix scaling, $p$-norm flows, and isotonic regression.</description>
-  </item>
-
-  <item>
-    <title>Optimal quantum dataset for learning a unitary transformation</title>
-    <link>http://arxiv.org/pdf/2203.00546</link>
-    <author>Zhan Yu, Xuanqiang Zhao, Benchi Zhao, Xin Wang</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>Unitary transformations formulate the time evolution of quantum states. How to learn a unitary transformation efficiently is a fundamental problem in quantum machine learning. The most natural and leading strategy is to train a quantum machine learning model based on a quantum dataset. Although presence of more training data results in better models, using too much data reduces the efficiency of training. In this work, we solve the problem on the minimum size of sufficient quantum datasets for learning a unitary transformation exactly, which reveals the power and limitation of quantum data. First, we prove that the minimum size of dataset with pure states is $2^n$ for learning an $n$-qubit unitary transformation. To fully explore the capability of quantum data, we introduce a quantum dataset consisting of $n+1$ mixed states that are sufficient for exact training. The main idea is to simplify the structure utilizing decoupling, which leads to an exponential improvement on the size over the datasets with pure states. Furthermore, we show that the size of quantum dataset with mixed states can be reduced to a constant, which yields an optimal quantum dataset for learning a unitary. We showcase the applications of our results in oracle compiling and Hamiltonian simulation. Notably, to accurately simulate a 3-qubit one-dimensional nearest-neighbor Heisenberg model, our circuit only uses $48$ elementary quantum gates, which is significantly less than $4320$ gates in the circuit constructed by the Trotter-Suzuki product formula.</description>
   </item>
 
 </channel>

@@ -7,11 +7,27 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+  </item>
+
+  <item>
     <title>The quantum low-rank approximation problem</title>
     <link>http://arxiv.org/pdf/2203.00811</link>
     <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
     <pubDate>Mar 03 2022</pubDate>
     <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Quantum circuit compilation and hybrid computation using Pauli-based computation</title>
+    <link>http://arxiv.org/pdf/2203.01789</link>
+    <author>F.C.R. Peres, Ernesto F. Galvão</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
   </item>
 
   <item>
@@ -23,27 +39,11 @@
   </item>
 
   <item>
-    <title>Time-frequency as quantum continuous variables</title>
-    <link>http://arxiv.org/pdf/2203.01220</link>
-    <author>Nicolas Fabre, Camille Nous, Arne Keller, Pérola Milman</author>
-    <pubDate>Mar 03 2022</pubDate>
-    <description>We present a second quantization description of frequency-based continuous variables quantum computation in the subspace of single photons. For this, we define frequency and time operators using the free field Hamiltonian and its Fourier transform, and show that these observables, when restricted to the one photon per mode subspace, reproduce the canonical position-momentum commutation relations. As a consequence, frequency and time operators can be used to define a universal set of gates in this particular subspace. We discuss the physical implementation of these gates as well as their effect on single photon states, and show that frequency and time variables can also be used to implement continuous variables quantum information protocols, in the same way than polarization is currently used as a two-dimensional quantum variable.</description>
-  </item>
-
-  <item>
-    <title>Holographic quantum simulation of entanglement renormalization circuits</title>
-    <link>http://arxiv.org/pdf/2203.00886</link>
-    <author>Sajant Anand, Johannes Hauschild, Yuxuan Zhang, Andrew C. Potter, Michael P. Zaletel</author>
-    <pubDate>Mar 03 2022</pubDate>
-    <description>While standard approaches to quantum simulation require a number of qubits proportional to the number of simulated particles, current noisy quantum computers are limited to tens of qubits. With the technique of holographic quantum simulation, a $D$-dimensional system can be simulated with a $D{\rm -}1$-dimensional subset of qubits, enabling the study of systems significantly larger than current quantum computers. Using circuits derived from the multiscale entanglement renormalization ansatz (MERA), we accurately prepare the ground state of an $L=32$ critical, non-integrable perturbed Ising model and measure long-range correlations on the 10 qubit Quantinuum trapped ion computer. We introduce generalized MERA (gMERA) networks that interpolate between MERA and matrix product state networks and demonstrate that gMERA can capture far longer correlations than a MERA with the same number of qubits, at the expense of greater circuit depth. Finally, we perform noisy simulations of these two network ansätze and find that the optimal choice of network depends on noise level, available qubits, and the state to be represented.</description>
-  </item>
-
-  <item>
-    <title>Achieving Heisenberg Scaling on Measurement of A Three-Qubit System via Quantum Error Correction</title>
-    <link>http://arxiv.org/pdf/2203.01179</link>
-    <author>Le Hu, Shengshi Pang, Andrew Jordan</author>
-    <pubDate>Mar 03 2022</pubDate>
-    <description>In many-body quantum systems, the quantum Fisher information an observer can obtain is susceptible to decoherence. Consequently, quantum enhanced metrology, such as Heisenberg scaling, cannot usually be achieved. We show, via two distinct methods, that by applying periodic quantum error corrections, we can achieve the Heisenberg scaling for an extended period of time on a three-qubit Tavis-Cumming Model, where three two-level atoms interact with a single cavity mode, under certain approximations. The generalization to arbitrary number of atoms case is also discussed.</description>
+    <title>Quantum Reinforcement Learning via Policy Iteration</title>
+    <link>http://arxiv.org/pdf/2203.01889</link>
+    <author>El Amine Cherrat, Iordanis Kerenidis, Anupam Prakash</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Quantum computing has shown the potential to substantially speed up machine learning applications, in particular for supervised and unsupervised learning. Reinforcement learning, on the other hand, has become essential for solving many decision making problems and policy iteration methods remain the foundation of such approaches. In this paper, we provide a general framework for performing quantum reinforcement learning via policy iteration. We validate our framework by designing and analyzing: \emphquantum policy evaluation methods for infinite horizon discounted problems by building quantum states that approximately encode the value function of a policy $\pi$; and \emphquantum policy improvement methods by post-processing measurement outcomes on these quantum states. Last, we study the theoretical and experimental performance of our quantum algorithms on two environments from OpenAI's Gym.</description>
   </item>
 
 </channel>

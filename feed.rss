@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
+    <link>http://arxiv.org/pdf/2203.00103</link>
+    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
+  </item>
+
+  <item>
     <title>The Parameterized Complexity of Quantum Verification</title>
     <link>http://arxiv.org/pdf/2202.08119</link>
     <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
@@ -47,14 +55,6 @@
   </item>
 
   <item>
-    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
-    <link>http://arxiv.org/pdf/2203.00103</link>
-    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
-  </item>
-
-  <item>
     <title>Quantum Tanner codes</title>
     <link>http://arxiv.org/pdf/2202.13641</link>
     <author>Anthony Leverrier, Gilles Zémor</author>
@@ -68,6 +68,14 @@
     <author>Glen Evenbly</author>
     <pubDate>Feb 07 2022</pubDate>
     <description>We present an overview of the key ideas and skills necessary to begin implementing tensor network methods numerically, which is intended to facilitate the practical application of tensor network methods for researchers that are already versed with their theoretical foundations. These skills include an introduction to the contraction of tensor networks, to optimal tensor decompositions, and to the manipulation of gauge degrees of freedom in tensor networks. The topics presented are of key importance to many common tensor network algorithms such as DMRG, TEBD, TRG, PEPS and MERA.</description>
+  </item>
+
+  <item>
+    <title>Classical Verification of Quantum Computations in Linear Time</title>
+    <link>http://arxiv.org/pdf/2202.13997</link>
+    <author>Jiayu Zhang</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
   </item>
 
   <item>
@@ -95,14 +103,6 @@
   </item>
 
   <item>
-    <title>Classical Verification of Quantum Computations in Linear Time</title>
-    <link>http://arxiv.org/pdf/2202.13997</link>
-    <author>Jiayu Zhang</author>
-    <pubDate>Mar 01 2022</pubDate>
-    <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
-  </item>
-
-  <item>
     <title>Quantum Differential Privacy: An Information Theory Perspective</title>
     <link>http://arxiv.org/pdf/2202.10717</link>
     <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
@@ -119,11 +119,27 @@
   </item>
 
   <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+  </item>
+
+  <item>
     <title>A Quantum Polynomial-Time Solution to The Dihedral Hidden Subgroup Problem</title>
     <link>http://arxiv.org/pdf/2202.09697</link>
     <author>Matthew Moore, Grace Young</author>
     <pubDate>Feb 22 2022</pubDate>
     <description>We present a polynomial-time quantum algorithm for the Hidden Subgroup Problem over $\mathbb{D}_{2^n}$. The usual approach to the Hidden Subgroup Problem relies on harmonic analysis in the domain of the problem, and the best known algorithm using this approach has time complexity in $2^{\mathcal{O}(\sqrt{n})}$. By focusing on structure encoded in the codomain of the problem, we develop a polynomial-time algorithm which uses this structure to direct a "walk" down the subgroup lattice of $\mathbb{D}_{2^n}$ terminating at the hidden subgroup.</description>
+  </item>
+
+  <item>
+    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2203.00212</link>
+    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
   </item>
 
   <item>
@@ -148,14 +164,6 @@
     <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
     <pubDate>Feb 25 2022</pubDate>
     <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
-  </item>
-
-  <item>
-    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
-    <link>http://arxiv.org/pdf/2203.00212</link>
-    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
     <pubDate>Feb 10 2022</pubDate>
     <description>We introduce a method for extracting meaningful entanglement measures of tensor network states in general dimensions. Current methods require the explicit reconstruction of the density matrix, which is highly demanding, or the contraction of replicas, which requires an effort exponential in the number of replicas and which is costly in terms of memory. In contrast, our method requires the stochastic sampling of matrix elements of the classically represented reduced states with respect to random states drawn from simple product probability measures constituting frames. Even though not corresponding to physical operations, such matrix elements are straightforward to calculate for tensor network states, and their moments provide the Rényi entropies and negativities as well as their symmetry-resolved components. We test our method on the one-dimensional critical XX chain and the two-dimensional toric code. Although the cost is exponential in the subsystem size, it is sufficiently moderate so that - in contrast with other approaches - accurate results can be obtained on a personal computer for relatively large subsystem sizes.</description>
-  </item>
-
-  <item>
-    <title>Approximating Output Probabilities of Shallow Quantum Circuits which are Geometrically-local in any Fixed Dimension</title>
-    <link>http://arxiv.org/pdf/2202.08349</link>
-    <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
-    <pubDate>Feb 18 2022</pubDate>
-    <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
   </item>
 
 </channel>
