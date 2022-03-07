@@ -7,19 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2202.00119</link>
-    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
-  </item>
-
-  <item>
-    <title>Bias-tailored quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2202.01702</link>
-    <author>Joschka Roffe, Lawrence Z. Cohen, Armanda O. Quintivalle, Daryus Chandra, Earl T. Campbell</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>Bias-tailoring allows quantum error correction codes to exploit qubit noise asymmetry. Recently, it was shown that a modified form of the surface code, the XZZX code, exhibits considerably improved performance under biased noise. In this work, we demonstrate that quantum low density parity check codes can be similarly bias-tailored. We introduce a bias-tailored lifted product code construction that provides the framework to expand bias-tailoring methods beyond the family of 2D topological codes. We present examples of bias-tailored lifted product codes based on classical quasi-cyclic codes and numerically assess their performance using a belief propagation plus ordered statistics decoder. Our Monte Carlo simulations, performed under asymmetric noise, show that bias-tailored codes achieve several orders of magnitude improvement in their error suppression relative to depolarising noise.</description>
+    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
+    <link>http://arxiv.org/pdf/2203.00103</link>
+    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
   </item>
 
   <item>
@@ -28,14 +20,6 @@
     <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
     <pubDate>Feb 18 2022</pubDate>
     <description>Understanding quantum channels and the strange behavior of their capacities is a key objective of quantum information theory. Here we study a remarkably simple, low-dimensional, single-parameter family of quantum channels with exotic quantum information-theoretic features. As the simplest example from this family, we focus on a qutrit-to-qutrit channel that is intuitively obtained by hybridizing together a simple degradable channel and a completely useless qubit channel. Such hybridizing makes this channel's capacities behave in a variety of interesting ways. For instance, the private and classical capacity of this channel coincide and can be explicitly calculated, even though the channel does not belong to any class for which the underlying information quantities are known to be additive. Moreover, the quantum capacity of the channel can be computed explicitly, given a clear and compelling conjecture is true. This "spin alignment conjecture", which may be of independent interest, is proved in certain special cases and additional numerical evidence for its validity is provided. Finally, we generalize the qutrit channel in two ways, and the resulting channels and their capacities display similarly rich behavior. In a companion paper, we further show that the qutrit channel demonstrates superadditivity when transmitting quantum information jointly with a variety of assisting channels, in a manner unknown before.</description>
-  </item>
-
-  <item>
-    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
-    <link>http://arxiv.org/pdf/2203.00103</link>
-    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
   </item>
 
   <item>
@@ -55,19 +39,19 @@
   </item>
 
   <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+  </item>
+
+  <item>
     <title>Quantum Tanner codes</title>
     <link>http://arxiv.org/pdf/2202.13641</link>
     <author>Anthony Leverrier, Gilles Zémor</author>
     <pubDate>Mar 01 2022</pubDate>
     <description>Tanner codes are long error correcting codes obtained from short codes and a graph, with bits on the edges and parity-check constraints from the short codes enforced at the vertices of the graph. Combining good short codes together with a spectral expander graph yields the celebrated expander codes of Sipser and Spielman, which are asymptotically good classical LDPC codes. In this work we apply this prescription to the left-right Cayley complex that lies at the heart of the recent construction of a $c^3$ locally testable code by Dinur et al. Specifically, we view this complex as two graphs that share the same set of edges. By defining a Tanner code on each of those graphs we obtain two classical codes that together define a quantum code. This construction can be seen as a simplified variant of the Panteleev and Kalachev asymptotically good quantum LDPC code, with improved estimates for its minimum distance. This quantum code is closely related to the Dinur et al. code in more than one sense: indeed, we prove a theorem that simultaneously gives a linearly growing minimum distance for the quantum code and recovers the local testability of the Dinur et al. code.</description>
-  </item>
-
-  <item>
-    <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
-    <link>http://arxiv.org/pdf/2202.02138</link>
-    <author>Glen Evenbly</author>
-    <pubDate>Feb 07 2022</pubDate>
-    <description>We present an overview of the key ideas and skills necessary to begin implementing tensor network methods numerically, which is intended to facilitate the practical application of tensor network methods for researchers that are already versed with their theoretical foundations. These skills include an introduction to the contraction of tensor networks, to optimal tensor decompositions, and to the manipulation of gauge degrees of freedom in tensor networks. The topics presented are of key importance to many common tensor network algorithms such as DMRG, TEBD, TRG, PEPS and MERA.</description>
   </item>
 
   <item>
@@ -79,11 +63,11 @@
   </item>
 
   <item>
-    <title>Mitigating the quantum hype</title>
-    <link>http://arxiv.org/pdf/2202.01925</link>
-    <author>Olivier Ezratty</author>
+    <title>A Practical Guide to the Numerical Implementation of Tensor Networks I: Contractions, Decompositions and Gauge Freedom</title>
+    <link>http://arxiv.org/pdf/2202.02138</link>
+    <author>Glen Evenbly</author>
     <pubDate>Feb 07 2022</pubDate>
-    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It could cut short research and innovation funding, creating some sort of quantum winter. After looking at the shape and form of technology and science hypes and driving some lessons from past hypes, we investigate the current quantum hype and its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively sane and solid compared to other technology hypes. The vendors hype has some profound and disruptive impact on the organization of fundamental research. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach.</description>
+    <description>We present an overview of the key ideas and skills necessary to begin implementing tensor network methods numerically, which is intended to facilitate the practical application of tensor network methods for researchers that are already versed with their theoretical foundations. These skills include an introduction to the contraction of tensor networks, to optimal tensor decompositions, and to the manipulation of gauge degrees of freedom in tensor networks. The topics presented are of key importance to many common tensor network algorithms such as DMRG, TEBD, TRG, PEPS and MERA.</description>
   </item>
 
   <item>
@@ -92,6 +76,14 @@
     <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
     <pubDate>Feb 14 2022</pubDate>
     <description>A powerful feature of stabiliser error correcting codes is the fact that stabiliser measurement projects arbitrary errors to Pauli errors, greatly simplifying the physical error correction process as well as classical simulations of code performance. However, logical non-Clifford operations can map Pauli errors to non-Pauli (Clifford) errors, and while subsequent stabiliser measurements will project the Clifford errors back to Pauli errors the resulting distributions will possess additional correlations that depend on both the nature of the logical operation and the structure of the code. Previous work has studied these effects when applying a transversal $T$ gate to the three-dimensional colour code and shown the existence of a non-local "linking charge" phenomenon between membranes of intersecting errors. In this work we generalise these results to the case of a $CCZ$ gate in the three-dimensional surface code and find that many aspects of the problem are much more easily understood in this setting. In particular, the emergence of linking charge is a local effect rather than a non-local one. We use the relative simplicity of Clifford errors in this setting to simulate their effect on the performance of a single-shot magic state preparation process (the first such simulation to account for the full effect of these errors) and find that while they lead to an increase in the logical error rate their effect on the threshold is minimal.</description>
+  </item>
+
+  <item>
+    <title>Mitigating the quantum hype</title>
+    <link>http://arxiv.org/pdf/2202.01925</link>
+    <author>Olivier Ezratty</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>We are in the midst of quantum hype with some excessive claims of quantum computing potential, many vendors' and even some research organizations' exaggerations, and a funding frenzy for very low technology readiness level startups. Governments are contributing to this hype with their large quantum initiatives and their technology sovereignty aspirations. Technology hypes are not bad per se since they create emulation, drive innovations and also contribute to attracting new talents. It works as scientists and vendors deliver progress and innovation on a continuous basis after a so-called peak of expectations. It fails with exaggerated overpromises and underdeliveries that last too long. It could cut short research and innovation funding, creating some sort of quantum winter. After looking at the shape and form of technology and science hypes and driving some lessons from past hypes, we investigate the current quantum hype and its specifics. We find that, although there is some significant uncertainty on the potential to create real scalable quantum computers, the scientific and vendor fields are relatively sane and solid compared to other technology hypes. The vendors hype has some profound and disruptive impact on the organization of fundamental research. Also, quantum technologies comprise other fields like quantum telecommunications and quantum sensing with a higher technology readiness level, which are less prone to hype. We then make some proposals to mitigate the potential negative effects of the current quantum hype including recommendations on scientific communication to strengthen the trust in quantum science, vendor behavior improvements, benchmarking methodologies, public education and putting in place a responsible research and innovation approach.</description>
   </item>
 
   <item>
@@ -119,11 +111,11 @@
   </item>
 
   <item>
-    <title>Is quantum advantage the right goal for quantum machine learning?</title>
-    <link>http://arxiv.org/pdf/2203.01340</link>
-    <author>Maria Schuld, Nathan Killoran</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2203.00212</link>
+    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
   </item>
 
   <item>
@@ -135,27 +127,11 @@
   </item>
 
   <item>
-    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
-    <link>http://arxiv.org/pdf/2203.00212</link>
-    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
-  </item>
-
-  <item>
     <title>Generic nonadditivity of quantum capacity in simple channels</title>
     <link>http://arxiv.org/pdf/2202.08377</link>
     <author>Felix Leditzky, Debbie Leung, Vikesh Siddhu, Graeme Smith, John A. Smolin</author>
     <pubDate>Feb 18 2022</pubDate>
     <description>Determining capacities of quantum channels is a fundamental question in quantum information theory. Despite having rigorous coding theorems quantifying the flow of information across quantum channels, their capacities are poorly understood due to super-additivity effects. Studying these phenomena is important for deepening our understanding of quantum information, yet simple and clean examples of super-additive channels are scarce. Here we study a simple family of qutrit channels called the platypus channel, and show that it exhibits super-additivity of coherent information when used jointly with a variety of qubit channels. A higher-dimensional variant of the platypus channel displays super-additivity of quantum capacity together with an erasure channel. Subject to the "spin-alignment conjecture" introduced in a companion paper, our results on super-additivity of quantum capacity extend to lower-dimensional channels as well as larger parameter ranges. In particular, super-additivity occurs between two weakly additive channels each with large capacity on their own, in stark contrast to previous results. Remarkably, a single, novel transmission strategy achieves super-additivity in all examples. Our results show that super-additivity is much more prevalent than previously thought. It can occur across a wide variety of channels, even when both participating channels have large quantum capacity.</description>
-  </item>
-
-  <item>
-    <title>Quantum machine learning with subspace states</title>
-    <link>http://arxiv.org/pdf/2202.00054</link>
-    <author>Iordanis Kerenidis, Anupam Prakash</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>We introduce a new approach for quantum linear algebra based on quantum subspace states and present three new quantum machine learning algorithms. The first is a quantum determinant sampling algorithm that samples from the distribution $\Pr[S]= det(X_{S}X_{S}^{T})$ for $|S|=d$ using $O(nd)$ gates and with circuit depth $O(d\log n)$. The state of art classical algorithm for the task requires $O(d^{3})$ operations \citederezinski2019minimax. The second is a quantum singular value estimation algorithm for compound matrices $\mathcal{A}^{k}$, the speedup for this algorithm is potentially exponential. It decomposes a $\binom{n}{k}$ dimensional vector of order-$k$ correlations into a linear combination of subspace states corresponding to $k$-tuples of singular vectors of $A$. The third algorithm reduces exponentially the depth of circuits used in quantum topological data analysis from $O(n)$ to $O(\log n)$. Our basic tool are quantum subspace states, defined as $|Col(X)\rangle = \sum_{S\subset [n], |S|=d} det(X_{S}) |S\rangle$ for matrices $X \in \mathbb{R}^{n \times d}$ such that $X^{T} X = I_{d}$, that encode $d$-dimensional subspaces of $\mathbb{R}^{n}$. We develop two efficient state preparation techniques, the first using Givens circuits uses the representation of a subspace as a sequence of Givens rotations, while the second uses efficient implementations of unitaries $\Gamma(x) = \sum_{i} x_{i} Z^{\otimes (i-1)} \otimes X \otimes I^{n-i}$ with $O(\log n)$ depth circuits that we term Clifford loaders.</description>
   </item>
 
   <item>
@@ -183,14 +159,6 @@
   </item>
 
   <item>
-    <title>Quantum Error Correction with Quantum Autoencoders</title>
-    <link>http://arxiv.org/pdf/2202.00555</link>
-    <author>David F. Locher, Lorenzo Cardarelli, Markus Müller</author>
-    <pubDate>Feb 02 2022</pubDate>
-    <description>Active quantum error correction is a central ingredient to achieve robust quantum processors. In this paper we investigate the potential of quantum machine learning for quantum error correction. Specifically, we demonstrate how quantum neural networks, in the form of quantum autoencoders, can be trained to learn optimal strategies for active detection and correction of errors, including spatially correlated computational errors as well as qubit losses. We highlight that the denoising capabilities of quantum autoencoders are not limited to the protection of specific states but extend to the entire logical codespace. We also show that quantum neural networks can be used to discover new logical encodings that are optimally adapted to the underlying noise. Moreover, we find that, even in the presence of moderate noise in the quantum autoencoders themselves, they may still be successfully used to perform beneficial quantum error correction.</description>
-  </item>
-
-  <item>
     <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
     <link>http://arxiv.org/pdf/2202.04047</link>
     <author>Muhammad Imran, Gabor Ivanyos</author>
@@ -207,14 +175,6 @@
   </item>
 
   <item>
-    <title>Improved quantum algorithms for linear and nonlinear differential equations</title>
-    <link>http://arxiv.org/pdf/2202.01054</link>
-    <author>Hari Krovi</author>
-    <pubDate>Feb 03 2022</pubDate>
-    <description>We present substantially generalized and improved quantum algorithms over prior work for inhomogeneous linear and nonlinear ordinary differential equations (ODE). In Berry et al., (2017), a quantum algorithm for a certain class of linear ODEs is given, where the matrix involved needs to be diagonalizable. The quantum algorithm for linear ODEs presented here extends to many classes of non-diagonalizable matrices. The algorithm here can also be exponentially faster for certain classes of diagonalizable matrices. Our linear ODE algorithm is then applied to nonlinear differential equations using Carleman linearization (an approach taken recently by us in Liu et al., (2021)). The improvement over that result is two-fold. First, we obtain an exponentially better dependence on error. This kind of logarithmic dependence on error has also been achieved by Xue et al., (2021), but only for homogeneous nonlinear equations. Second, the present algorithm can handle any sparse, invertible matrix (that models dissipation) if it has a negative log-norm (including non-diagonalizable matrices), whereas Liu et al., (2021) and Xue et al., (2021) additionally require normality.</description>
-  </item>
-
-  <item>
     <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
     <link>http://arxiv.org/pdf/2202.09202</link>
     <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
@@ -223,11 +183,11 @@
   </item>
 
   <item>
-    <title>High-temperature thermalization implies the emergence of quantum state designs</title>
-    <link>http://arxiv.org/pdf/2202.01669</link>
-    <author>Henrik Wilming, Ingo Roth</author>
-    <pubDate>Feb 04 2022</pubDate>
-    <description>It was recently observed that in certain thermalizing many-body systems, measuring the complement of a subsystem that thermalized to infinite temperature in a suitable orthonormal basis gives rise to approximate quantum state k-designs as post-measurement states on the subsystem. We prove that this emergence of approximate k-designs holds true in every large system where some small subsystem is close to being maximally mixed. On a technical level we show that any high-dimensional purification of an approximately maximally mixed state induces an approximate quantum state k-design when measured in a suitable orthonormal basis. Moreover, we show that this is true with overwhelming probability for measurement bases chosen uniformly at random from the Haar measure.</description>
+    <title>The quantum low-rank approximation problem</title>
+    <link>http://arxiv.org/pdf/2203.00811</link>
+    <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
   </item>
 
   <item>
@@ -244,6 +204,46 @@
     <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
     <pubDate>Feb 10 2022</pubDate>
     <description>We introduce a method for extracting meaningful entanglement measures of tensor network states in general dimensions. Current methods require the explicit reconstruction of the density matrix, which is highly demanding, or the contraction of replicas, which requires an effort exponential in the number of replicas and which is costly in terms of memory. In contrast, our method requires the stochastic sampling of matrix elements of the classically represented reduced states with respect to random states drawn from simple product probability measures constituting frames. Even though not corresponding to physical operations, such matrix elements are straightforward to calculate for tensor network states, and their moments provide the Rényi entropies and negativities as well as their symmetry-resolved components. We test our method on the one-dimensional critical XX chain and the two-dimensional toric code. Although the cost is exponential in the subsystem size, it is sufficiently moderate so that - in contrast with other approaches - accurate results can be obtained on a personal computer for relatively large subsystem sizes.</description>
+  </item>
+
+  <item>
+    <title>Approximating Output Probabilities of Shallow Quantum Circuits which are Geometrically-local in any Fixed Dimension</title>
+    <link>http://arxiv.org/pdf/2202.08349</link>
+    <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
+    <pubDate>Feb 18 2022</pubDate>
+    <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
+  </item>
+
+  <item>
+    <title>Counting unitaries of T-depth one</title>
+    <link>http://arxiv.org/pdf/2202.04163</link>
+    <author>Vadym Kliuchnikov</author>
+    <pubDate>Feb 10 2022</pubDate>
+    <description>We show that the number of T-depth one unitaries on $n$ qubits is $ \sum_{m=1}^{n}\tfrac{1}{m!}\prod_{k=0}^{m-1}(4^n/2^k - 2^k) \times \# \mathcal{C}_n, $ where $\#\mathcal{C}_n$ is the size of the $n$-qubit Clifford group, that is the number of unitaries of T-depth zero. The number of T-depth one unitaries on $n$ qubits grows as $2^{\Omega(n^2)} \cdot \# \mathcal{C}_n$.</description>
+  </item>
+
+  <item>
+    <title>Quantum-inspired classical algorithm for molecular vibronic spectra</title>
+    <link>http://arxiv.org/pdf/2202.01861</link>
+    <author>Changhun Oh, Youngrong Lim, Yat Wong, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Feb 07 2022</pubDate>
+    <description>Molecular vibronic spectra is an essential property of molecules, which is an important tool to analyze chemical components and study molecular structures. Computing molecular vibronic spectra has been a challenging task, and its best-known classical algorithm scales combinatorially in the system size. Recently, a quantum simulator, specifically Gaussian boson sampling, has been proposed to generate the spectra efficiently. Thus, molecular vibronic spectra is a candidate of tasks for which a quantum device provides a computational advantage. In this work, we propose a quantum-inspired classical algorithm for molecular vibronic spectra. We find an exact solution of the Fourier components of molecular vibronic spectra at zero temperature using the positive $P$-representation method. Thus, we can obtain the molecular vibronic spectra exactly by the inverse Fourier transformation for the solution for a given resolution. We also show that the same method applies to a finite temperature case. Therefore, computing molecular vibronic spectra, which can be mapped to a Gaussian boson sampling, does not require a quantum device. We then generalize the method beyond the Gaussian framework and find that the Fourier components are written as a loop hafnian, the exact computation of which is known to be \#P-hard. It presents an interesting theoretical separation between non-Gaussian boson sampling and Gaussian boson sampling. Meanwhile, since running an actual boson sampling circuit would incur an $1/\text{poly}(N)$ additive error for $N$ samples, we also study the possibility of achieving the same accuracy using a classical algorithm. Interestingly, when there is no squeezing in the process, one may use Gurvits's algorithm to compute the Fourier components within an additive error. We finally provide possible approaches to approximate the Fourier components and discuss their limitations.</description>
+  </item>
+
+  <item>
+    <title>Quantifying dynamical magic with completely stabilizer preserving operations as free</title>
+    <link>http://arxiv.org/pdf/2202.07867</link>
+    <author>Gaurav Saxena, Gilad Gour</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
+  </item>
+
+  <item>
+    <title>Three-dimensional quantum cellular automata from chiral semion surface topological order and beyond</title>
+    <link>http://arxiv.org/pdf/2202.05442</link>
+    <author>Wilbur Shirley, Yu-An Chen, Arpit Dua, Tyler D. Ellison, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
+    <pubDate>Feb 14 2022</pubDate>
+    <description>We construct a novel three-dimensional quantum cellular automaton (QCA) based on a system with short-range entangled bulk and chiral semion boundary topological order. We argue that either the QCA is nontrivial, i.e. not a finite-depth circuit of local quantum gates, or there exists a two-dimensional commuting projector Hamiltonian realizing the chiral semion topological order (characterized by $U(1)_2$ Chern-Simons theory). Our QCA is obtained by first constructing the Walker-Wang Hamiltonian of a certain premodular tensor category of order four, then condensing the deconfined bulk boson at the level of lattice operators. We show that the resulting Hamiltonian hosts chiral semion surface topological order in the presence of a boundary and can be realized as a non-Pauli stabilizer code on qubits, from which the QCA is defined. The construction is then generalized to a class of QCAs defined by non-Pauli stabilizer codes on ${2^n}$-dimensional qudits that feature surface anyons described by $U(1)_{2^n}$ Chern-Simons theory. Our results support the conjecture that the group of nontrivial three-dimensional QCAs is isomorphic to the Witt group of non-degenerate braided fusion categories.</description>
   </item>
 
 </channel>

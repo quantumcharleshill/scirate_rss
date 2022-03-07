@@ -31,14 +31,6 @@
   </item>
 
   <item>
-    <title>Simulating the Sycamore quantum supremacy circuits</title>
-    <link>http://arxiv.org/pdf/2103.03074</link>
-    <author>Feng Pan, Pan Zhang</author>
-    <pubDate>Mar 05 2021</pubDate>
-    <description>We propose a general tensor network method for simulating quantum circuits. The method is massively more efficient in computing a large number of correlated bitstring amplitudes and probabilities than existing methods. As an application, we study the sampling problem of Google's Sycamore circuits, which are believed to be beyond the reach of classical supercomputers and have been used to demonstrate quantum supremacy. Using our method, employing a small computational cluster containing 60 graphical processing units (GPUs), we have generated one million correlated bitstrings with some entries fixed, from the Sycamore circuit with 53 qubits and 20 cycles, with linear cross-entropy benchmark (XEB) fidelity equals 0.739, which is much higher than those in Google's quantum supremacy experiments.</description>
-  </item>
-
-  <item>
     <title>Linear growth of quantum circuit complexity</title>
     <link>http://arxiv.org/pdf/2106.05305</link>
     <author>Jonas Haferkamp, Philippe Faist, Naga B. T. Kothakonda, Jens Eisert, Nicole Yunger Halpern</author>
@@ -404,6 +396,14 @@
     <author>K. J. Satzinger, Y. Liu, A. Smith, C. Knapp, M. Newman, C. Jones, Z. Chen, C. Quintana, X. Mi, A. Dunsworth, C. Gidney, I. Aleiner, F. Arute, K. Arya, J. Atalaya, R. Babbush, J. C. Bardin, R. Barends, J. Basso, A. Bengtsson, et al (78)</author>
     <pubDate>Apr 06 2021</pubDate>
     <description>The discovery of topological order has revolutionized the understanding of quantum matter in modern physics and provided the theoretical foundation for many quantum error correcting codes. Realizing topologically ordered states has proven to be extremely challenging in both condensed matter and synthetic quantum systems. Here, we prepare the ground state of the toric code Hamiltonian using an efficient quantum circuit on a superconducting quantum processor. We measure a topological entanglement entropy near the expected value of $\ln2$, and simulate anyon interferometry to extract the braiding statistics of the emergent excitations. Furthermore, we investigate key aspects of the surface code, including logical state injection and the decay of the non-local order parameter. Our results demonstrate the potential for quantum processors to provide key insights into topological quantum matter and quantum error correction.</description>
+  </item>
+
+  <item>
+    <title>Interleaving: Modular architectures for fault-tolerant photonic quantum computing</title>
+    <link>http://arxiv.org/pdf/2103.08612</link>
+    <author>Hector Bombin, Isaac H. Kim, Daniel Litinski, Naomi Nickerson, Mihir Pant, Fernando Pastawski, Sam Roberts, Terry Rudolph</author>
+    <pubDate>Mar 17 2021</pubDate>
+    <description>Useful fault-tolerant quantum computers require very large numbers of physical qubits. Quantum computers are often designed as arrays of static qubits executing gates and measurements. Photonic qubits require a different approach. In photonic fusion-based quantum computing (FBQC), the main hardware components are resource-state generators (RSGs) and fusion devices connected via waveguides and switches. RSGs produce small entangled states of a few photonic qubits, whereas fusion devices perform entangling measurements between different resource states, thereby executing computations. In addition, low-loss photonic delays such as optical fiber can be used as fixed-time quantum memories simultaneously storing thousands of photonic qubits. Here, we present a modular architecture for FBQC in which these components are combined to form "interleaving modules" consisting of one RSG with its associated fusion devices and a few fiber delays. Exploiting the multiplicative power of delays, each module can add thousands of physical qubits to the computational Hilbert space. Networks of modules are universal fault-tolerant quantum computers, which we demonstrate using surface codes and lattice surgery as a guiding example. Our numerical analysis shows that in a network of modules containing 1-km-long fiber delays, each RSG can generate four logical distance-35 surface-code qubits while tolerating photon loss rates above 2% in addition to the fiber-delay loss. We illustrate how the combination of interleaving with further uses of non-local fiber connections can reduce the cost of logical operations and facilitate the implementation of unconventional geometries such as periodic boundaries or stellated surface codes. Interleaving applies beyond purely optical architectures, and can also turn many small disconnected matter-qubit devices with transduction to photons into a large-scale quantum computer.</description>
   </item>
 
 </channel>

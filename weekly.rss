@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+  </item>
+
+  <item>
     <title>Quantum Tanner codes</title>
     <link>http://arxiv.org/pdf/2202.13641</link>
     <author>Anthony Leverrier, Gilles Zémor</author>
@@ -28,14 +36,6 @@
     <author>Jiayu Zhang</author>
     <pubDate>Mar 01 2022</pubDate>
     <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
-  </item>
-
-  <item>
-    <title>Is quantum advantage the right goal for quantum machine learning?</title>
-    <link>http://arxiv.org/pdf/2203.01340</link>
-    <author>Maria Schuld, Nathan Killoran</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
   </item>
 
   <item>
@@ -55,22 +55,6 @@
   </item>
 
   <item>
-    <title>Optimizing thermalizations</title>
-    <link>http://arxiv.org/pdf/2202.12616</link>
-    <author>Kamil Korzekwa, Matteo Lostaglio</author>
-    <pubDate>Feb 28 2022</pubDate>
-    <description>We present a rigorous approach, based on the concept of continuous thermomajorisation, to algorithmically characterise the full set of energy occupations of a quantum system accessible from a given initial state through weak interactions with a heat bath. The algorithm can be deployed to solve complex optimization problems in out-of-equilibrium setups and it returns explicit elementary control sequences realizing optimal transformations. We illustrate this by finding optimal protocols in the context of cooling, work extraction and catalysis. The same tools also allow one to quantitatively assess the role played by memory effects in the performance of thermodynamic protocols. We obtained exhaustive solutions on a laptop machine for systems with dimension $d\leq 7$, but with heuristic methods one could access much higher $d$.</description>
-  </item>
-
-  <item>
-    <title>One-dimensional SPT phases protected by frieze symmetries</title>
-    <link>http://arxiv.org/pdf/2202.12880</link>
-    <author>Bram Vancraeynest-De Cuiper, Nicolas Dewolf, Jutho Haegeman, Frank Verstraete</author>
-    <pubDate>Feb 28 2022</pubDate>
-    <description>We undertake a systematic study of symmetry-protected topological gapped phases of quantum spin chains in the presence of the quasi-one-dimensional frieze space groups. Here, the spatial symmetries of the one-dimensional lattice are considered together with an additional 'vertical reflection', which we take to be an on-site $\mathbb{Z}_2$ symmetry. We identify seventeen distinct non-trivial phases and define canonical forms. If time-reversal is combined with a shift over one site, then no new topological phases arise. We furthermore construct explicit renormalization-group fixed point wavefunctions for symmetry-protected topological phases with global on-site symmetries, and demonstrate how group cohomology can be computed using the Smith normal form</description>
-  </item>
-
-  <item>
     <title>Quantum circuit compilation and hybrid computation using Pauli-based computation</title>
     <link>http://arxiv.org/pdf/2203.01789</link>
     <author>F.C.R. Peres, Ernesto F. Galvão</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
-    <title>Physics solutions for machine learning privacy leaks</title>
-    <link>http://arxiv.org/pdf/2202.12319</link>
-    <author>Alejandro Pozas-Kerstjens, Senaida Hernández-Santana, José Ramón Pareja Monturiol, Marco Castrillón López, Giannicola Scarpa, Carlos E. González-Guillén, David Pérez-García</author>
-    <pubDate>Feb 28 2022</pubDate>
-    <description>Machine learning systems are becoming more and more ubiquitous in increasingly complex areas, including cutting-edge scientific research. The opposite is also true: the interest in better understanding the inner workings of machine learning systems motivates their analysis under the lens of different scientific disciplines. Physics is particularly successful in this, due to its ability to describe complex dynamical systems. While explanations of phenomena in machine learning based on physics are increasingly present, examples of direct application of notions akin to physics in order to improve machine learning systems are more scarce. Here we provide one such application in the problem of developing algorithms that preserve the privacy of the manipulated data, which is especially important in tasks such as the processing of medical records. We develop well-defined conditions to guarantee robustness to specific types of privacy leaks, and rigorously prove that such conditions are satisfied by tensor-network architectures. These are inspired by the efficient representation of quantum many-body systems, and have shown to compete and even surpass traditional machine learning architectures in certain cases. Given the growing expertise in training tensor-network architectures, these results imply that one may not have to be forced to make a choice between accuracy in prediction and ensuring the privacy of the information processed.</description>
+    <title>Boson bunching is not maximized by indistinguishable particles</title>
+    <link>http://arxiv.org/pdf/2203.01306</link>
+    <author>Benoît Seron, Leonardo Novo, Nicolas J. Cerf</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>Boson bunching is amongst the most remarkable features of quantum physics. A celebrated example in optics is the Hong-Ou-Mandel effect, where the bunching of two photons arises from a destructive quantum interference between the trajectories where they both either cross a beam splitter or are reflected. This effect takes its roots in the indistinguishability of identical photons. Hence, it is generally admitted -- and experimentally verified -- that bunching vanishes as soon as photons can be distinguished, e.g., when they occupy distinct time bins or have different polarizations. Here we disproof this alleged straightforward link between indistinguishability and bunching by exploiting a recent finding in the theory of matrix permanents. We exhibit a family of optical circuits where the bunching of photons into two modes can be significantly boosted by making them partially distinguishable via an appropriate polarization pattern. This boosting effect is already visible in a 7-photon interferometric process, making the observation of this phenomenon within reach of current photonic technology. This unexpected behavior questions our understanding of multiparticle interference in the grey zone between indistinguishable bosons and classical particles.</description>
+  </item>
+
+  <item>
+    <title>Optimal quantum dataset for learning a unitary transformation</title>
+    <link>http://arxiv.org/pdf/2203.00546</link>
+    <author>Zhan Yu, Xuanqiang Zhao, Benchi Zhao, Xin Wang</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>Unitary transformations formulate the time evolution of quantum states. How to learn a unitary transformation efficiently is a fundamental problem in quantum machine learning. The most natural and leading strategy is to train a quantum machine learning model based on a quantum dataset. Although presence of more training data results in better models, using too much data reduces the efficiency of training. In this work, we solve the problem on the minimum size of sufficient quantum datasets for learning a unitary transformation exactly, which reveals the power and limitation of quantum data. First, we prove that the minimum size of dataset with pure states is $2^n$ for learning an $n$-qubit unitary transformation. To fully explore the capability of quantum data, we introduce a quantum dataset consisting of $n+1$ mixed states that are sufficient for exact training. The main idea is to simplify the structure utilizing decoupling, which leads to an exponential improvement on the size over the datasets with pure states. Furthermore, we show that the size of quantum dataset with mixed states can be reduced to a constant, which yields an optimal quantum dataset for learning a unitary. We showcase the applications of our results in oracle compiling and Hamiltonian simulation. Notably, to accurately simulate a 3-qubit one-dimensional nearest-neighbor Heisenberg model, our circuit only uses $48$ elementary quantum gates, which is significantly less than $4320$ gates in the circuit constructed by the Trotter-Suzuki product formula.</description>
+  </item>
+
+  <item>
+    <title>Maximum Flow and Minimum-Cost Flow in Almost-Linear Time</title>
+    <link>http://arxiv.org/pdf/2203.00671</link>
+    <author>Li Chen, Rasmus Kyng, Yang P. Liu, Richard Peng, Maximilian Probst Gutenberg, Sushant Sachdeva</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>We give an algorithm that computes exact maximum flows and minimum-cost flows on directed graphs with $m$ edges and polynomially bounded integral demands, costs, and capacities in $m^{1+o(1)}$ time. Our algorithm builds the flow through a sequence of $m^{1+o(1)}$ approximate undirected minimum-ratio cycles, each of which is computed and processed in amortized $m^{o(1)}$ time using a dynamic data structure. Our framework extends to an algorithm running in $m^{1+o(1)}$ time for computing flows that minimize general edge-separable convex functions to high accuracy. This gives an almost-linear time algorithm for several problems including entropy-regularized optimal transport, matrix scaling, $p$-norm flows, and isotonic regression.</description>
   </item>
 
 </channel>
