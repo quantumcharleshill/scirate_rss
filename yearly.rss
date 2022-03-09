@@ -127,14 +127,6 @@
   </item>
 
   <item>
-    <title>Error mitigation for universal gates on encoded qubits</title>
-    <link>http://arxiv.org/pdf/2103.04915</link>
-    <author>Christophe Piveteau, David Sutter, Sergey Bravyi, Jay M. Gambetta, Kristan Temme</author>
-    <pubDate>Mar 09 2021</pubDate>
-    <description>The Eastin-Knill theorem states that no quantum error correcting code can have a universal set of transversal gates. For CSS codes that can implement Clifford gates transversally it suffices to provide one additional non-Clifford gate, such as the T-gate, to achieve universality. Common methods to implement fault-tolerant T-gates like magic state distillation generate a significant hardware overhead that will likely prevent their practical usage in the near-term future. Recently methods have been developed to mitigate the effect of noise in shallow quantum circuits that are not protected by error correction. Error mitigation methods require no additional hardware resources but suffer from a bad asymptotic scaling and apply only to a restricted class of quantum algorithms. In this work, we combine both approaches and show how to implement encoded Clifford+T circuits where Clifford gates are protected from noise by error correction while errors introduced by noisy encoded T-gates are mitigated using the quasi-probability method. As a result, Clifford+T circuits with a number of T-gates inversely proportional to the physical noise rate can be implemented on small error-corrected devices without magic state distillation. We argue that such circuits can be out of reach for state-of-the-art classical simulation algorithms.</description>
-  </item>
-
-  <item>
     <title>Improved upper bounds on the stabilizer rank of magic states</title>
     <link>http://arxiv.org/pdf/2106.07740</link>
     <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
@@ -279,6 +271,14 @@
   </item>
 
   <item>
+    <title>Permanent of random matrices from representation theory: moments, numerics, concentration, and comments on hardness of boson-sampling</title>
+    <link>http://arxiv.org/pdf/2104.06423</link>
+    <author>Sepehr Nezami</author>
+    <pubDate>Apr 15 2021</pubDate>
+    <description>Computing the distribution of permanents of random matrices has been an outstanding open problem for several decades. In quantum computing, "anti-concentration" of this distribution is an unproven input for the proof of hardness of the task of boson-sampling. We study permanents of random i.i.d. complex Gaussian matrices, and more broadly, submatrices of random unitary matrices. Using a hybrid representation-theoretic and combinatorial approach, we prove strong lower bounds for all moments of the permanent distribution. We provide substantial evidence that our bounds are close to being tight and constitute accurate estimates for the moments. Let $U(d)^{k\times k}$ be the distribution of $k\times k$ submatrices of $d\times d$ random unitary matrices, and $G^{k\times k}$ be the distribution of $k\times k$ complex Gaussian matrices. (1) Using the Schur-Weyl duality (or the Howe duality), we prove an expansion formula for the $2t$-th moment of $|Perm(M)|$ when $M$ is drawn from $U(d)^{k\times k}$ or $G^{k\times k}$. (2) We prove a surprising size-moment duality: the $2t$-th moment of the permanent of random $k\times k$ matrices is equal to the $2k$-th moment of the permanent of $t\times t$ matrices. (3) We design an algorithm to exactly compute high moments of the permanent of small matrices. (4) We prove lower bounds for arbitrary moments of permanents of matrices drawn from $G^{ k\times k}$ or $U(k)$, and conjecture that our lower bounds are close to saturation up to a small multiplicative error. (5) Assuming our conjectures, we use the large deviation theory to compute the tail of the distribution of log-permanent of Gaussian matrices for the first time. (6) We argue that it is unlikely that the permanent distribution can be uniquely determined from the integer moments and one may need to supplement the moment calculations with extra assumptions to prove the anti-concentration conjecture.</description>
+  </item>
+
+  <item>
     <title>Symmetry Protected Quantum Computation</title>
     <link>http://arxiv.org/pdf/2105.04649</link>
     <author>Michael H. Freedman, Matthew B. Hastings, Modjtaba Shokrian Zini</author>
@@ -316,14 +316,6 @@
     <author>Maxime A. Tremblay, Nicolas Delfosse, Michael E. Beverland</author>
     <pubDate>Sep 30 2021</pubDate>
     <description>Quantum LDPC codes may provide a path to build low-overhead fault-tolerant quantum computers. However, as general LDPC codes lack geometric constraints, naïve layouts couple many distant qubits with crossing connections which could be hard to build in hardware and could result in performance-degrading crosstalk. We propose a 2D layout for quantum LDPC codes by decomposing their Tanner graphs into a small number of planar layers. Each layer contains long-range connections which do not cross. For any CSS code with a degree-$\delta$ Tanner graph, we design stabilizer measurement circuits with depth at most $(2\delta +2)$ using at most $\lceil \delta/2 \rceil$ layers. We observe a circuit-noise threshold of 0.28\% for a positive-rate code family using 49 physical qubits per logical qubit. For a physical error rate of $10^{-4}$, this family reaches a logical error rate of $10^{-15}$ using fourteen times fewer physical qubits than the surface code.</description>
-  </item>
-
-  <item>
-    <title>Permanent of random matrices from representation theory: moments, numerics, concentration, and comments on hardness of boson-sampling</title>
-    <link>http://arxiv.org/pdf/2104.06423</link>
-    <author>Sepehr Nezami</author>
-    <pubDate>Apr 15 2021</pubDate>
-    <description>Computing the distribution of permanents of random matrices has been an outstanding open problem for several decades. In quantum computing, "anti-concentration" of this distribution is an unproven input for the proof of hardness of the task of boson-sampling. We study permanents of random i.i.d. complex Gaussian matrices, and more broadly, submatrices of random unitary matrices. Using a hybrid representation-theoretic and combinatorial approach, we prove strong lower bounds for all moments of the permanent distribution. We provide substantial evidence that our bounds are close to being tight and constitute accurate estimates for the moments. Let $U(d)^{k\times k}$ be the distribution of $k\times k$ submatrices of $d\times d$ random unitary matrices, and $G^{k\times k}$ be the distribution of $k\times k$ complex Gaussian matrices. (1) Using the Schur-Weyl duality (or the Howe duality), we prove an expansion formula for the $2t$-th moment of $|Perm(M)|$ when $M$ is drawn from $U(d)^{k\times k}$ or $G^{k\times k}$. (2) We prove a surprising size-moment duality: the $2t$-th moment of the permanent of random $k\times k$ matrices is equal to the $2k$-th moment of the permanent of $t\times t$ matrices. (3) We design an algorithm to exactly compute high moments of the permanent of small matrices. (4) We prove lower bounds for arbitrary moments of permanents of matrices drawn from $G^{ k\times k}$ or $U(k)$, and conjecture that our lower bounds are close to saturation up to a small multiplicative error. (5) Assuming our conjectures, we use the large deviation theory to compute the tail of the distribution of log-permanent of Gaussian matrices for the first time. (6) We argue that it is unlikely that the permanent distribution can be uniquely determined from the integer moments and one may need to supplement the moment calculations with extra assumptions to prove the anti-concentration conjecture.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Hector Bombin, Isaac H. Kim, Daniel Litinski, Naomi Nickerson, Mihir Pant, Fernando Pastawski, Sam Roberts, Terry Rudolph</author>
     <pubDate>Mar 17 2021</pubDate>
     <description>Useful fault-tolerant quantum computers require very large numbers of physical qubits. Quantum computers are often designed as arrays of static qubits executing gates and measurements. Photonic qubits require a different approach. In photonic fusion-based quantum computing (FBQC), the main hardware components are resource-state generators (RSGs) and fusion devices connected via waveguides and switches. RSGs produce small entangled states of a few photonic qubits, whereas fusion devices perform entangling measurements between different resource states, thereby executing computations. In addition, low-loss photonic delays such as optical fiber can be used as fixed-time quantum memories simultaneously storing thousands of photonic qubits. Here, we present a modular architecture for FBQC in which these components are combined to form "interleaving modules" consisting of one RSG with its associated fusion devices and a few fiber delays. Exploiting the multiplicative power of delays, each module can add thousands of physical qubits to the computational Hilbert space. Networks of modules are universal fault-tolerant quantum computers, which we demonstrate using surface codes and lattice surgery as a guiding example. Our numerical analysis shows that in a network of modules containing 1-km-long fiber delays, each RSG can generate four logical distance-35 surface-code qubits while tolerating photon loss rates above 2% in addition to the fiber-delay loss. We illustrate how the combination of interleaving with further uses of non-local fiber connections can reduce the cost of logical operations and facilitate the implementation of unconventional geometries such as periodic boundaries or stellated surface codes. Interleaving applies beyond purely optical architectures, and can also turn many small disconnected matter-qubit devices with transduction to photons into a large-scale quantum computer.</description>
+  </item>
+
+  <item>
+    <title>Planar Floquet Codes</title>
+    <link>http://arxiv.org/pdf/2110.05348</link>
+    <author>Christophe Vuillot</author>
+    <pubDate>Oct 12 2021</pubDate>
+    <description>A protocol called the "honeycomb code", or generically a "Floquet code", was introduced by Hastings and Haah in \citehastings_dynamically_2021. The honeycomb code is a subsystem code based on the honeycomb lattice with zero logical qubits but such that there exists a schedule for measuring two-body gauge checks leaving enough room at all times for two protected logical qubits. In this work we show a way to introduce boundaries to the system which curiously presents a rotating dynamics but has constant distance and is therefore not fault-tolerant.</description>
   </item>
 
 </channel>

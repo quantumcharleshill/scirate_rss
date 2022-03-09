@@ -23,6 +23,14 @@
   </item>
 
   <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
+  </item>
+
+  <item>
     <title>The Parameterized Complexity of Quantum Verification</title>
     <link>http://arxiv.org/pdf/2202.08119</link>
     <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
@@ -36,14 +44,6 @@
     <author>Craig Gidney, Michael Newman</author>
     <pubDate>Feb 25 2022</pubDate>
     <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
-  </item>
-
-  <item>
-    <title>Is quantum advantage the right goal for quantum machine learning?</title>
-    <link>http://arxiv.org/pdf/2203.01340</link>
-    <author>Maria Schuld, Nathan Killoran</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
   </item>
 
   <item>
@@ -159,6 +159,14 @@
   </item>
 
   <item>
+    <title>All quantum measurements are asymptotically equivalent</title>
+    <link>http://arxiv.org/pdf/2203.02593</link>
+    <author>Noah Linden, Paul Skrzypczyk</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
+  </item>
+
+  <item>
     <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
     <link>http://arxiv.org/pdf/2202.04047</link>
     <author>Muhammad Imran, Gabor Ivanyos</author>
@@ -175,14 +183,6 @@
   </item>
 
   <item>
-    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
-    <link>http://arxiv.org/pdf/2202.09202</link>
-    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
-    <pubDate>Feb 21 2022</pubDate>
-    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
-  </item>
-
-  <item>
     <title>The quantum low-rank approximation problem</title>
     <link>http://arxiv.org/pdf/2203.00811</link>
     <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
@@ -191,11 +191,11 @@
   </item>
 
   <item>
-    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
-    <link>http://arxiv.org/pdf/2202.06976</link>
-    <author>Roeland Wiersema, Nathan Killoran</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
+    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
+    <link>http://arxiv.org/pdf/2202.09202</link>
+    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
+    <pubDate>Feb 21 2022</pubDate>
+    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
   </item>
 
   <item>
@@ -204,6 +204,14 @@
     <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
     <pubDate>Feb 10 2022</pubDate>
     <description>We introduce a method for extracting meaningful entanglement measures of tensor network states in general dimensions. Current methods require the explicit reconstruction of the density matrix, which is highly demanding, or the contraction of replicas, which requires an effort exponential in the number of replicas and which is costly in terms of memory. In contrast, our method requires the stochastic sampling of matrix elements of the classically represented reduced states with respect to random states drawn from simple product probability measures constituting frames. Even though not corresponding to physical operations, such matrix elements are straightforward to calculate for tensor network states, and their moments provide the Rényi entropies and negativities as well as their symmetry-resolved components. We test our method on the one-dimensional critical XX chain and the two-dimensional toric code. Although the cost is exponential in the subsystem size, it is sufficiently moderate so that - in contrast with other approaches - accurate results can be obtained on a personal computer for relatively large subsystem sizes.</description>
+  </item>
+
+  <item>
+    <title>Optimizing quantum circuits with Riemannian gradient-flow</title>
+    <link>http://arxiv.org/pdf/2202.06976</link>
+    <author>Roeland Wiersema, Nathan Killoran</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>Variational quantum algorithms are a promising class of algorithms that can be performed on currently available quantum computers. In most settings, the free parameters of a variational circuit are optimized using a classical optimizer that updates parameters in Euclidean geometry. Since quantum circuits are elements of the special unitary group, we can consider an alternative optimization perspective that depends on the structure of this group. In this work, we investigate a Riemannian optimization scheme over the special unitary group and we discuss its implementation on a quantum computer. We illustrate that the resulting Riemannian gradient-flow algorithm has favorable optimization properties for deep circuits and that an approximate version of this algorithm can be performed on near-term hardware.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Gaurav Saxena, Gilad Gour</author>
     <pubDate>Feb 17 2022</pubDate>
     <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
-  </item>
-
-  <item>
-    <title>Three-dimensional quantum cellular automata from chiral semion surface topological order and beyond</title>
-    <link>http://arxiv.org/pdf/2202.05442</link>
-    <author>Wilbur Shirley, Yu-An Chen, Arpit Dua, Tyler D. Ellison, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>We construct a novel three-dimensional quantum cellular automaton (QCA) based on a system with short-range entangled bulk and chiral semion boundary topological order. We argue that either the QCA is nontrivial, i.e. not a finite-depth circuit of local quantum gates, or there exists a two-dimensional commuting projector Hamiltonian realizing the chiral semion topological order (characterized by $U(1)_2$ Chern-Simons theory). Our QCA is obtained by first constructing the Walker-Wang Hamiltonian of a certain premodular tensor category of order four, then condensing the deconfined bulk boson at the level of lattice operators. We show that the resulting Hamiltonian hosts chiral semion surface topological order in the presence of a boundary and can be realized as a non-Pauli stabilizer code on qubits, from which the QCA is defined. The construction is then generalized to a class of QCAs defined by non-Pauli stabilizer codes on ${2^n}$-dimensional qudits that feature surface anyons described by $U(1)_{2^n}$ Chern-Simons theory. Our results support the conjecture that the group of nontrivial three-dimensional QCAs is isomorphic to the Witt group of non-degenerate braided fusion categories.</description>
   </item>
 
 </channel>
