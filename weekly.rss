@@ -23,27 +23,11 @@
   </item>
 
   <item>
-    <title>The quantum low-rank approximation problem</title>
-    <link>http://arxiv.org/pdf/2203.00811</link>
-    <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
-    <pubDate>Mar 03 2022</pubDate>
-    <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
-  </item>
-
-  <item>
     <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
     <link>http://arxiv.org/pdf/2203.03581</link>
     <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
     <pubDate>Mar 08 2022</pubDate>
     <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
-  </item>
-
-  <item>
-    <title>Quantum algorithms for estimating quantum entropies</title>
-    <link>http://arxiv.org/pdf/2203.02386</link>
-    <author>Youle Wang, Benchi Zhao, Xin Wang</author>
-    <pubDate>Mar 07 2022</pubDate>
-    <description>The von Neumann and quantum Rényi entropies characterize fundamental properties of quantum systems and lead to theoretical and practical applications in many fields. Quantum algorithms for estimating quantum entropies, using a quantum query model that prepares the purification of the input state, have been established in the literature. However, constructing such a model is almost as hard as state tomography. In this paper, we propose quantum algorithms to estimate the von Neumann and quantum $\alpha$-Rényi entropies of an $n$-qubit quantum state $\rho$ using independent copies of the input state. We also show how to efficiently construct the quantum circuits for quantum entropy estimation using primitive single/two-qubit gates. We prove that the number of required copies scales polynomially in $1/\epsilon$ and $1/\Lambda$, where $\epsilon$ denotes the additive precision and $\Lambda$ denotes the lower bound on all non-zero eigenvalues. Notably, our method outperforms previous methods in the aspect of practicality since it does not require any quantum query oracles, which are usually necessary for previous methods. Furthermore, we conduct experiments to show the efficacy of our algorithms to single-qubit states and study the noise robustness. We also discuss the applications to some quantum states of practical interest as well as some meaningful tasks such as quantum Gibbs state preparation and entanglement estimation.</description>
   </item>
 
   <item>
@@ -55,19 +39,11 @@
   </item>
 
   <item>
-    <title>Boson bunching is not maximized by indistinguishable particles</title>
-    <link>http://arxiv.org/pdf/2203.01306</link>
-    <author>Benoît Seron, Leonardo Novo, Nicolas J. Cerf</author>
-    <pubDate>Mar 03 2022</pubDate>
-    <description>Boson bunching is amongst the most remarkable features of quantum physics. A celebrated example in optics is the Hong-Ou-Mandel effect, where the bunching of two photons arises from a destructive quantum interference between the trajectories where they both either cross a beam splitter or are reflected. This effect takes its roots in the indistinguishability of identical photons. Hence, it is generally admitted -- and experimentally verified -- that bunching vanishes as soon as photons can be distinguished, e.g., when they occupy distinct time bins or have different polarizations. Here we disproof this alleged straightforward link between indistinguishability and bunching by exploiting a recent finding in the theory of matrix permanents. We exhibit a family of optical circuits where the bunching of photons into two modes can be significantly boosted by making them partially distinguishable via an appropriate polarization pattern. This boosting effect is already visible in a 7-photon interferometric process, making the observation of this phenomenon within reach of current photonic technology. This unexpected behavior questions our understanding of multiparticle interference in the grey zone between indistinguishable bosons and classical particles.</description>
-  </item>
-
-  <item>
-    <title>Semidefinite programming lower bounds on the squashed entanglement</title>
-    <link>http://arxiv.org/pdf/2203.03394</link>
-    <author>Hamza Fawzi, Omar Fawzi</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>The squashed entanglement is a widely used entanglement measure that has many desirable properties. However, as it is based on an optimization over extensions of arbitrary dimension, one drawback of this measure is the lack of good algorithms to compute it. Here, we introduce a hierarchy of semidefinite programming lower bounds on the squashed entanglement.</description>
+    <title>Quantum algorithms for estimating quantum entropies</title>
+    <link>http://arxiv.org/pdf/2203.02386</link>
+    <author>Youle Wang, Benchi Zhao, Xin Wang</author>
+    <pubDate>Mar 07 2022</pubDate>
+    <description>The von Neumann and quantum Rényi entropies characterize fundamental properties of quantum systems and lead to theoretical and practical applications in many fields. Quantum algorithms for estimating quantum entropies, using a quantum query model that prepares the purification of the input state, have been established in the literature. However, constructing such a model is almost as hard as state tomography. In this paper, we propose quantum algorithms to estimate the von Neumann and quantum $\alpha$-Rényi entropies of an $n$-qubit quantum state $\rho$ using independent copies of the input state. We also show how to efficiently construct the quantum circuits for quantum entropy estimation using primitive single/two-qubit gates. We prove that the number of required copies scales polynomially in $1/\epsilon$ and $1/\Lambda$, where $\epsilon$ denotes the additive precision and $\Lambda$ denotes the lower bound on all non-zero eigenvalues. Notably, our method outperforms previous methods in the aspect of practicality since it does not require any quantum query oracles, which are usually necessary for previous methods. Furthermore, we conduct experiments to show the efficacy of our algorithms to single-qubit states and study the noise robustness. We also discuss the applications to some quantum states of practical interest as well as some meaningful tasks such as quantum Gibbs state preparation and entanglement estimation.</description>
   </item>
 
   <item>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
+    <title>Semidefinite programming lower bounds on the squashed entanglement</title>
+    <link>http://arxiv.org/pdf/2203.03394</link>
+    <author>Hamza Fawzi, Omar Fawzi</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>The squashed entanglement is a widely used entanglement measure that has many desirable properties. However, as it is based on an optimization over extensions of arbitrary dimension, one drawback of this measure is the lack of good algorithms to compute it. Here, we introduce a hierarchy of semidefinite programming lower bounds on the squashed entanglement.</description>
+  </item>
+
+  <item>
+    <title>Quantum Proofs of Deletion for Learning with Errors</title>
+    <link>http://arxiv.org/pdf/2203.01610</link>
+    <author>Alexander Poremba</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Quantum information has the property that measurement is an inherently destructive process. This feature is most apparent in the principle of complementarity, which states that mutually incompatible observables cannot be measured at the same time. Recent work by Broadbent and Islam (TCC 2020) builds on this aspect of quantum mechanics to realize a cryptographic notion called certified deletion. While this remarkable notion enables a classical verifier to be convinced that a (private-key) quantum ciphertext has been deleted by an untrusted party, it offers no additional layer of functionality. In this work, we augment the proof-of-deletion paradigm with fully homomorphic encryption (FHE). This results in a new and powerful cryptographic notion called fully homomorphic encryption with certified deletion -- an interactive protocol which enables an untrusted quantum server to compute on encrypted data and, if requested, to simultaneously prove data deletion to a client. Our main technical ingredient is an interactive protocol by which a quantum prover can convince a classical verifier that a sample from the Learning with Errors (LWE) distribution in the form of a quantum state was deleted. We introduce an encoding based on Gaussian coset states which is highly generic and suggests that essentially any LWE-based cryptographic primitive admits a classically-verifiable quantum proof of deletion. As an application of our protocol, we construct a Dual-Regev public-key encryption scheme with certified deletion, which we then extend towards a (leveled) FHE scheme of the same type. Our construction achieves indistinguishable ciphertexts in the semi-honest adversarial model, even if the secret key is later revealed after deletion has taken place.</description>
+  </item>
+
+  <item>
     <title>Quantum computation with cat qubits</title>
     <link>http://arxiv.org/pdf/2203.03222</link>
     <author>Jérémie Guillaud, Joachim Cohen, Mazyar Mirrahimi</author>
     <pubDate>Mar 08 2022</pubDate>
     <description>These are the lecture notes from the 2019 Les Houches Summer School on "Quantum Information Machines". After a brief introduction to quantum error correction and bosonic codes, we focus on the case of cat qubits stabilized by a nonlinear multi-photon driven dissipation process. We argue that such a system can be seen as a self-correcting qubit where bit-flip errors are robustly and exponentially suppressed. Next, we provide some experimental directions to engineer such a multi-photon driven dissipation process with superconducting circuits. Finally, we analyze various logical gates that can be implemented without re-introducing bit-flip errors. This set of bias-preserving gates pave the way towards a hardware-efficient and fault-tolerant quantum processor.</description>
+  </item>
+
+  <item>
+    <title>Differential Privacy Amplification in Quantum and Quantum-inspired Algorithms</title>
+    <link>http://arxiv.org/pdf/2203.03604</link>
+    <author>Armando Angrisani, Mina Doosti, Elham Kashefi</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Differential privacy provides a theoretical framework for processing a dataset about $n$ users, in a way that the output reveals a minimal information about any single user. Such notion of privacy is usually ensured by noise-adding mechanisms and amplified by several processes, including subsampling, shuffling, iteration, mixing and diffusion. In this work, we provide privacy amplification bounds for quantum and quantum-inspired algorithms. In particular, we show for the first time, that algorithms running on quantum encoding of a classical dataset or the outcomes of quantum-inspired classical sampling, amplify differential privacy. Moreover, we prove that a quantum version of differential privacy is amplified by the composition of quantum channels, provided that they satisfy some mixing conditions.</description>
   </item>
 
 </channel>
