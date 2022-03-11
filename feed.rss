@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>All quantum measurements are asymptotically equivalent</title>
+    <link>http://arxiv.org/pdf/2203.02593</link>
+    <author>Noah Linden, Paul Skrzypczyk</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
+  </item>
+
+  <item>
     <title>Circuit Extraction for ZX-diagrams can be #P-hard</title>
     <link>http://arxiv.org/pdf/2202.09194</link>
     <author>Niel de Beaudrap, Aleks Kissinger, John van de Wetering</author>
@@ -108,14 +116,6 @@
     <author>Matthew Moore, Grace Young</author>
     <pubDate>Feb 22 2022</pubDate>
     <description>We present a polynomial-time quantum algorithm for the Hidden Subgroup Problem over $\mathbb{D}_{2^n}$. The usual approach to the Hidden Subgroup Problem relies on harmonic analysis in the domain of the problem, and the best known algorithm using this approach has time complexity in $2^{\mathcal{O}(\sqrt{n})}$. By focusing on structure encoded in the codomain of the problem, we develop a polynomial-time algorithm which uses this structure to direct a "walk" down the subgroup lattice of $\mathbb{D}_{2^n}$ terminating at the hidden subgroup.</description>
-  </item>
-
-  <item>
-    <title>All quantum measurements are asymptotically equivalent</title>
-    <link>http://arxiv.org/pdf/2203.02593</link>
-    <author>Noah Linden, Paul Skrzypczyk</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
   </item>
 
   <item>
@@ -159,6 +159,14 @@
   </item>
 
   <item>
+    <title>Fragile boundaries of tailored surface codes</title>
+    <link>http://arxiv.org/pdf/2203.04948</link>
+    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
+  </item>
+
+  <item>
     <title>An exact quantum hidden subgroup algorithm and applications to solvable groups</title>
     <link>http://arxiv.org/pdf/2202.04047</link>
     <author>Muhammad Imran, Gabor Ivanyos</author>
@@ -175,6 +183,14 @@
   </item>
 
   <item>
+    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
+    <link>http://arxiv.org/pdf/2203.03581</link>
+    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
+  </item>
+
+  <item>
     <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
     <link>http://arxiv.org/pdf/2202.09202</link>
     <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
@@ -188,14 +204,6 @@
     <author>Noa Feldman, Augustine Kshetrimayum, Jens Eisert, Moshe Goldstein</author>
     <pubDate>Feb 10 2022</pubDate>
     <description>We introduce a method for extracting meaningful entanglement measures of tensor network states in general dimensions. Current methods require the explicit reconstruction of the density matrix, which is highly demanding, or the contraction of replicas, which requires an effort exponential in the number of replicas and which is costly in terms of memory. In contrast, our method requires the stochastic sampling of matrix elements of the classically represented reduced states with respect to random states drawn from simple product probability measures constituting frames. Even though not corresponding to physical operations, such matrix elements are straightforward to calculate for tensor network states, and their moments provide the Rényi entropies and negativities as well as their symmetry-resolved components. We test our method on the one-dimensional critical XX chain and the two-dimensional toric code. Although the cost is exponential in the subsystem size, it is sufficiently moderate so that - in contrast with other approaches - accurate results can be obtained on a personal computer for relatively large subsystem sizes.</description>
-  </item>
-
-  <item>
-    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
-    <link>http://arxiv.org/pdf/2203.03581</link>
-    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Gaurav Saxena, Gilad Gour</author>
     <pubDate>Feb 17 2022</pubDate>
     <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
-  </item>
-
-  <item>
-    <title>Quantum circuit compilation and hybrid computation using Pauli-based computation</title>
-    <link>http://arxiv.org/pdf/2203.01789</link>
-    <author>F.C.R. Peres, Ernesto F. Galvão</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
   </item>
 
 </channel>

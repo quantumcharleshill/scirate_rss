@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Is quantum advantage the right goal for quantum machine learning?</title>
-    <link>http://arxiv.org/pdf/2203.01340</link>
-    <author>Maria Schuld, Nathan Killoran</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
-  </item>
-
-  <item>
     <title>All quantum measurements are asymptotically equivalent</title>
     <link>http://arxiv.org/pdf/2203.02593</link>
     <author>Noah Linden, Paul Skrzypczyk</author>
@@ -23,19 +15,19 @@
   </item>
 
   <item>
+    <title>Fragile boundaries of tailored surface codes</title>
+    <link>http://arxiv.org/pdf/2203.04948</link>
+    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
+  </item>
+
+  <item>
     <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
     <link>http://arxiv.org/pdf/2203.03581</link>
     <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
     <pubDate>Mar 08 2022</pubDate>
     <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
-  </item>
-
-  <item>
-    <title>Quantum circuit compilation and hybrid computation using Pauli-based computation</title>
-    <link>http://arxiv.org/pdf/2203.01789</link>
-    <author>F.C.R. Peres, Ernesto F. Galvão</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
   </item>
 
   <item>
@@ -63,11 +55,19 @@
   </item>
 
   <item>
-    <title>Quantum Proofs of Deletion for Learning with Errors</title>
-    <link>http://arxiv.org/pdf/2203.01610</link>
-    <author>Alexander Poremba</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Quantum information has the property that measurement is an inherently destructive process. This feature is most apparent in the principle of complementarity, which states that mutually incompatible observables cannot be measured at the same time. Recent work by Broadbent and Islam (TCC 2020) builds on this aspect of quantum mechanics to realize a cryptographic notion called certified deletion. While this remarkable notion enables a classical verifier to be convinced that a (private-key) quantum ciphertext has been deleted by an untrusted party, it offers no additional layer of functionality. In this work, we augment the proof-of-deletion paradigm with fully homomorphic encryption (FHE). This results in a new and powerful cryptographic notion called fully homomorphic encryption with certified deletion -- an interactive protocol which enables an untrusted quantum server to compute on encrypted data and, if requested, to simultaneously prove data deletion to a client. Our main technical ingredient is an interactive protocol by which a quantum prover can convince a classical verifier that a sample from the Learning with Errors (LWE) distribution in the form of a quantum state was deleted. We introduce an encoding based on Gaussian coset states which is highly generic and suggests that essentially any LWE-based cryptographic primitive admits a classically-verifiable quantum proof of deletion. As an application of our protocol, we construct a Dual-Regev public-key encryption scheme with certified deletion, which we then extend towards a (leveled) FHE scheme of the same type. Our construction achieves indistinguishable ciphertexts in the semi-honest adversarial model, even if the secret key is later revealed after deletion has taken place.</description>
+    <title>Information recoverability of noisy quantum states</title>
+    <link>http://arxiv.org/pdf/2203.04862</link>
+    <author>Xuanqiang Zhao, Benchi Zhao, Zihan Xia, Xin Wang</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Classical information, also known as shadow information, carried by quantum states could be corrupted as they undergo undesirable noises modelled by quantum channels. Due to quantum channels' destructive nature, a fundamental problem in quantum information theory is how well we can retrieve information from noisy quantum states. In this work, we introduce a systematic framework to quantitatively study this problem. First, we prove that classical information can be retrieved if and only if the querying observable is in the image of the whole observable space under the channel's adjoint. Second, we further define the dimension of the evolved observable space as the quantum channel's effective shadow dimension that quantifies the information recoverability of the channel. This quantity can be computed as the rank of a matrix derived from the channel's Kraus operators, and it induces the shadow destructivity as a measure with meaningful properties. Third, we resolve the minimum cost of retrieving a piece of shadow information from the required number of copies of a noisy state. We in particular show that the optimal cost and the corresponding protocol are efficiently computable by semidefinite programming. As applications, we derive the ultimate limits on shadow retrieving costs for generalized amplitude damping channels and mixed Pauli channels and employ the corresponding protocol to mitigate errors in tasks of ground state energy estimation.</description>
+  </item>
+
+  <item>
+    <title>Differential Privacy Amplification in Quantum and Quantum-inspired Algorithms</title>
+    <link>http://arxiv.org/pdf/2203.03604</link>
+    <author>Armando Angrisani, Mina Doosti, Elham Kashefi</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Differential privacy provides a theoretical framework for processing a dataset about $n$ users, in a way that the output reveals a minimal information about any single user. Such notion of privacy is usually ensured by noise-adding mechanisms and amplified by several processes, including subsampling, shuffling, iteration, mixing and diffusion. In this work, we provide privacy amplification bounds for quantum and quantum-inspired algorithms. In particular, we show for the first time, that algorithms running on quantum encoding of a classical dataset or the outcomes of quantum-inspired classical sampling, amplify differential privacy. Moreover, we prove that a quantum version of differential privacy is amplified by the composition of quantum channels, provided that they satisfy some mixing conditions.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Differential Privacy Amplification in Quantum and Quantum-inspired Algorithms</title>
-    <link>http://arxiv.org/pdf/2203.03604</link>
-    <author>Armando Angrisani, Mina Doosti, Elham Kashefi</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Differential privacy provides a theoretical framework for processing a dataset about $n$ users, in a way that the output reveals a minimal information about any single user. Such notion of privacy is usually ensured by noise-adding mechanisms and amplified by several processes, including subsampling, shuffling, iteration, mixing and diffusion. In this work, we provide privacy amplification bounds for quantum and quantum-inspired algorithms. In particular, we show for the first time, that algorithms running on quantum encoding of a classical dataset or the outcomes of quantum-inspired classical sampling, amplify differential privacy. Moreover, we prove that a quantum version of differential privacy is amplified by the composition of quantum channels, provided that they satisfy some mixing conditions.</description>
+    <title>Quantum Volume in Practice: What Users Can Expect from NISQ Devices</title>
+    <link>http://arxiv.org/pdf/2203.03816</link>
+    <author>Elijah Pelofske, Andreas Bärtschi, Stephan Eidenbenz</author>
+    <pubDate>Mar 09 2022</pubDate>
+    <description>Quantum volume (QV) has become the de-facto standard benchmark to quantify the capability of Noisy Intermediate-Scale Quantum (NISQ) devices. While QV values are often reported by NISQ providers for their systems, we perform our own series of QV calculations on more than 20 NISQ devices currently (2021/2022) offered by IBM Q, IonQ, Rigetti, Oxford Quantum Circuits, and Honeywell/Quantinuum. Our approach characterizes the performances that an advanced user of these NISQ devices can expect to achieve with a reasonable amount of optimization, but without white-box access to the device. In particular, we compile QV circuits to standard gate sets of the vendor using compiler optimization routines where available, and we perform experiments across different initial qubit mappings. We find that running QV tests requires very significant compilation cycles, QV values achieved in our tests typically lag behind officially reported results and also depend significantly on the classical compilation effort invested.</description>
   </item>
 
 </channel>

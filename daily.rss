@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Quantum Volume in Practice: What Users Can Expect from NISQ Devices</title>
-    <link>http://arxiv.org/pdf/2203.03816</link>
-    <author>Elijah Pelofske, Andreas Bärtschi, Stephan Eidenbenz</author>
-    <pubDate>Mar 09 2022</pubDate>
-    <description>Quantum volume (QV) has become the de-facto standard benchmark to quantify the capability of Noisy Intermediate-Scale Quantum (NISQ) devices. While QV values are often reported by NISQ providers for their systems, we perform our own series of QV calculations on more than 20 NISQ devices currently (2021/2022) offered by IBM Q, IonQ, Rigetti, Oxford Quantum Circuits, and Honeywell/Quantinuum. Our approach characterizes the performances that an advanced user of these NISQ devices can expect to achieve with a reasonable amount of optimization, but without white-box access to the device. In particular, we compile QV circuits to standard gate sets of the vendor using compiler optimization routines where available, and we perform experiments across different initial qubit mappings. We find that running QV tests requires very significant compilation cycles, QV values achieved in our tests typically lag behind officially reported results and also depend significantly on the classical compilation effort invested.</description>
-  </item>
-
-  <item>
-    <title>Gradient Ascent Pulse Engineering with Feedback</title>
-    <link>http://arxiv.org/pdf/2203.04271</link>
-    <author>Riccardo Porotti, Vittorio Peano, Florian Marquardt</author>
-    <pubDate>Mar 09 2022</pubDate>
-    <description>Efficient approaches to quantum control and feedback are essential for quantum technologies, from sensing to quantum computation. Pure control tasks have been successfully solved using optimization techniques, including methods like gradient-ascent pulse engineering (GRAPE) , relying on a differentiable model of the quantum dynamics. For feedback tasks, such methods are not directly applicable, since the aim is to discover strategies conditioned on measurement outcomes. There, model-free reinforcement learning (RL) has recently proven a powerful new ansatz. What is missing is a way to combine the best of both approaches for scenarios that go beyond weak measurements. In this work, we introduce feedback-GRAPE, which borrows concepts from model-free RL to incorporate the response to strong stochastic (discrete or continuous) measurements, while still performing direct gradient ascent through the quantum dynamics. We illustrate its power on a Jaynes-Cummings model with feedback, where it yields interpretable feedback strategies for state preparation and stabilization in the presence of noise. This approach could be employed for discovering strategies in a wide range of feedback tasks, from calibration of multi-qubit devices to linear-optics quantum computation strategies, quantum-enhanced sensing with adaptive measurements, and quantum error correction.</description>
-  </item>
-
-  <item>
-    <title>Diagonal distance of quantum codes and hardness of the minimum distance problem</title>
-    <link>http://arxiv.org/pdf/2203.04262</link>
-    <author>Upendra Kapshikar, Srijita Kundu</author>
-    <pubDate>Mar 09 2022</pubDate>
-    <description>The diagonal distance or graph distance is an important parameter of a quantum error-correcting code that characterizes whether the code is degenerate or not. Degeneracy is a property unique to quantum codes, which allows quantum codes, unlike their classical counterparts, to correct more errors than they can uniquely identify. In the CWS framework introduced by Cross, Smith, Smolin and Zeng (2009), a quantum code is constructed using a classical code and a graph. It is known that the diagonal distance of such a code is upper bounded by $\delta+1$, where $\delta$ is the minimum degree of the associated graph. In this paper, we give sufficient conditions on a graph such that a CWS code constructed from it has diagonal distance at least $\delta$, and in fact most of the graphs in our sufficient class achieve the upper bound of $\delta+1$. Using this result, first we give necessary conditions for a CWS code to be degenerate. Secondly, we prove hardness results for the problem of finding the distance of a CWS code. We construct a CWS code from a given classical code, with the distance of the CWS code being equal to the distance of the classical code. This allows us to translate well-known hardness results for computing the minimum distance in classical codes to quantum codes. Specifically, we show that exactly computing the distance of a CWS code is NP-complete, and multiplicatively or additively approximating it is NP-hard under polynomial-time randomized reductions. Our reduction from the classical problems to the quantum problems results in a non-degenerate quantum code, hence our result implies that the quantum problems remain NP-hard even with the promise that the code is non-degenerate. Moreover, using a mapping from stabilizer codes to CSS codes due to Bravyi, Terhal and Leemhuis (2010), we are able to show that the hardness results hold for CSS codes as well.</description>
-  </item>
-
-  <item>
-    <title>Transformations of Stabilizer States in Quantum Networks</title>
-    <link>http://arxiv.org/pdf/2203.04202</link>
-    <author>Matthias Englbrecht, Tristan Kraft, Barbara Kraus</author>
-    <pubDate>Mar 09 2022</pubDate>
-    <description>Stabilizer states and graph states find application in quantum error correction, measurement-based quantum computation and various other concepts in quantum information theory. In this work, we study party-local Clifford (PLC) transformations among stabilizer states. These transformations arise as a physically motivated extension of local operations in quantum networks with access to bipartite entanglement between some of the nodes of the network. First, we show that PLC transformations among graph states are equivalent to a generalization of the well-known local complementation, which describes local Clifford transformations among graph states. Then, we introduce a mathematical framework to study PLC equivalence of stabilizer states, relating it to the classification of tuples of bilinear forms. This framework allows us to study decompositions of stabilizer states into tensor products of indecomposable ones, that is, decompositions into states from the entanglement generating set (EGS). While the EGS is finite up to $3$ parties [Bravyi et al., J. Math. Phys. \bf 47, 062106~(2006)], we show that for $4$ and more parties it is an infinite set, even when considering party-local unitary transformations. Moreover, we explicitly compute the EGS for $4$ parties up to $10$ qubits. Finally, we generalize the framework to qudit stabilizer states in prime dimensions not equal to $2$, which allows us to show that the decomposition of qudit stabilizer states into states from the EGS is unique.</description>
-  </item>
-
-  <item>
     <title>Fragile boundaries of tailored surface codes</title>
     <link>http://arxiv.org/pdf/2203.04948</link>
     <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
     <pubDate>Mar 10 2022</pubDate>
     <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
+  </item>
+
+  <item>
+    <title>Information recoverability of noisy quantum states</title>
+    <link>http://arxiv.org/pdf/2203.04862</link>
+    <author>Xuanqiang Zhao, Benchi Zhao, Zihan Xia, Xin Wang</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Classical information, also known as shadow information, carried by quantum states could be corrupted as they undergo undesirable noises modelled by quantum channels. Due to quantum channels' destructive nature, a fundamental problem in quantum information theory is how well we can retrieve information from noisy quantum states. In this work, we introduce a systematic framework to quantitatively study this problem. First, we prove that classical information can be retrieved if and only if the querying observable is in the image of the whole observable space under the channel's adjoint. Second, we further define the dimension of the evolved observable space as the quantum channel's effective shadow dimension that quantifies the information recoverability of the channel. This quantity can be computed as the rank of a matrix derived from the channel's Kraus operators, and it induces the shadow destructivity as a measure with meaningful properties. Third, we resolve the minimum cost of retrieving a piece of shadow information from the required number of copies of a noisy state. We in particular show that the optimal cost and the corresponding protocol are efficiently computable by semidefinite programming. As applications, we derive the ultimate limits on shadow retrieving costs for generalized amplitude damping channels and mixed Pauli channels and employ the corresponding protocol to mitigate errors in tasks of ground state energy estimation.</description>
+  </item>
+
+  <item>
+    <title>Efficient quantum gate decomposition via adaptive circuit compression</title>
+    <link>http://arxiv.org/pdf/2203.04426</link>
+    <author>Péter Rakyta, Zoltán Zimborás</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>In this work, we report on a novel quantum gate approximation algorithm based on the application of parametric two-qubit gates in the synthesis process. The utilization of these parametric two-qubit gates in the circuit design allows us to transform the discrete combinatorial problem of circuit synthesis into an optimization problem over continuous variables. The circuit is then compressed by a sequential removal of two-qubit gates from the design, while the remaining building blocks are continuously adapted to the reduced gate structure by iterated learning cycles. We implemented the developed algorithm in the SQUANDER software package and benchmarked it against several state-of-the-art quantum gate synthesis tools. Our numerical experiments revealed outstanding circuit compression capabilities of our compilation algorithm providing the most optimal gate count in the majority of the addressed quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Snowmass White Paper: New ideas for many-body quantum systems from string theory and black holes</title>
+    <link>http://arxiv.org/pdf/2203.04718</link>
+    <author>Mike Blake, Yingfei Gu, Sean A. Hartnoll, Hong Liu, Andrew Lucas, Krishna Rajagopal, Brian Swingle, Beni Yoshida</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>During the last two decades many new insights into the dynamics of strongly coupled quantum many-body systems have been obtained using gauge/gravity duality, with black holes often playing a universal role. In this white paper we summarize the results obtained and offer some outlook for future developments, including the ongoing mutually beneficial feedback loop with the study of more general, not necessarily holographic, quantum many-body systems.</description>
+  </item>
+
+  <item>
+    <title>Detecting topological order from modular transformations of ground states on the torus</title>
+    <link>http://arxiv.org/pdf/2203.04329</link>
+    <author>Zhuan Li, Roger S.K. Mong</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>The ground states encode the information of the topological phases of a 2-dimensional system, which makes them crucial in determining the associated topological quantum field theory (TQFT). Most numerical methods for detecting the TQFT relied on the use of minimum entanglement states (MESs), extracting the anyon mutual statistics and self statistics via overlaps and/or the entanglement spectra. The MESs are the eigenstates of the Wilson loop operators, and are labeled by the anyons corresponding to their eigenvalues. Here we revisit the definition of the Wilson loop operators and MESs. We derive the modular transformation of the ground states purely from the Wilson loop algebra, and as a result, the modular $S$- and $T$-matrices naturally show up in the overlap of MESs. Importantly, we show that due to the phase degree of freedom of the Wilson loop operators, the MES-anyon assignment is not unique. This ambiguity obstructs our attempt to detect the topological order, that is, there exist different TQFTs that cannot be distinguished solely by the overlap of MESs. In this paper, we provide the upper limit of the information one may obtain from the overlap of MESs without other additional structure. Finally, we show that if the phase is enriched by rotational symmetry, there may be additional TQFT information that can be extracted from overlap of MESs.</description>
   </item>
 
 </channel>
