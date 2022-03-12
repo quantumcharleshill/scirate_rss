@@ -15,6 +15,22 @@
   </item>
 
   <item>
+    <title>Opportunities and Limitations in Broadband Sensing</title>
+    <link>http://arxiv.org/pdf/2203.05520</link>
+    <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
+    <pubDate>Mar 11 2022</pubDate>
+    <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
+  </item>
+
+  <item>
+    <title>Quantifying Grover speed-ups beyond asymptotic analysis</title>
+    <link>http://arxiv.org/pdf/2203.04975</link>
+    <author>Chris Cade, Marten Folkertsma, Ido Niesen, Jordi Weggemans</author>
+    <pubDate>Mar 11 2022</pubDate>
+    <description>The usual method for studying run-times of quantum algorithms is via an asymptotic, worst-case analysis. Whilst useful, such a comparison can often fall short: it is not uncommon for algorithms with a large worst-case run-time to end up performing well on instances of practical interest. To remedy this it is necessary to resort to run-time analyses of a more empirical nature, which for sufficiently small input sizes can be performed on a quantum device or a simulation thereof. For larger input sizes, alternative approaches are required. In this paper we consider an approach that combines classical emulation with rigorous complexity bounds: simulating quantum algorithms by running classical versions of the sub-routines, whilst simultaneously collecting information about what the run-time of the quantum routine would have been if it were run instead. To do this accurately and efficiently for very large input sizes, we describe an estimation procedure that provides provable guarantees on the estimates that it obtains. A nice feature of this approach is that it allows one to compare the performance of quantum and classical algorithms on particular inputs of interest, rather than only on those that allow for an easier mathematical analysis. We apply our method to some simple quantum speedups of classical heuristic algorithms for solving the well-studied MAX-k-SAT optimization problem. To do this we first obtain some rigorous bounds (including all constants) on the expected- and worst-case complexities of two important quantum sub-routines, which improve upon existing results and might be of broader interest: Grover search with an unknown number of marked items, and quantum maximum-finding. Our results suggest that such an approach can provide insightful and meaningful information, in particular when the speedup is of a small polynomial nature.</description>
+  </item>
+
+  <item>
     <title>Information recoverability of noisy quantum states</title>
     <link>http://arxiv.org/pdf/2203.04862</link>
     <author>Xuanqiang Zhao, Benchi Zhao, Zihan Xia, Xin Wang</author>
@@ -23,27 +39,11 @@
   </item>
 
   <item>
-    <title>Efficient quantum gate decomposition via adaptive circuit compression</title>
-    <link>http://arxiv.org/pdf/2203.04426</link>
-    <author>Péter Rakyta, Zoltán Zimborás</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>In this work, we report on a novel quantum gate approximation algorithm based on the application of parametric two-qubit gates in the synthesis process. The utilization of these parametric two-qubit gates in the circuit design allows us to transform the discrete combinatorial problem of circuit synthesis into an optimization problem over continuous variables. The circuit is then compressed by a sequential removal of two-qubit gates from the design, while the remaining building blocks are continuously adapted to the reduced gate structure by iterated learning cycles. We implemented the developed algorithm in the SQUANDER software package and benchmarked it against several state-of-the-art quantum gate synthesis tools. Our numerical experiments revealed outstanding circuit compression capabilities of our compilation algorithm providing the most optimal gate count in the majority of the addressed quantum circuits.</description>
-  </item>
-
-  <item>
-    <title>Snowmass White Paper: New ideas for many-body quantum systems from string theory and black holes</title>
-    <link>http://arxiv.org/pdf/2203.04718</link>
-    <author>Mike Blake, Yingfei Gu, Sean A. Hartnoll, Hong Liu, Andrew Lucas, Krishna Rajagopal, Brian Swingle, Beni Yoshida</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>During the last two decades many new insights into the dynamics of strongly coupled quantum many-body systems have been obtained using gauge/gravity duality, with black holes often playing a universal role. In this white paper we summarize the results obtained and offer some outlook for future developments, including the ongoing mutually beneficial feedback loop with the study of more general, not necessarily holographic, quantum many-body systems.</description>
-  </item>
-
-  <item>
-    <title>Detecting topological order from modular transformations of ground states on the torus</title>
-    <link>http://arxiv.org/pdf/2203.04329</link>
-    <author>Zhuan Li, Roger S.K. Mong</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>The ground states encode the information of the topological phases of a 2-dimensional system, which makes them crucial in determining the associated topological quantum field theory (TQFT). Most numerical methods for detecting the TQFT relied on the use of minimum entanglement states (MESs), extracting the anyon mutual statistics and self statistics via overlaps and/or the entanglement spectra. The MESs are the eigenstates of the Wilson loop operators, and are labeled by the anyons corresponding to their eigenvalues. Here we revisit the definition of the Wilson loop operators and MESs. We derive the modular transformation of the ground states purely from the Wilson loop algebra, and as a result, the modular $S$- and $T$-matrices naturally show up in the overlap of MESs. Importantly, we show that due to the phase degree of freedom of the Wilson loop operators, the MES-anyon assignment is not unique. This ambiguity obstructs our attempt to detect the topological order, that is, there exist different TQFTs that cannot be distinguished solely by the overlap of MESs. In this paper, we provide the upper limit of the information one may obtain from the overlap of MESs without other additional structure. Finally, we show that if the phase is enriched by rotational symmetry, there may be additional TQFT information that can be extracted from overlap of MESs.</description>
+    <title>Individual qubit addressing of rotating ion crystals in a Penning trap</title>
+    <link>http://arxiv.org/pdf/2203.05196</link>
+    <author>Anthony M. Polloreno, Ana Maria Rey, John J. Bollinger</author>
+    <pubDate>Mar 11 2022</pubDate>
+    <description>Trapped ions boast long coherence times and excellent gate fidelities, making them a useful platform for quantum information processing. Scaling to larger numbers of ion qubits in RF Paul traps demands great effort. Another technique for trapping ions is via a Penning trap where a 2D crystal of hundreds of ions is formed by controlling the rotation of the ions in the presence of a strong magnetic field. However, the rotation of the ion crystal makes single ion addressability a significant challenge. We propose a protocol that takes advantage of a deformable mirror to introduce AC Stark shift patterns that are static in the rotating frame of the crystal. Through numerical simulations we validate the potential of this protocol to perform high-fidelity single-ion gates in crystalline arrays of hundreds of ions.</description>
   </item>
 
 </channel>

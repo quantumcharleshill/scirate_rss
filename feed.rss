@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Benchmarking the Planar Honeycomb Code</title>
-    <link>http://arxiv.org/pdf/2202.11845</link>
-    <author>Craig Gidney, Michael Newman</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
-  </item>
-
-  <item>
     <title>Quantum Tanner codes</title>
     <link>http://arxiv.org/pdf/2202.13641</link>
     <author>Anthony Leverrier, Gilles Zémor</author>
     <pubDate>Mar 01 2022</pubDate>
     <description>Tanner codes are long error correcting codes obtained from short codes and a graph, with bits on the edges and parity-check constraints from the short codes enforced at the vertices of the graph. Combining good short codes together with a spectral expander graph yields the celebrated expander codes of Sipser and Spielman, which are asymptotically good classical LDPC codes. In this work we apply this prescription to the left-right Cayley complex that lies at the heart of the recent construction of a $c^3$ locally testable code by Dinur et al. Specifically, we view this complex as two graphs that share the same set of edges. By defining a Tanner code on each of those graphs we obtain two classical codes that together define a quantum code. This construction can be seen as a simplified variant of the Panteleev and Kalachev asymptotically good quantum LDPC code, with improved estimates for its minimum distance. This quantum code is closely related to the Dinur et al. code in more than one sense: indeed, we prove a theorem that simultaneously gives a linearly growing minimum distance for the quantum code and recovers the local testability of the Dinur et al. code.</description>
+  </item>
+
+  <item>
+    <title>Benchmarking the Planar Honeycomb Code</title>
+    <link>http://arxiv.org/pdf/2202.11845</link>
+    <author>Craig Gidney, Michael Newman</author>
+    <pubDate>Feb 25 2022</pubDate>
+    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
   </item>
 
   <item>
@@ -71,6 +71,14 @@
   </item>
 
   <item>
+    <title>All quantum measurements are asymptotically equivalent</title>
+    <link>http://arxiv.org/pdf/2203.02593</link>
+    <author>Noah Linden, Paul Skrzypczyk</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
+  </item>
+
+  <item>
     <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
     <link>http://arxiv.org/pdf/2202.07060</link>
     <author>Shenglong Xu, Brian Swingle</author>
@@ -84,14 +92,6 @@
     <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
     <pubDate>Feb 23 2022</pubDate>
     <description>Differential privacy has been an exceptionally successful concept when it comes to providing provable security guarantees for classical computations. More recently, the concept was generalized to quantum computations. While classical computations are essentially noiseless and differential privacy is often achieved by artificially adding noise, near-term quantum computers are inherently noisy and it was observed that this leads to natural differential privacy as a feature. In this work we discuss quantum differential privacy in an information theoretic framework by casting it as a quantum divergence. A main advantage of this approach is that differential privacy becomes a property solely based on the output states of the computation, without the need to check it for every measurement. This leads to simpler proofs and generalized statements of its properties as well as several new bounds for both, general and specific, noise models. In particular, these include common representations of quantum circuits and quantum machine learning concepts. Here, we focus on the difference in the amount of noise required to achieve certain levels of differential privacy versus the amount that would make any computation useless. Finally, we also generalize the classical concepts of local differential privacy, Rényi differential privacy and the hypothesis testing interpretation to the quantum setting, providing several new properties and insights.</description>
-  </item>
-
-  <item>
-    <title>All quantum measurements are asymptotically equivalent</title>
-    <link>http://arxiv.org/pdf/2203.02593</link>
-    <author>Noah Linden, Paul Skrzypczyk</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
   </item>
 
   <item>
@@ -143,6 +143,14 @@
   </item>
 
   <item>
+    <title>Fragile boundaries of tailored surface codes</title>
+    <link>http://arxiv.org/pdf/2203.04948</link>
+    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
+  </item>
+
+  <item>
     <title>Fold-Transversal Clifford Gates for Quantum Codes</title>
     <link>http://arxiv.org/pdf/2202.06647</link>
     <author>Nikolas P. Breuckmann, Simon Burton</author>
@@ -156,14 +164,6 @@
     <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
     <pubDate>Mar 03 2022</pubDate>
     <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
-  </item>
-
-  <item>
-    <title>Fragile boundaries of tailored surface codes</title>
-    <link>http://arxiv.org/pdf/2203.04948</link>
-    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
   </item>
 
   <item>
