@@ -119,14 +119,6 @@
   </item>
 
   <item>
-    <title>Quantum Low-Density Parity-Check Codes</title>
-    <link>http://arxiv.org/pdf/2103.06309</link>
-    <author>Nikolas P. Breuckmann, Jens Niklas Eberhardt</author>
-    <pubDate>Mar 12 2021</pubDate>
-    <description>Quantum error correction is an indispensable ingredient for scalable quantum computing. In this Perspective we discuss a particular class of quantum codes called low-density parity-check (LDPC) quantum codes. The codes we discuss are alternatives to the surface code, which is the currently leading candidate to implement quantum fault-tolerance. We introduce the zoo of LDPC quantum codes and discuss their potential for making quantum computers robust against noise. In particular, we explain recent advances in the theory of LDPC quantum codes related to certain product constructions and discuss open problems in the field.</description>
-  </item>
-
-  <item>
     <title>Improved upper bounds on the stabilizer rank of magic states</title>
     <link>http://arxiv.org/pdf/2106.07740</link>
     <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
@@ -404,6 +396,14 @@
     <author>Christophe Vuillot</author>
     <pubDate>Oct 12 2021</pubDate>
     <description>A protocol called the "honeycomb code", or generically a "Floquet code", was introduced by Hastings and Haah in \citehastings_dynamically_2021. The honeycomb code is a subsystem code based on the honeycomb lattice with zero logical qubits but such that there exists a schedule for measuring two-body gauge checks leaving enough room at all times for two protected logical qubits. In this work we show a way to introduce boundaries to the system which curiously presents a rotating dynamics but has constant distance and is therefore not fault-tolerant.</description>
+  </item>
+
+  <item>
+    <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2202.00119</link>
+    <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
+    <pubDate>Feb 02 2022</pubDate>
+    <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
   </item>
 
 </channel>
