@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>The Parameterized Complexity of Quantum Verification</title>
-    <link>http://arxiv.org/pdf/2202.08119</link>
-    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
-    <pubDate>Feb 17 2022</pubDate>
-    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
-  </item>
-
-  <item>
     <title>Benchmarking the Planar Honeycomb Code</title>
     <link>http://arxiv.org/pdf/2202.11845</link>
     <author>Craig Gidney, Michael Newman</author>
     <pubDate>Feb 25 2022</pubDate>
     <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
+  </item>
+
+  <item>
+    <title>The Parameterized Complexity of Quantum Verification</title>
+    <link>http://arxiv.org/pdf/2202.08119</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Chinmay Nirkhe, Bryan O'Gorman</author>
+    <pubDate>Feb 17 2022</pubDate>
+    <description>We initiate the study of parameterized complexity of $\textsf{QMA}$ problems in terms of the number of non-Clifford gates in the problem description. We show that for the problem of parameterized quantum circuit satisfiability, there exists a classical algorithm solving the problem with a runtime scaling exponentially in the number of non-Clifford gates but only polynomially with the system size. This result follows from our main result, that for any Clifford + $t$ $T$-gate quantum circuit satisfiability problem, the search space of optimal witnesses can be reduced to a stabilizer subspace isomorphic to at most $t$ qubits (independent of the system size). Furthermore, we derive new lower bounds on the $T$-count of circuit satisfiability instances and the $T$-count of the $W$-state assuming the classical exponential time hypothesis ($\textsf{ETH}$). Lastly, we explore the parameterized complexity of the quantum non-identity check problem.</description>
   </item>
 
   <item>
@@ -63,11 +63,11 @@
   </item>
 
   <item>
-    <title>Non-Pauli Errors in the Three-Dimensional Surface Code</title>
-    <link>http://arxiv.org/pdf/2202.05746</link>
-    <author>Thomas R. Scruby, Michael Vasmer, Dan E. Browne</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>A powerful feature of stabiliser error correcting codes is the fact that stabiliser measurement projects arbitrary errors to Pauli errors, greatly simplifying the physical error correction process as well as classical simulations of code performance. However, logical non-Clifford operations can map Pauli errors to non-Pauli (Clifford) errors, and while subsequent stabiliser measurements will project the Clifford errors back to Pauli errors the resulting distributions will possess additional correlations that depend on both the nature of the logical operation and the structure of the code. Previous work has studied these effects when applying a transversal $T$ gate to the three-dimensional colour code and shown the existence of a non-local "linking charge" phenomenon between membranes of intersecting errors. In this work we generalise these results to the case of a $CCZ$ gate in the three-dimensional surface code and find that many aspects of the problem are much more easily understood in this setting. In particular, the emergence of linking charge is a local effect rather than a non-local one. We use the relative simplicity of Clifford errors in this setting to simulate their effect on the performance of a single-shot magic state preparation process (the first such simulation to account for the full effect of these errors) and find that while they lead to an increase in the logical error rate their effect on the threshold is minimal.</description>
+    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
+    <link>http://arxiv.org/pdf/2203.07263</link>
+    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
-    <link>http://arxiv.org/pdf/2202.07060</link>
-    <author>Shenglong Xu, Brian Swingle</author>
-    <pubDate>Feb 16 2022</pubDate>
-    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+    <title>Fragile boundaries of tailored surface codes</title>
+    <link>http://arxiv.org/pdf/2203.04948</link>
+    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
   </item>
 
   <item>
@@ -92,6 +92,22 @@
     <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
     <pubDate>Feb 23 2022</pubDate>
     <description>Differential privacy has been an exceptionally successful concept when it comes to providing provable security guarantees for classical computations. More recently, the concept was generalized to quantum computations. While classical computations are essentially noiseless and differential privacy is often achieved by artificially adding noise, near-term quantum computers are inherently noisy and it was observed that this leads to natural differential privacy as a feature. In this work we discuss quantum differential privacy in an information theoretic framework by casting it as a quantum divergence. A main advantage of this approach is that differential privacy becomes a property solely based on the output states of the computation, without the need to check it for every measurement. This leads to simpler proofs and generalized statements of its properties as well as several new bounds for both, general and specific, noise models. In particular, these include common representations of quantum circuits and quantum machine learning concepts. Here, we focus on the difference in the amount of noise required to achieve certain levels of differential privacy versus the amount that would make any computation useless. Finally, we also generalize the classical concepts of local differential privacy, Rényi differential privacy and the hypothesis testing interpretation to the quantum setting, providing several new properties and insights.</description>
+  </item>
+
+  <item>
+    <title>Scrambling Dynamics and Out-of-Time Ordered Correlators in Quantum Many-Body Systems: a Tutorial</title>
+    <link>http://arxiv.org/pdf/2202.07060</link>
+    <author>Shenglong Xu, Brian Swingle</author>
+    <pubDate>Feb 16 2022</pubDate>
+    <description>This tutorial article introduces the physics of quantum information scrambling in quantum many-body systems. The goals are to understand how to quantify the spreading of quantum information precisely and how causality emerges in complex quantum systems. We introduce the general framework to study the dynamics of quantum information, including detection and decoding. We show that the dynamics of quantum information is closely related to operator dynamics in the Heisenberg picture, and, in certain circumstances, can be precisely quantified by the so-called out-the-time ordered correlator (OTOC). The general behavior of OTOC is discussed based on several toy models, including the Sachdev-Ye-Kitaev model, random circuit models, and Brownian models, in which OTOC is analytically tractable. We introduce numerical methods, both exact diagonalization and tensor network methods, to calculate OTOC for generic quantum many-body systems. We also survey current experiment schemes to measure OTOC in various quantum simulators.</description>
+  </item>
+
+  <item>
+    <title>Shadow Distillation: Quantum Error Mitigation with Classical Shadows for Near-Term Quantum Processors</title>
+    <link>http://arxiv.org/pdf/2203.07309</link>
+    <author>Alireza Seif, Ze-Pei Cian, Sisi Zhou, Senrui Chen, Liang Jiang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>Mitigating errors in quantum information processing devices is especially important in the absence of fault tolerance. An effective method in suppressing state-preparation errors is using multiple copies to distill the ideal component from a noisy quantum state. Here, we use classical shadows and randomized measurements to circumvent the need for coherent access to multiple copies at an exponential cost. We study the scaling of resources using numerical simulations and find that the overhead is still favorable compared to full state tomography. We optimize measurement resources under realistic experimental constraints and apply our method to an experiment preparing Greenberger-Horne-Zeilinger (GHZ) state with trapped ions. In addition to improving stabilizer measurements, the analysis of the improved results reveals the nature of errors affecting the experiment. Hence, our results provide a directly applicable method for mitigating errors in near-term quantum computers.</description>
   </item>
 
   <item>
@@ -119,14 +135,6 @@
   </item>
 
   <item>
-    <title>Fragile boundaries of tailored surface codes</title>
-    <link>http://arxiv.org/pdf/2203.04948</link>
-    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
-  </item>
-
-  <item>
     <title>Performance of planar Floquet codes with Majorana-based qubits</title>
     <link>http://arxiv.org/pdf/2202.11829</link>
     <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
@@ -143,6 +151,14 @@
   </item>
 
   <item>
+    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
+    <link>http://arxiv.org/pdf/2203.03581</link>
+    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
+  </item>
+
+  <item>
     <title>Limitations of nearest-neighbour quantum networks</title>
     <link>http://arxiv.org/pdf/2202.10886</link>
     <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
@@ -156,14 +172,6 @@
     <author>Nikolas P. Breuckmann, Simon Burton</author>
     <pubDate>Feb 15 2022</pubDate>
     <description>We generalize the concept of folding from surface codes to CSS codes by considering certain dualities within them. In particular, this gives a general method to implement logical operations in suitable LDPC quantum codes using transversal gates and qubit permutations only. To demonstrate our approach, we specifically consider a [[30, 8, 3]] hyperbolic quantum code called Bring's code. Further, we show that by restricting the logical subspace of Bring's code to four qubits, we can obtain the full Clifford group on that subspace.</description>
-  </item>
-
-  <item>
-    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
-    <link>http://arxiv.org/pdf/2203.03581</link>
-    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
   </item>
 
   <item>
@@ -191,6 +199,22 @@
   </item>
 
   <item>
+    <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
+    <link>http://arxiv.org/pdf/2203.07205</link>
+    <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
+  </item>
+
+  <item>
+    <title>Quantifying the barren plateau phenomenon for a model of unstructured variational ansätze</title>
+    <link>http://arxiv.org/pdf/2203.06174</link>
+    <author>John Napp</author>
+    <pubDate>Mar 14 2022</pubDate>
+    <description>Quantifying the flatness of the objective-function landscape associated with unstructured parameterized quantum circuits is important for understanding the performance of variational algorithms utilizing a "hardware-efficient ansatz", particularly for ensuring that a prohibitively flat landscape -- a so-called "barren plateau" -- is avoided. For a model of such ansätze, we relate the typical landscape flatness to a certain family of random walks, enabling us to derive a Monte Carlo algorithm for efficiently, classically estimating the landscape flatness for any architecture. The statistical picture additionally allows us to prove new analytic bounds on the barren plateau phenomenon, and more generally provides novel insights into the phenomenon's dependence on the ansatz depth, architecture, qudit dimension, and Hamiltonian combinatorial and spatial locality. Our analysis utilizes techniques originally developed by Dalzell et al. to study anti-concentration in random circuits.</description>
+  </item>
+
+  <item>
     <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
     <link>http://arxiv.org/pdf/2202.09202</link>
     <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
@@ -207,19 +231,11 @@
   </item>
 
   <item>
-    <title>Approximating Output Probabilities of Shallow Quantum Circuits which are Geometrically-local in any Fixed Dimension</title>
-    <link>http://arxiv.org/pdf/2202.08349</link>
-    <author>Suchetan Dontha, Shi Jie Samuel Tan, Stephen Smith, Sangheon Choi, Matthew Coudron</author>
-    <pubDate>Feb 18 2022</pubDate>
-    <description>We present a classical algorithm that, for any $D$-dimensional geometrically-local, quantum circuit $C$ of polylogarithmic-depth, and any bit string $x \in {0,1}^n$, can compute the quantity $|<x|C|0^{\otimes n}>|^2$ to within any inverse-polynomial additive error in quasi-polynomial time, for any fixed dimension $D$. This is an extension of the result [CC21], which originally proved this result for $D = 3$. To see why this is interesting, note that, while the $D = 1$ case of this result follows from standard use of Matrix Product States, known for decades, the $D = 2$ case required novel and interesting techniques introduced in [BGM19]. Extending to the case $D = 3$ was even more laborious and required further new techniques introduced in [CC21]. Our work here shows that, while handling each new dimension has historically required a new insight, and fixed algorithmic primitive, based on known techniques for $D \leq 3$, we can now handle any fixed dimension $D > 3$. Our algorithm uses the Divide-and-Conquer framework of [CC21] to approximate the desired quantity via several instantiations of the same problem type, each involving $D$-dimensional circuits on about half the number of qubits as the original. This division step is then applied recursively, until the width of the recursively decomposed circuits in the $D^{th}$ dimension is so small that they can effectively be regarded as $(D-1)$-dimensional problems by absorbing the small width in the $D^{th}$ dimension into the qudit structure at the cost of a moderate increase in runtime. The main technical challenge lies in ensuring that the more involved portions of the recursive circuit decomposition and error analysis from [CC21] still hold in higher dimensions, which requires small modifications to the analysis in some places.</description>
-  </item>
-
-  <item>
-    <title>Three-dimensional quantum cellular automata from chiral semion surface topological order and beyond</title>
-    <link>http://arxiv.org/pdf/2202.05442</link>
-    <author>Wilbur Shirley, Yu-An Chen, Arpit Dua, Tyler D. Ellison, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Feb 14 2022</pubDate>
-    <description>We construct a novel three-dimensional quantum cellular automaton (QCA) based on a system with short-range entangled bulk and chiral semion boundary topological order. We argue that either the QCA is nontrivial, i.e. not a finite-depth circuit of local quantum gates, or there exists a two-dimensional commuting projector Hamiltonian realizing the chiral semion topological order (characterized by $U(1)_2$ Chern-Simons theory). Our QCA is obtained by first constructing the Walker-Wang Hamiltonian of a certain premodular tensor category of order four, then condensing the deconfined bulk boson at the level of lattice operators. We show that the resulting Hamiltonian hosts chiral semion surface topological order in the presence of a boundary and can be realized as a non-Pauli stabilizer code on qubits, from which the QCA is defined. The construction is then generalized to a class of QCAs defined by non-Pauli stabilizer codes on ${2^n}$-dimensional qudits that feature surface anyons described by $U(1)_{2^n}$ Chern-Simons theory. Our results support the conjecture that the group of nontrivial three-dimensional QCAs is isomorphic to the Witt group of non-degenerate braided fusion categories.</description>
+    <title>Quantum Parameterized Complexity</title>
+    <link>http://arxiv.org/pdf/2203.08002</link>
+    <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
+    <pubDate>Mar 16 2022</pubDate>
+    <description>Parameterized complexity theory was developed in the 1990s to enrich the complexity-theoretic analysis of problems that depend on a range of parameters. In this paper we establish a quantum equivalent of classical parameterized complexity theory, motivated by the need for new tools for the classifications of the complexity of real-world problems. We introduce the quantum analogues of a range of parameterized complexity classes and examine the relationship between these classes, their classical counterparts, and well-studied problems. This framework exposes a rich classification of the complexity of parameterized versions of QMA-hard problems, demonstrating, for example, a clear separation between the Quantum Circuit Satisfiability problem and the Local Hamiltonian problem.</description>
   </item>
 
   <item>
@@ -228,22 +244,6 @@
     <author>F.C.R. Peres, Ernesto F. Galvão</author>
     <pubDate>Mar 04 2022</pubDate>
     <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
-  </item>
-
-  <item>
-    <title>Quantifying dynamical magic with completely stabilizer preserving operations as free</title>
-    <link>http://arxiv.org/pdf/2202.07867</link>
-    <author>Gaurav Saxena, Gilad Gour</author>
-    <pubDate>Feb 17 2022</pubDate>
-    <description>In this paper, we extend the resource theory of magic to the channel case by considering completely stabilizer preserving operations (CSPOs) as free. We introduce and characterize the set of CSPO preserving and completely CSPO preserving superchannels. We quantify the magic of quantum channels by extending the generalized robustness and the min relative entropy of magic from the state to the channel domain and show that they bound the single-shot dynamical magic cost and distillation. We also provide analytical conditions for qubit interconversion under CSPOs and show that it is a linear programming feasibility problem and hence can be efficiently solved. Lastly, we give a classical simulation algorithm whose runtime is related to the generalized robustness of magic for channels. Our algorithm depends on some pre-defined precision, and if there is no bound on the desired precision then it achieves a constant runtime.</description>
-  </item>
-
-  <item>
-    <title>Quantum algorithms for estimating quantum entropies</title>
-    <link>http://arxiv.org/pdf/2203.02386</link>
-    <author>Youle Wang, Benchi Zhao, Xin Wang</author>
-    <pubDate>Mar 07 2022</pubDate>
-    <description>The von Neumann and quantum Rényi entropies characterize fundamental properties of quantum systems and lead to theoretical and practical applications in many fields. Quantum algorithms for estimating quantum entropies, using a quantum query model that prepares the purification of the input state, have been established in the literature. However, constructing such a model is almost as hard as state tomography. In this paper, we propose quantum algorithms to estimate the von Neumann and quantum $\alpha$-Rényi entropies of an $n$-qubit quantum state $\rho$ using independent copies of the input state. We also show how to efficiently construct the quantum circuits for quantum entropy estimation using primitive single/two-qubit gates. We prove that the number of required copies scales polynomially in $1/\epsilon$ and $1/\Lambda$, where $\epsilon$ denotes the additive precision and $\Lambda$ denotes the lower bound on all non-zero eigenvalues. Notably, our method outperforms previous methods in the aspect of practicality since it does not require any quantum query oracles, which are usually necessary for previous methods. Furthermore, we conduct experiments to show the efficacy of our algorithms to single-qubit states and study the noise robustness. We also discuss the applications to some quantum states of practical interest as well as some meaningful tasks such as quantum Gibbs state preparation and entanglement estimation.</description>
   </item>
 
 </channel>

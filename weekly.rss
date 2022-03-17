@@ -7,27 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>All quantum measurements are asymptotically equivalent</title>
-    <link>http://arxiv.org/pdf/2203.02593</link>
-    <author>Noah Linden, Paul Skrzypczyk</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
+    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
+    <link>http://arxiv.org/pdf/2203.07263</link>
+    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
   </item>
 
   <item>
-    <title>Fragile boundaries of tailored surface codes</title>
-    <link>http://arxiv.org/pdf/2203.04948</link>
-    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
-  </item>
-
-  <item>
-    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
-    <link>http://arxiv.org/pdf/2203.03581</link>
-    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
+    <title>Shadow Distillation: Quantum Error Mitigation with Classical Shadows for Near-Term Quantum Processors</title>
+    <link>http://arxiv.org/pdf/2203.07309</link>
+    <author>Alireza Seif, Ze-Pei Cian, Sisi Zhou, Senrui Chen, Liang Jiang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>Mitigating errors in quantum information processing devices is especially important in the absence of fault tolerance. An effective method in suppressing state-preparation errors is using multiple copies to distill the ideal component from a noisy quantum state. Here, we use classical shadows and randomized measurements to circumvent the need for coherent access to multiple copies at an exponential cost. We study the scaling of resources using numerical simulations and find that the overhead is still favorable compared to full state tomography. We optimize measurement resources under realistic experimental constraints and apply our method to an experiment preparing Greenberger-Horne-Zeilinger (GHZ) state with trapped ions. In addition to improving stabilizer measurements, the analysis of the improved results reveals the nature of errors affecting the experiment. Hence, our results provide a directly applicable method for mitigating errors in near-term quantum computers.</description>
   </item>
 
   <item>
@@ -39,6 +31,30 @@
   </item>
 
   <item>
+    <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
+    <link>http://arxiv.org/pdf/2203.07205</link>
+    <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
+  </item>
+
+  <item>
+    <title>Quantifying the barren plateau phenomenon for a model of unstructured variational ansätze</title>
+    <link>http://arxiv.org/pdf/2203.06174</link>
+    <author>John Napp</author>
+    <pubDate>Mar 14 2022</pubDate>
+    <description>Quantifying the flatness of the objective-function landscape associated with unstructured parameterized quantum circuits is important for understanding the performance of variational algorithms utilizing a "hardware-efficient ansatz", particularly for ensuring that a prohibitively flat landscape -- a so-called "barren plateau" -- is avoided. For a model of such ansätze, we relate the typical landscape flatness to a certain family of random walks, enabling us to derive a Monte Carlo algorithm for efficiently, classically estimating the landscape flatness for any architecture. The statistical picture additionally allows us to prove new analytic bounds on the barren plateau phenomenon, and more generally provides novel insights into the phenomenon's dependence on the ansatz depth, architecture, qudit dimension, and Hamiltonian combinatorial and spatial locality. Our analysis utilizes techniques originally developed by Dalzell et al. to study anti-concentration in random circuits.</description>
+  </item>
+
+  <item>
+    <title>Quantum Parameterized Complexity</title>
+    <link>http://arxiv.org/pdf/2203.08002</link>
+    <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
+    <pubDate>Mar 16 2022</pubDate>
+    <description>Parameterized complexity theory was developed in the 1990s to enrich the complexity-theoretic analysis of problems that depend on a range of parameters. In this paper we establish a quantum equivalent of classical parameterized complexity theory, motivated by the need for new tools for the classifications of the complexity of real-world problems. We introduce the quantum analogues of a range of parameterized complexity classes and examine the relationship between these classes, their classical counterparts, and well-studied problems. This framework exposes a rich classification of the complexity of parameterized versions of QMA-hard problems, demonstrating, for example, a clear separation between the Quantum Circuit Satisfiability problem and the Local Hamiltonian problem.</description>
+  </item>
+
+  <item>
     <title>Quantifying Grover speed-ups beyond asymptotic analysis</title>
     <link>http://arxiv.org/pdf/2203.04975</link>
     <author>Chris Cade, Marten Folkertsma, Ido Niesen, Jordi Weggemans</author>
@@ -47,11 +63,11 @@
   </item>
 
   <item>
-    <title>Improved Quantum Query Upper Bounds Based on Classical Decision Trees</title>
-    <link>http://arxiv.org/pdf/2203.02968</link>
-    <author>Arjan Cornelissen, Nikhil S. Mande, Subhasree Patro</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Given a classical query algorithm as a decision tree, when does there exist a quantum query algorithm with a speed-up over the classical one? We provide a general construction based on the structure of the underlying decision tree, and prove that this can give us an up-to-quadratic quantum speed-up. In particular, we obtain a bounded-error quantum query algorithm of cost $O(\sqrt{s})$ to compute a Boolean function (more generally, a relation) that can be computed by a classical (even randomized) decision tree of size $s$. Lin and Lin [ToC'16] and Beigi and Taghavi [Quantum'20] showed results of a similar flavor, and gave upper bounds in terms of a quantity which we call the "guessing complexity" of a decision tree. We identify that the guessing complexity of a decision tree equals its rank, a notion introduced by Ehrenfeucht and Haussler [Inf. Comp.'89] in the context of learning theory. This answers a question posed by Lin and Lin, who asked whether the guessing complexity of a decision tree is related to any complexity-theoretic measure. We also show a polynomial separation between rank and randomized rank for the complete binary AND-OR tree. Beigi and Taghavi constructed span programs and dual adversary solutions for Boolean functions given classical decision trees computing them and an assignment of non-negative weights to its edges. We explore the effect of changing these weights on the resulting span program complexity and objective value of the dual adversary bound, and capture the best possible weighting scheme by an optimization program. We exhibit a solution to this program and argue its optimality from first principles. We also exhibit decision trees for which our bounds are asymptotically stronger than those of Lin and Lin, and Beigi and Taghavi. This answers a question of Beigi and Taghavi, who asked whether different weighting schemes could yield better upper bounds.</description>
+    <title>Memory Compression with Quantum Random-Access Gates</title>
+    <link>http://arxiv.org/pdf/2203.05599</link>
+    <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
+    <pubDate>Mar 14 2022</pubDate>
+    <description>In the classical RAM, we have the following useful property. If we have an algorithm that uses $M$ memory cells throughout its execution, and in addition is sparse, in the sense that, at any point in time, only $m$ out of $M$ cells will be non-zero, then we may "compress" it into another algorithm which uses only $m \log M$ memory and runs in almost the same time. We may do so by simulating the memory using either a hash table, or a self-balancing tree. We show an analogous result for quantum algorithms equipped with quantum random-access gates. If we have a quantum algorithm that runs in time $T$ and uses $M$ qubits, such that the state of the memory, at any time step, is supported on computational-basis vectors of Hamming weight at most $m$, then it can be simulated by another algorithm which uses only $O(m \log M)$ memory, and runs in time $\tilde O(T)$. We show how this theorem can be used, in a black-box way, to simplify the presentation in several papers. Broadly speaking, when there exists a need for a space-efficient history-independent quantum data-structure, it is often possible to construct a space-inefficient, yet sparse, quantum data structure, and then appeal to our main theorem. This results in simpler and shorter arguments.</description>
   </item>
 
   <item>
@@ -63,27 +79,11 @@
   </item>
 
   <item>
-    <title>Information recoverability of noisy quantum states</title>
-    <link>http://arxiv.org/pdf/2203.04862</link>
-    <author>Xuanqiang Zhao, Benchi Zhao, Zihan Xia, Xin Wang</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>Classical information, also known as shadow information, carried by quantum states could be corrupted as they undergo undesirable noises modelled by quantum channels. Due to quantum channels' destructive nature, a fundamental problem in quantum information theory is how well we can retrieve information from noisy quantum states. In this work, we introduce a systematic framework to quantitatively study this problem. First, we prove that classical information can be retrieved if and only if the querying observable is in the image of the whole observable space under the channel's adjoint. Second, we further define the dimension of the evolved observable space as the quantum channel's effective shadow dimension that quantifies the information recoverability of the channel. This quantity can be computed as the rank of a matrix derived from the channel's Kraus operators, and it induces the shadow destructivity as a measure with meaningful properties. Third, we resolve the minimum cost of retrieving a piece of shadow information from the required number of copies of a noisy state. We in particular show that the optimal cost and the corresponding protocol are efficiently computable by semidefinite programming. As applications, we derive the ultimate limits on shadow retrieving costs for generalized amplitude damping channels and mixed Pauli channels and employ the corresponding protocol to mitigate errors in tasks of ground state energy estimation.</description>
-  </item>
-
-  <item>
-    <title>Quantum Volume in Practice: What Users Can Expect from NISQ Devices</title>
-    <link>http://arxiv.org/pdf/2203.03816</link>
-    <author>Elijah Pelofske, Andreas Bärtschi, Stephan Eidenbenz</author>
-    <pubDate>Mar 09 2022</pubDate>
-    <description>Quantum volume (QV) has become the de-facto standard benchmark to quantify the capability of Noisy Intermediate-Scale Quantum (NISQ) devices. While QV values are often reported by NISQ providers for their systems, we perform our own series of QV calculations on more than 20 NISQ devices currently (2021/2022) offered by IBM Q, IonQ, Rigetti, Oxford Quantum Circuits, and Honeywell/Quantinuum. Our approach characterizes the performances that an advanced user of these NISQ devices can expect to achieve with a reasonable amount of optimization, but without white-box access to the device. In particular, we compile QV circuits to standard gate sets of the vendor using compiler optimization routines where available, and we perform experiments across different initial qubit mappings. We find that running QV tests requires very significant compilation cycles, QV values achieved in our tests typically lag behind officially reported results and also depend significantly on the classical compilation effort invested.</description>
-  </item>
-
-  <item>
-    <title>Semidefinite programming lower bounds on the squashed entanglement</title>
-    <link>http://arxiv.org/pdf/2203.03394</link>
-    <author>Hamza Fawzi, Omar Fawzi</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>The squashed entanglement is a widely used entanglement measure that has many desirable properties. However, as it is based on an optimization over extensions of arbitrary dimension, one drawback of this measure is the lack of good algorithms to compute it. Here, we introduce a hierarchy of semidefinite programming lower bounds on the squashed entanglement.</description>
+    <title>Towards experimental classical verification of quantum computation</title>
+    <link>http://arxiv.org/pdf/2203.07395</link>
+    <author>Roman Stricker, Jose Carrasco, Martin Ringbauer, Lukas Postler, Michael Meth, Claire Edmunds, Philipp Schindler, Rainer Blatt, Peter Zoller, Barbara Kraus, Thomas Monz</author>
+    <pubDate>Mar 16 2022</pubDate>
+    <description>With today's quantum processors venturing into regimes beyond the capabilities of classical devices [1-3], we face the challenge to verify that these devices perform as intended, even when we cannot check their results on classical computers [4,5]. In a recent breakthrough in computer science [6-8], a protocol was developed that allows the verification of the output of a computation performed by an untrusted quantum device based only on classical resources. Here, we follow these ideas, and demonstrate in a first, proof-of-principle experiment a verification protocol using only classical means on a small trapped-ion quantum processor. We contrast this to verification protocols, which require trust and detailed hardware knowledge, as in gate-level benchmarking [9], or additional quantum resources in case we do not have access to or trust in the device to be tested [5]. While our experimental demonstration uses a simplified version [10] of Mahadev's protocol [6] we demonstrate the necessary steps for verifying fully untrusted devices. A scaled-up version of our protocol will allow for classical verification, requiring no hardware access or detailed knowledge of the tested device. Its security relies on post-quantum secure trapdoor functions within an interactive proof [11]. The conceptually straightforward, but technologically challenging scaled-up version of the interactive proofs, considered here, can be used for a variety of additional tasks such as verifying quantum advantage [8], generating [12] and certifying quantum randomness [7], or composable remote state preparation [13].</description>
   </item>
 
 </channel>

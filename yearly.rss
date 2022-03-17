@@ -39,14 +39,6 @@
   </item>
 
   <item>
-    <title>Efficient estimation of Pauli observables by derandomization</title>
-    <link>http://arxiv.org/pdf/2103.07510</link>
-    <author>Hsin-Yuan Huang, Richard Kueng, John Preskill</author>
-    <pubDate>Mar 16 2021</pubDate>
-    <description>We consider the problem of jointly estimating expectation values of many Pauli observables, a crucial subroutine in variational quantum algorithms. Starting with randomized measurements, we propose an efficient derandomization procedure that iteratively replaces random single-qubit measurements with fixed Pauli measurements; the resulting deterministic measurement procedure is guaranteed to perform at least as well as the randomized one. In particular, for estimating any $L$ low-weight Pauli observables, a deterministic measurement on only of order $\log(L)$ copies of a quantum state suffices. In some cases, for example when some of the Pauli observables have a high weight, the derandomized procedure is substantially better than the randomized one. Specifically, numerical experiments highlight the advantages of our derandomized protocol over various previous methods for estimating the ground-state energies of small molecules.</description>
-  </item>
-
-  <item>
     <title>Quantum advantage in learning from experiments</title>
     <link>http://arxiv.org/pdf/2112.00778</link>
     <author>Hsin-Yuan Huang, Michael Broughton, Jordan Cotler, Sitan Chen, Jerry Li, Masoud Mohseni, Hartmut Neven, Ryan Babbush, Richard Kueng, John Preskill, Jarrod R. McClean</author>
@@ -383,14 +375,6 @@
   </item>
 
   <item>
-    <title>Interleaving: Modular architectures for fault-tolerant photonic quantum computing</title>
-    <link>http://arxiv.org/pdf/2103.08612</link>
-    <author>Hector Bombin, Isaac H. Kim, Daniel Litinski, Naomi Nickerson, Mihir Pant, Fernando Pastawski, Sam Roberts, Terry Rudolph</author>
-    <pubDate>Mar 17 2021</pubDate>
-    <description>Useful fault-tolerant quantum computers require very large numbers of physical qubits. Quantum computers are often designed as arrays of static qubits executing gates and measurements. Photonic qubits require a different approach. In photonic fusion-based quantum computing (FBQC), the main hardware components are resource-state generators (RSGs) and fusion devices connected via waveguides and switches. RSGs produce small entangled states of a few photonic qubits, whereas fusion devices perform entangling measurements between different resource states, thereby executing computations. In addition, low-loss photonic delays such as optical fiber can be used as fixed-time quantum memories simultaneously storing thousands of photonic qubits. Here, we present a modular architecture for FBQC in which these components are combined to form "interleaving modules" consisting of one RSG with its associated fusion devices and a few fiber delays. Exploiting the multiplicative power of delays, each module can add thousands of physical qubits to the computational Hilbert space. Networks of modules are universal fault-tolerant quantum computers, which we demonstrate using surface codes and lattice surgery as a guiding example. Our numerical analysis shows that in a network of modules containing 1-km-long fiber delays, each RSG can generate four logical distance-35 surface-code qubits while tolerating photon loss rates above 2% in addition to the fiber-delay loss. We illustrate how the combination of interleaving with further uses of non-local fiber connections can reduce the cost of logical operations and facilitate the implementation of unconventional geometries such as periodic boundaries or stellated surface codes. Interleaving applies beyond purely optical architectures, and can also turn many small disconnected matter-qubit devices with transduction to photons into a large-scale quantum computer.</description>
-  </item>
-
-  <item>
     <title>Planar Floquet Codes</title>
     <link>http://arxiv.org/pdf/2110.05348</link>
     <author>Christophe Vuillot</author>
@@ -404,6 +388,22 @@
     <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
     <pubDate>Feb 02 2022</pubDate>
     <description>The threshold theorem is a fundamental result in the theory of fault-tolerant quantum computation stating that arbitrarily long quantum computations can be performed with a polylogarithmic overhead provided the noise level is below a constant level. A recent work by Fawzi, Grospellier and Leverrier (FOCS 2018) building on a result by Gottesman (QIC 2013) has shown that the space overhead can be asymptotically reduced to a constant independent of the circuit provided we only consider circuits with a length bounded by a polynomial in the width. In this work, using a minimal model for quantum fault tolerance, we establish a general lower bound on the space overhead required to achieve fault tolerance. For any non-unitary qubit channel $\mathcal{N}$ and any quantum fault tolerance schemes against $\mathrm{i.i.d.}$ noise modeled by $\mathcal{N}$, we prove a lower bound of $\max\left\{\mathrm{Q}(\mathcal{N})^{-1}n,\alpha_\mathcal{N} \log T\right\}$ on the number of physical qubits, for circuits of length $T$ and width $n$. Here, $\mathrm{Q}(\mathcal{N})$ denotes the quantum capacity of $\mathcal{N}$ and $\alpha_\mathcal{N}>0$ is a constant only depending on the channel $\mathcal{N}$. In our model, we allow for qubits to be replaced by fresh ones during the execution of the circuit and we allow classical computation to be free and perfect. This improves upon results that assumed classical computations to be also affected by noise, and that sometimes did not allow for fresh qubits to be added. Along the way, we prove an exponential upper bound on the maximal length of fault-tolerant quantum computation with amplitude damping noise resolving a conjecture by Ben-Or, Gottesman, and Hassidim (2013).</description>
+  </item>
+
+  <item>
+    <title>Distributed quantum inner product estimation</title>
+    <link>http://arxiv.org/pdf/2111.03273</link>
+    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
+    <pubDate>Nov 08 2021</pubDate>
+    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
+  </item>
+
+  <item>
+    <title>Resource theory of quantum uncomplexity</title>
+    <link>http://arxiv.org/pdf/2110.11371</link>
+    <author>Nicole Yunger Halpern, Naga B. T. Kothakonda, Jonas Haferkamp, Anthony Munson, Jens Eisert, Philippe Faist</author>
+    <pubDate>Oct 25 2021</pubDate>
+    <description>Quantum complexity is emerging as a key property of many-body systems, including black holes, topological materials, and early quantum computers. A state's complexity quantifies the number of computational gates required to prepare the state from a simple tensor product. The greater a state's distance from maximal complexity, or ``uncomplexity,'' the more useful the state is as input to a quantum computation. Separately, resource theories -- simple models for agents subject to constraints -- are burgeoning in quantum information theory. We unite the two domains, confirming Brown and Susskind's conjecture that a resource theory of uncomplexity can be defined. The allowed operations, fuzzy operations, are slightly random implementations of two-qubit gates chosen by an agent. We formalize two operational tasks, uncomplexity extraction and expenditure. Their optimal efficiencies depend on an entropy that we engineer to reflect complexity. We also present two monotones, uncomplexity measures that decline monotonically under fuzzy operations, in certain regimes. This work unleashes on many-body complexity the resource-theory toolkit from quantum information theory.</description>
   </item>
 
 </channel>
