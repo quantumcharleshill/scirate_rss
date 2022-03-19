@@ -47,6 +47,14 @@
   </item>
 
   <item>
+    <title>Detecting entanglement in quantum many-body systems via permutation moments</title>
+    <link>http://arxiv.org/pdf/2203.08391</link>
+    <author>Zhenhuan Liu, Yifan Tang, Hao Dai, Pengyu Liu, Shu Chen, Xiongfeng Ma</author>
+    <pubDate>Mar 17 2022</pubDate>
+    <description>Multipartite entanglement plays an essential role in both quantum information science and many-body physics. Due to the exponentially large dimension and complex geometric structure of the state space, the detection of entanglement in many-body systems is extremely challenging in reality. Conventional means, like entanglement witness and entropy criterion, either highly depend on the prior knowledge of the studied systems or the detection capability is relatively weak. In this work, we propose a framework for designing multipartite entanglement criteria based on permutation moments, which have an effective implementation with either the generalized control-SWAP quantum circuits or the random unitary techniques. These criteria show strong detection capability in the multi-qubit Ising model with a long-range $XY$ Hamiltonian. The quantities associated with these criteria have clear physical meaning and can be used as entanglement quantifiers, with which we show the entanglement scaling transition in a quantum dynamical phase transition. Furthermore, our framework can also be generalized to detect the much more complicated entanglement structure in quantum many-body systems.</description>
+  </item>
+
+  <item>
     <title>Memory Compression with Quantum Random-Access Gates</title>
     <link>http://arxiv.org/pdf/2203.05599</link>
     <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
@@ -63,11 +71,11 @@
   </item>
 
   <item>
-    <title>Detecting entanglement in quantum many-body systems via permutation moments</title>
-    <link>http://arxiv.org/pdf/2203.08391</link>
-    <author>Zhenhuan Liu, Yifan Tang, Hao Dai, Pengyu Liu, Shu Chen, Xiongfeng Ma</author>
-    <pubDate>Mar 17 2022</pubDate>
-    <description>Multipartite entanglement plays an essential role in both quantum information science and many-body physics. Due to the exponentially large dimension and complex geometric structure of the state space, the detection of entanglement in many-body systems is extremely challenging in reality. Conventional means, like entanglement witness and entropy criterion, either highly depend on the prior knowledge of the studied systems or the detection capability is relatively weak. In this work, we propose a framework for designing multipartite entanglement criteria based on permutation moments, which have an effective implementation with either the generalized control-SWAP quantum circuits or the random unitary techniques. These criteria show strong detection capability in the multi-qubit Ising model with a long-range $XY$ Hamiltonian. The quantities associated with these criteria have clear physical meaning and can be used as entanglement quantifiers, with which we show the entanglement scaling transition in a quantum dynamical phase transition. Furthermore, our framework can also be generalized to detect the much more complicated entanglement structure in quantum many-body systems.</description>
+    <title>Quantum algorithms from fluctuation theorems: Thermal-state preparation</title>
+    <link>http://arxiv.org/pdf/2203.08882</link>
+    <author>Zoe Holmes, Gopikrishnan Muraleedharan, Rolando D. Somma, Yigit Subasi, Burak Şahinoğlu</author>
+    <pubDate>Mar 18 2022</pubDate>
+    <description>Fluctuation theorems provide a correspondence between properties of quantum systems in thermal equilibrium and a work distribution arising in a non-equilibrium process that connects two quantum systems with Hamiltonians $H_0$ and $H_1=H_0+V$. Building upon these theorems, we present a quantum algorithm to prepare a purification of the thermal state of $H_1$ at inverse temperature $\beta \ge 0$ starting from a purification of the thermal state of $H_0$. The complexity of the quantum algorithm, given by the number of uses of certain unitaries, is $\tilde {\cal O}(e^{\beta (\Delta \! A- w_l)/2})$, where $\Delta \! A$ is the free-energy difference between $H_1$ and $H_0,$ and $w_l$ is a work cutoff that depends on the properties of the work distribution and the approximation error $\epsilon>0$. If the non-equilibrium process is trivial, this complexity is exponential in $\beta \|V\|$, where $\|V\|$ is the spectral norm of $V$. This represents a significant improvement of prior quantum algorithms that have complexity exponential in $\beta \|H_1\|$ in the regime where $\|V\|\ll \|H_1\|$. The dependence of the complexity in $\epsilon$ varies according to the structure of the quantum systems. It can be exponential in $1/\epsilon$ in general, but we show it to be sublinear in $1/\epsilon$ if $H_0$ and $H_1$ commute, or polynomial in $1/\epsilon$ if $H_0$ and $H_1$ are local spin systems. The possibility of applying a unitary that drives the system out of equilibrium allows one to increase the value of $w_l$ and improve the complexity even further. To this end, we analyze the complexity for preparing the thermal state of the transverse field Ising model using different non-equilibrium unitary processes and see significant complexity improvements.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Eric A. Carlen, Elliott H. Lieb</author>
     <pubDate>Mar 14 2022</pubDate>
     <description>The Golden-Thompson trace inequality which states that $Tr\, e^{H+K} \leq Tr\, e^H e^K$ has proved to be very useful in quantum statistical mechanics. Golden used it to show that the classical free energy is less than the quantum one. Here we make this G-T inequality more explicit by proving that for some operators, notably the operators of interest in quantum mechanics, $H=\Delta$ or $H= -\sqrt{-\Delta +m}$ and $K=$ potential, $Tr\, e^{H+(1-u)K}e^{uK}$ is a monotone increasing function of the parameter $u$ for $0\leq u \leq 1$. Our proof utilizes an inequality of Ando, Hiai and Okubo (AHO): $Tr\, X^sY^tX^{1-s}Y^{1-t} \leq Tr\, XY$ for positive operators X,Y and for $\tfrac{1}{2} \leq s,\,t \leq 1 $ and $s+t \leq \tfrac{3}{2}$. The obvious conjecture that this inequality should hold up to $s+t\leq 1$, was proved false by Plevnik. We give a different proof of AHO and also give more counterexamples in the $\tfrac{3}{2}, 1$ range. More importantly we show that the inequality conjectured in AHO does indeed hold in this range if $X,Y$ have a certain positivity property -- one which does hold for quantum mechanical operators, thus enabling us to prove our G-T monotonicity theorem.</description>
-  </item>
-
-  <item>
-    <title>Locality optimization for parent Hamiltonians of Tensor Networks</title>
-    <link>http://arxiv.org/pdf/2203.07443</link>
-    <author>Giuliano Giudici, J. Ignacio Cirac, Norbert Schuch</author>
-    <pubDate>Mar 16 2022</pubDate>
-    <description>Tensor Network states form a powerful framework for both the analytical and numerical study of strongly correlated phases. Vital to their analytical utility is that they appear as the exact ground states of associated parent Hamiltonians, where canonical proof techniques guarantee a controlled ground space structure. Yet, while those Hamiltonians are local by construction, the known techniques often yield complex Hamiltonians which act on a rather large number of spins. In this paper, we present an algorithm to systematically simplify parent Hamiltonians, breaking them down into any given basis of elementary interaction terms. The underlying optimization problem is a semidefinite program, and thus the optimal solution can be found efficiently. Our method exploits a degree of freedom in the construction of parent Hamiltonians -- the excitation spectrum of the local terms -- over which it optimizes such as to obtain the best possible approximation. We benchmark our method on the AKLT model and the Toric Code model, where we show that the canonical parent Hamiltonians (acting on 3 or 4 and 12 sites, respectively) can be broken down to the known optimal 2-body and 4-body terms. We then apply our method to the paradigmatic Resonating Valence Bond (RVB) model on the kagome lattice. Here, the simplest previously known parent Hamiltonian acts on all the 12 spins on one kagome star. With our optimization algorithm, we obtain a vastly simpler Hamiltonian: We find that the RVB model is the exact ground state of a parent Hamiltonian whose terms are all products of at most four Heisenberg interactions, and whose range can be further constrained, providing a major improvement over the previously known 12-body Hamiltonian.</description>
   </item>
 
 </channel>
