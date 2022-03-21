@@ -319,14 +319,6 @@
   </item>
 
   <item>
-    <title>Faster quantum-inspired algorithms for solving linear systems</title>
-    <link>http://arxiv.org/pdf/2103.10309</link>
-    <author>Changpeng Shao, Ashley Montanaro</author>
-    <pubDate>Mar 19 2021</pubDate>
-    <description>We establish an improved classical algorithm for solving linear systems in a model analogous to the QRAM that is used by quantum linear solvers. Precisely, for the linear system $A\x = \b$, we show that there is a classical algorithm that outputs a data structure for $\x$ allowing sampling and querying to the entries, where $\x$ is such that $\|\x - A^{-1}\b\|\leq \epsilon \|A^{-1}\b\|$. This output can be viewed as a classical analogue to the output of quantum linear solvers. The complexity of our algorithm is $\widetilde{O}(\kappa_F^6 \kappa^2/\epsilon^2 )$, where $\kappa_F = \|A\|_F\|A^{-1}\|$ and $\kappa = \|A\|\|A^{-1}\|$. This improves the previous best algorithm [Gilyén, Song and Tang, arXiv:2009.07268] of complexity $\widetilde{O}(\kappa_F^6 \kappa^6/\epsilon^4)$. Our algorithm is based on the randomized Kaczmarz method, which is a particular case of stochastic gradient descent. We also find that when $A$ is row sparse, this method already returns an approximate solution $\x$ in time $\widetilde{O}(\kappa_F^2)$, while the best quantum algorithm known returns $\ket{\x}$ in time $\widetilde{O}(\kappa_F)$ when $A$ is stored in the QRAM data structure. As a result, assuming access to QRAM and if $A$ is row sparse, the speedup based on current quantum algorithms is quadratic.</description>
-  </item>
-
-  <item>
     <title>Introduction to Quantum Error Correction and Fault Tolerance</title>
     <link>http://arxiv.org/pdf/2111.08894</link>
     <author>Steven M. Girvin</author>
@@ -404,6 +396,14 @@
     <author>Nicole Yunger Halpern, Naga B. T. Kothakonda, Jonas Haferkamp, Anthony Munson, Jens Eisert, Philippe Faist</author>
     <pubDate>Oct 25 2021</pubDate>
     <description>Quantum complexity is emerging as a key property of many-body systems, including black holes, topological materials, and early quantum computers. A state's complexity quantifies the number of computational gates required to prepare the state from a simple tensor product. The greater a state's distance from maximal complexity, or ``uncomplexity,'' the more useful the state is as input to a quantum computation. Separately, resource theories -- simple models for agents subject to constraints -- are burgeoning in quantum information theory. We unite the two domains, confirming Brown and Susskind's conjecture that a resource theory of uncomplexity can be defined. The allowed operations, fuzzy operations, are slightly random implementations of two-qubit gates chosen by an agent. We formalize two operational tasks, uncomplexity extraction and expenditure. Their optimal efficiencies depend on an entropy that we engineer to reflect complexity. We also present two monotones, uncomplexity measures that decline monotonically under fuzzy operations, in certain regimes. This work unleashes on many-body complexity the resource-theory toolkit from quantum information theory.</description>
+  </item>
+
+  <item>
+    <title>Pauli error estimation via Population Recovery</title>
+    <link>http://arxiv.org/pdf/2105.02885</link>
+    <author>Steven T. Flammia, Ryan O'Donnell</author>
+    <pubDate>May 10 2021</pubDate>
+    <description>Motivated by estimation of quantum noise models, we study the problem of learning a Pauli channel, or more generally the Pauli error rates of an arbitrary channel. By employing a novel reduction to the "Population Recovery" problem, we give an extremely simple algorithm that learns the Pauli error rates of an $n$-qubit channel to precision $\epsilon$ in $\ell_\infty$ using just $O(1/\epsilon^2) \log(n/\epsilon)$ applications of the channel. This is optimal up to the logarithmic factors. Our algorithm uses only unentangled state preparation and measurements, and the post-measurement classical runtime is just an $O(1/\epsilon)$ factor larger than the measurement data size. It is also impervious to a limited model of measurement noise where heralded measurement failures occur independently with probability $\le 1/4$. We then consider the case where the noise channel is close to the identity, meaning that the no-error outcome occurs with probability $1-\eta$. In the regime of small $\eta$ we extend our algorithm to achieve multiplicative precision $1 \pm \epsilon$ (i.e., additive precision $\epsilon \eta$) using just $O\bigl(\frac{1}{\epsilon^2 \eta}\bigr) \log(n/\epsilon)$ applications of the channel.</description>
   </item>
 
 </channel>
