@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
-    <link>http://arxiv.org/pdf/2203.07263</link>
-    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
-  </item>
-
-  <item>
-    <title>Shadow Distillation: Quantum Error Mitigation with Classical Shadows for Near-Term Quantum Processors</title>
-    <link>http://arxiv.org/pdf/2203.07309</link>
-    <author>Alireza Seif, Ze-Pei Cian, Sisi Zhou, Senrui Chen, Liang Jiang</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>Mitigating errors in quantum information processing devices is especially important in the absence of fault tolerance. An effective method in suppressing state-preparation errors is using multiple copies to distill the ideal component from a noisy quantum state. Here, we use classical shadows and randomized measurements to circumvent the need for coherent access to multiple copies at an exponential cost. We study the scaling of resources using numerical simulations and find that the overhead is still favorable compared to full state tomography. We optimize measurement resources under realistic experimental constraints and apply our method to an experiment preparing Greenberger-Horne-Zeilinger (GHZ) state with trapped ions. In addition to improving stabilizer measurements, the analysis of the improved results reveals the nature of errors affecting the experiment. Hence, our results provide a directly applicable method for mitigating errors in near-term quantum computers.</description>
-  </item>
-
-  <item>
     <title>Quantum Parameterized Complexity</title>
     <link>http://arxiv.org/pdf/2203.08002</link>
     <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
@@ -31,11 +15,19 @@
   </item>
 
   <item>
-    <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
-    <link>http://arxiv.org/pdf/2203.07205</link>
-    <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
+    <title>Hierarchies of resources for measurement-based quantum computation</title>
+    <link>http://arxiv.org/pdf/2203.09965</link>
+    <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
+    <pubDate>Mar 21 2022</pubDate>
+    <description>For certain restricted computational tasks, quantum mechanics provides a provable advantage over any possible classical implementation. Several of these results have been proven using the framework of measurement-based quantum computation (MBQC), where non-locality and more generally contextuality have been identified as necessary resources for certain quantum computations. Here, we consider the computational power of MBQC in more detail by refining its resource requirements, both on the allowed operations and the number of accessible qubits. More precisely, we identify which Boolean functions can be computed in non-adaptive MBQC, with local operations contained within a finite level in the Clifford hierarchy. Moreover, for non-adaptive MBQC restricted to certain subtheories such as stabiliser MBQC, we compute the minimal number of qubits required to compute a given Boolean function. Our results point towards hierarchies of resources that more sharply characterise the power of MBQC beyond the binary of contextuality vs non-contextuality.</description>
+  </item>
+
+  <item>
+    <title>Quantum Algorithms for Testing Hamiltonian Symmetry</title>
+    <link>http://arxiv.org/pdf/2203.10017</link>
+    <author>Margarite L. LaBorde, Mark M. Wilde</author>
+    <pubDate>Mar 21 2022</pubDate>
+    <description>Symmetries in a Hamiltonian play an important role in quantum physics because they correspond directly with conserved quantities of the related system. In this paper, we propose quantum algorithms capable of testing whether a Hamiltonian exhibits symmetry with respect to a group. We demonstrate that familiar expressions of Hamiltonian symmetry in quantum mechanics correspond directly with the acceptance probabilities of our algorithms. We execute one of our symmetry-testing algorithms on existing quantum computers for simple examples of both symmetric and asymmetric cases.</description>
   </item>
 
   <item>
@@ -44,6 +36,14 @@
     <author>Zoe Holmes, Gopikrishnan Muraleedharan, Rolando D. Somma, Yigit Subasi, Burak Şahinoğlu</author>
     <pubDate>Mar 18 2022</pubDate>
     <description>Fluctuation theorems provide a correspondence between properties of quantum systems in thermal equilibrium and a work distribution arising in a non-equilibrium process that connects two quantum systems with Hamiltonians $H_0$ and $H_1=H_0+V$. Building upon these theorems, we present a quantum algorithm to prepare a purification of the thermal state of $H_1$ at inverse temperature $\beta \ge 0$ starting from a purification of the thermal state of $H_0$. The complexity of the quantum algorithm, given by the number of uses of certain unitaries, is $\tilde {\cal O}(e^{\beta (\Delta \! A- w_l)/2})$, where $\Delta \! A$ is the free-energy difference between $H_1$ and $H_0,$ and $w_l$ is a work cutoff that depends on the properties of the work distribution and the approximation error $\epsilon>0$. If the non-equilibrium process is trivial, this complexity is exponential in $\beta \|V\|$, where $\|V\|$ is the spectral norm of $V$. This represents a significant improvement of prior quantum algorithms that have complexity exponential in $\beta \|H_1\|$ in the regime where $\|V\|\ll \|H_1\|$. The dependence of the complexity in $\epsilon$ varies according to the structure of the quantum systems. It can be exponential in $1/\epsilon$ in general, but we show it to be sublinear in $1/\epsilon$ if $H_0$ and $H_1$ commute, or polynomial in $1/\epsilon$ if $H_0$ and $H_1$ are local spin systems. The possibility of applying a unitary that drives the system out of equilibrium allows one to increase the value of $w_l$ and improve the complexity even further. To this end, we analyze the complexity for preparing the thermal state of the transverse field Ising model using different non-equilibrium unitary processes and see significant complexity improvements.</description>
+  </item>
+
+  <item>
+    <title>Shorter quantum circuits</title>
+    <link>http://arxiv.org/pdf/2203.10064</link>
+    <author>Vadym Kliuchnikov, Kristin Lauter, Romy Minko, Adam Paetznick, Christophe Petit</author>
+    <pubDate>Mar 21 2022</pubDate>
+    <description>We give a novel procedure for approximating general single-qubit unitaries from a finite universal gate set by reducing the problem to a novel magnitude approximation problem, achieving an immediate improvement in sequence length by a factor of 7/9. Extending the works arXiv:1612.01011 and arXiv:1612.02689, we show that taking probabilistic mixtures of channels to solve fallback (arXiv:1409.3552) and magnitude approximation problems saves factor of two in approximation costs. In particular, over the Clifford+$\sqrt{\mathrm{T}}$ gate set we achieve an average non-Clifford gate count of $0.23\log_2(1/\varepsilon)+2.13$ and T-count $0.56\log_2(1/\varepsilon)+5.3$ with mixed fallback approximations for diamond norm accuracy $\varepsilon$. This paper provides a holistic overview of gate approximation, in addition to these new insights. We give an end-to-end procedure for gate approximation for general gate sets related to some quaternion algebras, providing pedagogical examples using common fault-tolerant gate sets (V, Clifford+T and Clifford+$\sqrt{\mathrm{T}}$). We also provide detailed numerical results for Clifford+T and Clifford+$\sqrt{\mathrm{T}}$ gate sets. In an effort to keep the paper self-contained, we include an overview of the relevant algorithms for integer point enumeration and relative norm equation solving. We provide a number of further applications of the magnitude approximation problems, as well as improved algorithms for exact synthesis, in the Appendices.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Reducing the cost of energy estimation in the variational quantum eigensolver algorithm with robust amplitude estimation</title>
-    <link>http://arxiv.org/pdf/2203.07275</link>
-    <author>Peter D. Johnson, Alexander A. Kunitsa, Jérôme F. Gonthier, Maxwell D. Radin, Corneliu Buda, Eric J. Doskocil, Clena M. Abuan, Jhonathan Romero</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>Quantum chemistry and materials is one of the most promising applications of quantum computing. Yet much work is still to be done in matching industry-relevant problems in these areas with quantum algorithms that can solve them. Most previous efforts have carried out resource estimations for quantum algorithms run on large-scale fault-tolerant architectures, which include the quantum phase estimation algorithm. In contrast, few have assessed the performance of near-term quantum algorithms, which include the variational quantum eigensolver (VQE) algorithm. Recently, a large-scale benchmark study [Gonthier et al. 2020] found evidence that the performance of the variational quantum eigensolver for a set of industry-relevant molecules may be too inefficient to be of practical use. This motivates the need for developing and assessing methods that improve the efficiency of VQE. In this work, we predict the runtime of the energy estimation subroutine of VQE when using robust amplitude estimation (RAE) to estimate Pauli expectation values. Under conservative assumptions, our resource estimation predicts that RAE can reduce the runtime over the standard estimation method in VQE by one to two orders of magnitude. Despite this improvement, we find that the runtimes are still too large to be practical. These findings motivate two complementary efforts towards quantum advantage: 1) the investigation of more efficient near-term methods for ground state energy estimation and 2) the development of problem instances that are of industrial value and classically challenging, but better suited to quantum computation.</description>
+    <title>Algorithmic cooling for resolving state preparation and measurement errors in quantum computing</title>
+    <link>http://arxiv.org/pdf/2203.08114</link>
+    <author>Raymond Laflamme, Junan Lin, Tal Mor</author>
+    <pubDate>Mar 16 2022</pubDate>
+    <description>State preparation and measurement errors are commonly regarded as indistinguishable. The problem of distinguishing state preparation (SPAM) errors from measurement errors is important to the field of characterizing quantum processors. In this work, we propose a method to separately characterize SPAM errors using a novel type of algorithmic cooling protocol called measurement-based algorithmic cooling (MBAC). MBAC assumes the ability to perform (potentially imperfect) projective measurements on individual qubits, which is available on many modern quantum processors. We demonstrate that MBAC can significantly reduce state preparation error under realistic assumptions, with a small overhead that can be upper bounded by measurable quantities. Thus, MBAC can be a valuable tool not only for benchmarking near-term quantum processors, but also for improving the performance of quantum processors in an algorithmic manner.</description>
   </item>
 
 </channel>
