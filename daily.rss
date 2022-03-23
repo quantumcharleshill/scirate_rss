@@ -7,30 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Hierarchies of resources for measurement-based quantum computation</title>
-    <link>http://arxiv.org/pdf/2203.09965</link>
-    <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>For certain restricted computational tasks, quantum mechanics provides a provable advantage over any possible classical implementation. Several of these results have been proven using the framework of measurement-based quantum computation (MBQC), where non-locality and more generally contextuality have been identified as necessary resources for certain quantum computations. Here, we consider the computational power of MBQC in more detail by refining its resource requirements, both on the allowed operations and the number of accessible qubits. More precisely, we identify which Boolean functions can be computed in non-adaptive MBQC, with local operations contained within a finite level in the Clifford hierarchy. Moreover, for non-adaptive MBQC restricted to certain subtheories such as stabiliser MBQC, we compute the minimal number of qubits required to compute a given Boolean function. Our results point towards hierarchies of resources that more sharply characterise the power of MBQC beyond the binary of contextuality vs non-contextuality.</description>
-  </item>
-
-  <item>
-    <title>Quantum Algorithms for Testing Hamiltonian Symmetry</title>
-    <link>http://arxiv.org/pdf/2203.10017</link>
-    <author>Margarite L. LaBorde, Mark M. Wilde</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>Symmetries in a Hamiltonian play an important role in quantum physics because they correspond directly with conserved quantities of the related system. In this paper, we propose quantum algorithms capable of testing whether a Hamiltonian exhibits symmetry with respect to a group. We demonstrate that familiar expressions of Hamiltonian symmetry in quantum mechanics correspond directly with the acceptance probabilities of our algorithms. We execute one of our symmetry-testing algorithms on existing quantum computers for simple examples of both symmetric and asymmetric cases.</description>
-  </item>
-
-  <item>
-    <title>Shorter quantum circuits</title>
-    <link>http://arxiv.org/pdf/2203.10064</link>
-    <author>Vadym Kliuchnikov, Kristin Lauter, Romy Minko, Adam Paetznick, Christophe Petit</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>We give a novel procedure for approximating general single-qubit unitaries from a finite universal gate set by reducing the problem to a novel magnitude approximation problem, achieving an immediate improvement in sequence length by a factor of 7/9. Extending the works arXiv:1612.01011 and arXiv:1612.02689, we show that taking probabilistic mixtures of channels to solve fallback (arXiv:1409.3552) and magnitude approximation problems saves factor of two in approximation costs. In particular, over the Clifford+$\sqrt{\mathrm{T}}$ gate set we achieve an average non-Clifford gate count of $0.23\log_2(1/\varepsilon)+2.13$ and T-count $0.56\log_2(1/\varepsilon)+5.3$ with mixed fallback approximations for diamond norm accuracy $\varepsilon$. This paper provides a holistic overview of gate approximation, in addition to these new insights. We give an end-to-end procedure for gate approximation for general gate sets related to some quaternion algebras, providing pedagogical examples using common fault-tolerant gate sets (V, Clifford+T and Clifford+$\sqrt{\mathrm{T}}$). We also provide detailed numerical results for Clifford+T and Clifford+$\sqrt{\mathrm{T}}$ gate sets. In an effort to keep the paper self-contained, we include an overview of the relevant algorithms for integer point enumeration and relative norm equation solving. We provide a number of further applications of the magnitude approximation problems, as well as improved algorithms for exact synthesis, in the Appendices.</description>
-  </item>
-
-  <item>
     <title>Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes</title>
     <link>http://arxiv.org/pdf/2203.11137</link>
     <author>David Aasen, Zhenghan Wang, Matthew B. Hastings</author>
@@ -39,11 +15,35 @@
   </item>
 
   <item>
-    <title>Third law of thermodynamics and the scaling of quantum computers</title>
-    <link>http://arxiv.org/pdf/2203.09545</link>
-    <author>Lorenzo Buffoni, Stefano Gherardini, Emmanuel Zambrini Cruzeiro, Yasser Omar</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>The third law of thermodynamics, also known as the Nernst unattainability principle, puts a fundamental bound on how close a system, whether classical or quantum, can be cooled to a temperature near to absolute zero. On the other hand, a fundamental assumption of quantum computing is to start each computation from a register of qubits initialized in a pure state, i.e. at zero temperature. These conflicting aspects, at the interface between quantum computing and thermodynamics, are often overlooked or, at best, addressed only at a single-qubit level. In this work, we argue how the existence of a small, but finite, effective temperature, which makes the initial state a mixed state, poses a real challenge to the fidelity constraints required for the scaling of quantum computers. Our theoretical results, carried out for a generic quantum circuit with $N$-qubit input states, are validated by experiments performed on a real quantum processor.</description>
+    <title>Scalable fast benchmarking for individual quantum gates with local twirling</title>
+    <link>http://arxiv.org/pdf/2203.10320</link>
+    <author>Yihong Zhang, Wenjun Yu, Pei Zeng, Guoding Liu, Xiongfeng Ma</author>
+    <pubDate>Mar 22 2022</pubDate>
+    <description>With the development of controllable quantum systems, fast and practical characterization for multi-qubit gates is essential for building high-fidelity quantum computing devices. The usual way to fulfill this requirement via randomized benchmarking asks for complicated implementation of numerous multi-qubit twirling gates. How to efficiently and reliably estimate the fidelity of a quantum process remains an open problem. In this work, we propose a character-cycle benchmarking protocol and a fast benchmarking protocol only using local twirling gates to estimate the process fidelity of an individual multi-qubit operation. Our protocols are able to characterize a large class of quantum gates including and beyond the Clifford group via the local gauge transformation, which forms a universal gate set for quantum computing. We numerically demonstrate our protocols for a non-Clifford gate -- controlled-$(TX)$ and a Clifford gate -- five-qubit quantum error-correcting encoding circuit. The numerical results show that our protocols can efficiently and reliably characterize the gate process fidelities. Compared with the cross-entropy benchmarking, the simulation results show that the fast benchmarking achieves three orders of magnitude improvements in terms of sampling complexity.</description>
+  </item>
+
+  <item>
+    <title>The randomized measurement toolbox</title>
+    <link>http://arxiv.org/pdf/2203.11374</link>
+    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
+    <pubDate>Mar 23 2022</pubDate>
+    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
+  </item>
+
+  <item>
+    <title>Non-local computation of quantum circuits with small light cones</title>
+    <link>http://arxiv.org/pdf/2203.10106</link>
+    <author>Kfir Dolev, Sam Cree</author>
+    <pubDate>Mar 22 2022</pubDate>
+    <description>The task of non-local quantum computation requires implementation of a unitary on $n$ qubits between two parties with only one round of communication, ideally with minimal pre-shared entanglement. We introduce a new protocol that makes use of the fact that port-based teleportation costs much less entanglement when done only on a small number of qubits at a time. Whereas previous protocols have entanglement cost independent of the unitary or scaling with its complexity, the cost of the new protocol scales with the \emphnon-locality of the unitary. Specifically, it takes the form $\sim n^{4V}$ with $V$ the maximum volume of a past light cone in a circuit implementing the unitary. Thus we can implement unitary circuits with $V\sim O(1)$ using polynomial entanglement, and those with $V\sim \mathrm{polylog}(n)$ using quasi-polynomial entanglement. For a general unitary circuit with $d$ layers of $k$-qubit gates $V$ is at most $k^d$, but if geometric locality is imposed it is at most polynomial in $d$. We give an explicit class of unitaries for which our protocol's entanglement cost scales better than any known protocol. We also show that several extensions can be made without significantly affecting the entanglement cost - arbitrary local pre- and post-processing; global Clifford pre- and post-processing; and the addition of a polynomial number of auxiliary systems.</description>
+  </item>
+
+  <item>
+    <title>Efficient simulation of Gottesman-Kitaev-Preskill states with Gaussian circuits</title>
+    <link>http://arxiv.org/pdf/2203.11182</link>
+    <author>Cameron Calcluth, Alessandro Ferraro, Giulia Ferrini</author>
+    <pubDate>Mar 22 2022</pubDate>
+    <description>We study the classical simulatability of stabilizer Gottesman-Kitaev-Preskill states in combination with arbitrary displacements, a large set of Gaussian operations and homodyne measurements. For these types of circuits, neither continuous-variable theorems based on the non-negativity of quasi-probability distributions nor discrete-variable theorems such as the Gottesman-Knill theorem can be employed to assess the simulatability. We first develop a method to evaluate the probability density function corresponding to measuring a single GKP state in the position basis following squeezing and rotations. This method involves evaluating a transformed Jacobi theta function using techniques from analytic number theory. We then use this result to identify two large classes of multimode circuits which are classically efficiently simulatable and are not contained by the GKP encoded Clifford group. Our results extend the set of circuits previously known to be classically efficiently simulatable.</description>
   </item>
 
 </channel>

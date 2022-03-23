@@ -23,19 +23,19 @@
   </item>
 
   <item>
-    <title>Quantum Tanner codes</title>
-    <link>http://arxiv.org/pdf/2202.13641</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Mar 01 2022</pubDate>
-    <description>Tanner codes are long error correcting codes obtained from short codes and a graph, with bits on the edges and parity-check constraints from the short codes enforced at the vertices of the graph. Combining good short codes together with a spectral expander graph yields the celebrated expander codes of Sipser and Spielman, which are asymptotically good classical LDPC codes. In this work we apply this prescription to the left-right Cayley complex that lies at the heart of the recent construction of a $c^3$ locally testable code by Dinur et al. Specifically, we view this complex as two graphs that share the same set of edges. By defining a Tanner code on each of those graphs we obtain two classical codes that together define a quantum code. This construction can be seen as a simplified variant of the Panteleev and Kalachev asymptotically good quantum LDPC code, with improved estimates for its minimum distance. This quantum code is closely related to the Dinur et al. code in more than one sense: indeed, we prove a theorem that simultaneously gives a linearly growing minimum distance for the quantum code and recovers the local testability of the Dinur et al. code.</description>
-  </item>
-
-  <item>
     <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
     <link>http://arxiv.org/pdf/2203.07263</link>
     <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
+  </item>
+
+  <item>
+    <title>Quantum Tanner codes</title>
+    <link>http://arxiv.org/pdf/2202.13641</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>Tanner codes are long error correcting codes obtained from short codes and a graph, with bits on the edges and parity-check constraints from the short codes enforced at the vertices of the graph. Combining good short codes together with a spectral expander graph yields the celebrated expander codes of Sipser and Spielman, which are asymptotically good classical LDPC codes. In this work we apply this prescription to the left-right Cayley complex that lies at the heart of the recent construction of a $c^3$ locally testable code by Dinur et al. Specifically, we view this complex as two graphs that share the same set of edges. By defining a Tanner code on each of those graphs we obtain two classical codes that together define a quantum code. This construction can be seen as a simplified variant of the Panteleev and Kalachev asymptotically good quantum LDPC code, with improved estimates for its minimum distance. This quantum code is closely related to the Dinur et al. code in more than one sense: indeed, we prove a theorem that simultaneously gives a linearly growing minimum distance for the quantum code and recovers the local testability of the Dinur et al. code.</description>
   </item>
 
   <item>
@@ -55,19 +55,19 @@
   </item>
 
   <item>
-    <title>All quantum measurements are asymptotically equivalent</title>
-    <link>http://arxiv.org/pdf/2203.02593</link>
-    <author>Noah Linden, Paul Skrzypczyk</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
-  </item>
-
-  <item>
     <title>Shadow Distillation: Quantum Error Mitigation with Classical Shadows for Near-Term Quantum Processors</title>
     <link>http://arxiv.org/pdf/2203.07309</link>
     <author>Alireza Seif, Ze-Pei Cian, Sisi Zhou, Senrui Chen, Liang Jiang</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>Mitigating errors in quantum information processing devices is especially important in the absence of fault tolerance. An effective method in suppressing state-preparation errors is using multiple copies to distill the ideal component from a noisy quantum state. Here, we use classical shadows and randomized measurements to circumvent the need for coherent access to multiple copies at an exponential cost. We study the scaling of resources using numerical simulations and find that the overhead is still favorable compared to full state tomography. We optimize measurement resources under realistic experimental constraints and apply our method to an experiment preparing Greenberger-Horne-Zeilinger (GHZ) state with trapped ions. In addition to improving stabilizer measurements, the analysis of the improved results reveals the nature of errors affecting the experiment. Hence, our results provide a directly applicable method for mitigating errors in near-term quantum computers.</description>
+  </item>
+
+  <item>
+    <title>All quantum measurements are asymptotically equivalent</title>
+    <link>http://arxiv.org/pdf/2203.02593</link>
+    <author>Noah Linden, Paul Skrzypczyk</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
   </item>
 
   <item>
@@ -135,14 +135,6 @@
   </item>
 
   <item>
-    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
-    <link>http://arxiv.org/pdf/2203.03581</link>
-    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
-  </item>
-
-  <item>
     <title>Limitations of nearest-neighbour quantum networks</title>
     <link>http://arxiv.org/pdf/2202.10886</link>
     <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
@@ -151,11 +143,11 @@
   </item>
 
   <item>
-    <title>The quantum low-rank approximation problem</title>
-    <link>http://arxiv.org/pdf/2203.00811</link>
-    <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
-    <pubDate>Mar 03 2022</pubDate>
-    <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
+    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
+    <link>http://arxiv.org/pdf/2203.03581</link>
+    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
   </item>
 
   <item>
@@ -167,11 +159,19 @@
   </item>
 
   <item>
-    <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
-    <link>http://arxiv.org/pdf/2203.07205</link>
-    <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
+    <title>The quantum low-rank approximation problem</title>
+    <link>http://arxiv.org/pdf/2203.00811</link>
+    <author>Nic Ezzell, Zoë Holmes, Patrick J. Coles</author>
+    <pubDate>Mar 03 2022</pubDate>
+    <description>We consider a quantum version of the famous low-rank approximation problem. Specifically, we consider the distance $D(\rho,\sigma)$ between two normalized quantum states, $\rho$ and $\sigma$, where the rank of $\sigma$ is constrained to be at most $R$. For both the trace distance and Hilbert-Schmidt distance, we analytically solve for the optimal state $\sigma$ that minimizes this distance. For the Hilbert-Schmidt distance, the unique optimal state is $\sigma = \tau_R +N_R$, where $\tau_R = \Pi_R \rho \Pi_R$ is given by projecting $\rho$ onto its $R$ principal components with projector $\Pi_R$, and $N_R$ is a normalization factor given by $N_R = \frac{1- \text{Tr}(\tau_R)}{R}\Pi_R$. For the trace distance, this state is also optimal but not uniquely optimal, and we provide the full set of states that are optimal. We briefly discuss how our results have application for performing principal component analysis (PCA) via variational optimization on quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes</title>
+    <link>http://arxiv.org/pdf/2203.11137</link>
+    <author>David Aasen, Zhenghan Wang, Matthew B. Hastings</author>
+    <pubDate>Mar 22 2022</pubDate>
+    <description>The recent "honeycomb code" is a fault-tolerant quantum memory defined by a sequence of checks which implements a nontrivial automorphism of the toric code. We argue that a general framework to understand this code is to consider continuous adiabatic paths of gapped Hamiltonians and we give a conjectured description of the fundamental group and second and third homotopy groups of this space in two spatial dimensions. A single cycle of such a path can implement some automorphism of the topological order of that Hamiltonian. We construct such paths for arbitrary automorphisms of two-dimensional doubled topological order. Then, realizing this in the case of the toric code, we turn this path back into a sequence of checks, constructing an automorphism code closely related to the honeycomb code.</description>
   </item>
 
   <item>
@@ -183,11 +183,11 @@
   </item>
 
   <item>
-    <title>Opportunities and Limitations in Broadband Sensing</title>
-    <link>http://arxiv.org/pdf/2203.05520</link>
-    <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
-    <pubDate>Mar 11 2022</pubDate>
-    <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
+    <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
+    <link>http://arxiv.org/pdf/2203.07205</link>
+    <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
   </item>
 
   <item>
@@ -199,35 +199,19 @@
   </item>
 
   <item>
+    <title>Opportunities and Limitations in Broadband Sensing</title>
+    <link>http://arxiv.org/pdf/2203.05520</link>
+    <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
+    <pubDate>Mar 11 2022</pubDate>
+    <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
+  </item>
+
+  <item>
     <title>Quantifying Grover speed-ups beyond asymptotic analysis</title>
     <link>http://arxiv.org/pdf/2203.04975</link>
     <author>Chris Cade, Marten Folkertsma, Ido Niesen, Jordi Weggemans</author>
     <pubDate>Mar 11 2022</pubDate>
     <description>The usual method for studying run-times of quantum algorithms is via an asymptotic, worst-case analysis. Whilst useful, such a comparison can often fall short: it is not uncommon for algorithms with a large worst-case run-time to end up performing well on instances of practical interest. To remedy this it is necessary to resort to run-time analyses of a more empirical nature, which for sufficiently small input sizes can be performed on a quantum device or a simulation thereof. For larger input sizes, alternative approaches are required. In this paper we consider an approach that combines classical emulation with rigorous complexity bounds: simulating quantum algorithms by running classical versions of the sub-routines, whilst simultaneously collecting information about what the run-time of the quantum routine would have been if it were run instead. To do this accurately and efficiently for very large input sizes, we describe an estimation procedure that provides provable guarantees on the estimates that it obtains. A nice feature of this approach is that it allows one to compare the performance of quantum and classical algorithms on particular inputs of interest, rather than only on those that allow for an easier mathematical analysis. We apply our method to some simple quantum speedups of classical heuristic algorithms for solving the well-studied MAX-k-SAT optimization problem. To do this we first obtain some rigorous bounds (including all constants) on the expected- and worst-case complexities of two important quantum sub-routines, which improve upon existing results and might be of broader interest: Grover search with an unknown number of marked items, and quantum maximum-finding. Our results suggest that such an approach can provide insightful and meaningful information, in particular when the speedup is of a small polynomial nature.</description>
-  </item>
-
-  <item>
-    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
-    <link>http://arxiv.org/pdf/2202.09202</link>
-    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
-    <pubDate>Feb 21 2022</pubDate>
-    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
-  </item>
-
-  <item>
-    <title>Quantum circuit compilation and hybrid computation using Pauli-based computation</title>
-    <link>http://arxiv.org/pdf/2203.01789</link>
-    <author>F.C.R. Peres, Ernesto F. Galvão</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
-  </item>
-
-  <item>
-    <title>Quantum algorithms for estimating quantum entropies</title>
-    <link>http://arxiv.org/pdf/2203.02386</link>
-    <author>Youle Wang, Benchi Zhao, Xin Wang</author>
-    <pubDate>Mar 07 2022</pubDate>
-    <description>The von Neumann and quantum Rényi entropies characterize fundamental properties of quantum systems and lead to theoretical and practical applications in many fields. Quantum algorithms for estimating quantum entropies, using a quantum query model that prepares the purification of the input state, have been established in the literature. However, constructing such a model is almost as hard as state tomography. In this paper, we propose quantum algorithms to estimate the von Neumann and quantum $\alpha$-Rényi entropies of an $n$-qubit quantum state $\rho$ using independent copies of the input state. We also show how to efficiently construct the quantum circuits for quantum entropy estimation using primitive single/two-qubit gates. We prove that the number of required copies scales polynomially in $1/\epsilon$ and $1/\Lambda$, where $\epsilon$ denotes the additive precision and $\Lambda$ denotes the lower bound on all non-zero eigenvalues. Notably, our method outperforms previous methods in the aspect of practicality since it does not require any quantum query oracles, which are usually necessary for previous methods. Furthermore, we conduct experiments to show the efficacy of our algorithms to single-qubit states and study the noise robustness. We also discuss the applications to some quantum states of practical interest as well as some meaningful tasks such as quantum Gibbs state preparation and entanglement estimation.</description>
   </item>
 
   <item>
@@ -239,11 +223,27 @@
   </item>
 
   <item>
-    <title>Memory Compression with Quantum Random-Access Gates</title>
-    <link>http://arxiv.org/pdf/2203.05599</link>
-    <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
-    <pubDate>Mar 14 2022</pubDate>
-    <description>In the classical RAM, we have the following useful property. If we have an algorithm that uses $M$ memory cells throughout its execution, and in addition is sparse, in the sense that, at any point in time, only $m$ out of $M$ cells will be non-zero, then we may "compress" it into another algorithm which uses only $m \log M$ memory and runs in almost the same time. We may do so by simulating the memory using either a hash table, or a self-balancing tree. We show an analogous result for quantum algorithms equipped with quantum random-access gates. If we have a quantum algorithm that runs in time $T$ and uses $M$ qubits, such that the state of the memory, at any time step, is supported on computational-basis vectors of Hamming weight at most $m$, then it can be simulated by another algorithm which uses only $O(m \log M)$ memory, and runs in time $\tilde O(T)$. We show how this theorem can be used, in a black-box way, to simplify the presentation in several papers. Broadly speaking, when there exists a need for a space-efficient history-independent quantum data-structure, it is often possible to construct a space-inefficient, yet sparse, quantum data structure, and then appeal to our main theorem. This results in simpler and shorter arguments.</description>
+    <title>Classical simulation of quantum circuits with partial and graphical stabiliser decompositions</title>
+    <link>http://arxiv.org/pdf/2202.09202</link>
+    <author>Aleks Kissinger, John van de Wetering, Renaud Vilmart</author>
+    <pubDate>Feb 21 2022</pubDate>
+    <description>Recent developments in classical simulation of quantum circuits make use of clever decompositions of chunks of magic states into sums of efficiently simulable stabiliser states. We show here how, by considering certain non-stabiliser entangled states which have more favourable decompositions, we can speed up these simulations. This is made possible by using the ZX-calculus, which allows us to easily find instances of these entangled states in the simplified diagram representing the quantum circuit to be simulated. We additionally find a new technique of partial stabiliser decompositions that allow us to trade magic states for stabiliser terms. With this technique we require only $2^{\alpha t}$ stabiliser terms, where $\alpha\approx 0.396$, to simulate a circuit with T-count $t$. This matches the $\alpha$ found by Qassim et al., but whereas they only get this scaling in the asymptotic limit, ours applies for a circuit of any size. Our method builds upon a recently proposed scheme for simulation combining stabiliser decompositions and optimisation strategies implemented in the software QuiZX. With our techniques we manage to reliably simulate 50-qubit 1400 T-count hidden shift circuits in a couple of minutes on a consumer laptop.</description>
+  </item>
+
+  <item>
+    <title>Shorter quantum circuits</title>
+    <link>http://arxiv.org/pdf/2203.10064</link>
+    <author>Vadym Kliuchnikov, Kristin Lauter, Romy Minko, Adam Paetznick, Christophe Petit</author>
+    <pubDate>Mar 21 2022</pubDate>
+    <description>We give a novel procedure for approximating general single-qubit unitaries from a finite universal gate set by reducing the problem to a novel magnitude approximation problem, achieving an immediate improvement in sequence length by a factor of 7/9. Extending the works arXiv:1612.01011 and arXiv:1612.02689, we show that taking probabilistic mixtures of channels to solve fallback (arXiv:1409.3552) and magnitude approximation problems saves factor of two in approximation costs. In particular, over the Clifford+$\sqrt{\mathrm{T}}$ gate set we achieve an average non-Clifford gate count of $0.23\log_2(1/\varepsilon)+2.13$ and T-count $0.56\log_2(1/\varepsilon)+5.3$ with mixed fallback approximations for diamond norm accuracy $\varepsilon$. This paper provides a holistic overview of gate approximation, in addition to these new insights. We give an end-to-end procedure for gate approximation for general gate sets related to some quaternion algebras, providing pedagogical examples using common fault-tolerant gate sets (V, Clifford+T and Clifford+$\sqrt{\mathrm{T}}$). We also provide detailed numerical results for Clifford+T and Clifford+$\sqrt{\mathrm{T}}$ gate sets. In an effort to keep the paper self-contained, we include an overview of the relevant algorithms for integer point enumeration and relative norm equation solving. We provide a number of further applications of the magnitude approximation problems, as well as improved algorithms for exact synthesis, in the Appendices.</description>
+  </item>
+
+  <item>
+    <title>Quantum algorithms for estimating quantum entropies</title>
+    <link>http://arxiv.org/pdf/2203.02386</link>
+    <author>Youle Wang, Benchi Zhao, Xin Wang</author>
+    <pubDate>Mar 07 2022</pubDate>
+    <description>The von Neumann and quantum Rényi entropies characterize fundamental properties of quantum systems and lead to theoretical and practical applications in many fields. Quantum algorithms for estimating quantum entropies, using a quantum query model that prepares the purification of the input state, have been established in the literature. However, constructing such a model is almost as hard as state tomography. In this paper, we propose quantum algorithms to estimate the von Neumann and quantum $\alpha$-Rényi entropies of an $n$-qubit quantum state $\rho$ using independent copies of the input state. We also show how to efficiently construct the quantum circuits for quantum entropy estimation using primitive single/two-qubit gates. We prove that the number of required copies scales polynomially in $1/\epsilon$ and $1/\Lambda$, where $\epsilon$ denotes the additive precision and $\Lambda$ denotes the lower bound on all non-zero eigenvalues. Notably, our method outperforms previous methods in the aspect of practicality since it does not require any quantum query oracles, which are usually necessary for previous methods. Furthermore, we conduct experiments to show the efficacy of our algorithms to single-qubit states and study the noise robustness. We also discuss the applications to some quantum states of practical interest as well as some meaningful tasks such as quantum Gibbs state preparation and entanglement estimation.</description>
   </item>
 
 </channel>
