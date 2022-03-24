@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>The randomized measurement toolbox</title>
+    <link>http://arxiv.org/pdf/2203.11374</link>
+    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
+    <pubDate>Mar 23 2022</pubDate>
+    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
+  </item>
+
+  <item>
     <title>Hierarchies of resources for measurement-based quantum computation</title>
     <link>http://arxiv.org/pdf/2203.09965</link>
     <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
@@ -47,14 +55,6 @@
   </item>
 
   <item>
-    <title>Detecting entanglement in quantum many-body systems via permutation moments</title>
-    <link>http://arxiv.org/pdf/2203.08391</link>
-    <author>Zhenhuan Liu, Yifan Tang, Hao Dai, Pengyu Liu, Shu Chen, Xiongfeng Ma</author>
-    <pubDate>Mar 17 2022</pubDate>
-    <description>Multipartite entanglement plays an essential role in both quantum information science and many-body physics. Due to the exponentially large dimension and complex geometric structure of the state space, the detection of entanglement in many-body systems is extremely challenging in reality. Conventional means, like entanglement witness and entropy criterion, either highly depend on the prior knowledge of the studied systems or the detection capability is relatively weak. In this work, we propose a framework for designing multipartite entanglement criteria based on permutation moments, which have an effective implementation with either the generalized control-SWAP quantum circuits or the random unitary techniques. These criteria show strong detection capability in the multi-qubit Ising model with a long-range $XY$ Hamiltonian. The quantities associated with these criteria have clear physical meaning and can be used as entanglement quantifiers, with which we show the entanglement scaling transition in a quantum dynamical phase transition. Furthermore, our framework can also be generalized to detect the much more complicated entanglement structure in quantum many-body systems.</description>
-  </item>
-
-  <item>
     <title>Scalable fast benchmarking for individual quantum gates with local twirling</title>
     <link>http://arxiv.org/pdf/2203.10320</link>
     <author>Yihong Zhang, Wenjun Yu, Pei Zeng, Guoding Liu, Xiongfeng Ma</author>
@@ -63,19 +63,11 @@
   </item>
 
   <item>
-    <title>The randomized measurement toolbox</title>
-    <link>http://arxiv.org/pdf/2203.11374</link>
-    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
-  </item>
-
-  <item>
-    <title>Intrinsic randomness under general quantum measurements</title>
-    <link>http://arxiv.org/pdf/2203.08624</link>
-    <author>Hao Dai, Boyang Chen, Xingjian Zhang, Xiongfeng Ma</author>
-    <pubDate>Mar 17 2022</pubDate>
-    <description>Quantum measurements can produce randomness arising from the uncertainty principle. When measuring a state with von Neumann measurements, the intrinsic randomness can be quantified by the quantum coherence of the state on the measurement basis. Unlike projection measurements, there are additional and possibly hidden degrees of freedom in apparatus for generic measurements. We propose an adversary scenario for general measurements with arbitrary input states, based on which, we characterize the intrinsic randomness. Interestingly, we discover that under certain measurements, such as the symmetric and information-complete measurement, all states have nonzero randomness, inspiring a new design of source-independent random number generators without state characterization. Furthermore, our results show that intrinsic randomness can quantify coherence under general measurements, which generalizes the result in the standard resource theory of state coherence.</description>
+    <title>Efficient simulation of Gottesman-Kitaev-Preskill states with Gaussian circuits</title>
+    <link>http://arxiv.org/pdf/2203.11182</link>
+    <author>Cameron Calcluth, Alessandro Ferraro, Giulia Ferrini</author>
+    <pubDate>Mar 22 2022</pubDate>
+    <description>We study the classical simulatability of stabilizer Gottesman-Kitaev-Preskill states in combination with arbitrary displacements, a large set of Gaussian operations and homodyne measurements. For these types of circuits, neither continuous-variable theorems based on the non-negativity of quasi-probability distributions nor discrete-variable theorems such as the Gottesman-Knill theorem can be employed to assess the simulatability. We first develop a method to evaluate the probability density function corresponding to measuring a single GKP state in the position basis following squeezing and rotations. This method involves evaluating a transformed Jacobi theta function using techniques from analytic number theory. We then use this result to identify two large classes of multimode circuits which are classically efficiently simulatable and are not contained by the GKP encoded Clifford group. Our results extend the set of circuits previously known to be classically efficiently simulatable.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Kfir Dolev, Sam Cree</author>
     <pubDate>Mar 22 2022</pubDate>
     <description>The task of non-local quantum computation requires implementation of a unitary on $n$ qubits between two parties with only one round of communication, ideally with minimal pre-shared entanglement. We introduce a new protocol that makes use of the fact that port-based teleportation costs much less entanglement when done only on a small number of qubits at a time. Whereas previous protocols have entanglement cost independent of the unitary or scaling with its complexity, the cost of the new protocol scales with the \emphnon-locality of the unitary. Specifically, it takes the form $\sim n^{4V}$ with $V$ the maximum volume of a past light cone in a circuit implementing the unitary. Thus we can implement unitary circuits with $V\sim O(1)$ using polynomial entanglement, and those with $V\sim \mathrm{polylog}(n)$ using quasi-polynomial entanglement. For a general unitary circuit with $d$ layers of $k$-qubit gates $V$ is at most $k^d$, but if geometric locality is imposed it is at most polynomial in $d$. We give an explicit class of unitaries for which our protocol's entanglement cost scales better than any known protocol. We also show that several extensions can be made without significantly affecting the entanglement cost - arbitrary local pre- and post-processing; global Clifford pre- and post-processing; and the addition of a polynomial number of auxiliary systems.</description>
+  </item>
+
+  <item>
+    <title>Three numerical approaches to find mutually unbiased bases using Bell inequalities</title>
+    <link>http://arxiv.org/pdf/2203.09429</link>
+    <author>Maria Prat Colomer, Luke Mortimer, Irénée Frérot, Máté Farkas, Antonio Acín</author>
+    <pubDate>Mar 18 2022</pubDate>
+    <description>Mutually unbiased bases correspond to highly useful pairs of measurements in quantum information theory. In the smallest composite dimension, six, it is known that between three and seven mutually unbiased bases exist, with a decades-old conjecture, known as Zauner's conjecture, stating that there exist at most three. Here we tackle Zauner's conjecture numerically through the construction of Bell inequalities for every pair of integers $n,d \ge 2$ that can be maximally violated in dimension $d$ if and only if $n$ MUBs exist in that dimension. Hence we turn Zauner's conjecture into an optimisation problem, which we address by means of three numerical methods: see-saw optimisation, non-linear semidefinite programming and Monte Carlo techniques. All three methods correctly identify the known cases in low dimensions and all suggest that there do not exist four mutually unbiased bases in dimension six, with all finding the same bases that numerically optimise the corresponding Bell inequality. Moreover, these numerical optimisers appear to coincide with the "four most distant bases" in dimension six, found through numerically optimising a distance measure in [P. Raynal, X. Lü, B.-G. Englert, Phys. Rev. A, 83 062303 (2011)]. Finally, the Monte Carlo results suggest that at most three MUBs exist in dimension ten.</description>
   </item>
 
 </channel>
