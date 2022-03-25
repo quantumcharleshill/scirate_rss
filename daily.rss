@@ -7,35 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The randomized measurement toolbox</title>
-    <link>http://arxiv.org/pdf/2203.11374</link>
-    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
-  </item>
-
-  <item>
-    <title>Linear-depth quantum circuits for multi-qubit controlled gates</title>
-    <link>http://arxiv.org/pdf/2203.11882</link>
-    <author>Adenilton J. da Silva, Daniel K. Park</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Quantum circuit depth minimization is critical for practical applications of circuit-based quantum computation. In this work, we present a systematic procedure to decompose multi-qubit-controlled unitary gate, which is essential in many quantum algorithms, to controlled-NOT and single-qubit gates with which quantum circuit depth only increases linearly with the number of control qubits. Our algorithm does not require any ancillary qubits and achieves a quadratic reduction of the circuit depth against known methods. We demonstrate the advantage of our algorithm with proof-of-principle experiments implemented on the IBM quantum cloud platform.</description>
-  </item>
-
-  <item>
-    <title>Deploying an inter-European quantum network</title>
-    <link>http://arxiv.org/pdf/2203.11359</link>
-    <author>Domenico Ribezzo, Mujtaba Zahidy, Ilaria Vagniluca, Nicola Biagi, Saverio Francesconi, Tommaso Occhipinti, Leif K. Oxenløwe, Martin Lončarić, Ivan Cvitić, Mario Stipčević, Žiga Pušavec, Rainer Kaltenbaek, Anton Ramšak, Francesco Cesa, Giorgio Giorgetti, Francesco Scazza, Angelo Bassi, Paolo De Natale, Francesco Saverio Cataliotti, Massimo Inguscio, et al (2)</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Around forty years have passed since the first pioneering works have introduced the possibility of using quantum physics to strongly enhance communications safety. Nowadays Quantum Cryptography, and in particular, Quantum Key Distribution (QKD) exited the physics laboratories to become commercial technologies that increasingly trigger the attention of States, military forces, banks, and private corporations. This work takes on the challenge of bringing QKD closer to a consumer technology: optical fibers deployed and used by telecommunication companies of different States have been used to realize a quantum network, the first-ever connecting three different countries. This pushes towards the necessary coexistence of QKD and classical communications on the same infrastructure, which currently represents a main limit of this technology. Our network connects Trieste to Rijeka and Ljubljana via a trusted node in Postojna; a key rate of over 3 kbps has been achieved in the shortest link, and a 7-hour long measurement has demonstrated the system stability and reliability. Finally, the network has been used for a public demonstration of QKD at the G20 Digital Ministers' Meeting in Trieste. The reported experimental results, together with the significant interest that one of the most important events of international politics has attracted, showcase the maturity of the QKD technology bundle, placing it in the spotlight for consumer applications in the near term.</description>
-  </item>
-
-  <item>
-    <title>Snowmass 2021 White Paper: Tabletop experiments for infrared quantum gravity</title>
-    <link>http://arxiv.org/pdf/2203.11846</link>
-    <author>Daniel Carney, Yanbei Chen, Andrew Geraci, Holger Müller, Cristian D. Panda, Philip C. E. Stamp, Jacob M. Taylor</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Progress in the quantum readout and control of mechanical devices from single atoms to large masses may enable a first generation of experiments probing the gravitational interaction in the quantum regime, conceivably within the next decade. In this Snowmass whitepaper, we briefly outline the possibilities and challenges facing the realization of these experiments. In particular, we emphasize the need for detailed theories of modifications to the usual effective QFT of gravitons in the infrared regime $E/L^3 \ll m_{\rm Pl}/\ell_{\rm Pl}^3$ in which these experiments operate, and relations to possible UV completions.</description>
+    <title>Quantum-enhanced Markov chain Monte Carlo</title>
+    <link>http://arxiv.org/pdf/2203.12497</link>
+    <author>David Layden, Guglielmo Mazzola, Ryan V. Mishmash, Mario Motta, Pawel Wocjan, Jin-Sung Kim, Sarah Sheldon</author>
+    <pubDate>Mar 24 2022</pubDate>
+    <description>Sampling from complicated probability distributions is a hard computational problem arising in many fields, including statistical physics, optimization, and machine learning. Quantum computers have recently been used to sample from complicated distributions that are hard to sample from classically, but which seldom arise in applications. Here we introduce a quantum algorithm to sample from distributions that pose a bottleneck in several applications, which we implement on a superconducting quantum processor. The algorithm performs Markov chain Monte Carlo (MCMC), a popular iterative sampling technique, to sample from the Boltzmann distribution of classical Ising models. In each step, the quantum processor explores the model in superposition to propose a random move, which is then accepted or rejected by a classical computer and returned to the quantum processor, ensuring convergence to the desired Boltzmann distribution. We find that this quantum algorithm converges in fewer iterations than common classical MCMC alternatives on relevant problem instances, both in simulations and experiments. It therefore opens a new path for quantum computers to solve useful--not merely difficult--problems in the near term.</description>
   </item>
 
   <item>
@@ -44,6 +20,30 @@
     <author>Jelena Mackeprang, Daniel Bhatti, Matty J. Hoban, Stefanie Barz</author>
     <pubDate>Mar 24 2022</pubDate>
     <description>Non-locality is not only one of the most prominent quantum features but can also serve as a resource for various information-theoretical tasks. Analysing it from an information-theoretical perspective has linked it to applications such as non-adaptive measurement-based quantum computing (NMQC). In this type of quantum computing the goal is to output a multivariate function. The success of such a computation can be related to the violation of a generalised Bell inequality. So far, the investigation of binary NMQC with qubits has shown that quantum correlations can compute all Boolean functions using at most $2^n-1$ qubits, whereas local hidden variables (LHVs) are restricted to linear functions. Here, we extend these results to NMQC with qutrits and prove that quantum correlations enable the computation of all ternary functions using the generalised qutrit Greenberger-Horne-Zeilinger (GHZ) state as a resource and at most $3^n-1$ qutrits. This yields a corresponding generalised GHZ type paradox for any ternary function that LHVs cannot compute. We give an example for an $n$-variate function that can be computed with only $n+1$ qutrits, which leads to convenient generalised qutrit Bell inequalities whose quantum bound is maximal. Finally, we prove that not all functions can be computed efficiently with qutrit NMQC by presenting a counterexample.</description>
+  </item>
+
+  <item>
+    <title>Finite-depth scaling of infinite quantum circuits for quantum critical points</title>
+    <link>http://arxiv.org/pdf/2203.11975</link>
+    <author>Bernhard Jobst, Adam Smith, Frank Pollmann</author>
+    <pubDate>Mar 24 2022</pubDate>
+    <description>The scaling of the entanglement entropy at a quantum critical point allows us to extract universal properties of the state, e.g., the central charge of a conformal field theory. With the rapid improvement of noisy intermediate-scale quantum (NISQ) devices, these quantum computers present themselves as a powerful new tool to study critical many-body systems. We use finite-depth quantum circuits suitable for NISQ devices as a variational ansatz to represent ground states of critical, infinite systems. We find universal finite-depth scaling relations for these circuits and verify them numerically at two different critical points, i.e., the critical Ising model with an additional symmetry-preserving term and the critical XXZ model.</description>
+  </item>
+
+  <item>
+    <title>Classifying phases protected by matrix product operator symmetries using matrix product states</title>
+    <link>http://arxiv.org/pdf/2203.12563</link>
+    <author>José Garre-Rubio, Laurens Lootens, András Molnár</author>
+    <pubDate>Mar 24 2022</pubDate>
+    <description>We classify the different ways in which matrix product states (MPS) can transform under the action of matrix product operator (MPO) symmetries. We give a local characterization of MPS tensors that generate ground spaces which remain invariant under a global MPO symmetry and generally correspond to symmetry breaking phases. This allows us to derive a set of quantities, satisfying the so-called coupled pentagon equations, invariant under continuous deformations of the MPS tensor, which provides the invariants to detect different gapped phases protected by MPO symmetries. The results obtained match with previous TQFT approaches classifying non-onsite symmetries, our techniques, however, extend the classification beyond renormalization fixed points and facilitates the numerical study of these systems. When the MPO symmetries form a global onsite representation of a group, we recover the symmetry protected topological order classification for unique and degenerate ground states. When the MPO symmetries form a representation of a group, but this representation is not onsite, we obtain restrictions on the possible ground state degeneracies depending both on the group and on the concrete form of the MPO representation. Moreover, we study the interplay between time reversal symmetry and an MPO symmetry and also provide examples of our classification together with explicit constructions of MPO and MPS. Finally, we elaborate on the connection between our setup and gapped boundaries of two-dimensional topological systems, where non-onsite symmetries also play a key role.</description>
+  </item>
+
+  <item>
+    <title>Maximum entropy quantum state distributions</title>
+    <link>http://arxiv.org/pdf/2203.12580</link>
+    <author>Alexander Altland, David A. Huse, Tobias Micklitz</author>
+    <pubDate>Mar 24 2022</pubDate>
+    <description>We propose an approach to the realization of many-body quantum state distributions inspired by combined principles of thermodynamics and mesoscopic physics. Its essence is a maximum entropy principle conditioned by conservation laws. We go beyond traditional thermodynamics and condition on the full distribution of the conserved quantities. The result are quantum state distributions whose deviations from `thermal states' get more pronounced in the limit of wide input distributions. We describe their properties in terms of entanglement measures and discuss strategies for state engineering by methods of current date experimentation.</description>
   </item>
 
 </channel>
