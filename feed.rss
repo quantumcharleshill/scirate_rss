@@ -47,27 +47,11 @@
   </item>
 
   <item>
-    <title>Benchmarking the Planar Honeycomb Code</title>
-    <link>http://arxiv.org/pdf/2202.11845</link>
-    <author>Craig Gidney, Michael Newman</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>We improve the planar honeycomb code by describing boundaries that need no additional physical connectivity, and by optimizing the shape of the qubit patch. We then benchmark the code using Monte Carlo sampling to estimate logical error rates and derive metrics including thresholds, lambdas, and teraquop qubit counts. We determine that the planar honeycomb code can create a logical qubit with one-in-a-trillion logical error rates using 7000 physical qubits at a 0.1% gate-level error rate (or 900 physical qubits given native two-qubit parity measurements). Our results cement the honeycomb code as a promising candidate for two-dimensional qubit architectures with sparse connectivity.</description>
-  </item>
-
-  <item>
     <title>All quantum measurements are asymptotically equivalent</title>
     <link>http://arxiv.org/pdf/2203.02593</link>
     <author>Noah Linden, Paul Skrzypczyk</author>
     <pubDate>Mar 08 2022</pubDate>
     <description>We consider the problem of reproducing one quantum measurement given the ability to perform another. In particular, given the availability of a -- possibly imperfect -- quantum measurement which can be performed multiple times, we study to what extent it can reproduce the measurement statistics and post-measurement state of a second target measurement, in the most general setting where both the available and target measurements are arbitrary generalised quantum measurements. We show that this general problem in fact reduces to the ability to reproduce the statistics of von Neumann measurements, and that in the asymptotic limit of infinitely many uses of the available measurement, a simple protocol based upon `classical cloning' is able to perfectly achieve this task. This shows that asymptotically all (non-trivial) quantum measurements are equivalent. We also study optimal protocols for a fixed number of uses of the available measurement, and show that better protocols than classical cloning can be found in general. Our protocols show that the average error in reproducing a target measurement drops off exponentially fast, and that one can, for example, rapidly improve imperfect measurements by performing them a small number of times. This includes, but is not limited to, improving both noisy and lossy quantum measurements. Finally, we show that in a setting where we perform multiple measurements in parallel, we can moreover achieve finite-rate measurement reproduction, by using block-coding techniques from classical information theory.</description>
-  </item>
-
-  <item>
-    <title>Classical Verification of Quantum Computations in Linear Time</title>
-    <link>http://arxiv.org/pdf/2202.13997</link>
-    <author>Jiayu Zhang</author>
-    <pubDate>Mar 01 2022</pubDate>
-    <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
   </item>
 
   <item>
@@ -87,19 +71,11 @@
   </item>
 
   <item>
-    <title>Quantum Parameterized Complexity</title>
-    <link>http://arxiv.org/pdf/2203.08002</link>
-    <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
-    <pubDate>Mar 16 2022</pubDate>
-    <description>Parameterized complexity theory was developed in the 1990s to enrich the complexity-theoretic analysis of problems that depend on a range of parameters. In this paper we establish a quantum equivalent of classical parameterized complexity theory, motivated by the need for new tools for the classifications of the complexity of real-world problems. We introduce the quantum analogues of a range of parameterized complexity classes and examine the relationship between these classes, their classical counterparts, and well-studied problems. This framework exposes a rich classification of the complexity of parameterized versions of QMA-hard problems, demonstrating, for example, a clear separation between the Quantum Circuit Satisfiability problem and the Local Hamiltonian problem.</description>
-  </item>
-
-  <item>
-    <title>Quantum Differential Privacy: An Information Theory Perspective</title>
-    <link>http://arxiv.org/pdf/2202.10717</link>
-    <author>Christoph Hirche, Cambyse Rouzé, Daniel Stilck França</author>
-    <pubDate>Feb 23 2022</pubDate>
-    <description>Differential privacy has been an exceptionally successful concept when it comes to providing provable security guarantees for classical computations. More recently, the concept was generalized to quantum computations. While classical computations are essentially noiseless and differential privacy is often achieved by artificially adding noise, near-term quantum computers are inherently noisy and it was observed that this leads to natural differential privacy as a feature. In this work we discuss quantum differential privacy in an information theoretic framework by casting it as a quantum divergence. A main advantage of this approach is that differential privacy becomes a property solely based on the output states of the computation, without the need to check it for every measurement. This leads to simpler proofs and generalized statements of its properties as well as several new bounds for both, general and specific, noise models. In particular, these include common representations of quantum circuits and quantum machine learning concepts. Here, we focus on the difference in the amount of noise required to achieve certain levels of differential privacy versus the amount that would make any computation useless. Finally, we also generalize the classical concepts of local differential privacy, Rényi differential privacy and the hypothesis testing interpretation to the quantum setting, providing several new properties and insights.</description>
+    <title>Classical Verification of Quantum Computations in Linear Time</title>
+    <link>http://arxiv.org/pdf/2202.13997</link>
+    <author>Jiayu Zhang</author>
+    <pubDate>Mar 01 2022</pubDate>
+    <description>In the quantum computation verification problem, a quantum server wants to convince a client that the output of evaluating a quantum circuit $C$ is some result that it claims. This problem is considered very important both theoretically and practically in quantum computation [arXiv:1709.06984], [arXiv:1704.04487], [arXiv:1209.0449]. The client is considered to be limited in computational power, and one desirable property is that the client can be completely classical, which leads to the classical verification of quantum computation (CVQC) problem. In terms of total time complexity of both the client and the server, the fastest single-server CVQC protocol so far has complexity $O(poly(\kappa)|C|^3)$ where $|C|$ is the size of the circuit to be verified, given by Mahadev [arXiv:1804.01082]. In this work, by developing new techniques, we give a new CVQC protocol with complexity $O(poly(\kappa)|C|)$, which is significantly faster than existing protocols. Our protocol is secure in the quantum random oracle model [arXiv:1008.0931] assuming the existence of noisy trapdoor claw-free functions [arXiv:1804.00640], which are both extensively used assumptions in quantum cryptography. Along the way, we also give a new classical channel remote state preparation protocol for states in $\{|+_\theta\rangle=\frac{1}{\sqrt{2}}(|0\rangle+e^{i\theta\pi/4}|1\rangle):\theta\in \{0,1\cdots 7\}\}$, another basic primitive in quantum cryptography. Our protocol allows for parallel verifiable preparation of $L$ independently random states in this form (up to a constant overall error and a possibly unbounded server-side isometry), and runs in only $O(poly(\kappa)L)$ time and constant rounds; for comparison, existing works (even for possibly simpler state families) all require very large or unestimated time and round complexities [arXiv:1904.06320][arXiv:1904.06303][arXiv:2201.13445][arXiv:2201.13430].</description>
   </item>
 
   <item>
@@ -111,27 +87,11 @@
   </item>
 
   <item>
-    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
-    <link>http://arxiv.org/pdf/2203.00212</link>
-    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
-    <pubDate>Mar 02 2022</pubDate>
-    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
-  </item>
-
-  <item>
-    <title>Performance of planar Floquet codes with Majorana-based qubits</title>
-    <link>http://arxiv.org/pdf/2202.11829</link>
-    <author>Adam Paetznick, Christina Knapp, Nicolas Delfosse, Bela Bauer, Jeongwan Haah, Matthew B. Hastings, Marcus P. da Silva</author>
-    <pubDate>Feb 25 2022</pubDate>
-    <description>Quantum error correction is crucial for any quantum computing platform to achieve truly scalable quantum computation. The surface code and its variants have been considered the most promising quantum error correction scheme due to their high threshold, low overhead, and relatively simple structure that can naturally be implemented in many existing qubit architectures, such as superconducting qubits. The recent development of Floquet codes offers another promising approach. By going beyond the usual paradigm of stabilizer codes, Floquet codes achieve similar performance while being constructed entirely from two-qubit measurements. This makes them particularly suitable for platforms where two-qubit measurements can be implemented directly, such as measurement-only topological qubits based on Majorana zero modes (MZMs). Here, we explain how two variants of Floquet codes can be implemented on MZM-based architectures without any auxiliary qubits for syndrome measurement and with shallow syndrome extraction sequences. We then numerically demonstrate their favorable performance. In particular, we show that they improve the threshold for scalable quantum computation in MZM-based systems by an order of magnitude, and significantly reduce space and time overheads below threshold.</description>
-  </item>
-
-  <item>
-    <title>Limitations of nearest-neighbour quantum networks</title>
-    <link>http://arxiv.org/pdf/2202.10886</link>
-    <author>Frederik Hahn, Axel Dahlberg, Jens Eisert, Anna Pappa</author>
-    <pubDate>Feb 23 2022</pubDate>
-    <description>Quantum communication research has in recent years shifted to include multi-partite networks for which questions of quantum network routing naturally emerge. To understand the potential for multi-partite routing, we focus on the most promising architectures for future quantum networks - those connecting nodes close to each other. Nearest-neighbour networks such as rings, lines, and grids, have been studied under different communication scenarios to facilitate the sharing of quantum resources, especially in the presence of bottlenecks. We here analyze the potential of nearest-neighbour quantum networks and identify some serious limitations, by demonstrating that rings and lines cannot overcome common bottleneck communication problems.</description>
+    <title>Quantum Parameterized Complexity</title>
+    <link>http://arxiv.org/pdf/2203.08002</link>
+    <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
+    <pubDate>Mar 16 2022</pubDate>
+    <description>Parameterized complexity theory was developed in the 1990s to enrich the complexity-theoretic analysis of problems that depend on a range of parameters. In this paper we establish a quantum equivalent of classical parameterized complexity theory, motivated by the need for new tools for the classifications of the complexity of real-world problems. We introduce the quantum analogues of a range of parameterized complexity classes and examine the relationship between these classes, their classical counterparts, and well-studied problems. This framework exposes a rich classification of the complexity of parameterized versions of QMA-hard problems, demonstrating, for example, a clear separation between the Quantum Circuit Satisfiability problem and the Local Hamiltonian problem.</description>
   </item>
 
   <item>
@@ -143,6 +103,14 @@
   </item>
 
   <item>
+    <title>Influence in Completely Bounded Block-multilinear Forms and Classical Simulation of Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2203.00212</link>
+    <author>Nikhil Bansal, Makrand Sinha, Ronald de Wolf</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>The Aaronson-Ambainis conjecture (Theory of Computing '14) says that every low-degree bounded polynomial on the Boolean hypercube has an influential variable. This conjecture, if true, would imply that the acceptance probability of every $d$-query quantum algorithm can be well-approximated almost everywhere (i.e., on almost all inputs) by a $\mathrm{poly}(d)$-query classical algorithm. We prove a special case of the conjecture: in every completely bounded degree-$d$ block-multilinear form with constant variance, there always exists a variable with influence at least $1/\mathrm{poly}(d)$. In a certain sense, such polynomials characterize the acceptance probability of quantum query algorithms, as shown by Arunachalam, Briët and Palazuelos (SICOMP '19). As a corollary we obtain efficient classical almost-everywhere simulation for a particular class of quantum algorithms that includes for instance $k$-fold Forrelation. Our main technical result relies on connections to free probability theory.</description>
+  </item>
+
+  <item>
     <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
     <link>http://arxiv.org/pdf/2203.03581</link>
     <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
@@ -151,11 +119,27 @@
   </item>
 
   <item>
+    <title>Quantum-enhanced Markov chain Monte Carlo</title>
+    <link>http://arxiv.org/pdf/2203.12497</link>
+    <author>David Layden, Guglielmo Mazzola, Ryan V. Mishmash, Mario Motta, Pawel Wocjan, Jin-Sung Kim, Sarah Sheldon</author>
+    <pubDate>Mar 24 2022</pubDate>
+    <description>Sampling from complicated probability distributions is a hard computational problem arising in many fields, including statistical physics, optimization, and machine learning. Quantum computers have recently been used to sample from complicated distributions that are hard to sample from classically, but which seldom arise in applications. Here we introduce a quantum algorithm to sample from distributions that pose a bottleneck in several applications, which we implement on a superconducting quantum processor. The algorithm performs Markov chain Monte Carlo (MCMC), a popular iterative sampling technique, to sample from the Boltzmann distribution of classical Ising models. In each step, the quantum processor explores the model in superposition to propose a random move, which is then accepted or rejected by a classical computer and returned to the quantum processor, ensuring convergence to the desired Boltzmann distribution. We find that this quantum algorithm converges in fewer iterations than common classical MCMC alternatives on relevant problem instances, both in simulations and experiments. It therefore opens a new path for quantum computers to solve useful--not merely difficult--problems in the near term.</description>
+  </item>
+
+  <item>
     <title>Quantum Algorithms for Testing Hamiltonian Symmetry</title>
     <link>http://arxiv.org/pdf/2203.10017</link>
     <author>Margarite L. LaBorde, Mark M. Wilde</author>
     <pubDate>Mar 21 2022</pubDate>
     <description>Symmetries in a Hamiltonian play an important role in quantum physics because they correspond directly with conserved quantities of the related system. In this paper, we propose quantum algorithms capable of testing whether a Hamiltonian exhibits symmetry with respect to a group. We demonstrate that familiar expressions of Hamiltonian symmetry in quantum mechanics correspond directly with the acceptance probabilities of our algorithms. We execute one of our symmetry-testing algorithms on existing quantum computers for simple examples of both symmetric and asymmetric cases.</description>
+  </item>
+
+  <item>
+    <title>Looped Pipelines Enabling Effective 3D Qubit Lattices in a Strictly 2D Device</title>
+    <link>http://arxiv.org/pdf/2203.13123</link>
+    <author>Zhenyu Cai, Adam Siegel, Simon Benjamin</author>
+    <pubDate>Mar 25 2022</pubDate>
+    <description>Many quantum computing platforms are based on a fundamentally two-dimensional physical layout. However, there are advantages (for example in fault-tolerant systems) to having a 3D architecture. Here we explore a concept called looped pipelines which permits one to obtain many of the advantages of a 3D lattice while operating a strictly 2D device. The concept leverages qubit shuttling, a well-established feature in platforms like semiconductor spin qubits and trapped-ion qubits. The looped pipeline architecture has similar hardware requirements to other shuttling approaches, but can process a stack of qubit arrays instead of just one. Simple patterns of intra- and inter-loop interactions allow one to embody diverse schemes from NISQ-era error mitigation through to fault-tolerant codes. For the former, protocols involving multiple states can be implemented with a similar space-time resource as preparing one noisy copy. For the latter, one can realise a far broader variety of code structures; in particular, we consider a stack of 2D codes within which transversal CNOTs are available. We find that this can achieve a cost saving of up to a factor of $\sim 80$ in the space-time overhead for magic state distillation (and a factor of $\sim 200$ with modest additional hardware). Using numerical modelling and experimentally-motivated noise models we verify that the looped pipeline approach provides these benefits without significant reduction in the code's threshold.</description>
   </item>
 
   <item>
@@ -175,19 +159,19 @@
   </item>
 
   <item>
-    <title>Quantifying the barren plateau phenomenon for a model of unstructured variational ansätze</title>
-    <link>http://arxiv.org/pdf/2203.06174</link>
-    <author>John Napp</author>
-    <pubDate>Mar 14 2022</pubDate>
-    <description>Quantifying the flatness of the objective-function landscape associated with unstructured parameterized quantum circuits is important for understanding the performance of variational algorithms utilizing a "hardware-efficient ansatz", particularly for ensuring that a prohibitively flat landscape -- a so-called "barren plateau" -- is avoided. For a model of such ansätze, we relate the typical landscape flatness to a certain family of random walks, enabling us to derive a Monte Carlo algorithm for efficiently, classically estimating the landscape flatness for any architecture. The statistical picture additionally allows us to prove new analytic bounds on the barren plateau phenomenon, and more generally provides novel insights into the phenomenon's dependence on the ansatz depth, architecture, qudit dimension, and Hamiltonian combinatorial and spatial locality. Our analysis utilizes techniques originally developed by Dalzell et al. to study anti-concentration in random circuits.</description>
-  </item>
-
-  <item>
     <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
     <link>http://arxiv.org/pdf/2203.07205</link>
     <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
+  </item>
+
+  <item>
+    <title>Quantifying the barren plateau phenomenon for a model of unstructured variational ansätze</title>
+    <link>http://arxiv.org/pdf/2203.06174</link>
+    <author>John Napp</author>
+    <pubDate>Mar 14 2022</pubDate>
+    <description>Quantifying the flatness of the objective-function landscape associated with unstructured parameterized quantum circuits is important for understanding the performance of variational algorithms utilizing a "hardware-efficient ansatz", particularly for ensuring that a prohibitively flat landscape -- a so-called "barren plateau" -- is avoided. For a model of such ansätze, we relate the typical landscape flatness to a certain family of random walks, enabling us to derive a Monte Carlo algorithm for efficiently, classically estimating the landscape flatness for any architecture. The statistical picture additionally allows us to prove new analytic bounds on the barren plateau phenomenon, and more generally provides novel insights into the phenomenon's dependence on the ansatz depth, architecture, qudit dimension, and Hamiltonian combinatorial and spatial locality. Our analysis utilizes techniques originally developed by Dalzell et al. to study anti-concentration in random circuits.</description>
   </item>
 
   <item>
@@ -199,14 +183,6 @@
   </item>
 
   <item>
-    <title>Quantum-enhanced Markov chain Monte Carlo</title>
-    <link>http://arxiv.org/pdf/2203.12497</link>
-    <author>David Layden, Guglielmo Mazzola, Ryan V. Mishmash, Mario Motta, Pawel Wocjan, Jin-Sung Kim, Sarah Sheldon</author>
-    <pubDate>Mar 24 2022</pubDate>
-    <description>Sampling from complicated probability distributions is a hard computational problem arising in many fields, including statistical physics, optimization, and machine learning. Quantum computers have recently been used to sample from complicated distributions that are hard to sample from classically, but which seldom arise in applications. Here we introduce a quantum algorithm to sample from distributions that pose a bottleneck in several applications, which we implement on a superconducting quantum processor. The algorithm performs Markov chain Monte Carlo (MCMC), a popular iterative sampling technique, to sample from the Boltzmann distribution of classical Ising models. In each step, the quantum processor explores the model in superposition to propose a random move, which is then accepted or rejected by a classical computer and returned to the quantum processor, ensuring convergence to the desired Boltzmann distribution. We find that this quantum algorithm converges in fewer iterations than common classical MCMC alternatives on relevant problem instances, both in simulations and experiments. It therefore opens a new path for quantum computers to solve useful--not merely difficult--problems in the near term.</description>
-  </item>
-
-  <item>
     <title>Shorter quantum circuits</title>
     <link>http://arxiv.org/pdf/2203.10064</link>
     <author>Vadym Kliuchnikov, Kristin Lauter, Romy Minko, Adam Paetznick, Christophe Petit</author>
@@ -215,19 +191,19 @@
   </item>
 
   <item>
-    <title>Opportunities and Limitations in Broadband Sensing</title>
-    <link>http://arxiv.org/pdf/2203.05520</link>
-    <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
-    <pubDate>Mar 11 2022</pubDate>
-    <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
-  </item>
-
-  <item>
     <title>Memory Compression with Quantum Random-Access Gates</title>
     <link>http://arxiv.org/pdf/2203.05599</link>
     <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
     <pubDate>Mar 14 2022</pubDate>
     <description>In the classical RAM, we have the following useful property. If we have an algorithm that uses $M$ memory cells throughout its execution, and in addition is sparse, in the sense that, at any point in time, only $m$ out of $M$ cells will be non-zero, then we may "compress" it into another algorithm which uses only $m \log M$ memory and runs in almost the same time. We may do so by simulating the memory using either a hash table, or a self-balancing tree. We show an analogous result for quantum algorithms equipped with quantum random-access gates. If we have a quantum algorithm that runs in time $T$ and uses $M$ qubits, such that the state of the memory, at any time step, is supported on computational-basis vectors of Hamming weight at most $m$, then it can be simulated by another algorithm which uses only $O(m \log M)$ memory, and runs in time $\tilde O(T)$. We show how this theorem can be used, in a black-box way, to simplify the presentation in several papers. Broadly speaking, when there exists a need for a space-efficient history-independent quantum data-structure, it is often possible to construct a space-inefficient, yet sparse, quantum data structure, and then appeal to our main theorem. This results in simpler and shorter arguments.</description>
+  </item>
+
+  <item>
+    <title>Opportunities and Limitations in Broadband Sensing</title>
+    <link>http://arxiv.org/pdf/2203.05520</link>
+    <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
+    <pubDate>Mar 11 2022</pubDate>
+    <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
   </item>
 
   <item>
@@ -244,6 +220,30 @@
     <author>F.C.R. Peres, Ernesto F. Galvão</author>
     <pubDate>Mar 04 2022</pubDate>
     <description>Pauli-based computation (PBC) is driven by a sequence of adaptively chosen, non-destructive measurements of Pauli observables. Any quantum circuit written in terms of the Clifford+$T$ gate set and having $t$ $T$ gates can be compiled into a PBC on $t$ qubits. Here we propose practical ways of implementing PBC as adaptive quantum circuits, and provide code to do the required classical side-processing. Our first scheme reduces the number of quantum gates to $O(t^2)$ (from a previous $O(t^3 / \log t)$ scaling) at the cost of one extra auxiliary qubit, with a possible reduction of the depth to $O(t \log t$), at the cost of $t$ additional auxiliary qubits (second scheme). We compile examples of random and hidden-shift quantum circuits into adaptive PBC circuits. We also simulate hybrid quantum computation, where a classical computer effectively extends the working memory of a small quantum computer by $k$ virtual qubits, at a cost exponential in $k$. Our results demonstrate the practical advantage of PBC techniques for circuit compilation and hybrid computation.</description>
+  </item>
+
+  <item>
+    <title>Detecting entanglement in quantum many-body systems via permutation moments</title>
+    <link>http://arxiv.org/pdf/2203.08391</link>
+    <author>Zhenhuan Liu, Yifan Tang, Hao Dai, Pengyu Liu, Shu Chen, Xiongfeng Ma</author>
+    <pubDate>Mar 17 2022</pubDate>
+    <description>Multipartite entanglement plays an essential role in both quantum information science and many-body physics. Due to the exponentially large dimension and complex geometric structure of the state space, the detection of entanglement in many-body systems is extremely challenging in reality. Conventional means, like entanglement witness and entropy criterion, either highly depend on the prior knowledge of the studied systems or the detection capability is relatively weak. In this work, we propose a framework for designing multipartite entanglement criteria based on permutation moments, which have an effective implementation with either the generalized control-SWAP quantum circuits or the random unitary techniques. These criteria show strong detection capability in the multi-qubit Ising model with a long-range $XY$ Hamiltonian. The quantities associated with these criteria have clear physical meaning and can be used as entanglement quantifiers, with which we show the entanglement scaling transition in a quantum dynamical phase transition. Furthermore, our framework can also be generalized to detect the much more complicated entanglement structure in quantum many-body systems.</description>
+  </item>
+
+  <item>
+    <title>Improved Quantum Query Upper Bounds Based on Classical Decision Trees</title>
+    <link>http://arxiv.org/pdf/2203.02968</link>
+    <author>Arjan Cornelissen, Nikhil S. Mande, Subhasree Patro</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Given a classical query algorithm as a decision tree, when does there exist a quantum query algorithm with a speed-up over the classical one? We provide a general construction based on the structure of the underlying decision tree, and prove that this can give us an up-to-quadratic quantum speed-up. In particular, we obtain a bounded-error quantum query algorithm of cost $O(\sqrt{s})$ to compute a Boolean function (more generally, a relation) that can be computed by a classical (even randomized) decision tree of size $s$. Lin and Lin [ToC'16] and Beigi and Taghavi [Quantum'20] showed results of a similar flavor, and gave upper bounds in terms of a quantity which we call the "guessing complexity" of a decision tree. We identify that the guessing complexity of a decision tree equals its rank, a notion introduced by Ehrenfeucht and Haussler [Inf. Comp.'89] in the context of learning theory. This answers a question posed by Lin and Lin, who asked whether the guessing complexity of a decision tree is related to any complexity-theoretic measure. We also show a polynomial separation between rank and randomized rank for the complete binary AND-OR tree. Beigi and Taghavi constructed span programs and dual adversary solutions for Boolean functions given classical decision trees computing them and an assignment of non-negative weights to its edges. We explore the effect of changing these weights on the resulting span program complexity and objective value of the dual adversary bound, and capture the best possible weighting scheme by an optimization program. We exhibit a solution to this program and argue its optimality from first principles. We also exhibit decision trees for which our bounds are asymptotically stronger than those of Lin and Lin, and Beigi and Taghavi. This answers a question of Beigi and Taghavi, who asked whether different weighting schemes could yield better upper bounds.</description>
+  </item>
+
+  <item>
+    <title>Information recoverability of noisy quantum states</title>
+    <link>http://arxiv.org/pdf/2203.04862</link>
+    <author>Xuanqiang Zhao, Benchi Zhao, Zihan Xia, Xin Wang</author>
+    <pubDate>Mar 10 2022</pubDate>
+    <description>Classical information, also known as shadow information, carried by quantum states could be corrupted as they undergo undesirable noises modelled by quantum channels. Due to quantum channels' destructive nature, a fundamental problem in quantum information theory is how well we can retrieve information from noisy quantum states. In this work, we introduce a systematic framework to quantitatively study this problem. First, we prove that classical information can be retrieved if and only if the querying observable is in the image of the whole observable space under the channel's adjoint. Second, we further define the dimension of the evolved observable space as the quantum channel's effective shadow dimension that quantifies the information recoverability of the channel. This quantity can be computed as the rank of a matrix derived from the channel's Kraus operators, and it induces the shadow destructivity as a measure with meaningful properties. Third, we resolve the minimum cost of retrieving a piece of shadow information from the required number of copies of a noisy state. We in particular show that the optimal cost and the corresponding protocol are efficiently computable by semidefinite programming. As applications, we derive the ultimate limits on shadow retrieving costs for generalized amplitude damping channels and mixed Pauli channels and employ the corresponding protocol to mitigate errors in tasks of ground state energy estimation.</description>
   </item>
 
 </channel>

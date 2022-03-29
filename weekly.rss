@@ -15,30 +15,6 @@
   </item>
 
   <item>
-    <title>Hierarchies of resources for measurement-based quantum computation</title>
-    <link>http://arxiv.org/pdf/2203.09965</link>
-    <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>For certain restricted computational tasks, quantum mechanics provides a provable advantage over any possible classical implementation. Several of these results have been proven using the framework of measurement-based quantum computation (MBQC), where non-locality and more generally contextuality have been identified as necessary resources for certain quantum computations. Here, we consider the computational power of MBQC in more detail by refining its resource requirements, both on the allowed operations and the number of accessible qubits. More precisely, we identify which Boolean functions can be computed in non-adaptive MBQC, with local operations contained within a finite level in the Clifford hierarchy. Moreover, for non-adaptive MBQC restricted to certain subtheories such as stabiliser MBQC, we compute the minimal number of qubits required to compute a given Boolean function. Our results point towards hierarchies of resources that more sharply characterise the power of MBQC beyond the binary of contextuality vs non-contextuality.</description>
-  </item>
-
-  <item>
-    <title>Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes</title>
-    <link>http://arxiv.org/pdf/2203.11137</link>
-    <author>David Aasen, Zhenghan Wang, Matthew B. Hastings</author>
-    <pubDate>Mar 22 2022</pubDate>
-    <description>The recent "honeycomb code" is a fault-tolerant quantum memory defined by a sequence of checks which implements a nontrivial automorphism of the toric code. We argue that a general framework to understand this code is to consider continuous adiabatic paths of gapped Hamiltonians and we give a conjectured description of the fundamental group and second and third homotopy groups of this space in two spatial dimensions. A single cycle of such a path can implement some automorphism of the topological order of that Hamiltonian. We construct such paths for arbitrary automorphisms of two-dimensional doubled topological order. Then, realizing this in the case of the toric code, we turn this path back into a sequence of checks, constructing an automorphism code closely related to the honeycomb code.</description>
-  </item>
-
-  <item>
-    <title>Quantum Algorithms for Testing Hamiltonian Symmetry</title>
-    <link>http://arxiv.org/pdf/2203.10017</link>
-    <author>Margarite L. LaBorde, Mark M. Wilde</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>Symmetries in a Hamiltonian play an important role in quantum physics because they correspond directly with conserved quantities of the related system. In this paper, we propose quantum algorithms capable of testing whether a Hamiltonian exhibits symmetry with respect to a group. We demonstrate that familiar expressions of Hamiltonian symmetry in quantum mechanics correspond directly with the acceptance probabilities of our algorithms. We execute one of our symmetry-testing algorithms on existing quantum computers for simple examples of both symmetric and asymmetric cases.</description>
-  </item>
-
-  <item>
     <title>Quantum-enhanced Markov chain Monte Carlo</title>
     <link>http://arxiv.org/pdf/2203.12497</link>
     <author>David Layden, Guglielmo Mazzola, Ryan V. Mishmash, Mario Motta, Pawel Wocjan, Jin-Sung Kim, Sarah Sheldon</author>
@@ -47,35 +23,35 @@
   </item>
 
   <item>
-    <title>Shorter quantum circuits</title>
-    <link>http://arxiv.org/pdf/2203.10064</link>
-    <author>Vadym Kliuchnikov, Kristin Lauter, Romy Minko, Adam Paetznick, Christophe Petit</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>We give a novel procedure for approximating general single-qubit unitaries from a finite universal gate set by reducing the problem to a novel magnitude approximation problem, achieving an immediate improvement in sequence length by a factor of 7/9. Extending the works arXiv:1612.01011 and arXiv:1612.02689, we show that taking probabilistic mixtures of channels to solve fallback (arXiv:1409.3552) and magnitude approximation problems saves factor of two in approximation costs. In particular, over the Clifford+$\sqrt{\mathrm{T}}$ gate set we achieve an average non-Clifford gate count of $0.23\log_2(1/\varepsilon)+2.13$ and T-count $0.56\log_2(1/\varepsilon)+5.3$ with mixed fallback approximations for diamond norm accuracy $\varepsilon$. This paper provides a holistic overview of gate approximation, in addition to these new insights. We give an end-to-end procedure for gate approximation for general gate sets related to some quaternion algebras, providing pedagogical examples using common fault-tolerant gate sets (V, Clifford+T and Clifford+$\sqrt{\mathrm{T}}$). We also provide detailed numerical results for Clifford+T and Clifford+$\sqrt{\mathrm{T}}$ gate sets. In an effort to keep the paper self-contained, we include an overview of the relevant algorithms for integer point enumeration and relative norm equation solving. We provide a number of further applications of the magnitude approximation problems, as well as improved algorithms for exact synthesis, in the Appendices.</description>
+    <title>Looped Pipelines Enabling Effective 3D Qubit Lattices in a Strictly 2D Device</title>
+    <link>http://arxiv.org/pdf/2203.13123</link>
+    <author>Zhenyu Cai, Adam Siegel, Simon Benjamin</author>
+    <pubDate>Mar 25 2022</pubDate>
+    <description>Many quantum computing platforms are based on a fundamentally two-dimensional physical layout. However, there are advantages (for example in fault-tolerant systems) to having a 3D architecture. Here we explore a concept called looped pipelines which permits one to obtain many of the advantages of a 3D lattice while operating a strictly 2D device. The concept leverages qubit shuttling, a well-established feature in platforms like semiconductor spin qubits and trapped-ion qubits. The looped pipeline architecture has similar hardware requirements to other shuttling approaches, but can process a stack of qubit arrays instead of just one. Simple patterns of intra- and inter-loop interactions allow one to embody diverse schemes from NISQ-era error mitigation through to fault-tolerant codes. For the former, protocols involving multiple states can be implemented with a similar space-time resource as preparing one noisy copy. For the latter, one can realise a far broader variety of code structures; in particular, we consider a stack of 2D codes within which transversal CNOTs are available. We find that this can achieve a cost saving of up to a factor of $\sim 80$ in the space-time overhead for magic state distillation (and a factor of $\sim 200$ with modest additional hardware). Using numerical modelling and experimentally-motivated noise models we verify that the looped pipeline approach provides these benefits without significant reduction in the code's threshold.</description>
   </item>
 
   <item>
-    <title>Scalable fast benchmarking for individual quantum gates with local twirling</title>
-    <link>http://arxiv.org/pdf/2203.10320</link>
-    <author>Yihong Zhang, Wenjun Yu, Pei Zeng, Guoding Liu, Xiongfeng Ma</author>
-    <pubDate>Mar 22 2022</pubDate>
-    <description>With the development of controllable quantum systems, fast and practical characterization for multi-qubit gates is essential for building high-fidelity quantum computing devices. The usual way to fulfill this requirement via randomized benchmarking asks for complicated implementation of numerous multi-qubit twirling gates. How to efficiently and reliably estimate the fidelity of a quantum process remains an open problem. In this work, we propose a character-cycle benchmarking protocol and a fast benchmarking protocol only using local twirling gates to estimate the process fidelity of an individual multi-qubit operation. Our protocols are able to characterize a large class of quantum gates including and beyond the Clifford group via the local gauge transformation, which forms a universal gate set for quantum computing. We numerically demonstrate our protocols for a non-Clifford gate -- controlled-$(TX)$ and a Clifford gate -- five-qubit quantum error-correcting encoding circuit. The numerical results show that our protocols can efficiently and reliably characterize the gate process fidelities. Compared with the cross-entropy benchmarking, the simulation results show that the fast benchmarking achieves three orders of magnitude improvements in terms of sampling complexity.</description>
+    <title>Fractionalization of subsystem symmetries in two dimensions</title>
+    <link>http://arxiv.org/pdf/2203.13244</link>
+    <author>David T. Stephen, Arpit Dua, José Garre-Rubio, Dominic J. Williamson, Michael Hermele</author>
+    <pubDate>Mar 25 2022</pubDate>
+    <description>The fractionalization of global symmetry charges is a striking hallmark of topological quantum order. Here, we discuss the fractionalization of subsystem symmetries in two-dimensional topological phases. In line with previous no-go arguments, we show that subsystem symmetry fractionalization is not possible in many cases due to the additional rigid geometric structure of the symmetries. However, we identify a new mechanism that allows fractionalization, involving global relations between macroscopically many symmetry generators. We find that anyons can fractionalize such relations, meaning that the total charge carried under all generators involved in the global relation is non-trivial, despite the fact that these generators multiply to the identity. We first discuss the general algebraic framework needed to characterize this new type of fractionalization, and then explore this framework using a number of exactly solvable models with $\mathbb{Z}_2$ topological order, including models having line and fractal symmetries. These models all showcase another necessary property of subsystem symmetry fractionalization: fractionalized anyons must have restricted mobility when the symmetry is enforced, such that they are confined to a single line or point in the case of line and fractal symmetries, respectively. Looking forward, we expect that our identification of the importance of global relations in fractionalization will hold significance for the classification of phases with subsystem symmetries in all dimensions.</description>
   </item>
 
   <item>
-    <title>Efficient simulation of Gottesman-Kitaev-Preskill states with Gaussian circuits</title>
-    <link>http://arxiv.org/pdf/2203.11182</link>
-    <author>Cameron Calcluth, Alessandro Ferraro, Giulia Ferrini</author>
-    <pubDate>Mar 22 2022</pubDate>
-    <description>We study the classical simulatability of Gottesman-Kitaev-Preskill (GKP) states in combination with arbitrary displacements, a large set of symplectic operations and homodyne measurements. For these types of circuits, neither continuous-variable theorems based on the non-negativity of quasi-probability distributions nor discrete-variable theorems such as the Gottesman-Knill theorem can be employed to assess the simulatability. We first develop a method to evaluate the probability density function corresponding to measuring a single GKP state in the position basis following arbitrary squeezing and a large set of rotations. This method involves evaluating a transformed Jacobi theta function using techniques from analytic number theory. We then use this result to identify two large classes of multimode circuits which are classically efficiently simulatable and are not contained by the GKP encoded Clifford group. Our results extend the set of circuits previously known to be classically efficiently simulatable.</description>
+    <title>Randomized Benchmarking Beyond Groups</title>
+    <link>http://arxiv.org/pdf/2203.12703</link>
+    <author>Jianxin Chen, Dawei Ding, Cupjin Huang</author>
+    <pubDate>Mar 25 2022</pubDate>
+    <description>Randomized benchmarking (RB) is the gold standard for experimentally evaluating the quality of quantum operations. The current framework for RB is centered on groups and their representations, but this can be problematic. For example, Clifford circuits need up to $O(n^2)$ gates, and thus Clifford RB cannot scale to larger devices. Attempts to remedy this include new schemes such as linear cross-entropy benchmarking (XEB), cycle benchmarking, and non-uniform RB, but they do not fall within the group-based RB framework. In this work, we formulate the universal randomized benchmarking (URB) framework which does away with the group structure and also replaces the recovery gate plus measurement component with a general "post-processing" POVM. Not only does this framework cover most of the existing benchmarking schemes, but it also gives the language for and helps inspire the formulation of new schemes. We specifically consider a class of URB schemes called twirling schemes. For twirling schemes, the post-processing POVM approximately factorizes into an intermediate channel, inverting maps, and a final measurement. This leads us to study the twirling map corresponding to the gate ensemble specified by the scheme. We prove that if this twirling map is strictly within unit distance of the Haar twirling map in induced diamond norm, the probability of measurement as a function of gate length is a single exponential decay up to small error terms. The core technical tool we use is the matrix perturbation theory of linear operators on quantum channels.</description>
   </item>
 
   <item>
-    <title>Non-local computation of quantum circuits with small light cones</title>
-    <link>http://arxiv.org/pdf/2203.10106</link>
-    <author>Kfir Dolev, Sam Cree</author>
-    <pubDate>Mar 22 2022</pubDate>
-    <description>The task of non-local quantum computation requires implementation of a unitary on $n$ qubits between two parties with only one round of communication, ideally with minimal pre-shared entanglement. We introduce a new protocol that makes use of the fact that port-based teleportation costs much less entanglement when done only on a small number of qubits at a time. Whereas previous protocols have entanglement cost independent of the unitary or scaling with its complexity, the cost of the new protocol scales with the \emphnon-locality of the unitary. Specifically, it takes the form $\sim n^{4V}$ with $V$ the maximum volume of a past light cone in a circuit implementing the unitary. Thus we can implement unitary circuits with $V\sim O(1)$ using polynomial entanglement, and those with $V\sim \mathrm{polylog}(n)$ using quasi-polynomial entanglement. For a general unitary circuit with $d$ layers of $k$-qubit gates $V$ is at most $k^d$, but if geometric locality is imposed it is at most polynomial in $d$. We give an explicit class of unitaries for which our protocol's entanglement cost scales better than any known protocol. We also show that several extensions can be made without significantly affecting the entanglement cost - arbitrary local pre- and post-processing; global Clifford pre- and post-processing; and the addition of a polynomial number of auxiliary systems.</description>
+    <title>High Dimensional Quantum Learning With Small Quantum Computers</title>
+    <link>http://arxiv.org/pdf/2203.13739</link>
+    <author>Simon C. Marshall, Casper Gyurik, Vedran Dunjko</author>
+    <pubDate>Mar 28 2022</pubDate>
+    <description>Quantum computers hold great promise to enhance machine learning, but their current qubit counts restrict the realisation of this promise. In an attempt to placate this limitation techniques can be applied for evaluating a quantum circuit using a machine with fewer qubits than the circuit naively requires. These techniques work by evaluating many smaller circuits on the smaller machine, that are then combined in a polynomial to replicate the output of the larger machine. This scheme requires more circuit evaluations than are practical for general circuits. However, we investigate the possibility that for certain applications many of these subcircuits are superfluous, and that a much smaller sum is sufficient to estimate the full circuit. We construct a machine learning model that may be capable of approximating the outputs of the larger circuit with much fewer circuit evaluations. We successfully apply our model to the task of digit recognition, using simulated quantum computers much smaller than the data dimension. The model is also applied to the task of approximating a random 10 qubit PQC with simulated access to a 5 qubit computer, even with only relatively modest number of circuits our model provides an accurate approximation of the 10 qubit PQCs output, superior to a neural network attempt. The developed method might be useful for implementing quantum models on larger data throughout the NISQ era.</description>
   </item>
 
   <item>
@@ -84,6 +60,30 @@
     <author>Jelena Mackeprang, Daniel Bhatti, Matty J. Hoban, Stefanie Barz</author>
     <pubDate>Mar 24 2022</pubDate>
     <description>Non-locality is not only one of the most prominent quantum features but can also serve as a resource for various information-theoretical tasks. Analysing it from an information-theoretical perspective has linked it to applications such as non-adaptive measurement-based quantum computing (NMQC). In this type of quantum computing the goal is to output a multivariate function. The success of such a computation can be related to the violation of a generalised Bell inequality. So far, the investigation of binary NMQC with qubits has shown that quantum correlations can compute all Boolean functions using at most $2^n-1$ qubits, whereas local hidden variables (LHVs) are restricted to linear functions. Here, we extend these results to NMQC with qutrits and prove that quantum correlations enable the computation of all ternary functions using the generalised qutrit Greenberger-Horne-Zeilinger (GHZ) state as a resource and at most $3^n-1$ qutrits. This yields a corresponding generalised GHZ type paradox for any ternary function that LHVs cannot compute. We give an example for an $n$-variate function that can be computed with only $n+1$ qutrits, which leads to convenient generalised qutrit Bell inequalities whose quantum bound is maximal. Finally, we prove that not all functions can be computed efficiently with qutrit NMQC by presenting a counterexample.</description>
+  </item>
+
+  <item>
+    <title>New Quantum Algorithms for Computing Quantum Entropies and Distances</title>
+    <link>http://arxiv.org/pdf/2203.13522</link>
+    <author>Qisheng Wang, Ji Guan, Junyi Liu, Zhicheng Zhang, Mingsheng Ying</author>
+    <pubDate>Mar 28 2022</pubDate>
+    <description>We propose a series of quantum algorithms for computing a wide range of quantum entropies and distances, including the von Neumann entropy, quantum Rényi entropy, trace distance, and fidelity. The proposed algorithms significantly outperform the best known (and even quantum) ones in the low-rank case, some of which achieve exponential speedups. In particular, for $N$-dimensional quantum states of rank $r$, our proposed quantum algorithms for computing the von Neumann entropy, trace distance and fidelity within additive error $\varepsilon$ have time complexity of $\tilde O(r^2/\varepsilon^2)$, $\tilde O(r^5/\varepsilon^6)$ and $\tilde O(r^{6.5}/\varepsilon^{7.5})$, respectively. In contrast, the known algorithms for the von Neumann entropy and trace distance require quantum time complexity of $\Omega(N)$ [AISW19,GL20,GHS21], and the best known one for fidelity requires $\tilde O(r^{21.5}/\varepsilon^{23.5})$ [WZC+21]. The key idea of our quantum algorithms is to extend block-encoding from unitary operators in previous work to quantum states (i.e., density operators). It is realized by developing several convenient techniques to manipulate quantum states and extract information from them. In particular, we introduce a novel technique for eigenvalue transformation of density operators and their (non-integer) positive powers, based on the powerful quantum singular value transformation (QSVT) [GSLW19]. The advantage of our techniques over the existing methods is that no restrictions on density operators are required; in sharp contrast, the previous methods usually require a lower bound of the minimal non-zero eigenvalue of density operators. In addition, we provide some techniques of independent interest for trace estimation, linear combinations, and eigenvalue threshold projectors of (subnormalized) density operators, which will be, we believe, useful in other quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Adaptive variational algorithms for quantum Gibbs state preparation</title>
+    <link>http://arxiv.org/pdf/2203.12757</link>
+    <author>Ada Warren, Linghua Zhu, Nicholas J. Mayhall, Edwin Barnes, Sophia E. Economou</author>
+    <pubDate>Mar 25 2022</pubDate>
+    <description>The preparation of Gibbs thermal states is an important task in quantum computation with applications in quantum simulation, quantum optimization, and quantum machine learning. However, many algorithms for preparing Gibbs states rely on quantum subroutines which are difficult to implement on near-term hardware. Here, we address this by (i) introducing an objective function that, unlike the free energy, is easily measured, and (ii) using dynamically generated, problem-tailored ansätze. This allows for arbitrarily accurate Gibbs state preparation using low-depth circuits. To verify the effectiveness of our approach, we numerically demonstrate that our algorithm can prepare high-fidelity Gibbs states across a broad range of temperatures and for a variety of Hamiltonians.</description>
+  </item>
+
+  <item>
+    <title>Quantum dynamics is not strictly bidivisible</title>
+    <link>http://arxiv.org/pdf/2203.13451</link>
+    <author>David Davalos, Mario Ziman</author>
+    <pubDate>Mar 28 2022</pubDate>
+    <description>We address the question of the existence of quantum channels that are divisible in two quantum channels but not in three, or more generally channels divisible in $n$ but not in $n+1$ parts. We show that for the qubit, those channels \textitdo not exist, whereas for general finite-dimensional quantum channels the same holds at least for full Kraus rank channels. To prove these results we introduce a novel decomposition of quantum channels which separates them in a boundary and Markovian part, and it holds for any finite dimension. Additionally, the introduced decomposition amounts to the well known connection between divisibility classes and implementation types of quantum dynamical maps.</description>
   </item>
 
 </channel>
