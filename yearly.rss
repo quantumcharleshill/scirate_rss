@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Quantum advantage in learning from experiments</title>
-    <link>http://arxiv.org/pdf/2112.00778</link>
-    <author>Hsin-Yuan Huang, Michael Broughton, Jordan Cotler, Sitan Chen, Jerry Li, Masoud Mohseni, Hartmut Neven, Ryan Babbush, Richard Kueng, John Preskill, Jarrod R. McClean</author>
-    <pubDate>Dec 03 2021</pubDate>
-    <description>Quantum technology has the potential to revolutionize how we acquire and process experimental data to learn about the physical world. An experimental setup that transduces data from a physical system to a stable quantum memory, and processes that data using a quantum computer, could have significant advantages over conventional experiments in which the physical system is measured and the outcomes are processed using a classical computer. We prove that, in various tasks, quantum machines can learn from exponentially fewer experiments than those required in conventional experiments. The exponential advantage holds in predicting properties of physical systems, performing quantum principal component analysis on noisy states, and learning approximate models of physical dynamics. In some tasks, the quantum processing needed to achieve the exponential advantage can be modest; for example, one can simultaneously learn about many noncommuting observables by processing only two copies of the system. Conducting experiments with up to 40 superconducting qubits and 1300 quantum gates, we demonstrate that a substantial quantum advantage can be realized using today's relatively noisy quantum processors. Our results highlight how quantum technology can enable powerful new strategies to learn about nature.</description>
-  </item>
-
-  <item>
     <title>The randomized measurement toolbox</title>
     <link>http://arxiv.org/pdf/2203.11374</link>
     <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
     <pubDate>Mar 23 2022</pubDate>
     <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
+  </item>
+
+  <item>
+    <title>Quantum advantage in learning from experiments</title>
+    <link>http://arxiv.org/pdf/2112.00778</link>
+    <author>Hsin-Yuan Huang, Michael Broughton, Jordan Cotler, Sitan Chen, Jerry Li, Masoud Mohseni, Hartmut Neven, Ryan Babbush, Richard Kueng, John Preskill, Jarrod R. McClean</author>
+    <pubDate>Dec 03 2021</pubDate>
+    <description>Quantum technology has the potential to revolutionize how we acquire and process experimental data to learn about the physical world. An experimental setup that transduces data from a physical system to a stable quantum memory, and processes that data using a quantum computer, could have significant advantages over conventional experiments in which the physical system is measured and the outcomes are processed using a classical computer. We prove that, in various tasks, quantum machines can learn from exponentially fewer experiments than those required in conventional experiments. The exponential advantage holds in predicting properties of physical systems, performing quantum principal component analysis on noisy states, and learning approximate models of physical dynamics. In some tasks, the quantum processing needed to achieve the exponential advantage can be modest; for example, one can simultaneously learn about many noncommuting observables by processing only two copies of the system. Conducting experiments with up to 40 superconducting qubits and 1300 quantum gates, we demonstrate that a substantial quantum advantage can be realized using today's relatively noisy quantum processors. Our results highlight how quantum technology can enable powerful new strategies to learn about nature.</description>
   </item>
 
   <item>
@@ -239,14 +239,6 @@
   </item>
 
   <item>
-    <title>A genuinely natural information measure</title>
-    <link>http://arxiv.org/pdf/2103.16662</link>
-    <author>Andreas Winter</author>
-    <pubDate>Apr 01 2021</pubDate>
-    <description>The theoretical measuring of information was famously initiated by Shannon in his mathematical theory of communication, in which he proposed a now widely used quantity, the entropy, measured in bits. Yet, in the same paper, Shannon also chose to measure the information in continuous systems in nats, which differ from bits by the use of the natural rather than the binary logarithm. We point out that there is nothing natural about the choice of logarithm basis, rather it is arbitrary. We remedy this problematic state of affairs by proposing a genuinely natural measure of information, which we dub gnats. We show that gnats have many advantages in information theory, and propose to adopt the underlying methodology throughout science, arts and everyday life.</description>
-  </item>
-
-  <item>
     <title>Lifting decoders for classical codes to decoders for quantum codes</title>
     <link>http://arxiv.org/pdf/2105.02370</link>
     <author>Armanda O. Quintavalle, Earl T. Campbell</author>
@@ -348,6 +340,14 @@
     <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
     <pubDate>Jun 04 2021</pubDate>
     <description>Many computational problems are subject to a quantum speed-up: one might find that a problem having an O(n^3)-time or O(n^2)-time classic algorithm can be solved by a known O(n^1.5)-time or O(n)-time quantum algorithm. The question naturally arises: how much quantum speed-up is possible? The area of fine-grained complexity allows us to prove optimal lower-bounds on the complexity of various computational problems, based on the conjectured hardness of certain natural, well-studied problems. This theory has recently been extended to the quantum setting, in two independent papers by Buhrman, Patro, and Speelman (arXiv:1911.05686), and by Aaronson, Chia, Lin, Wang, and Zhang (arXiv:1911.01973). In this paper, we further extend the theory of fine-grained complexity to the quantum setting. A fundamental conjecture in the classical setting states that the 3SUM problem cannot be solved by (classical) algorithms in time O(n^2-a), for any a>0. We formulate an analogous conjecture, the Quantum-3SUM-Conjecture, which states that there exist no sublinear O(n^1-b)-time quantum algorithms for the 3SUM problem. Based on the Quantum-3SUM-Conjecture, we show new lower-bounds on the time complexity of quantum algorithms for several computational problems. Most of our lower-bounds are optimal, in that they match known upper-bounds, and hence they imply tight limits on the quantum speedup that is possible for these problems.</description>
+  </item>
+
+  <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
   </item>
 
   <item>
