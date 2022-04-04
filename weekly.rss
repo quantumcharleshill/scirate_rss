@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Tailored XZZX codes for biased noise</title>
-    <link>http://arxiv.org/pdf/2203.16486</link>
-    <author>Qian Xu, Nam Mannucci, Alireza Seif, Aleksander Kubica, Steven T. Flammia, Liang Jiang</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Quantum error correction (QEC) for generic errors is challenging due to the demanding threshold and resource requirements. Interestingly, when physical noise is biased, we can tailor our QEC schemes to the noise to improve performance. Here we study a family of codes having XZZX-type stabilizer generators, including a set of cyclic codes generalized from the five-qubit code and a set of topological codes that we call generalized toric codes (GTCs). We show that these XZZX codes are highly qubit efficient if tailored to biased noise. To characterize the code performance, we use the notion of effective distance, which generalizes code distance to the case of biased noise and constitutes a proxy for the logical failure rate. We find that the XZZX codes can achieve a favorable resource scaling by this metric under biased noise. We also show that the XZZX codes have remarkably high thresholds that reach what is achievable by random codes, and furthermore they can be efficiently decoded using matching decoders. Finally, by adding only one flag qubit, the XZZX codes can realize fault-tolerant QEC while preserving their large effective distance. In combination, our results show that tailored XZZX codes give a resource-efficient scheme for fault-tolerant QEC against biased noise.</description>
+    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
+    <link>http://arxiv.org/pdf/2203.16571</link>
+    <author>Jonas Haferkamp</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
   </item>
 
   <item>
@@ -20,6 +20,22 @@
     <author>András Gilyén, Alexander Poremba</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>Fidelity is a fundamental measure for the closeness of two quantum states, which is important both from a theoretical and a practical point of view. Yet, in general, it is difficult to give good estimates of fidelity, especially when one works with mixed states over Hilbert spaces of very high dimension. Although, there has been some progress on fidelity estimation, all prior work either requires a large number of identical copies of the relevant states, or relies on unproven heuristics. In this work, we improve on both of these aspects by developing new and efficient quantum algorithms for fidelity estimation with provable performance guarantees in case at least one of the states is approximately low-rank. Our algorithms use advanced quantum linear algebra techniques, such as the quantum singular value transformation, as well as density matrix exponentiation and quantum spectral sampling. As a complementary result, we prove that fidelity estimation to any non-trivial constant additive accuracy is hard in general, by giving a sample complexity lower bound that depends polynomially on the dimension. Moreover, if circuit descriptions for the relevant states are provided, we show that the task is hard for the complexity class called (honest verifier) quantum statistical zero knowledge via a reduction to a closely related result by Watrous.</description>
+  </item>
+
+  <item>
+    <title>Tailored XZZX codes for biased noise</title>
+    <link>http://arxiv.org/pdf/2203.16486</link>
+    <author>Qian Xu, Nam Mannucci, Alireza Seif, Aleksander Kubica, Steven T. Flammia, Liang Jiang</author>
+    <pubDate>Mar 31 2022</pubDate>
+    <description>Quantum error correction (QEC) for generic errors is challenging due to the demanding threshold and resource requirements. Interestingly, when physical noise is biased, we can tailor our QEC schemes to the noise to improve performance. Here we study a family of codes having XZZX-type stabilizer generators, including a set of cyclic codes generalized from the five-qubit code and a set of topological codes that we call generalized toric codes (GTCs). We show that these XZZX codes are highly qubit efficient if tailored to biased noise. To characterize the code performance, we use the notion of effective distance, which generalizes code distance to the case of biased noise and constitutes a proxy for the logical failure rate. We find that the XZZX codes can achieve a favorable resource scaling by this metric under biased noise. We also show that the XZZX codes have remarkably high thresholds that reach what is achievable by random codes, and furthermore they can be efficiently decoded using matching decoders. Finally, by adding only one flag qubit, the XZZX codes can realize fault-tolerant QEC while preserving their large effective distance. In combination, our results show that tailored XZZX codes give a resource-efficient scheme for fault-tolerant QEC against biased noise.</description>
+  </item>
+
+  <item>
+    <title>An analytic theory for the dynamics of wide quantum neural networks</title>
+    <link>http://arxiv.org/pdf/2203.16711</link>
+    <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>Parametrized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analytic results with numerical experiments.</description>
   </item>
 
   <item>
@@ -55,14 +71,6 @@
   </item>
 
   <item>
-    <title>High Dimensional Quantum Learning With Small Quantum Computers</title>
-    <link>http://arxiv.org/pdf/2203.13739</link>
-    <author>Simon C. Marshall, Casper Gyurik, Vedran Dunjko</author>
-    <pubDate>Mar 28 2022</pubDate>
-    <description>Quantum computers hold great promise to enhance machine learning, but their current qubit counts restrict the realisation of this promise. In an attempt to placate this limitation techniques can be applied for evaluating a quantum circuit using a machine with fewer qubits than the circuit naively requires. These techniques work by evaluating many smaller circuits on the smaller machine, that are then combined in a polynomial to replicate the output of the larger machine. This scheme requires more circuit evaluations than are practical for general circuits. However, we investigate the possibility that for certain applications many of these subcircuits are superfluous, and that a much smaller sum is sufficient to estimate the full circuit. We construct a machine learning model that may be capable of approximating the outputs of the larger circuit with much fewer circuit evaluations. We successfully apply our model to the task of digit recognition, using simulated quantum computers much smaller than the data dimension. The model is also applied to the task of approximating a random 10 qubit PQC with simulated access to a 5 qubit computer, even with only relatively modest number of circuits our model provides an accurate approximation of the 10 qubit PQCs output, superior to a neural network attempt. The developed method might be useful for implementing quantum models on larger data throughout the NISQ era.</description>
-  </item>
-
-  <item>
     <title>Simulating challenging correlated molecules and materials on the Sycamore quantum processor</title>
     <link>http://arxiv.org/pdf/2203.15291</link>
     <author>Ruslan N. Tazhigulov, Shi-Ning Sun, Reza Haghshenas, Huanchen Zhai, Adrian T. K. Tan, Nicholas C. Rubin, Ryan Babbush, Austin J. Minnich, Garnet Kin-Lic Chan</author>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>New Quantum Algorithms for Computing Quantum Entropies and Distances</title>
-    <link>http://arxiv.org/pdf/2203.13522</link>
-    <author>Qisheng Wang, Ji Guan, Junyi Liu, Zhicheng Zhang, Mingsheng Ying</author>
-    <pubDate>Mar 28 2022</pubDate>
-    <description>We propose a series of quantum algorithms for computing a wide range of quantum entropies and distances, including the von Neumann entropy, quantum Rényi entropy, trace distance, and fidelity. The proposed algorithms significantly outperform the best known (and even quantum) ones in the low-rank case, some of which achieve exponential speedups. In particular, for $N$-dimensional quantum states of rank $r$, our proposed quantum algorithms for computing the von Neumann entropy, trace distance and fidelity within additive error $\varepsilon$ have time complexity of $\tilde O(r^2/\varepsilon^2)$, $\tilde O(r^5/\varepsilon^6)$ and $\tilde O(r^{6.5}/\varepsilon^{7.5})$, respectively. In contrast, the known algorithms for the von Neumann entropy and trace distance require quantum time complexity of $\Omega(N)$ [AISW19,GL20,GHS21], and the best known one for fidelity requires $\tilde O(r^{21.5}/\varepsilon^{23.5})$ [WZC+21]. The key idea of our quantum algorithms is to extend block-encoding from unitary operators in previous work to quantum states (i.e., density operators). It is realized by developing several convenient techniques to manipulate quantum states and extract information from them. In particular, we introduce a novel technique for eigenvalue transformation of density operators and their (non-integer) positive powers, based on the powerful quantum singular value transformation (QSVT) [GSLW19]. The advantage of our techniques over the existing methods is that no restrictions on density operators are required; in sharp contrast, the previous methods usually require a lower bound of the minimal non-zero eigenvalue of density operators. In addition, we provide some techniques of independent interest for trace estimation, linear combinations, and eigenvalue threshold projectors of (subnormalized) density operators, which will be, we believe, useful in other quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Characterization and Verification of Trotterized Digital Quantum Simulation via Hamiltonian and Liouvillian Learning</title>
-    <link>http://arxiv.org/pdf/2203.15846</link>
-    <author>Lorenzo Pastori, Tobias Olsacher, Christian Kokail, Peter Zoller</author>
+    <title>Entanglement area law for 1D gauge theories and bosonic systems</title>
+    <link>http://arxiv.org/pdf/2203.16012</link>
+    <author>Nilin Abrahamsen, Yuan Su, Yu Tong, Nathan Wiebe</author>
     <pubDate>Mar 31 2022</pubDate>
-    <description>The goal of digital quantum simulation is to approximate the dynamics of a given target Hamiltonian via a sequence of quantum gates, a procedure known as Trotterization. The quality of this approximation can be controlled by the so called Trotter step, that governs the number of required quantum gates per unit simulation time, and is intimately related to the existence of a time-independent, quasilocal Hamiltonian that governs the stroboscopic dynamics, refered to as the Floquet Hamiltonian of the Trotterization. In this work, we propose a Hamiltonian learning scheme to reconstruct the implemented Floquet Hamiltonian order-by-order in the Trotter step: this procedure is efficient, i.e., it requires a number of measurements that scales polynomially in the system size, and can be readily implemented in state-of-the-art experiments. With numerical examples, we propose several applications of our method in the context of verification of quantum devices, from the characterization of the distinct sources of errors in digital quantum simulators to the design of new types of quantum gates. Furthermore, we show how our approach can be extended to the case of non-unitary dynamics and used to learn Floquet Liouvillians, thereby offering a way of characterizing the dissipative processes present in NISQ quantum devices.</description>
+    <description>We prove an entanglement area law for a class of 1D quantum systems involving infinite-dimensional local Hilbert spaces. This class of quantum systems include bosonic models such as the Hubbard-Holstein model, and both U(1) and SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new results concerning the robustness of the ground state and spectral gap to the truncation of Hilbert space, applied within the approximate ground state projector (AGSP) framework from previous work. In establishing this area law, we develop a system-size independent bound on the expectation value of local observables for Hamiltonians without translation symmetry, which may be of separate interest. Our result provides theoretical justification for using tensor network methods to study the ground state properties of quantum systems with infinite local degrees of freedom.</description>
   </item>
 
 </channel>
