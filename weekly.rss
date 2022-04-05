@@ -63,14 +63,6 @@
   </item>
 
   <item>
-    <title>Classically-Boosted Quantum Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/2203.13936</link>
-    <author>Guoming Wang</author>
-    <pubDate>Mar 29 2022</pubDate>
-    <description>Considerable effort has been made recently in the development of heuristic quantum algorithms for solving combinatorial optimization problems. Meanwhile, these problems have been studied extensively in classical computing for decades. In this paper, we explore a natural approach to leveraging existing classical techniques to enhance quantum optimization. Specifically, we run a classical algorithm to find an approximate solution and then use a quantum circuit to search its "neighborhood" for higher-quality solutions. We propose the Classically-Boosted Quantum Optimization Algorithm (CBQOA) that is based on this idea and can solve a wide range of combinatorial optimization problems, including all unconstrained problems and many important constrained problems such as Max Bisection, Maximum Independent Set, Minimum Vertex Cover, Portfolio Optimization, Traveling Salesperson and so on. A crucial component of this algorithm is an efficiently-implementable continuous-time quantum walk (CTQW) on a properly-constructed graph that connects the feasible solutions. CBQOA utilizes this CTQW and the output of an efficient classical procedure to create a suitable superposition of the feasible solutions which is then processed in certain way. This algorithm has the merits that it solves constrained problems without modifying their cost functions, confines the evolution of the quantum state to the feasible subspace, and does not rely on efficient indexing of the feasible solutions. We demonstrate the applications of CBQOA to Max 3SAT and Max Bisection, and provide empirical evidence that it outperforms previous approaches on these problems.</description>
-  </item>
-
-  <item>
     <title>Simulating challenging correlated molecules and materials on the Sycamore quantum processor</title>
     <link>http://arxiv.org/pdf/2203.15291</link>
     <author>Ruslan N. Tazhigulov, Shi-Ning Sun, Reza Haghshenas, Huanchen Zhai, Adrian T. K. Tan, Nicholas C. Rubin, Ryan Babbush, Austin J. Minnich, Garnet Kin-Lic Chan</author>
@@ -84,6 +76,14 @@
     <author>Nilin Abrahamsen, Yuan Su, Yu Tong, Nathan Wiebe</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>We prove an entanglement area law for a class of 1D quantum systems involving infinite-dimensional local Hilbert spaces. This class of quantum systems include bosonic models such as the Hubbard-Holstein model, and both U(1) and SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new results concerning the robustness of the ground state and spectral gap to the truncation of Hilbert space, applied within the approximate ground state projector (AGSP) framework from previous work. In establishing this area law, we develop a system-size independent bound on the expectation value of local observables for Hamiltonians without translation symmetry, which may be of separate interest. Our result provides theoretical justification for using tensor network methods to study the ground state properties of quantum systems with infinite local degrees of freedom.</description>
+  </item>
+
+  <item>
+    <title>Measuring magic on a quantum processor</title>
+    <link>http://arxiv.org/pdf/2204.00015</link>
+    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
+    <pubDate>Apr 04 2022</pubDate>
+    <description>Magic states are the resource that allows quantum computers to attain an advantage over classical computers. This resource consists in the deviation from a property called stabilizerness which in turn implies that stabilizer circuits can be efficiently simulated on a classical computer. Without magic, no quantum computer can do anything that a classical computer cannot do. Given the importance of magic for quantum computation, it would be useful to have a method for measuring the amount of magic in a quantum state. In this work, we propose and experimentally demonstrate a protocol for measuring magic based on randomized measurements. Our experiments are carried out on two IBM Quantum Falcon processors. This protocol can provide a characterization of the effectiveness of a quantum hardware in producing states that cannot be effectively simulated on a classical computer. We show how from these measurements one can construct realistic noise models affecting the hardware.</description>
   </item>
 
 </channel>
