@@ -43,7 +43,7 @@
     <link>http://arxiv.org/pdf/2203.04948</link>
     <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
     <pubDate>Mar 10 2022</pubDate>
-    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which we show has good performance for biased circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect belief-matching will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
+    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which exploits correlated hyperedge fault mechanisms present in circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect that our belief-matching decoder will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
   </item>
 
   <item>
@@ -103,14 +103,6 @@
   </item>
 
   <item>
-    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
-    <link>http://arxiv.org/pdf/2203.03581</link>
-    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
-    <pubDate>Mar 08 2022</pubDate>
-    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
-  </item>
-
-  <item>
     <title>An analytic theory for the dynamics of wide quantum neural networks</title>
     <link>http://arxiv.org/pdf/2203.16711</link>
     <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
@@ -119,11 +111,27 @@
   </item>
 
   <item>
+    <title>Good quantum LDPC codes with linear time decoder from lossless expanders</title>
+    <link>http://arxiv.org/pdf/2203.03581</link>
+    <author>Ting-Chun Lin, Min-Hsiu Hsieh</author>
+    <pubDate>Mar 08 2022</pubDate>
+    <description>Quantum low-density parity-check (qLDPC) codes are quantum stabilizer codes where each stabilizer acts on a constant number of qubits and each qubit is acted on by a constant number of stabilizers. We study qLDPC codes constructed from balanced products and lossless expanders. We found that assuming the existence of 2-sided lossless expander graphs with free group action, the resulting qLDPC codes have constant rate, linear distance, and linear time decoders.</description>
+  </item>
+
+  <item>
     <title>Quantum Algorithms for Testing Hamiltonian Symmetry</title>
     <link>http://arxiv.org/pdf/2203.10017</link>
     <author>Margarite L. LaBorde, Mark M. Wilde</author>
     <pubDate>Mar 21 2022</pubDate>
     <description>Symmetries in a Hamiltonian play an important role in quantum physics because they correspond directly with conserved quantities of the related system. In this paper, we propose quantum algorithms capable of testing whether a Hamiltonian exhibits symmetry with respect to a group. We demonstrate that familiar expressions of Hamiltonian symmetry in quantum mechanics correspond directly with the acceptance probabilities of our algorithms. We execute one of our symmetry-testing algorithms on existing quantum computers for simple examples of both symmetric and asymmetric cases.</description>
+  </item>
+
+  <item>
+    <title>A cellular automaton decoder for a noise-bias tailored color code</title>
+    <link>http://arxiv.org/pdf/2203.16534</link>
+    <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
+    <pubDate>Mar 31 2022</pubDate>
+    <description>Self-correcting quantum memories demonstrate robust properties that can be exploited to improve active quantum error-correction protocols. Here we propose a cellular automaton decoder for a variation of the color code where the bases of the physical qubits are locally rotated, which we call the XYZ color code. The local transformation means our decoder demonstrates key properties of a two-dimensional fractal code if the noise acting on the system is infinitely biased towards dephasing, namely, no string-like logical operators. As such, in the high-bias limit, our local decoder reproduces the behavior of a partially self-correcting memory. At low error rates, our simulations show that the memory time diverges polynomially with system size without intervention from a global decoder, up to some critical system size that grows as the error rate is lowered. Furthermore, although we find that we cannot reproduce partially self-correcting behavior at finite bias, our numerics demonstrate improved memory times at realistic noise biases. Our results therefore motivate the design of tailored cellular automaton decoders that help to reduce the bandwidth demands of global decoding for realistic noise models.</description>
   </item>
 
   <item>
@@ -140,14 +148,6 @@
     <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
-  </item>
-
-  <item>
-    <title>A cellular automaton decoder for a noise-bias tailored color code</title>
-    <link>http://arxiv.org/pdf/2203.16534</link>
-    <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Self-correcting quantum memories demonstrate robust properties that can be exploited to improve active quantum error-correction protocols. Here we propose a cellular automaton decoder for a variation of the color code where the bases of the physical qubits are locally rotated, which we call the XYZ color code. The local transformation means our decoder demonstrates key properties of a two-dimensional fractal code if the noise acting on the system is infinitely biased towards dephasing, namely, no string-like logical operators. As such, in the high-bias limit, our local decoder reproduces the behavior of a partially self-correcting memory. At low error rates, our simulations show that the memory time diverges polynomially with system size without intervention from a global decoder, up to some critical system size that grows as the error rate is lowered. Furthermore, although we find that we cannot reproduce partially self-correcting behavior at finite bias, our numerics demonstrate improved memory times at realistic noise biases. Our results therefore motivate the design of tailored cellular automaton decoders that help to reduce the bandwidth demands of global decoding for realistic noise models.</description>
   </item>
 
   <item>
@@ -191,6 +191,14 @@
   </item>
 
   <item>
+    <title>Error propagation in NISQ devices for solving classical optimization problems</title>
+    <link>http://arxiv.org/pdf/2203.15632</link>
+    <author>Guillermo González-García, Rahul Trivedi, J. Ignacio Cirac</author>
+    <pubDate>Mar 30 2022</pubDate>
+    <description>We propose a random circuit model to analyze the impact of noise on the performance of variational quantum circuits for classical optimization problems. Our model accounts for the propagation of arbitrary single qubit errors through the circuit. We find that even with a small noise rate, the quality of the obtained classical optima is low on average and a single-qubit error rate of $1 / nD$, where $n$ is the number of qubits and $D$ is the circuit depth, is needed for the possibility of a quantum advantage. We estimate that this translates to an error rate lower than $10^{-6}$ using QAOA for classical optimization problems with 2D circuits.</description>
+  </item>
+
+  <item>
     <title>Memory Compression with Quantum Random-Access Gates</title>
     <link>http://arxiv.org/pdf/2203.05599</link>
     <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
@@ -204,14 +212,6 @@
     <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
     <pubDate>Mar 11 2022</pubDate>
     <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
-  </item>
-
-  <item>
-    <title>Error propagation in NISQ devices for solving classical optimization problems</title>
-    <link>http://arxiv.org/pdf/2203.15632</link>
-    <author>Guillermo González-García, Rahul Trivedi, J. Ignacio Cirac</author>
-    <pubDate>Mar 30 2022</pubDate>
-    <description>We propose a random circuit model to analyze the impact of noise on the performance of variational quantum circuits for classical optimization problems. Our model accounts for the propagation of arbitrary single qubit errors through the circuit. We find that even with a small noise rate, the quality of the obtained classical optima is low on average and a single-qubit error rate of $1 / nD$, where $n$ is the number of qubits and $D$ is the circuit depth, is needed for the possibility of a quantum advantage. We estimate that this translates to an error rate lower than $10^{-6}$ using QAOA for classical optimization problems with 2D circuits.</description>
   </item>
 
   <item>

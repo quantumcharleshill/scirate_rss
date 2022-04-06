@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Measuring magic on a quantum processor</title>
-    <link>http://arxiv.org/pdf/2204.00015</link>
-    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
-    <pubDate>Apr 04 2022</pubDate>
-    <description>Magic states are the resource that allows quantum computers to attain an advantage over classical computers. This resource consists in the deviation from a property called stabilizerness which in turn implies that stabilizer circuits can be efficiently simulated on a classical computer. Without magic, no quantum computer can do anything that a classical computer cannot do. Given the importance of magic for quantum computation, it would be useful to have a method for measuring the amount of magic in a quantum state. In this work, we propose and experimentally demonstrate a protocol for measuring magic based on randomized measurements. Our experiments are carried out on two IBM Quantum Falcon processors. This protocol can provide a characterization of the effectiveness of a quantum hardware in producing states that cannot be effectively simulated on a classical computer. We show how from these measurements one can construct realistic noise models affecting the hardware.</description>
-  </item>
-
-  <item>
-    <title>Constructing all qutrit controlled Clifford+T gates in Clifford+T</title>
-    <link>http://arxiv.org/pdf/2204.00552</link>
-    <author>Lia Yeh, John van de Wetering</author>
-    <pubDate>Apr 04 2022</pubDate>
-    <description>For a number of useful quantum circuits, qudit constructions have been found which reduce resource requirements compared to the best known or best possible qubit construction. However, many of the necessary qutrit gates in these constructions have never been explicitly and efficiently constructed in a fault-tolerant manner. We show how to exactly and unitarily construct any qutrit multiple-controlled Clifford+T unitary using just Clifford+T gates and without using ancillae. The T-count to do so is polynomial in the number of controls $k$, scaling as $O(k^{3.585})$. With our results we can construct ancilla-free Clifford+T implementations of multiple-controlled T gates as well as all versions of the qutrit multiple-controlled Toffoli, while the analogous results for qubits are impossible. As an application of our results, we provide a procedure to implement any ternary classical reversible function on $n$ trits as an ancilla-free qutrit unitary using $O(3^n n^{3.585})$ T gates.</description>
-  </item>
-
-  <item>
     <title>Bi-PPT channels are entanglement breaking</title>
     <link>http://arxiv.org/pdf/2204.01685</link>
     <author>Alexander Müller-Hermes, Satvik Singh</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Perceval: A Software Platform for Discrete Variable Photonic Quantum Computing</title>
-    <link>http://arxiv.org/pdf/2204.00602</link>
-    <author>Nicolas Heurtel, Andreas Fyrillas, Grégoire de Gliniasty, Raphaël Le Bihan, Sébastien Malherbe, Marceau Pailhas, Boris Bourdoncle, Pierre-Emmanuel Emeriau, Rawad Mezher, Luka Music, Nadia Belabas, Benoît Valiron, Pascale Senellart, Shane Mansfield, Jean Senellart</author>
-    <pubDate>Apr 04 2022</pubDate>
-    <description>We introduce Perceval, an evolutive open-source software platform for simulating and interfacing with discrete variable photonic quantum computers, and describe its main features and components. Its Python front-end allows photonic circuits to be composed from basic photonic building blocks like photon sources, beam splitters, phase shifters and detectors. A variety of computational back-ends are available and optimised for different use-cases. These use state-of-the-art simulation techniques covering both weak simulation, or sampling, and strong simulation. We give examples of Perceval in action by reproducing a variety of photonic experiments and simulating photonic implementations of a range of quantum algorithms, from Grover's and Shor's to examples of quantum machine learning. Perceval is intended to be a useful toolkit both for experimentalists wishing to easily model, design, simulate, or optimise a discrete variable photonic experiment, and for theoreticians wishing to design algorithms and applications for discrete-variable photonic quantum computing platforms.</description>
+    <title>Diagrammatic Analysis for Parameterized Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2204.01307</link>
+    <author>Tobias Stollenwerk, Stuart Hadfield</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>Diagrammatic representations of quantum algorithms and circuits offer novel approaches to their design and analysis. In this work, we describe extensions of the ZX-calculus especially suitable for parameterized quantum circuits, in particular for computing observable expectation values as functions of or for fixed parameters, which are important algorithmic quantities in a variety of applications ranging from combinatorial optimization to quantum chemistry. We provide several new ZX-diagram rewrite rules and generalizations for this setting. In particular, we give formal rules for dealing with linear combinations of ZX-diagrams, where the relative complex-valued scale factors of each diagram must be kept track of, in contrast to most previously studied single-diagram realizations where these coefficients can be effectively ignored. This allows us to directly import a number useful relations from the operator analysis to ZX-calculus setting, including causal cone and quantum gate commutation rules. We demonstrate that the diagrammatic approach offers useful insights into algorithm structure and performance by considering several ansätze from the literature including realizations of hardware-efficient ansätze and QAOA. We find that by employing a diagrammatic representation, calculations across different ansätze can become more intuitive and potentially easier approach systematically than by alternative means. Finally, we outline how diagrammatic approaches may aid in the design and study of new and more effective quantum circuit ansätze.</description>
   </item>
 
   <item>
-    <title>Inverse-design of high-dimensional quantum optical circuits in a complex medium</title>
-    <link>http://arxiv.org/pdf/2204.00578</link>
-    <author>Suraj Goel, Saroch Leedumrongwatthanakun, Natalia Herrera Valencia, Will McCutcheon, Claudio Conti, Pepijn W. H. Pinkse, Mehul Malik</author>
-    <pubDate>Apr 04 2022</pubDate>
-    <description>Programmable optical circuits form a key part of quantum technologies today, ranging from transceivers for quantum communication to integrated photonic chips for quantum information processing. As the size of such circuits is increased, maintaining precise control over every individual component becomes challenging, leading to a reduction in the quality of the operations performed. In parallel, minor imperfections in circuit fabrication are amplified in this regime, dramatically inhibiting their performance. Here we show how embedding an optical circuit in the higher-dimensional space of a large, ambient mode-mixer using inverse-design techniques allows us to forgo control over each individual circuit element, while retaining a high degree of programmability over the circuit. Using this approach, we implement high-dimensional linear optical circuits within a complex scattering medium consisting of a commercial multi-mode fibre placed between two controllable phase planes. We employ these circuits to manipulate high-dimensional spatial-mode entanglement in up to seven dimensions, demonstrating their application as fully programmable quantum gates. Furthermore, we show how their programmability allows us to turn the multi-mode fibre itself into a generalised multi-outcome measurement device, allowing us to both transport and certify entanglement within the transmission channel. Finally, we discuss the scalability of our approach, numerically showing how a high circuit fidelity can be achieved with a low circuit depth by harnessing the resource of a high-dimensional mode-mixer. Our work serves as an alternative yet powerful approach for realising precise control over high-dimensional quantum states of light, with clear applications in next-generation quantum communication and computing technologies.</description>
+    <title>Complexity and entanglement in non-local computation and holography</title>
+    <link>http://arxiv.org/pdf/2204.00908</link>
+    <author>Alex May</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>Does gravity constrain computation? We study this question using the AdS/CFT correspondence, where computation in the presence of gravity can be related to non-gravitational physics in the boundary theory. In AdS/CFT, computations which happen locally in the bulk are implemented in a particular non-local form in the boundary, which in general requires distributed entanglement. In particular, we argue that the area of a particular surface called the ridge, associated to a bulk subregion, is equal to the mutual information available in the boundary to perform the computation non-locally. We further argue the complexity of the local operation controls the amount of entanglement needed to implement it non-locally, and that in particular the complexity and entanglement cost are related by a polynomial. If this relationship holds, gravity constrains the complexity of operations within the scattering region to be polynomial in the area of the ridge.</description>
+  </item>
+
+  <item>
+    <title>Spectral estimation for stoquastic Hamiltonians: a comparison between classical imaginary-time evolution and quantum real-time evolution</title>
+    <link>http://arxiv.org/pdf/2204.01113</link>
+    <author>Maarten Stroeks, Jonas Helsen, Barbara Terhal</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>We present a classical Monte Carlo (MC) scheme which efficiently estimates an imaginary-time, decaying signal for stoquastic (i.e. sign-problem-free) local Hamiltonians. The decay rates in this signal correspond to Hamiltonian eigenvalues (with associated eigenstates present in an initial state) and can be classically extracted using a classical signal processing method like ESPRIT. We compare the efficiency of this MC scheme to its quantum counterpart in which one extracts eigenvalues of a general local Hamiltonian from a real-time, oscillatory signal obtained through quantum phase estimation circuits, again using the ESPRIT method. We prove that the ESPRIT method can resolve S = poly(n) eigenvalues, assuming a 1/poly(n) gap between them, with poly(n) quantum and classical effort through the quantum phase estimation circuits. We prove that our Monte Carlo scheme plus the ESPRIT method can resolve S = O(1) eigenvalues, assuming a 1/poly(n) gap between them, with poly(n) purely classical effort for stoquastic Hamiltonians. These results thus quantify some opportunities and limitations of classical Monte Carlo methods for spectral estimation of stoquastic Hamiltonians. We numerically compare these MC and QPE eigenvalue estimation schemes by implementing them for an archetypal stoquastic Hamiltonian system: the transverse field Ising chain.</description>
+  </item>
+
+  <item>
+    <title>Polynomial Bounds On Parallel Repetition For All 3-Player Games With Binary Inputs</title>
+    <link>http://arxiv.org/pdf/2204.00858</link>
+    <author>Uma Girish, Kunal Mittal, Ran Raz, Wei Zhan</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>We prove that for every 3-player (3-prover) game $\mathcal G$ with value less than one, whose query distribution has the support $\mathcal S = \{(1,0,0), (0,1,0), (0,0,1)\}$ of hamming weight one vectors, the value of the $n$-fold parallel repetition $\mathcal G^{\otimes n}$ decays polynomially fast to zero; that is, there is a constant $c = c(\mathcal G)>0$ such that the value of the game $\mathcal G^{\otimes n}$ is at most $n^{-c}$. Following the recent work of Girish, Holmgren, Mittal, Raz and Zhan (STOC 2022), our result is the missing piece that implies a similar bound for a much more general class of multiplayer games: For $\textbf{every}$ 3-player game $\mathcal G$ over $\textit{binary questions}$ and $\textit{arbitrary answer lengths}$, with value less than 1, there is a constant $c = c(\mathcal G)>0$ such that the value of the game $\mathcal G^{\otimes n}$ is at most $n^{-c}$. Our proof technique is new and requires many new ideas. For example, we make use of the Level-$k$ inequalities from Boolean Fourier Analysis, which, to the best of our knowledge, have not been explored in this context prior to our work.</description>
   </item>
 
 </channel>

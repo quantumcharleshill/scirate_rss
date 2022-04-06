@@ -55,19 +55,11 @@
   </item>
 
   <item>
-    <title>Error propagation in NISQ devices for solving classical optimization problems</title>
-    <link>http://arxiv.org/pdf/2203.15632</link>
-    <author>Guillermo González-García, Rahul Trivedi, J. Ignacio Cirac</author>
-    <pubDate>Mar 30 2022</pubDate>
-    <description>We propose a random circuit model to analyze the impact of noise on the performance of variational quantum circuits for classical optimization problems. Our model accounts for the propagation of arbitrary single qubit errors through the circuit. We find that even with a small noise rate, the quality of the obtained classical optima is low on average and a single-qubit error rate of $1 / nD$, where $n$ is the number of qubits and $D$ is the circuit depth, is needed for the possibility of a quantum advantage. We estimate that this translates to an error rate lower than $10^{-6}$ using QAOA for classical optimization problems with 2D circuits.</description>
-  </item>
-
-  <item>
-    <title>Simulating challenging correlated molecules and materials on the Sycamore quantum processor</title>
-    <link>http://arxiv.org/pdf/2203.15291</link>
-    <author>Ruslan N. Tazhigulov, Shi-Ning Sun, Reza Haghshenas, Huanchen Zhai, Adrian T. K. Tan, Nicholas C. Rubin, Ryan Babbush, Austin J. Minnich, Garnet Kin-Lic Chan</author>
-    <pubDate>Mar 30 2022</pubDate>
-    <description>Simulating complex molecules and materials is an anticipated application of quantum devices. With strong quantum advantage demonstrated in artificial tasks, we examine how such advantage translates into modeling physical problems of correlated electronic structure. We simulate static and dynamical electronic structure on a superconducting quantum processor derived from Google's Sycamore architecture for two representative correlated electron problems: the nitrogenase iron-sulfur molecular clusters, and $\alpha$-ruthenium trichloride, a proximate spin-liquid material. To do so, we simplify the electronic structure into low-energy spin models that fit on the device. With extensive error mitigation and assistance from classically simulated data, we achieve quantitatively meaningful results deploying about 1/5 of the gate resources used in artificial quantum advantage experiments on a similar architecture. This increases to over 1/2 of the gate resources when choosing a model that suits the hardware. Our work serves to convert artificial measures of quantum advantage into a physically relevant setting.</description>
+    <title>Bi-PPT channels are entanglement breaking</title>
+    <link>http://arxiv.org/pdf/2204.01685</link>
+    <author>Alexander Müller-Hermes, Satvik Singh</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
     <pubDate>Apr 04 2022</pubDate>
     <description>Magic states are the resource that allows quantum computers to attain an advantage over classical computers. This resource consists in the deviation from a property called stabilizerness which in turn implies that stabilizer circuits can be efficiently simulated on a classical computer. Without magic, no quantum computer can do anything that a classical computer cannot do. Given the importance of magic for quantum computation, it would be useful to have a method for measuring the amount of magic in a quantum state. In this work, we propose and experimentally demonstrate a protocol for measuring magic based on randomized measurements. Our experiments are carried out on two IBM Quantum Falcon processors. This protocol can provide a characterization of the effectiveness of a quantum hardware in producing states that cannot be effectively simulated on a classical computer. We show how from these measurements one can construct realistic noise models affecting the hardware.</description>
+  </item>
+
+  <item>
+    <title>Characterization and Verification of Trotterized Digital Quantum Simulation via Hamiltonian and Liouvillian Learning</title>
+    <link>http://arxiv.org/pdf/2203.15846</link>
+    <author>Lorenzo Pastori, Tobias Olsacher, Christian Kokail, Peter Zoller</author>
+    <pubDate>Mar 31 2022</pubDate>
+    <description>The goal of digital quantum simulation is to approximate the dynamics of a given target Hamiltonian via a sequence of quantum gates, a procedure known as Trotterization. The quality of this approximation can be controlled by the so called Trotter step, that governs the number of required quantum gates per unit simulation time, and is intimately related to the existence of a time-independent, quasilocal Hamiltonian that governs the stroboscopic dynamics, refered to as the Floquet Hamiltonian of the Trotterization. In this work, we propose a Hamiltonian learning scheme to reconstruct the implemented Floquet Hamiltonian order-by-order in the Trotter step: this procedure is efficient, i.e., it requires a number of measurements that scales polynomially in the system size, and can be readily implemented in state-of-the-art experiments. With numerical examples, we propose several applications of our method in the context of verification of quantum devices, from the characterization of the distinct sources of errors in digital quantum simulators to the design of new types of quantum gates. Furthermore, we show how our approach can be extended to the case of non-unitary dynamics and used to learn Floquet Liouvillians, thereby offering a way of characterizing the dissipative processes present in NISQ quantum devices.</description>
   </item>
 
 </channel>

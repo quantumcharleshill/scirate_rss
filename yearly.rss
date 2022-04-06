@@ -367,14 +367,6 @@
   </item>
 
   <item>
-    <title>Realizing topologically ordered states on a quantum processor</title>
-    <link>http://arxiv.org/pdf/2104.01180</link>
-    <author>K. J. Satzinger, Y. Liu, A. Smith, C. Knapp, M. Newman, C. Jones, Z. Chen, C. Quintana, X. Mi, A. Dunsworth, C. Gidney, I. Aleiner, F. Arute, K. Arya, J. Atalaya, R. Babbush, J. C. Bardin, R. Barends, J. Basso, A. Bengtsson, et al (78)</author>
-    <pubDate>Apr 06 2021</pubDate>
-    <description>The discovery of topological order has revolutionized the understanding of quantum matter in modern physics and provided the theoretical foundation for many quantum error correcting codes. Realizing topologically ordered states has proven to be extremely challenging in both condensed matter and synthetic quantum systems. Here, we prepare the ground state of the toric code Hamiltonian using an efficient quantum circuit on a superconducting quantum processor. We measure a topological entanglement entropy near the expected value of $\ln2$, and simulate anyon interferometry to extract the braiding statistics of the emergent excitations. Furthermore, we investigate key aspects of the surface code, including logical state injection and the decay of the non-local order parameter. Our results demonstrate the potential for quantum processors to provide key insights into topological quantum matter and quantum error correction.</description>
-  </item>
-
-  <item>
     <title>Planar Floquet Codes</title>
     <link>http://arxiv.org/pdf/2110.05348</link>
     <author>Christophe Vuillot</author>
@@ -404,6 +396,14 @@
     <author>Nicole Yunger Halpern, Naga B. T. Kothakonda, Jonas Haferkamp, Anthony Munson, Jens Eisert, Philippe Faist</author>
     <pubDate>Oct 25 2021</pubDate>
     <description>Quantum complexity is emerging as a key property of many-body systems, including black holes, topological materials, and early quantum computers. A state's complexity quantifies the number of computational gates required to prepare the state from a simple tensor product. The greater a state's distance from maximal complexity, or ``uncomplexity,'' the more useful the state is as input to a quantum computation. Separately, resource theories -- simple models for agents subject to constraints -- are burgeoning in quantum information theory. We unite the two domains, confirming Brown and Susskind's conjecture that a resource theory of uncomplexity can be defined. The allowed operations, fuzzy operations, are slightly random implementations of two-qubit gates chosen by an agent. We formalize two operational tasks, uncomplexity extraction and expenditure. Their optimal efficiencies depend on an entropy that we engineer to reflect complexity. We also present two monotones, uncomplexity measures that decline monotonically under fuzzy operations, in certain regimes. This work unleashes on many-body complexity the resource-theory toolkit from quantum information theory.</description>
+  </item>
+
+  <item>
+    <title>Pauli error estimation via Population Recovery</title>
+    <link>http://arxiv.org/pdf/2105.02885</link>
+    <author>Steven T. Flammia, Ryan O'Donnell</author>
+    <pubDate>May 10 2021</pubDate>
+    <description>Motivated by estimation of quantum noise models, we study the problem of learning a Pauli channel, or more generally the Pauli error rates of an arbitrary channel. By employing a novel reduction to the "Population Recovery" problem, we give an extremely simple algorithm that learns the Pauli error rates of an $n$-qubit channel to precision $\epsilon$ in $\ell_\infty$ using just $O(1/\epsilon^2) \log(n/\epsilon)$ applications of the channel. This is optimal up to the logarithmic factors. Our algorithm uses only unentangled state preparation and measurements, and the post-measurement classical runtime is just an $O(1/\epsilon)$ factor larger than the measurement data size. It is also impervious to a limited model of measurement noise where heralded measurement failures occur independently with probability $\le 1/4$. We then consider the case where the noise channel is close to the identity, meaning that the no-error outcome occurs with probability $1-\eta$. In the regime of small $\eta$ we extend our algorithm to achieve multiplicative precision $1 \pm \epsilon$ (i.e., additive precision $\epsilon \eta$) using just $O\bigl(\frac{1}{\epsilon^2 \eta}\bigr) \log(n/\epsilon)$ applications of the channel.</description>
   </item>
 
 </channel>
