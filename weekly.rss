@@ -15,22 +15,6 @@
   </item>
 
   <item>
-    <title>Improved Quantum Algorithms for Fidelity Estimation</title>
-    <link>http://arxiv.org/pdf/2203.15993</link>
-    <author>András Gilyén, Alexander Poremba</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Fidelity is a fundamental measure for the closeness of two quantum states, which is important both from a theoretical and a practical point of view. Yet, in general, it is difficult to give good estimates of fidelity, especially when one works with mixed states over Hilbert spaces of very high dimension. Although, there has been some progress on fidelity estimation, all prior work either requires a large number of identical copies of the relevant states, or relies on unproven heuristics. In this work, we improve on both of these aspects by developing new and efficient quantum algorithms for fidelity estimation with provable performance guarantees in case at least one of the states is approximately low-rank. Our algorithms use advanced quantum linear algebra techniques, such as the quantum singular value transformation, as well as density matrix exponentiation and quantum spectral sampling. As a complementary result, we prove that fidelity estimation to any non-trivial constant additive accuracy is hard in general, by giving a sample complexity lower bound that depends polynomially on the dimension. Moreover, if circuit descriptions for the relevant states are provided, we show that the task is hard for the complexity class called (honest verifier) quantum statistical zero knowledge via a reduction to a closely related result by Watrous.</description>
-  </item>
-
-  <item>
-    <title>Tailored XZZX codes for biased noise</title>
-    <link>http://arxiv.org/pdf/2203.16486</link>
-    <author>Qian Xu, Nam Mannucci, Alireza Seif, Aleksander Kubica, Steven T. Flammia, Liang Jiang</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Quantum error correction (QEC) for generic errors is challenging due to the demanding threshold and resource requirements. Interestingly, when physical noise is biased, we can tailor our QEC schemes to the noise to improve performance. Here we study a family of codes having XZZX-type stabilizer generators, including a set of cyclic codes generalized from the five-qubit code and a set of topological codes that we call generalized toric codes (GTCs). We show that these XZZX codes are highly qubit efficient if tailored to biased noise. To characterize the code performance, we use the notion of effective distance, which generalizes code distance to the case of biased noise and constitutes a proxy for the logical failure rate. We find that the XZZX codes can achieve a favorable resource scaling by this metric under biased noise. We also show that the XZZX codes have remarkably high thresholds that reach what is achievable by random codes, and furthermore they can be efficiently decoded using matching decoders. Finally, by adding only one flag qubit, the XZZX codes can realize fault-tolerant QEC while preserving their large effective distance. In combination, our results show that tailored XZZX codes give a resource-efficient scheme for fault-tolerant QEC against biased noise.</description>
-  </item>
-
-  <item>
     <title>An analytic theory for the dynamics of wide quantum neural networks</title>
     <link>http://arxiv.org/pdf/2203.16711</link>
     <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
@@ -39,19 +23,11 @@
   </item>
 
   <item>
-    <title>A cellular automaton decoder for a noise-bias tailored color code</title>
-    <link>http://arxiv.org/pdf/2203.16534</link>
-    <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Self-correcting quantum memories demonstrate robust properties that can be exploited to improve active quantum error-correction protocols. Here we propose a cellular automaton decoder for a variation of the color code where the bases of the physical qubits are locally rotated, which we call the XYZ color code. The local transformation means our decoder demonstrates key properties of a two-dimensional fractal code if the noise acting on the system is infinitely biased towards dephasing, namely, no string-like logical operators. As such, in the high-bias limit, our local decoder reproduces the behavior of a partially self-correcting memory. At low error rates, our simulations show that the memory time diverges polynomially with system size without intervention from a global decoder, up to some critical system size that grows as the error rate is lowered. Furthermore, although we find that we cannot reproduce partially self-correcting behavior at finite bias, our numerics demonstrate improved memory times at realistic noise biases. Our results therefore motivate the design of tailored cellular automaton decoders that help to reduce the bandwidth demands of global decoding for realistic noise models.</description>
-  </item>
-
-  <item>
-    <title>Distributed quantum error correction for chip-level catastrophic errors</title>
-    <link>http://arxiv.org/pdf/2203.16488</link>
-    <author>Qian Xu, Alireza Seif, Haoxiong Yan, Nam Mannucci, Bernard Ousmane Sane, Rodney Van Meter, Andrew N. Cleland, Liang Jiang</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Quantum error correction holds the key to scaling up quantum computers. Cosmic ray events severely impact the operation of a quantum computer by causing chip-level catastrophic errors, essentially erasing the information encoded in a chip. Here, we present a distributed error correction scheme to combat the devastating effect of such events by introducing an additional layer of quantum erasure error correcting code across separate chips. We show that our scheme is fault tolerant against chip-level catastrophic errors and discuss its experimental implementation using superconducting qubits with microwave links. Our analysis shows that in state-of-the-art experiments, it is possible to suppress the rate of these errors from 1 per 10 seconds to less than 1 per month.</description>
+    <title>Verifiable Quantum Advantage without Structure</title>
+    <link>http://arxiv.org/pdf/2204.02063</link>
+    <author>Takashi Yamakawa, Mark Zhandry</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
   </item>
 
   <item>
@@ -63,14 +39,6 @@
   </item>
 
   <item>
-    <title>Entanglement area law for 1D gauge theories and bosonic systems</title>
-    <link>http://arxiv.org/pdf/2203.16012</link>
-    <author>Nilin Abrahamsen, Yuan Su, Yu Tong, Nathan Wiebe</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>We prove an entanglement area law for a class of 1D quantum systems involving infinite-dimensional local Hilbert spaces. This class of quantum systems include bosonic models such as the Hubbard-Holstein model, and both U(1) and SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new results concerning the robustness of the ground state and spectral gap to the truncation of Hilbert space, applied within the approximate ground state projector (AGSP) framework from previous work. In establishing this area law, we develop a system-size independent bound on the expectation value of local observables for Hamiltonians without translation symmetry, which may be of separate interest. Our result provides theoretical justification for using tensor network methods to study the ground state properties of quantum systems with infinite local degrees of freedom.</description>
-  </item>
-
-  <item>
     <title>Measuring magic on a quantum processor</title>
     <link>http://arxiv.org/pdf/2204.00015</link>
     <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
@@ -79,11 +47,43 @@
   </item>
 
   <item>
-    <title>Characterization and Verification of Trotterized Digital Quantum Simulation via Hamiltonian and Liouvillian Learning</title>
-    <link>http://arxiv.org/pdf/2203.15846</link>
-    <author>Lorenzo Pastori, Tobias Olsacher, Christian Kokail, Peter Zoller</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>The goal of digital quantum simulation is to approximate the dynamics of a given target Hamiltonian via a sequence of quantum gates, a procedure known as Trotterization. The quality of this approximation can be controlled by the so called Trotter step, that governs the number of required quantum gates per unit simulation time, and is intimately related to the existence of a time-independent, quasilocal Hamiltonian that governs the stroboscopic dynamics, refered to as the Floquet Hamiltonian of the Trotterization. In this work, we propose a Hamiltonian learning scheme to reconstruct the implemented Floquet Hamiltonian order-by-order in the Trotter step: this procedure is efficient, i.e., it requires a number of measurements that scales polynomially in the system size, and can be readily implemented in state-of-the-art experiments. With numerical examples, we propose several applications of our method in the context of verification of quantum devices, from the characterization of the distinct sources of errors in digital quantum simulators to the design of new types of quantum gates. Furthermore, we show how our approach can be extended to the case of non-unitary dynamics and used to learn Floquet Liouvillians, thereby offering a way of characterizing the dissipative processes present in NISQ quantum devices.</description>
+    <title>Diagrammatic Analysis for Parameterized Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2204.01307</link>
+    <author>Tobias Stollenwerk, Stuart Hadfield</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>Diagrammatic representations of quantum algorithms and circuits offer novel approaches to their design and analysis. In this work, we describe extensions of the ZX-calculus especially suitable for parameterized quantum circuits, in particular for computing observable expectation values as functions of or for fixed parameters, which are important algorithmic quantities in a variety of applications ranging from combinatorial optimization to quantum chemistry. We provide several new ZX-diagram rewrite rules and generalizations for this setting. In particular, we give formal rules for dealing with linear combinations of ZX-diagrams, where the relative complex-valued scale factors of each diagram must be kept track of, in contrast to most previously studied single-diagram realizations where these coefficients can be effectively ignored. This allows us to directly import a number useful relations from the operator analysis to ZX-calculus setting, including causal cone and quantum gate commutation rules. We demonstrate that the diagrammatic approach offers useful insights into algorithm structure and performance by considering several ansätze from the literature including realizations of hardware-efficient ansätze and QAOA. We find that by employing a diagrammatic representation, calculations across different ansätze can become more intuitive and potentially easier approach systematically than by alternative means. Finally, we outline how diagrammatic approaches may aid in the design and study of new and more effective quantum circuit ansätze.</description>
+  </item>
+
+  <item>
+    <title>Experimental quantum adversarial learning with programmable superconducting qubits</title>
+    <link>http://arxiv.org/pdf/2204.01738</link>
+    <author>Wenhui Ren, Weikang Li, Shibo Xu, Ke Wang, Wenjie Jiang, Feitong Jin, Xuhao Zhu, Jiachen Chen, Zixuan Song, Pengfei Zhang, Hang Dong, Xu Zhang, Jinfeng Deng, Yu Gao, Chuanyu Zhang, Yaozu Wu, Bing Zhang, Qiujiang Guo, Hekang Li, Zhen Wang, et al (4)</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>Quantum computing promises to enhance machine learning and artificial intelligence. Different quantum algorithms have been proposed to improve a wide spectrum of machine learning tasks. Yet, recent theoretical works show that, similar to traditional classifiers based on deep classical neural networks, quantum classifiers would suffer from the vulnerability problem: adding tiny carefully-crafted perturbations to the legitimate original data samples would facilitate incorrect predictions at a notably high confidence level. This will pose serious problems for future quantum machine learning applications in safety and security-critical scenarios. Here, we report the first experimental demonstration of quantum adversarial learning with programmable superconducting qubits. We train quantum classifiers, which are built upon variational quantum circuits consisting of ten transmon qubits featuring average lifetimes of 150 $\mu$s, and average fidelities of simultaneous single- and two-qubit gates above 99.94% and 99.4% respectively, with both real-life images (e.g., medical magnetic resonance imaging scans) and quantum data. We demonstrate that these well-trained classifiers (with testing accuracy up to 99%) can be practically deceived by small adversarial perturbations, whereas an adversarial training process would significantly enhance their robustness to such perturbations. Our results reveal experimentally a crucial vulnerability aspect of quantum learning systems under adversarial scenarios and demonstrate an effective defense strategy against adversarial attacks, which provide a valuable guide for quantum artificial intelligence applications with both near-term and future quantum devices.</description>
+  </item>
+
+  <item>
+    <title>We cannot believe we overlooked these Majorana discoveries</title>
+    <link>http://arxiv.org/pdf/2203.17060</link>
+    <author>Sergey Frolov, Vincent Mourik</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>In 2011-2012 we performed experiments on hybrid superconductor-semiconductor nanowire devices which yielded signatures of Majorana fermions based on zero-bias peaks in tunneling measurements. The research field that grew out of those findings and other contemporary works has advanced significantly, and a lot of new knowledge and insights were gained. However, key smoking gun evidence of Majorana is still lacking. In this paper, we report that while reviewing our old data recently, armed with a decade of knowledge, we realized that back in 2012 our results contained two breakthrough Majorana discoveries. Specifically, we have observed quantized zero-bias peaks, the hallmark of ideal Majorana states. Furthermore, we have observed the closing and re-opening of the induced gap perfectly correlated with the emergence of the zero-bias peak - clear evidence of the topological quantum phase superconducting transition. These insights should pave the way to topological Majorana qubits, and you should also check supplementary information for important disclosures.</description>
+  </item>
+
+  <item>
+    <title>Spectral estimation for stoquastic Hamiltonians: a comparison between classical imaginary-time evolution and quantum real-time evolution</title>
+    <link>http://arxiv.org/pdf/2204.01113</link>
+    <author>Maarten Stroeks, Jonas Helsen, Barbara Terhal</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>We present a classical Monte Carlo (MC) scheme which efficiently estimates an imaginary-time, decaying signal for stoquastic (i.e. sign-problem-free) local Hamiltonians. The decay rates in this signal correspond to Hamiltonian eigenvalues (with associated eigenstates present in an initial state) and can be classically extracted using a classical signal processing method like ESPRIT. We compare the efficiency of this MC scheme to its quantum counterpart in which one extracts eigenvalues of a general local Hamiltonian from a real-time, oscillatory signal obtained through quantum phase estimation circuits, again using the ESPRIT method. We prove that the ESPRIT method can resolve S = poly(n) eigenvalues, assuming a 1/poly(n) gap between them, with poly(n) quantum and classical effort through the quantum phase estimation circuits. We prove that our Monte Carlo scheme plus the ESPRIT method can resolve S = O(1) eigenvalues, assuming a 1/poly(n) gap between them, with poly(n) purely classical effort for stoquastic Hamiltonians. These results thus quantify some opportunities and limitations of classical Monte Carlo methods for spectral estimation of stoquastic Hamiltonians. We numerically compare these MC and QPE eigenvalue estimation schemes by implementing them for an archetypal stoquastic Hamiltonian system: the transverse field Ising chain.</description>
+  </item>
+
+  <item>
+    <title>Quantum simulation of real-space dynamics</title>
+    <link>http://arxiv.org/pdf/2203.17006</link>
+    <author>Andrew M. Childs, Jiaqi Leng, Tongyang Li, Jin-Peng Liu, Chenyi Zhang</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>Quantum simulation is a prominent application of quantum computers. While there is extensive previous work on simulating finite-dimensional systems, less is known about quantum algorithms for real-space dynamics. We conduct a systematic study of such algorithms. In particular, we show that the dynamics of a $d$-dimensional Schrödinger equation with $\eta$ particles can be simulated with gate complexity $\tilde{O}\bigl(\eta d F \text{poly}(\log(g'/\epsilon))\bigr)$, where $\epsilon$ is the discretization error, $g'$ controls the higher-order derivatives of the wave function, and $F$ measures the time-integrated strength of the potential. Compared to the best previous results, this exponentially improves the dependence on $\epsilon$ and $g'$ from $\text{poly}(g'/\epsilon)$ to $\text{poly}(\log(g'/\epsilon))$ and polynomially improves the dependence on $T$ and $d$, while maintaining best known performance with respect to $\eta$. For the case of Coulomb interactions, we give an algorithm using $\eta^{3}(d+\eta)T\text{poly}(\log(\eta dTg'/(\Delta\epsilon)))/\Delta$ one- and two-qubit gates, and another using $\eta^{3}(4d)^{d/2}T\text{poly}(\log(\eta dTg'/(\Delta\epsilon)))/\Delta$ one- and two-qubit gates and QRAM operations, where $T$ is the evolution time and the parameter $\Delta$ regulates the unbounded Coulomb interaction. We give applications to several computational problems, including faster real-space simulation of quantum chemistry, rigorous analysis of discretization error for simulation of a uniform electron gas, and a quadratic improvement to a quantum algorithm for escaping saddle points in nonconvex optimization.</description>
   </item>
 
 </channel>
