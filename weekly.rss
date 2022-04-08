@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
-    <link>http://arxiv.org/pdf/2203.16571</link>
-    <author>Jonas Haferkamp</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
-  </item>
-
-  <item>
-    <title>An analytic theory for the dynamics of wide quantum neural networks</title>
-    <link>http://arxiv.org/pdf/2203.16711</link>
-    <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>Parametrized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analytic results with numerical experiments.</description>
-  </item>
-
-  <item>
     <title>Verifiable Quantum Advantage without Structure</title>
     <link>http://arxiv.org/pdf/2204.02063</link>
     <author>Takashi Yamakawa, Mark Zhandry</author>
@@ -36,6 +20,14 @@
     <author>Alexander Müller-Hermes, Satvik Singh</author>
     <pubDate>Apr 05 2022</pubDate>
     <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
+  </item>
+
+  <item>
+    <title>A Variational Ansatz for the Ground State of the Quantum Sherrington-Kirkpatrick Model</title>
+    <link>http://arxiv.org/pdf/2204.02923</link>
+    <author>Paul M. Schindler, Tommaso Guaita, Tao Shi, Eugene Demler, J. Ignacio Cirac</author>
+    <pubDate>Apr 07 2022</pubDate>
+    <description>We present an ansatz for the ground states of the Quantum Sherrington-Kirkpatrick model, a paradigmatic model for quantum spin glasses. Our ansatz, based on the concept of generalized coherent states, very well captures the fundamental aspects of the model, including the ground state energy and the position of the spin glass phase transition. It further enables us to study some previously unexplored features, such as the non-vanishing longitudinal field regime and the entanglement structure of the ground states. We find that the ground state entanglement can be captured by a simple ensemble of weighted graph states with normally distributed phase gates, leading to a volume law entanglement, contrasting with predictions based on entanglement monogamy.</description>
   </item>
 
   <item>
@@ -55,19 +47,19 @@
   </item>
 
   <item>
+    <title>Gaussian matrix product states cannot efficiently describe critical systems</title>
+    <link>http://arxiv.org/pdf/2204.02478</link>
+    <author>Adrián Franco-Rubio, J. Ignacio Cirac</author>
+    <pubDate>Apr 07 2022</pubDate>
+    <description>Gaussian fermionic matrix product states (GfMPS) form a class of ansatz quantum states for 1d systems of noninteracting fermions. We show, for a simple critical model of free hopping fermions, that: (i) any GfMPS approximation to its ground state must have bond dimension scaling superpolynomially with the system size, whereas (ii) there exists a non-Gaussian fermionic MPS approximation to this state with polynomial bond dimension. This proves that, in general, imposing Gaussianity at the level of the tensor network may significantly alter its capability to efficiently approximate critical Gaussian states. We also provide numerical evidence that the required bond dimension is subexponential, and thus can still be simulated with moderate resources.</description>
+  </item>
+
+  <item>
     <title>Experimental quantum adversarial learning with programmable superconducting qubits</title>
     <link>http://arxiv.org/pdf/2204.01738</link>
     <author>Wenhui Ren, Weikang Li, Shibo Xu, Ke Wang, Wenjie Jiang, Feitong Jin, Xuhao Zhu, Jiachen Chen, Zixuan Song, Pengfei Zhang, Hang Dong, Xu Zhang, Jinfeng Deng, Yu Gao, Chuanyu Zhang, Yaozu Wu, Bing Zhang, Qiujiang Guo, Hekang Li, Zhen Wang, et al (4)</author>
     <pubDate>Apr 06 2022</pubDate>
     <description>Quantum computing promises to enhance machine learning and artificial intelligence. Different quantum algorithms have been proposed to improve a wide spectrum of machine learning tasks. Yet, recent theoretical works show that, similar to traditional classifiers based on deep classical neural networks, quantum classifiers would suffer from the vulnerability problem: adding tiny carefully-crafted perturbations to the legitimate original data samples would facilitate incorrect predictions at a notably high confidence level. This will pose serious problems for future quantum machine learning applications in safety and security-critical scenarios. Here, we report the first experimental demonstration of quantum adversarial learning with programmable superconducting qubits. We train quantum classifiers, which are built upon variational quantum circuits consisting of ten transmon qubits featuring average lifetimes of 150 $\mu$s, and average fidelities of simultaneous single- and two-qubit gates above 99.94% and 99.4% respectively, with both real-life images (e.g., medical magnetic resonance imaging scans) and quantum data. We demonstrate that these well-trained classifiers (with testing accuracy up to 99%) can be practically deceived by small adversarial perturbations, whereas an adversarial training process would significantly enhance their robustness to such perturbations. Our results reveal experimentally a crucial vulnerability aspect of quantum learning systems under adversarial scenarios and demonstrate an effective defense strategy against adversarial attacks, which provide a valuable guide for quantum artificial intelligence applications with both near-term and future quantum devices.</description>
-  </item>
-
-  <item>
-    <title>We cannot believe we overlooked these Majorana discoveries</title>
-    <link>http://arxiv.org/pdf/2203.17060</link>
-    <author>Sergey Frolov, Vincent Mourik</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>In 2011-2012 we performed experiments on hybrid superconductor-semiconductor nanowire devices which yielded signatures of Majorana fermions based on zero-bias peaks in tunneling measurements. The research field that grew out of those findings and other contemporary works has advanced significantly, and a lot of new knowledge and insights were gained. However, key smoking gun evidence of Majorana is still lacking. In this paper, we report that while reviewing our old data recently, armed with a decade of knowledge, we realized that back in 2012 our results contained two breakthrough Majorana discoveries. Specifically, we have observed quantized zero-bias peaks, the hallmark of ideal Majorana states. Furthermore, we have observed the closing and re-opening of the induced gap perfectly correlated with the emergence of the zero-bias peak - clear evidence of the topological quantum phase superconducting transition. These insights should pave the way to topological Majorana qubits, and you should also check supplementary information for important disclosures.</description>
   </item>
 
   <item>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>Quantum simulation of real-space dynamics</title>
-    <link>http://arxiv.org/pdf/2203.17006</link>
-    <author>Andrew M. Childs, Jiaqi Leng, Tongyang Li, Jin-Peng Liu, Chenyi Zhang</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>Quantum simulation is a prominent application of quantum computers. While there is extensive previous work on simulating finite-dimensional systems, less is known about quantum algorithms for real-space dynamics. We conduct a systematic study of such algorithms. In particular, we show that the dynamics of a $d$-dimensional Schrödinger equation with $\eta$ particles can be simulated with gate complexity $\tilde{O}\bigl(\eta d F \text{poly}(\log(g'/\epsilon))\bigr)$, where $\epsilon$ is the discretization error, $g'$ controls the higher-order derivatives of the wave function, and $F$ measures the time-integrated strength of the potential. Compared to the best previous results, this exponentially improves the dependence on $\epsilon$ and $g'$ from $\text{poly}(g'/\epsilon)$ to $\text{poly}(\log(g'/\epsilon))$ and polynomially improves the dependence on $T$ and $d$, while maintaining best known performance with respect to $\eta$. For the case of Coulomb interactions, we give an algorithm using $\eta^{3}(d+\eta)T\text{poly}(\log(\eta dTg'/(\Delta\epsilon)))/\Delta$ one- and two-qubit gates, and another using $\eta^{3}(4d)^{d/2}T\text{poly}(\log(\eta dTg'/(\Delta\epsilon)))/\Delta$ one- and two-qubit gates and QRAM operations, where $T$ is the evolution time and the parameter $\Delta$ regulates the unbounded Coulomb interaction. We give applications to several computational problems, including faster real-space simulation of quantum chemistry, rigorous analysis of discretization error for simulation of a uniform electron gas, and a quadratic improvement to a quantum algorithm for escaping saddle points in nonconvex optimization.</description>
+    <title>Peptide conformational sampling using the Quantum Approximate Optimization Algorithm</title>
+    <link>http://arxiv.org/pdf/2204.01821</link>
+    <author>Sami Boulebnane, Xavier Lucas, Agnes Meyder, Stanislaw Adaszewski, Ashley Montanaro</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>Protein folding -- the problem of predicting the spatial structure of a protein given its sequence of amino-acids -- has attracted considerable research effort in biochemistry in recent decades. In this work, we explore the potential of quantum computing to solve a simplified version of protein folding. More precisely, we numerically investigate the performance of a variational quantum algorithm, the Quantum Approximate Optimization Algorithm (QAOA), in sampling low-energy conformations of short peptides. We start by benchmarking the algorithm on an even simpler problem: sampling self-avoiding walks, which is a necessary condition for a valid protein conformation. Motivated by promising results achieved by QAOA on this problem, we then apply the algorithm to a more complete version of protein folding, including a simplified physical potential. In this case, based on numerical simulations on 20 qubits, we find less promising results: deep quantum circuits are required to achieve accurate results, and the performance of QAOA can be matched by random sampling up to a small overhead. Overall, these results cast serious doubt on the ability of QAOA to address the protein folding problem in the near term, even in an extremely simplified setting. We believe that the approach and conclusions presented in this work could offer valuable methodological insights on how to systematically evaluate variational quantum optimization algorithms on real-world problems beyond protein folding.</description>
+  </item>
+
+  <item>
+    <title>Complexity and entanglement in non-local computation and holography</title>
+    <link>http://arxiv.org/pdf/2204.00908</link>
+    <author>Alex May</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>Does gravity constrain computation? We study this question using the AdS/CFT correspondence, where computation in the presence of gravity can be related to non-gravitational physics in the boundary theory. In AdS/CFT, computations which happen locally in the bulk are implemented in a particular non-local form in the boundary, which in general requires distributed entanglement. In particular, we argue that the area of a particular surface called the ridge, associated to a bulk subregion, is equal to the mutual information available in the boundary to perform the computation non-locally. We further argue the complexity of the local operation controls the amount of entanglement needed to implement it non-locally, and that in particular the complexity and entanglement cost are related by a polynomial. If this relationship holds, gravity constrains the complexity of operations within the scattering region to be polynomial in the area of the ridge.</description>
   </item>
 
 </channel>
