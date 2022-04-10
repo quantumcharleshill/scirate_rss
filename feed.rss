@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
-    <link>http://arxiv.org/pdf/2203.07263</link>
-    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
-  </item>
-
-  <item>
     <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
     <link>http://arxiv.org/pdf/2203.16571</link>
     <author>Jonas Haferkamp</author>
     <pubDate>Apr 01 2022</pubDate>
     <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
+  </item>
+
+  <item>
+    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
+    <link>http://arxiv.org/pdf/2203.07263</link>
+    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
   </item>
 
   <item>
@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>Verifiable Quantum Advantage without Structure</title>
+    <link>http://arxiv.org/pdf/2204.02063</link>
+    <author>Takashi Yamakawa, Mark Zhandry</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
+  </item>
+
+  <item>
     <title>An analytic theory for the dynamics of wide quantum neural networks</title>
     <link>http://arxiv.org/pdf/2203.16711</link>
     <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
@@ -103,19 +111,19 @@
   </item>
 
   <item>
+    <title>Limitations of variational quantum algorithms: a quantum optimal transport approach</title>
+    <link>http://arxiv.org/pdf/2204.03455</link>
+    <author>Giacomo De Palma, Milad Marvian, Cambyse Rouzé, Daniel Stilck França</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>The impressive progress in quantum hardware of the last years has raised the interest of the quantum computing community in harvesting the computational power of such devices. However, in the absence of error correction, these devices can only reliably implement very shallow circuits or comparatively deeper circuits at the expense of a nontrivial density of errors. In this work, we obtain extremely tight limitation bounds for standard NISQ proposals in both the noisy and noiseless regimes, with or without error-mitigation tools. The bounds limit the performance of both circuit model algorithms, such as QAOA, and also continuous-time algorithms, such as quantum annealing. In the noisy regime with local depolarizing noise $p$, we prove that at depths $L=\cO(p^{-1})$ it is exponentially unlikely that the outcome of a noisy quantum circuit outperforms efficient classical algorithms for combinatorial optimization problems like Max-Cut. Although previous results already showed that classical algorithms outperform noisy quantum circuits at constant depth, these results only held for the expectation value of the output. Our results are based on newly developed quantum entropic and concentration inequalities, which constitute a homogeneous toolkit of theoretical methods from the quantum theory of optimal mass transport whose potential usefulness goes beyond the study of variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Quantum Algorithms for Testing Hamiltonian Symmetry</title>
     <link>http://arxiv.org/pdf/2203.10017</link>
     <author>Margarite L. LaBorde, Mark M. Wilde</author>
     <pubDate>Mar 21 2022</pubDate>
     <description>Symmetries in a Hamiltonian play an important role in quantum physics because they correspond directly with conserved quantities of the related system. In this paper, we propose quantum algorithms capable of testing whether a Hamiltonian exhibits symmetry with respect to a group. We demonstrate that familiar expressions of Hamiltonian symmetry in quantum mechanics correspond directly with the acceptance probabilities of our algorithms. We execute one of our symmetry-testing algorithms on existing quantum computers for simple examples of both symmetric and asymmetric cases.</description>
-  </item>
-
-  <item>
-    <title>Verifiable Quantum Advantage without Structure</title>
-    <link>http://arxiv.org/pdf/2204.02063</link>
-    <author>Takashi Yamakawa, Mark Zhandry</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
   </item>
 
   <item>
@@ -231,19 +239,11 @@
   </item>
 
   <item>
-    <title>Classically-Boosted Quantum Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/2203.13936</link>
-    <author>Guoming Wang</author>
-    <pubDate>Mar 29 2022</pubDate>
-    <description>Considerable effort has been made recently in the development of heuristic quantum algorithms for solving combinatorial optimization problems. Meanwhile, these problems have been studied extensively in classical computing for decades. In this paper, we explore a natural approach to leveraging existing classical techniques to enhance quantum optimization. Specifically, we run a classical algorithm to find an approximate solution and then use a quantum circuit to search its "neighborhood" for higher-quality solutions. We propose the Classically-Boosted Quantum Optimization Algorithm (CBQOA) that is based on this idea and can solve a wide range of combinatorial optimization problems, including all unconstrained problems and many important constrained problems such as Max Bisection, Maximum Independent Set, Minimum Vertex Cover, Portfolio Optimization, Traveling Salesperson and so on. A crucial component of this algorithm is an efficiently-implementable continuous-time quantum walk (CTQW) on a properly-constructed graph that connects the feasible solutions. CBQOA utilizes this CTQW and the output of an efficient classical procedure to create a suitable superposition of the feasible solutions which is then processed in certain way. This algorithm has the merits that it solves constrained problems without modifying their cost functions, confines the evolution of the quantum state to the feasible subspace, and does not rely on efficient indexing of the feasible solutions. We demonstrate the applications of CBQOA to Max 3SAT and Max Bisection, and provide empirical evidence that it outperforms previous approaches on these problems.</description>
-  </item>
-
-  <item>
-    <title>High Dimensional Quantum Learning With Small Quantum Computers</title>
-    <link>http://arxiv.org/pdf/2203.13739</link>
-    <author>Simon C. Marshall, Casper Gyurik, Vedran Dunjko</author>
-    <pubDate>Mar 28 2022</pubDate>
-    <description>Quantum computers hold great promise to enhance machine learning, but their current qubit counts restrict the realisation of this promise. In an attempt to placate this limitation techniques can be applied for evaluating a quantum circuit using a machine with fewer qubits than the circuit naively requires. These techniques work by evaluating many smaller circuits on the smaller machine, that are then combined in a polynomial to replicate the output of the larger machine. This scheme requires more circuit evaluations than are practical for general circuits. However, we investigate the possibility that for certain applications many of these subcircuits are superfluous, and that a much smaller sum is sufficient to estimate the full circuit. We construct a machine learning model that may be capable of approximating the outputs of the larger circuit with much fewer circuit evaluations. We successfully apply our model to the task of digit recognition, using simulated quantum computers much smaller than the data dimension. The model is also applied to the task of approximating a random 10 qubit PQC with simulated access to a 5 qubit computer, even with only relatively modest number of circuits our model provides an accurate approximation of the 10 qubit PQCs output, superior to a neural network attempt. The developed method might be useful for implementing quantum models on larger data throughout the NISQ era.</description>
+    <title>Quantum variational learning for quantum error-correcting codes</title>
+    <link>http://arxiv.org/pdf/2204.03560</link>
+    <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
   </item>
 
 </channel>

@@ -15,11 +15,27 @@
   </item>
 
   <item>
+    <title>Limitations of variational quantum algorithms: a quantum optimal transport approach</title>
+    <link>http://arxiv.org/pdf/2204.03455</link>
+    <author>Giacomo De Palma, Milad Marvian, Cambyse Rouzé, Daniel Stilck França</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>The impressive progress in quantum hardware of the last years has raised the interest of the quantum computing community in harvesting the computational power of such devices. However, in the absence of error correction, these devices can only reliably implement very shallow circuits or comparatively deeper circuits at the expense of a nontrivial density of errors. In this work, we obtain extremely tight limitation bounds for standard NISQ proposals in both the noisy and noiseless regimes, with or without error-mitigation tools. The bounds limit the performance of both circuit model algorithms, such as QAOA, and also continuous-time algorithms, such as quantum annealing. In the noisy regime with local depolarizing noise $p$, we prove that at depths $L=\cO(p^{-1})$ it is exponentially unlikely that the outcome of a noisy quantum circuit outperforms efficient classical algorithms for combinatorial optimization problems like Max-Cut. Although previous results already showed that classical algorithms outperform noisy quantum circuits at constant depth, these results only held for the expectation value of the output. Our results are based on newly developed quantum entropic and concentration inequalities, which constitute a homogeneous toolkit of theoretical methods from the quantum theory of optimal mass transport whose potential usefulness goes beyond the study of variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Bi-PPT channels are entanglement breaking</title>
     <link>http://arxiv.org/pdf/2204.01685</link>
     <author>Alexander Müller-Hermes, Satvik Singh</author>
     <pubDate>Apr 05 2022</pubDate>
     <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
+  </item>
+
+  <item>
+    <title>Quantum variational learning for quantum error-correcting codes</title>
+    <link>http://arxiv.org/pdf/2204.03560</link>
+    <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
   </item>
 
   <item>
@@ -55,14 +71,6 @@
   </item>
 
   <item>
-    <title>Experimental quantum adversarial learning with programmable superconducting qubits</title>
-    <link>http://arxiv.org/pdf/2204.01738</link>
-    <author>Wenhui Ren, Weikang Li, Shibo Xu, Ke Wang, Wenjie Jiang, Feitong Jin, Xuhao Zhu, Jiachen Chen, Zixuan Song, Pengfei Zhang, Hang Dong, Xu Zhang, Jinfeng Deng, Yu Gao, Chuanyu Zhang, Yaozu Wu, Bing Zhang, Qiujiang Guo, Hekang Li, Zhen Wang, et al (4)</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>Quantum computing promises to enhance machine learning and artificial intelligence. Different quantum algorithms have been proposed to improve a wide spectrum of machine learning tasks. Yet, recent theoretical works show that, similar to traditional classifiers based on deep classical neural networks, quantum classifiers would suffer from the vulnerability problem: adding tiny carefully-crafted perturbations to the legitimate original data samples would facilitate incorrect predictions at a notably high confidence level. This will pose serious problems for future quantum machine learning applications in safety and security-critical scenarios. Here, we report the first experimental demonstration of quantum adversarial learning with programmable superconducting qubits. We train quantum classifiers, which are built upon variational quantum circuits consisting of ten transmon qubits featuring average lifetimes of 150 $\mu$s, and average fidelities of simultaneous single- and two-qubit gates above 99.94% and 99.4% respectively, with both real-life images (e.g., medical magnetic resonance imaging scans) and quantum data. We demonstrate that these well-trained classifiers (with testing accuracy up to 99%) can be practically deceived by small adversarial perturbations, whereas an adversarial training process would significantly enhance their robustness to such perturbations. Our results reveal experimentally a crucial vulnerability aspect of quantum learning systems under adversarial scenarios and demonstrate an effective defense strategy against adversarial attacks, which provide a valuable guide for quantum artificial intelligence applications with both near-term and future quantum devices.</description>
-  </item>
-
-  <item>
     <title>Spectral estimation for stoquastic Hamiltonians: a comparison between classical imaginary-time evolution and quantum real-time evolution</title>
     <link>http://arxiv.org/pdf/2204.01113</link>
     <author>Maarten Stroeks, Jonas Helsen, Barbara Terhal</author>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>Peptide conformational sampling using the Quantum Approximate Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/2204.01821</link>
-    <author>Sami Boulebnane, Xavier Lucas, Agnes Meyder, Stanislaw Adaszewski, Ashley Montanaro</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>Protein folding -- the problem of predicting the spatial structure of a protein given its sequence of amino-acids -- has attracted considerable research effort in biochemistry in recent decades. In this work, we explore the potential of quantum computing to solve a simplified version of protein folding. More precisely, we numerically investigate the performance of a variational quantum algorithm, the Quantum Approximate Optimization Algorithm (QAOA), in sampling low-energy conformations of short peptides. We start by benchmarking the algorithm on an even simpler problem: sampling self-avoiding walks, which is a necessary condition for a valid protein conformation. Motivated by promising results achieved by QAOA on this problem, we then apply the algorithm to a more complete version of protein folding, including a simplified physical potential. In this case, based on numerical simulations on 20 qubits, we find less promising results: deep quantum circuits are required to achieve accurate results, and the performance of QAOA can be matched by random sampling up to a small overhead. Overall, these results cast serious doubt on the ability of QAOA to address the protein folding problem in the near term, even in an extremely simplified setting. We believe that the approach and conclusions presented in this work could offer valuable methodological insights on how to systematically evaluate variational quantum optimization algorithms on real-world problems beyond protein folding.</description>
-  </item>
-
-  <item>
-    <title>Complexity and entanglement in non-local computation and holography</title>
-    <link>http://arxiv.org/pdf/2204.00908</link>
-    <author>Alex May</author>
-    <pubDate>Apr 05 2022</pubDate>
-    <description>Does gravity constrain computation? We study this question using the AdS/CFT correspondence, where computation in the presence of gravity can be related to non-gravitational physics in the boundary theory. In AdS/CFT, computations which happen locally in the bulk are implemented in a particular non-local form in the boundary, which in general requires distributed entanglement. In particular, we argue that the area of a particular surface called the ridge, associated to a bulk subregion, is equal to the mutual information available in the boundary to perform the computation non-locally. We further argue the complexity of the local operation controls the amount of entanglement needed to implement it non-locally, and that in particular the complexity and entanglement cost are related by a polynomial. If this relationship holds, gravity constrains the complexity of operations within the scattering region to be polynomial in the area of the ridge.</description>
+    <title>Quantum Simulation for High Energy Physics</title>
+    <link>http://arxiv.org/pdf/2204.03381</link>
+    <author>Christian W. Bauer. Zohreh Davoudi, A. Baha Balantekin, Tanmoy Bhattacharya, Marcela Carena, Wibe A. de Jong, Patrick Draper, Aida El-Khadra, Nate Gemelke, Masanori Hanada, Dmitri Kharzeev, Henry Lamm, Ying-Ying Li, Junyu Liu, Mikhail Lukin, Yannick Meurice, Christopher Monroe, Benjamin Nachman, Guido Pagano, John Preskill, Enrico Rinaldi, et al (10)</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>It is for the first time that Quantum Simulation for High Energy Physics (HEP) is studied in the U.S. decadal particle-physics community planning, and in fact until recently, this was not considered a mainstream topic in the community. This fact speaks of a remarkable rate of growth of this subfield over the past few years, stimulated by the impressive advancements in Quantum Information Sciences (QIS) and associated technologies over the past decade, and the significant investment in this area by the government and private sectors in the U.S. and other countries. High-energy physicists have quickly identified problems of importance to our understanding of nature at the most fundamental level, from tiniest distances to cosmological extents, that are intractable with classical computers but may benefit from quantum advantage. They have initiated, and continue to carry out, a vigorous program in theory, algorithm, and hardware co-design for simulations of relevance to the HEP mission. This community whitepaper is an attempt to bring this exciting and yet challenging area of research to the spotlight, and to elaborate on what the promises, requirements, challenges, and potential solutions are over the next decade and beyond.</description>
   </item>
 
 </channel>
