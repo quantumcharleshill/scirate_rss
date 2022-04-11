@@ -39,14 +39,6 @@
   </item>
 
   <item>
-    <title>Fragile boundaries of tailored surface codes</title>
-    <link>http://arxiv.org/pdf/2203.04948</link>
-    <author>Oscar Higgott, Thomas C. Bohdanowicz, Aleksander Kubica, Steven T. Flammia, Earl T. Campbell</author>
-    <pubDate>Mar 10 2022</pubDate>
-    <description>Biased noise is common in physical qubits, and tailoring a quantum code to the bias by locally modifying stabilizers or changing boundary conditions has been shown to greatly increase error correction thresholds. In this work, we explore the challenges of using a specific tailored code, the XY surface code, for fault-tolerant quantum computation. We introduce an efficient and fault-tolerant decoder, belief-matching, which exploits correlated hyperedge fault mechanisms present in circuit-level noise. Using this decoder, we find that for moderately biased noise, the XY surface code has a higher threshold and lower overhead than the square CSS surface code, however it performs worse when below threshold than the rectangular CSS surface code. We identify a contributor to the reduced performance that we call fragile boundary errors. These are string-like errors that can occur along spatial or temporal boundaries in planar architectures or during logical state preparation and measurement. While we make partial progress towards mitigating these errors by deforming the boundaries of the XY surface code, our work suggests that fragility could remain a significant obstacle, even for other tailored codes. We expect that our belief-matching decoder will have other uses, and find that it increases the threshold of the surface code to 0.940(3)% in the presence of circuit-level depolarising noise, compared to 0.817(5)% for a minimum-weight perfect matching decoder.</description>
-  </item>
-
-  <item>
     <title>Hierarchies of resources for measurement-based quantum computation</title>
     <link>http://arxiv.org/pdf/2203.09965</link>
     <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
@@ -71,6 +63,14 @@
   </item>
 
   <item>
+    <title>Verifiable Quantum Advantage without Structure</title>
+    <link>http://arxiv.org/pdf/2204.02063</link>
+    <author>Takashi Yamakawa, Mark Zhandry</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
+  </item>
+
+  <item>
     <title>Adiabatic paths of Hamiltonians, symmetries of topological order, and automorphism codes</title>
     <link>http://arxiv.org/pdf/2203.11137</link>
     <author>David Aasen, Zhenghan Wang, Matthew B. Hastings</author>
@@ -79,19 +79,19 @@
   </item>
 
   <item>
+    <title>Limitations of variational quantum algorithms: a quantum optimal transport approach</title>
+    <link>http://arxiv.org/pdf/2204.03455</link>
+    <author>Giacomo De Palma, Milad Marvian, Cambyse Rouzé, Daniel Stilck França</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>The impressive progress in quantum hardware of the last years has raised the interest of the quantum computing community in harvesting the computational power of such devices. However, in the absence of error correction, these devices can only reliably implement very shallow circuits or comparatively deeper circuits at the expense of a nontrivial density of errors. In this work, we obtain extremely tight limitation bounds for standard NISQ proposals in both the noisy and noiseless regimes, with or without error-mitigation tools. The bounds limit the performance of both circuit model algorithms, such as QAOA, and also continuous-time algorithms, such as quantum annealing. In the noisy regime with local depolarizing noise $p$, we prove that at depths $L=\cO(p^{-1})$ it is exponentially unlikely that the outcome of a noisy quantum circuit outperforms efficient classical algorithms for combinatorial optimization problems like Max-Cut. Although previous results already showed that classical algorithms outperform noisy quantum circuits at constant depth, these results only held for the expectation value of the output. Our results are based on newly developed quantum entropic and concentration inequalities, which constitute a homogeneous toolkit of theoretical methods from the quantum theory of optimal mass transport whose potential usefulness goes beyond the study of variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Quantum-enhanced Markov chain Monte Carlo</title>
     <link>http://arxiv.org/pdf/2203.12497</link>
     <author>David Layden, Guglielmo Mazzola, Ryan V. Mishmash, Mario Motta, Pawel Wocjan, Jin-Sung Kim, Sarah Sheldon</author>
     <pubDate>Mar 24 2022</pubDate>
     <description>Sampling from complicated probability distributions is a hard computational problem arising in many fields, including statistical physics, optimization, and machine learning. Quantum computers have recently been used to sample from complicated distributions that are hard to sample from classically, but which seldom arise in applications. Here we introduce a quantum algorithm to sample from distributions that pose a bottleneck in several applications, which we implement on a superconducting quantum processor. The algorithm performs Markov chain Monte Carlo (MCMC), a popular iterative sampling technique, to sample from the Boltzmann distribution of classical Ising models. In each step, the quantum processor explores the model in superposition to propose a random move, which is then accepted or rejected by a classical computer and returned to the quantum processor, ensuring convergence to the desired Boltzmann distribution. We find that this quantum algorithm converges in fewer iterations than common classical MCMC alternatives on relevant problem instances, both in simulations and experiments. It therefore opens a new path for quantum computers to solve useful--not merely difficult--problems in the near term.</description>
-  </item>
-
-  <item>
-    <title>Verifiable Quantum Advantage without Structure</title>
-    <link>http://arxiv.org/pdf/2204.02063</link>
-    <author>Takashi Yamakawa, Mark Zhandry</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
   </item>
 
   <item>
@@ -108,14 +108,6 @@
     <author>Qian Xu, Nam Mannucci, Alireza Seif, Aleksander Kubica, Steven T. Flammia, Liang Jiang</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>Quantum error correction (QEC) for generic errors is challenging due to the demanding threshold and resource requirements. Interestingly, when physical noise is biased, we can tailor our QEC schemes to the noise to improve performance. Here we study a family of codes having XZZX-type stabilizer generators, including a set of cyclic codes generalized from the five-qubit code and a set of topological codes that we call generalized toric codes (GTCs). We show that these XZZX codes are highly qubit efficient if tailored to biased noise. To characterize the code performance, we use the notion of effective distance, which generalizes code distance to the case of biased noise and constitutes a proxy for the logical failure rate. We find that the XZZX codes can achieve a favorable resource scaling by this metric under biased noise. We also show that the XZZX codes have remarkably high thresholds that reach what is achievable by random codes, and furthermore they can be efficiently decoded using matching decoders. Finally, by adding only one flag qubit, the XZZX codes can realize fault-tolerant QEC while preserving their large effective distance. In combination, our results show that tailored XZZX codes give a resource-efficient scheme for fault-tolerant QEC against biased noise.</description>
-  </item>
-
-  <item>
-    <title>Limitations of variational quantum algorithms: a quantum optimal transport approach</title>
-    <link>http://arxiv.org/pdf/2204.03455</link>
-    <author>Giacomo De Palma, Milad Marvian, Cambyse Rouzé, Daniel Stilck França</author>
-    <pubDate>Apr 08 2022</pubDate>
-    <description>The impressive progress in quantum hardware of the last years has raised the interest of the quantum computing community in harvesting the computational power of such devices. However, in the absence of error correction, these devices can only reliably implement very shallow circuits or comparatively deeper circuits at the expense of a nontrivial density of errors. In this work, we obtain extremely tight limitation bounds for standard NISQ proposals in both the noisy and noiseless regimes, with or without error-mitigation tools. The bounds limit the performance of both circuit model algorithms, such as QAOA, and also continuous-time algorithms, such as quantum annealing. In the noisy regime with local depolarizing noise $p$, we prove that at depths $L=\cO(p^{-1})$ it is exponentially unlikely that the outcome of a noisy quantum circuit outperforms efficient classical algorithms for combinatorial optimization problems like Max-Cut. Although previous results already showed that classical algorithms outperform noisy quantum circuits at constant depth, these results only held for the expectation value of the output. Our results are based on newly developed quantum entropic and concentration inequalities, which constitute a homogeneous toolkit of theoretical methods from the quantum theory of optimal mass transport whose potential usefulness goes beyond the study of variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -175,11 +167,11 @@
   </item>
 
   <item>
-    <title>Quantifying Grover speed-ups beyond asymptotic analysis</title>
-    <link>http://arxiv.org/pdf/2203.04975</link>
-    <author>Chris Cade, Marten Folkertsma, Ido Niesen, Jordi Weggemans</author>
-    <pubDate>Mar 11 2022</pubDate>
-    <description>The usual method for studying run-times of quantum algorithms is via an asymptotic, worst-case analysis. Whilst useful, such a comparison can often fall short: it is not uncommon for algorithms with a large worst-case run-time to end up performing well on instances of practical interest. To remedy this it is necessary to resort to run-time analyses of a more empirical nature, which for sufficiently small input sizes can be performed on a quantum device or a simulation thereof. For larger input sizes, alternative approaches are required. In this paper we consider an approach that combines classical emulation with rigorous complexity bounds: simulating quantum algorithms by running classical versions of the sub-routines, whilst simultaneously collecting information about what the run-time of the quantum routine would have been if it were run instead. To do this accurately and efficiently for very large input sizes, we describe an estimation procedure that provides provable guarantees on the estimates that it obtains. A nice feature of this approach is that it allows one to compare the performance of quantum and classical algorithms on particular inputs of interest, rather than only on those that allow for an easier mathematical analysis. We apply our method to some simple quantum speedups of classical heuristic algorithms for solving the well-studied MAX-k-SAT optimization problem. To do this we first obtain some rigorous bounds (including all constants) on the expected- and worst-case complexities of two important quantum sub-routines, which improve upon existing results and might be of broader interest: Grover search with an unknown number of marked items, and quantum maximum-finding. Our results suggest that such an approach can provide insightful and meaningful information, in particular when the speedup is of a small polynomial nature.</description>
+    <title>Error propagation in NISQ devices for solving classical optimization problems</title>
+    <link>http://arxiv.org/pdf/2203.15632</link>
+    <author>Guillermo González-García, Rahul Trivedi, J. Ignacio Cirac</author>
+    <pubDate>Mar 30 2022</pubDate>
+    <description>We propose a random circuit model to analyze the impact of noise on the performance of variational quantum circuits for classical optimization problems. Our model accounts for the propagation of arbitrary single qubit errors through the circuit. We find that even with a small noise rate, the quality of the obtained classical optima is low on average and a single-qubit error rate of $1 / nD$, where $n$ is the number of qubits and $D$ is the circuit depth, is needed for the possibility of a quantum advantage. We estimate that this translates to an error rate lower than $10^{-6}$ using QAOA for classical optimization problems with 2D circuits.</description>
   </item>
 
   <item>
@@ -191,14 +183,6 @@
   </item>
 
   <item>
-    <title>Error propagation in NISQ devices for solving classical optimization problems</title>
-    <link>http://arxiv.org/pdf/2203.15632</link>
-    <author>Guillermo González-García, Rahul Trivedi, J. Ignacio Cirac</author>
-    <pubDate>Mar 30 2022</pubDate>
-    <description>We propose a random circuit model to analyze the impact of noise on the performance of variational quantum circuits for classical optimization problems. Our model accounts for the propagation of arbitrary single qubit errors through the circuit. We find that even with a small noise rate, the quality of the obtained classical optima is low on average and a single-qubit error rate of $1 / nD$, where $n$ is the number of qubits and $D$ is the circuit depth, is needed for the possibility of a quantum advantage. We estimate that this translates to an error rate lower than $10^{-6}$ using QAOA for classical optimization problems with 2D circuits.</description>
-  </item>
-
-  <item>
     <title>Memory Compression with Quantum Random-Access Gates</title>
     <link>http://arxiv.org/pdf/2203.05599</link>
     <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
@@ -207,11 +191,11 @@
   </item>
 
   <item>
-    <title>Opportunities and Limitations in Broadband Sensing</title>
-    <link>http://arxiv.org/pdf/2203.05520</link>
-    <author>Anthony M. Polloreno, Jacob L. Beckey, Joshua Levin, Ariel Shlosberg, James K. Thompson, Michael Foss-Feig, David Hayes, Graeme Smith</author>
-    <pubDate>Mar 11 2022</pubDate>
-    <description>We consider estimating the magnitude of a monochromatic AC signal that couples to a two-level sensor. For any detection protocol, the precision achieved depends on the signal's frequency and can be quantified by the quantum Fisher information. To study limitations in broadband sensing, we introduce the integrated quantum Fisher information and derive inequality bounds that embody fundamental tradeoffs in any sensing protocol. These inequalities show that sensitivity in one frequency range must come at a cost of reduced sensitivity elsewhere. For many protocols, including those with small phase accumulation and those consisting of $\pi$-pulses, we find the integrated Fisher information scales linearly with $T$. We also find protocols with substantial phase accumulation can have integrated QFI that grows quadratically with $T$, which is optimal. These protocols may allow the very rapid detection of a signal with unknown frequency over a very wide bandwidth.</description>
+    <title>Quantum variational learning for quantum error-correcting codes</title>
+    <link>http://arxiv.org/pdf/2204.03560</link>
+    <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
+    <pubDate>Apr 08 2022</pubDate>
+    <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
   </item>
 
   <item>
@@ -231,19 +215,35 @@
   </item>
 
   <item>
+    <title>A Variational Ansatz for the Ground State of the Quantum Sherrington-Kirkpatrick Model</title>
+    <link>http://arxiv.org/pdf/2204.02923</link>
+    <author>Paul M. Schindler, Tommaso Guaita, Tao Shi, Eugene Demler, J. Ignacio Cirac</author>
+    <pubDate>Apr 07 2022</pubDate>
+    <description>We present an ansatz for the ground states of the Quantum Sherrington-Kirkpatrick model, a paradigmatic model for quantum spin glasses. Our ansatz, based on the concept of generalized coherent states, very well captures the fundamental aspects of the model, including the ground state energy and the position of the spin glass phase transition. It further enables us to study some previously unexplored features, such as the non-vanishing longitudinal field regime and the entanglement structure of the ground states. We find that the ground state entanglement can be captured by a simple ensemble of weighted graph states with normally distributed phase gates, leading to a volume law entanglement, contrasting with predictions based on entanglement monogamy.</description>
+  </item>
+
+  <item>
+    <title>Measuring magic on a quantum processor</title>
+    <link>http://arxiv.org/pdf/2204.00015</link>
+    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
+    <pubDate>Apr 04 2022</pubDate>
+    <description>Magic states are the resource that allows quantum computers to attain an advantage over classical computers. This resource consists in the deviation from a property called stabilizerness which in turn implies that stabilizer circuits can be efficiently simulated on a classical computer. Without magic, no quantum computer can do anything that a classical computer cannot do. Given the importance of magic for quantum computation, it would be useful to have a method for measuring the amount of magic in a quantum state. In this work, we propose and experimentally demonstrate a protocol for measuring magic based on randomized measurements. Our experiments are carried out on two IBM Quantum Falcon processors. This protocol can provide a characterization of the effectiveness of a quantum hardware in producing states that cannot be effectively simulated on a classical computer. We show how from these measurements one can construct realistic noise models affecting the hardware.</description>
+  </item>
+
+  <item>
+    <title>Entanglement area law for 1D gauge theories and bosonic systems</title>
+    <link>http://arxiv.org/pdf/2203.16012</link>
+    <author>Nilin Abrahamsen, Yuan Su, Yu Tong, Nathan Wiebe</author>
+    <pubDate>Mar 31 2022</pubDate>
+    <description>We prove an entanglement area law for a class of 1D quantum systems involving infinite-dimensional local Hilbert spaces. This class of quantum systems include bosonic models such as the Hubbard-Holstein model, and both U(1) and SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new results concerning the robustness of the ground state and spectral gap to the truncation of Hilbert space, applied within the approximate ground state projector (AGSP) framework from previous work. In establishing this area law, we develop a system-size independent bound on the expectation value of local observables for Hamiltonians without translation symmetry, which may be of separate interest. Our result provides theoretical justification for using tensor network methods to study the ground state properties of quantum systems with infinite local degrees of freedom.</description>
+  </item>
+
+  <item>
     <title>Randomized Benchmarking Beyond Groups</title>
     <link>http://arxiv.org/pdf/2203.12703</link>
     <author>Jianxin Chen, Dawei Ding, Cupjin Huang</author>
     <pubDate>Mar 25 2022</pubDate>
     <description>Randomized benchmarking (RB) is the gold standard for experimentally evaluating the quality of quantum operations. The current framework for RB is centered on groups and their representations, but this can be problematic. For example, Clifford circuits need up to $O(n^2)$ gates, and thus Clifford RB cannot scale to larger devices. Attempts to remedy this include new schemes such as linear cross-entropy benchmarking (XEB), cycle benchmarking, and non-uniform RB, but they do not fall within the group-based RB framework. In this work, we formulate the universal randomized benchmarking (URB) framework which does away with the group structure and also replaces the recovery gate plus measurement component with a general "post-processing" POVM. Not only does this framework cover most of the existing benchmarking schemes, but it also gives the language for and helps inspire the formulation of new schemes. We specifically consider a class of URB schemes called twirling schemes. For twirling schemes, the post-processing POVM approximately factorizes into an intermediate channel, inverting maps, and a final measurement. This leads us to study the twirling map corresponding to the gate ensemble specified by the scheme. We prove that if this twirling map is strictly within unit distance of the Haar twirling map in induced diamond norm, the probability of measurement as a function of gate length is a single exponential decay up to small error terms. The core technical tool we use is the matrix perturbation theory of linear operators on quantum channels.</description>
-  </item>
-
-  <item>
-    <title>Quantum variational learning for quantum error-correcting codes</title>
-    <link>http://arxiv.org/pdf/2204.03560</link>
-    <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
-    <pubDate>Apr 08 2022</pubDate>
-    <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
   </item>
 
 </channel>

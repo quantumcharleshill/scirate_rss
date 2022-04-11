@@ -183,14 +183,6 @@
   </item>
 
   <item>
-    <title>Entangling power and quantum circuit complexity</title>
-    <link>http://arxiv.org/pdf/2104.03332</link>
-    <author>J. Eisert</author>
-    <pubDate>Apr 09 2021</pubDate>
-    <description>Notions of circuit complexity and cost play a key role in quantum computing and simulation where they capture the (weighted) minimal number of gates that is required to implement a unitary. Similar notions also become increasingly prominent in high energy physics in the study of holography. While notions of entanglement have in general little implications for the quantum circuit complexity and the cost of a unitary, in this note, we discuss a simple such relationship when both the entanglement of a state and the cost of a unitary take small values, building on ideas on how values of entangling power of quantum gates add up. This bound implies that if entanglement entropies grow linearly in time, so does the cost. The implications are two-fold: It provides insights into complexity growth for short times. In the context of quantum simulation, it allows to compare digital and analog quantum simulators. The main technical contribution is a continuous-variable small incremental entangling bound.</description>
-  </item>
-
-  <item>
     <title>Open Problems Related to Quantum Query Complexity</title>
     <link>http://arxiv.org/pdf/2109.06917</link>
     <author>Scott Aaronson</author>
@@ -404,6 +396,14 @@
     <author>Steven T. Flammia, Ryan O'Donnell</author>
     <pubDate>May 10 2021</pubDate>
     <description>Motivated by estimation of quantum noise models, we study the problem of learning a Pauli channel, or more generally the Pauli error rates of an arbitrary channel. By employing a novel reduction to the "Population Recovery" problem, we give an extremely simple algorithm that learns the Pauli error rates of an $n$-qubit channel to precision $\epsilon$ in $\ell_\infty$ using just $O(1/\epsilon^2) \log(n/\epsilon)$ applications of the channel. This is optimal up to the logarithmic factors. Our algorithm uses only unentangled state preparation and measurements, and the post-measurement classical runtime is just an $O(1/\epsilon)$ factor larger than the measurement data size. It is also impervious to a limited model of measurement noise where heralded measurement failures occur independently with probability $\le 1/4$. We then consider the case where the noise channel is close to the identity, meaning that the no-error outcome occurs with probability $1-\eta$. In the regime of small $\eta$ we extend our algorithm to achieve multiplicative precision $1 \pm \epsilon$ (i.e., additive precision $\epsilon \eta$) using just $O\bigl(\frac{1}{\epsilon^2 \eta}\bigr) \log(n/\epsilon)$ applications of the channel.</description>
+  </item>
+
+  <item>
+    <title>Practical quantum error correction with the XZZX code and Kerr-cat qubits</title>
+    <link>http://arxiv.org/pdf/2104.09539</link>
+    <author>Andrew S. Darmawan, Benjamin J. Brown, Arne L. Grimsmo, David K. Tuckett, Shruti Puri</author>
+    <pubDate>Apr 21 2021</pubDate>
+    <description>The development of robust architectures capable of large-scale fault-tolerant quantum computation should consider both their quantum error-correcting codes, and the underlying physical qubits upon which they are built, in tandem. Following this design principle we demonstrate remarkable error correction performance by concatenating the XZZX surface code with Kerr-cat qubits. We contrast several variants of fault-tolerant systems undergoing different circuit noise models that reflect the physics of Kerr-cat qubits. Our simulations show that our system is scalable below a threshold gate infidelity of $p_\mathrm{CX} \sim 6.5\%$ within a physically reasonable parameter regime, where $p_\mathrm{CX}$ is the infidelity of the noisiest gate of our system; the controlled-not gate. This threshold can be reached in a superconducting circuit architecture with a Kerr-nonlinearity of $10$MHz, a $\sim 6.25$ photon cat qubit, single-photon lifetime of $\gtrsim 64\mu$s, and thermal photon population $\lesssim 8\%$. Such parameters are routinely achieved in superconducting circuits.</description>
   </item>
 
 </channel>
