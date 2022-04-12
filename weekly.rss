@@ -23,6 +23,22 @@
   </item>
 
   <item>
+    <title>Modern applications of machine learning in quantum sciences</title>
+    <link>http://arxiv.org/pdf/2204.04198</link>
+    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
+  </item>
+
+  <item>
+    <title>Quantum Routing with Teleportation</title>
+    <link>http://arxiv.org/pdf/2204.04185</link>
+    <author>Dhruv Devulapalli, Eddie Schoute, Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>We study the problem of implementing arbitrary permutations of qubits under interaction constraints in quantum systems that allow for arbitrarily fast local operations and classical communication (LOCC). In particular, we show examples of speedups over swap-based and more general unitary routing methods by distributing entanglement and using LOCC to perform quantum teleportation. We further describe an example of an interaction graph for which teleportation gives a logarithmic speedup in the worst-case routing time over swap-based routing. We also study limits on the speedup afforded by quantum teleportation - showing an $O(\sqrt{N \log N})$ upper bound on the separation in routing time for any interaction graph - and give tighter bounds for some common classes of graphs.</description>
+  </item>
+
+  <item>
     <title>Quantum variational learning for quantum error-correcting codes</title>
     <link>http://arxiv.org/pdf/2204.03560</link>
     <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
@@ -31,27 +47,11 @@
   </item>
 
   <item>
-    <title>Bi-PPT channels are entanglement breaking</title>
-    <link>http://arxiv.org/pdf/2204.01685</link>
-    <author>Alexander Müller-Hermes, Satvik Singh</author>
-    <pubDate>Apr 05 2022</pubDate>
-    <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
-  </item>
-
-  <item>
     <title>A Variational Ansatz for the Ground State of the Quantum Sherrington-Kirkpatrick Model</title>
     <link>http://arxiv.org/pdf/2204.02923</link>
     <author>Paul M. Schindler, Tommaso Guaita, Tao Shi, Eugene Demler, J. Ignacio Cirac</author>
     <pubDate>Apr 07 2022</pubDate>
     <description>We present an ansatz for the ground states of the Quantum Sherrington-Kirkpatrick model, a paradigmatic model for quantum spin glasses. Our ansatz, based on the concept of generalized coherent states, very well captures the fundamental aspects of the model, including the ground state energy and the position of the spin glass phase transition. It further enables us to study some previously unexplored features, such as the non-vanishing longitudinal field regime and the entanglement structure of the ground states. We find that the ground state entanglement can be captured by a simple ensemble of weighted graph states with normally distributed phase gates, leading to a volume law entanglement, contrasting with predictions based on entanglement monogamy.</description>
-  </item>
-
-  <item>
-    <title>Diagrammatic Analysis for Parameterized Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2204.01307</link>
-    <author>Tobias Stollenwerk, Stuart Hadfield</author>
-    <pubDate>Apr 05 2022</pubDate>
-    <description>Diagrammatic representations of quantum algorithms and circuits offer novel approaches to their design and analysis. In this work, we describe extensions of the ZX-calculus especially suitable for parameterized quantum circuits, in particular for computing observable expectation values as functions of or for fixed parameters, which are important algorithmic quantities in a variety of applications ranging from combinatorial optimization to quantum chemistry. We provide several new ZX-diagram rewrite rules and generalizations for this setting. In particular, we give formal rules for dealing with linear combinations of ZX-diagrams, where the relative complex-valued scale factors of each diagram must be kept track of, in contrast to most previously studied single-diagram realizations where these coefficients can be effectively ignored. This allows us to directly import a number useful relations from the operator analysis to ZX-calculus setting, including causal cone and quantum gate commutation rules. We demonstrate that the diagrammatic approach offers useful insights into algorithm structure and performance by considering several ansätze from the literature including realizations of hardware-efficient ansätze and QAOA. We find that by employing a diagrammatic representation, calculations across different ansätze can become more intuitive and potentially easier approach systematically than by alternative means. Finally, we outline how diagrammatic approaches may aid in the design and study of new and more effective quantum circuit ansätze.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Spectral estimation for stoquastic Hamiltonians: a comparison between classical imaginary-time evolution and quantum real-time evolution</title>
-    <link>http://arxiv.org/pdf/2204.01113</link>
-    <author>Maarten Stroeks, Jonas Helsen, Barbara Terhal</author>
-    <pubDate>Apr 05 2022</pubDate>
-    <description>We present a classical Monte Carlo (MC) scheme which efficiently estimates an imaginary-time, decaying signal for stoquastic (i.e. sign-problem-free) local Hamiltonians. The decay rates in this signal correspond to Hamiltonian eigenvalues (with associated eigenstates present in an initial state) and can be classically extracted using a classical signal processing method like ESPRIT. We compare the efficiency of this MC scheme to its quantum counterpart in which one extracts eigenvalues of a general local Hamiltonian from a real-time, oscillatory signal obtained through quantum phase estimation circuits, again using the ESPRIT method. We prove that the ESPRIT method can resolve S = poly(n) eigenvalues, assuming a 1/poly(n) gap between them, with poly(n) quantum and classical effort through the quantum phase estimation circuits. We prove that our Monte Carlo scheme plus the ESPRIT method can resolve S = O(1) eigenvalues, assuming a 1/poly(n) gap between them, with poly(n) purely classical effort for stoquastic Hamiltonians. These results thus quantify some opportunities and limitations of classical Monte Carlo methods for spectral estimation of stoquastic Hamiltonians. We numerically compare these MC and QPE eigenvalue estimation schemes by implementing them for an archetypal stoquastic Hamiltonian system: the transverse field Ising chain.</description>
-  </item>
-
-  <item>
     <title>Experimental quantum adversarial learning with programmable superconducting qubits</title>
     <link>http://arxiv.org/pdf/2204.01738</link>
     <author>Wenhui Ren, Weikang Li, Shibo Xu, Ke Wang, Wenjie Jiang, Feitong Jin, Xuhao Zhu, Jiachen Chen, Zixuan Song, Pengfei Zhang, Hang Dong, Xu Zhang, Jinfeng Deng, Yu Gao, Chuanyu Zhang, Yaozu Wu, Bing Zhang, Qiujiang Guo, Hekang Li, Zhen Wang, et al (4)</author>
     <pubDate>Apr 06 2022</pubDate>
     <description>Quantum computing promises to enhance machine learning and artificial intelligence. Different quantum algorithms have been proposed to improve a wide spectrum of machine learning tasks. Yet, recent theoretical works show that, similar to traditional classifiers based on deep classical neural networks, quantum classifiers would suffer from the vulnerability problem: adding tiny carefully-crafted perturbations to the legitimate original data samples would facilitate incorrect predictions at a notably high confidence level. This will pose serious problems for future quantum machine learning applications in safety and security-critical scenarios. Here, we report the first experimental demonstration of quantum adversarial learning with programmable superconducting qubits. We train quantum classifiers, which are built upon variational quantum circuits consisting of ten transmon qubits featuring average lifetimes of 150 $\mu$s, and average fidelities of simultaneous single- and two-qubit gates above 99.94% and 99.4% respectively, with both real-life images (e.g., medical magnetic resonance imaging scans) and quantum data. We demonstrate that these well-trained classifiers (with testing accuracy up to 99%) can be practically deceived by small adversarial perturbations, whereas an adversarial training process would significantly enhance their robustness to such perturbations. Our results reveal experimentally a crucial vulnerability aspect of quantum learning systems under adversarial scenarios and demonstrate an effective defense strategy against adversarial attacks, which provide a valuable guide for quantum artificial intelligence applications with both near-term and future quantum devices.</description>
+  </item>
+
+  <item>
+    <title>Matrix multiplication via matrix groups</title>
+    <link>http://arxiv.org/pdf/2204.03826</link>
+    <author>Jonah Blasiak, Henry Cohn, Joshua A. Grochow, Kevin Pratt, Chris Umans</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>In 2003, Cohn and Umans proposed a group-theoretic approach to bounding the exponent of matrix multiplication. Previous work within this approach ruled out certain families of groups as a route to obtaining $\omega = 2$, while other families of groups remain potentially viable. In this paper we turn our attention to matrix groups, whose usefulness within this framework was relatively unexplored. We first show that groups of Lie type cannot prove $\omega=2$ within the group-theoretic approach. This is based on a representation-theoretic argument that identifies the second-smallest dimension of an irreducible representation of a group as a key parameter that determines its viability in this framework. Our proof builds on Gowers' result concerning product-free sets in quasirandom groups. We then give another barrier that rules out certain natural matrix group constructions that make use of subgroups that are far from being self-normalizing. Our barrier results leave open several natural paths to obtain $\omega = 2$ via matrix groups. To explore these routes we propose working in the continuous setting of Lie groups, in which we develop an analogous theory. Obtaining the analogue of $\omega=2$ in this potentially easier setting is a key challenge that represents an intermediate goal short of actually proving $\omega = 2$. We give two constructions in the continuous setting, each of which evades one of our two barriers.</description>
   </item>
 
 </channel>
