@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Verifiable Quantum Advantage without Structure</title>
-    <link>http://arxiv.org/pdf/2204.02063</link>
-    <author>Takashi Yamakawa, Mark Zhandry</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
+    <title>Modern applications of machine learning in quantum sciences</title>
+    <link>http://arxiv.org/pdf/2204.04198</link>
+    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
   </item>
 
   <item>
@@ -20,14 +20,6 @@
     <author>Giacomo De Palma, Milad Marvian, Cambyse Rouzé, Daniel Stilck França</author>
     <pubDate>Apr 08 2022</pubDate>
     <description>The impressive progress in quantum hardware of the last years has raised the interest of the quantum computing community in harvesting the computational power of such devices. However, in the absence of error correction, these devices can only reliably implement very shallow circuits or comparatively deeper circuits at the expense of a nontrivial density of errors. In this work, we obtain extremely tight limitation bounds for standard NISQ proposals in both the noisy and noiseless regimes, with or without error-mitigation tools. The bounds limit the performance of both circuit model algorithms, such as QAOA, and also continuous-time algorithms, such as quantum annealing. In the noisy regime with local depolarizing noise $p$, we prove that at depths $L=\cO(p^{-1})$ it is exponentially unlikely that the outcome of a noisy quantum circuit outperforms efficient classical algorithms for combinatorial optimization problems like Max-Cut. Although previous results already showed that classical algorithms outperform noisy quantum circuits at constant depth, these results only held for the expectation value of the output. Our results are based on newly developed quantum entropic and concentration inequalities, which constitute a homogeneous toolkit of theoretical methods from the quantum theory of optimal mass transport whose potential usefulness goes beyond the study of variational quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Modern applications of machine learning in quantum sciences</title>
-    <link>http://arxiv.org/pdf/2204.04198</link>
-    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
-    <pubDate>Apr 11 2022</pubDate>
-    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
   </item>
 
   <item>
@@ -44,6 +36,14 @@
     <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
     <pubDate>Apr 08 2022</pubDate>
     <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
+  </item>
+
+  <item>
+    <title>On the Cleaning Lemma of Quantum Coding Theory</title>
+    <link>http://arxiv.org/pdf/2204.04699</link>
+    <author>Gleb Kalachev, Sergey Sadov</author>
+    <pubDate>Apr 12 2022</pubDate>
+    <description>The term "Cleaning Lemma" refers to a family of similar propositions that have been used in Quantum Coding Theory to estimate the minimum distance of a code in terms of its length and dimension. We show that the mathematical core is a simple fact of linear algebra of inner product spaces; moreover, it admits a further reduction to a combinatorial, lattice-theoretical level. Several concrete variants of the Cleaning Lemma and some additional propositions are derived as corollaries of the proposed approach.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Experimental quantum adversarial learning with programmable superconducting qubits</title>
-    <link>http://arxiv.org/pdf/2204.01738</link>
-    <author>Wenhui Ren, Weikang Li, Shibo Xu, Ke Wang, Wenjie Jiang, Feitong Jin, Xuhao Zhu, Jiachen Chen, Zixuan Song, Pengfei Zhang, Hang Dong, Xu Zhang, Jinfeng Deng, Yu Gao, Chuanyu Zhang, Yaozu Wu, Bing Zhang, Qiujiang Guo, Hekang Li, Zhen Wang, et al (4)</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>Quantum computing promises to enhance machine learning and artificial intelligence. Different quantum algorithms have been proposed to improve a wide spectrum of machine learning tasks. Yet, recent theoretical works show that, similar to traditional classifiers based on deep classical neural networks, quantum classifiers would suffer from the vulnerability problem: adding tiny carefully-crafted perturbations to the legitimate original data samples would facilitate incorrect predictions at a notably high confidence level. This will pose serious problems for future quantum machine learning applications in safety and security-critical scenarios. Here, we report the first experimental demonstration of quantum adversarial learning with programmable superconducting qubits. We train quantum classifiers, which are built upon variational quantum circuits consisting of ten transmon qubits featuring average lifetimes of 150 $\mu$s, and average fidelities of simultaneous single- and two-qubit gates above 99.94% and 99.4% respectively, with both real-life images (e.g., medical magnetic resonance imaging scans) and quantum data. We demonstrate that these well-trained classifiers (with testing accuracy up to 99%) can be practically deceived by small adversarial perturbations, whereas an adversarial training process would significantly enhance their robustness to such perturbations. Our results reveal experimentally a crucial vulnerability aspect of quantum learning systems under adversarial scenarios and demonstrate an effective defense strategy against adversarial attacks, which provide a valuable guide for quantum artificial intelligence applications with both near-term and future quantum devices.</description>
-  </item>
-
-  <item>
     <title>Matrix multiplication via matrix groups</title>
     <link>http://arxiv.org/pdf/2204.03826</link>
     <author>Jonah Blasiak, Henry Cohn, Joshua A. Grochow, Kevin Pratt, Chris Umans</author>
     <pubDate>Apr 11 2022</pubDate>
     <description>In 2003, Cohn and Umans proposed a group-theoretic approach to bounding the exponent of matrix multiplication. Previous work within this approach ruled out certain families of groups as a route to obtaining $\omega = 2$, while other families of groups remain potentially viable. In this paper we turn our attention to matrix groups, whose usefulness within this framework was relatively unexplored. We first show that groups of Lie type cannot prove $\omega=2$ within the group-theoretic approach. This is based on a representation-theoretic argument that identifies the second-smallest dimension of an irreducible representation of a group as a key parameter that determines its viability in this framework. Our proof builds on Gowers' result concerning product-free sets in quasirandom groups. We then give another barrier that rules out certain natural matrix group constructions that make use of subgroups that are far from being self-normalizing. Our barrier results leave open several natural paths to obtain $\omega = 2$ via matrix groups. To explore these routes we propose working in the continuous setting of Lie groups, in which we develop an analogous theory. Obtaining the analogue of $\omega=2$ in this potentially easier setting is a key challenge that represents an intermediate goal short of actually proving $\omega = 2$. We give two constructions in the continuous setting, each of which evades one of our two barriers.</description>
+  </item>
+
+  <item>
+    <title>Entanglement-invertible channels</title>
+    <link>http://arxiv.org/pdf/2204.04493</link>
+    <author>Dominic Verdon</author>
+    <pubDate>Apr 12 2022</pubDate>
+    <description>In a well-known result \citeWerner2001, Werner classified all \emphtight quantum teleportation and dense coding schemes, showing that they correspond to \emphunitary error bases. Here tightness is a certain dimensional restriction: the quantum system to be teleported and the entangled resource must be of dimension d, and the measurement must have d^2 outcomes. In this work we generalise this classification so as to remove the dimensional restriction altogether, thereby resolving an open problem raised in that work. In fact, we classify not just teleportation and dense coding schemes, but \emphentanglement-reversible channels. These are channels between finite-dimensional C^*-algebras which are reversible with the aid of an entangled resource state, generalising ordinary reversibility of a channel. In Werner's classification, a bijective correspondence between tight teleportation and dense coding schemes was shown: swapping Alice and Bob's operations turns a teleportation scheme into a dense coding scheme and vice versa. We observe that this property generalises ordinary invertibility of a channel; we call it \emphentanglement-invertibility. We show that entanglement-invertible channels are precisely the \emphquantum bijections previously studied in the setting of quantum combinatorics \citeMusto2018, which are classified in terms of the representation theory of the quantum permutation group.</description>
   </item>
 
 </channel>
