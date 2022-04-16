@@ -95,19 +95,19 @@
   </item>
 
   <item>
-    <title>Averaged circuit eigenvalue sampling</title>
-    <link>http://arxiv.org/pdf/2108.05803</link>
-    <author>Steven T. Flammia</author>
-    <pubDate>Aug 13 2021</pubDate>
-    <description>We introduce ACES, a method for scalable noise metrology of quantum circuits that stands for Averaged Circuit Eigenvalue Sampling. It simultaneously estimates the individual error rates of all the gates in collections of quantum circuits, and can even account for space and time correlations between these gates. ACES strictly generalizes randomized benchmarking (RB), interleaved RB, simultaneous RB, and several other related techniques. However, ACES provides much more information and provably works under strictly weaker assumptions than these techniques. Finally, ACES is extremely scalable: we demonstrate with numerical simulations that it simultaneously and precisely estimates all the Pauli error rates on every gate and measurement in a 100 qubit quantum device using fewer than 20 relatively shallow Clifford circuits and an experimentally feasible number of samples. By learning the detailed gate errors for large quantum devices, ACES opens new possibilities for error mitigation, bespoke quantum error correcting codes and decoders, customized compilers, and more.</description>
-  </item>
-
-  <item>
     <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
     <link>http://arxiv.org/pdf/2201.08309</link>
     <author>Lin Lin</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
+    <title>Averaged circuit eigenvalue sampling</title>
+    <link>http://arxiv.org/pdf/2108.05803</link>
+    <author>Steven T. Flammia</author>
+    <pubDate>Aug 13 2021</pubDate>
+    <description>We introduce ACES, a method for scalable noise metrology of quantum circuits that stands for Averaged Circuit Eigenvalue Sampling. It simultaneously estimates the individual error rates of all the gates in collections of quantum circuits, and can even account for space and time correlations between these gates. ACES strictly generalizes randomized benchmarking (RB), interleaved RB, simultaneous RB, and several other related techniques. However, ACES provides much more information and provably works under strictly weaker assumptions than these techniques. Finally, ACES is extremely scalable: we demonstrate with numerical simulations that it simultaneously and precisely estimates all the Pauli error rates on every gate and measurement in a 100 qubit quantum device using fewer than 20 relatively shallow Clifford circuits and an experimentally feasible number of samples. By learning the detailed gate errors for large quantum devices, ACES opens new possibilities for error mitigation, bespoke quantum error correcting codes and decoders, customized compilers, and more.</description>
   </item>
 
   <item>
@@ -231,6 +231,14 @@
   </item>
 
   <item>
+    <title>Exponential separations between learning with and without quantum memory</title>
+    <link>http://arxiv.org/pdf/2111.05881</link>
+    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
+    <pubDate>Nov 12 2021</pubDate>
+    <description>We study the power of quantum memory for learning properties of quantum systems and dynamics, which is of great importance in physics and chemistry. Many state-of-the-art learning algorithms require access to an additional external quantum memory. While such a quantum memory is not required a priori, in many cases, algorithms that do not utilize quantum memory require much more data than those which do. We show that this trade-off is inherent in a wide range of learning problems. Our results include the following: (1) We show that to perform shadow tomography on an $n$-qubit state rho with $M$ observables, any algorithm without quantum memory requires $\Omega(\min(M, 2^n))$ samples of rho in the worst case. Up to logarithmic factors, this matches the upper bound of [HKP20] and completely resolves an open question in [Aar18, AR19]. (2) We establish exponential separations between algorithms with and without quantum memory for purity testing, distinguishing scrambling and depolarizing evolutions, as well as uncovering symmetry in physical dynamics. Our separations improve and generalize prior work of [ACQ21] by allowing for a broader class of algorithms without quantum memory. (3) We give the first tradeoff between quantum memory and sample complexity. We prove that to estimate absolute values of all $n$-qubit Pauli observables, algorithms with $k < n$ qubits of quantum memory require at least $\Omega(2^{(n-k)/3})$ samples, but there is an algorithm using $n$-qubit quantum memory which only requires $O(n)$ samples. The separations we show are sufficiently large and could already be evident, for instance, with tens of qubits. This provides a concrete path towards demonstrating real-world advantage for learning algorithms with quantum memory.</description>
+  </item>
+
+  <item>
     <title>Lifting decoders for classical codes to decoders for quantum codes</title>
     <link>http://arxiv.org/pdf/2105.02370</link>
     <author>Armanda O. Quintavalle, Earl T. Campbell</author>
@@ -255,27 +263,11 @@
   </item>
 
   <item>
-    <title>Permanent of random matrices from representation theory: moments, numerics, concentration, and comments on hardness of boson-sampling</title>
-    <link>http://arxiv.org/pdf/2104.06423</link>
-    <author>Sepehr Nezami</author>
-    <pubDate>Apr 15 2021</pubDate>
-    <description>Computing the distribution of permanents of random matrices has been an outstanding open problem for several decades. In quantum computing, "anti-concentration" of this distribution is an unproven input for the proof of hardness of the task of boson-sampling. We study permanents of random i.i.d. complex Gaussian matrices, and more broadly, submatrices of random unitary matrices. Using a hybrid representation-theoretic and combinatorial approach, we prove strong lower bounds for all moments of the permanent distribution. We provide substantial evidence that our bounds are close to being tight and constitute accurate estimates for the moments. Let $U(d)^{k\times k}$ be the distribution of $k\times k$ submatrices of $d\times d$ random unitary matrices, and $G^{k\times k}$ be the distribution of $k\times k$ complex Gaussian matrices. (1) Using the Schur-Weyl duality (or the Howe duality), we prove an expansion formula for the $2t$-th moment of $|Perm(M)|$ when $M$ is drawn from $U(d)^{k\times k}$ or $G^{k\times k}$. (2) We prove a surprising size-moment duality: the $2t$-th moment of the permanent of random $k\times k$ matrices is equal to the $2k$-th moment of the permanent of $t\times t$ matrices. (3) We design an algorithm to exactly compute high moments of the permanent of small matrices. (4) We prove lower bounds for arbitrary moments of permanents of matrices drawn from $G^{ k\times k}$ or $U(k)$, and conjecture that our lower bounds are close to saturation up to a small multiplicative error. (5) Assuming our conjectures, we use the large deviation theory to compute the tail of the distribution of log-permanent of Gaussian matrices for the first time. (6) We argue that it is unlikely that the permanent distribution can be uniquely determined from the integer moments and one may need to supplement the moment calculations with extra assumptions to prove the anti-concentration conjecture.</description>
-  </item>
-
-  <item>
     <title>Symmetry Protected Quantum Computation</title>
     <link>http://arxiv.org/pdf/2105.04649</link>
     <author>Michael H. Freedman, Matthew B. Hastings, Modjtaba Shokrian Zini</author>
     <pubDate>May 12 2021</pubDate>
     <description>We consider a model of quantum computation using qubits where it is possible to measure whether a given pair are in a singlet (total spin $0$) or triplet (total spin $1$) state. The physical motivation is that we can do these measurements in a way that is protected against revealing other information so long as all terms in the Hamiltonian are $SU(2)$-invariant. We conjecture that this model is equivalent to BQP. Towards this goal, we show: (1) this model is capable of universal quantum computation with polylogarithmic overhead if it is supplemented by single qubit $X$ and $Z$ gates. (2) Without any additional gates, it is at least as powerful as the weak model of "permutational quantum computation" of Jordan [14, 18]. (3) With postselection, the model is equivalent to PostBQP.</description>
-  </item>
-
-  <item>
-    <title>Exponential separations between learning with and without quantum memory</title>
-    <link>http://arxiv.org/pdf/2111.05881</link>
-    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
-    <pubDate>Nov 12 2021</pubDate>
-    <description>We study the power of quantum memory for learning properties of quantum systems and dynamics, which is of great importance in physics and chemistry. Many state-of-the-art learning algorithms require access to an additional external quantum memory. While such a quantum memory is not required a priori, in many cases, algorithms that do not utilize quantum memory require much more data than those which do. We show that this trade-off is inherent in a wide range of learning problems. Our results include the following: (1) We show that to perform shadow tomography on an $n$-qubit state rho with $M$ observables, any algorithm without quantum memory requires $\Omega(\min(M, 2^n))$ samples of rho in the worst case. Up to logarithmic factors, this matches the upper bound of [HKP20] and completely resolves an open question in [Aar18, AR19]. (2) We establish exponential separations between algorithms with and without quantum memory for purity testing, distinguishing scrambling and depolarizing evolutions, as well as uncovering symmetry in physical dynamics. Our separations improve and generalize prior work of [ACQ21] by allowing for a broader class of algorithms without quantum memory. (3) We give the first tradeoff between quantum memory and sample complexity. We prove that to estimate absolute values of all $n$-qubit Pauli observables, algorithms with $k < n$ qubits of quantum memory require at least $\Omega(2^{(n-k)/3})$ samples, but there is an algorithm using $n$-qubit quantum memory which only requires $O(n)$ samples. The separations we show are sufficiently large and could already be evident, for instance, with tens of qubits. This provides a concrete path towards demonstrating real-world advantage for learning algorithms with quantum memory.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Andrew S. Darmawan, Benjamin J. Brown, Arne L. Grimsmo, David K. Tuckett, Shruti Puri</author>
     <pubDate>Apr 21 2021</pubDate>
     <description>The development of robust architectures capable of large-scale fault-tolerant quantum computation should consider both their quantum error-correcting codes, and the underlying physical qubits upon which they are built, in tandem. Following this design principle we demonstrate remarkable error correction performance by concatenating the XZZX surface code with Kerr-cat qubits. We contrast several variants of fault-tolerant systems undergoing different circuit noise models that reflect the physics of Kerr-cat qubits. Our simulations show that our system is scalable below a threshold gate infidelity of $p_\mathrm{CX} \sim 6.5\%$ within a physically reasonable parameter regime, where $p_\mathrm{CX}$ is the infidelity of the noisiest gate of our system; the controlled-not gate. This threshold can be reached in a superconducting circuit architecture with a Kerr-nonlinearity of $10$MHz, a $\sim 6.25$ photon cat qubit, single-photon lifetime of $\gtrsim 64\mu$s, and thermal photon population $\lesssim 8\%$. Such parameters are routinely achieved in superconducting circuits.</description>
+  </item>
+
+  <item>
+    <title>Five Starter Pieces: Quantum Information Science via Semi-definite Programs</title>
+    <link>http://arxiv.org/pdf/2112.08276</link>
+    <author>Vikesh Siddhu, Sridhar Tayur</author>
+    <pubDate>Dec 16 2021</pubDate>
+    <description>As the title indicates, this manuscript presents a brief, self-contained introduction to five fundamental problems in Quantum Information Science (QIS) that are especially well-suited to be formulated as Semi-definite Programs (SDP). We have in mind two audiences. The primary audience comprises of Operations Research (and Computer Science) graduate students who have familiarity with SDPs, but have found it daunting to become even minimally conversant with pre-requisites of QIS. The second audience consists of Physicists (and Electrical Engineers) already knowledgeable with modeling of QIS via SDP but interested in computational tools that are applicable more generally. For both audiences, we strive for rapid access to the unfamiliar material. For the first, we provide just enough required background material (from Quantum Mechanics, treated via matrices, and mapping them in Dirac notation) and simultaneously for the second audience we recreate, computationally in Jupyter notebooks, known closed-form solutions. We hope you will enjoy this little manuscript and gain understanding of the marvelous connection between SDP and QIS by self-study, or as a short seminar course. Ultimately, we hope this disciplinary outreach will fuel advances in QIS through their fruitful study via SDPs.</description>
   </item>
 
 </channel>

@@ -23,35 +23,11 @@
   </item>
 
   <item>
-    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
-    <link>http://arxiv.org/pdf/2203.07263</link>
-    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
-  </item>
-
-  <item>
-    <title>Shadow Distillation: Quantum Error Mitigation with Classical Shadows for Near-Term Quantum Processors</title>
-    <link>http://arxiv.org/pdf/2203.07309</link>
-    <author>Alireza Seif, Ze-Pei Cian, Sisi Zhou, Senrui Chen, Liang Jiang</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>Mitigating errors in quantum information processing devices is especially important in the absence of fault tolerance. An effective method in suppressing state-preparation errors is using multiple copies to distill the ideal component from a noisy quantum state. Here, we use classical shadows and randomized measurements to circumvent the need for coherent access to multiple copies at an exponential cost. We study the scaling of resources using numerical simulations and find that the overhead is still favorable compared to full state tomography. We optimize measurement resources under realistic experimental constraints and apply our method to an experiment preparing Greenberger-Horne-Zeilinger (GHZ) state with trapped ions. In addition to improving stabilizer measurements, the analysis of the improved results reveals the nature of errors affecting the experiment. Hence, our results provide a directly applicable method for mitigating errors in near-term quantum computers.</description>
-  </item>
-
-  <item>
     <title>Modern applications of machine learning in quantum sciences</title>
     <link>http://arxiv.org/pdf/2204.04198</link>
     <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
     <pubDate>Apr 11 2022</pubDate>
     <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
-  </item>
-
-  <item>
-    <title>Hierarchies of resources for measurement-based quantum computation</title>
-    <link>http://arxiv.org/pdf/2203.09965</link>
-    <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
-    <pubDate>Mar 21 2022</pubDate>
-    <description>For certain restricted computational tasks, quantum mechanics provides a provable advantage over any possible classical implementation. Several of these results have been proven using the framework of measurement-based quantum computation (MBQC), where non-locality and more generally contextuality have been identified as necessary resources for certain quantum computations. Here, we consider the computational power of MBQC in more detail by refining its resource requirements, both on the allowed operations and the number of accessible qubits. More precisely, we identify which Boolean functions can be computed in non-adaptive MBQC, with local operations contained within a finite level in the Clifford hierarchy. Moreover, for non-adaptive MBQC restricted to certain subtheories such as stabiliser MBQC, we compute the minimal number of qubits required to compute a given Boolean function. Our results point towards hierarchies of resources that more sharply characterise the power of MBQC beyond the binary of contextuality vs non-contextuality.</description>
   </item>
 
   <item>
@@ -63,11 +39,11 @@
   </item>
 
   <item>
-    <title>Quantum Parameterized Complexity</title>
-    <link>http://arxiv.org/pdf/2203.08002</link>
-    <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
-    <pubDate>Mar 16 2022</pubDate>
-    <description>Parameterized complexity theory was developed in the 1990s to enrich the complexity-theoretic analysis of problems that depend on a range of parameters. In this paper we establish a quantum equivalent of classical parameterized complexity theory, motivated by the need for new tools for the classifications of the complexity of real-world problems. We introduce the quantum analogues of a range of parameterized complexity classes and examine the relationship between these classes, their classical counterparts, and well-studied problems. This framework exposes a rich classification of the complexity of parameterized versions of QMA-hard problems, demonstrating, for example, a clear separation between the Quantum Circuit Satisfiability problem and the Local Hamiltonian problem.</description>
+    <title>Hierarchies of resources for measurement-based quantum computation</title>
+    <link>http://arxiv.org/pdf/2203.09965</link>
+    <author>Markus Frembs, Sam Roberts, Earl T. Campbell, Stephen D. Bartlett</author>
+    <pubDate>Mar 21 2022</pubDate>
+    <description>For certain restricted computational tasks, quantum mechanics provides a provable advantage over any possible classical implementation. Several of these results have been proven using the framework of measurement-based quantum computation (MBQC), where non-locality and more generally contextuality have been identified as necessary resources for certain quantum computations. Here, we consider the computational power of MBQC in more detail by refining its resource requirements, both on the allowed operations and the number of accessible qubits. More precisely, we identify which Boolean functions can be computed in non-adaptive MBQC, with local operations contained within a finite level in the Clifford hierarchy. Moreover, for non-adaptive MBQC restricted to certain subtheories such as stabiliser MBQC, we compute the minimal number of qubits required to compute a given Boolean function. Our results point towards hierarchies of resources that more sharply characterise the power of MBQC beyond the binary of contextuality vs non-contextuality.</description>
   </item>
 
   <item>
@@ -84,6 +60,14 @@
     <author>András Gilyén, Alexander Poremba</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>Fidelity is a fundamental measure for the closeness of two quantum states, which is important both from a theoretical and a practical point of view. Yet, in general, it is difficult to give good estimates of fidelity, especially when one works with mixed states over Hilbert spaces of very high dimension. Although, there has been some progress on fidelity estimation, all prior work either requires a large number of identical copies of the relevant states, or relies on unproven heuristics. In this work, we improve on both of these aspects by developing new and efficient quantum algorithms for fidelity estimation with provable performance guarantees in case at least one of the states is approximately low-rank. Our algorithms use advanced quantum linear algebra techniques, such as the quantum singular value transformation, as well as density matrix exponentiation and quantum spectral sampling. As a complementary result, we prove that fidelity estimation to any non-trivial constant additive accuracy is hard in general, by giving a sample complexity lower bound that depends polynomially on the dimension. Moreover, if circuit descriptions for the relevant states are provided, we show that the task is hard for the complexity class called (honest verifier) quantum statistical zero knowledge via a reduction to a closely related result by Watrous.</description>
+  </item>
+
+  <item>
+    <title>Quantum Parameterized Complexity</title>
+    <link>http://arxiv.org/pdf/2203.08002</link>
+    <author>Michael J. Bremner, Zhengfeng Ji, Ryan L. Mann, Luke Mathieson, Mauro E.S. Morales, Alexis T.E. Shaw</author>
+    <pubDate>Mar 16 2022</pubDate>
+    <description>Parameterized complexity theory was developed in the 1990s to enrich the complexity-theoretic analysis of problems that depend on a range of parameters. In this paper we establish a quantum equivalent of classical parameterized complexity theory, motivated by the need for new tools for the classifications of the complexity of real-world problems. We introduce the quantum analogues of a range of parameterized complexity classes and examine the relationship between these classes, their classical counterparts, and well-studied problems. This framework exposes a rich classification of the complexity of parameterized versions of QMA-hard problems, demonstrating, for example, a clear separation between the Quantum Circuit Satisfiability problem and the Local Hamiltonian problem.</description>
   </item>
 
   <item>
@@ -135,27 +119,11 @@
   </item>
 
   <item>
-    <title>A cellular automaton decoder for a noise-bias tailored color code</title>
-    <link>http://arxiv.org/pdf/2203.16534</link>
-    <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
-    <pubDate>Mar 31 2022</pubDate>
-    <description>Self-correcting quantum memories demonstrate robust properties that can be exploited to improve active quantum error-correction protocols. Here we propose a cellular automaton decoder for a variation of the color code where the bases of the physical qubits are locally rotated, which we call the XYZ color code. The local transformation means our decoder demonstrates key properties of a two-dimensional fractal code if the noise acting on the system is infinitely biased towards dephasing, namely, no string-like logical operators. As such, in the high-bias limit, our local decoder reproduces the behavior of a partially self-correcting memory. At low error rates, our simulations show that the memory time diverges polynomially with system size without intervention from a global decoder, up to some critical system size that grows as the error rate is lowered. Furthermore, although we find that we cannot reproduce partially self-correcting behavior at finite bias, our numerics demonstrate improved memory times at realistic noise biases. Our results therefore motivate the design of tailored cellular automaton decoders that help to reduce the bandwidth demands of global decoding for realistic noise models.</description>
-  </item>
-
-  <item>
-    <title>Looped Pipelines Enabling Effective 3D Qubit Lattices in a Strictly 2D Device</title>
-    <link>http://arxiv.org/pdf/2203.13123</link>
-    <author>Zhenyu Cai, Adam Siegel, Simon Benjamin</author>
-    <pubDate>Mar 25 2022</pubDate>
-    <description>Many quantum computing platforms are based on a fundamentally two-dimensional physical layout. However, there are advantages (for example in fault-tolerant systems) to having a 3D architecture. Here we explore a concept called looped pipelines which permits one to obtain many of the advantages of a 3D lattice while operating a strictly 2D device. The concept leverages qubit shuttling, a well-established feature in platforms like semiconductor spin qubits and trapped-ion qubits. The looped pipeline architecture has similar hardware requirements to other shuttling approaches, but can process a stack of qubit arrays instead of just one. Simple patterns of intra- and inter-loop interactions allow one to embody diverse schemes from NISQ-era error mitigation through to fault-tolerant codes. For the former, protocols involving multiple states can be implemented with a similar space-time resource as preparing one noisy copy. For the latter, one can realise a far broader variety of code structures; in particular, we consider a stack of 2D codes within which transversal CNOTs are available. We find that this can achieve a cost saving of up to a factor of $\sim 80$ in the space-time overhead for magic state distillation (and a factor of $\sim 200$ with modest additional hardware). Using numerical modelling and experimentally-motivated noise models we verify that the looped pipeline approach provides these benefits without significant reduction in the code's threshold.</description>
-  </item>
-
-  <item>
-    <title>Matching and maximum likelihood decoding of a multi-round subsystem quantum error correction experiment</title>
-    <link>http://arxiv.org/pdf/2203.07205</link>
-    <author>Neereja Sundaresan, Theodore J. Yoder, Youngseok Kim, Muyuan Li, Edward H. Chen, Grace Harper, Ted Thorbeck, Andrew W. Cross, Antonio D. Córcoles, Maika Takita</author>
-    <pubDate>Mar 15 2022</pubDate>
-    <description>Quantum error correction offers a promising path for performing quantum computations with low errors. Although a fully fault-tolerant execution of a quantum algorithm remains unrealized, recent experimental developments, along with improvements in control electronics, are enabling increasingly advanced demonstrations of the necessary operations for applying quantum error correction. Here, we perform quantum error correction on superconducting qubits connected in a heavy-hexagon lattice. The full processor can encode a logical qubit with distance three and perform several rounds of fault-tolerant syndrome measurements that allow the correction of any single fault in the circuitry. Furthermore, by using dynamic circuits and classical computation as part of our syndrome extraction protocols, we can exploit real-time feedback to reduce the impact of energy relaxation error in the syndrome and flag qubits. We show that the logical error varies depending on the use of a perfect matching decoder compared to a maximum likelihood decoder. We observe a logical error per syndrome measurement round as low as $\sim0.04$ for the matching decoder and as low as $\sim0.03$ for the maximum likelihood decoder. Our results suggest that more significant improvements to decoders are likely on the horizon as quantum hardware has reached a new stage of development towards fully fault-tolerant operations.</description>
+    <title>Imaging stars with quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.06044</link>
+    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
+    <pubDate>Apr 14 2022</pubDate>
+    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
   </item>
 
   <item>
@@ -164,6 +132,30 @@
     <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
     <pubDate>Apr 08 2022</pubDate>
     <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
+  </item>
+
+  <item>
+    <title>A cellular automaton decoder for a noise-bias tailored color code</title>
+    <link>http://arxiv.org/pdf/2203.16534</link>
+    <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
+    <pubDate>Mar 31 2022</pubDate>
+    <description>Self-correcting quantum memories demonstrate robust properties that can be exploited to improve active quantum error-correction protocols. Here we propose a cellular automaton decoder for a variation of the color code where the bases of the physical qubits are locally rotated, which we call the XYZ color code. The local transformation means our decoder demonstrates key properties of a two-dimensional fractal code if the noise acting on the system is infinitely biased towards dephasing, namely, no string-like logical operators. As such, in the high-bias limit, our local decoder reproduces the behavior of a partially self-correcting memory. At low error rates, our simulations show that the memory time diverges polynomially with system size without intervention from a global decoder, up to some critical system size that grows as the error rate is lowered. Furthermore, although we find that we cannot reproduce partially self-correcting behavior at finite bias, our numerics demonstrate improved memory times at realistic noise biases. Our results therefore motivate the design of tailored cellular automaton decoders that help to reduce the bandwidth demands of global decoding for realistic noise models.</description>
+  </item>
+
+  <item>
+    <title>Ground state preparation and energy estimation on early fault-tolerant quantum computers via quantum eigenvalue transformation of unitary matrices</title>
+    <link>http://arxiv.org/pdf/2204.05955</link>
+    <author>Yulong Dong, Lin Lin, Yu Tong</author>
+    <pubDate>Apr 13 2022</pubDate>
+    <description>Under suitable assumptions, the algorithms in [Lin, Tong, Quantum 2020] can estimate the ground state energy and prepare the ground state of a quantum Hamiltonian with near-optimal query complexities. However, this is based on a block encoding input model of the Hamiltonian, whose implementation is known to require a large resource overhead. We develop a tool called quantum eigenvalue transformation of unitary matrices with real polynomials (QET-U), which uses a controlled Hamiltonian evolution as the input model, a single ancilla qubit and no multi-qubit control operations, and is thus suitable for early fault-tolerant quantum devices. This leads to a simple quantum algorithm that outperforms all previous algorithms with a comparable circuit structure for estimating the ground state energy. For a class of quantum spin Hamiltonians, we propose a new method that exploits certain anti-commutation relations and further removes the need of implementing the controlled Hamiltonian evolution. Coupled with Trotter based approximation of the Hamiltonian evolution, the resulting algorithm can be very suitable for early fault-tolerant quantum devices. We demonstrate the performance of the algorithm using IBM Qiskit for the transverse field Ising model. If we are further allowed to use multi-qubit Toffoli gates, we can then implement amplitude amplification and a new binary amplitude estimation algorithm, which increases the circuit depth but decreases the total query complexity. The resulting algorithm saturates the near-optimal complexity for ground state preparation and energy estimating using a constant number of ancilla qubits (no more than 3).</description>
+  </item>
+
+  <item>
+    <title>Looped Pipelines Enabling Effective 3D Qubit Lattices in a Strictly 2D Device</title>
+    <link>http://arxiv.org/pdf/2203.13123</link>
+    <author>Zhenyu Cai, Adam Siegel, Simon Benjamin</author>
+    <pubDate>Mar 25 2022</pubDate>
+    <description>Many quantum computing platforms are based on a fundamentally two-dimensional physical layout. However, there are advantages (for example in fault-tolerant systems) to having a 3D architecture. Here we explore a concept called looped pipelines which permits one to obtain many of the advantages of a 3D lattice while operating a strictly 2D device. The concept leverages qubit shuttling, a well-established feature in platforms like semiconductor spin qubits and trapped-ion qubits. The looped pipeline architecture has similar hardware requirements to other shuttling approaches, but can process a stack of qubit arrays instead of just one. Simple patterns of intra- and inter-loop interactions allow one to embody diverse schemes from NISQ-era error mitigation through to fault-tolerant codes. For the former, protocols involving multiple states can be implemented with a similar space-time resource as preparing one noisy copy. For the latter, one can realise a far broader variety of code structures; in particular, we consider a stack of 2D codes within which transversal CNOTs are available. We find that this can achieve a cost saving of up to a factor of $\sim 80$ in the space-time overhead for magic state distillation (and a factor of $\sim 200$ with modest additional hardware). Using numerical modelling and experimentally-motivated noise models we verify that the looped pipeline approach provides these benefits without significant reduction in the code's threshold.</description>
   </item>
 
   <item>
@@ -183,14 +175,6 @@
   </item>
 
   <item>
-    <title>Quantifying the barren plateau phenomenon for a model of unstructured variational ansätze</title>
-    <link>http://arxiv.org/pdf/2203.06174</link>
-    <author>John Napp</author>
-    <pubDate>Mar 14 2022</pubDate>
-    <description>Quantifying the flatness of the objective-function landscape associated with unstructured parameterized quantum circuits is important for understanding the performance of variational algorithms utilizing a "hardware-efficient ansatz", particularly for ensuring that a prohibitively flat landscape -- a so-called "barren plateau" -- is avoided. For a model of such ansätze, we relate the typical landscape flatness to a certain family of random walks, enabling us to derive a Monte Carlo algorithm for efficiently, classically estimating the landscape flatness for any architecture. The statistical picture additionally allows us to prove new analytic bounds on the barren plateau phenomenon, and more generally provides novel insights into the phenomenon's dependence on the ansatz depth, architecture, qudit dimension, and Hamiltonian combinatorial and spatial locality. Our analysis utilizes techniques originally developed by Dalzell et al. to study anti-concentration in random circuits.</description>
-  </item>
-
-  <item>
     <title>Distributed quantum error correction for chip-level catastrophic errors</title>
     <link>http://arxiv.org/pdf/2203.16488</link>
     <author>Qian Xu, Alireza Seif, Haoxiong Yan, Nam Mannucci, Bernard Ousmane Sane, Rodney Van Meter, Andrew N. Cleland, Liang Jiang</author>
@@ -207,11 +191,11 @@
   </item>
 
   <item>
-    <title>Memory Compression with Quantum Random-Access Gates</title>
-    <link>http://arxiv.org/pdf/2203.05599</link>
-    <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
-    <pubDate>Mar 14 2022</pubDate>
-    <description>In the classical RAM, we have the following useful property. If we have an algorithm that uses $M$ memory cells throughout its execution, and in addition is sparse, in the sense that, at any point in time, only $m$ out of $M$ cells will be non-zero, then we may "compress" it into another algorithm which uses only $m \log M$ memory and runs in almost the same time. We may do so by simulating the memory using either a hash table, or a self-balancing tree. We show an analogous result for quantum algorithms equipped with quantum random-access gates. If we have a quantum algorithm that runs in time $T$ and uses $M$ qubits, such that the state of the memory, at any time step, is supported on computational-basis vectors of Hamming weight at most $m$, then it can be simulated by another algorithm which uses only $O(m \log M)$ memory, and runs in time $\tilde O(T)$. We show how this theorem can be used, in a black-box way, to simplify the presentation in several papers. Broadly speaking, when there exists a need for a space-efficient history-independent quantum data-structure, it is often possible to construct a space-inefficient, yet sparse, quantum data structure, and then appeal to our main theorem. This results in simpler and shorter arguments.</description>
+    <title>On the Cleaning Lemma of Quantum Coding Theory</title>
+    <link>http://arxiv.org/pdf/2204.04699</link>
+    <author>Gleb Kalachev, Sergey Sadov</author>
+    <pubDate>Apr 12 2022</pubDate>
+    <description>The term "Cleaning Lemma" refers to a family of similar propositions that have been used in Quantum Coding Theory to estimate the minimum distance of a code in terms of its length and dimension. We show that the mathematical core is a simple fact of linear algebra of inner product spaces; moreover, it admits a further reduction to a combinatorial, lattice-theoretical level. Several concrete variants of the Cleaning Lemma and some additional propositions are derived as corollaries of the proposed approach.</description>
   </item>
 
   <item>
@@ -223,14 +207,6 @@
   </item>
 
   <item>
-    <title>On the Cleaning Lemma of Quantum Coding Theory</title>
-    <link>http://arxiv.org/pdf/2204.04699</link>
-    <author>Gleb Kalachev, Sergey Sadov</author>
-    <pubDate>Apr 12 2022</pubDate>
-    <description>The term "Cleaning Lemma" refers to a family of similar propositions that have been used in Quantum Coding Theory to estimate the minimum distance of a code in terms of its length and dimension. We show that the mathematical core is a simple fact of linear algebra of inner product spaces; moreover, it admits a further reduction to a combinatorial, lattice-theoretical level. Several concrete variants of the Cleaning Lemma and some additional propositions are derived as corollaries of the proposed approach.</description>
-  </item>
-
-  <item>
     <title>Measuring magic on a quantum processor</title>
     <link>http://arxiv.org/pdf/2204.00015</link>
     <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
@@ -239,11 +215,35 @@
   </item>
 
   <item>
+    <title>Clifford Circuits can be Properly PAC Learned if and only if $\textsf{RP}=\textsf{NP}$</title>
+    <link>http://arxiv.org/pdf/2204.06638</link>
+    <author>Daniel Liang</author>
+    <pubDate>Apr 15 2022</pubDate>
+    <description>Given a dataset of input states, measurements, and probabilities, is it possible to efficiently predict the measurement probabilities associated with a quantum circuit? Recent work of Caro and Datta (2020) studied the problem of PAC learning quantum circuits in an information theoretic sense, leaving open questions of computational efficiency. In particular, one candidate class of circuits for which an efficient learner might have been possible was that of Clifford circuits, since the corresponding set of states generated by such circuits, called stabilizer states, are known to be efficiently PAC learnable (Rocchetto 2018). Here we provide a negative result, showing that proper learning of CNOT circuits is hard for classical learners unless $\textsf{RP} = \textsf{NP}$. As the classical analogue and subset of Clifford circuits, this naturally leads to a hardness result for Clifford circuits as well. Additionally, we show that if $\textsf{RP} = \textsf{NP}$ then there would exist efficient proper learning algorithms for CNOT and Clifford circuits. By similar arguments, we also find that an efficient proper quantum learner for such circuits exists if and only if $\textsf{NP} \subseteq \textsf{RQP}$.</description>
+  </item>
+
+  <item>
     <title>Detecting entanglement in quantum many-body systems via permutation moments</title>
     <link>http://arxiv.org/pdf/2203.08391</link>
     <author>Zhenhuan Liu, Yifan Tang, Hao Dai, Pengyu Liu, Shu Chen, Xiongfeng Ma</author>
     <pubDate>Mar 17 2022</pubDate>
     <description>Multipartite entanglement plays an essential role in both quantum information science and many-body physics. Due to the exponentially large dimension and complex geometric structure of the state space, the detection of entanglement in many-body systems is extremely challenging in reality. Conventional means, like entanglement witness and entropy criterion, either highly depend on the prior knowledge of the studied systems or the detection capability is relatively weak. In this work, we propose a framework for designing multipartite entanglement criteria based on permutation moments, which have an effective implementation with either the generalized control-SWAP quantum circuits or the random unitary techniques. These criteria show strong detection capability in the multi-qubit Ising model with a long-range $XY$ Hamiltonian. The quantities associated with these criteria have clear physical meaning and can be used as entanglement quantifiers, with which we show the entanglement scaling transition in a quantum dynamical phase transition. Furthermore, our framework can also be generalized to detect the much more complicated entanglement structure in quantum many-body systems.</description>
+  </item>
+
+  <item>
+    <title>A Variational Ansatz for the Ground State of the Quantum Sherrington-Kirkpatrick Model</title>
+    <link>http://arxiv.org/pdf/2204.02923</link>
+    <author>Paul M. Schindler, Tommaso Guaita, Tao Shi, Eugene Demler, J. Ignacio Cirac</author>
+    <pubDate>Apr 07 2022</pubDate>
+    <description>We present an ansatz for the ground states of the Quantum Sherrington-Kirkpatrick model, a paradigmatic model for quantum spin glasses. Our ansatz, based on the concept of generalized coherent states, very well captures the fundamental aspects of the model, including the ground state energy and the position of the spin glass phase transition. It further enables us to study some previously unexplored features, such as the non-vanishing longitudinal field regime and the entanglement structure of the ground states. We find that the ground state entanglement can be captured by a simple ensemble of weighted graph states with normally distributed phase gates, leading to a volume law entanglement, contrasting with predictions based on entanglement monogamy.</description>
+  </item>
+
+  <item>
+    <title>Entanglement area law for 1D gauge theories and bosonic systems</title>
+    <link>http://arxiv.org/pdf/2203.16012</link>
+    <author>Nilin Abrahamsen, Yuan Su, Yu Tong, Nathan Wiebe</author>
+    <pubDate>Mar 31 2022</pubDate>
+    <description>We prove an entanglement area law for a class of 1D quantum systems involving infinite-dimensional local Hilbert spaces. This class of quantum systems include bosonic models such as the Hubbard-Holstein model, and both U(1) and SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new results concerning the robustness of the ground state and spectral gap to the truncation of Hilbert space, applied within the approximate ground state projector (AGSP) framework from previous work. In establishing this area law, we develop a system-size independent bound on the expectation value of local observables for Hamiltonians without translation symmetry, which may be of separate interest. Our result provides theoretical justification for using tensor network methods to study the ground state properties of quantum systems with infinite local degrees of freedom.</description>
   </item>
 
 </channel>
