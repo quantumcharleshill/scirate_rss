@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Establishing trust in quantum computations</title>
-    <link>http://arxiv.org/pdf/2204.07568</link>
-    <author>Timothy Proctor, Stefan Seritan, Erik Nielsen, Kenneth Rudinger, Kevin Young, Robin Blume-Kohout, Mohan Sarovar</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Real-world quantum computers have grown sufficiently complex that they can no longer be simulated by classical supercomputers, but their computational power remains limited by errors. These errors corrupt the results of quantum algorithms, and it is no longer always feasible to use classical simulations to directly check the correctness of quantum computations. Without practical methods for quantifying the accuracy with which a quantum algorithm has been executed, it is difficult to establish trust in the results of a quantum computation. Here we solve this problem, by introducing a simple and efficient technique for measuring the fidelity with which an as-built quantum computer can execute an algorithm. Our technique converts the algorithm's quantum circuits into a set of closely related circuits whose success rates can be efficiently measured. It enables measuring the fidelity of quantum algorithm executions both in the near-term, with algorithms run on hundreds or thousands of physical qubits, and into the future, with algorithms run on logical qubits protected by quantum error correction.</description>
-  </item>
-
-  <item>
-    <title>ADAPT-VQE is insensitive to rough parameter landscapes and barren plateaus</title>
-    <link>http://arxiv.org/pdf/2204.07179</link>
-    <author>Harper R. Grimsley, George S. Barron, Edwin Barnes, Sophia E. Economou, Nicholas J. Mayhall</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Variational quantum eigensolvers (VQEs) represent a powerful class of hybrid quantum-classical algorithms for computing molecular energies. Various numerical issues exist for these methods, however, including barren plateaus and large numbers of local minima. In this work, we consider Adaptive, Problem-Tailored (ADAPT)-VQE ansätze, and examine how they are impacted by these local minima. We find that while ADAPT-VQE does not remove local minima, the gradient-informed, one-operator-at-a-time circuit construction seems to accomplish two things: First, it provides an initialization strategy that is dramatically better than random initialization, and which is applicable in situations where chemical intuition cannot help with initialization, i.e., when Hartree-Fock is a poor approximation to the ground state. Second, even if an ADAPT-VQE iteration converges to a local trap at one step, it can still "burrow" toward the exact solution by adding more operators, which preferentially deepens the occupied trap. This same mechanism helps highlight a surprising feature of ADAPT-VQE: It should not suffer optimization problems due to "barren plateaus". Even if barren plateaus appear in the parameter landscape, our analysis and simulations reveal that ADAPT-VQE avoids such regions by design.</description>
-  </item>
-
-  <item>
     <title>Quantum many-body systems in thermal equilibrium</title>
     <link>http://arxiv.org/pdf/2204.08349</link>
     <author>Álvaro M. Alhambra</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Monotonicity of the quantum 2-Wasserstein distance</title>
-    <link>http://arxiv.org/pdf/2204.07405</link>
-    <author>Rafał Bistroń, Michał Eckstein, Karol Życzkowski</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>We study a quantum analogue of the 2-Wasserstein distance as a measure of proximity on the set $\Omega_N$ of density matrices of dimension $N$. We show that such (semi-)distances do not induce Riemannian metrics on the tangent bundle of $\Omega_N$ and are typically not unitary invariant. Nevertheless, we prove that for $N=2$ dimensional Hilbert space the quantum 2-Wasserstein distance (unique up to rescaling) is monotonous with respect to any single-qubit quantum operation. Furthermore, for any $N \geq 3$ and the quantum cost matrix proportional to a projector we demonstrate the monotonicity under arbitrary mixed unitary channels. Finally, we provide numerical evidence which allows us to conjecture that the unitary invariant quantum 2-Wasserstein semi-distance is monotonous with respect to all CPTP maps in any dimension $N$.</description>
-  </item>
-
-  <item>
     <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
     <link>http://arxiv.org/pdf/2204.08439</link>
     <author>Koji Yamaguchi, Hiroyasu Tajima</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
+  </item>
+
+  <item>
+    <title>Boson Sampling for Generalized Bosons</title>
+    <link>http://arxiv.org/pdf/2204.08389</link>
+    <author>En-Jui Kuo, Yijia Xu, Dominik Hangleiter, Andrey Grankin, Mohammad Hafezi</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>We introduce the notion of "generalized bosons" whose exchange statistics resemble those of bosons, but the local bosonic commutator $[a_i,a_i^\dagger]=1$ is replaced by an arbitrary single-mode operator that is diagonal in the generalized Fock basis. Examples of generalized bosons include boson pairs and spins. We consider the analogue of the boson sampling task for these particles and observe that its output probabilities are still given by permanents, so that the results regarding hardness of sampling directly carry over. Finally, we propose implementations of generalized boson sampling in circuit-QED and ion-trap platforms.</description>
+  </item>
+
+  <item>
+    <title>Incompatibility of observables, channels and instruments in information theories</title>
+    <link>http://arxiv.org/pdf/2204.07956</link>
+    <author>Giacomo M. D'Ariano, Paolo Perinotti, Alessandro Tosini</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>Every theory of information, including classical and quantum, can be studied in the framework of operational probabilistic theories -- where the notion of test generalizes that of quantum instrument, namely a collection of quantum operations summing to a channel, and simple rules are given for the composition of tests in parallel and in sequence. Here we study the notion of compatibility for tests of an operational probabilistic theory. Following the quantum literature, we first introduce the notion of strong compatibility, and then we illustrate its ultimate relaxation, that we deem weak compatibility. It is shown that the two notions coincide in the case of observation tests -- which are the counterpart of quantum POVMs -- while there exist weakly compatible channels that are not strongly compatible. We prove necessary and sufficient conditions for a theory to exhibit incompatible tests. We show that a theory admits of incompatible tests if and only if some information cannot be extracted without disturbance.</description>
+  </item>
+
+  <item>
+    <title>Low Degree Testing over the Reals</title>
+    <link>http://arxiv.org/pdf/2204.08404</link>
+    <author>Vipul Arora, Arnab Bhattacharyya, Noah Fleming, Esty Kelman, Yuichi Yoshida</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>We study the problem of testing whether a function $f: \mathbb{R}^n \to \mathbb{R}$ is a polynomial of degree at most $d$ in the \emphdistribution-free testing model. Here, the distance between functions is measured with respect to an unknown distribution $\mathcal{D}$ over $\mathbb{R}^n$ from which we can draw samples. In contrast to previous work, we do not assume that $\mathcal{D}$ has finite support. We design a tester that given query access to $f$, and sample access to $\mathcal{D}$, makes $(d/\varepsilon)^{O(1)}$ many queries to $f$, accepts with probability $1$ if $f$ is a polynomial of degree $d$, and rejects with probability at least $2/3$ if every degree-$d$ polynomial $P$ disagrees with $f$ on a set of mass at least $\varepsilon$ with respect to $\mathcal{D}$. Our result also holds under mild assumptions when we receive only a polynomial number of bits of precision for each query to $f$, or when $f$ can only be queried on rational points representable using a logarithmic number of bits. Along the way, we prove a new stability theorem for multivariate polynomials that may be of independent interest.</description>
   </item>
 
 </channel>

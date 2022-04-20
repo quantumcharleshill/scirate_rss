@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Quantum many-body systems in thermal equilibrium</title>
+    <link>http://arxiv.org/pdf/2204.08349</link>
+    <author>Álvaro M. Alhambra</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
+  </item>
+
+  <item>
     <title>Clifford Circuits can be Properly PAC Learned if and only if $\textsf{RP}=\textsf{NP}$</title>
     <link>http://arxiv.org/pdf/2204.06638</link>
     <author>Daniel Liang</author>
@@ -20,14 +28,6 @@
     <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
     <pubDate>Apr 14 2022</pubDate>
     <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
-  </item>
-
-  <item>
-    <title>Ground state preparation and energy estimation on early fault-tolerant quantum computers via quantum eigenvalue transformation of unitary matrices</title>
-    <link>http://arxiv.org/pdf/2204.05955</link>
-    <author>Yulong Dong, Lin Lin, Yu Tong</author>
-    <pubDate>Apr 13 2022</pubDate>
-    <description>Under suitable assumptions, the algorithms in [Lin, Tong, Quantum 2020] can estimate the ground state energy and prepare the ground state of a quantum Hamiltonian with near-optimal query complexities. However, this is based on a block encoding input model of the Hamiltonian, whose implementation is known to require a large resource overhead. We develop a tool called quantum eigenvalue transformation of unitary matrices with real polynomials (QET-U), which uses a controlled Hamiltonian evolution as the input model, a single ancilla qubit and no multi-qubit control operations, and is thus suitable for early fault-tolerant quantum devices. This leads to a simple quantum algorithm that outperforms all previous algorithms with a comparable circuit structure for estimating the ground state energy. For a class of quantum spin Hamiltonians, we propose a new method that exploits certain anti-commutation relations and further removes the need of implementing the controlled Hamiltonian evolution. Coupled with Trotter based approximation of the Hamiltonian evolution, the resulting algorithm can be very suitable for early fault-tolerant quantum devices. We demonstrate the performance of the algorithm using IBM Qiskit for the transverse field Ising model. If we are further allowed to use multi-qubit Toffoli gates, we can then implement amplitude amplification and a new binary amplitude estimation algorithm, which increases the circuit depth but decreases the total query complexity. The resulting algorithm saturates the near-optimal complexity for ground state preparation and energy estimating using a constant number of ancilla qubits (no more than 3).</description>
   </item>
 
   <item>
@@ -47,19 +47,11 @@
   </item>
 
   <item>
-    <title>Matrix product operator algebras I: representations of weak Hopf algebras and projected entangled pair states</title>
-    <link>http://arxiv.org/pdf/2204.05940</link>
-    <author>Andras Molnar, Alberto Ruiz de Alarcón, José Garre-Rubio, Norbert Schuch, J. Ignacio Cirac, David Pérez-García</author>
-    <pubDate>Apr 13 2022</pubDate>
-    <description>Matrix Product Operators (MPOs) are tensor networks representing operators acting on 1D systems. They model a wide variety of situations, including communication channels with memory effects, quantum cellular automata, mixed states in 1D quantum systems, or holographic boundary models associated to 2D quantum systems. A scenario where MPOs have proven particularly useful is to represent algebras of non-trivial symmetries. Concretely, the boundary of both symmetry protected and topologically ordered phases in 2D quantum systems exhibit symmetries in the form of MPOs. In this paper, we develop a theory of MPOs as representations of algebraic structures. We establish a dictionary between algebra and MPO properties which allows to transfer results between both setups, covering the cases of pre-bialgebras, weak bialgebras, and weak Hopf algebras. We define the notion of pulling-through algebras, which abstracts the minimal requirements needed to define topologically ordered 2D tensor networks from MPO algebras. We show, as one of our main results, that any semisimple pivotal weak Hopf algebra is a pulling-trough algebra. We demonstrate the power of this framework by showing that they can be used to construct Kitaev's quantum double models for Hopf algebras solely from an MPO representation of the Hopf algebra, in the exact same way as MPO symmetries obtained from fusion categories can be used to construct Levin-Wen string-net models, and to explain all their topological features; it thus allows to describe both Kitaev and string-net models on the same formal footing.</description>
-  </item>
-
-  <item>
-    <title>Matrix Product Operator Algebras II: Phases of Matter for 1D Mixed States</title>
-    <link>http://arxiv.org/pdf/2204.06295</link>
-    <author>Alberto Ruiz de Alarcón, José Garre-Rubio, András Molnár, David Pérez-García</author>
-    <pubDate>Apr 14 2022</pubDate>
-    <description>The classification of topological phases of matter is fundamental to understand and characterize the properties of quantum materials. In this paper we study phases of matter in one-dimensional open quantum systems. We define two mixed states to be in the same phase if both states can be transformed into the other by a shallow circuit of local quantum channels. We aim to understand the phase diagram of matrix product density operators that are renormalization fixed points. These states arise, for example, as boundaries of two-dimensional topologically ordered states. We first construct families of such states based on C*-weak Hopf algebras, the algebras whose representations form a fusion category. More concretely, we provide explicit local fine-graining and local coarse-graining quantum channels for the renormalization procedure of these states. Finally, we prove that those arising from C*-Hopf algebras are in the trivial phase.</description>
+    <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
+    <link>http://arxiv.org/pdf/2204.08439</link>
+    <author>Koji Yamaguchi, Hiroyasu Tajima</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
   </item>
 
   <item>
@@ -71,19 +63,27 @@
   </item>
 
   <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
+    <title>Matrix Product Operator Algebras II: Phases of Matter for 1D Mixed States</title>
+    <link>http://arxiv.org/pdf/2204.06295</link>
+    <author>Alberto Ruiz de Alarcón, José Garre-Rubio, András Molnár, David Pérez-García</author>
+    <pubDate>Apr 14 2022</pubDate>
+    <description>The classification of topological phases of matter is fundamental to understand and characterize the properties of quantum materials. In this paper we study phases of matter in one-dimensional open quantum systems. We define two mixed states to be in the same phase if both states can be transformed into the other by a shallow circuit of local quantum channels. We aim to understand the phase diagram of matrix product density operators that are renormalization fixed points. These states arise, for example, as boundaries of two-dimensional topologically ordered states. We first construct families of such states based on C*-weak Hopf algebras, the algebras whose representations form a fusion category. More concretely, we provide explicit local fine-graining and local coarse-graining quantum channels for the renormalization procedure of these states. Finally, we prove that those arising from C*-Hopf algebras are in the trivial phase.</description>
   </item>
 
   <item>
-    <title>Density Matrix Renormalization Group with Tensor Processing Units</title>
-    <link>http://arxiv.org/pdf/2204.05693</link>
-    <author>Martin Ganahl, Jackson Beall, Markus Hauru, Adam G. M. Lewis, Jae Hyeon Yoo, Yijian Zou, Guifre Vidal</author>
-    <pubDate>Apr 13 2022</pubDate>
-    <description>Google's Tensor Processing Units (TPUs) are integrated circuits specifically built to accelerate and scale up machine learning workloads. They can perform fast distributed matrix multiplications and therefore be repurposed for other computationally intensive tasks. In this work we demonstrate the use of TPUs for accelerating and scaling up the density matrix renormalization group (DMRG), a powerful numerical approach to compute the ground state of a local quantum many-body Hamiltonian. The cost of DMRG scales with system size $N$ as $O(ND^3)$, where the so-called bond dimension $D$ regulates how expressive the underlying matrix product state (MPS) variational ansatz is. We consider lattice models in two spatial dimensions, with square lattices of size $10\times 10$ (free fermions) and $20\times 20$ (transverse field Ising model), for which the required MPS bond dimension is known to scale at least as $\exp(\sqrt{N})$. Using half of a TPU v3 pod (namely $1,\!024$ TPU v3 cores) we reached an unprecedentedly large bond dimension $D = 2^{16} = 65,\!536$, for which optimizing a single MPS tensor took about 2 minutes.</description>
+    <title>Improving the efficiency of learning-based error mitigation</title>
+    <link>http://arxiv.org/pdf/2204.07109</link>
+    <author>Piotr Czarnik, Michael McKerns, Andrew T. Sornborger, Lukasz Cincio</author>
+    <pubDate>Apr 15 2022</pubDate>
+    <description>Error mitigation will play an important role in practical applications of near-term noisy quantum computers. Current error mitigation methods typically concentrate on correction quality at the expense of frugality (as measured by the number of additional calls to quantum hardware). To fill the need for highly accurate, yet inexpensive techniques, we introduce an error mitigation scheme that builds on Clifford data regression (CDR). The scheme improves the frugality by carefully choosing the training data and exploiting the symmetries of the problem. We test our approach by correcting long range correlators of the ground state of XY Hamiltonian on IBM Toronto quantum computer. We find that our method is an order of magnitude cheaper while maintaining the same accuracy as the original CDR approach. The efficiency gain enables us to obtain a factor of $10$ improvement on the unmitigated results with the total budget as small as $2\cdot10^5$ shots.</description>
+  </item>
+
+  <item>
+    <title>Simplicial quantum contextuality</title>
+    <link>http://arxiv.org/pdf/2204.06648</link>
+    <author>Cihan Okay, Aziz Kharoof, Selman Ipek</author>
+    <pubDate>Apr 15 2022</pubDate>
+    <description>We introduce a new framework for contextuality based on simplicial sets, combinatorial models of topological spaces that play a prominent role in modern homotopy theory. Our approach extends measurement scenarios to consist of spaces (rather than sets) of measurements and outcomes, and thereby generalizes nonsignaling distributions to simplicial distributions, which are distributions on spaces modeled by simplicial sets. Using this formalism we present a topologically inspired new proof of Fine's theorem for characterizing noncontextuality in Bell scenarios. Strong contextuality is generalized suitably for simplicial distributions, allowing us to define cohomological witnesses that extend the earlier topological constructions restricted to algebraic relations among quantum observables to the level of probability distributions. Foundational theorems of quantum theory such as the Gleason's theorem and Kochen-Specker theorem can be expressed naturally within this new language.</description>
   </item>
 
 </channel>
