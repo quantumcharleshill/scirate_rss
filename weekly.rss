@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Establishing trust in quantum computations</title>
-    <link>http://arxiv.org/pdf/2204.07568</link>
-    <author>Timothy Proctor, Stefan Seritan, Erik Nielsen, Kenneth Rudinger, Kevin Young, Robin Blume-Kohout, Mohan Sarovar</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Real-world quantum computers have grown sufficiently complex that they can no longer be simulated by classical supercomputers, but their computational power remains limited by errors. These errors corrupt the results of quantum algorithms, and it is no longer always feasible to use classical simulations to directly check the correctness of quantum computations. Without practical methods for quantifying the accuracy with which a quantum algorithm has been executed, it is difficult to establish trust in the results of a quantum computation. Here we solve this problem, by introducing a simple and efficient technique for measuring the fidelity with which an as-built quantum computer can execute an algorithm. Our technique converts the algorithm's quantum circuits into a set of closely related circuits whose success rates can be efficiently measured. It enables measuring the fidelity of quantum algorithm executions both in the near-term, with algorithms run on hundreds or thousands of physical qubits, and into the future, with algorithms run on logical qubits protected by quantum error correction.</description>
-  </item>
-
-  <item>
     <title>Out-of-distribution generalization for learning quantum dynamics</title>
     <link>http://arxiv.org/pdf/2204.10268</link>
     <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
@@ -39,11 +31,11 @@
   </item>
 
   <item>
-    <title>ADAPT-VQE is insensitive to rough parameter landscapes and barren plateaus</title>
-    <link>http://arxiv.org/pdf/2204.07179</link>
-    <author>Harper R. Grimsley, George S. Barron, Edwin Barnes, Sophia E. Economou, Nicholas J. Mayhall</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Variational quantum eigensolvers (VQEs) represent a powerful class of hybrid quantum-classical algorithms for computing molecular energies. Various numerical issues exist for these methods, however, including barren plateaus and large numbers of local minima. In this work, we consider Adaptive, Problem-Tailored (ADAPT)-VQE ansätze, and examine how they are impacted by these local minima. We find that while ADAPT-VQE does not remove local minima, the gradient-informed, one-operator-at-a-time circuit construction seems to accomplish two things: First, it provides an initialization strategy that is dramatically better than random initialization, and which is applicable in situations where chemical intuition cannot help with initialization, i.e., when Hartree-Fock is a poor approximation to the ground state. Second, even if an ADAPT-VQE iteration converges to a local trap at one step, it can still "burrow" toward the exact solution by adding more operators, which preferentially deepens the occupied trap. This same mechanism helps highlight a surprising feature of ADAPT-VQE: It should not suffer optimization problems due to "barren plateaus". Even if barren plateaus appear in the parameter landscape, our analysis and simulations reveal that ADAPT-VQE avoids such regions by design.</description>
+    <title>Dynamical simulation via quantum machine learning with provable generalization</title>
+    <link>http://arxiv.org/pdf/2204.10269</link>
+    <author>Joe Gibbs, Zoë Holmes, Matthias C. Caro, Nicholas Ezzell, Hsin-Yuan Huang, Lukasz Cincio, Andrew T. Sornborger, Patrick J. Coles</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>Much attention has been paid to dynamical simulation and quantum machine learning (QML) independently as applications for quantum advantage, while the possibility of using QML to enhance dynamical simulations has not been thoroughly investigated. Here we develop a framework for using QML methods to simulate quantum dynamics on near-term quantum hardware. We use generalization bounds, which bound the error a machine learning model makes on unseen data, to rigorously analyze the training data requirements of an algorithm within this framework. This provides a guarantee that our algorithm is resource-efficient, both in terms of qubit and data requirements. Our numerics exhibit efficient scaling with problem size, and we simulate 20 times longer than Trotterization on IBMQ-Bogota.</description>
   </item>
 
   <item>
@@ -55,19 +47,19 @@
   </item>
 
   <item>
+    <title>Scalable measures of magic for quantum computers</title>
+    <link>http://arxiv.org/pdf/2204.10061</link>
+    <author>Tobias Haug, M. S. Kim</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
+  </item>
+
+  <item>
     <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
     <link>http://arxiv.org/pdf/2204.08439</link>
     <author>Koji Yamaguchi, Hiroyasu Tajima</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
-  </item>
-
-  <item>
-    <title>Dynamical simulation via quantum machine learning with provable generalization</title>
-    <link>http://arxiv.org/pdf/2204.10269</link>
-    <author>Joe Gibbs, Zoë Holmes, Matthias C. Caro, Nicholas Ezzell, Hsin-Yuan Huang, Lukasz Cincio, Andrew T. Sornborger, Patrick J. Coles</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Much attention has been paid to dynamical simulation and quantum machine learning (QML) independently as applications for quantum advantage, while the possibility of using QML to enhance dynamical simulations has not been thoroughly investigated. Here we develop a framework for using QML methods to simulate quantum dynamics on near-term quantum hardware. We use generalization bounds, which bound the error a machine learning model makes on unseen data, to rigorously analyze the training data requirements of an algorithm within this framework. This provides a guarantee that our algorithm is resource-efficient, both in terms of qubit and data requirements. Our numerics exhibit efficient scaling with problem size, and we simulate 20 times longer than Trotterization on IBMQ-Bogota.</description>
   </item>
 
   <item>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>Scalable measures of magic for quantum computers</title>
-    <link>http://arxiv.org/pdf/2204.10061</link>
-    <author>Tobias Haug, M. S. Kim</author>
+    <title>A Fisher information-based incompatibility criterion for quantum channels</title>
+    <link>http://arxiv.org/pdf/2204.09963</link>
+    <author>Qing-Hua Zhang, Ion Nechita</author>
     <pubDate>Apr 22 2022</pubDate>
-    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
+    <description>We introduce a new incompatibility criterion for quantum channels, based on the notion of (quantum) Fisher information. Our construction is based on a similar criterion for quantum measurements put forward by H.~Zhu. We then study the power of the incompatibility criterion in different scenarios. Firstly, we prove the first analytical conditions for the incompatibility of two Schur channels. Then, we study the incompatibility structure of a tuple of depolarizing channels, comparing the newly introduced criterion with the known results from asymmetric quantum cloning.</description>
+  </item>
+
+  <item>
+    <title>Volumetric Benchmarking of Error Mitigation with Qermit</title>
+    <link>http://arxiv.org/pdf/2204.09725</link>
+    <author>Cristina Cirstoiu, Silas Dilkes, Daniel Mills, Seyon Sivarajah, Ross Duncan</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>The detrimental effect of noise accumulates as quantum computers grow in size. In the case where devices are too small or noisy to perform error correction, error mitigation may be used. Error mitigation does not increase the fidelity of quantum states, but instead aims to reduce the approximation error in quantities of concern, such as expectation values of observables. However, it is as yet unclear which circuit types, and devices of which characteristics, benefit most from the use of error mitigation. Here we develop a methodology to assess the performance of quantum error mitigation techniques. Our benchmarks are volumetric in design, and are performed on different superconducting hardware devices. Extensive classical simulations are also used for comparison. We use these benchmarks to identify disconnects between the predicted and practical performance of error mitigation protocols, and to identify the situations in which their use is beneficial. To perform these experiments, and for the benefit of the wider community, we introduce Qermit - an open source python package for quantum error mitigation. Qermit supports a wide range of error mitigation methods, is easily extensible and has a modular graph-based software design that facilitates composition of error mitigation protocols and subroutines.</description>
   </item>
 
 </channel>

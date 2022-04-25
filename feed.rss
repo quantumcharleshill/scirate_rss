@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The randomized measurement toolbox</title>
-    <link>http://arxiv.org/pdf/2203.11374</link>
-    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
+    <title>Quantum many-body systems in thermal equilibrium</title>
+    <link>http://arxiv.org/pdf/2204.08349</link>
+    <author>Álvaro M. Alhambra</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
   </item>
 
   <item>
@@ -20,14 +20,6 @@
     <author>Jonas Haferkamp</author>
     <pubDate>Apr 01 2022</pubDate>
     <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
-  </item>
-
-  <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
   </item>
 
   <item>
@@ -79,11 +71,11 @@
   </item>
 
   <item>
-    <title>Quantum-enhanced Markov chain Monte Carlo</title>
-    <link>http://arxiv.org/pdf/2203.12497</link>
-    <author>David Layden, Guglielmo Mazzola, Ryan V. Mishmash, Mario Motta, Pawel Wocjan, Jin-Sung Kim, Sarah Sheldon</author>
-    <pubDate>Mar 24 2022</pubDate>
-    <description>Sampling from complicated probability distributions is a hard computational problem arising in many fields, including statistical physics, optimization, and machine learning. Quantum computers have recently been used to sample from complicated distributions that are hard to sample from classically, but which seldom arise in applications. Here we introduce a quantum algorithm to sample from distributions that pose a bottleneck in several applications, which we implement on a superconducting quantum processor. The algorithm performs Markov chain Monte Carlo (MCMC), a popular iterative sampling technique, to sample from the Boltzmann distribution of classical Ising models. In each step, the quantum processor explores the model in superposition to propose a random move, which is then accepted or rejected by a classical computer and returned to the quantum processor, ensuring convergence to the desired Boltzmann distribution. We find that this quantum algorithm converges in fewer iterations than common classical MCMC alternatives on relevant problem instances, both in simulations and experiments. It therefore opens a new path for quantum computers to solve useful--not merely difficult--problems in the near term.</description>
+    <title>Imaging stars with quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.06044</link>
+    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
+    <pubDate>Apr 14 2022</pubDate>
+    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
   </item>
 
   <item>
@@ -100,14 +92,6 @@
     <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
     <pubDate>Apr 01 2022</pubDate>
     <description>Parametrized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analytic results with numerical experiments.</description>
-  </item>
-
-  <item>
-    <title>Imaging stars with quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.06044</link>
-    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
-    <pubDate>Apr 14 2022</pubDate>
-    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
   </item>
 
   <item>
@@ -135,6 +119,14 @@
   </item>
 
   <item>
+    <title>Out-of-distribution generalization for learning quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2204.10268</link>
+    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
+  </item>
+
+  <item>
     <title>A cellular automaton decoder for a noise-bias tailored color code</title>
     <link>http://arxiv.org/pdf/2203.16534</link>
     <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
@@ -143,19 +135,19 @@
   </item>
 
   <item>
-    <title>Looped Pipelines Enabling Effective 3D Qubit Lattices in a Strictly 2D Device</title>
-    <link>http://arxiv.org/pdf/2203.13123</link>
-    <author>Zhenyu Cai, Adam Siegel, Simon Benjamin</author>
-    <pubDate>Mar 25 2022</pubDate>
-    <description>Many quantum computing platforms are based on a fundamentally two-dimensional physical layout. However, there are advantages (for example in fault-tolerant systems) to having a 3D architecture. Here we explore a concept called looped pipelines which permits one to obtain many of the advantages of a 3D lattice while operating a strictly 2D device. The concept leverages qubit shuttling, a well-established feature in platforms like semiconductor spin qubits and trapped-ion qubits. The looped pipeline architecture has similar hardware requirements to other shuttling approaches, but can process a stack of qubit arrays instead of just one. Simple patterns of intra- and inter-loop interactions allow one to embody diverse schemes from NISQ-era error mitigation through to fault-tolerant codes. For the former, protocols involving multiple states can be implemented with a similar space-time resource as preparing one noisy copy. For the latter, one can realise a far broader variety of code structures; in particular, we consider a stack of 2D codes within which transversal CNOTs are available. We find that this can achieve a cost saving of up to a factor of $\sim 80$ in the space-time overhead for magic state distillation (and a factor of $\sim 200$ with modest additional hardware). Using numerical modelling and experimentally-motivated noise models we verify that the looped pipeline approach provides these benefits without significant reduction in the code's threshold.</description>
-  </item>
-
-  <item>
     <title>On the Cleaning Lemma of Quantum Coding Theory</title>
     <link>http://arxiv.org/pdf/2204.04699</link>
     <author>Gleb Kalachev, Sergey Sadov</author>
     <pubDate>Apr 12 2022</pubDate>
     <description>The term "Cleaning Lemma" refers to a family of similar propositions that have been used in Quantum Coding Theory to estimate the minimum distance of a code in terms of its length and dimension. We show that the mathematical core is a simple fact of linear algebra of inner product spaces; moreover, it admits a further reduction to a combinatorial, lattice-theoretical level. Several concrete variants of the Cleaning Lemma and some additional propositions are derived as corollaries of the proposed approach.</description>
+  </item>
+
+  <item>
+    <title>Measuring magic on a quantum processor</title>
+    <link>http://arxiv.org/pdf/2204.00015</link>
+    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
+    <pubDate>Apr 04 2022</pubDate>
+    <description>Magic states are the resource that allows quantum computers to attain an advantage over classical computers. This resource consists in the deviation from a property called stabilizerness which in turn implies that stabilizer circuits can be efficiently simulated on a classical computer. Without magic, no quantum computer can do anything that a classical computer cannot do. Given the importance of magic for quantum computation, it would be useful to have a method for measuring the amount of magic in a quantum state. In this work, we propose and experimentally demonstrate a protocol for measuring magic based on randomized measurements. Our experiments are carried out on two IBM Quantum Falcon processors. This protocol can provide a characterization of the effectiveness of a quantum hardware in producing states that cannot be effectively simulated on a classical computer. We show how from these measurements one can construct realistic noise models affecting the hardware.</description>
   </item>
 
   <item>
@@ -175,27 +167,19 @@
   </item>
 
   <item>
+    <title>ADAPT-VQE is insensitive to rough parameter landscapes and barren plateaus</title>
+    <link>http://arxiv.org/pdf/2204.07179</link>
+    <author>Harper R. Grimsley, George S. Barron, Edwin Barnes, Sophia E. Economou, Nicholas J. Mayhall</author>
+    <pubDate>Apr 18 2022</pubDate>
+    <description>Variational quantum eigensolvers (VQEs) represent a powerful class of hybrid quantum-classical algorithms for computing molecular energies. Various numerical issues exist for these methods, however, including barren plateaus and large numbers of local minima. In this work, we consider Adaptive, Problem-Tailored (ADAPT)-VQE ansätze, and examine how they are impacted by these local minima. We find that while ADAPT-VQE does not remove local minima, the gradient-informed, one-operator-at-a-time circuit construction seems to accomplish two things: First, it provides an initialization strategy that is dramatically better than random initialization, and which is applicable in situations where chemical intuition cannot help with initialization, i.e., when Hartree-Fock is a poor approximation to the ground state. Second, even if an ADAPT-VQE iteration converges to a local trap at one step, it can still "burrow" toward the exact solution by adding more operators, which preferentially deepens the occupied trap. This same mechanism helps highlight a surprising feature of ADAPT-VQE: It should not suffer optimization problems due to "barren plateaus". Even if barren plateaus appear in the parameter landscape, our analysis and simulations reveal that ADAPT-VQE avoids such regions by design.</description>
+  </item>
+
+  <item>
     <title>Bi-PPT channels are entanglement breaking</title>
     <link>http://arxiv.org/pdf/2204.01685</link>
     <author>Alexander Müller-Hermes, Satvik Singh</author>
     <pubDate>Apr 05 2022</pubDate>
     <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
-  </item>
-
-  <item>
-    <title>Measuring magic on a quantum processor</title>
-    <link>http://arxiv.org/pdf/2204.00015</link>
-    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma, Seth Lloyd</author>
-    <pubDate>Apr 04 2022</pubDate>
-    <description>Magic states are the resource that allows quantum computers to attain an advantage over classical computers. This resource consists in the deviation from a property called stabilizerness which in turn implies that stabilizer circuits can be efficiently simulated on a classical computer. Without magic, no quantum computer can do anything that a classical computer cannot do. Given the importance of magic for quantum computation, it would be useful to have a method for measuring the amount of magic in a quantum state. In this work, we propose and experimentally demonstrate a protocol for measuring magic based on randomized measurements. Our experiments are carried out on two IBM Quantum Falcon processors. This protocol can provide a characterization of the effectiveness of a quantum hardware in producing states that cannot be effectively simulated on a classical computer. We show how from these measurements one can construct realistic noise models affecting the hardware.</description>
-  </item>
-
-  <item>
-    <title>Out-of-distribution generalization for learning quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2204.10268</link>
-    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
   </item>
 
   <item>
@@ -207,27 +191,19 @@
   </item>
 
   <item>
-    <title>Classically-Boosted Quantum Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/2203.13936</link>
-    <author>Guoming Wang</author>
-    <pubDate>Mar 29 2022</pubDate>
-    <description>Considerable effort has been made recently in the development of heuristic quantum algorithms for solving combinatorial optimization problems. Meanwhile, these problems have been studied extensively in classical computing for decades. In this paper, we explore a natural approach to leveraging existing classical techniques to enhance quantum optimization. Specifically, we run a classical algorithm to find an approximate solution and then use a quantum circuit to search its "neighborhood" for higher-quality solutions. We propose the Classically-Boosted Quantum Optimization Algorithm (CBQOA) that is based on this idea and can solve a wide range of combinatorial optimization problems, including all unconstrained problems and many important constrained problems such as Max Bisection, Maximum Independent Set, Minimum Vertex Cover, Portfolio Optimization, Traveling Salesperson and so on. A crucial component of this algorithm is an efficiently-implementable continuous-time quantum walk (CTQW) on a properly-constructed graph that connects the feasible solutions. CBQOA utilizes this CTQW and the output of an efficient classical procedure to create a suitable superposition of the feasible solutions which is then processed in certain way. This algorithm has the merits that it solves constrained problems without modifying their cost functions, confines the evolution of the quantum state to the feasible subspace, and does not rely on efficient indexing of the feasible solutions. We demonstrate the applications of CBQOA to Max 3SAT and Max Bisection, and provide empirical evidence that it outperforms previous approaches on these problems.</description>
-  </item>
-
-  <item>
-    <title>ADAPT-VQE is insensitive to rough parameter landscapes and barren plateaus</title>
-    <link>http://arxiv.org/pdf/2204.07179</link>
-    <author>Harper R. Grimsley, George S. Barron, Edwin Barnes, Sophia E. Economou, Nicholas J. Mayhall</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Variational quantum eigensolvers (VQEs) represent a powerful class of hybrid quantum-classical algorithms for computing molecular energies. Various numerical issues exist for these methods, however, including barren plateaus and large numbers of local minima. In this work, we consider Adaptive, Problem-Tailored (ADAPT)-VQE ansätze, and examine how they are impacted by these local minima. We find that while ADAPT-VQE does not remove local minima, the gradient-informed, one-operator-at-a-time circuit construction seems to accomplish two things: First, it provides an initialization strategy that is dramatically better than random initialization, and which is applicable in situations where chemical intuition cannot help with initialization, i.e., when Hartree-Fock is a poor approximation to the ground state. Second, even if an ADAPT-VQE iteration converges to a local trap at one step, it can still "burrow" toward the exact solution by adding more operators, which preferentially deepens the occupied trap. This same mechanism helps highlight a surprising feature of ADAPT-VQE: It should not suffer optimization problems due to "barren plateaus". Even if barren plateaus appear in the parameter landscape, our analysis and simulations reveal that ADAPT-VQE avoids such regions by design.</description>
-  </item>
-
-  <item>
     <title>A Variational Ansatz for the Ground State of the Quantum Sherrington-Kirkpatrick Model</title>
     <link>http://arxiv.org/pdf/2204.02923</link>
     <author>Paul M. Schindler, Tommaso Guaita, Tao Shi, Eugene Demler, J. Ignacio Cirac</author>
     <pubDate>Apr 07 2022</pubDate>
     <description>We present an ansatz for the ground states of the Quantum Sherrington-Kirkpatrick model, a paradigmatic model for quantum spin glasses. Our ansatz, based on the concept of generalized coherent states, very well captures the fundamental aspects of the model, including the ground state energy and the position of the spin glass phase transition. It further enables us to study some previously unexplored features, such as the non-vanishing longitudinal field regime and the entanglement structure of the ground states. We find that the ground state entanglement can be captured by a simple ensemble of weighted graph states with normally distributed phase gates, leading to a volume law entanglement, contrasting with predictions based on entanglement monogamy.</description>
+  </item>
+
+  <item>
+    <title>Classically-Boosted Quantum Optimization Algorithm</title>
+    <link>http://arxiv.org/pdf/2203.13936</link>
+    <author>Guoming Wang</author>
+    <pubDate>Mar 29 2022</pubDate>
+    <description>Considerable effort has been made recently in the development of heuristic quantum algorithms for solving combinatorial optimization problems. Meanwhile, these problems have been studied extensively in classical computing for decades. In this paper, we explore a natural approach to leveraging existing classical techniques to enhance quantum optimization. Specifically, we run a classical algorithm to find an approximate solution and then use a quantum circuit to search its "neighborhood" for higher-quality solutions. We propose the Classically-Boosted Quantum Optimization Algorithm (CBQOA) that is based on this idea and can solve a wide range of combinatorial optimization problems, including all unconstrained problems and many important constrained problems such as Max Bisection, Maximum Independent Set, Minimum Vertex Cover, Portfolio Optimization, Traveling Salesperson and so on. A crucial component of this algorithm is an efficiently-implementable continuous-time quantum walk (CTQW) on a properly-constructed graph that connects the feasible solutions. CBQOA utilizes this CTQW and the output of an efficient classical procedure to create a suitable superposition of the feasible solutions which is then processed in certain way. This algorithm has the merits that it solves constrained problems without modifying their cost functions, confines the evolution of the quantum state to the feasible subspace, and does not rely on efficient indexing of the feasible solutions. We demonstrate the applications of CBQOA to Max 3SAT and Max Bisection, and provide empirical evidence that it outperforms previous approaches on these problems.</description>
   </item>
 
   <item>
@@ -244,6 +220,30 @@
     <author>Simon C. Marshall, Casper Gyurik, Vedran Dunjko</author>
     <pubDate>Mar 28 2022</pubDate>
     <description>Quantum computers hold great promise to enhance machine learning, but their current qubit counts restrict the realisation of this promise. In an attempt to placate this limitation techniques can be applied for evaluating a quantum circuit using a machine with fewer qubits than the circuit naively requires. These techniques work by evaluating many smaller circuits on the smaller machine, that are then combined in a polynomial to replicate the output of the larger machine. This scheme requires more circuit evaluations than are practical for general circuits. However, we investigate the possibility that for certain applications many of these subcircuits are superfluous, and that a much smaller sum is sufficient to estimate the full circuit. We construct a machine learning model that may be capable of approximating the outputs of the larger circuit with much fewer circuit evaluations. We successfully apply our model to the task of digit recognition, using simulated quantum computers much smaller than the data dimension. The model is also applied to the task of approximating a random 10 qubit PQC with simulated access to a 5 qubit computer, even with only relatively modest number of circuits our model provides an accurate approximation of the 10 qubit PQCs output, superior to a neural network attempt. The developed method might be useful for implementing quantum models on larger data throughout the NISQ era.</description>
+  </item>
+
+  <item>
+    <title>Tight Bounds for Quantum State Certification with Incoherent Measurements</title>
+    <link>http://arxiv.org/pdf/2204.07155</link>
+    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu</author>
+    <pubDate>Apr 15 2022</pubDate>
+    <description>We consider the problem of quantum state certification, where we are given the description of a mixed state $\sigma \in \mathbb{C}^{d \times d}$, $n$ copies of a mixed state $\rho \in \mathbb{C}^{d \times d}$, and $\varepsilon > 0$, and we are asked to determine whether $\rho = \sigma$ or whether $\| \rho - \sigma \|_1 > \varepsilon$. When $\sigma$ is the maximally mixed state $\frac{1}{d} I_d$, this is known as mixedness testing. We focus on algorithms which use incoherent measurements, i.e. which only measure one copy of $\rho$ at a time. Unlike those that use entangled, multi-copy measurements, these can be implemented without persistent quantum memory and thus represent a large class of protocols that can be run on current or near-term devices. For mixedness testing, there is a folklore algorithm which uses incoherent measurements and only needs $O(d^{3/2} / \varepsilon^2)$ copies. The algorithm is non-adaptive, that is, its measurements are fixed ahead of time, and is known to be optimal for non-adaptive algorithms. However, when the algorithm can make arbitrary incoherent measurements, the best known lower bound is only $\Omega (d^{4/3} / \varepsilon^2)$ [Bubeck-Chen-Li '20], and it has been an outstanding open problem to close this polynomial gap. In this work, 1) we settle the copy complexity of mixedness testing with incoherent measurements and show that $\Omega (d^{3/2} / \varepsilon^2)$ copies are necessary, and 2) we show the instance-optimal bounds for state certification to general $\sigma$ first derived by [Chen-Li-O'Donnell '21] for non-adaptive measurements also hold for arbitrary incoherent measurements. Qualitatively, our results say that adaptivity does not help at all for these problems. Our results are based on new techniques that allow us to reduce the problem to understanding certain matrix martingales, which we believe may be of independent interest.</description>
+  </item>
+
+  <item>
+    <title>Diagrammatic Analysis for Parameterized Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2204.01307</link>
+    <author>Tobias Stollenwerk, Stuart Hadfield</author>
+    <pubDate>Apr 05 2022</pubDate>
+    <description>Diagrammatic representations of quantum algorithms and circuits offer novel approaches to their design and analysis. In this work, we describe extensions of the ZX-calculus especially suitable for parameterized quantum circuits, in particular for computing observable expectation values as functions of or for fixed parameters, which are important algorithmic quantities in a variety of applications ranging from combinatorial optimization to quantum chemistry. We provide several new ZX-diagram rewrite rules and generalizations for this setting. In particular, we give formal rules for dealing with linear combinations of ZX-diagrams, where the relative complex-valued scale factors of each diagram must be kept track of, in contrast to most previously studied single-diagram realizations where these coefficients can be effectively ignored. This allows us to directly import a number useful relations from the operator analysis to ZX-calculus setting, including causal cone and quantum gate commutation rules. We demonstrate that the diagrammatic approach offers useful insights into algorithm structure and performance by considering several ansätze from the literature including realizations of hardware-efficient ansätze and QAOA. We find that by employing a diagrammatic representation, calculations across different ansätze can become more intuitive and potentially easier approach systematically than by alternative means. Finally, we outline how diagrammatic approaches may aid in the design and study of new and more effective quantum circuit ansätze.</description>
+  </item>
+
+  <item>
+    <title>Simulating challenging correlated molecules and materials on the Sycamore quantum processor</title>
+    <link>http://arxiv.org/pdf/2203.15291</link>
+    <author>Ruslan N. Tazhigulov, Shi-Ning Sun, Reza Haghshenas, Huanchen Zhai, Adrian T. K. Tan, Nicholas C. Rubin, Ryan Babbush, Austin J. Minnich, Garnet Kin-Lic Chan</author>
+    <pubDate>Mar 30 2022</pubDate>
+    <description>Simulating complex molecules and materials is an anticipated application of quantum devices. With strong quantum advantage demonstrated in artificial tasks, we examine how such advantage translates into modeling physical problems of correlated electronic structure. We simulate static and dynamical electronic structure on a superconducting quantum processor derived from Google's Sycamore architecture for two representative correlated electron problems: the nitrogenase iron-sulfur molecular clusters, and $\alpha$-ruthenium trichloride, a proximate spin-liquid material. To do so, we simplify the electronic structure into low-energy spin models that fit on the device. With extensive error mitigation and assistance from classically simulated data, we achieve quantitatively meaningful results deploying about 1/5 of the gate resources used in artificial quantum advantage experiments on a similar architecture. This increases to over 1/2 of the gate resources when choosing a model that suits the hardware. Our work serves to convert artificial measures of quantum advantage into a physically relevant setting.</description>
   </item>
 
 </channel>

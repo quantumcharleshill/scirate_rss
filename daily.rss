@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Out-of-distribution generalization for learning quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2204.10268</link>
-    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
+    <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
+    <link>http://arxiv.org/pdf/2204.10812</link>
+    <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
   </item>
 
   <item>
-    <title>Classical algorithms for many-body quantum systems at finite energies</title>
-    <link>http://arxiv.org/pdf/2204.09439</link>
-    <author>Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls</author>
-    <pubDate>Apr 21 2022</pubDate>
-    <description>We investigate quantum inspired algorithms to compute physical observables of quantum many-body systems at finite energies. They are based on the quantum algorithms proposed in [Lu et al. PRX Quantum 2, 020321 (2021)], which use the quantum simulation of the dynamics of such systems, as well as classical filtering and sampling techniques. Here, we replace the quantum simulation by standard classical methods based on matrix product states and operators. As a result, we can address significantly larger systems than those reachable by exact diagonalization or by other algorithms. We demonstrate the performance with spin chains up to 80 sites.</description>
+    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.10471</link>
+    <author>Yingkai Ouyang, Peter P. Rohde</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
   </item>
 
   <item>
-    <title>Dynamical simulation via quantum machine learning with provable generalization</title>
-    <link>http://arxiv.org/pdf/2204.10269</link>
-    <author>Joe Gibbs, Zoë Holmes, Matthias C. Caro, Nicholas Ezzell, Hsin-Yuan Huang, Lukasz Cincio, Andrew T. Sornborger, Patrick J. Coles</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Much attention has been paid to dynamical simulation and quantum machine learning (QML) independently as applications for quantum advantage, while the possibility of using QML to enhance dynamical simulations has not been thoroughly investigated. Here we develop a framework for using QML methods to simulate quantum dynamics on near-term quantum hardware. We use generalization bounds, which bound the error a machine learning model makes on unseen data, to rigorously analyze the training data requirements of an algorithm within this framework. This provides a guarantee that our algorithm is resource-efficient, both in terms of qubit and data requirements. Our numerics exhibit efficient scaling with problem size, and we simulate 20 times longer than Trotterization on IBMQ-Bogota.</description>
+    <title>Log-Sobolev inequality and proof of Hypothesis of the Gaussian Maximizers for the capacity of quantum noisy homodyning</title>
+    <link>http://arxiv.org/pdf/2204.10626</link>
+    <author>A. S. Holevo</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>In the present paper we give proof that the information-transmission capacity of the approximate position measurement with the oscillator energy constraint, which underlies noisy Gaussian homodyning in quantum optics, is attained on Gaussian encoding. The proof is based on general principles of convex programming. Rather remarkably, for this particular model the method reduces the solution of the optimization problem to a generalization of the celebrated log-Sobolev inequality. We hope that this method should work also for other models lying out of the scope of the "threshold condition" ensuring that the upper bound for the capacity as a difference between the maximum and the minimum output entropies is attainable.</description>
   </item>
 
   <item>
-    <title>Scalable measures of magic for quantum computers</title>
-    <link>http://arxiv.org/pdf/2204.10061</link>
-    <author>Tobias Haug, M. S. Kim</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
+    <title>Maximal entanglement velocity implies dual unitarity</title>
+    <link>http://arxiv.org/pdf/2204.10341</link>
+    <author>Tianci Zhou, Aram W. Harrow</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
   </item>
 
   <item>
-    <title>A Fisher information-based incompatibility criterion for quantum channels</title>
-    <link>http://arxiv.org/pdf/2204.09963</link>
-    <author>Qing-Hua Zhang, Ion Nechita</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>We introduce a new incompatibility criterion for quantum channels, based on the notion of (quantum) Fisher information. Our construction is based on a similar criterion for quantum measurements put forward by H.~Zhu. We then study the power of the incompatibility criterion in different scenarios. Firstly, we prove the first analytical conditions for the incompatibility of two Schur channels. Then, we study the incompatibility structure of a tuple of depolarizing channels, comparing the newly introduced criterion with the known results from asymmetric quantum cloning.</description>
+    <title>Parameterized Sensitivity Oracles and Dynamic Algorithms using Exterior Algebras</title>
+    <link>http://arxiv.org/pdf/2204.10819</link>
+    <author>Josh Alman, Dean Hirsch</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>We design the first efficient sensitivity oracles and dynamic algorithms for a variety of parameterized problems. Our main approach is to modify the algebraic coding technique from static parameterized algorithm design, which had not previously been used in a dynamic context. We particularly build off of the `extensor coding' method of Brand, Dell and Husfeldt [STOC'18], employing properties of the exterior algebra over different fields. For the $k$-Path detection problem for directed graphs, it is known that no efficient dynamic algorithm exists (under popular assumptions from fine-grained complexity). We circumvent this by designing an efficient sensitivity oracle, which preprocesses a directed graph on $n$ vertices in $2^k poly(k) n^{\omega+o(1)}$ time, such that, given $\ell$ updates (mixing edge insertions and deletions, and vertex deletions) to that input graph, it can decide in time $\ell^2 2^kpoly(k)$ and with high probability, whether the updated graph contains a path of length $k$. We also give a deterministic sensitivity oracle requiring $4^k poly(k) n^{\omega+o(1)}$ preprocessing time and $\ell^2 2^{\omega k + o(k)}$ query time, and obtain a randomized sensitivity oracle for the task of approximately counting the number of $k$-paths. For $k$-Path detection in undirected graphs, we obtain a randomized sensitivity oracle with $O(1.66^k n^3)$ preprocessing time and $O(\ell^3 1.66^k)$ query time, and a better bound for undirected bipartite graphs. In addition, we present the first fully dynamic algorithms for a variety of problems: $k$-Partial Cover, $m$-Set $k$-Packing, $t$-Dominating Set, $d$-Dimensional $k$-Matching, and Exact $k$-Partial Cover. For example, for $k$-Partial Cover we show a randomized dynamic algorithm with $2^k poly(k)polylog(n)$ update time, and a deterministic dynamic algorithm with $4^kpoly(k)polylog(n)$ update time.</description>
   </item>
 
 </channel>
