@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Chain rules for quantum channels</title>
+    <link>http://arxiv.org/pdf/2204.11153</link>
+    <author>Mario Berta, Marco Tomamichel</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
+  </item>
+
+  <item>
     <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
     <link>http://arxiv.org/pdf/2204.10812</link>
     <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
@@ -23,11 +31,11 @@
   </item>
 
   <item>
-    <title>Complexity phase transitions in instantaneous quantum polynomial-time circuits</title>
-    <link>http://arxiv.org/pdf/2204.08898</link>
-    <author>Chae-Yeun Park, Michael J. Kastoryano</author>
-    <pubDate>Apr 20 2022</pubDate>
-    <description>We study a subclass of the Instantaneous Quantum Polynomial-time (IQP) circuit with a varying density of two-qubit gates. We identify two phase transitions as a function of the gate density. At the first transition, the coherent Gibbs representation of the output state transitions from quasilocal to extended, and becomes completely non-local after the second transition, resembling that of Haar random states. We introduce several new diagnostics to argue that learning the distribution after the first transition already becomes classically intractable, even though its output distribution is far from random. Our work thus opens a novel pathway for exploring quantum advantage in more practical setups whose outcome distributions are more structured than random states.</description>
+    <title>Maximal entanglement velocity implies dual unitarity</title>
+    <link>http://arxiv.org/pdf/2204.10341</link>
+    <author>Tianci Zhou, Aram W. Harrow</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
   </item>
 
   <item>
@@ -39,11 +47,11 @@
   </item>
 
   <item>
-    <title>Maximal entanglement velocity implies dual unitarity</title>
-    <link>http://arxiv.org/pdf/2204.10341</link>
-    <author>Tianci Zhou, Aram W. Harrow</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
+    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
+    <link>http://arxiv.org/pdf/2204.11353</link>
+    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
   </item>
 
   <item>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>Training variational quantum circuits with CoVaR: covariance root finding with classical shadows</title>
-    <link>http://arxiv.org/pdf/2204.08494</link>
-    <author>Gregory Boyd, Bálint Koczor</author>
-    <pubDate>Apr 20 2022</pubDate>
-    <description>Exploiting near-term quantum computers and achieving practical value is a considerable and exciting challenge. Most prominent candidates as variational algorithms typically aim to find the ground state of a Hamiltonian by minimising a single classical (energy) surface which is sampled from by a quantum computer. Here we introduce a method we call CoVaR, an alternative means to exploit the power of variational circuits: We find eigenstates by finding joint roots of a polynomially growing number of properties of the quantum state as covariance functions between the Hamiltonian and an operator pool of our choice. The most remarkable feature of our CoVaR approach is that it allows us to fully exploit the extremely powerful classical shadow techniques, i.e., we simultaneously estimate a very large number $>10^4-10^7$ of covariances. We randomly select covariances and estimate analytical derivatives at each iteration applying a stochastic Levenberg-Marquardt step via a large but tractable linear system of equations that we solve with a classical computer. We prove that the cost in quantum resources per iteration is comparable to a standard gradient estimation, however, we observe in numerical simulations a very significant improvement by many orders of magnitude in convergence speed. CoVaR is directly analogous to stochastic gradient-based optimisations of paramount importance to classical machine learning while we also offload significant but tractable work onto the classical processor.</description>
-  </item>
-
-  <item>
-    <title>A Fisher information-based incompatibility criterion for quantum channels</title>
-    <link>http://arxiv.org/pdf/2204.09963</link>
-    <author>Qing-Hua Zhang, Ion Nechita</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>We introduce a new incompatibility criterion for quantum channels, based on the notion of (quantum) Fisher information. Our construction is based on a similar criterion for quantum measurements put forward by H.~Zhu. We then study the power of the incompatibility criterion in different scenarios. Firstly, we prove the first analytical conditions for the incompatibility of two Schur channels. Then, we study the incompatibility structure of a tuple of depolarizing channels, comparing the newly introduced criterion with the known results from asymmetric quantum cloning.</description>
+    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
+    <link>http://arxiv.org/pdf/2204.11372</link>
+    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
   </item>
 
 </channel>
