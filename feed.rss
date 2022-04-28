@@ -63,43 +63,19 @@
   </item>
 
   <item>
+    <title>Chain rules for quantum channels</title>
+    <link>http://arxiv.org/pdf/2204.11153</link>
+    <author>Mario Berta, Marco Tomamichel</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
+  </item>
+
+  <item>
     <title>Tailored XZZX codes for biased noise</title>
     <link>http://arxiv.org/pdf/2203.16486</link>
     <author>Qian Xu, Nam Mannucci, Alireza Seif, Aleksander Kubica, Steven T. Flammia, Liang Jiang</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>Quantum error correction (QEC) for generic errors is challenging due to the demanding threshold and resource requirements. Interestingly, when physical noise is biased, we can tailor our QEC schemes to the noise to improve performance. Here we study a family of codes having XZZX-type stabilizer generators, including a set of cyclic codes generalized from the five-qubit code and a set of topological codes that we call generalized toric codes (GTCs). We show that these XZZX codes are highly qubit efficient if tailored to biased noise. To characterize the code performance, we use the notion of effective distance, which generalizes code distance to the case of biased noise and constitutes a proxy for the logical failure rate. We find that the XZZX codes can achieve a favorable resource scaling by this metric under biased noise. We also show that the XZZX codes have remarkably high thresholds that reach what is achievable by random codes, and furthermore they can be efficiently decoded using matching decoders. Finally, by adding only one flag qubit, the XZZX codes can realize fault-tolerant QEC while preserving their large effective distance. In combination, our results show that tailored XZZX codes give a resource-efficient scheme for fault-tolerant QEC against biased noise.</description>
-  </item>
-
-  <item>
-    <title>Quantum Routing with Teleportation</title>
-    <link>http://arxiv.org/pdf/2204.04185</link>
-    <author>Dhruv Devulapalli, Eddie Schoute, Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov</author>
-    <pubDate>Apr 11 2022</pubDate>
-    <description>We study the problem of implementing arbitrary permutations of qubits under interaction constraints in quantum systems that allow for arbitrarily fast local operations and classical communication (LOCC). In particular, we show examples of speedups over swap-based and more general unitary routing methods by distributing entanglement and using LOCC to perform quantum teleportation. We further describe an example of an interaction graph for which teleportation gives a logarithmic speedup in the worst-case routing time over swap-based routing. We also study limits on the speedup afforded by quantum teleportation - showing an $O(\sqrt{N \log N})$ upper bound on the separation in routing time for any interaction graph - and give tighter bounds for some common classes of graphs.</description>
-  </item>
-
-  <item>
-    <title>Imaging stars with quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.06044</link>
-    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
-    <pubDate>Apr 14 2022</pubDate>
-    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
-  </item>
-
-  <item>
-    <title>An analytic theory for the dynamics of wide quantum neural networks</title>
-    <link>http://arxiv.org/pdf/2203.16711</link>
-    <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>Parametrized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analytic results with numerical experiments.</description>
-  </item>
-
-  <item>
-    <title>Ground state preparation and energy estimation on early fault-tolerant quantum computers via quantum eigenvalue transformation of unitary matrices</title>
-    <link>http://arxiv.org/pdf/2204.05955</link>
-    <author>Yulong Dong, Lin Lin, Yu Tong</author>
-    <pubDate>Apr 13 2022</pubDate>
-    <description>Under suitable assumptions, the algorithms in [Lin, Tong, Quantum 2020] can estimate the ground state energy and prepare the ground state of a quantum Hamiltonian with near-optimal query complexities. However, this is based on a block encoding input model of the Hamiltonian, whose implementation is known to require a large resource overhead. We develop a tool called quantum eigenvalue transformation of unitary matrices with real polynomials (QET-U), which uses a controlled Hamiltonian evolution as the input model, a single ancilla qubit and no multi-qubit control operations, and is thus suitable for early fault-tolerant quantum devices. This leads to a simple quantum algorithm that outperforms all previous algorithms with a comparable circuit structure for estimating the ground state energy. For a class of quantum spin Hamiltonians, we propose a new method that exploits certain anti-commutation relations and further removes the need of implementing the controlled Hamiltonian evolution. Coupled with Trotter based approximation of the Hamiltonian evolution, the resulting algorithm can be very suitable for early fault-tolerant quantum devices. We demonstrate the performance of the algorithm using IBM Qiskit for the transverse field Ising model. If we are further allowed to use multi-qubit Toffoli gates, we can then implement amplitude amplification and a new binary amplitude estimation algorithm, which increases the circuit depth but decreases the total query complexity. The resulting algorithm saturates the near-optimal complexity for ground state preparation and energy estimating using a constant number of ancilla qubits (no more than 3).</description>
   </item>
 
   <item>
@@ -111,11 +87,43 @@
   </item>
 
   <item>
-    <title>Chain rules for quantum channels</title>
-    <link>http://arxiv.org/pdf/2204.11153</link>
-    <author>Mario Berta, Marco Tomamichel</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
+    <title>Quantum Routing with Teleportation</title>
+    <link>http://arxiv.org/pdf/2204.04185</link>
+    <author>Dhruv Devulapalli, Eddie Schoute, Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>We study the problem of implementing arbitrary permutations of qubits under interaction constraints in quantum systems that allow for arbitrarily fast local operations and classical communication (LOCC). In particular, we show examples of speedups over swap-based and more general unitary routing methods by distributing entanglement and using LOCC to perform quantum teleportation. We further describe an example of an interaction graph for which teleportation gives a logarithmic speedup in the worst-case routing time over swap-based routing. We also study limits on the speedup afforded by quantum teleportation - showing an $O(\sqrt{N \log N})$ upper bound on the separation in routing time for any interaction graph - and give tighter bounds for some common classes of graphs.</description>
+  </item>
+
+  <item>
+    <title>An analytic theory for the dynamics of wide quantum neural networks</title>
+    <link>http://arxiv.org/pdf/2203.16711</link>
+    <author>Junyu Liu, Khadijeh Najafi, Kunal Sharma, Francesco Tacchino, Liang Jiang, Antonio Mezzacapo</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>Parametrized quantum circuits can be used as quantum neural networks and have the potential to outperform their classical counterparts when trained for addressing learning problems. To date, much of the results on their performance on practical problems are heuristic in nature. In particular, the convergence rate for the training of quantum neural networks is not fully understood. Here, we analyze the dynamics of gradient descent for the training error of a class of variational quantum machine learning models. We define wide quantum neural networks as parameterized quantum circuits in the limit of a large number of qubits and variational parameters. We then find a simple analytic formula that captures the average behavior of their loss function and discuss the consequences of our findings. For example, for random quantum circuits, we predict and characterize an exponential decay of the residual training error as a function of the parameters of the system. We finally validate our analytic results with numerical experiments.</description>
+  </item>
+
+  <item>
+    <title>Imaging stars with quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.06044</link>
+    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
+    <pubDate>Apr 14 2022</pubDate>
+    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
+  </item>
+
+  <item>
+    <title>Ground state preparation and energy estimation on early fault-tolerant quantum computers via quantum eigenvalue transformation of unitary matrices</title>
+    <link>http://arxiv.org/pdf/2204.05955</link>
+    <author>Yulong Dong, Lin Lin, Yu Tong</author>
+    <pubDate>Apr 13 2022</pubDate>
+    <description>Under suitable assumptions, the algorithms in [Lin, Tong, Quantum 2020] can estimate the ground state energy and prepare the ground state of a quantum Hamiltonian with near-optimal query complexities. However, this is based on a block encoding input model of the Hamiltonian, whose implementation is known to require a large resource overhead. We develop a tool called quantum eigenvalue transformation of unitary matrices with real polynomials (QET-U), which uses a controlled Hamiltonian evolution as the input model, a single ancilla qubit and no multi-qubit control operations, and is thus suitable for early fault-tolerant quantum devices. This leads to a simple quantum algorithm that outperforms all previous algorithms with a comparable circuit structure for estimating the ground state energy. For a class of quantum spin Hamiltonians, we propose a new method that exploits certain anti-commutation relations and further removes the need of implementing the controlled Hamiltonian evolution. Coupled with Trotter based approximation of the Hamiltonian evolution, the resulting algorithm can be very suitable for early fault-tolerant quantum devices. We demonstrate the performance of the algorithm using IBM Qiskit for the transverse field Ising model. If we are further allowed to use multi-qubit Toffoli gates, we can then implement amplitude amplification and a new binary amplitude estimation algorithm, which increases the circuit depth but decreases the total query complexity. The resulting algorithm saturates the near-optimal complexity for ground state preparation and energy estimating using a constant number of ancilla qubits (no more than 3).</description>
+  </item>
+
+  <item>
+    <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
+    <link>http://arxiv.org/pdf/2204.10812</link>
+    <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
   </item>
 
   <item>
@@ -135,19 +143,27 @@
   </item>
 
   <item>
-    <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
-    <link>http://arxiv.org/pdf/2204.10812</link>
-    <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
-  </item>
-
-  <item>
     <title>A cellular automaton decoder for a noise-bias tailored color code</title>
     <link>http://arxiv.org/pdf/2203.16534</link>
     <author>Jonathan F. San Miguel, Dominic J. Williamson, Benjamin J. Brown</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>Self-correcting quantum memories demonstrate robust properties that can be exploited to improve active quantum error-correction protocols. Here we propose a cellular automaton decoder for a variation of the color code where the bases of the physical qubits are locally rotated, which we call the XYZ color code. The local transformation means our decoder demonstrates key properties of a two-dimensional fractal code if the noise acting on the system is infinitely biased towards dephasing, namely, no string-like logical operators. As such, in the high-bias limit, our local decoder reproduces the behavior of a partially self-correcting memory. At low error rates, our simulations show that the memory time diverges polynomially with system size without intervention from a global decoder, up to some critical system size that grows as the error rate is lowered. Furthermore, although we find that we cannot reproduce partially self-correcting behavior at finite bias, our numerics demonstrate improved memory times at realistic noise biases. Our results therefore motivate the design of tailored cellular automaton decoders that help to reduce the bandwidth demands of global decoding for realistic noise models.</description>
+  </item>
+
+  <item>
+    <title>Maximal entanglement velocity implies dual unitarity</title>
+    <link>http://arxiv.org/pdf/2204.10341</link>
+    <author>Tianci Zhou, Aram W. Harrow</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
+  </item>
+
+  <item>
+    <title>Complexity phase transitions in instantaneous quantum polynomial-time circuits</title>
+    <link>http://arxiv.org/pdf/2204.08898</link>
+    <author>Chae-Yeun Park, Michael J. Kastoryano</author>
+    <pubDate>Apr 20 2022</pubDate>
+    <description>We study a subclass of the Instantaneous Quantum Polynomial-time (IQP) circuit with a varying density of two-qubit gates. We identify two phase transitions as a function of the gate density. At the first transition, the coherent Gibbs representation of the output state transitions from quasilocal to extended, and becomes completely non-local after the second transition, resembling that of Haar random states. We introduce several new diagnostics to argue that learning the distribution after the first transition already becomes classically intractable, even though its output distribution is far from random. Our work thus opens a novel pathway for exploring quantum advantage in more practical setups whose outcome distributions are more structured than random states.</description>
   </item>
 
   <item>
@@ -183,11 +199,11 @@
   </item>
 
   <item>
-    <title>Complexity phase transitions in instantaneous quantum polynomial-time circuits</title>
-    <link>http://arxiv.org/pdf/2204.08898</link>
-    <author>Chae-Yeun Park, Michael J. Kastoryano</author>
-    <pubDate>Apr 20 2022</pubDate>
-    <description>We study a subclass of the Instantaneous Quantum Polynomial-time (IQP) circuit with a varying density of two-qubit gates. We identify two phase transitions as a function of the gate density. At the first transition, the coherent Gibbs representation of the output state transitions from quasilocal to extended, and becomes completely non-local after the second transition, resembling that of Haar random states. We introduce several new diagnostics to argue that learning the distribution after the first transition already becomes classically intractable, even though its output distribution is far from random. Our work thus opens a novel pathway for exploring quantum advantage in more practical setups whose outcome distributions are more structured than random states.</description>
+    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
+    <link>http://arxiv.org/pdf/2204.11353</link>
+    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
   </item>
 
   <item>
@@ -204,14 +220,6 @@
     <author>Alexander Müller-Hermes, Satvik Singh</author>
     <pubDate>Apr 05 2022</pubDate>
     <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
-  </item>
-
-  <item>
-    <title>Maximal entanglement velocity implies dual unitarity</title>
-    <link>http://arxiv.org/pdf/2204.10341</link>
-    <author>Tianci Zhou, Aram W. Harrow</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Nilin Abrahamsen, Yuan Su, Yu Tong, Nathan Wiebe</author>
     <pubDate>Mar 31 2022</pubDate>
     <description>We prove an entanglement area law for a class of 1D quantum systems involving infinite-dimensional local Hilbert spaces. This class of quantum systems include bosonic models such as the Hubbard-Holstein model, and both U(1) and SU(2) lattice gauge theories in one spatial dimension. Our proof relies on new results concerning the robustness of the ground state and spectral gap to the truncation of Hilbert space, applied within the approximate ground state projector (AGSP) framework from previous work. In establishing this area law, we develop a system-size independent bound on the expectation value of local observables for Hamiltonians without translation symmetry, which may be of separate interest. Our result provides theoretical justification for using tensor network methods to study the ground state properties of quantum systems with infinite local degrees of freedom.</description>
-  </item>
-
-  <item>
-    <title>Classically-Boosted Quantum Optimization Algorithm</title>
-    <link>http://arxiv.org/pdf/2203.13936</link>
-    <author>Guoming Wang</author>
-    <pubDate>Mar 29 2022</pubDate>
-    <description>Considerable effort has been made recently in the development of heuristic quantum algorithms for solving combinatorial optimization problems. Meanwhile, these problems have been studied extensively in classical computing for decades. In this paper, we explore a natural approach to leveraging existing classical techniques to enhance quantum optimization. Specifically, we run a classical algorithm to find an approximate solution and then use a quantum circuit to search its "neighborhood" for higher-quality solutions. We propose the Classically-Boosted Quantum Optimization Algorithm (CBQOA) that is based on this idea and can solve a wide range of combinatorial optimization problems, including all unconstrained problems and many important constrained problems such as Max Bisection, Maximum Independent Set, Minimum Vertex Cover, Portfolio Optimization, Traveling Salesperson and so on. A crucial component of this algorithm is an efficiently-implementable continuous-time quantum walk (CTQW) on a properly-constructed graph that connects the feasible solutions. CBQOA utilizes this CTQW and the output of an efficient classical procedure to create a suitable superposition of the feasible solutions which is then processed in certain way. This algorithm has the merits that it solves constrained problems without modifying their cost functions, confines the evolution of the quantum state to the feasible subspace, and does not rely on efficient indexing of the feasible solutions. We demonstrate the applications of CBQOA to Max 3SAT and Max Bisection, and provide empirical evidence that it outperforms previous approaches on these problems.</description>
   </item>
 
 </channel>

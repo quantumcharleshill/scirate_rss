@@ -7,19 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Out-of-distribution generalization for learning quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2204.10268</link>
-    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
-  </item>
-
-  <item>
     <title>Chain rules for quantum channels</title>
     <link>http://arxiv.org/pdf/2204.11153</link>
     <author>Mario Berta, Marco Tomamichel</author>
     <pubDate>Apr 26 2022</pubDate>
     <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
+  </item>
+
+  <item>
+    <title>Out-of-distribution generalization for learning quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2204.10268</link>
+    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
   </item>
 
   <item>
@@ -36,14 +36,6 @@
     <author>Tianci Zhou, Aram W. Harrow</author>
     <pubDate>Apr 25 2022</pubDate>
     <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
-  </item>
-
-  <item>
-    <title>Classical algorithms for many-body quantum systems at finite energies</title>
-    <link>http://arxiv.org/pdf/2204.09439</link>
-    <author>Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls</author>
-    <pubDate>Apr 21 2022</pubDate>
-    <description>We investigate quantum inspired algorithms to compute physical observables of quantum many-body systems at finite energies. They are based on the quantum algorithms proposed in [Lu et al. PRX Quantum 2, 020321 (2021)], which use the quantum simulation of the dynamics of such systems, as well as classical filtering and sampling techniques. Here, we replace the quantum simulation by standard classical methods based on matrix product states and operators. As a result, we can address significantly larger systems than those reachable by exact diagonalization or by other algorithms. We demonstrate the performance with spin chains up to 80 sites.</description>
   </item>
 
   <item>
@@ -76,6 +68,14 @@
     <author>Yingkai Ouyang, Peter P. Rohde</author>
     <pubDate>Apr 25 2022</pubDate>
     <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
+  </item>
+
+  <item>
+    <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
+    <link>http://arxiv.org/pdf/2204.11890</link>
+    <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
+    <pubDate>Apr 27 2022</pubDate>
+    <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
   </item>
 
   <item>

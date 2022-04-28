@@ -159,19 +159,19 @@
   </item>
 
   <item>
-    <title>Random quantum circuits transform local noise into global white noise</title>
-    <link>http://arxiv.org/pdf/2111.14907</link>
-    <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
-    <pubDate>Dec 01 2021</pubDate>
-    <description>We study the distribution over measurement outcomes of noisy random quantum circuits in the low-fidelity regime. We show that, for local noise that is sufficiently weak and unital, correlations (measured by the linear cross-entropy benchmark) between the output distribution $p_{\text{noisy}}$ of a generic noisy circuit instance and the output distribution $p_{\text{ideal}}$ of the corresponding noiseless instance shrink exponentially with the expected number of gate-level errors, as $F=\text{exp}(-2s\epsilon \pm O(s\epsilon^2))$, where $\epsilon$ is the probability of error per circuit location and $s$ is the number of two-qubit gates. Furthermore, if the noise is incoherent, the output distribution approaches the uniform distribution $p_{\text{unif}}$ at precisely the same rate and can be approximated as $p_{\text{noisy}} \approx Fp_{\text{ideal}} + (1-F)p_{\text{unif}}$, that is, local errors are scrambled by the random quantum circuit and contribute only white noise (uniform output). Importantly, we upper bound the total variation error (averaged over random circuit instance) in this approximation as $O(F\epsilon \sqrt{s})$, so the "white-noise approximation" is meaningful when $\epsilon \sqrt{s} \ll 1$, a quadratically weaker condition than the $\epsilon s\ll 1$ requirement to maintain high fidelity. The bound applies when the circuit size satisfies $s \geq \Omega(n\log(n))$ and the inverse error rate satisfies $\epsilon^{-1} \geq \tilde{\Omega}(n)$. The white-noise approximation is useful for salvaging the signal from a noisy quantum computation; it was an underlying assumption in complexity-theoretic arguments that low-fidelity random quantum circuits cannot be efficiently sampled classically. Our method is based on a map from second-moment quantities in random quantum circuits to expectation values of certain stochastic processes for which we compute upper and lower bounds.</description>
-  </item>
-
-  <item>
     <title>A randomized quantum algorithm for statistical phase estimation</title>
     <link>http://arxiv.org/pdf/2110.12071</link>
     <author>Kianna Wan, Mario Berta, Earl T. Campbell</author>
     <pubDate>Oct 26 2021</pubDate>
     <description>Phase estimation is a quantum algorithm for measuring the eigenvalues of a Hamiltonian. We propose and rigorously analyse a randomized phase estimation algorithm with two distinctive features. First, our algorithm has complexity independent of the number of terms L in the Hamiltonian. Second, unlike previous L-independent approaches, such as those based on qDRIFT, all sources of error in our algorithm can be suppressed by collecting more data samples, without increasing the circuit depth.</description>
+  </item>
+
+  <item>
+    <title>Random quantum circuits transform local noise into global white noise</title>
+    <link>http://arxiv.org/pdf/2111.14907</link>
+    <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
+    <pubDate>Dec 01 2021</pubDate>
+    <description>We study the distribution over measurement outcomes of noisy random quantum circuits in the low-fidelity regime. We show that, for local noise that is sufficiently weak and unital, correlations (measured by the linear cross-entropy benchmark) between the output distribution $p_{\text{noisy}}$ of a generic noisy circuit instance and the output distribution $p_{\text{ideal}}$ of the corresponding noiseless instance shrink exponentially with the expected number of gate-level errors, as $F=\text{exp}(-2s\epsilon \pm O(s\epsilon^2))$, where $\epsilon$ is the probability of error per circuit location and $s$ is the number of two-qubit gates. Furthermore, if the noise is incoherent, the output distribution approaches the uniform distribution $p_{\text{unif}}$ at precisely the same rate and can be approximated as $p_{\text{noisy}} \approx Fp_{\text{ideal}} + (1-F)p_{\text{unif}}$, that is, local errors are scrambled by the random quantum circuit and contribute only white noise (uniform output). Importantly, we upper bound the total variation error (averaged over random circuit instance) in this approximation as $O(F\epsilon \sqrt{s})$, so the "white-noise approximation" is meaningful when $\epsilon \sqrt{s} \ll 1$, a quadratically weaker condition than the $\epsilon s\ll 1$ requirement to maintain high fidelity. The bound applies when the circuit size satisfies $s \geq \Omega(n\log(n))$ and the inverse error rate satisfies $\epsilon^{-1} \geq \tilde{\Omega}(n)$. The white-noise approximation is useful for salvaging the signal from a noisy quantum computation; it was an underlying assumption in complexity-theoretic arguments that low-fidelity random quantum circuits cannot be efficiently sampled classically. Our method is based on a map from second-moment quantities in random quantum circuits to expectation values of certain stochastic processes for which we compute upper and lower bounds.</description>
   </item>
 
   <item>
@@ -295,6 +295,14 @@
   </item>
 
   <item>
+    <title>Introduction to Quantum Error Correction and Fault Tolerance</title>
+    <link>http://arxiv.org/pdf/2111.08894</link>
+    <author>Steven M. Girvin</author>
+    <pubDate>Nov 18 2021</pubDate>
+    <description>These lecture notes from the 2019 Les Houches Summer School on 'Quantum Information Machines' are intended to provide an introduction to classical and quantum error correction with bits and qubits, and with continuous variable systems (harmonic oscillators). The focus on the latter will be on practical examples that can be realized today or in the near future with a modular architecture based on superconducting electrical circuits and microwave photons. The goal and vision is 'hardware-efficient' quantum error correction that does not require exponentially large hardware overhead in order to achieve practical and useful levels of fault tolerance and circuit depth.</description>
+  </item>
+
+  <item>
     <title>Single-shot quantum error correction with the three-dimensional subsystem toric code</title>
     <link>http://arxiv.org/pdf/2106.02621</link>
     <author>Aleksander Kubica, Michael Vasmer</author>
@@ -303,11 +311,11 @@
   </item>
 
   <item>
-    <title>Introduction to Quantum Error Correction and Fault Tolerance</title>
-    <link>http://arxiv.org/pdf/2111.08894</link>
-    <author>Steven M. Girvin</author>
-    <pubDate>Nov 18 2021</pubDate>
-    <description>These lecture notes from the 2019 Les Houches Summer School on 'Quantum Information Machines' are intended to provide an introduction to classical and quantum error correction with bits and qubits, and with continuous variable systems (harmonic oscillators). The focus on the latter will be on practical examples that can be realized today or in the near future with a modular architecture based on superconducting electrical circuits and microwave photons. The goal and vision is 'hardware-efficient' quantum error correction that does not require exponentially large hardware overhead in order to achieve practical and useful levels of fault tolerance and circuit depth.</description>
+    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
+    <link>http://arxiv.org/pdf/2203.16571</link>
+    <author>Jonas Haferkamp</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
   </item>
 
   <item>
@@ -335,11 +343,11 @@
   </item>
 
   <item>
-    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
-    <link>http://arxiv.org/pdf/2203.16571</link>
-    <author>Jonas Haferkamp</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
+    <title>Quantum many-body systems in thermal equilibrium</title>
+    <link>http://arxiv.org/pdf/2204.08349</link>
+    <author>Álvaro M. Alhambra</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
   </item>
 
   <item>
@@ -364,14 +372,6 @@
     <author>Christophe Vuillot</author>
     <pubDate>Oct 12 2021</pubDate>
     <description>A protocol called the "honeycomb code", or generically a "Floquet code", was introduced by Hastings and Haah in \citehastings_dynamically_2021. The honeycomb code is a subsystem code based on the honeycomb lattice with zero logical qubits but such that there exists a schedule for measuring two-body gauge checks leaving enough room at all times for two protected logical qubits. In this work we show a way to introduce boundaries to the system which curiously presents a rotating dynamics but has constant distance and is therefore not fault-tolerant.</description>
-  </item>
-
-  <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
   </item>
 
   <item>
