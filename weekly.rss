@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Out-of-distribution generalization for learning quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2204.10268</link>
-    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
-  </item>
-
-  <item>
     <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
     <link>http://arxiv.org/pdf/2204.10812</link>
     <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
@@ -47,19 +39,11 @@
   </item>
 
   <item>
-    <title>Dynamical simulation via quantum machine learning with provable generalization</title>
-    <link>http://arxiv.org/pdf/2204.10269</link>
-    <author>Joe Gibbs, Zoë Holmes, Matthias C. Caro, Nicholas Ezzell, Hsin-Yuan Huang, Lukasz Cincio, Andrew T. Sornborger, Patrick J. Coles</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Much attention has been paid to dynamical simulation and quantum machine learning (QML) independently as applications for quantum advantage, while the possibility of using QML to enhance dynamical simulations has not been thoroughly investigated. Here we develop a framework for using QML methods to simulate quantum dynamics on near-term quantum hardware. We use generalization bounds, which bound the error a machine learning model makes on unseen data, to rigorously analyze the training data requirements of an algorithm within this framework. This provides a guarantee that our algorithm is resource-efficient, both in terms of qubit and data requirements. Our numerics exhibit efficient scaling with problem size, and we simulate 20 times longer than Trotterization on IBMQ-Bogota.</description>
-  </item>
-
-  <item>
-    <title>Scalable measures of magic for quantum computers</title>
-    <link>http://arxiv.org/pdf/2204.10061</link>
-    <author>Tobias Haug, M. S. Kim</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
+    <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
+    <link>http://arxiv.org/pdf/2204.11890</link>
+    <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
+    <pubDate>Apr 27 2022</pubDate>
+    <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
   </item>
 
   <item>
@@ -71,19 +55,35 @@
   </item>
 
   <item>
-    <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
-    <link>http://arxiv.org/pdf/2204.11890</link>
-    <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
-    <pubDate>Apr 27 2022</pubDate>
-    <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
-  </item>
-
-  <item>
     <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
     <link>http://arxiv.org/pdf/2204.11372</link>
     <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
     <pubDate>Apr 26 2022</pubDate>
     <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
+  </item>
+
+  <item>
+    <title>Quantum Linear Optics via String Diagrams</title>
+    <link>http://arxiv.org/pdf/2204.12985</link>
+    <author>Giovanni de Felice, Bob Coecke</author>
+    <pubDate>Apr 28 2022</pubDate>
+    <description>We establish a formal bridge between qubit-based and photonic quantum computing. We do this by defining a functor from the ZX calculus to linear optical circuits. In the process we provide a compositional theory of quantum linear optics which allows to reason about events involving multiple photons such as those required to perform linear-optical and fusion-based quantum computing.</description>
+  </item>
+
+  <item>
+    <title>Log-Sobolev inequality and proof of Hypothesis of the Gaussian Maximizers for the capacity of quantum noisy homodyning</title>
+    <link>http://arxiv.org/pdf/2204.10626</link>
+    <author>A. S. Holevo</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>In the present paper we give proof that the information-transmission capacity of the approximate position measurement with the oscillator energy constraint, which underlies noisy Gaussian homodyning in quantum optics, is attained on Gaussian encoding. The proof is based on general principles of convex programming. Rather remarkably, for this particular model the method reduces the solution of the optimization problem to a generalization of the celebrated log-Sobolev inequality. We hope that this method should work also for other models lying out of the scope of the "threshold condition" ensuring that the upper bound for the capacity as a difference between the maximum and the minimum output entropies is attainable.</description>
+  </item>
+
+  <item>
+    <title>Complexity of quantum circuits via sensitivity, magic, and coherence</title>
+    <link>http://arxiv.org/pdf/2204.12051</link>
+    <author>Kaifeng Bu, Roy J. Garcia, Arthur Jaffe, Dax Enshan Koh, Lu Li</author>
+    <pubDate>Apr 27 2022</pubDate>
+    <description>Quantum circuit complexity-a measure of the minimum number of gates needed to implement a given unitary transformation-is a fundamental concept in quantum computation, with widespread applications ranging from determining the running time of quantum algorithms to understanding the physics of black holes. In this work, we study the complexity of quantum circuits using the notions of sensitivity, average sensitivity (also called influence), magic, and coherence. We characterize the set of unitaries with vanishing sensitivity and show that it coincides with the family of matchgates. Since matchgates are tractable quantum circuits, we have proved that sensitivity is necessary for a quantum speedup. As magic is another measure to quantify quantum advantage, it is interesting to understand the relation between magic and sensitivity. We do this by introducing a quantum version of the Fourier entropy-influence relation. Our results are pivotal for understanding the role of sensitivity, magic, and coherence in quantum computation.</description>
   </item>
 
 </channel>

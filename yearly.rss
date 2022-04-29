@@ -31,19 +31,19 @@
   </item>
 
   <item>
-    <title>Linear growth of quantum circuit complexity</title>
-    <link>http://arxiv.org/pdf/2106.05305</link>
-    <author>Jonas Haferkamp, Philippe Faist, Naga B. T. Kothakonda, Jens Eisert, Nicole Yunger Halpern</author>
-    <pubDate>Jun 11 2021</pubDate>
-    <description>Quantifying quantum states' complexity is a key problem in various subfields of science, from quantum computing to black-hole physics. We prove a prominent conjecture by Brown and Susskind about how random quantum circuits' complexity increases. Consider constructing a unitary from Haar-random two-qubit quantum gates. Implementing the unitary exactly requires a circuit of some minimal number of gates - the unitary's exact circuit complexity. We prove that this complexity grows linearly with the number of random gates, with unit probability, until saturating after exponentially many random gates. Our proof is surprisingly short, given the established difficulty of lower-bounding the exact circuit complexity. Our strategy combines differential topology and elementary algebraic geometry with an inductive construction of Clifford circuits.</description>
-  </item>
-
-  <item>
     <title>The randomized measurement toolbox</title>
     <link>http://arxiv.org/pdf/2203.11374</link>
     <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
     <pubDate>Mar 23 2022</pubDate>
     <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
+  </item>
+
+  <item>
+    <title>Linear growth of quantum circuit complexity</title>
+    <link>http://arxiv.org/pdf/2106.05305</link>
+    <author>Jonas Haferkamp, Philippe Faist, Naga B. T. Kothakonda, Jens Eisert, Nicole Yunger Halpern</author>
+    <pubDate>Jun 11 2021</pubDate>
+    <description>Quantifying quantum states' complexity is a key problem in various subfields of science, from quantum computing to black-hole physics. We prove a prominent conjecture by Brown and Susskind about how random quantum circuits' complexity increases. Consider constructing a unitary from Haar-random two-qubit quantum gates. Implementing the unitary exactly requires a circuit of some minimal number of gates - the unitary's exact circuit complexity. We prove that this complexity grows linearly with the number of random gates, with unit probability, until saturating after exponentially many random gates. Our proof is surprisingly short, given the established difficulty of lower-bounding the exact circuit complexity. Our strategy combines differential topology and elementary algebraic geometry with an inductive construction of Clifford circuits.</description>
   </item>
 
   <item>
@@ -263,19 +263,19 @@
   </item>
 
   <item>
-    <title>Symmetry Protected Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2105.04649</link>
-    <author>Michael H. Freedman, Matthew B. Hastings, Modjtaba Shokrian Zini</author>
-    <pubDate>May 12 2021</pubDate>
-    <description>We consider a model of quantum computation using qubits where it is possible to measure whether a given pair are in a singlet (total spin $0$) or triplet (total spin $1$) state. The physical motivation is that we can do these measurements in a way that is protected against revealing other information so long as all terms in the Hamiltonian are $SU(2)$-invariant. We conjecture that this model is equivalent to BQP. Towards this goal, we show: (1) this model is capable of universal quantum computation with polylogarithmic overhead if it is supplemented by single qubit $X$ and $Z$ gates. (2) Without any additional gates, it is at least as powerful as the weak model of "permutational quantum computation" of Jordan [14, 18]. (3) With postselection, the model is equivalent to PostBQP.</description>
-  </item>
-
-  <item>
     <title>Concentration for Trotter error</title>
     <link>http://arxiv.org/pdf/2111.05324</link>
     <author>Chi-Fang Chen, Fernando G.S.L. Brandão</author>
     <pubDate>Nov 10 2021</pubDate>
     <description>Quantum simulation is expected to be one of the key applications of future quantum computers. Product formulas, or Trotterization, are the oldest and, still today, an appealing method for quantum simulation. For an accurate product formula approximation in the spectral norm, the state-of-the-art gate complexity depends on the number of Hamiltonian terms and a certain 1-norm of its local terms. This work studies the concentration aspects of Trotter error: we prove that, typically, the Trotter error exhibits 2-norm (i.e., incoherent) scaling; the current estimate with 1-norm (i.e., coherent) scaling is for the worst cases. For k-local Hamiltonians and higher-order product formulas, we obtain gate count estimates for input states drawn from a 1-design ensemble (e.g., computational basis states). Our gate count depends on the number of Hamiltonian terms but replaces the 1-norm quantity by its analog in 2-norm, giving significant speedup for systems with large connectivity. Our results generalize to Hamiltonians with Fermionic terms and when the input state is drawn from a low-particle number subspace. Further, when the Hamiltonian itself has Gaussian coefficients (e.g., the SYK models), we show the stronger result that the 2-norm behavior persists even for the worst input state. Our main technical tool is a family of simple but versatile inequalities from non-commutative martingales called uniform smoothness. We use them to derive Hypercontractivity, namely p-norm estimates for low-degree polynomials, which implies concentration via Markov's inequality. In terms of optimality, we give examples that simultaneously match our p-norm bounds and the spectral norm bounds. Therefore, our improvement is due to asking a qualitatively different question from the spectral norm bounds. Our results give evidence that product formulas in practice may generically work much better than expected.</description>
+  </item>
+
+  <item>
+    <title>Symmetry Protected Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2105.04649</link>
+    <author>Michael H. Freedman, Matthew B. Hastings, Modjtaba Shokrian Zini</author>
+    <pubDate>May 12 2021</pubDate>
+    <description>We consider a model of quantum computation using qubits where it is possible to measure whether a given pair are in a singlet (total spin $0$) or triplet (total spin $1$) state. The physical motivation is that we can do these measurements in a way that is protected against revealing other information so long as all terms in the Hamiltonian are $SU(2)$-invariant. We conjecture that this model is equivalent to BQP. Towards this goal, we show: (1) this model is capable of universal quantum computation with polylogarithmic overhead if it is supplemented by single qubit $X$ and $Z$ gates. (2) Without any additional gates, it is at least as powerful as the weak model of "permutational quantum computation" of Jordan [14, 18]. (3) With postselection, the model is equivalent to PostBQP.</description>
   </item>
 
   <item>
