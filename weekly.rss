@@ -7,27 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Foundations for learning from noisy quantum experiments</title>
+    <link>http://arxiv.org/pdf/2204.13691</link>
+    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
+  </item>
+
+  <item>
     <title>Chain rules for quantum channels</title>
     <link>http://arxiv.org/pdf/2204.11153</link>
     <author>Mario Berta, Marco Tomamichel</author>
     <pubDate>Apr 26 2022</pubDate>
     <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
-  </item>
-
-  <item>
-    <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
-    <link>http://arxiv.org/pdf/2204.10812</link>
-    <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
-  </item>
-
-  <item>
-    <title>Maximal entanglement velocity implies dual unitarity</title>
-    <link>http://arxiv.org/pdf/2204.10341</link>
-    <author>Tianci Zhou, Aram W. Harrow</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
   </item>
 
   <item>
@@ -47,14 +39,6 @@
   </item>
 
   <item>
-    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.10471</link>
-    <author>Yingkai Ouyang, Peter P. Rohde</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
-  </item>
-
-  <item>
     <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
     <link>http://arxiv.org/pdf/2204.11372</link>
     <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
@@ -71,11 +55,19 @@
   </item>
 
   <item>
-    <title>Log-Sobolev inequality and proof of Hypothesis of the Gaussian Maximizers for the capacity of quantum noisy homodyning</title>
-    <link>http://arxiv.org/pdf/2204.10626</link>
-    <author>A. S. Holevo</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>In the present paper we give proof that the information-transmission capacity of the approximate position measurement with the oscillator energy constraint, which underlies noisy Gaussian homodyning in quantum optics, is attained on Gaussian encoding. The proof is based on general principles of convex programming. Rather remarkably, for this particular model the method reduces the solution of the optimization problem to a generalization of the celebrated log-Sobolev inequality. We hope that this method should work also for other models lying out of the scope of the "threshold condition" ensuring that the upper bound for the capacity as a difference between the maximum and the minimum output entropies is attainable.</description>
+    <title>Propagation of errors and quantitative quantum simulation with quantum advantage</title>
+    <link>http://arxiv.org/pdf/2204.13644</link>
+    <author>S. Flannigan, N. Pearson, G. H. Low, A. Buyskikh, I. Bloch, P. Zoller, M. Troyer, A. J. Daley</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>The rapid development in hardware for quantum computing and simulation has led to much interest in problems where these devices can exceed the capabilities of existing classical computers and known methods. Approaching this for problems that go beyond testing the performance of a quantum device is an important step, and quantum simulation of many-body quench dynamics is one of the most promising candidates for early practical quantum advantage. We analyse the requirements for quantitatively reliable quantum simulation beyond the capabilities of existing classical methods for analogue quantum simulators with neutral atoms in optical lattices and trapped ions. Considering the primary sources of error in analogue devices and how they propagate after a quench in studies of the Hubbard or long-range transverse field Ising model, we identify the level of error expected in quantities we extract from experiments. We conclude for models that are directly implementable that regimes of practical quantum advantage are attained in current experiments with analogue simulators. We also identify the hardware requirements to reach the same level of accuracy with future fault-tolerant digital quantum simulation. Verification techniques are already available to test the assumptions we make here, and demonstrating these in experiments will be an important next step.</description>
+  </item>
+
+  <item>
+    <title>Divisible Codes for Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2204.13176</link>
+    <author>Jingzhen Hu, Qingzhong Liang, Robert Calderbank</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>Divisible codes are defined by the property that codeword weights share a common divisor greater than one. They are used to design signals for communications and sensing, and this paper explores how they can be used to protect quantum information as it is transformed by logical gates. Given a CSS code $\mathcal{C}$, we derive conditions that are both necessary and sufficient for a transversal diagonal physical operator $U_Z$ to preserve $\mathcal{C}$ and induce $U_L$. The group of $Z$-stabilizers in a CSS code $\mathcal{C}$ is determined by the dual of a classical $[n, k_1]$ binary code $\mathcal{C}_1$, and the group of $X$-stabilizers is determined by a classical $[n, k_2]$ binary code $\mathcal{C}_2$ that is contained in $\mathcal{C}_1$. The requirement that a diagonal physical operator $U_Z$ fixes a CSS code $\mathcal{C}$ leads to constraints on the congruence of weights in cosets of $\mathcal{C}_2$. These constraints are a perfect fit to divisible codes, and represent an opportunity to take advantage of the extensive literature on classical codes with two or three weights. We construct new families of CSS codes using cosets of the first order Reed Muller code defined by quadratic forms. We provide a simple alternative to the standard method of deriving the coset weight distributions (based on Dickson normal form) that may be of independent interest. Finally, we develop an approach to circumventing the Eastin-Knill Theorem which states that no QECC can implement a universal set of logical gates through transversal gates alone. The essential idea is to design stabilizer codes in layers, with $N_1$ inner qubits and $N_2$ outer qubits, and to assemble a universal set of fault tolerant gates on the inner qubits.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Kaifeng Bu, Roy J. Garcia, Arthur Jaffe, Dax Enshan Koh, Lu Li</author>
     <pubDate>Apr 27 2022</pubDate>
     <description>Quantum circuit complexity-a measure of the minimum number of gates needed to implement a given unitary transformation-is a fundamental concept in quantum computation, with widespread applications ranging from determining the running time of quantum algorithms to understanding the physics of black holes. In this work, we study the complexity of quantum circuits using the notions of sensitivity, average sensitivity (also called influence), magic, and coherence. We characterize the set of unitaries with vanishing sensitivity and show that it coincides with the family of matchgates. Since matchgates are tractable quantum circuits, we have proved that sensitivity is necessary for a quantum speedup. As magic is another measure to quantify quantum advantage, it is interesting to understand the relation between magic and sensitivity. We do this by introducing a quantum version of the Fourier entropy-influence relation. Our results are pivotal for understanding the role of sensitivity, magic, and coherence in quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Simulation and performance analysis of quantum error correction with a rotated surface code under a realistic noise model</title>
+    <link>http://arxiv.org/pdf/2204.11404</link>
+    <author>Mitsuki Katsuda, Kosuke Mitarai, Keisuke Fujii</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>The demonstration of quantum error correction (QEC) is one of the most important milestones in the realization of fully-fledged quantum computers. Toward this, QEC experiments using the surface codes have recently been actively conducted. However, it has not yet been realized to protect logical quantum information beyond the physical coherence time. In this work, we performed a full simulation of QEC for the rotated surface codes with a code distance 5, which employs 49 qubits and is within reach of the current state-of-the-art quantum computers. In particular, we evaluate the logical error probability in a realistic noise model that incorporates not only stochastic Pauli errors but also coherent errors due to a systematic control error or unintended interactions. While a straightforward simulation of 49 qubits is not tractable within a reasonable computational time, we reduced the number of qubits required to 26 qubits by delaying the syndrome measurement in simulation. This and a fast quantum computer simulator, Qulacs, implemented on GPU allows us to simulate full QEC with an arbitrary local noise within reasonable simulation time. Based on the numerical results, we also construct and verify an effective model to incorporate the effect of the coherent error into a stochastic noise model. This allows us to understand what the effect coherent error has on the logical error probability on a large scale without full simulation based on the detailed full simulation of a small scale. The present simulation framework and effective model, which can handle arbitrary local noise, will play a vital role in clarifying the physical parameters that future experimental QEC should target.</description>
   </item>
 
 </channel>

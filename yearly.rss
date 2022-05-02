@@ -231,6 +231,14 @@
   </item>
 
   <item>
+    <title>Foundations for learning from noisy quantum experiments</title>
+    <link>http://arxiv.org/pdf/2204.13691</link>
+    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
+  </item>
+
+  <item>
     <title>Exponential separations between learning with and without quantum memory</title>
     <link>http://arxiv.org/pdf/2111.05881</link>
     <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
@@ -396,14 +404,6 @@
     <author>Nicole Yunger Halpern, Naga B. T. Kothakonda, Jonas Haferkamp, Anthony Munson, Jens Eisert, Philippe Faist</author>
     <pubDate>Oct 25 2021</pubDate>
     <description>Quantum complexity is emerging as a key property of many-body systems, including black holes, topological materials, and early quantum computers. A state's complexity quantifies the number of computational gates required to prepare the state from a simple tensor product. The greater a state's distance from maximal complexity, or ``uncomplexity,'' the more useful the state is as input to a quantum computation. Separately, resource theories -- simple models for agents subject to constraints -- are burgeoning in quantum information theory. We unite the two domains, confirming Brown and Susskind's conjecture that a resource theory of uncomplexity can be defined. The allowed operations, fuzzy operations, are slightly random implementations of two-qubit gates chosen by an agent. We formalize two operational tasks, uncomplexity extraction and expenditure. Their optimal efficiencies depend on an entropy that we engineer to reflect complexity. We also present two monotones, uncomplexity measures that decline monotonically under fuzzy operations, in certain regimes. This work unleashes on many-body complexity the resource-theory toolkit from quantum information theory.</description>
-  </item>
-
-  <item>
-    <title>Pauli error estimation via Population Recovery</title>
-    <link>http://arxiv.org/pdf/2105.02885</link>
-    <author>Steven T. Flammia, Ryan O'Donnell</author>
-    <pubDate>May 10 2021</pubDate>
-    <description>Motivated by estimation of quantum noise models, we study the problem of learning a Pauli channel, or more generally the Pauli error rates of an arbitrary channel. By employing a novel reduction to the "Population Recovery" problem, we give an extremely simple algorithm that learns the Pauli error rates of an $n$-qubit channel to precision $\epsilon$ in $\ell_\infty$ using just $O(1/\epsilon^2) \log(n/\epsilon)$ applications of the channel. This is optimal up to the logarithmic factors. Our algorithm uses only unentangled state preparation and measurements, and the post-measurement classical runtime is just an $O(1/\epsilon)$ factor larger than the measurement data size. It is also impervious to a limited model of measurement noise where heralded measurement failures occur independently with probability $\le 1/4$. We then consider the case where the noise channel is close to the identity, meaning that the no-error outcome occurs with probability $1-\eta$. In the regime of small $\eta$ we extend our algorithm to achieve multiplicative precision $1 \pm \epsilon$ (i.e., additive precision $\epsilon \eta$) using just $O\bigl(\frac{1}{\epsilon^2 \eta}\bigr) \log(n/\epsilon)$ applications of the channel.</description>
   </item>
 
 </channel>

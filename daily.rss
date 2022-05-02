@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Quantum Linear Optics via String Diagrams</title>
-    <link>http://arxiv.org/pdf/2204.12985</link>
-    <author>Giovanni de Felice, Bob Coecke</author>
-    <pubDate>Apr 28 2022</pubDate>
-    <description>We establish a formal bridge between qubit-based and photonic quantum computing. We do this by defining a functor from the ZX calculus to linear optical circuits. In the process we provide a compositional theory of quantum linear optics which allows to reason about events involving multiple photons such as those required to perform linear-optical and fusion-based quantum computing.</description>
+    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
+    <link>http://arxiv.org/pdf/2204.13834</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
   </item>
 
   <item>
-    <title>Foundations for learning from noisy quantum experiments</title>
-    <link>http://arxiv.org/pdf/2204.13691</link>
-    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
-    <pubDate>Apr 29 2022</pubDate>
-    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
+    <title>Quantum Dictionaries without QRAM</title>
+    <link>http://arxiv.org/pdf/2204.13835</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
   <item>
-    <title>Complete ZX-calculi for the stabiliser fragment in odd prime dimensions</title>
-    <link>http://arxiv.org/pdf/2204.12531</link>
-    <author>Robert I. Booth, Titouan Carette</author>
-    <pubDate>Apr 28 2022</pubDate>
-    <description>We introduce a family of ZX-calculi which axiomatise the stabiliser fragment of quantum theory in odd prime dimensions. These calculi recover many of the nice features of the qubit ZX-calculus which were lost in previous proposals for higher-dimensional systems. We then prove that these calculi are complete, i.e. provide a set of rewrite rules which can be used to prove any equality of stabiliser quantum operations. Adding a discard construction, we obtain a calculus complete for mixed state stabiliser quantum mechanics in odd prime dimensions, and this furthermore gives a complete axiomatisation for the related diagrammatic language for affine co-isotropic relations.</description>
+    <title>Symbolic synthesis of Clifford circuits and beyond</title>
+    <link>http://arxiv.org/pdf/2204.14205</link>
+    <author>Matthew Amy, Owen Bennett-Gibbs, Neil J. Ross</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>Path sums are a convenient symbolic formalism for quantum operations with applications to the simulation, optimization, and verification of quantum protocols. Unlike quantum circuits, path sums are not limited to unitary operations, but can express arbitrary linear ones. Two problems, therefore, naturally arise in the study of path sums: the unitarity problem and the extraction problem. The former is the problem of deciding whether a given path sum represents a unitary operator. The latter is the problem of constructing a quantum circuit, given a path sum promised to represent a unitary operator. We show that the unitarity problem is co-NP-hard in general, but that it is in P when restricted to Clifford path sums. We then provide an algorithm to synthesize a Clifford circuit from a unitary Clifford path sum. The circuits produced by our extraction algorithm are of the form $C_1HC_2$, where $C_1$ and $C_2$ are Hadamard-free circuits and $H$ is a layer of Hadamard gates. We also provide a heuristic generalization of our extraction algorithm to arbitrary path sums. While this algorithm is not guaranteed to succeed, it often succeeds and typically produces natural looking circuits. Alongside applications to the optimization and decompilation of quantum circuits, we demonstrate the capability of our algorithm by synthesizing the standard quantum Fourier transform directly from a path sum.</description>
   </item>
 
   <item>
-    <title>Proto-Quipper with dynamic lifting</title>
-    <link>http://arxiv.org/pdf/2204.13041</link>
-    <author>Peng Fu, Kohei Kishida, Neil J. Ross, Peter Selinger</author>
-    <pubDate>Apr 28 2022</pubDate>
-    <description>Quipper is a functional programming language for quantum computing. Proto-Quipper is a family of languages aiming to provide a formal foundation for Quipper. In this paper, we extend Proto-Quipper-M with a construct called dynamic lifting, which is present in Quipper. By virtue of being a circuit description language, Proto-Quipper has two separate runtimes: circuit generation time and circuit execution time. Values that are known at circuit generation time are called parameters, and values that are known at circuit execution time are called states. Dynamic lifting is an operation that enables a state, such as the result of a measurement, to be lifted to a parameter, where it can influence the generation of the next portion of the circuit. As a result, dynamic lifting enables Proto-Quipper programs to interleave classical and quantum computation. We describe the syntax of a language we call Proto-Quipper-Dyn. Its type system uses a system of modalities to keep track of the use of dynamic lifting. We also provide an operational semantics, as well as an abstract categorical semantics for dynamic lifting based on enriched category theory. We prove that both the type system and the operational semantics are sound with respect to our categorical semantics. Finally, we give some examples of Proto-Quipper-Dyn programs that make essential use of dynamic lifting. A concrete categorical model is given in a companion paper [FKRS2022b].</description>
+    <title>Emergent SU(2)$_1$ conformal symmetry in the spin-1/2 Kitaev-Gamma chain with a Dzyaloshinskii-Moriya interaction</title>
+    <link>http://arxiv.org/pdf/2204.13810</link>
+    <author>Wang Yang, Alberto Nocera, Chao Xu, Arnab Adhikary, Ian Affleck</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>We study the one-dimensional spin-1/2 Kitaev-Gamma model with a bond-dependent Dzyaloshinskii-Moriya (DM) interaction, which can be induced by an electric field applied in the third direction where the first and second directions refer to the two bond directions in the model. By a combination of field theory and symmetry analysis, an extended gapless phase with an emergent SU(2)$_1$ conformal symmetry is found in the phase diagram of the spin-1/2 Kitaev-Gamma-DM chain. The analytic predictions are in good agreements with numerical results obtained from density matrix renormalization group simulations.</description>
   </item>
 
   <item>
-    <title>Quantum Compressive Sensing: Mathematical Machinery, Quantum Algorithms, and Quantum Circuitry</title>
-    <link>http://arxiv.org/pdf/2204.13035</link>
-    <author>Kyle Sherbert, Naveed Naimipour, Haleh Safavi, Harry Shaw, Mojtaba Soltanalian</author>
-    <pubDate>Apr 28 2022</pubDate>
-    <description>Compressive sensing is a sensing protocol that facilitates reconstruction of large signals from relatively few measurements by exploiting known structures of signals of interest, typically manifested as signal sparsity. Compressive sensing's vast repertoire of applications in areas such as communications and image reconstruction stems from the traditional approach of utilizing non-linear optimization to exploit the sparsity assumption by selecting the lowest-weight (i.e. maximum sparsity) signal consistent with all acquired measurements. Recent efforts in the literature consider instead a data-driven approach, training tensor networks to learn the structure of signals of interest. The trained tensor network is updated to "project" its state onto one consistent with the measurements taken, and is then sampled site by site to "guess" the original signal. In this paper, we take advantage of this computing protocol by formulating an alternative "quantum" protocol, in which the state of the tensor network is a quantum state over a set of entangled qubits. Accordingly, we present the associated algorithms and quantum circuits required to implement the training, projection, and sampling steps on a quantum computer. We supplement our theoretical results by simulating the proposed circuits with a small, qualitative model of LIDAR imaging of earth forests. Our results indicate that a quantum, data-driven approach to compressive sensing, may have significant promise as quantum technology continues to make new leaps.</description>
+    <title>Symmetric Mass Generation</title>
+    <link>http://arxiv.org/pdf/2204.14271</link>
+    <author>Juven Wang, Yi-Zhuang You</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>The most well-known mechanism for fermions to acquire a mass is the Nambu-Goldstone-Anderson-Higgs mechanism, i.e. after a spontaneous symmetry breaking, a bosonic field that couples to the fermion mass term condenses, which grants a mass gap for the fermionic excitation. In the last few years, it was gradually understood that there is a new mechanism of mass generation for fermions without involving any symmetry breaking within an anomaly-free symmetry group. This new mechanism is generally referred to as the "Symmetric Mass Generation (SMG)." It is realized that the SMG has deep connections with interacting topological insulator/superconductors, symmetry-protected topological states, perturbative local and non-perturbative global anomaly cancellations, and deconfined quantum criticality. It has strong implications for the lattice regularization of chiral gauge theories. This article defines the SMG, summarizes current numerical results, introduces a novel unifying theoretical framework (including the parton-Higgs and the s-confinement mechanisms, as well as the symmetry-extension construction), and overviews various features and applications of SMG.</description>
   </item>
 
 </channel>
