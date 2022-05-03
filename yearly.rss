@@ -31,19 +31,19 @@
   </item>
 
   <item>
-    <title>The randomized measurement toolbox</title>
-    <link>http://arxiv.org/pdf/2203.11374</link>
-    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
-  </item>
-
-  <item>
     <title>Linear growth of quantum circuit complexity</title>
     <link>http://arxiv.org/pdf/2106.05305</link>
     <author>Jonas Haferkamp, Philippe Faist, Naga B. T. Kothakonda, Jens Eisert, Nicole Yunger Halpern</author>
     <pubDate>Jun 11 2021</pubDate>
     <description>Quantifying quantum states' complexity is a key problem in various subfields of science, from quantum computing to black-hole physics. We prove a prominent conjecture by Brown and Susskind about how random quantum circuits' complexity increases. Consider constructing a unitary from Haar-random two-qubit quantum gates. Implementing the unitary exactly requires a circuit of some minimal number of gates - the unitary's exact circuit complexity. We prove that this complexity grows linearly with the number of random gates, with unit probability, until saturating after exponentially many random gates. Our proof is surprisingly short, given the established difficulty of lower-bounding the exact circuit complexity. Our strategy combines differential topology and elementary algebraic geometry with an inductive construction of Clifford circuits.</description>
+  </item>
+
+  <item>
+    <title>The randomized measurement toolbox</title>
+    <link>http://arxiv.org/pdf/2203.11374</link>
+    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
+    <pubDate>Mar 23 2022</pubDate>
+    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
   </item>
 
   <item>
@@ -191,6 +191,14 @@
   </item>
 
   <item>
+    <title>Foundations for learning from noisy quantum experiments</title>
+    <link>http://arxiv.org/pdf/2204.13691</link>
+    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
+  </item>
+
+  <item>
     <title>Estimating gate-set properties from random sequences</title>
     <link>http://arxiv.org/pdf/2110.13178</link>
     <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
@@ -228,14 +236,6 @@
     <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
     <pubDate>Oct 22 2021</pubDate>
     <description>Vast numbers of qubits will be needed for large-scale quantum computing using today's fault-tolerant architectures due to the overheads associated with quantum error correction. We present a scheme for low-overhead fault-tolerant quantum computation based on quantum low-density parity-check (LDPC) codes, where the capability of performing long-range entangling interactions allows a large number of logical qubits to be encoded with a modest number of physical qubits. In our approach, quantum logic gates operate via logical Pauli measurements that preserve both the protection of the LDPC codes as well as the low overheads in terms of required number of additional ancilla qubits. Compared with the surface code architecture, resource estimates for our scheme indicate order-of-magnitude improvements in the overheads for encoding and processing around one hundred logical qubits, meaning fault-tolerant quantum computation at this scale may be achievable with a few thousand physical qubits at achievable error rates.</description>
-  </item>
-
-  <item>
-    <title>Foundations for learning from noisy quantum experiments</title>
-    <link>http://arxiv.org/pdf/2204.13691</link>
-    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
-    <pubDate>Apr 29 2022</pubDate>
-    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
   </item>
 
   <item>

@@ -15,22 +15,6 @@
   </item>
 
   <item>
-    <title>Chain rules for quantum channels</title>
-    <link>http://arxiv.org/pdf/2204.11153</link>
-    <author>Mario Berta, Marco Tomamichel</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
-  </item>
-
-  <item>
-    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
-    <link>http://arxiv.org/pdf/2204.11353</link>
-    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
-  </item>
-
-  <item>
     <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
     <link>http://arxiv.org/pdf/2204.11890</link>
     <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
@@ -39,11 +23,11 @@
   </item>
 
   <item>
-    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2204.11372</link>
-    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
+    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
+    <link>http://arxiv.org/pdf/2204.13834</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
   </item>
 
   <item>
@@ -52,6 +36,14 @@
     <author>Giovanni de Felice, Bob Coecke</author>
     <pubDate>Apr 28 2022</pubDate>
     <description>We establish a formal bridge between qubit-based and photonic quantum computing. We do this by defining a functor from the ZX calculus to linear optical circuits. In the process we provide a compositional theory of quantum linear optics which allows to reason about events involving multiple photons such as those required to perform linear-optical and fusion-based quantum computing.</description>
+  </item>
+
+  <item>
+    <title>Quantum Dictionaries without QRAM</title>
+    <link>http://arxiv.org/pdf/2204.13835</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
   <item>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>Simulation and performance analysis of quantum error correction with a rotated surface code under a realistic noise model</title>
-    <link>http://arxiv.org/pdf/2204.11404</link>
-    <author>Mitsuki Katsuda, Kosuke Mitarai, Keisuke Fujii</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>The demonstration of quantum error correction (QEC) is one of the most important milestones in the realization of fully-fledged quantum computers. Toward this, QEC experiments using the surface codes have recently been actively conducted. However, it has not yet been realized to protect logical quantum information beyond the physical coherence time. In this work, we performed a full simulation of QEC for the rotated surface codes with a code distance 5, which employs 49 qubits and is within reach of the current state-of-the-art quantum computers. In particular, we evaluate the logical error probability in a realistic noise model that incorporates not only stochastic Pauli errors but also coherent errors due to a systematic control error or unintended interactions. While a straightforward simulation of 49 qubits is not tractable within a reasonable computational time, we reduced the number of qubits required to 26 qubits by delaying the syndrome measurement in simulation. This and a fast quantum computer simulator, Qulacs, implemented on GPU allows us to simulate full QEC with an arbitrary local noise within reasonable simulation time. Based on the numerical results, we also construct and verify an effective model to incorporate the effect of the coherent error into a stochastic noise model. This allows us to understand what the effect coherent error has on the logical error probability on a large scale without full simulation based on the detailed full simulation of a small scale. The present simulation framework and effective model, which can handle arbitrary local noise, will play a vital role in clarifying the physical parameters that future experimental QEC should target.</description>
+    <title>Mutually Unbiased Measurements, Hadamard Matrices, and Superdense Coding</title>
+    <link>http://arxiv.org/pdf/2204.11886</link>
+    <author>Máté Farkas, Jędrzej Kaniewski, Ashwin Nayak</author>
+    <pubDate>Apr 27 2022</pubDate>
+    <description>Mutually unbiased bases (MUBs) are highly symmetric bases on complex Hilbert spaces, and the corresponding rank-1 projective measurements are ubiquitous in quantum information theory. In this work, we study a recently introduced generalization of MUBs called mutually unbiased measurements (MUMs). These measurements inherit the essential property of complementarity from MUBs, but the Hilbert space dimension is no longer required to match the number of outcomes. This operational complementarity property renders MUMs highly useful for device-independent quantum information processing. It has been shown that MUMs are strictly more general than MUBs. In this work we provide a complete proof of the characterization of MUMs that are direct sums of MUBs. We then proceed to construct new examples of MUMs that are not direct sums of MUBs. A crucial technical tool for these construction is a correspondence with quaternionic Hadamard matrices, which allows us to map known examples of such matrices to MUMs that are not direct sums of MUBs. Furthermore, we show that -- in stark contrast with MUBs -- the number of MUMs for a fixed outcome number is unbounded. Next, we focus on the use of MUMs in quantum communication. We demonstrate how any pair of MUMs with d outcomes defines a d-dimensional superdense coding protocol. Using MUMs that are not direct sums of MUBs, we disprove a recent conjecture due to Nayak and Yuen on the rigidity of superdense coding for infinitely many dimensions.</description>
+  </item>
+
+  <item>
+    <title>On converses to the polynomial method</title>
+    <link>http://arxiv.org/pdf/2204.12303</link>
+    <author>Jop Briët, Francisco Escudero Gutiérrez</author>
+    <pubDate>Apr 27 2022</pubDate>
+    <description>A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. A natural question posed there asks if bounded quartic polynomials can be approximated by $2$-query quantum algorithms. Arunachalam, Palazuelos and the first author showed that there is no direct analogue of the result of Aaronson et al. in this case. We improve on this result in the following ways: First, we point out and fix a small error in the construction that has to do with a translation from cubic to quartic polynomials. Second, we give a completely explicit example based on techniques from additive combinatorics. Third, we show that the result still holds when we allow for a small additive error. For this, we apply an SDP characterization of Gribling and Laurent (QIP'19) for the completely-bounded approximate degree.</description>
   </item>
 
 </channel>
