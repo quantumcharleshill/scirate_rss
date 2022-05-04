@@ -167,6 +167,14 @@
   </item>
 
   <item>
+    <title>Foundations for learning from noisy quantum experiments</title>
+    <link>http://arxiv.org/pdf/2204.13691</link>
+    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
+  </item>
+
+  <item>
     <title>Random quantum circuits transform local noise into global white noise</title>
     <link>http://arxiv.org/pdf/2111.14907</link>
     <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
@@ -188,14 +196,6 @@
     <author>Scott Aaronson</author>
     <pubDate>Sep 16 2021</pubDate>
     <description>I offer a case that quantum query complexity still has loads of enticing and fundamental open problems -- from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.</description>
-  </item>
-
-  <item>
-    <title>Foundations for learning from noisy quantum experiments</title>
-    <link>http://arxiv.org/pdf/2204.13691</link>
-    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
-    <pubDate>Apr 29 2022</pubDate>
-    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
   </item>
 
   <item>
