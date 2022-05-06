@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Efficient quantum algorithm for nonlinear reaction-diffusion equations and energy estimation</title>
-    <link>http://arxiv.org/pdf/2205.01141</link>
-    <author>Dong An, Di Fang, Stephen Jordan, Jin-Peng Liu, Guang Hao Low, Jiasu Wang</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>Nonlinear differential equations exhibit rich phenomena in many fields but are notoriously challenging to solve. Recently, Liu et al. [1] demonstrated the first efficient quantum algorithm for dissipative quadratic differential equations under the condition $R < 1$, where $R$ measures the ratio of nonlinearity to dissipation using the $\ell_2$ norm. Here we develop an efficient quantum algorithm based on [1] for reaction-diffusion equations, a class of nonlinear partial differential equations (PDEs). To achieve this, we improve upon the Carleman linearization approach introduced in [1] to obtain a faster convergence rate under the condition $R_D < 1$, where $R_D$ measures the ratio of nonlinearity to dissipation using the $\ell_{\infty}$ norm. Since $R_D$ is independent of the number of spatial grid points $n$ while $R$ increases with $n$, the criterion $R_D<1$ is significantly milder than $R<1$ for high-dimensional systems and can stay convergent under grid refinement for approximating PDEs. As applications of our quantum algorithm we consider the Fisher-KPP and Allen-Cahn equations, which have interpretations in classical physics. In particular, we show how to estimate the mean square kinetic energy in the solution by postprocessing the quantum state that encodes it to extract derivative information.</description>
-  </item>
-
-  <item>
-    <title>A fast quantum algorithm for computing matrix permanent</title>
-    <link>http://arxiv.org/pdf/2205.01328</link>
-    <author>Joonsuk Huh</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>Computing a matrix permanent is known to be a classically intractable problem. This paper presents the first polynomial time quantum algorithm for computing permanents of arbitrary $N$-dimensional square matrices with multiplicative error and additive error protocols. We transformed the well-known classical algorithm, Ryser's formula, into sums of quantum overlap integrals to develop the quantum algorithm. This requires $\mathcal{O}(N)$ and $\mathcal{O}(N^{3})$ evaluations of the real part of the quantum overlap integrals for real and complex matrices, respectively, with polynomial depth quantum circuits of $\mathcal{O}(N)$ qubits. The existence of the polynomial time multiplicative error estimation of a matrix permanent would strongly imply that quantum computers can access the #P-hard problem. Our quantum algorithm attains the milestone of opening a new direction in quantum computing and computational complexity theory. It could resolve crucial computational complexity issues like locating the bounded error quantum polynomial time (BQP) relative to the polynomial hierarchy, which has been a big complexity question. Depending on the size of a matrix norm of interest, we can also obtain an exponentially small additive error estimation and better estimation against Gurvits' classical sampling algorithm. The additive error protocol is practically implementable in noisy intermediate-scale quantum devices. Moreover, our quantum algorithm directly shows the computational complexity connection between the matrix permanent and the real-time partition function of the quantum Ising Hamiltonian.</description>
-  </item>
-
-  <item>
     <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
     <link>http://arxiv.org/pdf/2205.01933</link>
     <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Deep learning of quantum entanglement from incomplete measurements</title>
-    <link>http://arxiv.org/pdf/2205.01462</link>
-    <author>Dominik Koutný, Laia Ginés, Magdalena Moczała-Dusanowska, Sven Höfling, Christian Schneider, Ana Predojević, Miroslav Ježek</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>The quantification of the entanglement present in a physical system is of paramount importance for fundamental research and many cutting-edge applications. Currently, achieving this goal requires very demanding experimental procedures such as full state tomography. Here, we demonstrate that by employing neural networks we can quantify the degree of entanglement without needing to know the full description of the quantum state. Our method allows for direct quantification of the quantum correlations using an incomplete set of local measurements. Despite using under-sampled measurements, we achieve an estimation error of up to an order of magnitude lower than the state-of-the-art quantum tomography. Furthermore, we achieve this result employing networks trained using exclusively simulated data. Finally, we derive a method based on a convolutional network input that can accept data from various measurement scenarios and perform, to some extent, independently of the measurement device.</description>
+    <title>Complete flow-preserving rewrite rules for MBQC patterns with Pauli measurements</title>
+    <link>http://arxiv.org/pdf/2205.02009</link>
+    <author>Tommy McElvanney, Miriam Backens</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>In the one-way model of measurement-based quantum computation (MBQC), computation proceeds via measurements on some standard resource state. So-called flow conditions ensure that the overall computation is deterministic in a suitable sense, with Pauli flow being the most general of these. Existing work on rewriting MBQC patterns while preserving the existence of flow has focused on rewrites that reduce the number of qubits. In this work, we show that introducing new $Z$-measured qubits, connected to any subset of the existing qubits, preserves the existence of Pauli flow. Furthermore, we give a unique canonical form for stabilizer ZX-diagrams inspired by recent work of Hu & Khesin [arXiv:2109.10210]. We prove that any MBQC-like stabilizer ZX-diagram with Pauli flow can be rewritten into this canonical form using only rules which preserve the existence of Pauli flow and that each of these rules can be reversed while also preserving the existence of Pauli flow. Hence we have complete graphical rewriting for MBQC-like stabilizer ZX-diagrams with Pauli flow.</description>
   </item>
 
   <item>
-    <title>Efficient Use of Quantum Linear System Algorithms in Interior Point Methods for Linear Optimization</title>
-    <link>http://arxiv.org/pdf/2205.01220</link>
-    <author>Mohammadhossein Mohammadisiahroudi, Ramin Fakhimi, Tamás Terlaky</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>Quantum computing has attracted significant interest in the optimization community because it potentially can solve classes of optimization problems faster than conventional supercomputers. Several researchers proposed quantum computing methods, especially Quantum Interior Point Methods (QIPMs), to solve convex optimization problems, such as Linear Optimization, Semidefinite Optimization, and Second-order Cone Optimization problems. Most of them have applied a Quantum Linear System Algorithm at each iteration to compute a Newton step. However, using quantum linear solvers in QIPMs comes with many challenges, such as having ill-conditioned systems and the considerable error of quantum solvers. This paper investigates how one can efficiently use quantum linear solvers in QIPMs. Accordingly, an Inexact Infeasible Quantum Interior Point Method is developed to solve linear optimization problems. We also discuss how can we get an exact solution by Iterative Refinement without excessive time of quantum solvers. Finally, computational results with QISKIT implementation of our QIPM using quantum simulators are analyzed.</description>
+    <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
+    <link>http://arxiv.org/pdf/2205.02813</link>
+    <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
+  </item>
+
+  <item>
+    <title>Nonequilibrium symmetry-protected topological order: emergence of semilocal Gibbs ensembles</title>
+    <link>http://arxiv.org/pdf/2205.02221</link>
+    <author>Maurizio Fagotti, Vanja Marić, Lenart Zadnik</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>We consider nonequilibrium time evolution in quantum spin chains after a global quench. We show that global symmetries can invalidate the standard picture of local relaxation to a (generalised) Gibbs ensemble and provide a solution to the problem. We introduce in particular a family of statistical ensembles, which we dub "semilocal (generalised) Gibbs ensembles". The issue arises when the Hamiltonian possesses conservation laws that are not (pseudo)local but act as such in the symmetry-restricted space where time evolution occurs. Because of them, the stationary state emerging at infinite time can exhibit exceptional features. We focus on a specific example with a spin-flip symmetry, which is the commonest global symmetry encountered in spin-$1/2$ chains. Among the exceptional properties, we find that, at late times, the excess of entropy of a spin block triggered by a local perturbation in the initial state grows logarithmically with the subsystem's length. We establish a connection with symmetry-protected topological order in equilibrium at zero temperature and study the melting of the order induced either by a (symmetry-breaking) rotation of the initial state or by an increase of the temperature.</description>
+  </item>
+
+  <item>
+    <title>A Tool For Debugging Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2205.01899</link>
+    <author>Sara Ayman Metwalli, Rodney Van Meter</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>As the scale of quantum programs grows to match that of classical software, the nascent field of quantum software engineering must mature and tools such as debuggers will become increasingly important. However, developing a quantum debugger is challenging due to the nature of a quantum computer; sneaking a peek at the value of a quantum state will cause either partial or complete collapse of the superposition and may destroy the necessary entanglement. As a first step to developing a full quantum circuit debugger, we have designed and implemented a quantum circuit debugging tool. The tool allows the user to divide the circuit vertically or horizontally into smaller chunks known as slices, and manage their simulation or execution for either interactive debugging or automated testing. The tool also enables developers to track gates within the overall circuit and each chunk to understand their behavior better. Feedback on usefulness and usability from early users shows that using the tool to slice and test their circuits has helped make the debugging process more time-efficient for them.</description>
   </item>
 
 </channel>

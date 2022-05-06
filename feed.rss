@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Ground state preparation and energy estimation on early fault-tolerant quantum computers via quantum eigenvalue transformation of unitary matrices</title>
-    <link>http://arxiv.org/pdf/2204.05955</link>
-    <author>Yulong Dong, Lin Lin, Yu Tong</author>
-    <pubDate>Apr 13 2022</pubDate>
-    <description>Under suitable assumptions, the algorithms in [Lin, Tong, Quantum 2020] can estimate the ground state energy and prepare the ground state of a quantum Hamiltonian with near-optimal query complexities. However, this is based on a block encoding input model of the Hamiltonian, whose implementation is known to require a large resource overhead. We develop a tool called quantum eigenvalue transformation of unitary matrices with real polynomials (QET-U), which uses a controlled Hamiltonian evolution as the input model, a single ancilla qubit and no multi-qubit control operations, and is thus suitable for early fault-tolerant quantum devices. This leads to a simple quantum algorithm that outperforms all previous algorithms with a comparable circuit structure for estimating the ground state energy. For a class of quantum spin Hamiltonians, we propose a new method that exploits certain anti-commutation relations and further removes the need of implementing the controlled Hamiltonian evolution. Coupled with Trotter based approximation of the Hamiltonian evolution, the resulting algorithm can be very suitable for early fault-tolerant quantum devices. We demonstrate the performance of the algorithm using IBM Qiskit for the transverse field Ising model. If we are further allowed to use multi-qubit Toffoli gates, we can then implement amplitude amplification and a new binary amplitude estimation algorithm, which increases the circuit depth but decreases the total query complexity. The resulting algorithm saturates the near-optimal complexity for ground state preparation and energy estimating using a constant number of ancilla qubits (no more than 3).</description>
-  </item>
-
-  <item>
     <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
     <link>http://arxiv.org/pdf/2204.10812</link>
     <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
     <pubDate>Apr 25 2022</pubDate>
     <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
+  </item>
+
+  <item>
+    <title>Ground state preparation and energy estimation on early fault-tolerant quantum computers via quantum eigenvalue transformation of unitary matrices</title>
+    <link>http://arxiv.org/pdf/2204.05955</link>
+    <author>Yulong Dong, Lin Lin, Yu Tong</author>
+    <pubDate>Apr 13 2022</pubDate>
+    <description>Under suitable assumptions, the algorithms in [Lin, Tong, Quantum 2020] can estimate the ground state energy and prepare the ground state of a quantum Hamiltonian with near-optimal query complexities. However, this is based on a block encoding input model of the Hamiltonian, whose implementation is known to require a large resource overhead. We develop a tool called quantum eigenvalue transformation of unitary matrices with real polynomials (QET-U), which uses a controlled Hamiltonian evolution as the input model, a single ancilla qubit and no multi-qubit control operations, and is thus suitable for early fault-tolerant quantum devices. This leads to a simple quantum algorithm that outperforms all previous algorithms with a comparable circuit structure for estimating the ground state energy. For a class of quantum spin Hamiltonians, we propose a new method that exploits certain anti-commutation relations and further removes the need of implementing the controlled Hamiltonian evolution. Coupled with Trotter based approximation of the Hamiltonian evolution, the resulting algorithm can be very suitable for early fault-tolerant quantum devices. We demonstrate the performance of the algorithm using IBM Qiskit for the transverse field Ising model. If we are further allowed to use multi-qubit Toffoli gates, we can then implement amplitude amplification and a new binary amplitude estimation algorithm, which increases the circuit depth but decreases the total query complexity. The resulting algorithm saturates the near-optimal complexity for ground state preparation and energy estimating using a constant number of ancilla qubits (no more than 3).</description>
   </item>
 
   <item>
@@ -119,6 +119,14 @@
   </item>
 
   <item>
+    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
+    <link>http://arxiv.org/pdf/2204.11353</link>
+    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
+  </item>
+
+  <item>
     <title>Quantum variational learning for quantum error-correcting codes</title>
     <link>http://arxiv.org/pdf/2204.03560</link>
     <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
@@ -127,11 +135,27 @@
   </item>
 
   <item>
-    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
-    <link>http://arxiv.org/pdf/2204.11353</link>
-    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
+    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
+    <link>http://arxiv.org/pdf/2205.01933</link>
+    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
+  </item>
+
+  <item>
+    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
+    <link>http://arxiv.org/pdf/2205.00519</link>
+    <author>Arthur G. Rattew, Bálint Koczor</author>
+    <pubDate>May 03 2022</pubDate>
+    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
+  </item>
+
+  <item>
+    <title>Complexity phase transitions in instantaneous quantum polynomial-time circuits</title>
+    <link>http://arxiv.org/pdf/2204.08898</link>
+    <author>Chae-Yeun Park, Michael J. Kastoryano</author>
+    <pubDate>Apr 20 2022</pubDate>
+    <description>We study a subclass of the Instantaneous Quantum Polynomial-time (IQP) circuit with a varying density of two-qubit gates. We identify two phase transitions as a function of the gate density. At the first transition, the coherent Gibbs representation of the output state transitions from quasilocal to extended, and becomes completely non-local after the second transition, resembling that of Haar random states. We introduce several new diagnostics to argue that learning the distribution after the first transition already becomes classically intractable, even though its output distribution is far from random. Our work thus opens a novel pathway for exploring quantum advantage in more practical setups whose outcome distributions are more structured than random states.</description>
   </item>
 
   <item>
@@ -148,30 +172,6 @@
     <author>Gleb Kalachev, Sergey Sadov</author>
     <pubDate>Apr 12 2022</pubDate>
     <description>The term "Cleaning Lemma" refers to a family of similar propositions that have been used in Quantum Coding Theory to estimate the minimum distance of a code in terms of its length and dimension. We show that the mathematical core is a simple fact of linear algebra of inner product spaces; moreover, it admits a further reduction to a combinatorial, lattice-theoretical level. Several concrete variants of the Cleaning Lemma and some additional propositions are derived as corollaries of the proposed approach.</description>
-  </item>
-
-  <item>
-    <title>Complexity phase transitions in instantaneous quantum polynomial-time circuits</title>
-    <link>http://arxiv.org/pdf/2204.08898</link>
-    <author>Chae-Yeun Park, Michael J. Kastoryano</author>
-    <pubDate>Apr 20 2022</pubDate>
-    <description>We study a subclass of the Instantaneous Quantum Polynomial-time (IQP) circuit with a varying density of two-qubit gates. We identify two phase transitions as a function of the gate density. At the first transition, the coherent Gibbs representation of the output state transitions from quasilocal to extended, and becomes completely non-local after the second transition, resembling that of Haar random states. We introduce several new diagnostics to argue that learning the distribution after the first transition already becomes classically intractable, even though its output distribution is far from random. Our work thus opens a novel pathway for exploring quantum advantage in more practical setups whose outcome distributions are more structured than random states.</description>
-  </item>
-
-  <item>
-    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
-    <link>http://arxiv.org/pdf/2205.00519</link>
-    <author>Arthur G. Rattew, Bálint Koczor</author>
-    <pubDate>May 03 2022</pubDate>
-    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
-  </item>
-
-  <item>
-    <title>Bi-PPT channels are entanglement breaking</title>
-    <link>http://arxiv.org/pdf/2204.01685</link>
-    <author>Alexander Müller-Hermes, Satvik Singh</author>
-    <pubDate>Apr 05 2022</pubDate>
-    <description>In a recent paper, Hirche and Leditzky introduced the notion of bi-PPT channels which are quantum channels that stay completely positive under composition with a transposition and such that the same property holds for one of their complementary channels. They asked whether there are examples of such channels that are not antidegradable. We show that this is not the case, since bi-PPT channels are always entanglement breaking. We also show that degradable quantum channels staying completely positive under composition with a transposition are entanglement breaking.</description>
   </item>
 
   <item>
@@ -207,19 +207,19 @@
   </item>
 
   <item>
-    <title>Scalable measures of magic for quantum computers</title>
-    <link>http://arxiv.org/pdf/2204.10061</link>
-    <author>Tobias Haug, M. S. Kim</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
-  </item>
-
-  <item>
     <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
     <link>http://arxiv.org/pdf/2204.13834</link>
     <author>Craig Gidney</author>
     <pubDate>May 02 2022</pubDate>
     <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
+  </item>
+
+  <item>
+    <title>Scalable measures of magic for quantum computers</title>
+    <link>http://arxiv.org/pdf/2204.10061</link>
+    <author>Tobias Haug, M. S. Kim</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
   </item>
 
   <item>
