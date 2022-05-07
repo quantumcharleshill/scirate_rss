@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
-    <link>http://arxiv.org/pdf/2205.01933</link>
-    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
-  </item>
-
-  <item>
-    <title>Complete flow-preserving rewrite rules for MBQC patterns with Pauli measurements</title>
-    <link>http://arxiv.org/pdf/2205.02009</link>
-    <author>Tommy McElvanney, Miriam Backens</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>In the one-way model of measurement-based quantum computation (MBQC), computation proceeds via measurements on some standard resource state. So-called flow conditions ensure that the overall computation is deterministic in a suitable sense, with Pauli flow being the most general of these. Existing work on rewriting MBQC patterns while preserving the existence of flow has focused on rewrites that reduce the number of qubits. In this work, we show that introducing new $Z$-measured qubits, connected to any subset of the existing qubits, preserves the existence of Pauli flow. Furthermore, we give a unique canonical form for stabilizer ZX-diagrams inspired by recent work of Hu & Khesin [arXiv:2109.10210]. We prove that any MBQC-like stabilizer ZX-diagram with Pauli flow can be rewritten into this canonical form using only rules which preserve the existence of Pauli flow and that each of these rules can be reversed while also preserving the existence of Pauli flow. Hence we have complete graphical rewriting for MBQC-like stabilizer ZX-diagrams with Pauli flow.</description>
-  </item>
-
-  <item>
     <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
     <link>http://arxiv.org/pdf/2205.02813</link>
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Nonequilibrium symmetry-protected topological order: emergence of semilocal Gibbs ensembles</title>
-    <link>http://arxiv.org/pdf/2205.02221</link>
-    <author>Maurizio Fagotti, Vanja Marić, Lenart Zadnik</author>
+    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
+    <link>http://arxiv.org/pdf/2205.01933</link>
+    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
     <pubDate>May 05 2022</pubDate>
-    <description>We consider nonequilibrium time evolution in quantum spin chains after a global quench. We show that global symmetries can invalidate the standard picture of local relaxation to a (generalised) Gibbs ensemble and provide a solution to the problem. We introduce in particular a family of statistical ensembles, which we dub "semilocal (generalised) Gibbs ensembles". The issue arises when the Hamiltonian possesses conservation laws that are not (pseudo)local but act as such in the symmetry-restricted space where time evolution occurs. Because of them, the stationary state emerging at infinite time can exhibit exceptional features. We focus on a specific example with a spin-flip symmetry, which is the commonest global symmetry encountered in spin-$1/2$ chains. Among the exceptional properties, we find that, at late times, the excess of entropy of a spin block triggered by a local perturbation in the initial state grows logarithmically with the subsystem's length. We establish a connection with symmetry-protected topological order in equilibrium at zero temperature and study the melting of the order induced either by a (symmetry-breaking) rotation of the initial state or by an increase of the temperature.</description>
+    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
   </item>
 
   <item>
-    <title>A Tool For Debugging Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2205.01899</link>
-    <author>Sara Ayman Metwalli, Rodney Van Meter</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>As the scale of quantum programs grows to match that of classical software, the nascent field of quantum software engineering must mature and tools such as debuggers will become increasingly important. However, developing a quantum debugger is challenging due to the nature of a quantum computer; sneaking a peek at the value of a quantum state will cause either partial or complete collapse of the superposition and may destroy the necessary entanglement. As a first step to developing a full quantum circuit debugger, we have designed and implemented a quantum circuit debugging tool. The tool allows the user to divide the circuit vertically or horizontally into smaller chunks known as slices, and manage their simulation or execution for either interactive debugging or automated testing. The tool also enables developers to track gates within the overall circuit and each chunk to understand their behavior better. Feedback on usefulness and usability from early users shows that using the tool to slice and test their circuits has helped make the debugging process more time-efficient for them.</description>
+    <title>Group-Invariant Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2205.02261</link>
+    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
+  </item>
+
+  <item>
+    <title>Soft Syndrome Decoding of Quantum LDPC Codes for Joint Correction of Data and Syndrome Errors</title>
+    <link>http://arxiv.org/pdf/2205.02341</link>
+    <author>Nithin Raveendran, Narayanan Rengaswamy, Asit Kumar Pradhan, Bane Vasić</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum errors are primarily detected and corrected using the measurement of syndrome information which itself is an unreliable step in practical error correction implementations. Typically, such faulty or noisy syndrome measurements are modeled as a binary measurement outcome flipped with some probability. However, the measured syndrome is in fact a discretized value of the continuous voltage or current values obtained in the physical implementation of the syndrome extraction. In this paper, we use this "soft" or analog information without the conventional discretization step to benefit the iterative decoders for decoding quantum low-density parity-check (QLDPC) codes. Syndrome-based iterative belief propagation decoders are modified to utilize the syndrome-soft information to successfully correct both data and syndrome errors simultaneously, without repeated measurements. We demonstrate the advantages of extracting the soft information from the syndrome in our improved decoders, not only in terms of comparison of thresholds and logical error rates for quasi-cyclic lifted-product QLDPC code families, but also for faster convergence of iterative decoders. In particular, the new BP decoder with noisy syndrome performs as good as the standard BP decoder under ideal syndrome.</description>
+  </item>
+
+  <item>
+    <title>Magic of the ground state of the transverse field Ising model</title>
+    <link>http://arxiv.org/pdf/2205.02247</link>
+    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Ground states of quantum many-body systems are both entangled and possess a kind of quantum complexity as their preparation requires universal resources that go beyond the Clifford group and stabilizer states. These resources - sometimes dubbed as magic - are also the crucial ingredient for quantum advantage. We study the behavior of the stabilizer Rényi entropy in the integrable transverse field Ising spin chain. We show that the locality of interactions results in a localized stabilizer Rényi entropy in the gapped phase thus making this quantity computable in terms of local quantities in the gapped phase, while measurements involving $L$ spins are necessary at the critical point to obtain an error scaling with $O(L^{-1})$.</description>
   </item>
 
 </channel>

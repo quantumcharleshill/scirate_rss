@@ -79,6 +79,14 @@
   </item>
 
   <item>
+    <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
+    <link>http://arxiv.org/pdf/2205.02813</link>
+    <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
+  </item>
+
+  <item>
     <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
     <link>http://arxiv.org/pdf/2204.10812</link>
     <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
@@ -103,6 +111,14 @@
   </item>
 
   <item>
+    <title>Establishing trust in quantum computations</title>
+    <link>http://arxiv.org/pdf/2204.07568</link>
+    <author>Timothy Proctor, Stefan Seritan, Erik Nielsen, Kenneth Rudinger, Kevin Young, Robin Blume-Kohout, Mohan Sarovar</author>
+    <pubDate>Apr 18 2022</pubDate>
+    <description>Real-world quantum computers have grown sufficiently complex that they can no longer be simulated by classical supercomputers, but their computational power remains limited by errors. These errors corrupt the results of quantum algorithms, and it is no longer always feasible to use classical simulations to directly check the correctness of quantum computations. Without practical methods for quantifying the accuracy with which a quantum algorithm has been executed, it is difficult to establish trust in the results of a quantum computation. Here we solve this problem, by introducing a simple and efficient technique for measuring the fidelity with which an as-built quantum computer can execute an algorithm. Our technique converts the algorithm's quantum circuits into a set of closely related circuits whose success rates can be efficiently measured. It enables measuring the fidelity of quantum algorithm executions both in the near-term, with algorithms run on hundreds or thousands of physical qubits, and into the future, with algorithms run on logical qubits protected by quantum error correction.</description>
+  </item>
+
+  <item>
     <title>Maximal entanglement velocity implies dual unitarity</title>
     <link>http://arxiv.org/pdf/2204.10341</link>
     <author>Tianci Zhou, Aram W. Harrow</author>
@@ -111,11 +127,11 @@
   </item>
 
   <item>
-    <title>Establishing trust in quantum computations</title>
-    <link>http://arxiv.org/pdf/2204.07568</link>
-    <author>Timothy Proctor, Stefan Seritan, Erik Nielsen, Kenneth Rudinger, Kevin Young, Robin Blume-Kohout, Mohan Sarovar</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Real-world quantum computers have grown sufficiently complex that they can no longer be simulated by classical supercomputers, but their computational power remains limited by errors. These errors corrupt the results of quantum algorithms, and it is no longer always feasible to use classical simulations to directly check the correctness of quantum computations. Without practical methods for quantifying the accuracy with which a quantum algorithm has been executed, it is difficult to establish trust in the results of a quantum computation. Here we solve this problem, by introducing a simple and efficient technique for measuring the fidelity with which an as-built quantum computer can execute an algorithm. Our technique converts the algorithm's quantum circuits into a set of closely related circuits whose success rates can be efficiently measured. It enables measuring the fidelity of quantum algorithm executions both in the near-term, with algorithms run on hundreds or thousands of physical qubits, and into the future, with algorithms run on logical qubits protected by quantum error correction.</description>
+    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
+    <link>http://arxiv.org/pdf/2205.01933</link>
+    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
   </item>
 
   <item>
@@ -132,14 +148,6 @@
     <author>Chenfeng Cao, Chao Zhang, Zipeng Wu, Markus Grassl, Bei Zeng</author>
     <pubDate>Apr 08 2022</pubDate>
     <description>Quantum error-correcting codes (QECCs) are believed to be a necessity for large-scale fault-tolerant quantum computation. In the past two decades, various methods of QECC constructions have been developed, leading to many good families of codes. However, the majority of these codes are not suitable for near-term quantum devices. Here we present VarQEC, a noise-resilient variational quantum algorithm to search for quantum codes with a hardware-efficient encoding circuit. The cost functions are inspired by the most general and fundamental requirements of a QECC, the Knill-Laflamme conditions. Given the target noise channel (or the target code parameters) and the hardware connectivity graph, we optimize a shallow variational quantum circuit to prepare the basis states of an eligible code. In principle, VarQEC can find quantum codes for any error model, whether additive or non-additive, degenerate or non-degenerate, pure or impure. We have verified its effectiveness by (re)discovering some symmetric and asymmetric codes, e.g., $((n,2^{n-6},3))_2$ for $n$ from 7 to 14. We also found new $((6,2,3))_2$ and $((7,2,3))_2$ codes that are not equivalent to any stabilizer code, and extensive numerical evidence with VarQEC suggests that a $((7,3,3))_2$ code does not exist. Furthermore, we found many new channel-adaptive codes for error models involving nearest-neighbor correlated errors. Our work sheds new light on the understanding of QECC in general, which may also help to enhance near-term device performance with channel-adaptive error-correcting codes.</description>
-  </item>
-
-  <item>
-    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
-    <link>http://arxiv.org/pdf/2205.01933</link>
-    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
   </item>
 
   <item>
@@ -223,14 +231,6 @@
   </item>
 
   <item>
-    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.10471</link>
-    <author>Yingkai Ouyang, Peter P. Rohde</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
-  </item>
-
-  <item>
     <title>Tight Bounds for Quantum State Certification with Incoherent Measurements</title>
     <link>http://arxiv.org/pdf/2204.07155</link>
     <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu</author>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Gaussian matrix product states cannot efficiently describe critical systems</title>
-    <link>http://arxiv.org/pdf/2204.02478</link>
-    <author>Adrián Franco-Rubio, J. Ignacio Cirac</author>
-    <pubDate>Apr 07 2022</pubDate>
-    <description>Gaussian fermionic matrix product states (GfMPS) form a class of ansatz quantum states for 1d systems of noninteracting fermions. We show, for a simple critical model of free hopping fermions, that: (i) any GfMPS approximation to its ground state must have bond dimension scaling superpolynomially with the system size, whereas (ii) there exists a non-Gaussian fermionic MPS approximation to this state with polynomial bond dimension. This proves that, in general, imposing Gaussianity at the level of the tensor network may significantly alter its capability to efficiently approximate critical Gaussian states. We also provide numerical evidence that the required bond dimension is subexponential, and thus can still be simulated with moderate resources.</description>
+    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.10471</link>
+    <author>Yingkai Ouyang, Peter P. Rohde</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
   </item>
 
 </channel>

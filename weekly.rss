@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
+    <link>http://arxiv.org/pdf/2205.02813</link>
+    <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
+  </item>
+
+  <item>
     <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
     <link>http://arxiv.org/pdf/2205.01933</link>
     <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
@@ -39,6 +47,14 @@
   </item>
 
   <item>
+    <title>Group-Invariant Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2205.02261</link>
+    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
+  </item>
+
+  <item>
     <title>What is the temperature of a quantum state?</title>
     <link>http://arxiv.org/pdf/2205.00017</link>
     <author>Patryk Lipka-Bartosik, Martí Perarnau-Llobet, Nicolas Brunner</author>
@@ -63,27 +79,11 @@
   </item>
 
   <item>
-    <title>A fast quantum algorithm for computing matrix permanent</title>
-    <link>http://arxiv.org/pdf/2205.01328</link>
-    <author>Joonsuk Huh</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>Computing a matrix permanent is known to be a classically intractable problem. This paper presents the first polynomial time quantum algorithm for computing permanents of arbitrary $N$-dimensional square matrices with multiplicative error and additive error protocols. We transformed the well-known classical algorithm, Ryser's formula, into sums of quantum overlap integrals to develop the quantum algorithm. This requires $\mathcal{O}(N)$ and $\mathcal{O}(N^{3})$ evaluations of the real part of the quantum overlap integrals for real and complex matrices, respectively, with polynomial depth quantum circuits of $\mathcal{O}(N)$ qubits. The existence of the polynomial time multiplicative error estimation of a matrix permanent would strongly imply that quantum computers can access the #P-hard problem. Our quantum algorithm attains the milestone of opening a new direction in quantum computing and computational complexity theory. It could resolve crucial computational complexity issues like locating the bounded error quantum polynomial time (BQP) relative to the polynomial hierarchy, which has been a big complexity question. Depending on the size of a matrix norm of interest, we can also obtain an exponentially small additive error estimation and better estimation against Gurvits' classical sampling algorithm. The additive error protocol is practically implementable in noisy intermediate-scale quantum devices. Moreover, our quantum algorithm directly shows the computational complexity connection between the matrix permanent and the real-time partition function of the quantum Ising Hamiltonian.</description>
-  </item>
-
-  <item>
-    <title>Complete flow-preserving rewrite rules for MBQC patterns with Pauli measurements</title>
-    <link>http://arxiv.org/pdf/2205.02009</link>
-    <author>Tommy McElvanney, Miriam Backens</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>In the one-way model of measurement-based quantum computation (MBQC), computation proceeds via measurements on some standard resource state. So-called flow conditions ensure that the overall computation is deterministic in a suitable sense, with Pauli flow being the most general of these. Existing work on rewriting MBQC patterns while preserving the existence of flow has focused on rewrites that reduce the number of qubits. In this work, we show that introducing new $Z$-measured qubits, connected to any subset of the existing qubits, preserves the existence of Pauli flow. Furthermore, we give a unique canonical form for stabilizer ZX-diagrams inspired by recent work of Hu & Khesin [arXiv:2109.10210]. We prove that any MBQC-like stabilizer ZX-diagram with Pauli flow can be rewritten into this canonical form using only rules which preserve the existence of Pauli flow and that each of these rules can be reversed while also preserving the existence of Pauli flow. Hence we have complete graphical rewriting for MBQC-like stabilizer ZX-diagrams with Pauli flow.</description>
-  </item>
-
-  <item>
-    <title>Phase-free ZX diagrams are CSS codes (...or how to graphically grok the surface code)</title>
-    <link>http://arxiv.org/pdf/2204.14038</link>
-    <author>Aleks Kissinger</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>In this paper, we demonstrate a direct correspondence between phase-free ZX diagrams, a graphical notation for representing and manipulating a certain class of linear maps on qubits, and Calderbank-Shor-Steane (CSS) codes, a large family of quantum error correcting codes constructed from classical codes, including for example the Steane code, surface codes, and colour codes. The stabilisers of a CSS code have an especially nice structure arising from a pair of orthogonal $\mathbb F_2$-linear subspaces, or in the case of maximal CSS codes, a single subspace and its orthocomplement. On the other hand, phase-free ZX diagrams can always be efficiently reduced to a normal form given by the basis elements of an $\mathbb F_2$-linear subspace. Here, we will show that these two ways of describing a quantum state by an $\mathbb F_2$-linear subspace $S$ are in fact the same. Namely, the maximal CSS code generated by $S$ fixes the quantum state whose ZX normal form is also given by $S$. This insight gives us an immediate translation from stabilisers of a maximal CSS code into a ZX diagram describing its associated state. We show that we can extend this translation to stabilisers and logical operators of any (possibly non-maximal) CSS code by "bending wires". To demonstrate the utility of this translation, we give a simple picture of the surface code and a fully graphical derivation of the action of physical lattice surgery operations on the space of logical qubits, completing the ZX presentation of lattice surgery initiated by de Beudrap and Horsman.</description>
+    <title>Soft Syndrome Decoding of Quantum LDPC Codes for Joint Correction of Data and Syndrome Errors</title>
+    <link>http://arxiv.org/pdf/2205.02341</link>
+    <author>Nithin Raveendran, Narayanan Rengaswamy, Asit Kumar Pradhan, Bane Vasić</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum errors are primarily detected and corrected using the measurement of syndrome information which itself is an unreliable step in practical error correction implementations. Typically, such faulty or noisy syndrome measurements are modeled as a binary measurement outcome flipped with some probability. However, the measured syndrome is in fact a discretized value of the continuous voltage or current values obtained in the physical implementation of the syndrome extraction. In this paper, we use this "soft" or analog information without the conventional discretization step to benefit the iterative decoders for decoding quantum low-density parity-check (QLDPC) codes. Syndrome-based iterative belief propagation decoders are modified to utilize the syndrome-soft information to successfully correct both data and syndrome errors simultaneously, without repeated measurements. We demonstrate the advantages of extracting the soft information from the syndrome in our improved decoders, not only in terms of comparison of thresholds and logical error rates for quasi-cyclic lifted-product QLDPC code families, but also for faster convergence of iterative decoders. In particular, the new BP decoder with noisy syndrome performs as good as the standard BP decoder under ideal syndrome.</description>
   </item>
 
 </channel>
