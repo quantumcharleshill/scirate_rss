@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>A Grand Unification of Quantum Algorithms</title>
-    <link>http://arxiv.org/pdf/2105.02859</link>
-    <author>John M. Martyn, Zane M. Rossi, Andrew K. Tan, Isaac L. Chuang</author>
-    <pubDate>May 07 2021</pubDate>
-    <description>Quantum algorithms offer significant speedups over their classical counterparts for a variety of problems. The strongest arguments for this advantage are borne by algorithms for quantum search, quantum phase estimation, and Hamiltonian simulation, which appear as subroutines for large families of composite quantum algorithms. A number of these quantum algorithms were recently tied together by a novel technique known as the quantum singular value transformation (QSVT), which enables one to perform a polynomial transformation of the singular values of a linear operator embedded in a unitary matrix. In the seminal GSLW'19 paper on QSVT [Gilyén, Su, Low, and Wiebe, ACM STOC 2019], many algorithms are encompassed, including amplitude amplification, methods for the quantum linear systems problem, and quantum simulation. Here, we provide a pedagogical tutorial through these developments, first illustrating how quantum signal processing may be generalized to the quantum eigenvalue transform, from which QSVT naturally emerges. Paralleling GSLW'19, we then employ QSVT to construct intuitive quantum algorithms for search, phase estimation, and Hamiltonian simulation, and also showcase algorithms for the eigenvalue threshold problem and matrix inversion. This overview illustrates how QSVT is a single framework comprising the three major quantum algorithms, thus suggesting a grand unification of quantum algorithms.</description>
-  </item>
-
-  <item>
     <title>Provably efficient machine learning for quantum many-body problems</title>
     <link>http://arxiv.org/pdf/2106.12627</link>
     <author>Hsin-Yuan Huang, Richard Kueng, Giacomo Torlai, Victor V. Albert, John Preskill</author>
@@ -143,19 +135,19 @@
   </item>
 
   <item>
-    <title>Demonstration of fault-tolerant universal quantum gate operations</title>
-    <link>http://arxiv.org/pdf/2111.12654</link>
-    <author>Lukas Postler, Sascha Heußen, Ivan Pogorelov, Manuel Rispler, Thomas Feldker, Michael Meth, Christian D. Marciniak, Roman Stricker, Martin Ringbauer, Rainer Blatt, Philipp Schindler, Markus Müller, Thomas Monz</author>
-    <pubDate>Nov 25 2021</pubDate>
-    <description>Quantum computers can be protected from noise by encoding the logical quantum information redundantly into multiple qubits using error correcting codes. When manipulating the logical quantum states, it is imperative that errors caused by imperfect operations do not spread uncontrollably through the quantum register. This requires that all operations on the quantum register obey a fault-tolerant circuit design which, in general, increases the complexity of the implementation. Here, we demonstrate a fault-tolerant universal set of gates on two logical qubits in a trapped-ion quantum computer. In particular, we make use of the recently introduced paradigm of flag fault tolerance, where the absence or presence of dangerous errors is heralded by usage of few ancillary 'flag' qubits. We perform a logical two-qubit CNOT-gate between two instances of the seven qubit color code, and we also fault-tolerantly prepare a logical magic state. We then realize a fault-tolerant logical T-gate by injecting the magic state via teleportation from one logical qubit onto the other. We observe the hallmark feature of fault tolerance, a superior performance compared to a non-fault-tolerant implementation. In combination with recently demonstrated repeated quantum error correction cycles these results open the door to error-corrected universal quantum computation.</description>
-  </item>
-
-  <item>
     <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
     <link>http://arxiv.org/pdf/2112.02040</link>
     <author>Adam Bouland, Tudor Giurgica-Tiron</author>
     <pubDate>Dec 06 2021</pubDate>
     <description>The Solovay-Kitaev algorithm is a fundamental result in quantum computation. It gives an algorithm for efficiently compiling arbitrary unitaries using universal gate sets: any unitary can be approximated by short gates sequences, whose length scales merely poly-logarithmically with accuracy. As a consequence, the choice of gate set is typically unimportant in quantum computing. However, the Solovay-Kitaev algorithm requires the gate set to be inverse-closed. It has been a longstanding open question if efficient algorithmic compilation is possible without this condition. In this work, we provide the first inverse-free Solovay-Kitaev algorithm, which makes no assumption on the structure within a gate set beyond universality, answering this problem in the affirmative, and providing an efficient compilation algorithm in the absence of inverses for both $\text{SU}(d)$ and $\text{SL}(d, \mathbb{C})$. The algorithm works by showing that approximate gate implementations of the generalized Pauli group can self-correct their errors.</description>
+  </item>
+
+  <item>
+    <title>Demonstration of fault-tolerant universal quantum gate operations</title>
+    <link>http://arxiv.org/pdf/2111.12654</link>
+    <author>Lukas Postler, Sascha Heußen, Ivan Pogorelov, Manuel Rispler, Thomas Feldker, Michael Meth, Christian D. Marciniak, Roman Stricker, Martin Ringbauer, Rainer Blatt, Philipp Schindler, Markus Müller, Thomas Monz</author>
+    <pubDate>Nov 25 2021</pubDate>
+    <description>Quantum computers can be protected from noise by encoding the logical quantum information redundantly into multiple qubits using error correcting codes. When manipulating the logical quantum states, it is imperative that errors caused by imperfect operations do not spread uncontrollably through the quantum register. This requires that all operations on the quantum register obey a fault-tolerant circuit design which, in general, increases the complexity of the implementation. Here, we demonstrate a fault-tolerant universal set of gates on two logical qubits in a trapped-ion quantum computer. In particular, we make use of the recently introduced paradigm of flag fault tolerance, where the absence or presence of dangerous errors is heralded by usage of few ancillary 'flag' qubits. We perform a logical two-qubit CNOT-gate between two instances of the seven qubit color code, and we also fault-tolerantly prepare a logical magic state. We then realize a fault-tolerant logical T-gate by injecting the magic state via teleportation from one logical qubit onto the other. We observe the hallmark feature of fault tolerance, a superior performance compared to a non-fault-tolerant implementation. In combination with recently demonstrated repeated quantum error correction cycles these results open the door to error-corrected universal quantum computation.</description>
   </item>
 
   <item>
@@ -247,14 +239,6 @@
   </item>
 
   <item>
-    <title>Lifting decoders for classical codes to decoders for quantum codes</title>
-    <link>http://arxiv.org/pdf/2105.02370</link>
-    <author>Armanda O. Quintavalle, Earl T. Campbell</author>
-    <pubDate>May 07 2021</pubDate>
-    <description>The design of decoding algorithms is a significant technological component in the development of fault-tolerant quantum computers. Often design of quantum decoders is inspired by classical decoding algorithms, but there are no general principles for building quantum decoders from classical decoders. Given any pair of classical codes, we can build a quantum code using the hypergraph product, yielding a hypergraph product code. Here we show we can also lift the decoders for these classical codes. That is, given oracle access to a minimum weight decoder for the relevant classical codes, the corresponding $[[n,k,d]]$ quantum code can be efficiently decoded for any error of weight smaller than $(d-1)/2$. The quantum decoder requires only $O(k)$ oracle calls to the classical decoder and $O(n^2)$ classical resources. The lift and the correctness proof of the decoder have a purely algebraic nature that draws on the discovery of some novel homological invariants of the hypergraph product codespace. While the decoder works perfectly for adversarial errors, it is not suitable for more realistic stochastic noise models and therefore can not be used to establish an error correcting threshold.</description>
-  </item>
-
-  <item>
     <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
     <link>http://arxiv.org/pdf/2112.03708</link>
     <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
@@ -303,19 +287,19 @@
   </item>
 
   <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
-  </item>
-
-  <item>
     <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
     <link>http://arxiv.org/pdf/2203.16571</link>
     <author>Jonas Haferkamp</author>
     <pubDate>Apr 01 2022</pubDate>
     <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
+  </item>
+
+  <item>
+    <title>Quantum many-body systems in thermal equilibrium</title>
+    <link>http://arxiv.org/pdf/2204.08349</link>
+    <author>Álvaro M. Alhambra</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
   </item>
 
   <item>
@@ -404,6 +388,22 @@
     <author>Nicole Yunger Halpern, Naga B. T. Kothakonda, Jonas Haferkamp, Anthony Munson, Jens Eisert, Philippe Faist</author>
     <pubDate>Oct 25 2021</pubDate>
     <description>Quantum complexity is emerging as a key property of many-body systems, including black holes, topological materials, and early quantum computers. A state's complexity quantifies the number of computational gates required to prepare the state from a simple tensor product. The greater a state's distance from maximal complexity, or ``uncomplexity,'' the more useful the state is as input to a quantum computation. Separately, resource theories -- simple models for agents subject to constraints -- are burgeoning in quantum information theory. We unite the two domains, confirming Brown and Susskind's conjecture that a resource theory of uncomplexity can be defined. The allowed operations, fuzzy operations, are slightly random implementations of two-qubit gates chosen by an agent. We formalize two operational tasks, uncomplexity extraction and expenditure. Their optimal efficiencies depend on an entropy that we engineer to reflect complexity. We also present two monotones, uncomplexity measures that decline monotonically under fuzzy operations, in certain regimes. This work unleashes on many-body complexity the resource-theory toolkit from quantum information theory.</description>
+  </item>
+
+  <item>
+    <title>Pauli error estimation via Population Recovery</title>
+    <link>http://arxiv.org/pdf/2105.02885</link>
+    <author>Steven T. Flammia, Ryan O'Donnell</author>
+    <pubDate>May 10 2021</pubDate>
+    <description>Motivated by estimation of quantum noise models, we study the problem of learning a Pauli channel, or more generally the Pauli error rates of an arbitrary channel. By employing a novel reduction to the "Population Recovery" problem, we give an extremely simple algorithm that learns the Pauli error rates of an $n$-qubit channel to precision $\epsilon$ in $\ell_\infty$ using just $O(1/\epsilon^2) \log(n/\epsilon)$ applications of the channel. This is optimal up to the logarithmic factors. Our algorithm uses only unentangled state preparation and measurements, and the post-measurement classical runtime is just an $O(1/\epsilon)$ factor larger than the measurement data size. It is also impervious to a limited model of measurement noise where heralded measurement failures occur independently with probability $\le 1/4$. We then consider the case where the noise channel is close to the identity, meaning that the no-error outcome occurs with probability $1-\eta$. In the regime of small $\eta$ we extend our algorithm to achieve multiplicative precision $1 \pm \epsilon$ (i.e., additive precision $\epsilon \eta$) using just $O\bigl(\frac{1}{\epsilon^2 \eta}\bigr) \log(n/\epsilon)$ applications of the channel.</description>
+  </item>
+
+  <item>
+    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
+    <link>http://arxiv.org/pdf/2203.07263</link>
+    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
   </item>
 
 </channel>

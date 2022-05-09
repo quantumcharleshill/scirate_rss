@@ -31,27 +31,11 @@
   </item>
 
   <item>
-    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
-    <link>http://arxiv.org/pdf/2204.13834</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
-  </item>
-
-  <item>
     <title>Group-Invariant Quantum Machine Learning</title>
     <link>http://arxiv.org/pdf/2205.02261</link>
     <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
     <pubDate>May 06 2022</pubDate>
     <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
-  </item>
-
-  <item>
-    <title>Quantum Dictionaries without QRAM</title>
-    <link>http://arxiv.org/pdf/2204.13835</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
   <item>
@@ -63,11 +47,11 @@
   </item>
 
   <item>
-    <title>Symbolic synthesis of Clifford circuits and beyond</title>
-    <link>http://arxiv.org/pdf/2204.14205</link>
-    <author>Matthew Amy, Owen Bennett-Gibbs, Neil J. Ross</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>Path sums are a convenient symbolic formalism for quantum operations with applications to the simulation, optimization, and verification of quantum protocols. Unlike quantum circuits, path sums are not limited to unitary operations, but can express arbitrary linear ones. Two problems, therefore, naturally arise in the study of path sums: the unitarity problem and the extraction problem. The former is the problem of deciding whether a given path sum represents a unitary operator. The latter is the problem of constructing a quantum circuit, given a path sum promised to represent a unitary operator. We show that the unitarity problem is co-NP-hard in general, but that it is in P when restricted to Clifford path sums. We then provide an algorithm to synthesize a Clifford circuit from a unitary Clifford path sum. The circuits produced by our extraction algorithm are of the form $C_1HC_2$, where $C_1$ and $C_2$ are Hadamard-free circuits and $H$ is a layer of Hadamard gates. We also provide a heuristic generalization of our extraction algorithm to arbitrary path sums. While this algorithm is not guaranteed to succeed, it often succeeds and typically produces natural looking circuits. Alongside applications to the optimization and decompilation of quantum circuits, we demonstrate the capability of our algorithm by synthesizing the standard quantum Fourier transform directly from a path sum.</description>
+    <title>Soft Syndrome Decoding of Quantum LDPC Codes for Joint Correction of Data and Syndrome Errors</title>
+    <link>http://arxiv.org/pdf/2205.02341</link>
+    <author>Nithin Raveendran, Narayanan Rengaswamy, Asit Kumar Pradhan, Bane Vasić</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum errors are primarily detected and corrected using the measurement of syndrome information which itself is an unreliable step in practical error correction implementations. Typically, such faulty or noisy syndrome measurements are modeled as a binary measurement outcome flipped with some probability. However, the measured syndrome is in fact a discretized value of the continuous voltage or current values obtained in the physical implementation of the syndrome extraction. In this paper, we use this "soft" or analog information without the conventional discretization step to benefit the iterative decoders for decoding quantum low-density parity-check (QLDPC) codes. Syndrome-based iterative belief propagation decoders are modified to utilize the syndrome-soft information to successfully correct both data and syndrome errors simultaneously, without repeated measurements. We demonstrate the advantages of extracting the soft information from the syndrome in our improved decoders, not only in terms of comparison of thresholds and logical error rates for quasi-cyclic lifted-product QLDPC code families, but also for faster convergence of iterative decoders. In particular, the new BP decoder with noisy syndrome performs as good as the standard BP decoder under ideal syndrome.</description>
   </item>
 
   <item>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
-    <title>Soft Syndrome Decoding of Quantum LDPC Codes for Joint Correction of Data and Syndrome Errors</title>
-    <link>http://arxiv.org/pdf/2205.02341</link>
-    <author>Nithin Raveendran, Narayanan Rengaswamy, Asit Kumar Pradhan, Bane Vasić</author>
+    <title>A fast quantum algorithm for computing matrix permanent</title>
+    <link>http://arxiv.org/pdf/2205.01328</link>
+    <author>Joonsuk Huh</author>
+    <pubDate>May 04 2022</pubDate>
+    <description>Computing a matrix permanent is known to be a classically intractable problem. This paper presents the first polynomial time quantum algorithm for computing permanents of arbitrary $N$-dimensional square matrices with multiplicative error and additive error protocols. We transformed the well-known classical algorithm, Ryser's formula, into sums of quantum overlap integrals to develop the quantum algorithm. This requires $\mathcal{O}(N)$ and $\mathcal{O}(N^{3})$ evaluations of the real part of the quantum overlap integrals for real and complex matrices, respectively, with polynomial depth quantum circuits of $\mathcal{O}(N)$ qubits. The existence of the polynomial time multiplicative error estimation of a matrix permanent would strongly imply that quantum computers can access the #P-hard problem. Our quantum algorithm attains the milestone of opening a new direction in quantum computing and computational complexity theory. It could resolve crucial computational complexity issues like locating the bounded error quantum polynomial time (BQP) relative to the polynomial hierarchy, which has been a big complexity question. Depending on the size of a matrix norm of interest, we can also obtain an exponentially small additive error estimation and better estimation against Gurvits' classical sampling algorithm. The additive error protocol is practically implementable in noisy intermediate-scale quantum devices. Moreover, our quantum algorithm directly shows the computational complexity connection between the matrix permanent and the real-time partition function of the quantum Ising Hamiltonian.</description>
+  </item>
+
+  <item>
+    <title>Magic of the ground state of the transverse field Ising model</title>
+    <link>http://arxiv.org/pdf/2205.02247</link>
+    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma</author>
     <pubDate>May 06 2022</pubDate>
-    <description>Quantum errors are primarily detected and corrected using the measurement of syndrome information which itself is an unreliable step in practical error correction implementations. Typically, such faulty or noisy syndrome measurements are modeled as a binary measurement outcome flipped with some probability. However, the measured syndrome is in fact a discretized value of the continuous voltage or current values obtained in the physical implementation of the syndrome extraction. In this paper, we use this "soft" or analog information without the conventional discretization step to benefit the iterative decoders for decoding quantum low-density parity-check (QLDPC) codes. Syndrome-based iterative belief propagation decoders are modified to utilize the syndrome-soft information to successfully correct both data and syndrome errors simultaneously, without repeated measurements. We demonstrate the advantages of extracting the soft information from the syndrome in our improved decoders, not only in terms of comparison of thresholds and logical error rates for quasi-cyclic lifted-product QLDPC code families, but also for faster convergence of iterative decoders. In particular, the new BP decoder with noisy syndrome performs as good as the standard BP decoder under ideal syndrome.</description>
+    <description>Ground states of quantum many-body systems are both entangled and possess a kind of quantum complexity as their preparation requires universal resources that go beyond the Clifford group and stabilizer states. These resources - sometimes dubbed as magic - are also the crucial ingredient for quantum advantage. We study the behavior of the stabilizer Rényi entropy in the integrable transverse field Ising spin chain. We show that the locality of interactions results in a localized stabilizer Rényi entropy in the gapped phase thus making this quantity computable in terms of local quantities in the gapped phase, while measurements involving $L$ spins are necessary at the critical point to obtain an error scaling with $O(L^{-1})$.</description>
+  </item>
+
+  <item>
+    <title>Complete flow-preserving rewrite rules for MBQC patterns with Pauli measurements</title>
+    <link>http://arxiv.org/pdf/2205.02009</link>
+    <author>Tommy McElvanney, Miriam Backens</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>In the one-way model of measurement-based quantum computation (MBQC), computation proceeds via measurements on some standard resource state. So-called flow conditions ensure that the overall computation is deterministic in a suitable sense, with Pauli flow being the most general of these. Existing work on rewriting MBQC patterns while preserving the existence of flow has focused on rewrites that reduce the number of qubits. In this work, we show that introducing new $Z$-measured qubits, connected to any subset of the existing qubits, preserves the existence of Pauli flow. Furthermore, we give a unique canonical form for stabilizer ZX-diagrams inspired by recent work of Hu & Khesin [arXiv:2109.10210]. We prove that any MBQC-like stabilizer ZX-diagram with Pauli flow can be rewritten into this canonical form using only rules which preserve the existence of Pauli flow and that each of these rules can be reversed while also preserving the existence of Pauli flow. Hence we have complete graphical rewriting for MBQC-like stabilizer ZX-diagrams with Pauli flow.</description>
   </item>
 
 </channel>
