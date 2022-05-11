@@ -159,19 +159,19 @@
   </item>
 
   <item>
-    <title>A randomized quantum algorithm for statistical phase estimation</title>
-    <link>http://arxiv.org/pdf/2110.12071</link>
-    <author>Kianna Wan, Mario Berta, Earl T. Campbell</author>
-    <pubDate>Oct 26 2021</pubDate>
-    <description>Phase estimation is a quantum algorithm for measuring the eigenvalues of a Hamiltonian. We propose and rigorously analyse a randomized phase estimation algorithm with two distinctive features. First, our algorithm has complexity independent of the number of terms L in the Hamiltonian. Second, unlike previous L-independent approaches, such as those based on qDRIFT, all sources of error in our algorithm can be suppressed by collecting more data samples, without increasing the circuit depth.</description>
-  </item>
-
-  <item>
     <title>Random quantum circuits transform local noise into global white noise</title>
     <link>http://arxiv.org/pdf/2111.14907</link>
     <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
     <pubDate>Dec 01 2021</pubDate>
     <description>We study the distribution over measurement outcomes of noisy random quantum circuits in the low-fidelity regime. We show that, for local noise that is sufficiently weak and unital, correlations (measured by the linear cross-entropy benchmark) between the output distribution $p_{\text{noisy}}$ of a generic noisy circuit instance and the output distribution $p_{\text{ideal}}$ of the corresponding noiseless instance shrink exponentially with the expected number of gate-level errors, as $F=\text{exp}(-2s\epsilon \pm O(s\epsilon^2))$, where $\epsilon$ is the probability of error per circuit location and $s$ is the number of two-qubit gates. Furthermore, if the noise is incoherent, the output distribution approaches the uniform distribution $p_{\text{unif}}$ at precisely the same rate and can be approximated as $p_{\text{noisy}} \approx Fp_{\text{ideal}} + (1-F)p_{\text{unif}}$, that is, local errors are scrambled by the random quantum circuit and contribute only white noise (uniform output). Importantly, we upper bound the total variation error (averaged over random circuit instance) in this approximation as $O(F\epsilon \sqrt{s})$, so the "white-noise approximation" is meaningful when $\epsilon \sqrt{s} \ll 1$, a quadratically weaker condition than the $\epsilon s\ll 1$ requirement to maintain high fidelity. The bound applies when the circuit size satisfies $s \geq \Omega(n\log(n))$ and the inverse error rate satisfies $\epsilon^{-1} \geq \tilde{\Omega}(n)$. The white-noise approximation is useful for salvaging the signal from a noisy quantum computation; it was an underlying assumption in complexity-theoretic arguments that low-fidelity random quantum circuits cannot be efficiently sampled classically. Our method is based on a map from second-moment quantities in random quantum circuits to expectation values of certain stochastic processes for which we compute upper and lower bounds.</description>
+  </item>
+
+  <item>
+    <title>A randomized quantum algorithm for statistical phase estimation</title>
+    <link>http://arxiv.org/pdf/2110.12071</link>
+    <author>Kianna Wan, Mario Berta, Earl T. Campbell</author>
+    <pubDate>Oct 26 2021</pubDate>
+    <description>Phase estimation is a quantum algorithm for measuring the eigenvalues of a Hamiltonian. We propose and rigorously analyse a randomized phase estimation algorithm with two distinctive features. First, our algorithm has complexity independent of the number of terms L in the Hamiltonian. Second, unlike previous L-independent approaches, such as those based on qDRIFT, all sources of error in our algorithm can be suppressed by collecting more data samples, without increasing the circuit depth.</description>
   </item>
 
   <item>
@@ -271,6 +271,14 @@
   </item>
 
   <item>
+    <title>Quantum many-body systems in thermal equilibrium</title>
+    <link>http://arxiv.org/pdf/2204.08349</link>
+    <author>Álvaro M. Alhambra</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
+  </item>
+
+  <item>
     <title>Constant-overhead quantum error correction with thin planar connectivity</title>
     <link>http://arxiv.org/pdf/2109.14609</link>
     <author>Maxime A. Tremblay, Nicolas Delfosse, Michael E. Beverland</author>
@@ -292,14 +300,6 @@
     <author>Jonas Haferkamp</author>
     <pubDate>Apr 01 2022</pubDate>
     <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
-  </item>
-
-  <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
   </item>
 
   <item>
@@ -391,19 +391,19 @@
   </item>
 
   <item>
-    <title>Pauli error estimation via Population Recovery</title>
-    <link>http://arxiv.org/pdf/2105.02885</link>
-    <author>Steven T. Flammia, Ryan O'Donnell</author>
-    <pubDate>May 10 2021</pubDate>
-    <description>Motivated by estimation of quantum noise models, we study the problem of learning a Pauli channel, or more generally the Pauli error rates of an arbitrary channel. By employing a novel reduction to the "Population Recovery" problem, we give an extremely simple algorithm that learns the Pauli error rates of an $n$-qubit channel to precision $\epsilon$ in $\ell_\infty$ using just $O(1/\epsilon^2) \log(n/\epsilon)$ applications of the channel. This is optimal up to the logarithmic factors. Our algorithm uses only unentangled state preparation and measurements, and the post-measurement classical runtime is just an $O(1/\epsilon)$ factor larger than the measurement data size. It is also impervious to a limited model of measurement noise where heralded measurement failures occur independently with probability $\le 1/4$. We then consider the case where the noise channel is close to the identity, meaning that the no-error outcome occurs with probability $1-\eta$. In the regime of small $\eta$ we extend our algorithm to achieve multiplicative precision $1 \pm \epsilon$ (i.e., additive precision $\epsilon \eta$) using just $O\bigl(\frac{1}{\epsilon^2 \eta}\bigr) \log(n/\epsilon)$ applications of the channel.</description>
-  </item>
-
-  <item>
     <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
     <link>http://arxiv.org/pdf/2203.07263</link>
     <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
+  </item>
+
+  <item>
+    <title>Five Starter Pieces: Quantum Information Science via Semi-definite Programs</title>
+    <link>http://arxiv.org/pdf/2112.08276</link>
+    <author>Vikesh Siddhu, Sridhar Tayur</author>
+    <pubDate>Dec 16 2021</pubDate>
+    <description>As the title indicates, this manuscript presents a brief, self-contained introduction to five fundamental problems in Quantum Information Science (QIS) that are especially well-suited to be formulated as Semi-definite Programs (SDP). We have in mind two audiences. The primary audience comprises of Operations Research (and Computer Science) graduate students who have familiarity with SDPs, but have found it daunting to become even minimally conversant with pre-requisites of QIS. The second audience consists of Physicists (and Electrical Engineers) already knowledgeable with modeling of QIS via SDP but interested in computational tools that are applicable more generally. For both audiences, we strive for rapid access to the unfamiliar material. For the first, we provide just enough required background material (from Quantum Mechanics, treated via matrices, and mapping them in Dirac notation) and simultaneously for the second audience we recreate, computationally in Jupyter notebooks, known closed-form solutions. We hope you will enjoy this little manuscript and gain understanding of the marvelous connection between SDP and QIS by self-study, or as a short seminar course. Ultimately, we hope this disciplinary outreach will fuel advances in QIS through their fruitful study via SDPs.</description>
   </item>
 
 </channel>

@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
-    <link>http://arxiv.org/pdf/2205.00519</link>
-    <author>Arthur G. Rattew, Bálint Koczor</author>
-    <pubDate>May 03 2022</pubDate>
-    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
-  </item>
-
-  <item>
     <title>Group-Invariant Quantum Machine Learning</title>
     <link>http://arxiv.org/pdf/2205.02261</link>
     <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
@@ -39,11 +31,11 @@
   </item>
 
   <item>
-    <title>What is the temperature of a quantum state?</title>
-    <link>http://arxiv.org/pdf/2205.00017</link>
-    <author>Patryk Lipka-Bartosik, Martí Perarnau-Llobet, Nicolas Brunner</author>
-    <pubDate>May 03 2022</pubDate>
-    <description>Temperature is usually defined for physical systems at thermal equilibrium. Nevertheless one may wonder if it would be possible to attribute a meaningful notion of temperature to an arbitrary quantum state, beyond simply the thermal (Gibbs) state. In this work, we propose such a notion of temperature considering an operational task, inspired by the Zeroth Law of thermodynamics. Specifically, we define two effective temperatures for quantifying the ability of a quantum system to cool down or heat up a thermal environment. In this way we can associate an operationally meaningful notion of temperature to any quantum density matrix. We provide general expressions for these effective temperatures, for both single- and many-copy systems, establishing connections to concepts previously discussed in the literature. Finally, we consider a more sophisticated scenario where the heat exchange between the system and the thermal environment is assisted by a quantum reference frame. This leads to an effect of "coherent quantum catalysis", where the use of a coherent catalyst allows for exploiting quantum energetic coherences in the system, now leading to much colder or hotter effective temperatures.</description>
+    <title>Quantum contextuality provides communication complexity advantage</title>
+    <link>http://arxiv.org/pdf/2205.03308</link>
+    <author>Shashank Gupta, Debashis Saha, Zhen-Peng Xu, Adán Cabello, A. S. Majumdar</author>
+    <pubDate>May 09 2022</pubDate>
+    <description>Despite the conceptual importance of contextuality in quantum mechanics, there is a hitherto limited number of applications requiring contextuality but not entanglement. Here, we show that for any quantum state and observables of sufficiently small dimension producing contextuality, there exists a communication task with quantum advantage. Conversely, any quantum advantage in this task admits a proof of contextuality whenever an additional condition holds. We further show that given any set of observables allowing for quantum state-independent contextuality, there exists a class of communication tasks wherein the difference between classical and quantum communication complexities increases as the number of inputs grows. Finally, we show how to convert each of these communication tasks into a semi-device independent protocol for quantum key distribution.</description>
   </item>
 
   <item>
@@ -55,22 +47,6 @@
   </item>
 
   <item>
-    <title>Efficient quantum algorithm for nonlinear reaction-diffusion equations and energy estimation</title>
-    <link>http://arxiv.org/pdf/2205.01141</link>
-    <author>Dong An, Di Fang, Stephen Jordan, Jin-Peng Liu, Guang Hao Low, Jiasu Wang</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>Nonlinear differential equations exhibit rich phenomena in many fields but are notoriously challenging to solve. Recently, Liu et al. [1] demonstrated the first efficient quantum algorithm for dissipative quadratic differential equations under the condition $R < 1$, where $R$ measures the ratio of nonlinearity to dissipation using the $\ell_2$ norm. Here we develop an efficient quantum algorithm based on [1] for reaction-diffusion equations, a class of nonlinear partial differential equations (PDEs). To achieve this, we improve upon the Carleman linearization approach introduced in [1] to obtain a faster convergence rate under the condition $R_D < 1$, where $R_D$ measures the ratio of nonlinearity to dissipation using the $\ell_{\infty}$ norm. Since $R_D$ is independent of the number of spatial grid points $n$ while $R$ increases with $n$, the criterion $R_D<1$ is significantly milder than $R<1$ for high-dimensional systems and can stay convergent under grid refinement for approximating PDEs. As applications of our quantum algorithm we consider the Fisher-KPP and Allen-Cahn equations, which have interpretations in classical physics. In particular, we show how to estimate the mean square kinetic energy in the solution by postprocessing the quantum state that encodes it to extract derivative information.</description>
-  </item>
-
-  <item>
-    <title>A fast quantum algorithm for computing matrix permanent</title>
-    <link>http://arxiv.org/pdf/2205.01328</link>
-    <author>Joonsuk Huh</author>
-    <pubDate>May 04 2022</pubDate>
-    <description>Computing a matrix permanent is known to be a classically intractable problem. This paper presents the first polynomial time quantum algorithm for computing permanents of arbitrary $N$-dimensional square matrices with multiplicative error and additive error protocols. We transformed the well-known classical algorithm, Ryser's formula, into sums of quantum overlap integrals to develop the quantum algorithm. This requires $\mathcal{O}(N)$ and $\mathcal{O}(N^{3})$ evaluations of the real part of the quantum overlap integrals for real and complex matrices, respectively, with polynomial depth quantum circuits of $\mathcal{O}(N)$ qubits. The existence of the polynomial time multiplicative error estimation of a matrix permanent would strongly imply that quantum computers can access the #P-hard problem. Our quantum algorithm attains the milestone of opening a new direction in quantum computing and computational complexity theory. It could resolve crucial computational complexity issues like locating the bounded error quantum polynomial time (BQP) relative to the polynomial hierarchy, which has been a big complexity question. Depending on the size of a matrix norm of interest, we can also obtain an exponentially small additive error estimation and better estimation against Gurvits' classical sampling algorithm. The additive error protocol is practically implementable in noisy intermediate-scale quantum devices. Moreover, our quantum algorithm directly shows the computational complexity connection between the matrix permanent and the real-time partition function of the quantum Ising Hamiltonian.</description>
-  </item>
-
-  <item>
     <title>Magic of the ground state of the transverse field Ising model</title>
     <link>http://arxiv.org/pdf/2205.02247</link>
     <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma</author>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
+    <title>Variational Quantum Optimization of Nonlocality in Noisy Quantum Networks</title>
+    <link>http://arxiv.org/pdf/2205.02891</link>
+    <author>Brian Doolittle, Tom Bromley, Nathan Killoran, Eric Chitambar</author>
+    <pubDate>May 09 2022</pubDate>
+    <description>The inherent noise and complexity of quantum communication networks leads to challenges in designing quantum network protocols using classical methods. To address this issue, we develop a variational quantum optimization framework that simulates quantum networks on quantum hardware and optimizes the network using differential programming techniques. We use our hybrid framework to optimize nonlocality in noisy quantum networks. On the noisy IBM quantum computers, we demonstrate our framework's ability to maximize quantum nonlocality. On a classical simulator with a static noise model, we investigate the noise robustness of quantum nonlocality with respect to unital and nonunital channels. In both cases, we find that our optimization methods can reproduce known results, while uncovering interesting phenomena. When unital noise is present we find numerical evidence suggesting that maximally entangled state preparations yield maximal nonlocality. When nonunital noise is present we find that nonmaximally entangled states can yield maximal nonlocality. Thus, we show that variational quantum optimization is a practical design tool for quantum networks in the near-term. In the long-term, our variational quantum optimization techniques show promise of scaling beyond classical approaches and can be deployed on quantum network hardware to optimize quantum communication protocols against their inherent noise.</description>
+  </item>
+
+  <item>
     <title>Complete flow-preserving rewrite rules for MBQC patterns with Pauli measurements</title>
     <link>http://arxiv.org/pdf/2205.02009</link>
     <author>Tommy McElvanney, Miriam Backens</author>
     <pubDate>May 05 2022</pubDate>
     <description>In the one-way model of measurement-based quantum computation (MBQC), computation proceeds via measurements on some standard resource state. So-called flow conditions ensure that the overall computation is deterministic in a suitable sense, with Pauli flow being the most general of these. Existing work on rewriting MBQC patterns while preserving the existence of flow has focused on rewrites that reduce the number of qubits. In this work, we show that introducing new $Z$-measured qubits, connected to any subset of the existing qubits, preserves the existence of Pauli flow. Furthermore, we give a unique canonical form for stabilizer ZX-diagrams inspired by recent work of Hu & Khesin [arXiv:2109.10210]. We prove that any MBQC-like stabilizer ZX-diagram with Pauli flow can be rewritten into this canonical form using only rules which preserve the existence of Pauli flow and that each of these rules can be reversed while also preserving the existence of Pauli flow. Hence we have complete graphical rewriting for MBQC-like stabilizer ZX-diagrams with Pauli flow.</description>
+  </item>
+
+  <item>
+    <title>isQ: Towards a Practical Software Stack for Quantum Programming</title>
+    <link>http://arxiv.org/pdf/2205.03866</link>
+    <author>Jingzhe Guo, Huazhe Lou, Riling Li, Wang Fang, Junyi Liu, Peixun Long, Shenggang Ying, Mingsheng Ying</author>
+    <pubDate>May 10 2022</pubDate>
+    <description>We introduce isQ, a new software stack for quantum programming in an imperative programming language, also named isQ. The aim of isQ is to make the programmers write quantum programs as conveniently as possible. In particular: 1) The isQ language and its compiler contain many features, including some not well supported by (most) other quantum programming platforms, e.g. classical control flow such as recursion; decomposition of selfdefined unitary gates; and oracle programming and its circuit realization. 2) To make it flexible, an isQ program can be compiled into several kinds of intermediate representation, including OpenQASM 3.0, QIR and QCIS (specially tailored for the superconducting quantum hardware at USTC). 3) Besides interfacing isQ with true superconducting hardware, a QIR simulator is also developed for demonstration and testing of isQ programs.</description>
+  </item>
+
+  <item>
+    <title>Variational quantum algorithm for unconstrained black box binary optimization: Application to feature selection</title>
+    <link>http://arxiv.org/pdf/2205.03045</link>
+    <author>Christa Zoufal, Ryan V. Mishmash, Nitin Sharma, Niraj Kumar, Aashish Sheshadri, Amol Deshmukh, Noelle Ibrahim, Julien Gacon, Stefan Woerner</author>
+    <pubDate>May 09 2022</pubDate>
+    <description>We introduce a variational quantum algorithm to solve unconstrained black box binary optimization problems, i.e., problems in which the objective function is given as black box. This is in contrast to the typical setting of quantum algorithms for optimization where a classical objective function is provided as a given Quadratic Unconstrained Binary Optimization problem and mapped to a sum of Pauli operators. Furthermore, we provide theoretical justification for our method based on convergence guarantees of quantum imaginary time evolution. To investigate the performance of our algorithm and its potential advantages, we tackle a challenging real-world optimization problem: feature selection. This refers to the problem of selecting a subset of relevant features to use for constructing a predictive model such as fraud detection. Optimal feature selection -- when formulated in terms of a generic loss function -- offers little structure on which to build classical heuristics, thus resulting primarily in 'greedy methods'. This leaves room for (near-term) quantum algorithms to be competitive to classical state-of-the-art approaches. We apply our quantum-optimization-based feature selection algorithm, termed VarQFS, to build a predictive model for a credit risk data set with 20 and 59 input features (qubits) and train the model using quantum hardware and tensor-network-based numerical simulations, respectively. We show that the quantum method produces competitive and in certain aspects even better performance compared to traditional feature selection techniques used in today's industry.</description>
   </item>
 
 </channel>
