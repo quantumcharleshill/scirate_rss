@@ -15,11 +15,11 @@
   </item>
 
   <item>
-    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
-    <link>http://arxiv.org/pdf/2205.01933</link>
-    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
+    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
+    <link>http://arxiv.org/pdf/2205.04633</link>
+    <author>Atsuya Hasegawa, François Le Gall</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
   </item>
 
   <item>
@@ -28,6 +28,14 @@
     <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
     <pubDate>May 06 2022</pubDate>
     <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
+  </item>
+
+  <item>
+    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2205.05056</link>
+    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
   </item>
 
   <item>
@@ -47,6 +55,14 @@
   </item>
 
   <item>
+    <title>Classical verification of quantum depth</title>
+    <link>http://arxiv.org/pdf/2205.04656</link>
+    <author>Nai-Hui Chia, Shih-Han Hung</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>We present two protocols for classical verification of quantum depth. Our protocols allow a purely classical verifier to distinguish devices with different quantum circuit depths even in the presence of classical computation. We show that a device with quantum circuit depth at most d will be rejected by the verifier even if the prover applies additional polynomial-time classical computation to cheat. On the other hand, the verifier accepts a device which has quantum circuit depth d' for some d'>d. In our first protocol, we introduce an additional untrusted quantum machine which shares entanglements with the target machine. Applying a robust self-test, our first protocol certifies the depth of the target machine with information theoretic security and nearly optimal separation. The protocol relies on the oracle separation problem for quantum depth by Chia, Chung and Lai [STOC 2020] and a transformation from an oracle separation problem to a two-player non-local game. Our second protocol certifies the quantum depth of a single device based on quantum hardness of learning with errors. The protocol relies on the noisy trapdoor claw-free function family and the idea of pointer chasing to force the prover to keep quantum coherence until all preceding message exchanges are completed. To our knowledge, we give the first constructions for distinguishing hybrid quantum-classical computers with different circuit depths in unrelativized models.</description>
+  </item>
+
+  <item>
     <title>Magic of the ground state of the transverse field Ising model</title>
     <link>http://arxiv.org/pdf/2205.02247</link>
     <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma</author>
@@ -55,35 +71,19 @@
   </item>
 
   <item>
-    <title>Variational Quantum Optimization of Nonlocality in Noisy Quantum Networks</title>
-    <link>http://arxiv.org/pdf/2205.02891</link>
-    <author>Brian Doolittle, Tom Bromley, Nathan Killoran, Eric Chitambar</author>
-    <pubDate>May 09 2022</pubDate>
-    <description>The inherent noise and complexity of quantum communication networks leads to challenges in designing quantum network protocols using classical methods. To address this issue, we develop a variational quantum optimization framework that simulates quantum networks on quantum hardware and optimizes the network using differential programming techniques. We use our hybrid framework to optimize nonlocality in noisy quantum networks. On the noisy IBM quantum computers, we demonstrate our framework's ability to maximize quantum nonlocality. On a classical simulator with a static noise model, we investigate the noise robustness of quantum nonlocality with respect to unital and nonunital channels. In both cases, we find that our optimization methods can reproduce known results, while uncovering interesting phenomena. When unital noise is present we find numerical evidence suggesting that maximally entangled state preparations yield maximal nonlocality. When nonunital noise is present we find that nonmaximally entangled states can yield maximal nonlocality. Thus, we show that variational quantum optimization is a practical design tool for quantum networks in the near-term. In the long-term, our variational quantum optimization techniques show promise of scaling beyond classical approaches and can be deployed on quantum network hardware to optimize quantum communication protocols against their inherent noise.</description>
+    <title>Arkhipov's theorem, graph minors, and linear system nonlocal games</title>
+    <link>http://arxiv.org/pdf/2205.04645</link>
+    <author>Connor Paddock, Vincent Russo, Turner Silverthorne, William Slofstra</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>The perfect quantum strategies of a linear system game correspond to certain representations of its solution group. We study the solution groups of graph incidence games, which are linear system games in which the underlying linear system is the incidence system of a (non-properly) two-coloured graph. While it is undecidable to determine whether a general linear system game has a perfect quantum strategy, for graph incidence games this problem is solved by Arkhipov's theorem, which states that the graph incidence game of a connected graph has a perfect quantum strategy if and only if it either has a perfect classical strategy, or the graph is nonplanar. Arkhipov's criterion can be rephrased as a forbidden minor condition on connected two-coloured graphs. We extend Arkhipov's theorem by showing that, for graph incidence games of connected two-coloured graphs, every quotient closed property of the solution group has a forbidden minor characterization. We rederive Arkhipov's theorem from the group theoretic point of view, and then find the forbidden minors for two new properties: finiteness and abelianness. Our methods are entirely combinatorial, and finding the forbidden minors for other quotient closed properties seems to be an interesting combinatorial problem.</description>
   </item>
 
   <item>
-    <title>Complete flow-preserving rewrite rules for MBQC patterns with Pauli measurements</title>
-    <link>http://arxiv.org/pdf/2205.02009</link>
-    <author>Tommy McElvanney, Miriam Backens</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>In the one-way model of measurement-based quantum computation (MBQC), computation proceeds via measurements on some standard resource state. So-called flow conditions ensure that the overall computation is deterministic in a suitable sense, with Pauli flow being the most general of these. Existing work on rewriting MBQC patterns while preserving the existence of flow has focused on rewrites that reduce the number of qubits. In this work, we show that introducing new $Z$-measured qubits, connected to any subset of the existing qubits, preserves the existence of Pauli flow. Furthermore, we give a unique canonical form for stabilizer ZX-diagrams inspired by recent work of Hu & Khesin [arXiv:2109.10210]. We prove that any MBQC-like stabilizer ZX-diagram with Pauli flow can be rewritten into this canonical form using only rules which preserve the existence of Pauli flow and that each of these rules can be reversed while also preserving the existence of Pauli flow. Hence we have complete graphical rewriting for MBQC-like stabilizer ZX-diagrams with Pauli flow.</description>
-  </item>
-
-  <item>
-    <title>isQ: Towards a Practical Software Stack for Quantum Programming</title>
-    <link>http://arxiv.org/pdf/2205.03866</link>
-    <author>Jingzhe Guo, Huazhe Lou, Riling Li, Wang Fang, Junyi Liu, Peixun Long, Shenggang Ying, Mingsheng Ying</author>
-    <pubDate>May 10 2022</pubDate>
-    <description>We introduce isQ, a new software stack for quantum programming in an imperative programming language, also named isQ. The aim of isQ is to make the programmers write quantum programs as conveniently as possible. In particular: 1) The isQ language and its compiler contain many features, including some not well supported by (most) other quantum programming platforms, e.g. classical control flow such as recursion; decomposition of selfdefined unitary gates; and oracle programming and its circuit realization. 2) To make it flexible, an isQ program can be compiled into several kinds of intermediate representation, including OpenQASM 3.0, QIR and QCIS (specially tailored for the superconducting quantum hardware at USTC). 3) Besides interfacing isQ with true superconducting hardware, a QIR simulator is also developed for demonstration and testing of isQ programs.</description>
-  </item>
-
-  <item>
-    <title>Variational quantum algorithm for unconstrained black box binary optimization: Application to feature selection</title>
-    <link>http://arxiv.org/pdf/2205.03045</link>
-    <author>Christa Zoufal, Ryan V. Mishmash, Nitin Sharma, Niraj Kumar, Aashish Sheshadri, Amol Deshmukh, Noelle Ibrahim, Julien Gacon, Stefan Woerner</author>
-    <pubDate>May 09 2022</pubDate>
-    <description>We introduce a variational quantum algorithm to solve unconstrained black box binary optimization problems, i.e., problems in which the objective function is given as black box. This is in contrast to the typical setting of quantum algorithms for optimization where a classical objective function is provided as a given Quadratic Unconstrained Binary Optimization problem and mapped to a sum of Pauli operators. Furthermore, we provide theoretical justification for our method based on convergence guarantees of quantum imaginary time evolution. To investigate the performance of our algorithm and its potential advantages, we tackle a challenging real-world optimization problem: feature selection. This refers to the problem of selecting a subset of relevant features to use for constructing a predictive model such as fraud detection. Optimal feature selection -- when formulated in terms of a generic loss function -- offers little structure on which to build classical heuristics, thus resulting primarily in 'greedy methods'. This leaves room for (near-term) quantum algorithms to be competitive to classical state-of-the-art approaches. We apply our quantum-optimization-based feature selection algorithm, termed VarQFS, to build a predictive model for a credit risk data set with 20 and 59 input features (qubits) and train the model using quantum hardware and tensor-network-based numerical simulations, respectively. We show that the quantum method produces competitive and in certain aspects even better performance compared to traditional feature selection techniques used in today's industry.</description>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
 </channel>

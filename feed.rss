@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Modern applications of machine learning in quantum sciences</title>
-    <link>http://arxiv.org/pdf/2204.04198</link>
-    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
-    <pubDate>Apr 11 2022</pubDate>
-    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
-  </item>
-
-  <item>
     <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
     <link>http://arxiv.org/pdf/2205.02813</link>
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
@@ -55,22 +47,6 @@
   </item>
 
   <item>
-    <title>Out-of-distribution generalization for learning quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2204.10268</link>
-    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
-  </item>
-
-  <item>
-    <title>Quantum Routing with Teleportation</title>
-    <link>http://arxiv.org/pdf/2204.04185</link>
-    <author>Dhruv Devulapalli, Eddie Schoute, Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov</author>
-    <pubDate>Apr 11 2022</pubDate>
-    <description>We study the problem of implementing arbitrary permutations of qubits under interaction constraints in quantum systems that allow for arbitrarily fast local operations and classical communication (LOCC). In particular, we show examples of speedups over swap-based and more general unitary routing methods by distributing entanglement and using LOCC to perform quantum teleportation. We further describe an example of an interaction graph for which teleportation gives a logarithmic speedup in the worst-case routing time over swap-based routing. We also study limits on the speedup afforded by quantum teleportation - showing an $O(\sqrt{N \log N})$ upper bound on the separation in routing time for any interaction graph - and give tighter bounds for some common classes of graphs.</description>
-  </item>
-
-  <item>
     <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
     <link>http://arxiv.org/pdf/2205.01933</link>
     <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
@@ -79,11 +55,11 @@
   </item>
 
   <item>
-    <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
-    <link>http://arxiv.org/pdf/2204.10812</link>
-    <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
+    <title>Out-of-distribution generalization for learning quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2204.10268</link>
+    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
+    <pubDate>Apr 22 2022</pubDate>
+    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
   </item>
 
   <item>
@@ -95,11 +71,11 @@
   </item>
 
   <item>
-    <title>Imaging stars with quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.06044</link>
-    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
-    <pubDate>Apr 14 2022</pubDate>
-    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
+    <title>Partitioning qubits in hypergraph product codes to implement logical gates</title>
+    <link>http://arxiv.org/pdf/2204.10812</link>
+    <author>Armanda O. Quintavalle, Paul Webster, Michael Vasmer</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>The promise of high-rate low-density parity check (LDPC) codes to substantially reduce the overhead of fault-tolerant quantum computation depends on constructing efficient, fault-tolerant implementations of logical gates on such codes. Transversal gates are the simplest type of fault-tolerant gate, but the potential of transversal gates on LDPC codes has hitherto been largely neglected. We investigate the transversal gates that can be implemented in hypergraph product codes, a class of LDPC codes. Our analysis is aided by the construction of a symplectic canonical basis for the logical operators of hypergraph product codes, a result that may be of independent interest. We show that in these codes transversal gates can implement Hadamard (up to logical SWAP gates) and control-Z on all logical qubits. Moreover, we show that sequences of transversal operations, interleaved with error correction, allow implementation of entangling gates between arbitrary pairs of logical qubits in the same code block. We thereby demonstrate that transversal gates can be used as the basis for universal quantum computing on LDPC codes, when supplemented with state injection.</description>
   </item>
 
   <item>
@@ -111,11 +87,11 @@
   </item>
 
   <item>
-    <title>Maximal entanglement velocity implies dual unitarity</title>
-    <link>http://arxiv.org/pdf/2204.10341</link>
-    <author>Tianci Zhou, Aram W. Harrow</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
+    <title>Imaging stars with quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.06044</link>
+    <author>Zixin Huang, Gavin K. Brennen, Yingkai Ouyang</author>
+    <pubDate>Apr 14 2022</pubDate>
+    <description>The development of high-resolution, large-baseline optical interferometers would revolutionize astronomical imaging. However, classical techniques are hindered by physical limitations including loss, noise, and the fact that the received light is generally quantum in nature. We show how to overcome these issues using quantum communication techniques. We present a general framework for using quantum error correction codes for protecting and imaging starlight received at distant telescope sites. In our scheme, the quantum state of light is coherently captured into a non-radiative atomic state via Stimulated Raman Adiabatic Passage, which is then imprinted into a quantum error correction code. The code protects the signal during subsequent potentially noisy operations necessary to extract the image parameters. We show that even a small quantum error correction code can offer significant protection against noise. For large codes, we find noise thresholds below which the information can be preserved. Our scheme represents an application for near-term quantum devices that can increase imaging resolution beyond what is feasible using classical techniques.</description>
   </item>
 
   <item>
@@ -124,6 +100,14 @@
     <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
     <pubDate>Apr 26 2022</pubDate>
     <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
+  </item>
+
+  <item>
+    <title>Maximal entanglement velocity implies dual unitarity</title>
+    <link>http://arxiv.org/pdf/2204.10341</link>
+    <author>Tianci Zhou, Aram W. Harrow</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>A global quantum quench can be modeled by a quantum circuit with local unitary gates. In general, entanglement grows linearly at a rate given by entanglement velocity, which is upper bounded by the growth of the light cone. We show that the unitary interactions achieving the maximal rate must remain unitary if we exchange the space and time directions -- a property known as dual unitarity. Our results are robust: approximate maximal entanglement velocity also implies approximate dual unitarity. We further show that maximal entanglement velocity is always accompanied by a specific dynamical pattern of entanglement, which yields simpler analyses of several known exactly solvable models.</description>
   </item>
 
   <item>
@@ -159,6 +143,14 @@
   </item>
 
   <item>
+    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
+    <link>http://arxiv.org/pdf/2205.04633</link>
+    <author>Atsuya Hasegawa, François Le Gall</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
+  </item>
+
+  <item>
     <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
     <link>http://arxiv.org/pdf/2204.11890</link>
     <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
@@ -172,6 +164,14 @@
     <author>Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls</author>
     <pubDate>Apr 21 2022</pubDate>
     <description>We investigate quantum inspired algorithms to compute physical observables of quantum many-body systems at finite energies. They are based on the quantum algorithms proposed in [Lu et al. PRX Quantum 2, 020321 (2021)], which use the quantum simulation of the dynamics of such systems, as well as classical filtering and sampling techniques. Here, we replace the quantum simulation by standard classical methods based on matrix product states and operators. As a result, we can address significantly larger systems than those reachable by exact diagonalization or by other algorithms. We demonstrate the performance with spin chains up to 80 sites.</description>
+  </item>
+
+  <item>
+    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
+    <link>http://arxiv.org/pdf/2204.13834</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
   </item>
 
   <item>
@@ -191,22 +191,6 @@
   </item>
 
   <item>
-    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
-    <link>http://arxiv.org/pdf/2204.13834</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
-  </item>
-
-  <item>
-    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.10471</link>
-    <author>Yingkai Ouyang, Peter P. Rohde</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
-  </item>
-
-  <item>
     <title>Tight Bounds for Quantum State Certification with Incoherent Measurements</title>
     <link>http://arxiv.org/pdf/2204.07155</link>
     <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu</author>
@@ -223,11 +207,11 @@
   </item>
 
   <item>
-    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2204.11372</link>
-    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
+    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.10471</link>
+    <author>Yingkai Ouyang, Peter P. Rohde</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
   </item>
 
   <item>
@@ -236,6 +220,22 @@
     <author>Koji Yamaguchi, Hiroyasu Tajima</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
+  </item>
+
+  <item>
+    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
+    <link>http://arxiv.org/pdf/2204.11372</link>
+    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
+  </item>
+
+  <item>
+    <title>Quantum Dictionaries without QRAM</title>
+    <link>http://arxiv.org/pdf/2204.13835</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
   <item>
