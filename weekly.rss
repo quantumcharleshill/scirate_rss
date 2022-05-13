@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
-    <link>http://arxiv.org/pdf/2205.02813</link>
-    <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
   <item>
@@ -23,35 +23,11 @@
   </item>
 
   <item>
-    <title>Group-Invariant Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2205.02261</link>
-    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
-  </item>
-
-  <item>
     <title>Fundamental limitations on optimization in variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2205.05056</link>
     <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
     <pubDate>May 11 2022</pubDate>
     <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
-  </item>
-
-  <item>
-    <title>Quantum contextuality provides communication complexity advantage</title>
-    <link>http://arxiv.org/pdf/2205.03308</link>
-    <author>Shashank Gupta, Debashis Saha, Zhen-Peng Xu, Adán Cabello, A. S. Majumdar</author>
-    <pubDate>May 09 2022</pubDate>
-    <description>Despite the conceptual importance of contextuality in quantum mechanics, there is a hitherto limited number of applications requiring contextuality but not entanglement. Here, we show that for any quantum state and observables of sufficiently small dimension producing contextuality, there exists a communication task with quantum advantage. Conversely, any quantum advantage in this task admits a proof of contextuality whenever an additional condition holds. We further show that given any set of observables allowing for quantum state-independent contextuality, there exists a class of communication tasks wherein the difference between classical and quantum communication complexities increases as the number of inputs grows. Finally, we show how to convert each of these communication tasks into a semi-device independent protocol for quantum key distribution.</description>
-  </item>
-
-  <item>
-    <title>Soft Syndrome Decoding of Quantum LDPC Codes for Joint Correction of Data and Syndrome Errors</title>
-    <link>http://arxiv.org/pdf/2205.02341</link>
-    <author>Nithin Raveendran, Narayanan Rengaswamy, Asit Kumar Pradhan, Bane Vasić</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>Quantum errors are primarily detected and corrected using the measurement of syndrome information which itself is an unreliable step in practical error correction implementations. Typically, such faulty or noisy syndrome measurements are modeled as a binary measurement outcome flipped with some probability. However, the measured syndrome is in fact a discretized value of the continuous voltage or current values obtained in the physical implementation of the syndrome extraction. In this paper, we use this "soft" or analog information without the conventional discretization step to benefit the iterative decoders for decoding quantum low-density parity-check (QLDPC) codes. Syndrome-based iterative belief propagation decoders are modified to utilize the syndrome-soft information to successfully correct both data and syndrome errors simultaneously, without repeated measurements. We demonstrate the advantages of extracting the soft information from the syndrome in our improved decoders, not only in terms of comparison of thresholds and logical error rates for quasi-cyclic lifted-product QLDPC code families, but also for faster convergence of iterative decoders. In particular, the new BP decoder with noisy syndrome performs as good as the standard BP decoder under ideal syndrome.</description>
   </item>
 
   <item>
@@ -63,11 +39,11 @@
   </item>
 
   <item>
-    <title>Magic of the ground state of the transverse field Ising model</title>
-    <link>http://arxiv.org/pdf/2205.02247</link>
-    <author>Salvatore F.E. Oliviero, Lorenzo Leone, Alioscia Hamma</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>Ground states of quantum many-body systems are both entangled and possess a kind of quantum complexity as their preparation requires universal resources that go beyond the Clifford group and stabilizer states. These resources - sometimes dubbed as magic - are also the crucial ingredient for quantum advantage. We study the behavior of the stabilizer Rényi entropy in the integrable transverse field Ising spin chain. We show that the locality of interactions results in a localized stabilizer Rényi entropy in the gapped phase thus making this quantity computable in terms of local quantities in the gapped phase, while measurements involving $L$ spins are necessary at the critical point to obtain an error scaling with $O(L^{-1})$.</description>
+    <title>Quantum contextuality provides communication complexity advantage</title>
+    <link>http://arxiv.org/pdf/2205.03308</link>
+    <author>Shashank Gupta, Debashis Saha, Zhen-Peng Xu, Adán Cabello, A. S. Majumdar</author>
+    <pubDate>May 09 2022</pubDate>
+    <description>Despite the conceptual importance of contextuality in quantum mechanics, there is a hitherto limited number of applications requiring contextuality but not entanglement. Here, we show that for any quantum state and observables of sufficiently small dimension producing contextuality, there exists a communication task with quantum advantage. Conversely, any quantum advantage in this task admits a proof of contextuality whenever an additional condition holds. We further show that given any set of observables allowing for quantum state-independent contextuality, there exists a class of communication tasks wherein the difference between classical and quantum communication complexities increases as the number of inputs grows. Finally, we show how to convert each of these communication tasks into a semi-device independent protocol for quantum key distribution.</description>
   </item>
 
   <item>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
+    <title>Repeated Averages on Graphs</title>
+    <link>http://arxiv.org/pdf/2205.04535</link>
+    <author>Ramis Movassagh, Mario Szegedy, Guanyang Wang</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Sourav Chatterjee, Persi Diaconis, Allan Sly and Lingfu Zhang, prompted by a question of Ramis Movassagh, renewed the study of a process proposed in the early 1980s by Jean Bourgain. A state vector $v \in \mathbb R^n$, labeled with the vertices of a connected graph, $G$, changes in discrete time steps following the simple rule that at each step a random edge $(i,j)$ is picked and $v_i$ and $v_j$ are both replaced by their average $(v_i+v_j)/2$. It is easy to see that the value associated with each vertex converges to $1/n$. The question was how quickly will $v$ be $\epsilon$-close to uniform in the $L^{1}$ norm in the case of the complete graph, $K_{n}$, when $v$ is initialized as a standard basis vector that takes the value 1 on one coordinate, and zeros everywhere else. They have established a sharp cutoff of $\frac{1}{2\log 2}n\log n + O(n\sqrt{\log n})$. Our main result is to prove, that $\frac{(1-\epsilon)}{2\log2}n\log n-O(n)$ is a general lower bound for all connected graphs on $n$ nodes. We also get sharp magnitude of $t_{\epsilon,1}$ for several important families of graphs, including star, expander, dumbbell, and cycle. In order to establish our results we make several observations about the process, such as the worst case initialization is always a standard basis vector. Our results add to the body of work of Aldous, Aldous and Lanoue, Quattropani and Sau, Cao, Olshevsky and Tsitsiklis, and others. The renewed interest is due to an analogy to a question related to the Google's supremacy circuit. For the proof of our main theorem we employ a concept that we call 'augmented entropy function' which may find independent interest in the computer science and probability theory communities.</description>
+  </item>
+
+  <item>
+    <title>isQ: Towards a Practical Software Stack for Quantum Programming</title>
+    <link>http://arxiv.org/pdf/2205.03866</link>
+    <author>Jingzhe Guo, Huazhe Lou, Riling Li, Wang Fang, Junyi Liu, Peixun Long, Shenggang Ying, Mingsheng Ying</author>
+    <pubDate>May 10 2022</pubDate>
+    <description>We introduce isQ, a new software stack for quantum programming in an imperative programming language, also named isQ. The aim of isQ is to make the programmers write quantum programs as conveniently as possible. In particular: 1) The isQ language and its compiler contain many features, including some not well supported by (most) other quantum programming platforms, e.g. classical control flow such as recursion; decomposition of selfdefined unitary gates; and oracle programming and its circuit realization. 2) To make it flexible, an isQ program can be compiled into several kinds of intermediate representation, including OpenQASM 3.0, QIR and QCIS (specially tailored for the superconducting quantum hardware at USTC). 3) Besides interfacing isQ with true superconducting hardware, a QIR simulator is also developed for demonstration and testing of isQ programs.</description>
+  </item>
+
+  <item>
+    <title>An invitation to topological orders and category theory</title>
+    <link>http://arxiv.org/pdf/2205.05565</link>
+    <author>Liang Kong, Zhi-Hao Zhang</author>
     <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+    <description>Although it has been a well-known fact, for more than two decades, that category theory is needed for the study of topological orders, it is still a non-trivial challenge for students and working physicists to master the abstract language of category theory. In this work, for those who have no background in category theory, we explain in great details how the structure of a (braided) fusion category naturally emerges from lattice models and physical intuitions. Moreover, we show that nearly all mathematical notions and constructions in fusion categories and its representation theory, such as (monoidal) functors, Drinfeld center, module categories, Morita equivalence, condensation completion and fusion 2-categories, naturally emerge from lattice models and physical intuitions. In this process, we also introduce some basic notions and important results of topological orders.</description>
+  </item>
+
+  <item>
+    <title>Variational Quantum Optimization of Nonlocality in Noisy Quantum Networks</title>
+    <link>http://arxiv.org/pdf/2205.02891</link>
+    <author>Brian Doolittle, Tom Bromley, Nathan Killoran, Eric Chitambar</author>
+    <pubDate>May 09 2022</pubDate>
+    <description>The inherent noise and complexity of quantum communication networks leads to challenges in designing quantum network protocols using classical methods. To address this issue, we develop a variational quantum optimization framework that simulates quantum networks on quantum hardware and optimizes the network using differential programming techniques. We use our hybrid framework to optimize nonlocality in noisy quantum networks. On the noisy IBM quantum computers, we demonstrate our framework's ability to maximize quantum nonlocality. On a classical simulator with a static noise model, we investigate the noise robustness of quantum nonlocality with respect to unital and nonunital channels. In both cases, we find that our optimization methods can reproduce known results, while uncovering interesting phenomena. When unital noise is present we find numerical evidence suggesting that maximally entangled state preparations yield maximal nonlocality. When nonunital noise is present we find that nonmaximally entangled states can yield maximal nonlocality. Thus, we show that variational quantum optimization is a practical design tool for quantum networks in the near-term. In the long-term, our variational quantum optimization techniques show promise of scaling beyond classical approaches and can be deployed on quantum network hardware to optimize quantum communication protocols against their inherent noise.</description>
   </item>
 
 </channel>

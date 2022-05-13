@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+  </item>
+
+  <item>
     <title>Chain rules for quantum channels</title>
     <link>http://arxiv.org/pdf/2204.11153</link>
     <author>Mario Berta, Marco Tomamichel</author>
@@ -135,14 +143,6 @@
   </item>
 
   <item>
-    <title>On the Cleaning Lemma of Quantum Coding Theory</title>
-    <link>http://arxiv.org/pdf/2204.04699</link>
-    <author>Gleb Kalachev, Sergey Sadov</author>
-    <pubDate>Apr 12 2022</pubDate>
-    <description>The term "Cleaning Lemma" refers to a family of similar propositions that have been used in Quantum Coding Theory to estimate the minimum distance of a code in terms of its length and dimension. We show that the mathematical core is a simple fact of linear algebra of inner product spaces; moreover, it admits a further reduction to a combinatorial, lattice-theoretical level. Several concrete variants of the Cleaning Lemma and some additional propositions are derived as corollaries of the proposed approach.</description>
-  </item>
-
-  <item>
     <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
     <link>http://arxiv.org/pdf/2205.04633</link>
     <author>Atsuya Hasegawa, François Le Gall</author>
@@ -159,11 +159,27 @@
   </item>
 
   <item>
+    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2205.05056</link>
+    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
+  </item>
+
+  <item>
     <title>Classical algorithms for many-body quantum systems at finite energies</title>
     <link>http://arxiv.org/pdf/2204.09439</link>
     <author>Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls</author>
     <pubDate>Apr 21 2022</pubDate>
     <description>We investigate quantum inspired algorithms to compute physical observables of quantum many-body systems at finite energies. They are based on the quantum algorithms proposed in [Lu et al. PRX Quantum 2, 020321 (2021)], which use the quantum simulation of the dynamics of such systems, as well as classical filtering and sampling techniques. Here, we replace the quantum simulation by standard classical methods based on matrix product states and operators. As a result, we can address significantly larger systems than those reachable by exact diagonalization or by other algorithms. We demonstrate the performance with spin chains up to 80 sites.</description>
+  </item>
+
+  <item>
+    <title>Group-Invariant Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2205.02261</link>
+    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
   </item>
 
   <item>
@@ -199,14 +215,6 @@
   </item>
 
   <item>
-    <title>Group-Invariant Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2205.02261</link>
-    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
-  </item>
-
-  <item>
     <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
     <link>http://arxiv.org/pdf/2204.10471</link>
     <author>Yingkai Ouyang, Peter P. Rohde</author>
@@ -236,14 +244,6 @@
     <author>Craig Gidney</author>
     <pubDate>May 02 2022</pubDate>
     <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
-  </item>
-
-  <item>
-    <title>Matrix product operator algebras I: representations of weak Hopf algebras and projected entangled pair states</title>
-    <link>http://arxiv.org/pdf/2204.05940</link>
-    <author>Andras Molnar, Alberto Ruiz de Alarcón, José Garre-Rubio, Norbert Schuch, J. Ignacio Cirac, David Pérez-García</author>
-    <pubDate>Apr 13 2022</pubDate>
-    <description>Matrix Product Operators (MPOs) are tensor networks representing operators acting on 1D systems. They model a wide variety of situations, including communication channels with memory effects, quantum cellular automata, mixed states in 1D quantum systems, or holographic boundary models associated to 2D quantum systems. A scenario where MPOs have proven particularly useful is to represent algebras of non-trivial symmetries. Concretely, the boundary of both symmetry protected and topologically ordered phases in 2D quantum systems exhibit symmetries in the form of MPOs. In this paper, we develop a theory of MPOs as representations of algebraic structures. We establish a dictionary between algebra and MPO properties which allows to transfer results between both setups, covering the cases of pre-bialgebras, weak bialgebras, and weak Hopf algebras. We define the notion of pulling-through algebras, which abstracts the minimal requirements needed to define topologically ordered 2D tensor networks from MPO algebras. We show, as one of our main results, that any semisimple pivotal weak Hopf algebra is a pulling-trough algebra. We demonstrate the power of this framework by showing that they can be used to construct Kitaev's quantum double models for Hopf algebras solely from an MPO representation of the Hopf algebra, in the exact same way as MPO symmetries obtained from fusion categories can be used to construct Levin-Wen string-net models, and to explain all their topological features; it thus allows to describe both Kitaev and string-net models on the same formal footing.</description>
   </item>
 
 </channel>
