@@ -15,6 +15,22 @@
   </item>
 
   <item>
+    <title>Exploiting symmetry in variational quantum machine learning</title>
+    <link>http://arxiv.org/pdf/2205.06217</link>
+    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
+  </item>
+
+  <item>
+    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
+    <link>http://arxiv.org/pdf/2205.05786</link>
+    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
+  </item>
+
+  <item>
     <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
     <link>http://arxiv.org/pdf/2205.04633</link>
     <author>Atsuya Hasegawa, François Le Gall</author>
@@ -28,6 +44,14 @@
     <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
     <pubDate>May 11 2022</pubDate>
     <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
+  </item>
+
+  <item>
+    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
+    <link>http://arxiv.org/pdf/2205.06261</link>
+    <author>Zane M. Rossi, Isaac L. Chuang</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
   </item>
 
   <item>
@@ -47,43 +71,19 @@
   </item>
 
   <item>
+    <title>Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes</title>
+    <link>http://arxiv.org/pdf/2205.06125</link>
+    <author>Julien du Crest, Mehdi Mhalla, Valentin Savin</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.</description>
+  </item>
+
+  <item>
     <title>Arkhipov's theorem, graph minors, and linear system nonlocal games</title>
     <link>http://arxiv.org/pdf/2205.04645</link>
     <author>Connor Paddock, Vincent Russo, Turner Silverthorne, William Slofstra</author>
     <pubDate>May 11 2022</pubDate>
     <description>The perfect quantum strategies of a linear system game correspond to certain representations of its solution group. We study the solution groups of graph incidence games, which are linear system games in which the underlying linear system is the incidence system of a (non-properly) two-coloured graph. While it is undecidable to determine whether a general linear system game has a perfect quantum strategy, for graph incidence games this problem is solved by Arkhipov's theorem, which states that the graph incidence game of a connected graph has a perfect quantum strategy if and only if it either has a perfect classical strategy, or the graph is nonplanar. Arkhipov's criterion can be rephrased as a forbidden minor condition on connected two-coloured graphs. We extend Arkhipov's theorem by showing that, for graph incidence games of connected two-coloured graphs, every quotient closed property of the solution group has a forbidden minor characterization. We rederive Arkhipov's theorem from the group theoretic point of view, and then find the forbidden minors for two new properties: finiteness and abelianness. Our methods are entirely combinatorial, and finding the forbidden minors for other quotient closed properties seems to be an interesting combinatorial problem.</description>
-  </item>
-
-  <item>
-    <title>Repeated Averages on Graphs</title>
-    <link>http://arxiv.org/pdf/2205.04535</link>
-    <author>Ramis Movassagh, Mario Szegedy, Guanyang Wang</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Sourav Chatterjee, Persi Diaconis, Allan Sly and Lingfu Zhang, prompted by a question of Ramis Movassagh, renewed the study of a process proposed in the early 1980s by Jean Bourgain. A state vector $v \in \mathbb R^n$, labeled with the vertices of a connected graph, $G$, changes in discrete time steps following the simple rule that at each step a random edge $(i,j)$ is picked and $v_i$ and $v_j$ are both replaced by their average $(v_i+v_j)/2$. It is easy to see that the value associated with each vertex converges to $1/n$. The question was how quickly will $v$ be $\epsilon$-close to uniform in the $L^{1}$ norm in the case of the complete graph, $K_{n}$, when $v$ is initialized as a standard basis vector that takes the value 1 on one coordinate, and zeros everywhere else. They have established a sharp cutoff of $\frac{1}{2\log 2}n\log n + O(n\sqrt{\log n})$. Our main result is to prove, that $\frac{(1-\epsilon)}{2\log2}n\log n-O(n)$ is a general lower bound for all connected graphs on $n$ nodes. We also get sharp magnitude of $t_{\epsilon,1}$ for several important families of graphs, including star, expander, dumbbell, and cycle. In order to establish our results we make several observations about the process, such as the worst case initialization is always a standard basis vector. Our results add to the body of work of Aldous, Aldous and Lanoue, Quattropani and Sau, Cao, Olshevsky and Tsitsiklis, and others. The renewed interest is due to an analogy to a question related to the Google's supremacy circuit. For the proof of our main theorem we employ a concept that we call 'augmented entropy function' which may find independent interest in the computer science and probability theory communities.</description>
-  </item>
-
-  <item>
-    <title>isQ: Towards a Practical Software Stack for Quantum Programming</title>
-    <link>http://arxiv.org/pdf/2205.03866</link>
-    <author>Jingzhe Guo, Huazhe Lou, Riling Li, Wang Fang, Junyi Liu, Peixun Long, Shenggang Ying, Mingsheng Ying</author>
-    <pubDate>May 10 2022</pubDate>
-    <description>We introduce isQ, a new software stack for quantum programming in an imperative programming language, also named isQ. The aim of isQ is to make the programmers write quantum programs as conveniently as possible. In particular: 1) The isQ language and its compiler contain many features, including some not well supported by (most) other quantum programming platforms, e.g. classical control flow such as recursion; decomposition of selfdefined unitary gates; and oracle programming and its circuit realization. 2) To make it flexible, an isQ program can be compiled into several kinds of intermediate representation, including OpenQASM 3.0, QIR and QCIS (specially tailored for the superconducting quantum hardware at USTC). 3) Besides interfacing isQ with true superconducting hardware, a QIR simulator is also developed for demonstration and testing of isQ programs.</description>
-  </item>
-
-  <item>
-    <title>An invitation to topological orders and category theory</title>
-    <link>http://arxiv.org/pdf/2205.05565</link>
-    <author>Liang Kong, Zhi-Hao Zhang</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>Although it has been a well-known fact, for more than two decades, that category theory is needed for the study of topological orders, it is still a non-trivial challenge for students and working physicists to master the abstract language of category theory. In this work, for those who have no background in category theory, we explain in great details how the structure of a (braided) fusion category naturally emerges from lattice models and physical intuitions. Moreover, we show that nearly all mathematical notions and constructions in fusion categories and its representation theory, such as (monoidal) functors, Drinfeld center, module categories, Morita equivalence, condensation completion and fusion 2-categories, naturally emerge from lattice models and physical intuitions. In this process, we also introduce some basic notions and important results of topological orders.</description>
-  </item>
-
-  <item>
-    <title>Variational Quantum Optimization of Nonlocality in Noisy Quantum Networks</title>
-    <link>http://arxiv.org/pdf/2205.02891</link>
-    <author>Brian Doolittle, Tom Bromley, Nathan Killoran, Eric Chitambar</author>
-    <pubDate>May 09 2022</pubDate>
-    <description>The inherent noise and complexity of quantum communication networks leads to challenges in designing quantum network protocols using classical methods. To address this issue, we develop a variational quantum optimization framework that simulates quantum networks on quantum hardware and optimizes the network using differential programming techniques. We use our hybrid framework to optimize nonlocality in noisy quantum networks. On the noisy IBM quantum computers, we demonstrate our framework's ability to maximize quantum nonlocality. On a classical simulator with a static noise model, we investigate the noise robustness of quantum nonlocality with respect to unital and nonunital channels. In both cases, we find that our optimization methods can reproduce known results, while uncovering interesting phenomena. When unital noise is present we find numerical evidence suggesting that maximally entangled state preparations yield maximal nonlocality. When nonunital noise is present we find that nonmaximally entangled states can yield maximal nonlocality. Thus, we show that variational quantum optimization is a practical design tool for quantum networks in the near-term. In the long-term, our variational quantum optimization techniques show promise of scaling beyond classical approaches and can be deployed on quantum network hardware to optimize quantum communication protocols against their inherent noise.</description>
   </item>
 
 </channel>

@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
+    <link>http://arxiv.org/pdf/2204.11353</link>
+    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
+  </item>
+
+  <item>
     <title>Establishing trust in quantum computations</title>
     <link>http://arxiv.org/pdf/2204.07568</link>
     <author>Timothy Proctor, Stefan Seritan, Erik Nielsen, Kenneth Rudinger, Kevin Young, Robin Blume-Kohout, Mohan Sarovar</author>
@@ -103,14 +111,6 @@
   </item>
 
   <item>
-    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
-    <link>http://arxiv.org/pdf/2204.11353</link>
-    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
-  </item>
-
-  <item>
     <title>Maximal entanglement velocity implies dual unitarity</title>
     <link>http://arxiv.org/pdf/2204.10341</link>
     <author>Tianci Zhou, Aram W. Harrow</author>
@@ -119,11 +119,35 @@
   </item>
 
   <item>
+    <title>Exploiting symmetry in variational quantum machine learning</title>
+    <link>http://arxiv.org/pdf/2205.06217</link>
+    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
+  </item>
+
+  <item>
     <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
     <link>http://arxiv.org/pdf/2205.00519</link>
     <author>Arthur G. Rattew, Bálint Koczor</author>
     <pubDate>May 03 2022</pubDate>
     <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
+  </item>
+
+  <item>
+    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
+    <link>http://arxiv.org/pdf/2205.05786</link>
+    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
+  </item>
+
+  <item>
+    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
+    <link>http://arxiv.org/pdf/2205.04633</link>
+    <author>Atsuya Hasegawa, François Le Gall</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
   </item>
 
   <item>
@@ -143,11 +167,11 @@
   </item>
 
   <item>
-    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
-    <link>http://arxiv.org/pdf/2205.04633</link>
-    <author>Atsuya Hasegawa, François Le Gall</author>
+    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2205.05056</link>
+    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
     <pubDate>May 11 2022</pubDate>
-    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
+    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
   </item>
 
   <item>
@@ -156,14 +180,6 @@
     <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
     <pubDate>Apr 27 2022</pubDate>
     <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
-  </item>
-
-  <item>
-    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2205.05056</link>
-    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
   </item>
 
   <item>
@@ -228,22 +244,6 @@
     <author>Koji Yamaguchi, Hiroyasu Tajima</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
-  </item>
-
-  <item>
-    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2204.11372</link>
-    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
-  </item>
-
-  <item>
-    <title>Quantum Dictionaries without QRAM</title>
-    <link>http://arxiv.org/pdf/2204.13835</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
 </channel>

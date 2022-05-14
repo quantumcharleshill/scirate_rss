@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>An invitation to topological orders and category theory</title>
-    <link>http://arxiv.org/pdf/2205.05565</link>
-    <author>Liang Kong, Zhi-Hao Zhang</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>Although it has been a well-known fact, for more than two decades, that category theory is needed for the study of topological orders, it is still a non-trivial challenge for students and working physicists to master the abstract language of category theory. In this work, for those who have no background in category theory, we explain in great details how the structure of a (braided) fusion category naturally emerges from lattice models and physical intuitions. Moreover, we show that nearly all mathematical notions and constructions in fusion categories and its representation theory, such as (monoidal) functors, Drinfeld center, module categories, Morita equivalence, condensation completion and fusion 2-categories, naturally emerge from lattice models and physical intuitions. In this process, we also introduce some basic notions and important results of topological orders.</description>
+    <title>Exploiting symmetry in variational quantum machine learning</title>
+    <link>http://arxiv.org/pdf/2205.06217</link>
+    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
   </item>
 
   <item>
-    <title>Quantum Self-Attention Neural Networks for Text Classification</title>
-    <link>http://arxiv.org/pdf/2205.05625</link>
-    <author>Guangxi Li, Xuanqiang Zhao, Xin Wang</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>An emerging direction of quantum computing is to establish meaningful quantum applications in various fields of artificial intelligence, including natural language processing (NLP). Although some efforts based on syntactic analysis have opened the door to research in Quantum NLP (QNLP), limitations such as heavy syntactic preprocessing and syntax-dependent network architecture make them impracticable on larger and real-world data sets. In this paper, we propose a new simple network architecture, called the quantum self-attention neural network (QSANN), which can make up for these limitations. Specifically, we introduce the self-attention mechanism into quantum neural networks and then utilize a Gaussian projected quantum self-attention serving as a sensible quantum version of self-attention. As a result, QSANN is effective and scalable on larger data sets and has the desirable property of being implementable on near-term quantum devices. In particular, our QSANN outperforms the best existing QNLP model based on syntactic analysis as well as a simple classical self-attention neural network in numerical experiments of text classification tasks on public data sets. We further show that our method exhibits robustness to low-level quantum noises.</description>
+    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
+    <link>http://arxiv.org/pdf/2205.05786</link>
+    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
   </item>
 
   <item>
@@ -39,11 +39,11 @@
   </item>
 
   <item>
-    <title>Absolutely $k$-Incoherent Quantum States and Spectral Inequalities for Factor Width of a Matrix</title>
-    <link>http://arxiv.org/pdf/2205.05110</link>
-    <author>Nathaniel Johnston, Shirin Moein, Rajesh Pereira, Sarah Plosker</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>We investigate the set of quantum states that can be shown to be $k$-incoherent based only on their eigenvalues (equivalently, we explore which Hermitian matrices can be shown to have small factor width based only on their eigenvalues). In analogy with the absolute separability problem in quantum resource theory, we call these states "absolutely $k$-incoherent", and we derive several necessary and sufficient conditions for membership in this set. We obtain many of our results by making use of recent results concerning hyperbolicity cones associated with elementary symmetric polynomials.</description>
+    <title>Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes</title>
+    <link>http://arxiv.org/pdf/2205.06125</link>
+    <author>Julien du Crest, Mehdi Mhalla, Valentin Savin</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.</description>
   </item>
 
 </channel>
