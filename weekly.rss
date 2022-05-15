@@ -71,19 +71,19 @@
   </item>
 
   <item>
+    <title>Equivariant quantum circuits for learning on weighted graphs</title>
+    <link>http://arxiv.org/pdf/2205.06109</link>
+    <author>Andrea Skolik, Michele Cattelan, Sheir Yarkoni, Thomas Bäck, Vedran Dunjko</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Variational quantum algorithms are the leading candidate for near-term advantage on noisy quantum hardware. When training a parametrized quantum circuit to solve a specific task, the choice of ansatz is one of the most important factors that determines the trainability and performance of the algorithm. Problem-tailored ansatzes have become the standard for tasks in optimization or quantum chemistry, and yield more efficient algorithms with better performance than unstructured approaches. In quantum machine learning (QML), however, the literature on ansatzes that are motivated by the training data structure is scarce. Considering that it is widely known that unstructured ansatzes can become untrainable with increasing system size and circuit depth, it is of key importance to also study problem-tailored circuit architectures in a QML context. In this work, we introduce an ansatz for learning tasks on weighted graphs that respects an important graph symmetry, namely equivariance under node permutations. We evaluate the performance of this ansatz on a complex learning task on weighted graphs, where a ML model is used to implement a heuristic for a combinatorial optimization problem. We analytically study the expressivity of our ansatz at depth one, and numerically compare the performance of our model on instances with up to 20 qubits to ansatzes where the equivariance property is gradually broken. We show that our ansatz outperforms all others even in the small-instance regime. Our results strengthen the notion that symmetry-preserving ansatzes are a key to success in QML and should be an active area of research in order to enable near-term advantages in this field.</description>
+  </item>
+
+  <item>
     <title>Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes</title>
     <link>http://arxiv.org/pdf/2205.06125</link>
     <author>Julien du Crest, Mehdi Mhalla, Valentin Savin</author>
     <pubDate>May 13 2022</pubDate>
     <description>We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.</description>
-  </item>
-
-  <item>
-    <title>Arkhipov's theorem, graph minors, and linear system nonlocal games</title>
-    <link>http://arxiv.org/pdf/2205.04645</link>
-    <author>Connor Paddock, Vincent Russo, Turner Silverthorne, William Slofstra</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>The perfect quantum strategies of a linear system game correspond to certain representations of its solution group. We study the solution groups of graph incidence games, which are linear system games in which the underlying linear system is the incidence system of a (non-properly) two-coloured graph. While it is undecidable to determine whether a general linear system game has a perfect quantum strategy, for graph incidence games this problem is solved by Arkhipov's theorem, which states that the graph incidence game of a connected graph has a perfect quantum strategy if and only if it either has a perfect classical strategy, or the graph is nonplanar. Arkhipov's criterion can be rephrased as a forbidden minor condition on connected two-coloured graphs. We extend Arkhipov's theorem by showing that, for graph incidence games of connected two-coloured graphs, every quotient closed property of the solution group has a forbidden minor characterization. We rederive Arkhipov's theorem from the group theoretic point of view, and then find the forbidden minors for two new properties: finiteness and abelianness. Our methods are entirely combinatorial, and finding the forbidden minors for other quotient closed properties seems to be an interesting combinatorial problem.</description>
   </item>
 
 </channel>
