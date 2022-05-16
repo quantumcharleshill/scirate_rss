@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+    <title>Barren plateaus from learning scramblers with local cost functions</title>
+    <link>http://arxiv.org/pdf/2205.06679</link>
+    <author>Roy J. Garcia, Chen Zhao, Kaifeng Bu, Arthur Jaffe</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>The existence of barren plateaus has recently revealed new training challenges in quantum machine learning (QML). Uncovering the mechanisms behind barren plateaus is essential in understanding the scope of problems that QML can efficiently tackle. Barren plateaus have recently been shown to exist when learning global properties of random unitaries. Establishing whether local cost functions can circumvent these barren plateaus is pertinent if we hope to apply QML to quantum many-body systems. We prove a no-go theorem showing that local cost functions encounter barren plateaus in learning random unitary properties.</description>
   </item>
 
   <item>
-    <title>Exploiting symmetry in variational quantum machine learning</title>
-    <link>http://arxiv.org/pdf/2205.06217</link>
-    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
+    <title>Entanglement distillation towards minimal bond cut surface in tensor networks</title>
+    <link>http://arxiv.org/pdf/2205.06633</link>
+    <author>Takato Mori, Hidetaka Manabe, Hiroaki Matsueda</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We propose that a minimal bond cut surface is characterized by entanglement distillation in tensor networks. Our proposal is not only consistent with the holographic models of perfect or tree tensor networks, but also can be applied for several different classes of tensor networks including matrix product states and multi-scale entanglement renormalization ansatz. We confirmed our proposal by a numerical simulation based on the random tensor network. The result sheds new light on a deeper understanding of the Ryu-Takayanagi formula for entanglement entropy in holography.</description>
   </item>
 
   <item>
-    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
-    <link>http://arxiv.org/pdf/2205.05786</link>
-    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
+    <title>Learning quantum graph states with product measurements</title>
+    <link>http://arxiv.org/pdf/2205.06432</link>
+    <author>Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We consider the problem of learning $N$ identical copies of an unknown $n$-qubit quantum graph state with product measurements. These graph states have corresponding graphs where every vertex has exactly $d$ neighboring vertices. Here, we detail an explicit algorithm that uses product measurements on multiple identical copies of such graph states to learn them. When $n \gg d$ and $N = O(d \log(1/\epsilon) + d^2 \log n ),$ this algorithm correctly learns the graph state with probability at least $1- \epsilon$. From channel coding theory, we find that for arbitrary joint measurements on graph states, any learning algorithm achieving this accuracy requires at least $\Omega(\log (1/\epsilon) + d \log n)$ copies when $d=o(\sqrt n)$. We also supply bounds on $N$ when every graph state encounters identical and independent depolarizing errors on each qubit.</description>
   </item>
 
   <item>
-    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
-    <link>http://arxiv.org/pdf/2205.06261</link>
-    <author>Zane M. Rossi, Isaac L. Chuang</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
+    <title>Provably Optimal Control for Multiplicative Amplitude Control Noise</title>
+    <link>http://arxiv.org/pdf/2205.06741</link>
+    <author>Colin J. Trout, Kevin Schultz, Paraj Titum, Leigh Norris, Gregory Quiroz, and B. David Clader</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We provide a technique to obtain provably optimal control sequences for quantum systems under the influence of time-correlated multiplicative control noise. Utilizing the circuit-level noise model introduced in [Phys. Rev. Research 3, 033229(2021)], we show that we can map the problem of finding such a sequence to a convex optimization problem with guaranteed optimality that follows from the convexity. We also show that this technique is compatible with more general off-axis time-correlated dephasing noise. In spite of losing provable optimality, numerically optimized control sequences under this scenario can still achieve nearly optimal performance when the control noise is strong relative to the dephasing contribution. This approach will enable the development of optimal quantum logic gates in systems where noise due to amplitude drifts in the control is strong relative to dephasing such as in ion-trap based quantum computers or in the limit of fast control.</description>
   </item>
 
   <item>
-    <title>Equivariant quantum circuits for learning on weighted graphs</title>
-    <link>http://arxiv.org/pdf/2205.06109</link>
-    <author>Andrea Skolik, Michele Cattelan, Sheir Yarkoni, Thomas Bäck, Vedran Dunjko</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Variational quantum algorithms are the leading candidate for near-term advantage on noisy quantum hardware. When training a parametrized quantum circuit to solve a specific task, the choice of ansatz is one of the most important factors that determines the trainability and performance of the algorithm. Problem-tailored ansatzes have become the standard for tasks in optimization or quantum chemistry, and yield more efficient algorithms with better performance than unstructured approaches. In quantum machine learning (QML), however, the literature on ansatzes that are motivated by the training data structure is scarce. Considering that it is widely known that unstructured ansatzes can become untrainable with increasing system size and circuit depth, it is of key importance to also study problem-tailored circuit architectures in a QML context. In this work, we introduce an ansatz for learning tasks on weighted graphs that respects an important graph symmetry, namely equivariance under node permutations. We evaluate the performance of this ansatz on a complex learning task on weighted graphs, where a ML model is used to implement a heuristic for a combinatorial optimization problem. We analytically study the expressivity of our ansatz at depth one, and numerically compare the performance of our model on instances with up to 20 qubits to ansatzes where the equivariance property is gradually broken. We show that our ansatz outperforms all others even in the small-instance regime. Our results strengthen the notion that symmetry-preserving ansatzes are a key to success in QML and should be an active area of research in order to enable near-term advantages in this field.</description>
+    <title>Black Holes Decohere Quantum Superpositions</title>
+    <link>http://arxiv.org/pdf/2205.06279</link>
+    <author>Daine L. Danielson, Gautam Satishchandran, Robert M. Wald</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We show that if a massive body is put in a quantum superposition of spatially separated states, the mere presence of a black hole in the vicinity of the body will eventually destroy the coherence of the superposition. This occurs because, in effect, the gravitational field of the body radiates soft gravitons into the black hole, allowing the black hole to acquire "which path" information about the superposition. A similar effect occurs for quantum superpositions of electrically charged bodies. We provide estimates of the decoherence time for such quantum superpositions. We believe that the fact that a black hole will eventually decohere any quantum superposition may be of fundamental significance for our understanding of the nature of black holes in a quantum theory of gravity.</description>
   </item>
 
 </channel>
