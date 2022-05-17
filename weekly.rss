@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>Learning quantum graph states with product measurements</title>
+    <link>http://arxiv.org/pdf/2205.06432</link>
+    <author>Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We consider the problem of learning $N$ identical copies of an unknown $n$-qubit quantum graph state with product measurements. These graph states have corresponding graphs where every vertex has exactly $d$ neighboring vertices. Here, we detail an explicit algorithm that uses product measurements on multiple identical copies of such graph states to learn them. When $n \gg d$ and $N = O(d \log(1/\epsilon) + d^2 \log n ),$ this algorithm correctly learns the graph state with probability at least $1- \epsilon$. From channel coding theory, we find that for arbitrary joint measurements on graph states, any learning algorithm achieving this accuracy requires at least $\Omega(\log (1/\epsilon) + d \log n)$ copies when $d=o(\sqrt n)$. We also supply bounds on $N$ when every graph state encounters identical and independent depolarizing errors on each qubit.</description>
+  </item>
+
+  <item>
     <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
     <link>http://arxiv.org/pdf/2205.04633</link>
     <author>Atsuya Hasegawa, François Le Gall</author>
@@ -63,27 +71,19 @@
   </item>
 
   <item>
-    <title>Equivariant quantum circuits for learning on weighted graphs</title>
-    <link>http://arxiv.org/pdf/2205.06109</link>
-    <author>Andrea Skolik, Michele Cattelan, Sheir Yarkoni, Thomas Bäck, Vedran Dunjko</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Variational quantum algorithms are the leading candidate for near-term advantage on noisy quantum hardware. When training a parametrized quantum circuit to solve a specific task, the choice of ansatz is one of the most important factors that determines the trainability and performance of the algorithm. Problem-tailored ansatzes have become the standard for tasks in optimization or quantum chemistry, and yield more efficient algorithms with better performance than unstructured approaches. In quantum machine learning (QML), however, the literature on ansatzes that are motivated by the training data structure is scarce. Considering that it is widely known that unstructured ansatzes can become untrainable with increasing system size and circuit depth, it is of key importance to also study problem-tailored circuit architectures in a QML context. In this work, we introduce an ansatz for learning tasks on weighted graphs that respects an important graph symmetry, namely equivariance under node permutations. We evaluate the performance of this ansatz on a complex learning task on weighted graphs, where a ML model is used to implement a heuristic for a combinatorial optimization problem. We analytically study the expressivity of our ansatz at depth one, and numerically compare the performance of our model on instances with up to 20 qubits to ansatzes where the equivariance property is gradually broken. We show that our ansatz outperforms all others even in the small-instance regime. Our results strengthen the notion that symmetry-preserving ansatzes are a key to success in QML and should be an active area of research in order to enable near-term advantages in this field.</description>
-  </item>
-
-  <item>
-    <title>Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes</title>
-    <link>http://arxiv.org/pdf/2205.06125</link>
-    <author>Julien du Crest, Mehdi Mhalla, Valentin Savin</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.</description>
-  </item>
-
-  <item>
     <title>Exact solution for the quantum and private capacities of bosonic dephasing channels</title>
     <link>http://arxiv.org/pdf/2205.05736</link>
     <author>Ludovico Lami, Mark M. Wilde</author>
     <pubDate>May 13 2022</pubDate>
     <description>The capacities of noisy quantum channels capture the ultimate rates of information transmission across quantum communication lines, and the quantum capacity plays a key role in determining the overhead of fault-tolerant quantum computation platforms. In the case of bosonic systems, central to many applications, no closed formulas for these capacities were known for bosonic dephasing channels, a key class of non-Gaussian channels modelling, e.g., noise affecting superconducting circuits or fiber-optic communication channels. Here we provide the first exact calculation of the quantum, private, two-way assisted quantum, and secret-key agreement capacities of all bosonic dephasing channels. We prove that that they are equal to the relative entropy of the distribution underlying the channel to the uniform distribution. Our result solves a problem that has been open for over a decade, having been posed originally by [Jiang & Chen, Quantum and Nonlinear Optics 244, 2010].</description>
+  </item>
+
+  <item>
+    <title>Equivariant quantum circuits for learning on weighted graphs</title>
+    <link>http://arxiv.org/pdf/2205.06109</link>
+    <author>Andrea Skolik, Michele Cattelan, Sheir Yarkoni, Thomas Bäck, Vedran Dunjko</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Variational quantum algorithms are the leading candidate for near-term advantage on noisy quantum hardware. When training a parametrized quantum circuit to solve a specific task, the choice of ansatz is one of the most important factors that determines the trainability and performance of the algorithm. Problem-tailored ansatzes have become the standard for tasks in optimization or quantum chemistry, and yield more efficient algorithms with better performance than unstructured approaches. In quantum machine learning (QML), however, the literature on ansatzes that are motivated by the training data structure is scarce. Considering that it is widely known that unstructured ansatzes can become untrainable with increasing system size and circuit depth, it is of key importance to also study problem-tailored circuit architectures in a QML context. In this work, we introduce an ansatz for learning tasks on weighted graphs that respects an important graph symmetry, namely equivariance under node permutations. We evaluate the performance of this ansatz on a complex learning task on weighted graphs, where a ML model is used to implement a heuristic for a combinatorial optimization problem. We analytically study the expressivity of our ansatz at depth one, and numerically compare the performance of our model on instances with up to 20 qubits to ansatzes where the equivariance property is gradually broken. We show that our ansatz outperforms all others even in the small-instance regime. Our results strengthen the notion that symmetry-preserving ansatzes are a key to success in QML and should be an active area of research in order to enable near-term advantages in this field.</description>
   </item>
 
 </channel>

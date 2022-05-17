@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
-    <link>http://arxiv.org/pdf/2205.01933</link>
-    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
-  </item>
-
-  <item>
     <title>Exploiting symmetry in variational quantum machine learning</title>
     <link>http://arxiv.org/pdf/2205.06217</link>
     <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
@@ -63,11 +55,27 @@
   </item>
 
   <item>
+    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
+    <link>http://arxiv.org/pdf/2205.01933</link>
+    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
+  </item>
+
+  <item>
     <title>Out-of-distribution generalization for learning quantum dynamics</title>
     <link>http://arxiv.org/pdf/2204.10268</link>
     <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
     <pubDate>Apr 22 2022</pubDate>
     <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
+    <link>http://arxiv.org/pdf/2205.05786</link>
+    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
   </item>
 
   <item>
@@ -95,14 +103,6 @@
   </item>
 
   <item>
-    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
-    <link>http://arxiv.org/pdf/2205.05786</link>
-    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
-  </item>
-
-  <item>
     <title>Maximal entanglement velocity implies dual unitarity</title>
     <link>http://arxiv.org/pdf/2204.10341</link>
     <author>Tianci Zhou, Aram W. Harrow</author>
@@ -116,6 +116,14 @@
     <author>Arthur G. Rattew, Bálint Koczor</author>
     <pubDate>May 03 2022</pubDate>
     <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
+  </item>
+
+  <item>
+    <title>Learning quantum graph states with product measurements</title>
+    <link>http://arxiv.org/pdf/2205.06432</link>
+    <author>Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We consider the problem of learning $N$ identical copies of an unknown $n$-qubit quantum graph state with product measurements. These graph states have corresponding graphs where every vertex has exactly $d$ neighboring vertices. Here, we detail an explicit algorithm that uses product measurements on multiple identical copies of such graph states to learn them. When $n \gg d$ and $N = O(d \log(1/\epsilon) + d^2 \log n ),$ this algorithm correctly learns the graph state with probability at least $1- \epsilon$. From channel coding theory, we find that for arbitrary joint measurements on graph states, any learning algorithm achieving this accuracy requires at least $\Omega(\log (1/\epsilon) + d \log n)$ copies when $d=o(\sqrt n)$. We also supply bounds on $N$ when every graph state encounters identical and independent depolarizing errors on each qubit.</description>
   </item>
 
   <item>
@@ -207,19 +215,19 @@
   </item>
 
   <item>
-    <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
-    <link>http://arxiv.org/pdf/2204.08439</link>
-    <author>Koji Yamaguchi, Hiroyasu Tajima</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
-  </item>
-
-  <item>
     <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
     <link>http://arxiv.org/pdf/2205.06261</link>
     <author>Zane M. Rossi, Isaac L. Chuang</author>
     <pubDate>May 13 2022</pubDate>
     <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
+    <link>http://arxiv.org/pdf/2204.08439</link>
+    <author>Koji Yamaguchi, Hiroyasu Tajima</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
     <pubDate>Apr 26 2022</pubDate>
     <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
-  </item>
-
-  <item>
-    <title>Quantum Dictionaries without QRAM</title>
-    <link>http://arxiv.org/pdf/2204.13835</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
 </channel>

@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Barren plateaus from learning scramblers with local cost functions</title>
-    <link>http://arxiv.org/pdf/2205.06679</link>
-    <author>Roy J. Garcia, Chen Zhao, Kaifeng Bu, Arthur Jaffe</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>The existence of barren plateaus has recently revealed new training challenges in quantum machine learning (QML). Uncovering the mechanisms behind barren plateaus is essential in understanding the scope of problems that QML can efficiently tackle. Barren plateaus have recently been shown to exist when learning global properties of random unitaries. Establishing whether local cost functions can circumvent these barren plateaus is pertinent if we hope to apply QML to quantum many-body systems. We prove a no-go theorem showing that local cost functions encounter barren plateaus in learning random unitary properties.</description>
-  </item>
-
-  <item>
-    <title>Entanglement distillation towards minimal bond cut surface in tensor networks</title>
-    <link>http://arxiv.org/pdf/2205.06633</link>
-    <author>Takato Mori, Hidetaka Manabe, Hiroaki Matsueda</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>We propose that a minimal bond cut surface is characterized by entanglement distillation in tensor networks. Our proposal is not only consistent with the holographic models of perfect or tree tensor networks, but also can be applied for several different classes of tensor networks including matrix product states and multi-scale entanglement renormalization ansatz. We confirmed our proposal by a numerical simulation based on the random tensor network. The result sheds new light on a deeper understanding of the Ryu-Takayanagi formula for entanglement entropy in holography.</description>
-  </item>
-
-  <item>
     <title>Learning quantum graph states with product measurements</title>
     <link>http://arxiv.org/pdf/2205.06432</link>
     <author>Yingkai Ouyang, Marco Tomamichel</author>
@@ -31,11 +15,19 @@
   </item>
 
   <item>
-    <title>Provably Optimal Control for Multiplicative Amplitude Control Noise</title>
-    <link>http://arxiv.org/pdf/2205.06741</link>
-    <author>Colin J. Trout, Kevin Schultz, Paraj Titum, Leigh Norris, Gregory Quiroz, and B. David Clader</author>
+    <title>Barren plateaus from learning scramblers with local cost functions</title>
+    <link>http://arxiv.org/pdf/2205.06679</link>
+    <author>Roy J. Garcia, Chen Zhao, Kaifeng Bu, Arthur Jaffe</author>
     <pubDate>May 16 2022</pubDate>
-    <description>We provide a technique to obtain provably optimal control sequences for quantum systems under the influence of time-correlated multiplicative control noise. Utilizing the circuit-level noise model introduced in [Phys. Rev. Research 3, 033229(2021)], we show that we can map the problem of finding such a sequence to a convex optimization problem with guaranteed optimality that follows from the convexity. We also show that this technique is compatible with more general off-axis time-correlated dephasing noise. In spite of losing provable optimality, numerically optimized control sequences under this scenario can still achieve nearly optimal performance when the control noise is strong relative to the dephasing contribution. This approach will enable the development of optimal quantum logic gates in systems where noise due to amplitude drifts in the control is strong relative to dephasing such as in ion-trap based quantum computers or in the limit of fast control.</description>
+    <description>The existence of barren plateaus has recently revealed new training challenges in quantum machine learning (QML). Uncovering the mechanisms behind barren plateaus is essential in understanding the scope of problems that QML can efficiently tackle. Barren plateaus have recently been shown to exist when learning global properties of random unitaries. Establishing whether local cost functions can circumvent these barren plateaus is pertinent if we hope to apply QML to quantum many-body systems. We prove a no-go theorem showing that local cost functions encounter barren plateaus in learning random unitary properties.</description>
+  </item>
+
+  <item>
+    <title>The QAOA with Slow Measurements</title>
+    <link>http://arxiv.org/pdf/2205.06845</link>
+    <author>Anthony Polloreno, Graeme Smith</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>The Quantum Approximate Optimization Algorithm (QAOA) was originally developed to solve combinatorial optimization problems, but has become a standard for assessing the performance of quantum computers. Fully descriptive benchmarking techniques are often prohibitively expensive for large numbers of qubits ($n \gtrsim 10$), so the QAOA often serves in practice as a computational benchmark. The QAOA involves a classical optimization subroutine that attempts to find optimal parameters for a quantum subroutine. Unfortunately, many optimizers used for the QAOA require many shots ($N \gtrsim 1000$) per point in parameter space to get a reliable estimate of the energy being minimized. However, some experimental quantum computing platforms such as neutral atom quantum computers have slow repetition rates, placing unique requirements on the classical optimization subroutine used in the QAOA in these systems. In this paper we investigate the performance of a gradient free classical optimizer for the QAOA - dual annealing - and demonstrate that optimization is possible even with $N=1$ and $n=16$.</description>
   </item>
 
   <item>
@@ -44,6 +36,14 @@
     <author>Daine L. Danielson, Gautam Satishchandran, Robert M. Wald</author>
     <pubDate>May 16 2022</pubDate>
     <description>We show that if a massive body is put in a quantum superposition of spatially separated states, the mere presence of a black hole in the vicinity of the body will eventually destroy the coherence of the superposition. This occurs because, in effect, the gravitational field of the body radiates soft gravitons into the black hole, allowing the black hole to acquire "which path" information about the superposition. A similar effect occurs for quantum superpositions of electrically charged bodies. We provide estimates of the decoherence time for such quantum superpositions. We believe that the fact that a black hole will eventually decohere any quantum superposition may be of fundamental significance for our understanding of the nature of black holes in a quantum theory of gravity.</description>
+  </item>
+
+  <item>
+    <title>Entanglement distillation towards minimal bond cut surface in tensor networks</title>
+    <link>http://arxiv.org/pdf/2205.06633</link>
+    <author>Takato Mori, Hidetaka Manabe, Hiroaki Matsueda</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>We propose that a minimal bond cut surface is characterized by entanglement distillation in tensor networks. Our proposal is not only consistent with the holographic models of perfect or tree tensor networks, but also can be applied for several different classes of tensor networks including matrix product states and multi-scale entanglement renormalization ansatz. We confirmed our proposal by a numerical simulation based on the random tensor network. The result sheds new light on a deeper understanding of the Ryu-Takayanagi formula for entanglement entropy in holography.</description>
   </item>
 
 </channel>
