@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Learning quantum graph states with product measurements</title>
-    <link>http://arxiv.org/pdf/2205.06432</link>
-    <author>Yingkai Ouyang, Marco Tomamichel</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>We consider the problem of learning $N$ identical copies of an unknown $n$-qubit quantum graph state with product measurements. These graph states have corresponding graphs where every vertex has exactly $d$ neighboring vertices. Here, we detail an explicit algorithm that uses product measurements on multiple identical copies of such graph states to learn them. When $n \gg d$ and $N = O(d \log(1/\epsilon) + d^2 \log n ),$ this algorithm correctly learns the graph state with probability at least $1- \epsilon$. From channel coding theory, we find that for arbitrary joint measurements on graph states, any learning algorithm achieving this accuracy requires at least $\Omega(\log (1/\epsilon) + d \log n)$ copies when $d=o(\sqrt n)$. We also supply bounds on $N$ when every graph state encounters identical and independent depolarizing errors on each qubit.</description>
-  </item>
-
-  <item>
-    <title>Barren plateaus from learning scramblers with local cost functions</title>
-    <link>http://arxiv.org/pdf/2205.06679</link>
-    <author>Roy J. Garcia, Chen Zhao, Kaifeng Bu, Arthur Jaffe</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>The existence of barren plateaus has recently revealed new training challenges in quantum machine learning (QML). Uncovering the mechanisms behind barren plateaus is essential in understanding the scope of problems that QML can efficiently tackle. Barren plateaus have recently been shown to exist when learning global properties of random unitaries. Establishing whether local cost functions can circumvent these barren plateaus is pertinent if we hope to apply QML to quantum many-body systems. We prove a no-go theorem showing that local cost functions encounter barren plateaus in learning random unitary properties.</description>
-  </item>
-
-  <item>
     <title>The QAOA with Slow Measurements</title>
     <link>http://arxiv.org/pdf/2205.06845</link>
     <author>Anthony Polloreno, Graeme Smith</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Black Holes Decohere Quantum Superpositions</title>
-    <link>http://arxiv.org/pdf/2205.06279</link>
-    <author>Daine L. Danielson, Gautam Satishchandran, Robert M. Wald</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>We show that if a massive body is put in a quantum superposition of spatially separated states, the mere presence of a black hole in the vicinity of the body will eventually destroy the coherence of the superposition. This occurs because, in effect, the gravitational field of the body radiates soft gravitons into the black hole, allowing the black hole to acquire "which path" information about the superposition. A similar effect occurs for quantum superpositions of electrically charged bodies. We provide estimates of the decoherence time for such quantum superpositions. We believe that the fact that a black hole will eventually decohere any quantum superposition may be of fundamental significance for our understanding of the nature of black holes in a quantum theory of gravity.</description>
+    <title>Hay from the haystack: explicit examples of exponential quantum circuit complexity</title>
+    <link>http://arxiv.org/pdf/2205.06977</link>
+    <author>Yifan Jia, Michael M. Wolf</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>The vast majority of quantum states and unitaries have circuit complexity exponential in the number of qubits. In a similar vein, most of them also have exponential minimum description length, which makes it difficult to pinpoint examples of exponential complexity. In this work, we construct examples of constant description length but exponential circuit complexity. We provide infinite families such that each element requires an exponential number of two-qubit gates to be generated exactly from a product and where the same is true for the approximate generation of the vast majority of elements in the family. The results are based on sets of large transcendence degree and discussed for tensor networks, diagonal unitaries, and maximally coherent states.</description>
   </item>
 
   <item>
-    <title>Entanglement distillation towards minimal bond cut surface in tensor networks</title>
-    <link>http://arxiv.org/pdf/2205.06633</link>
-    <author>Takato Mori, Hidetaka Manabe, Hiroaki Matsueda</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>We propose that a minimal bond cut surface is characterized by entanglement distillation in tensor networks. Our proposal is not only consistent with the holographic models of perfect or tree tensor networks, but also can be applied for several different classes of tensor networks including matrix product states and multi-scale entanglement renormalization ansatz. We confirmed our proposal by a numerical simulation based on the random tensor network. The result sheds new light on a deeper understanding of the Ryu-Takayanagi formula for entanglement entropy in holography.</description>
+    <title>Power and limitations of single-qubit native quantum neural networks</title>
+    <link>http://arxiv.org/pdf/2205.07848</link>
+    <author>Zhan Yu, Hongshun Yao, Mujin Li, Xin Wang</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>Quantum neural networks (QNNs) have emerged as a leading strategy to establish applications in machine learning, chemistry, and optimization. While the applications of QNN have been widely investigated, its theoretical foundation remains less understood. In this paper, we formulate a theoretical framework for the expressive ability of data re-uploading quantum neural networks that consist of interleaved encoding circuit blocks and trainable circuit blocks. First, we prove that single-qubit quantum neural networks can approximate any univariate function by mapping the model to a partial Fourier series. Beyond previous works' understanding of existence, we in particular establish the exact correlations between the parameters of the trainable gates and the working Fourier coefficients, by exploring connections to quantum signal processing. Second, we discuss the limitations of single-qubit native QNNs on approximating multivariate functions by analyzing the frequency spectrum and the flexibility of Fourier coefficients. We further demonstrate the expressivity and limitations of single-qubit native QNNs via numerical experiments. As applications, we introduce natural extensions to multi-qubit quantum neural networks, which exhibit the capability of classifying real-world multi-dimensional data. We believe these results would improve our understanding of QNNs and provide a helpful guideline for designing powerful QNNs for machine learning tasks.</description>
+  </item>
+
+  <item>
+    <title>Variational learning algorithms for quantum query complexity</title>
+    <link>http://arxiv.org/pdf/2205.07449</link>
+    <author>Zipeng Wu, Shi-Yao Hou, Chao Zhang, Lvzhou Li, Bei Zeng</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>Quantum query complexity plays an important role in studying quantum algorithms, which captures the most known quantum algorithms, such as search and period finding. A query algorithm applies $U_tO_x\cdots U_1O_xU_0$ to some input state, where $O_x$ is the oracle dependent on some input variable $x$, and $U_i$s are unitary operations that are independent of $x$, followed by some measurements for readout. In this work, we develop variational learning algorithms to study quantum query complexity, by formulating $U_i$s as parameterized quantum circuits and introducing a loss function that is directly given by the error probability of the query algorithm. We apply our method to analyze various cases of quantum query complexity, including a new algorithm solving the Hamming modulo problem with $4$ queries for the case of $5$-bit modulo $5$, answering an open question raised in arXiv:2112.14682, and the result is further confirmed by a Semidefinite Programming (SDP) algorithm. Compared with the SDP algorithm, our method can be readily implemented on the near-term Noisy Intermediate-Scale Quantum (NISQ) devices and is more flexible to be adapted to other cases such as the fractional query models.</description>
+  </item>
+
+  <item>
+    <title>Packet Switching in Quantum Networks: A Path to Quantum Internet</title>
+    <link>http://arxiv.org/pdf/2205.07507</link>
+    <author>Stephen DiAdamo, Bing Qi, Glen Miller, Ramana Kompella, Alireza Shabani</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>Large-scale quantum networks with thousands of nodes require scalable network protocols and physical hardware to realize. In this work, we introduce packet switching as a new paradigm for quantum data transmission in both future and near-term quantum networks. We propose a classical-quantum data frame structure and explore methods of frame generation and processing. Further, we present conceptual designs for a quantum reconfigurable optical add-drop multiplexer to realize the proposed transmission scheme. Packet switching allows for a universal design for a next generation Internet where classical and quantum data share the same network protocols and infrastructure. In this new quantum networking paradigm, entanglement distribution, as with quantum key distribution, is an application built on top of the quantum network rather than as a network designed especially for those purposes. For analysis of the network model, we simulate the feasibility of quantum packet switching for some preliminary models of quantum key and entanglement distribution. Finally, we discuss how our model can be integrated with other network models toward a realization of a quantum Internet.</description>
   </item>
 
 </channel>

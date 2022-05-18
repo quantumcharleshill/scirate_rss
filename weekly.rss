@@ -39,22 +39,6 @@
   </item>
 
   <item>
-    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
-    <link>http://arxiv.org/pdf/2205.04633</link>
-    <author>Atsuya Hasegawa, François Le Gall</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
-  </item>
-
-  <item>
-    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2205.05056</link>
-    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
-  </item>
-
-  <item>
     <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
     <link>http://arxiv.org/pdf/2205.06261</link>
     <author>Zane M. Rossi, Isaac L. Chuang</author>
@@ -63,11 +47,11 @@
   </item>
 
   <item>
-    <title>Classical verification of quantum depth</title>
-    <link>http://arxiv.org/pdf/2205.04656</link>
-    <author>Nai-Hui Chia, Shih-Han Hung</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>We present two protocols for classical verification of quantum depth. Our protocols allow a purely classical verifier to distinguish devices with different quantum circuit depths even in the presence of classical computation. We show that a device with quantum circuit depth at most d will be rejected by the verifier even if the prover applies additional polynomial-time classical computation to cheat. On the other hand, the verifier accepts a device which has quantum circuit depth d' for some d'>d. In our first protocol, we introduce an additional untrusted quantum machine which shares entanglements with the target machine. Applying a robust self-test, our first protocol certifies the depth of the target machine with information theoretic security and nearly optimal separation. The protocol relies on the oracle separation problem for quantum depth by Chia, Chung and Lai [STOC 2020] and a transformation from an oracle separation problem to a two-player non-local game. Our second protocol certifies the quantum depth of a single device based on quantum hardness of learning with errors. The protocol relies on the noisy trapdoor claw-free function family and the idea of pointer chasing to force the prover to keep quantum coherence until all preceding message exchanges are completed. To our knowledge, we give the first constructions for distinguishing hybrid quantum-classical computers with different circuit depths in unrelativized models.</description>
+    <title>The QAOA with Slow Measurements</title>
+    <link>http://arxiv.org/pdf/2205.06845</link>
+    <author>Anthony Polloreno, Graeme Smith</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>The Quantum Approximate Optimization Algorithm (QAOA) was originally developed to solve combinatorial optimization problems, but has become a standard for assessing the performance of quantum computers. Fully descriptive benchmarking techniques are often prohibitively expensive for large numbers of qubits ($n \gtrsim 10$), so the QAOA often serves in practice as a computational benchmark. The QAOA involves a classical optimization subroutine that attempts to find optimal parameters for a quantum subroutine. Unfortunately, many optimizers used for the QAOA require many shots ($N \gtrsim 1000$) per point in parameter space to get a reliable estimate of the energy being minimized. However, some experimental quantum computing platforms such as neutral atom quantum computers have slow repetition rates, placing unique requirements on the classical optimization subroutine used in the QAOA in these systems. In this paper we investigate the performance of a gradient free classical optimizer for the QAOA - dual annealing - and demonstrate that optimization is possible even with $N=1$ and $n=16$.</description>
   </item>
 
   <item>
@@ -84,6 +68,22 @@
     <author>Andrea Skolik, Michele Cattelan, Sheir Yarkoni, Thomas Bäck, Vedran Dunjko</author>
     <pubDate>May 13 2022</pubDate>
     <description>Variational quantum algorithms are the leading candidate for near-term advantage on noisy quantum hardware. When training a parametrized quantum circuit to solve a specific task, the choice of ansatz is one of the most important factors that determines the trainability and performance of the algorithm. Problem-tailored ansatzes have become the standard for tasks in optimization or quantum chemistry, and yield more efficient algorithms with better performance than unstructured approaches. In quantum machine learning (QML), however, the literature on ansatzes that are motivated by the training data structure is scarce. Considering that it is widely known that unstructured ansatzes can become untrainable with increasing system size and circuit depth, it is of key importance to also study problem-tailored circuit architectures in a QML context. In this work, we introduce an ansatz for learning tasks on weighted graphs that respects an important graph symmetry, namely equivariance under node permutations. We evaluate the performance of this ansatz on a complex learning task on weighted graphs, where a ML model is used to implement a heuristic for a combinatorial optimization problem. We analytically study the expressivity of our ansatz at depth one, and numerically compare the performance of our model on instances with up to 20 qubits to ansatzes where the equivariance property is gradually broken. We show that our ansatz outperforms all others even in the small-instance regime. Our results strengthen the notion that symmetry-preserving ansatzes are a key to success in QML and should be an active area of research in order to enable near-term advantages in this field.</description>
+  </item>
+
+  <item>
+    <title>Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes</title>
+    <link>http://arxiv.org/pdf/2205.06125</link>
+    <author>Julien du Crest, Mehdi Mhalla, Valentin Savin</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.</description>
+  </item>
+
+  <item>
+    <title>Hay from the haystack: explicit examples of exponential quantum circuit complexity</title>
+    <link>http://arxiv.org/pdf/2205.06977</link>
+    <author>Yifan Jia, Michael M. Wolf</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>The vast majority of quantum states and unitaries have circuit complexity exponential in the number of qubits. In a similar vein, most of them also have exponential minimum description length, which makes it difficult to pinpoint examples of exponential complexity. In this work, we construct examples of constant description length but exponential circuit complexity. We provide infinite families such that each element requires an exponential number of two-qubit gates to be generated exactly from a product and where the same is true for the approximate generation of the vast majority of elements in the family. The results are based on sets of large transcendence degree and discussed for tensor networks, diagonal unitaries, and maximally coherent states.</description>
   </item>
 
 </channel>

@@ -23,19 +23,19 @@
   </item>
 
   <item>
-    <title>The randomized measurement toolbox</title>
-    <link>http://arxiv.org/pdf/2203.11374</link>
-    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
-  </item>
-
-  <item>
     <title>Linear growth of quantum circuit complexity</title>
     <link>http://arxiv.org/pdf/2106.05305</link>
     <author>Jonas Haferkamp, Philippe Faist, Naga B. T. Kothakonda, Jens Eisert, Nicole Yunger Halpern</author>
     <pubDate>Jun 11 2021</pubDate>
     <description>Quantifying quantum states' complexity is a key problem in various subfields of science, from quantum computing to black-hole physics. We prove a prominent conjecture by Brown and Susskind about how random quantum circuits' complexity increases. Consider constructing a unitary from Haar-random two-qubit quantum gates. Implementing the unitary exactly requires a circuit of some minimal number of gates - the unitary's exact circuit complexity. We prove that this complexity grows linearly with the number of random gates, with unit probability, until saturating after exponentially many random gates. Our proof is surprisingly short, given the established difficulty of lower-bounding the exact circuit complexity. Our strategy combines differential topology and elementary algebraic geometry with an inductive construction of Clifford circuits.</description>
+  </item>
+
+  <item>
+    <title>The randomized measurement toolbox</title>
+    <link>http://arxiv.org/pdf/2203.11374</link>
+    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
+    <pubDate>Mar 23 2022</pubDate>
+    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
   </item>
 
   <item>
@@ -311,6 +311,14 @@
   </item>
 
   <item>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+  </item>
+
+  <item>
     <title>Lower Bounds on Stabilizer Rank</title>
     <link>http://arxiv.org/pdf/2106.03214</link>
     <author>Shir Peleg, Amir Shpilka, Ben Lee Volk</author>
@@ -340,14 +348,6 @@
     <author>Christopher A. Pattison, Michael E. Beverland, Marcus P. da Silva, Nicolas Delfosse</author>
     <pubDate>Jul 30 2021</pubDate>
     <description>The typical model for measurement noise in quantum error correction is to randomly flip the binary measurement outcome. In experiments, measurements yield much richer information - e.g., continuous current values, discrete photon counts - which is then mapped into binary outcomes by discarding some of this information. In this work, we consider methods to incorporate all of this richer information, typically called soft information, into the decoding of quantum error correction codes, and in particular the surface code. We describe how to modify both the Minimum Weight Perfect Matching and Union-Find decoders to leverage soft information, and demonstrate these soft decoders outperform the standard (hard) decoders that can only access the binary measurement outcomes. Moreover, we observe that the soft decoder achieves a threshold 25\% higher than any hard decoder for phenomenological noise with Gaussian soft measurement outcomes. We also introduce a soft measurement error model with amplitude damping, in which measurement time leads to a trade-off between measurement resolution and additional disturbance of the qubits. Under this model we observe that the performance of the surface code is very sensitive to the choice of the measurement time - for a distance-19 surface code, a five-fold increase in measurement time can lead to a thousand-fold increase in logical error rate. Moreover, the measurement time that minimizes the physical error rate is distinct from the one that minimizes the logical performance, pointing to the benefits of jointly optimizing the physical and quantum error correction layers.</description>
-  </item>
-
-  <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
   <item>
