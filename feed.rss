@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Chain rules for quantum channels</title>
-    <link>http://arxiv.org/pdf/2204.11153</link>
-    <author>Mario Berta, Marco Tomamichel</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs and to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
-  </item>
-
-  <item>
     <title>Exploiting symmetry in variational quantum machine learning</title>
     <link>http://arxiv.org/pdf/2205.06217</link>
     <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
     <pubDate>May 13 2022</pubDate>
     <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
+  </item>
+
+  <item>
+    <title>Chain rules for quantum channels</title>
+    <link>http://arxiv.org/pdf/2204.11153</link>
+    <author>Mario Berta, Marco Tomamichel</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
   </item>
 
   <item>
@@ -95,14 +95,6 @@
   </item>
 
   <item>
-    <title>Establishing trust in quantum computations</title>
-    <link>http://arxiv.org/pdf/2204.07568</link>
-    <author>Timothy Proctor, Stefan Seritan, Erik Nielsen, Kenneth Rudinger, Kevin Young, Robin Blume-Kohout, Mohan Sarovar</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Real-world quantum computers have grown sufficiently complex that they can no longer be simulated by classical supercomputers, but their computational power remains limited by errors. These errors corrupt the results of quantum algorithms, and it is no longer always feasible to use classical simulations to directly check the correctness of quantum computations. Without practical methods for quantifying the accuracy with which a quantum algorithm has been executed, it is difficult to establish trust in the results of a quantum computation. Here we solve this problem, by introducing a simple and efficient technique for measuring the fidelity with which an as-built quantum computer can execute an algorithm. Our technique converts the algorithm's quantum circuits into a set of closely related circuits whose success rates can be efficiently measured. It enables measuring the fidelity of quantum algorithm executions both in the near-term, with algorithms run on hundreds or thousands of physical qubits, and into the future, with algorithms run on logical qubits protected by quantum error correction.</description>
-  </item>
-
-  <item>
     <title>Maximal entanglement velocity implies dual unitarity</title>
     <link>http://arxiv.org/pdf/2204.10341</link>
     <author>Tianci Zhou, Aram W. Harrow</author>
@@ -111,19 +103,19 @@
   </item>
 
   <item>
-    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
-    <link>http://arxiv.org/pdf/2205.00519</link>
-    <author>Arthur G. Rattew, Bálint Koczor</author>
-    <pubDate>May 03 2022</pubDate>
-    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
-  </item>
-
-  <item>
     <title>Learning quantum graph states with product measurements</title>
     <link>http://arxiv.org/pdf/2205.06432</link>
     <author>Yingkai Ouyang, Marco Tomamichel</author>
     <pubDate>May 16 2022</pubDate>
     <description>We consider the problem of learning $N$ identical copies of an unknown $n$-qubit quantum graph state with product measurements. These graph states have corresponding graphs where every vertex has exactly $d$ neighboring vertices. Here, we detail an explicit algorithm that uses product measurements on multiple identical copies of such graph states to learn them. When $n \gg d$ and $N = O(d \log(1/\epsilon) + d^2 \log n ),$ this algorithm correctly learns the graph state with probability at least $1- \epsilon$. From channel coding theory, we find that for arbitrary joint measurements on graph states, any learning algorithm achieving this accuracy requires at least $\Omega(\log (1/\epsilon) + d \log n)$ copies when $d=o(\sqrt n)$. We also supply bounds on $N$ when every graph state encounters identical and independent depolarizing errors on each qubit.</description>
+  </item>
+
+  <item>
+    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
+    <link>http://arxiv.org/pdf/2205.00519</link>
+    <author>Arthur G. Rattew, Bálint Koczor</author>
+    <pubDate>May 03 2022</pubDate>
+    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
   </item>
 
   <item>
@@ -151,19 +143,19 @@
   </item>
 
   <item>
-    <title>ADAPT-VQE is insensitive to rough parameter landscapes and barren plateaus</title>
-    <link>http://arxiv.org/pdf/2204.07179</link>
-    <author>Harper R. Grimsley, George S. Barron, Edwin Barnes, Sophia E. Economou, Nicholas J. Mayhall</author>
-    <pubDate>Apr 18 2022</pubDate>
-    <description>Variational quantum eigensolvers (VQEs) represent a powerful class of hybrid quantum-classical algorithms for computing molecular energies. Various numerical issues exist for these methods, however, including barren plateaus and large numbers of local minima. In this work, we consider Adaptive, Problem-Tailored (ADAPT)-VQE ansätze, and examine how they are impacted by these local minima. We find that while ADAPT-VQE does not remove local minima, the gradient-informed, one-operator-at-a-time circuit construction seems to accomplish two things: First, it provides an initialization strategy that is dramatically better than random initialization, and which is applicable in situations where chemical intuition cannot help with initialization, i.e., when Hartree-Fock is a poor approximation to the ground state. Second, even if an ADAPT-VQE iteration converges to a local trap at one step, it can still "burrow" toward the exact solution by adding more operators, which preferentially deepens the occupied trap. This same mechanism helps highlight a surprising feature of ADAPT-VQE: It should not suffer optimization problems due to "barren plateaus". Even if barren plateaus appear in the parameter landscape, our analysis and simulations reveal that ADAPT-VQE avoids such regions by design.</description>
-  </item>
-
-  <item>
     <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
     <link>http://arxiv.org/pdf/2204.11890</link>
     <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
     <pubDate>Apr 27 2022</pubDate>
     <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
+  </item>
+
+  <item>
+    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
+    <link>http://arxiv.org/pdf/2205.06261</link>
+    <author>Zane M. Rossi, Isaac L. Chuang</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
   </item>
 
   <item>
@@ -207,14 +199,6 @@
   </item>
 
   <item>
-    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
-    <link>http://arxiv.org/pdf/2205.06261</link>
-    <author>Zane M. Rossi, Isaac L. Chuang</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
-  </item>
-
-  <item>
     <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
     <link>http://arxiv.org/pdf/2204.10471</link>
     <author>Yingkai Ouyang, Peter P. Rohde</author>
@@ -231,6 +215,14 @@
   </item>
 
   <item>
+    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
+    <link>http://arxiv.org/pdf/2204.11372</link>
+    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
+    <pubDate>Apr 26 2022</pubDate>
+    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
+  </item>
+
+  <item>
     <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
     <link>http://arxiv.org/pdf/2204.08439</link>
     <author>Koji Yamaguchi, Hiroyasu Tajima</author>
@@ -244,6 +236,14 @@
     <author>Nai-Hui Chia, Shih-Han Hung</author>
     <pubDate>May 11 2022</pubDate>
     <description>We present two protocols for classical verification of quantum depth. Our protocols allow a purely classical verifier to distinguish devices with different quantum circuit depths even in the presence of classical computation. We show that a device with quantum circuit depth at most d will be rejected by the verifier even if the prover applies additional polynomial-time classical computation to cheat. On the other hand, the verifier accepts a device which has quantum circuit depth d' for some d'>d. In our first protocol, we introduce an additional untrusted quantum machine which shares entanglements with the target machine. Applying a robust self-test, our first protocol certifies the depth of the target machine with information theoretic security and nearly optimal separation. The protocol relies on the oracle separation problem for quantum depth by Chia, Chung and Lai [STOC 2020] and a transformation from an oracle separation problem to a two-player non-local game. Our second protocol certifies the quantum depth of a single device based on quantum hardness of learning with errors. The protocol relies on the noisy trapdoor claw-free function family and the idea of pointer chasing to force the prover to keep quantum coherence until all preceding message exchanges are completed. To our knowledge, we give the first constructions for distinguishing hybrid quantum-classical computers with different circuit depths in unrelativized models.</description>
+  </item>
+
+  <item>
+    <title>Quantum Dictionaries without QRAM</title>
+    <link>http://arxiv.org/pdf/2204.13835</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
 </channel>
