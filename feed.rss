@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
-  </item>
-
-  <item>
     <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
     <link>http://arxiv.org/pdf/2205.05668</link>
     <author>Zhi Li</author>
@@ -55,19 +47,19 @@
   </item>
 
   <item>
-    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
-    <link>http://arxiv.org/pdf/2205.01933</link>
-    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
-    <pubDate>May 05 2022</pubDate>
-    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
-  </item>
-
-  <item>
     <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
     <link>http://arxiv.org/pdf/2205.05786</link>
     <author>Eric R. Anschuetz, Bobak T. Kiani</author>
     <pubDate>May 13 2022</pubDate>
     <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
+  </item>
+
+  <item>
+    <title>Adaptive constant-depth circuits for manipulating non-abelian anyons</title>
+    <link>http://arxiv.org/pdf/2205.01933</link>
+    <author>Sergey Bravyi, Isaac Kim, Alexander Kliesch, Robert Koenig</author>
+    <pubDate>May 05 2022</pubDate>
+    <description>We consider Kitaev's quantum double model based on a finite group $G$ and describe quantum circuits for (a) preparation of the ground state, (b) creation of anyon pairs separated by an arbitrary distance, and (c) non-destructive topological charge measurement. We show that for any solvable group $G$ all above tasks can be realized by constant-depth adaptive circuits with geometrically local unitary gates and mid-circuit measurements. Each gate may be chosen adaptively depending on previous measurement outcomes. Constant-depth circuits are well suited for implementation on a noisy hardware since it may be possible to execute the entire circuit within the qubit coherence time. Thus our results could facilitate an experimental study of exotic phases of matter with a non-abelian particle statistics. We also show that adaptiveness is essential for our circuit construction. Namely, task (b) cannot be realized by non-adaptive constant-depth local circuits for any non-abelian group $G$. This is in a sharp contrast with abelian anyons which can be created and moved over an arbitrary distance by a depth-$1$ circuit composed of generalized Pauli gates.</description>
   </item>
 
   <item>
@@ -207,6 +199,14 @@
   </item>
 
   <item>
+    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
+    <link>http://arxiv.org/pdf/2205.08915</link>
+    <author>Henrik Wilming</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
+  </item>
+
+  <item>
     <title>The QAOA with Slow Measurements</title>
     <link>http://arxiv.org/pdf/2205.06845</link>
     <author>Anthony Polloreno, Graeme Smith</author>
@@ -223,14 +223,6 @@
   </item>
 
   <item>
-    <title>Beyond i.i.d. in the Resource Theory of Asymmetry: An Information-Spectrum Approach for Quantum Fisher Information</title>
-    <link>http://arxiv.org/pdf/2204.08439</link>
-    <author>Koji Yamaguchi, Hiroyasu Tajima</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>Energetic coherence is a valuable resource for various operations, including precise measurement of time and acceleration of quantum manipulations. Recently, it has been shown that the theory of energetic coherence, called the resource theory of asymmetry, has a thermodynamic structure, as do entanglement theory and quantum thermodynamics. In the so-called i.i.d. regime, where identical copies of a state are converted into identical copies of another state, the convertibility is entirely determined by the amount of energetic coherence measured by the quantum Fisher information (QFI). This fact means that QFI takes the place of entropy in thermodynamics and entanglement entropy in entanglement theory. So far, such a correspondence between energetic coherence and entropy is known only in the i.i.d. regime. In entanglement theory and quantum thermodynamics in the non-i.i.d. regime, entropy-related quantities based on the information-spectrum method reveal a non-equilibrium thermodynamics structure. Still, it has been an open question whether a similar structure exists for energetic coherence. In this Letter, we solve this problem by constructing an information-spectrum method applicable to the quantum Fisher information content. As a result, we establish a general theory of the pure-state convertibility in the non-i.i.d. regime of the resource theory of asymmetry. The given theory reveals a non-equilibrium thermodynamic structure of energetic coherence in the non-i.i.d. regime, based on QFI rather than entropy.</description>
-  </item>
-
-  <item>
     <title>Classical verification of quantum depth</title>
     <link>http://arxiv.org/pdf/2205.04656</link>
     <author>Nai-Hui Chia, Shih-Han Hung</author>
@@ -244,6 +236,14 @@
     <author>Craig Gidney</author>
     <pubDate>May 02 2022</pubDate>
     <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
+  </item>
+
+  <item>
+    <title>Propagation of errors and quantitative quantum simulation with quantum advantage</title>
+    <link>http://arxiv.org/pdf/2204.13644</link>
+    <author>S. Flannigan, N. Pearson, G. H. Low, A. Buyskikh, I. Bloch, P. Zoller, M. Troyer, A. J. Daley</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>The rapid development in hardware for quantum computing and simulation has led to much interest in problems where these devices can exceed the capabilities of existing classical computers and known methods. Approaching this for problems that go beyond testing the performance of a quantum device is an important step, and quantum simulation of many-body quench dynamics is one of the most promising candidates for early practical quantum advantage. We analyse the requirements for quantitatively reliable quantum simulation beyond the capabilities of existing classical methods for analogue quantum simulators with neutral atoms in optical lattices and trapped ions. Considering the primary sources of error in analogue devices and how they propagate after a quench in studies of the Hubbard or long-range transverse field Ising model, we identify the level of error expected in quantities we extract from experiments. We conclude for models that are directly implementable that regimes of practical quantum advantage are attained in current experiments with analogue simulators. We also identify the hardware requirements to reach the same level of accuracy with future fault-tolerant digital quantum simulation. Verification techniques are already available to test the assumptions we make here, and demonstrating these in experiments will be an important next step.</description>
   </item>
 
 </channel>

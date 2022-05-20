@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Exploiting symmetry in variational quantum machine learning</title>
-    <link>http://arxiv.org/pdf/2205.06217</link>
-    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
-  </item>
-
-  <item>
-    <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
-    <link>http://arxiv.org/pdf/2205.05786</link>
-    <author>Eric R. Anschuetz, Bobak T. Kiani</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>One of the most important properties of classical neural networks is how surprisingly trainable they are, though their training algorithms typically rely on optimizing complicated, nonconvex loss functions. Previous results have shown that unlike the case in classical neural networks, variational quantum models are often not trainable. The most studied phenomenon is the onset of barren plateaus in the training landscape of these quantum models, typically when the models are very deep. This focus on barren plateaus has made the phenomenon almost synonymous with the trainability of quantum models. Here, we show that barren plateaus are only a part of the story. We prove that a wide class of variational quantum models -- which are shallow, and exhibit no barren plateus -- have only a superpolynomially small fraction of local minima within any constant energy from the global minimum, rendering these models untrainable if no good initial guess of the optimal parameters is known. We also study the trainability of variational quantum algorithms from a statistical query framework, and show that noisy optimization of a wide variety of quantum models is impossible with a sub-exponential number of queries. Finally, we numerically confirm our results on a variety of problem instances. Though we exclude a wide variety of quantum algorithms here, we give reason for optimism for certain classes of variational algorithms and discuss potential ways forward in showing the practical utility of such algorithms.</description>
-  </item>
-
-  <item>
     <title>Learning quantum graph states with product measurements</title>
     <link>http://arxiv.org/pdf/2205.06432</link>
     <author>Yingkai Ouyang, Marco Tomamichel</author>
@@ -31,11 +15,11 @@
   </item>
 
   <item>
-    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
-    <link>http://arxiv.org/pdf/2205.06261</link>
-    <author>Zane M. Rossi, Isaac L. Chuang</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
+    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
+    <link>http://arxiv.org/pdf/2205.08915</link>
+    <author>Henrik Wilming</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
   </item>
 
   <item>
@@ -47,19 +31,11 @@
   </item>
 
   <item>
-    <title>Exact solution for the quantum and private capacities of bosonic dephasing channels</title>
-    <link>http://arxiv.org/pdf/2205.05736</link>
-    <author>Ludovico Lami, Mark M. Wilde</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>The capacities of noisy quantum channels capture the ultimate rates of information transmission across quantum communication lines, and the quantum capacity plays a key role in determining the overhead of fault-tolerant quantum computation platforms. In the case of bosonic systems, central to many applications, no closed formulas for these capacities were known for bosonic dephasing channels, a key class of non-Gaussian channels modelling, e.g., noise affecting superconducting circuits or fiber-optic communication channels. Here we provide the first exact calculation of the quantum, private, two-way assisted quantum, and secret-key agreement capacities of all bosonic dephasing channels. We prove that that they are equal to the relative entropy of the distribution underlying the channel to the uniform distribution. Our result solves a problem that has been open for over a decade, having been posed originally by [Jiang & Chen, Quantum and Nonlinear Optics 244, 2010].</description>
-  </item>
-
-  <item>
-    <title>Equivariant quantum circuits for learning on weighted graphs</title>
-    <link>http://arxiv.org/pdf/2205.06109</link>
-    <author>Andrea Skolik, Michele Cattelan, Sheir Yarkoni, Thomas Bäck, Vedran Dunjko</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Variational quantum algorithms are the leading candidate for near-term advantage on noisy quantum hardware. When training a parametrized quantum circuit to solve a specific task, the choice of ansatz is one of the most important factors that determines the trainability and performance of the algorithm. Problem-tailored ansatzes have become the standard for tasks in optimization or quantum chemistry, and yield more efficient algorithms with better performance than unstructured approaches. In quantum machine learning (QML), however, the literature on ansatzes that are motivated by the training data structure is scarce. Considering that it is widely known that unstructured ansatzes can become untrainable with increasing system size and circuit depth, it is of key importance to also study problem-tailored circuit architectures in a QML context. In this work, we introduce an ansatz for learning tasks on weighted graphs that respects an important graph symmetry, namely equivariance under node permutations. We evaluate the performance of this ansatz on a complex learning task on weighted graphs, where a ML model is used to implement a heuristic for a combinatorial optimization problem. We analytically study the expressivity of our ansatz at depth one, and numerically compare the performance of our model on instances with up to 20 qubits to ansatzes where the equivariance property is gradually broken. We show that our ansatz outperforms all others even in the small-instance regime. Our results strengthen the notion that symmetry-preserving ansatzes are a key to success in QML and should be an active area of research in order to enable near-term advantages in this field.</description>
+    <title>Optimising shadow tomography with generalised measurements</title>
+    <link>http://arxiv.org/pdf/2205.08990</link>
+    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
   </item>
 
   <item>
@@ -71,19 +47,43 @@
   </item>
 
   <item>
-    <title>Stabilizer Inactivation for Message-Passing Decoding of Quantum LDPC Codes</title>
-    <link>http://arxiv.org/pdf/2205.06125</link>
-    <author>Julien du Crest, Mehdi Mhalla, Valentin Savin</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>We propose a post-processing method for message-passing (MP) decoding of CSS quantum LDPC codes, called stabilizer-inactivation (SI). It relies on inactivating a set of qubits, supporting a check in the dual code, and then running the MP decoding again. This allows MP decoding to converge outside the inactivated set of qubits, while the error on these is determined by solving a small, constant size, linear system. Compared to the state of the art post-processing method based on ordered statistics decoding (OSD), we show through numerical simulations that MP-SI outperforms MP-OSD for different quantum LDPC code constructions, different MP decoding algorithms, and different MP scheduling strategies, while having a significantly reduced complexity.</description>
+    <title>Say NO to Optimization: A Non-Orthogonal Quantum Eigensolver</title>
+    <link>http://arxiv.org/pdf/2205.09039</link>
+    <author>Unpil Baek, Diptarka Hait, James Shee, Oskar Leimkuhler, William J. Huggins, Torin F. Stetina, Martin Head-Gordon, K. Birgitta Whaley</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>A balanced description of both static and dynamic correlations in electronic systems with nearly degenerate low-lying states presents a challenge for multi-configurational methods on classical computers. We present here a quantum algorithm utilizing the action of correlating cluster operators to provide high-quality wavefunction ansätze employing a non-orthogonal multireference basis that captures a significant portion of the exact wavefunction in a highly compact manner, and that allows computation of the resulting energies and wavefunctions at polynomial cost with a quantum computer. This enables a significant improvement over the corresponding classical non-orthogonal solver, which incurs an exponential cost when evaluating off-diagonal matrix elements between the ansatz states, and is therefore intractable. We implement the non-orthogonal quantum eigensolver (NOQE) here with an efficient ansatz parameterization inspired by classical quantum chemistry methods that succeed in capturing significant amounts of electronic correlation accurately. By taking advantage of classical methods for chemistry, NOQE provides a flexible, compact, and rigorous description of both static and dynamic electronic correlation, making it an attractive method for the calculation of electronic states of a wide range of molecular systems.</description>
   </item>
 
   <item>
-    <title>Probing sign structure using measurement-induced entanglement</title>
-    <link>http://arxiv.org/pdf/2205.05692</link>
-    <author>Cheng-Ju Lin, Weicheng Ye, Yijian Zou, Shengqi Sang, Timothy H. Hsieh</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>The sign structure of quantum states is closely connected to quantum phases of matter, yet detecting such fine-grained properties of amplitudes is subtle. Here we employ as a diagnostic measurement-induced entanglement (MIE)-- the average entanglement generated between two parties after measuring the rest of the system. We propose that for a sign-free state, the MIE upon measuring in the sign-free basis decays no slower than correlations in the state before measurement. Concretely, we prove that MIE is upper bounded by mutual information for sign-free stabilizer states (essentially CSS codes), which establishes a bound between scaling dimensions of conformal field theories describing measurement-induced critical points in stabilizer systems. We also show that for sign-free qubit wavefunctions, MIE between two qubits is upper bounded by a simple two-point correlation function, and we verify our proposal in several critical ground states of one-dimensional systems, including the transverse field and tri-critical Ising models. In contrast, for states with sign structure, such bounds can be violated, as we illustrate in critical hybrid circuits involving both Haar or Clifford random unitaries and measurements, and gapless symmetry-protected topological states.</description>
+    <title>Quantum neural networks</title>
+    <link>http://arxiv.org/pdf/2205.08154</link>
+    <author>Kerstin Beer</author>
+    <pubDate>May 18 2022</pubDate>
+    <description>This PhD thesis combines two of the most exciting research areas of the last decades: quantum computing and machine learning. We introduce dissipative quantum neural networks (DQNNs), which are designed for fully quantum learning tasks, are capable of universal quantum computation and have low memory requirements while training. These networks are optimised with training data pairs in form of input and desired output states and therefore can be used for characterising unknown or untrusted quantum devices. We not only demonstrate the generalisation behaviour of DQNNs using classical simulations, but also implement them successfully on actual quantum computers. To understand the ultimate limits for such quantum machine learning methods, we discuss the quantum no free lunch theorem, which describes a bound on the probability that a quantum device, which can be modelled as a unitary process and is optimised with quantum examples, gives an incorrect output for a random input. Moreover we expand the area of applications of DQNNs in two directions. In the first case, we include additional information beyond just the training data pairs: since quantum devices are always structured, the resulting data is always structured as well. We modify the DQNN's training algorithm such that knowledge about the graph-structure of the training data pairs is included in the training process and show that this can lead to better generalisation behaviour. Both the original DQNN and the DQNN including graph structure are trained with data pairs in order to characterise an underlying relation. However, in the second extension of the algorithm we aim to learn characteristics of a set of quantum states in order to extend it to quantum states which have similar properties. Therefore we build a generative adversarial model where two DQNNs, called the generator and discriminator, are trained in a competitive way.</description>
+  </item>
+
+  <item>
+    <title>Power and limitations of single-qubit native quantum neural networks</title>
+    <link>http://arxiv.org/pdf/2205.07848</link>
+    <author>Zhan Yu, Hongshun Yao, Mujin Li, Xin Wang</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>Quantum neural networks (QNNs) have emerged as a leading strategy to establish applications in machine learning, chemistry, and optimization. While the applications of QNN have been widely investigated, its theoretical foundation remains less understood. In this paper, we formulate a theoretical framework for the expressive ability of data re-uploading quantum neural networks that consist of interleaved encoding circuit blocks and trainable circuit blocks. First, we prove that single-qubit quantum neural networks can approximate any univariate function by mapping the model to a partial Fourier series. Beyond previous works' understanding of existence, we in particular establish the exact correlations between the parameters of the trainable gates and the working Fourier coefficients, by exploring connections to quantum signal processing. Second, we discuss the limitations of single-qubit native QNNs on approximating multivariate functions by analyzing the frequency spectrum and the flexibility of Fourier coefficients. We further demonstrate the expressivity and limitations of single-qubit native QNNs via numerical experiments. As applications, we introduce natural extensions to multi-qubit quantum neural networks, which exhibit the capability of classifying real-world multi-dimensional data. We believe these results would improve our understanding of QNNs and provide a helpful guideline for designing powerful QNNs for machine learning tasks.</description>
+  </item>
+
+  <item>
+    <title>Variational learning algorithms for quantum query complexity</title>
+    <link>http://arxiv.org/pdf/2205.07449</link>
+    <author>Zipeng Wu, Shi-Yao Hou, Chao Zhang, Lvzhou Li, Bei Zeng</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>Quantum query complexity plays an important role in studying quantum algorithms, which captures the most known quantum algorithms, such as search and period finding. A query algorithm applies $U_tO_x\cdots U_1O_xU_0$ to some input state, where $O_x$ is the oracle dependent on some input variable $x$, and $U_i$s are unitary operations that are independent of $x$, followed by some measurements for readout. In this work, we develop variational learning algorithms to study quantum query complexity, by formulating $U_i$s as parameterized quantum circuits and introducing a loss function that is directly given by the error probability of the query algorithm. We apply our method to analyze various cases of quantum query complexity, including a new algorithm solving the Hamming modulo problem with $4$ queries for the case of $5$-bit modulo $5$, answering an open question raised in arXiv:2112.14682, and the result is further confirmed by a Semidefinite Programming (SDP) algorithm. Compared with the SDP algorithm, our method can be readily implemented on the near-term Noisy Intermediate-Scale Quantum (NISQ) devices and is more flexible to be adapted to other cases such as the fractional query models.</description>
+  </item>
+
+  <item>
+    <title>Barren plateaus from learning scramblers with local cost functions</title>
+    <link>http://arxiv.org/pdf/2205.06679</link>
+    <author>Roy J. Garcia, Chen Zhao, Kaifeng Bu, Arthur Jaffe</author>
+    <pubDate>May 16 2022</pubDate>
+    <description>The existence of barren plateaus has recently revealed new training challenges in quantum machine learning (QML). Uncovering the mechanisms behind barren plateaus is essential in understanding the scope of problems that QML can efficiently tackle. Barren plateaus have recently been shown to exist when learning global properties of random unitaries. Establishing whether local cost functions can circumvent these barren plateaus is pertinent if we hope to apply QML to quantum many-body systems. We prove a no-go theorem showing that local cost functions encounter barren plateaus in learning random unitary properties.</description>
   </item>
 
 </channel>
