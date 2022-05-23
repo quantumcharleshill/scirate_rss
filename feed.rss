@@ -63,11 +63,11 @@
   </item>
 
   <item>
-    <title>Out-of-distribution generalization for learning quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2204.10268</link>
-    <author>Matthias C. Caro, Hsin-Yuan Huang, Nicholas Ezzell, Joe Gibbs, Andrew T. Sornborger, Lukasz Cincio, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Generalization bounds are a critical tool to assess the training data requirements of Quantum Machine Learning (QML). Recent work has established guarantees for in-distribution generalization of quantum neural networks (QNNs), where training and testing data are assumed to be drawn from the same data distribution. However, there are currently no results on out-of-distribution generalization in QML, where we require a trained model to perform well even on data drawn from a distribution different from the training distribution. In this work, we prove out-of-distribution generalization for the task of learning an unknown unitary using a QNN and for a broad class of training and testing distributions. In particular, we show that one can learn the action of a unitary on entangled states using only product state training data. We numerically illustrate this by showing that the evolution of a Heisenberg spin chain can be learned using only product training states. Since product states can be prepared using only single-qubit gates, this advances the prospects of learning quantum dynamics using near term quantum computers and quantum experiments, and further opens up new methods for both the classical and quantum compilation of quantum circuits.</description>
+    <title>Saturation and recurrence of quantum complexity in random quantum circuits</title>
+    <link>http://arxiv.org/pdf/2205.09734</link>
+    <author>Michał Oszmaniec, Michał Horodecki, Nicholas Hunter-Jones</author>
+    <pubDate>May 20 2022</pubDate>
+    <description>Quantum complexity is a measure of the minimal number of elementary operations required to approximately prepare a given state or unitary channel. Recently, this concept has found applications beyond quantum computing -- in studying the dynamics of quantum many-body systems and the long-time properties of AdS black holes. In this context Brown and Susskind conjectured that the complexity of a chaotic quantum system grows linearly in time up to times exponential in the system size, saturating at a maximal value, and remaining maximally complex until undergoing recurrences at doubly-exponential times. In this work we prove the saturation and recurrence of the complexity of quantum states and unitaries in a model of chaotic time-evolution based on random quantum circuits, in which a local random unitary transformation is applied to the system at every time step. Importantly, our findings hold for quite general random circuit models, irrespective of the gate set and geometry of qubit interactions. Our results advance an understanding of the long-time behaviour of chaotic quantum systems and could shed light on the physics of black hole interiors. From a technical perspective our results are based on establishing new quantitative connections between the Haar measure and high-degree approximate designs, as well as the fact that random quantum circuits of sufficiently high depth converge to approximate designs.</description>
   </item>
 
   <item>
@@ -111,11 +111,27 @@
   </item>
 
   <item>
+    <title>Efficient and robust estimation of many-qubit Hamiltonians</title>
+    <link>http://arxiv.org/pdf/2205.09567</link>
+    <author>Daniel Stilck França, Liubov A. Markovich, V. V. Dobrovitski, Albert H. Werner, Johannes Borregaard</author>
+    <pubDate>May 20 2022</pubDate>
+    <description>Characterizing the interactions and dynamics of quantum mechanical systems is an essential task in the development of quantum technologies. We propose a novel protocol for estimating the underlying Hamiltonian dynamics and Markovian noise of a multi-qubit device. It is based on the efficient estimation of the time-derivatives of few qubit observables using polynomial interpolation. For finite range dynamics, our protocol exponentially improves the necessary time-resolution of the measurements and quadratically reduces the overall sample complexity compared to previous approaches. Furthermore, we show that our protocol can characterize the dynamics of systems with algebraically decaying interactions. The implementation of the protocol requires only the preparation of product states and single-qubit measurements, rendering it applicable for the characterization of both current and future quantum devices.</description>
+  </item>
+
+  <item>
     <title>Fundamental limitations on optimization in variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2205.05056</link>
     <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
     <pubDate>May 11 2022</pubDate>
     <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
+  </item>
+
+  <item>
+    <title>Topological phases of unitary dynamics: Classification in Clifford category</title>
+    <link>http://arxiv.org/pdf/2205.09141</link>
+    <author>Jeongwan Haah</author>
+    <pubDate>May 20 2022</pubDate>
+    <description>A quantum cellular automaton (QCA) or a causal unitary is by definition an automorphism of local operator algebra, by which local operators are mapped to local operators. Quantum circuits of small depth, local Hamiltonian evolutions for short time, and translations (shifts) are examples. A Clifford QCA is one that maps any Pauli operator to a finite tensor product of Pauli operators. Here, we obtain a complete table of groups $\mathfrak C(\mathsf d,p)$ of translation invariant Clifford QCA in any spatial dimension $\mathsf d \ge 0$ modulo Clifford quantum circuits and shifts over prime $p$-dimensional qudits, where the circuits and shifts are allowed to obey only coarser translation invariance. The group $\mathfrak C(\mathsf d,p)$ is nonzero only for $\mathsf d = 2k+3$ if $p=2$ and $\mathsf d = 4k+3$ if $p$ is odd where~$k \ge 0$ is any integer, in which case $\mathfrak C(\mathsf d,p) \cong \widetilde{\mathfrak W}(\mathbb F_p)$, the classical Witt group of nonsingular quadratic forms over the finite field $\mathbb F_p$. It is well known that $\widetilde{\mathfrak W}(\mathbb F_2) \cong \mathbb Z/2\mathbb Z$, $\widetilde{\mathfrak W}(\mathbb F_p) \cong \mathbb Z/4\mathbb Z$ if $p = 3 \bmod 4$, and $\widetilde{\mathfrak W}(\mathbb F_p)\cong \mathbb Z/2\mathbb Z \oplus \mathbb Z/2\mathbb Z$ if $p = 1 \bmod 4$. The classification is achieved by a dimensional descent, which is a reduction of Laurent extension theorems for algebraic $L$-groups of surgery theory in topology.</description>
   </item>
 
   <item>
@@ -127,75 +143,11 @@
   </item>
 
   <item>
-    <title>Complexity phase transitions in instantaneous quantum polynomial-time circuits</title>
-    <link>http://arxiv.org/pdf/2204.08898</link>
-    <author>Chae-Yeun Park, Michael J. Kastoryano</author>
-    <pubDate>Apr 20 2022</pubDate>
-    <description>We study a subclass of the Instantaneous Quantum Polynomial-time (IQP) circuit with a varying density of two-qubit gates. We identify two phase transitions as a function of the gate density. At the first transition, the coherent Gibbs representation of the output state transitions from quasilocal to extended, and becomes completely non-local after the second transition, resembling that of Haar random states. We introduce several new diagnostics to argue that learning the distribution after the first transition already becomes classically intractable, even though its output distribution is far from random. Our work thus opens a novel pathway for exploring quantum advantage in more practical setups whose outcome distributions are more structured than random states.</description>
-  </item>
-
-  <item>
     <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
     <link>http://arxiv.org/pdf/2204.11890</link>
     <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
     <pubDate>Apr 27 2022</pubDate>
     <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
-  </item>
-
-  <item>
-    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
-    <link>http://arxiv.org/pdf/2205.06261</link>
-    <author>Zane M. Rossi, Isaac L. Chuang</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Classical algorithms for many-body quantum systems at finite energies</title>
-    <link>http://arxiv.org/pdf/2204.09439</link>
-    <author>Yilun Yang, J. Ignacio Cirac, Mari Carmen Bañuls</author>
-    <pubDate>Apr 21 2022</pubDate>
-    <description>We investigate quantum inspired algorithms to compute physical observables of quantum many-body systems at finite energies. They are based on the quantum algorithms proposed in [Lu et al. PRX Quantum 2, 020321 (2021)], which use the quantum simulation of the dynamics of such systems, as well as classical filtering and sampling techniques. Here, we replace the quantum simulation by standard classical methods based on matrix product states and operators. As a result, we can address significantly larger systems than those reachable by exact diagonalization or by other algorithms. We demonstrate the performance with spin chains up to 80 sites.</description>
-  </item>
-
-  <item>
-    <title>Group-Invariant Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2205.02261</link>
-    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
-  </item>
-
-  <item>
-    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
-    <link>http://arxiv.org/pdf/2204.13834</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
-  </item>
-
-  <item>
-    <title>Dynamical simulation via quantum machine learning with provable generalization</title>
-    <link>http://arxiv.org/pdf/2204.10269</link>
-    <author>Joe Gibbs, Zoë Holmes, Matthias C. Caro, Nicholas Ezzell, Hsin-Yuan Huang, Lukasz Cincio, Andrew T. Sornborger, Patrick J. Coles</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Much attention has been paid to dynamical simulation and quantum machine learning (QML) independently as applications for quantum advantage, while the possibility of using QML to enhance dynamical simulations has not been thoroughly investigated. Here we develop a framework for using QML methods to simulate quantum dynamics on near-term quantum hardware. We use generalization bounds, which bound the error a machine learning model makes on unseen data, to rigorously analyze the training data requirements of an algorithm within this framework. This provides a guarantee that our algorithm is resource-efficient, both in terms of qubit and data requirements. Our numerics exhibit efficient scaling with problem size, and we simulate 20 times longer than Trotterization on IBMQ-Bogota.</description>
-  </item>
-
-  <item>
-    <title>Scalable measures of magic for quantum computers</title>
-    <link>http://arxiv.org/pdf/2204.10061</link>
-    <author>Tobias Haug, M. S. Kim</author>
-    <pubDate>Apr 22 2022</pubDate>
-    <description>Magic characterizes the degree of non-stabilizerness of quantum states. It is a crucial resource for quantum computing and a necessary condition for quantum advantage. However, quantifying magic beyond a few qubits has been a major challenge. Here, we introduce Bell magic to efficiently measure magic for any number of qubits. Our method can be easily implemented in experiments together with a cost-free error mitigation scheme. We experimentally demonstrate the transition of classically simulable stabilizer states into intractable quantum states on the IonQ quantum computer. For applications, Bell magic distinguishes stabilizer and magical states with a low measurement cost. Further, variational quantum algorithms can maximize the magic of quantum states via the shift-rule. Our results pave the way to benchmark the non-classical power of quantum computers, quantum simulators and quantum many-body systems.</description>
-  </item>
-
-  <item>
-    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
-    <link>http://arxiv.org/pdf/2204.10471</link>
-    <author>Yingkai Ouyang, Peter P. Rohde</author>
-    <pubDate>Apr 25 2022</pubDate>
-    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
   </item>
 
   <item>
@@ -207,11 +159,43 @@
   </item>
 
   <item>
+    <title>Multivariable quantum signal processing (M-QSP): prophecies of the two-headed oracle</title>
+    <link>http://arxiv.org/pdf/2205.06261</link>
+    <author>Zane M. Rossi, Isaac L. Chuang</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Group-Invariant Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2205.02261</link>
+    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
+  </item>
+
+  <item>
     <title>The QAOA with Slow Measurements</title>
     <link>http://arxiv.org/pdf/2205.06845</link>
     <author>Anthony Polloreno, Graeme Smith</author>
     <pubDate>May 17 2022</pubDate>
     <description>The Quantum Approximate Optimization Algorithm (QAOA) was originally developed to solve combinatorial optimization problems, but has become a standard for assessing the performance of quantum computers. Fully descriptive benchmarking techniques are often prohibitively expensive for large numbers of qubits ($n \gtrsim 10$), so the QAOA often serves in practice as a computational benchmark. The QAOA involves a classical optimization subroutine that attempts to find optimal parameters for a quantum subroutine. Unfortunately, many optimizers used for the QAOA require many shots ($N \gtrsim 1000$) per point in parameter space to get a reliable estimate of the energy being minimized. However, some experimental quantum computing platforms such as neutral atom quantum computers have slow repetition rates, placing unique requirements on the classical optimization subroutine used in the QAOA in these systems. In this paper we investigate the performance of a gradient free classical optimizer for the QAOA - dual annealing - and demonstrate that optimization is possible even with $N=1$ and $n=16$.</description>
+  </item>
+
+  <item>
+    <title>Stability Experiments: The Overlooked Dual of Memory Experiments</title>
+    <link>http://arxiv.org/pdf/2204.13834</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
+  </item>
+
+  <item>
+    <title>A general framework for the composition of quantum homomorphic encryption \& quantum error correction</title>
+    <link>http://arxiv.org/pdf/2204.10471</link>
+    <author>Yingkai Ouyang, Peter P. Rohde</author>
+    <pubDate>Apr 25 2022</pubDate>
+    <description>Two essential primitives for universal, cloud-based quantum computation with security based on the laws of quantum mechanics, are quantum homomorphic encryption with information-theoretic security and quantum error correction. The former enables information-theoretic security of outsourced quantum computation, while the latter allows reliable and scalable quantum computations in the presence of errors. Previously these ingredients have been considered in isolation from one another. By establishing group-theoretic requirements that these two ingredients must satisfy, we provide a general framework for composing them. Namely, a quantum homomorphic encryption scheme enhanced with quantum error correction can directly inherit its properties from its constituent quantum homomorphic encryption and quantum error correction schemes. We apply our framework to both discrete- and continuous-variable models for quantum computation, such as Pauli-key and permutation-key encryptions in the qubit model, and displacement-key encryptions in a continuous-variable model based on Gottesman-Kitaev-Preskill codes.</description>
   </item>
 
   <item>
@@ -244,6 +228,22 @@
     <author>S. Flannigan, N. Pearson, G. H. Low, A. Buyskikh, I. Bloch, P. Zoller, M. Troyer, A. J. Daley</author>
     <pubDate>Apr 29 2022</pubDate>
     <description>The rapid development in hardware for quantum computing and simulation has led to much interest in problems where these devices can exceed the capabilities of existing classical computers and known methods. Approaching this for problems that go beyond testing the performance of a quantum device is an important step, and quantum simulation of many-body quench dynamics is one of the most promising candidates for early practical quantum advantage. We analyse the requirements for quantitatively reliable quantum simulation beyond the capabilities of existing classical methods for analogue quantum simulators with neutral atoms in optical lattices and trapped ions. Considering the primary sources of error in analogue devices and how they propagate after a quench in studies of the Hubbard or long-range transverse field Ising model, we identify the level of error expected in quantities we extract from experiments. We conclude for models that are directly implementable that regimes of practical quantum advantage are attained in current experiments with analogue simulators. We also identify the hardware requirements to reach the same level of accuracy with future fault-tolerant digital quantum simulation. Verification techniques are already available to test the assumptions we make here, and demonstrating these in experiments will be an important next step.</description>
+  </item>
+
+  <item>
+    <title>Optimising shadow tomography with generalised measurements</title>
+    <link>http://arxiv.org/pdf/2205.08990</link>
+    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
+  </item>
+
+  <item>
+    <title>Quantum Linear Optics via String Diagrams</title>
+    <link>http://arxiv.org/pdf/2204.12985</link>
+    <author>Giovanni de Felice, Bob Coecke</author>
+    <pubDate>Apr 28 2022</pubDate>
+    <description>We establish a formal bridge between qubit-based and photonic quantum computing. We do this by defining a functor from the ZX calculus to linear optical circuits. In the process we provide a compositional theory of quantum linear optics which allows to reason about events involving multiple photons such as those required to perform linear-optical and fusion-based quantum computing.</description>
   </item>
 
 </channel>
