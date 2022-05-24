@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>Candidate for a self-correcting quantum memory in two dimensions</title>
+    <link>http://arxiv.org/pdf/2205.09767</link>
+    <author>Simon Lieu, Yu-Jie Liu, Alexey V. Gorshkov</author>
+    <pubDate>May 23 2022</pubDate>
+    <description>An interesting problem in the field of quantum error correction involves finding a physical system that hosts a "self-correcting quantum memory," defined as an encoded qubit coupled to an environment that naturally wants to correct errors. To date, a quantum memory stable against finite-temperature effects is only known in four spatial dimensions or higher. Here, we take a different approach to realize a stable quantum memory by relying on a driven-dissipative environment. We propose a new model which appears to self correct against both bit-flip and phase-flip errors in two dimensions: A square lattice composed of photonic "cat qubits" coupled via dissipative terms which tend to fix errors locally. Inspired by the presence of two distinct $\mathbb{Z}_2$-symmetry-broken phases, our scheme relies on Ising-like dissipators to protect against bit flips and on a driven-dissipative photonic environment to protect against phase flips.</description>
+  </item>
+
+  <item>
     <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
     <link>http://arxiv.org/pdf/2205.08915</link>
     <author>Henrik Wilming</author>
@@ -39,11 +47,11 @@
   </item>
 
   <item>
-    <title>The QAOA with Slow Measurements</title>
-    <link>http://arxiv.org/pdf/2205.06845</link>
-    <author>Anthony Polloreno, Graeme Smith</author>
-    <pubDate>May 17 2022</pubDate>
-    <description>The Quantum Approximate Optimization Algorithm (QAOA) was originally developed to solve combinatorial optimization problems, but has become a standard for assessing the performance of quantum computers. Fully descriptive benchmarking techniques are often prohibitively expensive for large numbers of qubits ($n \gtrsim 10$), so the QAOA often serves in practice as a computational benchmark. The QAOA involves a classical optimization subroutine that attempts to find optimal parameters for a quantum subroutine. Unfortunately, many optimizers used for the QAOA require many shots ($N \gtrsim 1000$) per point in parameter space to get a reliable estimate of the energy being minimized. However, some experimental quantum computing platforms such as neutral atom quantum computers have slow repetition rates, placing unique requirements on the classical optimization subroutine used in the QAOA in these systems. In this paper we investigate the performance of a gradient free classical optimizer for the QAOA - dual annealing - and demonstrate that optimization is possible even with $N=1$ and $n=16$.</description>
+    <title>Tensor Network Algorithms: a Route Map</title>
+    <link>http://arxiv.org/pdf/2205.10345</link>
+    <author>Mari Carmen Bañuls</author>
+    <pubDate>May 23 2022</pubDate>
+    <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
   </item>
 
   <item>
@@ -55,11 +63,11 @@
   </item>
 
   <item>
-    <title>Hay from the haystack: explicit examples of exponential quantum circuit complexity</title>
-    <link>http://arxiv.org/pdf/2205.06977</link>
-    <author>Yifan Jia, Michael M. Wolf</author>
-    <pubDate>May 17 2022</pubDate>
-    <description>The vast majority of quantum states and unitaries have circuit complexity exponential in the number of qubits. In a similar vein, most of them also have exponential minimum description length, which makes it difficult to pinpoint examples of exponential complexity. In this work, we construct examples of constant description length but exponential circuit complexity. We provide infinite families such that each element requires an exponential number of two-qubit gates to be generated exactly from a product and where the same is true for the approximate generation of the vast majority of elements in the family. The results are based on sets of large transcendence degree and discussed for tensor networks, diagonal unitaries, and maximally coherent states.</description>
+    <title>Estimating the frame potential of large-scale quantum circuit sampling using tensor networks up to 50 qubits</title>
+    <link>http://arxiv.org/pdf/2205.09900</link>
+    <author>Minzhao Liu, Junyu Liu, Yuri Alexeev, Liang Jiang</author>
+    <pubDate>May 23 2022</pubDate>
+    <description>We develop numerical protocols for estimating the frame potential, the 2-norm distance between a given ensemble and the exact Haar randomness, using the \textttQTensor platform. Our tensor-network-based algorithm has polynomial complexity for shallow circuits and is high performing using CPU and GPU parallelism. We apply the above methods to two problems: the Brown-Susskind conjecture, with local and parallel random circuits in terms of the Haar distance and the approximate $k$-design properties of the hardware efficient ansätze in quantum machine learning, which induce the barren plateau problem. We estimate frame potentials with these ensembles up to 50 qubits and $k=5$, examine the Haar distance of the hardware-efficient ansätze, and verify the Brown-Susskind conjecture numerically. Our work shows that large-scale tensor network simulations could provide important hints toward open problems in quantum information science.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Unpil Baek, Diptarka Hait, James Shee, Oskar Leimkuhler, William J. Huggins, Torin F. Stetina, Martin Head-Gordon, K. Birgitta Whaley</author>
     <pubDate>May 19 2022</pubDate>
     <description>A balanced description of both static and dynamic correlations in electronic systems with nearly degenerate low-lying states presents a challenge for multi-configurational methods on classical computers. We present here a quantum algorithm utilizing the action of correlating cluster operators to provide high-quality wavefunction ansätze employing a non-orthogonal multireference basis that captures a significant portion of the exact wavefunction in a highly compact manner, and that allows computation of the resulting energies and wavefunctions at polynomial cost with a quantum computer. This enables a significant improvement over the corresponding classical non-orthogonal solver, which incurs an exponential cost when evaluating off-diagonal matrix elements between the ansatz states, and is therefore intractable. We implement the non-orthogonal quantum eigensolver (NOQE) here with an efficient ansatz parameterization inspired by classical quantum chemistry methods that succeed in capturing significant amounts of electronic correlation accurately. By taking advantage of classical methods for chemistry, NOQE provides a flexible, compact, and rigorous description of both static and dynamic electronic correlation, making it an attractive method for the calculation of electronic states of a wide range of molecular systems.</description>
-  </item>
-
-  <item>
-    <title>Quantum neural networks</title>
-    <link>http://arxiv.org/pdf/2205.08154</link>
-    <author>Kerstin Beer</author>
-    <pubDate>May 18 2022</pubDate>
-    <description>This PhD thesis combines two of the most exciting research areas of the last decades: quantum computing and machine learning. We introduce dissipative quantum neural networks (DQNNs), which are designed for fully quantum learning tasks, are capable of universal quantum computation and have low memory requirements while training. These networks are optimised with training data pairs in form of input and desired output states and therefore can be used for characterising unknown or untrusted quantum devices. We not only demonstrate the generalisation behaviour of DQNNs using classical simulations, but also implement them successfully on actual quantum computers. To understand the ultimate limits for such quantum machine learning methods, we discuss the quantum no free lunch theorem, which describes a bound on the probability that a quantum device, which can be modelled as a unitary process and is optimised with quantum examples, gives an incorrect output for a random input. Moreover we expand the area of applications of DQNNs in two directions. In the first case, we include additional information beyond just the training data pairs: since quantum devices are always structured, the resulting data is always structured as well. We modify the DQNN's training algorithm such that knowledge about the graph-structure of the training data pairs is included in the training process and show that this can lead to better generalisation behaviour. Both the original DQNN and the DQNN including graph structure are trained with data pairs in order to characterise an underlying relation. However, in the second extension of the algorithm we aim to learn characteristics of a set of quantum states in order to extend it to quantum states which have similar properties. Therefore we build a generative adversarial model where two DQNNs, called the generator and discriminator, are trained in a competitive way.</description>
   </item>
 
 </channel>
