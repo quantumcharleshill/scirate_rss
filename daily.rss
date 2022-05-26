@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Candidate for a self-correcting quantum memory in two dimensions</title>
-    <link>http://arxiv.org/pdf/2205.09767</link>
-    <author>Simon Lieu, Yu-Jie Liu, Alexey V. Gorshkov</author>
-    <pubDate>May 23 2022</pubDate>
-    <description>An interesting problem in the field of quantum error correction involves finding a physical system that hosts a "self-correcting quantum memory," defined as an encoded qubit coupled to an environment that naturally wants to correct errors. To date, a quantum memory stable against finite-temperature effects is only known in four spatial dimensions or higher. Here, we take a different approach to realize a stable quantum memory by relying on a driven-dissipative environment. We propose a new model which appears to self correct against both bit-flip and phase-flip errors in two dimensions: A square lattice composed of photonic "cat qubits" coupled via dissipative terms which tend to fix errors locally. Inspired by the presence of two distinct $\mathbb{Z}_2$-symmetry-broken phases, our scheme relies on Ising-like dissipators to protect against bit flips and on a driven-dissipative photonic environment to protect against phase flips.</description>
+    <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
+    <link>http://arxiv.org/pdf/2205.12211</link>
+    <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
   </item>
 
   <item>
-    <title>Tensor Network Algorithms: a Route Map</title>
-    <link>http://arxiv.org/pdf/2205.10345</link>
-    <author>Mari Carmen Bañuls</author>
-    <pubDate>May 23 2022</pubDate>
-    <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
+    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
+    <link>http://arxiv.org/pdf/2205.12127</link>
+    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
   </item>
 
   <item>
-    <title>Estimating the frame potential of large-scale quantum circuit sampling using tensor networks up to 50 qubits</title>
-    <link>http://arxiv.org/pdf/2205.09900</link>
-    <author>Minzhao Liu, Junyu Liu, Yuri Alexeev, Liang Jiang</author>
-    <pubDate>May 23 2022</pubDate>
-    <description>We develop numerical protocols for estimating the frame potential, the 2-norm distance between a given ensemble and the exact Haar randomness, using the \textttQTensor platform. Our tensor-network-based algorithm has polynomial complexity for shallow circuits and is high performing using CPU and GPU parallelism. We apply the above methods to two problems: the Brown-Susskind conjecture, with local and parallel random circuits in terms of the Haar distance and the approximate $k$-design properties of the hardware efficient ansätze in quantum machine learning, which induce the barren plateau problem. We estimate frame potentials with these ensembles up to 50 qubits and $k=5$, examine the Haar distance of the hardware-efficient ansätze, and verify the Brown-Susskind conjecture numerically. Our work shows that large-scale tensor network simulations could provide important hints toward open problems in quantum information science.</description>
+    <title>Real-time correlators in chaotic quantum many-body systems</title>
+    <link>http://arxiv.org/pdf/2205.11544</link>
+    <author>Adam Nahum, Sthitadhi Roy, Sagar Vijay, Tianci Zhou</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>We study real-time local correlators $\langle\mathcal{O}(\mathbf{x},t)\mathcal{O}(0,0)\rangle$ in chaotic quantum many-body systems. These correlators show universal structure at late times, determined by the dominant operator-space Feynman trajectories for the evolving operator $\mathcal{O}(\mathbf{x},t)$. The relevant trajectories involve the operator contracting to a point at both the initial and final time and so are structurally different from those dominating the out-of-time-order correlator. In the absence of conservation laws, correlations decay exponentially: $\langle\mathcal{O}(\mathbf{x},t)\mathcal{O}(0,0)\rangle\sim\exp(-s_\mathrm{eq} r(\mathbf{v}) t)$, where $\mathbf{v}= \mathbf{x}/ t$ defines a spacetime ray, and $r(\mathbf{v})$ is an associated decay rate. We express $r(\mathbf{v})$ in terms of cost functions for various spacetime structures. In 1+1D, operator histories can show a phase transition at a critical ray velocity $v_c$, where $r(\mathbf{v})$ is nonanalytic. At low $v$, the dominant Feynman histories are "fat": the operator grows to a size of order $t^\alpha\gg 1$ before contracting to a point again. At high $v$ the trajectories are "thin": the operator always remains of order-one size. In a Haar-random unitary circuit, this transition maps to a simple binding transition for a pair of random walks (the two spatial boundaries of the operator). In higher dimensions, thin trajectories always dominate. We discuss ways to extract the butterfly velocity $v_B$ from the time-ordered correlator, rather than the OTOC. Correlators in the random circuit may alternatively be computed with an effective Ising-like model: a special feature of the Ising weights for the Haar brickwork circuit gives $v_c=v_B$. This work addresses lattice models, but also suggests the possibility of morphological phase transitions for real-time Feynman diagrams in quantum field theories.</description>
   </item>
 
   <item>
-    <title>The rank of contextuality</title>
-    <link>http://arxiv.org/pdf/2205.10307</link>
-    <author>Karol Horodecki, Jingfang Zhou, Maciej Stankiewicz, Roberto Salazar, Paweł Horodecki, Robert Raussendorf, Ryszard Horodecki, Ravishankar Ramanathan, Emily Tyhurst</author>
-    <pubDate>May 23 2022</pubDate>
-    <description>Quantum contextuality is one of the most recognized resources in quantum communication and computing scenarios. We provide a new quantifier of this resource, the rank of contextuality (RC). We define RC as the minimum number of non-contextual behaviors that are needed to simulate a contextual behavior. We show that the logarithm of RC is a natural contextuality measure satisfying several properties considered in the spirit of the resource-theoretic approach. The properties include faithfulness, monotonicity, and additivity under tensor product. We also give examples of how to construct contextual behaviors with an arbitrary value of RC exhibiting a natural connection between this quantifier and the arboricity of an underlying hypergraph. We also discuss exemplary areas of research in which the new measure appears as a natural quantifier.</description>
+    <title>A multi-player, multi-team nonlocal game for the toric code</title>
+    <link>http://arxiv.org/pdf/2205.12251</link>
+    <author>Vir B. Bulchandani, Fiona J. Burnell, S. L. Sondhi</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Nonlocal games yield an unusual perspective on entangled quantum states. The defining property of such games is that a set of players in joint possession of an entangled state can win the game with higher probability than is allowed by classical physics. Here we construct a nonlocal game that can be won with certainty by $2N$ players if they have access to the ground state of the toric code on as many qubits. By contrast, the game cannot be won by classical players more than half the time in the large $N$ limit. Our game differs from previous examples because it arranges the players on a lattice and allows them to carry out quantum operations in teams, whose composition is dynamically specified. This is natural when seeking to characterize the degree of quantumness of non-trivial many-body states, which potentially include states in much more varied phases of matter than the toric code. We present generalizations of the toric code game to states with $\mathbb{Z}_M$ topological order.</description>
   </item>
 
   <item>
-    <title>Pipelined correlated minimum weight perfect matching of the surface code</title>
-    <link>http://arxiv.org/pdf/2205.09828</link>
-    <author>Alexandru Paler, Austin G. Fowler</author>
-    <pubDate>May 23 2022</pubDate>
-    <description>We describe a pipeline approach to decoding the surface code using minimum weight perfect matching, including taking into account correlations between detection events. An independent no-communication parallelizable processing stage reweights the graph according to likely correlations, followed by another no-communication parallelizable stage for high confidence matching. A later general stage finishes the matching. This is a simplification of previous correlated matching techniques which required a complex interaction between general matching and re-weighting the graph. Despite this simplification, which gives correlated matching a better chance of achieving real-time processing, we find the logical error rate practically unchanged. We validate the new algorithm on the fully fault-tolerant toric, unrotated, and rotated surface codes, all with standard depolarizing noise. We expect these techniques to be applicable to a wide range of other decoders.</description>
+    <title>A possibilistic no-go theorem on the Wigner's friend paradox</title>
+    <link>http://arxiv.org/pdf/2205.12223</link>
+    <author>Marwan Haddara, Eric G. Cavalcanti</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>In a recent work, Bong et al. [Nat. Phys. 16, 1199 (2020)] proved a no-go theorem demonstrating a contradiction between a set of assumptions called "Local Friendliness" (LF) and certain quantum phenomena on an extended version of the Wigner's friend scenario. The LF assumptions can be understood as the conjunction of two independent assumptions: Absoluteness of Observed Events (AOE) and Local Agency (LA). The proof of the LF theorem, however, implicitly assumes the validity of standard probability theory for dealing with sets of events that AOE implies to have simultaneously well-defined values. Here we present a probability-free version of the Local Friendliness theorem. The argument is phrased in the language of possibilities, which we make formal by using a modal logical approach. It relies on a slightly weaker version of Local Agency, which we call "Possibilistic Local Agency".</description>
   </item>
 
 </channel>

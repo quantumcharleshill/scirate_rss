@@ -39,27 +39,11 @@
   </item>
 
   <item>
-    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
-    <link>http://arxiv.org/pdf/2205.08915</link>
-    <author>Henrik Wilming</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
-  </item>
-
-  <item>
     <title>Tensor Network Algorithms: a Route Map</title>
     <link>http://arxiv.org/pdf/2205.10345</link>
     <author>Mari Carmen Bañuls</author>
     <pubDate>May 23 2022</pubDate>
     <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
-  </item>
-
-  <item>
-    <title>Optimising shadow tomography with generalised measurements</title>
-    <link>http://arxiv.org/pdf/2205.08990</link>
-    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
   </item>
 
   <item>
@@ -71,19 +55,35 @@
   </item>
 
   <item>
-    <title>Machine learning applications for noisy intermediate-scale quantum computers</title>
-    <link>http://arxiv.org/pdf/2205.09414</link>
-    <author>Brian Coyle</author>
-    <pubDate>May 20 2022</pubDate>
-    <description>Quantum machine learning has proven to be a fruitful area in which to search for potential applications of quantum computers. This is particularly true for those available in the near term, so called noisy intermediate-scale quantum (NISQ) devices. In this Thesis, we develop and study three quantum machine learning applications suitable for NISQ computers, ordered in terms of increasing complexity of data presented to them. These algorithms are variational in nature and use parameterised quantum circuits (PQCs) as the underlying quantum machine learning model. The first application area is quantum classification using PQCs, where the data is classical feature vectors and their corresponding labels. Here, we study the robustness of certain data encoding strategies in such models against noise present in a quantum computer. The second area is generative modelling using quantum computers, where we use quantum circuit Born machines to learn and sample from complex probability distributions. We discuss and present a framework for quantum advantage for such models, propose gradient-based training methods and demonstrate these both numerically and on the Rigetti quantum computer up to 28 qubits. For our final application, we propose a variational algorithm in the area of approximate quantum cloning, where the data becomes quantum in nature. For the algorithm, we derive differentiable cost functions, prove theoretical guarantees such as faithfulness, and incorporate state of the art methods such as quantum architecture search. Furthermore, we demonstrate how this algorithm is useful in discovering novel implementable attacks on quantum cryptographic protocols, focusing on quantum coin flipping and key distribution as examples.</description>
+    <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
+    <link>http://arxiv.org/pdf/2205.12211</link>
+    <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
   </item>
 
   <item>
-    <title>Say NO to Optimization: A Non-Orthogonal Quantum Eigensolver</title>
-    <link>http://arxiv.org/pdf/2205.09039</link>
-    <author>Unpil Baek, Diptarka Hait, James Shee, Oskar Leimkuhler, William J. Huggins, Torin F. Stetina, Martin Head-Gordon, K. Birgitta Whaley</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>A balanced description of both static and dynamic correlations in electronic systems with nearly degenerate low-lying states presents a challenge for multi-configurational methods on classical computers. We present here a quantum algorithm utilizing the action of correlating cluster operators to provide high-quality wavefunction ansätze employing a non-orthogonal multireference basis that captures a significant portion of the exact wavefunction in a highly compact manner, and that allows computation of the resulting energies and wavefunctions at polynomial cost with a quantum computer. This enables a significant improvement over the corresponding classical non-orthogonal solver, which incurs an exponential cost when evaluating off-diagonal matrix elements between the ansatz states, and is therefore intractable. We implement the non-orthogonal quantum eigensolver (NOQE) here with an efficient ansatz parameterization inspired by classical quantum chemistry methods that succeed in capturing significant amounts of electronic correlation accurately. By taking advantage of classical methods for chemistry, NOQE provides a flexible, compact, and rigorous description of both static and dynamic electronic correlation, making it an attractive method for the calculation of electronic states of a wide range of molecular systems.</description>
+    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
+    <link>http://arxiv.org/pdf/2205.12127</link>
+    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
+  </item>
+
+  <item>
+    <title>Classically optimized Hamiltonian simulation</title>
+    <link>http://arxiv.org/pdf/2205.11427</link>
+    <author>Conor Mc Keever, Michael Lubasch</author>
+    <pubDate>May 24 2022</pubDate>
+    <description>Hamiltonian simulation is a promising application for quantum computers to achieve a quantum advantage. We present classical algorithms based on tensor network methods to optimize quantum circuits for this task. We show that the classically optimized circuits can be orders of magnitude more accurate than Trotter product formulas.</description>
+  </item>
+
+  <item>
+    <title>The rank of contextuality</title>
+    <link>http://arxiv.org/pdf/2205.10307</link>
+    <author>Karol Horodecki, Jingfang Zhou, Maciej Stankiewicz, Roberto Salazar, Paweł Horodecki, Robert Raussendorf, Ryszard Horodecki, Ravishankar Ramanathan, Emily Tyhurst</author>
+    <pubDate>May 23 2022</pubDate>
+    <description>Quantum contextuality is one of the most recognized resources in quantum communication and computing scenarios. We provide a new quantifier of this resource, the rank of contextuality (RC). We define RC as the minimum number of non-contextual behaviors that are needed to simulate a contextual behavior. We show that the logarithm of RC is a natural contextuality measure satisfying several properties considered in the spirit of the resource-theoretic approach. The properties include faithfulness, monotonicity, and additivity under tensor product. We also give examples of how to construct contextual behaviors with an arbitrary value of RC exhibiting a natural connection between this quantifier and the arboricity of an underlying hypergraph. We also discuss exemplary areas of research in which the new measure appears as a natural quantifier.</description>
   </item>
 
 </channel>
