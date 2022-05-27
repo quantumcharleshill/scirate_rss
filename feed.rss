@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Chain rules for quantum channels</title>
-    <link>http://arxiv.org/pdf/2204.11153</link>
-    <author>Mario Berta, Marco Tomamichel</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Divergence chain rules for channels relate the divergence of a pair of channel inputs to the divergence of the corresponding channel outputs. An important special case of such a rule is the data-processing inequality, which tells us that if the same channel is applied to both inputs then the divergence cannot increase. Based on direct matrix analysis methods, we derive several Rényi divergence chain rules for channels in the quantum setting. Our results simplify and in some cases generalise previous derivations in the literature.</description>
-  </item>
-
-  <item>
     <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
     <link>http://arxiv.org/pdf/2205.05786</link>
     <author>Eric R. Anschuetz, Bobak T. Kiani</author>
@@ -92,14 +84,6 @@
     <author>Simon Lieu, Yu-Jie Liu, Alexey V. Gorshkov</author>
     <pubDate>May 23 2022</pubDate>
     <description>An interesting problem in the field of quantum error correction involves finding a physical system that hosts a "self-correcting quantum memory," defined as an encoded qubit coupled to an environment that naturally wants to correct errors. To date, a quantum memory stable against finite-temperature effects is only known in four spatial dimensions or higher. Here, we take a different approach to realize a stable quantum memory by relying on a driven-dissipative environment. We propose a new model which appears to self correct against both bit-flip and phase-flip errors in two dimensions: A square lattice composed of photonic "cat qubits" coupled via dissipative terms which tend to fix errors locally. Inspired by the presence of two distinct $\mathbb{Z}_2$-symmetry-broken phases, our scheme relies on Ising-like dissipators to protect against bit flips and on a driven-dissipative photonic environment to protect against phase flips.</description>
-  </item>
-
-  <item>
-    <title>Efficient Certifiable Randomness from a Single Quantum Device</title>
-    <link>http://arxiv.org/pdf/2204.11353</link>
-    <author>Urmila Mahadev, Umesh Vazirani, Thomas Vidick</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Brakerski et. al [BCM+18] introduced the model of cryptographic testing of a single untrusted quantum device and gave a protocol for certifiable randomness generation. We use the leakage resilience properties of the Learning With Errors problem to address a key issue left open in previous work - the rate of generation of randomness. Our new protocol can certify $\Omega(n)$ fresh bits of randomness in constant rounds, where $n$ is a parameter of the protocol and the total communication is $O(n)$, thus achieving a nearly optimal rate. The proof that the output is statistically random is conceptually simple and technically elementary.</description>
   </item>
 
   <item>
@@ -151,6 +135,14 @@
   </item>
 
   <item>
+    <title>Perturbation Theory and the Sum of Squares</title>
+    <link>http://arxiv.org/pdf/2205.12325</link>
+    <author>Matthew B. Hastings</author>
+    <pubDate>May 26 2022</pubDate>
+    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
+  </item>
+
+  <item>
     <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
     <link>http://arxiv.org/pdf/2204.11890</link>
     <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
@@ -172,6 +164,14 @@
     <author>Zane M. Rossi, Isaac L. Chuang</author>
     <pubDate>May 13 2022</pubDate>
     <description>Recent work shows that quantum signal processing (QSP) and its multi-qubit lifted version, quantum singular value transformation (QSVT), unify and improve the presentation of most quantum algorithms. QSP/QSVT characterize the ability, by alternating ansätze, to obliviously transform the singular values of subsystems of unitary matrices by polynomial functions; these algorithms are numerically stable and analytically well-understood. That said, QSP/QSVT require consistent access to a single oracle, and say nothing about computing joint properties of two or more oracles; these can be far cheaper to compute given the ability to pit oracles against one another coherently. This work introduces a corresponding theory of QSP over multiple variables: M-QSP. Surprisingly, despite the non-existence of the fundamental theorem of algebra for multivariable polynomials, there exist necessary and sufficient conditions under which a desired stable multivariable polynomial transformation is possible. Moreover, the classical subroutines used by QSP protocols survive in the multivariable setting for non-obvious reasons. Up to a well-defined conjecture, we give proof that the family of achievable multivariable transforms is as loosely constrained as could be expected. M-QSP is numerically stable and inherits the approximative efficiency of its single-variable analogue; however, its underlying theory is substantively more complex. M-QSP provides one bridge from quantum algorithms to a rich theory of algebraic geometry over multiple variables. The unique ability of M-QSP to obliviously approximate joint functions of multiple variables coherently leads to novel speedups incommensurate with those of other quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
+    <link>http://arxiv.org/pdf/2205.12211</link>
+    <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
   </item>
 
   <item>
@@ -207,19 +207,11 @@
   </item>
 
   <item>
-    <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
-    <link>http://arxiv.org/pdf/2205.12211</link>
-    <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
-    <pubDate>May 25 2022</pubDate>
-    <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
-  </item>
-
-  <item>
-    <title>Noise-resilient Majorana Edge Modes on a Chain of Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2204.11372</link>
-    <author>Xiao Mi, Michael Sonner, Murphy Yuezhen Niu, Kenneth W. Lee, Brooks Foxen, Rajeev Acharya, Igor Aleiner, Trond I. Andersen, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Gina Bortoli, Alexandre Bourassa, Leon Brill, et al (108)</author>
-    <pubDate>Apr 26 2022</pubDate>
-    <description>Inherent symmetry of a quantum system may protect its otherwise fragile states. Leveraging such protection requires testing its robustness against uncontrolled environmental interactions. Using 47 superconducting qubits, we implement the kicked Ising model which exhibits Majorana edge modes (MEMs) protected by $\mathbb{Z}_2$ parity symmetry. Remarkably, we find that any multi-qubit Pauli operator overlapping with the MEMs exhibits a uniform decay rate comparable to single-qubit relaxation rates, irrespective of its size or composition. This finding allows us to accurately reconstruct the exponentially localized spatial profiles of the MEMs. Spectroscopic measurements further indicate exponentially suppressed hybridization between the MEMs at larger system sizes, which manifests as a strong resilience against low-frequency noise. Our work elucidates the noise sensitivity of symmetry-protected edge modes in a solid-state environment.</description>
+    <title>Classically optimized Hamiltonian simulation</title>
+    <link>http://arxiv.org/pdf/2205.11427</link>
+    <author>Conor Mc Keever, Michael Lubasch</author>
+    <pubDate>May 24 2022</pubDate>
+    <description>Hamiltonian simulation is a promising application for quantum computers to achieve a quantum advantage. We present classical algorithms based on tensor network methods to optimize quantum circuits for this task. We show that the classically optimized circuits can be orders of magnitude more accurate than Trotter product formulas.</description>
   </item>
 
   <item>
@@ -244,6 +236,14 @@
     <author>S. Flannigan, N. Pearson, G. H. Low, A. Buyskikh, I. Bloch, P. Zoller, M. Troyer, A. J. Daley</author>
     <pubDate>Apr 29 2022</pubDate>
     <description>The rapid development in hardware for quantum computing and simulation has led to much interest in problems where these devices can exceed the capabilities of existing classical computers and known methods. Approaching this for problems that go beyond testing the performance of a quantum device is an important step, and quantum simulation of many-body quench dynamics is one of the most promising candidates for early practical quantum advantage. We analyse the requirements for quantitatively reliable quantum simulation beyond the capabilities of existing classical methods for analogue quantum simulators with neutral atoms in optical lattices and trapped ions. Considering the primary sources of error in analogue devices and how they propagate after a quench in studies of the Hubbard or long-range transverse field Ising model, we identify the level of error expected in quantities we extract from experiments. We conclude for models that are directly implementable that regimes of practical quantum advantage are attained in current experiments with analogue simulators. We also identify the hardware requirements to reach the same level of accuracy with future fault-tolerant digital quantum simulation. Verification techniques are already available to test the assumptions we make here, and demonstrating these in experiments will be an important next step.</description>
+  </item>
+
+  <item>
+    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
+    <link>http://arxiv.org/pdf/2205.12127</link>
+    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
   </item>
 
 </channel>
