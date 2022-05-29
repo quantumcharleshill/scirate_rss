@@ -183,6 +183,14 @@
   </item>
 
   <item>
+    <title>Optimising shadow tomography with generalised measurements</title>
+    <link>http://arxiv.org/pdf/2205.08990</link>
+    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
+  </item>
+
+  <item>
     <title>The QAOA with Slow Measurements</title>
     <link>http://arxiv.org/pdf/2205.06845</link>
     <author>Anthony Polloreno, Graeme Smith</author>
@@ -196,14 +204,6 @@
     <author>Craig Gidney</author>
     <pubDate>May 02 2022</pubDate>
     <description>Topological quantum computations are built on a foundation of two basic tasks: preserving logical observables through time and moving logical observables through space. Memory experiments, which check how well logical observables are preserved through time, are a well established benchmark. Strangely, there is no corresponding well established benchmark for moving logical observables through space. This paper tries to fill that gap with "stability experiments", which check how well a quantum error correction system can determine the product of a large region of stabilizers. Stability experiments achieve this by testing on a region that is locally a normal code but globally has a known product of stabilizers.</description>
-  </item>
-
-  <item>
-    <title>Optimising shadow tomography with generalised measurements</title>
-    <link>http://arxiv.org/pdf/2205.08990</link>
-    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
   </item>
 
   <item>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
-    <link>http://arxiv.org/pdf/2205.12127</link>
-    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
-    <pubDate>May 25 2022</pubDate>
-    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
+    <title>The battle of clean and dirty qubits in the era of partial error correction</title>
+    <link>http://arxiv.org/pdf/2205.13454</link>
+    <author>Daniel Bultrini, Samson Wang, Piotr Czarnik, Max Hunter Gordon, M. Cerezo, Patrick J. Coles, Lukasz Cincio</author>
+    <pubDate>May 27 2022</pubDate>
+    <description>When error correction becomes possible it will be necessary to dedicate a large number of physical qubits to each logical qubit. Error correction allows for deeper circuits to be run, but each additional physical qubit can potentially contribute an exponential increase in computational space, so there is a trade-off between using qubits for error correction or using them as noisy qubits. In this work we look at the effects of using noisy qubits in conjunction with noiseless qubits (an idealized model for error-corrected qubits), which we call the "clean and dirty" setup. We employ analytical models and numerical simulations to characterize this setup. Numerically we show the appearance of Noise-Induced Barren Plateaus (NIBPs), i.e., an exponential concentration of observables caused by noise, in an Ising model Hamiltonian variational ansatz circuit. We observe this even if only a single qubit is noisy and given a deep enough circuit, suggesting that NIBPs cannot be fully overcome simply by error-correcting a subset of the qubits. On the positive side, we find that for every noiseless qubit in the circuit, there is an exponential suppression in concentration of gradient observables, showing the benefit of partial error correction. Finally, our analytical models corroborate these findings by showing that observables concentrate with a scaling in the exponent related to the ratio of dirty-to-total qubits.</description>
   </item>
 
 </channel>
