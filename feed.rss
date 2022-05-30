@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Foundations for learning from noisy quantum experiments</title>
-    <link>http://arxiv.org/pdf/2204.13691</link>
-    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
-    <pubDate>Apr 29 2022</pubDate>
-    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
-  </item>
-
-  <item>
     <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
     <link>http://arxiv.org/pdf/2205.05668</link>
     <author>Zhi Li</author>
@@ -103,19 +95,19 @@
   </item>
 
   <item>
-    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2205.05056</link>
-    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
-  </item>
-
-  <item>
     <title>Tensor Network Algorithms: a Route Map</title>
     <link>http://arxiv.org/pdf/2205.10345</link>
     <author>Mari Carmen Bañuls</author>
     <pubDate>May 23 2022</pubDate>
     <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
+  </item>
+
+  <item>
+    <title>Fundamental limitations on optimization in variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2205.05056</link>
+    <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Exploring quantum applications of near-term quantum devices is a rapidly growing field of quantum information science with both theoretical and practical interests. A leading paradigm to establish such near-term quantum applications is variational quantum algorithms (VQAs). These algorithms use a classical optimizer to train a parameterized quantum circuit to accomplish certain tasks, where the circuits are usually randomly initialized. In this work, we prove that for a broad class of such random circuits, the variation range of the cost function via adjusting any local quantum gate within the circuit vanishes exponentially in the number of qubits with a high probability. This result can unify the restrictions on gradient-based and gradient-free optimizations in a natural manner and reveal extra harsh constraints on the training landscapes of VQAs. Hence a fundamental limitation on the trainability of VQAs is unraveled, indicating the essence of the optimization hardness in the Hilbert space with exponential dimension. We further showcase the validity of our results with numerical simulations of representative VQAs. We believe that these results would deepen our understanding of the scalability of VQAs and shed light on the search for near-term quantum applications with advantages.</description>
   </item>
 
   <item>
@@ -127,14 +119,6 @@
   </item>
 
   <item>
-    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
-    <link>http://arxiv.org/pdf/2205.08915</link>
-    <author>Henrik Wilming</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
-  </item>
-
-  <item>
     <title>Perturbation Theory and the Sum of Squares</title>
     <link>http://arxiv.org/pdf/2205.12325</link>
     <author>Matthew B. Hastings</author>
@@ -143,19 +127,11 @@
   </item>
 
   <item>
-    <title>How to simulate key properties of lithium-ion batteries with a fault-tolerant quantum computer</title>
-    <link>http://arxiv.org/pdf/2204.11890</link>
-    <author>Alain Delgado, Pablo A. M. Casares, Roberto dos Reis, Modjtaba Shokrian Zini, Roberto Campos, Norge Cruz-Hernández, Arne-Christian Voigt, Angus Lowe, Soran Jahangiri, M. A. Martin-Delgado, Jonathan E. Mueller, Juan Miguel Arrazola</author>
-    <pubDate>Apr 27 2022</pubDate>
-    <description>There is a pressing need to develop new rechargeable battery technologies that can offer higher energy storage, faster charging, and lower costs. Despite the success of existing methods for the simulation of battery materials, they can sometimes fall short of delivering accurate and reliable results. Quantum computing has been discussed as an avenue to overcome these issues, but only limited work has been done to outline how they may impact battery simulations. In this work, we provide a detailed answer to the following question: how can a quantum computer be used to simulate key properties of a lithium-ion battery? Based on recently-introduced first-quantization techniques, we lay out an end-to-end quantum algorithm for calculating equilibrium cell voltages, ionic mobility, and thermal stability. These can be obtained from ground-state energies of materials, which is the core calculation executed by the quantum computer using qubitization-based quantum phase estimation. The algorithm includes explicit methods for preparing approximate ground states of periodic materials in first quantization. We bring these insights together to perform the first estimation of the resources required to implement a quantum algorithm for simulating a realistic cathode material, dilithium iron silicate.</description>
-  </item>
-
-  <item>
-    <title>Group-Invariant Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2205.02261</link>
-    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
+    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
+    <link>http://arxiv.org/pdf/2205.08915</link>
+    <author>Henrik Wilming</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
   </item>
 
   <item>
@@ -164,6 +140,14 @@
     <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
     <pubDate>May 25 2022</pubDate>
     <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
+  </item>
+
+  <item>
+    <title>Group-Invariant Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2205.02261</link>
+    <author>Martin Larocca, Frederic Sauvage, Faris M. Sbahi, Guillaume Verdon, Patrick J. Coles, M. Cerezo</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>Quantum Machine Learning (QML) models are aimed at learning from data encoded in quantum states. Recently, it has been shown that models with little to no inductive biases (i.e., with no assumptions about the problem embedded in the model) are likely to have trainability and generalization issues, especially for large problem sizes. As such, it is fundamental to develop schemes that encode as much information as available about the problem at hand. In this work we present a simple, yet powerful, framework where the underlying invariances in the data are used to build QML models that, by construction, respect those symmetries. These so-called group-invariant models produce outputs that remain invariant under the action of any element of the symmetry group $\mathfrak{G}$ associated to the dataset. We present theoretical results underpinning the design of $\mathfrak{G}$-invariant models, and exemplify their application through several paradigmatic QML classification tasks including cases when $\mathfrak{G}$ is a continuous Lie group and also when it is a discrete symmetry group. Notably, our framework allows us to recover, in an elegant way, several well known algorithms for the literature, as well as to discover new ones. Taken together, we expect that our results will help pave the way towards a more geometric and group-theoretic approach to QML model design.</description>
   </item>
 
   <item>
@@ -231,19 +215,35 @@
   </item>
 
   <item>
-    <title>Propagation of errors and quantitative quantum simulation with quantum advantage</title>
-    <link>http://arxiv.org/pdf/2204.13644</link>
-    <author>S. Flannigan, N. Pearson, G. H. Low, A. Buyskikh, I. Bloch, P. Zoller, M. Troyer, A. J. Daley</author>
-    <pubDate>Apr 29 2022</pubDate>
-    <description>The rapid development in hardware for quantum computing and simulation has led to much interest in problems where these devices can exceed the capabilities of existing classical computers and known methods. Approaching this for problems that go beyond testing the performance of a quantum device is an important step, and quantum simulation of many-body quench dynamics is one of the most promising candidates for early practical quantum advantage. We analyse the requirements for quantitatively reliable quantum simulation beyond the capabilities of existing classical methods for analogue quantum simulators with neutral atoms in optical lattices and trapped ions. Considering the primary sources of error in analogue devices and how they propagate after a quench in studies of the Hubbard or long-range transverse field Ising model, we identify the level of error expected in quantities we extract from experiments. We conclude for models that are directly implementable that regimes of practical quantum advantage are attained in current experiments with analogue simulators. We also identify the hardware requirements to reach the same level of accuracy with future fault-tolerant digital quantum simulation. Verification techniques are already available to test the assumptions we make here, and demonstrating these in experiments will be an important next step.</description>
-  </item>
-
-  <item>
     <title>The battle of clean and dirty qubits in the era of partial error correction</title>
     <link>http://arxiv.org/pdf/2205.13454</link>
     <author>Daniel Bultrini, Samson Wang, Piotr Czarnik, Max Hunter Gordon, M. Cerezo, Patrick J. Coles, Lukasz Cincio</author>
     <pubDate>May 27 2022</pubDate>
     <description>When error correction becomes possible it will be necessary to dedicate a large number of physical qubits to each logical qubit. Error correction allows for deeper circuits to be run, but each additional physical qubit can potentially contribute an exponential increase in computational space, so there is a trade-off between using qubits for error correction or using them as noisy qubits. In this work we look at the effects of using noisy qubits in conjunction with noiseless qubits (an idealized model for error-corrected qubits), which we call the "clean and dirty" setup. We employ analytical models and numerical simulations to characterize this setup. Numerically we show the appearance of Noise-Induced Barren Plateaus (NIBPs), i.e., an exponential concentration of observables caused by noise, in an Ising model Hamiltonian variational ansatz circuit. We observe this even if only a single qubit is noisy and given a deep enough circuit, suggesting that NIBPs cannot be fully overcome simply by error-correcting a subset of the qubits. On the positive side, we find that for every noiseless qubit in the circuit, there is an exponential suppression in concentration of gradient observables, showing the benefit of partial error correction. Finally, our analytical models corroborate these findings by showing that observables concentrate with a scaling in the exponent related to the ratio of dirty-to-total qubits.</description>
+  </item>
+
+  <item>
+    <title>Measurement incompatibility vs. Bell non-locality: an approach via tensor norms</title>
+    <link>http://arxiv.org/pdf/2205.12668</link>
+    <author>Faedi Loulidi, Ion Nechita</author>
+    <pubDate>May 26 2022</pubDate>
+    <description>Measurement incompatibility and quantum non-locality are two key features of quantum theory. Violations of Bell inequalities require quantum entanglement and incompatibility of the measurements used by the two parties involved in the protocol. We analyze the converse question: for which Bell inequalities is the incompatibility of measurements enough to ensure a quantum violation? We relate the two questions by comparing two tensor norms on the space of dichotomic quantum measurements: one characterizing measurement compatibility and the second one characterizing violations of a given Bell inequality. We provide sufficient conditions for the equivalence of the two notions in terms of the matrix describing the correlation Bell inequality. We show that the CHSH inequality and its variants are the only ones satisfying it.</description>
+  </item>
+
+  <item>
+    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
+    <link>http://arxiv.org/pdf/2205.12127</link>
+    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
+  </item>
+
+  <item>
+    <title>Hay from the haystack: explicit examples of exponential quantum circuit complexity</title>
+    <link>http://arxiv.org/pdf/2205.06977</link>
+    <author>Yifan Jia, Michael M. Wolf</author>
+    <pubDate>May 17 2022</pubDate>
+    <description>The vast majority of quantum states and unitaries have circuit complexity exponential in the number of qubits. In a similar vein, most of them also have exponential minimum description length, which makes it difficult to pinpoint examples of exponential complexity. In this work, we construct examples of constant description length but exponential circuit complexity. We provide infinite families such that each element requires an exponential number of two-qubit gates to be generated exactly from a product and where the same is true for the approximate generation of the vast majority of elements in the family. The results are based on sets of large transcendence degree and discussed for tensor networks, diagonal unitaries, and maximally coherent states.</description>
   </item>
 
 </channel>
