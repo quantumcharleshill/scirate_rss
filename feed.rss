@@ -87,19 +87,19 @@
   </item>
 
   <item>
-    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
-    <link>http://arxiv.org/pdf/2205.00519</link>
-    <author>Arthur G. Rattew, Bálint Koczor</author>
-    <pubDate>May 03 2022</pubDate>
-    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
-  </item>
-
-  <item>
     <title>Tensor Network Algorithms: a Route Map</title>
     <link>http://arxiv.org/pdf/2205.10345</link>
     <author>Mari Carmen Bañuls</author>
     <pubDate>May 23 2022</pubDate>
     <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
+  </item>
+
+  <item>
+    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
+    <link>http://arxiv.org/pdf/2205.00519</link>
+    <author>Arthur G. Rattew, Bálint Koczor</author>
+    <pubDate>May 03 2022</pubDate>
+    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
   </item>
 
   <item>
@@ -111,14 +111,6 @@
   </item>
 
   <item>
-    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
-    <link>http://arxiv.org/pdf/2205.04633</link>
-    <author>Atsuya Hasegawa, François Le Gall</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
-  </item>
-
-  <item>
     <title>Perturbation Theory and the Sum of Squares</title>
     <link>http://arxiv.org/pdf/2205.12325</link>
     <author>Matthew B. Hastings</author>
@@ -127,19 +119,27 @@
   </item>
 
   <item>
-    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
-    <link>http://arxiv.org/pdf/2205.08915</link>
-    <author>Henrik Wilming</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
-  </item>
-
-  <item>
     <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
     <link>http://arxiv.org/pdf/2205.12211</link>
     <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
     <pubDate>May 25 2022</pubDate>
     <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
+  </item>
+
+  <item>
+    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
+    <link>http://arxiv.org/pdf/2205.04633</link>
+    <author>Atsuya Hasegawa, François Le Gall</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
+  </item>
+
+  <item>
+    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
+    <link>http://arxiv.org/pdf/2205.08915</link>
+    <author>Henrik Wilming</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
   </item>
 
   <item>
@@ -159,19 +159,19 @@
   </item>
 
   <item>
-    <title>Estimating the frame potential of large-scale quantum circuit sampling using tensor networks up to 50 qubits</title>
-    <link>http://arxiv.org/pdf/2205.09900</link>
-    <author>Minzhao Liu, Junyu Liu, Yuri Alexeev, Liang Jiang</author>
-    <pubDate>May 23 2022</pubDate>
-    <description>We develop numerical protocols for estimating the frame potential, the 2-norm distance between a given ensemble and the exact Haar randomness, using the \textttQTensor platform. Our tensor-network-based algorithm has polynomial complexity for shallow circuits and is high performing using CPU and GPU parallelism. We apply the above methods to two problems: the Brown-Susskind conjecture, with local and parallel random circuits in terms of the Haar distance and the approximate $k$-design properties of the hardware efficient ansätze in quantum machine learning, which induce the barren plateau problem. We estimate frame potentials with these ensembles up to 50 qubits and $k=5$, examine the Haar distance of the hardware-efficient ansätze, and verify the Brown-Susskind conjecture numerically. Our work shows that large-scale tensor network simulations could provide important hints toward open problems in quantum information science.</description>
+    <title>The battle of clean and dirty qubits in the era of partial error correction</title>
+    <link>http://arxiv.org/pdf/2205.13454</link>
+    <author>Daniel Bultrini, Samson Wang, Piotr Czarnik, Max Hunter Gordon, M. Cerezo, Patrick J. Coles, Lukasz Cincio</author>
+    <pubDate>May 27 2022</pubDate>
+    <description>When error correction becomes possible it will be necessary to dedicate a large number of physical qubits to each logical qubit. Error correction allows for deeper circuits to be run, but each additional physical qubit can potentially contribute an exponential increase in computational space, so there is a trade-off between using qubits for error correction or using them as noisy qubits. In this work we look at the effects of using noisy qubits in conjunction with noiseless qubits (an idealized model for error-corrected qubits), which we call the "clean and dirty" setup. We employ analytical models and numerical simulations to characterize this setup. Numerically we show the appearance of Noise-Induced Barren Plateaus (NIBPs), i.e., an exponential concentration of observables caused by noise, in an Ising model Hamiltonian variational ansatz circuit. We observe this even if only a single qubit is noisy and given a deep enough circuit, suggesting that NIBPs cannot be fully overcome simply by error-correcting a subset of the qubits. On the positive side, we find that for every noiseless qubit in the circuit, there is an exponential suppression in concentration of gradient observables, showing the benefit of partial error correction. Finally, our analytical models corroborate these findings by showing that observables concentrate with a scaling in the exponent related to the ratio of dirty-to-total qubits.</description>
   </item>
 
   <item>
-    <title>Optimising shadow tomography with generalised measurements</title>
-    <link>http://arxiv.org/pdf/2205.08990</link>
-    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
+    <title>Classically optimized Hamiltonian simulation</title>
+    <link>http://arxiv.org/pdf/2205.11427</link>
+    <author>Conor Mc Keever, Michael Lubasch</author>
+    <pubDate>May 24 2022</pubDate>
+    <description>Hamiltonian simulation is a promising application for quantum computers to achieve a quantum advantage. We present classical algorithms based on tensor network methods to optimize quantum circuits for this task. We show that the classically optimized circuits can be orders of magnitude more accurate than Trotter product formulas.</description>
   </item>
 
   <item>
@@ -191,35 +191,27 @@
   </item>
 
   <item>
-    <title>Classically optimized Hamiltonian simulation</title>
-    <link>http://arxiv.org/pdf/2205.11427</link>
-    <author>Conor Mc Keever, Michael Lubasch</author>
-    <pubDate>May 24 2022</pubDate>
-    <description>Hamiltonian simulation is a promising application for quantum computers to achieve a quantum advantage. We present classical algorithms based on tensor network methods to optimize quantum circuits for this task. We show that the classically optimized circuits can be orders of magnitude more accurate than Trotter product formulas.</description>
+    <title>Estimating the frame potential of large-scale quantum circuit sampling using tensor networks up to 50 qubits</title>
+    <link>http://arxiv.org/pdf/2205.09900</link>
+    <author>Minzhao Liu, Junyu Liu, Yuri Alexeev, Liang Jiang</author>
+    <pubDate>May 23 2022</pubDate>
+    <description>We develop numerical protocols for estimating the frame potential, the 2-norm distance between a given ensemble and the exact Haar randomness, using the \textttQTensor platform. Our tensor-network-based algorithm has polynomial complexity for shallow circuits and is high performing using CPU and GPU parallelism. We apply the above methods to two problems: the Brown-Susskind conjecture, with local and parallel random circuits in terms of the Haar distance and the approximate $k$-design properties of the hardware efficient ansätze in quantum machine learning, which induce the barren plateau problem. We estimate frame potentials with these ensembles up to 50 qubits and $k=5$, examine the Haar distance of the hardware-efficient ansätze, and verify the Brown-Susskind conjecture numerically. Our work shows that large-scale tensor network simulations could provide important hints toward open problems in quantum information science.</description>
   </item>
 
   <item>
-    <title>Classical verification of quantum depth</title>
-    <link>http://arxiv.org/pdf/2205.04656</link>
-    <author>Nai-Hui Chia, Shih-Han Hung</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>We present two protocols for classical verification of quantum depth. Our protocols allow a purely classical verifier to distinguish devices with different quantum circuit depths even in the presence of classical computation. We show that a device with quantum circuit depth at most d will be rejected by the verifier even if the prover applies additional polynomial-time classical computation to cheat. On the other hand, the verifier accepts a device which has quantum circuit depth d' for some d'>d. In our first protocol, we introduce an additional untrusted quantum machine which shares entanglements with the target machine. Applying a robust self-test, our first protocol certifies the depth of the target machine with information theoretic security and nearly optimal separation. The protocol relies on the oracle separation problem for quantum depth by Chia, Chung and Lai [STOC 2020] and a transformation from an oracle separation problem to a two-player non-local game. Our second protocol certifies the quantum depth of a single device based on quantum hardness of learning with errors. The protocol relies on the noisy trapdoor claw-free function family and the idea of pointer chasing to force the prover to keep quantum coherence until all preceding message exchanges are completed. To our knowledge, we give the first constructions for distinguishing hybrid quantum-classical computers with different circuit depths in unrelativized models.</description>
+    <title>Optimising shadow tomography with generalised measurements</title>
+    <link>http://arxiv.org/pdf/2205.08990</link>
+    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
   </item>
 
   <item>
-    <title>Quantum Dictionaries without QRAM</title>
-    <link>http://arxiv.org/pdf/2204.13835</link>
-    <author>Craig Gidney</author>
-    <pubDate>May 02 2022</pubDate>
-    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
-  </item>
-
-  <item>
-    <title>The battle of clean and dirty qubits in the era of partial error correction</title>
-    <link>http://arxiv.org/pdf/2205.13454</link>
-    <author>Daniel Bultrini, Samson Wang, Piotr Czarnik, Max Hunter Gordon, M. Cerezo, Patrick J. Coles, Lukasz Cincio</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>When error correction becomes possible it will be necessary to dedicate a large number of physical qubits to each logical qubit. Error correction allows for deeper circuits to be run, but each additional physical qubit can potentially contribute an exponential increase in computational space, so there is a trade-off between using qubits for error correction or using them as noisy qubits. In this work we look at the effects of using noisy qubits in conjunction with noiseless qubits (an idealized model for error-corrected qubits), which we call the "clean and dirty" setup. We employ analytical models and numerical simulations to characterize this setup. Numerically we show the appearance of Noise-Induced Barren Plateaus (NIBPs), i.e., an exponential concentration of observables caused by noise, in an Ising model Hamiltonian variational ansatz circuit. We observe this even if only a single qubit is noisy and given a deep enough circuit, suggesting that NIBPs cannot be fully overcome simply by error-correcting a subset of the qubits. On the positive side, we find that for every noiseless qubit in the circuit, there is an exponential suppression in concentration of gradient observables, showing the benefit of partial error correction. Finally, our analytical models corroborate these findings by showing that observables concentrate with a scaling in the exponent related to the ratio of dirty-to-total qubits.</description>
+    <title>On the Role of Quantum Coherence in Thermodynamics</title>
+    <link>http://arxiv.org/pdf/2205.13612</link>
+    <author>Gilad Gour</author>
+    <pubDate>May 30 2022</pubDate>
+    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
   </item>
 
   <item>
@@ -231,6 +223,14 @@
   </item>
 
   <item>
+    <title>Classical verification of quantum depth</title>
+    <link>http://arxiv.org/pdf/2205.04656</link>
+    <author>Nai-Hui Chia, Shih-Han Hung</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>We present two protocols for classical verification of quantum depth. Our protocols allow a purely classical verifier to distinguish devices with different quantum circuit depths even in the presence of classical computation. We show that a device with quantum circuit depth at most d will be rejected by the verifier even if the prover applies additional polynomial-time classical computation to cheat. On the other hand, the verifier accepts a device which has quantum circuit depth d' for some d'>d. In our first protocol, we introduce an additional untrusted quantum machine which shares entanglements with the target machine. Applying a robust self-test, our first protocol certifies the depth of the target machine with information theoretic security and nearly optimal separation. The protocol relies on the oracle separation problem for quantum depth by Chia, Chung and Lai [STOC 2020] and a transformation from an oracle separation problem to a two-player non-local game. Our second protocol certifies the quantum depth of a single device based on quantum hardness of learning with errors. The protocol relies on the noisy trapdoor claw-free function family and the idea of pointer chasing to force the prover to keep quantum coherence until all preceding message exchanges are completed. To our knowledge, we give the first constructions for distinguishing hybrid quantum-classical computers with different circuit depths in unrelativized models.</description>
+  </item>
+
+  <item>
     <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
     <link>http://arxiv.org/pdf/2205.12127</link>
     <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Hay from the haystack: explicit examples of exponential quantum circuit complexity</title>
-    <link>http://arxiv.org/pdf/2205.06977</link>
-    <author>Yifan Jia, Michael M. Wolf</author>
-    <pubDate>May 17 2022</pubDate>
-    <description>The vast majority of quantum states and unitaries have circuit complexity exponential in the number of qubits. In a similar vein, most of them also have exponential minimum description length, which makes it difficult to pinpoint examples of exponential complexity. In this work, we construct examples of constant description length but exponential circuit complexity. We provide infinite families such that each element requires an exponential number of two-qubit gates to be generated exactly from a product and where the same is true for the approximate generation of the vast majority of elements in the family. The results are based on sets of large transcendence degree and discussed for tensor networks, diagonal unitaries, and maximally coherent states.</description>
+    <title>Quantum Dictionaries without QRAM</title>
+    <link>http://arxiv.org/pdf/2204.13835</link>
+    <author>Craig Gidney</author>
+    <pubDate>May 02 2022</pubDate>
+    <description>This paper presents an efficient gate-level implementation of a quantum dictionary: a data structure that can store a superposition of mappings from keys to values. The dictionary is stored as a fixed-length list of sorted address-value pairs, where the length of the list is the maximum number of entries that can be put in the dictionary. An addressed value can be extracted from (or injected into) the dictionary using $C \cdot (V + 2.5A) + O(V + A + C)$ expected Toffoli gates and $O(V + A)$ auxiliary qubits (where $C$ is the maximum capacity, $A$ is the address width, and $V$ is the value width).</description>
   </item>
 
 </channel>
