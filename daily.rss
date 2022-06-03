@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Approaching optimal entangling collective measurements on quantum computing platforms</title>
-    <link>http://arxiv.org/pdf/2205.15358</link>
-    <author>Lorcan O. Conlon, Tobias Vogl, Christian D. Marciniak, Ivan Pogorelov, Simon K. Yung, Falk Eilenberger, Dominic W. Berry, Fabiana S. Santana, Rainer Blatt, Thomas Monz, Ping Koy Lam, Syed M. Assad</author>
-    <pubDate>Jun 01 2022</pubDate>
-    <description>Entanglement is one of the most intriguing features of quantum mechanics and holds great promise for enhancing metrology and communications. Much of the focus of quantum metrology to date has been on generating highly entangled quantum states which offer better sensitivity, per resource, than can be achieved classically [1-3]. However, to reach the ultimate limits in multi-parameter quantum metrology and quantum information processing tasks, collective measurements, which generate entanglement between multiple copies of the quantum state, are necessary [4-6]. There is presently no known method for implementing arbitrary, optimal collective measurements on more than two copies of the quantum state. Here we experimentally demonstrate theoretically optimal single-copy (separable) and two-copy (entangled) collective measurements for simultaneously estimating two non-commuting qubit rotations. This allows us to draw fundamental insights about the interpretation of the uncertainty principle. We implement our optimal measurements on superconducting, trapped-ion and photonic systems, providing an indication of how future quantum-enhanced sensing networks may look. This work offers a pathway to extracting the maximal advantage of quantum mechanics for information processing tasks [7, 8].</description>
-  </item>
-
-  <item>
-    <title>Quantum Correlations in Molecules: A Quantum Information Toolbox for Chemists</title>
-    <link>http://arxiv.org/pdf/2205.15881</link>
-    <author>Lexin Ding, Stefan Knecht, Zoltán Zimborás, Christian Schilling</author>
-    <pubDate>Jun 01 2022</pubDate>
-    <description>The second quantum revolution is all about exploiting the quantum nature of atoms and molecules to execute quantum information processing tasks. To support this growing endeavor and by anticipating the key role of quantum chemistry therein, our work establishes a toolbox for systematically exploring, quantifying and dissecting correlation effects in quantum chemical systems. By utilizing the geometric picture of quantum states we compare -- on a unified basis and in an operationally meaningful way -- total, quantum and classical correlation and entanglement in molecular ground states. To maximize the quantum informational resourcefulness of molecules an orbital optimization scheme is provided, leading to a paradigm-shifting insight: A single covalent bond equates to the entanglement $2\ln(2)$. This novel and more versatile perspective on electronic structure suggests a generalization of valence bond theory, overcoming deficiencies of modern chemical bonding theories.</description>
-  </item>
-
-  <item>
     <title>Modular Commutators in Conformal Field Theory</title>
     <link>http://arxiv.org/pdf/2206.00027</link>
     <author>Yijian Zou, Bowen Shi, Ian T. Lim, Isaac H. Kim</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>QuanEstimation: an open-source toolkit for quantum parameter estimation</title>
-    <link>http://arxiv.org/pdf/2205.15588</link>
-    <author>Mao Zhang, Huai-Ming Yu, Haidong Yuan, Xiaoguang Wang, Rafał Demkowicz-Dobrzański, Jing Liu</author>
-    <pubDate>Jun 01 2022</pubDate>
-    <description>Quantum parameter estimation promises a high-precision measurement in theory, however, how to design the optimal scheme in a specific scenario, especially under a practical condition, is still a serious problem that needs to be solved case by case due to the existence of multiple mathematical bounds and optimization methods. Depending on the scenario considered, different bounds may be more or less suitable, both in terms of computational complexity and the tightness of the bound itself. At the same time, the metrological schemes provided by different optimization methods need to be tested against realization complexity, robustness, etc. Hence, a comprehensive toolkit containing various bounds and optimization methods is essential for the scheme design in quantum metrology. To fill this vacancy, here we present a Python-Julia-based open-source toolkit for quantum parameter estimation, which includes many well-used mathematical bounds and optimization methods. Utilizing this toolkit, all procedures in the scheme design, such as the optimizations of the probe state, control and measurement, can be readily and efficiently performed.</description>
+    <title>Adaptive Online Learning of Quantum States</title>
+    <link>http://arxiv.org/pdf/2206.00220</link>
+    <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>In the fundamental problem of shadow tomography, the goal is to efficiently learn an unknown $d$-dimensional quantum state using projective measurements. However, it is rarely the case that the underlying state remains stationary: changes may occur due to measurements, environmental noise, or an underlying Hamiltonian state evolution. In this paper we adopt tools from adaptive online learning to learn a changing state, giving adaptive and dynamic regret bounds for online shadow tomography that are polynomial in the number of qubits and sublinear in the number of measurements. Our analysis utilizes tools from complex matrix analysis to cope with complex numbers, which may be of independent interest in online learning. In addition, we provide numerical experiments that corroborate our theoretical results.</description>
   </item>
 
   <item>
-    <title>Quantum Optimal Control: Practical Aspects and Diverse Methods</title>
-    <link>http://arxiv.org/pdf/2205.15574</link>
-    <author>T S Mahesh, Priya Batra, M. Harshanth Ram</author>
-    <pubDate>Jun 01 2022</pubDate>
-    <description>Quantum controls realize the unitary or nonunitary operations employed in quantum computers, quantum simulators, quantum communications, and other quantum information devices. They implement the desired quantum dynamics with the help of electric, magnetic, or electromagnetic control fields. Quantum optimal control (QOC) deals with designing an optimal control field modulation that most precisely implements a desired quantum operation with minimum energy consumption and maximum robustness against hardware imperfections as well as external noise. Over the last two decades, numerous QOC methods have been proposed. They include asymptotic methods, direct search, gradient methods, variational methods, machine learning methods, etc. In this review, we shall introduce the basic ideas of QOC, discuss practical challenges, and then take an overview of the diverse QOC methods.</description>
+    <title>Experimental single-setting quantum state tomography</title>
+    <link>http://arxiv.org/pdf/2206.00019</link>
+    <author>Roman Stricker, Michael Meth, Lukas Postler, Claire Edmunds, Chris Ferrie, Rainer Blatt, Philipp Schindler, Thomas Monz, Richard Kueng, Martin Ringbauer</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>Quantum computers solve ever more complex tasks using steadily growing system sizes. Characterizing these quantum systems is vital, yet becoming increasingly challenging. The gold-standard is quantum state tomography (QST), capable of fully reconstructing a quantum state without prior knowledge. Measurement and classical computing costs, however, increase exponentially in the system size - a bottleneck given the scale of existing and near-term quantum devices. Here, we demonstrate a scalable and practical QST approach that uses a single measurement setting, namely symmetric informationally complete (SIC) positive operator-valued measures (POVM). We implement these nonorthogonal measurements on an ion trap device by utilizing more energy levels in each ion - without ancilla qubits. More precisely, we locally map the SIC POVM to orthogonal states embedded in a higher-dimensional system, which we read out using repeated in-sequence detections, providing full tomographic information in every shot. Combining this SIC tomography with the recently developed randomized measurement toolbox ("classical shadows") proves to be a powerful combination. SIC tomography alleviates the need for choosing measurement settings at random ("derandomization"), while classical shadows enable the estimation of arbitrary polynomial functions of the density matrix orders of magnitudes faster than standard methods. The latter enables in-depth entanglement studies, which we experimentally showcase on a 5-qubit absolutely maximally entangled (AME) state. Moreover, the fact that the full tomography information is available in every shot enables online QST in real time. We demonstrate this on an 8-qubit entangled state, as well as for fast state identification. All in all, these features single out SIC-based classical shadow estimation as a highly scalable and convenient tool for quantum state characterization.</description>
+  </item>
+
+  <item>
+    <title>The Quantum and Classical Streaming Complexity of Quantum and Classical Max-Cut</title>
+    <link>http://arxiv.org/pdf/2206.00213</link>
+    <author>John Kallaugher, Ojas Parekh</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>We investigate the space complexity of two graph streaming problems: Max-Cut and its quantum analogue, Quantum Max-Cut. Previous work by Kapralov and Krachun [STOC `19] resolved the classical complexity of the \emphclassical problem, showing that any $(2 - \varepsilon)$-approximation requires $\Omega(n)$ space (a $2$-approximation is trivial with $\textrm{O}(\log n)$ space). We generalize both of these qualifiers, demonstrating $\Omega(n)$ space lower bounds for $(2 - \varepsilon)$-approximating Max-Cut and Quantum Max-Cut, even if the algorithm is allowed to maintain a quantum state. As the trivial approximation algorithm for Quantum Max-Cut only gives a $4$-approximation, we show tightness with an algorithm that returns a $(2 + \varepsilon)$-approximation to the Quantum Max-Cut value of a graph in $\textrm{O}(\log n)$ space. Our work resolves the quantum and classical approximability of quantum and classical Max-Cut using $\textrm{o}(n)$ space. We prove our lower bounds through the techniques of Boolean Fourier analysis. We give the first application of these methods to sequential one-way quantum communication, in which each player receives a quantum message from the previous player, and can then perform arbitrary quantum operations on it before sending it to the next. To this end, we show how Fourier-analytic techniques may be used to understand the application of a quantum channel.</description>
+  </item>
+
+  <item>
+    <title>Defining Quantum Games</title>
+    <link>http://arxiv.org/pdf/2206.00089</link>
+    <author>Laura Piispanen, Marcel Pfaffhauser, Annakaisa Kultima, James R. Wootton</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>In this article, we explore the concept of quantum games and define quantum games as any type of playable games that are related to or reference quantum physics through any of three proposed aspects. The rise of the quantum computers has made it possible to think about a new wave of computer games, namely quantum computer games, games on quantum computers. But at the same time, there are also various games that are exploring quantum mechanics and related topics through digital, analogue and hybrid means. In this article we go through the emerging body of quantum games, the history of quantum games and the different ways a game may be considered a quantum game. For this we propose three dimensions for analysing and defining the phenomenon of quantum games: the perceivable dimension of quantum games, the dimension of quantum technologies and the dimension of scientific purposes.</description>
   </item>
 
 </channel>

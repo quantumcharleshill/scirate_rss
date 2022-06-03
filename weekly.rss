@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>The battle of clean and dirty qubits in the era of partial error correction</title>
-    <link>http://arxiv.org/pdf/2205.13454</link>
-    <author>Daniel Bultrini, Samson Wang, Piotr Czarnik, Max Hunter Gordon, M. Cerezo, Patrick J. Coles, Lukasz Cincio</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>When error correction becomes possible it will be necessary to dedicate a large number of physical qubits to each logical qubit. Error correction allows for deeper circuits to be run, but each additional physical qubit can potentially contribute an exponential increase in computational space, so there is a trade-off between using qubits for error correction or using them as noisy qubits. In this work we look at the effects of using noisy qubits in conjunction with noiseless qubits (an idealized model for error-corrected qubits), which we call the "clean and dirty" setup. We employ analytical models and numerical simulations to characterize this setup. Numerically we show the appearance of Noise-Induced Barren Plateaus (NIBPs), i.e., an exponential concentration of observables caused by noise, in an Ising model Hamiltonian variational ansatz circuit. We observe this even if only a single qubit is noisy and given a deep enough circuit, suggesting that NIBPs cannot be fully overcome simply by error-correcting a subset of the qubits. On the positive side, we find that for every noiseless qubit in the circuit, there is an exponential suppression in concentration of gradient observables, showing the benefit of partial error correction. Finally, our analytical models corroborate these findings by showing that observables concentrate with a scaling in the exponent related to the ratio of dirty-to-total qubits.</description>
-  </item>
-
-  <item>
     <title>On the Role of Quantum Coherence in Thermodynamics</title>
     <link>http://arxiv.org/pdf/2205.13612</link>
     <author>Gilad Gour</author>
@@ -31,19 +23,19 @@
   </item>
 
   <item>
-    <title>Mitigating barren plateaus of variational quantum eigensolvers</title>
-    <link>http://arxiv.org/pdf/2205.13539</link>
-    <author>Xia Liu, Geng Liu, Jiaxin Huang, Xin Wang</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>Variational quantum algorithms (VQAs) are expected to establish valuable applications on near-term quantum computers. However, recent works have pointed out that the performance of VQAs greatly relies on the capability of the ansatzes and is seriously limited by optimization issues such as barren plateaus (i.e., vanishing gradients). This work proposes the state efficient ansatz (SEA) for accurate quantum dynamics simulations with improved trainability. First, we show that SEA can generate an arbitrary pure state with much fewer parameters than a universal ansatz, making it efficient for tasks like ground state estimation. It also has the flexibility in adjusting the entanglement of the prepared state, which could be applied to further improve the efficiency of simulating weak entanglement. Second, we show that SEA is not a unitary 2-design even if it has universal wavefunction expressibility and thus has great potential to improve the trainability by avoiding the zone of barren plateaus. We further investigate a plethora of examples in ground state estimation and notably obtain significant improvements in the variances of derivatives and the overall optimization behaviors. This result indicates that SEA can mitigate barren plateaus by sacrificing the redundant expressibility for the target problem.</description>
+    <title>Modular Commutators in Conformal Field Theory</title>
+    <link>http://arxiv.org/pdf/2206.00027</link>
+    <author>Yijian Zou, Bowen Shi, Ian T. Lim, Isaac H. Kim</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $2+1$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose the geometric dual of the modular commutator in the AdS/CFT correspondence. We argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
   </item>
 
   <item>
-    <title>Simulation Complexity of Many-Body Localized Systems</title>
-    <link>http://arxiv.org/pdf/2205.12967</link>
-    <author>Adam Ehrenberg, Abhinav Deshpande, Christopher L. Baldwin, Dmitry A. Abanin, Alexey V. Gorshkov</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>We use complexity theory to rigorously investigate the difficulty of classically simulating evolution under many-body localized (MBL) Hamiltonians. Using the defining feature that MBL systems have a complete set of quasilocal integrals of motion (LIOMs), we demonstrate a transition in the classical complexity of simulating such systems as a function of evolution time. On one side, we construct a quasipolynomial-time tensor-network-inspired algorithm for strong simulation of 1D MBL systems (i.e., calculating the expectation value of arbitrary products of local observables) evolved for any time polynomial in the system size. On the other side, we prove that even weak simulation, i.e. sampling, becomes formally hard after an exponentially long evolution time, assuming widely believed conjectures in complexity theory. Finally, using the consequences of our classical simulation results, we also show that the quantum circuit complexity for MBL systems is sublinear in evolution time. This result is a counterpart to a recent proof that the complexity of random quantum circuits grows linearly in time.</description>
+    <title>Adaptive Online Learning of Quantum States</title>
+    <link>http://arxiv.org/pdf/2206.00220</link>
+    <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>In the fundamental problem of shadow tomography, the goal is to efficiently learn an unknown $d$-dimensional quantum state using projective measurements. However, it is rarely the case that the underlying state remains stationary: changes may occur due to measurements, environmental noise, or an underlying Hamiltonian state evolution. In this paper we adopt tools from adaptive online learning to learn a changing state, giving adaptive and dynamic regret bounds for online shadow tomography that are polynomial in the number of qubits and sublinear in the number of measurements. Our analysis utilizes tools from complex matrix analysis to cope with complex numbers, which may be of independent interest in online learning. In addition, we provide numerical experiments that corroborate our theoretical results.</description>
   </item>
 
   <item>
@@ -63,14 +55,6 @@
   </item>
 
   <item>
-    <title>Quantum error correction in a time-dependent transverse field Ising model</title>
-    <link>http://arxiv.org/pdf/2205.12998</link>
-    <author>Yifan Hong, Jeremy T. Young, Adam M. Kaufman, Andrew Lucas</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>We describe a simple quantum error correcting code built out of a time-dependent transverse field Ising model. The code is similar to a repetition code, but has two advantages: an $N$-qubit code can be implemented with a finite-depth spatially local unitary circuit, and it can subsequently protect against both $X$ and $Z$ errors if $N\ge 10$ is even. We propose an implementation of this code with 10 ultracold Rydberg atoms in optical tweezers, along with further generalizations of the code.</description>
-  </item>
-
-  <item>
     <title>Quantum-assisted Monte Carlo algorithms for fermions</title>
     <link>http://arxiv.org/pdf/2205.14903</link>
     <author>Xiaosi Xu, Ying Li</author>
@@ -84,6 +68,22 @@
     <author>Lorcan O. Conlon, Tobias Vogl, Christian D. Marciniak, Ivan Pogorelov, Simon K. Yung, Falk Eilenberger, Dominic W. Berry, Fabiana S. Santana, Rainer Blatt, Thomas Monz, Ping Koy Lam, Syed M. Assad</author>
     <pubDate>Jun 01 2022</pubDate>
     <description>Entanglement is one of the most intriguing features of quantum mechanics and holds great promise for enhancing metrology and communications. Much of the focus of quantum metrology to date has been on generating highly entangled quantum states which offer better sensitivity, per resource, than can be achieved classically [1-3]. However, to reach the ultimate limits in multi-parameter quantum metrology and quantum information processing tasks, collective measurements, which generate entanglement between multiple copies of the quantum state, are necessary [4-6]. There is presently no known method for implementing arbitrary, optimal collective measurements on more than two copies of the quantum state. Here we experimentally demonstrate theoretically optimal single-copy (separable) and two-copy (entangled) collective measurements for simultaneously estimating two non-commuting qubit rotations. This allows us to draw fundamental insights about the interpretation of the uncertainty principle. We implement our optimal measurements on superconducting, trapped-ion and photonic systems, providing an indication of how future quantum-enhanced sensing networks may look. This work offers a pathway to extracting the maximal advantage of quantum mechanics for information processing tasks [7, 8].</description>
+  </item>
+
+  <item>
+    <title>Experimental single-setting quantum state tomography</title>
+    <link>http://arxiv.org/pdf/2206.00019</link>
+    <author>Roman Stricker, Michael Meth, Lukas Postler, Claire Edmunds, Chris Ferrie, Rainer Blatt, Philipp Schindler, Thomas Monz, Richard Kueng, Martin Ringbauer</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>Quantum computers solve ever more complex tasks using steadily growing system sizes. Characterizing these quantum systems is vital, yet becoming increasingly challenging. The gold-standard is quantum state tomography (QST), capable of fully reconstructing a quantum state without prior knowledge. Measurement and classical computing costs, however, increase exponentially in the system size - a bottleneck given the scale of existing and near-term quantum devices. Here, we demonstrate a scalable and practical QST approach that uses a single measurement setting, namely symmetric informationally complete (SIC) positive operator-valued measures (POVM). We implement these nonorthogonal measurements on an ion trap device by utilizing more energy levels in each ion - without ancilla qubits. More precisely, we locally map the SIC POVM to orthogonal states embedded in a higher-dimensional system, which we read out using repeated in-sequence detections, providing full tomographic information in every shot. Combining this SIC tomography with the recently developed randomized measurement toolbox ("classical shadows") proves to be a powerful combination. SIC tomography alleviates the need for choosing measurement settings at random ("derandomization"), while classical shadows enable the estimation of arbitrary polynomial functions of the density matrix orders of magnitudes faster than standard methods. The latter enables in-depth entanglement studies, which we experimentally showcase on a 5-qubit absolutely maximally entangled (AME) state. Moreover, the fact that the full tomography information is available in every shot enables online QST in real time. We demonstrate this on an 8-qubit entangled state, as well as for fast state identification. All in all, these features single out SIC-based classical shadow estimation as a highly scalable and convenient tool for quantum state characterization.</description>
+  </item>
+
+  <item>
+    <title>Quantum Correlations in Molecules: A Quantum Information Toolbox for Chemists</title>
+    <link>http://arxiv.org/pdf/2205.15881</link>
+    <author>Lexin Ding, Stefan Knecht, Zoltán Zimborás, Christian Schilling</author>
+    <pubDate>Jun 01 2022</pubDate>
+    <description>The second quantum revolution is all about exploiting the quantum nature of atoms and molecules to execute quantum information processing tasks. To support this growing endeavor and by anticipating the key role of quantum chemistry therein, our work establishes a toolbox for systematically exploring, quantifying and dissecting correlation effects in quantum chemical systems. By utilizing the geometric picture of quantum states we compare -- on a unified basis and in an operationally meaningful way -- total, quantum and classical correlation and entanglement in molecular ground states. To maximize the quantum informational resourcefulness of molecules an orbital optimization scheme is provided, leading to a paradigm-shifting insight: A single covalent bond equates to the entanglement $2\ln(2)$. This novel and more versatile perspective on electronic structure suggests a generalization of valence bond theory, overcoming deficiencies of modern chemical bonding theories.</description>
   </item>
 
 </channel>

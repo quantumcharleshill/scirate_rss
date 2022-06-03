@@ -111,14 +111,6 @@
   </item>
 
   <item>
-    <title>Preparing Arbitrary Continuous Functions in Quantum Registers With Logarithmic Complexity</title>
-    <link>http://arxiv.org/pdf/2205.00519</link>
-    <author>Arthur G. Rattew, Bálint Koczor</author>
-    <pubDate>May 03 2022</pubDate>
-    <description>Quantum computers will be able solve important problems with significant polynomial and exponential speedups over their classical counterparts, for instance in option pricing in finance, and in real-space molecular chemistry simulations. However, key applications can only achieve their potential speedup if their inputs are prepared efficiently. We effectively solve the important problem of efficiently preparing quantum states following arbitrary continuous (as well as more general) functions with complexity logarithmic in the desired resolution, and with rigorous error bounds. This is enabled by the development of a fundamental subroutine based off of the simulation of rank-1 projectors. Combined with diverse techniques from quantum information processing, this subroutine enables us to present a broad set of tools for solving practical tasks, such as state preparation, numerical integration of Lipschitz continuous functions, and superior sampling from probability density functions. As a result, our work has significant implications in a wide range of applications, for instance in financial forecasting, and in quantum simulation.</description>
-  </item>
-
-  <item>
     <title>Fundamental limitations on optimization in variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2205.05056</link>
     <author>Hao-Kai Zhang, Chengkai Zhu, Geng Liu, Xin Wang</author>
@@ -127,19 +119,19 @@
   </item>
 
   <item>
-    <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
-    <link>http://arxiv.org/pdf/2205.12211</link>
-    <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
-    <pubDate>May 25 2022</pubDate>
-    <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
-  </item>
-
-  <item>
     <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
     <link>http://arxiv.org/pdf/2205.04633</link>
     <author>Atsuya Hasegawa, François Le Gall</author>
     <pubDate>May 11 2022</pubDate>
     <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
+  </item>
+
+  <item>
+    <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
+    <link>http://arxiv.org/pdf/2205.12211</link>
+    <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
   </item>
 
   <item>
@@ -175,6 +167,14 @@
   </item>
 
   <item>
+    <title>On the Role of Quantum Coherence in Thermodynamics</title>
+    <link>http://arxiv.org/pdf/2205.13612</link>
+    <author>Gilad Gour</author>
+    <pubDate>May 30 2022</pubDate>
+    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
+  </item>
+
+  <item>
     <title>Classically optimized Hamiltonian simulation</title>
     <link>http://arxiv.org/pdf/2205.11427</link>
     <author>Conor Mc Keever, Michael Lubasch</author>
@@ -188,14 +188,6 @@
     <author>Anthony Polloreno, Graeme Smith</author>
     <pubDate>May 17 2022</pubDate>
     <description>The Quantum Approximate Optimization Algorithm (QAOA) was originally developed to solve combinatorial optimization problems, but has become a standard for assessing the performance of quantum computers. Fully descriptive benchmarking techniques are often prohibitively expensive for large numbers of qubits ($n \gtrsim 10$), so the QAOA often serves in practice as a computational benchmark. The QAOA involves a classical optimization subroutine that attempts to find optimal parameters for a quantum subroutine. Unfortunately, many optimizers used for the QAOA require many shots ($N \gtrsim 1000$) per point in parameter space to get a reliable estimate of the energy being minimized. However, some experimental quantum computing platforms such as neutral atom quantum computers have slow repetition rates, placing unique requirements on the classical optimization subroutine used in the QAOA in these systems. In this paper we investigate the performance of a gradient free classical optimizer for the QAOA - dual annealing - and demonstrate that optimization is possible even with $N=1$ and $n=16$.</description>
-  </item>
-
-  <item>
-    <title>On the Role of Quantum Coherence in Thermodynamics</title>
-    <link>http://arxiv.org/pdf/2205.13612</link>
-    <author>Gilad Gour</author>
-    <pubDate>May 30 2022</pubDate>
-    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
   </item>
 
   <item>
@@ -223,14 +215,6 @@
   </item>
 
   <item>
-    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
-    <link>http://arxiv.org/pdf/2205.12127</link>
-    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
-    <pubDate>May 25 2022</pubDate>
-    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
-  </item>
-
-  <item>
     <title>Classical verification of quantum depth</title>
     <link>http://arxiv.org/pdf/2205.04656</link>
     <author>Nai-Hui Chia, Shih-Han Hung</author>
@@ -239,11 +223,27 @@
   </item>
 
   <item>
-    <title>Mitigating barren plateaus of variational quantum eigensolvers</title>
-    <link>http://arxiv.org/pdf/2205.13539</link>
-    <author>Xia Liu, Geng Liu, Jiaxin Huang, Xin Wang</author>
+    <title>Simulation Complexity of Many-Body Localized Systems</title>
+    <link>http://arxiv.org/pdf/2205.12967</link>
+    <author>Adam Ehrenberg, Abhinav Deshpande, Christopher L. Baldwin, Dmitry A. Abanin, Alexey V. Gorshkov</author>
     <pubDate>May 27 2022</pubDate>
-    <description>Variational quantum algorithms (VQAs) are expected to establish valuable applications on near-term quantum computers. However, recent works have pointed out that the performance of VQAs greatly relies on the capability of the ansatzes and is seriously limited by optimization issues such as barren plateaus (i.e., vanishing gradients). This work proposes the state efficient ansatz (SEA) for accurate quantum dynamics simulations with improved trainability. First, we show that SEA can generate an arbitrary pure state with much fewer parameters than a universal ansatz, making it efficient for tasks like ground state estimation. It also has the flexibility in adjusting the entanglement of the prepared state, which could be applied to further improve the efficiency of simulating weak entanglement. Second, we show that SEA is not a unitary 2-design even if it has universal wavefunction expressibility and thus has great potential to improve the trainability by avoiding the zone of barren plateaus. We further investigate a plethora of examples in ground state estimation and notably obtain significant improvements in the variances of derivatives and the overall optimization behaviors. This result indicates that SEA can mitigate barren plateaus by sacrificing the redundant expressibility for the target problem.</description>
+    <description>We use complexity theory to rigorously investigate the difficulty of classically simulating evolution under many-body localized (MBL) Hamiltonians. Using the defining feature that MBL systems have a complete set of quasilocal integrals of motion (LIOMs), we demonstrate a transition in the classical complexity of simulating such systems as a function of evolution time. On one side, we construct a quasipolynomial-time tensor-network-inspired algorithm for strong simulation of 1D MBL systems (i.e., calculating the expectation value of arbitrary products of local observables) evolved for any time polynomial in the system size. On the other side, we prove that even weak simulation, i.e. sampling, becomes formally hard after an exponentially long evolution time, assuming widely believed conjectures in complexity theory. Finally, using the consequences of our classical simulation results, we also show that the quantum circuit complexity for MBL systems is sublinear in evolution time. This result is a counterpart to a recent proof that the complexity of random quantum circuits grows linearly in time.</description>
+  </item>
+
+  <item>
+    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
+    <link>http://arxiv.org/pdf/2205.12127</link>
+    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
+  </item>
+
+  <item>
+    <title>Modular Commutators in Conformal Field Theory</title>
+    <link>http://arxiv.org/pdf/2206.00027</link>
+    <author>Yijian Zou, Bowen Shi, Ian T. Lim, Isaac H. Kim</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $2+1$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose the geometric dual of the modular commutator in the AdS/CFT correspondence. We argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
   </item>
 
 </channel>
