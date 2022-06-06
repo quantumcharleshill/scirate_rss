@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Solving the sampling problem of the Sycamore quantum supremacy circuits</title>
-    <link>http://arxiv.org/pdf/2111.03011</link>
-    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
-    <pubDate>Nov 05 2021</pubDate>
-    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\widehat P(\mathbf s)=|\widehat \psi(\mathbf s)|^2$, where the approximate state $\widehat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order are made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
-  </item>
-
-  <item>
     <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
     <link>http://arxiv.org/pdf/2201.08309</link>
     <author>Lin Lin</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
+  </item>
+
+  <item>
+    <title>Solving the sampling problem of the Sycamore quantum supremacy circuits</title>
+    <link>http://arxiv.org/pdf/2111.03011</link>
+    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
+    <pubDate>Nov 05 2021</pubDate>
+    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\widehat P(\mathbf s)=|\widehat \psi(\mathbf s)|^2$, where the approximate state $\widehat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order are made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
   </item>
 
   <item>
@@ -151,6 +151,14 @@
   </item>
 
   <item>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+  </item>
+
+  <item>
     <title>A randomized quantum algorithm for statistical phase estimation</title>
     <link>http://arxiv.org/pdf/2110.12071</link>
     <author>Kianna Wan, Mario Berta, Earl T. Campbell</author>
@@ -164,14 +172,6 @@
     <author>Yulin Wu, Wan-Su Bao, Sirui Cao, Fusheng Chen, Ming-Cheng Chen, Xiawei Chen, Tung-Hsun Chung, Hui Deng, Yajie Du, Daojin Fan, Ming Gong, Cheng Guo, Chu Guo, Shaojun Guo, Lianchen Han, Linyin Hong, He-Liang Huang, Yong-Heng Huo, Liping Li, Na Li, et al (34)</author>
     <pubDate>Jun 29 2021</pubDate>
     <description>Scaling up to a large number of qubits with high-precision control is essential in the demonstrations of quantum computational advantage to exponentially outpace the classical hardware and algorithmic improvements. Here, we develop a two-dimensional programmable superconducting quantum processor, \textitZuchongzhi, which is composed of 66 functional qubits in a tunable coupling architecture. To characterize the performance of the whole system, we perform random quantum circuits sampling for benchmarking, up to a system size of 56 qubits and 20 cycles. The computational cost of the classical simulation of this task is estimated to be 2-3 orders of magnitude higher than the previous work on 53-qubit Sycamore processor [Nature \textbf574, 505 (2019)]. We estimate that the sampling task finished by \textitZuchongzhi in about 1.2 hours will take the most powerful supercomputer at least 8 years. Our work establishes an unambiguous quantum computational advantage that is infeasible for classical computation in a reasonable amount of time. The high-precision and programmable quantum computing platform opens a new door to explore novel many-body phenomena and implement complex quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
   <item>
@@ -223,19 +223,19 @@
   </item>
 
   <item>
-    <title>Low-overhead fault-tolerant quantum computing using long-range connectivity</title>
-    <link>http://arxiv.org/pdf/2110.10794</link>
-    <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
-    <pubDate>Oct 22 2021</pubDate>
-    <description>Vast numbers of qubits will be needed for large-scale quantum computing due to the overheads associated with error correction. We present a scheme for low-overhead fault-tolerant quantum computation based on quantum low-density parity-check (LDPC) codes, where long-range interactions enable many logical qubits to be encoded with a modest number of physical qubits. In our approach, logic gates operate via logical Pauli measurements that preserve both the protection of the LDPC codes as well as the low overheads in terms of the required number of additional qubits. Compared with surface codes with the same code distance, we estimate order-of-magnitude improvements in the overheads for processing around one hundred logical qubits using this approach. Given the high thresholds demonstrated by LDPC codes, our estimates suggest that fault-tolerant quantum computation at this scale may be achievable with a few thousand physical qubits at comparable error rates to what is needed for current approaches.</description>
-  </item>
-
-  <item>
     <title>Quantum many-body systems in thermal equilibrium</title>
     <link>http://arxiv.org/pdf/2204.08349</link>
     <author>Álvaro M. Alhambra</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
+  </item>
+
+  <item>
+    <title>Low-overhead fault-tolerant quantum computing using long-range connectivity</title>
+    <link>http://arxiv.org/pdf/2110.10794</link>
+    <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
+    <pubDate>Oct 22 2021</pubDate>
+    <description>Vast numbers of qubits will be needed for large-scale quantum computing due to the overheads associated with error correction. We present a scheme for low-overhead fault-tolerant quantum computation based on quantum low-density parity-check (LDPC) codes, where long-range interactions enable many logical qubits to be encoded with a modest number of physical qubits. In our approach, logic gates operate via logical Pauli measurements that preserve both the protection of the LDPC codes as well as the low overheads in terms of the required number of additional qubits. Compared with surface codes with the same code distance, we estimate order-of-magnitude improvements in the overheads for processing around one hundred logical qubits using this approach. Given the high thresholds demonstrated by LDPC codes, our estimates suggest that fault-tolerant quantum computation at this scale may be achievable with a few thousand physical qubits at comparable error rates to what is needed for current approaches.</description>
   </item>
 
   <item>
@@ -319,27 +319,19 @@
   </item>
 
   <item>
-    <title>Lower Bounds on Stabilizer Rank</title>
-    <link>http://arxiv.org/pdf/2106.03214</link>
-    <author>Shir Peleg, Amir Shpilka, Ben Lee Volk</author>
-    <pubDate>Jun 08 2021</pubDate>
-    <description>The stabilizer rank of a quantum state $\psi$ is the minimal $r$ such that $\left| \psi \right \rangle = \sum_{j=1}^r c_j \left|\varphi_j \right\rangle$ for $c_j \in \mathbb{C}$ and stabilizer states $\varphi_j$. The running time of several classical simulation methods for quantum circuits is determined by the stabilizer rank of the $n$-th tensor power of single-qubit magic states. We prove a lower bound of $\Omega(n)$ on the stabilizer rank of such states, improving a previous lower bound of $\Omega(\sqrt{n})$ of Bravyi, Smith and Smolin (arXiv:1506.01396). Further, we prove that for a sufficiently small constant $\delta$, the stabilizer rank of any state which is $\delta$-close to those states is $\Omega(\sqrt{n}/\log n)$. This is the first non-trivial lower bound for approximate stabilizer rank. Our techniques rely on the representation of stabilizer states as quadratic functions over affine subspaces of $\mathbb{F}_2^n$, and we use tools from analysis of boolean functions and complexity theory. The proof of the first result involves a careful analysis of directional derivatives of quadratic polynomials, whereas the proof of the second result uses Razborov-Smolensky low degree polynomial approximations and correlation bounds against the majority function.</description>
-  </item>
-
-  <item>
-    <title>Limits of quantum speed-ups for computational geometry and other problems: Fine-grained complexity via quantum walks</title>
-    <link>http://arxiv.org/pdf/2106.02005</link>
-    <author>Harry Buhrman, Bruno Loff, Subhasree Patro, Florian Speelman</author>
-    <pubDate>Jun 04 2021</pubDate>
-    <description>Many computational problems are subject to a quantum speed-up: one might find that a problem having an O(n^3)-time or O(n^2)-time classic algorithm can be solved by a known O(n^1.5)-time or O(n)-time quantum algorithm. The question naturally arises: how much quantum speed-up is possible? The area of fine-grained complexity allows us to prove optimal lower-bounds on the complexity of various computational problems, based on the conjectured hardness of certain natural, well-studied problems. This theory has recently been extended to the quantum setting, in two independent papers by Buhrman, Patro, and Speelman (arXiv:1911.05686), and by Aaronson, Chia, Lin, Wang, and Zhang (arXiv:1911.01973). In this paper, we further extend the theory of fine-grained complexity to the quantum setting. A fundamental conjecture in the classical setting states that the 3SUM problem cannot be solved by (classical) algorithms in time O(n^2-a), for any a>0. We formulate an analogous conjecture, the Quantum-3SUM-Conjecture, which states that there exist no sublinear O(n^1-b)-time quantum algorithms for the 3SUM problem. Based on the Quantum-3SUM-Conjecture, we show new lower-bounds on the time complexity of quantum algorithms for several computational problems. Most of our lower-bounds are optimal, in that they match known upper-bounds, and hence they imply tight limits on the quantum speedup that is possible for these problems.</description>
-  </item>
-
-  <item>
     <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
     <link>http://arxiv.org/pdf/2205.02813</link>
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
     <pubDate>May 06 2022</pubDate>
     <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
+  </item>
+
+  <item>
+    <title>Lower Bounds on Stabilizer Rank</title>
+    <link>http://arxiv.org/pdf/2106.03214</link>
+    <author>Shir Peleg, Amir Shpilka, Ben Lee Volk</author>
+    <pubDate>Jun 08 2021</pubDate>
+    <description>The stabilizer rank of a quantum state $\psi$ is the minimal $r$ such that $\left| \psi \right \rangle = \sum_{j=1}^r c_j \left|\varphi_j \right\rangle$ for $c_j \in \mathbb{C}$ and stabilizer states $\varphi_j$. The running time of several classical simulation methods for quantum circuits is determined by the stabilizer rank of the $n$-th tensor power of single-qubit magic states. We prove a lower bound of $\Omega(n)$ on the stabilizer rank of such states, improving a previous lower bound of $\Omega(\sqrt{n})$ of Bravyi, Smith and Smolin (arXiv:1506.01396). Further, we prove that for a sufficiently small constant $\delta$, the stabilizer rank of any state which is $\delta$-close to those states is $\Omega(\sqrt{n}/\log n)$. This is the first non-trivial lower bound for approximate stabilizer rank. Our techniques rely on the representation of stabilizer states as quadratic functions over affine subspaces of $\mathbb{F}_2^n$, and we use tools from analysis of boolean functions and complexity theory. The proof of the first result involves a careful analysis of directional derivatives of quadratic polynomials, whereas the proof of the second result uses Razborov-Smolensky low degree polynomial approximations and correlation bounds against the majority function.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Vikesh Siddhu, Sridhar Tayur</author>
     <pubDate>Dec 16 2021</pubDate>
     <description>As the title indicates, this manuscript presents a brief, self-contained introduction to five fundamental problems in Quantum Information Science (QIS) that are especially well-suited to be formulated as Semi-definite Programs (SDP). We have in mind two audiences. The primary audience comprises of Operations Research (and Computer Science) graduate students who have familiarity with SDPs, but have found it daunting to become even minimally conversant with pre-requisites of QIS. The second audience consists of Physicists (and Electrical Engineers) already knowledgeable with modeling of QIS via SDP but interested in computational tools that are applicable more generally. For both audiences, we strive for rapid access to the unfamiliar material. For the first, we provide just enough required background material (from Quantum Mechanics, treated via matrices, and mapping them in Dirac notation) and simultaneously for the second audience we recreate, computationally in Jupyter notebooks, known closed-form solutions. We hope you will enjoy this little manuscript and gain understanding of the marvelous connection between SDP and QIS by self-study, or as a short seminar course. Ultimately, we hope this disciplinary outreach will fuel advances in QIS through their fruitful study via SDPs.</description>
+  </item>
+
+  <item>
+    <title>Computational Complexity of the Ground State Energy Density Problem</title>
+    <link>http://arxiv.org/pdf/2107.05060</link>
+    <author>James D. Watson, Toby S. Cubitt</author>
+    <pubDate>Jul 13 2021</pubDate>
+    <description>We study the complexity of finding the ground state energy density of a local Hamiltonian on a lattice in the thermodynamic limit of infinite lattice size. We formulate this rigorously as a function problem, in which we request an estimate of the ground state energy density to some specified precision; and as an equivalent promise problem, $\mathsf{GSED}$, in which we ask whether the ground state energy density is above or below specified thresholds. The ground state energy density problem is unusual, in that it concerns a single, fixed Hamiltonian in the thermodynamic limit, whose ground state energy density is just some fixed, real number. The only input to the computational problem is the precision to which to estimate this fixed real number, corresponding to the ground state energy density. Hardness of this problem for a complexity class therefore implies that the solutions to all problems in the class are encoded in this single number (analogous to Chaitin's constant in computability theory). This captures computationally the type of question most commonly encountered in condensed matter physics, which is typically concerned with the physical properties of a single Hamiltonian in the thermodynamic limit. We show that for classical, translationally invariant, nearest neighbour Hamiltonians on a 2D square lattice, $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{NEXP}}$, and for quantum Hamiltonians $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{QMA}_{EXP}}$. With some technical caveats on the oracle definitions, the $\mathsf{EXP}$ in some of these results can be strengthened to $\mathsf{PSPACE}$. We also give analogous complexity bounds for the function version of $\mathsf{GSED}$.</description>
   </item>
 
 </channel>
