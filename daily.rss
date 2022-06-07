@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
+  </item>
+
+  <item>
     <title>Emergence of Kac-Moody Symmetry in Critical Quantum Spin Chains</title>
     <link>http://arxiv.org/pdf/2206.01656</link>
     <author>Ruoshui Wang, Yijian Zou, Guifre Vidal</author>
@@ -15,35 +23,27 @@
   </item>
 
   <item>
-    <title>Ternary unitary quantum lattice models and circuits in $2 + 1$ dimensions</title>
-    <link>http://arxiv.org/pdf/2206.01499</link>
-    <author>Richard Milbradt, Lisa Scheller, Christopher Aßmus, Christian B. Mendl</author>
+    <title>The quantum covariant derivative</title>
+    <link>http://arxiv.org/pdf/2206.01716</link>
+    <author>Ryan Requist</author>
     <pubDate>Jun 06 2022</pubDate>
-    <description>We extend the concept of dual unitary quantum gates to quantum lattice models in $2 + 1$ dimensions, by introducing and studying ternary unitary four-particle gates, which are unitary in time and both spatial dimensions. When used as building blocks of lattice models with periodic boundary conditions in time and space (corresponding to infinite temperature states), dynamical correlation functions exhibit a light-ray structure. We also generalize solvable MPS to two spatial dimensions with cylindrical boundary conditions, by showing that the analogous solvable PEPS can be identified with matrix product unitaries. In the resulting tensor network for evaluating equal-time correlation functions, the bulk ternary unitary gates cancel out. We delineate and implement a numerical algorithm for computing such correlations by contracting the remaining tensors.</description>
+    <description>The unique gauge- and coordinate-covariant derivative needed to differentiate and parallel transport tangent vectors and other geometric objects in quantum mechanics is introduced. Formulas are given for the curvature and holonomy of the connection. Using the quantum covariant derivative, adiabatic perturbation theory is phrased in geometric terms.</description>
   </item>
 
   <item>
-    <title>A Theoretical Analysis on Feature Learning in Neural Networks: Emergence from Inputs and Advantage over Fixed Features</title>
-    <link>http://arxiv.org/pdf/2206.01717</link>
-    <author>Zhenmei Shi, Junyi Wei, Yingyu Liang</author>
+    <title>Improving Quantum Computation by Optimized Qubit Routing</title>
+    <link>http://arxiv.org/pdf/2206.01294</link>
+    <author>Friedrich Wagner, Andreas Bärmann, Frauke Liers, Markus Weissenbäck</author>
     <pubDate>Jun 06 2022</pubDate>
-    <description>An important characteristic of neural networks is their ability to learn representations of the input data with effective features for prediction, which is believed to be a key factor to their superior empirical performance. To better understand the source and benefit of feature learning in neural networks, we consider learning problems motivated by practical data, where the labels are determined by a set of class relevant patterns and the inputs are generated from these along with some background patterns. We prove that neural networks trained by gradient descent can succeed on these problems. The success relies on the emergence and improvement of effective features, which are learned among exponentially many candidates efficiently by exploiting the data (in particular, the structure of the input distribution). In contrast, no linear models on data-independent features of polynomial sizes can learn to as good errors. Furthermore, if the specific input structure is removed, then no polynomial algorithm in the Statistical Query model can learn even weakly. These results provide theoretical evidence showing that feature learning in neural networks depends strongly on the input structure and leads to the superior performance. Our preliminary experimental results on synthetic and real data also provide positive support.</description>
+    <description>In this work we propose a high-quality decomposition approach for qubit routing by swap insertion. This optimization problem arises in the context of compiling quantum algorithms onto specific quantum hardware. Our approach decomposes the routing problem into an allocation subproblem and a set of token swapping problems. This allows us to tackle the allocation part and the token swapping part separately. Extracting the allocation part from the qubit routing model of Nannicini et al.\ (\citenannicini2021), we formulate the allocation subproblem as a binary program. Herein, we employ a cost function that is a lower bound on the overall routing problem objective. We strengthen the linear relaxation by novel valid inequalities. For the token swapping part we develop an exact branch-and-bound algorithm. In this context, we improve upon known lower bounds on the token swapping problem. Furthermore, we enhance an existing approximation algorithm. We present numerical results for the integrated allocation and token swapping problem. Obtained solutions may not be globally optimal due to the decomposition and the usage of an approximation algorithm. However, the solutions are obtained fast and are typically close to optimal. In addition, there is a significant reduction in the number of gates and output circuit depth when compared to state-of-the-art heuristics. Reducing these figures is crucial for minimizing noise when running quantum algorithms on near-term hardware. As a consequence, using the novel decomposition approach leads to compiled algorithms with improved quality. Indeed, when compiled with the novel routing procedure and executed on real hardware, our experimental results for quantum approximate optimization algorithms show an significant increase in solution quality in comparison to standard routing methods.</description>
   </item>
 
   <item>
-    <title>Riemann surfaces for integer counting processes</title>
-    <link>http://arxiv.org/pdf/2206.01698</link>
-    <author>Sylvain Prolhac</author>
-    <pubDate>Jun 06 2022</pubDate>
-    <description>Integer counting processes increment of an integer value at transitions between states of an underlying Markov process. The generator of a counting process, which depends on a parameter conjugate to the increments, defines a complex algebraic curve through its characteristic equation, and thus a compact Riemann surface. We show that the probability of a counting process can then be written as a contour integral on that Riemann surface. Several examples are discussed in details.</description>
-  </item>
-
-  <item>
-    <title>QMLP: An Error-Tolerant Nonlinear Quantum MLP Architecture using Parameterized Two-Qubit Gates</title>
-    <link>http://arxiv.org/pdf/2206.01345</link>
-    <author>Cheng Chu, Nai-Hui Chia, Lei Jiang, Fan Chen</author>
-    <pubDate>Jun 06 2022</pubDate>
-    <description>Despite potential quantum supremacy, state-of-the-art quantum neural networks (QNNs) suffer from low inference accuracy. First, the current Noisy Intermediate-Scale Quantum (NISQ) devices with high error rates of 0.001 to 0.01 significantly degrade the accuracy of a QNN. Second, although recently proposed Re-Uploading Units (RUUs) introduce some non-linearity into the QNN circuits, the theory behind it is not fully understood. Furthermore, previous RUUs that repeatedly upload original data can only provide marginal accuracy improvements. Third, current QNN circuit ansatz uses fixed two-qubit gates to enforce maximum entanglement capability, making task-specific entanglement tuning impossible, resulting in poor overall performance. In this paper, we propose a Quantum Multilayer Perceptron (QMLP) architecture featured by error-tolerant input embedding, rich nonlinearity, and enhanced variational circuit ansatz with parameterized two-qubit entangling gates. Compared to prior arts, QMLP increases the inference accuracy on the 10-class MNIST dataset by 10% with 2 times fewer quantum gates and 3 times reduced parameters. Our source code is available and can be found in [1]</description>
+    <title>Quantum Complexity of Weighted Diameter and Radius in CONGEST Networks</title>
+    <link>http://arxiv.org/pdf/2206.02767</link>
+    <author>Xudong Wu, Penghui Yao</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>This paper studies the round complexity of computing the weighted diameter and radius of a graph in the quantum CONGEST model. We present a quantum algorithm that $(1+o(1))$-approximates the diameter and radius with round complexity $\widetilde O\left(\min\left\{n^{9/10}D^{3/10},n\right\}\right)$, where $D$ denotes the unweighted diameter. This exhibits the advantages of quantum communication over classical communication since computing a $(3/2-\varepsilon)$-approximation of the diameter and radius in a classical CONGEST network takes $\widetilde\Omega(n)$ rounds, even if $D$ is constant [Abboud, Censor-Hillel, and Khoury, DISC '16]. We also prove a lower bound of $\widetilde\Omega(n^{2/3})$ for $(3/2-\varepsilon)$-approximating the weighted diameter/radius in quantum CONGEST networks, even if $D=\Theta(\log n)$. Thus, in quantum CONGEST networks, computing weighted diameter and weighted radius of graphs with small $D$ is strictly harder than unweighted ones due to Le Gall and Magniez's $\widetilde O\left(\sqrt{nD}\right)$-round algorithm for unweighted diameter/radius [PODC '18].</description>
   </item>
 
 </channel>
