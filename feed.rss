@@ -39,6 +39,14 @@
   </item>
 
   <item>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
+  </item>
+
+  <item>
     <title>Beyond Barren Plateaus: Quantum Variational Algorithms Are Swamped With Traps</title>
     <link>http://arxiv.org/pdf/2205.05786</link>
     <author>Eric R. Anschuetz, Bobak T. Kiani</author>
@@ -103,22 +111,6 @@
   </item>
 
   <item>
-    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
-    <link>http://arxiv.org/pdf/2205.04633</link>
-    <author>Atsuya Hasegawa, François Le Gall</author>
-    <pubDate>May 11 2022</pubDate>
-    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
-  </item>
-
-  <item>
-    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
-    <link>http://arxiv.org/pdf/2205.08915</link>
-    <author>Henrik Wilming</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
-  </item>
-
-  <item>
     <title>Adaptive Online Learning of Quantum States</title>
     <link>http://arxiv.org/pdf/2206.00220</link>
     <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
@@ -127,11 +119,27 @@
   </item>
 
   <item>
+    <title>An optimal oracle separation of classical and quantum hybrid schemes</title>
+    <link>http://arxiv.org/pdf/2205.04633</link>
+    <author>Atsuya Hasegawa, François Le Gall</author>
+    <pubDate>May 11 2022</pubDate>
+    <description>Recently, Chia, Chung and Lai (STOC 2020) and Coudron and Menda (STOC 2020) have shown that there exists an oracle $\mathcal{O}$ such that $\mathsf{BQP}^\mathcal{O} \neq (\mathsf{BPP^{BQNC}})^\mathcal{O} \cup (\mathsf{BQNC^{BPP}})^\mathcal{O}$. In fact, Chia et al. proved a stronger statement: for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $2d+1$, when polynomial-time classical computation is allowed. This implies that relative to an oracle, doubling quantum depth gives classical and quantum hybrid schemes more computational power. In this paper, we show that for any depth parameter $d$, there exists an oracle that separates quantum depth $d$ and $d+1$, when polynomial-time classical computation is allowed. This gives an optimal oracle separation of classical and quantum hybrid schemes. To prove our result, we consider $d$-Bijective Shuffling Simon's Problem (which is a variant of $d$-Shuffling Simon's Problem considered by Chia et al.) and an oracle inspired by an "in-place" permutation oracle.</description>
+  </item>
+
+  <item>
     <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
     <link>http://arxiv.org/pdf/2205.12211</link>
     <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
     <pubDate>May 25 2022</pubDate>
     <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
+  </item>
+
+  <item>
+    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
+    <link>http://arxiv.org/pdf/2205.08915</link>
+    <author>Henrik Wilming</author>
+    <pubDate>May 19 2022</pubDate>
+    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
   </item>
 
   <item>
@@ -223,14 +231,6 @@
   </item>
 
   <item>
-    <title>Simulation Complexity of Many-Body Localized Systems</title>
-    <link>http://arxiv.org/pdf/2205.12967</link>
-    <author>Adam Ehrenberg, Abhinav Deshpande, Christopher L. Baldwin, Dmitry A. Abanin, Alexey V. Gorshkov</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>We use complexity theory to rigorously investigate the difficulty of classically simulating evolution under many-body localized (MBL) Hamiltonians. Using the defining feature that MBL systems have a complete set of quasilocal integrals of motion (LIOMs), we demonstrate a transition in the classical complexity of simulating such systems as a function of evolution time. On one side, we construct a quasipolynomial-time tensor-network-inspired algorithm for strong simulation of 1D MBL systems (i.e., calculating the expectation value of arbitrary products of local observables) evolved for any time polynomial in the system size. On the other side, we prove that even weak simulation, i.e. sampling, becomes formally hard after an exponentially long evolution time, assuming widely believed conjectures in complexity theory. Finally, using the consequences of our classical simulation results, we also show that the quantum circuit complexity for MBL systems is sublinear in evolution time. This result is a counterpart to a recent proof that the complexity of random quantum circuits grows linearly in time.</description>
-  </item>
-
-  <item>
     <title>Modular Commutators in Conformal Field Theory</title>
     <link>http://arxiv.org/pdf/2206.00027</link>
     <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Hay from the haystack: explicit examples of exponential quantum circuit complexity</title>
-    <link>http://arxiv.org/pdf/2205.06977</link>
-    <author>Yifan Jia, Michael M. Wolf</author>
-    <pubDate>May 17 2022</pubDate>
-    <description>The vast majority of quantum states and unitaries have circuit complexity exponential in the number of qubits. In a similar vein, most of them also have exponential minimum description length, which makes it difficult to pinpoint examples of exponential complexity. In this work, we construct examples of constant description length but exponential circuit complexity. We provide infinite families such that each element requires an exponential number of two-qubit gates to be generated exactly from a product and where the same is true for the approximate generation of the vast majority of elements in the family. The results are based on sets of large transcendence degree and discussed for tensor networks, diagonal unitaries, and maximally coherent states.</description>
+    <title>Simulation Complexity of Many-Body Localized Systems</title>
+    <link>http://arxiv.org/pdf/2205.12967</link>
+    <author>Adam Ehrenberg, Abhinav Deshpande, Christopher L. Baldwin, Dmitry A. Abanin, Alexey V. Gorshkov</author>
+    <pubDate>May 27 2022</pubDate>
+    <description>We use complexity theory to rigorously investigate the difficulty of classically simulating evolution under many-body localized (MBL) Hamiltonians. Using the defining feature that MBL systems have a complete set of quasilocal integrals of motion (LIOMs), we demonstrate a transition in the classical complexity of simulating such systems as a function of evolution time. On one side, we construct a quasipolynomial-time tensor-network-inspired algorithm for strong simulation of 1D MBL systems (i.e., calculating the expectation value of arbitrary products of local observables) evolved for any time polynomial in the system size. On the other side, we prove that even weak simulation, i.e. sampling, becomes formally hard after an exponentially long evolution time, assuming widely believed conjectures in complexity theory. Finally, using the consequences of our classical simulation results, we also show that the quantum circuit complexity for MBL systems is sublinear in evolution time. This result is a counterpart to a recent proof that the complexity of random quantum circuits grows linearly in time.</description>
   </item>
 
 </channel>

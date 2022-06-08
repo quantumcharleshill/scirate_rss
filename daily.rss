@@ -15,35 +15,35 @@
   </item>
 
   <item>
-    <title>Emergence of Kac-Moody Symmetry in Critical Quantum Spin Chains</title>
-    <link>http://arxiv.org/pdf/2206.01656</link>
-    <author>Ruoshui Wang, Yijian Zou, Guifre Vidal</author>
-    <pubDate>Jun 06 2022</pubDate>
-    <description>Given a critical quantum spin chain with a microscopic Lie-group symmetry, corresponding e.g. to $U(1)$ or $SU(2)$ spin isotropy, we numerically investigate the emergence of Kac-Moody symmetry at low energies and long distances. In that regime, one such critical quantum spin chain is described by a conformal field theory where the usual Virasoro algebra associated to conformal invariance is augmented with a Kac-Moody algebra associated to conserved currents. Specifically, we first propose a method to construct lattice operators corresponding to the Kac-Moody generators. We then numerically show that, when projected onto low energy states of the quantum spin chain, these operators indeed approximately fulfill the Kac-Moody algebra. The lattice version of the Kac-Moody generators allow us to compute the so-called level constant and to organize the low-energy eigenstates of the lattice Hamiltonian into Kac-Moody towers. We illustrate the proposal with the XXZ model and the Heisenberg model with a next-to-nearest-neighbor coupling.</description>
-  </item>
-
-  <item>
-    <title>The quantum covariant derivative</title>
-    <link>http://arxiv.org/pdf/2206.01716</link>
-    <author>Ryan Requist</author>
-    <pubDate>Jun 06 2022</pubDate>
-    <description>The unique gauge- and coordinate-covariant derivative needed to differentiate and parallel transport tangent vectors and other geometric objects in quantum mechanics is introduced. Formulas are given for the curvature and holonomy of the connection. Using the quantum covariant derivative, adiabatic perturbation theory is phrased in geometric terms.</description>
-  </item>
-
-  <item>
-    <title>Improving Quantum Computation by Optimized Qubit Routing</title>
-    <link>http://arxiv.org/pdf/2206.01294</link>
-    <author>Friedrich Wagner, Andreas Bärmann, Frauke Liers, Markus Weissenbäck</author>
-    <pubDate>Jun 06 2022</pubDate>
-    <description>In this work we propose a high-quality decomposition approach for qubit routing by swap insertion. This optimization problem arises in the context of compiling quantum algorithms onto specific quantum hardware. Our approach decomposes the routing problem into an allocation subproblem and a set of token swapping problems. This allows us to tackle the allocation part and the token swapping part separately. Extracting the allocation part from the qubit routing model of Nannicini et al.\ (\citenannicini2021), we formulate the allocation subproblem as a binary program. Herein, we employ a cost function that is a lower bound on the overall routing problem objective. We strengthen the linear relaxation by novel valid inequalities. For the token swapping part we develop an exact branch-and-bound algorithm. In this context, we improve upon known lower bounds on the token swapping problem. Furthermore, we enhance an existing approximation algorithm. We present numerical results for the integrated allocation and token swapping problem. Obtained solutions may not be globally optimal due to the decomposition and the usage of an approximation algorithm. However, the solutions are obtained fast and are typically close to optimal. In addition, there is a significant reduction in the number of gates and output circuit depth when compared to state-of-the-art heuristics. Reducing these figures is crucial for minimizing noise when running quantum algorithms on near-term hardware. As a consequence, using the novel decomposition approach leads to compiled algorithms with improved quality. Indeed, when compiled with the novel routing procedure and executed on real hardware, our experimental results for quantum approximate optimization algorithms show an significant increase in solution quality in comparison to standard routing methods.</description>
-  </item>
-
-  <item>
-    <title>Quantum Complexity of Weighted Diameter and Radius in CONGEST Networks</title>
-    <link>http://arxiv.org/pdf/2206.02767</link>
-    <author>Xudong Wu, Penghui Yao</author>
+    <title>Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz</title>
+    <link>http://arxiv.org/pdf/2206.01982</link>
+    <author>Antonio Anna Mele, Glen Bigan Mbeng, Giuseppe Ernesto Santoro, Mario Collura, Pietro Torta</author>
     <pubDate>Jun 07 2022</pubDate>
-    <description>This paper studies the round complexity of computing the weighted diameter and radius of a graph in the quantum CONGEST model. We present a quantum algorithm that $(1+o(1))$-approximates the diameter and radius with round complexity $\widetilde O\left(\min\left\{n^{9/10}D^{3/10},n\right\}\right)$, where $D$ denotes the unweighted diameter. This exhibits the advantages of quantum communication over classical communication since computing a $(3/2-\varepsilon)$-approximation of the diameter and radius in a classical CONGEST network takes $\widetilde\Omega(n)$ rounds, even if $D$ is constant [Abboud, Censor-Hillel, and Khoury, DISC '16]. We also prove a lower bound of $\widetilde\Omega(n^{2/3})$ for $(3/2-\varepsilon)$-approximating the weighted diameter/radius in quantum CONGEST networks, even if $D=\Theta(\log n)$. Thus, in quantum CONGEST networks, computing weighted diameter and weighted radius of graphs with small $D$ is strictly harder than unweighted ones due to Le Gall and Magniez's $\widetilde O\left(\sqrt{nD}\right)$-round algorithm for unweighted diameter/radius [PODC '18].</description>
+    <description>A large ongoing research effort focuses on Variational Quantum Algorithms (VQAs), representing leading candidates to achieve computational speed-ups on current quantum devices. The scalability of VQAs to a large number of qubits, beyond the simulation capabilities of classical computers, is still debated. Two major hurdles are the proliferation of low-quality variational local minima, and the exponential vanishing of gradients in the cost function landscape, a phenomenon referred to as barren plateaus. Here we show that by employing iterative search schemes one can effectively prepare the ground state of paradigmatic quantum many-body models, circumventing also the barren plateau phenomenon. This is accomplished by leveraging the transferability to larger system sizes of iterative solutions, displaying an intrinsic smoothness of the variational parameters, a result that does not extend to other solutions found via random-start local optimization. Our scheme could be directly tested on near-term quantum devices, running a refinement optimization in a favorable local landscape with non-vanishing gradients.</description>
+  </item>
+
+  <item>
+    <title>Scrambling of Algebras in Open Quantum Systems</title>
+    <link>http://arxiv.org/pdf/2206.02033</link>
+    <author>Faidon Andreadakis, Namit Anand, Paolo Zanardi</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>Many quantitative approaches to the dynamical scrambling of information in quantum systems involve the study of out-of-time-ordered correlators (OTOCs). In this paper, we introduce an algebraic OTOC ($\mathcal{A}$-OTOC) that allows us to study information scrambling of generalized quantum subsystems under quantum channels. For closed quantum systems, this algebraic framework was recently employed to unify quantum information-theoretic notions of operator entanglement, coherence-generating power, and Loschmidt echo. The main focus of this work is to provide a natural generalization of these techniques to open quantum systems. We first show that, for unitary dynamics, the $\mathcal{A}$-OTOC quantifies a generalized notion of information scrambling, namely between a subalgebra of observables and its commutant. For open quantum systems, on the other hand, we find a competition between the global environmental decoherence and the local scrambling of information. We illustrate this interplay by analytically studying various illustrative examples of algebras and quantum channels. To complement our analytical results, we perform numerical simulations of two paradigmatic systems: the PXP model and the Heisenberg XXX model, under dephasing. Our numerical results reveal connections with many-body scars and the stability of decoherence-free subspaces.</description>
+  </item>
+
+  <item>
+    <title>Advantages and limitations of quantum routing</title>
+    <link>http://arxiv.org/pdf/2206.01766</link>
+    <author>Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov, Eddie Schoute</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The Swap gate is a ubiquitous tool for moving information on quantum hardware, yet it can be considered a classical operation because it does not entangle product states. Genuinely quantum operations could outperform Swap for the task of permuting qubits within an architecture, which we call routing. We consider quantum routing in two models: (1) allowing arbitrary two-qubit unitaries, or (2) allowing Hamiltonians with norm-bounded interactions. We lower bound the circuit depth or time of quantum routing in terms of spectral properties of graphs representing the architecture interaction constraints, and give a generalized upper bound for all simple connected $n$-vertex graphs. In particular, we give conditions for a superpolynomial classical-quantum routing separation, which exclude graphs with a small spectral gap and graphs of bounded degree. Finally, we provide examples of a quadratic separation between gate-based and Hamiltonian routing models with a constant number of local ancillas per qubit and of an $\Omega(n)$ speedup if we also allow fast local interactions.</description>
+  </item>
+
+  <item>
+    <title>Using copies to improve precision in continuous-time quantum computing</title>
+    <link>http://arxiv.org/pdf/2206.02545</link>
+    <author>Jemma Bennett, Adam Callison, Tom O'Leary, Mia West, Nicholas Chancellor, Viv Kendon</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>In the quantum optimisation setting, we build on a scheme introduced by Young et al [PRA 88, 062314, 2013], where physical qubits in multiple copies of a problem encoded into an Ising spin Hamiltonian are linked together to increase the logical system's robustness to error. We introduce several innovations that improve this scheme significantly. First, we note that only one copy needs to be correct by the end of the computation, since solution quality can be checked efficiently. Second, we find that ferromagnetic links do not generally help in this "one correct copy" setting, but anti-ferromagnetic links do help on average, by suppressing the chance of the same error being present on all of the copies. Third, we find that minimum-strength anti-ferromagnetic links perform best, by counteracting the spin-flips induced by the errors. We have numerically tested our innovations on small instances of spin glasses from Callison et al [NJP 21, 123022, 2019], and we find improved error tolerance for three or more copies in configurations that include frustration. Interpreted as an effective precision increase, we obtain several extra bits of precision for three copies connected in a triangle. This provides proof-of-concept of a method for scaling quantum annealing beyond the precision limits of hardware, a step towards fault tolerance in this setting.</description>
   </item>
 
 </channel>
