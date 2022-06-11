@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Computational advantage of quantum random sampling</title>
+    <link>http://arxiv.org/pdf/2206.04079</link>
+    <author>Dominik Hangleiter, Jens Eisert</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
+  </item>
+
+  <item>
     <title>A construction of Combinatorial NLTS</title>
     <link>http://arxiv.org/pdf/2206.02741</link>
     <author>Anurag Anshu, Nikolas P. Breuckmann</author>
@@ -23,27 +31,35 @@
   </item>
 
   <item>
+    <title>Quantum Resources Required to Block-Encode a Matrix of Classical Data</title>
+    <link>http://arxiv.org/pdf/2206.03505</link>
+    <author>B. David Clader, Alexander M. Dalzell, Nikitas Stamatopoulos, Grant Salton, Mario Berta, William J. Zeng</author>
+    <pubDate>Jun 09 2022</pubDate>
+    <description>We provide modular circuit-level implementations and resource estimates for several methods of block-encoding a dense $N\times N$ matrix of classical data to precision $\epsilon$; the minimal-depth method achieves a $T$-depth of $\mathcal{O}{(\log (N/\epsilon))},$ while the minimal-count method achieves a $T$-count of $\mathcal{O}{(N\log(1/\epsilon))}$. We examine resource tradeoffs between the different approaches, and we explore implementations of two separate models of quantum random access memory (QRAM). As part of this analysis, we provide a novel state preparation routine with $T$-depth $\mathcal{O}{(\log (N/\epsilon))}$, improving on previous constructions with scaling $\mathcal{O}{(\log^2 (N/\epsilon))}$. Our results go beyond simple query complexity and provide a clear picture into the resource costs when large amounts of classical data are assumed to be accessible to quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Quantum Advantage in Cryptography</title>
+    <link>http://arxiv.org/pdf/2206.04078</link>
+    <author>Renato Renner, Ramona Wolf</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>Ever since its inception, cryptography has been caught in a vicious circle: Cryptographers keep inventing methods to hide information, and cryptanalysts break them, prompting cryptographers to invent even more sophisticated encryption schemes, and so on. But could it be that quantum information technology breaks this circle? At first sight, it looks as if it just lifts the competition between cryptographers and cryptanalysts to the next level. Indeed, quantum computers will render most of today's public key cryptosystems insecure. Nonetheless, there are good reasons to believe that cryptographers will ultimately prevail over cryptanalysts. Quantum cryptography allows us to build communication schemes whose secrecy relies only on the laws of physics as well as some minimum assumptions about the cryptographic hardware - leaving basically no room for an attack. While we are not yet there, this article provides an overview of the principles and state of the art of quantum cryptography.</description>
+  </item>
+
+  <item>
+    <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
+    <link>http://arxiv.org/pdf/2206.04663</link>
+    <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
+  </item>
+
+  <item>
     <title>Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz</title>
     <link>http://arxiv.org/pdf/2206.01982</link>
     <author>Antonio Anna Mele, Glen Bigan Mbeng, Giuseppe Ernesto Santoro, Mario Collura, Pietro Torta</author>
     <pubDate>Jun 07 2022</pubDate>
     <description>A large ongoing research effort focuses on Variational Quantum Algorithms (VQAs), representing leading candidates to achieve computational speed-ups on current quantum devices. The scalability of VQAs to a large number of qubits, beyond the simulation capabilities of classical computers, is still debated. Two major hurdles are the proliferation of low-quality variational local minima, and the exponential vanishing of gradients in the cost function landscape, a phenomenon referred to as barren plateaus. Here we show that by employing iterative search schemes one can effectively prepare the ground state of paradigmatic quantum many-body models, circumventing also the barren plateau phenomenon. This is accomplished by leveraging the transferability to larger system sizes of iterative solutions, displaying an intrinsic smoothness of the variational parameters, a result that does not extend to other solutions found via random-start local optimization. Our scheme could be directly tested on near-term quantum devices, running a refinement optimization in a favorable local landscape with non-vanishing gradients.</description>
-  </item>
-
-  <item>
-    <title>Ergodic theory of diagonal orthogonal covariant quantum channels</title>
-    <link>http://arxiv.org/pdf/2206.01145</link>
-    <author>Satvik Singh, Nilanjana Datta, Ion Nechita</author>
-    <pubDate>Jun 03 2022</pubDate>
-    <description>We analyze the ergodic properties of quantum channels that are covariant with respect to diagonal orthogonal transformations. We prove that the ergodic behaviour of a channel in this class is essentially governed by a classical stochastic matrix. This allows us to exploit tools from classical ergodic theory to study quantum ergodicity of such channels. As an application of our analysis, we study dual unitary brickwork circuits which have recently been proposed as minimal models of quantum chaos in many-body systems. Upon imposing a local diagonal orthogonal invariance symmetry on these circuits, the long-term behaviour of spatio-temporal correlations between local observables in such circuits is completely determined by the ergodic properties of a channel that is covariant under diagonal orthogonal transformations. We utilize this fact to show that such symmetric dual unitary circuits exhibit a rich variety of ergodic behaviours, thus emphasizing their importance.</description>
-  </item>
-
-  <item>
-    <title>Quantum Neural Network Classifiers: A Tutorial</title>
-    <link>http://arxiv.org/pdf/2206.02806</link>
-    <author>Weikang Li, Zhide Lu, Dong-Ling Deng</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>Machine learning has achieved dramatic success over the past decade, with applications ranging from face recognition to natural language processing. Meanwhile, rapid progress has been made in the field of quantum computation including developing both powerful quantum algorithms and advanced quantum devices. The interplay between machine learning and quantum physics holds the intriguing potential for bringing practical applications to the modern society. Here, we focus on quantum neural networks in the form of parameterized quantum circuits. We will mainly discuss different structures and encoding strategies of quantum neural networks for supervised learning tasks, and benchmark their performance utilizing Yao.jl, a quantum simulation package written in Julia Language. The codes are efficient, aiming to provide convenience for beginners in scientific works such as developing powerful variational quantum learning models and assisting the corresponding experimental demonstrations.</description>
   </item>
 
   <item>
@@ -63,27 +79,11 @@
   </item>
 
   <item>
-    <title>Emergence of Kac-Moody Symmetry in Critical Quantum Spin Chains</title>
-    <link>http://arxiv.org/pdf/2206.01656</link>
-    <author>Ruoshui Wang, Yijian Zou, Guifre Vidal</author>
-    <pubDate>Jun 06 2022</pubDate>
-    <description>Given a critical quantum spin chain with a microscopic Lie-group symmetry, corresponding e.g. to $U(1)$ or $SU(2)$ spin isotropy, we numerically investigate the emergence of Kac-Moody symmetry at low energies and long distances. In that regime, one such critical quantum spin chain is described by a conformal field theory where the usual Virasoro algebra associated to conformal invariance is augmented with a Kac-Moody algebra associated to conserved currents. Specifically, we first propose a method to construct lattice operators corresponding to the Kac-Moody generators. We then numerically show that, when projected onto low energy states of the quantum spin chain, these operators indeed approximately fulfill the Kac-Moody algebra. The lattice version of the Kac-Moody generators allow us to compute the so-called level constant and to organize the low-energy eigenstates of the lattice Hamiltonian into Kac-Moody towers. We illustrate the proposal with the XXZ model and the Heisenberg model with a next-to-nearest-neighbor coupling.</description>
-  </item>
-
-  <item>
-    <title>Emergence of Fermi's Golden Rule</title>
-    <link>http://arxiv.org/pdf/2206.00704</link>
-    <author>Tobias Micklitz, Alan Morningstar, Alexander Altland, David A. Huse</author>
-    <pubDate>Jun 03 2022</pubDate>
-    <description>Fermi's Golden Rule (FGR) applies in the limit where an initial quantum state is weakly coupled to a \it continuum of other final states overlapping its energy. Here we investigate what happens away from this limit, where the set of final states is discrete, with a nonzero mean level spacing; this question arises in a number of recently investigated many-body systems. For different symmetry classes, we analytically and/or numerically calculate the universal crossovers in the average decay of the initial state as the level spacing is varied, with the Golden Rule emerging in the limit of a continuum. Among the corrections to the exponential decay of the initial state given by FGR is the appearance of the spectral form factor in the long-time regime for small but nonzero level spacing.</description>
-  </item>
-
-  <item>
-    <title>Minimising statistical errors in calibration of quantum-gate sets</title>
-    <link>http://arxiv.org/pdf/2206.03417</link>
-    <author>Yaiza Aragonés-Soria, René Otten, Tobias Hangleiter, Pascal Cerfontaine, David Gross</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>Calibration of quantum gates is a necessary hurdle to overcome on the way to a reliable quantum computer. In a recent paper, a protocol called Gate Set Calibration protocol (GSC) has been introduced and used to learn coherent errors from multi-qubit quantum gates. Here, we extend this study in a number of ways: First, we perform a statistical analysis of the measurement uncertainties. Second, we find explicit measurement settings that minimize this uncertainty, while also requiring that the protocol involves only a small number of distinct gates, aiding physical realizability. We numerically demonstrate that, just by adding two more single-qubit gates to GSC, the statistical error produced in the calibration of a CNOT gate is divided by a factor of more than two.</description>
+    <title>Cone-Restricted Information Theory</title>
+    <link>http://arxiv.org/pdf/2206.04300</link>
+    <author>Ian George, Eric Chitambar</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>The max-relative entropy and the conditional min-entropy it induces have become central to one-shot information theory. Both may be expressed in terms of a conic program over the positive semidefinite cone. Recently, it was shown that the same conic program altered to be over the separable cone admits an operational interpretation in terms of communicating classical information over a quantum channel. In this work, we generalize this framework of replacing the cone to determine which results in quantum information theory rely upon the positive semidefinite cone and which can be generalized. We show the fully quantum Stein's lemma and asymptotic equipartition property break down if the cone exponentially increases in resourcefulness but never approximates the positive semidefinite cone. However, we show for CQ states, the separable cone is sufficient to recover the asymptotic theory, thereby drawing a strong distinction between the fully and partial quantum settings. We present parallel results for the extended conditional min-entropy. In doing so, we extend the notion of k-superpositive channels to superchannels. We also present operational uses of this framework. We first show the cone restricted min-entropy of a Choi operator captures a measure of entanglement-assisted noiseless classical communication using restricted measurements. We show that quantum majorization results naturally generalize to other cones. As a novel example, we introduce a new min-entropy-like quantity that captures the quantum majorization of quantum channels in terms of bistochastic pre-processing. Lastly, we relate this framework to general conic norms and their non-additivity. Throughout this work we emphasize the introduced measures' relationship to general convex resource theories. In particular, we look at both resource theories that capture locality and resource theories of coherence/Abelian symmetries.</description>
   </item>
 
 </channel>
