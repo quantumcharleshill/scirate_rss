@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Linear growth of quantum circuit complexity</title>
-    <link>http://arxiv.org/pdf/2106.05305</link>
-    <author>Jonas Haferkamp, Philippe Faist, Naga B. T. Kothakonda, Jens Eisert, Nicole Yunger Halpern</author>
-    <pubDate>Jun 11 2021</pubDate>
-    <description>Quantifying quantum states' complexity is a key problem in various subfields of science, from quantum computing to black-hole physics. We prove a prominent conjecture by Brown and Susskind about how random quantum circuits' complexity increases. Consider constructing a unitary from Haar-random two-qubit quantum gates. Implementing the unitary exactly requires a circuit of some minimal number of gates - the unitary's exact circuit complexity. We prove that this complexity grows linearly with the number of random gates, with unit probability, until saturating after exponentially many random gates. Our proof is surprisingly short, given the established difficulty of lower-bounding the exact circuit complexity. Our strategy combines differential topology and elementary algebraic geometry with an inductive construction of Clifford circuits.</description>
-  </item>
-
-  <item>
     <title>The randomized measurement toolbox</title>
     <link>http://arxiv.org/pdf/2203.11374</link>
     <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
@@ -124,6 +116,14 @@
     <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
     <pubDate>Jun 16 2021</pubDate>
     <description>In this work we improve the runtime of recent classical algorithms for strong simulation of quantum circuits composed of Clifford and T gates. The improvement is obtained by establishing a new upper bound on the stabilizer rank of $m$ copies of the magic state $|T\rangle=\sqrt{2}^{-1}(|0\rangle+e^{i\pi/4}|1\rangle)$ in the limit of large $m$. In particular, we show that $|T\rangle^{\otimes m}$ can be exactly expressed as a superposition of at most $O(2^{\alpha m})$ stabilizer states, where $\alpha\leq 0.3963$, improving on the best previously known bound $\alpha \leq 0.463$. This furnishes, via known techniques, a classical algorithm which approximates output probabilities of an $n$-qubit Clifford + T circuit $U$ with $m$ uses of the T gate to within a given inverse polynomial relative error using a runtime $\mathrm{poly}(n,m)2^{\alpha m}$. We also provide improved upper bounds on the stabilizer rank of symmetric product states $|\psi\rangle^{\otimes m}$ more generally; as a consequence we obtain a strong simulation algorithm for circuits consisting of Clifford gates and $m$ instances of any (fixed) single-qubit $Z$-rotation gate with runtime $\text{poly}(n,m) 2^{m/2}$. We suggest a method to further improve the upper bounds by constructing linear codes with certain properties.</description>
+  </item>
+
+  <item>
+    <title>Computational advantage of quantum random sampling</title>
+    <link>http://arxiv.org/pdf/2206.04079</link>
+    <author>Dominik Hangleiter, Jens Eisert</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
   </item>
 
   <item>
@@ -239,14 +239,6 @@
   </item>
 
   <item>
-    <title>Computational advantage of quantum random sampling</title>
-    <link>http://arxiv.org/pdf/2206.04079</link>
-    <author>Dominik Hangleiter, Jens Eisert</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
-  </item>
-
-  <item>
     <title>Exponential separations between learning with and without quantum memory</title>
     <link>http://arxiv.org/pdf/2111.05881</link>
     <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
@@ -327,6 +319,14 @@
   </item>
 
   <item>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
+  </item>
+
+  <item>
     <title>Improved quantum error correction using soft information</title>
     <link>http://arxiv.org/pdf/2107.13589</link>
     <author>Christopher A. Pattison, Michael E. Beverland, Marcus P. da Silva, Nicolas Delfosse</author>
@@ -340,14 +340,6 @@
     <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
     <pubDate>May 31 2022</pubDate>
     <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
-  </item>
-
-  <item>
-    <title>A construction of Combinatorial NLTS</title>
-    <link>http://arxiv.org/pdf/2206.02741</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Vikesh Siddhu, Sridhar Tayur</author>
     <pubDate>Dec 16 2021</pubDate>
     <description>As the title indicates, this manuscript presents a brief, self-contained introduction to five fundamental problems in Quantum Information Science (QIS) that are especially well-suited to be formulated as Semi-definite Programs (SDP). We have in mind two audiences. The primary audience comprises of Operations Research (and Computer Science) graduate students who have familiarity with SDPs, but have found it daunting to become even minimally conversant with pre-requisites of QIS. The second audience consists of Physicists (and Electrical Engineers) already knowledgeable with modeling of QIS via SDP but interested in computational tools that are applicable more generally. For both audiences, we strive for rapid access to the unfamiliar material. For the first, we provide just enough required background material (from Quantum Mechanics, treated via matrices, and mapping them in Dirac notation) and simultaneously for the second audience we recreate, computationally in Jupyter notebooks, known closed-form solutions. We hope you will enjoy this little manuscript and gain understanding of the marvelous connection between SDP and QIS by self-study, or as a short seminar course. Ultimately, we hope this disciplinary outreach will fuel advances in QIS through their fruitful study via SDPs.</description>
+  </item>
+
+  <item>
+    <title>Computational Complexity of the Ground State Energy Density Problem</title>
+    <link>http://arxiv.org/pdf/2107.05060</link>
+    <author>James D. Watson, Toby S. Cubitt</author>
+    <pubDate>Jul 13 2021</pubDate>
+    <description>We study the complexity of finding the ground state energy density of a local Hamiltonian on a lattice in the thermodynamic limit of infinite lattice size. We formulate this rigorously as a function problem, in which we request an estimate of the ground state energy density to some specified precision; and as an equivalent promise problem, $\mathsf{GSED}$, in which we ask whether the ground state energy density is above or below specified thresholds. The ground state energy density problem is unusual, in that it concerns a single, fixed Hamiltonian in the thermodynamic limit, whose ground state energy density is just some fixed, real number. The only input to the computational problem is the precision to which to estimate this fixed real number, corresponding to the ground state energy density. Hardness of this problem for a complexity class therefore implies that the solutions to all problems in the class are encoded in this single number (analogous to Chaitin's constant in computability theory). This captures computationally the type of question most commonly encountered in condensed matter physics, which is typically concerned with the physical properties of a single Hamiltonian in the thermodynamic limit. We show that for classical, translationally invariant, nearest neighbour Hamiltonians on a 2D square lattice, $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{NEXP}}$, and for quantum Hamiltonians $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{QMA}_{EXP}}$. With some technical caveats on the oracle definitions, the $\mathsf{EXP}$ in some of these results can be strengthened to $\mathsf{PSPACE}$. We also give analogous complexity bounds for the function version of $\mathsf{GSED}$.</description>
   </item>
 
 </channel>
