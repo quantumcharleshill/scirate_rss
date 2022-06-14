@@ -15,27 +15,11 @@
   </item>
 
   <item>
-    <title>A construction of Combinatorial NLTS</title>
-    <link>http://arxiv.org/pdf/2206.02741</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
-  </item>
-
-  <item>
     <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
     <link>http://arxiv.org/pdf/2206.03122</link>
     <author>Oscar Higgott, Nikolas P. Breuckmann</author>
     <pubDate>Jun 08 2022</pubDate>
     <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
-  </item>
-
-  <item>
-    <title>Quantum Resources Required to Block-Encode a Matrix of Classical Data</title>
-    <link>http://arxiv.org/pdf/2206.03505</link>
-    <author>B. David Clader, Alexander M. Dalzell, Nikitas Stamatopoulos, Grant Salton, Mario Berta, William J. Zeng</author>
-    <pubDate>Jun 09 2022</pubDate>
-    <description>We provide modular circuit-level implementations and resource estimates for several methods of block-encoding a dense $N\times N$ matrix of classical data to precision $\epsilon$; the minimal-depth method achieves a $T$-depth of $\mathcal{O}{(\log (N/\epsilon))},$ while the minimal-count method achieves a $T$-count of $\mathcal{O}{(N\log(1/\epsilon))}$. We examine resource tradeoffs between the different approaches, and we explore implementations of two separate models of quantum random access memory (QRAM). As part of this analysis, we provide a novel state preparation routine with $T$-depth $\mathcal{O}{(\log (N/\epsilon))}$, improving on previous constructions with scaling $\mathcal{O}{(\log^2 (N/\epsilon))}$. Our results go beyond simple query complexity and provide a clear picture into the resource costs when large amounts of classical data are assumed to be accessible to quantum algorithms.</description>
   </item>
 
   <item>
@@ -47,19 +31,27 @@
   </item>
 
   <item>
+    <title>Quantum Resources Required to Block-Encode a Matrix of Classical Data</title>
+    <link>http://arxiv.org/pdf/2206.03505</link>
+    <author>B. David Clader, Alexander M. Dalzell, Nikitas Stamatopoulos, Grant Salton, Mario Berta, William J. Zeng</author>
+    <pubDate>Jun 09 2022</pubDate>
+    <description>We provide modular circuit-level implementations and resource estimates for several methods of block-encoding a dense $N\times N$ matrix of classical data to precision $\epsilon$; the minimal-depth method achieves a $T$-depth of $\mathcal{O}{(\log (N/\epsilon))},$ while the minimal-count method achieves a $T$-count of $\mathcal{O}{(N\log(1/\epsilon))}$. We examine resource tradeoffs between the different approaches, and we explore implementations of two separate models of quantum random access memory (QRAM). As part of this analysis, we provide a novel state preparation routine with $T$-depth $\mathcal{O}{(\log (N/\epsilon))}$, improving on previous constructions with scaling $\mathcal{O}{(\log^2 (N/\epsilon))}$. Our results go beyond simple query complexity and provide a clear picture into the resource costs when large amounts of classical data are assumed to be accessible to quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
+    <link>http://arxiv.org/pdf/2206.05265</link>
+    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
+    <pubDate>Jun 13 2022</pubDate>
+    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
+  </item>
+
+  <item>
     <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
     <link>http://arxiv.org/pdf/2206.04663</link>
     <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
     <pubDate>Jun 10 2022</pubDate>
     <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
-  </item>
-
-  <item>
-    <title>Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz</title>
-    <link>http://arxiv.org/pdf/2206.01982</link>
-    <author>Antonio Anna Mele, Glen Bigan Mbeng, Giuseppe Ernesto Santoro, Mario Collura, Pietro Torta</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>A large ongoing research effort focuses on Variational Quantum Algorithms (VQAs), representing leading candidates to achieve computational speed-ups on current quantum devices. The scalability of VQAs to a large number of qubits, beyond the simulation capabilities of classical computers, is still debated. Two major hurdles are the proliferation of low-quality variational local minima, and the exponential vanishing of gradients in the cost function landscape, a phenomenon referred to as barren plateaus. Here we show that by employing iterative search schemes one can effectively prepare the ground state of paradigmatic quantum many-body models, circumventing also the barren plateau phenomenon. This is accomplished by leveraging the transferability to larger system sizes of iterative solutions, displaying an intrinsic smoothness of the variational parameters, a result that does not extend to other solutions found via random-start local optimization. Our scheme could be directly tested on near-term quantum devices, running a refinement optimization in a favorable local landscape with non-vanishing gradients.</description>
   </item>
 
   <item>
@@ -71,19 +63,27 @@
   </item>
 
   <item>
-    <title>Scrambling of Algebras in Open Quantum Systems</title>
-    <link>http://arxiv.org/pdf/2206.02033</link>
-    <author>Faidon Andreadakis, Namit Anand, Paolo Zanardi</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>Many quantitative approaches to the dynamical scrambling of information in quantum systems involve the study of out-of-time-ordered correlators (OTOCs). In this paper, we introduce an algebraic OTOC ($\mathcal{A}$-OTOC) that allows us to study information scrambling of generalized quantum subsystems under quantum channels. For closed quantum systems, this algebraic framework was recently employed to unify quantum information-theoretic notions of operator entanglement, coherence-generating power, and Loschmidt echo. The main focus of this work is to provide a natural generalization of these techniques to open quantum systems. We first show that, for unitary dynamics, the $\mathcal{A}$-OTOC quantifies a generalized notion of information scrambling, namely between a subalgebra of observables and its commutant. For open quantum systems, on the other hand, we find a competition between the global environmental decoherence and the local scrambling of information. We illustrate this interplay by analytically studying various illustrative examples of algebras and quantum channels. To complement our analytical results, we perform numerical simulations of two paradigmatic systems: the PXP model and the Heisenberg XXX model, under dephasing. Our numerical results reveal connections with many-body scars and the stability of decoherence-free subspaces.</description>
+    <title>Quantum Neural Network Classifiers: A Tutorial</title>
+    <link>http://arxiv.org/pdf/2206.02806</link>
+    <author>Weikang Li, Zhide Lu, Dong-Ling Deng</author>
+    <pubDate>Jun 08 2022</pubDate>
+    <description>Machine learning has achieved dramatic success over the past decade, with applications ranging from face recognition to natural language processing. Meanwhile, rapid progress has been made in the field of quantum computation including developing both powerful quantum algorithms and advanced quantum devices. The interplay between machine learning and quantum physics holds the intriguing potential for bringing practical applications to the modern society. Here, we focus on quantum neural networks in the form of parameterized quantum circuits. We will mainly discuss different structures and encoding strategies of quantum neural networks for supervised learning tasks, and benchmark their performance utilizing Yao.jl, a quantum simulation package written in Julia Language. The codes are efficient, aiming to provide convenience for beginners in scientific works such as developing powerful variational quantum learning models and assisting the corresponding experimental demonstrations.</description>
   </item>
 
   <item>
-    <title>Advantages and limitations of quantum routing</title>
-    <link>http://arxiv.org/pdf/2206.01766</link>
-    <author>Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov, Eddie Schoute</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The Swap gate is a ubiquitous tool for moving information on quantum hardware, yet it can be considered a classical operation because it does not entangle product states. Genuinely quantum operations could outperform Swap for the task of permuting qubits within an architecture, which we call routing. We consider quantum routing in two models: (1) allowing arbitrary two-qubit unitaries, or (2) allowing Hamiltonians with norm-bounded interactions. We lower bound the circuit depth or time of quantum routing in terms of spectral properties of graphs representing the architecture interaction constraints, and give a generalized upper bound for all simple connected $n$-vertex graphs. In particular, we give conditions for a superpolynomial classical-quantum routing separation, which exclude graphs with a small spectral gap and graphs of bounded degree. Finally, we provide examples of a quadratic separation between gate-based and Hamiltonian routing models with a constant number of local ancillas per qubit and of an $\Omega(n)$ speedup if we also allow fast local interactions.</description>
+    <title>Connections between graphs and matrix spaces</title>
+    <link>http://arxiv.org/pdf/2206.04815</link>
+    <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
+    <pubDate>Jun 13 2022</pubDate>
+    <description>Given a bipartite graph $G$, the graphical matrix space $\mathcal{S}_G$ consists of matrices whose non-zero entries can only be at those positions corresponding to edges in $G$. Tutte (J. London Math. Soc., 1947), Edmonds (J. Res. Nat. Bur. Standards Sect. B, 1967) and Lovász (FCT, 1979) observed connections between perfect matchings in $G$ and full-rank matrices in $\mathcal{S}_G$. Dieudonné (Arch. Math., 1948) proved a tight upper bound on the dimensions of those matrix spaces containing only singular matrices. The starting point of this paper is a simultaneous generalization of these two classical results: we show that the largest dimension over subspaces of $\mathcal{S}_G$ containing only singular matrices is equal to the maximum size over subgraphs of $G$ without perfect matchings, based on Meshulam's proof of Dieudonné's result (Quart. J. Math., 1985). Starting from this result, we go on to establish more connections between properties of graphs and matrix spaces. For example, we establish connections between acyclicity and nilpotency, between strong connectivity and irreducibility, and between isomorphism and conjugacy/congruence. For each connection, we study three types of correspondences, namely the basic correspondence, the inherited correspondence (for subgraphs and subspaces), and the induced correspondence (for induced subgraphs and restrictions). Some correspondences lead to intriguing generalizations of classical results, such as for Dieudonné's result mentioned above, and for a celebrated theorem of Gerstenhaber regarding the largest dimension of nil matrix spaces (Amer. J. Math., 1958). Finally, we show some implications of our results to quantum information and present open problems in computational complexity motivated by these results.</description>
+  </item>
+
+  <item>
+    <title>Efficient tensor network simulation of quantum many-body physics on sparse graphs</title>
+    <link>http://arxiv.org/pdf/2206.04701</link>
+    <author>Subhayan Sahu, Brian Swingle</author>
+    <pubDate>Jun 13 2022</pubDate>
+    <description>We study tensor network states defined on an underlying graph which is sparsely connected. Generic sparse graphs are expander graphs with a high probability, and one can represent volume law entangled states efficiently with only polynomial resources. We find that message-passing inference algorithms such as belief propagation can lead to efficient computation of local expectation values for a class of tensor network states defined on sparse graphs. As applications, we study local properties of square root states, graph states, and also employ this method to variationally prepare ground states of gapped Hamiltonians defined on generic graphs. Using the variational method we study the phase diagram of the transverse field quantum Ising model defined on sparse expander graphs.</description>
   </item>
 
 </channel>
