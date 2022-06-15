@@ -15,11 +15,19 @@
   </item>
 
   <item>
-    <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
-    <link>http://arxiv.org/pdf/2206.03122</link>
-    <author>Oscar Higgott, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
+    <title>The learnability of Pauli noise</title>
+    <link>http://arxiv.org/pdf/2206.06362</link>
+    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+  </item>
+
+  <item>
+    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
+    <link>http://arxiv.org/pdf/2206.05265</link>
+    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
+    <pubDate>Jun 13 2022</pubDate>
+    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
   </item>
 
   <item>
@@ -39,19 +47,19 @@
   </item>
 
   <item>
-    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
-    <link>http://arxiv.org/pdf/2206.05265</link>
-    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
-    <pubDate>Jun 13 2022</pubDate>
-    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
-  </item>
-
-  <item>
     <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
     <link>http://arxiv.org/pdf/2206.04663</link>
     <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
     <pubDate>Jun 10 2022</pubDate>
     <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
+  </item>
+
+  <item>
+    <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
+    <link>http://arxiv.org/pdf/2206.05642</link>
+    <author>Hari Krovi</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>We consider the hardness of computing additive approximations to output probabilities of random quantum circuits. We consider three random circuit families, namely, Haar random, $p=1$ QAOA, and random IQP circuits. Our results are as follows. For Haar random circuits with $m$ gates, we improve on prior results by showing $\mathsf{coC_=P}$ hardness of average-case additive approximations to an imprecision of $2^{-O(m)}$. Efficient classical simulation of such problems would imply the collapse of the polynomial hierarchy. For constant depth circuits i.e., when $m=O(n)$, this linear scaling in the exponent is within a constant of the scaling required to show hardness of sampling. Prior to our work, such a result was shown only for Boson Sampling in Bouland et al (2021). We also use recent results in polynomial interpolation to show $\mathsf{coC_=P}$ hardness under $\mathsf{BPP}$ reductions rather than $\mathsf{BPP}^{\mathsf{NP}}$ reductions. This improves the results of prior work for Haar random circuits both in terms of the error scaling and the power of reductions. Next, we consider random $p=1$ QAOA and IQP circuits and show that in the average-case, it is $\mathsf{coC_=P}$ hard to approximate the output probability to within an additive error of $2^{-O(n)}$. For $p=1$ QAOA circuits, this work constitutes the first average-case hardness result for the problem of approximating output probabilities for random QAOA circuits, which include Sherrington-Kirkpatrick and Erdös-Renyi graphs. For IQP circuits, a consequence of our results is that approximating the Ising partition function with imaginary couplings to an additive error of $2^{-O(n)}$ is hard even in the average-case, which extends prior work on worst-case hardness of multiplicative approximation to Ising partition functions.</description>
   </item>
 
   <item>
@@ -63,14 +71,6 @@
   </item>
 
   <item>
-    <title>Quantum Neural Network Classifiers: A Tutorial</title>
-    <link>http://arxiv.org/pdf/2206.02806</link>
-    <author>Weikang Li, Zhide Lu, Dong-Ling Deng</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>Machine learning has achieved dramatic success over the past decade, with applications ranging from face recognition to natural language processing. Meanwhile, rapid progress has been made in the field of quantum computation including developing both powerful quantum algorithms and advanced quantum devices. The interplay between machine learning and quantum physics holds the intriguing potential for bringing practical applications to the modern society. Here, we focus on quantum neural networks in the form of parameterized quantum circuits. We will mainly discuss different structures and encoding strategies of quantum neural networks for supervised learning tasks, and benchmark their performance utilizing Yao.jl, a quantum simulation package written in Julia Language. The codes are efficient, aiming to provide convenience for beginners in scientific works such as developing powerful variational quantum learning models and assisting the corresponding experimental demonstrations.</description>
-  </item>
-
-  <item>
     <title>Connections between graphs and matrix spaces</title>
     <link>http://arxiv.org/pdf/2206.04815</link>
     <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Efficient tensor network simulation of quantum many-body physics on sparse graphs</title>
-    <link>http://arxiv.org/pdf/2206.04701</link>
-    <author>Subhayan Sahu, Brian Swingle</author>
+    <title>On the probabilistic quantum error correction</title>
+    <link>http://arxiv.org/pdf/2206.05232</link>
+    <author>Ryszard Kukulski, Łukasz Pawela, Zbigniew Puchała</author>
     <pubDate>Jun 13 2022</pubDate>
-    <description>We study tensor network states defined on an underlying graph which is sparsely connected. Generic sparse graphs are expander graphs with a high probability, and one can represent volume law entangled states efficiently with only polynomial resources. We find that message-passing inference algorithms such as belief propagation can lead to efficient computation of local expectation values for a class of tensor network states defined on sparse graphs. As applications, we study local properties of square root states, graph states, and also employ this method to variationally prepare ground states of gapped Hamiltonians defined on generic graphs. Using the variational method we study the phase diagram of the transverse field quantum Ising model defined on sparse expander graphs.</description>
+    <description>Probabilistic quantum error correction is an error-correcting procedure which uses postselection to determine if the encoded information was successfully restored. In this work, we deeply analyze probabilistic version of the error-correcting procedure for general noise. We generalized the Knill-Laflamme conditions for probabilistically correctable errors. We show that for some noise channels, we should encode the information into a mixed state to maximize the probability of successful error correction. Finally, we investigate an advantage of the probabilistic error-correcting procedure over the deterministic one. Reducing the probability of successful error correction allows for correcting errors generated by a broader class of noise channels. Significantly, if the errors are caused by a unitary interaction with an auxiliary qubit system, we can probabilistically restore a qubit state by using only one additional physical qubit.</description>
   </item>
 
 </channel>
