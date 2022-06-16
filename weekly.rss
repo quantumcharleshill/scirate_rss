@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>An efficient decoder for a linear distance quantum LDPC code</title>
+    <link>http://arxiv.org/pdf/2206.06557</link>
+    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
+  </item>
+
+  <item>
     <title>Quantum Advantage in Cryptography</title>
     <link>http://arxiv.org/pdf/2206.04078</link>
     <author>Renato Renner, Ramona Wolf</author>
@@ -39,11 +47,11 @@
   </item>
 
   <item>
-    <title>Quantum Resources Required to Block-Encode a Matrix of Classical Data</title>
-    <link>http://arxiv.org/pdf/2206.03505</link>
-    <author>B. David Clader, Alexander M. Dalzell, Nikitas Stamatopoulos, Grant Salton, Mario Berta, William J. Zeng</author>
-    <pubDate>Jun 09 2022</pubDate>
-    <description>We provide modular circuit-level implementations and resource estimates for several methods of block-encoding a dense $N\times N$ matrix of classical data to precision $\epsilon$; the minimal-depth method achieves a $T$-depth of $\mathcal{O}{(\log (N/\epsilon))},$ while the minimal-count method achieves a $T$-count of $\mathcal{O}{(N\log(1/\epsilon))}$. We examine resource tradeoffs between the different approaches, and we explore implementations of two separate models of quantum random access memory (QRAM). As part of this analysis, we provide a novel state preparation routine with $T$-depth $\mathcal{O}{(\log (N/\epsilon))}$, improving on previous constructions with scaling $\mathcal{O}{(\log^2 (N/\epsilon))}$. Our results go beyond simple query complexity and provide a clear picture into the resource costs when large amounts of classical data are assumed to be accessible to quantum algorithms.</description>
+    <title>Composite Quantum Simulations</title>
+    <link>http://arxiv.org/pdf/2206.06409</link>
+    <author>Matthew Hagan, Nathan Wiebe</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>In this paper we provide a framework for combining multiple quantum simulation methods, such as Trotter-Suzuki formulas and QDrift into a single composite channel that builds upon older coalescing ideas for reducing gate counts. The central idea behind our approach is to use a partitioning scheme that allocates a Hamiltonian term to the Trotter or QDrift part of a channel within the simulation. This allows us to simulate small but numerous terms using QDrift while simulating the larger terms using a high-order Trotter-Suzuki formula. We prove rigorous bounds on the diamond distance between the composite channel and the ideal simulation channel and show under what conditions the cost of implementing the composite channel is asymptotically upper bounded by the methods that comprise it for both probabilistic partitioning of terms and deterministic partitioning. Finally, we discuss strategies for determining partitioning schemes as well as methods for incorporating different simulation methods within the same framework.</description>
   </item>
 
   <item>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>Connections between graphs and matrix spaces</title>
-    <link>http://arxiv.org/pdf/2206.04815</link>
-    <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
-    <pubDate>Jun 13 2022</pubDate>
-    <description>Given a bipartite graph $G$, the graphical matrix space $\mathcal{S}_G$ consists of matrices whose non-zero entries can only be at those positions corresponding to edges in $G$. Tutte (J. London Math. Soc., 1947), Edmonds (J. Res. Nat. Bur. Standards Sect. B, 1967) and Lovász (FCT, 1979) observed connections between perfect matchings in $G$ and full-rank matrices in $\mathcal{S}_G$. Dieudonné (Arch. Math., 1948) proved a tight upper bound on the dimensions of those matrix spaces containing only singular matrices. The starting point of this paper is a simultaneous generalization of these two classical results: we show that the largest dimension over subspaces of $\mathcal{S}_G$ containing only singular matrices is equal to the maximum size over subgraphs of $G$ without perfect matchings, based on Meshulam's proof of Dieudonné's result (Quart. J. Math., 1985). Starting from this result, we go on to establish more connections between properties of graphs and matrix spaces. For example, we establish connections between acyclicity and nilpotency, between strong connectivity and irreducibility, and between isomorphism and conjugacy/congruence. For each connection, we study three types of correspondences, namely the basic correspondence, the inherited correspondence (for subgraphs and subspaces), and the induced correspondence (for induced subgraphs and restrictions). Some correspondences lead to intriguing generalizations of classical results, such as for Dieudonné's result mentioned above, and for a celebrated theorem of Gerstenhaber regarding the largest dimension of nil matrix spaces (Amer. J. Math., 1958). Finally, we show some implications of our results to quantum information and present open problems in computational complexity motivated by these results.</description>
-  </item>
-
-  <item>
-    <title>On the probabilistic quantum error correction</title>
-    <link>http://arxiv.org/pdf/2206.05232</link>
-    <author>Ryszard Kukulski, Łukasz Pawela, Zbigniew Puchała</author>
-    <pubDate>Jun 13 2022</pubDate>
-    <description>Probabilistic quantum error correction is an error-correcting procedure which uses postselection to determine if the encoded information was successfully restored. In this work, we deeply analyze probabilistic version of the error-correcting procedure for general noise. We generalized the Knill-Laflamme conditions for probabilistically correctable errors. We show that for some noise channels, we should encode the information into a mixed state to maximize the probability of successful error correction. Finally, we investigate an advantage of the probabilistic error-correcting procedure over the deterministic one. Reducing the probability of successful error correction allows for correcting errors generated by a broader class of noise channels. Significantly, if the errors are caused by a unitary interaction with an auxiliary qubit system, we can probabilistically restore a qubit state by using only one additional physical qubit.</description>
+    <title>On Classical and Hybrid Shadows of Quantum States</title>
+    <link>http://arxiv.org/pdf/2206.06616</link>
+    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
   </item>
 
 </channel>

@@ -39,6 +39,14 @@
   </item>
 
   <item>
+    <title>The learnability of Pauli noise</title>
+    <link>http://arxiv.org/pdf/2206.06362</link>
+    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+  </item>
+
+  <item>
     <title>Efficient and robust estimation of many-qubit Hamiltonians</title>
     <link>http://arxiv.org/pdf/2205.09567</link>
     <author>Daniel Stilck França, Liubov A. Markovich, V. V. Dobrovitski, Albert H. Werner, Johannes Borregaard</author>
@@ -63,11 +71,11 @@
   </item>
 
   <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+    <title>Perturbation Theory and the Sum of Squares</title>
+    <link>http://arxiv.org/pdf/2205.12325</link>
+    <author>Matthew B. Hastings</author>
+    <pubDate>May 26 2022</pubDate>
+    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
   </item>
 
   <item>
@@ -79,19 +87,11 @@
   </item>
 
   <item>
-    <title>Learning quantum graph states with product measurements</title>
-    <link>http://arxiv.org/pdf/2205.06432</link>
-    <author>Yingkai Ouyang, Marco Tomamichel</author>
-    <pubDate>May 16 2022</pubDate>
-    <description>We consider the problem of learning $N$ identical copies of an unknown $n$-qubit quantum graph state with product measurements. These graph states have corresponding graphs where every vertex has exactly $d$ neighboring vertices. Here, we detail an explicit algorithm that uses product measurements on multiple identical copies of such graph states to learn them. When $n \gg d$ and $N = O(d \log(1/\epsilon) + d^2 \log n ),$ this algorithm correctly learns the graph state with probability at least $1- \epsilon$. From channel coding theory, we find that for arbitrary joint measurements on graph states, any learning algorithm achieving this accuracy requires at least $\Omega(\log (1/\epsilon) + d \log n)$ copies when $d=o(\sqrt n)$. We also supply bounds on $N$ when every graph state encounters identical and independent depolarizing errors on each qubit.</description>
-  </item>
-
-  <item>
-    <title>Perturbation Theory and the Sum of Squares</title>
-    <link>http://arxiv.org/pdf/2205.12325</link>
-    <author>Matthew B. Hastings</author>
-    <pubDate>May 26 2022</pubDate>
-    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
+    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
+    <link>http://arxiv.org/pdf/2206.05265</link>
+    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
+    <pubDate>Jun 13 2022</pubDate>
+    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
   </item>
 
   <item>
@@ -103,11 +103,11 @@
   </item>
 
   <item>
-    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
-    <link>http://arxiv.org/pdf/2206.05265</link>
-    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
-    <pubDate>Jun 13 2022</pubDate>
-    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
+    <title>An efficient decoder for a linear distance quantum LDPC code</title>
+    <link>http://arxiv.org/pdf/2206.06557</link>
+    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
   </item>
 
   <item>
@@ -135,19 +135,19 @@
   </item>
 
   <item>
-    <title>On the Role of Quantum Coherence in Thermodynamics</title>
-    <link>http://arxiv.org/pdf/2205.13612</link>
-    <author>Gilad Gour</author>
-    <pubDate>May 30 2022</pubDate>
-    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
-  </item>
-
-  <item>
     <title>Benchmarking Quantum Simulators using Quantum Chaos</title>
     <link>http://arxiv.org/pdf/2205.12211</link>
     <author>Daniel K. Mark, Joonhee Choi, Adam L. Shaw, Manuel Endres, Soonwon Choi</author>
     <pubDate>May 25 2022</pubDate>
     <description>We propose and analyze a sample-efficient protocol to estimate the fidelity between an experimentally prepared state and an ideal target state, applicable to a wide class of analog quantum simulators without advanced sophisticated spatiotemporal control. Our approach utilizes newly discovered universal fluctuations emerging from generic Hamiltonian dynamics, and it does not require any fine-tuned control over state preparation, quantum evolution, or readout capability. It only needs a small number of experimental measurements, achieving near optimal sample complexity: in ideal cases, a percent-level precision is obtained with $\sim 10^3$ measurements independent of system size. Furthermore, the accuracy of our fidelity estimation improves with increasing system size. We numerically demonstrate our protocol for a variety of quantum simulator platforms such as itinerant particles on optical lattices, trapped ions, and Rydberg atoms. We discuss further applications of our method for advanced tasks such as multi-parameter estimation of quantum states and processes.</description>
+  </item>
+
+  <item>
+    <title>On the Role of Quantum Coherence in Thermodynamics</title>
+    <link>http://arxiv.org/pdf/2205.13612</link>
+    <author>Gilad Gour</author>
+    <pubDate>May 30 2022</pubDate>
+    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
   </item>
 
   <item>
@@ -167,6 +167,14 @@
   </item>
 
   <item>
+    <title>Composite Quantum Simulations</title>
+    <link>http://arxiv.org/pdf/2206.06409</link>
+    <author>Matthew Hagan, Nathan Wiebe</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>In this paper we provide a framework for combining multiple quantum simulation methods, such as Trotter-Suzuki formulas and QDrift into a single composite channel that builds upon older coalescing ideas for reducing gate counts. The central idea behind our approach is to use a partitioning scheme that allocates a Hamiltonian term to the Trotter or QDrift part of a channel within the simulation. This allows us to simulate small but numerous terms using QDrift while simulating the larger terms using a high-order Trotter-Suzuki formula. We prove rigorous bounds on the diamond distance between the composite channel and the ideal simulation channel and show under what conditions the cost of implementing the composite channel is asymptotically upper bounded by the methods that comprise it for both probabilistic partitioning of terms and deterministic partitioning. Finally, we discuss strategies for determining partitioning schemes as well as methods for incorporating different simulation methods within the same framework.</description>
+  </item>
+
+  <item>
     <title>The QAOA with Slow Measurements</title>
     <link>http://arxiv.org/pdf/2205.06845</link>
     <author>Anthony Polloreno, Graeme Smith</author>
@@ -175,19 +183,19 @@
   </item>
 
   <item>
-    <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
-    <link>http://arxiv.org/pdf/2206.04663</link>
-    <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
-  </item>
-
-  <item>
     <title>Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz</title>
     <link>http://arxiv.org/pdf/2206.01982</link>
     <author>Antonio Anna Mele, Glen Bigan Mbeng, Giuseppe Ernesto Santoro, Mario Collura, Pietro Torta</author>
     <pubDate>Jun 07 2022</pubDate>
     <description>A large ongoing research effort focuses on Variational Quantum Algorithms (VQAs), representing leading candidates to achieve computational speed-ups on current quantum devices. The scalability of VQAs to a large number of qubits, beyond the simulation capabilities of classical computers, is still debated. Two major hurdles are the proliferation of low-quality variational local minima, and the exponential vanishing of gradients in the cost function landscape, a phenomenon referred to as barren plateaus. Here we show that by employing iterative search schemes one can effectively prepare the ground state of paradigmatic quantum many-body models, circumventing also the barren plateau phenomenon. This is accomplished by leveraging the transferability to larger system sizes of iterative solutions, displaying an intrinsic smoothness of the variational parameters, a result that does not extend to other solutions found via random-start local optimization. Our scheme could be directly tested on near-term quantum devices, running a refinement optimization in a favorable local landscape with non-vanishing gradients.</description>
+  </item>
+
+  <item>
+    <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
+    <link>http://arxiv.org/pdf/2206.04663</link>
+    <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
     <pubDate>Jun 02 2022</pubDate>
     <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
-  </item>
-
-  <item>
-    <title>Simulation Complexity of Many-Body Localized Systems</title>
-    <link>http://arxiv.org/pdf/2205.12967</link>
-    <author>Adam Ehrenberg, Abhinav Deshpande, Christopher L. Baldwin, Dmitry A. Abanin, Alexey V. Gorshkov</author>
-    <pubDate>May 27 2022</pubDate>
-    <description>We use complexity theory to rigorously investigate the difficulty of classically simulating evolution under many-body localized (MBL) Hamiltonians. Using the defining feature that MBL systems have a complete set of quasilocal integrals of motion (LIOMs), we demonstrate a transition in the classical complexity of simulating such systems as a function of evolution time. On one side, we construct a quasipolynomial-time tensor-network-inspired algorithm for strong simulation of 1D MBL systems (i.e., calculating the expectation value of arbitrary products of local observables) evolved for any time polynomial in the system size. On the other side, we prove that even weak simulation, i.e. sampling, becomes formally hard after an exponentially long evolution time, assuming widely believed conjectures in complexity theory. Finally, using the consequences of our classical simulation results, we also show that the quantum circuit complexity for MBL systems is sublinear in evolution time. This result is a counterpart to a recent proof that the complexity of random quantum circuits grows linearly in time.</description>
   </item>
 
 </channel>

@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
-    <link>http://arxiv.org/pdf/2201.08309</link>
-    <author>Lin Lin</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
-  </item>
-
-  <item>
     <title>Computational advantage of quantum random sampling</title>
     <link>http://arxiv.org/pdf/2206.04079</link>
     <author>Dominik Hangleiter, Jens Eisert</author>
     <pubDate>Jun 10 2022</pubDate>
     <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
+  </item>
+
+  <item>
+    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
+    <link>http://arxiv.org/pdf/2201.08309</link>
+    <author>Lin Lin</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
   </item>
 
   <item>
@@ -116,14 +116,6 @@
     <author>Matthew B. Hastings, Jeongwan Haah</author>
     <pubDate>Jul 07 2021</pubDate>
     <description>We present a quantum error correcting code with dynamically generated logical qubits. When viewed as a subsystem code, the code has no logical qubits. Nevertheless, our measurement patterns generate logical qubits, allowing the code to act as a fault-tolerant quantum memory. Our particular code gives a model very similar to the two-dimensional toric code, but each measurement is a two-qubit Pauli measurement.</description>
-  </item>
-
-  <item>
-    <title>Improved upper bounds on the stabilizer rank of magic states</title>
-    <link>http://arxiv.org/pdf/2106.07740</link>
-    <author>Hammam Qassim, Hakop Pashayan, David Gosset</author>
-    <pubDate>Jun 16 2021</pubDate>
-    <description>In this work we improve the runtime of recent classical algorithms for strong simulation of quantum circuits composed of Clifford and T gates. The improvement is obtained by establishing a new upper bound on the stabilizer rank of $m$ copies of the magic state $|T\rangle=\sqrt{2}^{-1}(|0\rangle+e^{i\pi/4}|1\rangle)$ in the limit of large $m$. In particular, we show that $|T\rangle^{\otimes m}$ can be exactly expressed as a superposition of at most $O(2^{\alpha m})$ stabilizer states, where $\alpha\leq 0.3963$, improving on the best previously known bound $\alpha \leq 0.463$. This furnishes, via known techniques, a classical algorithm which approximates output probabilities of an $n$-qubit Clifford + T circuit $U$ with $m$ uses of the T gate to within a given inverse polynomial relative error using a runtime $\mathrm{poly}(n,m)2^{\alpha m}$. We also provide improved upper bounds on the stabilizer rank of symmetric product states $|\psi\rangle^{\otimes m}$ more generally; as a consequence we obtain a strong simulation algorithm for circuits consisting of Clifford gates and $m$ instances of any (fixed) single-qubit $Z$-rotation gate with runtime $\text{poly}(n,m) 2^{m/2}$. We suggest a method to further improve the upper bounds by constructing linear codes with certain properties.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>James D. Watson, Toby S. Cubitt</author>
     <pubDate>Jul 13 2021</pubDate>
     <description>We study the complexity of finding the ground state energy density of a local Hamiltonian on a lattice in the thermodynamic limit of infinite lattice size. We formulate this rigorously as a function problem, in which we request an estimate of the ground state energy density to some specified precision; and as an equivalent promise problem, $\mathsf{GSED}$, in which we ask whether the ground state energy density is above or below specified thresholds. The ground state energy density problem is unusual, in that it concerns a single, fixed Hamiltonian in the thermodynamic limit, whose ground state energy density is just some fixed, real number. The only input to the computational problem is the precision to which to estimate this fixed real number, corresponding to the ground state energy density. Hardness of this problem for a complexity class therefore implies that the solutions to all problems in the class are encoded in this single number (analogous to Chaitin's constant in computability theory). This captures computationally the type of question most commonly encountered in condensed matter physics, which is typically concerned with the physical properties of a single Hamiltonian in the thermodynamic limit. We show that for classical, translationally invariant, nearest neighbour Hamiltonians on a 2D square lattice, $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{NEXP}}$, and for quantum Hamiltonians $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{QMA}_{EXP}}$. With some technical caveats on the oracle definitions, the $\mathsf{EXP}$ in some of these results can be strengthened to $\mathsf{PSPACE}$. We also give analogous complexity bounds for the function version of $\mathsf{GSED}$.</description>
+  </item>
+
+  <item>
+    <title>Modern applications of machine learning in quantum sciences</title>
+    <link>http://arxiv.org/pdf/2204.04198</link>
+    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
   </item>
 
 </channel>
