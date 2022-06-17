@@ -63,19 +63,19 @@
   </item>
 
   <item>
-    <title>Dequantizing the Quantum Singular Value Transformation: Hardness and Applications to Quantum Chemistry and the Quantum PCP Conjecture</title>
-    <link>http://arxiv.org/pdf/2111.09079</link>
-    <author>Sevag Gharibian, François Le Gall</author>
-    <pubDate>Nov 18 2021</pubDate>
-    <description>The Quantum Singular Value Transformation (QSVT) is a recent technique that gives a unified framework to describe most quantum algorithms discovered so far, and may lead to the development of novel quantum algorithms. In this paper we investigate the hardness of classically simulating the QSVT. A recent result by Chia, Gilyén, Li, Lin, Tang and Wang (STOC 2020) showed that the QSVT can be efficiently "dequantized" for low-rank matrices, and discussed its implication to quantum machine learning. In this work, motivated by establishing the superiority of quantum algorithms for quantum chemistry and making progress on the quantum PCP conjecture, we focus on the other main class of matrices considered in applications of the QSVT, sparse matrices. We first show how to efficiently "dequantize", with arbitrarily small constant precision, the QSVT associated with a low-degree polynomial. We apply this technique to design classical algorithms that estimate, with constant precision, the singular values of a sparse matrix. We show in particular that a central computational problem considered by quantum algorithms for quantum chemistry (estimating the ground state energy of a local Hamiltonian when given, as an additional input, a state sufficiently close to the ground state) can be solved efficiently with constant precision on a classical computer. As a complementary result, we prove that with inverse-polynomial precision, the same problem becomes BQP-complete. This gives theoretical evidence for the superiority of quantum algorithms for chemistry, and strongly suggests that said superiority stems from the improved precision achievable in the quantum setting. We also discuss how this dequantization technique may help make progress on the central quantum PCP conjecture.</description>
-  </item>
-
-  <item>
     <title>Computational advantage of quantum random sampling</title>
     <link>http://arxiv.org/pdf/2206.04079</link>
     <author>Dominik Hangleiter, Jens Eisert</author>
     <pubDate>Jun 10 2022</pubDate>
     <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
+  </item>
+
+  <item>
+    <title>Dequantizing the Quantum Singular Value Transformation: Hardness and Applications to Quantum Chemistry and the Quantum PCP Conjecture</title>
+    <link>http://arxiv.org/pdf/2111.09079</link>
+    <author>Sevag Gharibian, François Le Gall</author>
+    <pubDate>Nov 18 2021</pubDate>
+    <description>The Quantum Singular Value Transformation (QSVT) is a recent technique that gives a unified framework to describe most quantum algorithms discovered so far, and may lead to the development of novel quantum algorithms. In this paper we investigate the hardness of classically simulating the QSVT. A recent result by Chia, Gilyén, Li, Lin, Tang and Wang (STOC 2020) showed that the QSVT can be efficiently "dequantized" for low-rank matrices, and discussed its implication to quantum machine learning. In this work, motivated by establishing the superiority of quantum algorithms for quantum chemistry and making progress on the quantum PCP conjecture, we focus on the other main class of matrices considered in applications of the QSVT, sparse matrices. We first show how to efficiently "dequantize", with arbitrarily small constant precision, the QSVT associated with a low-degree polynomial. We apply this technique to design classical algorithms that estimate, with constant precision, the singular values of a sparse matrix. We show in particular that a central computational problem considered by quantum algorithms for quantum chemistry (estimating the ground state energy of a local Hamiltonian when given, as an additional input, a state sufficiently close to the ground state) can be solved efficiently with constant precision on a classical computer. As a complementary result, we prove that with inverse-polynomial precision, the same problem becomes BQP-complete. This gives theoretical evidence for the superiority of quantum algorithms for chemistry, and strongly suggests that said superiority stems from the improved precision achievable in the quantum setting. We also discuss how this dequantization technique may help make progress on the central quantum PCP conjecture.</description>
   </item>
 
   <item>
@@ -119,19 +119,19 @@
   </item>
 
   <item>
-    <title>Revisiting dequantization and quantum advantage in learning tasks</title>
-    <link>http://arxiv.org/pdf/2112.00811</link>
-    <author>Jordan Cotler, Hsin-Yuan Huang, Jarrod R. McClean</author>
-    <pubDate>Dec 03 2021</pubDate>
-    <description>It has been shown that the apparent advantage of some quantum machine learning algorithms may be efficiently replicated using classical algorithms with suitable data access -- a process known as dequantization. Existing works on dequantization compare quantum algorithms which take copies of an n-qubit quantum state $|x\rangle = \sum_{i} x_i |i\rangle$ as input to classical algorithms which have sample and query (SQ) access to the vector $x$. In this note, we prove that classical algorithms with SQ access can accomplish some learning tasks exponentially faster than quantum algorithms with quantum state inputs. Because classical algorithms are a subset of quantum algorithms, this demonstrates that SQ access can sometimes be significantly more powerful than quantum state inputs. Our findings suggest that the absence of exponential quantum advantage in some learning tasks may be due to SQ access being too powerful relative to quantum state inputs. If we compare quantum algorithms with quantum state inputs to classical algorithms with access to measurement data on quantum states, the landscape of quantum advantage can be dramatically different. We remark that when the quantum states are constructed from exponential-size classical data, comparing SQ access and quantum state inputs is appropriate since both require exponential time to prepare.</description>
-  </item>
-
-  <item>
     <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
     <link>http://arxiv.org/pdf/2112.02040</link>
     <author>Adam Bouland, Tudor Giurgica-Tiron</author>
     <pubDate>Dec 06 2021</pubDate>
     <description>The Solovay-Kitaev algorithm is a fundamental result in quantum computation. It gives an algorithm for efficiently compiling arbitrary unitaries using universal gate sets: any unitary can be approximated by short gates sequences, whose length scales merely poly-logarithmically with accuracy. As a consequence, the choice of gate set is typically unimportant in quantum computing. However, the Solovay-Kitaev algorithm requires the gate set to be inverse-closed. It has been a longstanding open question if efficient algorithmic compilation is possible without this condition. In this work, we provide the first inverse-free Solovay-Kitaev algorithm, which makes no assumption on the structure within a gate set beyond universality, answering this problem in the affirmative, and providing an efficient compilation algorithm in the absence of inverses for both $\text{SU}(d)$ and $\text{SL}(d, \mathbb{C})$. The algorithm works by showing that approximate gate implementations of the generalized Pauli group can self-correct their errors.</description>
+  </item>
+
+  <item>
+    <title>Revisiting dequantization and quantum advantage in learning tasks</title>
+    <link>http://arxiv.org/pdf/2112.00811</link>
+    <author>Jordan Cotler, Hsin-Yuan Huang, Jarrod R. McClean</author>
+    <pubDate>Dec 03 2021</pubDate>
+    <description>It has been shown that the apparent advantage of some quantum machine learning algorithms may be efficiently replicated using classical algorithms with suitable data access -- a process known as dequantization. Existing works on dequantization compare quantum algorithms which take copies of an n-qubit quantum state $|x\rangle = \sum_{i} x_i |i\rangle$ as input to classical algorithms which have sample and query (SQ) access to the vector $x$. In this note, we prove that classical algorithms with SQ access can accomplish some learning tasks exponentially faster than quantum algorithms with quantum state inputs. Because classical algorithms are a subset of quantum algorithms, this demonstrates that SQ access can sometimes be significantly more powerful than quantum state inputs. Our findings suggest that the absence of exponential quantum advantage in some learning tasks may be due to SQ access being too powerful relative to quantum state inputs. If we compare quantum algorithms with quantum state inputs to classical algorithms with access to measurement data on quantum states, the landscape of quantum advantage can be dramatically different. We remark that when the quantum states are constructed from exponential-size classical data, comparing SQ access and quantum state inputs is appropriate since both require exponential time to prepare.</description>
   </item>
 
   <item>
@@ -303,6 +303,14 @@
   </item>
 
   <item>
+    <title>Towards near-term quantum simulation of materials</title>
+    <link>http://arxiv.org/pdf/2205.15256</link>
+    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
+    <pubDate>May 31 2022</pubDate>
+    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
+  </item>
+
+  <item>
     <title>Is quantum advantage the right goal for quantum machine learning?</title>
     <link>http://arxiv.org/pdf/2203.01340</link>
     <author>Maria Schuld, Nathan Killoran</author>
@@ -316,14 +324,6 @@
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
     <pubDate>May 06 2022</pubDate>
     <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
-  </item>
-
-  <item>
-    <title>Towards near-term quantum simulation of materials</title>
-    <link>http://arxiv.org/pdf/2205.15256</link>
-    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
-    <pubDate>May 31 2022</pubDate>
-    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
   </item>
 
   <item>

@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>An efficient decoder for a linear distance quantum LDPC code</title>
-    <link>http://arxiv.org/pdf/2206.06557</link>
-    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
+    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.07571</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
   </item>
 
   <item>
-    <title>Composite Quantum Simulations</title>
-    <link>http://arxiv.org/pdf/2206.06409</link>
-    <author>Matthew Hagan, Nathan Wiebe</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>In this paper we provide a framework for combining multiple quantum simulation methods, such as Trotter-Suzuki formulas and QDrift into a single composite channel that builds upon older coalescing ideas for reducing gate counts. The central idea behind our approach is to use a partitioning scheme that allocates a Hamiltonian term to the Trotter or QDrift part of a channel within the simulation. This allows us to simulate small but numerous terms using QDrift while simulating the larger terms using a high-order Trotter-Suzuki formula. We prove rigorous bounds on the diamond distance between the composite channel and the ideal simulation channel and show under what conditions the cost of implementing the composite channel is asymptotically upper bounded by the methods that comprise it for both probabilistic partitioning of terms and deterministic partitioning. Finally, we discuss strategies for determining partitioning schemes as well as methods for incorporating different simulation methods within the same framework.</description>
+    <title>Concentration of quantum equilibration and an estimate of the recurrence time</title>
+    <link>http://arxiv.org/pdf/2206.07541</link>
+    <author>Jonathon Riddell, Nathan Pagliaroli, Álvaro M. Alhambra</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>We show that the dynamics of generic quantum systems concentrate around their equilibrium value when measuring at arbitrary times. This means that the probability of finding them away from equilibrium is exponentially suppressed, with a decay rate given by the effective dimension. Our result allows us to place a lower bound on the recurrence time of quantum systems, since recurrences corresponds to the rare events of finding a state away from equilibrium. In many-body systems, this bound is doubly exponential in system size. We also show corresponding results for free fermions, which display a weaker concentration and earlier recurrences.</description>
   </item>
 
   <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+    <title>Bayesian Learning of Parameterised Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2206.07559</link>
+    <author>Samuel Duffield, Marcello Benedetti, Matthias Rosenkranz</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>Currently available quantum computers suffer from constraints including hardware noise and a limited number of qubits. As such, variational quantum algorithms that utilise a classical optimiser in order to train a parameterised quantum circuit have drawn significant attention for near-term practical applications of quantum technology. In this work, we take a probabilistic point of view and reformulate the classical optimisation as an approximation of a Bayesian posterior. The posterior is induced by combining the cost function to be minimised with a prior distribution over the parameters of the quantum circuit. We describe a dimension reduction strategy based on a maximum a posteriori point estimate with a Laplace prior. Experiments on the Quantinuum H1-2 computer show that the resulting circuits are faster to execute and less noisy than the circuits trained without the dimension reduction strategy. We subsequently describe a posterior sampling strategy based on stochastic gradient Langevin dynamics. Numerical simulations on three different problems show that the strategy is capable of generating samples from the full posterior and avoiding local optima.</description>
   </item>
 
   <item>
-    <title>Hyper-optimized compressed contraction of tensor networks with arbitrary geometry</title>
-    <link>http://arxiv.org/pdf/2206.07044</link>
-    <author>Johnnie Gray, Garnet Kin-Lic Chan</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Tensor network contraction is central to problems ranging from many-body physics to computer science. We describe how to approximate tensor network contraction through bond compression on arbitrary graphs. In particular, we introduce a hyper-optimization over the compression and contraction strategy itself to minimize error and cost. We demonstrate that our protocol outperforms both hand-crafted contraction strategies as well as recently proposed general contraction algorithms on a variety of synthetic problems on regular lattices and random regular graphs. We further showcase the power of the approach by demonstrating compressed contraction of tensor networks for frustrated three-dimensional lattice partition functions, dimer counting on random regular graphs, and to access the hardness transition of random tensor network models, in graphs with many thousands of tensors.</description>
+    <title>A note on the inner products of pure states and their antidistinguishability</title>
+    <link>http://arxiv.org/pdf/2206.08313</link>
+    <author>Vincent Russo, Jamie Sikora</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>A set of d quantum states is said to be antidistinguishable if there exists a d-outcome POVM that can perfectly identify which state was not measured. A conjecture by Havlíček and Barrett states that if a set of d pure states has small pair-wise inner products, then the set must be antidistinguishable. In this note we provide a certificate of antidistinguishability via semidefinite programming duality and use it to provide a counterexample to this conjecture when d = 4.</description>
   </item>
 
   <item>
-    <title>Space-efficient Quantization Method for Reversible Markov Chains</title>
-    <link>http://arxiv.org/pdf/2206.06886</link>
-    <author>Chen-Fu Chiang, Anirban Chowdhury, Pawel Wocjan</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>In a seminal paper, Szegedy showed how to construct a quantum walk $W(P)$ for any reversible Markov chain $P$ such that its eigenvector with eigenphase $0$ is a quantum sample of the limiting distribution of the random walk and its eigenphase gap is quadratically larger than the spectral gap of $P$. The standard construction of Szegedy's quantum walk requires an ancilla register of Hilbert-space dimension equal to the size of the state space of the Markov chain. We show that it is possible to avoid this doubling of state space for certain Markov chains that employ a symmetric proposal probability and a subsequent accept/reject probability to sample from the Gibbs distribution. For such Markov chains, we give a quantization method which requires an ancilla register of dimension equal to only the number of different energy values, which is often significantly smaller than the size of the state space. To accomplish this, we develop a technique for block encoding Hadamard products of matrices which may be of wider interest.</description>
+    <title>Equivalence in delegated quantum computing</title>
+    <link>http://arxiv.org/pdf/2206.07469</link>
+    <author>Fabian Wiesner, Jens Eisert, Anna Pappa</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>Delegated quantum computing (DQC) enables limited clients to perform operations that are outside their capabilities remotely on a quantum server. Protocols for DQC are usually built in the measurement-based quantum computation framework, as this allows for a natural separation of the different parts of the computation between the client and the server. The existing protocols achieve several desired properties, including security of inputs, blindness of computation and verifiability, and have also recently been extended to the multiparty setting. Two approaches are followed in DQC that demand completely different operations on the clients' side. In one, the clients are able to prepare quantum states; in the other, the clients are able to measure them. In this work, we provide a novel definition of protocol equivalence and show that these distinct DQC settings are in fact equivalent. We use the abstract cryptography framework to prove our claims and provide a novel technique that enables changing from one setting to the other. In this way, we demonstrate that both approaches can be used to perform a task with the same properties, i.e. using our proposed techniques, we can always translate from one setting to the other. We finally use our results to propose a hybrid-client model for DQC.</description>
   </item>
 
 </channel>

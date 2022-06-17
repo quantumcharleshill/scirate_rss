@@ -71,35 +71,11 @@
   </item>
 
   <item>
-    <title>Perturbation Theory and the Sum of Squares</title>
-    <link>http://arxiv.org/pdf/2205.12325</link>
-    <author>Matthew B. Hastings</author>
-    <pubDate>May 26 2022</pubDate>
-    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
-  </item>
-
-  <item>
     <title>Tensor Network Algorithms: a Route Map</title>
     <link>http://arxiv.org/pdf/2205.10345</link>
     <author>Mari Carmen Bañuls</author>
     <pubDate>May 23 2022</pubDate>
     <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
-  </item>
-
-  <item>
-    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
-    <link>http://arxiv.org/pdf/2206.05265</link>
-    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
-    <pubDate>Jun 13 2022</pubDate>
-    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>Adaptive Online Learning of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.00220</link>
-    <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
-    <pubDate>Jun 02 2022</pubDate>
-    <description>In the fundamental problem of shadow tomography, the goal is to efficiently learn an unknown $d$-dimensional quantum state using projective measurements. However, it is rarely the case that the underlying state remains stationary: changes may occur due to measurements, environmental noise, or an underlying Hamiltonian state evolution. In this paper we adopt tools from adaptive online learning to learn a changing state, giving adaptive and dynamic regret bounds for online shadow tomography that are polynomial in the number of qubits and sublinear in the number of measurements. Our analysis utilizes tools from complex matrix analysis to cope with complex numbers, which may be of independent interest in online learning. In addition, we provide numerical experiments that corroborate our theoretical results.</description>
   </item>
 
   <item>
@@ -111,11 +87,27 @@
   </item>
 
   <item>
-    <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
-    <link>http://arxiv.org/pdf/2206.03122</link>
-    <author>Oscar Higgott, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
+    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
+    <link>http://arxiv.org/pdf/2206.05265</link>
+    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
+    <pubDate>Jun 13 2022</pubDate>
+    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
+  </item>
+
+  <item>
+    <title>Perturbation Theory and the Sum of Squares</title>
+    <link>http://arxiv.org/pdf/2205.12325</link>
+    <author>Matthew B. Hastings</author>
+    <pubDate>May 26 2022</pubDate>
+    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
+  </item>
+
+  <item>
+    <title>Adaptive Online Learning of Quantum States</title>
+    <link>http://arxiv.org/pdf/2206.00220</link>
+    <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>In the fundamental problem of shadow tomography, the goal is to efficiently learn an unknown $d$-dimensional quantum state using projective measurements. However, it is rarely the case that the underlying state remains stationary: changes may occur due to measurements, environmental noise, or an underlying Hamiltonian state evolution. In this paper we adopt tools from adaptive online learning to learn a changing state, giving adaptive and dynamic regret bounds for online shadow tomography that are polynomial in the number of qubits and sublinear in the number of measurements. Our analysis utilizes tools from complex matrix analysis to cope with complex numbers, which may be of independent interest in online learning. In addition, we provide numerical experiments that corroborate our theoretical results.</description>
   </item>
 
   <item>
@@ -124,6 +116,14 @@
     <author>Renato Renner, Ramona Wolf</author>
     <pubDate>Jun 10 2022</pubDate>
     <description>Ever since its inception, cryptography has been caught in a vicious circle: Cryptographers keep inventing methods to hide information, and cryptanalysts break them, prompting cryptographers to invent even more sophisticated encryption schemes, and so on. But could it be that quantum information technology breaks this circle? At first sight, it looks as if it just lifts the competition between cryptographers and cryptanalysts to the next level. Indeed, quantum computers will render most of today's public key cryptosystems insecure. Nonetheless, there are good reasons to believe that cryptographers will ultimately prevail over cryptanalysts. Quantum cryptography allows us to build communication schemes whose secrecy relies only on the laws of physics as well as some minimum assumptions about the cryptographic hardware - leaving basically no room for an attack. While we are not yet there, this article provides an overview of the principles and state of the art of quantum cryptography.</description>
+  </item>
+
+  <item>
+    <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
+    <link>http://arxiv.org/pdf/2206.03122</link>
+    <author>Oscar Higgott, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 08 2022</pubDate>
+    <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
   </item>
 
   <item>
@@ -167,6 +167,14 @@
   </item>
 
   <item>
+    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.07571</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
+  </item>
+
+  <item>
     <title>Composite Quantum Simulations</title>
     <link>http://arxiv.org/pdf/2206.06409</link>
     <author>Matthew Hagan, Nathan Wiebe</author>
@@ -175,11 +183,11 @@
   </item>
 
   <item>
-    <title>The QAOA with Slow Measurements</title>
-    <link>http://arxiv.org/pdf/2205.06845</link>
-    <author>Anthony Polloreno, Graeme Smith</author>
-    <pubDate>May 17 2022</pubDate>
-    <description>The Quantum Approximate Optimization Algorithm (QAOA) was originally developed to solve combinatorial optimization problems, but has become a standard for assessing the performance of quantum computers. Fully descriptive benchmarking techniques are often prohibitively expensive for large numbers of qubits ($n \gtrsim 10$), so the QAOA often serves in practice as a computational benchmark. The QAOA involves a classical optimization subroutine that attempts to find optimal parameters for a quantum subroutine. Unfortunately, many optimizers used for the QAOA require many shots ($N \gtrsim 1000$) per point in parameter space to get a reliable estimate of the energy being minimized. However, some experimental quantum computing platforms such as neutral atom quantum computers have slow repetition rates, placing unique requirements on the classical optimization subroutine used in the QAOA in these systems. In this paper we investigate the performance of a gradient free classical optimizer for the QAOA - dual annealing - and demonstrate that optimization is possible even with $N=1$ and $n=16$.</description>
+    <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
+    <link>http://arxiv.org/pdf/2206.04663</link>
+    <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
   </item>
 
   <item>
@@ -188,14 +196,6 @@
     <author>Antonio Anna Mele, Glen Bigan Mbeng, Giuseppe Ernesto Santoro, Mario Collura, Pietro Torta</author>
     <pubDate>Jun 07 2022</pubDate>
     <description>A large ongoing research effort focuses on Variational Quantum Algorithms (VQAs), representing leading candidates to achieve computational speed-ups on current quantum devices. The scalability of VQAs to a large number of qubits, beyond the simulation capabilities of classical computers, is still debated. Two major hurdles are the proliferation of low-quality variational local minima, and the exponential vanishing of gradients in the cost function landscape, a phenomenon referred to as barren plateaus. Here we show that by employing iterative search schemes one can effectively prepare the ground state of paradigmatic quantum many-body models, circumventing also the barren plateau phenomenon. This is accomplished by leveraging the transferability to larger system sizes of iterative solutions, displaying an intrinsic smoothness of the variational parameters, a result that does not extend to other solutions found via random-start local optimization. Our scheme could be directly tested on near-term quantum devices, running a refinement optimization in a favorable local landscape with non-vanishing gradients.</description>
-  </item>
-
-  <item>
-    <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
-    <link>http://arxiv.org/pdf/2206.04663</link>
-    <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
   </item>
 
   <item>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Modular Commutators in Conformal Field Theory</title>
-    <link>http://arxiv.org/pdf/2206.00027</link>
-    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
-    <pubDate>Jun 02 2022</pubDate>
-    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
+    <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
+    <link>http://arxiv.org/pdf/2206.05642</link>
+    <author>Hari Krovi</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>We consider the hardness of computing additive approximations to output probabilities of random quantum circuits. We consider three random circuit families, namely, Haar random, $p=1$ QAOA, and random IQP circuits. Our results are as follows. For Haar random circuits with $m$ gates, we improve on prior results by showing $\mathsf{coC_=P}$ hardness of average-case additive approximations to an imprecision of $2^{-O(m)}$. Efficient classical simulation of such problems would imply the collapse of the polynomial hierarchy. For constant depth circuits i.e., when $m=O(n)$, this linear scaling in the exponent is within a constant of the scaling required to show hardness of sampling. Prior to our work, such a result was shown only for Boson Sampling in Bouland et al (2021). We also use recent results in polynomial interpolation to show $\mathsf{coC_=P}$ hardness under $\mathsf{BPP}$ reductions rather than $\mathsf{BPP}^{\mathsf{NP}}$ reductions. This improves the results of prior work for Haar random circuits both in terms of the error scaling and the power of reductions. Next, we consider random $p=1$ QAOA and IQP circuits and show that in the average-case, it is $\mathsf{coC_=P}$ hard to approximate the output probability to within an additive error of $2^{-O(n)}$. For $p=1$ QAOA circuits, this work constitutes the first average-case hardness result for the problem of approximating output probabilities for random QAOA circuits, which include Sherrington-Kirkpatrick and Erdös-Renyi graphs. For IQP circuits, a consequence of our results is that approximating the Ising partition function with imaginary couplings to an additive error of $2^{-O(n)}$ is hard even in the average-case, which extends prior work on worst-case hardness of multiplicative approximation to Ising partition functions.</description>
   </item>
 
 </channel>
