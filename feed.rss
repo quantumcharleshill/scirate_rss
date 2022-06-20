@@ -31,14 +31,6 @@
   </item>
 
   <item>
-    <title>Saturation and recurrence of quantum complexity in random quantum circuits</title>
-    <link>http://arxiv.org/pdf/2205.09734</link>
-    <author>Michał Oszmaniec, Michał Horodecki, Nicholas Hunter-Jones</author>
-    <pubDate>May 20 2022</pubDate>
-    <description>Quantum complexity is a measure of the minimal number of elementary operations required to approximately prepare a given state or unitary channel. Recently, this concept has found applications beyond quantum computing -- in studying the dynamics of quantum many-body systems and the long-time properties of AdS black holes. In this context Brown and Susskind conjectured that the complexity of a chaotic quantum system grows linearly in time up to times exponential in the system size, saturating at a maximal value, and remaining maximally complex until undergoing recurrences at doubly-exponential times. In this work we prove the saturation and recurrence of the complexity of quantum states and unitaries in a model of chaotic time-evolution based on random quantum circuits, in which a local random unitary transformation is applied to the system at every time step. Importantly, our findings hold for quite general random circuit models, irrespective of the gate set and geometry of qubit interactions. Our results advance an understanding of the long-time behaviour of chaotic quantum systems and could shed light on the physics of black hole interiors. From a technical perspective our results are based on establishing new quantitative connections between the Haar measure and high-degree approximate designs, as well as the fact that random quantum circuits of sufficiently high depth converge to approximate designs.</description>
-  </item>
-
-  <item>
     <title>The learnability of Pauli noise</title>
     <link>http://arxiv.org/pdf/2206.06362</link>
     <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
@@ -47,11 +39,11 @@
   </item>
 
   <item>
-    <title>Efficient and robust estimation of many-qubit Hamiltonians</title>
-    <link>http://arxiv.org/pdf/2205.09567</link>
-    <author>Daniel Stilck França, Liubov A. Markovich, V. V. Dobrovitski, Albert H. Werner, Johannes Borregaard</author>
-    <pubDate>May 20 2022</pubDate>
-    <description>Characterizing the interactions and dynamics of quantum mechanical systems is an essential task in the development of quantum technologies. We propose a novel protocol for estimating the underlying Hamiltonian dynamics and Markovian noise of a multi-qubit device. It is based on the efficient estimation of the time-derivatives of few qubit observables using polynomial interpolation. For finite range dynamics, our protocol exponentially improves the necessary time-resolution of the measurements and quadratically reduces the overall sample complexity compared to previous approaches. Furthermore, we show that our protocol can characterize the dynamics of systems with algebraically decaying interactions. The implementation of the protocol requires only the preparation of product states and single-qubit measurements, rendering it applicable for the characterization of both current and future quantum devices.</description>
+    <title>An efficient decoder for a linear distance quantum LDPC code</title>
+    <link>http://arxiv.org/pdf/2206.06557</link>
+    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
   </item>
 
   <item>
@@ -63,27 +55,11 @@
   </item>
 
   <item>
-    <title>Topological phases of unitary dynamics: Classification in Clifford category</title>
-    <link>http://arxiv.org/pdf/2205.09141</link>
-    <author>Jeongwan Haah</author>
-    <pubDate>May 20 2022</pubDate>
-    <description>A quantum cellular automaton (QCA) or a causal unitary is by definition an automorphism of local operator algebra, by which local operators are mapped to local operators. Quantum circuits of small depth, local Hamiltonian evolutions for short time, and translations (shifts) are examples. A Clifford QCA is one that maps any Pauli operator to a finite tensor product of Pauli operators. Here, we obtain a complete table of groups $\mathfrak C(\mathsf d,p)$ of translation invariant Clifford QCA in any spatial dimension $\mathsf d \ge 0$ modulo Clifford quantum circuits and shifts over prime $p$-dimensional qudits, where the circuits and shifts are allowed to obey only coarser translation invariance. The group $\mathfrak C(\mathsf d,p)$ is nonzero only for $\mathsf d = 2k+3$ if $p=2$ and $\mathsf d = 4k+3$ if $p$ is odd where~$k \ge 0$ is any integer, in which case $\mathfrak C(\mathsf d,p) \cong \widetilde{\mathfrak W}(\mathbb F_p)$, the classical Witt group of nonsingular quadratic forms over the finite field $\mathbb F_p$. It is well known that $\widetilde{\mathfrak W}(\mathbb F_2) \cong \mathbb Z/2\mathbb Z$, $\widetilde{\mathfrak W}(\mathbb F_p) \cong \mathbb Z/4\mathbb Z$ if $p = 3 \bmod 4$, and $\widetilde{\mathfrak W}(\mathbb F_p)\cong \mathbb Z/2\mathbb Z \oplus \mathbb Z/2\mathbb Z$ if $p = 1 \bmod 4$. The classification is achieved by a dimensional descent, which is a reduction of Laurent extension theorems for algebraic $L$-groups of surgery theory in topology.</description>
-  </item>
-
-  <item>
     <title>Tensor Network Algorithms: a Route Map</title>
     <link>http://arxiv.org/pdf/2205.10345</link>
     <author>Mari Carmen Bañuls</author>
     <pubDate>May 23 2022</pubDate>
     <description>Tensor networks provide extremely powerful tools for the study of complex classical and quantum many-body problems. Over the last two decades, the increment in the number of techniques and applications has been relentless, and especially the last ten years have seen an explosion of new ideas and results that may be overwhelming for the newcomer. This short review introduces the basic ideas, the best established methods and some of the most significant algorithmic developments that are expanding the boundaries of the tensor network potential. The goal is to help the reader not only appreciate the many possibilities offered by tensor networks, but also find their way through state-of-the-art codes, their applicability and some avenues of ongoing progress.</description>
-  </item>
-
-  <item>
-    <title>An efficient decoder for a linear distance quantum LDPC code</title>
-    <link>http://arxiv.org/pdf/2206.06557</link>
-    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
   </item>
 
   <item>
@@ -108,6 +84,22 @@
     <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
     <pubDate>Jun 02 2022</pubDate>
     <description>In the fundamental problem of shadow tomography, the goal is to efficiently learn an unknown $d$-dimensional quantum state using projective measurements. However, it is rarely the case that the underlying state remains stationary: changes may occur due to measurements, environmental noise, or an underlying Hamiltonian state evolution. In this paper we adopt tools from adaptive online learning to learn a changing state, giving adaptive and dynamic regret bounds for online shadow tomography that are polynomial in the number of qubits and sublinear in the number of measurements. Our analysis utilizes tools from complex matrix analysis to cope with complex numbers, which may be of independent interest in online learning. In addition, we provide numerical experiments that corroborate our theoretical results.</description>
+  </item>
+
+  <item>
+    <title>Good Quantum LDPC Codes with Linear Time Decoders</title>
+    <link>http://arxiv.org/pdf/2206.07750</link>
+    <author>Irit Dinur, Min-Hsiu Hsieh, Ting-Chun Lin, Thomas Vidick</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\mathbb{F}_2^{m\times m})^V \quad \xrightarrow{\delta^0}\quad (\mathbb{F}_2^{m})^{E} \quad\xrightarrow{\delta^1} \quad \mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\mathbb{F}_2^m\to\mathbb{F}_2^\Delta$ where $\Delta$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.</description>
+  </item>
+
+  <item>
+    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.07571</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
   </item>
 
   <item>
@@ -151,14 +143,6 @@
   </item>
 
   <item>
-    <title>Correlations in typicality and an affirmative solution to the exact catalytic entropy conjecture</title>
-    <link>http://arxiv.org/pdf/2205.08915</link>
-    <author>Henrik Wilming</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>I show that if a finite-dimensional density matrix has strictly smaller von Neumann entropy than a second one of the same dimension (and the rank is not bigger), then sufficiently (but finitely) many tensor-copies of the first density matrix majorize a density matrix whose single-body marginals are all exactly equal to the second density matrix. This implies an affirmative solution of the exact catalytic entropy conjecture (CEC) introduced by Boes et al. [PRL 122, 210402 (2019)]. Both the Lemma and the solution to the CEC transfer to the classical setting of finite-dimensional probability vectors (with permutations of entries instead of unitary transformations for the CEC).</description>
-  </item>
-
-  <item>
     <title>The battle of clean and dirty qubits in the era of partial error correction</title>
     <link>http://arxiv.org/pdf/2205.13454</link>
     <author>Daniel Bultrini, Samson Wang, Piotr Czarnik, Max Hunter Gordon, M. Cerezo, Patrick J. Coles, Lukasz Cincio</author>
@@ -167,11 +151,11 @@
   </item>
 
   <item>
-    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.07571</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Jun 16 2022</pubDate>
-    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
+    <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
+    <link>http://arxiv.org/pdf/2206.08183</link>
+    <author>A. Afham, Richard Kueng, Chris Ferrie</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>Fidelity is arguably the most popular figure of merit in quantum sciences. However, many of its properties are still unknown. In this work, we resolve the open problem of maximizing average fidelity over arbitrary finite ensembles of quantum states and derive new upper bounds. We first construct a semidefinite program whose optimal value is the maximum average fidelity and then derive fixed-point algorithms that converge to the optimal state. The fixed-point algorithms outperform the semidefinite program in terms of numerical runtime. We also derive expressions for near-optimal states that are easier to compute and upper and lower bounds for maximum average fidelity that are exact when all the states in the ensemble commute. Finally, we discuss how our results solve some open problems in Bayesian quantum tomography.</description>
   </item>
 
   <item>
@@ -199,19 +183,11 @@
   </item>
 
   <item>
-    <title>Optimising shadow tomography with generalised measurements</title>
-    <link>http://arxiv.org/pdf/2205.08990</link>
-    <author>H. Chau Nguyen, Jan Lennart Bönsel, Jonathan Steinberg, Otfried Gühne</author>
-    <pubDate>May 19 2022</pubDate>
-    <description>Advances in quantum technology require scalable techniques to efficiently extract information from a quantum system, such as expectation values of observables or its entropy. Traditional tomography is limited to a handful of qubits and shadow tomography has been suggested as a scalable replacement for larger systems. Shadow tomography is conventionally analysed based on outcomes of ideal projective measurements on the system upon application of randomised unitaries. Here, we suggest that shadow tomography can be much more straightforwardly formulated for generalised measurements, or positive operator valued measures. Based on the idea of the least-square estimator, shadow tomography with generalised measurements is both more general and simpler than the traditional formulation with randomisation of unitaries. In particular, this formulation allows us to analyse theoretical aspects of shadow tomography in detail. For example, we provide a detailed study of the implication of symmetries in shadow tomography. Shadow tomography with generalised measurements is also indispensable in realistic implementation of quantum mechanical measurements, when noise is unavoidable. Moreover, we also demonstrate how the optimisation of measurements for shadow tomography tailored toward a particular set of observables can be carried out.</description>
-  </item>
-
-  <item>
-    <title>Measurement incompatibility vs. Bell non-locality: an approach via tensor norms</title>
-    <link>http://arxiv.org/pdf/2205.12668</link>
-    <author>Faedi Loulidi, Ion Nechita</author>
-    <pubDate>May 26 2022</pubDate>
-    <description>Measurement incompatibility and quantum non-locality are two key features of quantum theory. Violations of Bell inequalities require quantum entanglement and incompatibility of the measurements used by the two parties involved in the protocol. We analyze the converse question: for which Bell inequalities is the incompatibility of measurements enough to ensure a quantum violation? We relate the two questions by comparing two tensor norms on the space of dichotomic quantum measurements: one characterizing measurement compatibility and the second one characterizing violations of a given Bell inequality. We provide sufficient conditions for the equivalence of the two notions in terms of the matrix describing the correlation Bell inequality. We show that the CHSH inequality and its variants are the only ones satisfying it.</description>
+    <title>A note on the inner products of pure states and their antidistinguishability</title>
+    <link>http://arxiv.org/pdf/2206.08313</link>
+    <author>Vincent Russo, Jamie Sikora</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>A set of d quantum states is said to be antidistinguishable if there exists a d-outcome POVM that can perfectly identify which state was not measured. A conjecture by Havlíček and Barrett states that if a set of d pure states has small pair-wise inner products, then the set must be antidistinguishable. In this note we provide a certificate of antidistinguishability via semidefinite programming duality and use it to provide a counterexample to this conjecture when d = 4.</description>
   </item>
 
   <item>
@@ -220,6 +196,14 @@
     <author>Conor Mc Keever, Michael Lubasch</author>
     <pubDate>May 24 2022</pubDate>
     <description>Hamiltonian simulation is a promising application for quantum computers to achieve a quantum advantage. We present classical algorithms based on tensor network methods to optimize quantum circuits for this task. We show that the classically optimized circuits can be orders of magnitude more accurate than Trotter product formulas.</description>
+  </item>
+
+  <item>
+    <title>Measurement incompatibility vs. Bell non-locality: an approach via tensor norms</title>
+    <link>http://arxiv.org/pdf/2205.12668</link>
+    <author>Faedi Loulidi, Ion Nechita</author>
+    <pubDate>May 26 2022</pubDate>
+    <description>Measurement incompatibility and quantum non-locality are two key features of quantum theory. Violations of Bell inequalities require quantum entanglement and incompatibility of the measurements used by the two parties involved in the protocol. We analyze the converse question: for which Bell inequalities is the incompatibility of measurements enough to ensure a quantum violation? We relate the two questions by comparing two tensor norms on the space of dichotomic quantum measurements: one characterizing measurement compatibility and the second one characterizing violations of a given Bell inequality. We provide sufficient conditions for the equivalence of the two notions in terms of the matrix describing the correlation Bell inequality. We show that the CHSH inequality and its variants are the only ones satisfying it.</description>
   </item>
 
   <item>
@@ -244,6 +228,22 @@
     <author>Hari Krovi</author>
     <pubDate>Jun 14 2022</pubDate>
     <description>We consider the hardness of computing additive approximations to output probabilities of random quantum circuits. We consider three random circuit families, namely, Haar random, $p=1$ QAOA, and random IQP circuits. Our results are as follows. For Haar random circuits with $m$ gates, we improve on prior results by showing $\mathsf{coC_=P}$ hardness of average-case additive approximations to an imprecision of $2^{-O(m)}$. Efficient classical simulation of such problems would imply the collapse of the polynomial hierarchy. For constant depth circuits i.e., when $m=O(n)$, this linear scaling in the exponent is within a constant of the scaling required to show hardness of sampling. Prior to our work, such a result was shown only for Boson Sampling in Bouland et al (2021). We also use recent results in polynomial interpolation to show $\mathsf{coC_=P}$ hardness under $\mathsf{BPP}$ reductions rather than $\mathsf{BPP}^{\mathsf{NP}}$ reductions. This improves the results of prior work for Haar random circuits both in terms of the error scaling and the power of reductions. Next, we consider random $p=1$ QAOA and IQP circuits and show that in the average-case, it is $\mathsf{coC_=P}$ hard to approximate the output probability to within an additive error of $2^{-O(n)}$. For $p=1$ QAOA circuits, this work constitutes the first average-case hardness result for the problem of approximating output probabilities for random QAOA circuits, which include Sherrington-Kirkpatrick and Erdös-Renyi graphs. For IQP circuits, a consequence of our results is that approximating the Ising partition function with imaginary couplings to an additive error of $2^{-O(n)}$ is hard even in the average-case, which extends prior work on worst-case hardness of multiplicative approximation to Ising partition functions.</description>
+  </item>
+
+  <item>
+    <title>Modular Commutators in Conformal Field Theory</title>
+    <link>http://arxiv.org/pdf/2206.00027</link>
+    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
+  </item>
+
+  <item>
+    <title>Simulation Complexity of Many-Body Localized Systems</title>
+    <link>http://arxiv.org/pdf/2205.12967</link>
+    <author>Adam Ehrenberg, Abhinav Deshpande, Christopher L. Baldwin, Dmitry A. Abanin, Alexey V. Gorshkov</author>
+    <pubDate>May 27 2022</pubDate>
+    <description>We use complexity theory to rigorously investigate the difficulty of classically simulating evolution under many-body localized (MBL) Hamiltonians. Using the defining feature that MBL systems have a complete set of quasilocal integrals of motion (LIOMs), we demonstrate a transition in the classical complexity of simulating such systems as a function of evolution time. On one side, we construct a quasipolynomial-time tensor-network-inspired algorithm for strong simulation of 1D MBL systems (i.e., calculating the expectation value of arbitrary products of local observables) evolved for any time polynomial in the system size. On the other side, we prove that even weak simulation, i.e. sampling, becomes formally hard after an exponentially long evolution time, assuming widely believed conjectures in complexity theory. Finally, using the consequences of our classical simulation results, we also show that the quantum circuit complexity for MBL systems is sublinear in evolution time. This result is a counterpart to a recent proof that the complexity of random quantum circuits grows linearly in time.</description>
   </item>
 
 </channel>
