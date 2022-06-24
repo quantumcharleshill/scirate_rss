@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Quantum computing 40 years later</title>
-    <link>http://arxiv.org/pdf/2106.10522</link>
-    <author>John Preskill</author>
-    <pubDate>Jun 22 2021</pubDate>
-    <description>Forty years ago, Richard Feynman proposed harnessing quantum physics to build a more powerful kind of computer. Realizing Feynman's vision is one of the grand challenges facing 21st century science and technology. In this article, we'll recall Feynman's contribution that launched the quest for a quantum computer, and assess where the field stands 40 years later.</description>
-  </item>
-
-  <item>
     <title>Provably efficient machine learning for quantum many-body problems</title>
     <link>http://arxiv.org/pdf/2106.12627</link>
     <author>Hsin-Yuan Huang, Richard Kueng, Giacomo Torlai, Victor V. Albert, John Preskill</author>
@@ -199,19 +191,19 @@
   </item>
 
   <item>
-    <title>Learnability of the output distributions of local quantum circuits</title>
-    <link>http://arxiv.org/pdf/2110.05517</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Oct 13 2021</pubDate>
-    <description>There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective.</description>
-  </item>
-
-  <item>
     <title>Clifford groups are not always 2-designs</title>
     <link>http://arxiv.org/pdf/2108.04200</link>
     <author>Matthew A. Graydon, Joshua Skanes-Norman, Joel J. Wallman</author>
     <pubDate>Aug 10 2021</pubDate>
     <description>The Clifford group is the quotient of the normalizer of the Weyl-Heisenberg group in dimension $d$ by its centre. We prove that when $d$ is not prime the Clifford group is not a group unitary $2$-design. Furthermore, we prove that the multipartite Clifford group is not a group unitary 2-design except for the known cases wherein the local Hilbert space dimensions are a constant prime number. We also clarify the structure of projective group unitary $2$-designs. We show that the adjoint action induced by a group unitary $2$-design decomposes into exactly two irreducible components; moreover, a group is a unitary 2-design if and only if the character of its so-called $U\overline{U}$ representation is $\sqrt{2}$.</description>
+  </item>
+
+  <item>
+    <title>Learnability of the output distributions of local quantum circuits</title>
+    <link>http://arxiv.org/pdf/2110.05517</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Oct 13 2021</pubDate>
+    <description>There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective.</description>
   </item>
 
   <item>
@@ -247,6 +239,22 @@
   </item>
 
   <item>
+    <title>Towards near-term quantum simulation of materials</title>
+    <link>http://arxiv.org/pdf/2205.15256</link>
+    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
+    <pubDate>May 31 2022</pubDate>
+    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
+  </item>
+
+  <item>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
+  </item>
+
+  <item>
     <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
     <link>http://arxiv.org/pdf/2203.16571</link>
     <author>Jonas Haferkamp</author>
@@ -268,14 +276,6 @@
     <author>Chi-Fang Chen, Fernando G.S.L. Brandão</author>
     <pubDate>Nov 10 2021</pubDate>
     <description>Quantum simulation is expected to be one of the key applications of future quantum computers. Product formulas, or Trotterization, are the oldest and, still today, an appealing method for quantum simulation. For an accurate product formula approximation in the spectral norm, the state-of-the-art gate complexity depends on the number of Hamiltonian terms and a certain 1-norm of its local terms. This work studies the concentration aspects of Trotter error: we prove that, typically, the Trotter error exhibits 2-norm (i.e., incoherent) scaling; the current estimate with 1-norm (i.e., coherent) scaling is for the worst cases. For k-local Hamiltonians and higher-order product formulas, we obtain gate count estimates for input states drawn from a 1-design ensemble (e.g., computational basis states). Our gate count depends on the number of Hamiltonian terms but replaces the 1-norm quantity by its analog in 2-norm, giving significant speedup for systems with large connectivity. Our results generalize to Hamiltonians with Fermionic terms and when the input state is drawn from a low-particle number subspace. Further, when the Hamiltonian itself has Gaussian coefficients (e.g., the SYK models), we show the stronger result that the 2-norm behavior persists even for the worst input state. Our main technical tool is a family of simple but versatile inequalities from non-commutative martingales called uniform smoothness. We use them to derive Hypercontractivity, namely p-norm estimates for low-degree polynomials, which implies concentration via Markov's inequality. In terms of optimality, we give examples that simultaneously match our p-norm bounds and the spectral norm bounds. Therefore, our improvement is due to asking a qualitatively different question from the spectral norm bounds. Our results give evidence that product formulas in practice may generically work much better than expected.</description>
-  </item>
-
-  <item>
-    <title>A construction of Combinatorial NLTS</title>
-    <link>http://arxiv.org/pdf/2206.02741</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
   </item>
 
   <item>
@@ -303,11 +303,11 @@
   </item>
 
   <item>
-    <title>Towards near-term quantum simulation of materials</title>
-    <link>http://arxiv.org/pdf/2205.15256</link>
-    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
-    <pubDate>May 31 2022</pubDate>
-    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
+    <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
+    <link>http://arxiv.org/pdf/2205.02813</link>
+    <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
+    <pubDate>May 06 2022</pubDate>
+    <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
   </item>
 
   <item>
@@ -319,14 +319,6 @@
   </item>
 
   <item>
-    <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
-    <link>http://arxiv.org/pdf/2205.02813</link>
-    <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
-    <pubDate>May 06 2022</pubDate>
-    <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
-  </item>
-
-  <item>
     <title>Improved quantum error correction using soft information</title>
     <link>http://arxiv.org/pdf/2107.13589</link>
     <author>Christopher A. Pattison, Michael E. Beverland, Marcus P. da Silva, Nicolas Delfosse</author>
@@ -335,19 +327,19 @@
   </item>
 
   <item>
-    <title>Distributed quantum inner product estimation</title>
-    <link>http://arxiv.org/pdf/2111.03273</link>
-    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
-    <pubDate>Nov 08 2021</pubDate>
-    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
-  </item>
-
-  <item>
     <title>Learning quantum many-body systems from a few copies</title>
     <link>http://arxiv.org/pdf/2107.03333</link>
     <author>Cambyse Rouzé, Daniel Stilck França</author>
     <pubDate>Jul 08 2021</pubDate>
     <description>Estimating physical properties of quantum states from measurements is one of the most fundamental tasks in quantum science. In this work, we identify conditions on states under which it is possible to infer the expectation values of all quasi-local observables of a given locality up to a relative error from a number of samples that grows polylogarithmically with the system's size and polynomially on the locality of the target observables. This constitutes an exponential improvement over known tomography methods in some regimes. We achieve our results by combining one of the most well-established techniques to learn quantum states, namely the maximum entropy method, with tools from the emerging fields of quantum optimal transport and classical shadows. We conjecture that our condition holds for all states exhibiting some form of decay of correlations and establish it for several subsets thereof. These include widely studied classes of states such as one-dimensional thermal and high-temperature Gibbs states of local commuting Hamiltonians on arbitrary hypergraphs or outputs of shallow circuits. Moreover, we show improvements of the maximum entropy method beyond the sample complexity of independent interest. These include identifying regimes in which it is possible to perform the postprocessing efficiently as well as novel bounds on the condition number of covariance matrices of many-body states.</description>
+  </item>
+
+  <item>
+    <title>Distributed quantum inner product estimation</title>
+    <link>http://arxiv.org/pdf/2111.03273</link>
+    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
+    <pubDate>Nov 08 2021</pubDate>
+    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
     <pubDate>Apr 11 2022</pubDate>
     <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
+  </item>
+
+  <item>
+    <title>The XP Stabiliser Formalism: a Generalisation of the Pauli Stabiliser Formalism with Arbitrary Phases</title>
+    <link>http://arxiv.org/pdf/2203.00103</link>
+    <author>Mark A. Webster, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Mar 02 2022</pubDate>
+    <description>We propose an extension to the Pauli stabiliser formalism that includes fractional $2\pi/N$ rotations around the $Z$ axis for some integer $N$. The resulting generalised stabiliser formalism - denoted the XP stabiliser formalism - allows for a wider range of states and codespaces to be represented. We describe the states which arise in the formalism, and demonstrate an equivalence between XP stabiliser states and 'weighted hypergraph states' - a generalisation of both hypergraph and weighted graph states. Given an arbitrary set of XP operators, we present algorithms for determining the codespace and logical operators for an XP code. Finally, we consider whether measurements of XP operators on XP codes can be classically simulated.</description>
   </item>
 
 </channel>

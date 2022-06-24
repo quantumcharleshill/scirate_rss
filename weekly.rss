@@ -7,83 +7,83 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
   </item>
 
   <item>
-    <title>An efficient decoder for a linear distance quantum LDPC code</title>
-    <link>http://arxiv.org/pdf/2206.06557</link>
-    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
+    <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
+    <link>http://arxiv.org/pdf/2206.08912</link>
+    <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
+    <pubDate>Jun 20 2022</pubDate>
+    <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
   </item>
 
   <item>
-    <title>Good Quantum LDPC Codes with Linear Time Decoders</title>
-    <link>http://arxiv.org/pdf/2206.07750</link>
-    <author>Irit Dinur, Min-Hsiu Hsieh, Ting-Chun Lin, Thomas Vidick</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\mathbb{F}_2^{m\times m})^V \quad \xrightarrow{\delta^0}\quad (\mathbb{F}_2^{m})^{E} \quad\xrightarrow{\delta^1} \quad \mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\mathbb{F}_2^m\to\mathbb{F}_2^\Delta$ where $\Delta$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.</description>
+    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
+    <link>http://arxiv.org/pdf/2206.11246</link>
+    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
   </item>
 
   <item>
-    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.07571</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Jun 16 2022</pubDate>
-    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
+    <title>Quantum Computing Quantum Monte Carlo</title>
+    <link>http://arxiv.org/pdf/2206.10431</link>
+    <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
   </item>
 
   <item>
-    <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
-    <link>http://arxiv.org/pdf/2206.08183</link>
-    <author>A. Afham, Richard Kueng, Chris Ferrie</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>Fidelity is arguably the most popular figure of merit in quantum sciences. However, many of its properties are still unknown. In this work, we resolve the open problem of maximizing average fidelity over arbitrary finite ensembles of quantum states and derive new upper bounds. We first construct a semidefinite program whose optimal value is the maximum average fidelity and then derive fixed-point algorithms that converge to the optimal state. The fixed-point algorithms outperform the semidefinite program in terms of numerical runtime. We also derive expressions for near-optimal states that are easier to compute and upper and lower bounds for maximum average fidelity that are exact when all the states in the ensemble commute. Finally, we discuss how our results solve some open problems in Bayesian quantum tomography.</description>
+    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
+    <link>http://arxiv.org/pdf/2206.09313</link>
+    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
   </item>
 
   <item>
-    <title>Composite Quantum Simulations</title>
-    <link>http://arxiv.org/pdf/2206.06409</link>
-    <author>Matthew Hagan, Nathan Wiebe</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>In this paper we provide a framework for combining multiple quantum simulation methods, such as Trotter-Suzuki formulas and QDrift into a single composite channel that builds upon older coalescing ideas for reducing gate counts. The central idea behind our approach is to use a partitioning scheme that allocates a Hamiltonian term to the Trotter or QDrift part of a channel within the simulation. This allows us to simulate small but numerous terms using QDrift while simulating the larger terms using a high-order Trotter-Suzuki formula. We prove rigorous bounds on the diamond distance between the composite channel and the ideal simulation channel and show under what conditions the cost of implementing the composite channel is asymptotically upper bounded by the methods that comprise it for both probabilistic partitioning of terms and deterministic partitioning. Finally, we discuss strategies for determining partitioning schemes as well as methods for incorporating different simulation methods within the same framework.</description>
+    <title>Exploring ab initio machine synthesis of quantum circuits</title>
+    <link>http://arxiv.org/pdf/2206.11245</link>
+    <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
   </item>
 
   <item>
-    <title>A note on the inner products of pure states and their antidistinguishability</title>
-    <link>http://arxiv.org/pdf/2206.08313</link>
-    <author>Vincent Russo, Jamie Sikora</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>A set of d quantum states is said to be antidistinguishable if there exists a d-outcome POVM that can perfectly identify which state was not measured. A conjecture by Havlíček and Barrett states that if a set of d pure states has small pair-wise inner products, then the set must be antidistinguishable. In this note we provide a certificate of antidistinguishability via semidefinite programming duality and use it to provide a counterexample to this conjecture when d = 4.</description>
+    <title>Random tensor networks with nontrivial links</title>
+    <link>http://arxiv.org/pdf/2206.10482</link>
+    <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Random tensor networks are a powerful toy model for understanding the entanglement structure of holographic quantum gravity. However, unlike holographic quantum gravity, their entanglement spectra are flat. It has therefore been argued that a better model consists of random tensor networks with link states that are not maximally entangled, i.e., have nontrivial spectra. In this work, we initiate a systematic study of the entanglement properties of these networks. We employ tools from free probability, random matrix theory, and one-shot quantum information theory to study random tensor networks with bounded and unbounded variation in link spectra, and in cases where a subsystem has one or multiple minimal cuts. If the link states have bounded spectral variation, the limiting entanglement spectrum of a subsystem with two minimal cuts can be expressed as a free product of the entanglement spectra of each cut, along with a Marchenko-Pastur distribution. For a class of states with unbounded spectral variation, analogous to semiclassical states in quantum gravity, we relate the limiting entanglement spectrum of a subsystem with two minimal cuts to the distribution of the minimal entanglement across the two cuts. In doing so, we draw connections to previous work on split transfer protocols, entanglement negativity in random tensor networks, and Euclidean path integrals in quantum gravity.</description>
   </item>
 
   <item>
-    <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
-    <link>http://arxiv.org/pdf/2206.05642</link>
-    <author>Hari Krovi</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>We consider the hardness of computing additive approximations to output probabilities of random quantum circuits. We consider three random circuit families, namely, Haar random, $p=1$ QAOA, and random IQP circuits. Our results are as follows. For Haar random circuits with $m$ gates, we improve on prior results by showing $\mathsf{coC_=P}$ hardness of average-case additive approximations to an imprecision of $2^{-O(m)}$. Efficient classical simulation of such problems would imply the collapse of the polynomial hierarchy. For constant depth circuits i.e., when $m=O(n)$, this linear scaling in the exponent is within a constant of the scaling required to show hardness of sampling. Prior to our work, such a result was shown only for Boson Sampling in Bouland et al (2021). We also use recent results in polynomial interpolation to show $\mathsf{coC_=P}$ hardness under $\mathsf{BPP}$ reductions rather than $\mathsf{BPP}^{\mathsf{NP}}$ reductions. This improves the results of prior work for Haar random circuits both in terms of the error scaling and the power of reductions. Next, we consider random $p=1$ QAOA and IQP circuits and show that in the average-case, it is $\mathsf{coC_=P}$ hard to approximate the output probability to within an additive error of $2^{-O(n)}$. For $p=1$ QAOA circuits, this work constitutes the first average-case hardness result for the problem of approximating output probabilities for random QAOA circuits, which include Sherrington-Kirkpatrick and Erdös-Renyi graphs. For IQP circuits, a consequence of our results is that approximating the Ising partition function with imaginary couplings to an additive error of $2^{-O(n)}$ is hard even in the average-case, which extends prior work on worst-case hardness of multiplicative approximation to Ising partition functions.</description>
+    <title>The Axiom of Choice and the No-Signaling Principle</title>
+    <link>http://arxiv.org/pdf/2206.08467</link>
+    <author>Ämin Baumeler, Borivoje Dakić, Flavio Del Santo</author>
+    <pubDate>Jun 20 2022</pubDate>
+    <description>We show that the axiom of choice, a basic yet controversial postulate of set theory, leads to revise the standard understanding of one of the pillars of our best physical theories, namely the no-signaling principle. While it is well known that probabilistic no-signaling resources (such as quantum non-locality) are stronger than deterministic ones, we show-by invoking the axiom of choice-the opposite: Functional (deterministic) no-signaling resources can be stronger than probabilistic ones. To prove this, we devise a Bell-like game that shows a systematic advantage of functional no-signaling with respect to any probabilistic no-signaling resource.</description>
   </item>
 
   <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
+    <link>http://arxiv.org/pdf/2206.09881</link>
+    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
   </item>
 
   <item>
-    <title>Concentration of quantum equilibration and an estimate of the recurrence time</title>
-    <link>http://arxiv.org/pdf/2206.07541</link>
-    <author>Jonathon Riddell, Nathan Pagliaroli, Álvaro M. Alhambra</author>
-    <pubDate>Jun 16 2022</pubDate>
-    <description>We show that the dynamics of generic quantum systems concentrate around their equilibrium value when measuring at arbitrary times. This means that the probability of finding them away from equilibrium is exponentially suppressed, with a decay rate given by the effective dimension. Our result allows us to place a lower bound on the recurrence time of quantum systems, since recurrences corresponds to the rare events of finding a state away from equilibrium. In many-body systems, this bound is doubly exponential in system size. We also show corresponding results for free fermions, which display a weaker concentration and earlier recurrences.</description>
+    <title>Spectral analysis for noise diagnostics and filter-based digital error mitigation</title>
+    <link>http://arxiv.org/pdf/2206.08811</link>
+    <author>Enrico Fontana, Ivan Rungger, Ross Duncan, Cristina Cîrstoiu</author>
+    <pubDate>Jun 20 2022</pubDate>
+    <description>We investigate the effects of noise on parameterised quantum circuits using spectral analysis and classical signal processing tools. For different noise models, we quantify the additional, higher frequency modes in the output signal caused by device errors. We show that filtering these noise-induced modes effectively mitigates device errors. When combined with existing methods, this yields an improved reconstruction of the noiseless variational landscape. Moreover, we describe the classical and quantum resource requirements for these techniques and test their effectiveness for application motivated circuits on quantum hardware.</description>
   </item>
 
 </channel>
