@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
+  </item>
+
+  <item>
     <title>The learnability of Pauli noise</title>
     <link>http://arxiv.org/pdf/2206.06362</link>
     <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
@@ -47,11 +55,11 @@
   </item>
 
   <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
+    <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
+    <link>http://arxiv.org/pdf/2206.08912</link>
+    <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
+    <pubDate>Jun 20 2022</pubDate>
+    <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
   </item>
 
   <item>
@@ -63,11 +71,11 @@
   </item>
 
   <item>
-    <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
-    <link>http://arxiv.org/pdf/2206.08912</link>
-    <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
-    <pubDate>Jun 20 2022</pubDate>
-    <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
+    <title>Perturbation Theory and the Sum of Squares</title>
+    <link>http://arxiv.org/pdf/2205.12325</link>
+    <author>Matthew B. Hastings</author>
+    <pubDate>May 26 2022</pubDate>
+    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Anthony Leverrier, Gilles Zémor</author>
     <pubDate>Jun 16 2022</pubDate>
     <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
-  </item>
-
-  <item>
-    <title>Perturbation Theory and the Sum of Squares</title>
-    <link>http://arxiv.org/pdf/2205.12325</link>
-    <author>Matthew B. Hastings</author>
-    <pubDate>May 26 2022</pubDate>
-    <description>The sum-of-squares (SoS) hierarchy is a powerful technique based on semi-definite programming that can be used for both classical and quantum optimization problems. This hierarchy goes under several names; in particular, in quantum chemistry it is called the reduced density matrix (RDM) method. We consider the ability of this hierarchy to reproduce weak coupling perturbation theory for three different kinds of systems: spin (or qubit) systems, bosonic systems (the anharmonic oscillator), and fermionic systems with quartic interactions. For such fermionic systems, we show that degree-$4$ SoS (called $2$-RDM in quantum chemsitry) does not reproduce second order perturbation theory but degree-$6$ SoS ($3$-RDM) does (and we conjecture that it reproduces third order perturbation theory). Indeed, we identify a fragment of degree-$6$ SoS which can do this, which may be useful for practical quantum chemical calculations as it may be possible to implement this fragment with less cost than the full degree-$6$ SoS. Remarkably, this fragment is very similar to one studied by Hastings and O'Donnell for the Sachdev-Ye-Kitaev (SYK) model.</description>
   </item>
 
   <item>
@@ -175,6 +175,30 @@
   </item>
 
   <item>
+    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
+    <link>http://arxiv.org/pdf/2206.11246</link>
+    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
+  </item>
+
+  <item>
+    <title>Classical surrogates for quantum learning models</title>
+    <link>http://arxiv.org/pdf/2206.11740</link>
+    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
+  </item>
+
+  <item>
+    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
+    <link>http://arxiv.org/pdf/2206.09313</link>
+    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
+  </item>
+
+  <item>
     <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
     <link>http://arxiv.org/pdf/2206.04663</link>
     <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
@@ -207,14 +231,6 @@
   </item>
 
   <item>
-    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
-    <link>http://arxiv.org/pdf/2206.11246</link>
-    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
-  </item>
-
-  <item>
     <title>Mitigating barren plateaus of variational quantum eigensolvers</title>
     <link>http://arxiv.org/pdf/2205.13539</link>
     <author>Xia Liu, Geng Liu, Jiaxin Huang, Xin Wang</author>
@@ -223,27 +239,11 @@
   </item>
 
   <item>
-    <title>Quantum Computing Quantum Monte Carlo</title>
-    <link>http://arxiv.org/pdf/2206.10431</link>
-    <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
-  </item>
-
-  <item>
-    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
-    <link>http://arxiv.org/pdf/2206.09313</link>
-    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
-  </item>
-
-  <item>
-    <title>Modular Commutators in Conformal Field Theory</title>
-    <link>http://arxiv.org/pdf/2206.00027</link>
-    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
-    <pubDate>Jun 02 2022</pubDate>
-    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
+    <title>Privacy and correctness trade-offs for information-theoretically secure quantum homomorphic encryption</title>
+    <link>http://arxiv.org/pdf/2205.12127</link>
+    <author>Yanglin Hu, Yingkai Ouyang, Marco Tomamichel</author>
+    <pubDate>May 25 2022</pubDate>
+    <description>Quantum homomorphic encryption, which allows computation by a server directly on encrypted data, is a fundamental primitive out of which more complex quantum cryptography protocols can be built. For such constructions to be possible, quantum homomorphic encryption must satisfy two privacy properties: data privacy which ensures that the input data is private from the server, and circuit privacy which ensures that the ciphertext after the computation does not reveal any additional information about the circuit used to perform it, beyond the output of the computation itself. While circuit privacy is well-studied in classical cryptography and many homomorphic encryption schemes can be equipped with it, its quantum analogue has received little attention. Here we establish a definition of circuit privacy for quantum homomorphic encryption with information-theoretic security. Furthermore, we reduce quantum oblivious transfer to quantum homomorphic encryption. Using this reduction, our work unravels fundamental trade-offs between circuit privacy, data privacy and correctness for a broad family of quantum homomorphic encryption protocols, including schemes that allow only computation of Clifford circuits.</description>
   </item>
 
 </channel>

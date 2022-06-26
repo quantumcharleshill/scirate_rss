@@ -31,11 +31,11 @@
   </item>
 
   <item>
-    <title>Quantum Computing Quantum Monte Carlo</title>
-    <link>http://arxiv.org/pdf/2206.10431</link>
-    <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
+    <title>Classical surrogates for quantum learning models</title>
+    <link>http://arxiv.org/pdf/2206.11740</link>
+    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
   </item>
 
   <item>
@@ -44,6 +44,14 @@
     <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
     <pubDate>Jun 22 2022</pubDate>
     <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
+  </item>
+
+  <item>
+    <title>Quantum Computing Quantum Monte Carlo</title>
+    <link>http://arxiv.org/pdf/2206.10431</link>
+    <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
   </item>
 
   <item>
@@ -63,14 +71,6 @@
   </item>
 
   <item>
-    <title>The Axiom of Choice and the No-Signaling Principle</title>
-    <link>http://arxiv.org/pdf/2206.08467</link>
-    <author>Ämin Baumeler, Borivoje Dakić, Flavio Del Santo</author>
-    <pubDate>Jun 20 2022</pubDate>
-    <description>We show that the axiom of choice, a basic yet controversial postulate of set theory, leads to revise the standard understanding of one of the pillars of our best physical theories, namely the no-signaling principle. While it is well known that probabilistic no-signaling resources (such as quantum non-locality) are stronger than deterministic ones, we show-by invoking the axiom of choice-the opposite: Functional (deterministic) no-signaling resources can be stronger than probabilistic ones. To prove this, we devise a Bell-like game that shows a systematic advantage of functional no-signaling with respect to any probabilistic no-signaling resource.</description>
-  </item>
-
-  <item>
     <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
     <link>http://arxiv.org/pdf/2206.09881</link>
     <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Spectral analysis for noise diagnostics and filter-based digital error mitigation</title>
-    <link>http://arxiv.org/pdf/2206.08811</link>
-    <author>Enrico Fontana, Ivan Rungger, Ross Duncan, Cristina Cîrstoiu</author>
-    <pubDate>Jun 20 2022</pubDate>
-    <description>We investigate the effects of noise on parameterised quantum circuits using spectral analysis and classical signal processing tools. For different noise models, we quantify the additional, higher frequency modes in the output signal caused by device errors. We show that filtering these noise-induced modes effectively mitigates device errors. When combined with existing methods, this yields an improved reconstruction of the noiseless variational landscape. Moreover, we describe the classical and quantum resource requirements for these techniques and test their effectiveness for application motivated circuits on quantum hardware.</description>
+    <title>Monogamy of entanglement between cones</title>
+    <link>http://arxiv.org/pdf/2206.11805</link>
+    <author>Guillaume Aubrun, Alexander Müller-Hermes, Martin Plávala</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>A separable quantum state shared between parties $A$ and $B$ can be symmetrically extended to a quantum state shared between party $A$ and parties $B_1,\ldots ,B_k$ for every $k\in\mathbf{N}$. Quantum states that are not separable, i.e., entangled, do not have this property. This phenomenon is known as "monogamy of entanglement". We show that monogamy is not only a feature of quantum theory, but that it characterizes the minimal tensor product of general pairs of convex cones $\mathsf{C}_A$ and $\mathsf{C}_B$: The elements of the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ are precisely the tensors that can be symmetrically extended to elements in the maximal tensor product $\mathsf{C}_A\otimes_{\max} \mathsf{C}^{\otimes_{\max} k}_B$ for every $k\in\mathbf{N}$. Equivalently, the minimal tensor product of two cones is the intersection of the nested sets of $k$-extendible tensors. It is a natural question when the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ coincides with the set of $k$-extendible tensors for some finite $k$. We show that this is universally the case for every cone $\mathsf{C}_A$ if and only if $\mathsf{C}_B$ is a polyhedral cone with a base given by a product of simplices. Our proof makes use of a new characterization of products of simplices up to affine equivalence that we believe is of independent interest.</description>
   </item>
 
 </channel>
