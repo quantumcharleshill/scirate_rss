@@ -15,11 +15,11 @@
   </item>
 
   <item>
-    <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
-    <link>http://arxiv.org/pdf/2206.08912</link>
-    <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
-    <pubDate>Jun 20 2022</pubDate>
-    <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
+    <title>Classical surrogates for quantum learning models</title>
+    <link>http://arxiv.org/pdf/2206.11740</link>
+    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
   </item>
 
   <item>
@@ -28,14 +28,6 @@
     <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
-  </item>
-
-  <item>
-    <title>Classical surrogates for quantum learning models</title>
-    <link>http://arxiv.org/pdf/2206.11740</link>
-    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Guillaume Aubrun, Alexander Müller-Hermes, Martin Plávala</author>
     <pubDate>Jun 24 2022</pubDate>
     <description>A separable quantum state shared between parties $A$ and $B$ can be symmetrically extended to a quantum state shared between party $A$ and parties $B_1,\ldots ,B_k$ for every $k\in\mathbf{N}$. Quantum states that are not separable, i.e., entangled, do not have this property. This phenomenon is known as "monogamy of entanglement". We show that monogamy is not only a feature of quantum theory, but that it characterizes the minimal tensor product of general pairs of convex cones $\mathsf{C}_A$ and $\mathsf{C}_B$: The elements of the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ are precisely the tensors that can be symmetrically extended to elements in the maximal tensor product $\mathsf{C}_A\otimes_{\max} \mathsf{C}^{\otimes_{\max} k}_B$ for every $k\in\mathbf{N}$. Equivalently, the minimal tensor product of two cones is the intersection of the nested sets of $k$-extendible tensors. It is a natural question when the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ coincides with the set of $k$-extendible tensors for some finite $k$. We show that this is universally the case for every cone $\mathsf{C}_A$ if and only if $\mathsf{C}_B$ is a polyhedral cone with a base given by a product of simplices. Our proof makes use of a new characterization of products of simplices up to affine equivalence that we believe is of independent interest.</description>
+  </item>
+
+  <item>
+    <title>A Simple Proof of PreciseQMA = PSPACE</title>
+    <link>http://arxiv.org/pdf/2206.09230</link>
+    <author>Yulong Li</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
   </item>
 
 </channel>
