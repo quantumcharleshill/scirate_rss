@@ -111,19 +111,19 @@
   </item>
 
   <item>
-    <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
-    <link>http://arxiv.org/pdf/2206.03122</link>
-    <author>Oscar Higgott, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
-  </item>
-
-  <item>
     <title>Quantum Resources Required to Block-Encode a Matrix of Classical Data</title>
     <link>http://arxiv.org/pdf/2206.03505</link>
     <author>B. David Clader, Alexander M. Dalzell, Nikitas Stamatopoulos, Grant Salton, Mario Berta, William J. Zeng</author>
     <pubDate>Jun 09 2022</pubDate>
     <description>We provide modular circuit-level implementations and resource estimates for several methods of block-encoding a dense $N\times N$ matrix of classical data to precision $\epsilon$; the minimal-depth method achieves a $T$-depth of $\mathcal{O}{(\log (N/\epsilon))},$ while the minimal-count method achieves a $T$-count of $\mathcal{O}{(N\log(1/\epsilon))}$. We examine resource tradeoffs between the different approaches, and we explore implementations of two separate models of quantum random access memory (QRAM). As part of this analysis, we provide a novel state preparation routine with $T$-depth $\mathcal{O}{(\log (N/\epsilon))}$, improving on previous constructions with scaling $\mathcal{O}{(\log^2 (N/\epsilon))}$. Our results go beyond simple query complexity and provide a clear picture into the resource costs when large amounts of classical data are assumed to be accessible to quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
+    <link>http://arxiv.org/pdf/2206.03122</link>
+    <author>Oscar Higgott, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 08 2022</pubDate>
+    <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
   </item>
 
   <item>
@@ -135,19 +135,27 @@
   </item>
 
   <item>
+    <title>NLTS Hamiltonians from good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.13228</link>
+    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
+  </item>
+
+  <item>
+    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
+    <link>http://arxiv.org/pdf/2206.09313</link>
+    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
+  </item>
+
+  <item>
     <title>On the Role of Quantum Coherence in Thermodynamics</title>
     <link>http://arxiv.org/pdf/2205.13612</link>
     <author>Gilad Gour</author>
     <pubDate>May 30 2022</pubDate>
     <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
-  </item>
-
-  <item>
-    <title>A note on the inner products of pure states and their antidistinguishability</title>
-    <link>http://arxiv.org/pdf/2206.08313</link>
-    <author>Vincent Russo, Jamie Sikora</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>A set of d quantum states is said to be antidistinguishable if there exists a d-outcome POVM that can perfectly identify which state was not measured. A conjecture by Havlíček and Barrett states that if a set of d pure states has small pair-wise inner products, then the set must be antidistinguishable. In this note we provide a certificate of antidistinguishability via semidefinite programming duality and use it to provide a counterexample to this conjecture when d = 4.</description>
   </item>
 
   <item>
@@ -159,19 +167,19 @@
   </item>
 
   <item>
+    <title>A note on the inner products of pure states and their antidistinguishability</title>
+    <link>http://arxiv.org/pdf/2206.08313</link>
+    <author>Vincent Russo, Jamie Sikora</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>A set of d quantum states is said to be antidistinguishable if there exists a d-outcome POVM that can perfectly identify which state was not measured. A conjecture by Havlíček and Barrett states that if a set of d pure states has small pair-wise inner products, then the set must be antidistinguishable. In this note we provide a certificate of antidistinguishability via semidefinite programming duality and use it to provide a counterexample to this conjecture when d = 4.</description>
+  </item>
+
+  <item>
     <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
     <link>http://arxiv.org/pdf/2206.11246</link>
     <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
-  </item>
-
-  <item>
-    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
-    <link>http://arxiv.org/pdf/2206.09313</link>
-    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
   </item>
 
   <item>
@@ -207,19 +215,19 @@
   </item>
 
   <item>
-    <title>Modular Commutators in Conformal Field Theory</title>
-    <link>http://arxiv.org/pdf/2206.00027</link>
-    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
-    <pubDate>Jun 02 2022</pubDate>
-    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
-  </item>
-
-  <item>
     <title>Exploring ab initio machine synthesis of quantum circuits</title>
     <link>http://arxiv.org/pdf/2206.11245</link>
     <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
+  </item>
+
+  <item>
+    <title>Modular Commutators in Conformal Field Theory</title>
+    <link>http://arxiv.org/pdf/2206.00027</link>
+    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
-  </item>
-
-  <item>
-    <title>Advantages and limitations of quantum routing</title>
-    <link>http://arxiv.org/pdf/2206.01766</link>
-    <author>Aniruddha Bapat, Andrew M. Childs, Alexey V. Gorshkov, Eddie Schoute</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The Swap gate is a ubiquitous tool for moving information on quantum hardware, yet it can be considered a classical operation because it does not entangle product states. Genuinely quantum operations could outperform Swap for the task of permuting qubits within an architecture, which we call routing. We consider quantum routing in two models: (1) allowing arbitrary two-qubit unitaries, or (2) allowing Hamiltonians with norm-bounded interactions. We lower bound the circuit depth or time of quantum routing in terms of spectral properties of graphs representing the architecture interaction constraints, and give a generalized upper bound for all simple connected $n$-vertex graphs. In particular, we give conditions for a superpolynomial classical-quantum routing separation, which exclude graphs with a small spectral gap and graphs of bounded degree. Finally, we provide examples of a quadratic separation between gate-based and Hamiltonian routing models with a constant number of local ancillas per qubit and of an $\Omega(n)$ speedup if we also allow fast local interactions.</description>
   </item>
 
 </channel>

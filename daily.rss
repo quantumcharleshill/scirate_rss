@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Copula-based Risk Aggregation with Trapped Ion Quantum Computers</title>
-    <link>http://arxiv.org/pdf/2206.11937</link>
-    <author>Daiwei Zhu, Weiwei Shen, Annarita Giani, Saikat Ray Majumder, Bogdan Neculaes, Sonika Johri</author>
-    <pubDate>Jun 27 2022</pubDate>
-    <description>Copulas are mathematical tools for modeling joint probability distributions. Since copulas enable one to conveniently treat the marginal distribution of each variable and the interdependencies among variables separately, in the past 60 years they have become an essential analysis tool on classical computers in various fields ranging from quantitative finance and civil engineering to signal processing and medicine. The recent finding that copulas can be expressed as maximally entangled quantum states has revealed a promising approach to practical quantum advantages: performing tasks faster, requiring less memory, or, as we show, yielding better predictions. Studying the scalability of this quantum approach as both the precision and the number of modeled variables increase is crucial for its adoption in real-world applications. In this paper, we successfully apply a Quantum Circuit Born Machine (QCBM) based approach to modeling 3- and 4-variable copulas on trapped ion quantum computers. We study the training of QCBMs with different levels of precision and circuit design on a simulator and a state-of-the-art trapped ion quantum computer. We observe decreased training efficacy due to the increased complexity in parameter optimization as the models scale up. To address this challenge, we introduce an annealing-inspired strategy that dramatically improves the training results. In our end-to-end tests, various configurations of the quantum models make a comparable or better prediction in risk aggregation tasks than the standard classical models. Our detailed study of the copula paradigm using quantum computing opens opportunities for its deployment in various industries.</description>
+    <title>NLTS Hamiltonians from good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.13228</link>
+    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
   </item>
 
   <item>
@@ -23,11 +23,11 @@
   </item>
 
   <item>
-    <title>Experimental Demonstration of Quantum Pseudotelepathy</title>
-    <link>http://arxiv.org/pdf/2206.12042</link>
-    <author>Jia-Min Xu, Yi-Zheng Zhen, Yu-Xiang Yang, Zi-Mo Cheng, Zhi-Cheng Ren, Kai Chen, Xi-Lin Wang, Hui-Tian Wang</author>
-    <pubDate>Jun 27 2022</pubDate>
-    <description>Quantum pseudotelepathy is a strong form of nonlocality. Different from the conventional nonlocal games where quantum strategies win statistically, e.g., the CHSH game, quantum pseudotelepathy in principle allows quantum players to with probability one. In this work, we report a faithful experimental demonstration of quantum pseudotelepathy via playing the nonlocal version of Mermin-Peres magic square game, where Alice and Bob cooperatively fill in a 3*3 magic square. We adopt the hyperentanglement scheme and prepare photon pairs entangled in both the polarization and the orbital angular momentum degrees of freedom, such that the experiment is carried out in a resource-efficient manner. Under the locality and fair-sampling assumption, our results show that quantum players can simultaneously win all the queries over any classical strategy.</description>
+    <title>A Pair Measurement Surface Code on Pentagons</title>
+    <link>http://arxiv.org/pdf/2206.12780</link>
+    <author>Craig Gidney</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
   </item>
 
   <item>
@@ -39,11 +39,11 @@
   </item>
 
   <item>
-    <title>Relative Survivable Network Design</title>
-    <link>http://arxiv.org/pdf/2206.12245</link>
-    <author>Michael Dinitz, Ama Koranteng, Guy Kortsarz</author>
+    <title>Experimental graybox quantum control</title>
+    <link>http://arxiv.org/pdf/2206.12201</link>
+    <author>Akram Youssry, Yang Yang, Robert J. Chapman, Ben Haylock, Mirko Lobino, Alberto Peruzzo</author>
     <pubDate>Jun 27 2022</pubDate>
-    <description>One of the most important and well-studied settings for network design is edge-connectivity requirements. This encompasses uniform demands such as the Minimum $k$-Edge-Connected Spanning Subgraph problem ($k$-ECSS), as well as nonuniform demands such as the Survivable Network Design problem. A weakness of these formulations, though, is that we are not able to ask for fault-tolerance larger than the connectivity. We introduce and study new variants of these problems under a notion of relative fault-tolerance. Informally, we require not that two nodes are connected if there are a bounded number of faults (as in the classical setting), but that two nodes are connected if there are a bounded number of faults and the two nodes are connected in the underlying graph post-faults. That is, the subgraph we build must "behave" identically to the underlying graph with respect to connectivity after bounded faults. We define and introduce these problems, and provide the first approximation algorithms: a $(1+4/k)$-approximation for the unweighted relative version of $k$-ECSS, a $2$-approximation for the weighted relative version of $k$-ECSS, and a $27/4$-approximation for the special case of Relative Survivable Network Design with only a single demand with a connectivity requirement of $3$. To obtain these results, we introduce a number of technical ideas that may of independent interest. First, we give a generalization of Jain's iterative rounding analysis that works even when the cut-requirement function is not weakly supermodular, but instead satisfies a weaker definition we introduce and term local weak supermodularity. Second, we prove a structure theorem and design an approximation algorithm utilizing a new decomposition based on important separators, which are structures commonly used in fixed-parameter algorithms that have not commonly been used in approximation algorithms.</description>
+    <description>Understanding and controlling engineered quantum systems is key to developing practical quantum technology. However, given the current technological limitations, such as fabrication imperfections and environmental noise, this is not always possible. To address these issues, a great deal of theoretical and numerical methods for quantum system identification and control have been developed. These methods range from traditional curve fittings, which are limited by the accuracy of the model that describes the system, to machine learning methods, including neural networks, which provide efficient control solutions but do not provide control beyond the output of the model, nor insights into the underlying physical process. Here we experimentally demonstrate a "graybox" approach for characterizing and controlling quantum devices. We report superior performance over model fitting, while generating unitaries and Hamiltonians which are inaccessible with machine learning techniques. Our approach combines prior physics knowledge with high accuracy machine learning and is effective with any problem where the required controlled quantities are not directly accessible from the training set. This method naturally extends to time-dependent and open quantum systems, with applications in quantum noise spectroscopy and cancellation.</description>
   </item>
 
 </channel>

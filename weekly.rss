@@ -15,6 +15,22 @@
   </item>
 
   <item>
+    <title>NLTS Hamiltonians from good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.13228</link>
+    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
+  </item>
+
+  <item>
+    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
+    <link>http://arxiv.org/pdf/2206.09313</link>
+    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
+  </item>
+
+  <item>
     <title>Classical surrogates for quantum learning models</title>
     <link>http://arxiv.org/pdf/2206.11740</link>
     <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
@@ -28,14 +44,6 @@
     <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
-  </item>
-
-  <item>
-    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
-    <link>http://arxiv.org/pdf/2206.09313</link>
-    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
   </item>
 
   <item>
@@ -63,27 +71,19 @@
   </item>
 
   <item>
-    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
-    <link>http://arxiv.org/pdf/2206.09881</link>
-    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
-  </item>
-
-  <item>
-    <title>Monogamy of entanglement between cones</title>
-    <link>http://arxiv.org/pdf/2206.11805</link>
-    <author>Guillaume Aubrun, Alexander Müller-Hermes, Martin Plávala</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>A separable quantum state shared between parties $A$ and $B$ can be symmetrically extended to a quantum state shared between party $A$ and parties $B_1,\ldots ,B_k$ for every $k\in\mathbf{N}$. Quantum states that are not separable, i.e., entangled, do not have this property. This phenomenon is known as "monogamy of entanglement". We show that monogamy is not only a feature of quantum theory, but that it characterizes the minimal tensor product of general pairs of convex cones $\mathsf{C}_A$ and $\mathsf{C}_B$: The elements of the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ are precisely the tensors that can be symmetrically extended to elements in the maximal tensor product $\mathsf{C}_A\otimes_{\max} \mathsf{C}^{\otimes_{\max} k}_B$ for every $k\in\mathbf{N}$. Equivalently, the minimal tensor product of two cones is the intersection of the nested sets of $k$-extendible tensors. It is a natural question when the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ coincides with the set of $k$-extendible tensors for some finite $k$. We show that this is universally the case for every cone $\mathsf{C}_A$ if and only if $\mathsf{C}_B$ is a polyhedral cone with a base given by a product of simplices. Our proof makes use of a new characterization of products of simplices up to affine equivalence that we believe is of independent interest.</description>
-  </item>
-
-  <item>
     <title>A Simple Proof of PreciseQMA = PSPACE</title>
     <link>http://arxiv.org/pdf/2206.09230</link>
     <author>Yulong Li</author>
     <pubDate>Jun 22 2022</pubDate>
     <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
+  </item>
+
+  <item>
+    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
+    <link>http://arxiv.org/pdf/2206.09881</link>
+    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
   </item>
 
 </channel>
