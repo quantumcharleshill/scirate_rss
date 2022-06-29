@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
-  </item>
-
-  <item>
     <title>NLTS Hamiltonians from good quantum codes</title>
     <link>http://arxiv.org/pdf/2206.13228</link>
     <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
@@ -23,11 +15,11 @@
   </item>
 
   <item>
-    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
-    <link>http://arxiv.org/pdf/2206.09313</link>
-    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
   </item>
 
   <item>
@@ -47,11 +39,11 @@
   </item>
 
   <item>
-    <title>Quantum Computing Quantum Monte Carlo</title>
-    <link>http://arxiv.org/pdf/2206.10431</link>
-    <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
+    <title>A Pair Measurement Surface Code on Pentagons</title>
+    <link>http://arxiv.org/pdf/2206.12780</link>
+    <author>Craig Gidney</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
   </item>
 
   <item>
@@ -63,27 +55,35 @@
   </item>
 
   <item>
-    <title>Random tensor networks with nontrivial links</title>
-    <link>http://arxiv.org/pdf/2206.10482</link>
-    <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Random tensor networks are a powerful toy model for understanding the entanglement structure of holographic quantum gravity. However, unlike holographic quantum gravity, their entanglement spectra are flat. It has therefore been argued that a better model consists of random tensor networks with link states that are not maximally entangled, i.e., have nontrivial spectra. In this work, we initiate a systematic study of the entanglement properties of these networks. We employ tools from free probability, random matrix theory, and one-shot quantum information theory to study random tensor networks with bounded and unbounded variation in link spectra, and in cases where a subsystem has one or multiple minimal cuts. If the link states have bounded spectral variation, the limiting entanglement spectrum of a subsystem with two minimal cuts can be expressed as a free product of the entanglement spectra of each cut, along with a Marchenko-Pastur distribution. For a class of states with unbounded spectral variation, analogous to semiclassical states in quantum gravity, we relate the limiting entanglement spectrum of a subsystem with two minimal cuts to the distribution of the minimal entanglement across the two cuts. In doing so, we draw connections to previous work on split transfer protocols, entanglement negativity in random tensor networks, and Euclidean path integrals in quantum gravity.</description>
+    <title>Monogamy of entanglement between cones</title>
+    <link>http://arxiv.org/pdf/2206.11805</link>
+    <author>Guillaume Aubrun, Alexander Müller-Hermes, Martin Plávala</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>A separable quantum state shared between parties $A$ and $B$ can be symmetrically extended to a quantum state shared between party $A$ and parties $B_1,\ldots ,B_k$ for every $k\in\mathbf{N}$. Quantum states that are not separable, i.e., entangled, do not have this property. This phenomenon is known as "monogamy of entanglement". We show that monogamy is not only a feature of quantum theory, but that it characterizes the minimal tensor product of general pairs of convex cones $\mathsf{C}_A$ and $\mathsf{C}_B$: The elements of the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ are precisely the tensors that can be symmetrically extended to elements in the maximal tensor product $\mathsf{C}_A\otimes_{\max} \mathsf{C}^{\otimes_{\max} k}_B$ for every $k\in\mathbf{N}$. Equivalently, the minimal tensor product of two cones is the intersection of the nested sets of $k$-extendible tensors. It is a natural question when the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ coincides with the set of $k$-extendible tensors for some finite $k$. We show that this is universally the case for every cone $\mathsf{C}_A$ if and only if $\mathsf{C}_B$ is a polyhedral cone with a base given by a product of simplices. Our proof makes use of a new characterization of products of simplices up to affine equivalence that we believe is of independent interest.</description>
   </item>
 
   <item>
-    <title>A Simple Proof of PreciseQMA = PSPACE</title>
-    <link>http://arxiv.org/pdf/2206.09230</link>
-    <author>Yulong Li</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
+    <title>Playing nonlocal games with phases of quantum matter</title>
+    <link>http://arxiv.org/pdf/2206.11252</link>
+    <author>Vir B. Bulchandani, Fiona J. Burnell, S. L. Sondhi</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>The parity game is an example of a nonlocal game: by sharing a Greenberger-Horne-Zeilinger (GHZ) state before playing this game, the players can win with a higher probability than is allowed by classical physics. The GHZ state of $N$ qubits is also the ground state of the ferromagnetic quantum Ising model on $N$ qubits in the limit of vanishingly weak quantum fluctuations. Motivated by this observation, we examine the probability that $N$ players who share the ground state of a generic quantum Ising model, which exhibits non-vanishing quantum fluctuations, still win the parity game using the protocol optimized for the GHZ state. Our main result is a modified parity game for which this protocol asymptotically exhibits quantum advantage in precisely the ferromagnetic phase of the quantum Ising model. We further prove that the ground state of the exactly soluble $d=1+1$ transverse-field Ising model can provide a quantum advantage for the parity game over an even wider region, which includes the entire ferromagnetic phase, the critical point and part of the paramagnetic phase. By contrast, we find examples of topological phases and symmetry-protected topological (SPT) phases of matter, namely the deconfined phase of the toric code Hamiltonian and the $\mathbb{Z}_2 \times \mathbb{Z}_2$ SPT phase in one dimension, that do not exhibit an analogous quantum advantage away from their fixed points.</description>
   </item>
 
   <item>
-    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
-    <link>http://arxiv.org/pdf/2206.09881</link>
-    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
+    <title>A note on the quantum measurement problem</title>
+    <link>http://arxiv.org/pdf/2206.10741</link>
+    <author>N. David Mermin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>The idea that wave-function collapse is a physical process stems from a misunderstanding of probability and the role it plays in quantum mechanics.</description>
+  </item>
+
+  <item>
+    <title>Universal trade-off structure between symmetry, irreversibility, and quantum coherence in quantum processes</title>
+    <link>http://arxiv.org/pdf/2206.11086</link>
+    <author>Hiroyasu Tajima, Ryuji Takagi, Yui Kuramochi</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Symmetry, irreversibility, and quantum coherence are foundational concepts in physics. Here, we present a universal trade-off relation that builds a bridge between these three concepts. This trade-off particularly reveals that (1) under a global symmetry, any attempt to induce local dynamics that change the conserved quantity will cause inevitable irreversibility, and (2) such irreversibility could be mitigated by quantum coherence. Our fundamental relation also admits broad applications in physics and quantum information processing. In the context of thermodynamics, we derive a trade-off relation between entropy production and quantum coherence in arbitrary isothermal processes. We also apply our relation to black hole physics and obtain a universal lower bound on how many bits of classical information thrown into a black hole become unreadable under the Hayden-Preskill model with the energy conservation law. This particularly shows that when the black hole is large enough, under suitable encoding, at least about $m/4$ bits of the thrown $m$ bits will be irrecoverable until 99 percent of the black hole evaporates. As an application to quantum information processing, we provide a lower bound on the coherence cost to implement an arbitrary quantum channel. We employ this bound to obtain a quantitative Wigner-Araki-Yanase theorem that comes with a clear operational meaning, as well as an error-coherence trade-off for unitary gate implementation and an error lower bound for approximate error correction with covariant encoding. Our main relation is based on quantum uncertainty relation, showcasing intimate connections between fundamental physical principles and ultimate operational capability.</description>
   </item>
 
 </channel>

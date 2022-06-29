@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>NLTS Hamiltonians from good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.13228</link>
+    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
+  </item>
+
+  <item>
     <title>Computational advantage of quantum random sampling</title>
     <link>http://arxiv.org/pdf/2206.04079</link>
     <author>Dominik Hangleiter, Jens Eisert</author>
@@ -87,19 +95,19 @@
   </item>
 
   <item>
-    <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
-    <link>http://arxiv.org/pdf/2206.08183</link>
-    <author>A. Afham, Richard Kueng, Chris Ferrie</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>Fidelity is arguably the most popular figure of merit in quantum sciences. However, many of its properties are still unknown. In this work, we resolve the open problem of maximizing average fidelity over arbitrary finite ensembles of quantum states and derive new upper bounds. We first construct a semidefinite program whose optimal value is the maximum average fidelity and then derive fixed-point algorithms that converge to the optimal state. The fixed-point algorithms outperform the semidefinite program in terms of numerical runtime. We also derive expressions for near-optimal states that are easier to compute and upper and lower bounds for maximum average fidelity that are exact when all the states in the ensemble commute. Finally, we discuss how our results solve some open problems in Bayesian quantum tomography.</description>
-  </item>
-
-  <item>
     <title>Adaptive Online Learning of Quantum States</title>
     <link>http://arxiv.org/pdf/2206.00220</link>
     <author>Xinyi Chen, Elad Hazan, Tongyang Li, Zhou Lu, Xinzhao Wang, Rui Yang</author>
     <pubDate>Jun 02 2022</pubDate>
     <description>In the fundamental problem of shadow tomography, the goal is to efficiently learn an unknown $d$-dimensional quantum state using projective measurements. However, it is rarely the case that the underlying state remains stationary: changes may occur due to measurements, environmental noise, or an underlying Hamiltonian state evolution. In this paper we adopt tools from adaptive online learning to learn a changing state, giving adaptive and dynamic regret bounds for online shadow tomography that are polynomial in the number of qubits and sublinear in the number of measurements. Our analysis utilizes tools from complex matrix analysis to cope with complex numbers, which may be of independent interest in online learning. In addition, we provide numerical experiments that corroborate our theoretical results.</description>
+  </item>
+
+  <item>
+    <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
+    <link>http://arxiv.org/pdf/2206.08183</link>
+    <author>A. Afham, Richard Kueng, Chris Ferrie</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>Fidelity is arguably the most popular figure of merit in quantum sciences. However, many of its properties are still unknown. In this work, we resolve the open problem of maximizing average fidelity over arbitrary finite ensembles of quantum states and derive new upper bounds. We first construct a semidefinite program whose optimal value is the maximum average fidelity and then derive fixed-point algorithms that converge to the optimal state. The fixed-point algorithms outperform the semidefinite program in terms of numerical runtime. We also derive expressions for near-optimal states that are easier to compute and upper and lower bounds for maximum average fidelity that are exact when all the states in the ensemble commute. Finally, we discuss how our results solve some open problems in Bayesian quantum tomography.</description>
   </item>
 
   <item>
@@ -135,14 +143,6 @@
   </item>
 
   <item>
-    <title>NLTS Hamiltonians from good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.13228</link>
-    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
-  </item>
-
-  <item>
     <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
     <link>http://arxiv.org/pdf/2206.09313</link>
     <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
@@ -151,19 +151,19 @@
   </item>
 
   <item>
-    <title>On the Role of Quantum Coherence in Thermodynamics</title>
-    <link>http://arxiv.org/pdf/2205.13612</link>
-    <author>Gilad Gour</author>
-    <pubDate>May 30 2022</pubDate>
-    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
-  </item>
-
-  <item>
     <title>Classical surrogates for quantum learning models</title>
     <link>http://arxiv.org/pdf/2206.11740</link>
     <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
     <pubDate>Jun 24 2022</pubDate>
     <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
+  </item>
+
+  <item>
+    <title>On the Role of Quantum Coherence in Thermodynamics</title>
+    <link>http://arxiv.org/pdf/2205.13612</link>
+    <author>Gilad Gour</author>
+    <pubDate>May 30 2022</pubDate>
+    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
   </item>
 
   <item>
@@ -215,6 +215,14 @@
   </item>
 
   <item>
+    <title>A Pair Measurement Surface Code on Pentagons</title>
+    <link>http://arxiv.org/pdf/2206.12780</link>
+    <author>Craig Gidney</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
+  </item>
+
+  <item>
     <title>Exploring ab initio machine synthesis of quantum circuits</title>
     <link>http://arxiv.org/pdf/2206.11245</link>
     <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
@@ -236,14 +244,6 @@
     <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
     <pubDate>Jun 22 2022</pubDate>
     <description>Random tensor networks are a powerful toy model for understanding the entanglement structure of holographic quantum gravity. However, unlike holographic quantum gravity, their entanglement spectra are flat. It has therefore been argued that a better model consists of random tensor networks with link states that are not maximally entangled, i.e., have nontrivial spectra. In this work, we initiate a systematic study of the entanglement properties of these networks. We employ tools from free probability, random matrix theory, and one-shot quantum information theory to study random tensor networks with bounded and unbounded variation in link spectra, and in cases where a subsystem has one or multiple minimal cuts. If the link states have bounded spectral variation, the limiting entanglement spectrum of a subsystem with two minimal cuts can be expressed as a free product of the entanglement spectra of each cut, along with a Marchenko-Pastur distribution. For a class of states with unbounded spectral variation, analogous to semiclassical states in quantum gravity, we relate the limiting entanglement spectrum of a subsystem with two minimal cuts to the distribution of the minimal entanglement across the two cuts. In doing so, we draw connections to previous work on split transfer protocols, entanglement negativity in random tensor networks, and Euclidean path integrals in quantum gravity.</description>
-  </item>
-
-  <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
   </item>
 
 </channel>

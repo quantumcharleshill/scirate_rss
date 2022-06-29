@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>From Tensor Network Quantum States to Tensorial Recurrent Neural Networks</title>
-    <link>http://arxiv.org/pdf/2206.12363</link>
-    <author>Dian Wu, Riccardo Rossi, Filippo Vicentini, Giuseppe Carleo</author>
-    <pubDate>Jun 27 2022</pubDate>
-    <description>We show that any matrix product state (MPS) can be exactly represented by a recurrent neural network (RNN) with a linear memory update. We generalize this RNN architecture to 2D lattices using a multilinear memory update. It supports perfect sampling and wave function evaluation in polynomial time, and can represent an area law of entanglement entropy. Numerical evidence shows that it can encode the wave function using a bond dimension lower by orders of magnitude when compared to MPS, with an accuracy that can be systematically improved by increasing the bond dimension.</description>
-  </item>
-
-  <item>
     <title>A Pair Measurement Surface Code on Pentagons</title>
     <link>http://arxiv.org/pdf/2206.12780</link>
     <author>Craig Gidney</author>
@@ -31,19 +23,27 @@
   </item>
 
   <item>
-    <title>Spatially programmable spin interactions in neutral atom arrays</title>
-    <link>http://arxiv.org/pdf/2206.12385</link>
-    <author>Lea-Marina Steinert, Philip Osterholz, Robin Eberhard, Lorenzo Festa, Nikolaus Lorenz, Zaijun Chen, Arno Trautmann, Christian Gross</author>
-    <pubDate>Jun 27 2022</pubDate>
-    <description>Quantum simulators based on arrays of neutral atoms have proven to be among the most promising platforms to explore and solve non-trivial problems of complex strongly correlated many-body phenomena. This success is based on the optimally hardware-efficient analog implementation of the Hamiltonian under study. The drawback of this approach is the narrow range of problems addressable with any chosen architecture, which motivates the development of flexible programming techniques for analog simulators. We report on the realization of spatially programmable interactions for XYZ models implemented with neutral atoms in optical tweezers. We use multi-color near-resonant coupling to highly excited electronic states to induce spin-dependent interactions between atoms in atomic ground states. Van-der-Waals interactions between these Rydberg states lead to mixing between usually well-separated $m_j$-sublevels. This opens up distance and angular-dependent programmable interaction channels, which we use to design spin-exchange and pairwise spin flips. Our results pave the way toward universally programmable spin arrays for analog quantum simulators.</description>
+    <title>Positive-definite parametrization of mixed quantum states with deep neural networks</title>
+    <link>http://arxiv.org/pdf/2206.13488</link>
+    <author>Filippo Vicentini, Riccardo Rossi, Giuseppe Carleo</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>We introduce the Gram-Hadamard Density Operator (GHDO), a new deep neural-network architecture that can encode positive semi-definite density operators of exponential rank with polynomial resources. We then show how to embed an autoregressive structure in the GHDO to allow direct sampling of the probability distribution. These properties are especially important when representing and variationally optimizing the mixed quantum state of a system interacting with an environment. Finally, we benchmark this architecture by simulating the steady state of the dissipative transverse-field Ising model. Estimating local observables and the Rényi entropy, we show significant improvements over previous state-of-the-art variational approaches.</description>
   </item>
 
   <item>
-    <title>Experimental graybox quantum control</title>
-    <link>http://arxiv.org/pdf/2206.12201</link>
-    <author>Akram Youssry, Yang Yang, Robert J. Chapman, Ben Haylock, Mirko Lobino, Alberto Peruzzo</author>
-    <pubDate>Jun 27 2022</pubDate>
-    <description>Understanding and controlling engineered quantum systems is key to developing practical quantum technology. However, given the current technological limitations, such as fabrication imperfections and environmental noise, this is not always possible. To address these issues, a great deal of theoretical and numerical methods for quantum system identification and control have been developed. These methods range from traditional curve fittings, which are limited by the accuracy of the model that describes the system, to machine learning methods, including neural networks, which provide efficient control solutions but do not provide control beyond the output of the model, nor insights into the underlying physical process. Here we experimentally demonstrate a "graybox" approach for characterizing and controlling quantum devices. We report superior performance over model fitting, while generating unitaries and Hamiltonians which are inaccessible with machine learning techniques. Our approach combines prior physics knowledge with high accuracy machine learning and is effective with any problem where the required controlled quantities are not directly accessible from the training set. This method naturally extends to time-dependent and open quantum systems, with applications in quantum noise spectroscopy and cancellation.</description>
+    <title>Quantum Regularized Least Squares</title>
+    <link>http://arxiv.org/pdf/2206.13143</link>
+    <author>Shantanav Chakraborty, Aditya Morolia, Anurudh Peduri</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation to design new quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (the regularization term is proportional to the $\ell_2$-norm of the least squares solution), which is a particular case of our result. To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that fewer additional qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms can be implemented on a variety of input models and can also be seen as improved and generalized versions of the standard (non-regularized) quantum least squares algorithms of Chakraborty et al. [ICALP 2019].</description>
+  </item>
+
+  <item>
+    <title>Non-Convex Optimization by Hamiltonian Alternation</title>
+    <link>http://arxiv.org/pdf/2206.14072</link>
+    <author>Anuj Apte, Kunal Marwaha, Arvind Murugan</author>
+    <pubDate>Jun 29 2022</pubDate>
+    <description>A major obstacle to non-convex optimization is the problem of getting stuck in local minima. We introduce a novel metaheuristic to handle this issue, creating an alternate Hamiltonian that shares minima with the original Hamiltonian only within a chosen energy range. We find that repeatedly minimizing each Hamiltonian in sequence allows an algorithm to escape local minima. This technique is particularly straightforward when the ground state energy is known, and one obtains an improvement even without this knowledge. We demonstrate this technique by using it to find the ground state for instances of a Sherrington-Kirkpatrick spin glass.</description>
   </item>
 
 </channel>
