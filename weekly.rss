@@ -15,27 +15,11 @@
   </item>
 
   <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
-  </item>
-
-  <item>
     <title>Classical surrogates for quantum learning models</title>
     <link>http://arxiv.org/pdf/2206.11740</link>
     <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
     <pubDate>Jun 24 2022</pubDate>
     <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
-  </item>
-
-  <item>
-    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
-    <link>http://arxiv.org/pdf/2206.11246</link>
-    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
   </item>
 
   <item>
@@ -47,11 +31,11 @@
   </item>
 
   <item>
-    <title>Exploring ab initio machine synthesis of quantum circuits</title>
-    <link>http://arxiv.org/pdf/2206.11245</link>
-    <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
+    <title>Measurement as a shortcut to long-range entangled quantum matter</title>
+    <link>http://arxiv.org/pdf/2206.13527</link>
+    <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
+    <pubDate>Jun 29 2022</pubDate>
+    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
   </item>
 
   <item>
@@ -63,27 +47,43 @@
   </item>
 
   <item>
-    <title>Playing nonlocal games with phases of quantum matter</title>
-    <link>http://arxiv.org/pdf/2206.11252</link>
-    <author>Vir B. Bulchandani, Fiona J. Burnell, S. L. Sondhi</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>The parity game is an example of a nonlocal game: by sharing a Greenberger-Horne-Zeilinger (GHZ) state before playing this game, the players can win with a higher probability than is allowed by classical physics. The GHZ state of $N$ qubits is also the ground state of the ferromagnetic quantum Ising model on $N$ qubits in the limit of vanishingly weak quantum fluctuations. Motivated by this observation, we examine the probability that $N$ players who share the ground state of a generic quantum Ising model, which exhibits non-vanishing quantum fluctuations, still win the parity game using the protocol optimized for the GHZ state. Our main result is a modified parity game for which this protocol asymptotically exhibits quantum advantage in precisely the ferromagnetic phase of the quantum Ising model. We further prove that the ground state of the exactly soluble $d=1+1$ transverse-field Ising model can provide a quantum advantage for the parity game over an even wider region, which includes the entire ferromagnetic phase, the critical point and part of the paramagnetic phase. By contrast, we find examples of topological phases and symmetry-protected topological (SPT) phases of matter, namely the deconfined phase of the toric code Hamiltonian and the $\mathbb{Z}_2 \times \mathbb{Z}_2$ SPT phase in one dimension, that do not exhibit an analogous quantum advantage away from their fixed points.</description>
+    <title>Detecting and Eliminating Quantum Noise of Quantum Measurements</title>
+    <link>http://arxiv.org/pdf/2206.13743</link>
+    <author>Shuanghong Tang, Congcong Zheng, Kun Wang</author>
+    <pubDate>Jun 29 2022</pubDate>
+    <description>In this work, we propose a two-stage procedure to systematically address quantum noise inherent in quantum measurements. The idea behind it is intuitive: we first detect and then eliminate quantum noise so that the classical noise assumption is satisfied and measurement error mitigation works. In the first stage, inspired by coherence witness in the resource theory of quantum coherence, we design an efficient method to detect quantum noise. It works by fitting the difference between two measurement statistics to the Fourier series, where the statistics are obtained using maximally coherent states with relative phase and maximally mixed states as inputs. The fitting coefficients quantitatively benchmark quantum noise. In the second stage, we design various methods to eliminate quantum noise, inspired by the Pauli twirling technique. They work by executing randomly sampled Pauli gates before the measurement device and conditionally flipping the measurement outcomes in such a way that the effective measurement device contains only classical noise. We demonstrate the feasibility of the two-stage procedure numerically on Baidu Quantum Platform. Remarkably, the results show that quantum noise in measurement devices is significantly suppressed, and the quantum computation accuracy is substantially improved. We highlight that the two-stage procedure complements existing measurement error mitigation techniques, and they together form a standard toolbox for manipulating measurement errors in near-term quantum devices.</description>
   </item>
 
   <item>
-    <title>A note on the quantum measurement problem</title>
-    <link>http://arxiv.org/pdf/2206.10741</link>
-    <author>N. David Mermin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>The idea that wave-function collapse is a physical process stems from a misunderstanding of probability and the role it plays in quantum mechanics.</description>
+    <title>From Tensor Network Quantum States to Tensorial Recurrent Neural Networks</title>
+    <link>http://arxiv.org/pdf/2206.12363</link>
+    <author>Dian Wu, Riccardo Rossi, Filippo Vicentini, Giuseppe Carleo</author>
+    <pubDate>Jun 27 2022</pubDate>
+    <description>We show that any matrix product state (MPS) can be exactly represented by a recurrent neural network (RNN) with a linear memory update. We generalize this RNN architecture to 2D lattices using a multilinear memory update. It supports perfect sampling and wave function evaluation in polynomial time, and can represent an area law of entanglement entropy. Numerical evidence shows that it can encode the wave function using a bond dimension lower by orders of magnitude when compared to MPS, with an accuracy that can be systematically improved by increasing the bond dimension.</description>
   </item>
 
   <item>
-    <title>Universal trade-off structure between symmetry, irreversibility, and quantum coherence in quantum processes</title>
-    <link>http://arxiv.org/pdf/2206.11086</link>
-    <author>Hiroyasu Tajima, Ryuji Takagi, Yui Kuramochi</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Symmetry, irreversibility, and quantum coherence are foundational concepts in physics. Here, we present a universal trade-off relation that builds a bridge between these three concepts. This trade-off particularly reveals that (1) under a global symmetry, any attempt to induce local dynamics that change the conserved quantity will cause inevitable irreversibility, and (2) such irreversibility could be mitigated by quantum coherence. Our fundamental relation also admits broad applications in physics and quantum information processing. In the context of thermodynamics, we derive a trade-off relation between entropy production and quantum coherence in arbitrary isothermal processes. We also apply our relation to black hole physics and obtain a universal lower bound on how many bits of classical information thrown into a black hole become unreadable under the Hayden-Preskill model with the energy conservation law. This particularly shows that when the black hole is large enough, under suitable encoding, at least about $m/4$ bits of the thrown $m$ bits will be irrecoverable until 99 percent of the black hole evaporates. As an application to quantum information processing, we provide a lower bound on the coherence cost to implement an arbitrary quantum channel. We employ this bound to obtain a quantitative Wigner-Araki-Yanase theorem that comes with a clear operational meaning, as well as an error-coherence trade-off for unitary gate implementation and an error lower bound for approximate error correction with covariant encoding. Our main relation is based on quantum uncertainty relation, showcasing intimate connections between fundamental physical principles and ultimate operational capability.</description>
+    <title>Fast Classical Simulation of Hamiltonian Dynamics by Simultaneous Diagonalization Using Clifford Transformation with Parallel Computation</title>
+    <link>http://arxiv.org/pdf/2206.11664</link>
+    <author>Yoshiaki Kawase, Keisuke Fujii</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>Simulating quantum many-body dynamics is important both for fundamental understanding of physics and practical applications for quantum information processing. Therefore, classical simulation methods have been developed so far. Specifically, the Trotter-Suzuki decomposition can analyze a highly complex quantum dynamics, if the number of qubits is sufficiently small so that main memory can store the state vector. However, simulation of quantum dynamics via Trotter-Suzuki decomposition requires huge number of steps, each of which accesses the state vector, and hence the simulation time becomes impractically long. To settle this issue, we propose a technique to accelerate simulation of quantum dynamics via simultaneous diagonalization of mutually commuting Pauli groups, which is also attracting a lot of attention to reduce the measurement overheads in quantum algorithms. We group the Hamiltonian into mutually commputing Pauli strings, and each of them are diagonalized in the computational basis via a Clifford transformation. Since diagonal operators are applied on the state vector simultaneously with minimum memory access, this method successfully use performance of highly parallel processors such as Graphics Processing Units (GPU). Compared to an implementation using one of the fastest simulators of quantum computers, the numerical experiments have shown that our method provides a few tens of times acceleration.</description>
+  </item>
+
+  <item>
+    <title>Quantum Many-Body Scars: A Quasiparticle Perspective</title>
+    <link>http://arxiv.org/pdf/2206.11528</link>
+    <author>Anushya Chandran, Thomas Iadecola, Vedika Khemani, Roderich Moessner</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>Weakly interacting quasiparticles play a central role in the low-energy description of many phases of quantum matter. At higher energies, however, quasiparticles cease to be well-defined in generic many-body systems due to a proliferation of decay channels. In this review, we discuss the phenomenon of quantum many-body scars, which can give rise to certain species of stable quasiparticles throughout the energy spectrum. This goes along with a set of unusual non-equilibrium phenomena including many-body revivals and non-thermal stationary states. We provide a pedagogical exposition of this physics via a simple yet comprehensive example, that of a spin-1 XY model. We place our discussion in the broader context of symmetry-based constructions of many-body scar states, projector embeddings, and Hilbert space fragmentation. We conclude with a summary of experimental progress and theoretical puzzles.</description>
+  </item>
+
+  <item>
+    <title>Non-Convex Optimization by Hamiltonian Alternation</title>
+    <link>http://arxiv.org/pdf/2206.14072</link>
+    <author>Anuj Apte, Kunal Marwaha, Arvind Murugan</author>
+    <pubDate>Jun 29 2022</pubDate>
+    <description>A major obstacle to non-convex optimization is the problem of getting stuck in local minima. We introduce a novel metaheuristic to handle this issue, creating an alternate Hamiltonian that shares minima with the original Hamiltonian only within a chosen energy range. We find that repeatedly minimizing each Hamiltonian in sequence allows an algorithm to escape local minima. This technique is particularly straightforward when the ground state energy is known, and one obtains an improvement even without this knowledge. We demonstrate this technique by using it to find the ground state for instances of a Sherrington-Kirkpatrick spin glass.</description>
   </item>
 
 </channel>

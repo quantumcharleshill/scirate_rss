@@ -63,19 +63,19 @@
   </item>
 
   <item>
-    <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
-    <link>http://arxiv.org/pdf/2206.08912</link>
-    <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
-    <pubDate>Jun 20 2022</pubDate>
-    <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
-  </item>
-
-  <item>
     <title>Good Quantum LDPC Codes with Linear Time Decoders</title>
     <link>http://arxiv.org/pdf/2206.07750</link>
     <author>Irit Dinur, Min-Hsiu Hsieh, Ting-Chun Lin, Thomas Vidick</author>
     <pubDate>Jun 17 2022</pubDate>
     <description>We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\mathbb{F}_2^{m\times m})^V \quad \xrightarrow{\delta^0}\quad (\mathbb{F}_2^{m})^{E} \quad\xrightarrow{\delta^1} \quad \mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\mathbb{F}_2^m\to\mathbb{F}_2^\Delta$ where $\Delta$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.</description>
+  </item>
+
+  <item>
+    <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
+    <link>http://arxiv.org/pdf/2206.08912</link>
+    <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
+    <pubDate>Jun 20 2022</pubDate>
+    <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
   </item>
 
   <item>
@@ -159,14 +159,6 @@
   </item>
 
   <item>
-    <title>On the Role of Quantum Coherence in Thermodynamics</title>
-    <link>http://arxiv.org/pdf/2205.13612</link>
-    <author>Gilad Gour</author>
-    <pubDate>May 30 2022</pubDate>
-    <description>We find necessary and sufficient conditions to determine the inter-convertibility of quantum systems under time-translation covariant evolution, and use it to solve several problems in quantum thermodynamics both in the single-shot and asymptotic regimes. It is well known that the resource theory of quantum athermality is not reversible, but in PRL 111, 250404 (2013) it was claimed that the theory becomes reversible "provided a sublinear amount of coherent superposition over energy levels is available". Here we show that the original proof of this claim is incorrect, and then provide a completely new rigorous proof for the pure-state case. A proof of the same claim for the mixed-state case is still lacking.</description>
-  </item>
-
-  <item>
     <title>A note on the inner products of pure states and their antidistinguishability</title>
     <link>http://arxiv.org/pdf/2206.08313</link>
     <author>Vincent Russo, Jamie Sikora</author>
@@ -199,6 +191,14 @@
   </item>
 
   <item>
+    <title>A Pair Measurement Surface Code on Pentagons</title>
+    <link>http://arxiv.org/pdf/2206.12780</link>
+    <author>Craig Gidney</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
+  </item>
+
+  <item>
     <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
     <link>http://arxiv.org/pdf/2206.05642</link>
     <author>Hari Krovi</author>
@@ -215,11 +215,11 @@
   </item>
 
   <item>
-    <title>A Pair Measurement Surface Code on Pentagons</title>
-    <link>http://arxiv.org/pdf/2206.12780</link>
-    <author>Craig Gidney</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
+    <title>Measurement as a shortcut to long-range entangled quantum matter</title>
+    <link>http://arxiv.org/pdf/2206.13527</link>
+    <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
+    <pubDate>Jun 29 2022</pubDate>
+    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
   </item>
 
   <item>
