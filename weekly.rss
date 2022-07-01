@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Classical surrogates for quantum learning models</title>
-    <link>http://arxiv.org/pdf/2206.11740</link>
-    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
-  </item>
-
-  <item>
     <title>A Pair Measurement Surface Code on Pentagons</title>
     <link>http://arxiv.org/pdf/2206.12780</link>
     <author>Craig Gidney</author>
@@ -39,19 +31,19 @@
   </item>
 
   <item>
-    <title>Monogamy of entanglement between cones</title>
-    <link>http://arxiv.org/pdf/2206.11805</link>
-    <author>Guillaume Aubrun, Alexander Müller-Hermes, Martin Plávala</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>A separable quantum state shared between parties $A$ and $B$ can be symmetrically extended to a quantum state shared between party $A$ and parties $B_1,\ldots ,B_k$ for every $k\in\mathbf{N}$. Quantum states that are not separable, i.e., entangled, do not have this property. This phenomenon is known as "monogamy of entanglement". We show that monogamy is not only a feature of quantum theory, but that it characterizes the minimal tensor product of general pairs of convex cones $\mathsf{C}_A$ and $\mathsf{C}_B$: The elements of the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ are precisely the tensors that can be symmetrically extended to elements in the maximal tensor product $\mathsf{C}_A\otimes_{\max} \mathsf{C}^{\otimes_{\max} k}_B$ for every $k\in\mathbf{N}$. Equivalently, the minimal tensor product of two cones is the intersection of the nested sets of $k$-extendible tensors. It is a natural question when the minimal tensor product $\mathsf{C}_A\otimes_{\min} \mathsf{C}_B$ coincides with the set of $k$-extendible tensors for some finite $k$. We show that this is universally the case for every cone $\mathsf{C}_A$ if and only if $\mathsf{C}_B$ is a polyhedral cone with a base given by a product of simplices. Our proof makes use of a new characterization of products of simplices up to affine equivalence that we believe is of independent interest.</description>
-  </item>
-
-  <item>
     <title>Detecting and Eliminating Quantum Noise of Quantum Measurements</title>
     <link>http://arxiv.org/pdf/2206.13743</link>
     <author>Shuanghong Tang, Congcong Zheng, Kun Wang</author>
     <pubDate>Jun 29 2022</pubDate>
     <description>In this work, we propose a two-stage procedure to systematically address quantum noise inherent in quantum measurements. The idea behind it is intuitive: we first detect and then eliminate quantum noise so that the classical noise assumption is satisfied and measurement error mitigation works. In the first stage, inspired by coherence witness in the resource theory of quantum coherence, we design an efficient method to detect quantum noise. It works by fitting the difference between two measurement statistics to the Fourier series, where the statistics are obtained using maximally coherent states with relative phase and maximally mixed states as inputs. The fitting coefficients quantitatively benchmark quantum noise. In the second stage, we design various methods to eliminate quantum noise, inspired by the Pauli twirling technique. They work by executing randomly sampled Pauli gates before the measurement device and conditionally flipping the measurement outcomes in such a way that the effective measurement device contains only classical noise. We demonstrate the feasibility of the two-stage procedure numerically on Baidu Quantum Platform. Remarkably, the results show that quantum noise in measurement devices is significantly suppressed, and the quantum computation accuracy is substantially improved. We highlight that the two-stage procedure complements existing measurement error mitigation techniques, and they together form a standard toolbox for manipulating measurement errors in near-term quantum devices.</description>
+  </item>
+
+  <item>
+    <title>Time and Query Complexity Tradeoff for the Dihedral Coset Problem</title>
+    <link>http://arxiv.org/pdf/2206.14408</link>
+    <author>Maxime Remaud, jean-Pierre Tillich</author>
+    <pubDate>Jun 30 2022</pubDate>
+    <description>The Dihedral Coset Problem (DCP) in $Z_N$ is an important quantumly defined problem to which for instance the learning with errors problem reduces.There are several algorithms for solving it. On one hand, we have algorithms \textità la Ettinger-Høyer running in $\OO{2^{c_{\SS}\log{N}}}$ time but using $\OO{\log{N}}$ queries, for some constant $c_{\SS}$. On the other hand, algorithms \textità la Kuperberg need $\OOt{2^{\sqrt{c_{\DCP}\log{N}}}}$ time and queries, for some constant $c_{\DCP}$. Despite being the subject of a lot of studies, no algorithm using an intermediate number of queries was known up till now. It means that an attacker who has, for cost or time reasons, limited queries, will be forced to use a linear query algorithm running in exponential time. We propose an algorithm taking as a parameter the number $Q$ of queries we are allowed to do, therefore interpolating between existing algorithms. We thus explicitly show that it takes $\OOt{2^{c_{\SS}\left(\log{N}-\frac{1}{c_{\DCP}}\log^2{Q}\right)}}$ time. Our algorithm improves over algorithms \textità la Ettinger-Høyer when $Q$ is minimal and matches algorithms \textità la Kuperberg when $Q$ is maximal, while offering new possibilities in between. The key point of our algorithm is to give a degree of freedom in the way coset states are preprocessed, that we then link to the parameter $Q$ to obtain an optimal algorithm with respect to $Q$. We also introduce a new sieving procedure to assemble the constructed coset states, allowing us to retrieve the secret $s$.</description>
   </item>
 
   <item>
@@ -63,27 +55,35 @@
   </item>
 
   <item>
-    <title>Fast Classical Simulation of Hamiltonian Dynamics by Simultaneous Diagonalization Using Clifford Transformation with Parallel Computation</title>
-    <link>http://arxiv.org/pdf/2206.11664</link>
-    <author>Yoshiaki Kawase, Keisuke Fujii</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>Simulating quantum many-body dynamics is important both for fundamental understanding of physics and practical applications for quantum information processing. Therefore, classical simulation methods have been developed so far. Specifically, the Trotter-Suzuki decomposition can analyze a highly complex quantum dynamics, if the number of qubits is sufficiently small so that main memory can store the state vector. However, simulation of quantum dynamics via Trotter-Suzuki decomposition requires huge number of steps, each of which accesses the state vector, and hence the simulation time becomes impractically long. To settle this issue, we propose a technique to accelerate simulation of quantum dynamics via simultaneous diagonalization of mutually commuting Pauli groups, which is also attracting a lot of attention to reduce the measurement overheads in quantum algorithms. We group the Hamiltonian into mutually commputing Pauli strings, and each of them are diagonalized in the computational basis via a Clifford transformation. Since diagonal operators are applied on the state vector simultaneously with minimum memory access, this method successfully use performance of highly parallel processors such as Graphics Processing Units (GPU). Compared to an implementation using one of the fastest simulators of quantum computers, the numerical experiments have shown that our method provides a few tens of times acceleration.</description>
-  </item>
-
-  <item>
-    <title>Quantum Many-Body Scars: A Quasiparticle Perspective</title>
-    <link>http://arxiv.org/pdf/2206.11528</link>
-    <author>Anushya Chandran, Thomas Iadecola, Vedika Khemani, Roderich Moessner</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>Weakly interacting quasiparticles play a central role in the low-energy description of many phases of quantum matter. At higher energies, however, quasiparticles cease to be well-defined in generic many-body systems due to a proliferation of decay channels. In this review, we discuss the phenomenon of quantum many-body scars, which can give rise to certain species of stable quasiparticles throughout the energy spectrum. This goes along with a set of unusual non-equilibrium phenomena including many-body revivals and non-thermal stationary states. We provide a pedagogical exposition of this physics via a simple yet comprehensive example, that of a spin-1 XY model. We place our discussion in the broader context of symmetry-based constructions of many-body scar states, projector embeddings, and Hilbert space fragmentation. We conclude with a summary of experimental progress and theoretical puzzles.</description>
-  </item>
-
-  <item>
     <title>Non-Convex Optimization by Hamiltonian Alternation</title>
     <link>http://arxiv.org/pdf/2206.14072</link>
     <author>Anuj Apte, Kunal Marwaha, Arvind Murugan</author>
     <pubDate>Jun 29 2022</pubDate>
     <description>A major obstacle to non-convex optimization is the problem of getting stuck in local minima. We introduce a novel metaheuristic to handle this issue, creating an alternate Hamiltonian that shares minima with the original Hamiltonian only within a chosen energy range. We find that repeatedly minimizing each Hamiltonian in sequence allows an algorithm to escape local minima. This technique is particularly straightforward when the ground state energy is known, and one obtains an improvement even without this knowledge. We demonstrate this technique by using it to find the ground state for instances of a Sherrington-Kirkpatrick spin glass.</description>
+  </item>
+
+  <item>
+    <title>Positive-definite parametrization of mixed quantum states with deep neural networks</title>
+    <link>http://arxiv.org/pdf/2206.13488</link>
+    <author>Filippo Vicentini, Riccardo Rossi, Giuseppe Carleo</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>We introduce the Gram-Hadamard Density Operator (GHDO), a new deep neural-network architecture that can encode positive semi-definite density operators of exponential rank with polynomial resources. We then show how to embed an autoregressive structure in the GHDO to allow direct sampling of the probability distribution. These properties are especially important when representing and variationally optimizing the mixed quantum state of a system interacting with an environment. Finally, we benchmark this architecture by simulating the steady state of the dissipative transverse-field Ising model. Estimating local observables and the Rényi entropy, we show significant improvements over previous state-of-the-art variational approaches.</description>
+  </item>
+
+  <item>
+    <title>Quantum Regularized Least Squares</title>
+    <link>http://arxiv.org/pdf/2206.13143</link>
+    <author>Shantanav Chakraborty, Aditya Morolia, Anurudh Peduri</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation to design new quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (the regularization term is proportional to the $\ell_2$-norm of the least squares solution), which is a particular case of our result. To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that fewer additional qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms can be implemented on a variety of input models and can also be seen as improved and generalized versions of the standard (non-regularized) quantum least squares algorithms of Chakraborty et al. [ICALP 2019].</description>
+  </item>
+
+  <item>
+    <title>Concentration Inequalities for Output Statistics of Quantum Markov Processes</title>
+    <link>http://arxiv.org/pdf/2206.14223</link>
+    <author>Federico Girotti, Juan P. Garrahan, Mădălin Guţă</author>
+    <pubDate>Jun 30 2022</pubDate>
+    <description>We derive new concentration bounds for time averages of measurement outcomes in quantum Markov processes. This generalizes well-known bounds for classical Markov chains which provide constraints on finite time fluctuations of time-additive quantities around their averages. We employ spectral, perturbation and martingale techniques, together with noncommutative $L_2$ theory, to derive: (i) a Bernstein-type concentration bound for time averages of the measurement outcomes of a quantum Markov chain, (ii) a Hoeffding-type concentration bound for the same process, (iii) a generalization of the Bernstein-type concentration bound for counting processes of continuous time quantum Markov processes, (iv) new concentration bounds for empirical fluxes of classical Markov chains which broaden the range of applicability of the corresponding classical bounds beyond empirical averages. We also suggests potential application of our results to parameter estimation and consider extensions to reducible quantum channels, multi-time statistics and time-dependent measurements, and comment on the connection to so-called thermodynamic uncertainty relations.</description>
   </item>
 
 </channel>

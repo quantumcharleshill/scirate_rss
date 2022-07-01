@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>NLTS Hamiltonians from good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.13228</link>
+    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
+  </item>
+
+  <item>
     <title>Quantum advantage in learning from experiments</title>
     <link>http://arxiv.org/pdf/2112.00778</link>
     <author>Hsin-Yuan Huang, Michael Broughton, Jordan Cotler, Sitan Chen, Jerry Li, Masoud Mohseni, Hartmut Neven, Ryan Babbush, Richard Kueng, John Preskill, Jarrod R. McClean</author>
@@ -28,14 +36,6 @@
     <author>Sergey Bravyi, Anirban Chowdhury, David Gosset, Pawel Wocjan</author>
     <pubDate>Nov 01 2021</pubDate>
     <description>The partition function and free energy of a quantum many-body system determine its physical properties in thermal equilibrium. Here we study the computational complexity of approximating these quantities for $n$-qubit local Hamiltonians. First, we report a classical algorithm with $\mathrm{poly}(n)$ runtime which approximates the free energy of a given $2$-local Hamiltonian provided that it satisfies a certain denseness condition. Our algorithm combines the variational characterization of the free energy and convex relaxation methods. It contributes to a body of work on efficient approximation algorithms for dense instances of optimization problems which are hard in the general case, and can be viewed as simultaneously extending existing algorithms for (a) the ground energy of dense $2$-local Hamiltonians, and (b) the free energy of dense classical Ising models. Secondly, we establish polynomial-time equivalence between the problem of approximating the free energy of local Hamiltonians and three other natural quantum approximate counting problems, including the problem of approximating the number of witness states accepted by a QMA verifier. These results suggest that simulation of quantum many-body systems in thermal equilibrium may precisely capture the complexity of a broad family of computational problems that has yet to be defined or characterized in terms of known complexity classes. Finally, we summarize state-of-the-art classical and quantum algorithms for approximating the free energy and show how to improve their runtime and memory footprint.</description>
-  </item>
-
-  <item>
-    <title>NLTS Hamiltonians from good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.13228</link>
-    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
   </item>
 
   <item>
@@ -191,19 +191,19 @@
   </item>
 
   <item>
-    <title>Learnability of the output distributions of local quantum circuits</title>
-    <link>http://arxiv.org/pdf/2110.05517</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Oct 13 2021</pubDate>
-    <description>There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective.</description>
-  </item>
-
-  <item>
     <title>Towards near-term quantum simulation of materials</title>
     <link>http://arxiv.org/pdf/2205.15256</link>
     <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
     <pubDate>May 31 2022</pubDate>
     <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
+  </item>
+
+  <item>
+    <title>Learnability of the output distributions of local quantum circuits</title>
+    <link>http://arxiv.org/pdf/2110.05517</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Oct 13 2021</pubDate>
+    <description>There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective.</description>
   </item>
 
   <item>
@@ -295,6 +295,14 @@
   </item>
 
   <item>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
+  </item>
+
+  <item>
     <title>Is quantum advantage the right goal for quantum machine learning?</title>
     <link>http://arxiv.org/pdf/2203.01340</link>
     <author>Maria Schuld, Nathan Killoran</author>
@@ -308,14 +316,6 @@
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
     <pubDate>May 06 2022</pubDate>
     <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
-  </item>
-
-  <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
   </item>
 
   <item>
@@ -391,19 +391,19 @@
   </item>
 
   <item>
-    <title>Modern applications of machine learning in quantum sciences</title>
-    <link>http://arxiv.org/pdf/2204.04198</link>
-    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim A. Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
-    <pubDate>Apr 11 2022</pubDate>
-    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
-  </item>
-
-  <item>
     <title>The learnability of Pauli noise</title>
     <link>http://arxiv.org/pdf/2206.06362</link>
     <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
     <pubDate>Jun 14 2022</pubDate>
     <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+  </item>
+
+  <item>
+    <title>Modern applications of machine learning in quantum sciences</title>
+    <link>http://arxiv.org/pdf/2204.04198</link>
+    <author>Anna Dawid, Julian Arnold, Borja Requena, Alexander Gresch, Marcin Płodzień, Kaelan Donatella, Kim A. Nicoli, Paolo Stornati, Rouven Koch, Miriam Büttner, Robert Okuła, Gorka Muñoz-Gil, Rodrigo A. Vargas-Hernández, Alba Cervera-Lierta, Juan Carrasquilla, Vedran Dunjko, Marylou Gabrié, Patrick Huembeli, Evert van Nieuwenburg, Filippo Vicentini, et al (9)</author>
+    <pubDate>Apr 11 2022</pubDate>
+    <description>In these Lecture Notes, we provide a comprehensive introduction to the most recent advances in the application of machine learning methods in quantum sciences. We cover the use of deep learning and kernel methods in supervised, unsupervised, and reinforcement learning algorithms for phase classification, representation of many-body quantum states, quantum feedback control, and quantum circuits optimization. Moreover, we introduce and discuss more specialized topics such as differentiable programming, generative models, statistical approach to machine learning, and quantum machine learning.</description>
   </item>
 
 </channel>
