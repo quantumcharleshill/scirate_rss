@@ -55,19 +55,19 @@
   </item>
 
   <item>
-    <title>Good Quantum LDPC Codes with Linear Time Decoders</title>
-    <link>http://arxiv.org/pdf/2206.07750</link>
-    <author>Irit Dinur, Min-Hsiu Hsieh, Ting-Chun Lin, Thomas Vidick</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\mathbb{F}_2^{m\times m})^V \quad \xrightarrow{\delta^0}\quad (\mathbb{F}_2^{m})^{E} \quad\xrightarrow{\delta^1} \quad \mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\mathbb{F}_2^m\to\mathbb{F}_2^\Delta$ where $\Delta$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.</description>
-  </item>
-
-  <item>
     <title>Estimating Quantum Hamiltonians via Joint Measurements of Noisy Non-Commuting Observables</title>
     <link>http://arxiv.org/pdf/2206.08912</link>
     <author>Daniel McNulty, Filip B. Maciejewski, Michał Oszmaniec</author>
     <pubDate>Jun 20 2022</pubDate>
     <description>Estimation of expectation values of incompatible observables is an essential practical task in quantum computing, especially for approximating energies of chemical and other many-body quantum systems. In this work we introduce a method for this purpose based on performing a single joint measurement that can be implemented locally and whose marginals yield noisy (unsharp) versions of the target set of non-commuting Pauli observables. We derive bounds on the number of experimental repetitions required to estimate energies up to a certain precision. We compare this strategy to the classical shadow formalism and show that our method yields the same performance as the locally biased classical shadow protocol. We also highlight some general connections between the two approaches by showing that classical shadows can be used to construct joint measurements and vice versa. Finally, we adapt the joint measurement strategy to minimise the sample complexity when the implementation of measurements is assumed noisy. This can provide significant efficiency improvements compared to known generalisations of classical shadows to noisy scenarios.</description>
+  </item>
+
+  <item>
+    <title>Good Quantum LDPC Codes with Linear Time Decoders</title>
+    <link>http://arxiv.org/pdf/2206.07750</link>
+    <author>Irit Dinur, Min-Hsiu Hsieh, Ting-Chun Lin, Thomas Vidick</author>
+    <pubDate>Jun 17 2022</pubDate>
+    <description>We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\mathbb{F}_2^{m\times m})^V \quad \xrightarrow{\delta^0}\quad (\mathbb{F}_2^{m})^{E} \quad\xrightarrow{\delta^1} \quad \mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\mathbb{F}_2^m\to\mathbb{F}_2^\Delta$ where $\Delta$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.</description>
   </item>
 
   <item>
@@ -84,6 +84,14 @@
     <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
     <pubDate>Jun 13 2022</pubDate>
     <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
+  </item>
+
+  <item>
+    <title>Multivariate trace estimation in constant quantum depth</title>
+    <link>http://arxiv.org/pdf/2206.15405</link>
+    <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
   </item>
 
   <item>
@@ -223,14 +231,6 @@
   </item>
 
   <item>
-    <title>Modular Commutators in Conformal Field Theory</title>
-    <link>http://arxiv.org/pdf/2206.00027</link>
-    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
-    <pubDate>Jun 02 2022</pubDate>
-    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
-  </item>
-
-  <item>
     <title>Random tensor networks with nontrivial links</title>
     <link>http://arxiv.org/pdf/2206.10482</link>
     <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+    <title>Modular Commutators in Conformal Field Theory</title>
+    <link>http://arxiv.org/pdf/2206.00027</link>
+    <author>Yijian Zou, Bowen Shi, Jonathan Sorce, Ian T. Lim, Isaac H. Kim</author>
+    <pubDate>Jun 02 2022</pubDate>
+    <description>The modular commutator is a recently discovered multipartite entanglement measure that quantifies the chirality of the underlying many-body quantum state. In this Letter, we derive a universal expression for the modular commutator in conformal field theories in $1+1$ dimensions and discuss its salient features. We show that the modular commutator depends only on the chiral central charge and the conformal cross ratio. We test this formula for a gapped $(2+1)$-dimensional system with a chiral edge, i.e., the quantum Hall state, and observe excellent agreement with numerical simulations. Furthermore, we propose a geometric dual for the modular commutator in certain preferred states of the AdS/CFT correspondence. For these states, we argue that the modular commutator can be obtained from a set of crossing angles between intersecting Ryu-Takayanagi surfaces.</description>
   </item>
 
 </channel>

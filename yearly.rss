@@ -207,6 +207,14 @@
   </item>
 
   <item>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
+  </item>
+
+  <item>
     <title>Quantum many-body systems in thermal equilibrium</title>
     <link>http://arxiv.org/pdf/2204.08349</link>
     <author>Álvaro M. Alhambra</author>
@@ -223,14 +231,6 @@
   </item>
 
   <item>
-    <title>A construction of Combinatorial NLTS</title>
-    <link>http://arxiv.org/pdf/2206.02741</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
-  </item>
-
-  <item>
     <title>Exponential separations between learning with and without quantum memory</title>
     <link>http://arxiv.org/pdf/2111.05881</link>
     <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
@@ -244,6 +244,14 @@
     <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
     <pubDate>Dec 08 2021</pubDate>
     <description>Quantum computers hold the promise of solving computational problems which are intractable using conventional methods. For fault-tolerant operation quantum computers must correct errors occurring due to unavoidable decoherence and limited control accuracy. Here, we demonstrate quantum error correction using the surface code, which is known for its exceptionally high tolerance to errors. Using 17 physical qubits in a superconducting circuit we encode quantum information in a distance-three logical qubit building up on recent distance-two error detection experiments. In an error correction cycle taking only $1.1\,\mu$s, we demonstrate the preservation of four cardinal states of the logical qubit. Repeatedly executing the cycle, we measure and decode both bit- and phase-flip error syndromes using a minimum-weight perfect-matching algorithm in an error-model-free approach and apply corrections in postprocessing. We find a low error probability of $3\,\%$ per cycle when rejecting experimental runs in which leakage is detected. The measured characteristics of our device agree well with a numerical model. Our demonstration of repeated, fast and high-performance quantum error correction cycles, together with recent advances in ion traps, support our understanding that fault-tolerant quantum computation will be practically realizable.</description>
+  </item>
+
+  <item>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
   </item>
 
   <item>
@@ -295,14 +303,6 @@
   </item>
 
   <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
-  </item>
-
-  <item>
     <title>Is quantum advantage the right goal for quantum machine learning?</title>
     <link>http://arxiv.org/pdf/2203.01340</link>
     <author>Maria Schuld, Nathan Killoran</author>
@@ -351,6 +351,14 @@
   </item>
 
   <item>
+    <title>The learnability of Pauli noise</title>
+    <link>http://arxiv.org/pdf/2206.06362</link>
+    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+  </item>
+
+  <item>
     <title>A lower bound on the space overhead of fault-tolerant quantum computation</title>
     <link>http://arxiv.org/pdf/2202.00119</link>
     <author>Omar Fawzi, Alexander Müller-Hermes, Ala Shayeghi</author>
@@ -388,14 +396,6 @@
     <author>James D. Watson, Toby S. Cubitt</author>
     <pubDate>Jul 13 2021</pubDate>
     <description>We study the complexity of finding the ground state energy density of a local Hamiltonian on a lattice in the thermodynamic limit of infinite lattice size. We formulate this rigorously as a function problem, in which we request an estimate of the ground state energy density to some specified precision; and as an equivalent promise problem, $\mathsf{GSED}$, in which we ask whether the ground state energy density is above or below specified thresholds. The ground state energy density problem is unusual, in that it concerns a single, fixed Hamiltonian in the thermodynamic limit, whose ground state energy density is just some fixed, real number. The only input to the computational problem is the precision to which to estimate this fixed real number, corresponding to the ground state energy density. Hardness of this problem for a complexity class therefore implies that the solutions to all problems in the class are encoded in this single number (analogous to Chaitin's constant in computability theory). This captures computationally the type of question most commonly encountered in condensed matter physics, which is typically concerned with the physical properties of a single Hamiltonian in the thermodynamic limit. We show that for classical, translationally invariant, nearest neighbour Hamiltonians on a 2D square lattice, $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{NEXP}}$, and for quantum Hamiltonians $\mathsf{P}^{\mathsf{NEEXP}}\subseteq\mathsf{EXP}^{\mathsf{GSED}}\subseteq \mathsf{EXP}^{\mathsf{QMA}_{EXP}}$. With some technical caveats on the oracle definitions, the $\mathsf{EXP}$ in some of these results can be strengthened to $\mathsf{PSPACE}$. We also give analogous complexity bounds for the function version of $\mathsf{GSED}$.</description>
-  </item>
-
-  <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
   </item>
 
   <item>

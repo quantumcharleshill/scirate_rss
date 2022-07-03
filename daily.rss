@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Multivariate trace estimation in constant quantum depth</title>
+    <link>http://arxiv.org/pdf/2206.15405</link>
+    <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
+  </item>
+
+  <item>
     <title>Time and Query Complexity Tradeoff for the Dihedral Coset Problem</title>
     <link>http://arxiv.org/pdf/2206.14408</link>
     <author>Maxime Remaud, jean-Pierre Tillich</author>
@@ -15,35 +23,27 @@
   </item>
 
   <item>
-    <title>Concentration Inequalities for Output Statistics of Quantum Markov Processes</title>
-    <link>http://arxiv.org/pdf/2206.14223</link>
-    <author>Federico Girotti, Juan P. Garrahan, Mădălin Guţă</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>We derive new concentration bounds for time averages of measurement outcomes in quantum Markov processes. This generalizes well-known bounds for classical Markov chains which provide constraints on finite time fluctuations of time-additive quantities around their averages. We employ spectral, perturbation and martingale techniques, together with noncommutative $L_2$ theory, to derive: (i) a Bernstein-type concentration bound for time averages of the measurement outcomes of a quantum Markov chain, (ii) a Hoeffding-type concentration bound for the same process, (iii) a generalization of the Bernstein-type concentration bound for counting processes of continuous time quantum Markov processes, (iv) new concentration bounds for empirical fluxes of classical Markov chains which broaden the range of applicability of the corresponding classical bounds beyond empirical averages. We also suggests potential application of our results to parameter estimation and consider extensions to reducible quantum channels, multi-time statistics and time-dependent measurements, and comment on the connection to so-called thermodynamic uncertainty relations.</description>
-  </item>
-
-  <item>
-    <title>Linear Growth of Circuit Complexity from Brownian Dynamics</title>
-    <link>http://arxiv.org/pdf/2206.14205</link>
-    <author>Shao-Kai Jian, Gregory Bentsen, Brian Swingle</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>We calculate the frame potential for Brownian clusters of $N$ spins or fermions with time-dependent all-to-all interactions. In both cases the problem can be mapped to an effective statistical mechanics problem which we study using a path integral approach. We argue that the $k$th frame potential comes within $\epsilon$ of the Haar value after a time of order $t \sim k N + k \log k + \log \epsilon^{-1}$. Using a bound on the diamond norm, this implies that such circuits are capable of coming very close to a unitary $k$-design after a time of order $t \sim k N$. We also consider the same question for systems with a time-independent Hamiltonian and argue that a small amount of time-dependent randomness is sufficient to generate a $k$-design in linear time provided the underlying Hamiltonian is quantum chaotic. These models provide explicit examples of linear complexity growth that are also analytically tractable.</description>
-  </item>
-
-  <item>
-    <title>Optimal quantum control via genetic algorithms</title>
-    <link>http://arxiv.org/pdf/2206.14681</link>
-    <author>Jonathon Brown, Mauro Paternostro, Alessandro Ferraro</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>We devise a machine learning-enabled approach to quantum state engineering based on evolutionary algorithms. In particular, we focus on superconducting platforms and consider a network of qubits -- encoded in the states of artificial atoms with no direct coupling -- interacting via a common single-mode driven microwave resonator. The qubit-resonator couplings are assumed to be in the resonant regime and tunable in time. A genetic algorithm is designed in order to find the functional time-dependence of the couplings that optimise the fidelity between the evolved state and a variety of targets, including three-qubit GHZ and Dicke states and four-qubit graph states. We observe high quantum fidelities (above 0.96 in the worst case setting of a system of effective dimension 96) and resilience to noise, despite the algorithm being trained in the ideal noise-free setting. These results show that the genetic algorithms represent an effective approach to control quantum systems of large dimensions.</description>
-  </item>
-
-  <item>
-    <title>Multivariate trace estimation in constant quantum depth</title>
-    <link>http://arxiv.org/pdf/2206.15405</link>
-    <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
+    <title>Efficient Verification of Ground States of Frustration-Free Hamiltonians</title>
+    <link>http://arxiv.org/pdf/2206.15292</link>
+    <author>Huangjun Zhu, Yunting Li, Tianyi Chen</author>
     <pubDate>Jul 01 2022</pubDate>
-    <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
+    <description>Ground states of local Hamiltonians are of key interest in many-body physics and also in quantum information processing. Efficient verification of these states are crucial to many applications, but are very challenging. Here we propose a simple, but powerful recipe for verifying the ground states of general frustration-free Hamiltonians based on local measurements. Moreover, we derive rigorous bounds on the sampling complexity by virtue of the quantum detectability lemma (with improvement) and quantum union bound. Notably, the number of samples required does not increase with the system size when the underlying Hamiltonian is local and gapped, which is the case of most interest. As an application, we propose a general approach for verifying Affleck-Kennedy-Lieb-Tasaki (AKLT) states on arbitrary graphs based on spin measurements, which require only a constant number of samples for AKLT states defined on various lattices. Our work is of interest not only to many tasks in quantum information processing, but also to the study of many-body physics.</description>
+  </item>
+
+  <item>
+    <title>Quantum mechanics? It's all fun and games until someone loses an $i$</title>
+    <link>http://arxiv.org/pdf/2206.15343</link>
+    <author>Christopher A. Fuchs, Maxim Olchanyi, Matthew B. Weiss</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>QBism regards quantum mechanics as an addition to probability theory. The addition provides an extra normative rule for decision-making agents concerned with gambling across experimental contexts, somewhat in analogy to the double-slit experiment. This establishes the meaning of the Born Rule from a QBist perspective. Moreover it suggests that the best way to formulate the Born Rule for foundational discussions is with respect to an informationally complete reference device. Recent work [DeBrota, Fuchs, and Stacey, Phys. Rev. Res. 2, 013074 (2020)] has demonstrated that reference devices employing symmetric informationally complete POVMs (or SICs) achieve a minimal quantumness: They witness the irreducible difference between classical and quantum. In this paper, we attempt to answer the analogous question for real-vector-space quantum theory. While standard quantum mechanics seems to allow SICs to exist in all finite dimensions, in the case of quantum theory over the real numbers it is known that SICs do not exist in most dimensions. We therefore attempt to identify the optimal reference device in the first real dimension without a SIC (i.e., $d=4$) in hopes of better understanding the essential role of complex numbers in quantum mechanics. In contrast to their complex counterparts, the expressions that result in a QBist understanding of real-vector-space quantum theory are surprisingly complex.</description>
+  </item>
+
+  <item>
+    <title>Succinct Classical Verification of Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2206.14929</link>
+    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
   </item>
 
 </channel>

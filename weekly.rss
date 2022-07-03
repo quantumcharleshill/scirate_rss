@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Multivariate trace estimation in constant quantum depth</title>
+    <link>http://arxiv.org/pdf/2206.15405</link>
+    <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
+  </item>
+
+  <item>
     <title>A Pair Measurement Surface Code on Pentagons</title>
     <link>http://arxiv.org/pdf/2206.12780</link>
     <author>Craig Gidney</author>
@@ -47,43 +55,35 @@
   </item>
 
   <item>
+    <title>Efficient Verification of Ground States of Frustration-Free Hamiltonians</title>
+    <link>http://arxiv.org/pdf/2206.15292</link>
+    <author>Huangjun Zhu, Yunting Li, Tianyi Chen</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>Ground states of local Hamiltonians are of key interest in many-body physics and also in quantum information processing. Efficient verification of these states are crucial to many applications, but are very challenging. Here we propose a simple, but powerful recipe for verifying the ground states of general frustration-free Hamiltonians based on local measurements. Moreover, we derive rigorous bounds on the sampling complexity by virtue of the quantum detectability lemma (with improvement) and quantum union bound. Notably, the number of samples required does not increase with the system size when the underlying Hamiltonian is local and gapped, which is the case of most interest. As an application, we propose a general approach for verifying Affleck-Kennedy-Lieb-Tasaki (AKLT) states on arbitrary graphs based on spin measurements, which require only a constant number of samples for AKLT states defined on various lattices. Our work is of interest not only to many tasks in quantum information processing, but also to the study of many-body physics.</description>
+  </item>
+
+  <item>
+    <title>Quantum mechanics? It's all fun and games until someone loses an $i$</title>
+    <link>http://arxiv.org/pdf/2206.15343</link>
+    <author>Christopher A. Fuchs, Maxim Olchanyi, Matthew B. Weiss</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>QBism regards quantum mechanics as an addition to probability theory. The addition provides an extra normative rule for decision-making agents concerned with gambling across experimental contexts, somewhat in analogy to the double-slit experiment. This establishes the meaning of the Born Rule from a QBist perspective. Moreover it suggests that the best way to formulate the Born Rule for foundational discussions is with respect to an informationally complete reference device. Recent work [DeBrota, Fuchs, and Stacey, Phys. Rev. Res. 2, 013074 (2020)] has demonstrated that reference devices employing symmetric informationally complete POVMs (or SICs) achieve a minimal quantumness: They witness the irreducible difference between classical and quantum. In this paper, we attempt to answer the analogous question for real-vector-space quantum theory. While standard quantum mechanics seems to allow SICs to exist in all finite dimensions, in the case of quantum theory over the real numbers it is known that SICs do not exist in most dimensions. We therefore attempt to identify the optimal reference device in the first real dimension without a SIC (i.e., $d=4$) in hopes of better understanding the essential role of complex numbers in quantum mechanics. In contrast to their complex counterparts, the expressions that result in a QBist understanding of real-vector-space quantum theory are surprisingly complex.</description>
+  </item>
+
+  <item>
+    <title>Succinct Classical Verification of Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2206.14929</link>
+    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
+  </item>
+
+  <item>
     <title>From Tensor Network Quantum States to Tensorial Recurrent Neural Networks</title>
     <link>http://arxiv.org/pdf/2206.12363</link>
     <author>Dian Wu, Riccardo Rossi, Filippo Vicentini, Giuseppe Carleo</author>
     <pubDate>Jun 27 2022</pubDate>
     <description>We show that any matrix product state (MPS) can be exactly represented by a recurrent neural network (RNN) with a linear memory update. We generalize this RNN architecture to 2D lattices using a multilinear memory update. It supports perfect sampling and wave function evaluation in polynomial time, and can represent an area law of entanglement entropy. Numerical evidence shows that it can encode the wave function using a bond dimension lower by orders of magnitude when compared to MPS, with an accuracy that can be systematically improved by increasing the bond dimension.</description>
-  </item>
-
-  <item>
-    <title>Non-Convex Optimization by Hamiltonian Alternation</title>
-    <link>http://arxiv.org/pdf/2206.14072</link>
-    <author>Anuj Apte, Kunal Marwaha, Arvind Murugan</author>
-    <pubDate>Jun 29 2022</pubDate>
-    <description>A major obstacle to non-convex optimization is the problem of getting stuck in local minima. We introduce a novel metaheuristic to handle this issue, creating an alternate Hamiltonian that shares minima with the original Hamiltonian only within a chosen energy range. We find that repeatedly minimizing each Hamiltonian in sequence allows an algorithm to escape local minima. This technique is particularly straightforward when the ground state energy is known, and one obtains an improvement even without this knowledge. We demonstrate this technique by using it to find the ground state for instances of a Sherrington-Kirkpatrick spin glass.</description>
-  </item>
-
-  <item>
-    <title>Positive-definite parametrization of mixed quantum states with deep neural networks</title>
-    <link>http://arxiv.org/pdf/2206.13488</link>
-    <author>Filippo Vicentini, Riccardo Rossi, Giuseppe Carleo</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>We introduce the Gram-Hadamard Density Operator (GHDO), a new deep neural-network architecture that can encode positive semi-definite density operators of exponential rank with polynomial resources. We then show how to embed an autoregressive structure in the GHDO to allow direct sampling of the probability distribution. These properties are especially important when representing and variationally optimizing the mixed quantum state of a system interacting with an environment. Finally, we benchmark this architecture by simulating the steady state of the dissipative transverse-field Ising model. Estimating local observables and the Rényi entropy, we show significant improvements over previous state-of-the-art variational approaches.</description>
-  </item>
-
-  <item>
-    <title>Quantum Regularized Least Squares</title>
-    <link>http://arxiv.org/pdf/2206.13143</link>
-    <author>Shantanav Chakraborty, Aditya Morolia, Anurudh Peduri</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>Linear regression is a widely used technique to fit linear models and finds widespread applications across different areas such as machine learning and statistics. In most real-world scenarios, however, linear regression problems are often ill-posed or the underlying model suffers from overfitting, leading to erroneous or trivial solutions. This is often dealt with by adding extra constraints, known as regularization. In this paper, we use the frameworks of block-encoding and quantum singular value transformation to design new quantum algorithms for quantum least squares with general $\ell_2$-regularization. These include regularized versions of quantum ordinary least squares, quantum weighted least squares, and quantum generalized least squares. Our quantum algorithms substantially improve upon prior results on quantum ridge regression (the regularization term is proportional to the $\ell_2$-norm of the least squares solution), which is a particular case of our result. To this end, we assume approximate block-encodings of the underlying matrices as input and use robust QSVT algorithms for various linear algebra operations. In particular, we develop a variable-time quantum algorithm for matrix inversion using QSVT, where we use quantum eigenvalue discrimination as a subroutine instead of gapped phase estimation. This ensures that fewer additional qubits are required for this procedure than prior results. Owing to the generality of the block-encoding framework, our algorithms can be implemented on a variety of input models and can also be seen as improved and generalized versions of the standard (non-regularized) quantum least squares algorithms of Chakraborty et al. [ICALP 2019].</description>
-  </item>
-
-  <item>
-    <title>Concentration Inequalities for Output Statistics of Quantum Markov Processes</title>
-    <link>http://arxiv.org/pdf/2206.14223</link>
-    <author>Federico Girotti, Juan P. Garrahan, Mădălin Guţă</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>We derive new concentration bounds for time averages of measurement outcomes in quantum Markov processes. This generalizes well-known bounds for classical Markov chains which provide constraints on finite time fluctuations of time-additive quantities around their averages. We employ spectral, perturbation and martingale techniques, together with noncommutative $L_2$ theory, to derive: (i) a Bernstein-type concentration bound for time averages of the measurement outcomes of a quantum Markov chain, (ii) a Hoeffding-type concentration bound for the same process, (iii) a generalization of the Bernstein-type concentration bound for counting processes of continuous time quantum Markov processes, (iv) new concentration bounds for empirical fluxes of classical Markov chains which broaden the range of applicability of the corresponding classical bounds beyond empirical averages. We also suggests potential application of our results to parameter estimation and consider extensions to reducible quantum channels, multi-time statistics and time-dependent measurements, and comment on the connection to so-called thermodynamic uncertainty relations.</description>
   </item>
 
 </channel>
