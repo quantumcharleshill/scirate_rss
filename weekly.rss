@@ -7,27 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>NLTS Hamiltonians from good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.13228</link>
-    <author>Anurag Anshu, Nikolas Breuckmann, Chinmay Nirkhe</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
-  </item>
-
-  <item>
     <title>Multivariate trace estimation in constant quantum depth</title>
     <link>http://arxiv.org/pdf/2206.15405</link>
     <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
     <pubDate>Jul 01 2022</pubDate>
     <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
-  </item>
-
-  <item>
-    <title>A Pair Measurement Surface Code on Pentagons</title>
-    <link>http://arxiv.org/pdf/2206.12780</link>
-    <author>Craig Gidney</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
   </item>
 
   <item>
@@ -44,6 +28,14 @@
     <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
     <pubDate>Jul 01 2022</pubDate>
     <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
+  </item>
+
+  <item>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
   </item>
 
   <item>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>Linear Growth of Circuit Complexity from Brownian Dynamics</title>
-    <link>http://arxiv.org/pdf/2206.14205</link>
-    <author>Shao-Kai Jian, Gregory Bentsen, Brian Swingle</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>We calculate the frame potential for Brownian clusters of $N$ spins or fermions with time-dependent all-to-all interactions. In both cases the problem can be mapped to an effective statistical mechanics problem which we study using a path integral approach. We argue that the $k$th frame potential comes within $\epsilon$ of the Haar value after a time of order $t \sim k N + k \log k + \log \epsilon^{-1}$. Using a bound on the diamond norm, this implies that such circuits are capable of coming very close to a unitary $k$-design after a time of order $t \sim k N$. We also consider the same question for systems with a time-independent Hamiltonian and argue that a small amount of time-dependent randomness is sufficient to generate a $k$-design in linear time provided the underlying Hamiltonian is quantum chaotic. These models provide explicit examples of linear complexity growth that are also analytically tractable.</description>
+    <title>Exact electronic states with shallow quantum circuits through global optimisation</title>
+    <link>http://arxiv.org/pdf/2207.00085</link>
+    <author>Hugh G. A. Burton, Daniel Marti-Dafcik, David P. Tew, David J. Wales</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems. While electronic wave functions can be represented using a product of fermionic unitary operators, shallow quantum circuits for exact states have not yet been achieved. We construct universal wave functions from gate-efficient, symmetry-preserving fermionic operators by introducing an algorithm that globally optimises the wave function in the discrete ansatz design and the continuous parameter spaces. Our approach maximises the accuracy that can be obtained with near-term quantum circuits. Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.</description>
+  </item>
+
+  <item>
+    <title>Neural network enhanced measurement efficiency for molecular groundstates</title>
+    <link>http://arxiv.org/pdf/2206.15449</link>
+    <author>Dmitri Iouchtchenko, Jérôme F. Gonthier, Alejandro Perdomo-Ortiz, Roger G. Melko</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>It is believed that one of the first useful applications for a quantum computer will be the preparation of groundstates of molecular Hamiltonians. A crucial task involving state preparation and readout is obtaining physical observables of such states, which are typically estimated using projective measurements on the qubits. At present, measurement data is costly and time-consuming to obtain on any quantum computing architecture, which has significant consequences for the statistical errors of estimators. In this paper, we adapt common neural network models (restricted Boltzmann machines and recurrent neural networks) to learn complex groundstate wavefunctions for several prototypical molecular qubit Hamiltonians from typical measurement data. By relating the accuracy $\varepsilon$ of the reconstructed groundstate energy to the number of measurements, we find that using a neural network model provides a robust improvement over using single-copy measurement outcomes alone to reconstruct observables. This enhancement yields an asymptotic scaling near $\varepsilon^{-1}$ for the model-based approaches, as opposed to $\varepsilon^{-2}$ in the case of classical shadow tomography.</description>
   </item>
 
 </channel>
