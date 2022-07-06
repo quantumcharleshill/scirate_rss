@@ -15,11 +15,11 @@
   </item>
 
   <item>
-    <title>Measurement as a shortcut to long-range entangled quantum matter</title>
-    <link>http://arxiv.org/pdf/2206.13527</link>
-    <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
-    <pubDate>Jun 29 2022</pubDate>
-    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
   </item>
 
   <item>
@@ -31,19 +31,11 @@
   </item>
 
   <item>
-    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
-    <link>http://arxiv.org/pdf/2207.00553</link>
-    <author>James R. Wootton</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
-    <title>Detecting and Eliminating Quantum Noise of Quantum Measurements</title>
-    <link>http://arxiv.org/pdf/2206.13743</link>
-    <author>Shuanghong Tang, Congcong Zheng, Kun Wang</author>
-    <pubDate>Jun 29 2022</pubDate>
-    <description>In this work, we propose a two-stage procedure to systematically address quantum noise inherent in quantum measurements. The idea behind it is intuitive: we first detect and then eliminate quantum noise so that the classical noise assumption is satisfied and measurement error mitigation works. In the first stage, inspired by coherence witness in the resource theory of quantum coherence, we design an efficient method to detect quantum noise. It works by fitting the difference between two measurement statistics to the Fourier series, where the statistics are obtained using maximally coherent states with relative phase and maximally mixed states as inputs. The fitting coefficients quantitatively benchmark quantum noise. In the second stage, we design various methods to eliminate quantum noise, inspired by the Pauli twirling technique. They work by executing randomly sampled Pauli gates before the measurement device and conditionally flipping the measurement outcomes in such a way that the effective measurement device contains only classical noise. We demonstrate the feasibility of the two-stage procedure numerically on Baidu Quantum Platform. Remarkably, the results show that quantum noise in measurement devices is significantly suppressed, and the quantum computation accuracy is substantially improved. We highlight that the two-stage procedure complements existing measurement error mitigation techniques, and they together form a standard toolbox for manipulating measurement errors in near-term quantum devices.</description>
+    <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
+    <link>http://arxiv.org/pdf/2207.00616</link>
+    <author>Paul Herringer, Robert Raussendorf</author>
+    <pubDate>Jul 05 2022</pubDate>
+    <description>We consider a class of translation-invariant 2D tensor network states with a stabilizer symmetry, which we call stabilizer PEPS. The cluster state, GHZ state, and states in the toric code belong to this class. We investigate the transmission capacity of stabilizer PEPS for measurement-based quantum wire, and arrive at a complete classification of transmission behaviors. The transmission behaviors fall into 13 classes, one of which corresponds to Clifford quantum cellular automata. In addition, we identify 12 other classes.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Dmitri Iouchtchenko, Jérôme F. Gonthier, Alejandro Perdomo-Ortiz, Roger G. Melko</author>
     <pubDate>Jul 01 2022</pubDate>
     <description>It is believed that one of the first useful applications for a quantum computer will be the preparation of groundstates of molecular Hamiltonians. A crucial task involving state preparation and readout is obtaining physical observables of such states, which are typically estimated using projective measurements on the qubits. At present, measurement data is costly and time-consuming to obtain on any quantum computing architecture, which has significant consequences for the statistical errors of estimators. In this paper, we adapt common neural network models (restricted Boltzmann machines and recurrent neural networks) to learn complex groundstate wavefunctions for several prototypical molecular qubit Hamiltonians from typical measurement data. By relating the accuracy $\varepsilon$ of the reconstructed groundstate energy to the number of measurements, we find that using a neural network model provides a robust improvement over using single-copy measurement outcomes alone to reconstruct observables. This enhancement yields an asymptotic scaling near $\varepsilon^{-1}$ for the model-based approaches, as opposed to $\varepsilon^{-2}$ in the case of classical shadow tomography.</description>
+  </item>
+
+  <item>
+    <title>Linear Growth of Circuit Complexity from Brownian Dynamics</title>
+    <link>http://arxiv.org/pdf/2206.14205</link>
+    <author>Shao-Kai Jian, Gregory Bentsen, Brian Swingle</author>
+    <pubDate>Jun 30 2022</pubDate>
+    <description>We calculate the frame potential for Brownian clusters of $N$ spins or fermions with time-dependent all-to-all interactions. In both cases the problem can be mapped to an effective statistical mechanics problem which we study using a path integral approach. We argue that the $k$th frame potential comes within $\epsilon$ of the Haar value after a time of order $t \sim k N + k \log k + \log \epsilon^{-1}$. Using a bound on the diamond norm, this implies that such circuits are capable of coming very close to a unitary $k$-design after a time of order $t \sim k N$. We also consider the same question for systems with a time-independent Hamiltonian and argue that a small amount of time-dependent randomness is sufficient to generate a $k$-design in linear time provided the underlying Hamiltonian is quantum chaotic. These models provide explicit examples of linear complexity growth that are also analytically tractable.</description>
   </item>
 
 </channel>

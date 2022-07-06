@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.07571</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Jun 16 2022</pubDate>
-    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
-  </item>
-
-  <item>
     <title>Multivariate trace estimation in constant quantum depth</title>
     <link>http://arxiv.org/pdf/2206.15405</link>
     <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
     <pubDate>Jul 01 2022</pubDate>
     <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
+  </item>
+
+  <item>
+    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
+    <link>http://arxiv.org/pdf/2206.07571</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Jun 16 2022</pubDate>
+    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
   </item>
 
   <item>
@@ -151,14 +151,6 @@
   </item>
 
   <item>
-    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
-    <link>http://arxiv.org/pdf/2206.11246</link>
-    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
-  </item>
-
-  <item>
     <title>A note on the inner products of pure states and their antidistinguishability</title>
     <link>http://arxiv.org/pdf/2206.08313</link>
     <author>Vincent Russo, Jamie Sikora</author>
@@ -167,11 +159,27 @@
   </item>
 
   <item>
+    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
+    <link>http://arxiv.org/pdf/2206.11246</link>
+    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
+  </item>
+
+  <item>
     <title>A Pair Measurement Surface Code on Pentagons</title>
     <link>http://arxiv.org/pdf/2206.12780</link>
     <author>Craig Gidney</author>
     <pubDate>Jun 28 2022</pubDate>
     <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
+  </item>
+
+  <item>
+    <title>Measurement as a shortcut to long-range entangled quantum matter</title>
+    <link>http://arxiv.org/pdf/2206.13527</link>
+    <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
+    <pubDate>Jun 29 2022</pubDate>
+    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
   </item>
 
   <item>
@@ -188,14 +196,6 @@
     <author>Antonio Anna Mele, Glen Bigan Mbeng, Giuseppe Ernesto Santoro, Mario Collura, Pietro Torta</author>
     <pubDate>Jun 07 2022</pubDate>
     <description>A large ongoing research effort focuses on Variational Quantum Algorithms (VQAs), representing leading candidates to achieve computational speed-ups on current quantum devices. The scalability of VQAs to a large number of qubits, beyond the simulation capabilities of classical computers, is still debated. Two major hurdles are the proliferation of low-quality variational local minima, and the exponential vanishing of gradients in the cost function landscape, a phenomenon referred to as barren plateaus. Here we show that by employing iterative search schemes one can effectively prepare the ground state of paradigmatic quantum many-body models, circumventing also the barren plateau phenomenon. This is accomplished by leveraging the transferability to larger system sizes of iterative solutions, displaying an intrinsic smoothness of the variational parameters, a result that does not extend to other solutions found via random-start local optimization. Our scheme could be directly tested on near-term quantum devices, running a refinement optimization in a favorable local landscape with non-vanishing gradients.</description>
-  </item>
-
-  <item>
-    <title>Measurement as a shortcut to long-range entangled quantum matter</title>
-    <link>http://arxiv.org/pdf/2206.13527</link>
-    <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
-    <pubDate>Jun 29 2022</pubDate>
-    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
   </item>
 
   <item>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
-    <title>A Simple Proof of PreciseQMA = PSPACE</title>
-    <link>http://arxiv.org/pdf/2206.09230</link>
-    <author>Yulong Li</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
   </item>
 
   <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+    <title>Succinct Classical Verification of Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2206.14929</link>
+    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
   </item>
 
 </channel>
