@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
-    <link>http://arxiv.org/pdf/2207.00553</link>
-    <author>James R. Wootton</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
     <title>Succinct Classical Verification of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2206.14929</link>
     <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
@@ -31,11 +23,35 @@
   </item>
 
   <item>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Uncertainty relations from graph theory</title>
+    <link>http://arxiv.org/pdf/2207.02197</link>
+    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
+    <pubDate>Jul 06 2022</pubDate>
+    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
+  </item>
+
+  <item>
     <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
     <link>http://arxiv.org/pdf/2207.00616</link>
     <author>Paul Herringer, Robert Raussendorf</author>
     <pubDate>Jul 05 2022</pubDate>
     <description>We consider a class of translation-invariant 2D tensor network states with a stabilizer symmetry, which we call stabilizer PEPS. The cluster state, GHZ state, and states in the toric code belong to this class. We investigate the transmission capacity of stabilizer PEPS for measurement-based quantum wire, and arrive at a complete classification of transmission behaviors. The transmission behaviors fall into 13 classes, one of which corresponds to Clifford quantum cellular automata. In addition, we identify 12 other classes.</description>
+  </item>
+
+  <item>
+    <title>Exact electronic states with shallow quantum circuits through global optimisation</title>
+    <link>http://arxiv.org/pdf/2207.00085</link>
+    <author>Hugh G. A. Burton, Daniel Marti-Dafcik, David P. Tew, David J. Wales</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems. While electronic wave functions can be represented using a product of fermionic unitary operators, shallow quantum circuits for exact states have not yet been achieved. We construct universal wave functions from gate-efficient, symmetry-preserving fermionic operators by introducing an algorithm that globally optimises the wave function in the discrete ansatz design and the continuous parameter spaces. Our approach maximises the accuracy that can be obtained with near-term quantum circuits. Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.</description>
   </item>
 
   <item>
@@ -55,19 +71,11 @@
   </item>
 
   <item>
-    <title>Time and Query Complexity Tradeoff for the Dihedral Coset Problem</title>
-    <link>http://arxiv.org/pdf/2206.14408</link>
-    <author>Maxime Remaud, Jean-Pierre Tillich</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>The Dihedral Coset Problem (DCP) in $Z_N$ is an important quantumly defined problem to which for instance the learning with errors problem reduces. There are several algorithms for solving it. On one hand, we have algorithms à la Ettinger-Høyer running in $O(2^{c_{SS}\log{N}})$ time but using $O(\log{N})$ queries, for some constant $c_{SS}$. On the other hand, algorithms à la Kuperberg need $\widetilde{O}(2^{\sqrt{c_{DCP}\log{N}}})$ time and queries, for some constant $c_{DCP}$. Despite being the subject of a lot of studies, no algorithm using an intermediate number of queries was known up till now. It means that an attacker who has, for cost or time reasons, limited queries, will be forced to use a linear query algorithm running in exponential time. We propose an algorithm taking as a parameter the number $Q$ of queries we are allowed to do, therefore interpolating between existing algorithms. We thus explicitly show that it takes $\widetilde{O}(2^{c_{SS}\left(\log{N}-\frac{1}{c_{DCP}}\log^2{Q}\right)})$ time. Our algorithm improves over algorithms à la Ettinger-Høyer when $Q$ is minimal and matches algorithms à la Kuperberg when $Q$ is maximal, while offering new possibilities in between. The key point of our algorithm is to give a degree of freedom in the way coset states are preprocessed, that we then link to the parameter $Q$ to obtain an optimal algorithm with respect to $Q$. We also introduce a new sieving procedure to assemble the constructed coset states, allowing us to retrieve the secret $s$.</description>
-  </item>
-
-  <item>
-    <title>Exact electronic states with shallow quantum circuits through global optimisation</title>
-    <link>http://arxiv.org/pdf/2207.00085</link>
-    <author>Hugh G. A. Burton, Daniel Marti-Dafcik, David P. Tew, David J. Wales</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems. While electronic wave functions can be represented using a product of fermionic unitary operators, shallow quantum circuits for exact states have not yet been achieved. We construct universal wave functions from gate-efficient, symmetry-preserving fermionic operators by introducing an algorithm that globally optimises the wave function in the discrete ansatz design and the continuous parameter spaces. Our approach maximises the accuracy that can be obtained with near-term quantum circuits. Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.</description>
+    <title>Cryptography with Certified Deletion</title>
+    <link>http://arxiv.org/pdf/2207.01754</link>
+    <author>James Bartusek, Dakshita Khurana</author>
+    <pubDate>Jul 06 2022</pubDate>
+    <description>We propose a new, unifying framework that yields an array of cryptographic primitives with certified deletion. These primitives enable a party in possession of a quantum ciphertext to generate a classical certificate that the encrypted plaintext has been information-theoretically deleted, and cannot be recovered even given unbounded computational resources. For any $X \in \{\mathsf{public}\text{-}\mathsf{key},\mathsf{attribute\text{-}based},\mathsf{fully\text{-}homomorphic}, \mathsf{witness},\mathsf{timed}\text{-}\mathsf{release}\}$, our compiler yields post-quantum $X$ encryption with certified deletion, assuming post-quantum $X$ encryption. In addition, assuming the existence of statistically binding commitments, our compiler yields statistically binding commitments with certified everlasting hiding as well as statistically sound zero-knowledge proofs for QMA with certified everlasting zero-knowledge. We also introduce and construct information-theoretic secret sharing with certified deletion. Existing proposals~\citeEC:Unruh14,10.1007/978-3-030-92062-3_21,cryptoeprint:2021:1315,cryptoeprint:2022:295 for public-key primitives and commitments with certified deletion (1) have complex constructions tailored to specific primitives and non-generic proofs, (2) are not known to satisfy everlasting security after deletion in the plain model, and in many cases (3) resort to idealized models or stronger cryptographic assumptions like obfuscation. We remedy this situation by developing a novel proof technique to argue that a bit $b$ has been \em information-theoretically deleted from an adversary's view once they produce a valid deletion certificate, despite having been previously \em determined by the ciphertext they held in their view. This may be of independent interest.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Dmitri Iouchtchenko, Jérôme F. Gonthier, Alejandro Perdomo-Ortiz, Roger G. Melko</author>
     <pubDate>Jul 01 2022</pubDate>
     <description>It is believed that one of the first useful applications for a quantum computer will be the preparation of groundstates of molecular Hamiltonians. A crucial task involving state preparation and readout is obtaining physical observables of such states, which are typically estimated using projective measurements on the qubits. At present, measurement data is costly and time-consuming to obtain on any quantum computing architecture, which has significant consequences for the statistical errors of estimators. In this paper, we adapt common neural network models (restricted Boltzmann machines and recurrent neural networks) to learn complex groundstate wavefunctions for several prototypical molecular qubit Hamiltonians from typical measurement data. By relating the accuracy $\varepsilon$ of the reconstructed groundstate energy to the number of measurements, we find that using a neural network model provides a robust improvement over using single-copy measurement outcomes alone to reconstruct observables. This enhancement yields an asymptotic scaling near $\varepsilon^{-1}$ for the model-based approaches, as opposed to $\varepsilon^{-2}$ in the case of classical shadow tomography.</description>
-  </item>
-
-  <item>
-    <title>Linear Growth of Circuit Complexity from Brownian Dynamics</title>
-    <link>http://arxiv.org/pdf/2206.14205</link>
-    <author>Shao-Kai Jian, Gregory Bentsen, Brian Swingle</author>
-    <pubDate>Jun 30 2022</pubDate>
-    <description>We calculate the frame potential for Brownian clusters of $N$ spins or fermions with time-dependent all-to-all interactions. In both cases the problem can be mapped to an effective statistical mechanics problem which we study using a path integral approach. We argue that the $k$th frame potential comes within $\epsilon$ of the Haar value after a time of order $t \sim k N + k \log k + \log \epsilon^{-1}$. Using a bound on the diamond norm, this implies that such circuits are capable of coming very close to a unitary $k$-design after a time of order $t \sim k N$. We also consider the same question for systems with a time-independent Hamiltonian and argue that a small amount of time-dependent randomness is sufficient to generate a $k$-design in linear time provided the underlying Hamiltonian is quantum chaotic. These models provide explicit examples of linear complexity growth that are also analytically tractable.</description>
   </item>
 
 </channel>

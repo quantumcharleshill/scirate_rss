@@ -215,6 +215,22 @@
   </item>
 
   <item>
+    <title>Succinct Classical Verification of Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2206.14929</link>
+    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
+  </item>
+
+  <item>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
+  </item>
+
+  <item>
     <title>Exploring ab initio machine synthesis of quantum circuits</title>
     <link>http://arxiv.org/pdf/2206.11245</link>
     <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
@@ -228,22 +244,6 @@
     <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
     <pubDate>Jun 22 2022</pubDate>
     <description>Random tensor networks are a powerful toy model for understanding the entanglement structure of holographic quantum gravity. However, unlike holographic quantum gravity, their entanglement spectra are flat. It has therefore been argued that a better model consists of random tensor networks with link states that are not maximally entangled, i.e., have nontrivial spectra. In this work, we initiate a systematic study of the entanglement properties of these networks. We employ tools from free probability, random matrix theory, and one-shot quantum information theory to study random tensor networks with bounded and unbounded variation in link spectra, and in cases where a subsystem has one or multiple minimal cuts. If the link states have bounded spectral variation, the limiting entanglement spectrum of a subsystem with two minimal cuts can be expressed as a free product of the entanglement spectra of each cut, along with a Marchenko-Pastur distribution. For a class of states with unbounded spectral variation, analogous to semiclassical states in quantum gravity, we relate the limiting entanglement spectrum of a subsystem with two minimal cuts to the distribution of the minimal entanglement across the two cuts. In doing so, we draw connections to previous work on split transfer protocols, entanglement negativity in random tensor networks, and Euclidean path integrals in quantum gravity.</description>
-  </item>
-
-  <item>
-    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
-    <link>http://arxiv.org/pdf/2207.00553</link>
-    <author>James R. Wootton</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
-    <title>Succinct Classical Verification of Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2206.14929</link>
-    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
   </item>
 
 </channel>
