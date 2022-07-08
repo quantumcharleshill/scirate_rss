@@ -7,35 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Uncertainty relations from graph theory</title>
-    <link>http://arxiv.org/pdf/2207.02197</link>
-    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
-  </item>
-
-  <item>
-    <title>Cryptography with Certified Deletion</title>
-    <link>http://arxiv.org/pdf/2207.01754</link>
-    <author>James Bartusek, Dakshita Khurana</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>We propose a new, unifying framework that yields an array of cryptographic primitives with certified deletion. These primitives enable a party in possession of a quantum ciphertext to generate a classical certificate that the encrypted plaintext has been information-theoretically deleted, and cannot be recovered even given unbounded computational resources. For any $X \in \{\mathsf{public}\text{-}\mathsf{key},\mathsf{attribute\text{-}based},\mathsf{fully\text{-}homomorphic}, \mathsf{witness},\mathsf{timed}\text{-}\mathsf{release}\}$, our compiler yields post-quantum $X$ encryption with certified deletion, assuming post-quantum $X$ encryption. In addition, assuming the existence of statistically binding commitments, our compiler yields statistically binding commitments with certified everlasting hiding as well as statistically sound zero-knowledge proofs for QMA with certified everlasting zero-knowledge. We also introduce and construct information-theoretic secret sharing with certified deletion. Existing proposals~\citeEC:Unruh14,10.1007/978-3-030-92062-3_21,cryptoeprint:2021:1315,cryptoeprint:2022:295 for public-key primitives and commitments with certified deletion (1) have complex constructions tailored to specific primitives and non-generic proofs, (2) are not known to satisfy everlasting security after deletion in the plain model, and in many cases (3) resort to idealized models or stronger cryptographic assumptions like obfuscation. We remedy this situation by developing a novel proof technique to argue that a bit $b$ has been \em information-theoretically deleted from an adversary's view once they produce a valid deletion certificate, despite having been previously \em determined by the ciphertext they held in their view. This may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>Characterizing low-frequency qubit noise</title>
-    <link>http://arxiv.org/pdf/2207.01740</link>
-    <author>Filip Wudarski, Yaxing Zhang, Alexander Korotkov, A. G. Petukhov, M. I. Dykman</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>Fluctuations of the qubit frequencies are one of the major problems to overcome on the way to scalable quantum computers. Of particular importance are fluctuations with the correlation time that exceeds the decoherence time due to decay and dephasing by fast processes. The statistics of the fluctuations can be characterized by measuring the correlators of the outcomes of periodically repeated Ramsey measurements. This work suggests a method that allows describing qubit dynamics during repeated measurements in the presence of evolving noise. It made it possible, in particular, to evaluate the two-time correlator for the noise from two-level systems and obtain two- and three-time correlators for a Gaussian noise. The explicit expressions for the correlators are compared with simulations. A significant difference of the three-time correlators for the noise from two-level systems and for a Gaussian noise is demonstrated. Strong broadening of the distribution of the outcomes of Ramsey measurements, with a possible fine structure, is found for the data acquisition time comparable to the noise correlation time.</description>
-  </item>
-
-  <item>
-    <title>Securing the Objectivity of Relative Facts in the Quantum World</title>
-    <link>http://arxiv.org/pdf/2207.01966</link>
-    <author>Richard Healey</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>This paper compares and contrasts relational quantum mechanics (RQM) with a pragmatist view of quantum theory (DP). I'll first explain important points of agreement. Then I'll point to two problems faced by RQM and sketch DP's solutions to analogous problems. Since both RQM and DP have taken the Born rule to require relative facts I next say what these might be. This brings me to my main objection to RQM as originally conceived -- that its ontology of relative facts is incompatible with scientific objectivity and undercuts the evidential base of quantum theory. In contrast DP's relative facts have all the objectivity we need to accept quantum theory as scientific knowledge. But a very recent modification to RQM has successfully addressed my main objection, bringing the two views into even closer alignment.</description>
+    <title>The classical cost of transmitting a qubit</title>
+    <link>http://arxiv.org/pdf/2207.02244</link>
+    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
   </item>
 
   <item>
@@ -44,6 +20,30 @@
     <author>Giulio Chiribella, Kenneth R. Davidson, Vern I. Paulsen, Mizanur Rahaman</author>
     <pubDate>Jul 07 2022</pubDate>
     <description>The theory of positive maps plays a central role in operator algebras and functional analysis, and has countless applications in quantum information science. The theory was originally developed for operators acting on complex Hilbert spaces, and little is known about its variant on real Hilbert spaces. In this article we study positive maps acting on a full matrix algebra over the reals, pointing out a number of fundamental differences with the complex case and discussing their implications in quantum information. We provide a necessary and sufficient condition for a real map to admit a positive complexification, and connect the existence of positive maps with non-positive complexification with the existence of mixed states that are entangled in real Hilbert space quantum mechanics, but separable in the complex version, providing explicit examples both for the maps and for the states. Finally, we discuss entanglement breaking and PPT maps, and we show that a straightforward real version of the PPT-squared conjecture is false even in dimension 2. Nevertheless, we show that the original PPT-squared conjecture implies a different conjecture for real maps, in which the PPT property is replaced by a stronger property of invariance under partial transposition (IPT). When the IPT property is assumed, we prove an asymptotic version of the conjecture.</description>
+  </item>
+
+  <item>
+    <title>Geometric structure of thermal cones</title>
+    <link>http://arxiv.org/pdf/2207.02237</link>
+    <author>A. de Oliveira Junior, Jakub Czartowski, Karol Życzkowski, Kamil Korzekwa</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>The second law of thermodynamics imposes a fundamental asymmetry in the flow of events. The so-called thermodynamic arrow of time introduces an ordering that divides the system's state space into past, future and incomparable regions. In this work, we analyse the structure of the resulting thermal cones, i.e., sets of states that a given state can thermodynamically evolve to (the future thermal cone) or evolve from (the past thermal cone). Specifically, for a $d$-dimensional classical state of a system interacting with a heat bath, we find explicit construction of the past thermal cone and the incomparable region. Moreover, we provide a detailed analysis of their behaviour based on newly introduced thermodynamic monotones given by the volumes of thermal cones. Finally, we point out that our results also apply to other majorisation-based resource theories (such as that of entanglement and coherence), since the partial ordering describing allowed state transformations is then the opposite of the thermodynamic order in the infinite temperature limit.</description>
+  </item>
+
+  <item>
+    <title>Many-body localized hidden Born machine</title>
+    <link>http://arxiv.org/pdf/2207.02346</link>
+    <author>Weishun Zhong, Xun Gao, Susanne F. Yelin, Khadijeh Najafi</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>Born Machines are quantum-inspired generative models that leverage the probabilistic nature of quantum states. Here, we present a new architecture called many-body localized (MBL) hidden Born machine that uses both MBL dynamics and hidden units as learning resources. We theoretically prove that MBL Born machines possess more expressive power than classical models, and the introduction of hidden units boosts its learning power. We numerically demonstrate that the MBL hidden Born machine is capable of learning a toy dataset consisting of patterns of MNIST handwritten digits, quantum data obtained from quantum many-body states, and non-local parity data. In order to understand the mechanism behind learning, we track physical quantities such as von Neumann entanglement entropy and Hamming distance during learning, and compare the learning outcomes in the MBL, thermal, and Anderson localized phases. We show that the superior learning power of the MBL phase relies importantly on both localization and interaction. Our architecture and algorithm provide novel strategies of utilizing quantum many-body systems as learning resources, and reveal a powerful connection between disorder, interaction, and learning in quantum systems.</description>
+  </item>
+
+  <item>
+    <title>A single $T$-gate makes distribution learning hard</title>
+    <link>http://arxiv.org/pdf/2207.03140</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
   </item>
 
 </channel>

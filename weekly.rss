@@ -7,19 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Multivariate trace estimation in constant quantum depth</title>
-    <link>http://arxiv.org/pdf/2206.15405</link>
-    <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
-  </item>
-
-  <item>
-    <title>Succinct Classical Verification of Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2206.14929</link>
-    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
+    <title>Uncertainty relations from graph theory</title>
+    <link>http://arxiv.org/pdf/2207.02197</link>
+    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
+    <pubDate>Jul 06 2022</pubDate>
+    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
   </item>
 
   <item>
@@ -31,11 +23,11 @@
   </item>
 
   <item>
-    <title>Uncertainty relations from graph theory</title>
-    <link>http://arxiv.org/pdf/2207.02197</link>
-    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
+    <title>The classical cost of transmitting a qubit</title>
+    <link>http://arxiv.org/pdf/2207.02244</link>
+    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
   </item>
 
   <item>
@@ -55,35 +47,43 @@
   </item>
 
   <item>
-    <title>Quantum mechanics? It's all fun and games until someone loses an $i$</title>
-    <link>http://arxiv.org/pdf/2206.15343</link>
-    <author>Christopher A. Fuchs, Maxim Olchanyi, Matthew B. Weiss</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>QBism regards quantum mechanics as an addition to probability theory. The addition provides an extra normative rule for decision-making agents concerned with gambling across experimental contexts, somewhat in analogy to the double-slit experiment. This establishes the meaning of the Born Rule from a QBist perspective. Moreover it suggests that the best way to formulate the Born Rule for foundational discussions is with respect to an informationally complete reference device. Recent work [DeBrota, Fuchs, and Stacey, Phys. Rev. Res. 2, 013074 (2020)] has demonstrated that reference devices employing symmetric informationally complete POVMs (or SICs) achieve a minimal quantumness: They witness the irreducible difference between classical and quantum. In this paper, we attempt to answer the analogous question for real-vector-space quantum theory. While standard quantum mechanics seems to allow SICs to exist in all finite dimensions, in the case of quantum theory over the real numbers it is known that SICs do not exist in most dimensions. We therefore attempt to identify the optimal reference device in the first real dimension without a SIC (i.e., $d=4$) in hopes of better understanding the essential role of complex numbers in quantum mechanics. In contrast to their complex counterparts, the expressions that result in a QBist understanding of real-vector-space quantum theory are surprisingly complex.</description>
-  </item>
-
-  <item>
-    <title>Efficient Verification of Ground States of Frustration-Free Hamiltonians</title>
-    <link>http://arxiv.org/pdf/2206.15292</link>
-    <author>Huangjun Zhu, Yunting Li, Tianyi Chen</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>Ground states of local Hamiltonians are of key interest in many-body physics and also in quantum information processing. Efficient verification of these states are crucial to many applications, but are very challenging. Here we propose a simple, but powerful recipe for verifying the ground states of general frustration-free Hamiltonians based on local measurements. Moreover, we derive rigorous bounds on the sampling complexity by virtue of the quantum detectability lemma (with improvement) and quantum union bound. Notably, the number of samples required does not increase with the system size when the underlying Hamiltonian is local and gapped, which is the case of most interest. As an application, we propose a general approach for verifying Affleck-Kennedy-Lieb-Tasaki (AKLT) states on arbitrary graphs based on spin measurements, which require only a constant number of samples for AKLT states defined on various lattices. Our work is of interest not only to many tasks in quantum information processing, but also to the study of many-body physics.</description>
-  </item>
-
-  <item>
     <title>Cryptography with Certified Deletion</title>
     <link>http://arxiv.org/pdf/2207.01754</link>
     <author>James Bartusek, Dakshita Khurana</author>
     <pubDate>Jul 06 2022</pubDate>
-    <description>We propose a new, unifying framework that yields an array of cryptographic primitives with certified deletion. These primitives enable a party in possession of a quantum ciphertext to generate a classical certificate that the encrypted plaintext has been information-theoretically deleted, and cannot be recovered even given unbounded computational resources. For any $X \in \{\mathsf{public}\text{-}\mathsf{key},\mathsf{attribute\text{-}based},\mathsf{fully\text{-}homomorphic}, \mathsf{witness},\mathsf{timed}\text{-}\mathsf{release}\}$, our compiler yields post-quantum $X$ encryption with certified deletion, assuming post-quantum $X$ encryption. In addition, assuming the existence of statistically binding commitments, our compiler yields statistically binding commitments with certified everlasting hiding as well as statistically sound zero-knowledge proofs for QMA with certified everlasting zero-knowledge. We also introduce and construct information-theoretic secret sharing with certified deletion. Existing proposals~\citeEC:Unruh14,10.1007/978-3-030-92062-3_21,cryptoeprint:2021:1315,cryptoeprint:2022:295 for public-key primitives and commitments with certified deletion (1) have complex constructions tailored to specific primitives and non-generic proofs, (2) are not known to satisfy everlasting security after deletion in the plain model, and in many cases (3) resort to idealized models or stronger cryptographic assumptions like obfuscation. We remedy this situation by developing a novel proof technique to argue that a bit $b$ has been \em information-theoretically deleted from an adversary's view once they produce a valid deletion certificate, despite having been previously \em determined by the ciphertext they held in their view. This may be of independent interest.</description>
+    <description>We propose a new, unifying framework that yields an array of cryptographic primitives with \em certified deletion. These primitives enable a party in possession of a quantum ciphertext to generate a classical certificate that the encrypted plaintext has been information-theoretically deleted, and cannot be recovered even given unbounded computational resources. For any $X \in \{\mathsf{public}\text{-}\mathsf{key},\mathsf{attribute\text{-}based},\mathsf{fully\text{-}homomorphic},\mathsf{witness},\mathsf{timed}\text{-}\mathsf{release}\}$, our compiler yields post-quantum $X$ encryption with certified deletion, assuming post-quantum $X$ encryption. In addition, assuming the existence of statistically binding commitments, our compiler yields statistically binding commitments with certified everlasting hiding as well as statistically sound zero-knowledge proofs for QMA with certified everlasting zero-knowledge. We also introduce and construct information-theoretic secret sharing with certified deletion. While encryption with certified deletion was first introduced by [BI20] in the context of an information-theoretic one-time pad, existing proposals [Unr14,HMNY21,HMNY22,Por22] for \em public-key primitives with certified deletion (1) have complex tailored constructions and non-generic proofs, (2) are not known to satisfy everlasting security after deletion in the plain model, and in many cases (3) resort to idealized models or stronger cryptographic assumptions like obfuscation. We remedy this situation by developing a novel proof technique to argue that a bit $b$ has been \em information-theoretically deleted from an adversary's view once they produce a valid deletion certificate, despite having been previously \em information-theoretically determined by the ciphertext they held in their view. This may be of independent interest.</description>
   </item>
 
   <item>
-    <title>Neural network enhanced measurement efficiency for molecular groundstates</title>
-    <link>http://arxiv.org/pdf/2206.15449</link>
-    <author>Dmitri Iouchtchenko, Jérôme F. Gonthier, Alejandro Perdomo-Ortiz, Roger G. Melko</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>It is believed that one of the first useful applications for a quantum computer will be the preparation of groundstates of molecular Hamiltonians. A crucial task involving state preparation and readout is obtaining physical observables of such states, which are typically estimated using projective measurements on the qubits. At present, measurement data is costly and time-consuming to obtain on any quantum computing architecture, which has significant consequences for the statistical errors of estimators. In this paper, we adapt common neural network models (restricted Boltzmann machines and recurrent neural networks) to learn complex groundstate wavefunctions for several prototypical molecular qubit Hamiltonians from typical measurement data. By relating the accuracy $\varepsilon$ of the reconstructed groundstate energy to the number of measurements, we find that using a neural network model provides a robust improvement over using single-copy measurement outcomes alone to reconstruct observables. This enhancement yields an asymptotic scaling near $\varepsilon^{-1}$ for the model-based approaches, as opposed to $\varepsilon^{-2}$ in the case of classical shadow tomography.</description>
+    <title>Positive maps and entanglement in real Hilbert spaces</title>
+    <link>http://arxiv.org/pdf/2207.02510</link>
+    <author>Giulio Chiribella, Kenneth R. Davidson, Vern I. Paulsen, Mizanur Rahaman</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>The theory of positive maps plays a central role in operator algebras and functional analysis, and has countless applications in quantum information science. The theory was originally developed for operators acting on complex Hilbert spaces, and little is known about its variant on real Hilbert spaces. In this article we study positive maps acting on a full matrix algebra over the reals, pointing out a number of fundamental differences with the complex case and discussing their implications in quantum information. We provide a necessary and sufficient condition for a real map to admit a positive complexification, and connect the existence of positive maps with non-positive complexification with the existence of mixed states that are entangled in real Hilbert space quantum mechanics, but separable in the complex version, providing explicit examples both for the maps and for the states. Finally, we discuss entanglement breaking and PPT maps, and we show that a straightforward real version of the PPT-squared conjecture is false even in dimension 2. Nevertheless, we show that the original PPT-squared conjecture implies a different conjecture for real maps, in which the PPT property is replaced by a stronger property of invariance under partial transposition (IPT). When the IPT property is assumed, we prove an asymptotic version of the conjecture.</description>
+  </item>
+
+  <item>
+    <title>Geometric structure of thermal cones</title>
+    <link>http://arxiv.org/pdf/2207.02237</link>
+    <author>A. de Oliveira Junior, Jakub Czartowski, Karol Życzkowski, Kamil Korzekwa</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>The second law of thermodynamics imposes a fundamental asymmetry in the flow of events. The so-called thermodynamic arrow of time introduces an ordering that divides the system's state space into past, future and incomparable regions. In this work, we analyse the structure of the resulting thermal cones, i.e., sets of states that a given state can thermodynamically evolve to (the future thermal cone) or evolve from (the past thermal cone). Specifically, for a $d$-dimensional classical state of a system interacting with a heat bath, we find explicit construction of the past thermal cone and the incomparable region. Moreover, we provide a detailed analysis of their behaviour based on newly introduced thermodynamic monotones given by the volumes of thermal cones. Finally, we point out that our results also apply to other majorisation-based resource theories (such as that of entanglement and coherence), since the partial ordering describing allowed state transformations is then the opposite of the thermodynamic order in the infinite temperature limit.</description>
+  </item>
+
+  <item>
+    <title>Clifford Circuit Initialisation for Variational Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2207.01539</link>
+    <author>M. H. Cheng, K. E. Khosla, C. N. Self, M. Lin, B. X. Li, A. C. Medina, M. S. Kim</author>
+    <pubDate>Jul 05 2022</pubDate>
+    <description>We present an initialisation method for variational quantum algorithms applicable to intermediate scale quantum computers. The method uses simulated annealing of the efficiently simulable Clifford parameter points as a pre-optimisation to find a low energy initial condition. We numerically demonstrate the effectiveness of the technique, and how it depends on Hamiltonian structure, number of qubits and circuit depth. While a range of different problems are considered, we note that the method is particularly useful for quantum chemistry problems. This presented method could help achieve a quantum advantage in noisy or fault-tolerant intermediate scale devices, even though we prove in general that the method is not arbitrarily scalable.</description>
+  </item>
+
+  <item>
+    <title>Learning Quantum Systems</title>
+    <link>http://arxiv.org/pdf/2207.00298</link>
+    <author>Valentin Gebhart, Raffaele Santagati, Antonio Andrea Gentile, Erik Gauger, David Craig, Natalia Ares, Leonardo Banchi, Florian Marquardt, Luca Pezze', Cristian Bonato</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum technologies hold the promise to revolutionise our society with ground-breaking applications in secure communication, high-performance computing and ultra-precise sensing. One of the main features in scaling up quantum technologies is that the complexity of quantum systems scales exponentially with their size. This poses severe challenges in the efficient calibration, benchmarking and validation of quantum states and their dynamical control. While the complete simulation of large-scale quantum systems may only be possible with a quantum computer, classical characterisation and optimisation methods (supported by cutting edge numerical techniques) can still play an important role. Here, we review classical approaches to learning quantum systems, their correlation properties, their dynamics and their interaction with the environment. We discuss theoretical proposals and successful implementations in different physical platforms such as spin qubits, trapped ions, photonic and atomic systems, and superconducting circuits. This review provides a brief background for key concepts recurring across many of these approaches, such as the Bayesian formalism or Neural Networks, and outlines open questions.</description>
   </item>
 
 </channel>
