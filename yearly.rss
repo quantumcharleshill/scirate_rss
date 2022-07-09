@@ -159,19 +159,19 @@
   </item>
 
   <item>
-    <title>Open Problems Related to Quantum Query Complexity</title>
-    <link>http://arxiv.org/pdf/2109.06917</link>
-    <author>Scott Aaronson</author>
-    <pubDate>Sep 16 2021</pubDate>
-    <description>I offer a case that quantum query complexity still has loads of enticing and fundamental open problems -- from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.</description>
-  </item>
-
-  <item>
     <title>A construction of Combinatorial NLTS</title>
     <link>http://arxiv.org/pdf/2206.02741</link>
     <author>Anurag Anshu, Nikolas P. Breuckmann</author>
     <pubDate>Jun 07 2022</pubDate>
     <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
+  </item>
+
+  <item>
+    <title>Open Problems Related to Quantum Query Complexity</title>
+    <link>http://arxiv.org/pdf/2109.06917</link>
+    <author>Scott Aaronson</author>
+    <pubDate>Sep 16 2021</pubDate>
+    <description>I offer a case that quantum query complexity still has loads of enticing and fundamental open problems -- from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.</description>
   </item>
 
   <item>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
-    <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
-    <link>http://arxiv.org/pdf/2112.03708</link>
-    <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
-    <pubDate>Dec 08 2021</pubDate>
-    <description>Quantum computers hold the promise of solving computational problems which are intractable using conventional methods. For fault-tolerant operation quantum computers must correct errors occurring due to unavoidable decoherence and limited control accuracy. Here, we demonstrate quantum error correction using the surface code, which is known for its exceptionally high tolerance to errors. Using 17 physical qubits in a superconducting circuit we encode quantum information in a distance-three logical qubit building up on recent distance-two error detection experiments. In an error correction cycle taking only $1.1\,\mu$s, we demonstrate the preservation of four cardinal states of the logical qubit. Repeatedly executing the cycle, we measure and decode both bit- and phase-flip error syndromes using a minimum-weight perfect-matching algorithm in an error-model-free approach and apply corrections in postprocessing. We find a low error probability of $3\,\%$ per cycle when rejecting experimental runs in which leakage is detected. The measured characteristics of our device agree well with a numerical model. Our demonstration of repeated, fast and high-performance quantum error correction cycles, together with recent advances in ion traps, support our understanding that fault-tolerant quantum computation will be practically realizable.</description>
-  </item>
-
-  <item>
     <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
     <link>http://arxiv.org/pdf/2206.11185</link>
     <author>Henry Yuen</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
+  </item>
+
+  <item>
+    <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
+    <link>http://arxiv.org/pdf/2112.03708</link>
+    <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
+    <pubDate>Dec 08 2021</pubDate>
+    <description>Quantum computers hold the promise of solving computational problems which are intractable using conventional methods. For fault-tolerant operation quantum computers must correct errors occurring due to unavoidable decoherence and limited control accuracy. Here, we demonstrate quantum error correction using the surface code, which is known for its exceptionally high tolerance to errors. Using 17 physical qubits in a superconducting circuit we encode quantum information in a distance-three logical qubit building up on recent distance-two error detection experiments. In an error correction cycle taking only $1.1\,\mu$s, we demonstrate the preservation of four cardinal states of the logical qubit. Repeatedly executing the cycle, we measure and decode both bit- and phase-flip error syndromes using a minimum-weight perfect-matching algorithm in an error-model-free approach and apply corrections in postprocessing. We find a low error probability of $3\,\%$ per cycle when rejecting experimental runs in which leakage is detected. The measured characteristics of our device agree well with a numerical model. Our demonstration of repeated, fast and high-performance quantum error correction cycles, together with recent advances in ion traps, support our understanding that fault-tolerant quantum computation will be practically realizable.</description>
   </item>
 
   <item>
@@ -295,6 +295,14 @@
   </item>
 
   <item>
+    <title>The learnability of Pauli noise</title>
+    <link>http://arxiv.org/pdf/2206.06362</link>
+    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+  </item>
+
+  <item>
     <title>Is quantum advantage the right goal for quantum machine learning?</title>
     <link>http://arxiv.org/pdf/2203.01340</link>
     <author>Maria Schuld, Nathan Killoran</author>
@@ -308,14 +316,6 @@
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
     <pubDate>May 06 2022</pubDate>
     <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
-  </item>
-
-  <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
   </item>
 
   <item>
