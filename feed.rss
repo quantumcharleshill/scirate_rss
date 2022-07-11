@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>Computational advantage of quantum random sampling</title>
-    <link>http://arxiv.org/pdf/2206.04079</link>
-    <author>Dominik Hangleiter, Jens Eisert</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
-  </item>
-
-  <item>
     <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
     <link>http://arxiv.org/pdf/2206.11185</link>
     <author>Henry Yuen</author>
@@ -44,6 +36,14 @@
     <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
+  </item>
+
+  <item>
+    <title>A single $T$-gate makes distribution learning hard</title>
+    <link>http://arxiv.org/pdf/2207.03140</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
   </item>
 
   <item>
@@ -71,14 +71,6 @@
   </item>
 
   <item>
-    <title>A single $T$-gate makes distribution learning hard</title>
-    <link>http://arxiv.org/pdf/2207.03140</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Jul 08 2022</pubDate>
-    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
-  </item>
-
-  <item>
     <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
     <link>http://arxiv.org/pdf/2206.07571</link>
     <author>Anthony Leverrier, Gilles Zémor</author>
@@ -95,14 +87,6 @@
   </item>
 
   <item>
-    <title>Quantum Advantage in Cryptography</title>
-    <link>http://arxiv.org/pdf/2206.04078</link>
-    <author>Renato Renner, Ramona Wolf</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>Ever since its inception, cryptography has been caught in a vicious circle: Cryptographers keep inventing methods to hide information, and cryptanalysts break them, prompting cryptographers to invent even more sophisticated encryption schemes, and so on. But could it be that quantum information technology breaks this circle? At first sight, it looks as if it just lifts the competition between cryptographers and cryptanalysts to the next level. Indeed, quantum computers will render most of today's public key cryptosystems insecure. Nonetheless, there are good reasons to believe that cryptographers will ultimately prevail over cryptanalysts. Quantum cryptography allows us to build communication schemes whose secrecy relies only on the laws of physics as well as some minimum assumptions about the cryptographic hardware - leaving basically no room for an attack. While we are not yet there, this article provides an overview of the principles and state of the art of quantum cryptography.</description>
-  </item>
-
-  <item>
     <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
     <link>http://arxiv.org/pdf/2206.08183</link>
     <author>A. Afham, Richard Kueng, Chris Ferrie</author>
@@ -111,27 +95,11 @@
   </item>
 
   <item>
-    <title>Improved single-shot decoding of higher dimensional hypergraph product codes</title>
-    <link>http://arxiv.org/pdf/2206.03122</link>
-    <author>Oscar Higgott, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 08 2022</pubDate>
-    <description>In this work we study the single-shot performance of higher dimensional hypergraph product codes decoded using belief-propagation and ordered-statistics decoding [Panteleev and Kalachev, 2019]. We find that decoding data qubit and syndrome measurement errors together in a single stage leads to single-shot thresholds that greatly exceed all previously observed single-shot thresholds for these codes. For the 3D toric code and a phenomenological noise model, our results are consistent with a sustainable threshold of 7.1% for $Z$ errors, compared to the threshold of 2.90% previously found using a two-stage decoder [Quintavalle et al., 2021]. For the 4D toric code, for which both $X$ and $Z$ error correction is single-shot, our results are consistent with a sustainable single-shot threshold of 4.3% which is even higher than the threshold of 2.93% for the 2D toric code for the same noise model but using $L$ rounds of stabiliser measurement. We also explore the performance of balanced product and 4D hypergraph product codes which we show lead to a reduction in qubit overhead compared the surface code for phenomenological error rates as high as 1%.</description>
-  </item>
-
-  <item>
     <title>Composite Quantum Simulations</title>
     <link>http://arxiv.org/pdf/2206.06409</link>
     <author>Matthew Hagan, Nathan Wiebe</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>In this paper we provide a framework for combining multiple quantum simulation methods, such as Trotter-Suzuki formulas and QDrift into a single composite channel that builds upon older coalescing ideas for reducing gate counts. The central idea behind our approach is to use a partitioning scheme that allocates a Hamiltonian term to the Trotter or QDrift part of a channel within the simulation. This allows us to simulate small but numerous terms using QDrift while simulating the larger terms using a high-order Trotter-Suzuki formula. We prove rigorous bounds on the diamond distance between the composite channel and the ideal simulation channel and show under what conditions the cost of implementing the composite channel is asymptotically upper bounded by the methods that comprise it for both probabilistic partitioning of terms and deterministic partitioning. Finally, we discuss strategies for determining partitioning schemes as well as methods for incorporating different simulation methods within the same framework.</description>
-  </item>
-
-  <item>
-    <title>Quantum Resources Required to Block-Encode a Matrix of Classical Data</title>
-    <link>http://arxiv.org/pdf/2206.03505</link>
-    <author>B. David Clader, Alexander M. Dalzell, Nikitas Stamatopoulos, Grant Salton, Mario Berta, William J. Zeng</author>
-    <pubDate>Jun 09 2022</pubDate>
-    <description>We provide modular circuit-level implementations and resource estimates for several methods of block-encoding a dense $N\times N$ matrix of classical data to precision $\epsilon$; the minimal-depth method achieves a $T$-depth of $\mathcal{O}{(\log (N/\epsilon))},$ while the minimal-count method achieves a $T$-count of $\mathcal{O}{(N\log(1/\epsilon))}$. We examine resource tradeoffs between the different approaches, and we explore implementations of two separate models of quantum random access memory (QRAM). As part of this analysis, we provide a novel state preparation routine with $T$-depth $\mathcal{O}{(\log (N/\epsilon))}$, improving on previous constructions with scaling $\mathcal{O}{(\log^2 (N/\epsilon))}$. Our results go beyond simple query complexity and provide a clear picture into the resource costs when large amounts of classical data are assumed to be accessible to quantum algorithms.</description>
   </item>
 
   <item>
@@ -175,6 +143,14 @@
   </item>
 
   <item>
+    <title>The classical cost of transmitting a qubit</title>
+    <link>http://arxiv.org/pdf/2207.02244</link>
+    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
+  </item>
+
+  <item>
     <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
     <link>http://arxiv.org/pdf/2206.05642</link>
     <author>Hari Krovi</author>
@@ -183,27 +159,11 @@
   </item>
 
   <item>
-    <title>Provably efficient variational generative modeling of quantum many-body systems via quantum-probabilistic information geometry</title>
-    <link>http://arxiv.org/pdf/2206.04663</link>
-    <author>Faris M. Sbahi, Antonio J. Martinez, Sahil Patel, Dmitri Saberi, Jae Hyeon Yoo, Geoffrey Roeder, Guillaume Verdon</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>The dual tasks of quantum Hamiltonian learning and quantum Gibbs sampling are relevant to many important problems in physics and chemistry. In the low temperature regime, algorithms for these tasks often suffer from intractabilities, for example from poor sample- or time-complexity. With the aim of addressing such intractabilities, we introduce a generalization of quantum natural gradient descent to parameterized mixed states, as well as provide a robust first-order approximating algorithm, Quantum-Probabilistic Mirror Descent. We prove data sample efficiency for the dual tasks using tools from information geometry and quantum metrology, thus generalizing the seminal result of classical Fisher efficiency to a variational quantum algorithm for the first time. Our approaches extend previously sample-efficient techniques to allow for flexibility in model choice, including to spectrally-decomposed models like Quantum Hamiltonian-Based Models, which may circumvent intractable time complexities. Our first-order algorithm is derived using a novel quantum generalization of the classical mirror descent duality. Both results require a special choice of metric, namely, the Bogoliubov-Kubo-Mori metric. To test our proposed algorithms numerically, we compare their performance to existing baselines on the task of quantum Gibbs sampling for the transverse field Ising model. Finally, we propose an initialization strategy leveraging geometric locality for the modelling of sequences of states such as those arising from quantum-stochastic processes. We demonstrate its effectiveness empirically for both real and imaginary time evolution while defining a broader class of potential applications.</description>
-  </item>
-
-  <item>
     <title>Measurement as a shortcut to long-range entangled quantum matter</title>
     <link>http://arxiv.org/pdf/2206.13527</link>
     <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
     <pubDate>Jun 29 2022</pubDate>
     <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
-  </item>
-
-  <item>
-    <title>The classical cost of transmitting a qubit</title>
-    <link>http://arxiv.org/pdf/2207.02244</link>
-    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
   </item>
 
   <item>
@@ -244,6 +204,46 @@
     <author>Paul Herringer, Robert Raussendorf</author>
     <pubDate>Jul 05 2022</pubDate>
     <description>We consider a class of translation-invariant 2D tensor network states with a stabilizer symmetry, which we call stabilizer PEPS. The cluster state, GHZ state, and states in the toric code belong to this class. We investigate the transmission capacity of stabilizer PEPS for measurement-based quantum wire, and arrive at a complete classification of transmission behaviors. The transmission behaviors fall into 13 classes, one of which corresponds to Clifford quantum cellular automata. In addition, we identify 12 other classes.</description>
+  </item>
+
+  <item>
+    <title>Exploring ab initio machine synthesis of quantum circuits</title>
+    <link>http://arxiv.org/pdf/2206.11245</link>
+    <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
+  </item>
+
+  <item>
+    <title>Random tensor networks with nontrivial links</title>
+    <link>http://arxiv.org/pdf/2206.10482</link>
+    <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Random tensor networks are a powerful toy model for understanding the entanglement structure of holographic quantum gravity. However, unlike holographic quantum gravity, their entanglement spectra are flat. It has therefore been argued that a better model consists of random tensor networks with link states that are not maximally entangled, i.e., have nontrivial spectra. In this work, we initiate a systematic study of the entanglement properties of these networks. We employ tools from free probability, random matrix theory, and one-shot quantum information theory to study random tensor networks with bounded and unbounded variation in link spectra, and in cases where a subsystem has one or multiple minimal cuts. If the link states have bounded spectral variation, the limiting entanglement spectrum of a subsystem with two minimal cuts can be expressed as a free product of the entanglement spectra of each cut, along with a Marchenko-Pastur distribution. For a class of states with unbounded spectral variation, analogous to semiclassical states in quantum gravity, we relate the limiting entanglement spectrum of a subsystem with two minimal cuts to the distribution of the minimal entanglement across the two cuts. In doing so, we draw connections to previous work on split transfer protocols, entanglement negativity in random tensor networks, and Euclidean path integrals in quantum gravity.</description>
+  </item>
+
+  <item>
+    <title>A Simple Proof of PreciseQMA = PSPACE</title>
+    <link>http://arxiv.org/pdf/2206.09230</link>
+    <author>Yulong Li</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
+  </item>
+
+  <item>
+    <title>On Classical and Hybrid Shadows of Quantum States</title>
+    <link>http://arxiv.org/pdf/2206.06616</link>
+    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+  </item>
+
+  <item>
+    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
+    <link>http://arxiv.org/pdf/2206.09881</link>
+    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
   </item>
 
 </channel>

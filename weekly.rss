@@ -31,27 +31,11 @@
   </item>
 
   <item>
-    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
-    <link>http://arxiv.org/pdf/2207.00553</link>
-    <author>James R. Wootton</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
     <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
     <link>http://arxiv.org/pdf/2207.00616</link>
     <author>Paul Herringer, Robert Raussendorf</author>
     <pubDate>Jul 05 2022</pubDate>
     <description>We consider a class of translation-invariant 2D tensor network states with a stabilizer symmetry, which we call stabilizer PEPS. The cluster state, GHZ state, and states in the toric code belong to this class. We investigate the transmission capacity of stabilizer PEPS for measurement-based quantum wire, and arrive at a complete classification of transmission behaviors. The transmission behaviors fall into 13 classes, one of which corresponds to Clifford quantum cellular automata. In addition, we identify 12 other classes.</description>
-  </item>
-
-  <item>
-    <title>Exact electronic states with shallow quantum circuits through global optimisation</title>
-    <link>http://arxiv.org/pdf/2207.00085</link>
-    <author>Hugh G. A. Burton, Daniel Marti-Dafcik, David P. Tew, David J. Wales</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum computers promise to revolutionise electronic simulations by overcoming the exponential scaling of many-electron problems. While electronic wave functions can be represented using a product of fermionic unitary operators, shallow quantum circuits for exact states have not yet been achieved. We construct universal wave functions from gate-efficient, symmetry-preserving fermionic operators by introducing an algorithm that globally optimises the wave function in the discrete ansatz design and the continuous parameter spaces. Our approach maximises the accuracy that can be obtained with near-term quantum circuits. Highly accurate numerical simulations on strongly correlated molecules, including water and molecular nitrogen, and the condensed-matter Hubbard model, demonstrate that our algorithm reliably advances the state-of-the-art, defining a new paradigm for quantum simulations featuring strong electron correlation.</description>
   </item>
 
   <item>
@@ -63,14 +47,6 @@
   </item>
 
   <item>
-    <title>Cryptography with Certified Deletion</title>
-    <link>http://arxiv.org/pdf/2207.01754</link>
-    <author>James Bartusek, Dakshita Khurana</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>We propose a new, unifying framework that yields an array of cryptographic primitives with \em certified deletion. These primitives enable a party in possession of a quantum ciphertext to generate a classical certificate that the encrypted plaintext has been information-theoretically deleted, and cannot be recovered even given unbounded computational resources. For any $X \in \{\mathsf{public}\text{-}\mathsf{key},\mathsf{attribute\text{-}based},\mathsf{fully\text{-}homomorphic},\mathsf{witness},\mathsf{timed}\text{-}\mathsf{release}\}$, our compiler yields post-quantum $X$ encryption with certified deletion, assuming post-quantum $X$ encryption. In addition, assuming the existence of statistically binding commitments, our compiler yields statistically binding commitments with certified everlasting hiding as well as statistically sound zero-knowledge proofs for QMA with certified everlasting zero-knowledge. We also introduce and construct information-theoretic secret sharing with certified deletion. While encryption with certified deletion was first introduced by [BI20] in the context of an information-theoretic one-time pad, existing proposals [Unr14,HMNY21,HMNY22,Por22] for \em public-key primitives with certified deletion (1) have complex tailored constructions and non-generic proofs, (2) are not known to satisfy everlasting security after deletion in the plain model, and in many cases (3) resort to idealized models or stronger cryptographic assumptions like obfuscation. We remedy this situation by developing a novel proof technique to argue that a bit $b$ has been \em information-theoretically deleted from an adversary's view once they produce a valid deletion certificate, despite having been previously \em information-theoretically determined by the ciphertext they held in their view. This may be of independent interest.</description>
-  </item>
-
-  <item>
     <title>Positive maps and entanglement in real Hilbert spaces</title>
     <link>http://arxiv.org/pdf/2207.02510</link>
     <author>Giulio Chiribella, Kenneth R. Davidson, Vern I. Paulsen, Mizanur Rahaman</author>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
+    <title>Cryptography with Certified Deletion</title>
+    <link>http://arxiv.org/pdf/2207.01754</link>
+    <author>James Bartusek, Dakshita Khurana</author>
+    <pubDate>Jul 06 2022</pubDate>
+    <description>We propose a new, unifying framework that yields an array of cryptographic primitives with \em certified deletion. These primitives enable a party in possession of a quantum ciphertext to generate a classical certificate that the encrypted plaintext has been information-theoretically deleted, and cannot be recovered even given unbounded computational resources. For any $X \in \{\mathsf{public}\text{-}\mathsf{key},\mathsf{attribute\text{-}based},\mathsf{fully\text{-}homomorphic},\mathsf{witness},\mathsf{timed}\text{-}\mathsf{release}\}$, our compiler yields post-quantum $X$ encryption with certified deletion, assuming post-quantum $X$ encryption. In addition, assuming the existence of statistically binding commitments, our compiler yields statistically binding commitments with certified everlasting hiding as well as statistically sound zero-knowledge proofs for QMA with certified everlasting zero-knowledge. We also introduce and construct information-theoretic secret sharing with certified deletion. While encryption with certified deletion was first introduced by [BI20] in the context of an information-theoretic one-time pad, existing proposals [Unr14,HMNY21,HMNY22,Por22] for \em public-key primitives with certified deletion (1) have complex tailored constructions and non-generic proofs, (2) are not known to satisfy everlasting security after deletion in the plain model, and in many cases (3) resort to idealized models or stronger cryptographic assumptions like obfuscation. We remedy this situation by developing a novel proof technique to argue that a bit $b$ has been \em information-theoretically deleted from an adversary's view once they produce a valid deletion certificate, despite having been previously \em information-theoretically determined by the ciphertext they held in their view. This may be of independent interest.</description>
+  </item>
+
+  <item>
     <title>Geometric structure of thermal cones</title>
     <link>http://arxiv.org/pdf/2207.02237</link>
     <author>A. de Oliveira Junior, Jakub Czartowski, Karol Życzkowski, Kamil Korzekwa</author>
     <pubDate>Jul 07 2022</pubDate>
     <description>The second law of thermodynamics imposes a fundamental asymmetry in the flow of events. The so-called thermodynamic arrow of time introduces an ordering that divides the system's state space into past, future and incomparable regions. In this work, we analyse the structure of the resulting thermal cones, i.e., sets of states that a given state can thermodynamically evolve to (the future thermal cone) or evolve from (the past thermal cone). Specifically, for a $d$-dimensional classical state of a system interacting with a heat bath, we find explicit construction of the past thermal cone and the incomparable region. Moreover, we provide a detailed analysis of their behaviour based on newly introduced thermodynamic monotones given by the volumes of thermal cones. Finally, we point out that our results also apply to other majorisation-based resource theories (such as that of entanglement and coherence), since the partial ordering describing allowed state transformations is then the opposite of the thermodynamic order in the infinite temperature limit.</description>
+  </item>
+
+  <item>
+    <title>Tensor networks in machine learning</title>
+    <link>http://arxiv.org/pdf/2207.02851</link>
+    <author>Richik Sengupta, Soumik Adhikary, Ivan Oseledets, Jacob Biamonte</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>A tensor network is a type of decomposition used to express and approximate large arrays of data. A given data-set, quantum state or higher dimensional multi-linear map is factored and approximated by a composition of smaller multi-linear maps. This is reminiscent to how a Boolean function might be decomposed into a gate array: this represents a special case of tensor decomposition, in which the tensor entries are replaced by 0, 1 and the factorisation becomes exact. The collection of associated techniques are called, tensor network methods: the subject developed independently in several distinct fields of study, which have more recently become interrelated through the language of tensor networks. The tantamount questions in the field relate to expressability of tensor networks and the reduction of computational overheads. A merger of tensor networks with machine learning is natural. On the one hand, machine learning can aid in determining a factorization of a tensor network approximating a data set. On the other hand, a given tensor network structure can be viewed as a machine learning model. Herein the tensor network parameters are adjusted to learn or classify a data-set. In this survey we recover the basics of tensor networks and explain the ongoing effort to develop the theory of tensor networks in machine learning.</description>
+  </item>
+
+  <item>
+    <title>Clifford Circuit Initialisation for Variational Quantum Algorithms</title>
+    <link>http://arxiv.org/pdf/2207.01539</link>
+    <author>M. H. Cheng, K. E. Khosla, C. N. Self, M. Lin, B. X. Li, A. C. Medina, M. S. Kim</author>
+    <pubDate>Jul 05 2022</pubDate>
+    <description>We present an initialisation method for variational quantum algorithms applicable to intermediate scale quantum computers. The method uses simulated annealing of the efficiently simulable Clifford parameter points as a pre-optimisation to find a low energy initial condition. We numerically demonstrate the effectiveness of the technique, and how it depends on Hamiltonian structure, number of qubits and circuit depth. While a range of different problems are considered, we note that the method is particularly useful for quantum chemistry problems. This presented method could help achieve a quantum advantage in noisy or fault-tolerant intermediate scale devices, even though we prove in general that the method is not arbitrarily scalable.</description>
   </item>
 
 </channel>
