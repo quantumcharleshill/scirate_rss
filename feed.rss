@@ -31,19 +31,19 @@
   </item>
 
   <item>
-    <title>An efficient decoder for a linear distance quantum LDPC code</title>
-    <link>http://arxiv.org/pdf/2206.06557</link>
-    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
     <pubDate>Jul 08 2022</pubDate>
     <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
+  </item>
+
+  <item>
+    <title>An efficient decoder for a linear distance quantum LDPC code</title>
+    <link>http://arxiv.org/pdf/2206.06557</link>
+    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
   </item>
 
   <item>
@@ -143,14 +143,6 @@
   </item>
 
   <item>
-    <title>The classical cost of transmitting a qubit</title>
-    <link>http://arxiv.org/pdf/2207.02244</link>
-    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
-  </item>
-
-  <item>
     <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
     <link>http://arxiv.org/pdf/2206.05642</link>
     <author>Hari Krovi</author>
@@ -159,11 +151,27 @@
   </item>
 
   <item>
+    <title>The classical cost of transmitting a qubit</title>
+    <link>http://arxiv.org/pdf/2207.02244</link>
+    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
+  </item>
+
+  <item>
     <title>Measurement as a shortcut to long-range entangled quantum matter</title>
     <link>http://arxiv.org/pdf/2206.13527</link>
     <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
     <pubDate>Jun 29 2022</pubDate>
     <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
+  </item>
+
+  <item>
+    <title>Uncertainty relations from graph theory</title>
+    <link>http://arxiv.org/pdf/2207.02197</link>
+    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
+    <pubDate>Jul 06 2022</pubDate>
+    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
   </item>
 
   <item>
@@ -183,19 +191,19 @@
   </item>
 
   <item>
-    <title>Uncertainty relations from graph theory</title>
-    <link>http://arxiv.org/pdf/2207.02197</link>
-    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
-  </item>
-
-  <item>
     <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
     <link>http://arxiv.org/pdf/2207.00553</link>
     <author>James R. Wootton</author>
     <pubDate>Jul 04 2022</pubDate>
     <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Finite-rate sparse quantum codes aplenty</title>
+    <link>http://arxiv.org/pdf/2207.03562</link>
+    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
+    <pubDate>Jul 11 2022</pubDate>
+    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
   </item>
 
   <item>
@@ -207,19 +215,19 @@
   </item>
 
   <item>
-    <title>Exploring ab initio machine synthesis of quantum circuits</title>
-    <link>http://arxiv.org/pdf/2206.11245</link>
-    <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
-  </item>
-
-  <item>
     <title>Random tensor networks with nontrivial links</title>
     <link>http://arxiv.org/pdf/2206.10482</link>
     <author>Newton Cheng, Cécilia Lancien, Geoff Penington, Michael Walter, Freek Witteveen</author>
     <pubDate>Jun 22 2022</pubDate>
     <description>Random tensor networks are a powerful toy model for understanding the entanglement structure of holographic quantum gravity. However, unlike holographic quantum gravity, their entanglement spectra are flat. It has therefore been argued that a better model consists of random tensor networks with link states that are not maximally entangled, i.e., have nontrivial spectra. In this work, we initiate a systematic study of the entanglement properties of these networks. We employ tools from free probability, random matrix theory, and one-shot quantum information theory to study random tensor networks with bounded and unbounded variation in link spectra, and in cases where a subsystem has one or multiple minimal cuts. If the link states have bounded spectral variation, the limiting entanglement spectrum of a subsystem with two minimal cuts can be expressed as a free product of the entanglement spectra of each cut, along with a Marchenko-Pastur distribution. For a class of states with unbounded spectral variation, analogous to semiclassical states in quantum gravity, we relate the limiting entanglement spectrum of a subsystem with two minimal cuts to the distribution of the minimal entanglement across the two cuts. In doing so, we draw connections to previous work on split transfer protocols, entanglement negativity in random tensor networks, and Euclidean path integrals in quantum gravity.</description>
+  </item>
+
+  <item>
+    <title>Exploring ab initio machine synthesis of quantum circuits</title>
+    <link>http://arxiv.org/pdf/2206.11245</link>
+    <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
-  </item>
-
-  <item>
-    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
-    <link>http://arxiv.org/pdf/2206.09881</link>
-    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
   </item>
 
 </channel>
