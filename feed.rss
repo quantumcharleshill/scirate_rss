@@ -159,6 +159,14 @@
   </item>
 
   <item>
+    <title>Uncertainty relations from graph theory</title>
+    <link>http://arxiv.org/pdf/2207.02197</link>
+    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
+    <pubDate>Jul 06 2022</pubDate>
+    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
+  </item>
+
+  <item>
     <title>Measurement as a shortcut to long-range entangled quantum matter</title>
     <link>http://arxiv.org/pdf/2206.13527</link>
     <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
@@ -167,11 +175,11 @@
   </item>
 
   <item>
-    <title>Uncertainty relations from graph theory</title>
-    <link>http://arxiv.org/pdf/2207.02197</link>
-    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
   </item>
 
   <item>
@@ -188,14 +196,6 @@
     <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
     <pubDate>Jun 22 2022</pubDate>
     <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
-  </item>
-
-  <item>
-    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
-    <link>http://arxiv.org/pdf/2207.00553</link>
-    <author>James R. Wootton</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
   </item>
 
   <item>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
-    <title>A Simple Proof of PreciseQMA = PSPACE</title>
-    <link>http://arxiv.org/pdf/2206.09230</link>
-    <author>Yulong Li</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
-  </item>
-
-  <item>
     <title>On Classical and Hybrid Shadows of Quantum States</title>
     <link>http://arxiv.org/pdf/2206.06616</link>
     <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+  </item>
+
+  <item>
+    <title>A Simple Proof of PreciseQMA = PSPACE</title>
+    <link>http://arxiv.org/pdf/2206.09230</link>
+    <author>Yulong Li</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
   </item>
 
 </channel>
