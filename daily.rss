@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Equivalence between simulability of high-dimensional measurements and high-dimensional steering</title>
-    <link>http://arxiv.org/pdf/2207.04080</link>
-    <author>Benjamin D.M. Jones, Roope Uola, Thomas Cope, Marie Ioannou, Sébastien Designolle, Pavel Sekatski, Nicolas Brunner</author>
-    <pubDate>Jul 12 2022</pubDate>
-    <description>The effect of quantum steering arises from the judicious combination of an entangled state with a set of incompatible measurements. Recently, it was shown that this form of quantum correlations can be quantified in terms of a dimension, leading to the notion of genuine high-dimensional steering. While this naturally connects to the dimensionality of entanglement (Schmidt number), we show that this effect also directly connects to a notion of dimension for measurement incompatibility. More generally, we present a general connection between the concepts of steering and measurement incompatibility, when quantified in terms of dimension. From this connection, we propose a novel twist on the problem of simulating quantum correlations. Specifically, we show how the correlations of certain high-dimensional entangled states can be exactly recovered using only shared randomness and lower-dimensional entanglement. Finally, we derive criteria for testing the dimension of measurement incompatibility, and discuss the extension of these ideas to quantum channels.</description>
-  </item>
-
-  <item>
-    <title>The concatenation of the Gottesman-Kitaev-Preskill code with the XZZX surface code</title>
-    <link>http://arxiv.org/pdf/2207.04383</link>
-    <author>Jiaxuan Zhang, Yu-Chun Wu, Guo-Ping Guo</author>
-    <pubDate>Jul 12 2022</pubDate>
-    <description>Bosonic codes provide an alternative option for the quantum error correction. An important category of bosonic codes called the Gottesman-Kitaev-Preskill (GKP) code aroused much interest recently. Theoretically, the error correction ability of GKP code is limited since it can only correct small shift errors in position and momentum quadratures. A natural approach to promote the GKP error correction for large-scale, fault-tolerant quantum computation is concatenating encoded GKP states with a stabilizer code. The performance of the XZZX surface-GKP code, i.e., the single-mode GKP code concatenated with XZZX surface code is investigated in this paper under two different noise models. Firstly, in the code-capacity noise model, the asymmetric rectangular GKP code with parameter $\lambda$ is introduced. Using the minimum weight perfect matching (MWPM) decoder combined with the continuous-variable GKP information, the optimal threshold of the XZZX-surface GKP code reaches $\sigma\approx0.67$ when $\lambda=2.1$, compared with the threshold $\sigma\approx0.60$ of the standard surface-GKP code. Secondly, we analyze the shift errors of two-qubit gates in the actual implementation, and build the full circuit-level noise model. The maximum likelihood decoding strategy is applied to each two-qubit gate with circuit-level noise, and improves the threshold from 18.6 dB in the previous work to 16.5 dB. We also estimate the overhead of the XZZX-surface GKP code which uses about 483 GKP states with squeezing more than 18.5 dB to encode a logical qubits with error rate $7.6\times10^{-6}$, compared with the qubit-based surface code using 1681 qubits to achieve almost the same logical error rate.</description>
-  </item>
-
-  <item>
     <title>Fully undistillable quantum states are separable</title>
     <link>http://arxiv.org/pdf/2207.05193</link>
     <author>Satvik Singh, Nilanjana Datta</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Belief Propagation with Quantum Messages for Symmetric Classical-Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2207.04984</link>
-    <author>S. Brandsen, Avijit Mandal, Henry D. Pfister</author>
-    <pubDate>Jul 12 2022</pubDate>
-    <description>Belief propagation (BP) is a classical algorithm that approximates the marginal distribution associated with a factor graph by passing messages between adjacent nodes in the graph. It gained popularity in the 1990's as a powerful decoding algorithm for LDPC codes. In 2016, Renes introduced a belief propagation with quantum messages (BPQM) and described how it could be used to decode classical codes defined by tree factor graphs that are sent over the classical-quantum pure-state channel. In this work, we propose an extension of BPQM to general binary-input symmetric classical-quantum (BSCQ) channels based on the implementation of a symmetric "paired measurement". While this new paired-measurement BPQM (PMBPQM) approach is suboptimal in general, it provides a concrete BPQM decoder that can be implemented with local operations.</description>
+    <title>The QAOA gets stuck starting from a good classical string</title>
+    <link>http://arxiv.org/pdf/2207.05089</link>
+    <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
   </item>
 
   <item>
-    <title>Emergence of the laws of thermodynamics for autonomous, arbitrary quantum systems</title>
-    <link>http://arxiv.org/pdf/2207.04850</link>
-    <author>Cyril Elouard, Camille Lombard Latune</author>
-    <pubDate>Jul 12 2022</pubDate>
-    <description>Originally formulated for macroscopic machines, the laws of thermodynamics were shown during the last decades to hold for microscopic classical systems. More recently, similar thermodynamic laws were shown to hold also for quantum systems when coupled to ideal sources of work (external classical fields) and heat (systems at equilibrium). Ongoing efforts have been focusing on extending the validity of the thermodynamic laws to more realistic and non-ideal heat sources. Here, we go beyond all these extensions and show that energy exchanges between arbitrary quantum systems are structured by the laws of thermodynamics. The microscopic expression for the second law leads us to definitions for work and heat between arbitrary autonomous quantum systems, that we justify with several physical and mathematical arguments. We recover the known results from ideal work and heat sources and analyze some consequences from the general case corresponding to hybrid work and heat sources. In particular, we illustrate our general laws by proposing microscopic machines realizing thermodynamic tasks in which the roles of heat baths and work sources are all played by elementary quantum systems. Our results opens the perspective to understand and optimize the energetic performances of realistic devices, at any scale.</description>
+    <title>Linear programming with unitary-equivariant constraints</title>
+    <link>http://arxiv.org/pdf/2207.05713</link>
+    <author>Dmitry Grinko, Maris Ozols</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
+  </item>
+
+  <item>
+    <title>A density-matrix renormalisation group algorithm for simulating quantum circuits with a finite fidelity</title>
+    <link>http://arxiv.org/pdf/2207.05612</link>
+    <author>Thomas Ayral, Thibaud Louvet, Yiqing Zhou, Cyprien Lambert, E. Miles Stoudenmire, Xavier Waintal</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>We develop a density-matrix renormalization group (DMRG) algorithm for the simulation of quantum circuits. This algorithm can be seen as the extension of time-dependent DMRG from the usual situation of hermitian Hamiltonian matrices to quantum circuits defined by unitary matrices. For small circuit depths, the technique is exact and equivalent to other matrix product state (MPS) based techniques. For larger depths, it becomes approximate in exchange for an exponential speed up in computational time. Like an actual quantum computer, the quality of the DMRG results is characterized by a finite fidelity. However, unlike a quantum computer, the fidelity depends strongly on the quantum circuit considered. For the most difficult possible circuit for this technique, the so-called "quantum supremacy" benchmark of Google Inc. , we find that the DMRG algorithm can generate bit strings of the same quality as the seminal Google experiment on a single computing core. For a more structured circuit used for combinatorial optimization (Quantum Approximate Optimization Algorithm or QAOA), we find a drastic improvement of the DMRG results with error rates dropping by a factor of 100 compared with random quantum circuits. Our results suggest that the current bottleneck of quantum computers is their fidelities rather than the number of qubits.</description>
+  </item>
+
+  <item>
+    <title>Catalysis of entanglement and other quantum resources</title>
+    <link>http://arxiv.org/pdf/2207.05694</link>
+    <author>Chandan Datta, Tulja Varun Kondra, Marek Miller, Alexander Streltsov</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>In chemistry, a catalyst is a substance which enables a chemical reaction or increases its rate, while remaining unchanged in the process. Instead of chemical reactions, quantum catalysis enhances our ability to convert quantum states into each other under physical constraints. The nature of the constraints depends on the problem under study, and can arise, e.g., from energy preservation. In this article we review the most recent developments of quantum catalysis, and give also a historical overview of this research direction. We focus on catalysis of quantum entanglement and coherence, and also discuss this phenomenon in quantum thermodynamics and general quantum resource theories. We review applications of quantum catalysis, and discuss also the recent efforts on universal catalysis, where the quantum state of the catalyst does not depend on the states to be transformed. Catalytic embezzling is also considered, a phenomenon which occurs if the state of the catalyst can change in the transition.</description>
   </item>
 
 </channel>

@@ -15,11 +15,27 @@
   </item>
 
   <item>
-    <title>The classical cost of transmitting a qubit</title>
-    <link>http://arxiv.org/pdf/2207.02244</link>
-    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
+    <title>Fully undistillable quantum states are separable</title>
+    <link>http://arxiv.org/pdf/2207.05193</link>
+    <author>Satvik Singh, Nilanjana Datta</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
+  </item>
+
+  <item>
+    <title>The QAOA gets stuck starting from a good classical string</title>
+    <link>http://arxiv.org/pdf/2207.05089</link>
+    <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
+  </item>
+
+  <item>
+    <title>Linear programming with unitary-equivariant constraints</title>
+    <link>http://arxiv.org/pdf/2207.05713</link>
+    <author>Dmitry Grinko, Maris Ozols</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
   </item>
 
   <item>
@@ -39,11 +55,11 @@
   </item>
 
   <item>
-    <title>Positive maps and entanglement in real Hilbert spaces</title>
-    <link>http://arxiv.org/pdf/2207.02510</link>
-    <author>Giulio Chiribella, Kenneth R. Davidson, Vern I. Paulsen, Mizanur Rahaman</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>The theory of positive maps plays a central role in operator algebras and functional analysis, and has countless applications in quantum information science. The theory was originally developed for operators acting on complex Hilbert spaces, and little is known about its variant on real Hilbert spaces. In this article we study positive maps acting on a full matrix algebra over the reals, pointing out a number of fundamental differences with the complex case and discussing their implications in quantum information. We provide a necessary and sufficient condition for a real map to admit a positive complexification, and connect the existence of positive maps with non-positive complexification with the existence of mixed states that are entangled in real Hilbert space quantum mechanics, but separable in the complex version, providing explicit examples both for the maps and for the states. Finally, we discuss entanglement breaking and PPT maps, and we show that a straightforward real version of the PPT-squared conjecture is false even in dimension 2. Nevertheless, we show that the original PPT-squared conjecture implies a different conjecture for real maps, in which the PPT property is replaced by a stronger property of invariance under partial transposition (IPT). When the IPT property is assumed, we prove an asymptotic version of the conjecture.</description>
+    <title>A density-matrix renormalisation group algorithm for simulating quantum circuits with a finite fidelity</title>
+    <link>http://arxiv.org/pdf/2207.05612</link>
+    <author>Thomas Ayral, Thibaud Louvet, Yiqing Zhou, Cyprien Lambert, E. Miles Stoudenmire, Xavier Waintal</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>We develop a density-matrix renormalization group (DMRG) algorithm for the simulation of quantum circuits. This algorithm can be seen as the extension of time-dependent DMRG from the usual situation of hermitian Hamiltonian matrices to quantum circuits defined by unitary matrices. For small circuit depths, the technique is exact and equivalent to other matrix product state (MPS) based techniques. For larger depths, it becomes approximate in exchange for an exponential speed up in computational time. Like an actual quantum computer, the quality of the DMRG results is characterized by a finite fidelity. However, unlike a quantum computer, the fidelity depends strongly on the quantum circuit considered. For the most difficult possible circuit for this technique, the so-called "quantum supremacy" benchmark of Google Inc. , we find that the DMRG algorithm can generate bit strings of the same quality as the seminal Google experiment on a single computing core. For a more structured circuit used for combinatorial optimization (Quantum Approximate Optimization Algorithm or QAOA), we find a drastic improvement of the DMRG results with error rates dropping by a factor of 100 compared with random quantum circuits. Our results suggest that the current bottleneck of quantum computers is their fidelities rather than the number of qubits.</description>
   </item>
 
   <item>
@@ -55,11 +71,11 @@
   </item>
 
   <item>
-    <title>Geometric structure of thermal cones</title>
-    <link>http://arxiv.org/pdf/2207.02237</link>
-    <author>A. de Oliveira Junior, Jakub Czartowski, Karol Życzkowski, Kamil Korzekwa</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>The second law of thermodynamics imposes a fundamental asymmetry in the flow of events. The so-called thermodynamic arrow of time introduces an ordering that divides the system's state space into past, future and incomparable regions. In this work, we analyse the structure of the resulting thermal cones, i.e., sets of states that a given state can thermodynamically evolve to (the future thermal cone) or evolve from (the past thermal cone). Specifically, for a $d$-dimensional classical state of a system interacting with a heat bath, we find explicit construction of the past thermal cone and the incomparable region. Moreover, we provide a detailed analysis of their behaviour based on newly introduced thermodynamic monotones given by the volumes of thermal cones. Finally, we point out that our results also apply to other majorisation-based resource theories (such as that of entanglement and coherence), since the partial ordering describing allowed state transformations is then the opposite of the thermodynamic order in the infinite temperature limit.</description>
+    <title>The concatenation of the Gottesman-Kitaev-Preskill code with the XZZX surface code</title>
+    <link>http://arxiv.org/pdf/2207.04383</link>
+    <author>Jiaxuan Zhang, Yu-Chun Wu, Guo-Ping Guo</author>
+    <pubDate>Jul 12 2022</pubDate>
+    <description>Bosonic codes provide an alternative option for the quantum error correction. An important category of bosonic codes called the Gottesman-Kitaev-Preskill (GKP) code aroused much interest recently. Theoretically, the error correction ability of GKP code is limited since it can only correct small shift errors in position and momentum quadratures. A natural approach to promote the GKP error correction for large-scale, fault-tolerant quantum computation is concatenating encoded GKP states with a stabilizer code. The performance of the XZZX surface-GKP code, i.e., the single-mode GKP code concatenated with XZZX surface code is investigated in this paper under two different noise models. Firstly, in the code-capacity noise model, the asymmetric rectangular GKP code with parameter $\lambda$ is introduced. Using the minimum weight perfect matching (MWPM) decoder combined with the continuous-variable GKP information, the optimal threshold of the XZZX-surface GKP code reaches $\sigma\approx0.67$ when $\lambda=2.1$, compared with the threshold $\sigma\approx0.60$ of the standard surface-GKP code. Secondly, we analyze the shift errors of two-qubit gates in the actual implementation, and build the full circuit-level noise model. The maximum likelihood decoding strategy is applied to each two-qubit gate with circuit-level noise, and improves the threshold from 18.6 dB in the previous work to 16.5 dB. We also estimate the overhead of the XZZX-surface GKP code which uses about 483 GKP states with squeezing more than 18.5 dB to encode a logical qubits with error rate $7.6\times10^{-6}$, compared with the qubit-based surface code using 1681 qubits to achieve almost the same logical error rate.</description>
   </item>
 
   <item>
@@ -68,22 +84,6 @@
     <author>Benjamin D.M. Jones, Roope Uola, Thomas Cope, Marie Ioannou, Sébastien Designolle, Pavel Sekatski, Nicolas Brunner</author>
     <pubDate>Jul 12 2022</pubDate>
     <description>The effect of quantum steering arises from the judicious combination of an entangled state with a set of incompatible measurements. Recently, it was shown that this form of quantum correlations can be quantified in terms of a dimension, leading to the notion of genuine high-dimensional steering. While this naturally connects to the dimensionality of entanglement (Schmidt number), we show that this effect also directly connects to a notion of dimension for measurement incompatibility. More generally, we present a general connection between the concepts of steering and measurement incompatibility, when quantified in terms of dimension. From this connection, we propose a novel twist on the problem of simulating quantum correlations. Specifically, we show how the correlations of certain high-dimensional entangled states can be exactly recovered using only shared randomness and lower-dimensional entanglement. Finally, we derive criteria for testing the dimension of measurement incompatibility, and discuss the extension of these ideas to quantum channels.</description>
-  </item>
-
-  <item>
-    <title>Simple master equations for describing driven systems subject to classical non-Markovian noise</title>
-    <link>http://arxiv.org/pdf/2207.03980</link>
-    <author>Peter Groszkowski, Alireza Seif, Jens Koch, A. A. Clerk</author>
-    <pubDate>Jul 11 2022</pubDate>
-    <description>Driven quantum systems subject to non-Markovian noise are typically difficult to model even if the noise is classical. We present a systematic method based on generalized cumulant expansions for deriving a time-local master equation for such systems. This master equation has an intuitive form that directly parallels a standard Lindblad equation, but contains several surprising features: the combination of driving and non-Markovianity results in effective time-dependent dephasing rates that can be negative, and the noise can generate Hamiltonian renormalizations even though it is classical. We analyze in detail the highly relevant case of a Rabi-driven qubit subject to various kinds of non-Markovian noise including $1/f$ fluctuations, finding an excellent agreement between our master equation and numerically-exact simulations over relevant timescales. The approach outlined here is more accurate than commonly employed phenomenological master equations which ignore the interplay between driving and noise.</description>
-  </item>
-
-  <item>
-    <title>Many-body localized hidden Born machine</title>
-    <link>http://arxiv.org/pdf/2207.02346</link>
-    <author>Weishun Zhong, Xun Gao, Susanne F. Yelin, Khadijeh Najafi</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>Born Machines are quantum-inspired generative models that leverage the probabilistic nature of quantum states. Here, we present a new architecture called many-body localized (MBL) hidden Born machine that uses both MBL dynamics and hidden units as learning resources. We theoretically prove that MBL Born machines possess more expressive power than classical models, and the introduction of hidden units boosts its learning power. We numerically demonstrate that the MBL hidden Born machine is capable of learning a toy dataset consisting of patterns of MNIST handwritten digits, quantum data obtained from quantum many-body states, and non-local parity data. In order to understand the mechanism behind learning, we track physical quantities such as von Neumann entanglement entropy and Hamming distance during learning, and compare the learning outcomes in the MBL, thermal, and Anderson localized phases. We show that the superior learning power of the MBL phase relies importantly on both localization and interaction. Our architecture and algorithm provide novel strategies of utilizing quantum many-body systems as learning resources, and reveal a powerful connection between disorder, interaction, and learning in quantum systems.</description>
   </item>
 
 </channel>

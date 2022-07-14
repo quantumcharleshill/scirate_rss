@@ -23,19 +23,19 @@
   </item>
 
   <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
     <pubDate>Jul 08 2022</pubDate>
     <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
+  </item>
+
+  <item>
+    <title>The learnability of Pauli noise</title>
+    <link>http://arxiv.org/pdf/2206.06362</link>
+    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
   </item>
 
   <item>
@@ -79,14 +79,6 @@
   </item>
 
   <item>
-    <title>Tight Bounds for State Tomography with Incoherent Measurements</title>
-    <link>http://arxiv.org/pdf/2206.05265</link>
-    <author>Sitan Chen, Brice Huang, Jerry Li, Allen Liu, Mark Sellke</author>
-    <pubDate>Jun 13 2022</pubDate>
-    <description>We consider the classic question of state tomography: given copies of an unknown quantum state $\rho\in\mathbb{C}^{d\times d}$, output $\widehat{\rho}$ for which $\|\rho - \widehat{\rho}\|_{\mathsf{tr}} \le \varepsilon$. When one is allowed to make coherent measurements entangled across all copies, $\Theta(d^2/\varepsilon^2)$ copies are necessary and sufficient [Haah et al. '17, O'Donnell-Wright '16]. Unfortunately, the protocols achieving this rate incur large quantum memory overheads that preclude implementation on current or near-term devices. On the other hand, the best known protocol using incoherent (single-copy) measurements uses $O(d^3/\varepsilon^2)$ copies [Kueng-Rauhut-Terstiege '17], and multiple papers have posed it as an open question to understand whether or not this rate is tight. In this work, we fully resolve this question, by showing that any protocol using incoherent measurements, even if they are chosen adaptively, requires $\Omega(d^3/\varepsilon^2)$ copies, matching the upper bound of [Kueng-Rauhut-Terstiege '17]. We do so by a new proof technique which directly bounds the "tilt" of the posterior distribution after measurements, which yields a surprisingly short proof of our lower bound, and which we believe may be of independent interest.</description>
-  </item>
-
-  <item>
     <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
     <link>http://arxiv.org/pdf/2206.08183</link>
     <author>A. Afham, Richard Kueng, Chris Ferrie</author>
@@ -111,14 +103,6 @@
   </item>
 
   <item>
-    <title>Classical surrogates for quantum learning models</title>
-    <link>http://arxiv.org/pdf/2206.11740</link>
-    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
-  </item>
-
-  <item>
     <title>A note on the inner products of pure states and their antidistinguishability</title>
     <link>http://arxiv.org/pdf/2206.08313</link>
     <author>Vincent Russo, Jamie Sikora</author>
@@ -127,11 +111,43 @@
   </item>
 
   <item>
+    <title>Fully undistillable quantum states are separable</title>
+    <link>http://arxiv.org/pdf/2207.05193</link>
+    <author>Satvik Singh, Nilanjana Datta</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
+  </item>
+
+  <item>
+    <title>Classical surrogates for quantum learning models</title>
+    <link>http://arxiv.org/pdf/2206.11740</link>
+    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
+    <pubDate>Jun 24 2022</pubDate>
+    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
+  </item>
+
+  <item>
     <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
     <link>http://arxiv.org/pdf/2206.11246</link>
     <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
+  </item>
+
+  <item>
+    <title>The classical cost of transmitting a qubit</title>
+    <link>http://arxiv.org/pdf/2207.02244</link>
+    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
+  </item>
+
+  <item>
+    <title>The QAOA gets stuck starting from a good classical string</title>
+    <link>http://arxiv.org/pdf/2207.05089</link>
+    <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
   </item>
 
   <item>
@@ -151,14 +167,6 @@
   </item>
 
   <item>
-    <title>The classical cost of transmitting a qubit</title>
-    <link>http://arxiv.org/pdf/2207.02244</link>
-    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
-  </item>
-
-  <item>
     <title>Uncertainty relations from graph theory</title>
     <link>http://arxiv.org/pdf/2207.02197</link>
     <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
@@ -172,6 +180,22 @@
     <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
     <pubDate>Jun 29 2022</pubDate>
     <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
+  </item>
+
+  <item>
+    <title>Linear programming with unitary-equivariant constraints</title>
+    <link>http://arxiv.org/pdf/2207.05713</link>
+    <author>Dmitry Grinko, Maris Ozols</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
+  </item>
+
+  <item>
+    <title>Finite-rate sparse quantum codes aplenty</title>
+    <link>http://arxiv.org/pdf/2207.03562</link>
+    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
+    <pubDate>Jul 11 2022</pubDate>
+    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
   </item>
 
   <item>
@@ -199,14 +223,6 @@
   </item>
 
   <item>
-    <title>Finite-rate sparse quantum codes aplenty</title>
-    <link>http://arxiv.org/pdf/2207.03562</link>
-    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
-    <pubDate>Jul 11 2022</pubDate>
-    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
-  </item>
-
-  <item>
     <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
     <link>http://arxiv.org/pdf/2207.00616</link>
     <author>Paul Herringer, Robert Raussendorf</author>
@@ -228,22 +244,6 @@
     <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
-  </item>
-
-  <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
-  </item>
-
-  <item>
-    <title>A Simple Proof of PreciseQMA = PSPACE</title>
-    <link>http://arxiv.org/pdf/2206.09230</link>
-    <author>Yulong Li</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
   </item>
 
 </channel>
