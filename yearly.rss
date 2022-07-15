@@ -215,11 +215,11 @@
   </item>
 
   <item>
-    <title>Low-overhead fault-tolerant quantum computing using long-range connectivity</title>
-    <link>http://arxiv.org/pdf/2110.10794</link>
-    <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
-    <pubDate>Oct 22 2021</pubDate>
-    <description>Vast numbers of qubits will be needed for large-scale quantum computing due to the overheads associated with error correction. We present a scheme for low-overhead fault-tolerant quantum computation based on quantum low-density parity-check (LDPC) codes, where long-range interactions enable many logical qubits to be encoded with a modest number of physical qubits. In our approach, logic gates operate via logical Pauli measurements that preserve both the protection of the LDPC codes as well as the low overheads in terms of the required number of additional qubits. Compared with surface codes with the same code distance, we estimate order-of-magnitude improvements in the overheads for processing around one hundred logical qubits using this approach. Given the high thresholds demonstrated by LDPC codes, our estimates suggest that fault-tolerant quantum computation at this scale may be achievable with a few thousand physical qubits at comparable error rates to what is needed for current approaches.</description>
+    <title>A single $T$-gate makes distribution learning hard</title>
+    <link>http://arxiv.org/pdf/2207.03140</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
   </item>
 
   <item>
@@ -228,6 +228,14 @@
     <author>Henry Yuen</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
+  </item>
+
+  <item>
+    <title>Low-overhead fault-tolerant quantum computing using long-range connectivity</title>
+    <link>http://arxiv.org/pdf/2110.10794</link>
+    <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
+    <pubDate>Oct 22 2021</pubDate>
+    <description>Vast numbers of qubits will be needed for large-scale quantum computing due to the overheads associated with error correction. We present a scheme for low-overhead fault-tolerant quantum computation based on quantum low-density parity-check (LDPC) codes, where long-range interactions enable many logical qubits to be encoded with a modest number of physical qubits. In our approach, logic gates operate via logical Pauli measurements that preserve both the protection of the LDPC codes as well as the low overheads in terms of the required number of additional qubits. Compared with surface codes with the same code distance, we estimate order-of-magnitude improvements in the overheads for processing around one hundred logical qubits using this approach. Given the high thresholds demonstrated by LDPC codes, our estimates suggest that fault-tolerant quantum computation at this scale may be achievable with a few thousand physical qubits at comparable error rates to what is needed for current approaches.</description>
   </item>
 
   <item>
@@ -244,14 +252,6 @@
     <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
     <pubDate>Dec 08 2021</pubDate>
     <description>Quantum computers hold the promise of solving computational problems which are intractable using conventional methods. For fault-tolerant operation quantum computers must correct errors occurring due to unavoidable decoherence and limited control accuracy. Here, we demonstrate quantum error correction using the surface code, which is known for its exceptionally high tolerance to errors. Using 17 physical qubits in a superconducting circuit we encode quantum information in a distance-three logical qubit building up on recent distance-two error detection experiments. In an error correction cycle taking only $1.1\,\mu$s, we demonstrate the preservation of four cardinal states of the logical qubit. Repeatedly executing the cycle, we measure and decode both bit- and phase-flip error syndromes using a minimum-weight perfect-matching algorithm in an error-model-free approach and apply corrections in postprocessing. We find a low error probability of $3\,\%$ per cycle when rejecting experimental runs in which leakage is detected. The measured characteristics of our device agree well with a numerical model. Our demonstration of repeated, fast and high-performance quantum error correction cycles, together with recent advances in ion traps, support our understanding that fault-tolerant quantum computation will be practically realizable.</description>
-  </item>
-
-  <item>
-    <title>A single $T$-gate makes distribution learning hard</title>
-    <link>http://arxiv.org/pdf/2207.03140</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Jul 08 2022</pubDate>
-    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
   </item>
 
   <item>

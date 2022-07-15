@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
@@ -31,11 +23,11 @@
   </item>
 
   <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
   </item>
 
   <item>
@@ -87,6 +79,14 @@
   </item>
 
   <item>
+    <title>Fully undistillable quantum states are separable</title>
+    <link>http://arxiv.org/pdf/2207.05193</link>
+    <author>Satvik Singh, Nilanjana Datta</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
+  </item>
+
+  <item>
     <title>Composite Quantum Simulations</title>
     <link>http://arxiv.org/pdf/2206.06409</link>
     <author>Matthew Hagan, Nathan Wiebe</author>
@@ -111,11 +111,11 @@
   </item>
 
   <item>
-    <title>Fully undistillable quantum states are separable</title>
-    <link>http://arxiv.org/pdf/2207.05193</link>
-    <author>Satvik Singh, Nilanjana Datta</author>
+    <title>The QAOA gets stuck starting from a good classical string</title>
+    <link>http://arxiv.org/pdf/2207.05089</link>
+    <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
     <pubDate>Jul 13 2022</pubDate>
-    <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
+    <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
   </item>
 
   <item>
@@ -124,6 +124,14 @@
     <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
     <pubDate>Jun 24 2022</pubDate>
     <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
+  </item>
+
+  <item>
+    <title>Linear programming with unitary-equivariant constraints</title>
+    <link>http://arxiv.org/pdf/2207.05713</link>
+    <author>Dmitry Grinko, Maris Ozols</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
   </item>
 
   <item>
@@ -143,14 +151,6 @@
   </item>
 
   <item>
-    <title>The QAOA gets stuck starting from a good classical string</title>
-    <link>http://arxiv.org/pdf/2207.05089</link>
-    <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
-  </item>
-
-  <item>
     <title>A Pair Measurement Surface Code on Pentagons</title>
     <link>http://arxiv.org/pdf/2206.12780</link>
     <author>Craig Gidney</author>
@@ -159,11 +159,11 @@
   </item>
 
   <item>
-    <title>Average-case hardness of estimating probabilities of random quantum circuits with a linear scaling in the error exponent</title>
-    <link>http://arxiv.org/pdf/2206.05642</link>
-    <author>Hari Krovi</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>We consider the hardness of computing additive approximations to output probabilities of random quantum circuits. We consider three random circuit families, namely, Haar random, $p=1$ QAOA, and random IQP circuits. Our results are as follows. For Haar random circuits with $m$ gates, we improve on prior results by showing $\mathsf{coC_=P}$ hardness of average-case additive approximations to an imprecision of $2^{-O(m)}$. Efficient classical simulation of such problems would imply the collapse of the polynomial hierarchy. For constant depth circuits i.e., when $m=O(n)$, this linear scaling in the exponent is within a constant of the scaling required to show hardness of sampling. Prior to our work, such a result was shown only for Boson Sampling in Bouland et al (2021). We also use recent results in polynomial interpolation to show $\mathsf{coC_=P}$ hardness under $\mathsf{BPP}$ reductions rather than $\mathsf{BPP}^{\mathsf{NP}}$ reductions. This improves the results of prior work for Haar random circuits both in terms of the error scaling and the power of reductions. Next, we consider random $p=1$ QAOA and IQP circuits and show that in the average-case, it is $\mathsf{coC_=P}$ hard to approximate the output probability to within an additive error of $2^{-O(n)}$. For $p=1$ QAOA circuits, this work constitutes the first average-case hardness result for the problem of approximating output probabilities for random QAOA circuits, which include Sherrington-Kirkpatrick and Erdös-Renyi graphs. For IQP circuits, a consequence of our results is that approximating the Ising partition function with imaginary couplings to an additive error of $2^{-O(n)}$ is hard even in the average-case, which extends prior work on worst-case hardness of multiplicative approximation to Ising partition functions.</description>
+    <title>Finite-rate sparse quantum codes aplenty</title>
+    <link>http://arxiv.org/pdf/2207.03562</link>
+    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
+    <pubDate>Jul 11 2022</pubDate>
+    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
   </item>
 
   <item>
@@ -180,22 +180,6 @@
     <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
     <pubDate>Jun 29 2022</pubDate>
     <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
-  </item>
-
-  <item>
-    <title>Linear programming with unitary-equivariant constraints</title>
-    <link>http://arxiv.org/pdf/2207.05713</link>
-    <author>Dmitry Grinko, Maris Ozols</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
-  </item>
-
-  <item>
-    <title>Finite-rate sparse quantum codes aplenty</title>
-    <link>http://arxiv.org/pdf/2207.03562</link>
-    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
-    <pubDate>Jul 11 2022</pubDate>
-    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
   </item>
 
   <item>
@@ -239,11 +223,27 @@
   </item>
 
   <item>
+    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
+    <link>http://arxiv.org/pdf/2207.05898</link>
+    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
+    <pubDate>Jul 14 2022</pubDate>
+    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
+  </item>
+
+  <item>
     <title>Exploring ab initio machine synthesis of quantum circuits</title>
     <link>http://arxiv.org/pdf/2206.11245</link>
     <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>Gate-level quantum circuits are often derived manually from higher level algorithms. While this suffices for small implementations and demonstrations, ultimately automatic circuit design will be required to realise complex algorithms using hardware-specific operations and connectivity. Here we explore methods for the ab initio creation of circuits within a machine, either a classical computer or a hybrid quantum-classical device. We consider a range of techniques including: methods for introducing new gate structures, optimisation of parameterised circuits and choices of cost functions, and efficient removal of low-value gates exploiting the quantum geometric tensor and other heuristics. Using these principles we tackle the tasks of automatic encoding of unitary processes and translation (recompilation) of a circuit from one form to another. Using emulated quantum computers with various noise-free gate sets we provide simple examples involving up to 10 qubits, corresponding to 20 qubits in the augmented space we use. Further applications of specific relevance to chemistry modelling are considered in a sister paper, 'Exploiting subspace constraints and ab initio variational methods for quantum chemistry'.</description>
+  </item>
+
+  <item>
+    <title>On Classical and Hybrid Shadows of Quantum States</title>
+    <link>http://arxiv.org/pdf/2206.06616</link>
+    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
+    <pubDate>Jun 15 2022</pubDate>
+    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
   </item>
 
 </channel>
