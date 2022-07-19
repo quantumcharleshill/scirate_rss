@@ -103,6 +103,14 @@
   </item>
 
   <item>
+    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
+    <link>http://arxiv.org/pdf/2207.06431</link>
+    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (138)</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
+  </item>
+
+  <item>
     <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
     <link>http://arxiv.org/pdf/2112.02040</link>
     <author>Adam Bouland, Tudor Giurgica-Tiron</author>
@@ -300,14 +308,6 @@
     <author>Maxime A. Tremblay, Nicolas Delfosse, Michael E. Beverland</author>
     <pubDate>Sep 30 2021</pubDate>
     <description>Quantum LDPC codes may provide a path to build low-overhead fault-tolerant quantum computers. However, as general LDPC codes lack geometric constraints, naïve layouts couple many distant qubits with crossing connections which could be hard to build in hardware and could result in performance-degrading crosstalk. We propose a 2D layout for quantum LDPC codes by decomposing their Tanner graphs into a small number of planar layers. Each layer contains long-range connections which do not cross. For any CSS code with a degree-$\delta$ Tanner graph, we design stabilizer measurement circuits with depth at most $(2\delta +2)$ using at most $\lceil \delta/2 \rceil$ layers. We observe a circuit-noise threshold of 0.28\% for a positive-rate code family using 49 physical qubits per logical qubit. For a physical error rate of $10^{-4}$, this family reaches a logical error rate of $10^{-15}$ using fourteen times fewer physical qubits than the surface code.</description>
-  </item>
-
-  <item>
-    <title>Realization of real-time fault-tolerant quantum error correction</title>
-    <link>http://arxiv.org/pdf/2107.07505</link>
-    <author>C. Ryan-Anderson, J. G. Bohnet, K. Lee, D. Gresh, A. Hankin, J. P. Gaebler, D. Francois, A. Chernoguzov, D. Lucchetti, N. C. Brown, T. M. Gatterman, S. K. Halit, K. Gilmore, J. Gerber, B. Neyenhuis, D. Hayes, R. P. Stutz</author>
-    <pubDate>Jul 16 2021</pubDate>
-    <description>Correcting errors in real time is essential for reliable large-scale quantum computations. Realizing this high-level function requires a system capable of several low-level primitives, including single-qubit and two-qubit operations, mid-circuit measurements of subsets of qubits, real-time processing of measurement outcomes, and the ability to condition subsequent gate operations on those measurements. In this work, we use a ten qubit QCCD trapped-ion quantum computer to encode a single logical qubit using the $[[7,1,3]]$ color code, first proposed by Steane~\citesteane1996error. The logical qubit is initialized into the eigenstates of three mutually unbiased bases using an encoding circuit, and we measure an average logical SPAM error of $1.7(6) \times 10^{-3}$, compared to the average physical SPAM error $2.4(8) \times 10^{-3}$ of our qubits. We then perform multiple syndrome measurements on the encoded qubit, using a real-time decoder to determine any necessary corrections that are done either as software updates to the Pauli frame or as physically applied gates. Moreover, these procedures are done repeatedly while maintaining coherence, demonstrating a dynamically protected logical qubit memory. Additionally, we demonstrate non-Clifford qubit operations by encoding a logical magic state with an error rate below the threshold required for magic state distillation. Finally, we present system-level simulations that allow us to identify key hardware upgrades that may enable the system to reach the pseudo-threshold.</description>
   </item>
 
   <item>

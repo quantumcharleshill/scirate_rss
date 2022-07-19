@@ -7,11 +7,35 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
+    <link>http://arxiv.org/pdf/2207.06431</link>
+    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (138)</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
+  </item>
+
+  <item>
+    <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
+    <link>http://arxiv.org/pdf/2207.07044</link>
+    <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>We consider the computational task of sampling a bit string $x$ from a distribution $\pi(x)=|\langle x|\psi\rangle|^2$, where $\psi$ is the unique ground state of a local Hamiltonian $H$. Our main result describes a direct link between the inverse spectral gap of $H$ and the mixing time of an associated continuous-time Markov Chain with steady state $\pi$. The Markov Chain can be implemented efficiently whenever ratios of ground state amplitudes $\langle y|\psi\rangle/\langle x|\psi\rangle$ are efficiently computable and the starting state of the chain satisfies a mild technical condition that can be efficiently checked. This extends a previously known relationship between sign-problem free Hamiltonians and Markov chains. The tool which enables this generalization is the so-called fixed-node Hamiltonian construction, previously used in Quantum Monte Carlo simulations to address the fermionic sign problem. We implement the proposed sampling algorithm numerically and use it to sample from the ground state of Haldane-Shastry Hamiltonian with up to 56 qubits. We observe empirically that our Markov chain based on the fixed-node Hamiltonian mixes more rapidly than the standard Metropolis-Hastings Markov chain.</description>
+  </item>
+
+  <item>
     <title>Fully undistillable quantum states are separable</title>
     <link>http://arxiv.org/pdf/2207.05193</link>
     <author>Satvik Singh, Nilanjana Datta</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
+  </item>
+
+  <item>
+    <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
+    <link>http://arxiv.org/pdf/2207.06428</link>
+    <author>Benjamin J. Brown</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>A decoding algorithm is essential to any fault-tolerant quantum-computing architecture. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other types of code. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain types of code. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.</description>
   </item>
 
   <item>
@@ -23,19 +47,19 @@
   </item>
 
   <item>
+    <title>On the Super-exponential Quantum Speedup of Equivariant Quantum Machine Learning Algorithms with SU($d$) Symmetry</title>
+    <link>http://arxiv.org/pdf/2207.07250</link>
+    <author>Han Zheng, Zimu Li, Junyu Liu, Sergii Strelchuk, Risi Kondor</author>
+    <pubDate>Jul 18 2022</pubDate>
+    <description>We introduce a framework of the equivariant convolutional algorithms which is tailored for a number of machine-learning tasks on physical systems with arbitrary SU($d$) symmetries. It allows us to enhance a natural model of quantum computation--permutational quantum computing (PQC) [Quantum Inf. Comput., 10, 470-497 (2010)] --and defines a more powerful model: PQC+. While PQC was shown to be effectively classically simulatable, we exhibit a problem which can be efficiently solved on PQC+ machine, whereas the best known classical algorithms runs in $O(n!n^2)$ time, thus providing strong evidence against PQC+ being classically simulatable. We further discuss practical quantum machine learning algorithms which can be carried out in the paradigm of PQC+.</description>
+  </item>
+
+  <item>
     <title>Linear programming with unitary-equivariant constraints</title>
     <link>http://arxiv.org/pdf/2207.05713</link>
     <author>Dmitry Grinko, Maris Ozols</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
-  </item>
-
-  <item>
-    <title>Finite-rate sparse quantum codes aplenty</title>
-    <link>http://arxiv.org/pdf/2207.03562</link>
-    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
-    <pubDate>Jul 11 2022</pubDate>
-    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
   </item>
 
   <item>
@@ -47,14 +71,6 @@
   </item>
 
   <item>
-    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
-    <link>http://arxiv.org/pdf/2207.06431</link>
-    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (138)</author>
-    <pubDate>Jul 15 2022</pubDate>
-    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
-  </item>
-
-  <item>
     <title>A density-matrix renormalisation group algorithm for simulating quantum circuits with a finite fidelity</title>
     <link>http://arxiv.org/pdf/2207.05612</link>
     <author>Thomas Ayral, Thibaud Louvet, Yiqing Zhou, Cyprien Lambert, E. Miles Stoudenmire, Xavier Waintal</author>
@@ -63,27 +79,11 @@
   </item>
 
   <item>
-    <title>The concatenation of the Gottesman-Kitaev-Preskill code with the XZZX surface code</title>
-    <link>http://arxiv.org/pdf/2207.04383</link>
-    <author>Jiaxuan Zhang, Yu-Chun Wu, Guo-Ping Guo</author>
-    <pubDate>Jul 12 2022</pubDate>
-    <description>Bosonic codes provide an alternative option for the quantum error correction. An important category of bosonic codes called the Gottesman-Kitaev-Preskill (GKP) code aroused much interest recently. Theoretically, the error correction ability of GKP code is limited since it can only correct small shift errors in position and momentum quadratures. A natural approach to promote the GKP error correction for large-scale, fault-tolerant quantum computation is concatenating encoded GKP states with a stabilizer code. The performance of the XZZX surface-GKP code, i.e., the single-mode GKP code concatenated with XZZX surface code is investigated in this paper under two different noise models. Firstly, in the code-capacity noise model, the asymmetric rectangular GKP code with parameter $\lambda$ is introduced. Using the minimum weight perfect matching (MWPM) decoder combined with the continuous-variable GKP information, the optimal threshold of the XZZX-surface GKP code reaches $\sigma\approx0.67$ when $\lambda=2.1$, compared with the threshold $\sigma\approx0.60$ of the standard surface-GKP code. Secondly, we analyze the shift errors of two-qubit gates in the actual implementation, and build the full circuit-level noise model. The maximum likelihood decoding strategy is applied to each two-qubit gate with circuit-level noise, and improves the threshold from 18.6 dB in the previous work to 16.5 dB. We also estimate the overhead of the XZZX-surface GKP code which uses about 483 GKP states with squeezing more than 18.5 dB to encode a logical qubits with error rate $7.6\times10^{-6}$, compared with the qubit-based surface code using 1681 qubits to achieve almost the same logical error rate.</description>
-  </item>
-
-  <item>
-    <title>Equivalence between simulability of high-dimensional measurements and high-dimensional steering</title>
-    <link>http://arxiv.org/pdf/2207.04080</link>
-    <author>Benjamin D.M. Jones, Roope Uola, Thomas Cope, Marie Ioannou, Sébastien Designolle, Pavel Sekatski, Nicolas Brunner</author>
-    <pubDate>Jul 12 2022</pubDate>
-    <description>The effect of quantum steering arises from the judicious combination of an entangled state with a set of incompatible measurements. Recently, it was shown that this form of quantum correlations can be quantified in terms of a dimension, leading to the notion of genuine high-dimensional steering. While this naturally connects to the dimensionality of entanglement (Schmidt number), we show that this effect also directly connects to a notion of dimension for measurement incompatibility. More generally, we present a general connection between the concepts of steering and measurement incompatibility, when quantified in terms of dimension. From this connection, we propose a novel twist on the problem of simulating quantum correlations. Specifically, we show how the correlations of certain high-dimensional entangled states can be exactly recovered using only shared randomness and lower-dimensional entanglement. Finally, we derive criteria for testing the dimension of measurement incompatibility, and discuss the extension of these ideas to quantum channels.</description>
-  </item>
-
-  <item>
-    <title>Information flow in parameterized quantum circuits</title>
-    <link>http://arxiv.org/pdf/2207.05149</link>
-    <author>Abhinav Anand, Lasse Bjørn Kristensen, Felix Frohnert, Sukin Sim, Alán Aspuru-Guzik</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>In this work, we introduce a new way to quantify information flow in quantum systems, especially for parameterized quantum circuits. We use a graph representation of the circuits and propose a new distance metric using the mutual information between gate nodes. We then present an optimization procedure for variational algorithms using paths based on the distance measure. We explore the features of the algorithm by means of the variational quantum eigensolver, in which we compute the ground state energies of the Heisenberg model. In addition, we employ the method to solve a binary classification problem using variational quantum classification. From numerical simulations, we show that our method can be successfully used for optimizing the parameterized quantum circuits primarily used in near-term algorithms. We further note that information-flow based paths can be used to improve convergence of existing stochastic gradient based methods.</description>
+    <title>Toys can't play: physical agents in Spekkens' theory</title>
+    <link>http://arxiv.org/pdf/2207.07445</link>
+    <author>Ladina Hausmann, Nuriya Nurgalieva, Lídia del Rio</author>
+    <pubDate>Jul 18 2022</pubDate>
+    <description>Information is physical, and for a physical theory to be universal, it should model observers as physical systems, with concrete memories where they store the information acquired through experiments and reasoning. Here we address these issues in Spekkens' toy theory, a non-contextual epistemically restricted model that partially mimics the behaviour of quantum mechanics. We propose a way to model physical implementations of agents, memories, measurements, conditional actions and information processing. We find that the actions of toy agents are severely limited: although there are non-orthogonal states in the theory, there is no way for physical agents to consciously prepare them. Their memories are also constrained: agents cannot forget in which of two arbitrary states a system is. Finally, we formalize the process of making inferences about other agents' experiments and model multi-agent experiments like Wigner's friend. Unlike quantum theory or box world, in the toy theory there are no inconsistencies when physical agents reason about each other's knowledge.</description>
   </item>
 
 </channel>

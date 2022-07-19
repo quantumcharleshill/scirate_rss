@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
+    <link>http://arxiv.org/pdf/2207.06431</link>
+    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (138)</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
+  </item>
+
+  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
@@ -28,14 +36,6 @@
     <author>Henry Yuen</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
-  </item>
-
-  <item>
-    <title>An efficient decoder for a linear distance quantum LDPC code</title>
-    <link>http://arxiv.org/pdf/2206.06557</link>
-    <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
   </item>
 
   <item>
@@ -55,27 +55,11 @@
   </item>
 
   <item>
-    <title>Good Quantum LDPC Codes with Linear Time Decoders</title>
-    <link>http://arxiv.org/pdf/2206.07750</link>
-    <author>Irit Dinur, Min-Hsiu Hsieh, Ting-Chun Lin, Thomas Vidick</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>We construct a new explicit family of good quantum low-density parity-check codes which additionally have linear time decoders. Our codes are based on a three-term chain $(\mathbb{F}_2^{m\times m})^V \quad \xrightarrow{\delta^0}\quad (\mathbb{F}_2^{m})^{E} \quad\xrightarrow{\delta^1} \quad \mathbb{F}_2^F$ where $V$ ($X$-checks) are the vertices, $E$ (qubits) are the edges, and $F$ ($Z$-checks) are the squares of a left-right Cayley complex, and where the maps are defined based on a pair of constant-size random codes $C_A,C_B:\mathbb{F}_2^m\to\mathbb{F}_2^\Delta$ where $\Delta$ is the regularity of the underlying Cayley graphs. One of the main ingredients in the analysis is a proof of an essentially-optimal robustness property for the tensor product of two random codes.</description>
-  </item>
-
-  <item>
-    <title>Efficient decoding up to a constant fraction of the code length for asymptotically good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.07571</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Jun 16 2022</pubDate>
-    <description>We introduce and analyse an efficient decoder for the quantum Tanner codes of that can correct adversarial errors of linear weight. Previous decoders for quantum low-density parity-check codes could only handle adversarial errors of weight $O(\sqrt{n \log n})$. We also work on the link between quantum Tanner codes and the Lifted Product codes of Panteleev and Kalachev, and show that our decoder can be adapted to the latter. The decoding algorithm alternates between sequential and parallel procedures and converges in linear time.</description>
-  </item>
-
-  <item>
-    <title>Quantum mean states are nicer than you think: fast algorithms to compute states maximizing average fidelity</title>
-    <link>http://arxiv.org/pdf/2206.08183</link>
-    <author>A. Afham, Richard Kueng, Chris Ferrie</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>Fidelity is arguably the most popular figure of merit in quantum sciences. However, many of its properties are still unknown. In this work, we resolve the open problem of maximizing average fidelity over arbitrary finite ensembles of quantum states and derive new upper bounds. We first construct a semidefinite program whose optimal value is the maximum average fidelity and then derive fixed-point algorithms that converge to the optimal state. The fixed-point algorithms outperform the semidefinite program in terms of numerical runtime. We also derive expressions for near-optimal states that are easier to compute and upper and lower bounds for maximum average fidelity that are exact when all the states in the ensemble commute. Finally, we discuss how our results solve some open problems in Bayesian quantum tomography.</description>
+    <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
+    <link>http://arxiv.org/pdf/2207.07044</link>
+    <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>We consider the computational task of sampling a bit string $x$ from a distribution $\pi(x)=|\langle x|\psi\rangle|^2$, where $\psi$ is the unique ground state of a local Hamiltonian $H$. Our main result describes a direct link between the inverse spectral gap of $H$ and the mixing time of an associated continuous-time Markov Chain with steady state $\pi$. The Markov Chain can be implemented efficiently whenever ratios of ground state amplitudes $\langle y|\psi\rangle/\langle x|\psi\rangle$ are efficiently computable and the starting state of the chain satisfies a mild technical condition that can be efficiently checked. This extends a previously known relationship between sign-problem free Hamiltonians and Markov chains. The tool which enables this generalization is the so-called fixed-node Hamiltonian construction, previously used in Quantum Monte Carlo simulations to address the fermionic sign problem. We implement the proposed sampling algorithm numerically and use it to sample from the ground state of Haldane-Shastry Hamiltonian with up to 56 qubits. We observe empirically that our Markov chain based on the fixed-node Hamiltonian mixes more rapidly than the standard Metropolis-Hastings Markov chain.</description>
   </item>
 
   <item>
@@ -87,27 +71,11 @@
   </item>
 
   <item>
-    <title>Composite Quantum Simulations</title>
-    <link>http://arxiv.org/pdf/2206.06409</link>
-    <author>Matthew Hagan, Nathan Wiebe</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>In this paper we provide a framework for combining multiple quantum simulation methods, such as Trotter-Suzuki formulas and QDrift into a single composite channel that builds upon older coalescing ideas for reducing gate counts. The central idea behind our approach is to use a partitioning scheme that allocates a Hamiltonian term to the Trotter or QDrift part of a channel within the simulation. This allows us to simulate small but numerous terms using QDrift while simulating the larger terms using a high-order Trotter-Suzuki formula. We prove rigorous bounds on the diamond distance between the composite channel and the ideal simulation channel and show under what conditions the cost of implementing the composite channel is asymptotically upper bounded by the methods that comprise it for both probabilistic partitioning of terms and deterministic partitioning. Finally, we discuss strategies for determining partitioning schemes as well as methods for incorporating different simulation methods within the same framework.</description>
-  </item>
-
-  <item>
-    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
-    <link>http://arxiv.org/pdf/2206.09313</link>
-    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
-  </item>
-
-  <item>
-    <title>A note on the inner products of pure states and their antidistinguishability</title>
-    <link>http://arxiv.org/pdf/2206.08313</link>
-    <author>Vincent Russo, Jamie Sikora</author>
-    <pubDate>Jun 17 2022</pubDate>
-    <description>A set of d quantum states is said to be antidistinguishable if there exists a d-outcome POVM that can perfectly identify which state was not measured. A conjecture by Havlíček and Barrett states that if a set of d pure states has small pair-wise inner products, then the set must be antidistinguishable. In this note we provide a certificate of antidistinguishability via semidefinite programming duality and use it to provide a counterexample to this conjecture when d = 4.</description>
+    <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
+    <link>http://arxiv.org/pdf/2207.06428</link>
+    <author>Benjamin J. Brown</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>A decoding algorithm is essential to any fault-tolerant quantum-computing architecture. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other types of code. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain types of code. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.</description>
   </item>
 
   <item>
@@ -119,11 +87,35 @@
   </item>
 
   <item>
+    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
+    <link>http://arxiv.org/pdf/2206.09313</link>
+    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
+  </item>
+
+  <item>
     <title>Classical surrogates for quantum learning models</title>
     <link>http://arxiv.org/pdf/2206.11740</link>
     <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
     <pubDate>Jun 24 2022</pubDate>
     <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
+  </item>
+
+  <item>
+    <title>The classical cost of transmitting a qubit</title>
+    <link>http://arxiv.org/pdf/2207.02244</link>
+    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
+    <pubDate>Jul 07 2022</pubDate>
+    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
+  </item>
+
+  <item>
+    <title>On the Super-exponential Quantum Speedup of Equivariant Quantum Machine Learning Algorithms with SU($d$) Symmetry</title>
+    <link>http://arxiv.org/pdf/2207.07250</link>
+    <author>Han Zheng, Zimu Li, Junyu Liu, Sergii Strelchuk, Risi Kondor</author>
+    <pubDate>Jul 18 2022</pubDate>
+    <description>We introduce a framework of the equivariant convolutional algorithms which is tailored for a number of machine-learning tasks on physical systems with arbitrary SU($d$) symmetries. It allows us to enhance a natural model of quantum computation--permutational quantum computing (PQC) [Quantum Inf. Comput., 10, 470-497 (2010)] --and defines a more powerful model: PQC+. While PQC was shown to be effectively classically simulatable, we exhibit a problem which can be efficiently solved on PQC+ machine, whereas the best known classical algorithms runs in $O(n!n^2)$ time, thus providing strong evidence against PQC+ being classically simulatable. We further discuss practical quantum machine learning algorithms which can be carried out in the paradigm of PQC+.</description>
   </item>
 
   <item>
@@ -143,22 +135,6 @@
   </item>
 
   <item>
-    <title>The classical cost of transmitting a qubit</title>
-    <link>http://arxiv.org/pdf/2207.02244</link>
-    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
-  </item>
-
-  <item>
-    <title>A Pair Measurement Surface Code on Pentagons</title>
-    <link>http://arxiv.org/pdf/2206.12780</link>
-    <author>Craig Gidney</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
-  </item>
-
-  <item>
     <title>Finite-rate sparse quantum codes aplenty</title>
     <link>http://arxiv.org/pdf/2207.03562</link>
     <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
@@ -172,6 +148,14 @@
     <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
     <pubDate>Jul 06 2022</pubDate>
     <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
+  </item>
+
+  <item>
+    <title>A Pair Measurement Surface Code on Pentagons</title>
+    <link>http://arxiv.org/pdf/2206.12780</link>
+    <author>Craig Gidney</author>
+    <pubDate>Jun 28 2022</pubDate>
+    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
   </item>
 
   <item>
@@ -207,6 +191,14 @@
   </item>
 
   <item>
+    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
+    <link>http://arxiv.org/pdf/2207.05898</link>
+    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
+    <pubDate>Jul 14 2022</pubDate>
+    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
+  </item>
+
+  <item>
     <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
     <link>http://arxiv.org/pdf/2207.00616</link>
     <author>Paul Herringer, Robert Raussendorf</author>
@@ -223,14 +215,6 @@
   </item>
 
   <item>
-    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
-    <link>http://arxiv.org/pdf/2207.05898</link>
-    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
-    <pubDate>Jul 14 2022</pubDate>
-    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
-  </item>
-
-  <item>
     <title>Exploring ab initio machine synthesis of quantum circuits</title>
     <link>http://arxiv.org/pdf/2206.11245</link>
     <author>Richard Meister, Cica Gustiani, Simon C. Benjamin</author>
@@ -239,11 +223,27 @@
   </item>
 
   <item>
-    <title>On Classical and Hybrid Shadows of Quantum States</title>
-    <link>http://arxiv.org/pdf/2206.06616</link>
-    <author>Saumya Shivam, C. W. von Keyserlingk, S. L. Sondhi</author>
-    <pubDate>Jun 15 2022</pubDate>
-    <description>Classical shadows are a computationally efficient approach to storing quantum states on a classical computer for the purposes of estimating expectation values of local observables, obtained by performing repeated random measurements. In this note we offer some comments on this approach. We note that the resources needed to form classical shadows with bounded relative error depend strongly on the target state. We then comment on the advantages and limitations of using classical shadows to simulate many-body dynamics. In addition, we introduce the notion of a hybrid shadow, constructed from measurements on a part of the system instead of the entirety, which provides a framework to gain more insight into the nature of shadow states as one reduces the size of the subsystem measured, and a potential alternative to compressing quantum states.</description>
+    <title>A Simple Proof of PreciseQMA = PSPACE</title>
+    <link>http://arxiv.org/pdf/2206.09230</link>
+    <author>Yulong Li</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>We give an alternative proof of PreciseQMA = PSPACE, first proved by Fefferman and Lin (Innov. Theor. Comp. Sci. 2018), where PreciseQMA is the class Quantum Merlin-Arthur with inverse exponential completeness-soundness gap. We adapt the proof of Quantum Cook-Levin Theorem to prove the inclusion PSPACE in PreciseQMA.</description>
+  </item>
+
+  <item>
+    <title>A Near-Term Quantum Algorithm for Computing Molecular and Materials Properties based on Recursive Variational Series Methods</title>
+    <link>http://arxiv.org/pdf/2206.09881</link>
+    <author>Phillip W. K. Jensen, Peter D. Johnson, Alexander A. Kunitsa</author>
+    <pubDate>Jun 22 2022</pubDate>
+    <description>Determining properties of molecules and materials is one of the premier applications of quantum computing. A major question in the field is: how might we use imperfect near-term quantum computers to solve problems of practical value? We propose a quantum algorithm to estimate properties of molecules using near-term quantum devices. The method is a recursive variational series estimation method, where we expand an operator of interest in terms of Chebyshev polynomials, and evaluate each term in the expansion using a variational quantum algorithm. We test our method by computing the one-particle Green's function in energy domain and the autocorrelation function in time domain, finding some advantages to this approach over existing methods.</description>
+  </item>
+
+  <item>
+    <title>On the design and analysis of near-term quantum network protocols using Markov decision processes</title>
+    <link>http://arxiv.org/pdf/2207.03403</link>
+    <author>Sumeet Khatri</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>The quantum internet is one of the frontiers of quantum information science research. It will revolutionize the way we communicate and do other tasks, and it will allow for tasks that are not possible using the current, classical internet. The backbone of a quantum internet is entanglement distributed globally in order to allow for such novel applications to be performed over long distances. Experimental progress is currently being made to realize quantum networks on a small scale, but much theoretical work is still needed in order to understand how best to distribute entanglement, especially with the limitations of near-term quantum technologies taken into account. This work provides an initial step towards this goal. In this work, we lay out a theory of near-term quantum networks based on Markov decision processes (MDPs), and we show that MDPs provide a precise and systematic mathematical framework to model protocols for near-term quantum networks that is agnostic to the specific implementation platform. We start by simplifying the MDP for elementary links introduced in prior work, and by providing new results on policies for elementary links in the steady-state (infinite-time) limit. In particular, we show that the well-known memory-cutoff policy is optimal in the steady-state limit. Then we show how the elementary link MDP can be used to analyze a quantum network protocol in which we wait for all elementary links to be active before creating end-to-end links. We then provide an extension of the MDP formalism to two elementary links, which is useful for analyzing more sophisticated quantum network protocols. Here, as new results, we derive linear programming relaxations that allow us to obtain optimal steady-state policies with respect to the expected fidelity and waiting time of the end-to-end link.</description>
   </item>
 
 </channel>
