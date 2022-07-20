@@ -23,27 +23,11 @@
   </item>
 
   <item>
-    <title>Fully undistillable quantum states are separable</title>
-    <link>http://arxiv.org/pdf/2207.05193</link>
-    <author>Satvik Singh, Nilanjana Datta</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
-  </item>
-
-  <item>
     <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
     <link>http://arxiv.org/pdf/2207.06428</link>
     <author>Benjamin J. Brown</author>
     <pubDate>Jul 15 2022</pubDate>
     <description>A decoding algorithm is essential to any fault-tolerant quantum-computing architecture. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other types of code. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain types of code. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.</description>
-  </item>
-
-  <item>
-    <title>The QAOA gets stuck starting from a good classical string</title>
-    <link>http://arxiv.org/pdf/2207.05089</link>
-    <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
   </item>
 
   <item>
@@ -55,11 +39,11 @@
   </item>
 
   <item>
-    <title>Linear programming with unitary-equivariant constraints</title>
-    <link>http://arxiv.org/pdf/2207.05713</link>
-    <author>Dmitry Grinko, Maris Ozols</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
+    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
+    <link>http://arxiv.org/pdf/2207.08691</link>
+    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
   </item>
 
   <item>
@@ -71,11 +55,27 @@
   </item>
 
   <item>
-    <title>A density-matrix renormalisation group algorithm for simulating quantum circuits with a finite fidelity</title>
-    <link>http://arxiv.org/pdf/2207.05612</link>
-    <author>Thomas Ayral, Thibaud Louvet, Yiqing Zhou, Cyprien Lambert, E. Miles Stoudenmire, Xavier Waintal</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>We develop a density-matrix renormalization group (DMRG) algorithm for the simulation of quantum circuits. This algorithm can be seen as the extension of time-dependent DMRG from the usual situation of hermitian Hamiltonian matrices to quantum circuits defined by unitary matrices. For small circuit depths, the technique is exact and equivalent to other matrix product state (MPS) based techniques. For larger depths, it becomes approximate in exchange for an exponential speed up in computational time. Like an actual quantum computer, the quality of the DMRG results is characterized by a finite fidelity. However, unlike a quantum computer, the fidelity depends strongly on the quantum circuit considered. For the most difficult possible circuit for this technique, the so-called "quantum supremacy" benchmark of Google Inc. , we find that the DMRG algorithm can generate bit strings of the same quality as the seminal Google experiment on a single computing core. For a more structured circuit used for combinatorial optimization (Quantum Approximate Optimization Algorithm or QAOA), we find a drastic improvement of the DMRG results with error rates dropping by a factor of 100 compared with random quantum circuits. Our results suggest that the current bottleneck of quantum computers is their fidelities rather than the number of qubits.</description>
+    <title>A Sublinear-Time Quantum Algorithm for Approximating Partition Functions</title>
+    <link>http://arxiv.org/pdf/2207.08643</link>
+    <author>Arjan Cornelissen, Yassine Hamoudi</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>We present a novel quantum algorithm for estimating Gibbs partition functions in sublinear time with respect to the logarithm of the size of the state space. This is the first speed-up of this type to be obtained over the seminal nearly-linear time algorithm of Štefankovič, Vempala and Vigoda [JACM, 2009]. Our result also preserves the quadratic speed-up in precision and spectral gap achieved in previous work by exploiting the properties of quantum Markov chains. As an application, we obtain new polynomial improvements over the best-known algorithms for computing the partition function of the Ising model, and counting the number of $k$-colorings, matchings or independent sets of a graph. Our approach relies on developing new variants of the quantum phase and amplitude estimation algorithms that return nearly unbiased estimates with low variance and without destroying their initial quantum state. We extend these subroutines into a nearly unbiased quantum mean estimator that reduces the variance quadratically faster than the classical empirical mean. No such estimator was known to exist prior to our work. These properties, which are of general interest, lead to better convergence guarantees within the paradigm of simulated annealing for computing partition functions.</description>
+  </item>
+
+  <item>
+    <title>Quantum tomography using state-preparation unitaries</title>
+    <link>http://arxiv.org/pdf/2207.08800</link>
+    <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
+  </item>
+
+  <item>
+    <title>Amplitude Estimation from Quantum Signal Processing</title>
+    <link>http://arxiv.org/pdf/2207.08628</link>
+    <author>Patrick Rall, Bryce Fuller</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
   </item>
 
   <item>

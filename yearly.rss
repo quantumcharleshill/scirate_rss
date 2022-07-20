@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
-    <link>http://arxiv.org/pdf/2201.08309</link>
-    <author>Lin Lin</author>
-    <pubDate>Jan 21 2022</pubDate>
-    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
-  </item>
-
-  <item>
     <title>Foundations for learning from noisy quantum experiments</title>
     <link>http://arxiv.org/pdf/2204.13691</link>
     <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
     <pubDate>Apr 29 2022</pubDate>
     <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
+  </item>
+
+  <item>
+    <title>Lecture Notes on Quantum Algorithms for Scientific Computation</title>
+    <link>http://arxiv.org/pdf/2201.08309</link>
+    <author>Lin Lin</author>
+    <pubDate>Jan 21 2022</pubDate>
+    <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
   </item>
 
   <item>
@@ -207,6 +207,14 @@
   </item>
 
   <item>
+    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
+    <link>http://arxiv.org/pdf/2206.11185</link>
+    <author>Henry Yuen</author>
+    <pubDate>Jun 23 2022</pubDate>
+    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
+  </item>
+
+  <item>
     <title>Quantum many-body systems in thermal equilibrium</title>
     <link>http://arxiv.org/pdf/2204.08349</link>
     <author>Álvaro M. Alhambra</author>
@@ -228,14 +236,6 @@
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
     <pubDate>Jul 08 2022</pubDate>
     <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
-  </item>
-
-  <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
   </item>
 
   <item>
