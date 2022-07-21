@@ -9,7 +9,7 @@
   <item>
     <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
     <link>http://arxiv.org/pdf/2207.06431</link>
-    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (138)</author>
+    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
     <pubDate>Jul 15 2022</pubDate>
     <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
   </item>
@@ -47,19 +47,19 @@
   </item>
 
   <item>
-    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
-    <link>http://arxiv.org/pdf/2207.05898</link>
-    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
-    <pubDate>Jul 14 2022</pubDate>
-    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
-  </item>
-
-  <item>
     <title>A Sublinear-Time Quantum Algorithm for Approximating Partition Functions</title>
     <link>http://arxiv.org/pdf/2207.08643</link>
     <author>Arjan Cornelissen, Yassine Hamoudi</author>
     <pubDate>Jul 19 2022</pubDate>
     <description>We present a novel quantum algorithm for estimating Gibbs partition functions in sublinear time with respect to the logarithm of the size of the state space. This is the first speed-up of this type to be obtained over the seminal nearly-linear time algorithm of Štefankovič, Vempala and Vigoda [JACM, 2009]. Our result also preserves the quadratic speed-up in precision and spectral gap achieved in previous work by exploiting the properties of quantum Markov chains. As an application, we obtain new polynomial improvements over the best-known algorithms for computing the partition function of the Ising model, and counting the number of $k$-colorings, matchings or independent sets of a graph. Our approach relies on developing new variants of the quantum phase and amplitude estimation algorithms that return nearly unbiased estimates with low variance and without destroying their initial quantum state. We extend these subroutines into a nearly unbiased quantum mean estimator that reduces the variance quadratically faster than the classical empirical mean. No such estimator was known to exist prior to our work. These properties, which are of general interest, lead to better convergence guarantees within the paradigm of simulated annealing for computing partition functions.</description>
+  </item>
+
+  <item>
+    <title>Time-Efficient Constant-Space-Overhead Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2207.08826</link>
+    <author>Hayata Yamasaki, Masato Koashi</author>
+    <pubDate>Jul 20 2022</pubDate>
+    <description>Scalable realization of quantum computation to attain substantial speedups over classical computation requires fault tolerance. Conventionally, fault-tolerant quantum computation (FTQC) demands excessive space overhead of physical qubits per logical qubit. A more recent protocol to achieve constant-space-overhead FTQC using quantum low-density parity-check (LDPC) codes thus attracts considerable attention but suffers from another drawback: it incurs polynomially long time overhead. We construct an alternative avenue of FTQC to achieve constant space overhead and only quasi-polylogarithmic time overhead simultaneously via techniques for using concatenations of different quantum Hamming codes rather than quantum LDPC codes. Our protocol achieves FTQC even if a decoder has nonzero runtime, unlike the existing constant-space-overhead protocol. These results establish a foundation for realizing FTQC within feasibly bounded space overhead yet negligibly tiny slowdown.</description>
   </item>
 
   <item>
