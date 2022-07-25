@@ -95,14 +95,6 @@
   </item>
 
   <item>
-    <title>Averaged circuit eigenvalue sampling</title>
-    <link>http://arxiv.org/pdf/2108.05803</link>
-    <author>Steven T. Flammia</author>
-    <pubDate>Aug 13 2021</pubDate>
-    <description>We introduce ACES, a method for scalable noise metrology of quantum circuits that stands for Averaged Circuit Eigenvalue Sampling. It simultaneously estimates the individual error rates of all the gates in collections of quantum circuits, and can even account for space and time correlations between these gates. ACES strictly generalizes randomized benchmarking (RB), interleaved RB, simultaneous RB, and several other related techniques. However, ACES provides much more information and provably works under strictly weaker assumptions than these techniques. Finally, ACES is extremely scalable: we demonstrate with numerical simulations that it simultaneously and precisely estimates all the Pauli error rates on every gate and measurement in a 100 qubit quantum device using fewer than 20 relatively shallow Clifford circuits and an experimentally feasible number of samples. By learning the detailed gate errors for large quantum devices, ACES opens new possibilities for error mitigation, bespoke quantum error correcting codes and decoders, customized compilers, and more.</description>
-  </item>
-
-  <item>
     <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
     <link>http://arxiv.org/pdf/2207.06431</link>
     <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
@@ -111,11 +103,11 @@
   </item>
 
   <item>
-    <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
-    <link>http://arxiv.org/pdf/2112.02040</link>
-    <author>Adam Bouland, Tudor Giurgica-Tiron</author>
-    <pubDate>Dec 06 2021</pubDate>
-    <description>The Solovay-Kitaev algorithm is a fundamental result in quantum computation. It gives an algorithm for efficiently compiling arbitrary unitaries using universal gate sets: any unitary can be approximated by short gates sequences, whose length scales merely poly-logarithmically with accuracy. As a consequence, the choice of gate set is typically unimportant in quantum computing. However, the Solovay-Kitaev algorithm requires the gate set to be inverse-closed. It has been a longstanding open question if efficient algorithmic compilation is possible without this condition. In this work, we provide the first inverse-free Solovay-Kitaev algorithm, which makes no assumption on the structure within a gate set beyond universality, answering this problem in the affirmative, and providing an efficient compilation algorithm in the absence of inverses for both $\text{SU}(d)$ and $\text{SL}(d, \mathbb{C})$. The algorithm works by showing that approximate gate implementations of the generalized Pauli group can self-correct their errors.</description>
+    <title>Averaged circuit eigenvalue sampling</title>
+    <link>http://arxiv.org/pdf/2108.05803</link>
+    <author>Steven T. Flammia</author>
+    <pubDate>Aug 13 2021</pubDate>
+    <description>We introduce ACES, a method for scalable noise metrology of quantum circuits that stands for Averaged Circuit Eigenvalue Sampling. It simultaneously estimates the individual error rates of all the gates in collections of quantum circuits, and can even account for space and time correlations between these gates. ACES strictly generalizes randomized benchmarking (RB), interleaved RB, simultaneous RB, and several other related techniques. However, ACES provides much more information and provably works under strictly weaker assumptions than these techniques. Finally, ACES is extremely scalable: we demonstrate with numerical simulations that it simultaneously and precisely estimates all the Pauli error rates on every gate and measurement in a 100 qubit quantum device using fewer than 20 relatively shallow Clifford circuits and an experimentally feasible number of samples. By learning the detailed gate errors for large quantum devices, ACES opens new possibilities for error mitigation, bespoke quantum error correcting codes and decoders, customized compilers, and more.</description>
   </item>
 
   <item>
@@ -135,11 +127,11 @@
   </item>
 
   <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+    <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
+    <link>http://arxiv.org/pdf/2112.02040</link>
+    <author>Adam Bouland, Tudor Giurgica-Tiron</author>
+    <pubDate>Dec 06 2021</pubDate>
+    <description>The Solovay-Kitaev algorithm is a fundamental result in quantum computation. It gives an algorithm for efficiently compiling arbitrary unitaries using universal gate sets: any unitary can be approximated by short gates sequences, whose length scales merely poly-logarithmically with accuracy. As a consequence, the choice of gate set is typically unimportant in quantum computing. However, the Solovay-Kitaev algorithm requires the gate set to be inverse-closed. It has been a longstanding open question if efficient algorithmic compilation is possible without this condition. In this work, we provide the first inverse-free Solovay-Kitaev algorithm, which makes no assumption on the structure within a gate set beyond universality, answering this problem in the affirmative, and providing an efficient compilation algorithm in the absence of inverses for both $\text{SU}(d)$ and $\text{SL}(d, \mathbb{C})$. The algorithm works by showing that approximate gate implementations of the generalized Pauli group can self-correct their errors.</description>
   </item>
 
   <item>
@@ -148,6 +140,14 @@
     <author>Kianna Wan, Mario Berta, Earl T. Campbell</author>
     <pubDate>Oct 26 2021</pubDate>
     <description>Phase estimation is a quantum algorithm for measuring the eigenvalues of a Hamiltonian. We propose and rigorously analyse a randomized phase estimation algorithm with two distinctive features. First, our algorithm has complexity independent of the number of terms L in the Hamiltonian. Second, unlike previous L-independent approaches, such as those based on qDRIFT, all sources of error in our algorithm can be suppressed by collecting more data samples, without increasing the circuit depth.</description>
+  </item>
+
+  <item>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
   <item>
@@ -191,6 +191,14 @@
   </item>
 
   <item>
+    <title>A single $T$-gate makes distribution learning hard</title>
+    <link>http://arxiv.org/pdf/2207.03140</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
+  </item>
+
+  <item>
     <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
     <link>http://arxiv.org/pdf/2206.11185</link>
     <author>Henry Yuen</author>
@@ -212,14 +220,6 @@
     <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
     <pubDate>May 31 2022</pubDate>
     <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $730$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
-  </item>
-
-  <item>
-    <title>A single $T$-gate makes distribution learning hard</title>
-    <link>http://arxiv.org/pdf/2207.03140</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Jul 08 2022</pubDate>
-    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
   </item>
 
   <item>

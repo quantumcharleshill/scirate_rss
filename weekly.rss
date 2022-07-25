@@ -7,19 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>On the Super-exponential Quantum Speedup of Equivariant Quantum Machine Learning Algorithms with SU($d$) Symmetry</title>
-    <link>http://arxiv.org/pdf/2207.07250</link>
-    <author>Han Zheng, Zimu Li, Junyu Liu, Sergii Strelchuk, Risi Kondor</author>
-    <pubDate>Jul 18 2022</pubDate>
-    <description>We introduce a framework of the equivariant convolutional algorithms which is tailored for a number of machine-learning tasks on physical systems with arbitrary SU($d$) symmetries. It allows us to enhance a natural model of quantum computation--permutational quantum computing (PQC) [Quantum Inf. Comput., 10, 470-497 (2010)] --and defines a more powerful model: PQC+. While PQC was shown to be effectively classically simulatable, we exhibit a problem which can be efficiently solved on PQC+ machine, whereas the best known classical algorithms runs in $O(n!n^2)$ time, thus providing strong evidence against PQC+ being classically simulatable. We further discuss practical quantum machine learning algorithms which can be carried out in the paradigm of PQC+.</description>
+    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
+    <link>http://arxiv.org/pdf/2207.10250</link>
+    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
   </item>
 
   <item>
-    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
-    <link>http://arxiv.org/pdf/2207.08691</link>
-    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
+    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
+    <link>http://arxiv.org/pdf/2207.10097</link>
+    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
   </item>
 
   <item>
@@ -28,6 +28,14 @@
     <author>Arjan Cornelissen, Yassine Hamoudi</author>
     <pubDate>Jul 19 2022</pubDate>
     <description>We present a novel quantum algorithm for estimating Gibbs partition functions in sublinear time with respect to the logarithm of the size of the state space. This is the first speed-up of this type to be obtained over the seminal nearly-linear time algorithm of Štefankovič, Vempala and Vigoda [JACM, 2009]. Our result also preserves the quadratic speed-up in precision and spectral gap achieved in previous work by exploiting the properties of quantum Markov chains. As an application, we obtain new polynomial improvements over the best-known algorithms for computing the partition function of the Ising model, and counting the number of $k$-colorings, matchings or independent sets of a graph. Our approach relies on developing new variants of the quantum phase and amplitude estimation algorithms that return nearly unbiased estimates with low variance and without destroying their initial quantum state. We extend these subroutines into a nearly unbiased quantum mean estimator that reduces the variance quadratically faster than the classical empirical mean. No such estimator was known to exist prior to our work. These properties, which are of general interest, lead to better convergence guarantees within the paradigm of simulated annealing for computing partition functions.</description>
+  </item>
+
+  <item>
+    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
+    <link>http://arxiv.org/pdf/2207.08691</link>
+    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
   </item>
 
   <item>
@@ -47,14 +55,6 @@
   </item>
 
   <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
-  </item>
-
-  <item>
     <title>Quantum tomography using state-preparation unitaries</title>
     <link>http://arxiv.org/pdf/2207.08800</link>
     <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
@@ -63,11 +63,11 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2207.10098</link>
+    <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
     <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+    <description>Measurement-Based Quantum Computation (MBQC) is a model of quantum computation, which uses local measurements instead of unitary gates. Here we explain that the MBQC procedure has a fundamental basis in an underlying gauge theory. This perspective provides a theoretical foundation for global aspects of MBQC. The gauge symmetry reflects the freedom of formulating the same MBQC computation in different local reference frames. The main identifications between MBQC and gauge theory concepts are: (i) the computational output of MBQC is a holonomy of the gauge field, (ii) the adaption of measurement basis that remedies the inherent randomness of quantum measurements is effected by gauge transformations. The gauge theory of MBQC also plays a role in characterizing the entanglement structure of symmetry-protected topologically (SPT) ordered states, which are resources for MBQC. Our framework situates MBQC in a broader context of condensed matter and high energy theory.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2207.10098</link>
-    <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Measurement-Based Quantum Computation (MBQC) is a model of quantum computation, which uses local measurements instead of unitary gates. Here we explain that the MBQC procedure has a fundamental basis in an underlying gauge theory. This perspective provides a theoretical foundation for global aspects of MBQC. The gauge symmetry reflects the freedom of formulating the same MBQC computation in different local reference frames. The main identifications between MBQC and gauge theory concepts are: (i) the computational output of MBQC is a holonomy of the gauge field, (ii) the adaption of measurement basis that remedies the inherent randomness of quantum measurements is effected by gauge transformations. The gauge theory of MBQC also plays a role in characterizing the entanglement structure of symmetry-protected topologically (SPT) ordered states, which are resources for MBQC. Our framework situates MBQC in a broader context of condensed matter and high energy theory.</description>
+    <title>Classical models are a better explanation of the Jiuzhang Gaussian Boson Samplers than their targeted squeezed light models</title>
+    <link>http://arxiv.org/pdf/2207.10058</link>
+    <author>Javier Martínez-Cifuentes, K. M. Fonseca-Romero, Nicolás Quesada</author>
+    <pubDate>Jul 21 2022</pubDate>
+    <description>Recently, Zhong et al. [Science 370, 1460 (2020), Phys. Rev. Lett. 127, 180502 (2021)] performed landmark Gaussian boson sampling experiments with up to 144 modes using threshold detectors. The authors claim to have achieved quantum computational advantage with the implementation of these experiments, named Jiuzhang 1.0 and Jiuzhang 2.0. Their experimental results are validated against several classical hypotheses and adversaries using tests such as the comparison of statistical correlations between modes, Bayesian hypothesis testing and the Heavy Output Generation test. In this work we propose an alternative classical hypothesis for the validation of these experiments. We use the probability distribution of mixtures of coherent states sent into a lossy interferometer; these input mixed states, which we term squashed states, have vacuum fluctuations in one quadrature and excess fluctuations in the other. We find that for configurations in the large photon number density regime, the comparison of statistical correlations does not tell apart the ground truth of the experiment (namely, the probability distribution of two-mode squeezed states sent into a lossy interferometer) from our alternative hypothesis. Moreover, the Bayesian test indicates that our alternative hypothesis is a more likely explanation of the experimental data than the ground truth. Our results indicate that a classical explanation of the experiments of Zhong et al., lacking any quantum features, has not been ruled out.</description>
   </item>
 
 </channel>

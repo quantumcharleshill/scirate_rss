@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>An Improved Sample Complexity Lower Bound for Quantum State Tomography</title>
-    <link>http://arxiv.org/pdf/2206.11185</link>
-    <author>Henry Yuen</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
@@ -39,19 +31,19 @@
   </item>
 
   <item>
-    <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
-    <link>http://arxiv.org/pdf/2207.07044</link>
-    <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
-    <pubDate>Jul 15 2022</pubDate>
-    <description>We consider the computational task of sampling a bit string $x$ from a distribution $\pi(x)=|\langle x|\psi\rangle|^2$, where $\psi$ is the unique ground state of a local Hamiltonian $H$. Our main result describes a direct link between the inverse spectral gap of $H$ and the mixing time of an associated continuous-time Markov Chain with steady state $\pi$. The Markov Chain can be implemented efficiently whenever ratios of ground state amplitudes $\langle y|\psi\rangle/\langle x|\psi\rangle$ are efficiently computable and the starting state of the chain satisfies a mild technical condition that can be efficiently checked. This extends a previously known relationship between sign-problem free Hamiltonians and Markov chains. The tool which enables this generalization is the so-called fixed-node Hamiltonian construction, previously used in Quantum Monte Carlo simulations to address the fermionic sign problem. We implement the proposed sampling algorithm numerically and use it to sample from the ground state of Haldane-Shastry Hamiltonian with up to 56 qubits. We observe empirically that our Markov chain based on the fixed-node Hamiltonian mixes more rapidly than the standard Metropolis-Hastings Markov chain.</description>
-  </item>
-
-  <item>
     <title>Multivariate trace estimation in constant quantum depth</title>
     <link>http://arxiv.org/pdf/2206.15405</link>
     <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
     <pubDate>Jul 01 2022</pubDate>
     <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
+  </item>
+
+  <item>
+    <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
+    <link>http://arxiv.org/pdf/2207.07044</link>
+    <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>We consider the computational task of sampling a bit string $x$ from a distribution $\pi(x)=|\langle x|\psi\rangle|^2$, where $\psi$ is the unique ground state of a local Hamiltonian $H$. Our main result describes a direct link between the inverse spectral gap of $H$ and the mixing time of an associated continuous-time Markov Chain with steady state $\pi$. The Markov Chain can be implemented efficiently whenever ratios of ground state amplitudes $\langle y|\psi\rangle/\langle x|\psi\rangle$ are efficiently computable and the starting state of the chain satisfies a mild technical condition that can be efficiently checked. This extends a previously known relationship between sign-problem free Hamiltonians and Markov chains. The tool which enables this generalization is the so-called fixed-node Hamiltonian construction, previously used in Quantum Monte Carlo simulations to address the fermionic sign problem. We implement the proposed sampling algorithm numerically and use it to sample from the ground state of Haldane-Shastry Hamiltonian with up to 56 qubits. We observe empirically that our Markov chain based on the fixed-node Hamiltonian mixes more rapidly than the standard Metropolis-Hastings Markov chain.</description>
   </item>
 
   <item>
@@ -79,19 +71,27 @@
   </item>
 
   <item>
+    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
+    <link>http://arxiv.org/pdf/2207.10250</link>
+    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+  </item>
+
+  <item>
+    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
+    <link>http://arxiv.org/pdf/2207.10097</link>
+    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
+  </item>
+
+  <item>
     <title>The QAOA gets stuck starting from a good classical string</title>
     <link>http://arxiv.org/pdf/2207.05089</link>
     <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
-  </item>
-
-  <item>
-    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
-    <link>http://arxiv.org/pdf/2207.08691</link>
-    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
   </item>
 
   <item>
@@ -103,19 +103,11 @@
   </item>
 
   <item>
-    <title>Laziness, Barren Plateau, and Noise in Machine Learning</title>
-    <link>http://arxiv.org/pdf/2206.09313</link>
-    <author>Junyu Liu, Zexi Lin, Liang Jiang</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>We define \emphlaziness to describe a large suppression of variational parameter updates for neural networks, classical or quantum. In the quantum case, the suppression is exponential in the number of qubits for randomized variational quantum circuits. We discuss the difference between laziness and \emphbarren plateau in quantum machine learning created by quantum physicists in \citemcclean2018barren for the flatness of the loss function landscape during gradient descent. We address a novel theoretical understanding of those two phenomena in light of the theory of neural tangent kernels. For noiseless quantum circuits, without the measurement noise, the loss function landscape is complicated in the overparametrized regime with a large number of trainable variational angles. Instead, around a random starting point in optimization, there are large numbers of local minima that are good enough and could minimize the mean square loss function, where we still have quantum laziness, but we do not have barren plateaus. However, the complicated landscape is not visible within a limited number of iterations, and low precision in quantum control and quantum sensing. Moreover, we look at the effect of noises during optimization by assuming intuitive noise models, and show that variational quantum algorithms are noise-resilient in the overparametrization regime. Our work precisely reformulates the quantum barren plateau statement towards a precision statement and justifies the statement in certain noise models, injects new hope toward near-term variational quantum algorithms, and provides theoretical connections toward classical machine learning. Our paper provides conceptual perspectives about quantum barren plateaus, together with discussions about the gradient descent dynamics in \citetogether.</description>
-  </item>
-
-  <item>
-    <title>Classical surrogates for quantum learning models</title>
-    <link>http://arxiv.org/pdf/2206.11740</link>
-    <author>Franz J. Schreiber, Jens Eisert, Johannes Jakob Meyer</author>
-    <pubDate>Jun 24 2022</pubDate>
-    <description>The advent of noisy intermediate-scale quantum computers has put the search for possible applications to the forefront of quantum information science. One area where hopes for an advantage through near-term quantum computers are high is quantum machine learning, where variational quantum learning models based on parametrized quantum circuits are discussed. In this work, we introduce the concept of a classical surrogate, a classical model which can be efficiently obtained from a trained quantum learning model and reproduces its input-output relations. As inference can be performed classically, the existence of a classical surrogate greatly enhances the applicability of a quantum learning strategy. However, the classical surrogate also challenges possible advantages of quantum schemes. As it is possible to directly optimize the ansatz of the classical surrogate, they create a natural benchmark the quantum model has to outperform. We show that large classes of well-analyzed re-uploading models have a classical surrogate. We conducted numerical experiments and found that these quantum models show no advantage in performance or trainability in the problems we analyze. This leaves only generalization capability as possible point of quantum advantage and emphasizes the dire need for a better understanding of inductive biases of quantum learning models.</description>
+    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
+    <link>http://arxiv.org/pdf/2207.08691</link>
+    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
   </item>
 
   <item>
@@ -151,14 +143,6 @@
   </item>
 
   <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
-  </item>
-
-  <item>
     <title>Quantum tomography using state-preparation unitaries</title>
     <link>http://arxiv.org/pdf/2207.08800</link>
     <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
@@ -172,14 +156,6 @@
     <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
     <pubDate>Jul 06 2022</pubDate>
     <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
-  </item>
-
-  <item>
-    <title>Exploiting subspace constraints and ab initio variational methods for quantum chemistry</title>
-    <link>http://arxiv.org/pdf/2206.11246</link>
-    <author>Cica Gustiani, Richard Meister, Simon C. Benjamin</author>
-    <pubDate>Jun 23 2022</pubDate>
-    <description>Variational methods offer a highly promising route to exploiting quantum computers for chemistry tasks. Here we employ methods described in a sister paper to the present report, entitled ab initio machine synthesis of quantum circuits, in order to solve problems using adaptively evolving quantum circuits. Consistent with prior authors we find that this approach can outperform human-designed circuits such as the coupled-cluster or hardware-efficient ansätze, and we make comparisons for larger instances up to 14 qubits. Moreover we introduce a novel approach to constraining the circuit evolution in the physically relevant subspace, finding that this greatly improves performance and compactness of the circuits. We consider both static and dynamics properties of molecular systems. The emulation environments used is QuESTlink; all resources are open source and linked from this paper.</description>
   </item>
 
   <item>
@@ -207,27 +183,35 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
-  </item>
-
-  <item>
     <title>Measurement as a shortcut to long-range entangled quantum matter</title>
     <link>http://arxiv.org/pdf/2206.13527</link>
     <author>Tsung-Cheng Lu, Leonardo A. Lessa, Isaac H. Kim, Timothy H. Hsieh</author>
     <pubDate>Jun 29 2022</pubDate>
-    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce four classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The four classes are inspired by distinct physical insights, including tensor-network constructions, short-range entangled states with non-trivial braiding structures, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral and symmetry-enriched topological orders, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
+    <description>The preparation of long-range entangled states using unitary circuits is limited by Lieb-Robinson bounds, but circuits with projective measurements and feedback (``adaptive circuits'') can evade such restrictions. We introduce three classes of local adaptive circuits that enable low-depth preparation of long-range entangled quantum matter characterized by gapped topological orders and conformal field theories (CFTs). The three classes are inspired by distinct physical insights, including tensor-network constructions, multiscale entanglement renormalization ansatz (MERA), and parton constructions. A large class of topological orders, including chiral topological order, can be prepared in constant depth or time, and one-dimensional CFT states and non-abelian topological orders with both solvable and non-solvable groups can be prepared in depth scaling logarithmically with system size. We also build on a recently discovered correspondence between symmetry-protected topological phases and long-range entanglement to derive efficient protocols for preparing symmetry-enriched topological order and arbitrary CSS (Calderbank-Shor-Steane) codes. Our work illustrates the practical and conceptual versatility of measurement for state preparation.</description>
   </item>
 
   <item>
-    <title>Quantum Computing Quantum Monte Carlo</title>
-    <link>http://arxiv.org/pdf/2206.10431</link>
-    <author>Yukun Zhang, Yifei Huang, Jinzhao Sun, Dingshun Lv, Xiao Yuan</author>
-    <pubDate>Jun 22 2022</pubDate>
-    <description>Quantum computing and quantum Monte Carlo (QMC) are respectively the most powerful quantum and classical computing methods for understanding many-body quantum systems. Here, we propose a hybrid quantum-classical algorithm that integrates these two methods, inheriting their distinct features in efficient representation and manipulation of quantum states and overcoming their limitations. We introduce upper bounds to non-stoquaticity indicators (NSI), which measure the sign problem, the most notable limitation of QMC. We show that our algorithm could greatly mitigate the sign problem, which decreases NSIs with the assist of quantum computing. Meanwhile, the use of quantum Monte Carlo also increases the power of noisy quantum circuits, allowing accurate computation with much shallower circuits. We numerically test and verify the method for the N2 molecule (12 qubits) and the Hubbard model (16 qubits). Our work paves the way to solving practical problems with intermediate-scale and early-fault tolerant quantum computers, with potential applications in chemistry, condensed matter physics, materials, high energy physics, etc.</description>
+    <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2207.10098</link>
+    <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Measurement-Based Quantum Computation (MBQC) is a model of quantum computation, which uses local measurements instead of unitary gates. Here we explain that the MBQC procedure has a fundamental basis in an underlying gauge theory. This perspective provides a theoretical foundation for global aspects of MBQC. The gauge symmetry reflects the freedom of formulating the same MBQC computation in different local reference frames. The main identifications between MBQC and gauge theory concepts are: (i) the computational output of MBQC is a holonomy of the gauge field, (ii) the adaption of measurement basis that remedies the inherent randomness of quantum measurements is effected by gauge transformations. The gauge theory of MBQC also plays a role in characterizing the entanglement structure of symmetry-protected topologically (SPT) ordered states, which are resources for MBQC. Our framework situates MBQC in a broader context of condensed matter and high energy theory.</description>
+  </item>
+
+  <item>
+    <title>Succinct Classical Verification of Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2206.14929</link>
+    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
+    <pubDate>Jul 01 2022</pubDate>
+    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
+  </item>
+
+  <item>
+    <title>Amplitude Estimation from Quantum Signal Processing</title>
+    <link>http://arxiv.org/pdf/2207.08628</link>
+    <author>Patrick Rall, Bryce Fuller</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
   </item>
 
   <item>
@@ -239,11 +223,27 @@
   </item>
 
   <item>
-    <title>Succinct Classical Verification of Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2206.14929</link>
-    <author>James Bartusek, Yael Tauman Kalai, Alex Lombardi, Fermi Ma, Giulio Malavolta, Vinod Vaikuntanathan, Thomas Vidick, Lisa Yang</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle. At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation. Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including - Succinct arguments for QMA (given multiple copies of the witness), - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).</description>
+    <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
+    <link>http://arxiv.org/pdf/2207.00616</link>
+    <author>Paul Herringer, Robert Raussendorf</author>
+    <pubDate>Jul 05 2022</pubDate>
+    <description>We consider a class of translation-invariant 2D tensor network states with a stabilizer symmetry, which we call stabilizer PEPS. The cluster state, GHZ state, and states in the toric code belong to this class. We investigate the transmission capacity of stabilizer PEPS for measurement-based quantum wire, and arrive at a complete classification of transmission behaviors. The transmission behaviors fall into 13 classes, one of which corresponds to Clifford quantum cellular automata. In addition, we identify 12 other classes.</description>
+  </item>
+
+  <item>
+    <title>Demonstrating scalable randomized benchmarking of universal gate sets</title>
+    <link>http://arxiv.org/pdf/2207.07272</link>
+    <author>Jordan Hines, Marie Lu, Ravi K. Naik, Akel Hashim, Jean-Loup Ville, Brad Mitchell, John Mark Kriekebaum, David I. Santiago, Stefan Seritan, Erik Nielsen, Robin Blume-Kohout, Kevin Young, Irfan Siddiqi, Birgitta Whaley, Timothy Proctor</author>
+    <pubDate>Jul 18 2022</pubDate>
+    <description>Randomized benchmarking (RB) protocols are the most widely used methods for assessing the performance of quantum gates. However, the existing RB methods either do not scale to many qubits or cannot benchmark a universal gate set. Here, we introduce and demonstrate a technique for scalable RB of many universal and continuously parameterized gate sets, using a class of circuits called randomized mirror circuits. Our technique can be applied to a gate set containing an entangling Clifford gate and the set of arbitrary single-qubit gates, as well as gate sets containing controlled rotations about the Pauli axes. We use our technique to benchmark universal gate sets on four qubits of the Advanced Quantum Testbed, including a gate set containing a controlled-S gate and its inverse, and we investigate how the observed error rate is impacted by the inclusion of non-Clifford gates. Finally, we demonstrate that our technique scales to many qubits with experiments on a 27-qubit IBM Q processor. We use our technique to quantify the impact of crosstalk on this 27-qubit device, and we find that it contributes approximately 2/3 of the total error per gate in random many-qubit circuit layers.</description>
+  </item>
+
+  <item>
+    <title>Toys can't play: physical agents in Spekkens' theory</title>
+    <link>http://arxiv.org/pdf/2207.07445</link>
+    <author>Ladina Hausmann, Nuriya Nurgalieva, Lídia del Rio</author>
+    <pubDate>Jul 18 2022</pubDate>
+    <description>Information is physical, and for a physical theory to be universal, it should model observers as physical systems, with concrete memories where they store the information acquired through experiments and reasoning. Here we address these issues in Spekkens' toy theory, a non-contextual epistemically restricted model that partially mimics the behaviour of quantum mechanics. We propose a way to model physical implementations of agents, memories, measurements, conditional actions and information processing. We find that the actions of toy agents are severely limited: although there are non-orthogonal states in the theory, there is no way for physical agents to consciously prepare them. Their memories are also constrained: agents cannot forget in which of two arbitrary states a system is. Finally, we formalize the process of making inferences about other agents' experiments and model multi-agent experiments like Wigner's friend. Unlike quantum theory or box world, in the toy theory there are no inconsistencies when physical agents reason about each other's knowledge.</description>
   </item>
 
 </channel>
