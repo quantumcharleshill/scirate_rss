@@ -23,22 +23,6 @@
   </item>
 
   <item>
-    <title>A Sublinear-Time Quantum Algorithm for Approximating Partition Functions</title>
-    <link>http://arxiv.org/pdf/2207.08643</link>
-    <author>Arjan Cornelissen, Yassine Hamoudi</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>We present a novel quantum algorithm for estimating Gibbs partition functions in sublinear time with respect to the logarithm of the size of the state space. This is the first speed-up of this type to be obtained over the seminal nearly-linear time algorithm of Štefankovič, Vempala and Vigoda [JACM, 2009]. Our result also preserves the quadratic speed-up in precision and spectral gap achieved in previous work by exploiting the properties of quantum Markov chains. As an application, we obtain new polynomial improvements over the best-known algorithms for computing the partition function of the Ising model, and counting the number of $k$-colorings, matchings or independent sets of a graph. Our approach relies on developing new variants of the quantum phase and amplitude estimation algorithms that return nearly unbiased estimates with low variance and without destroying their initial quantum state. We extend these subroutines into a nearly unbiased quantum mean estimator that reduces the variance quadratically faster than the classical empirical mean. No such estimator was known to exist prior to our work. These properties, which are of general interest, lead to better convergence guarantees within the paradigm of simulated annealing for computing partition functions.</description>
-  </item>
-
-  <item>
-    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
-    <link>http://arxiv.org/pdf/2207.08691</link>
-    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
-  </item>
-
-  <item>
     <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
     <link>http://arxiv.org/pdf/2207.09465</link>
     <author>Kevin Slagle, John Preskill</author>
@@ -55,14 +39,6 @@
   </item>
 
   <item>
-    <title>Quantum tomography using state-preparation unitaries</title>
-    <link>http://arxiv.org/pdf/2207.08800</link>
-    <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
-  </item>
-
-  <item>
     <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
     <link>http://arxiv.org/pdf/2207.10098</link>
     <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
@@ -71,11 +47,11 @@
   </item>
 
   <item>
-    <title>Amplitude Estimation from Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2207.08628</link>
-    <author>Patrick Rall, Bryce Fuller</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
+    <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
+    <link>http://arxiv.org/pdf/2207.11014</link>
+    <author>Yassine Hamoudi</author>
+    <pubDate>Jul 25 2022</pubDate>
+    <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
   </item>
 
   <item>
@@ -84,6 +60,30 @@
     <author>Javier Martínez-Cifuentes, K. M. Fonseca-Romero, Nicolás Quesada</author>
     <pubDate>Jul 21 2022</pubDate>
     <description>Recently, Zhong et al. [Science 370, 1460 (2020), Phys. Rev. Lett. 127, 180502 (2021)] performed landmark Gaussian boson sampling experiments with up to 144 modes using threshold detectors. The authors claim to have achieved quantum computational advantage with the implementation of these experiments, named Jiuzhang 1.0 and Jiuzhang 2.0. Their experimental results are validated against several classical hypotheses and adversaries using tests such as the comparison of statistical correlations between modes, Bayesian hypothesis testing and the Heavy Output Generation test. In this work we propose an alternative classical hypothesis for the validation of these experiments. We use the probability distribution of mixtures of coherent states sent into a lossy interferometer; these input mixed states, which we term squashed states, have vacuum fluctuations in one quadrature and excess fluctuations in the other. We find that for configurations in the large photon number density regime, the comparison of statistical correlations does not tell apart the ground truth of the experiment (namely, the probability distribution of two-mode squeezed states sent into a lossy interferometer) from our alternative hypothesis. Moreover, the Bayesian test indicates that our alternative hypothesis is a more likely explanation of the experimental data than the ground truth. Our results indicate that a classical explanation of the experiments of Zhong et al., lacking any quantum features, has not been ruled out.</description>
+  </item>
+
+  <item>
+    <title>Achievable error exponents of data compression with quantum side information and communication over symmetric classical-quantum channels</title>
+    <link>http://arxiv.org/pdf/2207.08899</link>
+    <author>Joseph M. Renes</author>
+    <pubDate>Jul 20 2022</pubDate>
+    <description>A fundamental quantity of interest in Shannon theory, classical or quantum, is the optimal error exponent of a given channel W and rate R: the constant E(W,R) which governs the exponential decay of decoding error when using ever larger codes of fixed rate R to communicate over ever more (memoryless) instances of a given channel W. Here I show that a bound by Hayashi [CMP 333, 335 (2015)] for an analogous quantity in privacy amplification implies a lower bound on the error exponent of communication over symmetric classical-quantum channels. The resulting bound matches Dalai's [IEEE TIT 59, 8027 (2013)] sphere-packing upper bound for rates above a critical value, and reproduces the well-known classical result for symmetric channels. The argument proceeds by first relating the error exponent of privacy amplification to that of compression of classical information with quantum side information, which gives a lower bound that matches the sphere-packing upper bound of Cheng et al. [IEEE TIT 67, 902 (2021)]. In turn, the polynomial prefactors to the sphere-packing bound found by Cheng et al. may be translated to the privacy amplification problem, sharpening a recent result by Li, Yao, and Hayashi [arXiv:2111.01075 [quant-ph]], at least for linear randomness extractors.</description>
+  </item>
+
+  <item>
+    <title>A Faster Quantum Algorithm for Semidefinite Programming via Robust IPM Framework</title>
+    <link>http://arxiv.org/pdf/2207.11154</link>
+    <author>Baihe Huang, Shunhua Jiang, Zhao Song, Runzhou Tao, Ruizhe Zhang</author>
+    <pubDate>Jul 25 2022</pubDate>
+    <description>This paper studies a fundamental problem in convex optimization, which is to solve semidefinite programming (SDP) with high accuracy. This paper follows from existing robust SDP-based interior point method analysis due to [Huang, Jiang, Song, Tao and Zhang, FOCS 2022]. While, the previous work only provides an efficient implementation in the classical setting. This work provides a novel quantum implementation. We give a quantum second-order algorithm with high-accuracy in both the optimality and the feasibility of its output, and its running time depending on $\log(1/\epsilon)$ on well-conditioned instances. Due to the limitation of quantum itself or first-order method, all the existing quantum SDP solvers either have polynomial error dependence or low-accuracy in the feasibility.</description>
+  </item>
+
+  <item>
+    <title>Matching Triangles and Triangle Collection: Hardness based on a Weak Quantum Conjecture</title>
+    <link>http://arxiv.org/pdf/2207.11068</link>
+    <author>Andris Ambainis, Harry Buhrman, Koen Leijnse, Subhasree Patro, Florian Speelman</author>
+    <pubDate>Jul 25 2022</pubDate>
+    <description>Classically, for many computational problems one can conclude time lower bounds conditioned on the hardness of one or more of key problems: k-SAT, 3SUM and APSP. More recently, similar results have been derived in the quantum setting conditioned on the hardness of k-SAT and 3SUM. This is done using fine-grained reductions, where the approach is to (1) select a key problem $X$ that, for some function $T$, is conjectured to not be solvable by any $O(T(n)^{1-\epsilon})$ time algorithm for any constant $\epsilon > 0$ (in a fixed model of computation), and (2) reduce $X$ in a fine-grained way to these computational problems, thus giving (mostly) tight conditional time lower bounds for them. Interestingly, for Delta-Matching Triangles and Triangle Collection, classical hardness results have been derived conditioned on hardness of all three mentioned key problems. More precisely, it is proven that an $n^{3-\epsilon}$ time classical algorithm for either of these two graph problems would imply faster classical algorithms for k-SAT, 3SUM and APSP, which makes Delta-Matching Triangles and Triangle Collection worthwhile to study. In this paper, we show that an $n^{1.5-\epsilon}$ time quantum algorithm for either of these two graph problems would imply faster quantum algorithms for k-SAT, 3SUM, and APSP. We first formulate a quantum hardness conjecture for APSP and then present quantum reductions from k-SAT, 3SUM, and APSP to Delta-Matching Triangles and Triangle Collection. Additionally, based on the quantum APSP conjecture, we are also able to prove quantum lower bounds for a matrix problem and many graph problems. The matching upper bounds follow trivially for most of them, except for Delta-Matching Triangles and Triangle Collection for which we present quantum algorithms that require careful use of data structures and Ambainis' variable time search.</description>
   </item>
 
 </channel>

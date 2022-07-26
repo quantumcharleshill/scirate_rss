@@ -183,19 +183,19 @@
   </item>
 
   <item>
-    <title>Estimating gate-set properties from random sequences</title>
-    <link>http://arxiv.org/pdf/2110.13178</link>
-    <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
-    <pubDate>Oct 27 2021</pubDate>
-    <description>With quantum devices for computing and simulation increasing in scale and complexity, there is a growing need for the development of tools that obtain precise diagnostic information about quantum operations. In this work, we show that by measuring random gate sequences, one can accurately and efficiently estimate a wealth of different properties of noisy implementations of gate sets. This simple experimental protocol is independent of the properties one intends to estimate. It generates `sequence shadows' from which gate-set properties can be extracted, through classical post-processing, in a state preparation and measurement error robust way. The proposed classical post-processing schemes include protocols to extract many average gate fidelities with respect to arbitrary unitary channels. This - as a special case - emulates (interleaved) randomized benchmarking, but is vastly more general in its applicability. We establish that the sequence estimation scheme can be used as a primitive for partial, compressive and full process tomography, and the learning of Pauli noise. This gives rise to channel variants of shadow estimation with close-to optimal performance guarantees. Finally, we discuss applications to the engineering cycle for the optimization of quantum gates, for instance as a novel method to diagnose crosstalk.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
     <pubDate>Jul 08 2022</pubDate>
     <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
+  </item>
+
+  <item>
+    <title>Estimating gate-set properties from random sequences</title>
+    <link>http://arxiv.org/pdf/2110.13178</link>
+    <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
+    <pubDate>Oct 27 2021</pubDate>
+    <description>With quantum devices for computing and simulation increasing in scale and complexity, there is a growing need for the development of tools that obtain precise diagnostic information about quantum operations. In this work, we show that by measuring random gate sequences, one can accurately and efficiently estimate a wealth of different properties of noisy implementations of gate sets. This simple experimental protocol is independent of the properties one intends to estimate. It generates `sequence shadows' from which gate-set properties can be extracted, through classical post-processing, in a state preparation and measurement error robust way. The proposed classical post-processing schemes include protocols to extract many average gate fidelities with respect to arbitrary unitary channels. This - as a special case - emulates (interleaved) randomized benchmarking, but is vastly more general in its applicability. We establish that the sequence estimation scheme can be used as a primitive for partial, compressive and full process tomography, and the learning of Pauli noise. This gives rise to channel variants of shadow estimation with close-to optimal performance guarantees. Finally, we discuss applications to the engineering cycle for the optimization of quantum gates, for instance as a novel method to diagnose crosstalk.</description>
   </item>
 
   <item>
