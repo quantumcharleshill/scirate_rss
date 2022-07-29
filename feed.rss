@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>NLTS Hamiltonians from good quantum codes</title>
-    <link>http://arxiv.org/pdf/2206.13228</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann, Chinmay Nirkhe</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of non-trivial complexity (with complexity measured by the quantum circuit depth preparing the state). We prove this conjecture by showing that the recently discovered families of constant-rate and linear-distance QLDPC codes correspond to NLTS local Hamiltonians.</description>
-  </item>
-
-  <item>
     <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
     <link>http://arxiv.org/pdf/2207.06431</link>
     <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
@@ -47,6 +39,22 @@
   </item>
 
   <item>
+    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
+    <link>http://arxiv.org/pdf/2207.10250</link>
+    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+  </item>
+
+  <item>
+    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
+    <link>http://arxiv.org/pdf/2207.10097</link>
+    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
+  </item>
+
+  <item>
     <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
     <link>http://arxiv.org/pdf/2207.06428</link>
     <author>Benjamin J. Brown</author>
@@ -71,11 +79,11 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+    <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
+    <link>http://arxiv.org/pdf/2207.09465</link>
+    <author>Kevin Slagle, John Preskill</author>
+    <pubDate>Jul 21 2022</pubDate>
+    <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
   </item>
 
   <item>
@@ -87,27 +95,11 @@
   </item>
 
   <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
-  </item>
-
-  <item>
     <title>The QAOA gets stuck starting from a good classical string</title>
     <link>http://arxiv.org/pdf/2207.05089</link>
     <author>Madelyn Cain, Edward Farhi, Sam Gutmann, Daniel Ranard, Eugene Tang</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>The Quantum Approximate Optimization Algorithm (QAOA) is designed to maximize a cost function over bit strings. While the initial state is traditionally a superposition over all strings, it is natural to try expediting the QAOA: first use a classical algorithm to produce some good string, and then run the ordinary QAOA starting in the computational basis state associated with that string. Here we report numerical experiments that this method of initializing the QAOA fails dramatically, exhibiting little to no improvement of the cost function. We investigate criteria for the rare instances in which there is any improvement at all, and we provide a statistical argument for the more typical case of no improvement. The statistical argument holds for any string that locally mimics the thermal ensemble at the appropriate temperature. Our numerical experiments indicate this property holds for typical good strings. We emphasize that our negative results only apply to our simple incarnation of the warm-start QAOA and may not apply to other approaches in the literature. We hope that our theoretical analysis will inform future algorithm design.</description>
-  </item>
-
-  <item>
-    <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
-    <link>http://arxiv.org/pdf/2207.09465</link>
-    <author>Kevin Slagle, John Preskill</author>
-    <pubDate>Jul 21 2022</pubDate>
-    <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
   </item>
 
   <item>
@@ -135,11 +127,11 @@
   </item>
 
   <item>
-    <title>Linear programming with unitary-equivariant constraints</title>
-    <link>http://arxiv.org/pdf/2207.05713</link>
-    <author>Dmitry Grinko, Maris Ozols</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
+    <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2207.10098</link>
+    <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Measurement-Based Quantum Computation (MBQC) is a model of quantum computation, which uses local measurements instead of unitary gates. Here we explain that the MBQC procedure has a fundamental basis in an underlying gauge theory. This perspective provides a theoretical foundation for global aspects of MBQC. The gauge symmetry reflects the freedom of formulating the same MBQC computation in different local reference frames. The main identifications between MBQC and gauge theory concepts are: (i) the computational output of MBQC is a holonomy of the gauge field, (ii) the adaption of measurement basis that remedies the inherent randomness of quantum measurements is effected by gauge transformations. The gauge theory of MBQC also plays a role in characterizing the entanglement structure of symmetry-protected topologically (SPT) ordered states, which are resources for MBQC. Our framework situates MBQC in a broader context of condensed matter and high energy theory.</description>
   </item>
 
   <item>
@@ -148,6 +140,22 @@
     <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
     <pubDate>Jul 19 2022</pubDate>
     <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
+  </item>
+
+  <item>
+    <title>Linear programming with unitary-equivariant constraints</title>
+    <link>http://arxiv.org/pdf/2207.05713</link>
+    <author>Dmitry Grinko, Maris Ozols</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
+  </item>
+
+  <item>
+    <title>What is nonclassical about uncertainty relations?</title>
+    <link>http://arxiv.org/pdf/2207.11779</link>
+    <author>Lorenzo Catani, Matthew Leifer, Giovanni Scala, David Schmid, Robert W. Spekkens</author>
+    <pubDate>Jul 26 2022</pubDate>
+    <description>Uncertainty relations express limits on the extent to which the outcomes of distinct measurements on a single state can be made jointly predictable. The existence of nontrivial uncertainty relations in quantum theory is generally considered to be a way in which it entails a departure from the classical worldview. However, this view is undermined by the fact that there exist operational theories which exhibit nontrivial uncertainty relations but which are consistent with the classical worldview insofar as they admit of a generalized-noncontextual ontological model. This prompts the question of what aspects of uncertainty relations, if any, cannot be realized in this way and so constitute evidence of genuine nonclassicality. We here consider uncertainty relations describing the tradeoff between the predictability of a pair of binary-outcome measurements (e.g., measurements of Pauli X and Pauli Z observables in quantum theory). We show that, for a class of theories satisfying a particular symmetry property, the functional form of this predictability tradeoff is constrained by noncontextuality to be below a linear curve. Because qubit quantum theory has the relevant symmetry property, the fact that it has a quadratic tradeoff between these predictabilities is a violation of this noncontextual bound, and therefore constitutes an example of how the functional form of an uncertainty relation can witness contextuality. We also deduce the implications for a selected group of operational foils to quantum theory and consider the generalization to three measurements.</description>
   </item>
 
   <item>
@@ -167,27 +175,11 @@
   </item>
 
   <item>
-    <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2207.10098</link>
-    <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Measurement-Based Quantum Computation (MBQC) is a model of quantum computation, which uses local measurements instead of unitary gates. Here we explain that the MBQC procedure has a fundamental basis in an underlying gauge theory. This perspective provides a theoretical foundation for global aspects of MBQC. The gauge symmetry reflects the freedom of formulating the same MBQC computation in different local reference frames. The main identifications between MBQC and gauge theory concepts are: (i) the computational output of MBQC is a holonomy of the gauge field, (ii) the adaption of measurement basis that remedies the inherent randomness of quantum measurements is effected by gauge transformations. The gauge theory of MBQC also plays a role in characterizing the entanglement structure of symmetry-protected topologically (SPT) ordered states, which are resources for MBQC. Our framework situates MBQC in a broader context of condensed matter and high energy theory.</description>
-  </item>
-
-  <item>
     <title>Finite-rate sparse quantum codes aplenty</title>
     <link>http://arxiv.org/pdf/2207.03562</link>
     <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
     <pubDate>Jul 11 2022</pubDate>
     <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
-  </item>
-
-  <item>
-    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
-    <link>http://arxiv.org/pdf/2207.05898</link>
-    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
-    <pubDate>Jul 14 2022</pubDate>
-    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
   </item>
 
   <item>
@@ -199,11 +191,27 @@
   </item>
 
   <item>
-    <title>A Pair Measurement Surface Code on Pentagons</title>
-    <link>http://arxiv.org/pdf/2206.12780</link>
-    <author>Craig Gidney</author>
-    <pubDate>Jun 28 2022</pubDate>
-    <description>In this paper, I present a way to compile the surface code into two-body parity measurements ("pair measurements"), where the pair measurements run along the edges of a Cairo pentagonal tiling. The resulting circuit improves on prior work by Chao et al. by using fewer pair measurements per four-body stabilizer measurement (5 instead of 6) and fewer time steps per round of stabilizer measurement (6 instead of 10). Using Monte Carlo sampling, I show that these improvements increase the threshold of the surface code when compiling into pair measurements from $\approx 0.2\%$ to $\approx 0.4\%$, and also that they improve the teraquop footprint at a $0.1\%$ physical gate error rate from $\approx6000$ qubits to $\approx3000$ qubits. However, I also show that Chao et al's construction will have a smaller teraquop footprint for physical gate error rates below $\approx 0.03\%$ (due to bidirectional hook errors in my construction). I also compare to the planar honeycomb code, showing that although this work does noticeably reduce the gap between the surface code and the honeycomb code (when compiling into pair measurements), the honeycomb code is still more efficient (threshold $\approx 0.8\%$, teraquop footprint at $0.1\%$ of $\approx 1000$).</description>
+    <title>Quantifying Nonstabilizerness of Matrix Product States</title>
+    <link>http://arxiv.org/pdf/2207.13076</link>
+    <author>Tobias Haug, Lorenzo Piroli</author>
+    <pubDate>Jul 27 2022</pubDate>
+    <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of ``long-range magic''.</description>
+  </item>
+
+  <item>
+    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
+    <link>http://arxiv.org/pdf/2207.05898</link>
+    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
+    <pubDate>Jul 14 2022</pubDate>
+    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
+  </item>
+
+  <item>
+    <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
+    <link>http://arxiv.org/pdf/2207.11014</link>
+    <author>Yassine Hamoudi</author>
+    <pubDate>Jul 25 2022</pubDate>
+    <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
   </item>
 
   <item>
@@ -231,19 +239,11 @@
   </item>
 
   <item>
-    <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
-    <link>http://arxiv.org/pdf/2207.11014</link>
-    <author>Yassine Hamoudi</author>
-    <pubDate>Jul 25 2022</pubDate>
-    <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
-  </item>
-
-  <item>
-    <title>Demonstrating scalable randomized benchmarking of universal gate sets</title>
-    <link>http://arxiv.org/pdf/2207.07272</link>
-    <author>Jordan Hines, Marie Lu, Ravi K. Naik, Akel Hashim, Jean-Loup Ville, Brad Mitchell, John Mark Kriekebaum, David I. Santiago, Stefan Seritan, Erik Nielsen, Robin Blume-Kohout, Kevin Young, Irfan Siddiqi, Birgitta Whaley, Timothy Proctor</author>
-    <pubDate>Jul 18 2022</pubDate>
-    <description>Randomized benchmarking (RB) protocols are the most widely used methods for assessing the performance of quantum gates. However, the existing RB methods either do not scale to many qubits or cannot benchmark a universal gate set. Here, we introduce and demonstrate a technique for scalable RB of many universal and continuously parameterized gate sets, using a class of circuits called randomized mirror circuits. Our technique can be applied to a gate set containing an entangling Clifford gate and the set of arbitrary single-qubit gates, as well as gate sets containing controlled rotations about the Pauli axes. We use our technique to benchmark universal gate sets on four qubits of the Advanced Quantum Testbed, including a gate set containing a controlled-S gate and its inverse, and we investigate how the observed error rate is impacted by the inclusion of non-Clifford gates. Finally, we demonstrate that our technique scales to many qubits with experiments on a 27-qubit IBM Q processor. We use our technique to quantify the impact of crosstalk on this 27-qubit device, and we find that it contributes approximately 2/3 of the total error per gate in random many-qubit circuit layers.</description>
+    <title>Publicly verifiable quantum money from random lattices</title>
+    <link>http://arxiv.org/pdf/2207.13135</link>
+    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
+    <pubDate>Jul 28 2022</pubDate>
+    <description>Publicly verifiable quantum money is a protocol for the preparation of quantum states that can be efficiently verified by any party for authenticity but is computationally infeasible to counterfeit. We develop a cryptographic scheme for publicly verifiable quantum money based on Gaussian superpositions over random lattices. We introduce a verification-of-authenticity procedure based on the lattice discrete Fourier transform, and subsequently prove the unforgeability of our quantum money under the hardness of the short vector problem from lattice-based cryptography.</description>
   </item>
 
 </channel>
