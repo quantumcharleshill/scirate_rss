@@ -7,6 +7,22 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
+    <link>http://arxiv.org/pdf/2207.13707</link>
+    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
+  </item>
+
+  <item>
+    <title>Matchgate Shadows for Fermionic Quantum Simulation</title>
+    <link>http://arxiv.org/pdf/2207.13723</link>
+    <author>Kianna Wan, William J. Huggins, Joonho Lee, Ryan Babbush</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>"Classical shadows" are estimators of an unknown quantum state, constructed from suitably distributed random measurements on copies of that state [Nature Physics 16, 1050-1057]. Here, we analyze classical shadows obtained using random matchgate circuits, which correspond to fermionic Gaussian unitaries. We prove that the first three moments of the Haar distribution over the continuous group of matchgate circuits are equal to those of the discrete uniform distribution over only the matchgate circuits that are also Clifford unitaries; thus, the latter forms a "matchgate 3-design." This implies that the classical shadows resulting from the two ensembles are functionally equivalent. We show how one can use these matchgate shadows to efficiently estimate inner products between an arbitrary quantum state and fermionic Gaussian states, as well as the expectation values of local fermionic operators and various other quantities, thus surpassing the capabilities of prior work. As a concrete application, this enables us to apply wavefunction constraints that control the fermion sign problem in the quantum-classical auxiliary-field quantum Monte Carlo algorithm (QC-AFQMC) [Nature 603, 416-420], without the exponential post-processing cost incurred by the original approach.</description>
+  </item>
+
+  <item>
     <title>What is nonclassical about uncertainty relations?</title>
     <link>http://arxiv.org/pdf/2207.11779</link>
     <author>Lorenzo Catani, Matthew Leifer, Giovanni Scala, David Schmid, Robert W. Spekkens</author>
@@ -23,14 +39,6 @@
   </item>
 
   <item>
-    <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
-    <link>http://arxiv.org/pdf/2207.11014</link>
-    <author>Yassine Hamoudi</author>
-    <pubDate>Jul 25 2022</pubDate>
-    <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
-  </item>
-
-  <item>
     <title>Publicly verifiable quantum money from random lattices</title>
     <link>http://arxiv.org/pdf/2207.13135</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
@@ -39,27 +47,19 @@
   </item>
 
   <item>
+    <title>Random Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2207.14280</link>
+    <author>Matthew P. A. Fisher, Vedika Khemani, Adam Nahum, Sagar Vijay</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Quantum circuits -- built from local unitary gates and local measurements -- are a new playground for quantum many-body physics and a tractable setting to explore universal collective phenomena far-from-equilibrium. These models have shed light on longstanding questions about thermalization and chaos, and on the underlying universal dynamics of quantum information and entanglement. In addition, such models generate new sets of questions and give rise to phenomena with no traditional analog, such as new dynamical phases in quantum systems that are monitored by an external observer. Quantum circuit dynamics is also topical in view of experimental progress in building digital quantum simulators that allow control of precisely these ingredients. Randomness in the circuit elements allows a high level of theoretical control, with a key theme being mappings between real-time quantum dynamics and effective classical lattice models or dynamical processes. Many of the universal phenomena that can be identified in this tractable setting apply to much wider classes of more structured many-body dynamics.</description>
+  </item>
+
+  <item>
     <title>Resources for bosonic quantum computational advantage</title>
     <link>http://arxiv.org/pdf/2207.11781</link>
     <author>Ulysse Chabaud, Mattia Walschaers</author>
     <pubDate>Jul 26 2022</pubDate>
     <description>Quantum computers promise to dramatically outperform their classical counterparts. However, the non-classical resources enabling such computational advantages are challenging to pinpoint, as it is not a single resource but the subtle interplay of many that can be held responsible for these potential advantages. In this work, we show that every bosonic quantum computation can be recast into a continuous-variable sampling computation where all computational resources are contained in the input state. Using this reduction, we derive a general classical algorithm for the strong simulation of bosonic computations, whose complexity scales with the non-Gaussian stellar rank of both the input state and the measurement setup. We further study the conditions for an efficient classical simulation of the associated continuous-variable sampling computations and identify an operational notion of non-Gaussian entanglement based on the lack of passive separability, thus clarifying the interplay of bosonic quantum computational resources such as squeezing, non-Gaussianity and entanglement.</description>
-  </item>
-
-  <item>
-    <title>A Faster Quantum Algorithm for Semidefinite Programming via Robust IPM Framework</title>
-    <link>http://arxiv.org/pdf/2207.11154</link>
-    <author>Baihe Huang, Shunhua Jiang, Zhao Song, Runzhou Tao, Ruizhe Zhang</author>
-    <pubDate>Jul 25 2022</pubDate>
-    <description>This paper studies a fundamental problem in convex optimization, which is to solve semidefinite programming (SDP) with high accuracy. This paper follows from existing robust SDP-based interior point method analysis due to [Huang, Jiang, Song, Tao and Zhang, FOCS 2022]. While, the previous work only provides an efficient implementation in the classical setting. This work provides a novel quantum implementation. We give a quantum second-order algorithm with high-accuracy in both the optimality and the feasibility of its output, and its running time depending on $\log(1/\epsilon)$ on well-conditioned instances. Due to the limitation of quantum itself or first-order method, all the existing quantum SDP solvers either have polynomial error dependence or low-accuracy in the feasibility.</description>
-  </item>
-
-  <item>
-    <title>Matching Triangles and Triangle Collection: Hardness based on a Weak Quantum Conjecture</title>
-    <link>http://arxiv.org/pdf/2207.11068</link>
-    <author>Andris Ambainis, Harry Buhrman, Koen Leijnse, Subhasree Patro, Florian Speelman</author>
-    <pubDate>Jul 25 2022</pubDate>
-    <description>Classically, for many computational problems one can conclude time lower bounds conditioned on the hardness of one or more of key problems: k-SAT, 3SUM and APSP. More recently, similar results have been derived in the quantum setting conditioned on the hardness of k-SAT and 3SUM. This is done using fine-grained reductions, where the approach is to (1) select a key problem $X$ that, for some function $T$, is conjectured to not be solvable by any $O(T(n)^{1-\epsilon})$ time algorithm for any constant $\epsilon > 0$ (in a fixed model of computation), and (2) reduce $X$ in a fine-grained way to these computational problems, thus giving (mostly) tight conditional time lower bounds for them. Interestingly, for Delta-Matching Triangles and Triangle Collection, classical hardness results have been derived conditioned on hardness of all three mentioned key problems. More precisely, it is proven that an $n^{3-\epsilon}$ time classical algorithm for either of these two graph problems would imply faster classical algorithms for k-SAT, 3SUM and APSP, which makes Delta-Matching Triangles and Triangle Collection worthwhile to study. In this paper, we show that an $n^{1.5-\epsilon}$ time quantum algorithm for either of these two graph problems would imply faster quantum algorithms for k-SAT, 3SUM, and APSP. We first formulate a quantum hardness conjecture for APSP and then present quantum reductions from k-SAT, 3SUM, and APSP to Delta-Matching Triangles and Triangle Collection. Additionally, based on the quantum APSP conjecture, we are also able to prove quantum lower bounds for a matrix problem and many graph problems. The matching upper bounds follow trivially for most of them, except for Delta-Matching Triangles and Triangle Collection for which we present quantum algorithms that require careful use of data structures and Ambainis' variable time search.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Matchgate Shadows for Fermionic Quantum Simulation</title>
-    <link>http://arxiv.org/pdf/2207.13723</link>
-    <author>Kianna Wan, William J. Huggins, Joonho Lee, Ryan Babbush</author>
-    <pubDate>Jul 29 2022</pubDate>
-    <description>"Classical shadows" are estimators of an unknown quantum state, constructed from suitably distributed random measurements on copies of that state [Nature Physics 16, 1050-1057]. Here, we analyze classical shadows obtained using random matchgate circuits, which correspond to fermionic Gaussian unitaries. We prove that the first three moments of the Haar distribution over the continuous group of matchgate circuits are equal to those of the discrete uniform distribution over only the matchgate circuits that are also Clifford unitaries; thus, the latter forms a "matchgate 3-design." This implies that the classical shadows resulting from the two ensembles are functionally equivalent. We show how one can use these matchgate shadows to efficiently estimate inner products between an arbitrary quantum state and fermionic Gaussian states, as well as the expectation values of local fermionic operators and various other quantities, thus surpassing the capabilities of prior work. As a concrete application, this enables us to apply wavefunction constraints that control the fermion sign problem in the quantum-classical auxiliary-field quantum Monte Carlo algorithm (QC-AFQMC) [Nature 603, 416-420], without the exponential post-processing cost incurred by the original approach.</description>
+    <title>Many-body quantum chaos and emergence of Ginibre ensemble</title>
+    <link>http://arxiv.org/pdf/2207.12390</link>
+    <author>Saumya Shivam, Andrea De Luca, David A. Huse, Amos Chan</author>
+    <pubDate>Jul 26 2022</pubDate>
+    <description>We establish a connection between many-body quantum chaotic (MBQC) systems and the Ginibre random matrix ensemble (GinUE) - namely that non-Hermitian GinUE behaviors emerge in spatially-extended MBQC systems in the space direction, just as Hermitian random matrix behaviours emerge in MBQC systems in the time direction. We demonstrate the emergence of GinUE firstly in translational invariant (TI) MBQC systems, which can be associated with dual transfer matrices with complex-valued spectra, before generalizing to spatially-random systems. We argue and demonstrate that the dual spectra of TI MBQC systems necessarily have non-trivial and universal correlations due to the existence of a linear ramp in the spectral form factor (SFF). We show that, firstly, the spectral statistics of the dual spectra, probed by the dissipative spectral form factor and spacing distribution, falls under the universality class of the GinUE, and in particular displays level repulsion in the complex plane. Secondly, we obtain an exact analytical expression of SFF for the GinUE, and show that it universally describes the SFF of TI MBQC systems in the scaling limit where $t$ and $L$ are large, while the ratio between $L$ and $L_{\mathrm{Th}}$, the many body Thouless length is fixed. Thirdly, we propose variations of Ginibre models accounting for time periodicity, such that the SFF of Floquet MBQC (with or without TI) can be analytically described, thereby removing the necessity of TI for the emergence of GinUE. Lastly, we remark that locality and the many-body nature of MBQC systems are required for the emergence of the GinUE in large system sizes.</description>
   </item>
 
 </channel>
