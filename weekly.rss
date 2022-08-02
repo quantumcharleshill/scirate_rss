@@ -23,19 +23,19 @@
   </item>
 
   <item>
-    <title>What is nonclassical about uncertainty relations?</title>
-    <link>http://arxiv.org/pdf/2207.11779</link>
-    <author>Lorenzo Catani, Matthew Leifer, Giovanni Scala, David Schmid, Robert W. Spekkens</author>
-    <pubDate>Jul 26 2022</pubDate>
-    <description>Uncertainty relations express limits on the extent to which the outcomes of distinct measurements on a single state can be made jointly predictable. The existence of nontrivial uncertainty relations in quantum theory is generally considered to be a way in which it entails a departure from the classical worldview. However, this view is undermined by the fact that there exist operational theories which exhibit nontrivial uncertainty relations but which are consistent with the classical worldview insofar as they admit of a generalized-noncontextual ontological model. This prompts the question of what aspects of uncertainty relations, if any, cannot be realized in this way and so constitute evidence of genuine nonclassicality. We here consider uncertainty relations describing the tradeoff between the predictability of a pair of binary-outcome measurements (e.g., measurements of Pauli X and Pauli Z observables in quantum theory). We show that, for a class of theories satisfying a particular symmetry property, the functional form of this predictability tradeoff is constrained by noncontextuality to be below a linear curve. Because qubit quantum theory has the relevant symmetry property, the fact that it has a quadratic tradeoff between these predictabilities is a violation of this noncontextual bound, and therefore constitutes an example of how the functional form of an uncertainty relation can witness contextuality. We also deduce the implications for a selected group of operational foils to quantum theory and consider the generalization to three measurements.</description>
-  </item>
-
-  <item>
     <title>Quantifying Nonstabilizerness of Matrix Product States</title>
     <link>http://arxiv.org/pdf/2207.13076</link>
     <author>Tobias Haug, Lorenzo Piroli</author>
     <pubDate>Jul 27 2022</pubDate>
     <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of ``long-range magic''.</description>
+  </item>
+
+  <item>
+    <title>Lower bounds for learning quantum states with single-copy measurements</title>
+    <link>http://arxiv.org/pdf/2207.14438</link>
+    <author>Angus Lowe, Ashwin Nayak</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
   </item>
 
   <item>
@@ -55,14 +55,6 @@
   </item>
 
   <item>
-    <title>Resources for bosonic quantum computational advantage</title>
-    <link>http://arxiv.org/pdf/2207.11781</link>
-    <author>Ulysse Chabaud, Mattia Walschaers</author>
-    <pubDate>Jul 26 2022</pubDate>
-    <description>Quantum computers promise to dramatically outperform their classical counterparts. However, the non-classical resources enabling such computational advantages are challenging to pinpoint, as it is not a single resource but the subtle interplay of many that can be held responsible for these potential advantages. In this work, we show that every bosonic quantum computation can be recast into a continuous-variable sampling computation where all computational resources are contained in the input state. Using this reduction, we derive a general classical algorithm for the strong simulation of bosonic computations, whose complexity scales with the non-Gaussian stellar rank of both the input state and the measurement setup. We further study the conditions for an efficient classical simulation of the associated continuous-variable sampling computations and identify an operational notion of non-Gaussian entanglement based on the lack of passive separability, thus clarifying the interplay of bosonic quantum computational resources such as squeezing, non-Gaussianity and entanglement.</description>
-  </item>
-
-  <item>
     <title>Do Quantum Circuit Born Machines Generalize?</title>
     <link>http://arxiv.org/pdf/2207.13645</link>
     <author>Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz</author>
@@ -71,19 +63,27 @@
   </item>
 
   <item>
+    <title>Quantum Data Center: Theories and Applications</title>
+    <link>http://arxiv.org/pdf/2207.14336</link>
+    <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.</description>
+  </item>
+
+  <item>
+    <title>Fermionic tomography and learning</title>
+    <link>http://arxiv.org/pdf/2207.14787</link>
+    <author>Bryan O'Gorman</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>Shadow tomography via classical shadows is a state-of-the-art approach for estimating properties of a quantum state. We present a simplified, combinatorial analysis of a recently proposed instantiation of this approach based on the ensemble of unitaries that are both fermionic Gaussian and Clifford. Using this analysis, we derive a corrected expression for the variance of the estimator. We then show how this leads to efficient estimation protocols for the fidelity with a pure fermionic Gaussian state (provably) and for an $X$-like operator of the form ($|\mathbf 0\rangle\langle\psi|$ + h.c.) (via numerical evidence). We also construct much smaller ensembles of measurement bases that yield the exact same quantum channel, which may help with compilation. We use these tools to show that an $n$-electron, $m$-mode Slater determinant can be learned to within $\epsilon$ fidelity given $O(n^2 m^7 \log(m / \delta) / \epsilon^2)$ samples of the Slater determinant.</description>
+  </item>
+
+  <item>
     <title>The minimal communication cost for simulating entangled qubits</title>
     <link>http://arxiv.org/pdf/2207.12457</link>
     <author>Martin J. Renner, Marco Túlio Quintino</author>
     <pubDate>Jul 27 2022</pubDate>
     <description>We analyse the amount of classical communication required to reproduce the statistics of local projective measurements on a general pair of entangled qubits, $|\Psi_{AB}>=\sqrt{p}\ |00>+\sqrt{1-p}\ |11>$ ($1/2\leq p \leq 1$). We construct a classical protocol that perfectly simulates local projective measurements on all entangled qubit pairs by communicating one classical trit. Additionally, when $\frac{2p(1-p)}{2p-1} \log{\left(\frac{p}{1-p}\right)}+2(1-p)\leq1$, approximately $0.835 \leq p \leq 1$, we present a classical protocol that requires only a single bit of communication. The latter model even allows a perfect classical simulation with an average communication cost that approaches zero in the limit where the degree of entanglement approaches zero ($p \to 1$). This proves that the communication cost for simulating weakly entangled qubit pairs is strictly smaller than for the maximally entangled one.</description>
-  </item>
-
-  <item>
-    <title>Many-body quantum chaos and emergence of Ginibre ensemble</title>
-    <link>http://arxiv.org/pdf/2207.12390</link>
-    <author>Saumya Shivam, Andrea De Luca, David A. Huse, Amos Chan</author>
-    <pubDate>Jul 26 2022</pubDate>
-    <description>We establish a connection between many-body quantum chaotic (MBQC) systems and the Ginibre random matrix ensemble (GinUE) - namely that non-Hermitian GinUE behaviors emerge in spatially-extended MBQC systems in the space direction, just as Hermitian random matrix behaviours emerge in MBQC systems in the time direction. We demonstrate the emergence of GinUE firstly in translational invariant (TI) MBQC systems, which can be associated with dual transfer matrices with complex-valued spectra, before generalizing to spatially-random systems. We argue and demonstrate that the dual spectra of TI MBQC systems necessarily have non-trivial and universal correlations due to the existence of a linear ramp in the spectral form factor (SFF). We show that, firstly, the spectral statistics of the dual spectra, probed by the dissipative spectral form factor and spacing distribution, falls under the universality class of the GinUE, and in particular displays level repulsion in the complex plane. Secondly, we obtain an exact analytical expression of SFF for the GinUE, and show that it universally describes the SFF of TI MBQC systems in the scaling limit where $t$ and $L$ are large, while the ratio between $L$ and $L_{\mathrm{Th}}$, the many body Thouless length is fixed. Thirdly, we propose variations of Ginibre models accounting for time periodicity, such that the SFF of Floquet MBQC (with or without TI) can be analytically described, thereby removing the necessity of TI for the emergence of GinUE. Lastly, we remark that locality and the many-body nature of MBQC systems are required for the emergence of the GinUE in large system sizes.</description>
   </item>
 
 </channel>

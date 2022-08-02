@@ -39,14 +39,6 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
-  </item>
-
-  <item>
     <title>Matchgate Shadows for Fermionic Quantum Simulation</title>
     <link>http://arxiv.org/pdf/2207.13723</link>
     <author>Kianna Wan, William J. Huggins, Joonho Lee, Ryan Babbush</author>
@@ -55,11 +47,27 @@
   </item>
 
   <item>
+    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
+    <link>http://arxiv.org/pdf/2207.10250</link>
+    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+  </item>
+
+  <item>
     <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
     <link>http://arxiv.org/pdf/2207.10097</link>
     <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
     <pubDate>Jul 22 2022</pubDate>
     <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
+  </item>
+
+  <item>
+    <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
+    <link>http://arxiv.org/pdf/2207.09465</link>
+    <author>Kevin Slagle, John Preskill</author>
+    <pubDate>Jul 21 2022</pubDate>
+    <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Satvik Singh, Nilanjana Datta</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
-  </item>
-
-  <item>
-    <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
-    <link>http://arxiv.org/pdf/2207.09465</link>
-    <author>Kevin Slagle, John Preskill</author>
-    <pubDate>Jul 21 2022</pubDate>
-    <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
   </item>
 
   <item>
@@ -191,11 +191,27 @@
   </item>
 
   <item>
+    <title>Lower bounds for learning quantum states with single-copy measurements</title>
+    <link>http://arxiv.org/pdf/2207.14438</link>
+    <author>Angus Lowe, Ashwin Nayak</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
+  </item>
+
+  <item>
     <title>Finite-rate sparse quantum codes aplenty</title>
     <link>http://arxiv.org/pdf/2207.03562</link>
     <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
     <pubDate>Jul 11 2022</pubDate>
     <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
+  </item>
+
+  <item>
+    <title>Publicly verifiable quantum money from random lattices</title>
+    <link>http://arxiv.org/pdf/2207.13135</link>
+    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
+    <pubDate>Jul 28 2022</pubDate>
+    <description>Publicly verifiable quantum money is a protocol for the preparation of quantum states that can be efficiently verified by any party for authenticity but is computationally infeasible to counterfeit. We develop a cryptographic scheme for publicly verifiable quantum money based on Gaussian superpositions over random lattices. We introduce a verification-of-authenticity procedure based on the lattice discrete Fourier transform, and subsequently prove the unforgeability of our quantum money under the hardness of the short vector problem from lattice-based cryptography.</description>
   </item>
 
   <item>
@@ -215,22 +231,6 @@
   </item>
 
   <item>
-    <title>Publicly verifiable quantum money from random lattices</title>
-    <link>http://arxiv.org/pdf/2207.13135</link>
-    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
-    <pubDate>Jul 28 2022</pubDate>
-    <description>Publicly verifiable quantum money is a protocol for the preparation of quantum states that can be efficiently verified by any party for authenticity but is computationally infeasible to counterfeit. We develop a cryptographic scheme for publicly verifiable quantum money based on Gaussian superpositions over random lattices. We introduce a verification-of-authenticity procedure based on the lattice discrete Fourier transform, and subsequently prove the unforgeability of our quantum money under the hardness of the short vector problem from lattice-based cryptography.</description>
-  </item>
-
-  <item>
-    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
-    <link>http://arxiv.org/pdf/2207.00553</link>
-    <author>James R. Wootton</author>
-    <pubDate>Jul 04 2022</pubDate>
-    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
     <title>Random Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2207.14280</link>
     <author>Matthew P. A. Fisher, Vedika Khemani, Adam Nahum, Sagar Vijay</author>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>Classification of measurement-based quantum wire in stabilizer PEPS</title>
-    <link>http://arxiv.org/pdf/2207.00616</link>
-    <author>Paul Herringer, Robert Raussendorf</author>
-    <pubDate>Jul 05 2022</pubDate>
-    <description>We consider a class of translation-invariant 2D tensor network states with a stabilizer symmetry, which we call stabilizer PEPS. The cluster state, GHZ state, and states in the toric code belong to this class. We investigate the transmission capacity of stabilizer PEPS for measurement-based quantum wire, and arrive at a complete classification of transmission behaviors. The transmission behaviors fall into 13 classes, one of which corresponds to Clifford quantum cellular automata. In addition, we identify 12 other classes.</description>
+    <title>Syndrome-Derived Error Rates as a Benchmark of Quantum Hardware</title>
+    <link>http://arxiv.org/pdf/2207.00553</link>
+    <author>James R. Wootton</author>
+    <pubDate>Jul 04 2022</pubDate>
+    <description>Quantum error correcting codes are designed to pinpoint exactly when and where errors occur in quantum circuits. This feature is the foundation of their primary task: to support fault-tolerant quantum computation. However, this feature could used as the basis of benchmarking: By analyzing the outputs of even small-scale quantum error correction circuits, a detailed picture can be constructed of error processes across a quantum device. Here we perform an example of such an analysis, using the results of small repetition codes to determine the error rate of each qubit while idle during a syndrome measurement. This provides an idea of the errors experienced by the qubits across a device while they are part of the kind of circuit that we expect to be typical in fault-tolerant quantum computers.</description>
   </item>
 
 </channel>

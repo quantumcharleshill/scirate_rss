@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Lower bounds for learning quantum states with single-copy measurements</title>
+    <link>http://arxiv.org/pdf/2207.14438</link>
+    <author>Angus Lowe, Ashwin Nayak</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
+  </item>
+
+  <item>
     <title>Quantum Data Center: Theories and Applications</title>
     <link>http://arxiv.org/pdf/2207.14336</link>
     <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
@@ -31,19 +39,11 @@
   </item>
 
   <item>
-    <title>Simplifying a classical-quantum algorithm interpolation with quantum singular value transformations</title>
-    <link>http://arxiv.org/pdf/2207.14810</link>
-    <author>Duarte Magano, Miguel Murça</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>The problem of Phase Estimation (or Amplitude Estimation) admits a quadratic quantum speedup. Wang, Iggott and Brierly [2019, Phys. Rev. Lett. 122 140504] have shown that there is a continuous trade-off between quantum speedup and circuit depth (by defining a family of algorithms known as $\alpha$-VQE). In this work, we show that the scaling of $\alpha$-VQE can be naturally and succinctly derived within the framework of Quantum Singular Value Transformation (QSVT). From the QSVT perspective, a greater number of coherent oracle calls translates into a better polynomial approximation to the sign function, which is the key routine for solving Phase Estimation. The better the approximation to the sign function, the fewer samples one needs to determine the sign accurately. With this idea, we simplify the proof of $\alpha$-VQE, while providing a new interpretation of the interpolation parameters, and show that QSVT is a promising framework for reasoning about classical-quantum interpolations.</description>
-  </item>
-
-  <item>
-    <title>Lower bounds for learning quantum states with single-copy measurements</title>
-    <link>http://arxiv.org/pdf/2207.14438</link>
-    <author>Angus Lowe, Ashwin Nayak</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
+    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.01002</link>
+    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
   </item>
 
 </channel>
