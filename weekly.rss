@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Quantifying Nonstabilizerness of Matrix Product States</title>
-    <link>http://arxiv.org/pdf/2207.13076</link>
-    <author>Tobias Haug, Lorenzo Piroli</author>
-    <pubDate>Jul 27 2022</pubDate>
-    <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of ``long-range magic''.</description>
-  </item>
-
-  <item>
     <title>Lower bounds for learning quantum states with single-copy measurements</title>
     <link>http://arxiv.org/pdf/2207.14438</link>
     <author>Angus Lowe, Ashwin Nayak</author>
@@ -47,6 +39,14 @@
   </item>
 
   <item>
+    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.01002</link>
+    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
+  </item>
+
+  <item>
     <title>Random Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2207.14280</link>
     <author>Matthew P. A. Fisher, Vedika Khemani, Adam Nahum, Sagar Vijay</author>
@@ -55,11 +55,11 @@
   </item>
 
   <item>
-    <title>Do Quantum Circuit Born Machines Generalize?</title>
-    <link>http://arxiv.org/pdf/2207.13645</link>
-    <author>Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Jul 28 2022</pubDate>
-    <description>In recent proposals of quantum circuit models for generative tasks, the discussion about their performance has been limited to their ability to reproduce a known target distribution. For example, expressive model families such as Quantum Circuit Born Machines (QCBMs) have been almost entirely evaluated on their capability to learn a given target distribution with high accuracy. While this aspect may be ideal for some tasks, it limits the scope of a generative model's assessment to its ability to memorize data rather than generalize. As a result, there has been little understanding of a model's generalization performance and the relation between such capability and the resource requirements, e.g., the circuit depth and the amount of training data. In this work, we leverage upon a recently proposed generalization evaluation framework to begin addressing this knowledge gap. We first investigate the QCBM's learning process of a cardinality-constrained distribution and see an increase in generalization performance while increasing the circuit depth. In the 12-qubit example presented here, we observe that with as few as 30% of the valid patterns as the training set, the QCBM exhibits the best generalization performance toward generating unseen and valid patterns. Lastly, we assess the QCBM's ability to generalize not only to valid features, but to high-quality bitstrings distributed according to an adequately biased distribution. We see that the QCBM is able to effectively learn the bias and generate unseen samples with higher quality than those in the training set. To the best of our knowledge, this is the first work in the literature that presents the QCBM's generalization performance as an integral evaluation metric for quantum generative models, and demonstrates the QCBM's ability to generalize to high-quality, desired novel samples.</description>
+    <title>Exact and efficient Lanczos method on a quantum computer</title>
+    <link>http://arxiv.org/pdf/2208.00567</link>
+    <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
+    <title>Do Quantum Circuit Born Machines Generalize?</title>
+    <link>http://arxiv.org/pdf/2207.13645</link>
+    <author>Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz</author>
+    <pubDate>Jul 28 2022</pubDate>
+    <description>In recent proposals of quantum circuit models for generative tasks, the discussion about their performance has been limited to their ability to reproduce a known target distribution. For example, expressive model families such as Quantum Circuit Born Machines (QCBMs) have been almost entirely evaluated on their capability to learn a given target distribution with high accuracy. While this aspect may be ideal for some tasks, it limits the scope of a generative model's assessment to its ability to memorize data rather than generalize. As a result, there has been little understanding of a model's generalization performance and the relation between such capability and the resource requirements, e.g., the circuit depth and the amount of training data. In this work, we leverage upon a recently proposed generalization evaluation framework to begin addressing this knowledge gap. We first investigate the QCBM's learning process of a cardinality-constrained distribution and see an increase in generalization performance while increasing the circuit depth. In the 12-qubit example presented here, we observe that with as few as 30% of the valid patterns as the training set, the QCBM exhibits the best generalization performance toward generating unseen and valid patterns. Lastly, we assess the QCBM's ability to generalize not only to valid features, but to high-quality bitstrings distributed according to an adequately biased distribution. We see that the QCBM is able to effectively learn the bias and generate unseen samples with higher quality than those in the training set. To the best of our knowledge, this is the first work in the literature that presents the QCBM's generalization performance as an integral evaluation metric for quantum generative models, and demonstrates the QCBM's ability to generalize to high-quality, desired novel samples.</description>
+  </item>
+
+  <item>
     <title>Fermionic tomography and learning</title>
     <link>http://arxiv.org/pdf/2207.14787</link>
     <author>Bryan O'Gorman</author>
     <pubDate>Aug 01 2022</pubDate>
     <description>Shadow tomography via classical shadows is a state-of-the-art approach for estimating properties of a quantum state. We present a simplified, combinatorial analysis of a recently proposed instantiation of this approach based on the ensemble of unitaries that are both fermionic Gaussian and Clifford. Using this analysis, we derive a corrected expression for the variance of the estimator. We then show how this leads to efficient estimation protocols for the fidelity with a pure fermionic Gaussian state (provably) and for an $X$-like operator of the form ($|\mathbf 0\rangle\langle\psi|$ + h.c.) (via numerical evidence). We also construct much smaller ensembles of measurement bases that yield the exact same quantum channel, which may help with compilation. We use these tools to show that an $n$-electron, $m$-mode Slater determinant can be learned to within $\epsilon$ fidelity given $O(n^2 m^7 \log(m / \delta) / \epsilon^2)$ samples of the Slater determinant.</description>
-  </item>
-
-  <item>
-    <title>The minimal communication cost for simulating entangled qubits</title>
-    <link>http://arxiv.org/pdf/2207.12457</link>
-    <author>Martin J. Renner, Marco Túlio Quintino</author>
-    <pubDate>Jul 27 2022</pubDate>
-    <description>We analyse the amount of classical communication required to reproduce the statistics of local projective measurements on a general pair of entangled qubits, $|\Psi_{AB}>=\sqrt{p}\ |00>+\sqrt{1-p}\ |11>$ ($1/2\leq p \leq 1$). We construct a classical protocol that perfectly simulates local projective measurements on all entangled qubit pairs by communicating one classical trit. Additionally, when $\frac{2p(1-p)}{2p-1} \log{\left(\frac{p}{1-p}\right)}+2(1-p)\leq1$, approximately $0.835 \leq p \leq 1$, we present a classical protocol that requires only a single bit of communication. The latter model even allows a perfect classical simulation with an average communication cost that approaches zero in the limit where the degree of entanglement approaches zero ($p \to 1$). This proves that the communication cost for simulating weakly entangled qubit pairs is strictly smaller than for the maximally entangled one.</description>
   </item>
 
 </channel>

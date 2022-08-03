@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Solving the sampling problem of the Sycamore quantum supremacy circuits</title>
-    <link>http://arxiv.org/pdf/2111.03011</link>
-    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
-    <pubDate>Nov 05 2021</pubDate>
-    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\widehat P(\mathbf s)=|\widehat \psi(\mathbf s)|^2$, where the approximate state $\widehat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order are made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
-  </item>
-
-  <item>
     <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
     <link>http://arxiv.org/pdf/2207.06431</link>
     <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
     <pubDate>Jul 15 2022</pubDate>
     <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
+  </item>
+
+  <item>
+    <title>Solving the sampling problem of the Sycamore quantum supremacy circuits</title>
+    <link>http://arxiv.org/pdf/2111.03011</link>
+    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
+    <pubDate>Nov 05 2021</pubDate>
+    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\widehat P(\mathbf s)=|\widehat \psi(\mathbf s)|^2$, where the approximate state $\widehat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order are made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
   </item>
 
   <item>
@@ -167,14 +167,6 @@
   </item>
 
   <item>
-    <title>A construction of Combinatorial NLTS</title>
-    <link>http://arxiv.org/pdf/2206.02741</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
@@ -183,11 +175,11 @@
   </item>
 
   <item>
-    <title>Open Problems Related to Quantum Query Complexity</title>
-    <link>http://arxiv.org/pdf/2109.06917</link>
-    <author>Scott Aaronson</author>
-    <pubDate>Sep 16 2021</pubDate>
-    <description>I offer a case that quantum query complexity still has loads of enticing and fundamental open problems -- from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.</description>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
   </item>
 
   <item>
@@ -196,6 +188,14 @@
     <author>Jonas Helsen, Marios Ioannou, Ingo Roth, Jonas Kitzinger, Emilio Onorati, Albert H. Werner, Jens Eisert</author>
     <pubDate>Oct 27 2021</pubDate>
     <description>With quantum devices for computing and simulation increasing in scale and complexity, there is a growing need for the development of tools that obtain precise diagnostic information about quantum operations. In this work, we show that by measuring random gate sequences, one can accurately and efficiently estimate a wealth of different properties of noisy implementations of gate sets. This simple experimental protocol is independent of the properties one intends to estimate. It generates `sequence shadows' from which gate-set properties can be extracted, through classical post-processing, in a state preparation and measurement error robust way. The proposed classical post-processing schemes include protocols to extract many average gate fidelities with respect to arbitrary unitary channels. This - as a special case - emulates (interleaved) randomized benchmarking, but is vastly more general in its applicability. We establish that the sequence estimation scheme can be used as a primitive for partial, compressive and full process tomography, and the learning of Pauli noise. This gives rise to channel variants of shadow estimation with close-to optimal performance guarantees. Finally, we discuss applications to the engineering cycle for the optimization of quantum gates, for instance as a novel method to diagnose crosstalk.</description>
+  </item>
+
+  <item>
+    <title>Open Problems Related to Quantum Query Complexity</title>
+    <link>http://arxiv.org/pdf/2109.06917</link>
+    <author>Scott Aaronson</author>
+    <pubDate>Sep 16 2021</pubDate>
+    <description>I offer a case that quantum query complexity still has loads of enticing and fundamental open problems -- from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.</description>
   </item>
 
   <item>
@@ -399,11 +399,11 @@
   </item>
 
   <item>
-    <title>Exploiting symmetry in variational quantum machine learning</title>
-    <link>http://arxiv.org/pdf/2205.06217</link>
-    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
-    <pubDate>May 13 2022</pubDate>
-    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
+    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
+    <link>http://arxiv.org/pdf/2207.13707</link>
+    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
   </item>
 
 </channel>
