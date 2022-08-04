@@ -31,11 +31,11 @@
   </item>
 
   <item>
-    <title>Publicly verifiable quantum money from random lattices</title>
-    <link>http://arxiv.org/pdf/2207.13135</link>
-    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
-    <pubDate>Jul 28 2022</pubDate>
-    <description>Publicly verifiable quantum money is a protocol for the preparation of quantum states that can be efficiently verified by any party for authenticity but is computationally infeasible to counterfeit. We develop a cryptographic scheme for publicly verifiable quantum money based on Gaussian superpositions over random lattices. We introduce a verification-of-authenticity procedure based on the lattice discrete Fourier transform, and subsequently prove the unforgeability of our quantum money under the hardness of the short vector problem from lattice-based cryptography.</description>
+    <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
+    <link>http://arxiv.org/pdf/2208.01498</link>
+    <author>Thorsten B. Wahl, Sergii Strelchuk</author>
+    <pubDate>Aug 03 2022</pubDate>
+    <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
   </item>
 
   <item>
@@ -47,19 +47,19 @@
   </item>
 
   <item>
-    <title>Random Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2207.14280</link>
-    <author>Matthew P. A. Fisher, Vedika Khemani, Adam Nahum, Sagar Vijay</author>
-    <pubDate>Jul 29 2022</pubDate>
-    <description>Quantum circuits -- built from local unitary gates and local measurements -- are a new playground for quantum many-body physics and a tractable setting to explore universal collective phenomena far-from-equilibrium. These models have shed light on longstanding questions about thermalization and chaos, and on the underlying universal dynamics of quantum information and entanglement. In addition, such models generate new sets of questions and give rise to phenomena with no traditional analog, such as new dynamical phases in quantum systems that are monitored by an external observer. Quantum circuit dynamics is also topical in view of experimental progress in building digital quantum simulators that allow control of precisely these ingredients. Randomness in the circuit elements allows a high level of theoretical control, with a key theme being mappings between real-time quantum dynamics and effective classical lattice models or dynamical processes. Many of the universal phenomena that can be identified in this tractable setting apply to much wider classes of more structured many-body dynamics.</description>
-  </item>
-
-  <item>
     <title>Exact and efficient Lanczos method on a quantum computer</title>
     <link>http://arxiv.org/pdf/2208.00567</link>
     <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
     <pubDate>Aug 02 2022</pubDate>
     <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
+  </item>
+
+  <item>
+    <title>Random Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2207.14280</link>
+    <author>Matthew P. A. Fisher, Vedika Khemani, Adam Nahum, Sagar Vijay</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Quantum circuits -- built from local unitary gates and local measurements -- are a new playground for quantum many-body physics and a tractable setting to explore universal collective phenomena far-from-equilibrium. These models have shed light on longstanding questions about thermalization and chaos, and on the underlying universal dynamics of quantum information and entanglement. In addition, such models generate new sets of questions and give rise to phenomena with no traditional analog, such as new dynamical phases in quantum systems that are monitored by an external observer. Quantum circuit dynamics is also topical in view of experimental progress in building digital quantum simulators that allow control of precisely these ingredients. Randomness in the circuit elements allows a high level of theoretical control, with a key theme being mappings between real-time quantum dynamics and effective classical lattice models or dynamical processes. Many of the universal phenomena that can be identified in this tractable setting apply to much wider classes of more structured many-body dynamics.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Do Quantum Circuit Born Machines Generalize?</title>
-    <link>http://arxiv.org/pdf/2207.13645</link>
-    <author>Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Jul 28 2022</pubDate>
-    <description>In recent proposals of quantum circuit models for generative tasks, the discussion about their performance has been limited to their ability to reproduce a known target distribution. For example, expressive model families such as Quantum Circuit Born Machines (QCBMs) have been almost entirely evaluated on their capability to learn a given target distribution with high accuracy. While this aspect may be ideal for some tasks, it limits the scope of a generative model's assessment to its ability to memorize data rather than generalize. As a result, there has been little understanding of a model's generalization performance and the relation between such capability and the resource requirements, e.g., the circuit depth and the amount of training data. In this work, we leverage upon a recently proposed generalization evaluation framework to begin addressing this knowledge gap. We first investigate the QCBM's learning process of a cardinality-constrained distribution and see an increase in generalization performance while increasing the circuit depth. In the 12-qubit example presented here, we observe that with as few as 30% of the valid patterns as the training set, the QCBM exhibits the best generalization performance toward generating unseen and valid patterns. Lastly, we assess the QCBM's ability to generalize not only to valid features, but to high-quality bitstrings distributed according to an adequately biased distribution. We see that the QCBM is able to effectively learn the bias and generate unseen samples with higher quality than those in the training set. To the best of our knowledge, this is the first work in the literature that presents the QCBM's generalization performance as an integral evaluation metric for quantum generative models, and demonstrates the QCBM's ability to generalize to high-quality, desired novel samples.</description>
-  </item>
-
-  <item>
     <title>Fermionic tomography and learning</title>
     <link>http://arxiv.org/pdf/2207.14787</link>
     <author>Bryan O'Gorman</author>
     <pubDate>Aug 01 2022</pubDate>
     <description>Shadow tomography via classical shadows is a state-of-the-art approach for estimating properties of a quantum state. We present a simplified, combinatorial analysis of a recently proposed instantiation of this approach based on the ensemble of unitaries that are both fermionic Gaussian and Clifford. Using this analysis, we derive a corrected expression for the variance of the estimator. We then show how this leads to efficient estimation protocols for the fidelity with a pure fermionic Gaussian state (provably) and for an $X$-like operator of the form ($|\mathbf 0\rangle\langle\psi|$ + h.c.) (via numerical evidence). We also construct much smaller ensembles of measurement bases that yield the exact same quantum channel, which may help with compilation. We use these tools to show that an $n$-electron, $m$-mode Slater determinant can be learned to within $\epsilon$ fidelity given $O(n^2 m^7 \log(m / \delta) / \epsilon^2)$ samples of the Slater determinant.</description>
+  </item>
+
+  <item>
+    <title>Techniques for combining fast local decoders with global decoders under circuit-level noise</title>
+    <link>http://arxiv.org/pdf/2208.01178</link>
+    <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
+    <pubDate>Aug 03 2022</pubDate>
+    <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
   </item>
 
 </channel>

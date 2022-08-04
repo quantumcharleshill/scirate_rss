@@ -111,6 +111,14 @@
   </item>
 
   <item>
+    <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
+    <link>http://arxiv.org/pdf/2112.02040</link>
+    <author>Adam Bouland, Tudor Giurgica-Tiron</author>
+    <pubDate>Dec 06 2021</pubDate>
+    <description>The Solovay-Kitaev algorithm is a fundamental result in quantum computation. It gives an algorithm for efficiently compiling arbitrary unitaries using universal gate sets: any unitary can be approximated by short gates sequences, whose length scales merely poly-logarithmically with accuracy. As a consequence, the choice of gate set is typically unimportant in quantum computing. However, the Solovay-Kitaev algorithm requires the gate set to be inverse-closed. It has been a longstanding open question if efficient algorithmic compilation is possible without this condition. In this work, we provide the first inverse-free Solovay-Kitaev algorithm, which makes no assumption on the structure within a gate set beyond universality, answering this problem in the affirmative, and providing an efficient compilation algorithm in the absence of inverses for both $\text{SU}(d)$ and $\text{SL}(d, \mathbb{C})$. The algorithm works by showing that approximate gate implementations of the generalized Pauli group can self-correct their errors.</description>
+  </item>
+
+  <item>
     <title>Revisiting dequantization and quantum advantage in learning tasks</title>
     <link>http://arxiv.org/pdf/2112.00811</link>
     <author>Jordan Cotler, Hsin-Yuan Huang, Jarrod R. McClean</author>
@@ -132,14 +140,6 @@
     <author>Zhi Li</author>
     <pubDate>May 12 2022</pubDate>
     <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
-  </item>
-
-  <item>
-    <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
-    <link>http://arxiv.org/pdf/2112.02040</link>
-    <author>Adam Bouland, Tudor Giurgica-Tiron</author>
-    <pubDate>Dec 06 2021</pubDate>
-    <description>The Solovay-Kitaev algorithm is a fundamental result in quantum computation. It gives an algorithm for efficiently compiling arbitrary unitaries using universal gate sets: any unitary can be approximated by short gates sequences, whose length scales merely poly-logarithmically with accuracy. As a consequence, the choice of gate set is typically unimportant in quantum computing. However, the Solovay-Kitaev algorithm requires the gate set to be inverse-closed. It has been a longstanding open question if efficient algorithmic compilation is possible without this condition. In this work, we provide the first inverse-free Solovay-Kitaev algorithm, which makes no assumption on the structure within a gate set beyond universality, answering this problem in the affirmative, and providing an efficient compilation algorithm in the absence of inverses for both $\text{SU}(d)$ and $\text{SL}(d, \mathbb{C})$. The algorithm works by showing that approximate gate implementations of the generalized Pauli group can self-correct their errors.</description>
   </item>
 
   <item>
@@ -327,19 +327,27 @@
   </item>
 
   <item>
-    <title>Distributed quantum inner product estimation</title>
-    <link>http://arxiv.org/pdf/2111.03273</link>
-    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
-    <pubDate>Nov 08 2021</pubDate>
-    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
-  </item>
-
-  <item>
     <title>Planar Floquet Codes</title>
     <link>http://arxiv.org/pdf/2110.05348</link>
     <author>Christophe Vuillot</author>
     <pubDate>Oct 12 2021</pubDate>
     <description>A protocol called the "honeycomb code", or generically a "Floquet code", was introduced by Hastings and Haah in \citehastings_dynamically_2021. The honeycomb code is a subsystem code based on the honeycomb lattice with zero logical qubits but such that there exists a schedule for measuring two-body gauge checks leaving enough room at all times for two protected logical qubits. In this work we show a way to introduce boundaries to the system which curiously presents a rotating dynamics but has constant distance and is therefore not fault-tolerant.</description>
+  </item>
+
+  <item>
+    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
+    <link>http://arxiv.org/pdf/2207.13707</link>
+    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
+  </item>
+
+  <item>
+    <title>Distributed quantum inner product estimation</title>
+    <link>http://arxiv.org/pdf/2111.03273</link>
+    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
+    <pubDate>Nov 08 2021</pubDate>
+    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
   </item>
 
   <item>
@@ -396,14 +404,6 @@
     <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
-  </item>
-
-  <item>
-    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
-    <link>http://arxiv.org/pdf/2207.13707</link>
-    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
-    <pubDate>Jul 29 2022</pubDate>
-    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
   </item>
 
 </channel>
