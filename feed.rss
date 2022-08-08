@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>A single $T$-gate makes distribution learning hard</title>
-    <link>http://arxiv.org/pdf/2207.03140</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Jul 08 2022</pubDate>
-    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
-  </item>
-
-  <item>
     <title>Time-energy uncertainty relation for noisy quantum metrology</title>
     <link>http://arxiv.org/pdf/2207.13707</link>
     <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
@@ -47,11 +39,27 @@
   </item>
 
   <item>
+    <title>Implementing Fault-tolerant Entangling Gates on the Five-qubit Code and the Color Code</title>
+    <link>http://arxiv.org/pdf/2208.01863</link>
+    <author>C. Ryan-Anderson, N. C. Brown, M. S. Allman, B. Arkin, G. Asa-Attuah, C. Baldwin, J. Berg, J. G. Bohnet, S. Braxton, N. Burdick, J. P. Campora, A. Chernoguzov, J. Esposito, B. Evans, D. Francois, J. P. Gaebler, T. M. Gatterman, J. Gerber, K. Gilmore, D. Gresh, et al (17)</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>We compare two different implementations of fault-tolerant entangling gates on logical qubits. In one instance, a twelve-qubit trapped-ion quantum computer is used to implement a non-transversal logical CNOT gate between two five qubit codes. The operation is evaluated with varying degrees of fault tolerance, which are provided by including quantum error correction circuit primitives known as flagging and pieceable fault tolerance. In the second instance, a twenty-qubit trapped-ion quantum computer is used to implement a transversal logical CNOT gate on two [[7,1,3]] color codes. The two codes were implemented on different but similar devices, and in both instances, all of the quantum error correction primitives, including the determination of corrections via decoding, are implemented during runtime using a classical compute environment that is tightly integrated with the quantum processor. For different combinations of the primitives, logical state fidelity measurements are made after applying the gate to different input states, providing bounds on the process fidelity. We find the highest fidelity operations with the color code, with the fault-tolerant SPAM operation achieving fidelities of 0.99939(15) and 0.99959(13) when preparing eigenstates of the logical X and Z operators, which is higher than the average physical qubit SPAM fidelities of 0.9968(2) and 0.9970(1) for the physical X and Z bases, respectively. When combined with a logical transversal CNOT gate, we find the color code to perform the sequence--state preparation, CNOT, measure out--with an average fidelity bounded by [0.9957,0.9963]. The logical fidelity bounds are higher than the analogous physical-level fidelity bounds, which we find to be [0.9850,0.9903], reflecting multiple physical noise sources such as SPAM errors for two qubits, several single-qubit gates, a two-qubit gate and some amount of memory error.</description>
+  </item>
+
+  <item>
     <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
     <link>http://arxiv.org/pdf/2207.10250</link>
     <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
     <pubDate>Jul 22 2022</pubDate>
     <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+  </item>
+
+  <item>
+    <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
+    <link>http://arxiv.org/pdf/2208.01498</link>
+    <author>Thorsten B. Wahl, Sergii Strelchuk</author>
+    <pubDate>Aug 03 2022</pubDate>
+    <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
   </item>
 
   <item>
@@ -63,14 +71,6 @@
   </item>
 
   <item>
-    <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
-    <link>http://arxiv.org/pdf/2207.06428</link>
-    <author>Benjamin J. Brown</author>
-    <pubDate>Jul 15 2022</pubDate>
-    <description>A decoding algorithm is essential to any fault-tolerant quantum-computing architecture. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other types of code. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain types of code. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.</description>
-  </item>
-
-  <item>
     <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
     <link>http://arxiv.org/pdf/2207.09465</link>
     <author>Kevin Slagle, John Preskill</author>
@@ -79,11 +79,27 @@
   </item>
 
   <item>
+    <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
+    <link>http://arxiv.org/pdf/2207.06428</link>
+    <author>Benjamin J. Brown</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>A decoding algorithm is essential to any fault-tolerant quantum-computing architecture. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other types of code. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain types of code. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.</description>
+  </item>
+
+  <item>
     <title>Fully undistillable quantum states are separable</title>
     <link>http://arxiv.org/pdf/2207.05193</link>
     <author>Satvik Singh, Nilanjana Datta</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>Assume that Alice, Bob, and Eve share a tripartite pure state $|\psi_{ABE}\rangle$. We prove that if Alice cannot distill entanglement with either Bob or Eve using $|\psi_{ABE}\rangle$ and local operations with any one of the following configurations for classical communication: $(A\to B, A\leftrightarrow E), (A\leftrightarrow B, A\to E),$ and $(A\leftrightarrow B, A\leftrightarrow E)$, then the same is also true for the other two configurations. Moreover, this happens precisely when the state is such that both its reductions $\rho_{AB}$ and $\rho_{AE}$ are separable, which is further equivalent to the reductions being PPT. This, in particular, implies that any NPT bipartite state is such that either the state itself or its complement is 2-way distillable. In proving these results, we first obtain an explicit lower bound on the 2-way distillable entanglement of low rank bipartite states. Furthermore, we show that even though not all low rank states are 1-way distillable, a randomly sampled low rank state will almost surely be 1-way distillable.</description>
+  </item>
+
+  <item>
+    <title>Lower bounds for learning quantum states with single-copy measurements</title>
+    <link>http://arxiv.org/pdf/2207.14438</link>
+    <author>Angus Lowe, Ashwin Nayak</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
   </item>
 
   <item>
@@ -111,27 +127,19 @@
   </item>
 
   <item>
-    <title>Lower bounds for learning quantum states with single-copy measurements</title>
-    <link>http://arxiv.org/pdf/2207.14438</link>
-    <author>Angus Lowe, Ashwin Nayak</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
-  </item>
-
-  <item>
-    <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
-    <link>http://arxiv.org/pdf/2208.01498</link>
-    <author>Thorsten B. Wahl, Sergii Strelchuk</author>
-    <pubDate>Aug 03 2022</pubDate>
-    <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
-  </item>
-
-  <item>
     <title>Time-Efficient Constant-Space-Overhead Fault-Tolerant Quantum Computation</title>
     <link>http://arxiv.org/pdf/2207.08826</link>
     <author>Hayata Yamasaki, Masato Koashi</author>
     <pubDate>Jul 20 2022</pubDate>
     <description>Scalable realization of quantum computation to attain substantial speedups over classical computation requires fault tolerance. Conventionally, fault-tolerant quantum computation (FTQC) demands excessive space overhead of physical qubits per logical qubit. A more recent protocol to achieve constant-space-overhead FTQC using quantum low-density parity-check (LDPC) codes thus attracts considerable attention but suffers from another drawback: it incurs polynomially long time overhead. We construct an alternative avenue of FTQC to achieve constant space overhead and only quasi-polylogarithmic time overhead simultaneously via techniques for using concatenations of different quantum Hamming codes rather than quantum LDPC codes. Our protocol achieves FTQC even if a decoder has nonzero runtime, unlike the existing constant-space-overhead protocol. These results establish a foundation for realizing FTQC within feasibly bounded space overhead yet negligibly tiny slowdown.</description>
+  </item>
+
+  <item>
+    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.01002</link>
+    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
   </item>
 
   <item>
@@ -159,27 +167,11 @@
   </item>
 
   <item>
-    <title>The classical cost of transmitting a qubit</title>
-    <link>http://arxiv.org/pdf/2207.02244</link>
-    <author>Martin J. Renner, Armin Tavakoli, Marco Túlio Quintino</author>
-    <pubDate>Jul 07 2022</pubDate>
-    <description>We consider general prepare-and-measure scenarios in which Alice can transmit qubit states to Bob, who can perform general measurements in the form of positive operator-valued measures (POVMs). We show that the statistics obtained in any such quantum protocol can be simulated by the purely classical means of shared randomness and two bits of communication. Furthermore, we prove that two bits of communication is the minimal cost of a perfect classical simulation. In addition, we apply our methods to Bell scenarios, which extends the well-known Toner and Bacon protocol. In particular, two bits of communication are enough to simulate all quantum correlations associated to arbitrary local POVMs applied to any entangled two-qubit state.</description>
-  </item>
-
-  <item>
     <title>Quantum tomography using state-preparation unitaries</title>
     <link>http://arxiv.org/pdf/2207.08800</link>
     <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
     <pubDate>Jul 19 2022</pubDate>
     <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
-  </item>
-
-  <item>
-    <title>Linear programming with unitary-equivariant constraints</title>
-    <link>http://arxiv.org/pdf/2207.05713</link>
-    <author>Dmitry Grinko, Maris Ozols</author>
-    <pubDate>Jul 13 2022</pubDate>
-    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
   </item>
 
   <item>
@@ -191,6 +183,14 @@
   </item>
 
   <item>
+    <title>Linear programming with unitary-equivariant constraints</title>
+    <link>http://arxiv.org/pdf/2207.05713</link>
+    <author>Dmitry Grinko, Maris Ozols</author>
+    <pubDate>Jul 13 2022</pubDate>
+    <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
+  </item>
+
+  <item>
     <title>Amplitude Estimation from Quantum Signal Processing</title>
     <link>http://arxiv.org/pdf/2207.08628</link>
     <author>Patrick Rall, Bryce Fuller</author>
@@ -199,19 +199,19 @@
   </item>
 
   <item>
-    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.01002</link>
-    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
-    <pubDate>Aug 02 2022</pubDate>
-    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
+    <title>Correcting non-independent and non-identically distributed errors with surface codes</title>
+    <link>http://arxiv.org/pdf/2208.02191</link>
+    <author>Konstantin Tiurev, Peter-Jan H. S. Derks, Joschka Roffe, Jens Eisert, Jan-Michael Reiner</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>A common approach to studying the performance of quantum error correcting codes is to assume independent and identically distributed single-qubit errors. However, realistic errors in experimental multi-qubit devices are typically neither independent nor identical across qubits. In this work, we develop and investigate the properties of topological surface codes tailored to a known noise channel by locally adapted Clifford conjugations. We show that the surface code locally tailored to non-uniform single-qubit noise in conjunction with a scalable matching decoder yields improved error thresholds and exponentially suppressed sub-threshold failure rates when compared to the Calderbank-Shor-Steane surface code. Furthermore, we study the behaviour of the tailored surface code under local two-qubit noise and show the role that code degeneracy plays in correcting such noise. The proposed methods do not require additional overhead in terms of the number of qubits and use a standard matching decoder, hence come at no extra cost compared to the standard surface-code error correction.</description>
   </item>
 
   <item>
-    <title>Uncertainty relations from graph theory</title>
-    <link>http://arxiv.org/pdf/2207.02197</link>
-    <author>Carlos de Gois, Kiara Hansenne, Otfried Gühne</author>
-    <pubDate>Jul 06 2022</pubDate>
-    <description>Quantum measurements are inherently probabilistic. Further defying our classical intuition, quantum theory often forbids us to precisely determine the outcomes of simultaneous measurements. This phenomenon is captured and quantified through uncertainty relations. Although studied since the inception of quantum theory, this problem of determining the possible expectation values of a collection of quantum measurements remains, in general, unsolved. By constructing a close connection between observables and graph theory, we derive uncertainty relations valid for any set of dichotomic observables. These relations are, in many cases, tight, and related to the size of the maximum clique of the associated graph. As applications, they can be straightforwardly used to build entropic uncertainty relations, separability criteria and entanglement witnesses.</description>
+    <title>Exact and efficient Lanczos method on a quantum computer</title>
+    <link>http://arxiv.org/pdf/2208.00567</link>
+    <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
   </item>
 
   <item>
@@ -223,14 +223,6 @@
   </item>
 
   <item>
-    <title>Finite-rate sparse quantum codes aplenty</title>
-    <link>http://arxiv.org/pdf/2207.03562</link>
-    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
-    <pubDate>Jul 11 2022</pubDate>
-    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
-  </item>
-
-  <item>
     <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
     <link>http://arxiv.org/pdf/2207.11014</link>
     <author>Yassine Hamoudi</author>
@@ -239,11 +231,19 @@
   </item>
 
   <item>
-    <title>Exact and efficient Lanczos method on a quantum computer</title>
-    <link>http://arxiv.org/pdf/2208.00567</link>
-    <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
-    <pubDate>Aug 02 2022</pubDate>
-    <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
+    <title>Finite-rate sparse quantum codes aplenty</title>
+    <link>http://arxiv.org/pdf/2207.03562</link>
+    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
+    <pubDate>Jul 11 2022</pubDate>
+    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
+  </item>
+
+  <item>
+    <title>Testing and Learning Quantum Juntas Nearly Optimally</title>
+    <link>http://arxiv.org/pdf/2207.05898</link>
+    <author>Thomas Chen, Shivam Nadimpalli, Henry Yuen</author>
+    <pubDate>Jul 14 2022</pubDate>
+    <description>We consider the problem of testing and learning quantum $k$-juntas: $n$-qubit unitary matrices which act non-trivially on just $k$ of the $n$ qubits and as the identity on the rest. As our main algorithmic results, we give (a) a $\widetilde{O}(\sqrt{k})$-query quantum algorithm that can distinguish quantum $k$-juntas from unitary matrices that are "far" from every quantum $k$-junta; and (b) a $O(4^k)$-query algorithm to learn quantum $k$-juntas. We complement our upper bounds for testing quantum $k$-juntas and learning quantum $k$-juntas with near-matching lower bounds of $\Omega(\sqrt{k})$ and $\Omega(\frac{4^k}{k})$, respectively. Our techniques are Fourier-analytic and make use of a notion of influence of qubits on unitaries.</description>
   </item>
 
 </channel>
