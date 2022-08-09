@@ -23,27 +23,11 @@
   </item>
 
   <item>
-    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.01002</link>
-    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
-    <pubDate>Aug 02 2022</pubDate>
-    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
-  </item>
-
-  <item>
     <title>Correcting non-independent and non-identically distributed errors with surface codes</title>
     <link>http://arxiv.org/pdf/2208.02191</link>
     <author>Konstantin Tiurev, Peter-Jan H. S. Derks, Joschka Roffe, Jens Eisert, Jan-Michael Reiner</author>
     <pubDate>Aug 04 2022</pubDate>
     <description>A common approach to studying the performance of quantum error correcting codes is to assume independent and identically distributed single-qubit errors. However, realistic errors in experimental multi-qubit devices are typically neither independent nor identical across qubits. In this work, we develop and investigate the properties of topological surface codes tailored to a known noise channel by locally adapted Clifford conjugations. We show that the surface code locally tailored to non-uniform single-qubit noise in conjunction with a scalable matching decoder yields improved error thresholds and exponentially suppressed sub-threshold failure rates when compared to the Calderbank-Shor-Steane surface code. Furthermore, we study the behaviour of the tailored surface code under local two-qubit noise and show the role that code degeneracy plays in correcting such noise. The proposed methods do not require additional overhead in terms of the number of qubits and use a standard matching decoder, hence come at no extra cost compared to the standard surface-code error correction.</description>
-  </item>
-
-  <item>
-    <title>Exact and efficient Lanczos method on a quantum computer</title>
-    <link>http://arxiv.org/pdf/2208.00567</link>
-    <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
-    <pubDate>Aug 02 2022</pubDate>
-    <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
   </item>
 
   <item>
@@ -84,6 +68,22 @@
     <author>Felipe Montealegre-Mora, David Gross</author>
     <pubDate>Aug 04 2022</pubDate>
     <description>The representation theory of the Clifford group is playing an increasingly prominent role in quantum information theory, including in such diverse use cases as the construction of protocols for quantum system certification, quantum simulation, and quantum cryptography. In these applications, the tensor powers of the defining representation seem particularly important. The representation theory of these tensor powers is understood in two regimes. 1. For odd qudits in the case where the power t is not larger than the number of systems n: Here, a duality theory between the Clifford group and certain discrete orthogonal groups can be used to make fairly explicit statements about the occurring irreps (this theory is related to Howe duality and the eta-correspondence). 2. For qubits: Tensor powers up to t=4 have been analyzed on a case-by-case basis. In this paper, we provide a unified framework for the duality approach that also covers qubit systems. To this end, we translate the notion of rank of symplectic representations to representations of the qubit Clifford group, and generalize the eta correspondence between symplectic and orthogonal groups to a correspondence between the Clifford and certain orthogonal-stochastic groups. As a sample application, we provide a protocol to efficiently implement the complex conjugate of a black-box Clifford unitary evolution.</description>
+  </item>
+
+  <item>
+    <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
+    <link>http://arxiv.org/pdf/2208.02199</link>
+    <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>The idea to use quantum mechanical devices to simulate other quantum systems is commonly ascribed to Feynman. Since the original suggestion, concrete proposals have appeared for simulating molecular and materials chemistry through quantum computation, as a potential "killer application". Indications of potential exponential quantum advantage in artificial tasks have increased interest in this application, thus, it is critical to understand the basis for potential exponential quantum advantage in quantum chemistry. Here we gather the evidence for this case in the most common task in quantum chemistry, namely, ground-state energy estimation. We conclude that evidence for such an advantage across chemical space has yet to be found. While quantum computers may still prove useful for quantum chemistry, it may be prudent to assume exponential speedups are not generically available for this problem.</description>
+  </item>
+
+  <item>
+    <title>Tensor types and their use in physics</title>
+    <link>http://arxiv.org/pdf/2208.01135</link>
+    <author>Andreas Bauer, Alexander Nietner</author>
+    <pubDate>Aug 03 2022</pubDate>
+    <description>The content of this paper can be roughly organized into a three-level hierarchy of generality. At the first, most general level, we introduce a new language which allows us to express various categorical structures in a systematic and explicit manner in terms of so-called 2-schemes. Although 2-schemes can formalize categorical structures such as symmetric monoidal categories, they are not limited to this, and can be used to define structures with no categorical analogue. Most categorical structures come with an effective graphical calculus such as string diagrams for symmetric monoidal categories, and the same is true more generally for interesting 2-schemes. In this work, we focus on one particular non-categorical 2-scheme, whose instances we refer to as tensor types. At the second level of the hierarchy, we work out different flavors of this 2-scheme in detail. The effective graphical calculus of tensor types is that of tensor networks or Penrose diagrams, that is, string diagrams without a flow of time. As such, tensor types are similar to compact closed categories, though there are various small but potentially important differences. Also, the two definitions use completely different mechanisms despite both being examples of 2-schemes. At the third level of the hierarchy, we provide a long list of different families of concrete tensor types, in a way which makes them accessible to concrete computations, motivated by their potential use in physics. Different tensor types describe different types of physical models, such as classical or quantum physics, deterministic or statistical physics, many-body or single-body physics, or matter with or without symmetries or fermions.</description>
   </item>
 
 </channel>

@@ -7,30 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Non-unitary versus unitary optimization in the control of open quantum systems</title>
-    <link>http://arxiv.org/pdf/2208.03114</link>
-    <author>Marllos E. Fonseca, Felipe F. Fanchini, Emanuel F. de Lima, Leonardo K. Castelano</author>
-    <pubDate>Aug 08 2022</pubDate>
-    <description>In this work, we compare the performance of the Krotov method for open quantum systems (non-unitary optimization) with the Krotov method for closed quantum systems (unitary optimization) in finding optimal controls aimed at manipulating qubits and qutrits in the presence of the environment. In the case of unitary optimization, the Krotov method is applied to quantum system neglecting its interaction with the environment, afterwards the resulting controls are used to manipulate the system along with the eviromental noise. We consider two distinct control problems: target-state preparation from a given initial state and quantum gate implementation. For the state preparation, we have found that the performance of the controls obtained from the non-unitary optimization outperform that of the controls obtained from the unitary optimization. However, in the case of the implementation of quantum gates, we have found that the optimal controls obtained from the unitary evolution exhibit a mean fidelity similar to that obtained from the non-unitary evolution. Since unitary optimization does not depend on decay rates nor on specific kinds of noise, besides being less computationally demanding, our results suggest that the best current practice to implement quantum gates in open quantum systems is to employ unitary optimization.</description>
-  </item>
-
-  <item>
-    <title>Multi-Axis Control of a Qubit in the Presence of Unknown Non-Markovian Quantum Noise</title>
-    <link>http://arxiv.org/pdf/2208.03058</link>
-    <author>Akram Youssry, Hendra I. Nurdin</author>
-    <pubDate>Aug 08 2022</pubDate>
-    <description>In this paper, we consider the problem of open-loop control of a qubit that is coupled to an unknown fully quantum non-Markovian noise (either bosonic or fermionic). A graybox model that is empirically obtained from measurement data is employed to approximately represent the unknown quantum noise. The estimated model is then used to calculate the open-loop control pulses under constraints on the pulse amplitude and timing. For the control pulse optimization, we explore the use of gradient descent and genetic optimization methods. We consider the effect of finite sampling on estimating expectation values of observables and show results for single- and multi-axis control of a qubit.</description>
-  </item>
-
-  <item>
-    <title>A Tight Analysis of Hutchinson's Diagonal Estimator</title>
-    <link>http://arxiv.org/pdf/2208.03268</link>
-    <author>Prathamesh Dharangutte, Christopher Musco</author>
-    <pubDate>Aug 08 2022</pubDate>
-    <description>Let $\mathbf{A}\in \mathbb{R}^{n\times n}$ be a matrix with diagonal $\text{diag}(\mathbf{A})$ and let $\bar{\mathbf{A}}$ be $\mathbf{A}$ with its diagonal set to all zeros. We show that Hutchinson's estimator run for $m$ iterations returns a diagonal estimate $\tilde{d}\in \mathbb{R}^n$ such that with probability $(1-\delta)$, $$\|\tilded - \textdiag(\mathbfA)\|_2 ≤c\sqrt\frac\log(2/\delta)m\|\bar\mathbfA\|_F,$$ where $c$ is a fixed constant independent of all other parameters. This results improves on a recent result of [Baston and Nakatsukasa, 2022] by a $\log(n)$ factor, yielding a bound that is independent of the matrix dimension $n$.</description>
-  </item>
-
-  <item>
     <title>QUSUM: quickest quantum change-point detection</title>
     <link>http://arxiv.org/pdf/2208.03265</link>
     <author>Marco Fanizza, Christoph Hirche, John Calsamiglia</author>
@@ -39,11 +15,35 @@
   </item>
 
   <item>
-    <title>Towards Antisymmetric Neural Ansatz Separation</title>
-    <link>http://arxiv.org/pdf/2208.03264</link>
-    <author>Aaron Zweig, Joan Bruna</author>
+    <title>Indefinite causal order is not always a resource for thermodynamic processes</title>
+    <link>http://arxiv.org/pdf/2208.03205</link>
+    <author>Matheus Capela, Harshit Verma, Fabio Costa, Lucas Chibebe Céleri</author>
     <pubDate>Aug 08 2022</pubDate>
-    <description>We study separations between two fundamental models (or \emphAnsätze) of antisymmetric functions, that is, functions $f$ of the form $f(x_{\sigma(1)}, \ldots, x_{\sigma(N)}) = \text{sign}(\sigma)f(x_1, \ldots, x_N)$, where $\sigma$ is any permutation. These arise in the context of quantum chemistry, and are the basic modeling tool for wavefunctions of Fermionic systems. Specifically, we consider two popular antisymmetric Ansätze: the Slater representation, which leverages the alternating structure of determinants, and the Jastrow ansatz, which augments Slater determinants with a product by an arbitrary symmetric function. We construct an antisymmetric function that can be more efficiently expressed in Jastrow form, yet provably cannot be approximated by Slater determinants unless there are exponentially (in $N^2$) many terms. This represents the first explicit quantitative separation between these two Ansätze.</description>
+    <description>Indefinite causal order is a key feature involved in the study of quantum higher order transformations. Recently, intense research has been focused on possible advantages related to the lack of definite causal order of quantum processes. Quite often the quantum switch is claimed to provide advantages in information-theoretic and thermodynamic tasks. We address here the question whether indefinite causal order is a resource for quantum thermodynamics. Inspired by previous results in the literature taking free energy and ergotropy as the figures of merit, we propose a framework for properly comparing the thermodynamic value of processes by comparing higher order transformations of the same type, and show that for the tasks considered here indefinite causal order is not necessary for thermodynamic advantages. More specifically, we show that there is a non-Markovian process, a causally ordered higher-order transformation, outperforming the results obtained for the quantum switch. We also discuss a possible way to study the advantages that may arise from indefinite causal order in a general scenario.</description>
+  </item>
+
+  <item>
+    <title>Beyond the Worst Case: Structured Convergence of High Dimensional Random Walks</title>
+    <link>http://arxiv.org/pdf/2208.03241</link>
+    <author>Roy Gotlib, Tali Kaufman</author>
+    <pubDate>Aug 08 2022</pubDate>
+    <description>One of the most important properties of high dimensional expanders is that high dimensional random walks converge rapidly. This property has proven to be extremely useful in variety of fields in the theory of computer science from agreement testing to sampling, coding theory and more. In this paper we improve upon the result of Kaufman-Oppenheim and Alev-Lau regarding the convergence of random walks by presenting a structured version of their result. While previous works examined the expansion in the viewpoint of the worst possible eigenvalue, in this work we relate the expansion of a function to the entire spectrum of the random walk operator using the structure of the function. In some cases this finer result can be much better than the worst case. In order to prove our structured version of the convergence of random walks, we present a general framework that allows us to relate the convergence of random walks to the trickling down theorem for the first time. Concretely, we show that both the state of the art results for convergence of random walks and the tricking down theorem can be derived using the same argument that we present here. This new, unified, way of looking at the convergence of high dimensional random walks and the trickling down theorem gives us a new understanding of pseudorandom functions that allows us to consider pseudorandom functions in one-sided local spectral expanders for the first time.</description>
+  </item>
+
+  <item>
+    <title>Noise-resilient phase estimation with randomized compiling</title>
+    <link>http://arxiv.org/pdf/2208.04100</link>
+    <author>Yanwu Gu, Yunheng Ma, Nicolo Forcellini, Dong E. Liu</author>
+    <pubDate>Aug 09 2022</pubDate>
+    <description>We develop an error mitigation method for the control-free phase estimation. We prove a theorem that under the first-order correction, the noise channels with only Hermitian Kraus operators do not change the phases of a unitary operator, and therefore, the benign types of noise for phase estimation are identified. By using the randomized compiling protocol, we can convert the generic noise in the phase estimation circuits into stochastic Pauli noise, which satisfies the condition of our theorem. Thus we achieve a noise-resilient phase estimation without any quantum resource overhead. The simulated experiments show that our method can significantly reduce the estimation error of the phases by up to two orders of magnitude. Our method paves the way for the utilization of quantum phase estimation before the advent of fault-tolerant quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Multi-Axis Control of a Qubit in the Presence of Unknown Non-Markovian Quantum Noise</title>
+    <link>http://arxiv.org/pdf/2208.03058</link>
+    <author>Akram Youssry, Hendra I. Nurdin</author>
+    <pubDate>Aug 08 2022</pubDate>
+    <description>In this paper, we consider the problem of open-loop control of a qubit that is coupled to an unknown fully quantum non-Markovian noise (either bosonic or fermionic). A graybox model that is empirically obtained from measurement data is employed to approximately represent the unknown quantum noise. The estimated model is then used to calculate the open-loop control pulses under constraints on the pulse amplitude and timing. For the control pulse optimization, we explore the use of gradient descent and genetic optimization methods. We consider the effect of finite sampling on estimating expectation values of observables and show results for single- and multi-axis control of a qubit.</description>
   </item>
 
 </channel>

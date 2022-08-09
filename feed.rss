@@ -63,19 +63,19 @@
   </item>
 
   <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
-  </item>
-
-  <item>
     <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
     <link>http://arxiv.org/pdf/2207.09465</link>
     <author>Kevin Slagle, John Preskill</author>
     <pubDate>Jul 21 2022</pubDate>
     <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
+  </item>
+
+  <item>
+    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
+    <link>http://arxiv.org/pdf/2207.10097</link>
+    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
   </item>
 
   <item>
@@ -127,19 +127,19 @@
   </item>
 
   <item>
-    <title>Time-Efficient Constant-Space-Overhead Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2207.08826</link>
-    <author>Hayata Yamasaki, Masato Koashi</author>
-    <pubDate>Jul 20 2022</pubDate>
-    <description>Scalable realization of quantum computation to attain substantial speedups over classical computation requires fault tolerance. Conventionally, fault-tolerant quantum computation (FTQC) demands excessive space overhead of physical qubits per logical qubit. A more recent protocol to achieve constant-space-overhead FTQC using quantum low-density parity-check (LDPC) codes thus attracts considerable attention but suffers from another drawback: it incurs polynomially long time overhead. We construct an alternative avenue of FTQC to achieve constant space overhead and only quasi-polylogarithmic time overhead simultaneously via techniques for using concatenations of different quantum Hamming codes rather than quantum LDPC codes. Our protocol achieves FTQC even if a decoder has nonzero runtime, unlike the existing constant-space-overhead protocol. These results establish a foundation for realizing FTQC within feasibly bounded space overhead yet negligibly tiny slowdown.</description>
-  </item>
-
-  <item>
     <title>Fast erasure decoder for a class of quantum LDPC codes</title>
     <link>http://arxiv.org/pdf/2208.01002</link>
     <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
     <pubDate>Aug 02 2022</pubDate>
     <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
+  </item>
+
+  <item>
+    <title>Time-Efficient Constant-Space-Overhead Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2207.08826</link>
+    <author>Hayata Yamasaki, Masato Koashi</author>
+    <pubDate>Jul 20 2022</pubDate>
+    <description>Scalable realization of quantum computation to attain substantial speedups over classical computation requires fault tolerance. Conventionally, fault-tolerant quantum computation (FTQC) demands excessive space overhead of physical qubits per logical qubit. A more recent protocol to achieve constant-space-overhead FTQC using quantum low-density parity-check (LDPC) codes thus attracts considerable attention but suffers from another drawback: it incurs polynomially long time overhead. We construct an alternative avenue of FTQC to achieve constant space overhead and only quasi-polylogarithmic time overhead simultaneously via techniques for using concatenations of different quantum Hamming codes rather than quantum LDPC codes. Our protocol achieves FTQC even if a decoder has nonzero runtime, unlike the existing constant-space-overhead protocol. These results establish a foundation for realizing FTQC within feasibly bounded space overhead yet negligibly tiny slowdown.</description>
   </item>
 
   <item>
@@ -167,14 +167,6 @@
   </item>
 
   <item>
-    <title>Quantum tomography using state-preparation unitaries</title>
-    <link>http://arxiv.org/pdf/2207.08800</link>
-    <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
-  </item>
-
-  <item>
     <title>Publicly verifiable quantum money from random lattices</title>
     <link>http://arxiv.org/pdf/2207.13135</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
@@ -183,19 +175,19 @@
   </item>
 
   <item>
+    <title>Quantum tomography using state-preparation unitaries</title>
+    <link>http://arxiv.org/pdf/2207.08800</link>
+    <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
+  </item>
+
+  <item>
     <title>Linear programming with unitary-equivariant constraints</title>
     <link>http://arxiv.org/pdf/2207.05713</link>
     <author>Dmitry Grinko, Maris Ozols</author>
     <pubDate>Jul 13 2022</pubDate>
     <description>Unitary equivariance is a natural symmetry that occurs in many contexts in physics and mathematics. Optimization problems with such symmetry can often be formulated as semidefinite programs for a $d^{p+q}$-dimensional matrix variable that commutes with $U^{\otimes p} \otimes \bar{U}^{\otimes q}$, for all $U \in \mathrm{U}(d)$. Solving such problems naively can be prohibitively expensive even if $p+q$ is small but the local dimension $d$ is large. We show that, under additional symmetry assumptions, this problem reduces to a linear program that can be solved in time that does not scale in $d$, and we provide a general framework to execute this reduction under different types of symmetries. The key ingredient of our method is a compact parametrization of the solution space by linear combinations of walled Brauer algebra diagrams. This parametrization requires the idempotents of a Gelfand--Tsetlin basis, which we obtain by adapting a general method arXiv:1606.08900 inspired by the Okounkov--Vershik approach. To illustrate potential applications, we use several toy examples from quantum information: deciding the principal eigenvalue of a quantum state, quantum majority vote, and asymmetric cloning. We also outline a possible route for extending our method to general unitary-equivariant semidefinite programs.</description>
-  </item>
-
-  <item>
-    <title>Amplitude Estimation from Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2207.08628</link>
-    <author>Patrick Rall, Bryce Fuller</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
   </item>
 
   <item>
@@ -212,6 +204,14 @@
     <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
     <pubDate>Aug 02 2022</pubDate>
     <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
+  </item>
+
+  <item>
+    <title>Amplitude Estimation from Quantum Signal Processing</title>
+    <link>http://arxiv.org/pdf/2207.08628</link>
+    <author>Patrick Rall, Bryce Fuller</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
   </item>
 
   <item>
