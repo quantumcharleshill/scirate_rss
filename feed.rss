@@ -47,19 +47,19 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
-  </item>
-
-  <item>
     <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
     <link>http://arxiv.org/pdf/2208.01498</link>
     <author>Thorsten B. Wahl, Sergii Strelchuk</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
+    <link>http://arxiv.org/pdf/2207.10250</link>
+    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
-  </item>
-
-  <item>
     <title>Conservation laws and quantum error correction: towards a generalised matching decoder</title>
     <link>http://arxiv.org/pdf/2207.06428</link>
     <author>Benjamin J. Brown</author>
     <pubDate>Jul 15 2022</pubDate>
     <description>A decoding algorithm is essential to any fault-tolerant quantum-computing architecture. In this perspective we explore decoding algorithms for the surface code; a prototypical quantum low-density parity-check code that underlies many of the leading efforts to demonstrate scalable quantum computing. Central to our discussion is the minimum-weight perfect-matching decoder. The decoder works by exploiting underlying structure that arises due to materialised symmetries among surface-code stabilizer elements. By concentrating on these symmetries, we begin to address the question of how a minimum-weight perfect-matching decoder might be generalised for other types of code. We approach this question first by investigating examples of matching decoders for other codes. These include decoding algorithms that have been specialised to correct for noise models that demonstrate a particular structure or bias with respect to certain types of code. In addition to this, we propose a systematic way of constructing a minimum-weight perfect-matching decoder for codes with certain characteristic properties. The properties we make use of are common among topological codes. We discuss the broader applicability of the proposal, and we suggest some questions we can address that may show us how to design a generalised matching decoder for arbitrary stabilizer codes.</description>
+  </item>
+
+  <item>
+    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
+    <link>http://arxiv.org/pdf/2207.10097</link>
+    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
   </item>
 
   <item>
@@ -167,6 +167,14 @@
   </item>
 
   <item>
+    <title>Correcting non-independent and non-identically distributed errors with surface codes</title>
+    <link>http://arxiv.org/pdf/2208.02191</link>
+    <author>Konstantin Tiurev, Peter-Jan H. S. Derks, Joschka Roffe, Jens Eisert, Jan-Michael Reiner</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>A common approach to studying the performance of quantum error correcting codes is to assume independent and identically distributed single-qubit errors. However, realistic errors in experimental multi-qubit devices are typically neither independent nor identical across qubits. In this work, we develop and investigate the properties of topological surface codes tailored to a known noise channel by locally adapted Clifford conjugations. We show that the surface code locally tailored to non-uniform single-qubit noise in conjunction with a scalable matching decoder yields improved error thresholds and exponentially suppressed sub-threshold failure rates when compared to the Calderbank-Shor-Steane surface code. Furthermore, we study the behaviour of the tailored surface code under local two-qubit noise and show the role that code degeneracy plays in correcting such noise. The proposed methods do not require additional overhead in terms of the number of qubits and use a standard matching decoder, hence come at no extra cost compared to the standard surface-code error correction.</description>
+  </item>
+
+  <item>
     <title>Publicly verifiable quantum money from random lattices</title>
     <link>http://arxiv.org/pdf/2207.13135</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
@@ -191,27 +199,11 @@
   </item>
 
   <item>
-    <title>Correcting non-independent and non-identically distributed errors with surface codes</title>
-    <link>http://arxiv.org/pdf/2208.02191</link>
-    <author>Konstantin Tiurev, Peter-Jan H. S. Derks, Joschka Roffe, Jens Eisert, Jan-Michael Reiner</author>
-    <pubDate>Aug 04 2022</pubDate>
-    <description>A common approach to studying the performance of quantum error correcting codes is to assume independent and identically distributed single-qubit errors. However, realistic errors in experimental multi-qubit devices are typically neither independent nor identical across qubits. In this work, we develop and investigate the properties of topological surface codes tailored to a known noise channel by locally adapted Clifford conjugations. We show that the surface code locally tailored to non-uniform single-qubit noise in conjunction with a scalable matching decoder yields improved error thresholds and exponentially suppressed sub-threshold failure rates when compared to the Calderbank-Shor-Steane surface code. Furthermore, we study the behaviour of the tailored surface code under local two-qubit noise and show the role that code degeneracy plays in correcting such noise. The proposed methods do not require additional overhead in terms of the number of qubits and use a standard matching decoder, hence come at no extra cost compared to the standard surface-code error correction.</description>
-  </item>
-
-  <item>
     <title>Exact and efficient Lanczos method on a quantum computer</title>
     <link>http://arxiv.org/pdf/2208.00567</link>
     <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
     <pubDate>Aug 02 2022</pubDate>
     <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
-  </item>
-
-  <item>
-    <title>Amplitude Estimation from Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2207.08628</link>
-    <author>Patrick Rall, Bryce Fuller</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
   </item>
 
   <item>
@@ -223,19 +215,27 @@
   </item>
 
   <item>
+    <title>Amplitude Estimation from Quantum Signal Processing</title>
+    <link>http://arxiv.org/pdf/2207.08628</link>
+    <author>Patrick Rall, Bryce Fuller</author>
+    <pubDate>Jul 19 2022</pubDate>
+    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
+  </item>
+
+  <item>
+    <title>Erasure qubits: Overcoming the $T_1$ limit in superconducting circuits</title>
+    <link>http://arxiv.org/pdf/2208.05461</link>
+    <author>Aleksander Kubica, Arbel Haim, Yotam Vaknin, Fernando Brandão, Alex Retzker</author>
+    <pubDate>Aug 11 2022</pubDate>
+    <description>The amplitude damping time, $T_1$, has long stood as the major factor limiting quantum fidelity in superconducting circuits, prompting concerted efforts in the material science and design of qubits aimed at increasing $T_1$. In contrast, the dephasing time, $T_{\phi}$, can usually be extended above $T_1$ (via, e.g., dynamical decoupling), to the point where it does not limit fidelity. In this article we propose a scheme for overcoming the conventional $T_1$ limit on fidelity by designing qubits in a way that amplitude damping errors can be detected and converted into erasure errors. Compared to standard qubit implementations our scheme improves the performance of fault-tolerant protocols, as numerically demonstrated by the circuit-noise simulations of the surface code. We describe two simple qubit implementations with superconducting circuits and discuss procedures for detecting amplitude damping errors, performing entangling gates, and extending $T_\phi$. Our results suggest that engineering efforts should focus on improving $T_\phi$ and the quality of quantum coherent control, as they effectively become the limiting factor on the performance of fault-tolerant protocols.</description>
+  </item>
+
+  <item>
     <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
     <link>http://arxiv.org/pdf/2207.11014</link>
     <author>Yassine Hamoudi</author>
     <pubDate>Jul 25 2022</pubDate>
     <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
-  </item>
-
-  <item>
-    <title>Finite-rate sparse quantum codes aplenty</title>
-    <link>http://arxiv.org/pdf/2207.03562</link>
-    <author>Maxime Tremblay, Guillaume Duclos-Cianci, Stefanos Kourtis</author>
-    <pubDate>Jul 11 2022</pubDate>
-    <description>We introduce a methodology for generating random multi-qubit stabilizer codes based on solving a constraint satisfaction problem (CSP) on random bipartite graphs. This framework allows us to enforce stabilizer commutation, X/Z balancing, finite rate, sparsity, and maximum-degree constraints simultaneously in a CSP that we can then solve numerically. Using a state-of-the-art CSP solver, we obtain convincing evidence for the existence of a satisfiability threshold. Furthermore, the extent of the satisfiable phase increases with the number of qubits. In that phase, finding sparse codes becomes an easy problem. Moreover, we observe that the sparse codes found in the satisfiable phase practically achieve the channel capacity for erasure noise. Our results show that intermediate-size finite-rate sparse quantum codes are easy to find, while also demonstrating a flexible methodology for generating good codes with custom properties. We therefore establish a complete and customizable pipeline for random quantum code discovery that can be geared towards near to mid-term quantum processor layouts.</description>
   </item>
 
   <item>

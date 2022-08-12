@@ -215,14 +215,6 @@
   </item>
 
   <item>
-    <title>Clifford groups are not always 2-designs</title>
-    <link>http://arxiv.org/pdf/2108.04200</link>
-    <author>Matthew A. Graydon, Joshua Skanes-Norman, Joel J. Wallman</author>
-    <pubDate>Aug 10 2021</pubDate>
-    <description>The Clifford group is the quotient of the normalizer of the Weyl-Heisenberg group in dimension $d$ by its centre. We prove that when $d$ is not prime the Clifford group is not a group unitary $2$-design. Furthermore, we prove that the multipartite Clifford group is not a group unitary 2-design except for the known cases wherein the local Hilbert space dimensions are a constant prime number. We also clarify the structure of projective group unitary $2$-designs. We show that the adjoint action induced by a group unitary $2$-design decomposes into exactly two irreducible components; moreover, a group is a unitary 2-design if and only if the character of its so-called $U\overline{U}$ representation is $\sqrt{2}$.</description>
-  </item>
-
-  <item>
     <title>Quantum many-body systems in thermal equilibrium</title>
     <link>http://arxiv.org/pdf/2204.08349</link>
     <author>Álvaro M. Alhambra</author>
@@ -311,19 +303,19 @@
   </item>
 
   <item>
-    <title>Is quantum advantage the right goal for quantum machine learning?</title>
-    <link>http://arxiv.org/pdf/2203.01340</link>
-    <author>Maria Schuld, Nathan Killoran</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
-  </item>
-
-  <item>
     <title>Time-energy uncertainty relation for noisy quantum metrology</title>
     <link>http://arxiv.org/pdf/2207.13707</link>
     <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
     <pubDate>Jul 29 2022</pubDate>
     <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
+  </item>
+
+  <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
   </item>
 
   <item>
@@ -404,6 +396,14 @@
     <author>Shouzhen Gu, Christopher A. Pattison, Eugene Tang</author>
     <pubDate>Jun 15 2022</pubDate>
     <description>Recent developments have shown the existence of quantum low-density parity check (qLDPC) codes with constant rate and linear distance. A natural question concerns the efficient decodability of these codes. In this paper, we present a linear time decoder for the recent quantum Tanner codes construction of asymptotically good qLDPC codes, which can correct all errors of weight up to a constant fraction of the blocklength. Our decoder is an iterative algorithm which searches for corrections within constant-sized regions. At each step, the corrections are found by reducing a locally defined and efficiently computable cost function which serves as a proxy for the weight of the remaining error.</description>
+  </item>
+
+  <item>
+    <title>Exploiting symmetry in variational quantum machine learning</title>
+    <link>http://arxiv.org/pdf/2205.06217</link>
+    <author>Johannes Jakob Meyer, Marian Mularski, Elies Gil-Fuster, Antonio Anna Mele, Francesco Arzani, Alissa Wilms, Jens Eisert</author>
+    <pubDate>May 13 2022</pubDate>
+    <description>Variational quantum machine learning is an extensively studied application of near-term quantum computers. The success of variational quantum learning models crucially depends on finding a suitable parametrization of the model that encodes an inductive bias relevant to the learning task. However, precious little is known about guiding principles for the construction of suitable parametrizations. In this work, we holistically explore when and how symmetries of the learning problem can be exploited to construct quantum learning models with outcomes invariant under the symmetry of the learning task. Building on tools from representation theory, we show how a standard gateset can be transformed into an equivariant gateset that respects the symmetries of the problem at hand through a process of gate symmetrization. We benchmark the proposed methods on two toy problems that feature a non-trivial symmetry and observe a substantial increase in generalization performance. As our tools can also be applied in a straightforward way to other variational problems with symmetric structure, we show how equivariant gatesets can be used in variational quantum eigensolvers.</description>
   </item>
 
 </channel>
