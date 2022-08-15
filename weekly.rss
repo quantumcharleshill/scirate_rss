@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>A parallel decoder for good quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.05537</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
+  </item>
+
+  <item>
     <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
     <link>http://arxiv.org/pdf/2208.04660</link>
     <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
@@ -31,11 +39,35 @@
   </item>
 
   <item>
+    <title>Adaptive syndrome measurements for Shor-style error correction</title>
+    <link>http://arxiv.org/pdf/2208.05601</link>
+    <author>Theerapat Tansuwannont, Kenneth R. Brown</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>The Shor fault-tolerant error correction (FTEC) scheme uses transversal gates and ancilla qubits prepared in the cat state in syndrome extraction circuits to prevent propagation of errors caused by gate faults. For a stabilizer code that can correct up to $t$ errors, the traditional Shor scheme handles ancilla preparation and measurement faults by performing syndrome measurements until the syndromes are repeated $t+1$ times in a row; in the worst-case scenario, $(t+1)^2$ rounds of measurements are required. In this work, we improve the Shor FTEC scheme using an adaptive syndrome measurement technique. In particular, our protocols determine a syndrome for error correction based on information from the differences of syndromes obtained from any two consecutive rounds. Our protocol that satisfies the strong FTEC conditions requires no more than $(t+3)^2/4-1$ rounds of measurements and is applicable to any stabilizer code. Compared to the traditional method, we estimate that our adaptive measurement method could increase the fault-tolerant threshold by a factor of 4 in the large $t$ limit. We also extend our ideas to error correction satisfying the weak FTEC conditions and flag FTEC.</description>
+  </item>
+
+  <item>
+    <title>Efficient recovery of variational quantum algorithms landscapes using classical signal processing</title>
+    <link>http://arxiv.org/pdf/2208.05958</link>
+    <author>Enrico Fontana, Ivan Rungger, Ross Duncan, Cristina Cîrstoiu</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>We employ spectral analysis and compressed sensing to identify settings where a variational algorithm's cost function can be recovered purely classically or with minimal quantum computer access. We present theoretical and numerical evidence supporting the viability of sparse recovery techniques. To demonstrate this approach, we use basis pursuit denoising to efficiently recover simulated Quantum Approximate Optimization Algorithm (QAOA) instances of large system size from very few samples. Our results indicate that sparse recovery can enable a more efficient use and distribution of quantum resources in the optimisation of variational algorithms.</description>
+  </item>
+
+  <item>
     <title>New Quantum Codes from CSS Code</title>
     <link>http://arxiv.org/pdf/2208.05353</link>
     <author>Markus Grassl</author>
     <pubDate>Aug 11 2022</pubDate>
     <description>We present a new propagation rule for CSS codes. Starting with a CSS code $[\![n,k,d]\!]_q$, we construct a CSS code with parameters $[\![n-2,k,d-1]\!]_q$. In general, one would only obtain a code with parameters $[\![n-2,k,d-2]\!]_q$. The construction applies to asymmetric quantum codes from the CSS construction as well.</description>
+  </item>
+
+  <item>
+    <title>Wasserstein Complexity of Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2208.06306</link>
+    <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
+    <pubDate>Aug 15 2022</pubDate>
+    <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
   </item>
 
   <item>
@@ -52,38 +84,6 @@
     <author>Mario Krenn, Jonas Landgraf, Thomas Foesel, Florian Marquardt</author>
     <pubDate>Aug 09 2022</pubDate>
     <description>In recent years, the dramatic progress in machine learning has begun to impact many areas of science and technology significantly. In the present perspective article, we explore how quantum technologies are benefiting from this revolution. We showcase in illustrative examples how scientists in the past few years have started to use machine learning and more broadly methods of artificial intelligence to analyze quantum measurements, estimate the parameters of quantum devices, discover new quantum experimental setups, protocols, and feedback strategies, and generally improve aspects of quantum computing, quantum communication, and quantum simulation. We highlight open challenges and future possibilities and conclude with some speculative visions for the next decade.</description>
-  </item>
-
-  <item>
-    <title>On the Role of Quantum Communication and Loss in Attacks on Quantum Position Verification</title>
-    <link>http://arxiv.org/pdf/2208.04341</link>
-    <author>Rene Allerstorfer, Harry Buhrman, Florian Speelman, Philip Verduyn Lunel</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>We study the role of quantum communication in attacks on quantum position verification. In this work, we construct the first known example of a QPV protocol that is provably secure against unentangled attackers restricted to classical communication, but can be perfectly attacked by local operations and a single round of simultaneous quantum communication indicating that allowing for quantum communication may break security. We also show that any protocol secure against classical communication can be transformed into a protocol secure against quantum communication. We further show, using arguments based on the monogamy of entanglement, that the task of Bell state discrimination cannot be done locally with a single round of quantum communication, not even probabilistically (when we allow attackers to say loss sometimes), making this the first fully loss-tolerant QPV task secure against quantum communication attacks. Finally, we observe that any multi-round QPV protocol can be attacked with a linear amount of entanglement if the loss is high enough.</description>
-  </item>
-
-  <item>
-    <title>Reconstructing complex states of a 20-qubit quantum simulator</title>
-    <link>http://arxiv.org/pdf/2208.04862</link>
-    <author>Murali K. Kurmapu, V.V. Tiunova, E.S. Tiunov, Martin Ringbauer, Christine Maier, Rainer Blatt, Thomas Monz, Aleksey K. Fedorov, A.I. Lvovsky</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>A prerequisite to the successful development of quantum computers and simulators is precise understanding of physical processes occurring therein, which can be achieved by measuring the quantum states they produce. However, the resources required for traditional quantum-state estimation scale exponentially with the system size, highlighting the need for alternative approaches. Here we demonstrate an efficient method for complete characterization of complex multi-qubit quantum states. Using a variational version of the matrix product state ansatz, we perform the full tomography of quantum states produced in a 20-qubit trapped-ion Ising-type quantum simulator, using the data acquired in only 27 bases with 1000 measurements in each basis. We observe superior state reconstruction quality and faster convergence compared to the methods based on neural network quantum state representations: restricted Boltzmann machines and feedforward neural networks with autoregressive architecture. Our results pave the way towards efficient experimental characterization of complex states produced by the dynamics of many-body quantum systems.</description>
-  </item>
-
-  <item>
-    <title>Quantum-Classical Hybrid Systems and their Quasifree Transformations</title>
-    <link>http://arxiv.org/pdf/2208.05020</link>
-    <author>Lars Dammeier, Reinhard F. Werner</author>
-    <pubDate>Aug 11 2022</pubDate>
-    <description>We study continuous variable systems, in which quantum and classical degrees of freedom are combined and treated on the same footing. Thus all systems, including the inputs or outputs to a channel, may be quantum-classical hybrids. This allows a unified treatment of a large variety of quantum operations involving measurements or dependence on classical parameters. The basic variables are given by canonical operators with scalar commutators. Some variables may commute with all others and hence generate a classical subsystem. We systematically study the class of "quasifree" operations, which are characterized equivalently either by an intertwining condition for phase-space translations or by the requirement that, in the Heisenberg picture, Weyl operators are mapped to multiples of Weyl operators. This includes the well-known Gaussian operations, evolutions with quadratic Hamiltonians, and "linear Bosonic channels", but allows for much more general kinds of noise. For example, all states are quasifree. We sketch the analysis of quasifree preparation, measurement, repeated observation, cloning, teleportation, dense coding, the setup for the classical limit, and some aspects of irreversible dynamics, together with the precise salient tradeoffs of uncertainty, error, and disturbance. Although the spaces of observables and states are infinite dimensional for every non-trivial system that we consider, we treat the technicalities related to this in a uniform and conclusive way, providing a calculus that is both easy to use and fully rigorous.</description>
-  </item>
-
-  <item>
-    <title>Computing theta function</title>
-    <link>http://arxiv.org/pdf/2208.05405</link>
-    <author>Alexander Barvinok</author>
-    <pubDate>Aug 11 2022</pubDate>
-    <description>Let $f: {\Bbb R}^n \longrightarrow {\Bbb R}$ be a positive definite quadratic form and let $y \in {\Bbb R}^n$ be a point. We present a fully polynomial randomized approximation scheme (FPRAS) for computing $\sum_{x \in {\Bbb Z}^n} e^{-f(x)}$, provided the eigenvalues of $f$ lie in the interval roughly between $s$ and $e^{s}$ and for computing $\sum_{x \in {\Bbb Z}^n} e^{-f(x-y)}$, provided the eigenvalues of $f$ lie in the interval roughly between $e^{-s}$ and $s^{-1}$ for some $s \geq 3$. To compute the first sum, we represent it as the integral of an explicit log-concave function on ${\Bbb R}^n$, and to compute the second sum, we use the reciprocity relation for theta functions. Choosing $s \sim \log n$, we apply the results to test the existence of sufficiently many short integer vectors in a given subspace $L \subset {\Bbb R}^n$ or in the vicinity of $L$.</description>
   </item>
 
 </channel>
