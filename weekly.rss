@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Wasserstein Complexity of Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2208.06306</link>
+    <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
+    <pubDate>Aug 15 2022</pubDate>
+    <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
+  </item>
+
+  <item>
     <title>A parallel decoder for good quantum LDPC codes</title>
     <link>http://arxiv.org/pdf/2208.05537</link>
     <author>Anthony Leverrier, Gilles Zémor</author>
@@ -31,11 +39,11 @@
   </item>
 
   <item>
-    <title>Noise-resilient phase estimation with randomized compiling</title>
-    <link>http://arxiv.org/pdf/2208.04100</link>
-    <author>Yanwu Gu, Yunheng Ma, Nicolo Forcellini, Dong E. Liu</author>
-    <pubDate>Aug 09 2022</pubDate>
-    <description>We develop an error mitigation method for the control-free phase estimation. We prove a theorem that under the first-order correction, the noise channels with only Hermitian Kraus operators do not change the phases of a unitary operator, and therefore, the benign types of noise for phase estimation are identified. By using the randomized compiling protocol, we can convert the generic noise in the phase estimation circuits into stochastic Pauli noise, which satisfies the condition of our theorem. Thus we achieve a noise-resilient phase estimation without any quantum resource overhead. The simulated experiments show that our method can significantly reduce the estimation error of the phases by up to two orders of magnitude. Our method paves the way for the utilization of quantum phase estimation before the advent of fault-tolerant quantum computers.</description>
+    <title>On establishing learning separations between classical and quantum machine learning with classical data</title>
+    <link>http://arxiv.org/pdf/2208.06339</link>
+    <author>Casper Gyurik, Vedran Dunjko</author>
+    <pubDate>Aug 15 2022</pubDate>
+    <description>Despite years of effort, the quantum machine learning community has only been able to show quantum learning advantages for certain contrived cryptography-inspired datasets in the case of classical data. In this note, we discuss the challenges of finding learning problems that quantum learning algorithms can learn much faster than any classical learning algorithm, and we study how to identify such learning problems. Specifically, we reflect on the main concepts in computational learning theory pertaining to this question, and we discuss how subtle changes in definitions can mean conceptually significantly different tasks, which can either lead to a separation or no separation at all. Moreover, we study existing learning problems with a provable quantum speedup to distill sets of more general and sufficient conditions (i.e., ``checklists'') for a learning problem to exhibit a separation between classical and quantum learners. These checklists are intended to streamline one's approach to proving quantum speedups for learning problems, or to elucidate bottlenecks. Finally, to illustrate its application, we analyze examples of potential separations (i.e., when the learning problem is build from computational separations, or when the data comes from a quantum experiment) through the lens of our approach.</description>
   </item>
 
   <item>
@@ -63,11 +71,11 @@
   </item>
 
   <item>
-    <title>Wasserstein Complexity of Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2208.06306</link>
-    <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
-    <pubDate>Aug 15 2022</pubDate>
-    <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
+    <title>Disordered Lieb-Robinson bounds in one dimension</title>
+    <link>http://arxiv.org/pdf/2208.05509</link>
+    <author>Christopher L. Baldwin, Adam Ehrenberg, Andrew Y. Guo, Alexey V. Gorshkov</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>By tightening the conventional Lieb-Robinson bounds to better handle systems which lack translation invariance, we determine the extent to which "weak links" suppress operator growth in disordered one-dimensional spin chains. In particular, we prove that ballistic growth is impossible when the distribution of coupling strengths $\mu(J)$ has a sufficiently heavy tail at small $J$, and identify the correct dynamical exponent to use instead. Furthermore, through a detailed analysis of the special case in which the couplings are genuinely random and independent, we find that the standard formulation of Lieb-Robinson bounds is insufficient to capture the complexity of the dynamics -- we must distinguish between bounds which hold for all sites of the chain and bounds which hold for a subsequence of sites, and we show by explicit example that these two can have dramatically different behaviors. All the same, our result for the dynamical exponent is tight, in that we prove by counterexample that there cannot exist any Lieb-Robinson bound with a smaller exponent. We close by discussing the implications of our results, both major and minor, for numerous applications ranging from quench dynamics to the structure of ground states.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>L. F. Cugliandolo, M. Mueller</author>
     <pubDate>Aug 11 2022</pubDate>
     <description>We review the research on quantum glasses, with a focus on their equilibrium dynamics and the interplay between glassiness and localization phenomena. Interesting relations with the SYK model are discussed.</description>
-  </item>
-
-  <item>
-    <title>Artificial Intelligence and Machine Learning for Quantum Technologies</title>
-    <link>http://arxiv.org/pdf/2208.03836</link>
-    <author>Mario Krenn, Jonas Landgraf, Thomas Foesel, Florian Marquardt</author>
-    <pubDate>Aug 09 2022</pubDate>
-    <description>In recent years, the dramatic progress in machine learning has begun to impact many areas of science and technology significantly. In the present perspective article, we explore how quantum technologies are benefiting from this revolution. We showcase in illustrative examples how scientists in the past few years have started to use machine learning and more broadly methods of artificial intelligence to analyze quantum measurements, estimate the parameters of quantum devices, discover new quantum experimental setups, protocols, and feedback strategies, and generally improve aspects of quantum computing, quantum communication, and quantum simulation. We highlight open challenges and future possibilities and conclude with some speculative visions for the next decade.</description>
   </item>
 
 </channel>

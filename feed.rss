@@ -79,6 +79,14 @@
   </item>
 
   <item>
+    <title>Erasure qubits: Overcoming the $T_1$ limit in superconducting circuits</title>
+    <link>http://arxiv.org/pdf/2208.05461</link>
+    <author>Aleksander Kubica, Arbel Haim, Yotam Vaknin, Fernando Brandão, Alex Retzker</author>
+    <pubDate>Aug 11 2022</pubDate>
+    <description>The amplitude damping time, $T_1$, has long stood as the major factor limiting quantum fidelity in superconducting circuits, prompting concerted efforts in the material science and design of qubits aimed at increasing $T_1$. In contrast, the dephasing time, $T_{\phi}$, can usually be extended above $T_1$ (via, e.g., dynamical decoupling), to the point where it does not limit fidelity. In this article we propose a scheme for overcoming the conventional $T_1$ limit on fidelity by designing qubits in a way that amplitude damping errors can be detected and converted into erasure errors. Compared to standard qubit implementations our scheme improves the performance of fault-tolerant protocols, as numerically demonstrated by the circuit-noise simulations of the surface code. We describe two simple qubit implementations with superconducting circuits and discuss procedures for detecting amplitude damping errors, performing entangling gates, and extending $T_\phi$. Our results suggest that engineering efforts should focus on improving $T_\phi$ and the quality of quantum coherent control, as they effectively become the limiting factor on the performance of fault-tolerant protocols.</description>
+  </item>
+
+  <item>
     <title>A Sublinear-Time Quantum Algorithm for Approximating Partition Functions</title>
     <link>http://arxiv.org/pdf/2207.08643</link>
     <author>Arjan Cornelissen, Yassine Hamoudi</author>
@@ -87,11 +95,11 @@
   </item>
 
   <item>
-    <title>Erasure qubits: Overcoming the $T_1$ limit in superconducting circuits</title>
-    <link>http://arxiv.org/pdf/2208.05461</link>
-    <author>Aleksander Kubica, Arbel Haim, Yotam Vaknin, Fernando Brandão, Alex Retzker</author>
-    <pubDate>Aug 11 2022</pubDate>
-    <description>The amplitude damping time, $T_1$, has long stood as the major factor limiting quantum fidelity in superconducting circuits, prompting concerted efforts in the material science and design of qubits aimed at increasing $T_1$. In contrast, the dephasing time, $T_{\phi}$, can usually be extended above $T_1$ (via, e.g., dynamical decoupling), to the point where it does not limit fidelity. In this article we propose a scheme for overcoming the conventional $T_1$ limit on fidelity by designing qubits in a way that amplitude damping errors can be detected and converted into erasure errors. Compared to standard qubit implementations our scheme improves the performance of fault-tolerant protocols, as numerically demonstrated by the circuit-noise simulations of the surface code. We describe two simple qubit implementations with superconducting circuits and discuss procedures for detecting amplitude damping errors, performing entangling gates, and extending $T_\phi$. Our results suggest that engineering efforts should focus on improving $T_\phi$ and the quality of quantum coherent control, as they effectively become the limiting factor on the performance of fault-tolerant protocols.</description>
+    <title>Wasserstein Complexity of Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2208.06306</link>
+    <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
+    <pubDate>Aug 15 2022</pubDate>
+    <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
   </item>
 
   <item>
@@ -183,6 +191,22 @@
   </item>
 
   <item>
+    <title>A parallel decoder for good quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.05537</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
+  </item>
+
+  <item>
+    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
+    <link>http://arxiv.org/pdf/2208.04660</link>
+    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Aug 10 2022</pubDate>
+    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
+  </item>
+
+  <item>
     <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
     <link>http://arxiv.org/pdf/2207.11014</link>
     <author>Yassine Hamoudi</author>
@@ -207,22 +231,6 @@
   </item>
 
   <item>
-    <title>A parallel decoder for good quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.05537</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Aug 12 2022</pubDate>
-    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
-  </item>
-
-  <item>
-    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
-    <link>http://arxiv.org/pdf/2208.04660</link>
-    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
-  </item>
-
-  <item>
     <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
     <link>http://arxiv.org/pdf/2208.02199</link>
     <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
@@ -236,14 +244,6 @@
     <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
-  </item>
-
-  <item>
-    <title>Quantum Data Center: Theories and Applications</title>
-    <link>http://arxiv.org/pdf/2207.14336</link>
-    <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.</description>
   </item>
 
 </channel>
