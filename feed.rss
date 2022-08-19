@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>The Physics of Quantum Information</title>
+    <link>http://arxiv.org/pdf/2208.08064</link>
+    <author>John Preskill</author>
+    <pubDate>Aug 18 2022</pubDate>
+    <description>Rapid ongoing progress in quantum information science makes this an apt time for a Solvay Conference focused on The Physics of Quantum Information. Here I review four intertwined themes encompassed by this topic: Quantum computer science, quantum hardware, quantum matter, and quantum gravity. Though the time scale for broad practical impact of quantum computation is still uncertain, in the near future we can expect noteworthy progress toward scalable fault-tolerant quantum computing, and discoveries enabled by programmable quantum simulators. In the longer term, controlling highly complex quantum matter will open the door to profound scientific advances and powerful new technologies.</description>
+  </item>
+
+  <item>
     <title>Matchgate Shadows for Fermionic Quantum Simulation</title>
     <link>http://arxiv.org/pdf/2207.13723</link>
     <author>Kianna Wan, William J. Huggins, Joonho Lee, Ryan Babbush</author>
@@ -47,19 +55,19 @@
   </item>
 
   <item>
+    <title>Wasserstein Complexity of Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2208.06306</link>
+    <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
+    <pubDate>Aug 15 2022</pubDate>
+    <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
+  </item>
+
+  <item>
     <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
     <link>http://arxiv.org/pdf/2207.09465</link>
     <author>Kevin Slagle, John Preskill</author>
     <pubDate>Jul 21 2022</pubDate>
     <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
-  </item>
-
-  <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
   </item>
 
   <item>
@@ -71,11 +79,11 @@
   </item>
 
   <item>
-    <title>On the Super-exponential Quantum Speedup of Equivariant Quantum Machine Learning Algorithms with SU($d$) Symmetry</title>
-    <link>http://arxiv.org/pdf/2207.07250</link>
-    <author>Han Zheng, Zimu Li, Junyu Liu, Sergii Strelchuk, Risi Kondor</author>
-    <pubDate>Jul 18 2022</pubDate>
-    <description>We introduce a framework of the equivariant convolutional algorithms which is tailored for a number of machine-learning tasks on physical systems with arbitrary SU($d$) symmetries. It allows us to enhance a natural model of quantum computation--permutational quantum computing (PQC) [Quantum Inf. Comput., 10, 470-497 (2010)] --and defines a more powerful model: PQC+. While PQC was shown to be effectively classically simulatable, we exhibit a problem which can be efficiently solved on PQC+ machine, whereas the best known classical algorithms runs in $O(n!n^2)$ time, thus providing strong evidence against PQC+ being classically simulatable. We further discuss practical quantum machine learning algorithms which can be carried out in the paradigm of PQC+.</description>
+    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
+    <link>http://arxiv.org/pdf/2207.10097</link>
+    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
   </item>
 
   <item>
@@ -87,19 +95,19 @@
   </item>
 
   <item>
-    <title>A Sublinear-Time Quantum Algorithm for Approximating Partition Functions</title>
-    <link>http://arxiv.org/pdf/2207.08643</link>
-    <author>Arjan Cornelissen, Yassine Hamoudi</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>We present a novel quantum algorithm for estimating Gibbs partition functions in sublinear time with respect to the logarithm of the size of the state space. This is the first speed-up of this type to be obtained over the seminal nearly-linear time algorithm of Štefankovič, Vempala and Vigoda [JACM, 2009]. Our result also preserves the quadratic speed-up in precision and spectral gap achieved in previous work by exploiting the properties of quantum Markov chains. As an application, we obtain new polynomial improvements over the best-known algorithms for computing the partition function of the Ising model, and counting the number of $k$-colorings, matchings or independent sets of a graph. Our approach relies on developing new variants of the quantum phase and amplitude estimation algorithms that return nearly unbiased estimates with low variance and without destroying their initial quantum state. We extend these subroutines into a nearly unbiased quantum mean estimator that reduces the variance quadratically faster than the classical empirical mean. No such estimator was known to exist prior to our work. These properties, which are of general interest, lead to better convergence guarantees within the paradigm of simulated annealing for computing partition functions.</description>
+    <title>Optimal algorithms for learning quantum phase states</title>
+    <link>http://arxiv.org/pdf/2208.07851</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Arkopal Dutt, Theodore J. Yoder</author>
+    <pubDate>Aug 17 2022</pubDate>
+    <description>We analyze the complexity of learning $n$-qubit quantum phase states. A degree-$d$ phase state is defined as a superposition of all $2^n$ basis vectors $x$ with amplitudes proportional to $(-1)^{f(x)}$, where $f$ is a degree-$d$ Boolean polynomial over $n$ variables. We show that the sample complexity of learning an unknown degree-$d$ phase state is $\Theta(n^d)$ if we allow separable measurements and $\Theta(n^{d-1})$ if we allow entangled measurements. Our learning algorithm based on separable measurements has runtime $\textsf{poly}(n)$ (for constant $d$) and is well-suited for near-term demonstrations as it requires only single-qubit measurements in the Pauli $X$ and $Z$ bases. We show similar bounds on the sample complexity for learning generalized phase states with complex-valued amplitudes. We further consider learning phase states when $f$ has sparsity-$s$, degree-$d$ in its $\mathbb{F}_2$ representation (with sample complexity $O(2^d sn)$), $f$ has Fourier-degree-$t$ (with sample complexity $O(2^{2t})$), and learning quadratic phase states with $\varepsilon$-global depolarizing noise (with sample complexity $O(n^{1+\varepsilon})$). These learning algorithms give us a procedure to learn the diagonal unitaries of the Clifford hierarchy and IQP circuits.</description>
   </item>
 
   <item>
-    <title>Wasserstein Complexity of Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2208.06306</link>
-    <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
-    <pubDate>Aug 15 2022</pubDate>
-    <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
+    <title>Mean estimation when you have the source code; or, quantum Monte Carlo methods</title>
+    <link>http://arxiv.org/pdf/2208.07544</link>
+    <author>Robin Kothari, Ryan O'Donnell</author>
+    <pubDate>Aug 17 2022</pubDate>
+    <description>Suppose $\boldsymbol{y}$ is a real random variable, and one is given access to ``the code'' that generates it (for example, a randomized or quantum circuit whose output is $\boldsymbol{y}$). We give a quantum procedure that runs the code $O(n)$ times and returns an estimate $\widehat{\boldsymbol{\mu}}$ for $\mu = \mathrm{E}[\boldsymbol{y}]$ that with high probability satisfies $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/n$, where $\sigma = \mathrm{stddev}[\boldsymbol{y}]$. This dependence on $n$ is optimal for quantum algorithms. One may compare with classical algorithms, which can only achieve the quadratically worse $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/\sqrt{n}$. Our method improves upon previous works, which either made additional assumptions about $\boldsymbol{y}$, and/or assumed the algorithm knew an a priori bound on $\sigma$, and/or used additional logarithmic factors beyond $O(n)$. The central subroutine for our result is essentially Grover's algorithm but with complex phases.ally Grover's algorithm but with complex phases.</description>
   </item>
 
   <item>
@@ -119,19 +127,11 @@
   </item>
 
   <item>
-    <title>Constant-cost implementations of Clifford operations and multiply controlled gates using global interactions</title>
-    <link>http://arxiv.org/pdf/2207.08691</link>
-    <author>Sergey Bravyi, Dmitri Maslov, Yunseong Nam</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>A frequent physical-level requirement for the ability to implement quantum operations simultaneously is their commutativity. In this work, we asked if quantum computation by commuting Ising-type entangling operations and ``free'' single-qubit gates can be advantageous compared to quantum computation by the two-qubit gates and ``free'' single-qubit gates. We focused on the elements of the Clifford group and the multiply controlled gates. It turned out that such circuits and composite gates can be implemented with very little effort -- using constantly or effectively constantly many blocks of commuting sets of gates, in all cases except some with the most severe restrictions on the number of ancillary qubits available. Specifically, we show constant-cost implementations of Clifford operations with and without ancilla, constant-cost implementation of the multiply controlled gates with linearly many ancillae, and an $O(\log^*(n))$ implementation of the $n$-controlled single-target gates using logarithmically many ancillae. This shows significant (asymptotic) improvement of circuits enabled by the global gates vs those over single- and two-qubit gates.</description>
-  </item>
-
-  <item>
-    <title>What is nonclassical about uncertainty relations?</title>
-    <link>http://arxiv.org/pdf/2207.11779</link>
-    <author>Lorenzo Catani, Matthew Leifer, Giovanni Scala, David Schmid, Robert W. Spekkens</author>
-    <pubDate>Jul 26 2022</pubDate>
-    <description>Uncertainty relations express limits on the extent to which the outcomes of distinct measurements on a single state can be made jointly predictable. The existence of nontrivial uncertainty relations in quantum theory is generally considered to be a way in which it entails a departure from the classical worldview. However, this view is undermined by the fact that there exist operational theories which exhibit nontrivial uncertainty relations but which are consistent with the classical worldview insofar as they admit of a generalized-noncontextual ontological model. This prompts the question of what aspects of uncertainty relations, if any, cannot be realized in this way and so constitute evidence of genuine nonclassicality. We here consider uncertainty relations describing the tradeoff between the predictability of a pair of binary-outcome measurements (e.g., measurements of Pauli X and Pauli Z observables in quantum theory). We show that, for a class of theories satisfying a particular symmetry property, the functional form of this predictability tradeoff is constrained by noncontextuality to be below a linear curve. Because qubit quantum theory has the relevant symmetry property, the fact that it has a quadratic tradeoff between these predictabilities is a violation of this noncontextual bound, and therefore constitutes an example of how the functional form of an uncertainty relation can witness contextuality. We also deduce the implications for a selected group of operational foils to quantum theory and consider the generalization to three measurements.</description>
+    <title>Solving boolean satisfiability problems with the quantum approximate optimization algorithm</title>
+    <link>http://arxiv.org/pdf/2208.06909</link>
+    <author>Sami Boulebnane, Ashley Montanaro</author>
+    <pubDate>Aug 16 2022</pubDate>
+    <description>The quantum approximate optimization algorithm (QAOA) is one of the most prominent proposed applications for near-term quantum computing. Here we study the ability of QAOA to solve hard constraint satisfaction problems, as opposed to optimization problems. We focus on the fundamental boolean satisfiability problem, in the form of random $k$-SAT. We develop analytic bounds on the average success probability of QAOA over random boolean formulae at the satisfiability threshold, as the number of variables $n$ goes to infinity. The bounds hold for fixed parameters and when $k$ is a power of 2. We complement these theoretical results with numerical results on the performance of QAOA for small $n$, showing that these match the limiting theoretical bounds closely. We then use these results to compare QAOA with leading classical solvers. In the case of random 8-SAT, we find that for around 14 ansatz layers, QAOA matches the scaling performance of the highest-performance classical solver we tested, WalkSATlm. For larger numbers of layers, QAOA outperforms WalkSATlm, with an ultimate level of advantage that is still to be determined. Our methods provide a framework for analysing the performance of QAOA for hard constraint satisfaction problems and finding further speedups over classical algorithms.</description>
   </item>
 
   <item>
@@ -143,6 +143,14 @@
   </item>
 
   <item>
+    <title>What is nonclassical about uncertainty relations?</title>
+    <link>http://arxiv.org/pdf/2207.11779</link>
+    <author>Lorenzo Catani, Matthew Leifer, Giovanni Scala, David Schmid, Robert W. Spekkens</author>
+    <pubDate>Jul 26 2022</pubDate>
+    <description>Uncertainty relations express limits on the extent to which the outcomes of distinct measurements on a single state can be made jointly predictable. The existence of nontrivial uncertainty relations in quantum theory is generally considered to be a way in which it entails a departure from the classical worldview. However, this view is undermined by the fact that there exist operational theories which exhibit nontrivial uncertainty relations but which are consistent with the classical worldview insofar as they admit of a generalized-noncontextual ontological model. This prompts the question of what aspects of uncertainty relations, if any, cannot be realized in this way and so constitute evidence of genuine nonclassicality. We here consider uncertainty relations describing the tradeoff between the predictability of a pair of binary-outcome measurements (e.g., measurements of Pauli X and Pauli Z observables in quantum theory). We show that, for a class of theories satisfying a particular symmetry property, the functional form of this predictability tradeoff is constrained by noncontextuality to be below a linear curve. Because qubit quantum theory has the relevant symmetry property, the fact that it has a quadratic tradeoff between these predictabilities is a violation of this noncontextual bound, and therefore constitutes an example of how the functional form of an uncertainty relation can witness contextuality. We also deduce the implications for a selected group of operational foils to quantum theory and consider the generalization to three measurements.</description>
+  </item>
+
+  <item>
     <title>Correcting non-independent and non-identically distributed errors with surface codes</title>
     <link>http://arxiv.org/pdf/2208.02191</link>
     <author>Konstantin Tiurev, Peter-Jan H. S. Derks, Joschka Roffe, Jens Eisert, Jan-Michael Reiner</author>
@@ -151,19 +159,11 @@
   </item>
 
   <item>
-    <title>Quantum tomography using state-preparation unitaries</title>
-    <link>http://arxiv.org/pdf/2207.08800</link>
-    <author>Joran van Apeldoorn, Arjan Cornelissen, András Gilyén, Giacomo Nannicini</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>We describe algorithms to obtain an approximate classical description of a $d$-dimensional quantum state when given access to a unitary (and its inverse) that prepares it. For pure states we characterize the query complexity for $\ell_q$-norm error up to logarithmic factors. As a special case, we show that it takes $\widetilde{\Theta}(d/\varepsilon)$ applications of the unitaries to obtain an $\varepsilon$-$\ell_2$-approximation of the state. For mixed states we consider a similar model, where the unitary prepares a purification of the state. In this model we give an efficient algorithm for obtaining Schatten $q$-norm estimates of a rank-$r$ mixed state, giving query upper bounds that are close to optimal. In particular, we show that a trace-norm ($q=1$) estimate can be obtained with $\widetilde{\mathcal{O}}(dr/\varepsilon)$ queries. This improves (assuming our stronger input model) the $\varepsilon$-dependence over the algorithm of Haah et al.\ (2017) that uses a joint measurement on $\widetilde{\mathcal{O}}(dr/\varepsilon^2)$ copies of the state. To our knowledge, the most sample-efficient results for pure-state tomography come from setting the rank to $1$ in generic mixed-state tomography algorithms, which can be computationally demanding. We describe sample-optimal algorithms for pure states that are easy and fast to implement. Along the way we show that an $\ell_\infty$-norm estimate of a normalized vector induces a (slightly worse) $\ell_q$-norm estimate for that vector, without losing a dimension-dependent factor in the precision. We also develop an unbiased and symmetric version of phase estimation, where the probability distribution of the estimate is centered around the true value. Finally, we give an efficient method for estimating multiple expectation values, improving over the recent result by Huggins et al.\ (2021) when the measurement operators do not fully overlap.</description>
-  </item>
-
-  <item>
-    <title>Publicly verifiable quantum money from random lattices</title>
-    <link>http://arxiv.org/pdf/2207.13135</link>
-    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
-    <pubDate>Jul 28 2022</pubDate>
-    <description>Publicly verifiable quantum money is a protocol for the preparation of quantum states that can be efficiently verified by any party for authenticity but is computationally infeasible to counterfeit. We develop a cryptographic scheme for publicly verifiable quantum money based on Gaussian superpositions over random lattices. We introduce a verification-of-authenticity procedure based on the lattice discrete Fourier transform, and subsequently prove the unforgeability of our quantum money under the hardness of the short vector problem from lattice-based cryptography.</description>
+    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
+    <link>http://arxiv.org/pdf/2208.04660</link>
+    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Aug 10 2022</pubDate>
+    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
   </item>
 
   <item>
@@ -175,19 +175,11 @@
   </item>
 
   <item>
-    <title>Quantifying Nonstabilizerness of Matrix Product States</title>
-    <link>http://arxiv.org/pdf/2207.13076</link>
-    <author>Tobias Haug, Lorenzo Piroli</author>
-    <pubDate>Jul 27 2022</pubDate>
-    <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of "long-range magic".</description>
-  </item>
-
-  <item>
-    <title>Amplitude Estimation from Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2207.08628</link>
-    <author>Patrick Rall, Bryce Fuller</author>
-    <pubDate>Jul 19 2022</pubDate>
-    <description>Amplitude estimation algorithms are based on Grover's algorithm: alternating reflections about the input state and the desired outcome. But what if we are given the ability to perform arbitrary rotations, instead of just reflections? In this situation, we find that quantum signal processing lets us estimate the amplitude in a more flexible way. We leverage this technique to give improved and simplified algorithms for many amplitude estimation tasks: we perform non-destructive estimation without any assumptions on the amplitude, develop an algorithm with improved performance in practice, present a new method for unbiased amplitude estimation, and finally give a simpler method for trading quantum circuit depth for more repetitions of short circuits.</description>
+    <title>Publicly verifiable quantum money from random lattices</title>
+    <link>http://arxiv.org/pdf/2207.13135</link>
+    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
+    <pubDate>Jul 28 2022</pubDate>
+    <description>Publicly verifiable quantum money is a protocol for the preparation of quantum states that can be efficiently verified by any party for authenticity but is computationally infeasible to counterfeit. We develop a cryptographic scheme for publicly verifiable quantum money based on Gaussian superpositions over random lattices. We introduce a verification-of-authenticity procedure based on the lattice discrete Fourier transform, and subsequently prove the unforgeability of our quantum money under the hardness of the short vector problem from lattice-based cryptography.</description>
   </item>
 
   <item>
@@ -199,11 +191,19 @@
   </item>
 
   <item>
-    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
-    <link>http://arxiv.org/pdf/2208.04660</link>
-    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
+    <title>Quantifying Nonstabilizerness of Matrix Product States</title>
+    <link>http://arxiv.org/pdf/2207.13076</link>
+    <author>Tobias Haug, Lorenzo Piroli</author>
+    <pubDate>Jul 27 2022</pubDate>
+    <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of "long-range magic".</description>
+  </item>
+
+  <item>
+    <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
+    <link>http://arxiv.org/pdf/2208.02199</link>
+    <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>The idea to use quantum mechanical devices to simulate other quantum systems is commonly ascribed to Feynman. Since the original suggestion, concrete proposals have appeared for simulating molecular and materials chemistry through quantum computation, as a potential "killer application". Indications of potential exponential quantum advantage in artificial tasks have increased interest in this application, thus, it is critical to understand the basis for potential exponential quantum advantage in quantum chemistry. Here we gather the evidence for this case in the most common task in quantum chemistry, namely, ground-state energy estimation. We conclude that evidence for such an advantage across chemical space has yet to be found. While quantum computers may still prove useful for quantum chemistry, it may be prudent to assume exponential speedups are not generically available for this problem.</description>
   </item>
 
   <item>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
-    <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
-    <link>http://arxiv.org/pdf/2208.02199</link>
-    <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
-    <pubDate>Aug 04 2022</pubDate>
-    <description>The idea to use quantum mechanical devices to simulate other quantum systems is commonly ascribed to Feynman. Since the original suggestion, concrete proposals have appeared for simulating molecular and materials chemistry through quantum computation, as a potential "killer application". Indications of potential exponential quantum advantage in artificial tasks have increased interest in this application, thus, it is critical to understand the basis for potential exponential quantum advantage in quantum chemistry. Here we gather the evidence for this case in the most common task in quantum chemistry, namely, ground-state energy estimation. We conclude that evidence for such an advantage across chemical space has yet to be found. While quantum computers may still prove useful for quantum chemistry, it may be prudent to assume exponential speedups are not generically available for this problem.</description>
-  </item>
-
-  <item>
     <title>Techniques for combining fast local decoders with global decoders under circuit-level noise</title>
     <link>http://arxiv.org/pdf/2208.01178</link>
     <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
+  </item>
+
+  <item>
+    <title>Quantum Data Center: Theories and Applications</title>
+    <link>http://arxiv.org/pdf/2207.14336</link>
+    <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.</description>
   </item>
 
 </channel>
