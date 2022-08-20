@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Classical shadows of fermions with particle number symmetry</title>
+    <link>http://arxiv.org/pdf/2208.08964</link>
+    <author>Guang Hao Low</author>
+    <pubDate>Aug 19 2022</pubDate>
+    <description>We consider classical shadows of fermion wavefunctions with $\eta$ particles occupying $n$ modes. We prove that of all $k$-reduced density matrices may be simultaneously estimated to an average variance of $\epsilon^{2}$ using at most $\binom{\eta}{k}\big(1-\frac{\eta-k}{n}\big)^{k}\frac{1+n}{1+n-k}/\epsilon^{2}$ measurements in random single-particle bases that conserve particle number, and provide an estimator that is computationally efficient. This is a super-exponential improvement over the $\binom{n}{k}\sqrt{\pi k}/\epsilon^{2}$ scaling of prior approaches as $n$ can be arbitrarily larger than $\eta$ in natural problems. Our method, in the worst-case of half-filling, still provides a factor of $4^{k}$ advantage in sample complexity, and also estimates all $\eta$-reduced density matrices, applicable to estimating overlaps with all single Slater determinants, with at most $\frac{4}{3}/\epsilon^{2}$ samples, which is additionally independent of $\eta$.</description>
+  </item>
+
+  <item>
     <title>A hybrid framework for estimating nonlinear functions of quantum states</title>
     <link>http://arxiv.org/pdf/2208.08416</link>
     <author>You Zhou, Zhenhuan Liu</author>
@@ -31,19 +39,11 @@
   </item>
 
   <item>
-    <title>Reducing molecular electronic Hamiltonian simulation cost for Linear Combination of Unitaries approaches</title>
-    <link>http://arxiv.org/pdf/2208.08272</link>
-    <author>Ignacio Loaiza, Alireza Marefat Khah, Nathan Wiebe, Artur F. Izmaylov</author>
-    <pubDate>Aug 18 2022</pubDate>
-    <description>We consider different Linear Combination of Unitaries (LCU) decompositions for molecular electronic structure Hamiltonians. Using these LCU decompositions for Hamiltonian simulation on a quantum computer, the main figure of merit is the 1-norm of their coefficients, which is associated with the quantum circuit complexity. It is derived that the lowest possible LCU 1-norm for a given Hamiltonian is half of its spectral range. This lowest norm decomposition is practically unattainable for general Hamiltonians; therefore, multiple practical techniques to generate LCU decompositions are proposed and assessed. A technique using symmetries to reduce the 1-norm further is also introduced. In addition to considering LCU in the Schrödinger picture, we extend it to the interaction picture, which substantially further reduces the 1-norm.</description>
-  </item>
-
-  <item>
-    <title>Classical shadows of fermions with particle number symmetry</title>
-    <link>http://arxiv.org/pdf/2208.08964</link>
-    <author>Guang Hao Low</author>
+    <title>Have your QEC and Bandwidth too!: A lightweight cryogenic decoder for common / trivial errors, and efficient bandwidth + execution management otherwise</title>
+    <link>http://arxiv.org/pdf/2208.08547</link>
+    <author>Gokul Subramanian Ravi, Jonathan M. Baker, Arash Fayyazi, Sophia Fuhui Lin, Ali Javadi-Abhari, Massoud Pedram, Frederic T. Chong</author>
     <pubDate>Aug 19 2022</pubDate>
-    <description>We consider classical shadows of fermion wavefunctions with $\eta$ particles occupying $n$ modes. We prove that of all $k$-reduced density matrices may be simultaneously estimated to an average variance of $\epsilon^{2}$ using at most $\binom{\eta}{k}\big(1-\frac{\eta-k}{n}\big)^{k}\frac{1+n}{1+n-k}/\epsilon^{2}$ measurements in random single-particle bases that conserve particle number, and provide an estimator that is computationally efficient. This is a super-exponential improvement over the $\binom{n}{k}\sqrt{\pi k}/\epsilon^{2}$ scaling of prior approaches as $n$ can be arbitrarily larger than $\eta$ in natural problems. Our method, in the worst-case of half-filling, still provides a factor of $4^{k}$ advantage in sample complexity, and also estimates all $\eta$-reduced density matrices, applicable to estimating overlaps with all single Slater determinants, with at most $\frac{4}{3}/\epsilon^{2}$ samples, which is additionally independent of $\eta$.</description>
+    <description>The overheads of classical decoding for quantum error correction grow rapidly with the number of logical qubits and their correction code distance. Decoding at room temperature is bottle-necked by refrigerator I/O bandwidth while cryogenic on-chip decoding is limited by area/power/thermal budget. To overcome these overheads, we are motivated by the observation that in the common case (over 90% of the time), error signatures are fairly trivial with high redundancy / sparsity, since the error correction codes are over-provisioned to be able to correct for uncommon worst-case complex scenarios (to ensure substantially low logical error rates). If suitably exploited, these trivial signatures can be decoded and corrected with insignificant overhead, thereby alleviating the bottlenecks described above, while still handling the worst-case complex signatures by state-of-the-art means. Our proposal, targeting Surface Codes, consists of: 1) A lightweight decoder for decoding and correcting trivial common-case errors, designed for the cryogenic domain. The decoder is implemented for SFQ logic. 2) A statistical confidence-based technique for off-chip decoding bandwidth allocation, to efficiently handle rare complex decodes which are not covered by the on-chip decoder. 3) A method for stalling circuit execution, for the worst-case scenarios in which the provisioned off-chip bandwidth is insufficient to complete all requested off-chip decodes. In all, our proposal enables 70-99+% off-chip bandwidth elimination across a range of logical and physical error rates, without significantly sacrificing the accuracy of state-of-the-art off-chip decoding. By doing so, it achieves 10-10000x bandwidth reduction over prior off-chip bandwidth reduction techniques. Furthermore, it achieves a 15-37x resource overhead reduction compared to prior on-chip-only decoding.</description>
   </item>
 
 </channel>

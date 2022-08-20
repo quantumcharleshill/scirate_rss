@@ -7,19 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
-    <link>http://arxiv.org/pdf/2207.13707</link>
-    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
-    <pubDate>Jul 29 2022</pubDate>
-    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
-  </item>
-
-  <item>
     <title>The Physics of Quantum Information</title>
     <link>http://arxiv.org/pdf/2208.08064</link>
     <author>John Preskill</author>
     <pubDate>Aug 18 2022</pubDate>
     <description>Rapid ongoing progress in quantum information science makes this an apt time for a Solvay Conference focused on The Physics of Quantum Information. Here I review four intertwined themes encompassed by this topic: Quantum computer science, quantum hardware, quantum matter, and quantum gravity. Though the time scale for broad practical impact of quantum computation is still uncertain, in the near future we can expect noteworthy progress toward scalable fault-tolerant quantum computing, and discoveries enabled by programmable quantum simulators. In the longer term, controlling highly complex quantum matter will open the door to profound scientific advances and powerful new technologies.</description>
+  </item>
+
+  <item>
+    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
+    <link>http://arxiv.org/pdf/2207.13707</link>
+    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
   </item>
 
   <item>
@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
-  </item>
-
-  <item>
     <title>Wasserstein Complexity of Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2208.06306</link>
     <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
@@ -63,11 +55,27 @@
   </item>
 
   <item>
+    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
+    <link>http://arxiv.org/pdf/2207.10250</link>
+    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
+    <pubDate>Jul 22 2022</pubDate>
+    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
+  </item>
+
+  <item>
     <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
     <link>http://arxiv.org/pdf/2207.09465</link>
     <author>Kevin Slagle, John Preskill</author>
     <pubDate>Jul 21 2022</pubDate>
     <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
+  </item>
+
+  <item>
+    <title>Optimal algorithms for learning quantum phase states</title>
+    <link>http://arxiv.org/pdf/2208.07851</link>
+    <author>Srinivasan Arunachalam, Sergey Bravyi, Arkopal Dutt, Theodore J. Yoder</author>
+    <pubDate>Aug 17 2022</pubDate>
+    <description>We analyze the complexity of learning $n$-qubit quantum phase states. A degree-$d$ phase state is defined as a superposition of all $2^n$ basis vectors $x$ with amplitudes proportional to $(-1)^{f(x)}$, where $f$ is a degree-$d$ Boolean polynomial over $n$ variables. We show that the sample complexity of learning an unknown degree-$d$ phase state is $\Theta(n^d)$ if we allow separable measurements and $\Theta(n^{d-1})$ if we allow entangled measurements. Our learning algorithm based on separable measurements has runtime $\textsf{poly}(n)$ (for constant $d$) and is well-suited for near-term demonstrations as it requires only single-qubit measurements in the Pauli $X$ and $Z$ bases. We show similar bounds on the sample complexity for learning generalized phase states with complex-valued amplitudes. We further consider learning phase states when $f$ has sparsity-$s$, degree-$d$ in its $\mathbb{F}_2$ representation (with sample complexity $O(2^d sn)$), $f$ has Fourier-degree-$t$ (with sample complexity $O(2^{2t})$), and learning quadratic phase states with $\varepsilon$-global depolarizing noise (with sample complexity $O(n^{1+\varepsilon})$). These learning algorithms give us a procedure to learn the diagonal unitaries of the Clifford hierarchy and IQP circuits.</description>
   </item>
 
   <item>
@@ -95,19 +103,19 @@
   </item>
 
   <item>
-    <title>Optimal algorithms for learning quantum phase states</title>
-    <link>http://arxiv.org/pdf/2208.07851</link>
-    <author>Srinivasan Arunachalam, Sergey Bravyi, Arkopal Dutt, Theodore J. Yoder</author>
-    <pubDate>Aug 17 2022</pubDate>
-    <description>We analyze the complexity of learning $n$-qubit quantum phase states. A degree-$d$ phase state is defined as a superposition of all $2^n$ basis vectors $x$ with amplitudes proportional to $(-1)^{f(x)}$, where $f$ is a degree-$d$ Boolean polynomial over $n$ variables. We show that the sample complexity of learning an unknown degree-$d$ phase state is $\Theta(n^d)$ if we allow separable measurements and $\Theta(n^{d-1})$ if we allow entangled measurements. Our learning algorithm based on separable measurements has runtime $\textsf{poly}(n)$ (for constant $d$) and is well-suited for near-term demonstrations as it requires only single-qubit measurements in the Pauli $X$ and $Z$ bases. We show similar bounds on the sample complexity for learning generalized phase states with complex-valued amplitudes. We further consider learning phase states when $f$ has sparsity-$s$, degree-$d$ in its $\mathbb{F}_2$ representation (with sample complexity $O(2^d sn)$), $f$ has Fourier-degree-$t$ (with sample complexity $O(2^{2t})$), and learning quadratic phase states with $\varepsilon$-global depolarizing noise (with sample complexity $O(n^{1+\varepsilon})$). These learning algorithms give us a procedure to learn the diagonal unitaries of the Clifford hierarchy and IQP circuits.</description>
-  </item>
-
-  <item>
     <title>Mean estimation when you have the source code; or, quantum Monte Carlo methods</title>
     <link>http://arxiv.org/pdf/2208.07544</link>
     <author>Robin Kothari, Ryan O'Donnell</author>
     <pubDate>Aug 17 2022</pubDate>
     <description>Suppose $\boldsymbol{y}$ is a real random variable, and one is given access to ``the code'' that generates it (for example, a randomized or quantum circuit whose output is $\boldsymbol{y}$). We give a quantum procedure that runs the code $O(n)$ times and returns an estimate $\widehat{\boldsymbol{\mu}}$ for $\mu = \mathrm{E}[\boldsymbol{y}]$ that with high probability satisfies $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/n$, where $\sigma = \mathrm{stddev}[\boldsymbol{y}]$. This dependence on $n$ is optimal for quantum algorithms. One may compare with classical algorithms, which can only achieve the quadratically worse $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/\sqrt{n}$. Our method improves upon previous works, which either made additional assumptions about $\boldsymbol{y}$, and/or assumed the algorithm knew an a priori bound on $\sigma$, and/or used additional logarithmic factors beyond $O(n)$. The central subroutine for our result is essentially Grover's algorithm but with complex phases.ally Grover's algorithm but with complex phases.</description>
+  </item>
+
+  <item>
+    <title>Solving boolean satisfiability problems with the quantum approximate optimization algorithm</title>
+    <link>http://arxiv.org/pdf/2208.06909</link>
+    <author>Sami Boulebnane, Ashley Montanaro</author>
+    <pubDate>Aug 16 2022</pubDate>
+    <description>The quantum approximate optimization algorithm (QAOA) is one of the most prominent proposed applications for near-term quantum computing. Here we study the ability of QAOA to solve hard constraint satisfaction problems, as opposed to optimization problems. We focus on the fundamental boolean satisfiability problem, in the form of random $k$-SAT. We develop analytic bounds on the average success probability of QAOA over random boolean formulae at the satisfiability threshold, as the number of variables $n$ goes to infinity. The bounds hold for fixed parameters and when $k$ is a power of 2. We complement these theoretical results with numerical results on the performance of QAOA for small $n$, showing that these match the limiting theoretical bounds closely. We then use these results to compare QAOA with leading classical solvers. In the case of random 8-SAT, we find that for around 14 ansatz layers, QAOA matches the scaling performance of the highest-performance classical solver we tested, WalkSATlm. For larger numbers of layers, QAOA outperforms WalkSATlm, with an ultimate level of advantage that is still to be determined. Our methods provide a framework for analysing the performance of QAOA for hard constraint satisfaction problems and finding further speedups over classical algorithms.</description>
   </item>
 
   <item>
@@ -124,14 +132,6 @@
     <author>Hayata Yamasaki, Masato Koashi</author>
     <pubDate>Jul 20 2022</pubDate>
     <description>Scalable realization of quantum computation to attain substantial speedups over classical computation requires fault tolerance. Conventionally, fault-tolerant quantum computation (FTQC) demands excessive space overhead of physical qubits per logical qubit. A more recent protocol to achieve constant-space-overhead FTQC using quantum low-density parity-check (LDPC) codes thus attracts considerable attention but suffers from another drawback: it incurs polynomially long time overhead. We construct an alternative avenue of FTQC to achieve constant space overhead and only quasi-polylogarithmic time overhead simultaneously via techniques for using concatenations of different quantum Hamming codes rather than quantum LDPC codes. Our protocol achieves FTQC even if a decoder has nonzero runtime, unlike the existing constant-space-overhead protocol. These results establish a foundation for realizing FTQC within feasibly bounded space overhead yet negligibly tiny slowdown.</description>
-  </item>
-
-  <item>
-    <title>Solving boolean satisfiability problems with the quantum approximate optimization algorithm</title>
-    <link>http://arxiv.org/pdf/2208.06909</link>
-    <author>Sami Boulebnane, Ashley Montanaro</author>
-    <pubDate>Aug 16 2022</pubDate>
-    <description>The quantum approximate optimization algorithm (QAOA) is one of the most prominent proposed applications for near-term quantum computing. Here we study the ability of QAOA to solve hard constraint satisfaction problems, as opposed to optimization problems. We focus on the fundamental boolean satisfiability problem, in the form of random $k$-SAT. We develop analytic bounds on the average success probability of QAOA over random boolean formulae at the satisfiability threshold, as the number of variables $n$ goes to infinity. The bounds hold for fixed parameters and when $k$ is a power of 2. We complement these theoretical results with numerical results on the performance of QAOA for small $n$, showing that these match the limiting theoretical bounds closely. We then use these results to compare QAOA with leading classical solvers. In the case of random 8-SAT, we find that for around 14 ansatz layers, QAOA matches the scaling performance of the highest-performance classical solver we tested, WalkSATlm. For larger numbers of layers, QAOA outperforms WalkSATlm, with an ultimate level of advantage that is still to be determined. Our methods provide a framework for analysing the performance of QAOA for hard constraint satisfaction problems and finding further speedups over classical algorithms.</description>
   </item>
 
   <item>
@@ -207,6 +207,14 @@
   </item>
 
   <item>
+    <title>Classical shadows of fermions with particle number symmetry</title>
+    <link>http://arxiv.org/pdf/2208.08964</link>
+    <author>Guang Hao Low</author>
+    <pubDate>Aug 19 2022</pubDate>
+    <description>We consider classical shadows of fermion wavefunctions with $\eta$ particles occupying $n$ modes. We prove that of all $k$-reduced density matrices may be simultaneously estimated to an average variance of $\epsilon^{2}$ using at most $\binom{\eta}{k}\big(1-\frac{\eta-k}{n}\big)^{k}\frac{1+n}{1+n-k}/\epsilon^{2}$ measurements in random single-particle bases that conserve particle number, and provide an estimator that is computationally efficient. This is a super-exponential improvement over the $\binom{n}{k}\sqrt{\pi k}/\epsilon^{2}$ scaling of prior approaches as $n$ can be arbitrarily larger than $\eta$ in natural problems. Our method, in the worst-case of half-filling, still provides a factor of $4^{k}$ advantage in sample complexity, and also estimates all $\eta$-reduced density matrices, applicable to estimating overlaps with all single Slater determinants, with at most $\frac{4}{3}/\epsilon^{2}$ samples, which is additionally independent of $\eta$.</description>
+  </item>
+
+  <item>
     <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
     <link>http://arxiv.org/pdf/2207.11014</link>
     <author>Yassine Hamoudi</author>
@@ -236,14 +244,6 @@
     <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
-  </item>
-
-  <item>
-    <title>Quantum Data Center: Theories and Applications</title>
-    <link>http://arxiv.org/pdf/2207.14336</link>
-    <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.</description>
   </item>
 
 </channel>
