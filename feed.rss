@@ -55,22 +55,6 @@
   </item>
 
   <item>
-    <title>Improved Hardness Results for the Guided Local Hamiltonian Problem</title>
-    <link>http://arxiv.org/pdf/2207.10250</link>
-    <author>Sevag Gharibian, Ryu Hayakawa, François Le Gall, Tomoyuki Morimae</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Estimating the ground state energy of a local Hamiltonian is a central problem in quantum chemistry. In order to further investigate its complexity and the potential of quantum algorithms for quantum chemistry, Gharibian and Le Gall (STOC 2022) recently introduced the guided local Hamiltonian problem (GLH), which is a variant of the local Hamiltonian problem where an approximation of a ground state is given as an additional input. Gharibian and Le Gall showed quantum advantage (more precisely, BQP-completeness) for GLH with $6$-local Hamiltonians when the guiding vector has overlap (inverse-polynomially) close to 1/2 with a ground state. In this paper, we optimally improve both the locality and the overlap parameters: we show that this quantum advantage (BQP-completeness) persists even with 2-local Hamiltonians, and even when the guiding vector has overlap (inverse-polynomially) close to 1 with a ground state. Moreover, we show that the quantum advantage also holds for 2-local physically motivated Hamiltonians on a 2D square lattice. This makes a further step towards establishing practical quantum advantage in quantum chemistry.</description>
-  </item>
-
-  <item>
-    <title>Emergent Quantum Mechanics at the Boundary of a Local Classical Lattice Model</title>
-    <link>http://arxiv.org/pdf/2207.09465</link>
-    <author>Kevin Slagle, John Preskill</author>
-    <pubDate>Jul 21 2022</pubDate>
-    <description>We formulate a conceptually new model in which quantum mechanics emerges from classical mechanics. Given a local Hamiltonian $H$ acting on $n$ qubits, we define a local classical model with an additional spatial dimension whose boundary dynamics is described by Schrodinger's equation and $H$. The bulk consists of a lattice of classical bits that propagate towards the boundary through a circuit of stochastic matrices. The bits reaching the boundary are governed by a probability distribution whose deviation from the uniform distribution can be interpreted as the quantum-mechanical wavefunction. Bell nonlocality is achieved because information can move through the bulk much faster than the boundary speed of light. We analytically estimate how much the model deviates from quantum mechanics, and we validate these estimates using computer simulations.</description>
-  </item>
-
-  <item>
     <title>Optimal algorithms for learning quantum phase states</title>
     <link>http://arxiv.org/pdf/2208.07851</link>
     <author>Srinivasan Arunachalam, Sergey Bravyi, Arkopal Dutt, Theodore J. Yoder</author>
@@ -87,11 +71,11 @@
   </item>
 
   <item>
-    <title>Complexity of the Guided Local Hamiltonian Problem: Improved Parameters and Extension to Excited States</title>
-    <link>http://arxiv.org/pdf/2207.10097</link>
-    <author>Chris Cade, Marten Folkertsma, Jordi Weggemans</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Recently it was shown that the so-called guided local Hamiltonian problem -- estimating the smallest eigenvalue of a $k$-local Hamiltonian when provided with a description of a quantum state ('guiding state') that is guaranteed to have substantial overlap with the true groundstate -- is BQP-complete for $k \geq 6$ when the required precision is inverse polynomial in the system size $n$, and remains hard even when the overlap of the guiding state with the groundstate is close to a constant $\left(\frac12 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)\right)$. We improve upon this result in three ways: by showing that it remains BQP-complete when i) the Hamiltonian is 2-local, ii) the overlap between the guiding state and target eigenstate is as large as $1 - \Omega\left(\frac{1}{\mathop{poly}(n)}\right)$, and iii) when one is interested in estimating energies of excited states, rather than just the groundstate. Interestingly, iii) is only made possible by first showing that ii) holds.</description>
+    <title>Mean estimation when you have the source code; or, quantum Monte Carlo methods</title>
+    <link>http://arxiv.org/pdf/2208.07544</link>
+    <author>Robin Kothari, Ryan O'Donnell</author>
+    <pubDate>Aug 17 2022</pubDate>
+    <description>Suppose $\boldsymbol{y}$ is a real random variable, and one is given access to ``the code'' that generates it (for example, a randomized or quantum circuit whose output is $\boldsymbol{y}$). We give a quantum procedure that runs the code $O(n)$ times and returns an estimate $\widehat{\boldsymbol{\mu}}$ for $\mu = \mathrm{E}[\boldsymbol{y}]$ that with high probability satisfies $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/n$, where $\sigma = \mathrm{stddev}[\boldsymbol{y}]$. This dependence on $n$ is optimal for quantum algorithms. One may compare with classical algorithms, which can only achieve the quadratically worse $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/\sqrt{n}$. Our method improves upon previous works, which either made additional assumptions about $\boldsymbol{y}$, and/or assumed the algorithm knew an a priori bound on $\sigma$, and/or used additional logarithmic factors beyond $O(n)$. The central subroutine for our result is essentially Grover's algorithm but with complex phases.ally Grover's algorithm but with complex phases.</description>
   </item>
 
   <item>
@@ -103,11 +87,11 @@
   </item>
 
   <item>
-    <title>Mean estimation when you have the source code; or, quantum Monte Carlo methods</title>
-    <link>http://arxiv.org/pdf/2208.07544</link>
-    <author>Robin Kothari, Ryan O'Donnell</author>
-    <pubDate>Aug 17 2022</pubDate>
-    <description>Suppose $\boldsymbol{y}$ is a real random variable, and one is given access to ``the code'' that generates it (for example, a randomized or quantum circuit whose output is $\boldsymbol{y}$). We give a quantum procedure that runs the code $O(n)$ times and returns an estimate $\widehat{\boldsymbol{\mu}}$ for $\mu = \mathrm{E}[\boldsymbol{y}]$ that with high probability satisfies $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/n$, where $\sigma = \mathrm{stddev}[\boldsymbol{y}]$. This dependence on $n$ is optimal for quantum algorithms. One may compare with classical algorithms, which can only achieve the quadratically worse $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/\sqrt{n}$. Our method improves upon previous works, which either made additional assumptions about $\boldsymbol{y}$, and/or assumed the algorithm knew an a priori bound on $\sigma$, and/or used additional logarithmic factors beyond $O(n)$. The central subroutine for our result is essentially Grover's algorithm but with complex phases.ally Grover's algorithm but with complex phases.</description>
+    <title>Classical shadows of fermions with particle number symmetry</title>
+    <link>http://arxiv.org/pdf/2208.08964</link>
+    <author>Guang Hao Low</author>
+    <pubDate>Aug 19 2022</pubDate>
+    <description>We consider classical shadows of fermion wavefunctions with $\eta$ particles occupying $n$ modes. We prove that of all $k$-reduced density matrices may be simultaneously estimated to an average variance of $\epsilon^{2}$ using at most $\binom{\eta}{k}\big(1-\frac{\eta-k}{n}\big)^{k}\frac{1+n}{1+n-k}/\epsilon^{2}$ measurements in random single-particle bases that conserve particle number, and provide an estimator that is computationally efficient. This is a super-exponential improvement over the $\binom{n}{k}\sqrt{\pi k}/\epsilon^{2}$ scaling of prior approaches as $n$ can be arbitrarily larger than $\eta$ in natural problems. Our method, in the worst-case of half-filling, still provides a factor of $4^{k}$ advantage in sample complexity, and also estimates all $\eta$-reduced density matrices, applicable to estimating overlaps with all single Slater determinants, with at most $\frac{4}{3}/\epsilon^{2}$ samples, which is additionally independent of $\eta$.</description>
   </item>
 
   <item>
@@ -119,35 +103,11 @@
   </item>
 
   <item>
-    <title>Classical shadows of fermions with particle number symmetry</title>
-    <link>http://arxiv.org/pdf/2208.08964</link>
-    <author>Guang Hao Low</author>
-    <pubDate>Aug 19 2022</pubDate>
-    <description>We consider classical shadows of fermion wavefunctions with $\eta$ particles occupying $n$ modes. We prove that of all $k$-reduced density matrices may be simultaneously estimated to an average variance of $\epsilon^{2}$ using at most $\binom{\eta}{k}\big(1-\frac{\eta-k}{n}\big)^{k}\frac{1+n}{1+n-k}/\epsilon^{2}$ measurements in random single-particle bases that conserve particle number, and provide an estimator that is computationally efficient. This is a super-exponential improvement over the $\binom{n}{k}\sqrt{\pi k}/\epsilon^{2}$ scaling of prior approaches as $n$ can be arbitrarily larger than $\eta$ in natural problems. Our method, in the worst-case of half-filling, still provides a factor of $4^{k}$ advantage in sample complexity, and also estimates all $\eta$-reduced density matrices, applicable to estimating overlaps with all single Slater determinants, with at most $\frac{4}{3}/\epsilon^{2}$ samples, which is additionally independent of $\eta$.</description>
-  </item>
-
-  <item>
     <title>Fast erasure decoder for a class of quantum LDPC codes</title>
     <link>http://arxiv.org/pdf/2208.01002</link>
     <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
     <pubDate>Aug 02 2022</pubDate>
     <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
-  </item>
-
-  <item>
-    <title>Time-Efficient Constant-Space-Overhead Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2207.08826</link>
-    <author>Hayata Yamasaki, Masato Koashi</author>
-    <pubDate>Jul 20 2022</pubDate>
-    <description>Scalable realization of quantum computation to attain substantial speedups over classical computation requires fault tolerance. Conventionally, fault-tolerant quantum computation (FTQC) demands excessive space overhead of physical qubits per logical qubit. A more recent protocol to achieve constant-space-overhead FTQC using quantum low-density parity-check (LDPC) codes thus attracts considerable attention but suffers from another drawback: it incurs polynomially long time overhead. We construct an alternative avenue of FTQC to achieve constant space overhead and only quasi-polylogarithmic time overhead simultaneously via techniques for using concatenations of different quantum Hamming codes rather than quantum LDPC codes. Our protocol achieves FTQC even if a decoder has nonzero runtime, unlike the existing constant-space-overhead protocol. These results establish a foundation for realizing FTQC within feasibly bounded space overhead yet negligibly tiny slowdown.</description>
-  </item>
-
-  <item>
-    <title>The Gauge Theory of Measurement-Based Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2207.10098</link>
-    <author>Gabriel Wong, Robert Raussendorf, Bartlomiej Czech</author>
-    <pubDate>Jul 22 2022</pubDate>
-    <description>Measurement-Based Quantum Computation (MBQC) is a model of quantum computation, which uses local measurements instead of unitary gates. Here we explain that the MBQC procedure has a fundamental basis in an underlying gauge theory. This perspective provides a theoretical foundation for global aspects of MBQC. The gauge symmetry reflects the freedom of formulating the same MBQC computation in different local reference frames. The main identifications between MBQC and gauge theory concepts are: (i) the computational output of MBQC is a holonomy of the gauge field, (ii) the adaption of measurement basis that remedies the inherent randomness of quantum measurements is effected by gauge transformations. The gauge theory of MBQC also plays a role in characterizing the entanglement structure of symmetry-protected topologically (SPT) ordered states, which are resources for MBQC. Our framework situates MBQC in a broader context of condensed matter and high energy theory.</description>
   </item>
 
   <item>
@@ -199,19 +159,19 @@
   </item>
 
   <item>
-    <title>Quantifying Nonstabilizerness of Matrix Product States</title>
-    <link>http://arxiv.org/pdf/2207.13076</link>
-    <author>Tobias Haug, Lorenzo Piroli</author>
-    <pubDate>Jul 27 2022</pubDate>
-    <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of "long-range magic".</description>
-  </item>
-
-  <item>
     <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
     <link>http://arxiv.org/pdf/2208.02199</link>
     <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
     <pubDate>Aug 04 2022</pubDate>
     <description>The idea to use quantum mechanical devices to simulate other quantum systems is commonly ascribed to Feynman. Since the original suggestion, concrete proposals have appeared for simulating molecular and materials chemistry through quantum computation, as a potential "killer application". Indications of potential exponential quantum advantage in artificial tasks have increased interest in this application, thus, it is critical to understand the basis for potential exponential quantum advantage in quantum chemistry. Here we gather the evidence for this case in the most common task in quantum chemistry, namely, ground-state energy estimation. We conclude that evidence for such an advantage across chemical space has yet to be found. While quantum computers may still prove useful for quantum chemistry, it may be prudent to assume exponential speedups are not generically available for this problem.</description>
+  </item>
+
+  <item>
+    <title>Quantifying Nonstabilizerness of Matrix Product States</title>
+    <link>http://arxiv.org/pdf/2207.13076</link>
+    <author>Tobias Haug, Lorenzo Piroli</author>
+    <pubDate>Jul 27 2022</pubDate>
+    <description>Nonstabilizerness, also known as magic, quantifies the number of non-Clifford operations needed in order to prepare a quantum state. As typical measures either involve minimization procedures or a computational cost exponential in the number of qubits $N$, it is notoriously hard to characterize for many-body states. In this work, we show that nonstabilizerness, as quantified by the recently introduced Stabilizer Rényi Entropies (SREs), can be computed efficiently for matrix product states (MPSs). Specifically, given an MPS of bond-dimension $\chi$ and integer Rényi index $n>1$, we show that the SRE can be expressed in terms of the norm of an MPS with bond-dimension $\chi^{2n}$. For translation-invariant states, this allows us to extract magic from a single tensor, the transfer matrix, while for generic MPSs this construction yields a computational cost linear in $N$ and polynomial in $\chi$. We exploit this observation to revisit the study of ground-state magic in the quantum Ising chain, providing accurate numerical results up to large system sizes. We analyze the SRE near criticality and investigate its dependence on the local computational basis. We show that it is in general not maximal at the critical point, and interpret our findings in terms of "long-range magic".</description>
   </item>
 
   <item>
@@ -244,6 +204,46 @@
     <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
+  </item>
+
+  <item>
+    <title>Quantum Data Center: Theories and Applications</title>
+    <link>http://arxiv.org/pdf/2207.14336</link>
+    <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
+    <pubDate>Aug 01 2022</pubDate>
+    <description>In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.</description>
+  </item>
+
+  <item>
+    <title>Resources for bosonic quantum computational advantage</title>
+    <link>http://arxiv.org/pdf/2207.11781</link>
+    <author>Ulysse Chabaud, Mattia Walschaers</author>
+    <pubDate>Jul 26 2022</pubDate>
+    <description>Quantum computers promise to dramatically outperform their classical counterparts. However, the non-classical resources enabling such computational advantages are challenging to pinpoint, as it is not a single resource but the subtle interplay of many that can be held responsible for these potential advantages. In this work, we show that every bosonic quantum computation can be recast into a continuous-variable sampling computation where all computational resources are contained in the input state. Using this reduction, we derive a general classical algorithm for the strong simulation of bosonic computations, whose complexity scales with the non-Gaussian stellar rank of both the input state and the measurement setup. We further study the conditions for an efficient classical simulation of the associated continuous-variable sampling computations and identify an operational notion of non-Gaussian entanglement based on the lack of passive separability, thus clarifying the interplay of bosonic quantum computational resources such as squeezing, non-Gaussianity and entanglement.</description>
+  </item>
+
+  <item>
+    <title>Duality theory for Clifford tensor powers</title>
+    <link>http://arxiv.org/pdf/2208.01688</link>
+    <author>Felipe Montealegre-Mora, David Gross</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>The representation theory of the Clifford group is playing an increasingly prominent role in quantum information theory, including in such diverse use cases as the construction of protocols for quantum system certification, quantum simulation, and quantum cryptography. In these applications, the tensor powers of the defining representation seem particularly important. The representation theory of these tensor powers is understood in two regimes. 1. For odd qudits in the case where the power t is not larger than the number of systems n: Here, a duality theory between the Clifford group and certain discrete orthogonal groups can be used to make fairly explicit statements about the occurring irreps (this theory is related to Howe duality and the eta-correspondence). 2. For qubits: Tensor powers up to t=4 have been analyzed on a case-by-case basis. In this paper, we provide a unified framework for the duality approach that also covers qubit systems. To this end, we translate the notion of rank of symplectic representations to representations of the qubit Clifford group, and generalize the eta correspondence between symplectic and orthogonal groups to a correspondence between the Clifford and certain orthogonal-stochastic groups. As a sample application, we provide a protocol to efficiently implement the complex conjugate of a black-box Clifford unitary evolution.</description>
+  </item>
+
+  <item>
+    <title>Do Quantum Circuit Born Machines Generalize?</title>
+    <link>http://arxiv.org/pdf/2207.13645</link>
+    <author>Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz</author>
+    <pubDate>Jul 28 2022</pubDate>
+    <description>In recent proposals of quantum circuit models for generative tasks, the discussion about their performance has been limited to their ability to reproduce a known target distribution. For example, expressive model families such as Quantum Circuit Born Machines (QCBMs) have been almost entirely evaluated on their capability to learn a given target distribution with high accuracy. While this aspect may be ideal for some tasks, it limits the scope of a generative model's assessment to its ability to memorize data rather than generalize. As a result, there has been little understanding of a model's generalization performance and the relation between such capability and the resource requirements, e.g., the circuit depth and the amount of training data. In this work, we leverage upon a recently proposed generalization evaluation framework to begin addressing this knowledge gap. We first investigate the QCBM's learning process of a cardinality-constrained distribution and see an increase in generalization performance while increasing the circuit depth. In the 12-qubit example presented here, we observe that with as few as 30% of the valid patterns as the training set, the QCBM exhibits the best generalization performance toward generating unseen and valid patterns. Lastly, we assess the QCBM's ability to generalize not only to valid features, but to high-quality bitstrings distributed according to an adequately biased distribution. We see that the QCBM is able to effectively learn the bias and generate unseen samples with higher quality than those in the training set. To the best of our knowledge, this is the first work in the literature that presents the QCBM's generalization performance as an integral evaluation metric for quantum generative models, and demonstrates the QCBM's ability to generalize to high-quality, desired novel samples.</description>
+  </item>
+
+  <item>
+    <title>On establishing learning separations between classical and quantum machine learning with classical data</title>
+    <link>http://arxiv.org/pdf/2208.06339</link>
+    <author>Casper Gyurik, Vedran Dunjko</author>
+    <pubDate>Aug 15 2022</pubDate>
+    <description>Despite years of effort, the quantum machine learning community has only been able to show quantum learning advantages for certain contrived cryptography-inspired datasets in the case of classical data. In this note, we discuss the challenges of finding learning problems that quantum learning algorithms can learn much faster than any classical learning algorithm, and we study how to identify such learning problems. Specifically, we reflect on the main concepts in computational learning theory pertaining to this question, and we discuss how subtle changes in definitions can mean conceptually significantly different tasks, which can either lead to a separation or no separation at all. Moreover, we study existing learning problems with a provable quantum speedup to distill sets of more general and sufficient conditions (i.e., ``checklists'') for a learning problem to exhibit a separation between classical and quantum learners. These checklists are intended to streamline one's approach to proving quantum speedups for learning problems, or to elucidate bottlenecks. Finally, to illustrate its application, we analyze examples of potential separations (i.e., when the learning problem is build from computational separations, or when the data comes from a quantum experiment) through the lens of our approach.</description>
   </item>
 
 </channel>
