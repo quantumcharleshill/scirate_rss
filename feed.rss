@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
-    <link>http://arxiv.org/pdf/2208.01498</link>
-    <author>Thorsten B. Wahl, Sergii Strelchuk</author>
-    <pubDate>Aug 03 2022</pubDate>
-    <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
-  </item>
-
-  <item>
     <title>Wasserstein Complexity of Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2208.06306</link>
     <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
     <pubDate>Aug 15 2022</pubDate>
     <description>Given a unitary transformation, what is the size of the smallest quantum circuit that implements it? This quantity, known as the quantum circuit complexity, is a fundamental property of quantum evolutions that has widespread applications in many fields, including quantum computation, quantum field theory, and black hole physics. In this letter, we obtain a new lower bound for the quantum circuit complexity in terms of a novel complexity measure that we propose for quantum circuits, which we call the quantum Wasserstein complexity. Our proposed measure is based on the quantum Wasserstein distance of order one (also called the quantum earth mover's distance), a metric on the space of quantum states. We also prove several fundamental and important properties of our new complexity measure, which stand to be of independent interest. Finally, we show that our new measure also provides a lower bound for the experimental cost of implementing quantum circuits, which implies a quantum limit on converting quantum resources to computational resources. Our results provide novel applications of the quantum Wasserstein distance and pave the way for a deeper understanding of the resources needed to implement a quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
+    <link>http://arxiv.org/pdf/2208.01498</link>
+    <author>Thorsten B. Wahl, Sergii Strelchuk</author>
+    <pubDate>Aug 03 2022</pubDate>
+    <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
   </item>
 
   <item>
@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Erasure qubits: Overcoming the $T_1$ limit in superconducting circuits</title>
-    <link>http://arxiv.org/pdf/2208.05461</link>
-    <author>Aleksander Kubica, Arbel Haim, Yotam Vaknin, Fernando Brandão, Alex Retzker</author>
-    <pubDate>Aug 11 2022</pubDate>
-    <description>The amplitude damping time, $T_1$, has long stood as the major factor limiting quantum fidelity in superconducting circuits, prompting concerted efforts in the material science and design of qubits aimed at increasing $T_1$. In contrast, the dephasing time, $T_{\phi}$, can usually be extended above $T_1$ (via, e.g., dynamical decoupling), to the point where it does not limit fidelity. In this article we propose a scheme for overcoming the conventional $T_1$ limit on fidelity by designing qubits in a way that amplitude damping errors can be detected and converted into erasure errors. Compared to standard qubit implementations our scheme improves the performance of fault-tolerant protocols, as numerically demonstrated by the circuit-noise simulations of the surface code. We describe two simple qubit implementations with superconducting circuits and discuss procedures for detecting amplitude damping errors, performing entangling gates, and extending $T_\phi$. Our results suggest that engineering efforts should focus on improving $T_\phi$ and the quality of quantum coherent control, as they effectively become the limiting factor on the performance of fault-tolerant protocols.</description>
-  </item>
-
-  <item>
     <title>Classical shadows of fermions with particle number symmetry</title>
     <link>http://arxiv.org/pdf/2208.08964</link>
     <author>Guang Hao Low</author>
     <pubDate>Aug 19 2022</pubDate>
     <description>We consider classical shadows of fermion wavefunctions with $\eta$ particles occupying $n$ modes. We prove that of all $k$-reduced density matrices may be simultaneously estimated to an average variance of $\epsilon^{2}$ using at most $\binom{\eta}{k}\big(1-\frac{\eta-k}{n}\big)^{k}\frac{1+n}{1+n-k}/\epsilon^{2}$ measurements in random single-particle bases that conserve particle number, and provide an estimator that is computationally efficient. This is a super-exponential improvement over the $\binom{n}{k}\sqrt{\pi k}/\epsilon^{2}$ scaling of prior approaches as $n$ can be arbitrarily larger than $\eta$ in natural problems. Our method, in the worst-case of half-filling, still provides a factor of $4^{k}$ advantage in sample complexity, and also estimates all $\eta$-reduced density matrices, applicable to estimating overlaps with all single Slater determinants, with at most $\frac{4}{3}/\epsilon^{2}$ samples, which is additionally independent of $\eta$.</description>
+  </item>
+
+  <item>
+    <title>Erasure qubits: Overcoming the $T_1$ limit in superconducting circuits</title>
+    <link>http://arxiv.org/pdf/2208.05461</link>
+    <author>Aleksander Kubica, Arbel Haim, Yotam Vaknin, Fernando Brandão, Alex Retzker</author>
+    <pubDate>Aug 11 2022</pubDate>
+    <description>The amplitude damping time, $T_1$, has long stood as the major factor limiting quantum fidelity in superconducting circuits, prompting concerted efforts in the material science and design of qubits aimed at increasing $T_1$. In contrast, the dephasing time, $T_{\phi}$, can usually be extended above $T_1$ (via, e.g., dynamical decoupling), to the point where it does not limit fidelity. In this article we propose a scheme for overcoming the conventional $T_1$ limit on fidelity by designing qubits in a way that amplitude damping errors can be detected and converted into erasure errors. Compared to standard qubit implementations our scheme improves the performance of fault-tolerant protocols, as numerically demonstrated by the circuit-noise simulations of the surface code. We describe two simple qubit implementations with superconducting circuits and discuss procedures for detecting amplitude damping errors, performing entangling gates, and extending $T_\phi$. Our results suggest that engineering efforts should focus on improving $T_\phi$ and the quality of quantum coherent control, as they effectively become the limiting factor on the performance of fault-tolerant protocols.</description>
   </item>
 
   <item>
@@ -119,27 +119,19 @@
   </item>
 
   <item>
+    <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
+    <link>http://arxiv.org/pdf/2208.02199</link>
+    <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>The idea to use quantum mechanical devices to simulate other quantum systems is commonly ascribed to Feynman. Since the original suggestion, concrete proposals have appeared for simulating molecular and materials chemistry through quantum computation, as a potential "killer application". Indications of potential exponential quantum advantage in artificial tasks have increased interest in this application, thus, it is critical to understand the basis for potential exponential quantum advantage in quantum chemistry. Here we gather the evidence for this case in the most common task in quantum chemistry, namely, ground-state energy estimation. We conclude that evidence for such an advantage across chemical space has yet to be found. While quantum computers may still prove useful for quantum chemistry, it may be prudent to assume exponential speedups are not generically available for this problem.</description>
+  </item>
+
+  <item>
     <title>Correcting non-independent and non-identically distributed errors with surface codes</title>
     <link>http://arxiv.org/pdf/2208.02191</link>
     <author>Konstantin Tiurev, Peter-Jan H. S. Derks, Joschka Roffe, Jens Eisert, Jan-Michael Reiner</author>
     <pubDate>Aug 04 2022</pubDate>
     <description>A common approach to studying the performance of quantum error correcting codes is to assume independent and identically distributed single-qubit errors. However, realistic errors in experimental multi-qubit devices are typically neither independent nor identical across qubits. In this work, we develop and investigate the properties of topological surface codes tailored to a known noise channel by locally adapted Clifford conjugations. We show that the surface code locally tailored to non-uniform single-qubit noise in conjunction with a scalable matching decoder yields improved error thresholds and exponentially suppressed sub-threshold failure rates when compared to the Calderbank-Shor-Steane surface code. Furthermore, we study the behaviour of the tailored surface code under local two-qubit noise and show the role that code degeneracy plays in correcting such noise. The proposed methods do not require additional overhead in terms of the number of qubits and use a standard matching decoder, hence come at no extra cost compared to the standard surface-code error correction.</description>
-  </item>
-
-  <item>
-    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
-    <link>http://arxiv.org/pdf/2208.04660</link>
-    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
-  </item>
-
-  <item>
-    <title>Exact and efficient Lanczos method on a quantum computer</title>
-    <link>http://arxiv.org/pdf/2208.00567</link>
-    <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
-    <pubDate>Aug 02 2022</pubDate>
-    <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
   </item>
 
   <item>
@@ -159,11 +151,19 @@
   </item>
 
   <item>
-    <title>Is there evidence for exponential quantum advantage in quantum chemistry?</title>
-    <link>http://arxiv.org/pdf/2208.02199</link>
-    <author>Seunghoon Lee, Joonho Lee, Huanchen Zhai, Yu Tong, Alexander M. Dalzell, Ashutosh Kumar, Phillip Helms, Johnnie Gray, Zhi-Hao Cui, Wenyuan Liu, Michael Kastoryano, Ryan Babbush, John Preskill, David R. Reichman, Earl T. Campbell, Edward F. Valeev, Lin Lin, Garnet Kin-Lic Chan</author>
-    <pubDate>Aug 04 2022</pubDate>
-    <description>The idea to use quantum mechanical devices to simulate other quantum systems is commonly ascribed to Feynman. Since the original suggestion, concrete proposals have appeared for simulating molecular and materials chemistry through quantum computation, as a potential "killer application". Indications of potential exponential quantum advantage in artificial tasks have increased interest in this application, thus, it is critical to understand the basis for potential exponential quantum advantage in quantum chemistry. Here we gather the evidence for this case in the most common task in quantum chemistry, namely, ground-state energy estimation. We conclude that evidence for such an advantage across chemical space has yet to be found. While quantum computers may still prove useful for quantum chemistry, it may be prudent to assume exponential speedups are not generically available for this problem.</description>
+    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
+    <link>http://arxiv.org/pdf/2208.04660</link>
+    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Aug 10 2022</pubDate>
+    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
+  </item>
+
+  <item>
+    <title>Exact and efficient Lanczos method on a quantum computer</title>
+    <link>http://arxiv.org/pdf/2208.00567</link>
+    <author>William Kirby, Mario Motta, Antonio Mezzacapo</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We present an algorithm that uses block encoding on a quantum computer to exactly construct a Krylov space, which can be used as the basis for the Lanczos method to estimate extremal eigenvalues of Hamiltonians. While the classical Lanczos method has exponential cost in the system size to represent the Krylov states for quantum systems, our efficient quantum algorithm achieves this in polynomial time and memory. The construction presented is exact in the sense that the resulting Krylov space is identical to that of the Lanczos method, so the only approximation with respect to the Lanczos method is due to finite sample noise. This is possible because, unlike previous quantum versions of the Lanczos method, our algorithm does not require simulating real or imaginary time evolution. We provide an explicit error bound for the resulting ground state energy estimate in the presence of noise. For this method to be successful, the only requirement on the input problem is that the overlap of the initial state with the true ground state must be $\Omega(1/\text{poly}(n))$ for $n$ qubits.</description>
   </item>
 
   <item>
@@ -175,11 +175,11 @@
   </item>
 
   <item>
-    <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
-    <link>http://arxiv.org/pdf/2207.11014</link>
-    <author>Yassine Hamoudi</author>
-    <pubDate>Jul 25 2022</pubDate>
-    <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
+    <title>Universal sample lower bounds for quantum error mitigation</title>
+    <link>http://arxiv.org/pdf/2208.09178</link>
+    <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
+    <pubDate>Aug 22 2022</pubDate>
+    <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
   </item>
 
   <item>
@@ -188,6 +188,22 @@
     <author>Pengyu Liu, Zhenhuan Liu, Shu Chen, Xiongfeng Ma</author>
     <pubDate>Aug 05 2022</pubDate>
     <description>Entanglement detection is essential in quantum information science and quantum many-body physics. It has been proved that entanglement exists almost surely for a random quantum state, while the realizations of effective entanglement criteria usually consume exponential resources, and efficient criteria often perform poorly without prior knowledge. This fact implies a fundamental limitation might exist in the detectability of entanglement. In this work, we formalize this limitation as a fundamental trade-off between the efficiency and effectiveness of entanglement criteria via a systematic method to theoretically evaluate the detection capability of entanglement criteria. For a system coupled to an environment, we prove that any entanglement criterion needs exponentially many observables to detect the entanglement effectively when restricted to single-copy operations. Otherwise, the detection capability of the criterion will decay double-exponentially. Furthermore, if multi-copy joint measurements are allowed, the effectiveness of entanglement detection can be exponentially improved, which implies a quantum advantage in entanglement detection problems.</description>
+  </item>
+
+  <item>
+    <title>Preparing Many Copies of a Quantum State in the Black-Box Model</title>
+    <link>http://arxiv.org/pdf/2207.11014</link>
+    <author>Yassine Hamoudi</author>
+    <pubDate>Jul 25 2022</pubDate>
+    <description>We describe a simple quantum algorithm for preparing $K$ copies of an $N$-dimensional quantum state whose amplitudes are given by a quantum oracle. Our result extends a previous work of Grover, who showed how to prepare one copy in time $O(\sqrt{N})$. In comparison with the naive $O(K\sqrt{N})$ solution obtained by repeating this procedure~$K$ times, our algorithm achieves the optimal running time of $\theta(\sqrt{KN})$. Our technique uses a refinement of the quantum rejection sampling method employed by Grover. As a direct application, we obtain a similar speed-up for obtaining $K$ independent samples from a distribution whose probability vector is given by a quantum oracle.</description>
+  </item>
+
+  <item>
+    <title>Universal cost bound of quantum error mitigation based on quantum estimation theory</title>
+    <link>http://arxiv.org/pdf/2208.09385</link>
+    <author>Kento Tsubouchi, Takahiro Sagawa, Nobuyuki Yoshioka</author>
+    <pubDate>Aug 22 2022</pubDate>
+    <description>Quantum error mitigation is an art to combat noise in quantum computers that are not fully fault tolerant. While a wide variety of techniques has been proposed with surging number of experimental applications, little is known concerning the unified understanding on their fundamental aspects. In this paper, we perform a theoretical analysis on the cost of quantum error mitigation using the quantum estimation theory. The applicability of quantum estimation theory is extended so that we can analyze the quantum Fisher information of layered noisy quantum circuits equipped with a wide range of quantum error mitigation methods. By showing that the quantum Fisher information decays exponentially with the circuit depth, we derive for a general class of Markovian noise that unbiased estimation of an observable encounters an exponential growth in the lower bound on the measurement cost, or more precisely the required number of copies of noisy quantum state. As two practical and illustrative examples, we discuss the case when the noise channel is solely the global or local depolarizing noise. We explicitly express the lower bound in terms of their noise rates, and further find that we can asymptotically saturate the bound by a simple mitigation technique for the global depolarizing noise. Our results not only reveal the physical limitations of quantum error mitigation, but may also provide a new criteria for performance evaluation of quantum error mitigation techniques.</description>
   </item>
 
   <item>
@@ -215,14 +231,6 @@
   </item>
 
   <item>
-    <title>Resources for bosonic quantum computational advantage</title>
-    <link>http://arxiv.org/pdf/2207.11781</link>
-    <author>Ulysse Chabaud, Mattia Walschaers</author>
-    <pubDate>Jul 26 2022</pubDate>
-    <description>Quantum computers promise to dramatically outperform their classical counterparts. However, the non-classical resources enabling such computational advantages are challenging to pinpoint, as it is not a single resource but the subtle interplay of many that can be held responsible for these potential advantages. In this work, we show that every bosonic quantum computation can be recast into a continuous-variable sampling computation where all computational resources are contained in the input state. Using this reduction, we derive a general classical algorithm for the strong simulation of bosonic computations, whose complexity scales with the non-Gaussian stellar rank of both the input state and the measurement setup. We further study the conditions for an efficient classical simulation of the associated continuous-variable sampling computations and identify an operational notion of non-Gaussian entanglement based on the lack of passive separability, thus clarifying the interplay of bosonic quantum computational resources such as squeezing, non-Gaussianity and entanglement.</description>
-  </item>
-
-  <item>
     <title>Duality theory for Clifford tensor powers</title>
     <link>http://arxiv.org/pdf/2208.01688</link>
     <author>Felipe Montealegre-Mora, David Gross</author>
@@ -231,19 +239,11 @@
   </item>
 
   <item>
-    <title>Do Quantum Circuit Born Machines Generalize?</title>
-    <link>http://arxiv.org/pdf/2207.13645</link>
-    <author>Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Jul 28 2022</pubDate>
-    <description>In recent proposals of quantum circuit models for generative tasks, the discussion about their performance has been limited to their ability to reproduce a known target distribution. For example, expressive model families such as Quantum Circuit Born Machines (QCBMs) have been almost entirely evaluated on their capability to learn a given target distribution with high accuracy. While this aspect may be ideal for some tasks, it limits the scope of a generative model's assessment to its ability to memorize data rather than generalize. As a result, there has been little understanding of a model's generalization performance and the relation between such capability and the resource requirements, e.g., the circuit depth and the amount of training data. In this work, we leverage upon a recently proposed generalization evaluation framework to begin addressing this knowledge gap. We first investigate the QCBM's learning process of a cardinality-constrained distribution and see an increase in generalization performance while increasing the circuit depth. In the 12-qubit example presented here, we observe that with as few as 30% of the valid patterns as the training set, the QCBM exhibits the best generalization performance toward generating unseen and valid patterns. Lastly, we assess the QCBM's ability to generalize not only to valid features, but to high-quality bitstrings distributed according to an adequately biased distribution. We see that the QCBM is able to effectively learn the bias and generate unseen samples with higher quality than those in the training set. To the best of our knowledge, this is the first work in the literature that presents the QCBM's generalization performance as an integral evaluation metric for quantum generative models, and demonstrates the QCBM's ability to generalize to high-quality, desired novel samples.</description>
-  </item>
-
-  <item>
-    <title>On establishing learning separations between classical and quantum machine learning with classical data</title>
-    <link>http://arxiv.org/pdf/2208.06339</link>
-    <author>Casper Gyurik, Vedran Dunjko</author>
-    <pubDate>Aug 15 2022</pubDate>
-    <description>Despite years of effort, the quantum machine learning community has only been able to show quantum learning advantages for certain contrived cryptography-inspired datasets in the case of classical data. In this note, we discuss the challenges of finding learning problems that quantum learning algorithms can learn much faster than any classical learning algorithm, and we study how to identify such learning problems. Specifically, we reflect on the main concepts in computational learning theory pertaining to this question, and we discuss how subtle changes in definitions can mean conceptually significantly different tasks, which can either lead to a separation or no separation at all. Moreover, we study existing learning problems with a provable quantum speedup to distill sets of more general and sufficient conditions (i.e., ``checklists'') for a learning problem to exhibit a separation between classical and quantum learners. These checklists are intended to streamline one's approach to proving quantum speedups for learning problems, or to elucidate bottlenecks. Finally, to illustrate its application, we analyze examples of potential separations (i.e., when the learning problem is build from computational separations, or when the data comes from a quantum experiment) through the lens of our approach.</description>
+    <title>Resources for bosonic quantum computational advantage</title>
+    <link>http://arxiv.org/pdf/2207.11781</link>
+    <author>Ulysse Chabaud, Mattia Walschaers</author>
+    <pubDate>Jul 26 2022</pubDate>
+    <description>Quantum computers promise to dramatically outperform their classical counterparts. However, the non-classical resources enabling such computational advantages are challenging to pinpoint, as it is not a single resource but the subtle interplay of many that can be held responsible for these potential advantages. In this work, we show that every bosonic quantum computation can be recast into a continuous-variable sampling computation where all computational resources are contained in the input state. Using this reduction, we derive a general classical algorithm for the strong simulation of bosonic computations, whose complexity scales with the non-Gaussian stellar rank of both the input state and the measurement setup. We further study the conditions for an efficient classical simulation of the associated continuous-variable sampling computations and identify an operational notion of non-Gaussian entanglement based on the lack of passive separability, thus clarifying the interplay of bosonic quantum computational resources such as squeezing, non-Gaussianity and entanglement.</description>
   </item>
 
 </channel>
