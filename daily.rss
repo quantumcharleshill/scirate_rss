@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Universal sample lower bounds for quantum error mitigation</title>
-    <link>http://arxiv.org/pdf/2208.09178</link>
-    <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
-  </item>
-
-  <item>
-    <title>Universal cost bound of quantum error mitigation based on quantum estimation theory</title>
-    <link>http://arxiv.org/pdf/2208.09385</link>
-    <author>Kento Tsubouchi, Takahiro Sagawa, Nobuyuki Yoshioka</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Quantum error mitigation is an art to combat noise in quantum computers that are not fully fault tolerant. While a wide variety of techniques has been proposed with surging number of experimental applications, little is known concerning the unified understanding on their fundamental aspects. In this paper, we perform a theoretical analysis on the cost of quantum error mitigation using the quantum estimation theory. The applicability of quantum estimation theory is extended so that we can analyze the quantum Fisher information of layered noisy quantum circuits equipped with a wide range of quantum error mitigation methods. By showing that the quantum Fisher information decays exponentially with the circuit depth, we derive for a general class of Markovian noise that unbiased estimation of an observable encounters an exponential growth in the lower bound on the measurement cost, or more precisely the required number of copies of noisy quantum state. As two practical and illustrative examples, we discuss the case when the noise channel is solely the global or local depolarizing noise. We explicitly express the lower bound in terms of their noise rates, and further find that we can asymptotically saturate the bound by a simple mitigation technique for the global depolarizing noise. Our results not only reveal the physical limitations of quantum error mitigation, but may also provide a new criteria for performance evaluation of quantum error mitigation techniques.</description>
-  </item>
-
-  <item>
     <title>The Early Days of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2208.09964</link>
     <author>Peter W. Shor</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Long-distance transmon coupler with CZ gate fidelity above $99.8\%$</title>
-    <link>http://arxiv.org/pdf/2208.09460</link>
-    <author>Fabian Marxer, Antti Vepsäläinen, Shan W. Jolin, Jani Tuorila, Alessandro Landra, Caspar Ockeloen-Korppi, Wei Liu, Olli Ahonen, Adrian Auer, Lucien Belzane, Ville Bergholm, Chun Fai Chan, Kok Wai Chan, Tuukka Hiltunen, Juho Hotari, Eric Hyyppä, Joni Ikonen, David Janzso, Miikka Koistinen, Janne Kotilahti, et al (19)</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Tunable coupling of superconducting qubits has been widely studied due to its importance for isolated gate operations in scalable quantum processor architectures. Here, we demonstrate a tunable qubit-qubit coupler based on a floating transmon device which allows us to place qubits at least 2 mm apart from each other while maintaining over 50 MHz coupling between the coupler and the qubits. In the introduced tunable-coupler design, both the qubit-qubit and the qubit-coupler couplings are mediated by two waveguides instead of relying on direct capacitive couplings between the components, reducing the impact of the qubit-qubit distance on the couplings. This leaves space for each qubit to have an individual readout resonator and a Purcell filter needed for fast high-fidelity readout. In addition, the large qubit-qubit distance reduces unwanted non-nearest neighbor coupling and allows multiple control lines to cross over the structure with minimal crosstalk. Using the proposed flexible and scalable architecture, we demonstrate a controlled-$Z$ gate with $(99.81 \pm 0.02)\%$ fidelity.</description>
+    <title>Resource theory of quantum scrambling</title>
+    <link>http://arxiv.org/pdf/2208.10477</link>
+    <author>Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>Quantum scrambling refers to the spread of local quantum information into the many degrees of freedom of a quantum system. In this work, we introduce a resource theory of scrambling which incorporates two mechanisms, "entanglement scrambling" and "magic scrambling". We introduce two resource monotones called the Pauli growth and the OTOC (out-of-time-ordered correlator) magic for these two mechanisms, respectively. Moreover, we show that OTOC fluctuations are bounded by the OTOC magic. This proves that small OTOC fluctuations are an indication of magic in Google's recent experiment (Science 374, 1479 (2021)). We also show that both resource monotones can be used to bound the decoding fidelity in the Hayden-Preskill protocol. These applications provide an operational interpretation of the resource monotones defined in this work.</description>
   </item>
 
   <item>
-    <title>A hierarchy of semidefinite programs for generalised Einstein-Podolsky-Rosen scenarios</title>
-    <link>http://arxiv.org/pdf/2208.09236</link>
-    <author>Matty J. Hoban, Tom Drescher, Ana Belén Sainz</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Correlations in Einstein-Podolsky-Rosen (EPR) scenarios, captured by \textitassemblages of unnormalised quantum states, have recently caught the attention of the community, both from a foundational and an information-theoretic perspective. The set of quantum-realisable assemblages, or abbreviated to quantum assemblages, are those that arise from multiple parties performing local measurements on a shared quantum system. In general, deciding whether or not a given assemblage is a quantum assemblage, i.e. membership of the set of quantum assemblages, is a hard problem, and not always solvable. In this paper we introduce a hierarchy of tests where each level either determines non-membership of the set of quantum assemblages or is inconclusive. The higher the level of the hierarchy the better one can determine non-membership, and this hierarchy converges to a particular set of assemblages. Furthermore, this set to which it converges contains the quantum assemblages. Each test in the hierarchy is formulated as a semidefinite program. This hierarchy allows one to upper bound the quantum violation of a steering inequality and the quantum advantage provided by quantum EPR assemblages in a communication or information-processing task.</description>
+    <title>Variational quantum iterative power algorithms for global optimization</title>
+    <link>http://arxiv.org/pdf/2208.10470</link>
+    <author>Thi Ha Kyaw, Micheline B. Soley, Brandon Allen, Paul Bergold, Chong Sun, Victor S. Batista, Alán Aspuru-Guzik</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>We introduce a family of variational quantum algorithms called quantum iterative power algorithms (QIPA) that outperform existing hybrid near-term quantum algorithms of the same kind. We demonstrate the capabilities of QIPA as applied to three different global-optimization numerical experiments: the ground-state optimization of the $H_2$ molecular dissociation, search of the transmon qubit ground-state, and biprime factorization. Since our algorithm is hybrid, quantum/classical technologies such as error mitigation and adaptive variational ansatzes can easily be incorporated into the algorithm. Due to the shallow quantum circuit requirements, we anticipate large-scale implementation and adoption of the proposed algorithm across current major quantum hardware.</description>
+  </item>
+
+  <item>
+    <title>Efficient algorithms for quantum information bottleneck</title>
+    <link>http://arxiv.org/pdf/2208.10342</link>
+    <author>Masahito Hayashi, Yuxiang Yang</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>The ability to extract relevant information is critical to learning. An ingenious approach as such is the information bottleneck, an optimisation problem whose solution corresponds to a faithful and memory-efficient representation of relevant information from a large system. The advent of the age of quantum computing calls for efficient methods that work on information regarding quantum systems. Here we address this by proposing a new and general algorithm for the quantum generalisation of information bottleneck. Our algorithm excels in the speed and the definiteness of convergence compared with prior results. It also works for a much broader range of problems, including the quantum extension of deterministic information bottleneck, an important variant of the original information bottleneck problem. Notably, we discover that a quantum system can achieve strictly better performance than a classical system of the same size regarding quantum information bottleneck, providing new vision on justifying the advantage of quantum machine learning.</description>
+  </item>
+
+  <item>
+    <title>Micius quantum experiments in space</title>
+    <link>http://arxiv.org/pdf/2208.10236</link>
+    <author>Chao-Yang Lu, Yuan Cao, Cheng-Zhi Peng, Jian-Wei Pan</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>Quantum theory has been successfully validated in numerous laboratory experiments. But would such a theory, which excellently describes the behavior of microscopic physical systems, and its predicted phenomena such as quantum entanglement, be still applicable on very large length scales? From a practical perspective, how can quantum key distribution -- where the security of establishing secret keys between distant parties is ensured by the laws of quantum mechanics -- be made technologically useful on a global scale? Due to photon loss in optical fibers and terrestrial free space, the achievable distance using direct transmission of single photons has been limited to a few hundred kilometers. A promising route to testing quantum physics over long distances and in the relativistic regimes, and thus realizing flexible global-scale quantum networks is via the use of satellites and space-based technologies, where a significant advantage is that the photon loss and turbulence predominantly occurs in the lower ~ 10 km of the atmosphere, and most of the photons' transmission path in the space is virtually in vacuum with almost zero absorption and decoherence. In this Article, we review the progress in free-space quantum experiments, with a focus on the fast-developing Micius satellite-based quantum communications. The perspective of space-ground integrated quantum networks and fundamental quantum optics experiments in space conceivable with satellites are discussed.</description>
   </item>
 
 </channel>
