@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The Physics of Quantum Information</title>
-    <link>http://arxiv.org/pdf/2208.08064</link>
-    <author>John Preskill</author>
-    <pubDate>Aug 18 2022</pubDate>
-    <description>Rapid ongoing progress in quantum information science makes this an apt time for a Solvay Conference focused on The Physics of Quantum Information. Here I review four intertwined themes encompassed by this topic: Quantum computer science, quantum hardware, quantum matter, and quantum gravity. Though the time scale for broad practical impact of quantum computation is still uncertain, in the near future we can expect noteworthy progress toward scalable fault-tolerant quantum computing, and discoveries enabled by programmable quantum simulators. In the longer term, controlling highly complex quantum matter will open the door to profound scientific advances and powerful new technologies.</description>
-  </item>
-
-  <item>
     <title>The Early Days of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2208.09964</link>
     <author>Peter W. Shor</author>
@@ -55,11 +47,11 @@
   </item>
 
   <item>
-    <title>A hybrid framework for estimating nonlinear functions of quantum states</title>
-    <link>http://arxiv.org/pdf/2208.08416</link>
-    <author>You Zhou, Zhenhuan Liu</author>
-    <pubDate>Aug 18 2022</pubDate>
-    <description>Estimating nonlinear functions of quantum states, such as the moment $\tr(\rho^m)$, is of fundamental and practical interest in quantum science and technology. Here we show a quantum-classical hybrid framework to measure them, where the quantum part is constituted by the generalized swap test, and the classical part is realized by postprocessing the result from randomized measurements. This hybrid framework utilizes the partial coherent power of the intermediate-scale quantum processor and, at the same time, dramatically reduces the number of quantum measurements and the cost of classical postprocessing. We demonstrate the advantage of our framework in the tasks of state-moment estimation and quantum error mitigation.</description>
+    <title>Exponential concentration and untrainability in quantum kernel methods</title>
+    <link>http://arxiv.org/pdf/2208.11060</link>
+    <author>Supanut Thanasilp, Samson Wang, M. Cerezo, Zoë Holmes</author>
+    <pubDate>Aug 24 2022</pubDate>
+    <description>Kernel methods in Quantum Machine Learning (QML) have recently gained significant attention as a potential candidate for achieving a quantum advantage in data analysis. Among other attractive properties, when training a kernel-based model one is guaranteed to find the optimal model's parameters due to the convexity of the training landscape. However, this is based on the assumption that the quantum kernel can be efficiently obtained from a quantum hardware. In this work we study the trainability of quantum kernels from the perspective of the resources needed to accurately estimate kernel values. We show that, under certain conditions, values of quantum kernels over different input data can be exponentially concentrated (in the number of qubits) towards some fixed value, leading to an exponential scaling of the number of measurements required for successful training. We identify four sources that can lead to concentration including: the expressibility of data embedding, global measurements, entanglement and noise. For each source, an associated concentration bound of quantum kernels is analytically derived. Lastly, we show that when dealing with classical data, training a parametrized data embedding with a kernel alignment method is also susceptible to exponential concentration. Our results are verified through numerical simulations for several QML tasks. Altogether, we provide guidelines indicating that certain features should be avoided to ensure the efficient evaluation and the trainability of quantum kernel methods.</description>
   </item>
 
   <item>
@@ -71,11 +63,11 @@
   </item>
 
   <item>
-    <title>The grammar of the Ising model: A new complexity hierarchy</title>
-    <link>http://arxiv.org/pdf/2208.08301</link>
-    <author>Tobias Reinhart, Gemma De las Cuevas</author>
-    <pubDate>Aug 18 2022</pubDate>
-    <description>How complex is an Ising model? Usually, this is measured by the computational complexity of its ground state energy problem. Yet, this complexity measure only distinguishes between planar and non-planar interaction graphs, and thus fails to capture properties such as the average node degree, the number of long range interactions, or the dimensionality of the lattice. Herein, we introduce a new complexity measure for Ising models and thoroughly classify Ising models with respect to it. Specifically, given an Ising model we consider the decision problem corresponding to the function graph of its Hamiltonian, and classify this problem in the Chomsky hierarchy. We prove that the language of this decision problem is (i) regular if and only if the Ising model is finite, (ii) constructive context free if and only if the Ising model is linear and its edge language is regular, (iii) constructive context sensitive if and only if the edge language of the Ising model is context sensitive, and (iv) decidable if and only if the edge language of the Ising model is decidable. We apply this theorem to show that the 1d Ising model, the Ising model on generalised ladder graphs, and the Ising model on layerwise complete graphs are constructive context free, while the 2d Ising model, the all-to-all Ising model, and the Ising model on perfect binary trees are constructive context sensitive. We also provide a grammar for the 1d and 2d Ising model. This work is a first step in the characterisation of physical interactions in terms of grammars.</description>
+    <title>Efficient algorithms for quantum information bottleneck</title>
+    <link>http://arxiv.org/pdf/2208.10342</link>
+    <author>Masahito Hayashi, Yuxiang Yang</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>The ability to extract relevant information is critical to learning. An ingenious approach as such is the information bottleneck, an optimisation problem whose solution corresponds to a faithful and memory-efficient representation of relevant information from a large system. The advent of the age of quantum computing calls for efficient methods that work on information regarding quantum systems. Here we address this by proposing a new and general algorithm for the quantum generalisation of information bottleneck. Our algorithm excels in the speed and the definiteness of convergence compared with prior results. It also works for a much broader range of problems, including the quantum extension of deterministic information bottleneck, an important variant of the original information bottleneck problem. Notably, we discover that a quantum system can achieve strictly better performance than a classical system of the same size regarding quantum information bottleneck, providing new vision on justifying the advantage of quantum machine learning.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Gokul Subramanian Ravi, Jonathan M. Baker, Arash Fayyazi, Sophia Fuhui Lin, Ali Javadi-Abhari, Massoud Pedram, Frederic T. Chong</author>
     <pubDate>Aug 19 2022</pubDate>
     <description>The overheads of classical decoding for quantum error correction grow rapidly with the number of logical qubits and their correction code distance. Decoding at room temperature is bottle-necked by refrigerator I/O bandwidth while cryogenic on-chip decoding is limited by area/power/thermal budget. To overcome these overheads, we are motivated by the observation that in the common case (over 90% of the time), error signatures are fairly trivial with high redundancy / sparsity, since the error correction codes are over-provisioned to be able to correct for uncommon worst-case complex scenarios (to ensure substantially low logical error rates). If suitably exploited, these trivial signatures can be decoded and corrected with insignificant overhead, thereby alleviating the bottlenecks described above, while still handling the worst-case complex signatures by state-of-the-art means. Our proposal, targeting Surface Codes, consists of: 1) A lightweight decoder for decoding and correcting trivial common-case errors, designed for the cryogenic domain. The decoder is implemented for SFQ logic. 2) A statistical confidence-based technique for off-chip decoding bandwidth allocation, to efficiently handle rare complex decodes which are not covered by the on-chip decoder. 3) A method for stalling circuit execution, for the worst-case scenarios in which the provisioned off-chip bandwidth is insufficient to complete all requested off-chip decodes. In all, our proposal enables 70-99+% off-chip bandwidth elimination across a range of logical and physical error rates, without significantly sacrificing the accuracy of state-of-the-art off-chip decoding. By doing so, it achieves 10-10000x bandwidth reduction over prior off-chip bandwidth reduction techniques. Furthermore, it achieves a 15-37x resource overhead reduction compared to prior on-chip-only decoding.</description>
+  </item>
+
+  <item>
+    <title>Solvable model of deep thermalization with distinct design times</title>
+    <link>http://arxiv.org/pdf/2208.10542</link>
+    <author>Matteo Ippoliti, Wen Wei Ho</author>
+    <pubDate>Aug 24 2022</pubDate>
+    <description>We study the emergence over time of a universal, uniform distribution of quantum states on a finite subsystem, induced by projectively measuring the rest of the system. Dubbed deep thermalization, this phenomenon represents a form of equilibration in quantum many-body systems stronger than regular thermalization, which only constrains the ensemble-averaged values of observables. While there exist quantum circuit models of dynamics in one dimension where this phenomenon can be shown to arise exactly, these are special in that deep thermalization occurs at precisely the same time as regular thermalization. Here, we present an exactly-solvable model of chaotic dynamics where the two processes can be shown to occur over different time scales. The model is composed of a finite subsystem coupled to an infinite random-matrix bath through a small constriction, and highlights the role of locality and imperfect thermalization in constraining the formation of such universal wavefunction distributions. We test our analytical predictions against exact numerical simulations, finding excellent agreement.</description>
   </item>
 
 </channel>
