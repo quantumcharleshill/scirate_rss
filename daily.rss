@@ -7,6 +7,14 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
+    <link>http://arxiv.org/pdf/2208.11941</link>
+    <author>Harriet Apel, Toby Cubitt</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
+  </item>
+
+  <item>
     <title>Alternating Layered Variational Quantum Circuits Can Be Classically Optimized Efficiently Using Classical Shadows</title>
     <link>http://arxiv.org/pdf/2208.11623</link>
     <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
@@ -15,35 +23,27 @@
   </item>
 
   <item>
-    <title>Nishimori's cat: stable long-range entanglement from finite-depth unitaries and weak measurements</title>
-    <link>http://arxiv.org/pdf/2208.11136</link>
-    <author>Guo-Yi Zhu, Nathanan Tantivasadakarn, Ashvin Vishwanath, Simon Trebst, Ruben Verresen</author>
-    <pubDate>Aug 25 2022</pubDate>
-    <description>In the field of monitored quantum circuits, it has remained an open question whether finite-time protocols for preparing long-range entangled (LRE) states lead to phases of matter which are stable to gate imperfections. Here we show that such gate imperfections effectively convert projective into weak measurements and that, in certain cases, long-range entanglement persists, even in the presence of weak measurements and gives rise to novel forms of quantum criticality. We demonstrate this explicitly for preparing the two-dimensional (2D) GHZ cat state and the three-dimensional (3D) toric code as minimal instances. In contrast to previous studies on measurement-induced phases and transitions, our circuit of gates and measurements is deterministic; the only randomness is in the measurement outcomes. We show how the randomness in these weak measurements allows us to track the solvable Nishimori line of the random-bond Ising model, rigorously establishing the stability of the glassy LRE states in two and three spatial dimensions. Away from this exactly solvable construction, we use hybrid tensor network and Monte Carlo simulations to obtain a non-zero Edwards-Anderson order parameter as an indicator of long-range entanglement in the 2D scenario. We argue that our protocol admits a natural implementation in existing quantum computing architectures, requiring only a depth-3 circuit on IBM's heavy-hexagon transmon chips.</description>
-  </item>
-
-  <item>
-    <title>Measurement-Prepared Quantum Criticality: from Ising model to gauge theory, and beyond</title>
-    <link>http://arxiv.org/pdf/2208.11699</link>
-    <author>Jong Yeon Lee, Wenjie Ji, Zhen Bi, Matthew P. A. Fisher</author>
-    <pubDate>Aug 25 2022</pubDate>
-    <description>Measurements allow efficient preparation of interesting quantum many-body states exhibiting long-range, topological, or fractonic orders. Here, we prove that the so-called conformal quantum critical points (CQCP) can be obtained by performing general single-site measurements in appropriate basis on the cluster states in $d\geq2$. The equal-time correlators of the said states are described by correlation functions of a certain $d$-dimensional classical model at the critical temperature, featuring spatial conformal invariance. This establishes an exact correspondence between the measurement-prepared critical states and conformal field theories of a range of critical spin models, including familiar Ising model and gauge theories among others. Furthermore, by mapping the correlations of the measured quantum state into the statistical mechanics problem, we establish the stability of long-range or topological orders with respect to measurements deviating from the ideal setting, without any post-selection. Therefore, our findings suggest a novel mechanism in which a quantum critical wavefunction emerges, providing new practical ways to study quantum phases and conformal quantum critical points.</description>
-  </item>
-
-  <item>
-    <title>Resolving Matrix Spencer Conjecture Up to Poly-logarithmic Rank</title>
-    <link>http://arxiv.org/pdf/2208.11286</link>
-    <author>Nikhil Bansal, Haotian Jiang, Raghu Meka</author>
-    <pubDate>Aug 25 2022</pubDate>
-    <description>We give a simple proof of the matrix Spencer conjecture up to poly-logarithmic rank: given symmetric $d \times d$ matrices $A_1,\ldots,A_n$ each with $\|A_i\|_{\mathsf{op}} \leq 1$ and rank at most $n/\log^3 n$, one can efficiently find $\pm 1$ signs $x_1,\ldots,x_n$ such that their signed sum has spectral norm $\|\sum_{i=1}^n x_i A_i\|_{\mathsf{op}} = O(\sqrt{n})$. This result also implies a $\log n - \Omega( \log \log n)$ qubit lower bound for quantum random access codes encoding $n$ classical bits with advantage $\gg 1/\sqrt{n}$. Our proof uses the recent refinement of the non-commutative Khintchine inequality in [Bandeira, Boedihardjo, van Handel, 2022] for random matrices with correlated Gaussian entries.</description>
-  </item>
-
-  <item>
-    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
-    <link>http://arxiv.org/pdf/2208.11941</link>
-    <author>Harriet Apel, Toby Cubitt</author>
+    <title>No [[n, k, d < 86]] code can violate the quantum Hamming bound</title>
+    <link>http://arxiv.org/pdf/2208.11800</link>
+    <author>Emanuel Dallas, Faidon Andreadakis, Daniel Lidar</author>
     <pubDate>Aug 26 2022</pubDate>
-    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
+    <description>It is well-known that pure quantum error correcting codes (QECCs) are constrained by a quantum version of the Hamming bound. Whether impure codes also obey such a bound, however, remains a long-standing question with practical implications for the efficacy of QECCs. We employ a combination of previously derived bounds on QECCs to demonstrate that a subset of all codes must obey the quantum Hamming bound. Specifically, we combine an analytical bound due to Rains with a numerical bound due to Li and Xing to show that no [[n,k,d < 86]] code can violate the quantum Hamming bound.</description>
+  </item>
+
+  <item>
+    <title>A SAT Encoding for Optimal Clifford Circuit Synthesis</title>
+    <link>http://arxiv.org/pdf/2208.11713</link>
+    <author>Sarah Schneider, Lukas Burgholzer, Robert Wille</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>Executing quantum algorithms on a quantum computer requires compilation to representations that conform to all restrictions imposed by the device. Due to device's limited coherence times and gate fidelities, the compilation process has to be optimized as much as possible. To this end, an algorithm's description first has to be synthesized using the device's gate library. In this paper, we consider the optimal synthesis of Clifford circuits -- an important subclass of quantum circuits, with various applications. Such techniques are essential to establish lower bounds for (heuristic) synthesis methods and gauging their performance. Due to the huge search space, existing optimal techniques are limited to a maximum of six qubits. The contribution of this work is twofold: First, we propose an optimal synthesis method for Clifford circuits based on encoding the task as a satisfiability (SAT) problem and solving it using a SAT solver in conjunction with a binary search scheme. The resulting tool is demonstrated to synthesize optimal circuits for up to $26$ qubits -- more than four times as many as the current state of the art. Second, we experimentally show that the overhead introduced by state-of-the-art heuristics exceeds the lower bound by $27\%$ on average. The resulting tool is publicly available at https://github.com/cda-tum/qmap.</description>
+  </item>
+
+  <item>
+    <title>No graph states can be prepared in quantum networks with bipartite sources</title>
+    <link>http://arxiv.org/pdf/2208.12099</link>
+    <author>Owidiusz Makuta, Laurens T. Ligthart, Remigiusz Augusiak</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>In research concerning quantum networks, it is often assumed that the parties can classically communicate with each other. However, classical communication might introduce substantial delay to the network, especially if it is large. As the latency of a network is one of its most important characteristics, it is interesting to consider quantum networks in which parties cannot communicate classically and ask what limitations this assumption imposes on the possibility of preparing multipartite states in such networks. We show that graph states of arbitrary prime local dimension known for their numerous applications in quantum information cannot be generated in a quantum network in which parties are connected via sources of bipartite quantum states and the classical communication is replaced by some pre-shared classical correlations. We then generalise our result to arbitrary quantum states that are sufficiently close to graph states.</description>
   </item>
 
 </channel>
