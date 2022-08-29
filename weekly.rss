@@ -23,22 +23,6 @@
   </item>
 
   <item>
-    <title>Universal sample lower bounds for quantum error mitigation</title>
-    <link>http://arxiv.org/pdf/2208.09178</link>
-    <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
-  </item>
-
-  <item>
-    <title>Universal cost bound of quantum error mitigation based on quantum estimation theory</title>
-    <link>http://arxiv.org/pdf/2208.09385</link>
-    <author>Kento Tsubouchi, Takahiro Sagawa, Nobuyuki Yoshioka</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Quantum error mitigation is an art to combat noise in quantum computers that are not fully fault tolerant. While a wide variety of techniques has been proposed with surging number of experimental applications, little is known concerning the unified understanding on their fundamental aspects. In this paper, we perform a theoretical analysis on the cost of quantum error mitigation using the quantum estimation theory. The applicability of quantum estimation theory is extended so that we can analyze the quantum Fisher information of layered noisy quantum circuits equipped with a wide range of quantum error mitigation methods. By showing that the quantum Fisher information decays exponentially with the circuit depth, we derive for a general class of Markovian noise that unbiased estimation of an observable encounters an exponential growth in the lower bound on the measurement cost, or more precisely the required number of copies of noisy quantum state. As two practical and illustrative examples, we discuss the case when the noise channel is solely the global or local depolarizing noise. We explicitly express the lower bound in terms of their noise rates, and further find that we can asymptotically saturate the bound by a simple mitigation technique for the global depolarizing noise. Our results not only reveal the physical limitations of quantum error mitigation, but may also provide a new criteria for performance evaluation of quantum error mitigation techniques.</description>
-  </item>
-
-  <item>
     <title>Exponential concentration and untrainability in quantum kernel methods</title>
     <link>http://arxiv.org/pdf/2208.11060</link>
     <author>Supanut Thanasilp, Samson Wang, M. Cerezo, Zoë Holmes</author>
@@ -52,14 +36,6 @@
     <author>Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
     <pubDate>Aug 23 2022</pubDate>
     <description>Quantum scrambling refers to the spread of local quantum information into the many degrees of freedom of a quantum system. In this work, we introduce a resource theory of scrambling which incorporates two mechanisms, "entanglement scrambling" and "magic scrambling". We introduce two resource monotones called the Pauli growth and the OTOC (out-of-time-ordered correlator) magic for these two mechanisms, respectively. Moreover, we show that OTOC fluctuations are bounded by the OTOC magic. This proves that small OTOC fluctuations are an indication of magic in Google's recent experiment (Science 374, 1479 (2021)). We also show that both resource monotones can be used to bound the decoding fidelity in the Hayden-Preskill protocol. These applications provide an operational interpretation of the resource monotones defined in this work.</description>
-  </item>
-
-  <item>
-    <title>Long-distance transmon coupler with CZ gate fidelity above $99.8\%$</title>
-    <link>http://arxiv.org/pdf/2208.09460</link>
-    <author>Fabian Marxer, Antti Vepsäläinen, Shan W. Jolin, Jani Tuorila, Alessandro Landra, Caspar Ockeloen-Korppi, Wei Liu, Olli Ahonen, Adrian Auer, Lucien Belzane, Ville Bergholm, Chun Fai Chan, Kok Wai Chan, Tuukka Hiltunen, Juho Hotari, Eric Hyyppä, Joni Ikonen, David Janzso, Miikka Koistinen, Janne Kotilahti, et al (19)</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Tunable coupling of superconducting qubits has been widely studied due to its importance for isolated gate operations in scalable quantum processor architectures. Here, we demonstrate a tunable qubit-qubit coupler based on a floating transmon device which allows us to place qubits at least 2 mm apart from each other while maintaining over 50 MHz coupling between the coupler and the qubits. In the introduced tunable-coupler design, both the qubit-qubit and the qubit-coupler couplings are mediated by two waveguides instead of relying on direct capacitive couplings between the components, reducing the impact of the qubit-qubit distance on the couplings. This leaves space for each qubit to have an individual readout resonator and a Purcell filter needed for fast high-fidelity readout. In addition, the large qubit-qubit distance reduces unwanted non-nearest neighbor coupling and allows multiple control lines to cross over the structure with minimal crosstalk. Using the proposed flexible and scalable architecture, we demonstrate a controlled-$Z$ gate with $(99.81 \pm 0.02)\%$ fidelity.</description>
   </item>
 
   <item>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
+    <title>A SAT Encoding for Optimal Clifford Circuit Synthesis</title>
+    <link>http://arxiv.org/pdf/2208.11713</link>
+    <author>Sarah Schneider, Lukas Burgholzer, Robert Wille</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>Executing quantum algorithms on a quantum computer requires compilation to representations that conform to all restrictions imposed by the device. Due to device's limited coherence times and gate fidelities, the compilation process has to be optimized as much as possible. To this end, an algorithm's description first has to be synthesized using the device's gate library. In this paper, we consider the optimal synthesis of Clifford circuits -- an important subclass of quantum circuits, with various applications. Such techniques are essential to establish lower bounds for (heuristic) synthesis methods and gauging their performance. Due to the huge search space, existing optimal techniques are limited to a maximum of six qubits. The contribution of this work is twofold: First, we propose an optimal synthesis method for Clifford circuits based on encoding the task as a satisfiability (SAT) problem and solving it using a SAT solver in conjunction with a binary search scheme. The resulting tool is demonstrated to synthesize optimal circuits for up to $26$ qubits -- more than four times as many as the current state of the art. Second, we experimentally show that the overhead introduced by state-of-the-art heuristics exceeds the lower bound by $27\%$ on average. The resulting tool is publicly available at https://github.com/cda-tum/qmap.</description>
+  </item>
+
+  <item>
     <title>Efficient algorithms for quantum information bottleneck</title>
     <link>http://arxiv.org/pdf/2208.10342</link>
     <author>Masahito Hayashi, Yuxiang Yang</author>
     <pubDate>Aug 23 2022</pubDate>
     <description>The ability to extract relevant information is critical to learning. An ingenious approach as such is the information bottleneck, an optimisation problem whose solution corresponds to a faithful and memory-efficient representation of relevant information from a large system. The advent of the age of quantum computing calls for efficient methods that work on information regarding quantum systems. Here we address this by proposing a new and general algorithm for the quantum generalisation of information bottleneck. Our algorithm excels in the speed and the definiteness of convergence compared with prior results. It also works for a much broader range of problems, including the quantum extension of deterministic information bottleneck, an important variant of the original information bottleneck problem. Notably, we discover that a quantum system can achieve strictly better performance than a classical system of the same size regarding quantum information bottleneck, providing new vision on justifying the advantage of quantum machine learning.</description>
+  </item>
+
+  <item>
+    <title>No graph states can be prepared in quantum networks with bipartite sources</title>
+    <link>http://arxiv.org/pdf/2208.12099</link>
+    <author>Owidiusz Makuta, Laurens T. Ligthart, Remigiusz Augusiak</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>In research concerning quantum networks, it is often assumed that the parties can classically communicate with each other. However, classical communication might introduce substantial delay to the network, especially if it is large. As the latency of a network is one of its most important characteristics, it is interesting to consider quantum networks in which parties cannot communicate classically and ask what limitations this assumption imposes on the possibility of preparing multipartite states in such networks. We show that graph states of arbitrary prime local dimension known for their numerous applications in quantum information cannot be generated in a quantum network in which parties are connected via sources of bipartite quantum states and the classical communication is replaced by some pre-shared classical correlations. We then generalise our result to arbitrary quantum states that are sufficiently close to graph states.</description>
+  </item>
+
+  <item>
+    <title>Variational quantum iterative power algorithms for global optimization</title>
+    <link>http://arxiv.org/pdf/2208.10470</link>
+    <author>Thi Ha Kyaw, Micheline B. Soley, Brandon Allen, Paul Bergold, Chong Sun, Victor S. Batista, Alán Aspuru-Guzik</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>We introduce a family of variational quantum algorithms called quantum iterative power algorithms (QIPA) that outperform existing hybrid near-term quantum algorithms of the same kind. We demonstrate the capabilities of QIPA as applied to three different global-optimization numerical experiments: the ground-state optimization of the $H_2$ molecular dissociation, search of the transmon qubit ground-state, and biprime factorization. Since our algorithm is hybrid, quantum/classical technologies such as error mitigation and adaptive variational ansatzes can easily be incorporated into the algorithm. Due to the shallow quantum circuit requirements, we anticipate large-scale implementation and adoption of the proposed algorithm across current major quantum hardware.</description>
   </item>
 
 </channel>
