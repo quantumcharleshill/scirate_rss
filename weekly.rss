@@ -15,11 +15,19 @@
   </item>
 
   <item>
-    <title>Exponential concentration and untrainability in quantum kernel methods</title>
-    <link>http://arxiv.org/pdf/2208.11060</link>
-    <author>Supanut Thanasilp, Samson Wang, M. Cerezo, Zoë Holmes</author>
-    <pubDate>Aug 24 2022</pubDate>
-    <description>Kernel methods in Quantum Machine Learning (QML) have recently gained significant attention as a potential candidate for achieving a quantum advantage in data analysis. Among other attractive properties, when training a kernel-based model one is guaranteed to find the optimal model's parameters due to the convexity of the training landscape. However, this is based on the assumption that the quantum kernel can be efficiently obtained from a quantum hardware. In this work we study the trainability of quantum kernels from the perspective of the resources needed to accurately estimate kernel values. We show that, under certain conditions, values of quantum kernels over different input data can be exponentially concentrated (in the number of qubits) towards some fixed value, leading to an exponential scaling of the number of measurements required for successful training. We identify four sources that can lead to concentration including: the expressibility of data embedding, global measurements, entanglement and noise. For each source, an associated concentration bound of quantum kernels is analytically derived. Lastly, we show that when dealing with classical data, training a parametrized data embedding with a kernel alignment method is also susceptible to exponential concentration. Our results are verified through numerical simulations for several QML tasks. Altogether, we provide guidelines indicating that certain features should be avoided to ensure the efficient evaluation and the trainability of quantum kernel methods.</description>
+    <title>Extendibility of Werner States</title>
+    <link>http://arxiv.org/pdf/2208.13743</link>
+    <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
+  </item>
+
+  <item>
+    <title>Synergy Between Quantum Circuits and Tensor Networks: Short-cutting the Race to Practical Quantum Advantage</title>
+    <link>http://arxiv.org/pdf/2208.13673</link>
+    <author>Manuel S. Rudolph, Jacob Miller, Jing Chen, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>While recent breakthroughs have proven the ability of noisy intermediate-scale quantum (NISQ) devices to achieve quantum advantage in classically-intractable sampling tasks, the use of these devices for solving more practically relevant computational problems remains a challenge. Proposals for attaining practical quantum advantage typically involve parametrized quantum circuits (PQCs), whose parameters can be optimized to find solutions to diverse problems throughout quantum simulation and machine learning. However, training PQCs for real-world problems remains a significant practical challenge, largely due to the phenomenon of barren plateaus in the optimization landscapes of randomly-initialized quantum circuits. In this work, we introduce a scalable procedure for harnessing classical computing resources to determine task-specific initializations of PQCs, which we show significantly improves the trainability and performance of PQCs on a variety of problems. Given a specific optimization task, this method first utilizes tensor network (TN) simulations to identify a promising quantum state, which is then converted into gate parameters of a PQC by means of a high-performance decomposition procedure. We show that this task-specific initialization avoids barren plateaus, and effectively translates increases in classical resources to enhanced performance and speed in training quantum circuits. By demonstrating a means of boosting limited quantum resources using classical computers, our approach illustrates the promise of this synergy between quantum and quantum-inspired models in quantum computing, and opens up new avenues to harness the power of modern quantum hardware for realizing practical quantum advantage.</description>
   </item>
 
   <item>
@@ -28,6 +36,14 @@
     <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
     <pubDate>Aug 25 2022</pubDate>
     <description>Variational quantum algorithms (VQAs) are the quantum analog of classical neural networks (NNs). A VQA consists of a parameterized quantum circuit (PQC) which is composed of multiple layers of ansatzes (simpler PQCs, which are an analogy of NN layers) that differ only in selections of parameters. Previous work has identified the alternating layered ansatz as potentially a new standard ansatz in near-term quantum computing. Indeed, shallow alternating layered VQAs are easy to implement and have been shown to be both trainable and expressive. In this work, we introduce a training algorithm with an exponential reduction in training cost of such VQAs. Moreover, our algorithm uses classical shadows of quantum input data, and can hence be run on a classical computer with rigorous performance guarantees. We demonstrate 2--3 orders of magnitude improvement in the training cost using our algorithm for the example problems of finding state preparation circuits and the quantum autoencoder.</description>
+  </item>
+
+  <item>
+    <title>Multidimensional Quantum Walks, with Application to $k$-Distinctness</title>
+    <link>http://arxiv.org/pdf/2208.13492</link>
+    <author>Stacey Jeffery, Sebastian Zur</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>While the quantum query complexity of $k$-distinctness is known to be $O\left(n^{3/4-1/4(2^k-1)}\right)$ for any constant $k \geq 4$, the best previous upper bound on the time complexity was $\widetilde{O}\left(n^{1-1/k}\right)$. We give a new upper bound of $\widetilde{O}\left(n^{3/4-1/4(2^k-1)}\right)$ on the time complexity, matching the query complexity up to polylogarithmic factors. In order to achieve this upper bound, we give a new technique for designing quantum walk search algorithms, which is an extension of the electric network framework. We also show how to solve the welded trees problem in $O(n)$ queries and $O(n^2)$ time using this new technique, showing that the new quantum walk framework can achieve exponential speedups.</description>
   </item>
 
   <item>
@@ -63,27 +79,11 @@
   </item>
 
   <item>
-    <title>Measurement-Prepared Quantum Criticality: from Ising model to gauge theory, and beyond</title>
-    <link>http://arxiv.org/pdf/2208.11699</link>
-    <author>Jong Yeon Lee, Wenjie Ji, Zhen Bi, Matthew P. A. Fisher</author>
-    <pubDate>Aug 25 2022</pubDate>
-    <description>Measurements allow efficient preparation of interesting quantum many-body states exhibiting long-range, topological, or fractonic orders. Here, we prove that the so-called conformal quantum critical points (CQCP) can be obtained by performing general single-site measurements in appropriate basis on the cluster states in $d\geq2$. The equal-time correlators of the said states are described by correlation functions of a certain $d$-dimensional classical model at the critical temperature, featuring spatial conformal invariance. This establishes an exact correspondence between the measurement-prepared critical states and conformal field theories of a range of critical spin models, including familiar Ising model and gauge theories among others. Furthermore, by mapping the correlations of the measured quantum state into the statistical mechanics problem, we establish the stability of long-range or topological orders with respect to measurements deviating from the ideal setting, without any post-selection. Therefore, our findings suggest a novel mechanism in which a quantum critical wavefunction emerges, providing new practical ways to study quantum phases and conformal quantum critical points.</description>
-  </item>
-
-  <item>
     <title>Nishimori's cat: stable long-range entanglement from finite-depth unitaries and weak measurements</title>
     <link>http://arxiv.org/pdf/2208.11136</link>
     <author>Guo-Yi Zhu, Nathanan Tantivasadakarn, Ashvin Vishwanath, Simon Trebst, Ruben Verresen</author>
     <pubDate>Aug 25 2022</pubDate>
     <description>In the field of monitored quantum circuits, it has remained an open question whether finite-time protocols for preparing long-range entangled (LRE) states lead to phases of matter which are stable to gate imperfections. Here we show that such gate imperfections effectively convert projective into weak measurements and that, in certain cases, long-range entanglement persists, even in the presence of weak measurements and gives rise to novel forms of quantum criticality. We demonstrate this explicitly for preparing the two-dimensional (2D) GHZ cat state and the three-dimensional (3D) toric code as minimal instances. In contrast to previous studies on measurement-induced phases and transitions, our circuit of gates and measurements is deterministic; the only randomness is in the measurement outcomes. We show how the randomness in these weak measurements allows us to track the solvable Nishimori line of the random-bond Ising model, rigorously establishing the stability of the glassy LRE states in two and three spatial dimensions. Away from this exactly solvable construction, we use hybrid tensor network and Monte Carlo simulations to obtain a non-zero Edwards-Anderson order parameter as an indicator of long-range entanglement in the 2D scenario. We argue that our protocol admits a natural implementation in existing quantum computing architectures, requiring only a depth-3 circuit on IBM's heavy-hexagon transmon chips.</description>
-  </item>
-
-  <item>
-    <title>Solvable model of deep thermalization with distinct design times</title>
-    <link>http://arxiv.org/pdf/2208.10542</link>
-    <author>Matteo Ippoliti, Wen Wei Ho</author>
-    <pubDate>Aug 24 2022</pubDate>
-    <description>We study the emergence over time of a universal, uniform distribution of quantum states on a finite subsystem, induced by projectively measuring the rest of the system. Dubbed deep thermalization, this phenomenon represents a form of equilibration in quantum many-body systems stronger than regular thermalization, which only constrains the ensemble-averaged values of observables. While there exist quantum circuit models of dynamics in one dimension where this phenomenon can be shown to arise exactly, these are special in that deep thermalization occurs at precisely the same time as regular thermalization. Here, we present an exactly-solvable model of chaotic dynamics where the two processes can be shown to occur over different time scales. The model is composed of a finite subsystem coupled to an infinite random-matrix bath through a small constriction, and highlights the role of locality and imperfect thermalization in constraining the formation of such universal wavefunction distributions. We test our analytical predictions against exact numerical simulations, finding excellent agreement.</description>
   </item>
 
 </channel>
