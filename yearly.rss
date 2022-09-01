@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>The Early Days of Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2208.09964</link>
+    <author>Peter W. Shor</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>I recount some of my memories of the early development of quantum computation, including the discovery of the factoring algorithm, of error correcting codes, and of fault tolerance.</description>
+  </item>
+
+  <item>
     <title>Foundations for learning from noisy quantum experiments</title>
     <link>http://arxiv.org/pdf/2204.13691</link>
     <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
@@ -100,14 +108,6 @@
     <author>Lin Lin</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
-  </item>
-
-  <item>
-    <title>The Early Days of Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2208.09964</link>
-    <author>Peter W. Shor</author>
-    <pubDate>Aug 23 2022</pubDate>
-    <description>I recount some of my memories of the early development of quantum computation, including the discovery of the factoring algorithm, of error correcting codes, and of fault tolerance.</description>
   </item>
 
   <item>
@@ -267,7 +267,7 @@
     <link>http://arxiv.org/pdf/2203.16571</link>
     <author>Jonas Haferkamp</author>
     <pubDate>Apr 01 2022</pubDate>
-    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-design. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove a near optimal convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries in Wasserstein distance.</description>
+    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\to\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.</description>
   </item>
 
   <item>
@@ -319,19 +319,19 @@
   </item>
 
   <item>
-    <title>Is quantum advantage the right goal for quantum machine learning?</title>
-    <link>http://arxiv.org/pdf/2203.01340</link>
-    <author>Maria Schuld, Nathan Killoran</author>
-    <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
-  </item>
-
-  <item>
     <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
     <link>http://arxiv.org/pdf/2205.02813</link>
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
     <pubDate>May 06 2022</pubDate>
     <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
+  </item>
+
+  <item>
+    <title>Is quantum advantage the right goal for quantum machine learning?</title>
+    <link>http://arxiv.org/pdf/2203.01340</link>
+    <author>Maria Schuld, Nathan Killoran</author>
+    <pubDate>Mar 04 2022</pubDate>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
   </item>
 
   <item>

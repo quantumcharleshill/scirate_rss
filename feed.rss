@@ -31,6 +31,14 @@
   </item>
 
   <item>
+    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
+    <link>http://arxiv.org/pdf/2208.11941</link>
+    <author>Harriet Apel, Toby Cubitt</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
+  </item>
+
+  <item>
     <title>Wasserstein Complexity of Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2208.06306</link>
     <author>Lu Li, Kaifeng Bu, Dax Enshan Koh, Arthur Jaffe, Seth Lloyd</author>
@@ -44,14 +52,6 @@
     <author>Thorsten B. Wahl, Sergii Strelchuk</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
-  </item>
-
-  <item>
-    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
-    <link>http://arxiv.org/pdf/2208.11941</link>
-    <author>Harriet Apel, Toby Cubitt</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
   </item>
 
   <item>
@@ -76,14 +76,6 @@
     <author>Robin Kothari, Ryan O'Donnell</author>
     <pubDate>Aug 17 2022</pubDate>
     <description>Suppose $\boldsymbol{y}$ is a real random variable, and one is given access to ``the code'' that generates it (for example, a randomized or quantum circuit whose output is $\boldsymbol{y}$). We give a quantum procedure that runs the code $O(n)$ times and returns an estimate $\widehat{\boldsymbol{\mu}}$ for $\mu = \mathrm{E}[\boldsymbol{y}]$ that with high probability satisfies $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/n$, where $\sigma = \mathrm{stddev}[\boldsymbol{y}]$. This dependence on $n$ is optimal for quantum algorithms. One may compare with classical algorithms, which can only achieve the quadratically worse $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/\sqrt{n}$. Our method improves upon previous works, which either made additional assumptions about $\boldsymbol{y}$, and/or assumed the algorithm knew an a priori bound on $\sigma$, and/or used additional logarithmic factors beyond $O(n)$. The central subroutine for our result is essentially Grover's algorithm but with complex phases.ally Grover's algorithm but with complex phases.</description>
-  </item>
-
-  <item>
-    <title>Lower bounds for learning quantum states with single-copy measurements</title>
-    <link>http://arxiv.org/pdf/2207.14438</link>
-    <author>Angus Lowe, Ashwin Nayak</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>We study the problems of quantum tomography and shadow tomography using measurements performed on individual, identical copies of an unknown $d$-dimensional state. We first revisit a known lower bound due to Haah et al. (2017) on quantum tomography with accuracy $\epsilon$ in trace distance, when the measurements choices are independent of previously observed outcomes (i.e., they are nonadaptive). We give a succinct proof of this result. This leads to stronger lower bounds when the learner uses measurements with a constant number of outcomes. In particular, this rigorously establishes the optimality of the folklore ``Pauli tomography" algorithm in terms of its sample complexity. We also derive novel bounds of $\Omega(r^2 d/\epsilon^2)$ and $\Omega(r^2 d^2/\epsilon^2)$ for learning rank $r$ states using arbitrary and constant-outcome measurements, respectively, in the nonadaptive case. In addition to the sample complexity, a resource of practical significance for learning quantum states is the number of different measurements used by an algorithm. We extend our lower bounds to the case where the learner performs possibly adaptive measurements from a fixed set of $\exp(O(d))$ measurements. This implies in particular that adaptivity does not give us any advantage using single-copy measurements that are efficiently implementable. We also obtain a similar bound in the case where the goal is to predict the expectation values of a given sequence of observables, a task known as shadow tomography. Finally, in the case of adaptive, single-copy measurements implementable with polynomial-size circuits, we prove that a straightforward strategy based on computing sample means of the given observables is optimal.</description>
   </item>
 
   <item>
@@ -119,11 +111,11 @@
   </item>
 
   <item>
-    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.01002</link>
-    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
-    <pubDate>Aug 02 2022</pubDate>
-    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
+    <title>Inevitability of knowing less than nothing</title>
+    <link>http://arxiv.org/pdf/2208.14424</link>
+    <author>Gilad Gour, Mark M. Wilde, Sarah Brandsen, Isabelle Jianing Geng</author>
+    <pubDate>Aug 31 2022</pubDate>
+    <description>A colloquial interpretation of entropy is that it is the knowledge gained upon learning the outcome of a random experiment. Conditional entropy is then interpreted as the knowledge gained upon learning the outcome of one random experiment after learning the outcome of another, possibly statistically dependent, random experiment. In the classical world, entropy and conditional entropy take only non-negative values, consistent with the intuition that one has regarding the aforementioned interpretations. However, for certain entangled states, one obtains negative values when evaluating commonly accepted and information-theoretically justified formulas for the quantum conditional entropy, leading to the confounding conclusion that one can know less than nothing in the quantum world. Here, we introduce a physically motivated framework for defining quantum conditional entropy, based on two simple postulates inspired by the second law of thermodynamics (non-decrease of entropy) and extensivity of entropy, and we argue that all plausible definitions of quantum conditional entropy should respect these two postulates. We then prove that all plausible quantum conditional entropies take on negative values for certain entangled states, so that it is inevitable that one can know less than nothing in the quantum world. All of our arguments are based on constructions of physical processes that respect the first postulate, the one inspired by the second law of thermodynamics.</description>
   </item>
 
   <item>
@@ -132,6 +124,14 @@
     <author>Kento Tsubouchi, Takahiro Sagawa, Nobuyuki Yoshioka</author>
     <pubDate>Aug 22 2022</pubDate>
     <description>Quantum error mitigation is an art to combat noise in quantum computers that are not fully fault tolerant. While a wide variety of techniques has been proposed with surging number of experimental applications, little is known concerning the unified understanding on their fundamental aspects. In this paper, we perform a theoretical analysis on the cost of quantum error mitigation using the quantum estimation theory. The applicability of quantum estimation theory is extended so that we can analyze the quantum Fisher information of layered noisy quantum circuits equipped with a wide range of quantum error mitigation methods. By showing that the quantum Fisher information decays exponentially with the circuit depth, we derive for a general class of Markovian noise that unbiased estimation of an observable encounters an exponential growth in the lower bound on the measurement cost, or more precisely the required number of copies of noisy quantum state. As two practical and illustrative examples, we discuss the case when the noise channel is solely the global or local depolarizing noise. We explicitly express the lower bound in terms of their noise rates, and further find that we can asymptotically saturate the bound by a simple mitigation technique for the global depolarizing noise. Our results not only reveal the physical limitations of quantum error mitigation, but may also provide a new criteria for performance evaluation of quantum error mitigation techniques.</description>
+  </item>
+
+  <item>
+    <title>Fast erasure decoder for a class of quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.01002</link>
+    <author>Nicholas Connolly, Vivien Londe, Anthony Leverrier, Nicolas Delfosse</author>
+    <pubDate>Aug 02 2022</pubDate>
+    <description>We propose a decoder for the correction of erasures with hypergraph product codes, which form one of the most popular families of quantum LDPC codes. Our numerical simulations show that this decoder provides a close approximation of the maximum likelihood decoder that can be implemented in O(N^2) bit operations where N is the length of the quantum code. A probabilistic version of this decoder can be implemented in O(N^1.5) bit operations.</description>
   </item>
 
   <item>
@@ -175,27 +175,19 @@
   </item>
 
   <item>
-    <title>Fundamental Limitation on the Detectability of Entanglement</title>
-    <link>http://arxiv.org/pdf/2208.02518</link>
-    <author>Pengyu Liu, Zhenhuan Liu, Shu Chen, Xiongfeng Ma</author>
-    <pubDate>Aug 05 2022</pubDate>
-    <description>Entanglement detection is essential in quantum information science and quantum many-body physics. It has been proved that entanglement exists almost surely for a random quantum state, while the realizations of effective entanglement criteria usually consume exponential resources, and efficient criteria often perform poorly without prior knowledge. This fact implies a fundamental limitation might exist in the detectability of entanglement. In this work, we formalize this limitation as a fundamental trade-off between the efficiency and effectiveness of entanglement criteria via a systematic method to theoretically evaluate the detection capability of entanglement criteria. For a system coupled to an environment, we prove that any entanglement criterion needs exponentially many observables to detect the entanglement effectively when restricted to single-copy operations. Otherwise, the detection capability of the criterion will decay double-exponentially. Furthermore, if multi-copy joint measurements are allowed, the effectiveness of entanglement detection can be exponentially improved, which implies a quantum advantage in entanglement detection problems.</description>
-  </item>
-
-  <item>
-    <title>Resource theory of quantum scrambling</title>
-    <link>http://arxiv.org/pdf/2208.10477</link>
-    <author>Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
-    <pubDate>Aug 23 2022</pubDate>
-    <description>Quantum scrambling refers to the spread of local quantum information into the many degrees of freedom of a quantum system. In this work, we introduce a resource theory of scrambling which incorporates two mechanisms, "entanglement scrambling" and "magic scrambling". We introduce two resource monotones called the Pauli growth and the OTOC (out-of-time-ordered correlator) magic for these two mechanisms, respectively. Moreover, we show that OTOC fluctuations are bounded by the OTOC magic. This proves that small OTOC fluctuations are an indication of magic in Google's recent experiment (Science 374, 1479 (2021)). We also show that both resource monotones can be used to bound the decoding fidelity in the Hayden-Preskill protocol. These applications provide an operational interpretation of the resource monotones defined in this work.</description>
-  </item>
-
-  <item>
     <title>Extendibility of Werner States</title>
     <link>http://arxiv.org/pdf/2208.13743</link>
     <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
+  </item>
+
+  <item>
+    <title>Fundamental Limitation on the Detectability of Entanglement</title>
+    <link>http://arxiv.org/pdf/2208.02518</link>
+    <author>Pengyu Liu, Zhenhuan Liu, Shu Chen, Xiongfeng Ma</author>
+    <pubDate>Aug 05 2022</pubDate>
+    <description>Entanglement detection is essential in quantum information science and quantum many-body physics. It has been proved that entanglement exists almost surely for a random quantum state, while the realizations of effective entanglement criteria usually consume exponential resources, and efficient criteria often perform poorly without prior knowledge. This fact implies a fundamental limitation might exist in the detectability of entanglement. In this work, we formalize this limitation as a fundamental trade-off between the efficiency and effectiveness of entanglement criteria via a systematic method to theoretically evaluate the detection capability of entanglement criteria. For a system coupled to an environment, we prove that any entanglement criterion needs exponentially many observables to detect the entanglement effectively when restricted to single-copy operations. Otherwise, the detection capability of the criterion will decay double-exponentially. Furthermore, if multi-copy joint measurements are allowed, the effectiveness of entanglement detection can be exponentially improved, which implies a quantum advantage in entanglement detection problems.</description>
   </item>
 
   <item>
@@ -207,19 +199,19 @@
   </item>
 
   <item>
+    <title>Resource theory of quantum scrambling</title>
+    <link>http://arxiv.org/pdf/2208.10477</link>
+    <author>Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>Quantum scrambling refers to the spread of local quantum information into the many degrees of freedom of a quantum system. In this work, we introduce a resource theory of scrambling which incorporates two mechanisms, "entanglement scrambling" and "magic scrambling". We introduce two resource monotones called the Pauli growth and the OTOC (out-of-time-ordered correlator) magic for these two mechanisms, respectively. Moreover, we show that OTOC fluctuations are bounded by the OTOC magic. This proves that small OTOC fluctuations are an indication of magic in Google's recent experiment (Science 374, 1479 (2021)). We also show that both resource monotones can be used to bound the decoding fidelity in the Hayden-Preskill protocol. These applications provide an operational interpretation of the resource monotones defined in this work.</description>
+  </item>
+
+  <item>
     <title>Techniques for combining fast local decoders with global decoders under circuit-level noise</title>
     <link>http://arxiv.org/pdf/2208.01178</link>
     <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
     <pubDate>Aug 03 2022</pubDate>
     <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
-  </item>
-
-  <item>
-    <title>Quantum Data Center: Theories and Applications</title>
-    <link>http://arxiv.org/pdf/2207.14336</link>
-    <author>Junyu Liu, Connor T. Hann, Liang Jiang</author>
-    <pubDate>Aug 01 2022</pubDate>
-    <description>In this paper, we propose the Quantum Data Center (QDC), an architecture combining Quantum Random Access Memory (QRAM) and quantum networks. We give a precise definition of QDC, and discuss its possible realizations and extensions. We discuss applications of QDC in quantum computation, quantum communication, and quantum sensing, with a primary focus on QDC for $T$-gate resources, QDC for multi-party private quantum communication, and QDC for distributed sensing through data compression. We show that QDC will provide efficient, private, and fast services as a future version of data centers.</description>
   </item>
 
   <item>
@@ -244,6 +236,14 @@
     <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
     <pubDate>Aug 25 2022</pubDate>
     <description>Variational quantum algorithms (VQAs) are the quantum analog of classical neural networks (NNs). A VQA consists of a parameterized quantum circuit (PQC) which is composed of multiple layers of ansatzes (simpler PQCs, which are an analogy of NN layers) that differ only in selections of parameters. Previous work has identified the alternating layered ansatz as potentially a new standard ansatz in near-term quantum computing. Indeed, shallow alternating layered VQAs are easy to implement and have been shown to be both trainable and expressive. In this work, we introduce a training algorithm with an exponential reduction in training cost of such VQAs. Moreover, our algorithm uses classical shadows of quantum input data, and can hence be run on a classical computer with rigorous performance guarantees. We demonstrate 2--3 orders of magnitude improvement in the training cost using our algorithm for the example problems of finding state preparation circuits and the quantum autoencoder.</description>
+  </item>
+
+  <item>
+    <title>Multidimensional Quantum Walks, with Application to $k$-Distinctness</title>
+    <link>http://arxiv.org/pdf/2208.13492</link>
+    <author>Stacey Jeffery, Sebastian Zur</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>While the quantum query complexity of $k$-distinctness is known to be $O\left(n^{3/4-1/4(2^k-1)}\right)$ for any constant $k \geq 4$, the best previous upper bound on the time complexity was $\widetilde{O}\left(n^{1-1/k}\right)$. We give a new upper bound of $\widetilde{O}\left(n^{3/4-1/4(2^k-1)}\right)$ on the time complexity, matching the query complexity up to polylogarithmic factors. In order to achieve this upper bound, we give a new technique for designing quantum walk search algorithms, which is an extension of the electric network framework. We also show how to solve the welded trees problem in $O(n)$ queries and $O(n^2)$ time using this new technique, showing that the new quantum walk framework can achieve exponential speedups.</description>
   </item>
 
 </channel>
