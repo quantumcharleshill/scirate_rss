@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
-    <link>http://arxiv.org/pdf/2208.11941</link>
-    <author>Harriet Apel, Toby Cubitt</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
-  </item>
-
-  <item>
     <title>Inevitability of knowing less than nothing</title>
     <link>http://arxiv.org/pdf/2208.14424</link>
     <author>Gilad Gour, Mark M. Wilde, Sarah Brandsen, Isabelle Jianing Geng</author>
@@ -47,14 +39,6 @@
   </item>
 
   <item>
-    <title>No [[n, k, d < 86]] code can violate the quantum Hamming bound</title>
-    <link>http://arxiv.org/pdf/2208.11800</link>
-    <author>Emanuel Dallas, Faidon Andreadakis, Daniel Lidar</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>It is well-known that pure quantum error correcting codes (QECCs) are constrained by a quantum version of the Hamming bound. Whether impure codes also obey such a bound, however, remains a long-standing question with practical implications for the efficacy of QECCs. We employ a combination of previously derived bounds on QECCs to demonstrate that a subset of all codes must obey the quantum Hamming bound. Specifically, we combine an analytical bound due to Rains with a numerical bound due to Li and Xing to show that no [[n,k,d < 86]] code can violate the quantum Hamming bound.</description>
-  </item>
-
-  <item>
     <title>Comparison of unknown unitary channels with multiple uses</title>
     <link>http://arxiv.org/pdf/2208.12519</link>
     <author>Yutaka Hashimoto, Akihito Soeda, Mio Murao</author>
@@ -63,27 +47,43 @@
   </item>
 
   <item>
-    <title>A SAT Encoding for Optimal Clifford Circuit Synthesis</title>
-    <link>http://arxiv.org/pdf/2208.11713</link>
-    <author>Sarah Schneider, Lukas Burgholzer, Robert Wille</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>Executing quantum algorithms on a quantum computer requires compilation to representations that conform to all restrictions imposed by the device. Due to device's limited coherence times and gate fidelities, the compilation process has to be optimized as much as possible. To this end, an algorithm's description first has to be synthesized using the device's gate library. In this paper, we consider the optimal synthesis of Clifford circuits -- an important subclass of quantum circuits, with various applications. Such techniques are essential to establish lower bounds for (heuristic) synthesis methods and gauging their performance. Due to the huge search space, existing optimal techniques are limited to a maximum of six qubits. The contribution of this work is twofold: First, we propose an optimal synthesis method for Clifford circuits based on encoding the task as a satisfiability (SAT) problem and solving it using a SAT solver in conjunction with a binary search scheme. The resulting tool is demonstrated to synthesize optimal circuits for up to $26$ qubits -- more than four times as many as the current state of the art. Second, we experimentally show that the overhead introduced by state-of-the-art heuristics exceeds the lower bound by $27\%$ on average. The resulting tool is publicly available at https://github.com/cda-tum/qmap.</description>
-  </item>
-
-  <item>
-    <title>No graph states can be prepared in quantum networks with bipartite sources</title>
-    <link>http://arxiv.org/pdf/2208.12099</link>
-    <author>Owidiusz Makuta, Laurens T. Ligthart, Remigiusz Augusiak</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>In research concerning quantum networks, it is often assumed that the parties can classically communicate with each other. However, classical communication might introduce substantial delay to the network, especially if it is large. As the latency of a network is one of its most important characteristics, it is interesting to consider quantum networks in which parties cannot communicate classically and ask what limitations this assumption imposes on the possibility of preparing multipartite states in such networks. We show that graph states of arbitrary prime local dimension known for their numerous applications in quantum information cannot be generated in a quantum network in which parties are connected via sources of bipartite quantum states and the classical communication is replaced by some pre-shared classical correlations. We then generalise our result to arbitrary quantum states that are sufficiently close to graph states.</description>
-  </item>
-
-  <item>
     <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
     <link>http://arxiv.org/pdf/2208.13057</link>
     <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>It has been proved that in gapped ground states of locally-interacting quantum systems, the effect of local perturbations decays exponentially with distance. However, in systems with power-law ($1/r^\alpha$) decaying interactions, no analogous statement has been shown, and there are serious mathematical obstacles to proving it with existing methods. In this paper we prove that when $\alpha$ exceeds the spatial dimension $D$, the effect of local perturbations on local properties a distance $r$ away is upper bounded by a power law $1/r^{\alpha_1}$ in gapped ground states, provided that the perturbations do not close the spectral gap. The power-law exponent $\alpha_1$ is tight if $\alpha>2D$ and interactions are two-body, where we have $\alpha_1=\alpha$. The proof is enabled by a method that avoids the use of quasiadiabatic continuation and incorporates techniques of complex analysis. This method also improves bounds on ground state correlation decay, even in short-range interacting systems. Our work generalizes the fundamental notion that local perturbations have local effects to power-law interacting systems, with broad implications for numerical simulations and experiments.</description>
+  </item>
+
+  <item>
+    <title>Proofs of Quantumness from Trapdoor Permutations</title>
+    <link>http://arxiv.org/pdf/2208.12390</link>
+    <author>Tomoyuki Morimae, Takashi Yamakawa</author>
+    <pubDate>Aug 29 2022</pubDate>
+    <description>Assume that Alice can do only classical probabilistic polynomial-time computing while Bob can do quantum polynomial-time computing. Alice and Bob communicate over only classical channels, and finally Bob gets a state $|x_0\rangle+|x_1\rangle$ with some bit strings $x_0$ and $x_1$. Is it possible that Alice can know $\{x_0,x_1\}$ but Bob cannot? Such a task, called \it remote state preparations, is indeed possible under some complexity assumptions, and is bases of many quantum cryptographic primitives such as proofs of quantumness, (classical-client) blind quantum computing, (classical) verifications of quantum computing, and quantum money. A typical technique to realize remote state preparations is to use 2-to-1 trapdoor collision resistant hash functions: Alice sends a 2-to-1 trapdoor collision resistant hash function $f$ to Bob, and Bob evaluates it on superposition and measures the image. Bob's post-measurement state is $|x_0\rangle+|x_1\rangle$, where $f(x_0)=f(x_1)=y$. With the trapdoor, Alice can learn $\{x_0,x_1\}$, but due to the collision resistance, Bob cannot. This Alice's advantage can be leveraged to realize the quantum cryptographic primitives listed above. It seems that the collision resistance is essential here. In this paper, surprisingly, we show that the collision resistance is not necessary for a restricted case: we show that (non-verifiable) remote state preparations of $|x_0\rangle+|x_1\rangle$ secure against \it classical probabilistic polynomial-time Bob can be constructed from classically-secure (full-domain) trapdoor permutations. Trapdoor permutations are not likely to imply the collision resistance, because black-box reductions from collision-resistant hash functions to trapdoor permutations are known to be impossible. As an application of our result, we construct proofs of quantumness from classically-secure (full-domain) trapdoor permutations.</description>
+  </item>
+
+  <item>
+    <title>Cycle Index Polynomials and Generalized Quantum Separability Tests</title>
+    <link>http://arxiv.org/pdf/2208.14596</link>
+    <author>Zachary P. Bradshaw, Margarite L. LaBorde, Mark M. Wilde</author>
+    <pubDate>Sep 01 2022</pubDate>
+    <description>We address an outstanding question on the acceptance probability for the bipartite pure-state separability algorithm proposed by [LaBorde and Wilde, arXiv:2105.12758]. We prove that the analytical form of this expression is given by the cycle index polynomial of the symmetric group $S_k$, which is itself related to the Bell polynomials. After doing so, we derive a family of quantum separability tests, each of which is generated by a finite group; for all such algorithms, we show that the acceptance probability is determined by the cycle index polynomial of the group. Finally, we produce and analyze explicit circuit constructions for these tests, showing that the tests corresponding to the symmetric and cyclic groups can be executed with $O(k^2)$ and $O(k\log(k))$ controlled-SWAP gates, respectively, where $k$ is the number of copies of the state being tested.</description>
+  </item>
+
+  <item>
+    <title>Measurement optimization of variational quantum simulation by classical shadow and derandomization</title>
+    <link>http://arxiv.org/pdf/2208.13934</link>
+    <author>Kouhei Nakaji, Suguru Endo, Yuichiro Matsuzaki, Hideaki Hakoshima</author>
+    <pubDate>Aug 31 2022</pubDate>
+    <description>Simulating large quantum systems is the ultimate goal of quantum computing. Variational quantum simulation (VQS) gives us a tool to achieve the goal in near-term devices by distributing the computation load to both classical and quantum computers. However, as the size of the quantum system becomes large, the execution of VQS becomes more and more challenging. One of the most severe challenges is the drastic increase in the number of measurements; for example, the number of measurements tends to increase by the fourth power of the number of qubits in a quantum simulation with a chemical Hamiltonian. This work aims to dramatically decrease the number of measurements in VQS by recently proposed shadow-based strategies such as classical shadow and derandomization. Even though previous literature shows that shadow-based strategies successfully optimize measurements in the variational quantum optimization (VQO), how to apply them to VQS was unclear due to the gap between VQO and VQS in measuring observables. In this paper, we bridge the gap by changing the way of measuring observables in VQS and propose an algorithm to optimize measurements in VQS by shadow-based strategies. Our theoretical analysis not only reveals the advantage of using our algorithm in VQS but theoretically supports using shadow-based strategies in VQO, whose advantage has only been given numerically. Additionally, our numerical experiment shows the validity of using our algorithm with a quantum chemical system.</description>
+  </item>
+
+  <item>
+    <title>Solvent distribution effects on quantum chemical calculations with quantum computers</title>
+    <link>http://arxiv.org/pdf/2208.12487</link>
+    <author>Yuichiro Yoshida, Wataru Mizukami, Norio Yoshida</author>
+    <pubDate>Aug 29 2022</pubDate>
+    <description>We present a combination of three-dimensional reference interaction site model self-consistent field (3D-RISM-SCF) theory and the variational quantum eigensolver (VQE) to consider the solvent distribution effects within the framework of quantum-classical hybrid computing. The present method, 3D-RISM-VQE, does not include any statistical errors from the solvent configuration sampling owing to the analytical treatment of the statistical solvent distribution. We apply 3D-RISM-VQE to compute the spatial distribution functions of solvent water around a water molecule, the potential and Helmholtz energy curves of NaCl, and to conduct Helmholtz energy component analysis of H$_2$O and NH$_4^+$. Moreover, we utilize 3D-RISM-VQE to analyze the extent to which solvent effects alter the efficiency of quantum calculations compared with calculations in the gas phase using the $L^1$-norms of molecular electronic Hamiltonians. Our results demonstrate that the efficiency of quantum chemical calculations on a quantum computer in solution is virtually the same as in the gas phase.</description>
   </item>
 
 </channel>
