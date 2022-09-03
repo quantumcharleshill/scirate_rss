@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>Extendibility of Werner States</title>
-    <link>http://arxiv.org/pdf/2208.13743</link>
-    <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
-  </item>
-
-  <item>
     <title>Synergy Between Quantum Circuits and Tensor Networks: Short-cutting the Race to Practical Quantum Advantage</title>
     <link>http://arxiv.org/pdf/2208.13673</link>
     <author>Manuel S. Rudolph, Jacob Miller, Jing Chen, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>While recent breakthroughs have proven the ability of noisy intermediate-scale quantum (NISQ) devices to achieve quantum advantage in classically-intractable sampling tasks, the use of these devices for solving more practically relevant computational problems remains a challenge. Proposals for attaining practical quantum advantage typically involve parametrized quantum circuits (PQCs), whose parameters can be optimized to find solutions to diverse problems throughout quantum simulation and machine learning. However, training PQCs for real-world problems remains a significant practical challenge, largely due to the phenomenon of barren plateaus in the optimization landscapes of randomly-initialized quantum circuits. In this work, we introduce a scalable procedure for harnessing classical computing resources to determine task-specific initializations of PQCs, which we show significantly improves the trainability and performance of PQCs on a variety of problems. Given a specific optimization task, this method first utilizes tensor network (TN) simulations to identify a promising quantum state, which is then converted into gate parameters of a PQC by means of a high-performance decomposition procedure. We show that this task-specific initialization avoids barren plateaus, and effectively translates increases in classical resources to enhanced performance and speed in training quantum circuits. By demonstrating a means of boosting limited quantum resources using classical computers, our approach illustrates the promise of this synergy between quantum and quantum-inspired models in quantum computing, and opens up new avenues to harness the power of modern quantum hardware for realizing practical quantum advantage.</description>
+  </item>
+
+  <item>
+    <title>Extendibility of Werner States</title>
+    <link>http://arxiv.org/pdf/2208.13743</link>
+    <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
   </item>
 
   <item>
@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
-    <link>http://arxiv.org/pdf/2208.13057</link>
-    <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>It has been proved that in gapped ground states of locally-interacting quantum systems, the effect of local perturbations decays exponentially with distance. However, in systems with power-law ($1/r^\alpha$) decaying interactions, no analogous statement has been shown, and there are serious mathematical obstacles to proving it with existing methods. In this paper we prove that when $\alpha$ exceeds the spatial dimension $D$, the effect of local perturbations on local properties a distance $r$ away is upper bounded by a power law $1/r^{\alpha_1}$ in gapped ground states, provided that the perturbations do not close the spectral gap. The power-law exponent $\alpha_1$ is tight if $\alpha>2D$ and interactions are two-body, where we have $\alpha_1=\alpha$. The proof is enabled by a method that avoids the use of quasiadiabatic continuation and incorporates techniques of complex analysis. This method also improves bounds on ground state correlation decay, even in short-range interacting systems. Our work generalizes the fundamental notion that local perturbations have local effects to power-law interacting systems, with broad implications for numerical simulations and experiments.</description>
-  </item>
-
-  <item>
     <title>Proofs of Quantumness from Trapdoor Permutations</title>
     <link>http://arxiv.org/pdf/2208.12390</link>
     <author>Tomoyuki Morimae, Takashi Yamakawa</author>
@@ -63,27 +55,35 @@
   </item>
 
   <item>
+    <title>Decomposition of Matrix Product States into Shallow Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2209.00595</link>
+    <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>The rapid pace of recent advancements in numerical computation, notably the rise of GPU and TPU hardware accelerators, have allowed tensor network (TN) algorithms to scale to even larger quantum simulation problems, and to be employed more broadly for solving machine learning tasks. The "quantum-inspired" nature of TNs permits them to be mapped to parametrized quantum circuits (PQCs), a fact which has inspired recent proposals for enhancing the performance of TN algorithms using near-term quantum devices, as well as enabling joint quantum-classical training frameworks which benefit from the distinct strengths of TN and PQC models. However, the success of any such methods depends on efficient and accurate methods for approximating TN states using realistic quantum circuits, something which remains an unresolved question. In this work, we compare a range of novel and previously-developed algorithmic protocols for decomposing matrix product states (MPS) of arbitrary bond dimensions into low-depth quantum circuits consisting of stacked linear layers of two-qubit unitaries. These protocols are formed from different combinations of a preexisting analytical decomposition scheme with constrained optimization of circuit unitaries, and all possess efficient classical runtimes. Our experimental results reveal one particular protocol, involving sequential growth and optimization of the quantum circuit, to outperform all other methods, with even greater benefits seen in the setting of limited computational resources. Given these promising results, we expect our proposed decomposition protocol to form a useful ingredient within any joint application of TNs and PQCs, in turn further unlocking the rich and complementary benefits of classical and quantum computation.</description>
+  </item>
+
+  <item>
+    <title>Barren plateaus in quantum tensor network optimization</title>
+    <link>http://arxiv.org/pdf/2209.00292</link>
+    <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
+  </item>
+
+  <item>
+    <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
+    <link>http://arxiv.org/pdf/2208.13057</link>
+    <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>It has been proved that in gapped ground states of locally-interacting quantum systems, the effect of local perturbations decays exponentially with distance. However, in systems with power-law ($1/r^\alpha$) decaying interactions, no analogous statement has been shown, and there are serious mathematical obstacles to proving it with existing methods. In this paper we prove that when $\alpha$ exceeds the spatial dimension $D$, the effect of local perturbations on local properties a distance $r$ away is upper bounded by a power law $1/r^{\alpha_1}$ in gapped ground states, provided that the perturbations do not close the spectral gap. The power-law exponent $\alpha_1$ is tight if $\alpha>2D$ and interactions are two-body, where we have $\alpha_1=\alpha$. The proof is enabled by a method that avoids the use of quasiadiabatic continuation and incorporates techniques of complex analysis. This method also improves bounds on ground state correlation decay, even in short-range interacting systems. Our work generalizes the fundamental notion that local perturbations have local effects to power-law interacting systems, with broad implications for numerical simulations and experiments.</description>
+  </item>
+
+  <item>
     <title>Cycle Index Polynomials and Generalized Quantum Separability Tests</title>
     <link>http://arxiv.org/pdf/2208.14596</link>
     <author>Zachary P. Bradshaw, Margarite L. LaBorde, Mark M. Wilde</author>
     <pubDate>Sep 01 2022</pubDate>
     <description>We address an outstanding question on the acceptance probability for the bipartite pure-state separability algorithm proposed by [LaBorde and Wilde, arXiv:2105.12758]. We prove that the analytical form of this expression is given by the cycle index polynomial of the symmetric group $S_k$, which is itself related to the Bell polynomials. After doing so, we derive a family of quantum separability tests, each of which is generated by a finite group; for all such algorithms, we show that the acceptance probability is determined by the cycle index polynomial of the group. Finally, we produce and analyze explicit circuit constructions for these tests, showing that the tests corresponding to the symmetric and cyclic groups can be executed with $O(k^2)$ and $O(k\log(k))$ controlled-SWAP gates, respectively, where $k$ is the number of copies of the state being tested.</description>
-  </item>
-
-  <item>
-    <title>Measurement optimization of variational quantum simulation by classical shadow and derandomization</title>
-    <link>http://arxiv.org/pdf/2208.13934</link>
-    <author>Kouhei Nakaji, Suguru Endo, Yuichiro Matsuzaki, Hideaki Hakoshima</author>
-    <pubDate>Aug 31 2022</pubDate>
-    <description>Simulating large quantum systems is the ultimate goal of quantum computing. Variational quantum simulation (VQS) gives us a tool to achieve the goal in near-term devices by distributing the computation load to both classical and quantum computers. However, as the size of the quantum system becomes large, the execution of VQS becomes more and more challenging. One of the most severe challenges is the drastic increase in the number of measurements; for example, the number of measurements tends to increase by the fourth power of the number of qubits in a quantum simulation with a chemical Hamiltonian. This work aims to dramatically decrease the number of measurements in VQS by recently proposed shadow-based strategies such as classical shadow and derandomization. Even though previous literature shows that shadow-based strategies successfully optimize measurements in the variational quantum optimization (VQO), how to apply them to VQS was unclear due to the gap between VQO and VQS in measuring observables. In this paper, we bridge the gap by changing the way of measuring observables in VQS and propose an algorithm to optimize measurements in VQS by shadow-based strategies. Our theoretical analysis not only reveals the advantage of using our algorithm in VQS but theoretically supports using shadow-based strategies in VQO, whose advantage has only been given numerically. Additionally, our numerical experiment shows the validity of using our algorithm with a quantum chemical system.</description>
-  </item>
-
-  <item>
-    <title>Solvent distribution effects on quantum chemical calculations with quantum computers</title>
-    <link>http://arxiv.org/pdf/2208.12487</link>
-    <author>Yuichiro Yoshida, Wataru Mizukami, Norio Yoshida</author>
-    <pubDate>Aug 29 2022</pubDate>
-    <description>We present a combination of three-dimensional reference interaction site model self-consistent field (3D-RISM-SCF) theory and the variational quantum eigensolver (VQE) to consider the solvent distribution effects within the framework of quantum-classical hybrid computing. The present method, 3D-RISM-VQE, does not include any statistical errors from the solvent configuration sampling owing to the analytical treatment of the statistical solvent distribution. We apply 3D-RISM-VQE to compute the spatial distribution functions of solvent water around a water molecule, the potential and Helmholtz energy curves of NaCl, and to conduct Helmholtz energy component analysis of H$_2$O and NH$_4^+$. Moreover, we utilize 3D-RISM-VQE to analyze the extent to which solvent effects alter the efficiency of quantum calculations compared with calculations in the gas phase using the $L^1$-norms of molecular electronic Hamiltonians. Our results demonstrate that the efficiency of quantum chemical calculations on a quantum computer in solution is virtually the same as in the gas phase.</description>
   </item>
 
 </channel>

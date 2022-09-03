@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Solving the sampling problem of the Sycamore quantum circuits</title>
-    <link>http://arxiv.org/pdf/2111.03011</link>
-    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
-    <pubDate>Nov 05 2021</pubDate>
-    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\hat P(\mathbf s)=|\hat \psi(\mathbf s)|^2$, where the approximate state $\hat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order is made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
-  </item>
-
-  <item>
     <title>The Early Days of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2208.09964</link>
     <author>Peter W. Shor</author>
     <pubDate>Aug 23 2022</pubDate>
     <description>I recount some of my memories of the early development of quantum computation, including the discovery of the factoring algorithm, of error correcting codes, and of fault tolerance.</description>
+  </item>
+
+  <item>
+    <title>Solving the sampling problem of the Sycamore quantum circuits</title>
+    <link>http://arxiv.org/pdf/2111.03011</link>
+    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
+    <pubDate>Nov 05 2021</pubDate>
+    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\hat P(\mathbf s)=|\hat \psi(\mathbf s)|^2$, where the approximate state $\hat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order is made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
   </item>
 
   <item>
@@ -143,19 +143,19 @@
   </item>
 
   <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
-  </item>
-
-  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
     <pubDate>Jul 08 2022</pubDate>
     <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
+  </item>
+
+  <item>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
   <item>

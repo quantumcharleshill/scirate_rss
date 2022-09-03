@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Simulating quantum circuits using efficient tensor network contraction algorithms with subexponential upper bound</title>
-    <link>http://arxiv.org/pdf/2208.01498</link>
-    <author>Thorsten B. Wahl, Sergii Strelchuk</author>
-    <pubDate>Aug 03 2022</pubDate>
-    <description>We derive a rigorous upper bound on the classical computation time of finite-ranged tensor network contractions in $d \geq 2$ dimensions. By means of the Sphere Separator Theorem, we are able to take advantage of the structure of quantum circuits to speed up contractions to show that quantum circuits of single-qubit and finite-ranged two-qubit gates can be classically simulated in subexponential time in the number of gates. In many practically relevant cases this beats standard simulation schemes. Moreover, our algorithm leads to speedups of several orders of magnitude over naive contraction schemes for two-dimensional quantum circuits on as little as an $8 \times 8$ lattice. We obtain similarly efficient contraction schemes for Google's Sycamore-type quantum circuits, instantaneous quantum polynomial-time circuits and non-homogeneous (2+1)-dimensional random quantum circuits.</description>
-  </item>
-
-  <item>
     <title>Classical shadows of fermions with particle number symmetry</title>
     <link>http://arxiv.org/pdf/2208.08964</link>
     <author>Guang Hao Low</author>
@@ -95,19 +87,19 @@
   </item>
 
   <item>
-    <title>Universal sample lower bounds for quantum error mitigation</title>
-    <link>http://arxiv.org/pdf/2208.09178</link>
-    <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
-  </item>
-
-  <item>
     <title>Inevitability of knowing less than nothing</title>
     <link>http://arxiv.org/pdf/2208.14424</link>
     <author>Gilad Gour, Mark M. Wilde, Sarah Brandsen, Isabelle Jianing Geng</author>
     <pubDate>Aug 31 2022</pubDate>
     <description>A colloquial interpretation of entropy is that it is the knowledge gained upon learning the outcome of a random experiment. Conditional entropy is then interpreted as the knowledge gained upon learning the outcome of one random experiment after learning the outcome of another, possibly statistically dependent, random experiment. In the classical world, entropy and conditional entropy take only non-negative values, consistent with the intuition that one has regarding the aforementioned interpretations. However, for certain entangled states, one obtains negative values when evaluating commonly accepted and information-theoretically justified formulas for the quantum conditional entropy, leading to the confounding conclusion that one can know less than nothing in the quantum world. Here, we introduce a physically motivated framework for defining quantum conditional entropy, based on two simple postulates inspired by the second law of thermodynamics (non-decrease of entropy) and extensivity of entropy, and we argue that all plausible definitions of quantum conditional entropy should respect these two postulates. We then prove that all plausible quantum conditional entropies take on negative values for certain entangled states, so that it is inevitable that one can know less than nothing in the quantum world. All of our arguments are based on constructions of physical processes that respect the first postulate, the one inspired by the second law of thermodynamics.</description>
+  </item>
+
+  <item>
+    <title>Universal sample lower bounds for quantum error mitigation</title>
+    <link>http://arxiv.org/pdf/2208.09178</link>
+    <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
+    <pubDate>Aug 22 2022</pubDate>
+    <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
   </item>
 
   <item>
@@ -151,6 +143,14 @@
   </item>
 
   <item>
+    <title>Synergy Between Quantum Circuits and Tensor Networks: Short-cutting the Race to Practical Quantum Advantage</title>
+    <link>http://arxiv.org/pdf/2208.13673</link>
+    <author>Manuel S. Rudolph, Jacob Miller, Jing Chen, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>While recent breakthroughs have proven the ability of noisy intermediate-scale quantum (NISQ) devices to achieve quantum advantage in classically-intractable sampling tasks, the use of these devices for solving more practically relevant computational problems remains a challenge. Proposals for attaining practical quantum advantage typically involve parametrized quantum circuits (PQCs), whose parameters can be optimized to find solutions to diverse problems throughout quantum simulation and machine learning. However, training PQCs for real-world problems remains a significant practical challenge, largely due to the phenomenon of barren plateaus in the optimization landscapes of randomly-initialized quantum circuits. In this work, we introduce a scalable procedure for harnessing classical computing resources to determine task-specific initializations of PQCs, which we show significantly improves the trainability and performance of PQCs on a variety of problems. Given a specific optimization task, this method first utilizes tensor network (TN) simulations to identify a promising quantum state, which is then converted into gate parameters of a PQC by means of a high-performance decomposition procedure. We show that this task-specific initialization avoids barren plateaus, and effectively translates increases in classical resources to enhanced performance and speed in training quantum circuits. By demonstrating a means of boosting limited quantum resources using classical computers, our approach illustrates the promise of this synergy between quantum and quantum-inspired models in quantum computing, and opens up new avenues to harness the power of modern quantum hardware for realizing practical quantum advantage.</description>
+  </item>
+
+  <item>
     <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
     <link>http://arxiv.org/pdf/2208.04660</link>
     <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
@@ -164,14 +164,6 @@
     <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
-  </item>
-
-  <item>
-    <title>Synergy Between Quantum Circuits and Tensor Networks: Short-cutting the Race to Practical Quantum Advantage</title>
-    <link>http://arxiv.org/pdf/2208.13673</link>
-    <author>Manuel S. Rudolph, Jacob Miller, Jing Chen, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>While recent breakthroughs have proven the ability of noisy intermediate-scale quantum (NISQ) devices to achieve quantum advantage in classically-intractable sampling tasks, the use of these devices for solving more practically relevant computational problems remains a challenge. Proposals for attaining practical quantum advantage typically involve parametrized quantum circuits (PQCs), whose parameters can be optimized to find solutions to diverse problems throughout quantum simulation and machine learning. However, training PQCs for real-world problems remains a significant practical challenge, largely due to the phenomenon of barren plateaus in the optimization landscapes of randomly-initialized quantum circuits. In this work, we introduce a scalable procedure for harnessing classical computing resources to determine task-specific initializations of PQCs, which we show significantly improves the trainability and performance of PQCs on a variety of problems. Given a specific optimization task, this method first utilizes tensor network (TN) simulations to identify a promising quantum state, which is then converted into gate parameters of a PQC by means of a high-performance decomposition procedure. We show that this task-specific initialization avoids barren plateaus, and effectively translates increases in classical resources to enhanced performance and speed in training quantum circuits. By demonstrating a means of boosting limited quantum resources using classical computers, our approach illustrates the promise of this synergy between quantum and quantum-inspired models in quantum computing, and opens up new avenues to harness the power of modern quantum hardware for realizing practical quantum advantage.</description>
   </item>
 
   <item>
@@ -191,14 +183,6 @@
   </item>
 
   <item>
-    <title>Techniques for combining fast local decoders with global decoders under circuit-level noise</title>
-    <link>http://arxiv.org/pdf/2208.01178</link>
-    <author>Christopher Chamberland, Luis Goncalves, Prasahnt Sivarajah, Eric Peterson, Sebastian Grimberg</author>
-    <pubDate>Aug 03 2022</pubDate>
-    <description>Implementing algorithms on a fault-tolerant quantum computer will require fast decoding throughput and latency times to prevent an exponential increase in buffer times between the applications of gates. In this work we begin by quantifying these requirements. We then introduce the construction of local neural network (NN) decoders using three-dimensional convolutions. These local decoders are adapted to circuit-level noise and can be applied to surface code volumes of arbitrary size. Their application removes errors arising from a certain number of faults, which serves to substantially reduce the syndrome density. Remaining errors can then be corrected by a global decoder, such as Blossom or Union Find, with their implementation significantly accelerated due to the reduced syndrome density. However, in the circuit-level setting, the corrections applied by the local decoder introduce many vertical pairs of highlighted vertices. To obtain a low syndrome density in the presence of vertical pairs, we consider a strategy of performing a syndrome collapse which removes many vertical pairs and reduces the size of the decoding graph used by the global decoder. We also consider a strategy of performing a vertical cleanup, which consists of removing all local vertical pairs prior to implementing the global decoder. Lastly, we estimate the cost of implementing our local decoders on Field Programmable Gate Arrays (FPGAs).</description>
-  </item>
-
-  <item>
     <title>On establishing learning separations between classical and quantum machine learning with classical data</title>
     <link>http://arxiv.org/pdf/2208.06339</link>
     <author>Casper Gyurik, Vedran Dunjko</author>
@@ -215,19 +199,19 @@
   </item>
 
   <item>
-    <title>Alternating Layered Variational Quantum Circuits Can Be Classically Optimized Efficiently Using Classical Shadows</title>
-    <link>http://arxiv.org/pdf/2208.11623</link>
-    <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
-    <pubDate>Aug 25 2022</pubDate>
-    <description>Variational quantum algorithms (VQAs) are the quantum analog of classical neural networks (NNs). A VQA consists of a parameterized quantum circuit (PQC) which is composed of multiple layers of ansatzes (simpler PQCs, which are an analogy of NN layers) that differ only in selections of parameters. Previous work has identified the alternating layered ansatz as potentially a new standard ansatz in near-term quantum computing. Indeed, shallow alternating layered VQAs are easy to implement and have been shown to be both trainable and expressive. In this work, we introduce a training algorithm with an exponential reduction in training cost of such VQAs. Moreover, our algorithm uses classical shadows of quantum input data, and can hence be run on a classical computer with rigorous performance guarantees. We demonstrate 2--3 orders of magnitude improvement in the training cost using our algorithm for the example problems of finding state preparation circuits and the quantum autoencoder.</description>
-  </item>
-
-  <item>
     <title>Multidimensional Quantum Walks, with Application to $k$-Distinctness</title>
     <link>http://arxiv.org/pdf/2208.13492</link>
     <author>Stacey Jeffery, Sebastian Zur</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>While the quantum query complexity of $k$-distinctness is known to be $O\left(n^{3/4-1/4(2^k-1)}\right)$ for any constant $k \geq 4$, the best previous upper bound on the time complexity was $\widetilde{O}\left(n^{1-1/k}\right)$. We give a new upper bound of $\widetilde{O}\left(n^{3/4-1/4(2^k-1)}\right)$ on the time complexity, matching the query complexity up to polylogarithmic factors. In order to achieve this upper bound, we give a new technique for designing quantum walk search algorithms, which is an extension of the electric network framework. We also show how to solve the welded trees problem in $O(n)$ queries and $O(n^2)$ time using this new technique, showing that the new quantum walk framework can achieve exponential speedups.</description>
+  </item>
+
+  <item>
+    <title>Alternating Layered Variational Quantum Circuits Can Be Classically Optimized Efficiently Using Classical Shadows</title>
+    <link>http://arxiv.org/pdf/2208.11623</link>
+    <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
+    <pubDate>Aug 25 2022</pubDate>
+    <description>Variational quantum algorithms (VQAs) are the quantum analog of classical neural networks (NNs). A VQA consists of a parameterized quantum circuit (PQC) which is composed of multiple layers of ansatzes (simpler PQCs, which are an analogy of NN layers) that differ only in selections of parameters. Previous work has identified the alternating layered ansatz as potentially a new standard ansatz in near-term quantum computing. Indeed, shallow alternating layered VQAs are easy to implement and have been shown to be both trainable and expressive. In this work, we introduce a training algorithm with an exponential reduction in training cost of such VQAs. Moreover, our algorithm uses classical shadows of quantum input data, and can hence be run on a classical computer with rigorous performance guarantees. We demonstrate 2--3 orders of magnitude improvement in the training cost using our algorithm for the example problems of finding state preparation circuits and the quantum autoencoder.</description>
   </item>
 
   <item>
@@ -244,6 +228,22 @@
     <author>Jordan Cotler, Thomas Schuster, Masoud Mohseni</author>
     <pubDate>Aug 05 2022</pubDate>
     <description>We establish that there are properties of quantum many-body dynamics which are efficiently learnable if we are given access to out-of-time-order correlators (OTOCs), but which require exponentially many operations in the system size if we can only measure time-ordered correlators. This implies that any experimental protocol which reconstructs OTOCs solely from time-ordered correlators must be, in certain cases, exponentially inefficient. Our proofs leverage and generalize recent techniques in quantum learning theory. Along the way, we elucidate a general definition of time-ordered versus out-of-time-order experimental measurement protocols, which can be considered as classes of adaptive quantum learning algorithms. Moreover, our results provide a theoretical foundation for novel applications of OTOCs in quantum simulations.</description>
+  </item>
+
+  <item>
+    <title>A Simple and Tighter Derivation of Achievability for Classical Communication over Quantum Channels</title>
+    <link>http://arxiv.org/pdf/2208.02132</link>
+    <author>Hao-Chung Cheng</author>
+    <pubDate>Aug 04 2022</pubDate>
+    <description>Achievability in information theory refers to demonstrating a coding strategy that accomplishes a prescribed performance benchmark for the underlying task. In quantum information theory, the crafted Hayashi-Nagaoka operator inequality is an essential technique in proving a wealth of one-shot achievability bounds since it effectively resembles a union bound in various problems. In this work, we show that the pretty-good measurement naturally plays a role as the union bound as well. A judicious application of it considerably simplifies the derivation of one-shot achievability for classical-quantum (c-q) channel coding via an elegant three-line proof. The proposed analysis enjoys the following favorable features: (i) The established one-shot bound admits a closed-form expression as in the celebrated Holevo-Helstrom Theorem. Namely, the average error probability of sending $M$ messages through a c-q channel is upper bounded by the error of distinguishing the joint state between channel input and output against $(M-1)$-many products of its marginals. (ii) Our bound directly yields asymptotic results in the large deviation, small deviation, and moderate deviation regimes in a unified manner. (iii) The coefficients incurred in applying the Hayashi-Nagaoka operator inequality are no longer needed. Hence, the derived one-shot bound sharpens existing results that rely on the Hayashi-Nagaoka operator inequality. In particular, we obtain the tightest achievable $\epsilon$-one-shot capacity for c-q channel heretofore, and it improves the third-order coding rate in the asymptotic scenario. (iv) Our result holds for infinite-dimensional Hilbert space. (v) The proposed method applies to deriving one-shot bounds for data compression with quantum side information, entanglement-assisted classical communication over quantum channels, and various quantum network information-processing protocols.</description>
+  </item>
+
+  <item>
+    <title>Long-distance transmon coupler with CZ gate fidelity above $99.8\%$</title>
+    <link>http://arxiv.org/pdf/2208.09460</link>
+    <author>Fabian Marxer, Antti Vepsäläinen, Shan W. Jolin, Jani Tuorila, Alessandro Landra, Caspar Ockeloen-Korppi, Wei Liu, Olli Ahonen, Adrian Auer, Lucien Belzane, Ville Bergholm, Chun Fai Chan, Kok Wai Chan, Tuukka Hiltunen, Juho Hotari, Eric Hyyppä, Joni Ikonen, David Janzso, Miikka Koistinen, Janne Kotilahti, et al (19)</author>
+    <pubDate>Aug 22 2022</pubDate>
+    <description>Tunable coupling of superconducting qubits has been widely studied due to its importance for isolated gate operations in scalable quantum processor architectures. Here, we demonstrate a tunable qubit-qubit coupler based on a floating transmon device which allows us to place qubits at least 2 mm apart from each other while maintaining over 50 MHz coupling between the coupler and the qubits. In the introduced tunable-coupler design, both the qubit-qubit and the qubit-coupler couplings are mediated by two waveguides instead of relying on direct capacitive couplings between the components, reducing the impact of the qubit-qubit distance on the couplings. This leaves space for each qubit to have an individual readout resonator and a Purcell filter needed for fast high-fidelity readout. In addition, the large qubit-qubit distance reduces unwanted non-nearest neighbor coupling and allows multiple control lines to cross over the structure with minimal crosstalk. Using the proposed flexible and scalable architecture, we demonstrate a controlled-$Z$ gate with $(99.81 \pm 0.02)\%$ fidelity.</description>
   </item>
 
 </channel>
