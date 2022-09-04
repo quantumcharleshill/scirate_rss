@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Proofs of Quantumness from Trapdoor Permutations</title>
-    <link>http://arxiv.org/pdf/2208.12390</link>
-    <author>Tomoyuki Morimae, Takashi Yamakawa</author>
-    <pubDate>Aug 29 2022</pubDate>
-    <description>Assume that Alice can do only classical probabilistic polynomial-time computing while Bob can do quantum polynomial-time computing. Alice and Bob communicate over only classical channels, and finally Bob gets a state $|x_0\rangle+|x_1\rangle$ with some bit strings $x_0$ and $x_1$. Is it possible that Alice can know $\{x_0,x_1\}$ but Bob cannot? Such a task, called \it remote state preparations, is indeed possible under some complexity assumptions, and is bases of many quantum cryptographic primitives such as proofs of quantumness, (classical-client) blind quantum computing, (classical) verifications of quantum computing, and quantum money. A typical technique to realize remote state preparations is to use 2-to-1 trapdoor collision resistant hash functions: Alice sends a 2-to-1 trapdoor collision resistant hash function $f$ to Bob, and Bob evaluates it on superposition and measures the image. Bob's post-measurement state is $|x_0\rangle+|x_1\rangle$, where $f(x_0)=f(x_1)=y$. With the trapdoor, Alice can learn $\{x_0,x_1\}$, but due to the collision resistance, Bob cannot. This Alice's advantage can be leveraged to realize the quantum cryptographic primitives listed above. It seems that the collision resistance is essential here. In this paper, surprisingly, we show that the collision resistance is not necessary for a restricted case: we show that (non-verifiable) remote state preparations of $|x_0\rangle+|x_1\rangle$ secure against \it classical probabilistic polynomial-time Bob can be constructed from classically-secure (full-domain) trapdoor permutations. Trapdoor permutations are not likely to imply the collision resistance, because black-box reductions from collision-resistant hash functions to trapdoor permutations are known to be impossible. As an application of our result, we construct proofs of quantumness from classically-secure (full-domain) trapdoor permutations.</description>
-  </item>
-
-  <item>
     <title>Decomposition of Matrix Product States into Shallow Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2209.00595</link>
     <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
@@ -68,6 +60,14 @@
     <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
     <pubDate>Sep 02 2022</pubDate>
     <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
+  </item>
+
+  <item>
+    <title>Proofs of Quantumness from Trapdoor Permutations</title>
+    <link>http://arxiv.org/pdf/2208.12390</link>
+    <author>Tomoyuki Morimae, Takashi Yamakawa</author>
+    <pubDate>Aug 29 2022</pubDate>
+    <description>Assume that Alice can do only classical probabilistic polynomial-time computing while Bob can do quantum polynomial-time computing. Alice and Bob communicate over only classical channels, and finally Bob gets a state $|x_0\rangle+|x_1\rangle$ with some bit strings $x_0$ and $x_1$. Is it possible that Alice can know $\{x_0,x_1\}$ but Bob cannot? Such a task, called \it remote state preparations, is indeed possible under some complexity assumptions, and is bases of many quantum cryptographic primitives such as proofs of quantumness, (classical-client) blind quantum computing, (classical) verifications of quantum computing, and quantum money. A typical technique to realize remote state preparations is to use 2-to-1 trapdoor collision resistant hash functions: Alice sends a 2-to-1 trapdoor collision resistant hash function $f$ to Bob, and Bob evaluates it on superposition and measures the image. Bob's post-measurement state is $|x_0\rangle+|x_1\rangle$, where $f(x_0)=f(x_1)=y$. With the trapdoor, Alice can learn $\{x_0,x_1\}$, but due to the collision resistance, Bob cannot. This Alice's advantage can be leveraged to realize the quantum cryptographic primitives listed above. It seems that the collision resistance is essential here. In this paper, surprisingly, we show that the collision resistance is not necessary for a restricted case: we show that (non-verifiable) remote state preparations of $|x_0\rangle+|x_1\rangle$ secure against \it classical probabilistic polynomial-time Bob can be constructed from classically-secure (full-domain) trapdoor permutations. Trapdoor permutations are not likely to imply the collision resistance, because black-box reductions from collision-resistant hash functions to trapdoor permutations are known to be impossible. As an application of our result, we construct proofs of quantumness from classically-secure (full-domain) trapdoor permutations.</description>
   </item>
 
   <item>
