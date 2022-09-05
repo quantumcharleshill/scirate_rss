@@ -39,14 +39,6 @@
   </item>
 
   <item>
-    <title>Comparison of unknown unitary channels with multiple uses</title>
-    <link>http://arxiv.org/pdf/2208.12519</link>
-    <author>Yutaka Hashimoto, Akihito Soeda, Mio Murao</author>
-    <pubDate>Aug 29 2022</pubDate>
-    <description>Comparison of quantum objects is a task to determine whether two unknown quantum objects are the same or different. It is one of the most basic information processing tasks for learning property of quantum objects, and comparison of quantum states, quantum channels, and quantum measurements have been investigated. In general, repeated uses of quantum objects improve the success probability of comparison. The optimal strategy of pure-state comparison, the comparison of quantum states for the case of multiple copies of each unknown pure state, is known, but the optimal strategy of unitary comparison, the comparison of quantum channels for the case of multiple uses of each unknown unitary channel, was not known due to the complication of the varieties of causal order structures among the uses of each unitary channel. In this paper, we investigate unitary comparison with multiple uses of unitary channels based on the quantum tester formalism. We obtain the optimal minimum-error and the optimal unambiguous strategies of unitary comparison of two unknown $d$-dimensional unitary channels $U_1$ and $U_2$ when $U_1$ can be used $N_1$ times and $U_2$ can be used $N_2$ times for $N_2 \ge (d-1)N_1$. These optimal strategies are implemented by parallel uses of the unitary channels, even though all sequential and adaptive strategies implementable by the quantum circuit model are considered. When the number of the smaller uses of the unitary channels $N_1$ is fixed, the optimal averaged success probability cannot be improved by adding more uses of $U_2$ than $N_2 = (d-1) N_1$. This feature is in contrast to the case of pure-state comparison, where adding more copies of the unknown pure states always improves the optimal averaged success probability. It highlights the difference between corresponding tasks for states and channels, which has been previously shown for quantum discrimination tasks.</description>
-  </item>
-
-  <item>
     <title>Decomposition of Matrix Product States into Shallow Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2209.00595</link>
     <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
@@ -63,14 +55,6 @@
   </item>
 
   <item>
-    <title>Proofs of Quantumness from Trapdoor Permutations</title>
-    <link>http://arxiv.org/pdf/2208.12390</link>
-    <author>Tomoyuki Morimae, Takashi Yamakawa</author>
-    <pubDate>Aug 29 2022</pubDate>
-    <description>Assume that Alice can do only classical probabilistic polynomial-time computing while Bob can do quantum polynomial-time computing. Alice and Bob communicate over only classical channels, and finally Bob gets a state $|x_0\rangle+|x_1\rangle$ with some bit strings $x_0$ and $x_1$. Is it possible that Alice can know $\{x_0,x_1\}$ but Bob cannot? Such a task, called \it remote state preparations, is indeed possible under some complexity assumptions, and is bases of many quantum cryptographic primitives such as proofs of quantumness, (classical-client) blind quantum computing, (classical) verifications of quantum computing, and quantum money. A typical technique to realize remote state preparations is to use 2-to-1 trapdoor collision resistant hash functions: Alice sends a 2-to-1 trapdoor collision resistant hash function $f$ to Bob, and Bob evaluates it on superposition and measures the image. Bob's post-measurement state is $|x_0\rangle+|x_1\rangle$, where $f(x_0)=f(x_1)=y$. With the trapdoor, Alice can learn $\{x_0,x_1\}$, but due to the collision resistance, Bob cannot. This Alice's advantage can be leveraged to realize the quantum cryptographic primitives listed above. It seems that the collision resistance is essential here. In this paper, surprisingly, we show that the collision resistance is not necessary for a restricted case: we show that (non-verifiable) remote state preparations of $|x_0\rangle+|x_1\rangle$ secure against \it classical probabilistic polynomial-time Bob can be constructed from classically-secure (full-domain) trapdoor permutations. Trapdoor permutations are not likely to imply the collision resistance, because black-box reductions from collision-resistant hash functions to trapdoor permutations are known to be impossible. As an application of our result, we construct proofs of quantumness from classically-secure (full-domain) trapdoor permutations.</description>
-  </item>
-
-  <item>
     <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
     <link>http://arxiv.org/pdf/2208.13057</link>
     <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
+    <title>Some continuity properties of quantum Rényi divergences</title>
+    <link>http://arxiv.org/pdf/2209.00646</link>
+    <author>Milán Mosonyi</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>In the problem of binary quantum channel discrimination with product inputs, the supremum of all type II error exponents for which the optimal type I errors go to zero is equal to the Umegaki channel relative entropy, while the infimum of all type II error exponents for which the optimal type I errors go to one is equal to the infimum of the sandwiched channel Rényi $\alpha$-divergences over all $\alpha>1$. Here we prove that these two threshold values coincide, thus proving, in particular, the strong converse property for this problem. Our proof method uses a minimax argument, which crucially relies on a newly established continuity property of the sandwiched Rényi $\alpha$-divergences for $\alpha\in(1,2]$. Motivated by this, we also prove various other continuity properties for quantum (channel) Rény divergences, which may be of independent interest.</description>
+  </item>
+
+  <item>
     <title>Cycle Index Polynomials and Generalized Quantum Separability Tests</title>
     <link>http://arxiv.org/pdf/2208.14596</link>
     <author>Zachary P. Bradshaw, Margarite L. LaBorde, Mark M. Wilde</author>
     <pubDate>Sep 01 2022</pubDate>
     <description>We address an outstanding question on the acceptance probability for the bipartite pure-state separability algorithm proposed by [LaBorde and Wilde, arXiv:2105.12758]. We prove that the analytical form of this expression is given by the cycle index polynomial of the symmetric group $S_k$, which is itself related to the Bell polynomials. After doing so, we derive a family of quantum separability tests, each of which is generated by a finite group; for all such algorithms, we show that the acceptance probability is determined by the cycle index polynomial of the group. Finally, we produce and analyze explicit circuit constructions for these tests, showing that the tests corresponding to the symmetric and cyclic groups can be executed with $O(k^2)$ and $O(k\log(k))$ controlled-SWAP gates, respectively, where $k$ is the number of copies of the state being tested.</description>
+  </item>
+
+  <item>
+    <title>Measurement optimization of variational quantum simulation by classical shadow and derandomization</title>
+    <link>http://arxiv.org/pdf/2208.13934</link>
+    <author>Kouhei Nakaji, Suguru Endo, Yuichiro Matsuzaki, Hideaki Hakoshima</author>
+    <pubDate>Aug 31 2022</pubDate>
+    <description>Simulating large quantum systems is the ultimate goal of quantum computing. Variational quantum simulation (VQS) gives us a tool to achieve the goal in near-term devices by distributing the computation load to both classical and quantum computers. However, as the size of the quantum system becomes large, the execution of VQS becomes more and more challenging. One of the most severe challenges is the drastic increase in the number of measurements; for example, the number of measurements tends to increase by the fourth power of the number of qubits in a quantum simulation with a chemical Hamiltonian. This work aims to dramatically decrease the number of measurements in VQS by recently proposed shadow-based strategies such as classical shadow and derandomization. Even though previous literature shows that shadow-based strategies successfully optimize measurements in the variational quantum optimization (VQO), how to apply them to VQS was unclear due to the gap between VQO and VQS in measuring observables. In this paper, we bridge the gap by changing the way of measuring observables in VQS and propose an algorithm to optimize measurements in VQS by shadow-based strategies. Our theoretical analysis not only reveals the advantage of using our algorithm in VQS but theoretically supports using shadow-based strategies in VQO, whose advantage has only been given numerically. Additionally, our numerical experiment shows the validity of using our algorithm with a quantum chemical system.</description>
   </item>
 
 </channel>
