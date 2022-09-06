@@ -55,11 +55,19 @@
   </item>
 
   <item>
-    <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
-    <link>http://arxiv.org/pdf/2208.13057</link>
-    <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>It has been proved that in gapped ground states of locally-interacting quantum systems, the effect of local perturbations decays exponentially with distance. However, in systems with power-law ($1/r^\alpha$) decaying interactions, no analogous statement has been shown, and there are serious mathematical obstacles to proving it with existing methods. In this paper we prove that when $\alpha$ exceeds the spatial dimension $D$, the effect of local perturbations on local properties a distance $r$ away is upper bounded by a power law $1/r^{\alpha_1}$ in gapped ground states, provided that the perturbations do not close the spectral gap. The power-law exponent $\alpha_1$ is tight if $\alpha>2D$ and interactions are two-body, where we have $\alpha_1=\alpha$. The proof is enabled by a method that avoids the use of quasiadiabatic continuation and incorporates techniques of complex analysis. This method also improves bounds on ground state correlation decay, even in short-range interacting systems. Our work generalizes the fundamental notion that local perturbations have local effects to power-law interacting systems, with broad implications for numerical simulations and experiments.</description>
+    <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
+    <link>http://arxiv.org/pdf/2209.00725</link>
+    <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
+  </item>
+
+  <item>
+    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
+    <link>http://arxiv.org/pdf/2209.01180</link>
+    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
   </item>
 
   <item>
@@ -71,19 +79,11 @@
   </item>
 
   <item>
-    <title>Cycle Index Polynomials and Generalized Quantum Separability Tests</title>
-    <link>http://arxiv.org/pdf/2208.14596</link>
-    <author>Zachary P. Bradshaw, Margarite L. LaBorde, Mark M. Wilde</author>
-    <pubDate>Sep 01 2022</pubDate>
-    <description>We address an outstanding question on the acceptance probability for the bipartite pure-state separability algorithm proposed by [LaBorde and Wilde, arXiv:2105.12758]. We prove that the analytical form of this expression is given by the cycle index polynomial of the symmetric group $S_k$, which is itself related to the Bell polynomials. After doing so, we derive a family of quantum separability tests, each of which is generated by a finite group; for all such algorithms, we show that the acceptance probability is determined by the cycle index polynomial of the group. Finally, we produce and analyze explicit circuit constructions for these tests, showing that the tests corresponding to the symmetric and cyclic groups can be executed with $O(k^2)$ and $O(k\log(k))$ controlled-SWAP gates, respectively, where $k$ is the number of copies of the state being tested.</description>
-  </item>
-
-  <item>
-    <title>Measurement optimization of variational quantum simulation by classical shadow and derandomization</title>
-    <link>http://arxiv.org/pdf/2208.13934</link>
-    <author>Kouhei Nakaji, Suguru Endo, Yuichiro Matsuzaki, Hideaki Hakoshima</author>
-    <pubDate>Aug 31 2022</pubDate>
-    <description>Simulating large quantum systems is the ultimate goal of quantum computing. Variational quantum simulation (VQS) gives us a tool to achieve the goal in near-term devices by distributing the computation load to both classical and quantum computers. However, as the size of the quantum system becomes large, the execution of VQS becomes more and more challenging. One of the most severe challenges is the drastic increase in the number of measurements; for example, the number of measurements tends to increase by the fourth power of the number of qubits in a quantum simulation with a chemical Hamiltonian. This work aims to dramatically decrease the number of measurements in VQS by recently proposed shadow-based strategies such as classical shadow and derandomization. Even though previous literature shows that shadow-based strategies successfully optimize measurements in the variational quantum optimization (VQO), how to apply them to VQS was unclear due to the gap between VQO and VQS in measuring observables. In this paper, we bridge the gap by changing the way of measuring observables in VQS and propose an algorithm to optimize measurements in VQS by shadow-based strategies. Our theoretical analysis not only reveals the advantage of using our algorithm in VQS but theoretically supports using shadow-based strategies in VQO, whose advantage has only been given numerically. Additionally, our numerical experiment shows the validity of using our algorithm with a quantum chemical system.</description>
+    <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
+    <link>http://arxiv.org/pdf/2208.13057</link>
+    <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>It has been proved that in gapped ground states of locally-interacting quantum systems, the effect of local perturbations decays exponentially with distance. However, in systems with power-law ($1/r^\alpha$) decaying interactions, no analogous statement has been shown, and there are serious mathematical obstacles to proving it with existing methods. In this paper we prove that when $\alpha$ exceeds the spatial dimension $D$, the effect of local perturbations on local properties a distance $r$ away is upper bounded by a power law $1/r^{\alpha_1}$ in gapped ground states, provided that the perturbations do not close the spectral gap. The power-law exponent $\alpha_1$ is tight if $\alpha>2D$ and interactions are two-body, where we have $\alpha_1=\alpha$. The proof is enabled by a method that avoids the use of quasiadiabatic continuation and incorporates techniques of complex analysis. This method also improves bounds on ground state correlation decay, even in short-range interacting systems. Our work generalizes the fundamental notion that local perturbations have local effects to power-law interacting systems, with broad implications for numerical simulations and experiments.</description>
   </item>
 
 </channel>

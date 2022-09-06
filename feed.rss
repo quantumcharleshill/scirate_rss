@@ -111,14 +111,6 @@
   </item>
 
   <item>
-    <title>A parallel decoder for good quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.05537</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Aug 12 2022</pubDate>
-    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
-  </item>
-
-  <item>
     <title>Synergy Between Quantum Circuits and Tensor Networks: Short-cutting the Race to Practical Quantum Advantage</title>
     <link>http://arxiv.org/pdf/2208.13673</link>
     <author>Manuel S. Rudolph, Jacob Miller, Jing Chen, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
@@ -127,11 +119,11 @@
   </item>
 
   <item>
-    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
-    <link>http://arxiv.org/pdf/2208.04660</link>
-    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
+    <title>A parallel decoder for good quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.05537</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
   </item>
 
   <item>
@@ -140,6 +132,14 @@
     <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
+  </item>
+
+  <item>
+    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
+    <link>http://arxiv.org/pdf/2208.04660</link>
+    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
+    <pubDate>Aug 10 2022</pubDate>
+    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
   </item>
 
   <item>
@@ -159,6 +159,14 @@
   </item>
 
   <item>
+    <title>Alternating Layered Variational Quantum Circuits Can Be Classically Optimized Efficiently Using Classical Shadows</title>
+    <link>http://arxiv.org/pdf/2208.11623</link>
+    <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
+    <pubDate>Aug 25 2022</pubDate>
+    <description>Variational quantum algorithms (VQAs) are the quantum analog of classical neural networks (NNs). A VQA consists of a parameterized quantum circuit (PQC) which is composed of multiple layers of ansatzes (simpler PQCs, which are an analogy of NN layers) that differ only in selections of parameters. Previous work has identified the alternating layered ansatz as potentially a new standard ansatz in near-term quantum computing. Indeed, shallow alternating layered VQAs are easy to implement and have been shown to be both trainable and expressive. In this work, we introduce a training algorithm with an exponential reduction in training cost of such VQAs. Moreover, our algorithm uses classical shadows of quantum input data, and can hence be run on a classical computer with rigorous performance guarantees. We demonstrate 2--3 orders of magnitude improvement in the training cost using our algorithm for the example problems of finding state preparation circuits and the quantum autoencoder.</description>
+  </item>
+
+  <item>
     <title>On establishing learning separations between classical and quantum machine learning with classical data</title>
     <link>http://arxiv.org/pdf/2208.06339</link>
     <author>Casper Gyurik, Vedran Dunjko</author>
@@ -167,11 +175,11 @@
   </item>
 
   <item>
-    <title>Alternating Layered Variational Quantum Circuits Can Be Classically Optimized Efficiently Using Classical Shadows</title>
-    <link>http://arxiv.org/pdf/2208.11623</link>
-    <author>Afrad Basheer, Yuan Feng, Christopher Ferrie, Sanjiang Li</author>
-    <pubDate>Aug 25 2022</pubDate>
-    <description>Variational quantum algorithms (VQAs) are the quantum analog of classical neural networks (NNs). A VQA consists of a parameterized quantum circuit (PQC) which is composed of multiple layers of ansatzes (simpler PQCs, which are an analogy of NN layers) that differ only in selections of parameters. Previous work has identified the alternating layered ansatz as potentially a new standard ansatz in near-term quantum computing. Indeed, shallow alternating layered VQAs are easy to implement and have been shown to be both trainable and expressive. In this work, we introduce a training algorithm with an exponential reduction in training cost of such VQAs. Moreover, our algorithm uses classical shadows of quantum input data, and can hence be run on a classical computer with rigorous performance guarantees. We demonstrate 2--3 orders of magnitude improvement in the training cost using our algorithm for the example problems of finding state preparation circuits and the quantum autoencoder.</description>
+    <title>Decomposition of Matrix Product States into Shallow Quantum Circuits</title>
+    <link>http://arxiv.org/pdf/2209.00595</link>
+    <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>The rapid pace of recent advancements in numerical computation, notably the rise of GPU and TPU hardware accelerators, have allowed tensor network (TN) algorithms to scale to even larger quantum simulation problems, and to be employed more broadly for solving machine learning tasks. The "quantum-inspired" nature of TNs permits them to be mapped to parametrized quantum circuits (PQCs), a fact which has inspired recent proposals for enhancing the performance of TN algorithms using near-term quantum devices, as well as enabling joint quantum-classical training frameworks which benefit from the distinct strengths of TN and PQC models. However, the success of any such methods depends on efficient and accurate methods for approximating TN states using realistic quantum circuits, something which remains an unresolved question. In this work, we compare a range of novel and previously-developed algorithmic protocols for decomposing matrix product states (MPS) of arbitrary bond dimensions into low-depth quantum circuits consisting of stacked linear layers of two-qubit unitaries. These protocols are formed from different combinations of a preexisting analytical decomposition scheme with constrained optimization of circuit unitaries, and all possess efficient classical runtimes. Our experimental results reveal one particular protocol, involving sequential growth and optimization of the quantum circuit, to outperform all other methods, with even greater benefits seen in the setting of limited computational resources. Given these promising results, we expect our proposed decomposition protocol to form a useful ingredient within any joint application of TNs and PQCs, in turn further unlocking the rich and complementary benefits of classical and quantum computation.</description>
   </item>
 
   <item>
@@ -207,11 +215,11 @@
   </item>
 
   <item>
-    <title>Decomposition of Matrix Product States into Shallow Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2209.00595</link>
-    <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
+    <title>Barren plateaus in quantum tensor network optimization</title>
+    <link>http://arxiv.org/pdf/2209.00292</link>
+    <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
     <pubDate>Sep 02 2022</pubDate>
-    <description>The rapid pace of recent advancements in numerical computation, notably the rise of GPU and TPU hardware accelerators, have allowed tensor network (TN) algorithms to scale to even larger quantum simulation problems, and to be employed more broadly for solving machine learning tasks. The "quantum-inspired" nature of TNs permits them to be mapped to parametrized quantum circuits (PQCs), a fact which has inspired recent proposals for enhancing the performance of TN algorithms using near-term quantum devices, as well as enabling joint quantum-classical training frameworks which benefit from the distinct strengths of TN and PQC models. However, the success of any such methods depends on efficient and accurate methods for approximating TN states using realistic quantum circuits, something which remains an unresolved question. In this work, we compare a range of novel and previously-developed algorithmic protocols for decomposing matrix product states (MPS) of arbitrary bond dimensions into low-depth quantum circuits consisting of stacked linear layers of two-qubit unitaries. These protocols are formed from different combinations of a preexisting analytical decomposition scheme with constrained optimization of circuit unitaries, and all possess efficient classical runtimes. Our experimental results reveal one particular protocol, involving sequential growth and optimization of the quantum circuit, to outperform all other methods, with even greater benefits seen in the setting of limited computational resources. Given these promising results, we expect our proposed decomposition protocol to form a useful ingredient within any joint application of TNs and PQCs, in turn further unlocking the rich and complementary benefits of classical and quantum computation.</description>
+    <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
   </item>
 
   <item>
@@ -223,27 +231,19 @@
   </item>
 
   <item>
+    <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
+    <link>http://arxiv.org/pdf/2209.00725</link>
+    <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
+  </item>
+
+  <item>
     <title>Efficient recovery of variational quantum algorithms landscapes using classical signal processing</title>
     <link>http://arxiv.org/pdf/2208.05958</link>
     <author>Enrico Fontana, Ivan Rungger, Ross Duncan, Cristina Cîrstoiu</author>
     <pubDate>Aug 12 2022</pubDate>
     <description>We employ spectral analysis and compressed sensing to identify settings where a variational algorithm's cost function can be recovered purely classically or with minimal quantum computer access. We present theoretical and numerical evidence supporting the viability of sparse recovery techniques. To demonstrate this approach, we use basis pursuit denoising to efficiently recover simulated Quantum Approximate Optimization Algorithm (QAOA) instances of large system size from very few samples. Our results indicate that sparse recovery can enable a more efficient use and distribution of quantum resources in the optimisation of variational algorithms.</description>
-  </item>
-
-  <item>
-    <title>Comparison of unknown unitary channels with multiple uses</title>
-    <link>http://arxiv.org/pdf/2208.12519</link>
-    <author>Yutaka Hashimoto, Akihito Soeda, Mio Murao</author>
-    <pubDate>Aug 29 2022</pubDate>
-    <description>Comparison of quantum objects is a task to determine whether two unknown quantum objects are the same or different. It is one of the most basic information processing tasks for learning property of quantum objects, and comparison of quantum states, quantum channels, and quantum measurements have been investigated. In general, repeated uses of quantum objects improve the success probability of comparison. The optimal strategy of pure-state comparison, the comparison of quantum states for the case of multiple copies of each unknown pure state, is known, but the optimal strategy of unitary comparison, the comparison of quantum channels for the case of multiple uses of each unknown unitary channel, was not known due to the complication of the varieties of causal order structures among the uses of each unitary channel. In this paper, we investigate unitary comparison with multiple uses of unitary channels based on the quantum tester formalism. We obtain the optimal minimum-error and the optimal unambiguous strategies of unitary comparison of two unknown $d$-dimensional unitary channels $U_1$ and $U_2$ when $U_1$ can be used $N_1$ times and $U_2$ can be used $N_2$ times for $N_2 \ge (d-1)N_1$. These optimal strategies are implemented by parallel uses of the unitary channels, even though all sequential and adaptive strategies implementable by the quantum circuit model are considered. When the number of the smaller uses of the unitary channels $N_1$ is fixed, the optimal averaged success probability cannot be improved by adding more uses of $U_2$ than $N_2 = (d-1) N_1$. This feature is in contrast to the case of pure-state comparison, where adding more copies of the unknown pure states always improves the optimal averaged success probability. It highlights the difference between corresponding tasks for states and channels, which has been previously shown for quantum discrimination tasks.</description>
-  </item>
-
-  <item>
-    <title>No [[n, k, d < 86]] code can violate the quantum Hamming bound</title>
-    <link>http://arxiv.org/pdf/2208.11800</link>
-    <author>Emanuel Dallas, Faidon Andreadakis, Daniel Lidar</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>It is well-known that pure quantum error correcting codes (QECCs) are constrained by a quantum version of the Hamming bound. Whether impure codes also obey such a bound, however, remains a long-standing question with practical implications for the efficacy of QECCs. We employ a combination of previously derived bounds on QECCs to demonstrate that a subset of all codes must obey the quantum Hamming bound. Specifically, we combine an analytical bound due to Rains with a numerical bound due to Li and Xing to show that no [[n,k,d < 86]] code can violate the quantum Hamming bound.</description>
   </item>
 
 </channel>
