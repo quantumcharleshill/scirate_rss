@@ -7,35 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Inevitability of knowing less than nothing</title>
-    <link>http://arxiv.org/pdf/2208.14424</link>
-    <author>Gilad Gour, Mark M. Wilde, Sarah Brandsen, Isabelle Jianing Geng</author>
-    <pubDate>Aug 31 2022</pubDate>
-    <description>A colloquial interpretation of entropy is that it is the knowledge gained upon learning the outcome of a random experiment. Conditional entropy is then interpreted as the knowledge gained upon learning the outcome of one random experiment after learning the outcome of another, possibly statistically dependent, random experiment. In the classical world, entropy and conditional entropy take only non-negative values, consistent with the intuition that one has regarding the aforementioned interpretations. However, for certain entangled states, one obtains negative values when evaluating commonly accepted and information-theoretically justified formulas for the quantum conditional entropy, leading to the confounding conclusion that one can know less than nothing in the quantum world. Here, we introduce a physically motivated framework for defining quantum conditional entropy, based on two simple postulates inspired by the second law of thermodynamics (non-decrease of entropy) and extensivity of entropy, and we argue that all plausible definitions of quantum conditional entropy should respect these two postulates. We then prove that all plausible quantum conditional entropies take on negative values for certain entangled states, so that it is inevitable that one can know less than nothing in the quantum world. All of our arguments are based on constructions of physical processes that respect the first postulate, the one inspired by the second law of thermodynamics.</description>
-  </item>
-
-  <item>
-    <title>Synergy Between Quantum Circuits and Tensor Networks: Short-cutting the Race to Practical Quantum Advantage</title>
-    <link>http://arxiv.org/pdf/2208.13673</link>
-    <author>Manuel S. Rudolph, Jacob Miller, Jing Chen, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>While recent breakthroughs have proven the ability of noisy intermediate-scale quantum (NISQ) devices to achieve quantum advantage in classically-intractable sampling tasks, the use of these devices for solving more practically relevant computational problems remains a challenge. Proposals for attaining practical quantum advantage typically involve parametrized quantum circuits (PQCs), whose parameters can be optimized to find solutions to diverse problems throughout quantum simulation and machine learning. However, training PQCs for real-world problems remains a significant practical challenge, largely due to the phenomenon of barren plateaus in the optimization landscapes of randomly-initialized quantum circuits. In this work, we introduce a scalable procedure for harnessing classical computing resources to determine task-specific initializations of PQCs, which we show significantly improves the trainability and performance of PQCs on a variety of problems. Given a specific optimization task, this method first utilizes tensor network (TN) simulations to identify a promising quantum state, which is then converted into gate parameters of a PQC by means of a high-performance decomposition procedure. We show that this task-specific initialization avoids barren plateaus, and effectively translates increases in classical resources to enhanced performance and speed in training quantum circuits. By demonstrating a means of boosting limited quantum resources using classical computers, our approach illustrates the promise of this synergy between quantum and quantum-inspired models in quantum computing, and opens up new avenues to harness the power of modern quantum hardware for realizing practical quantum advantage.</description>
-  </item>
-
-  <item>
-    <title>Extendibility of Werner States</title>
-    <link>http://arxiv.org/pdf/2208.13743</link>
-    <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
-  </item>
-
-  <item>
-    <title>Multidimensional Quantum Walks, with Application to $k$-Distinctness</title>
-    <link>http://arxiv.org/pdf/2208.13492</link>
-    <author>Stacey Jeffery, Sebastian Zur</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>While the quantum query complexity of $k$-distinctness is known to be $O\left(n^{3/4-1/4(2^k-1)}\right)$ for any constant $k \geq 4$, the best previous upper bound on the time complexity was $\widetilde{O}\left(n^{1-1/k}\right)$. We give a new upper bound of $\widetilde{O}\left(n^{3/4-1/4(2^k-1)}\right)$ on the time complexity, matching the query complexity up to polylogarithmic factors. In order to achieve this upper bound, we give a new technique for designing quantum walk search algorithms, which is an extension of the electric network framework. We also show how to solve the welded trees problem in $O(n)$ queries and $O(n^2)$ time using this new technique, showing that the new quantum walk framework can achieve exponential speedups.</description>
+    <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
+    <link>http://arxiv.org/pdf/2209.00725</link>
+    <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
   </item>
 
   <item>
@@ -47,6 +23,14 @@
   </item>
 
   <item>
+    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
+    <link>http://arxiv.org/pdf/2209.01180</link>
+    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
+  </item>
+
+  <item>
     <title>Barren plateaus in quantum tensor network optimization</title>
     <link>http://arxiv.org/pdf/2209.00292</link>
     <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
@@ -55,19 +39,11 @@
   </item>
 
   <item>
-    <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
-    <link>http://arxiv.org/pdf/2209.00725</link>
-    <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
+    <title>Transition states and greedy exploration of the QAOA optimization landscape</title>
+    <link>http://arxiv.org/pdf/2209.01159</link>
+    <author>Stefan H. Sack, Raimel A. Medina, Richard Kueng, Maksym Serbyn</author>
     <pubDate>Sep 05 2022</pubDate>
-    <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
-  </item>
-
-  <item>
-    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
-    <link>http://arxiv.org/pdf/2209.01180</link>
-    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
-    <pubDate>Sep 05 2022</pubDate>
-    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
+    <description>The QAOA is a variational quantum algorithm, where a quantum computer implements a variational ansatz consisting of p layers of alternating unitary operators and a classical computer is used to optimize the variational parameters. For a random initialization the optimization typically leads to local minima with poor performance, motivating the search for initialization strategies of QAOA variational parameters. Although numerous heuristic intializations were shown to have a good numerical performance, an analytical understanding remains evasive. Inspired by the study of energy landscapes, in this work we focus on so-called transition states (TS) that are saddle points with a unique negative curvature direction that connects to local minima. Starting from a local minimum of QAOA with p layers, we analytically construct 2p + 1 TS for QAOA with p + 1 layers. These TS connect to new local minima, all of which are guaranteed to lower the energy compared to the minimum found for p layers. We introduce a Greedy procedure to effectively maneuver the exponentially increasing number of TS and corresponding local minima. The performance of our procedure matches the best available initialization strategy, and in addition provides a guarantee for the minimal energy to decrease with an increasing number of layers p. Generalization of analytic TS and the Greedy approach to other ansätze may provide a universal framework for initialization of variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
-    <title>Locality of gapped ground states in systems with power-law decaying interactions</title>
-    <link>http://arxiv.org/pdf/2208.13057</link>
-    <author>Zhiyuan Wang, Kaden R. A. Hazzard</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>It has been proved that in gapped ground states of locally-interacting quantum systems, the effect of local perturbations decays exponentially with distance. However, in systems with power-law ($1/r^\alpha$) decaying interactions, no analogous statement has been shown, and there are serious mathematical obstacles to proving it with existing methods. In this paper we prove that when $\alpha$ exceeds the spatial dimension $D$, the effect of local perturbations on local properties a distance $r$ away is upper bounded by a power law $1/r^{\alpha_1}$ in gapped ground states, provided that the perturbations do not close the spectral gap. The power-law exponent $\alpha_1$ is tight if $\alpha>2D$ and interactions are two-body, where we have $\alpha_1=\alpha$. The proof is enabled by a method that avoids the use of quasiadiabatic continuation and incorporates techniques of complex analysis. This method also improves bounds on ground state correlation decay, even in short-range interacting systems. Our work generalizes the fundamental notion that local perturbations have local effects to power-law interacting systems, with broad implications for numerical simulations and experiments.</description>
+    <title>Cross Entropy Benchmark for Measurement-Induced Phase Transitions</title>
+    <link>http://arxiv.org/pdf/2209.00609</link>
+    <author>Yaodong Li, Yijian Zou, Paolo Glorioso, Ehud Altman, Matthew P. A. Fisher</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>We investigate the prospects of employing the linear cross-entropy to experimentally access measurement-induced phase transitions (MIPT) without requiring any postselection of quantum trajectories. For two random circuits that are identical in the bulk but with different initial states, the linear cross-entropy $\chi$ between the bulk measurement outcome distributions in the two circuits acts as a boundary order parameter, and can be used to distinguish the volume law from area law phases. In the volume law phase (and in the thermodynamic limit) the bulk measurements cannot distinguish between the two different initial states, and $\chi = 1$. In the area law phase $\chi < 1$. For circuits with Clifford gates, we provide numerical evidence that $\chi$ can be sampled to accuracy $\epsilon$ from $O(1/\epsilon^2)$ trajectories, by running the first circuit on a quantum simulator without postselection, aided by a classical simulation of the second. We also find that for weak depolarizing noise the signature of the MIPT is still present for intermediate system sizes. In our protocol we have the freedom of choosing initial states such that the "classical" side can be simulated efficiently, while simulating the "quantum" side is still classically hard.</description>
+  </item>
+
+  <item>
+    <title>Quantum Mixed State Compiling</title>
+    <link>http://arxiv.org/pdf/2209.00528</link>
+    <author>Nic Ezzell, Elliott M. Ball, Aliza U. Siddiqui, Mark M. Wilde, Andrew T. Sornborger, Patrick J. Coles, Zoë Holmes</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>The task of learning a quantum circuit to prepare a given mixed state is a fundamental quantum subroutine. We present a variational quantum algorithm (VQA) to learn mixed states which is suitable for near-term hardware. Our algorithm represents a generalization of previous VQAs that aimed at learning preparation circuits for pure states. We consider two different ansätze for compiling the target state; the first is based on learning a purification of the state and the second on representing it as a convex combination of pure states. In both cases, the resources required to store and manipulate the compiled state grow with the rank of the approximation. Thus, by learning a lower rank approximation of the target state, our algorithm provides a means of compressing a state for more efficient processing. As a byproduct of our algorithm, one effectively learns the principal components of the target state, and hence our algorithm further provides a new method for principal component analysis. We investigate the efficacy of our algorithm through extensive numerical implementations, showing that typical random states and thermal states of many body systems may be learnt this way. Additionally, we demonstrate on quantum hardware how our algorithm can be used to study hardware noise-induced states.</description>
+  </item>
+
+  <item>
+    <title>Cycle Index Polynomials and Generalized Quantum Separability Tests</title>
+    <link>http://arxiv.org/pdf/2208.14596</link>
+    <author>Zachary P. Bradshaw, Margarite L. LaBorde, Mark M. Wilde</author>
+    <pubDate>Sep 01 2022</pubDate>
+    <description>We address an outstanding question on the acceptance probability for the bipartite pure-state separability algorithm proposed by [LaBorde and Wilde, arXiv:2105.12758]. We prove that the analytical form of this expression is given by the cycle index polynomial of the symmetric group $S_k$, which is itself related to the Bell polynomials. After doing so, we derive a family of quantum separability tests, each of which is generated by a finite group; for all such algorithms, we show that the acceptance probability is determined by the cycle index polynomial of the group. Finally, we produce and analyze explicit circuit constructions for these tests, showing that the tests corresponding to the symmetric and cyclic groups can be executed with $O(k^2)$ and $O(k\log(k))$ controlled-SWAP gates, respectively, where $k$ is the number of copies of the state being tested.</description>
+  </item>
+
+  <item>
+    <title>Operational Interpretation of the Sandwiched Rényi Divergences of Order 1/2 to 1 as Strong Converse Exponents</title>
+    <link>http://arxiv.org/pdf/2209.00554</link>
+    <author>Ke Li, Yongsheng Yao</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>We provide the sandwiched Rényi divergence of order $\alpha\in(\frac{1}{2},1)$, as well as its induced quantum information quantities, with an operational interpretation in the characterization of the exact strong converse exponents of quantum tasks. Specifically, we consider (a) smoothing of the max-relative entropy, (b) quantum privacy amplification, and (c) quantum information decoupling. We solve the problem of determining the exact strong converse exponents for these three tasks, with the performance being measured by the fidelity or purified distance. The results are given in terms of the sandwiched Rényi divergence of order $\alpha\in(\frac{1}{2},1)$, and its induced quantum Rényi conditional entropy and quantum Rényi mutual information. This is the first time to find the precise operational meaning for the sandwiched Rényi divergence with Rényi parameter in the interval $\alpha\in(\frac{1}{2},1)$.</description>
   </item>
 
 </channel>
