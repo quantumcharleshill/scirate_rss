@@ -119,19 +119,19 @@
   </item>
 
   <item>
-    <title>A parallel decoder for good quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.05537</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Aug 12 2022</pubDate>
-    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
-  </item>
-
-  <item>
     <title>Extendibility of Werner States</title>
     <link>http://arxiv.org/pdf/2208.13743</link>
     <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
+  </item>
+
+  <item>
+    <title>A parallel decoder for good quantum LDPC codes</title>
+    <link>http://arxiv.org/pdf/2208.05537</link>
+    <author>Anthony Leverrier, Gilles Zémor</author>
+    <pubDate>Aug 12 2022</pubDate>
+    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
   </item>
 
   <item>
@@ -143,19 +143,19 @@
   </item>
 
   <item>
-    <title>Resource theory of quantum scrambling</title>
-    <link>http://arxiv.org/pdf/2208.10477</link>
-    <author>Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
-    <pubDate>Aug 23 2022</pubDate>
-    <description>Quantum scrambling refers to the spread of local quantum information into the many degrees of freedom of a quantum system. In this work, we introduce a resource theory of scrambling which incorporates two mechanisms, "entanglement scrambling" and "magic scrambling". We introduce two resource monotones called the Pauli growth and the OTOC (out-of-time-ordered correlator) magic for these two mechanisms, respectively. Moreover, we show that OTOC fluctuations are bounded by the OTOC magic. This proves that small OTOC fluctuations are an indication of magic in Google's recent experiment (Science 374, 1479 (2021)). We also show that both resource monotones can be used to bound the decoding fidelity in the Hayden-Preskill protocol. These applications provide an operational interpretation of the resource monotones defined in this work.</description>
-  </item>
-
-  <item>
     <title>Multidimensional Quantum Walks, with Application to $k$-Distinctness</title>
     <link>http://arxiv.org/pdf/2208.13492</link>
     <author>Stacey Jeffery, Sebastian Zur</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>While the quantum query complexity of $k$-distinctness is known to be $O\left(n^{3/4-1/4(2^k-1)}\right)$ for any constant $k \geq 4$, the best previous upper bound on the time complexity was $\widetilde{O}\left(n^{1-1/k}\right)$. We give a new upper bound of $\widetilde{O}\left(n^{3/4-1/4(2^k-1)}\right)$ on the time complexity, matching the query complexity up to polylogarithmic factors. In order to achieve this upper bound, we give a new technique for designing quantum walk search algorithms, which is an extension of the electric network framework. We also show how to solve the welded trees problem in $O(n)$ queries and $O(n^2)$ time using this new technique, showing that the new quantum walk framework can achieve exponential speedups.</description>
+  </item>
+
+  <item>
+    <title>Resource theory of quantum scrambling</title>
+    <link>http://arxiv.org/pdf/2208.10477</link>
+    <author>Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
+    <pubDate>Aug 23 2022</pubDate>
+    <description>Quantum scrambling refers to the spread of local quantum information into the many degrees of freedom of a quantum system. In this work, we introduce a resource theory of scrambling which incorporates two mechanisms, "entanglement scrambling" and "magic scrambling". We introduce two resource monotones called the Pauli growth and the OTOC (out-of-time-ordered correlator) magic for these two mechanisms, respectively. Moreover, we show that OTOC fluctuations are bounded by the OTOC magic. This proves that small OTOC fluctuations are an indication of magic in Google's recent experiment (Science 374, 1479 (2021)). We also show that both resource monotones can be used to bound the decoding fidelity in the Hayden-Preskill protocol. These applications provide an operational interpretation of the resource monotones defined in this work.</description>
   </item>
 
   <item>
@@ -223,6 +223,14 @@
   </item>
 
   <item>
+    <title>Sample optimal tomography of quantum Markov chains</title>
+    <link>http://arxiv.org/pdf/2209.02240</link>
+    <author>Li Gao, Nengkun Yu</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>A state on a tripartite quantum system $\mathcal{H}_{A}\otimes \mathcal{H}_{B}\otimes\mathcal{H}_{C} $ forms a Markov chain, i.e., quantum conditional independence, if it can be reconstructed from its marginal on $\mathcal{H}_{A}\otimes \mathcal{H}_{B}$ by a quantum operation from $\mathcal{H}_{B}$ to $\mathcal{H}_{B}\otimes\mathcal{H}_{C}$ via the famous Petz map: a quantum Markov chain $\rho_{ABC}$ satisfies $\rho_{ABC}=\rho_{BC}^{1/2}(\rho_B^{-1/2}\rho_{AB}\rho_B^{-1/2}\otimes id_C)\rho_{BC}^{1/2}$. In this paper, we study the robustness of the Petz map for different metrics, i.e., the closeness of marginals implies the closeness of the Petz map outcomes. The robustness results are dimension-independent for infidelity $\delta$ and trace distance $\epsilon$. The applications of robustness results are The sample complexity of quantum Markov chain tomography, i.e., how many copies of an unknown quantum Markov chain are necessary and sufficient to determine the state, is $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\delta})$, and $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\epsilon^2}) $. The sample complexity of quantum Markov Chain certification, i.e., to certify whether a tripartite state equals a fixed given quantum Markov Chain $\sigma_{ABC}$ or at least $\delta$-far from $\sigma_{ABC}$, is ${\Theta}(\frac{(d_A+d_C)d_B}{\delta})$, and ${\Theta}(\frac{(d_A+d_C)d_B}{\epsilon^2})$. $\tilde{O}(\frac{\min\{d_Ad_B^3d_C^3,d_A^3d_B^3d_C\}}{\epsilon^2})$ copies to test whether $\rho_{ABC}$ is a quantum Markov Chain or $\epsilon$-far from its Petz recovery state. We generalized the tomography results into multipartite quantum system by showing $\tilde{O}(\frac{n^2\max_{i} \{d_i^2d_{i+1}^2\}}{\delta})$ copies for infidelity $\delta$ are enough for $n$-partite quantum Markov chain tomography with $d_i$ being the dimension of the $i$-th subsystem.</description>
+  </item>
+
+  <item>
     <title>Adaptive syndrome measurements for Shor-style error correction</title>
     <link>http://arxiv.org/pdf/2208.05601</link>
     <author>Theerapat Tansuwannont, Kenneth R. Brown</author>
@@ -236,14 +244,6 @@
     <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
     <pubDate>Sep 02 2022</pubDate>
     <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
-  </item>
-
-  <item>
-    <title>Noise-resilient phase estimation with randomized compiling</title>
-    <link>http://arxiv.org/pdf/2208.04100</link>
-    <author>Yanwu Gu, Yunheng Ma, Nicolo Forcellini, Dong E. Liu</author>
-    <pubDate>Aug 09 2022</pubDate>
-    <description>We develop an error mitigation method for the control-free phase estimation. We prove a theorem that under the first-order correction, the noise channels with only Hermitian Kraus operators do not change the phases of a unitary operator, and therefore, the benign types of noise for phase estimation are identified. By using the randomized compiling protocol, we can convert the generic noise in the phase estimation circuits into stochastic Pauli noise, which satisfies the condition of our theorem. Thus we achieve a noise-resilient phase estimation without any quantum resource overhead. The simulated experiments show that our method can significantly reduce the estimation error of the phases by up to two orders of magnitude. Our method paves the way for the utilization of quantum phase estimation before the advent of fault-tolerant quantum computers.</description>
   </item>
 
 </channel>

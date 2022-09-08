@@ -15,11 +15,11 @@
   </item>
 
   <item>
-    <title>Concentration of polynomial random matrices via Efron-Stein inequalities</title>
-    <link>http://arxiv.org/pdf/2209.02655</link>
-    <author>Goutham Rajendran, Madhur Tulsiani</author>
+    <title>An Improved Approximation Algorithm for Quantum Max-Cut</title>
+    <link>http://arxiv.org/pdf/2209.02589</link>
+    <author>Robbie King</author>
     <pubDate>Sep 07 2022</pubDate>
-    <description>Analyzing concentration of large random matrices is a common task in a wide variety of fields. Given independent random variables, many tools are available to analyze random matrices whose entries are linear in the variables, e.g. the matrix-Bernstein inequality. However, in many applications, we need to analyze random matrices whose entries are polynomials in the variables. These arise naturally in the analysis of spectral algorithms, e.g., Hopkins et al. [STOC 2016], Moitra-Wein [STOC 2019]; and in lower bounds for semidefinite programs based on the Sum of Squares hierarchy, e.g. Barak et al. [FOCS 2016], Jones et al. [FOCS 2021]. In this work, we present a general framework to obtain such bounds, based on the matrix Efron-Stein inequalities developed by Paulin-Mackey-Tropp [Annals of Probability 2016]. The Efron-Stein inequality bounds the norm of a random matrix by the norm of another simpler (but still random) matrix, which we view as arising by "differentiating" the starting matrix. By recursively differentiating, our framework reduces the main task to analyzing far simpler matrices. For Rademacher variables, these simpler matrices are in fact deterministic and hence, analyzing them is far easier. For general non-Rademacher variables, the task reduces to scalar concentration, which is much easier. Moreover, in the setting of polynomial matrices, our results generalize the work of Paulin-Mackey-Tropp. Using our basic framework, we recover known bounds in the literature for simple "tensor networks" and "dense graph matrices". Using our general framework, we derive bounds for "sparse graph matrices", which were obtained only recently by Jones et al. [FOCS 2021] using a nontrivial application of the trace power method, and was a core component in their work. We expect our framework to be helpful for other applications involving concentration phenomena for nonlinear random matrices.</description>
+    <description>We give an approximation algorithm for Quantum Max-Cut which works by rounding an SDP relaxation to an entangled quantum state. The SDP is used to choose the parameters of a variational quantum circuit. The entangled state is then represented as the quantum circuit applied to a product state. It achieves an approximation ratio of 0.582, significantly improving on the algorithms of Anshu, Gosset, Morenz, 0.531, and Parekh, Thompson, 0.533. In addition, we also study the EPR Hamiltonian, which we argue is a natural intermediate problem which isolates some key quantum features of local Hamiltonian problems. For the EPR Hamiltonian, we give an approximation algorithm with approximation ratio $\frac{1}{\sqrt{2}}$.</description>
   </item>
 
   <item>
@@ -31,19 +31,19 @@
   </item>
 
   <item>
-    <title>Characterizing and quantifying the incompatibility of quantum instruments</title>
-    <link>http://arxiv.org/pdf/2209.02621</link>
-    <author>Arindam Mitra, Máté Farkas</author>
-    <pubDate>Sep 07 2022</pubDate>
-    <description>Incompatibility of quantum devices is one of the cornerstones of quantum theory, and the incompatibility of quantum measurements and channels has been linked to quantum advantage in certain information theoretic tasks. In this work, we focus on the less well-explored question of the incompatibility of quantum instruments, that is, devices that describe the measurement process in its entirety, accounting for both the classical measurement outcome and the quantum post-measurement state. In particular, we focus on the recently introduced notion of parallel compatibility of instruments, which has been argued to be a natural notion of instrument compatibility. We introduce -- similarly to the case of measurements and channels -- the incompatibility robustness of quantum instruments and derive universal bounds on it. We then prove that post-processing of quantum instruments is a free operation for parallel compatibility. Last, we provide families of instruments for which our bounds are tight, and families of compatible indecomposable instruments.</description>
-  </item>
-
-  <item>
     <title>The Approximate Degree of DNF and CNF Formulas</title>
     <link>http://arxiv.org/pdf/2209.01584</link>
     <author>Alexander A. Sherstov</author>
     <pubDate>Sep 07 2022</pubDate>
     <description>The approximate degree of a Boolean function $f\colon\{0,1\}^n\to\{0,1\}$ is the minimum degree of a real polynomial $p$ that approximates $f$ pointwise: $|f(x)-p(x)|\leq1/3$ for all $x\in\{0,1\}^n.$ For every $\delta>0,$ we construct CNF and DNF formulas of polynomial size with approximate degree $\Omega(n^{1-\delta}),$ essentially matching the trivial upper bound of $n.$ This improves polynomially on previous lower bounds and fully resolves the approximate degree of constant-depth circuits ($\text{AC}^0$), a question that has seen extensive research over the past 10 years. Previously, an $\Omega(n^{1-\delta})$ lower bound was known only for $\text{AC}^0$ circuits of depth that grows with $1/\delta$ (Bun and Thaler, FOCS 2017). Moreover, our CNF and DNF formulas are the simplest possible in that they have constant width. Our result holds even for one-sided approximation, and has the following further consequences. (i) We essentially settle the communication complexity of $\text{AC}^0$ circuits in the bounded-error quantum model, $k$-party number-on-the-forehead randomized model, and $k$-party number-on-the-forehead nondeterministic model: we prove that for every $\delta>0$, these models require $\Omega(n^{1-\delta})$, $\Omega(n/4^kk^2)^{1-\delta}$, and $\Omega(n/4^kk^2)^{1-\delta}$, respectively, bits of communication even for polynomial-size constant-width CNF formulas. (ii) In particular, we show that the multiparty communication class $\text{coNP}_k$ can be separated essentially optimally from $\text{NP}_k$ and $\text{BPP}_k$ by a particularly simple function, a polynomial-size constant-width CNF. (iii) We give an essentially tight separation, of $O(1)$ versus $\Omega(n^{1-\delta})$, for the one-sided versus two-sided approximate degree of a function; and $O(1)$ versus $\Omega(n^{1-\delta})$ for the one-sided approximate degree of a function $f$ versus its negation $\neg f$.</description>
+  </item>
+
+  <item>
+    <title>Inequalities witnessing coherence, nonlocality, and contextuality</title>
+    <link>http://arxiv.org/pdf/2209.02670</link>
+    <author>Rafael Wagner, Rui Soares Barbosa, Ernesto F. Galvão</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>Quantum coherence, nonlocality, and contextuality are key resources for quantum advantage in metrology, communication, and computation. We introduce a graph-based approach to derive classicality inequalities that bound local, non-contextual, and coherence-free models, offering a unified description of these seemingly disparate quantum resources. Our approach generalizes recently proposed basis-independent coherence witnesses, and recovers all non-contextuality inequalities of the exclusivity graph approach. Moreover, violations of certain classicality inequalities witness preparation contextuality. We describe an algorithm to find all such classicality inequalities, and use it to analyze some of the simplest scenarios.</description>
   </item>
 
 </channel>
