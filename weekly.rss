@@ -7,19 +7,27 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Learning Distributions over Quantum Measurement Outcomes</title>
+    <link>http://arxiv.org/pdf/2209.03007</link>
+    <author>Weiyuan Gong, Scott Aaronson</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>Shadow tomography for quantum states provides a sample efficient approach for predicting the properties of quantum systems when the properties are restricted to expectation values of $2$-outcome POVMs. However, these shadow tomography procedures yield poor bounds if there are more than 2 outcomes per measurement. In this paper, we consider a general problem of learning properties from unknown quantum states: given an unknown $d$-dimensional quantum state $\rho$ and $M$ unknown quantum measurements $\mathcal{M}_1,...,\mathcal{M}_M$ with $K\geq 2$ outcomes, estimating the probability distribution for applying $\mathcal{M}_i$ on $\rho$ to within total variation distance $\epsilon$. Compared to the special case when $K=2$, we need to learn unknown distributions instead of values. We develop an online shadow tomography procedure that solves this problem with high success probability requiring $\tilde{O}(K\log^2M\log d/\epsilon^4)$ copies of $\rho$. We further prove an information-theoretic lower bound that at least $\Omega(\min\{d^2,K+\log M\}/\epsilon^2)$ copies of $\rho$ are required to solve this problem with high success probability. Our shadow tomography procedure requires sample complexity with only logarithmic dependence on $M$ and $d$ and is sample-optimal for the dependence on $K$.</description>
+  </item>
+
+  <item>
+    <title>Concentration bounds for quantum states and limitations on the QAOA from polynomial approximations</title>
+    <link>http://arxiv.org/pdf/2209.02715</link>
+    <author>Anurag Anshu, Tony Metger</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>We prove concentration bounds for the following classes of quantum states: (i) output states of shallow quantum circuits, answering an open question from [DPMRF22]; (ii) injective matrix product states; (iii) output states of dense Hamiltonian evolution, i.e. states of the form $e^{\iota H^{(p)}} \cdots e^{\iota H^{(1)}} |\psi_0\rangle$ for any $n$-qubit product state $|\psi_0\rangle$, where each $H^{(i)}$ can be any local commuting Hamiltonian satisfying a norm constraint, including dense Hamiltonians with interactions between any qubits. Our proofs use polynomial approximations to show that these states are close to local operators. This implies that the distribution of the Hamming weight of a computational basis measurement (and of other related observables) concentrates. An example of (iii) are the states produced by the quantum approximate optimisation algorithm (QAOA). Using our concentration results for these states, we show that for a random spin model, the QAOA can only succeed with negligible probability even at super-constant level $p = o(\log \log n)$. This gives the first limitations on the QAOA on dense instances at super-constant level, improving upon the recent result [BGMZ22].</description>
+  </item>
+
+  <item>
     <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
     <link>http://arxiv.org/pdf/2209.00725</link>
     <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
     <pubDate>Sep 05 2022</pubDate>
     <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
-  </item>
-
-  <item>
-    <title>Decomposition of Matrix Product States into Shallow Quantum Circuits</title>
-    <link>http://arxiv.org/pdf/2209.00595</link>
-    <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
-    <pubDate>Sep 02 2022</pubDate>
-    <description>The rapid pace of recent advancements in numerical computation, notably the rise of GPU and TPU hardware accelerators, have allowed tensor network (TN) algorithms to scale to even larger quantum simulation problems, and to be employed more broadly for solving machine learning tasks. The "quantum-inspired" nature of TNs permits them to be mapped to parametrized quantum circuits (PQCs), a fact which has inspired recent proposals for enhancing the performance of TN algorithms using near-term quantum devices, as well as enabling joint quantum-classical training frameworks which benefit from the distinct strengths of TN and PQC models. However, the success of any such methods depends on efficient and accurate methods for approximating TN states using realistic quantum circuits, something which remains an unresolved question. In this work, we compare a range of novel and previously-developed algorithmic protocols for decomposing matrix product states (MPS) of arbitrary bond dimensions into low-depth quantum circuits consisting of stacked linear layers of two-qubit unitaries. These protocols are formed from different combinations of a preexisting analytical decomposition scheme with constrained optimization of circuit unitaries, and all possess efficient classical runtimes. Our experimental results reveal one particular protocol, involving sequential growth and optimization of the quantum circuit, to outperform all other methods, with even greater benefits seen in the setting of limited computational resources. Given these promising results, we expect our proposed decomposition protocol to form a useful ingredient within any joint application of TNs and PQCs, in turn further unlocking the rich and complementary benefits of classical and quantum computation.</description>
   </item>
 
   <item>
@@ -39,11 +47,11 @@
   </item>
 
   <item>
-    <title>Barren plateaus in quantum tensor network optimization</title>
-    <link>http://arxiv.org/pdf/2209.00292</link>
-    <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
-    <pubDate>Sep 02 2022</pubDate>
-    <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
+    <title>An Improved Approximation Algorithm for Quantum Max-Cut</title>
+    <link>http://arxiv.org/pdf/2209.02589</link>
+    <author>Robbie King</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>We give an approximation algorithm for Quantum Max-Cut which works by rounding an SDP relaxation to an entangled quantum state. The SDP is used to choose the parameters of a variational quantum circuit. The entangled state is then represented as the quantum circuit applied to a product state. It achieves an approximation ratio of 0.582, significantly improving on the algorithms of Anshu, Gosset, Morenz, 0.531, and Parekh, Thompson, 0.533. In addition, we also study the EPR Hamiltonian, which we argue is a natural intermediate problem which isolates some key quantum features of local Hamiltonian problems. For the EPR Hamiltonian, we give an approximation algorithm with approximation ratio $\frac{1}{\sqrt{2}}$.</description>
   </item>
 
   <item>
@@ -55,35 +63,27 @@
   </item>
 
   <item>
-    <title>Some continuity properties of quantum Rényi divergences</title>
-    <link>http://arxiv.org/pdf/2209.00646</link>
-    <author>Milán Mosonyi</author>
-    <pubDate>Sep 02 2022</pubDate>
-    <description>In the problem of binary quantum channel discrimination with product inputs, the supremum of all type II error exponents for which the optimal type I errors go to zero is equal to the Umegaki channel relative entropy, while the infimum of all type II error exponents for which the optimal type I errors go to one is equal to the infimum of the sandwiched channel Rényi $\alpha$-divergences over all $\alpha>1$. Here we prove that these two threshold values coincide, thus proving, in particular, the strong converse property for this problem. Our proof method uses a minimax argument, which crucially relies on a newly established continuity property of the sandwiched Rényi $\alpha$-divergences for $\alpha\in(1,2]$. Motivated by this, we also prove various other continuity properties for quantum (channel) Rény divergences, which may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>An Improved Approximation Algorithm for Quantum Max-Cut</title>
-    <link>http://arxiv.org/pdf/2209.02589</link>
-    <author>Robbie King</author>
+    <title>Scalable and Flexible Classical Shadow Tomography with Tensor Networks</title>
+    <link>http://arxiv.org/pdf/2209.02093</link>
+    <author>Ahmed A. Akhtar, Hong-Ye Hu, Yi-Zhuang You</author>
     <pubDate>Sep 07 2022</pubDate>
-    <description>We give an approximation algorithm for Quantum Max-Cut which works by rounding an SDP relaxation to an entangled quantum state. The SDP is used to choose the parameters of a variational quantum circuit. The entangled state is then represented as the quantum circuit applied to a product state. It achieves an approximation ratio of 0.582, significantly improving on the algorithms of Anshu, Gosset, Morenz, 0.531, and Parekh, Thompson, 0.533. In addition, we also study the EPR Hamiltonian, which we argue is a natural intermediate problem which isolates some key quantum features of local Hamiltonian problems. For the EPR Hamiltonian, we give an approximation algorithm with approximation ratio $\frac{1}{\sqrt{2}}$.</description>
+    <description>Classical shadow tomography is a powerful randomized measurement protocol for predicting many properties of a quantum state with few measurements. Two classical shadow protocols have been extensively studied in the literature: the single-qubit (local) Pauli measurement, which is well suited for predicting local operators but inefficient for large operators; and the global Clifford measurement, which is efficient for low-rank operators but infeasible on near-term quantum devices due to the extensive gate overhead. In this work, we demonstrate a scalable classical shadow tomography approach for generic randomized measurements implemented with finite-depth local Clifford random unitary circuits, which interpolates between the limits of Pauli and Clifford measurements. The method combines the recently proposed locally-scrambled classical shadow tomography framework with tensor network techniques to achieve scalability for computing the classical shadow reconstruction map and evaluating various physical properties. The method enables classical shadow tomography to be performed on shallow quantum circuits with superior sample efficiency and minimal gate overhead and is friendly to noisy intermediate-scale quantum (NISQ) devices. We show that the shallow-circuit measurement protocol provides immediate, exponential advantages over the Pauli measurement protocol for predicting quasi-local operators. It also enables a more efficient fidelity estimation compared to the Pauli measurement.</description>
   </item>
 
   <item>
-    <title>Operational Interpretation of the Sandwiched Rényi Divergences of Order 1/2 to 1 as Strong Converse Exponents</title>
-    <link>http://arxiv.org/pdf/2209.00554</link>
-    <author>Ke Li, Yongsheng Yao</author>
-    <pubDate>Sep 02 2022</pubDate>
-    <description>We provide the sandwiched Rényi divergence of order $\alpha\in(\frac{1}{2},1)$, as well as its induced quantum information quantities, with an operational interpretation in the characterization of the exact strong converse exponents of quantum tasks. Specifically, we consider (a) smoothing of the max-relative entropy, (b) quantum privacy amplification, and (c) quantum information decoupling. We solve the problem of determining the exact strong converse exponents for these three tasks, with the performance being measured by the fidelity or purified distance. The results are given in terms of the sandwiched Rényi divergence of order $\alpha\in(\frac{1}{2},1)$, and its induced quantum Rényi conditional entropy and quantum Rényi mutual information. This is the first time to find the precise operational meaning for the sandwiched Rényi divergence with Rényi parameter in the interval $\alpha\in(\frac{1}{2},1)$.</description>
+    <title>The Approximate Degree of DNF and CNF Formulas</title>
+    <link>http://arxiv.org/pdf/2209.01584</link>
+    <author>Alexander A. Sherstov</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>The approximate degree of a Boolean function $f\colon\{0,1\}^n\to\{0,1\}$ is the minimum degree of a real polynomial $p$ that approximates $f$ pointwise: $|f(x)-p(x)|\leq1/3$ for all $x\in\{0,1\}^n.$ For every $\delta>0,$ we construct CNF and DNF formulas of polynomial size with approximate degree $\Omega(n^{1-\delta}),$ essentially matching the trivial upper bound of $n.$ This improves polynomially on previous lower bounds and fully resolves the approximate degree of constant-depth circuits ($\text{AC}^0$), a question that has seen extensive research over the past 10 years. Previously, an $\Omega(n^{1-\delta})$ lower bound was known only for $\text{AC}^0$ circuits of depth that grows with $1/\delta$ (Bun and Thaler, FOCS 2017). Moreover, our CNF and DNF formulas are the simplest possible in that they have constant width. Our result holds even for one-sided approximation, and has the following further consequences. (i) We essentially settle the communication complexity of $\text{AC}^0$ circuits in the bounded-error quantum model, $k$-party number-on-the-forehead randomized model, and $k$-party number-on-the-forehead nondeterministic model: we prove that for every $\delta>0$, these models require $\Omega(n^{1-\delta})$, $\Omega(n/4^kk^2)^{1-\delta}$, and $\Omega(n/4^kk^2)^{1-\delta}$, respectively, bits of communication even for polynomial-size constant-width CNF formulas. (ii) In particular, we show that the multiparty communication class $\text{coNP}_k$ can be separated essentially optimally from $\text{NP}_k$ and $\text{BPP}_k$ by a particularly simple function, a polynomial-size constant-width CNF. (iii) We give an essentially tight separation, of $O(1)$ versus $\Omega(n^{1-\delta})$, for the one-sided versus two-sided approximate degree of a function; and $O(1)$ versus $\Omega(n^{1-\delta})$ for the one-sided approximate degree of a function $f$ versus its negation $\neg f$.</description>
   </item>
 
   <item>
-    <title>Quantum Mixed State Compiling</title>
-    <link>http://arxiv.org/pdf/2209.00528</link>
-    <author>Nic Ezzell, Elliott M. Ball, Aliza U. Siddiqui, Mark M. Wilde, Andrew T. Sornborger, Patrick J. Coles, Zoë Holmes</author>
-    <pubDate>Sep 02 2022</pubDate>
-    <description>The task of learning a quantum circuit to prepare a given mixed state is a fundamental quantum subroutine. We present a variational quantum algorithm (VQA) to learn mixed states which is suitable for near-term hardware. Our algorithm represents a generalization of previous VQAs that aimed at learning preparation circuits for pure states. We consider two different ansätze for compiling the target state; the first is based on learning a purification of the state and the second on representing it as a convex combination of pure states. In both cases, the resources required to store and manipulate the compiled state grow with the rank of the approximation. Thus, by learning a lower rank approximation of the target state, our algorithm provides a means of compressing a state for more efficient processing. As a byproduct of our algorithm, one effectively learns the principal components of the target state, and hence our algorithm further provides a new method for principal component analysis. We investigate the efficacy of our algorithm through extensive numerical implementations, showing that typical random states and thermal states of many body systems may be learnt this way. Additionally, we demonstrate on quantum hardware how our algorithm can be used to study hardware noise-induced states.</description>
+    <title>Improved maximum-likelihood quantum amplitude estimation</title>
+    <link>http://arxiv.org/pdf/2209.03321</link>
+    <author>Adam Callison, Dan Browne</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>Quantum amplitude estimation is a key subroutine in a number of powerful quantum algorithms, including quantum-enhanced Monte Carlo simulation and quantum machine learning. Maximum-likelihood quantum amplitude estimation (MLQAE) is one of a number of recent approaches that employ much simpler quantum circuits than the original algorithm based on quantum phase estimation. In this article, we deepen the analysis of MLQAE to put the algorithm in a more prescriptive form, including scenarios where quantum circuit depth is limited. In the process, we observe and explain particular ranges of `exceptional' values of the target amplitude for which the algorithm fails to achieve the desired precision. We then propose and numerically validate a heuristic modification to the algorithm to overcome this problem, bringing the algorithm even closer to being useful as a practical subroutine on near- and mid-term quantum hardware.</description>
   </item>
 
 </channel>

@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>Learning Distributions over Quantum Measurement Outcomes</title>
+    <link>http://arxiv.org/pdf/2209.03007</link>
+    <author>Weiyuan Gong, Scott Aaronson</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>Shadow tomography for quantum states provides a sample efficient approach for predicting the properties of quantum systems when the properties are restricted to expectation values of $2$-outcome POVMs. However, these shadow tomography procedures yield poor bounds if there are more than 2 outcomes per measurement. In this paper, we consider a general problem of learning properties from unknown quantum states: given an unknown $d$-dimensional quantum state $\rho$ and $M$ unknown quantum measurements $\mathcal{M}_1,...,\mathcal{M}_M$ with $K\geq 2$ outcomes, estimating the probability distribution for applying $\mathcal{M}_i$ on $\rho$ to within total variation distance $\epsilon$. Compared to the special case when $K=2$, we need to learn unknown distributions instead of values. We develop an online shadow tomography procedure that solves this problem with high success probability requiring $\tilde{O}(K\log^2M\log d/\epsilon^4)$ copies of $\rho$. We further prove an information-theoretic lower bound that at least $\Omega(\min\{d^2,K+\log M\}/\epsilon^2)$ copies of $\rho$ are required to solve this problem with high success probability. Our shadow tomography procedure requires sample complexity with only logarithmic dependence on $M$ and $d$ and is sample-optimal for the dependence on $K$.</description>
+  </item>
+
+  <item>
     <title>Universal sample lower bounds for quantum error mitigation</title>
     <link>http://arxiv.org/pdf/2208.09178</link>
     <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
@@ -143,6 +151,14 @@
   </item>
 
   <item>
+    <title>Concentration bounds for quantum states and limitations on the QAOA from polynomial approximations</title>
+    <link>http://arxiv.org/pdf/2209.02715</link>
+    <author>Anurag Anshu, Tony Metger</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>We prove concentration bounds for the following classes of quantum states: (i) output states of shallow quantum circuits, answering an open question from [DPMRF22]; (ii) injective matrix product states; (iii) output states of dense Hamiltonian evolution, i.e. states of the form $e^{\iota H^{(p)}} \cdots e^{\iota H^{(1)}} |\psi_0\rangle$ for any $n$-qubit product state $|\psi_0\rangle$, where each $H^{(i)}$ can be any local commuting Hamiltonian satisfying a norm constraint, including dense Hamiltonians with interactions between any qubits. Our proofs use polynomial approximations to show that these states are close to local operators. This implies that the distribution of the Hamming weight of a computational basis measurement (and of other related observables) concentrates. An example of (iii) are the states produced by the quantum approximate optimisation algorithm (QAOA). Using our concentration results for these states, we show that for a random spin model, the QAOA can only succeed with negligible probability even at super-constant level $p = o(\log \log n)$. This gives the first limitations on the QAOA on dense instances at super-constant level, improving upon the recent result [BGMZ22].</description>
+  </item>
+
+  <item>
     <title>Multidimensional Quantum Walks, with Application to $k$-Distinctness</title>
     <link>http://arxiv.org/pdf/2208.13492</link>
     <author>Stacey Jeffery, Sebastian Zur</author>
@@ -191,19 +207,27 @@
   </item>
 
   <item>
-    <title>Putting paradoxes to work: contextuality in measurement-based quantum computation</title>
-    <link>http://arxiv.org/pdf/2208.06624</link>
-    <author>Robert Raussendorf</author>
-    <pubDate>Aug 16 2022</pubDate>
-    <description>We describe a joint cohomological framework for measurement-based quantum computation (MBQC) and the corresponding contextuality proofs. The central object in this framework is an element in the second cohomology group of the chain complex describing a given MBQC. It contains the function computed, up to gauge equivalence, and at the same time is a contextuality witness. The present cohomological description only applies to temporally flat MBQCs, and we outline an approach for extending it to the temporally ordered case.</description>
-  </item>
-
-  <item>
     <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
     <link>http://arxiv.org/pdf/2209.01180</link>
     <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
     <pubDate>Sep 05 2022</pubDate>
     <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
+  </item>
+
+  <item>
+    <title>Sample optimal tomography of quantum Markov chains</title>
+    <link>http://arxiv.org/pdf/2209.02240</link>
+    <author>Li Gao, Nengkun Yu</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>A state on a tripartite quantum system $\mathcal{H}_{A}\otimes \mathcal{H}_{B}\otimes\mathcal{H}_{C} $ forms a Markov chain, i.e., quantum conditional independence, if it can be reconstructed from its marginal on $\mathcal{H}_{A}\otimes \mathcal{H}_{B}$ by a quantum operation from $\mathcal{H}_{B}$ to $\mathcal{H}_{B}\otimes\mathcal{H}_{C}$ via the famous Petz map: a quantum Markov chain $\rho_{ABC}$ satisfies $\rho_{ABC}=\rho_{BC}^{1/2}(\rho_B^{-1/2}\rho_{AB}\rho_B^{-1/2}\otimes id_C)\rho_{BC}^{1/2}$. In this paper, we study the robustness of the Petz map for different metrics, i.e., the closeness of marginals implies the closeness of the Petz map outcomes. The robustness results are dimension-independent for infidelity $\delta$ and trace distance $\epsilon$. The applications of robustness results are The sample complexity of quantum Markov chain tomography, i.e., how many copies of an unknown quantum Markov chain are necessary and sufficient to determine the state, is $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\delta})$, and $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\epsilon^2}) $. The sample complexity of quantum Markov Chain certification, i.e., to certify whether a tripartite state equals a fixed given quantum Markov Chain $\sigma_{ABC}$ or at least $\delta$-far from $\sigma_{ABC}$, is ${\Theta}(\frac{(d_A+d_C)d_B}{\delta})$, and ${\Theta}(\frac{(d_A+d_C)d_B}{\epsilon^2})$. $\tilde{O}(\frac{\min\{d_Ad_B^3d_C^3,d_A^3d_B^3d_C\}}{\epsilon^2})$ copies to test whether $\rho_{ABC}$ is a quantum Markov Chain or $\epsilon$-far from its Petz recovery state. We generalized the tomography results into multipartite quantum system by showing $\tilde{O}(\frac{n^2\max_{i} \{d_i^2d_{i+1}^2\}}{\delta})$ copies for infidelity $\delta$ are enough for $n$-partite quantum Markov chain tomography with $d_i$ being the dimension of the $i$-th subsystem.</description>
+  </item>
+
+  <item>
+    <title>Putting paradoxes to work: contextuality in measurement-based quantum computation</title>
+    <link>http://arxiv.org/pdf/2208.06624</link>
+    <author>Robert Raussendorf</author>
+    <pubDate>Aug 16 2022</pubDate>
+    <description>We describe a joint cohomological framework for measurement-based quantum computation (MBQC) and the corresponding contextuality proofs. The central object in this framework is an element in the second cohomology group of the chain complex describing a given MBQC. It contains the function computed, up to gauge equivalence, and at the same time is a contextuality witness. The present cohomological description only applies to temporally flat MBQCs, and we outline an approach for extending it to the temporally ordered case.</description>
   </item>
 
   <item>
@@ -220,30 +244,6 @@
     <author>You Zhou, Zhenhuan Liu</author>
     <pubDate>Aug 18 2022</pubDate>
     <description>Estimating nonlinear functions of quantum states, such as the moment $\tr(\rho^m)$, is of fundamental and practical interest in quantum science and technology. Here we show a quantum-classical hybrid framework to measure them, where the quantum part is constituted by the generalized swap test, and the classical part is realized by postprocessing the result from randomized measurements. This hybrid framework utilizes the partial coherent power of the intermediate-scale quantum processor and, at the same time, dramatically reduces the number of quantum measurements and the cost of classical postprocessing. We demonstrate the advantage of our framework in the tasks of state-moment estimation and quantum error mitigation.</description>
-  </item>
-
-  <item>
-    <title>Sample optimal tomography of quantum Markov chains</title>
-    <link>http://arxiv.org/pdf/2209.02240</link>
-    <author>Li Gao, Nengkun Yu</author>
-    <pubDate>Sep 07 2022</pubDate>
-    <description>A state on a tripartite quantum system $\mathcal{H}_{A}\otimes \mathcal{H}_{B}\otimes\mathcal{H}_{C} $ forms a Markov chain, i.e., quantum conditional independence, if it can be reconstructed from its marginal on $\mathcal{H}_{A}\otimes \mathcal{H}_{B}$ by a quantum operation from $\mathcal{H}_{B}$ to $\mathcal{H}_{B}\otimes\mathcal{H}_{C}$ via the famous Petz map: a quantum Markov chain $\rho_{ABC}$ satisfies $\rho_{ABC}=\rho_{BC}^{1/2}(\rho_B^{-1/2}\rho_{AB}\rho_B^{-1/2}\otimes id_C)\rho_{BC}^{1/2}$. In this paper, we study the robustness of the Petz map for different metrics, i.e., the closeness of marginals implies the closeness of the Petz map outcomes. The robustness results are dimension-independent for infidelity $\delta$ and trace distance $\epsilon$. The applications of robustness results are The sample complexity of quantum Markov chain tomography, i.e., how many copies of an unknown quantum Markov chain are necessary and sufficient to determine the state, is $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\delta})$, and $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\epsilon^2}) $. The sample complexity of quantum Markov Chain certification, i.e., to certify whether a tripartite state equals a fixed given quantum Markov Chain $\sigma_{ABC}$ or at least $\delta$-far from $\sigma_{ABC}$, is ${\Theta}(\frac{(d_A+d_C)d_B}{\delta})$, and ${\Theta}(\frac{(d_A+d_C)d_B}{\epsilon^2})$. $\tilde{O}(\frac{\min\{d_Ad_B^3d_C^3,d_A^3d_B^3d_C\}}{\epsilon^2})$ copies to test whether $\rho_{ABC}$ is a quantum Markov Chain or $\epsilon$-far from its Petz recovery state. We generalized the tomography results into multipartite quantum system by showing $\tilde{O}(\frac{n^2\max_{i} \{d_i^2d_{i+1}^2\}}{\delta})$ copies for infidelity $\delta$ are enough for $n$-partite quantum Markov chain tomography with $d_i$ being the dimension of the $i$-th subsystem.</description>
-  </item>
-
-  <item>
-    <title>Adaptive syndrome measurements for Shor-style error correction</title>
-    <link>http://arxiv.org/pdf/2208.05601</link>
-    <author>Theerapat Tansuwannont, Kenneth R. Brown</author>
-    <pubDate>Aug 12 2022</pubDate>
-    <description>The Shor fault-tolerant error correction (FTEC) scheme uses transversal gates and ancilla qubits prepared in the cat state in syndrome extraction circuits to prevent propagation of errors caused by gate faults. For a stabilizer code that can correct up to $t$ errors, the traditional Shor scheme handles ancilla preparation and measurement faults by performing syndrome measurements until the syndromes are repeated $t+1$ times in a row; in the worst-case scenario, $(t+1)^2$ rounds of measurements are required. In this work, we improve the Shor FTEC scheme using an adaptive syndrome measurement technique. In particular, our protocols determine a syndrome for error correction based on information from the differences of syndromes obtained from any two consecutive rounds. Our protocol that satisfies the strong FTEC conditions requires no more than $(t+3)^2/4-1$ rounds of measurements and is applicable to any stabilizer code. Compared to the traditional method, we estimate that our adaptive measurement method could increase the fault-tolerant threshold by a factor of 4 in the large $t$ limit. We also extend our ideas to error correction satisfying the weak FTEC conditions and flag FTEC.</description>
-  </item>
-
-  <item>
-    <title>Barren plateaus in quantum tensor network optimization</title>
-    <link>http://arxiv.org/pdf/2209.00292</link>
-    <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
-    <pubDate>Sep 02 2022</pubDate>
-    <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
   </item>
 
 </channel>
