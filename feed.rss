@@ -23,6 +23,14 @@
   </item>
 
   <item>
+    <title>Learning Distributions over Quantum Measurement Outcomes</title>
+    <link>http://arxiv.org/pdf/2209.03007</link>
+    <author>Weiyuan Gong, Scott Aaronson</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>Shadow tomography for quantum states provides a sample efficient approach for predicting the properties of quantum systems when the properties are restricted to expectation values of $2$-outcome POVMs. However, these shadow tomography procedures yield poor bounds if there are more than 2 outcomes per measurement. In this paper, we consider a general problem of learning properties from unknown quantum states: given an unknown $d$-dimensional quantum state $\rho$ and $M$ unknown quantum measurements $\mathcal{M}_1,...,\mathcal{M}_M$ with $K\geq 2$ outcomes, estimating the probability distribution for applying $\mathcal{M}_i$ on $\rho$ to within total variation distance $\epsilon$. Compared to the special case when $K=2$, we need to learn unknown distributions instead of values. We develop an online shadow tomography procedure that solves this problem with high success probability requiring $\tilde{O}(K\log^2M\log d/\epsilon^4)$ copies of $\rho$. We further prove an information-theoretic lower bound that at least $\Omega(\min\{d^2,K+\log M\}/\epsilon^2)$ copies of $\rho$ are required to solve this problem with high success probability. Our shadow tomography procedure requires sample complexity with only logarithmic dependence on $M$ and $d$ and is sample-optimal for the dependence on $K$.</description>
+  </item>
+
+  <item>
     <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
     <link>http://arxiv.org/pdf/2208.11941</link>
     <author>Harriet Apel, Toby Cubitt</author>
@@ -79,35 +87,11 @@
   </item>
 
   <item>
-    <title>Erasure qubits: Overcoming the $T_1$ limit in superconducting circuits</title>
-    <link>http://arxiv.org/pdf/2208.05461</link>
-    <author>Aleksander Kubica, Arbel Haim, Yotam Vaknin, Fernando Brandão, Alex Retzker</author>
-    <pubDate>Aug 11 2022</pubDate>
-    <description>The amplitude damping time, $T_1$, has long stood as the major factor limiting quantum fidelity in superconducting circuits, prompting concerted efforts in the material science and design of qubits aimed at increasing $T_1$. In contrast, the dephasing time, $T_{\phi}$, can usually be extended above $T_1$ (via, e.g., dynamical decoupling), to the point where it does not limit fidelity. In this article we propose a scheme for overcoming the conventional $T_1$ limit on fidelity by designing qubits in a way that amplitude damping errors can be detected and converted into erasure errors. Compared to standard qubit implementations our scheme improves the performance of fault-tolerant protocols, as numerically demonstrated by the circuit-noise simulations of the surface code. We describe two simple qubit implementations with superconducting circuits and discuss procedures for detecting amplitude damping errors, performing entangling gates, and extending $T_\phi$. Our results suggest that engineering efforts should focus on improving $T_\phi$ and the quality of quantum coherent control, as they effectively become the limiting factor on the performance of fault-tolerant protocols.</description>
-  </item>
-
-  <item>
-    <title>Learning Distributions over Quantum Measurement Outcomes</title>
-    <link>http://arxiv.org/pdf/2209.03007</link>
-    <author>Weiyuan Gong, Scott Aaronson</author>
-    <pubDate>Sep 08 2022</pubDate>
-    <description>Shadow tomography for quantum states provides a sample efficient approach for predicting the properties of quantum systems when the properties are restricted to expectation values of $2$-outcome POVMs. However, these shadow tomography procedures yield poor bounds if there are more than 2 outcomes per measurement. In this paper, we consider a general problem of learning properties from unknown quantum states: given an unknown $d$-dimensional quantum state $\rho$ and $M$ unknown quantum measurements $\mathcal{M}_1,...,\mathcal{M}_M$ with $K\geq 2$ outcomes, estimating the probability distribution for applying $\mathcal{M}_i$ on $\rho$ to within total variation distance $\epsilon$. Compared to the special case when $K=2$, we need to learn unknown distributions instead of values. We develop an online shadow tomography procedure that solves this problem with high success probability requiring $\tilde{O}(K\log^2M\log d/\epsilon^4)$ copies of $\rho$. We further prove an information-theoretic lower bound that at least $\Omega(\min\{d^2,K+\log M\}/\epsilon^2)$ copies of $\rho$ are required to solve this problem with high success probability. Our shadow tomography procedure requires sample complexity with only logarithmic dependence on $M$ and $d$ and is sample-optimal for the dependence on $K$.</description>
-  </item>
-
-  <item>
     <title>Universal sample lower bounds for quantum error mitigation</title>
     <link>http://arxiv.org/pdf/2208.09178</link>
     <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
     <pubDate>Aug 22 2022</pubDate>
     <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
-  </item>
-
-  <item>
-    <title>Universal cost bound of quantum error mitigation based on quantum estimation theory</title>
-    <link>http://arxiv.org/pdf/2208.09385</link>
-    <author>Kento Tsubouchi, Takahiro Sagawa, Nobuyuki Yoshioka</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Quantum error mitigation is an art to combat noise in quantum computers that are not fully fault tolerant. While a wide variety of techniques has been proposed with surging number of experimental applications, little is known concerning the unified understanding on their fundamental aspects. In this paper, we perform a theoretical analysis on the cost of quantum error mitigation using the quantum estimation theory. The applicability of quantum estimation theory is extended so that we can analyze the quantum Fisher information of layered noisy quantum circuits equipped with a wide range of quantum error mitigation methods. By showing that the quantum Fisher information decays exponentially with the circuit depth, we derive for a general class of Markovian noise that unbiased estimation of an observable encounters an exponential growth in the lower bound on the measurement cost, or more precisely the required number of copies of noisy quantum state. As two practical and illustrative examples, we discuss the case when the noise channel is solely the global or local depolarizing noise. We explicitly express the lower bound in terms of their noise rates, and further find that we can asymptotically saturate the bound by a simple mitigation technique for the global depolarizing noise. Our results not only reveal the physical limitations of quantum error mitigation, but may also provide a new criteria for performance evaluation of quantum error mitigation techniques.</description>
   </item>
 
   <item>
@@ -127,27 +111,11 @@
   </item>
 
   <item>
-    <title>Extendibility of Werner States</title>
-    <link>http://arxiv.org/pdf/2208.13743</link>
-    <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
-    <pubDate>Aug 30 2022</pubDate>
-    <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
-  </item>
-
-  <item>
-    <title>A parallel decoder for good quantum LDPC codes</title>
-    <link>http://arxiv.org/pdf/2208.05537</link>
-    <author>Anthony Leverrier, Gilles Zémor</author>
-    <pubDate>Aug 12 2022</pubDate>
-    <description>We introduce a parallel decoding algorithm for recently discovered families of asymptotically good quantum low-density parity-check codes. This algorithm provably corrects arbitrary errors of weight linear in the code length, with a logarithmic number of steps. This decoder applies directly to the family of quantum Tanner codes, and serves as a subroutine for expander lifted product codes. Along the way, we exploit recently established bounds on the robustness of random tensor codes to give a tight bound on the minimum distance of quantum Tanner codes.</description>
-  </item>
-
-  <item>
-    <title>A local pre-decoder to reduce the bandwidth and latency of quantum error correction</title>
-    <link>http://arxiv.org/pdf/2208.04660</link>
-    <author>Samuel C. Smith, Benjamin J. Brown, Stephen D. Bartlett</author>
-    <pubDate>Aug 10 2022</pubDate>
-    <description>A fault-tolerant quantum computer will be supported by a classical decoding system interfacing with quantum hardware to perform quantum error correction. It is important that the decoder can keep pace with the quantum clock speed, within the limitations on communication that are imposed by the physical architecture. To this end we propose a local `pre-decoder', which makes greedy corrections to reduce the amount of syndrome data sent to a standard matching decoder. We study these classical overheads for the surface code under a phenomenological phase-flip noise model with imperfect measurements. We find substantial improvements in the runtime of the global decoder and the communication bandwidth by using the pre-decoder. For instance, to achieve a logical failure probability of $f = 10^{-15}$ using qubits with physical error rate $p = 10^{-3}$ and a distance $d=22$ code, we find that the bandwidth cost is reduced by a factor of $1000$, and the time taken by a matching decoder is sped up by a factor of $200$. To achieve this target failure probability, the pre-decoding approach requires a $50\%$ increase in the qubit count compared with the optimal decoder.</description>
+    <title>Universal cost bound of quantum error mitigation based on quantum estimation theory</title>
+    <link>http://arxiv.org/pdf/2208.09385</link>
+    <author>Kento Tsubouchi, Takahiro Sagawa, Nobuyuki Yoshioka</author>
+    <pubDate>Aug 22 2022</pubDate>
+    <description>Quantum error mitigation is an art to combat noise in quantum computers that are not fully fault tolerant. While a wide variety of techniques has been proposed with surging number of experimental applications, little is known concerning the unified understanding on their fundamental aspects. In this paper, we perform a theoretical analysis on the cost of quantum error mitigation using the quantum estimation theory. The applicability of quantum estimation theory is extended so that we can analyze the quantum Fisher information of layered noisy quantum circuits equipped with a wide range of quantum error mitigation methods. By showing that the quantum Fisher information decays exponentially with the circuit depth, we derive for a general class of Markovian noise that unbiased estimation of an observable encounters an exponential growth in the lower bound on the measurement cost, or more precisely the required number of copies of noisy quantum state. As two practical and illustrative examples, we discuss the case when the noise channel is solely the global or local depolarizing noise. We explicitly express the lower bound in terms of their noise rates, and further find that we can asymptotically saturate the bound by a simple mitigation technique for the global depolarizing noise. Our results not only reveal the physical limitations of quantum error mitigation, but may also provide a new criteria for performance evaluation of quantum error mitigation techniques.</description>
   </item>
 
   <item>
@@ -156,6 +124,22 @@
     <author>Anurag Anshu, Tony Metger</author>
     <pubDate>Sep 08 2022</pubDate>
     <description>We prove concentration bounds for the following classes of quantum states: (i) output states of shallow quantum circuits, answering an open question from [DPMRF22]; (ii) injective matrix product states; (iii) output states of dense Hamiltonian evolution, i.e. states of the form $e^{\iota H^{(p)}} \cdots e^{\iota H^{(1)}} |\psi_0\rangle$ for any $n$-qubit product state $|\psi_0\rangle$, where each $H^{(i)}$ can be any local commuting Hamiltonian satisfying a norm constraint, including dense Hamiltonians with interactions between any qubits. Our proofs use polynomial approximations to show that these states are close to local operators. This implies that the distribution of the Hamming weight of a computational basis measurement (and of other related observables) concentrates. An example of (iii) are the states produced by the quantum approximate optimisation algorithm (QAOA). Using our concentration results for these states, we show that for a random spin model, the QAOA can only succeed with negligible probability even at super-constant level $p = o(\log \log n)$. This gives the first limitations on the QAOA on dense instances at super-constant level, improving upon the recent result [BGMZ22].</description>
+  </item>
+
+  <item>
+    <title>Extendibility of Werner States</title>
+    <link>http://arxiv.org/pdf/2208.13743</link>
+    <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
+    <pubDate>Aug 30 2022</pubDate>
+    <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
+  </item>
+
+  <item>
+    <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
+    <link>http://arxiv.org/pdf/2209.00725</link>
+    <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
   </item>
 
   <item>
@@ -175,11 +159,27 @@
   </item>
 
   <item>
-    <title>Quantum supremacy in mechanical tasks: projectiles, rockets and quantum backflow</title>
-    <link>http://arxiv.org/pdf/2209.00725</link>
-    <author>David Trillo, Thinh P. Le, Miguel Navascues</author>
+    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
+    <link>http://arxiv.org/pdf/2209.01180</link>
+    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
     <pubDate>Sep 05 2022</pubDate>
-    <description>We consider a scenario where a non-relativistic one-dimensional quantum particle is prepared in some bounded region of space and left to propagate freely. After a certain amount of time, we check if the particle has reached some distant target region. We find that there exist "ultrafast" ("ultraslow") quantum states, whose probability of arrival is greater (smaller) than that of any classical system prepared in the same region with the same momentum distribution. We prove that the maximum possible difference between quantum and optimal classical arrival probabilities for projectiles, as well as for self-propelling particles or rockets, is limited by the Bracken-Melloy constant $c_{bm}$, introduced in $1969$ to characterize the maximum expression of the phenomenon known as quantum backflow. This mathematical correspondence extends to other examples of mechanical effects with a quantum advantage, whose study we advance by deriving the first rigorous upper bound $c_{bm} \leq 0.0725$. We also prove that the hard limit given by $c_{bm}$ can be overcome in a variant of the original projectile scenario: if the classical particle is required to possess, not just the same momentum distribution as the quantum particle, but also the same position distribution, then the difference between arrival probabilities can reach $0.1228$.</description>
+    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
+  </item>
+
+  <item>
+    <title>Overcoming entropic limitations on asymptotic state transformations through probabilistic protocols</title>
+    <link>http://arxiv.org/pdf/2209.03362</link>
+    <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
+    <pubDate>Sep 09 2022</pubDate>
+    <description>The quantum relative entropy is known to play a key role in determining the asymptotic convertibility of quantum states in general resource-theoretic settings, often constituting the unique monotone that is relevant in the asymptotic regime. We show that this is no longer the case when one allows stochastic protocols that may only succeed with some probability, in which case the quantum relative entropy is insufficient to characterize the rates of asymptotic state transformations, and a new entropic quantity based on a regularization of Hilbert's projective metric comes into play. Such a scenario is motivated by a setting where the cost associated with transformations of quantum states, typically taken to be the number of copies of a given state, is instead identified with the size of the quantum memory needed to realize the protocol. Our approach allows for constructing transformation protocols that achieve strictly higher rates than those imposed by the relative entropy. Focusing on the task of resource distillation, we give broadly applicable strong converse bounds on the asymptotic rates of probabilistic distillation protocols, and show them to be tight in relevant settings such as entanglement distillation with non-entangling operations. This generalizes and extends previously known limitations that only apply to deterministic protocols. Our methods are based on recent results for probabilistic one-shot transformations as well as a new asymptotic equipartition property for the projective relative entropy.</description>
+  </item>
+
+  <item>
+    <title>Sample optimal tomography of quantum Markov chains</title>
+    <link>http://arxiv.org/pdf/2209.02240</link>
+    <author>Li Gao, Nengkun Yu</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>A state on a tripartite quantum system $\mathcal{H}_{A}\otimes \mathcal{H}_{B}\otimes\mathcal{H}_{C} $ forms a Markov chain, i.e., quantum conditional independence, if it can be reconstructed from its marginal on $\mathcal{H}_{A}\otimes \mathcal{H}_{B}$ by a quantum operation from $\mathcal{H}_{B}$ to $\mathcal{H}_{B}\otimes\mathcal{H}_{C}$ via the famous Petz map: a quantum Markov chain $\rho_{ABC}$ satisfies $\rho_{ABC}=\rho_{BC}^{1/2}(\rho_B^{-1/2}\rho_{AB}\rho_B^{-1/2}\otimes id_C)\rho_{BC}^{1/2}$. In this paper, we study the robustness of the Petz map for different metrics, i.e., the closeness of marginals implies the closeness of the Petz map outcomes. The robustness results are dimension-independent for infidelity $\delta$ and trace distance $\epsilon$. The applications of robustness results are The sample complexity of quantum Markov chain tomography, i.e., how many copies of an unknown quantum Markov chain are necessary and sufficient to determine the state, is $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\delta})$, and $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\epsilon^2}) $. The sample complexity of quantum Markov Chain certification, i.e., to certify whether a tripartite state equals a fixed given quantum Markov Chain $\sigma_{ABC}$ or at least $\delta$-far from $\sigma_{ABC}$, is ${\Theta}(\frac{(d_A+d_C)d_B}{\delta})$, and ${\Theta}(\frac{(d_A+d_C)d_B}{\epsilon^2})$. $\tilde{O}(\frac{\min\{d_Ad_B^3d_C^3,d_A^3d_B^3d_C\}}{\epsilon^2})$ copies to test whether $\rho_{ABC}$ is a quantum Markov Chain or $\epsilon$-far from its Petz recovery state. We generalized the tomography results into multipartite quantum system by showing $\tilde{O}(\frac{n^2\max_{i} \{d_i^2d_{i+1}^2\}}{\delta})$ copies for infidelity $\delta$ are enough for $n$-partite quantum Markov chain tomography with $d_i$ being the dimension of the $i$-th subsystem.</description>
   </item>
 
   <item>
@@ -188,6 +188,14 @@
     <author>Manuel S. Rudolph, Jing Chen, Jacob Miller, Atithi Acharya, Alejandro Perdomo-Ortiz</author>
     <pubDate>Sep 02 2022</pubDate>
     <description>The rapid pace of recent advancements in numerical computation, notably the rise of GPU and TPU hardware accelerators, have allowed tensor network (TN) algorithms to scale to even larger quantum simulation problems, and to be employed more broadly for solving machine learning tasks. The "quantum-inspired" nature of TNs permits them to be mapped to parametrized quantum circuits (PQCs), a fact which has inspired recent proposals for enhancing the performance of TN algorithms using near-term quantum devices, as well as enabling joint quantum-classical training frameworks which benefit from the distinct strengths of TN and PQC models. However, the success of any such methods depends on efficient and accurate methods for approximating TN states using realistic quantum circuits, something which remains an unresolved question. In this work, we compare a range of novel and previously-developed algorithmic protocols for decomposing matrix product states (MPS) of arbitrary bond dimensions into low-depth quantum circuits consisting of stacked linear layers of two-qubit unitaries. These protocols are formed from different combinations of a preexisting analytical decomposition scheme with constrained optimization of circuit unitaries, and all possess efficient classical runtimes. Our experimental results reveal one particular protocol, involving sequential growth and optimization of the quantum circuit, to outperform all other methods, with even greater benefits seen in the setting of limited computational resources. Given these promising results, we expect our proposed decomposition protocol to form a useful ingredient within any joint application of TNs and PQCs, in turn further unlocking the rich and complementary benefits of classical and quantum computation.</description>
+  </item>
+
+  <item>
+    <title>An Improved Approximation Algorithm for Quantum Max-Cut</title>
+    <link>http://arxiv.org/pdf/2209.02589</link>
+    <author>Robbie King</author>
+    <pubDate>Sep 07 2022</pubDate>
+    <description>We give an approximation algorithm for Quantum Max-Cut which works by rounding an SDP relaxation to an entangled quantum state. The SDP is used to choose the parameters of a variational quantum circuit. The entangled state is then represented as the quantum circuit applied to a product state. It achieves an approximation ratio of 0.582, significantly improving on the algorithms of Anshu, Gosset, Morenz, 0.531, and Parekh, Thompson, 0.533. In addition, we also study the EPR Hamiltonian, which we argue is a natural intermediate problem which isolates some key quantum features of local Hamiltonian problems. For the EPR Hamiltonian, we give an approximation algorithm with approximation ratio $\frac{1}{\sqrt{2}}$.</description>
   </item>
 
   <item>
@@ -207,27 +215,19 @@
   </item>
 
   <item>
-    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
-    <link>http://arxiv.org/pdf/2209.01180</link>
-    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
-    <pubDate>Sep 05 2022</pubDate>
-    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
-  </item>
-
-  <item>
-    <title>Sample optimal tomography of quantum Markov chains</title>
-    <link>http://arxiv.org/pdf/2209.02240</link>
-    <author>Li Gao, Nengkun Yu</author>
-    <pubDate>Sep 07 2022</pubDate>
-    <description>A state on a tripartite quantum system $\mathcal{H}_{A}\otimes \mathcal{H}_{B}\otimes\mathcal{H}_{C} $ forms a Markov chain, i.e., quantum conditional independence, if it can be reconstructed from its marginal on $\mathcal{H}_{A}\otimes \mathcal{H}_{B}$ by a quantum operation from $\mathcal{H}_{B}$ to $\mathcal{H}_{B}\otimes\mathcal{H}_{C}$ via the famous Petz map: a quantum Markov chain $\rho_{ABC}$ satisfies $\rho_{ABC}=\rho_{BC}^{1/2}(\rho_B^{-1/2}\rho_{AB}\rho_B^{-1/2}\otimes id_C)\rho_{BC}^{1/2}$. In this paper, we study the robustness of the Petz map for different metrics, i.e., the closeness of marginals implies the closeness of the Petz map outcomes. The robustness results are dimension-independent for infidelity $\delta$ and trace distance $\epsilon$. The applications of robustness results are The sample complexity of quantum Markov chain tomography, i.e., how many copies of an unknown quantum Markov chain are necessary and sufficient to determine the state, is $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\delta})$, and $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\epsilon^2}) $. The sample complexity of quantum Markov Chain certification, i.e., to certify whether a tripartite state equals a fixed given quantum Markov Chain $\sigma_{ABC}$ or at least $\delta$-far from $\sigma_{ABC}$, is ${\Theta}(\frac{(d_A+d_C)d_B}{\delta})$, and ${\Theta}(\frac{(d_A+d_C)d_B}{\epsilon^2})$. $\tilde{O}(\frac{\min\{d_Ad_B^3d_C^3,d_A^3d_B^3d_C\}}{\epsilon^2})$ copies to test whether $\rho_{ABC}$ is a quantum Markov Chain or $\epsilon$-far from its Petz recovery state. We generalized the tomography results into multipartite quantum system by showing $\tilde{O}(\frac{n^2\max_{i} \{d_i^2d_{i+1}^2\}}{\delta})$ copies for infidelity $\delta$ are enough for $n$-partite quantum Markov chain tomography with $d_i$ being the dimension of the $i$-th subsystem.</description>
-  </item>
-
-  <item>
     <title>Putting paradoxes to work: contextuality in measurement-based quantum computation</title>
     <link>http://arxiv.org/pdf/2208.06624</link>
     <author>Robert Raussendorf</author>
     <pubDate>Aug 16 2022</pubDate>
     <description>We describe a joint cohomological framework for measurement-based quantum computation (MBQC) and the corresponding contextuality proofs. The central object in this framework is an element in the second cohomology group of the chain complex describing a given MBQC. It contains the function computed, up to gauge equivalence, and at the same time is a contextuality witness. The present cohomological description only applies to temporally flat MBQCs, and we outline an approach for extending it to the temporally ordered case.</description>
+  </item>
+
+  <item>
+    <title>Accelerating the variational quantum eigensolver using parallelism</title>
+    <link>http://arxiv.org/pdf/2209.03796</link>
+    <author>Lana Mineh, Ashley Montanaro</author>
+    <pubDate>Sep 09 2022</pubDate>
+    <description>Quantum computers are getting larger and larger, but device fidelities may not be able to keep up with the increase in qubit numbers. One way to make use of a large device that has a limited gate depth is to run many small circuits simultaneously. In this paper we detail our investigations into running circuits in parallel on the Rigetti Aspen-M-1 device. We run two-qubit circuits in parallel to solve a simple instance of the Hubbard model using the variational quantum eigensolver. We present results for running up to 33 circuits in parallel (66 qubits), showing that with the use of error mitigation techniques it is possible to make use of, and gain a real-time speedup from, parallelisation on current quantum hardware. We obtain a speedup by $18\times$ for exploring the VQE energy landscape, and by more than $8\times$ for running VQE optimisation.</description>
   </item>
 
   <item>
