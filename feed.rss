@@ -63,19 +63,19 @@
   </item>
 
   <item>
-    <title>Inevitability of knowing less than nothing</title>
-    <link>http://arxiv.org/pdf/2208.14424</link>
-    <author>Gilad Gour, Mark M. Wilde, Sarah Brandsen, Isabelle Jianing Geng</author>
-    <pubDate>Aug 31 2022</pubDate>
-    <description>A colloquial interpretation of entropy is that it is the knowledge gained upon learning the outcome of a random experiment. Conditional entropy is then interpreted as the knowledge gained upon learning the outcome of one random experiment after learning the outcome of another, possibly statistically dependent, random experiment. In the classical world, entropy and conditional entropy take only non-negative values, consistent with the intuition that one has regarding the aforementioned interpretations. However, for certain entangled states, one obtains negative values when evaluating commonly accepted and information-theoretically justified formulas for the quantum conditional entropy, leading to the confounding conclusion that one can know less than nothing in the quantum world. Here, we introduce a physically motivated framework for defining quantum conditional entropy, based on two simple postulates inspired by the second law of thermodynamics (non-decrease of entropy) and extensivity of entropy, and we argue that all plausible definitions of quantum conditional entropy should respect these two postulates. We then prove that all plausible quantum conditional entropies take on negative values for certain entangled states, so that it is inevitable that one can know less than nothing in the quantum world. All of our arguments are based on constructions of physical processes that respect the first postulate, the one inspired by the second law of thermodynamics.</description>
-  </item>
-
-  <item>
     <title>Mean estimation when you have the source code; or, quantum Monte Carlo methods</title>
     <link>http://arxiv.org/pdf/2208.07544</link>
     <author>Robin Kothari, Ryan O'Donnell</author>
     <pubDate>Aug 17 2022</pubDate>
     <description>Suppose $\boldsymbol{y}$ is a real random variable, and one is given access to ``the code'' that generates it (for example, a randomized or quantum circuit whose output is $\boldsymbol{y}$). We give a quantum procedure that runs the code $O(n)$ times and returns an estimate $\widehat{\boldsymbol{\mu}}$ for $\mu = \mathrm{E}[\boldsymbol{y}]$ that with high probability satisfies $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/n$, where $\sigma = \mathrm{stddev}[\boldsymbol{y}]$. This dependence on $n$ is optimal for quantum algorithms. One may compare with classical algorithms, which can only achieve the quadratically worse $|\widehat{\boldsymbol{\mu}} - \mu| \leq \sigma/\sqrt{n}$. Our method improves upon previous works, which either made additional assumptions about $\boldsymbol{y}$, and/or assumed the algorithm knew an a priori bound on $\sigma$, and/or used additional logarithmic factors beyond $O(n)$. The central subroutine for our result is essentially Grover's algorithm but with complex phases.ally Grover's algorithm but with complex phases.</description>
+  </item>
+
+  <item>
+    <title>Inevitability of knowing less than nothing</title>
+    <link>http://arxiv.org/pdf/2208.14424</link>
+    <author>Gilad Gour, Mark M. Wilde, Sarah Brandsen, Isabelle Jianing Geng</author>
+    <pubDate>Aug 31 2022</pubDate>
+    <description>A colloquial interpretation of entropy is that it is the knowledge gained upon learning the outcome of a random experiment. Conditional entropy is then interpreted as the knowledge gained upon learning the outcome of one random experiment after learning the outcome of another, possibly statistically dependent, random experiment. In the classical world, entropy and conditional entropy take only non-negative values, consistent with the intuition that one has regarding the aforementioned interpretations. However, for certain entangled states, one obtains negative values when evaluating commonly accepted and information-theoretically justified formulas for the quantum conditional entropy, leading to the confounding conclusion that one can know less than nothing in the quantum world. Here, we introduce a physically motivated framework for defining quantum conditional entropy, based on two simple postulates inspired by the second law of thermodynamics (non-decrease of entropy) and extensivity of entropy, and we argue that all plausible definitions of quantum conditional entropy should respect these two postulates. We then prove that all plausible quantum conditional entropies take on negative values for certain entangled states, so that it is inevitable that one can know less than nothing in the quantum world. All of our arguments are based on constructions of physical processes that respect the first postulate, the one inspired by the second law of thermodynamics.</description>
   </item>
 
   <item>
@@ -92,6 +92,14 @@
     <author>Ryuji Takagi, Hiroyasu Tajima, Mile Gu</author>
     <pubDate>Aug 22 2022</pubDate>
     <description>Although numerous quantum error-mitigation protocols have been proposed as means to suppress noise effects on intermediate-scale quantum devices, their general potential and limitations have still been elusive. In particular, to understand the ultimate feasibility of quantum error mitigation, it is crucial to characterize the fundamental sampling cost -- how many times an arbitrary mitigation protocol must run a noisy quantum device. Here, we establish universal lower bounds on the sampling cost for quantum error mitigation to achieve the desired accuracy with high probability. Our bounds apply to general mitigation protocols, including the ones involving nonlinear postprocessing. We further show that the number of samples required for a wide class of protocols to mitigate errors in layered circuits must grow exponentially with the circuit depth for various noise models, revealing the fundamental obstacles in showing useful applications of noisy near-term quantum devices.</description>
+  </item>
+
+  <item>
+    <title>Concentration bounds for quantum states and limitations on the QAOA from polynomial approximations</title>
+    <link>http://arxiv.org/pdf/2209.02715</link>
+    <author>Anurag Anshu, Tony Metger</author>
+    <pubDate>Sep 08 2022</pubDate>
+    <description>We prove concentration bounds for the following classes of quantum states: (i) output states of shallow quantum circuits, answering an open question from [DPMRF22]; (ii) injective matrix product states; (iii) output states of dense Hamiltonian evolution, i.e. states of the form $e^{\iota H^{(p)}} \cdots e^{\iota H^{(1)}} |\psi_0\rangle$ for any $n$-qubit product state $|\psi_0\rangle$, where each $H^{(i)}$ can be any local commuting Hamiltonian satisfying a norm constraint, including dense Hamiltonians with interactions between any qubits. Our proofs use polynomial approximations to show that these states are close to local operators. This implies that the distribution of the Hamming weight of a computational basis measurement (and of other related observables) concentrates. An example of (iii) are the states produced by the quantum approximate optimisation algorithm (QAOA). Using our concentration results for these states, we show that for a random spin model, the QAOA can only succeed with negligible probability even at super-constant level $p = o(\log \log n)$. This gives the first limitations on the QAOA on dense instances at super-constant level, improving upon the recent result [BGMZ22].</description>
   </item>
 
   <item>
@@ -119,19 +127,19 @@
   </item>
 
   <item>
-    <title>Concentration bounds for quantum states and limitations on the QAOA from polynomial approximations</title>
-    <link>http://arxiv.org/pdf/2209.02715</link>
-    <author>Anurag Anshu, Tony Metger</author>
-    <pubDate>Sep 08 2022</pubDate>
-    <description>We prove concentration bounds for the following classes of quantum states: (i) output states of shallow quantum circuits, answering an open question from [DPMRF22]; (ii) injective matrix product states; (iii) output states of dense Hamiltonian evolution, i.e. states of the form $e^{\iota H^{(p)}} \cdots e^{\iota H^{(1)}} |\psi_0\rangle$ for any $n$-qubit product state $|\psi_0\rangle$, where each $H^{(i)}$ can be any local commuting Hamiltonian satisfying a norm constraint, including dense Hamiltonians with interactions between any qubits. Our proofs use polynomial approximations to show that these states are close to local operators. This implies that the distribution of the Hamming weight of a computational basis measurement (and of other related observables) concentrates. An example of (iii) are the states produced by the quantum approximate optimisation algorithm (QAOA). Using our concentration results for these states, we show that for a random spin model, the QAOA can only succeed with negligible probability even at super-constant level $p = o(\log \log n)$. This gives the first limitations on the QAOA on dense instances at super-constant level, improving upon the recent result [BGMZ22].</description>
-  </item>
-
-  <item>
     <title>Extendibility of Werner States</title>
     <link>http://arxiv.org/pdf/2208.13743</link>
     <author>Dávid Jakab, Adrián Solymos, Zoltán Zimborás</author>
     <pubDate>Aug 30 2022</pubDate>
     <description>We investigate the two-sided symmetric extendibility problem of Werner states. The interplay of the unitary symmetry of these states and the inherent bipartite permutation symmetry of the extendibility scenario allows us to map this problem into the ground state problem of a highly symmetric spin-model Hamiltonian. We solve this ground state problem analytically by utilizing the representation theory of SU(d), in particular a result related to the dominance order of Young diagrams in Littlewood-Richarson decompositions. As a result, we obtain necessary and sufficient conditions for the extendibility of Werner states for arbitrary extension size and local dimension. Interestingly, the range of extendible states has a non-trivial trade-off between the extension sizes on the two sides. We compare our result with the two-sided extendibility problem of isotropic states, where there is no such trade-off.</description>
+  </item>
+
+  <item>
+    <title>Overcoming entropic limitations on asymptotic state transformations through probabilistic protocols</title>
+    <link>http://arxiv.org/pdf/2209.03362</link>
+    <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
+    <pubDate>Sep 09 2022</pubDate>
+    <description>The quantum relative entropy is known to play a key role in determining the asymptotic convertibility of quantum states in general resource-theoretic settings, often constituting the unique monotone that is relevant in the asymptotic regime. We show that this is no longer the case when one allows stochastic protocols that may only succeed with some probability, in which case the quantum relative entropy is insufficient to characterize the rates of asymptotic state transformations, and a new entropic quantity based on a regularization of Hilbert's projective metric comes into play. Such a scenario is motivated by a setting where the cost associated with transformations of quantum states, typically taken to be the number of copies of a given state, is instead identified with the size of the quantum memory needed to realize the protocol. Our approach allows for constructing transformation protocols that achieve strictly higher rates than those imposed by the relative entropy. Focusing on the task of resource distillation, we give broadly applicable strong converse bounds on the asymptotic rates of probabilistic distillation protocols, and show them to be tight in relevant settings such as entanglement distillation with non-entangling operations. This generalizes and extends previously known limitations that only apply to deterministic protocols. Our methods are based on recent results for probabilistic one-shot transformations as well as a new asymptotic equipartition property for the projective relative entropy.</description>
   </item>
 
   <item>
@@ -159,27 +167,19 @@
   </item>
 
   <item>
-    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
-    <link>http://arxiv.org/pdf/2209.01180</link>
-    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
-    <pubDate>Sep 05 2022</pubDate>
-    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
-  </item>
-
-  <item>
-    <title>Overcoming entropic limitations on asymptotic state transformations through probabilistic protocols</title>
-    <link>http://arxiv.org/pdf/2209.03362</link>
-    <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
-    <pubDate>Sep 09 2022</pubDate>
-    <description>The quantum relative entropy is known to play a key role in determining the asymptotic convertibility of quantum states in general resource-theoretic settings, often constituting the unique monotone that is relevant in the asymptotic regime. We show that this is no longer the case when one allows stochastic protocols that may only succeed with some probability, in which case the quantum relative entropy is insufficient to characterize the rates of asymptotic state transformations, and a new entropic quantity based on a regularization of Hilbert's projective metric comes into play. Such a scenario is motivated by a setting where the cost associated with transformations of quantum states, typically taken to be the number of copies of a given state, is instead identified with the size of the quantum memory needed to realize the protocol. Our approach allows for constructing transformation protocols that achieve strictly higher rates than those imposed by the relative entropy. Focusing on the task of resource distillation, we give broadly applicable strong converse bounds on the asymptotic rates of probabilistic distillation protocols, and show them to be tight in relevant settings such as entanglement distillation with non-entangling operations. This generalizes and extends previously known limitations that only apply to deterministic protocols. Our methods are based on recent results for probabilistic one-shot transformations as well as a new asymptotic equipartition property for the projective relative entropy.</description>
-  </item>
-
-  <item>
     <title>Sample optimal tomography of quantum Markov chains</title>
     <link>http://arxiv.org/pdf/2209.02240</link>
     <author>Li Gao, Nengkun Yu</author>
     <pubDate>Sep 07 2022</pubDate>
     <description>A state on a tripartite quantum system $\mathcal{H}_{A}\otimes \mathcal{H}_{B}\otimes\mathcal{H}_{C} $ forms a Markov chain, i.e., quantum conditional independence, if it can be reconstructed from its marginal on $\mathcal{H}_{A}\otimes \mathcal{H}_{B}$ by a quantum operation from $\mathcal{H}_{B}$ to $\mathcal{H}_{B}\otimes\mathcal{H}_{C}$ via the famous Petz map: a quantum Markov chain $\rho_{ABC}$ satisfies $\rho_{ABC}=\rho_{BC}^{1/2}(\rho_B^{-1/2}\rho_{AB}\rho_B^{-1/2}\otimes id_C)\rho_{BC}^{1/2}$. In this paper, we study the robustness of the Petz map for different metrics, i.e., the closeness of marginals implies the closeness of the Petz map outcomes. The robustness results are dimension-independent for infidelity $\delta$ and trace distance $\epsilon$. The applications of robustness results are The sample complexity of quantum Markov chain tomography, i.e., how many copies of an unknown quantum Markov chain are necessary and sufficient to determine the state, is $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\delta})$, and $\tilde{\Theta}(\frac{(d_A^2+d_C^2)d_B^2}{\epsilon^2}) $. The sample complexity of quantum Markov Chain certification, i.e., to certify whether a tripartite state equals a fixed given quantum Markov Chain $\sigma_{ABC}$ or at least $\delta$-far from $\sigma_{ABC}$, is ${\Theta}(\frac{(d_A+d_C)d_B}{\delta})$, and ${\Theta}(\frac{(d_A+d_C)d_B}{\epsilon^2})$. $\tilde{O}(\frac{\min\{d_Ad_B^3d_C^3,d_A^3d_B^3d_C\}}{\epsilon^2})$ copies to test whether $\rho_{ABC}$ is a quantum Markov Chain or $\epsilon$-far from its Petz recovery state. We generalized the tomography results into multipartite quantum system by showing $\tilde{O}(\frac{n^2\max_{i} \{d_i^2d_{i+1}^2\}}{\delta})$ copies for infidelity $\delta$ are enough for $n$-partite quantum Markov chain tomography with $d_i$ being the dimension of the $i$-th subsystem.</description>
+  </item>
+
+  <item>
+    <title>Software Tools for Decoding Quantum Low-Density Parity Check Codes</title>
+    <link>http://arxiv.org/pdf/2209.01180</link>
+    <author>Lucas Berent, Lukas Burgholzer, Robert Wille</author>
+    <pubDate>Sep 05 2022</pubDate>
+    <description>Quantum Error Correction (QEC) is an essential field of research towards the realization of large-scale quantum computers. On the theoretical side, a lot of effort is put into designing error-correcting codes that protect quantum data from errors, which inevitably happen due to the noisy nature of quantum hardware and quantum bits (qubits). Protecting data with an error-correcting code necessitates means to recover the original data, given a potentially corrupted data set-a task referred to as decoding. It is vital that decoding algorithms can recover error-free states in an efficient manner. While theoretical properties of recent QEC methods have been extensively studied, good techniques to analyze their performance in practically more relevant settings is still a widely unexplored area. In this work, we propose a set of software tools that allows to numerically experiment with so-called Quantum Low-Density Parity Check codes (QLDPC codes)-a broad class of codes, some of which have recently been shown to be asymptotically good. Based on that, we provide an implementation of a general decoder for QLDPC codes. On top of that, we propose an efficient heuristic decoder that tackles the runtime bottlenecks of the general QLDPC decoder while still maintaining comparable decoding performance. These tools eventually allow to confirm theoretical results around QLDPC codes in a more practical setting and showcase the value of software tools (in addition to theoretical considerations) for investigating codes for practical applications. The resulting tool, which is publicly available at https://github.com/lucasberent/qecc under the MIT license, is meant to provide a playground for the search for "practically good" quantum codes.</description>
   </item>
 
   <item>
@@ -215,14 +215,6 @@
   </item>
 
   <item>
-    <title>Putting paradoxes to work: contextuality in measurement-based quantum computation</title>
-    <link>http://arxiv.org/pdf/2208.06624</link>
-    <author>Robert Raussendorf</author>
-    <pubDate>Aug 16 2022</pubDate>
-    <description>We describe a joint cohomological framework for measurement-based quantum computation (MBQC) and the corresponding contextuality proofs. The central object in this framework is an element in the second cohomology group of the chain complex describing a given MBQC. It contains the function computed, up to gauge equivalence, and at the same time is a contextuality witness. The present cohomological description only applies to temporally flat MBQCs, and we outline an approach for extending it to the temporally ordered case.</description>
-  </item>
-
-  <item>
     <title>Accelerating the variational quantum eigensolver using parallelism</title>
     <link>http://arxiv.org/pdf/2209.03796</link>
     <author>Lana Mineh, Ashley Montanaro</author>
@@ -231,19 +223,27 @@
   </item>
 
   <item>
-    <title>Long-distance transmon coupler with CZ gate fidelity above $99.8\%$</title>
-    <link>http://arxiv.org/pdf/2208.09460</link>
-    <author>Fabian Marxer, Antti Vepsäläinen, Shan W. Jolin, Jani Tuorila, Alessandro Landra, Caspar Ockeloen-Korppi, Wei Liu, Olli Ahonen, Adrian Auer, Lucien Belzane, Ville Bergholm, Chun Fai Chan, Kok Wai Chan, Tuukka Hiltunen, Juho Hotari, Eric Hyyppä, Joni Ikonen, David Janzso, Miikka Koistinen, Janne Kotilahti, et al (19)</author>
-    <pubDate>Aug 22 2022</pubDate>
-    <description>Tunable coupling of superconducting qubits has been widely studied due to its importance for isolated gate operations in scalable quantum processor architectures. Here, we demonstrate a tunable qubit-qubit coupler based on a floating transmon device which allows us to place qubits at least 2 mm apart from each other while maintaining over 50 MHz coupling between the coupler and the qubits. In the introduced tunable-coupler design, both the qubit-qubit and the qubit-coupler couplings are mediated by two waveguides instead of relying on direct capacitive couplings between the components, reducing the impact of the qubit-qubit distance on the couplings. This leaves space for each qubit to have an individual readout resonator and a Purcell filter needed for fast high-fidelity readout. In addition, the large qubit-qubit distance reduces unwanted non-nearest neighbor coupling and allows multiple control lines to cross over the structure with minimal crosstalk. Using the proposed flexible and scalable architecture, we demonstrate a controlled-$Z$ gate with $(99.81 \pm 0.02)\%$ fidelity.</description>
-  </item>
-
-  <item>
     <title>A hybrid framework for estimating nonlinear functions of quantum states</title>
     <link>http://arxiv.org/pdf/2208.08416</link>
     <author>You Zhou, Zhenhuan Liu</author>
     <pubDate>Aug 18 2022</pubDate>
     <description>Estimating nonlinear functions of quantum states, such as the moment $\tr(\rho^m)$, is of fundamental and practical interest in quantum science and technology. Here we show a quantum-classical hybrid framework to measure them, where the quantum part is constituted by the generalized swap test, and the classical part is realized by postprocessing the result from randomized measurements. This hybrid framework utilizes the partial coherent power of the intermediate-scale quantum processor and, at the same time, dramatically reduces the number of quantum measurements and the cost of classical postprocessing. We demonstrate the advantage of our framework in the tasks of state-moment estimation and quantum error mitigation.</description>
+  </item>
+
+  <item>
+    <title>Putting paradoxes to work: contextuality in measurement-based quantum computation</title>
+    <link>http://arxiv.org/pdf/2208.06624</link>
+    <author>Robert Raussendorf</author>
+    <pubDate>Aug 16 2022</pubDate>
+    <description>We describe a joint cohomological framework for measurement-based quantum computation (MBQC) and the corresponding contextuality proofs. The central object in this framework is an element in the second cohomology group of the chain complex describing a given MBQC. It contains the function computed, up to gauge equivalence, and at the same time is a contextuality witness. The present cohomological description only applies to temporally flat MBQCs, and we outline an approach for extending it to the temporally ordered case.</description>
+  </item>
+
+  <item>
+    <title>Barren plateaus in quantum tensor network optimization</title>
+    <link>http://arxiv.org/pdf/2209.00292</link>
+    <author>Enrique Cervero Martín, Kirill Plekhanov, Michael Lubasch</author>
+    <pubDate>Sep 02 2022</pubDate>
+    <description>We analyze the barren plateau phenomenon in the variational optimization of quantum circuits inspired by matrix product states (qMPS), tree tensor networks (qTTN), and the multiscale entanglement renormalization ansatz (qMERA). We consider as the cost function the expectation value of a Hamiltonian that is a sum of local terms. For randomly chosen variational parameters we show that the variance of the cost function gradient decreases exponentially with the distance of a Hamiltonian term from the canonical centre in the quantum tensor network. Therefore, as a function of qubit count, for qMPS most gradient variances decrease exponentially and for qTTN as well as qMERA they decrease polynomially. We also show that the calculation of these gradients is exponentially more efficient on a classical computer than on a quantum computer.</description>
   </item>
 
 </channel>
