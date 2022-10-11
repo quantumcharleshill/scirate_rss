@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Quantum Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2210.00921</link>
-    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
-    <pubDate>Oct 04 2022</pubDate>
-    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
     <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
     <link>http://arxiv.org/pdf/2210.03030</link>
     <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
@@ -63,14 +55,6 @@
   </item>
 
   <item>
-    <title>Perturbation theory with quantum signal processing</title>
-    <link>http://arxiv.org/pdf/2210.00718</link>
-    <author>Kosuke Mitarai, Wataru Mizukami</author>
-    <pubDate>Oct 04 2022</pubDate>
-    <description>Perturbation theory is an important technique for reducing computational cost and providing physical insights in simulating quantum systems with classical computers. Here, we provide a quantum algorithm to obtain perturbative energies on quantum computers. The benefit of using quantum computers is that we can start the perturbation from a Hamiltonian that is classically hard to solve. The proposed algorithm uses quantum signal processing (QSP) to achieve this goal. Along with the perturbation theory, we construct a technique for ground state preparation with detailed computational cost analysis, which can be of independent interest. We also estimate a rough computational cost of the algorithm for simple chemical systems such as water clusters and polyacene molecules. To the best of our knowledge, this is the first of such estimates for practical applications of QSP. Unfortunately, we find that the proposed algorithm, at least in its current form, does not exhibit practical numbers despite of the efficiency of QSP compared to conventional quantum algorithms. However, perturbation theory itself is an attractive direction to explore because of its physical interpretability; it provides us insights about what interaction gives an important contribution to the properties of systems. This is in sharp contrast to the conventional approaches based on the quantum phase estimation algorithm, where we can only obtain values of energy. From this aspect, this work is a first step towards ``explainable'' quantum simulation on fault-tolerant quantum computers.</description>
-  </item>
-
-  <item>
     <title>A perturbative gadget for delaying the onset of barren plateaus in variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2210.03099</link>
     <author>Simon Cichy, Paul K. Faehrmann, Sumeet Khatri, Jens Eisert</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
+    <title>One-Wayness in Quantum Cryptography</title>
+    <link>http://arxiv.org/pdf/2210.03394</link>
+    <author>Tomoyuki Morimae, Takashi Yamakawa</author>
+    <pubDate>Oct 10 2022</pubDate>
+    <description>The existence of one-way functions is one of the most fundamental assumptions in classical cryptography. In the quantum world, on the other hand, there are evidences that some cryptographic primitives can exist even if one-way functions do not exist. We therefore have the following important open problem in quantum cryptography: What is the most fundamental element in quantum cryptography? In this direction, Brakerski, Canetti, and Qian recently defined a notion called EFI pairs, which are pairs of efficiently generatable states that are statistically distinguishable but computationally indistinguishable, and showed its equivalence with some cryptographic primitives including commitments, oblivious transfer, and general multi-party computations. However, their work focuses on decision-type primitives and does not cover search-type primitives like quantum money and digital signatures. In this paper, we study properties of one-way state generators (OWSGs), which are a quantum analogue of one-way functions. We first revisit the definition of OWSGs and generalize it by allowing mixed output states. Then we show the following results. (1) We define a weaker version of OWSGs, weak OWSGs, and show that they are equivalent to OWSGs. (2) Quantum digital signatures are equivalent to OWSGs. (3) Private-key quantum money schemes (with pure money states) imply OWSGs. (4) Quantum pseudo one-time pad schemes imply both OWSGs and EFI pairs. (5) We introduce an incomparable variant of OWSGs, which we call secretly-verifiable and statistically-invertible OWSGs, and show that they are equivalent to EFI pairs.</description>
+  </item>
+
+  <item>
     <title>Hello Quantum World! A rigorous but accessible first-year university course in quantum information science</title>
     <link>http://arxiv.org/pdf/2210.02868</link>
     <author>Sophia E. Economou, Edwin Barnes</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>Addressing workforce shortages within the Quantum Information Science and Engineering (QISE) community requires attracting and retaining students from diverse backgrounds early on in their undergraduate education. Here, we describe a course we developed called Hello Quantum World! that introduces a broad range of fundamental quantum information and computation concepts in a rigorous way but without requiring any knowledge of mathematics beyond high-school algebra nor any prior knowledge of quantum mechanics. Some of the topics covered include superposition, entanglement, quantum gates, teleportation, quantum algorithms, and quantum error correction. The course is designed for first-year undergraduate students, both those pursuing a degree in QISE and those who are seeking to be `quantum-aware'.</description>
+  </item>
+
+  <item>
+    <title>Distributed Merlin-Arthur Synthesis of Quantum States and Its Applications</title>
+    <link>http://arxiv.org/pdf/2210.01389</link>
+    <author>François Le Gall, Masayuki Miyamoto, Harumichi Nishimura</author>
+    <pubDate>Oct 05 2022</pubDate>
+    <description>The generation and verification of quantum states are fundamental tasks for quantum information processing that have recently been investigated by Irani, Natarajan, Nirkhe, Rao and Yuen [CCC 2022] and Rosenthal and Yuen [ITCS 2022] under the term \emphstate synthesis. This paper studies this concept from the viewpoint of quantum distributed computing, and especially distributed quantum Merlin-Arthur (dQMA) protocols. We first introduce a novel task, on a line, called state generation with distributed inputs (SGDI). In this task, the goal is to generate the quantum state $U\ket{\psi}$ at the rightmost node of the line, where $\ket{\psi}$ is a quantum state given at the leftmost node and $U$ is a unitary matrix whose description is distributed over the nodes of the line. We give a dQMA protocol for SGDI and utilize this protocol to construct a dQMA protocol for the Set Equality problem studied by Naor, Parter and Yogev [SODA 2020]. Our second contribution is a technique, based on a recent work by Zhu and Hayashi [Physical Review A, 2019], to create EPR-pairs between adjacent nodes of a network without quantum communication. As an application of this technique, we prove a general result showing how to convert any dQMA protocol on an arbitrary network into another dQMA protocol where the verification stage does not require any quantum communication.</description>
   </item>
 
 </channel>

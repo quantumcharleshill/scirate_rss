@@ -47,19 +47,19 @@
   </item>
 
   <item>
-    <title>Thermalization without eigenstate thermalization</title>
-    <link>http://arxiv.org/pdf/2209.09826</link>
-    <author>Aram W. Harrow, Yichen Huang</author>
-    <pubDate>Sep 21 2022</pubDate>
-    <description>In an isolated quantum many-body system undergoing unitary evolution, we study the thermalization of a subsystem, treating the rest of the system as a bath. In this setting, the eigenstate thermalization hypothesis (ETH) was proposed to explain thermalization. Consider a nearly integrable Sachdev-Ye-Kitaev model obtained by adding random all-to-all $4$-body interactions as a perturbation to a random free-fermion model. When the subsystem size is larger than the square root of but is still a vanishing fraction of the system size, we prove thermalization if the system is initialized in a random product state, while almost all eigenstates violate the ETH. In this sense, the ETH is not a necessary condition for thermalization.</description>
-  </item>
-
-  <item>
     <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
     <link>http://arxiv.org/pdf/2210.03030</link>
     <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
+  </item>
+
+  <item>
+    <title>Thermalization without eigenstate thermalization</title>
+    <link>http://arxiv.org/pdf/2209.09826</link>
+    <author>Aram W. Harrow, Yichen Huang</author>
+    <pubDate>Sep 21 2022</pubDate>
+    <description>In an isolated quantum many-body system undergoing unitary evolution, we study the thermalization of a subsystem, treating the rest of the system as a bath. In this setting, the eigenstate thermalization hypothesis (ETH) was proposed to explain thermalization. Consider a nearly integrable Sachdev-Ye-Kitaev model obtained by adding random all-to-all $4$-body interactions as a perturbation to a random free-fermion model. When the subsystem size is larger than the square root of but is still a vanishing fraction of the system size, we prove thermalization if the system is initialized in a random product state, while almost all eigenstates violate the ETH. In this sense, the ETH is not a necessary condition for thermalization.</description>
   </item>
 
   <item>
@@ -135,19 +135,19 @@
   </item>
 
   <item>
-    <title>Universal measurement-based quantum computation in a one-dimensional architecture enabled by dual-unitary circuits</title>
-    <link>http://arxiv.org/pdf/2209.06191</link>
-    <author>David T. Stephen, Wen Wei Ho, Tzu-Chieh Wei, Robert Raussendorf, Ruben Verresen</author>
-    <pubDate>Sep 14 2022</pubDate>
-    <description>A powerful tool emerging from the study of many-body quantum dynamics is that of dual-unitary circuits, which are unitary even when read `sideways', i.e., along the spatial direction. Here, we show that this provides the ideal framework to understand and expand on the notion of measurement-based quantum computation (MBQC). In particular, applying a dual-unitary circuit to a many-body state followed by appropriate measurements effectively implements quantum computation in the spatial direction. We argue that this computation can be made deterministic by enforcing a Clifford condition, and is generically universal. Remarkably, all these requirements can already be satisfied by the dynamics of the paradigmatic kicked Ising chain at specific parameter choices. Specifically, after $k$ time-steps, equivalent to a depth-$k$ quantum circuit, we obtain a resource state for universal MBQC on $\sim 3k/4$ encoded logical qubits. This removes the usual requirement of going to two dimensions to achieve universality, thereby reducing the demands imposed on potential experimental platforms. Beyond the practical advantages, we also interpret this evolution as an infinite-order entangler for symmetry-protected topological chains, which gives a vast generalization of the celebrated cluster chain and shows that our protocol is robust to symmetry-respecting deformations.</description>
-  </item>
-
-  <item>
     <title>Complexity-Theoretic Limitations on Quantum Algorithms for Topological Data Analysis</title>
     <link>http://arxiv.org/pdf/2209.14286</link>
     <author>Alexander Schmidhuber, Seth Lloyd</author>
     <pubDate>Sep 29 2022</pubDate>
     <description>Quantum algorithms for topological data analysis (TDA) seem to provide an exponential advantage over the best classical approach while remaining immune to dequantization procedures and the data-loading problem. In this paper, we argue that quantum algorithms for TDA run in exponential time for almost all inputs by showing that (under widely believed complexity-theoretic conjectures) the central problem of TDA - estimating Betti numbers - is intractable even for quantum computers. Specifically, we prove that the problem of computing Betti numbers exactly is \#P-hard, while the problem of approximating Betti numbers up to multiplicative error is NP-hard. Moreover, both problems retain their hardness if restricted to the regime where quantum algorithms for TDA perform best. Because quantum computers are not expected to solve \#P-hard or NP-hard problems in subexponential time, our results imply that quantum algorithms for TDA offer only a polynomial advantage. We verify our claim by showing that the seminal quantum algorithm for TDA developed by Lloyd, Garnerone and Zanardi \citeLloydAlgo achieves a quadratic speedup over the best classical approach on average, and a power-of-four speedup in the best case. Finally, we argue that an exponential quantum advantage can be recovered if the data is given as a specification of simplices rather than as a list of vertices and edges -- for example, if we wish to calculate the homology of Facebook from a list of Facebook groups and their members rather than from a list of pairwise interactions between Facebook users.</description>
+  </item>
+
+  <item>
+    <title>Universal measurement-based quantum computation in a one-dimensional architecture enabled by dual-unitary circuits</title>
+    <link>http://arxiv.org/pdf/2209.06191</link>
+    <author>David T. Stephen, Wen Wei Ho, Tzu-Chieh Wei, Robert Raussendorf, Ruben Verresen</author>
+    <pubDate>Sep 14 2022</pubDate>
+    <description>A powerful tool emerging from the study of many-body quantum dynamics is that of dual-unitary circuits, which are unitary even when read `sideways', i.e., along the spatial direction. Here, we show that this provides the ideal framework to understand and expand on the notion of measurement-based quantum computation (MBQC). In particular, applying a dual-unitary circuit to a many-body state followed by appropriate measurements effectively implements quantum computation in the spatial direction. We argue that this computation can be made deterministic by enforcing a Clifford condition, and is generically universal. Remarkably, all these requirements can already be satisfied by the dynamics of the paradigmatic kicked Ising chain at specific parameter choices. Specifically, after $k$ time-steps, equivalent to a depth-$k$ quantum circuit, we obtain a resource state for universal MBQC on $\sim 3k/4$ encoded logical qubits. This removes the usual requirement of going to two dimensions to achieve universality, thereby reducing the demands imposed on potential experimental platforms. Beyond the practical advantages, we also interpret this evolution as an infinite-order entangler for symmetry-protected topological chains, which gives a vast generalization of the celebrated cluster chain and shows that our protocol is robust to symmetry-respecting deformations.</description>
   </item>
 
   <item>
@@ -183,19 +183,19 @@
   </item>
 
   <item>
-    <title>Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom</title>
-    <link>http://arxiv.org/pdf/2209.14530</link>
-    <author>Sabee Grewal, Vishnu Iyer, William Kretschmer, Daniel Liang</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>We show that quantum states with "low stabilizer complexity" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|\psi\rangle$, we give an efficient algorithm that distinguishes whether $|\psi\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\frac{1}{k}$ (i.e., has fidelity at least $\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|\psi\rangle$, our algorithm uses $O\!\left( k^{12} \log(1/\delta)\right)$ copies of $|\psi\rangle$ and $O\!\left(n k^{12} \log(1/\delta)\right)$ time to succeed with probability at least $1-\delta$, and, with access to a state preparation unitary for $|\psi\rangle$ (and its inverse), $O\!\left( k^{3} \log(1/\delta)\right)$ queries and $O\!\left(n k^{3} \log(1/\delta)\right)$ time suffice. As a corollary, we prove that $\omega(\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.</description>
-  </item>
-
-  <item>
     <title>Postselected quantum hypothesis testing</title>
     <link>http://arxiv.org/pdf/2209.10550</link>
     <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
     <pubDate>Sep 23 2022</pubDate>
     <description>We study a variant of quantum hypothesis testing wherein an additional 'inconclusive' measurement outcome is added, allowing one to abstain from attempting to discriminate the hypotheses. The error probabilities are then conditioned on a successful attempt, with inconclusive trials disregarded. We completely characterise this task in both the single-shot and asymptotic regimes, providing exact formulas for the optimal error probabilities. In particular, we prove that the asymptotic error exponent of discriminating any two quantum states $\rho$ and $\sigma$ is given by the Hilbert projective metric $D_{\max}(\rho\|\sigma) + D_{\max}(\sigma \| \rho)$ in asymmetric hypothesis testing, and by the Thompson metric $\max \{ D_{\max}(\rho\|\sigma), D_{\max}(\sigma \| \rho) \}$ in symmetric hypothesis testing. This endows these two quantities with fundamental operational interpretations in quantum state discrimination. Our findings extend to composite hypothesis testing, where we show that the asymmetric error exponent with respect to any convex set of density matrices is given by a regularisation of the Hilbert projective metric. We apply our results also to quantum channels, showing that no advantage is gained by employing adaptive or even more general discrimination schemes over parallel ones, in both the asymmetric and symmetric settings. Our state discrimination results make use of no properties specific to quantum mechanics and are also valid in general probabilistic theories.</description>
+  </item>
+
+  <item>
+    <title>Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom</title>
+    <link>http://arxiv.org/pdf/2209.14530</link>
+    <author>Sabee Grewal, Vishnu Iyer, William Kretschmer, Daniel Liang</author>
+    <pubDate>Sep 30 2022</pubDate>
+    <description>We show that quantum states with "low stabilizer complexity" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|\psi\rangle$, we give an efficient algorithm that distinguishes whether $|\psi\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\frac{1}{k}$ (i.e., has fidelity at least $\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|\psi\rangle$, our algorithm uses $O\!\left( k^{12} \log(1/\delta)\right)$ copies of $|\psi\rangle$ and $O\!\left(n k^{12} \log(1/\delta)\right)$ time to succeed with probability at least $1-\delta$, and, with access to a state preparation unitary for $|\psi\rangle$ (and its inverse), $O\!\left( k^{3} \log(1/\delta)\right)$ queries and $O\!\left(n k^{3} \log(1/\delta)\right)$ time suffice. As a corollary, we prove that $\omega(\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.</description>
   </item>
 
   <item>
@@ -223,19 +223,19 @@
   </item>
 
   <item>
-    <title>Single-qubit gate teleportation provides a quantum advantage</title>
-    <link>http://arxiv.org/pdf/2209.14158</link>
-    <author>Libor Caha, Xavier Coiteux-Roy, Robert Koenig</author>
-    <pubDate>Sep 29 2022</pubDate>
-    <description>Gate-teleportation circuits are arguably among the most basic examples of computations believed to provide a quantum computational advantage: In seminal work [Quantum Inf. Comput., 4(2):134--145], Terhal and DiVincenzo have shown that these circuits elude simulation by efficient classical algorithms under plausible complexity-theoretic assumptions. Here we consider possibilistic simulation [arXiv:1904.05282], a particularly weak form of this task where the goal is to output any string appearing with non-zero probability in the output distribution of the circuit. We show that even for single-qubit Clifford-gate-teleportation circuits this simulation problem cannot be solved by constant-depth classical circuits with bounded fan-in gates. Our results are unconditional and are obtained by a reduction to the problem of computing the parity, a well-studied problem in classical circuit complexity.</description>
-  </item>
-
-  <item>
     <title>Floquet codes without parent subsystem codes</title>
     <link>http://arxiv.org/pdf/2210.02468</link>
     <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
+  </item>
+
+  <item>
+    <title>Single-qubit gate teleportation provides a quantum advantage</title>
+    <link>http://arxiv.org/pdf/2209.14158</link>
+    <author>Libor Caha, Xavier Coiteux-Roy, Robert Koenig</author>
+    <pubDate>Sep 29 2022</pubDate>
+    <description>Gate-teleportation circuits are arguably among the most basic examples of computations believed to provide a quantum computational advantage: In seminal work [Quantum Inf. Comput., 4(2):134--145], Terhal and DiVincenzo have shown that these circuits elude simulation by efficient classical algorithms under plausible complexity-theoretic assumptions. Here we consider possibilistic simulation [arXiv:1904.05282], a particularly weak form of this task where the goal is to output any string appearing with non-zero probability in the output distribution of the circuit. We show that even for single-qubit Clifford-gate-teleportation circuits this simulation problem cannot be solved by constant-depth classical circuits with bounded fan-in gates. Our results are unconditional and are obtained by a reduction to the problem of computing the parity, a well-studied problem in classical circuit complexity.</description>
   </item>
 
   <item>

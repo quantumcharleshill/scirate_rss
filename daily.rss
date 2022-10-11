@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Universal Quantum Speedup for Branch-and-Bound, Branch-and-Cut, and Tree-Search Algorithms</title>
-    <link>http://arxiv.org/pdf/2210.03210</link>
-    <author>Shouvanik Chakrabarti, Pierre Minssen, Romina Yalovetzky, Marco Pistoia</author>
-    <pubDate>Oct 10 2022</pubDate>
-    <description>Mixed Integer Programs (MIPs) model many optimization problems of interest in Computer Science, Operations Research, and Financial Engineering. Solving MIPs is NP-Hard in general, but several solvers have found success in obtaining near-optimal solutions for problems of intermediate size. Branch-and-Cut algorithms, which combine Branch-and-Bound logic with cutting-plane routines, are at the core of modern MIP solvers. Montanaro proposed a quantum algorithm with a near-quadratic speedup compared to classical Branch-and-Bound algorithms in the worst case, when every optimal solution is desired. In practice, however, a near-optimal solution is satisfactory, and by leveraging tree-search heuristics to search only a portion of the solution tree, classical algorithms can perform much better than the worst-case guarantee. In this paper, we propose a quantum algorithm, Incremental-Quantum-Branch-and-Bound, with universal near-quadratic speedup over classical Branch-and-Bound algorithms for every input, i.e., if classical Branch-and-Bound has complexity $Q$ on an instance that leads to solution depth $d$, Incremental-Quantum-Branch-and-Bound offers the same guarantees with a complexity of $\tilde{O}(\sqrt{Q}d)$. Our results are valid for a wide variety of search heuristics, including depth-based, cost-based, and $A^{\ast}$ heuristics. Universal speedups are also obtained for Branch-and-Cut as well as heuristic tree search. Our algorithms are directly comparable to commercial MIP solvers, and guarantee near quadratic speedup whenever $Q \gg d$. We use numerical simulation to verify that $Q \gg d$ for typical instances of the Sherrington-Kirkpatrick model, Maximum Independent Set, and Portfolio Optimization; as well as to extrapolate the dependence of $Q$ on input size parameters. This allows us to project the typical performance of our quantum algorithms for these important problems.</description>
-  </item>
-
-  <item>
     <title>One-Wayness in Quantum Cryptography</title>
     <link>http://arxiv.org/pdf/2210.03394</link>
     <author>Tomoyuki Morimae, Takashi Yamakawa</author>
@@ -23,27 +15,35 @@
   </item>
 
   <item>
+    <title>Universal Quantum Speedup for Branch-and-Bound, Branch-and-Cut, and Tree-Search Algorithms</title>
+    <link>http://arxiv.org/pdf/2210.03210</link>
+    <author>Shouvanik Chakrabarti, Pierre Minssen, Romina Yalovetzky, Marco Pistoia</author>
+    <pubDate>Oct 10 2022</pubDate>
+    <description>Mixed Integer Programs (MIPs) model many optimization problems of interest in Computer Science, Operations Research, and Financial Engineering. Solving MIPs is NP-Hard in general, but several solvers have found success in obtaining near-optimal solutions for problems of intermediate size. Branch-and-Cut algorithms, which combine Branch-and-Bound logic with cutting-plane routines, are at the core of modern MIP solvers. Montanaro proposed a quantum algorithm with a near-quadratic speedup compared to classical Branch-and-Bound algorithms in the worst case, when every optimal solution is desired. In practice, however, a near-optimal solution is satisfactory, and by leveraging tree-search heuristics to search only a portion of the solution tree, classical algorithms can perform much better than the worst-case guarantee. In this paper, we propose a quantum algorithm, Incremental-Quantum-Branch-and-Bound, with universal near-quadratic speedup over classical Branch-and-Bound algorithms for every input, i.e., if classical Branch-and-Bound has complexity $Q$ on an instance that leads to solution depth $d$, Incremental-Quantum-Branch-and-Bound offers the same guarantees with a complexity of $\tilde{O}(\sqrt{Q}d)$. Our results are valid for a wide variety of search heuristics, including depth-based, cost-based, and $A^{\ast}$ heuristics. Universal speedups are also obtained for Branch-and-Cut as well as heuristic tree search. Our algorithms are directly comparable to commercial MIP solvers, and guarantee near quadratic speedup whenever $Q \gg d$. We use numerical simulation to verify that $Q \gg d$ for typical instances of the Sherrington-Kirkpatrick model, Maximum Independent Set, and Portfolio Optimization; as well as to extrapolate the dependence of $Q$ on input size parameters. This allows us to project the typical performance of our quantum algorithms for these important problems.</description>
+  </item>
+
+  <item>
+    <title>Investigating the Global Properties of a Resource Theory of Contextuality</title>
+    <link>http://arxiv.org/pdf/2210.03268</link>
+    <author>Tiago Santos, Barbara Amaral</author>
+    <pubDate>Oct 10 2022</pubDate>
+    <description>Resource theories constitute a powerful theoretical framework and a tool that captures, in an abstract structure, pragmatic aspects of the most varied theories and processes. For physical theories, while this framework deals directly with questions about the concrete possibilities of carrying out tasks and processes, resource theories also make it possible to recast these already established theories on a new language, providing not only new perspectives on the potential of physical phenomena as valuable resources for technological development, for example, but they also provide insights into the very foundations of these theories. In this work, we will investigate some properties of a resource theory for quantum contextuality, an essential characteristic of quantum phenomena that ensures the impossibility of interpreting the results of quantum measurements as revealing properties that are independent of the set of measurements being made. We will present the resource theory to be studied and investigate certain global properties of this theory using tools and methods that, although already developed and studied by the community in other resource theories, had not yet been used to characterize resource theories of contextuality. In particular, we will use the so called cost and yield monotones, extending the results of reference Quantum 4, 280 (2020) to general contextuality scenarios.</description>
+  </item>
+
+  <item>
+    <title>Gapped Lineon and Fracton Models on Graphs</title>
+    <link>http://arxiv.org/pdf/2210.03727</link>
+    <author>Pranay Gorantla, Ho Tat Lam, Nathan Seiberg, Shu-Heng Shao</author>
+    <pubDate>Oct 10 2022</pubDate>
+    <description>We introduce a $\mathbb{Z}_N$ stabilizer code that can be defined on any spatial lattice of the form $\Gamma\times C_{L_z}$, where $\Gamma$ is a general graph. We also present the low-energy limit of this stabilizer code as a Euclidean lattice action, which we refer to as the anisotropic $\mathbb{Z}_N$ Laplacian model. It is gapped, robust (i.e., stable under small deformations), and has lineons. Its ground state degeneracy (GSD) is expressed in terms of a "mod $N$-reduction" of the Jacobian group of the graph $\Gamma$. In the special case when space is an $L\times L\times L_z$ cubic lattice, the logarithm of the GSD depends on $L$ in an erratic way and grows no faster than $O(L)$. We also discuss another gapped model, the $\mathbb{Z}_N$ Laplacian model, which can be defined on any graph. It has fractons and a similarly strange GSD.</description>
+  </item>
+
+  <item>
     <title>Randomized channel-state duality</title>
     <link>http://arxiv.org/pdf/2210.03723</link>
     <author>Bin Yan, Nikolai A. Sinitsyn</author>
     <pubDate>Oct 10 2022</pubDate>
     <description>Channel-state duality is a central result in quantum information science. It refers to the correspondence between a dynamical process (quantum channel) and a static quantum state in an enlarged Hilbert space. Since the corresponding dual state is generally mixed, it is described by a Hermitian matrix. In this article, we present a randomized channel-state duality. In other words, a quantum channel is represented by a collection of $N$ pure quantum states that are produced from a random source. The accuracy of this randomized duality relation is given by $1/N$, with regard to an appropriate distance measure. For large systems, $N$ is much smaller than the dimension of the exact dual matrix of the quantum channel. This provides a highly accurate low-rank approximation of any quantum channel, and, as a consequence of the duality relation, an efficient data compression scheme for mixed quantum states. We demonstrate these two immediate applications of the randomized channel-state duality with a chaotic $1$-dimensional spin system.</description>
-  </item>
-
-  <item>
-    <title>Koopman Neural Forecaster for Time Series with Temporal Distribution Shifts</title>
-    <link>http://arxiv.org/pdf/2210.03675</link>
-    <author>Rui Wang, Yihe Dong, Sercan O Arik, Rose Yu</author>
-    <pubDate>Oct 10 2022</pubDate>
-    <description>Temporal distributional shifts, with underlying dynamics changing over time, frequently occur in real-world time series, and pose a fundamental challenge for deep neural networks (DNNs). In this paper, we propose a novel deep sequence model based on the Koopman theory for time series forecasting: Koopman Neural Forecaster (KNF) that leverages DNNs to learn the linear Koopman space and the coefficients of chosen measurement functions. KNF imposes appropriate inductive biases for improved robustness against distributional shifts, employing both a global operator to learn shared characteristics, and a local operator to capture changing dynamics, as well as a specially-designed feedback loop to continuously update the learnt operators over time for rapidly varying behaviors. To the best of our knowledge, this is the first time that Koopman theory is applied to real-world chaotic time series without known governing laws. We demonstrate that KNF achieves the superior performance compared to the alternatives, on multiple time series datasets that are shown to suffer from distribution shifts.</description>
-  </item>
-
-  <item>
-    <title>Understanding Edge-of-Stability Training Dynamics with a Minimalist Example</title>
-    <link>http://arxiv.org/pdf/2210.03294</link>
-    <author>Xingyu Zhu, Zixuan Wang, Xiang Wang, Mo Zhou, Rong Ge</author>
-    <pubDate>Oct 10 2022</pubDate>
-    <description>Recently, researchers observed that gradient descent for deep neural networks operates in an ``edge-of-stability'' (EoS) regime: the sharpness (maximum eigenvalue of the Hessian) is often larger than stability threshold 2/$\eta$ (where $\eta$ is the step size). Despite this, the loss oscillates and converges in the long run, and the sharpness at the end is just slightly below $2/\eta$. While many other well-understood nonconvex objectives such as matrix factorization or two-layer networks can also converge despite large sharpness, there is often a larger gap between sharpness of the endpoint and $2/\eta$. In this paper, we study EoS phenomenon by constructing a simple function that has the same behavior. We give rigorous analysis for its training dynamics in a large local region and explain why the final converging point has sharpness close to $2/\eta$. Globally we observe that the training dynamics for our example has an interesting bifurcating behavior, which was also observed in the training of neural nets.</description>
   </item>
 
 </channel>
