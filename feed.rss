@@ -143,19 +143,19 @@
   </item>
 
   <item>
-    <title>Universal measurement-based quantum computation in a one-dimensional architecture enabled by dual-unitary circuits</title>
-    <link>http://arxiv.org/pdf/2209.06191</link>
-    <author>David T. Stephen, Wen Wei Ho, Tzu-Chieh Wei, Robert Raussendorf, Ruben Verresen</author>
-    <pubDate>Sep 14 2022</pubDate>
-    <description>A powerful tool emerging from the study of many-body quantum dynamics is that of dual-unitary circuits, which are unitary even when read `sideways', i.e., along the spatial direction. Here, we show that this provides the ideal framework to understand and expand on the notion of measurement-based quantum computation (MBQC). In particular, applying a dual-unitary circuit to a many-body state followed by appropriate measurements effectively implements quantum computation in the spatial direction. We argue that this computation can be made deterministic by enforcing a Clifford condition, and is generically universal. Remarkably, all these requirements can already be satisfied by the dynamics of the paradigmatic kicked Ising chain at specific parameter choices. Specifically, after $k$ time-steps, equivalent to a depth-$k$ quantum circuit, we obtain a resource state for universal MBQC on $\sim 3k/4$ encoded logical qubits. This removes the usual requirement of going to two dimensions to achieve universality, thereby reducing the demands imposed on potential experimental platforms. Beyond the practical advantages, we also interpret this evolution as an infinite-order entangler for symmetry-protected topological chains, which gives a vast generalization of the celebrated cluster chain and shows that our protocol is robust to symmetry-respecting deformations.</description>
-  </item>
-
-  <item>
     <title>Quantum communication complexity of linear regression</title>
     <link>http://arxiv.org/pdf/2210.01601</link>
     <author>Ashley Montanaro, Changpeng Shao</author>
     <pubDate>Oct 05 2022</pubDate>
     <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
+  </item>
+
+  <item>
+    <title>Universal measurement-based quantum computation in a one-dimensional architecture enabled by dual-unitary circuits</title>
+    <link>http://arxiv.org/pdf/2209.06191</link>
+    <author>David T. Stephen, Wen Wei Ho, Tzu-Chieh Wei, Robert Raussendorf, Ruben Verresen</author>
+    <pubDate>Sep 14 2022</pubDate>
+    <description>A powerful tool emerging from the study of many-body quantum dynamics is that of dual-unitary circuits, which are unitary even when read `sideways', i.e., along the spatial direction. Here, we show that this provides the ideal framework to understand and expand on the notion of measurement-based quantum computation (MBQC). In particular, applying a dual-unitary circuit to a many-body state followed by appropriate measurements effectively implements quantum computation in the spatial direction. We argue that this computation can be made deterministic by enforcing a Clifford condition, and is generically universal. Remarkably, all these requirements can already be satisfied by the dynamics of the paradigmatic kicked Ising chain at specific parameter choices. Specifically, after $k$ time-steps, equivalent to a depth-$k$ quantum circuit, we obtain a resource state for universal MBQC on $\sim 3k/4$ encoded logical qubits. This removes the usual requirement of going to two dimensions to achieve universality, thereby reducing the demands imposed on potential experimental platforms. Beyond the practical advantages, we also interpret this evolution as an infinite-order entangler for symmetry-protected topological chains, which gives a vast generalization of the celebrated cluster chain and shows that our protocol is robust to symmetry-respecting deformations.</description>
   </item>
 
   <item>
@@ -215,19 +215,19 @@
   </item>
 
   <item>
-    <title>Beyond Heisenberg Limit Quantum Metrology through Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2209.11207</link>
-    <author>Yulong Dong, Jonathan Gross, Murphy Yuezhen Niu</author>
-    <pubDate>Sep 23 2022</pubDate>
-    <description>Leveraging quantum effects in metrology such as entanglement and coherence allows one to measure parameters with enhanced sensitivity. However, time-dependent noise can disrupt such Heisenberg-limited amplification. We propose a quantum-metrology method based on the quantum-signal-processing framework to overcome these realistic noise-induced limitations in practical quantum metrology. Our algorithm separates the gate parameter $\varphi$~(single-qubit Z phase) that is susceptible to time-dependent error from the target gate parameter $\theta$~(swap-angle between |10> and |01> states) that is largely free of time-dependent error. Our method achieves an accuracy of $10^{-4}$ radians in standard deviation for learning $\theta$ in superconducting-qubit experiments, outperforming existing alternative schemes by two orders of magnitude. We also demonstrate the increased robustness in learning time-dependent gate parameters through fast Fourier transformation and sequential phase difference. We show both theoretically and numerically that there is an interesting transition of the optimal metrology variance scaling as a function of circuit depth $d$ from the pre-asymptotic regime $d \ll 1/\theta$ to Heisenberg limit $d \to \infty$. Remarkably, in the pre-asymptotic regime our method's estimation variance on time-sensitive parameter $\varphi$ scales faster than the asymptotic Heisenberg limit as a function of depth, $\text{Var}(\hat{\varphi})\approx 1/d^4$. Our work is the first quantum-signal-processing algorithm that demonstrates practical application in laboratory quantum computers.</description>
-  </item>
-
-  <item>
     <title>Floquet codes without parent subsystem codes</title>
     <link>http://arxiv.org/pdf/2210.02468</link>
     <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
+  </item>
+
+  <item>
+    <title>Beyond Heisenberg Limit Quantum Metrology through Quantum Signal Processing</title>
+    <link>http://arxiv.org/pdf/2209.11207</link>
+    <author>Yulong Dong, Jonathan Gross, Murphy Yuezhen Niu</author>
+    <pubDate>Sep 23 2022</pubDate>
+    <description>Leveraging quantum effects in metrology such as entanglement and coherence allows one to measure parameters with enhanced sensitivity. However, time-dependent noise can disrupt such Heisenberg-limited amplification. We propose a quantum-metrology method based on the quantum-signal-processing framework to overcome these realistic noise-induced limitations in practical quantum metrology. Our algorithm separates the gate parameter $\varphi$~(single-qubit Z phase) that is susceptible to time-dependent error from the target gate parameter $\theta$~(swap-angle between |10> and |01> states) that is largely free of time-dependent error. Our method achieves an accuracy of $10^{-4}$ radians in standard deviation for learning $\theta$ in superconducting-qubit experiments, outperforming existing alternative schemes by two orders of magnitude. We also demonstrate the increased robustness in learning time-dependent gate parameters through fast Fourier transformation and sequential phase difference. We show both theoretically and numerically that there is an interesting transition of the optimal metrology variance scaling as a function of circuit depth $d$ from the pre-asymptotic regime $d \ll 1/\theta$ to Heisenberg limit $d \to \infty$. Remarkably, in the pre-asymptotic regime our method's estimation variance on time-sensitive parameter $\varphi$ scales faster than the asymptotic Heisenberg limit as a function of depth, $\text{Var}(\hat{\varphi})\approx 1/d^4$. Our work is the first quantum-signal-processing algorithm that demonstrates practical application in laboratory quantum computers.</description>
   </item>
 
   <item>

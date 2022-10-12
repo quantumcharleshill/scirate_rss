@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Quantum communication complexity of linear regression</title>
-    <link>http://arxiv.org/pdf/2210.01601</link>
-    <author>Ashley Montanaro, Changpeng Shao</author>
-    <pubDate>Oct 05 2022</pubDate>
-    <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
-  </item>
-
-  <item>
     <title>Floquet codes without parent subsystem codes</title>
     <link>http://arxiv.org/pdf/2210.02468</link>
     <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
@@ -39,27 +31,19 @@
   </item>
 
   <item>
-    <title>Thermal State Preparation via Rounding Promises</title>
-    <link>http://arxiv.org/pdf/2210.01670</link>
-    <author>Patrick Rall, Chunhao Wang, Pawel Wocjan</author>
-    <pubDate>Oct 05 2022</pubDate>
-    <description>A promising avenue for the preparation of Gibbs states on a quantum computer is to simulate the physical thermalization process. The Davies generator describes the dynamics of an open quantum system that is in contact with a heat bath. Crucially, it does not require simulation of the heat bath itself, only the system we hope to thermalize. Using the state-of-the-art techniques for quantum simulation of the Lindblad equation, we devise a technique for the preparation of Gibbs states via thermalization as specified by the Davies generator. In doing so, we encounter a severe technical challenge: implementation of the Davies generator demands the ability to estimate the energy of the system unambiguously. That is, each energy of the system must be deterministically mapped to a unique estimate. Previous work showed that this is only possible if the system satisfies an unphysical 'rounding promise' assumption. We solve this problem by engineering a random ensemble of rounding promises that simultaneously solves three problems: First, each rounding promise admits preparation of a 'promised' thermal state via a Davies generator. Second, these Davies generators have a similar mixing time as the ideal Davies generator. Third, the average of these promised thermal states approximates the ideal thermal state.</description>
-  </item>
-
-  <item>
-    <title>Distributed Quantum Interactive Proofs</title>
-    <link>http://arxiv.org/pdf/2210.01390</link>
-    <author>François Le Gall, Masayuki Miyamoto, Harumichi Nishimura</author>
-    <pubDate>Oct 05 2022</pubDate>
-    <description>The study of distributed interactive proofs was initiated by Kol, Oshman, and Saxena [PODC 2018] as a generalization of distributed decision mechanisms (proof-labeling schemes, etc.), and has received a lot of attention in recent years. In distributed interactive proofs, the nodes of an $n$-node network $G$ can exchange short messages (called certificates) with a powerful prover. The goal is to decide if the input (including $G$ itself) belongs to some language, with as few turns of interaction and as few bits exchanged between nodes and the prover as possible. There are several results showing that the size of certificates can be reduced drastically with a constant number of interactions compared to non-interactive distributed proofs. In this paper, we introduce the quantum counterpart of distributed interactive proofs: certificates can now be quantum bits, and the nodes of the network can perform quantum computation. The first result of this paper shows that by using quantum distributed interactive proofs, the number of interactions can be significantly reduced. More precisely, our result shows that for any constant~$k$, the class of languages that can be decided by a $k$-turn classical (i.e., non-quantum) distributed interactive protocol with $f(n)$-bit certificate size is contained in the class of languages that can be decided by a $5$-turn distributed quantum interactive protocol with $O(f(n))$-bit certificate size. We also show that if we allow to use shared randomness, the number of turns can be reduced to 3-turn. Since no similar turn-reduction \emphclassical technique is currently known, our result gives evidence of the power of quantum computation in the setting of distributed interactive proofs as well.</description>
-  </item>
-
-  <item>
     <title>A perturbative gadget for delaying the onset of barren plateaus in variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2210.03099</link>
     <author>Simon Cichy, Paul K. Faehrmann, Sumeet Khatri, Jens Eisert</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>Variational quantum algorithms are being explored as a promising approach to finding useful applications for noisy intermediate-scale quantum computers. However, cost functions corresponding to many problems of interest are inherently global, defined by Hamiltonians with many-body interactions. Consequently, the optimization landscape can exhibit exponentially vanishing gradients, so-called barren plateaus, rendering optimal solutions difficult to find. Strategies for mitigating barren plateaus are therefore needed to make variational quantum algorithms trainable and capable of running on larger-scale quantum devices. In this work, we contribute the toolbox of perturbative gadgets to the portfolio of methods being explored in the quest for making noisy intermediate-scale quantum devices useful. Specifically, we introduce a novel perturbative gadget, tailored to variational quantum algorithms, that can be used to avoid barren plateaus. Our perturbative gadget encodes an arbitrary many-body Hamiltonian corresponding to a global cost function into the low-energy subspace of a three-body Hamiltonian. Our construction requires $rk$ additional qubits for a $k$-body Hamiltonian comprising $r$ terms. We provide rigorous guarantees on the optimization of the local cost function defined by our three-body gadget Hamiltonian with respect to the original cost function, and we prove that this local cost function exhibits non-vanishing gradients, thus delaying the onset of barren plateaus. We then provide numerical demonstrations to show the functioning of our approach.</description>
+  </item>
+
+  <item>
+    <title>Quantum state tomography via non-convex Riemannian gradient descent</title>
+    <link>http://arxiv.org/pdf/2210.04717</link>
+    <author>Ming-Chien Hsu, En-Jui Kuo, Wei-Hsuan Yu, Jian-Feng Cai, Min-Hsiu Hsieh</author>
+    <pubDate>Oct 11 2022</pubDate>
+    <description>The recovery of an unknown density matrix of large size requires huge computational resources. The recent Factored Gradient Descent (FGD) algorithm and its variants achieved state-of-the-art performance since they could mitigate the dimensionality barrier by utilizing some of the underlying structures of the density matrix. Despite their theoretical guarantee of a linear convergence rate, the convergence in practical scenarios is still slow because the contracting factor of the FGD algorithms depends on the condition number $\kappa$ of the ground truth state. Consequently, the total number of iterations can be as large as $O(\sqrt{\kappa}\ln(\frac{1}{\varepsilon}))$ to achieve the estimation error $\varepsilon$. In this work, we derive a quantum state tomography scheme that improves the dependence on $\kappa$ to the logarithmic scale; namely, our algorithm could achieve the approximation error $\varepsilon$ in $O(\ln(\frac{1}{\kappa\varepsilon}))$ steps. The improvement comes from the application of the non-convex Riemannian gradient descent (RGD). The contracting factor in our approach is thus a universal constant that is independent of the given state. Our theoretical results of extremely fast convergence and nearly optimal error bounds are corroborated by numerical results.</description>
   </item>
 
   <item>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
-    <title>Distributed Merlin-Arthur Synthesis of Quantum States and Its Applications</title>
-    <link>http://arxiv.org/pdf/2210.01389</link>
-    <author>François Le Gall, Masayuki Miyamoto, Harumichi Nishimura</author>
-    <pubDate>Oct 05 2022</pubDate>
-    <description>The generation and verification of quantum states are fundamental tasks for quantum information processing that have recently been investigated by Irani, Natarajan, Nirkhe, Rao and Yuen [CCC 2022] and Rosenthal and Yuen [ITCS 2022] under the term \emphstate synthesis. This paper studies this concept from the viewpoint of quantum distributed computing, and especially distributed quantum Merlin-Arthur (dQMA) protocols. We first introduce a novel task, on a line, called state generation with distributed inputs (SGDI). In this task, the goal is to generate the quantum state $U\ket{\psi}$ at the rightmost node of the line, where $\ket{\psi}$ is a quantum state given at the leftmost node and $U$ is a unitary matrix whose description is distributed over the nodes of the line. We give a dQMA protocol for SGDI and utilize this protocol to construct a dQMA protocol for the Set Equality problem studied by Naor, Parter and Yogev [SODA 2020]. Our second contribution is a technique, based on a recent work by Zhu and Hayashi [Physical Review A, 2019], to create EPR-pairs between adjacent nodes of a network without quantum communication. As an application of this technique, we prove a general result showing how to convert any dQMA protocol on an arbitrary network into another dQMA protocol where the verification stage does not require any quantum communication.</description>
+    <title>Fault-tolerant Coding for Entanglement-Assisted Communication</title>
+    <link>http://arxiv.org/pdf/2210.02939</link>
+    <author>Paula Belzig, Matthias Christandl, Alexander Müller-Hermes</author>
+    <pubDate>Oct 07 2022</pubDate>
+    <description>Channel capacities quantify the optimal rates of sending information reliably over noisy channels. Usually, the study of capacities assumes that the circuits which sender and receiver use for encoding and decoding consist of perfectly noiseless gates. In the case of communication over quantum channels, however, this assumption is widely believed to be unrealistic, even in the long-term, due to the fragility of quantum information, which is affected by the process of decoherence. Christandl and Müller-Hermes have therefore initiated the study of fault-tolerant channel coding for quantum channels, i.e. coding schemes where encoder and decoder circuits are affected by noise, and have used techniques from fault-tolerant quantum computing to establish coding theorems for sending classical and quantum information in this scenario. Here, we extend these methods to the case of entanglement-assisted communication, in particular proving that the fault-tolerant capacity approaches the usual capacity when the gate error approaches zero. A main tool, which might be of independent interest, is the introduction of fault-tolerant entanglement distillation. We furthermore focus on the modularity of the techniques used, so that they can be easily adopted in other fault-tolerant communication scenarios.</description>
+  </item>
+
+  <item>
+    <title>Quantum Computation for Periodic Solids in Second Quantization</title>
+    <link>http://arxiv.org/pdf/2210.02403</link>
+    <author>Aleksei V. Ivanov, Christoph Sünderhauf, Nicole Holzmann, Tom Ellaby, Rachel N. Kerber, Glenn Jones, Joan Camps</author>
+    <pubDate>Oct 06 2022</pubDate>
+    <description>In this work, we present a quantum algorithm for ground-state energy calculations of periodic solids on error-corrected quantum computers. The algorithm is based on the sparse qubitization approach in second quantization and developed for Bloch and Wannier basis sets. We show that Wannier functions require less computational resources with respect to Bloch functions because: (i) the L$_1$ norm of the Hamiltonian is considerably lower and (ii) the translational symmetry of Wannier functions can be exploited in order to reduce the amount of classical data that must be loaded into the quantum computer. The resource requirements of the quantum algorithm are estimated for periodic solids such as NiO and PdO. These transition metal oxides are industrially relevant for their catalytic properties. We find that ground-state energy estimation of Hamiltonians approximated using 200--900 spin orbitals requires \it ca.~$10{}^{10}$--$10^{12}$ T gates and up to $3\cdot10^8$ physical qubits for a physical error rate of $0.1\%$.</description>
+  </item>
+
+  <item>
+    <title>Universal Quantum Speedup for Branch-and-Bound, Branch-and-Cut, and Tree-Search Algorithms</title>
+    <link>http://arxiv.org/pdf/2210.03210</link>
+    <author>Shouvanik Chakrabarti, Pierre Minssen, Romina Yalovetzky, Marco Pistoia</author>
+    <pubDate>Oct 10 2022</pubDate>
+    <description>Mixed Integer Programs (MIPs) model many optimization problems of interest in Computer Science, Operations Research, and Financial Engineering. Solving MIPs is NP-Hard in general, but several solvers have found success in obtaining near-optimal solutions for problems of intermediate size. Branch-and-Cut algorithms, which combine Branch-and-Bound logic with cutting-plane routines, are at the core of modern MIP solvers. Montanaro proposed a quantum algorithm with a near-quadratic speedup compared to classical Branch-and-Bound algorithms in the worst case, when every optimal solution is desired. In practice, however, a near-optimal solution is satisfactory, and by leveraging tree-search heuristics to search only a portion of the solution tree, classical algorithms can perform much better than the worst-case guarantee. In this paper, we propose a quantum algorithm, Incremental-Quantum-Branch-and-Bound, with universal near-quadratic speedup over classical Branch-and-Bound algorithms for every input, i.e., if classical Branch-and-Bound has complexity $Q$ on an instance that leads to solution depth $d$, Incremental-Quantum-Branch-and-Bound offers the same guarantees with a complexity of $\tilde{O}(\sqrt{Q}d)$. Our results are valid for a wide variety of search heuristics, including depth-based, cost-based, and $A^{\ast}$ heuristics. Universal speedups are also obtained for Branch-and-Cut as well as heuristic tree search. Our algorithms are directly comparable to commercial MIP solvers, and guarantee near quadratic speedup whenever $Q \gg d$. We use numerical simulation to verify that $Q \gg d$ for typical instances of the Sherrington-Kirkpatrick model, Maximum Independent Set, and Portfolio Optimization; as well as to extrapolate the dependence of $Q$ on input size parameters. This allows us to project the typical performance of our quantum algorithms for these important problems.</description>
   </item>
 
 </channel>
