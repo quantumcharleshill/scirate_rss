@@ -263,14 +263,6 @@
   </item>
 
   <item>
-    <title>Learnability of the output distributions of local quantum circuits</title>
-    <link>http://arxiv.org/pdf/2110.05517</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Oct 13 2021</pubDate>
-    <description>There is currently a large interest in understanding the potential advantages quantum devices can offer for probabilistic modelling. In this work we investigate, within two different oracle models, the probably approximately correct (PAC) learnability of quantum circuit Born machines, i.e., the output distributions of local quantum circuits. We first show a negative result, namely, that the output distributions of super-logarithmic depth Clifford circuits are not sample-efficiently learnable in the statistical query model, i.e., when given query access to empirical expectation values of bounded functions over the sample space. This immediately implies the hardness, for both quantum and classical algorithms, of learning from statistical queries the output distributions of local quantum circuits using any gate set which includes the Clifford group. As many practical generative modelling algorithms use statistical queries -- including those for training quantum circuit Born machines -- our result is broadly applicable and strongly limits the possibility of a meaningful quantum advantage for learning the output distributions of local quantum circuits. As a positive result, we show that in a more powerful oracle model, namely when directly given access to samples, the output distributions of local Clifford circuits are computationally efficiently PAC learnable by a classical learner. Our results are equally applicable to the problems of learning an algorithm for generating samples from the target distribution (generative modelling) and learning an algorithm for evaluating its probabilities (density modelling). They provide the first rigorous insights into the learnability of output distributions of local quantum circuits from the probabilistic modelling perspective.</description>
-  </item>
-
-  <item>
     <title>Low-overhead fault-tolerant quantum computing using long-range connectivity</title>
     <link>http://arxiv.org/pdf/2110.10794</link>
     <author>Lawrence Z. Cohen, Isaac H. Kim, Stephen D. Bartlett, Benjamin J. Brown</author>
@@ -327,6 +319,14 @@
   </item>
 
   <item>
+    <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
+    <link>http://arxiv.org/pdf/2210.03030</link>
+    <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
+    <pubDate>Oct 07 2022</pubDate>
+    <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
+  </item>
+
+  <item>
     <title>The learnability of Pauli noise</title>
     <link>http://arxiv.org/pdf/2206.06362</link>
     <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
@@ -367,14 +367,6 @@
   </item>
 
   <item>
-    <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
-    <link>http://arxiv.org/pdf/2210.03030</link>
-    <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
-  </item>
-
-  <item>
     <title>Distributed quantum inner product estimation</title>
     <link>http://arxiv.org/pdf/2111.03273</link>
     <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
@@ -396,6 +388,14 @@
     <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
+  </item>
+
+  <item>
+    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
+    <link>http://arxiv.org/pdf/2208.11941</link>
+    <author>Harriet Apel, Toby Cubitt</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
   </item>
 
   <item>

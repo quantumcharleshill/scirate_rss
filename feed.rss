@@ -183,19 +183,19 @@
   </item>
 
   <item>
-    <title>Postselected quantum hypothesis testing</title>
-    <link>http://arxiv.org/pdf/2209.10550</link>
-    <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
-    <pubDate>Sep 23 2022</pubDate>
-    <description>We study a variant of quantum hypothesis testing wherein an additional 'inconclusive' measurement outcome is added, allowing one to abstain from attempting to discriminate the hypotheses. The error probabilities are then conditioned on a successful attempt, with inconclusive trials disregarded. We completely characterise this task in both the single-shot and asymptotic regimes, providing exact formulas for the optimal error probabilities. In particular, we prove that the asymptotic error exponent of discriminating any two quantum states $\rho$ and $\sigma$ is given by the Hilbert projective metric $D_{\max}(\rho\|\sigma) + D_{\max}(\sigma \| \rho)$ in asymmetric hypothesis testing, and by the Thompson metric $\max \{ D_{\max}(\rho\|\sigma), D_{\max}(\sigma \| \rho) \}$ in symmetric hypothesis testing. This endows these two quantities with fundamental operational interpretations in quantum state discrimination. Our findings extend to composite hypothesis testing, where we show that the asymmetric error exponent with respect to any convex set of density matrices is given by a regularisation of the Hilbert projective metric. We apply our results also to quantum channels, showing that no advantage is gained by employing adaptive or even more general discrimination schemes over parallel ones, in both the asymmetric and symmetric settings. Our state discrimination results make use of no properties specific to quantum mechanics and are also valid in general probabilistic theories.</description>
-  </item>
-
-  <item>
     <title>Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom</title>
     <link>http://arxiv.org/pdf/2209.14530</link>
     <author>Sabee Grewal, Vishnu Iyer, William Kretschmer, Daniel Liang</author>
     <pubDate>Sep 30 2022</pubDate>
     <description>We show that quantum states with "low stabilizer complexity" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|\psi\rangle$, we give an efficient algorithm that distinguishes whether $|\psi\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\frac{1}{k}$ (i.e., has fidelity at least $\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|\psi\rangle$, our algorithm uses $O\!\left( k^{12} \log(1/\delta)\right)$ copies of $|\psi\rangle$ and $O\!\left(n k^{12} \log(1/\delta)\right)$ time to succeed with probability at least $1-\delta$, and, with access to a state preparation unitary for $|\psi\rangle$ (and its inverse), $O\!\left( k^{3} \log(1/\delta)\right)$ queries and $O\!\left(n k^{3} \log(1/\delta)\right)$ time suffice. As a corollary, we prove that $\omega(\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.</description>
+  </item>
+
+  <item>
+    <title>Postselected quantum hypothesis testing</title>
+    <link>http://arxiv.org/pdf/2209.10550</link>
+    <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
+    <pubDate>Sep 23 2022</pubDate>
+    <description>We study a variant of quantum hypothesis testing wherein an additional 'inconclusive' measurement outcome is added, allowing one to abstain from attempting to discriminate the hypotheses. The error probabilities are then conditioned on a successful attempt, with inconclusive trials disregarded. We completely characterise this task in both the single-shot and asymptotic regimes, providing exact formulas for the optimal error probabilities. In particular, we prove that the asymptotic error exponent of discriminating any two quantum states $\rho$ and $\sigma$ is given by the Hilbert projective metric $D_{\max}(\rho\|\sigma) + D_{\max}(\sigma \| \rho)$ in asymmetric hypothesis testing, and by the Thompson metric $\max \{ D_{\max}(\rho\|\sigma), D_{\max}(\sigma \| \rho) \}$ in symmetric hypothesis testing. This endows these two quantities with fundamental operational interpretations in quantum state discrimination. Our findings extend to composite hypothesis testing, where we show that the asymmetric error exponent with respect to any convex set of density matrices is given by a regularisation of the Hilbert projective metric. We apply our results also to quantum channels, showing that no advantage is gained by employing adaptive or even more general discrimination schemes over parallel ones, in both the asymmetric and symmetric settings. Our state discrimination results make use of no properties specific to quantum mechanics and are also valid in general probabilistic theories.</description>
   </item>
 
   <item>
@@ -239,11 +239,11 @@
   </item>
 
   <item>
-    <title>On the computational hardness needed for quantum cryptography</title>
-    <link>http://arxiv.org/pdf/2209.04101</link>
-    <author>Zvika Brakerski, Ran Canetti, Luowen Qian</author>
-    <pubDate>Sep 12 2022</pubDate>
-    <description>In the classical model of computation, it is well established that one-way functions (OWF) are essential for almost every computational cryptographic application. In the quantum setting, however, OWFs appear not to be essential (Kretschmer 2021; Ananth et al., Morimae and Yamakawa 2022), and the question of whether a minimal primitive exists remains open. We consider EFI pairs -- efficiently samplable, statistically far but computationally indistinguishable pairs of distributions. Building on the work of Yan (2022) which shows equivalence between EFI pairs and statistical commitment schemes, we show that EFI pairs are necessary and sufficient for a large class of quantum-cryptographic applications. Specifically, while it was known how to construct commitments schemes, oblivious transfer, and general secure multiparty computation from any EFI, we show how to construct EFI pairs from minimalistic versions of each one of these primitives. We also construct from EFI quantum computational zero knowledge ($\mathsf{QCZK}$) proofs for all of $\mathsf{QIP}$, and construct EFI pairs from essentially any non-trivial $\mathsf{QCZK}$. This suggests that, for much of quantum cryptography, EFI pairs play a similar role to that played by OWFs in the classical setting: they are simple to describe, essential, and also serve as a linchpin for demonstrating equivalence between primitives.</description>
+    <title>Measurement-based quantum computation in finite one-dimensional systems: string order implies computational power</title>
+    <link>http://arxiv.org/pdf/2210.05089</link>
+    <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
+    <pubDate>Oct 12 2022</pubDate>
+    <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
   </item>
 
 </channel>
