@@ -159,11 +159,11 @@
   </item>
 
   <item>
-    <title>Quantum Locally Testable Code with Exotic Parameters</title>
-    <link>http://arxiv.org/pdf/2209.11405</link>
-    <author>Andrew Cross, Zhiyang He, Anand Natarajan, Mario Szegedy, Guanyu Zhu</author>
-    <pubDate>Sep 26 2022</pubDate>
-    <description>In this paper, we present a few simple constructions of quantum locally testable codes that achieve interesting parameters which were previously unknown. We introduce an operation which we give the name check product, and show how this operation gives rise to quantum locally testable codes of constant soundness and linear rate, with varying distance and locality.</description>
+    <title>Unitary property testing lower bounds by polynomials</title>
+    <link>http://arxiv.org/pdf/2210.05885</link>
+    <author>Adrian She, Henry Yuen</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>We study unitary property testing, where a quantum algorithm is given query access to a black-box unitary and has to decide whether it satisfies some property. In addition to containing the standard quantum query complexity model (where the unitary encodes a binary string) as a special case, this model contains "inherently quantum" problems that have no classical analogue. Characterizing the query complexity of these problems requires new algorithmic techniques and lower bound methods. Our main contribution is a generalized polynomial method for unitary property testing problems. By leveraging connections with invariant theory, we apply this method to obtain lower bounds on problems such as determining recurrence times of unitaries, approximating the dimension of a marked subspace, and approximating the entanglement entropy of a marked state. We also present a unitary property testing-based approach towards an oracle separation between $\mathsf{QMA}$ and $\mathsf{QMA(2)}$, a long standing question in quantum complexity theory.</description>
   </item>
 
   <item>
@@ -172,6 +172,22 @@
     <author>Armands Strikis, Lucas Berent</author>
     <pubDate>Sep 30 2022</pubDate>
     <description>In efforts to scale the size of quantum computers, modularity plays a central role across most quantum computing technologies. In the light of fault tolerance, this necessitates designing quantum error-correcting codes that are compatible with the connectivity arising from the architectural layouts. In this paper, we aim to bridge this gap by giving a novel way to view and construct quantum LDPC codes tailored for modular architectures. We demonstrate that if the intra- and inter-modular qubit connectivity can be viewed as corresponding to some classical or quantum LDPC codes, then their hypergraph product code fully respects the architectural connectivity constraints. Finally, we show that relaxed connectivity constraints that allow twists of connections between modules pave a way to construct codes with better parameters.</description>
+  </item>
+
+  <item>
+    <title>Quantum Locally Testable Code with Exotic Parameters</title>
+    <link>http://arxiv.org/pdf/2209.11405</link>
+    <author>Andrew Cross, Zhiyang He, Anand Natarajan, Mario Szegedy, Guanyu Zhu</author>
+    <pubDate>Sep 26 2022</pubDate>
+    <description>In this paper, we present a few simple constructions of quantum locally testable codes that achieve interesting parameters which were previously unknown. We introduce an operation which we give the name check product, and show how this operation gives rise to quantum locally testable codes of constant soundness and linear rate, with varying distance and locality.</description>
+  </item>
+
+  <item>
+    <title>Quantum Depth in the Random Oracle Model</title>
+    <link>http://arxiv.org/pdf/2210.06454</link>
+    <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
   </item>
 
   <item>
@@ -191,6 +207,14 @@
   </item>
 
   <item>
+    <title>Quantum divide and conquer</title>
+    <link>http://arxiv.org/pdf/2210.06419</link>
+    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
+  </item>
+
+  <item>
     <title>Postselected quantum hypothesis testing</title>
     <link>http://arxiv.org/pdf/2209.10550</link>
     <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
@@ -207,14 +231,6 @@
   </item>
 
   <item>
-    <title>Classical and Quantum Iterative Optimization Algorithms Based on Matrix Legendre-Bregman Projections</title>
-    <link>http://arxiv.org/pdf/2209.14185</link>
-    <author>Zhengfeng Ji</author>
-    <pubDate>Sep 29 2022</pubDate>
-    <description>We consider Legendre-Bregman projections defined on the Hermitian matrix space and design iterative optimization algorithms based on them. A general duality theorem is established for Bregman divergences on Hermitian matrices, and it plays a crucial role in proving the convergence of the iterative algorithms. We study both exact and approximate Bregman projection algorithms. In the particular case of Kullback-Leibler divergence, our approximate iterative algorithm gives rise to the non-commutative versions of both the generalized iterative scaling (GIS) algorithm for maximum entropy inference and the AdaBoost algorithm in machine learning as special cases. As the Legendre-Bregman projections are simple matrix functions on Hermitian matrices, quantum algorithmic techniques are applicable to achieve potential speedups in each iteration of the algorithm. We discuss several quantum algorithmic design techniques applicable in our setting, including the smooth function evaluation technique, two-phase quantum minimum finding, and NISQ Gibbs state preparation.</description>
-  </item>
-
-  <item>
     <title>Floquet codes without parent subsystem codes</title>
     <link>http://arxiv.org/pdf/2210.02468</link>
     <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
@@ -223,27 +239,11 @@
   </item>
 
   <item>
-    <title>Beyond Heisenberg Limit Quantum Metrology through Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2209.11207</link>
-    <author>Yulong Dong, Jonathan Gross, Murphy Yuezhen Niu</author>
-    <pubDate>Sep 23 2022</pubDate>
-    <description>Leveraging quantum effects in metrology such as entanglement and coherence allows one to measure parameters with enhanced sensitivity. However, time-dependent noise can disrupt such Heisenberg-limited amplification. We propose a quantum-metrology method based on the quantum-signal-processing framework to overcome these realistic noise-induced limitations in practical quantum metrology. Our algorithm separates the gate parameter $\varphi$~(single-qubit Z phase) that is susceptible to time-dependent error from the target gate parameter $\theta$~(swap-angle between |10> and |01> states) that is largely free of time-dependent error. Our method achieves an accuracy of $10^{-4}$ radians in standard deviation for learning $\theta$ in superconducting-qubit experiments, outperforming existing alternative schemes by two orders of magnitude. We also demonstrate the increased robustness in learning time-dependent gate parameters through fast Fourier transformation and sequential phase difference. We show both theoretically and numerically that there is an interesting transition of the optimal metrology variance scaling as a function of circuit depth $d$ from the pre-asymptotic regime $d \ll 1/\theta$ to Heisenberg limit $d \to \infty$. Remarkably, in the pre-asymptotic regime our method's estimation variance on time-sensitive parameter $\varphi$ scales faster than the asymptotic Heisenberg limit as a function of depth, $\text{Var}(\hat{\varphi})\approx 1/d^4$. Our work is the first quantum-signal-processing algorithm that demonstrates practical application in laboratory quantum computers.</description>
-  </item>
-
-  <item>
-    <title>Single-qubit gate teleportation provides a quantum advantage</title>
-    <link>http://arxiv.org/pdf/2209.14158</link>
-    <author>Libor Caha, Xavier Coiteux-Roy, Robert Koenig</author>
+    <title>Classical and Quantum Iterative Optimization Algorithms Based on Matrix Legendre-Bregman Projections</title>
+    <link>http://arxiv.org/pdf/2209.14185</link>
+    <author>Zhengfeng Ji</author>
     <pubDate>Sep 29 2022</pubDate>
-    <description>Gate-teleportation circuits are arguably among the most basic examples of computations believed to provide a quantum computational advantage: In seminal work [Quantum Inf. Comput., 4(2):134--145], Terhal and DiVincenzo have shown that these circuits elude simulation by efficient classical algorithms under plausible complexity-theoretic assumptions. Here we consider possibilistic simulation [arXiv:1904.05282], a particularly weak form of this task where the goal is to output any string appearing with non-zero probability in the output distribution of the circuit. We show that even for single-qubit Clifford-gate-teleportation circuits this simulation problem cannot be solved by constant-depth classical circuits with bounded fan-in gates. Our results are unconditional and are obtained by a reduction to the problem of computing the parity, a well-studied problem in classical circuit complexity.</description>
-  </item>
-
-  <item>
-    <title>Measurement-based quantum computation in finite one-dimensional systems: string order implies computational power</title>
-    <link>http://arxiv.org/pdf/2210.05089</link>
-    <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
-    <pubDate>Oct 12 2022</pubDate>
-    <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
+    <description>We consider Legendre-Bregman projections defined on the Hermitian matrix space and design iterative optimization algorithms based on them. A general duality theorem is established for Bregman divergences on Hermitian matrices, and it plays a crucial role in proving the convergence of the iterative algorithms. We study both exact and approximate Bregman projection algorithms. In the particular case of Kullback-Leibler divergence, our approximate iterative algorithm gives rise to the non-commutative versions of both the generalized iterative scaling (GIS) algorithm for maximum entropy inference and the AdaBoost algorithm in machine learning as special cases. As the Legendre-Bregman projections are simple matrix functions on Hermitian matrices, quantum algorithmic techniques are applicable to achieve potential speedups in each iteration of the algorithm. We discuss several quantum algorithmic design techniques applicable in our setting, including the smooth function evaluation technique, two-phase quantum minimum finding, and NISQ Gibbs state preparation.</description>
   </item>
 
 </channel>

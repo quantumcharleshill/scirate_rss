@@ -7,27 +7,27 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
-    <link>http://arxiv.org/pdf/2210.03030</link>
-    <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
+    <title>Unitary property testing lower bounds by polynomials</title>
+    <link>http://arxiv.org/pdf/2210.05885</link>
+    <author>Adrian She, Henry Yuen</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>We study unitary property testing, where a quantum algorithm is given query access to a black-box unitary and has to decide whether it satisfies some property. In addition to containing the standard quantum query complexity model (where the unitary encodes a binary string) as a special case, this model contains "inherently quantum" problems that have no classical analogue. Characterizing the query complexity of these problems requires new algorithmic techniques and lower bound methods. Our main contribution is a generalized polynomial method for unitary property testing problems. By leveraging connections with invariant theory, we apply this method to obtain lower bounds on problems such as determining recurrence times of unitaries, approximating the dimension of a marked subspace, and approximating the entanglement entropy of a marked state. We also present a unitary property testing-based approach towards an oracle separation between $\mathsf{QMA}$ and $\mathsf{QMA(2)}$, a long standing question in quantum complexity theory.</description>
   </item>
 
   <item>
-    <title>NLTS Hamiltonians from classical LTCs</title>
-    <link>http://arxiv.org/pdf/2210.02999</link>
-    <author>Zhiyang He, Chinmay Nirkhe</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>We provide a completely self-contained construction of a family of NLTS Hamiltonians [Freedman and Hastings, 2014] based on ideas from [Anshu, Breuckmann, and Nirkhe, 2022], [Cross, He, Natarajan, Szegedy, and Zhu, 2022] and [Eldar and Harrow, 2017]. Crucially, it does not require optimal-parameter quantum LDPC codes and can be built from simple classical LTCs such as the repetition code on an expander graph. Furthermore, it removes the constant-rate requirement from the construction of Anshu, Breuckmann, and Nirkhe.</description>
+    <title>Quantum Depth in the Random Oracle Model</title>
+    <link>http://arxiv.org/pdf/2210.06454</link>
+    <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
   </item>
 
   <item>
-    <title>Floquet codes without parent subsystem codes</title>
-    <link>http://arxiv.org/pdf/2210.02468</link>
-    <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
+    <title>Quantum divide and conquer</title>
+    <link>http://arxiv.org/pdf/2210.06419</link>
+    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
   </item>
 
   <item>
@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>A perturbative gadget for delaying the onset of barren plateaus in variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2210.03099</link>
-    <author>Simon Cichy, Paul K. Faehrmann, Sumeet Khatri, Jens Eisert</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>Variational quantum algorithms are being explored as a promising approach to finding useful applications for noisy intermediate-scale quantum computers. However, cost functions corresponding to many problems of interest are inherently global, defined by Hamiltonians with many-body interactions. Consequently, the optimization landscape can exhibit exponentially vanishing gradients, so-called barren plateaus, rendering optimal solutions difficult to find. Strategies for mitigating barren plateaus are therefore needed to make variational quantum algorithms trainable and capable of running on larger-scale quantum devices. In this work, we contribute the toolbox of perturbative gadgets to the portfolio of methods being explored in the quest for making noisy intermediate-scale quantum devices useful. Specifically, we introduce a novel perturbative gadget, tailored to variational quantum algorithms, that can be used to avoid barren plateaus. Our perturbative gadget encodes an arbitrary many-body Hamiltonian corresponding to a global cost function into the low-energy subspace of a three-body Hamiltonian. Our construction requires $rk$ additional qubits for a $k$-body Hamiltonian comprising $r$ terms. We provide rigorous guarantees on the optimization of the local cost function defined by our three-body gadget Hamiltonian with respect to the original cost function, and we prove that this local cost function exhibits non-vanishing gradients, thus delaying the onset of barren plateaus. We then provide numerical demonstrations to show the functioning of our approach.</description>
-  </item>
-
-  <item>
     <title>One-Wayness in Quantum Cryptography</title>
     <link>http://arxiv.org/pdf/2210.03394</link>
     <author>Tomoyuki Morimae, Takashi Yamakawa</author>
@@ -63,11 +55,11 @@
   </item>
 
   <item>
-    <title>Hello Quantum World! A rigorous but accessible first-year university course in quantum information science</title>
-    <link>http://arxiv.org/pdf/2210.02868</link>
-    <author>Sophia E. Economou, Edwin Barnes</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>Addressing workforce shortages within the Quantum Information Science and Engineering (QISE) community requires attracting and retaining students from diverse backgrounds early on in their undergraduate education. Here, we describe a course we developed called Hello Quantum World! that introduces a broad range of fundamental quantum information and computation concepts in a rigorous way but without requiring any knowledge of mathematics beyond high-school algebra nor any prior knowledge of quantum mechanics. Some of the topics covered include superposition, entanglement, quantum gates, teleportation, quantum algorithms, and quantum error correction. The course is designed for first-year undergraduate students, both those pursuing a degree in QISE and those who are seeking to be `quantum-aware'.</description>
+    <title>Post-Quantum Zero-Knowledge with Space-Bounded Simulation</title>
+    <link>http://arxiv.org/pdf/2210.06093</link>
+    <author>Prabhanjan Ananth, Alex B. Grilo</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The traditional definition of quantum zero-knowledge stipulates that the knowledge gained by any quantum polynomial-time verifier in an interactive protocol can be simulated by a quantum polynomial-time algorithm. One drawback of this definition is that it allows the simulator to consume significantly more computational resources than the verifier. We argue that this drawback renders the existing notion of quantum zero-knowledge not viable for certain settings, especially when dealing with near-term quantum devices. In this work, we initiate a fine-grained notion of post-quantum zero-knowledge that is more compatible with near-term quantum devices. We introduce the notion of $(s,f)$ space-bounded quantum zero-knowledge. In this new notion, we require that an $s$-qubit malicious verifier can be simulated by a quantum polynomial-time algorithm that uses at most $f(s)$-qubits, for some function $f(\cdot)$, and no restriction on the amount of the classical memory consumed by either the verifier or the simulator. We explore this notion and establish both positive and negative results: - For verifiers with logarithmic quantum space $s$ and (arbitrary) polynomial classical space, we show that $(s,f)$-space-bounded QZK, for $f(s)=2s$, can be achieved based on the existence of post-quantum one-way functions. Moreover, our protocol runs in constant rounds. - For verifiers with super-logarithmic quantum space $s$, assuming the existence of post-quantum secure one-way functions, we show that $(s,f)$-space-bounded QZK protocols, with fully black-box simulation (classical analogue of black-box simulation) can only be achieved for languages in BQP.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Riley W. Chien, Joel Klassen</author>
     <pubDate>Oct 12 2022</pubDate>
     <description>In this work we present a method for generating a fermionic encoding tailored to a set of target fermionic operators and to a target hardware connectivity. Our method uses brute force search, over the space of all encodings which map from Majorana monomials to Pauli operators, to find an encoding which optimizes a target cost function. In contrast to earlier works in this direction, our method searches over an extremely broad class of encodings which subsumes all known second quantized encodings that constitute algebra homomorphisms. In order to search over this class, we give a clear mathematical explanation of how precisely it is characterized, and how to translate this characterization into constructive search criteria. A benefit of searching over this class is that our method is able to supply fairly general optimality guarantees on solutions. A second benefit is that our method is, in principal, capable of finding more efficient representations of fermionic systems when the set of fermionic operators under consideration are faithfully represented by a smaller quotient algebra. Given the high algorithmic cost of performing the search, we adapt our method to handle translationally invariant systems that can be described by a small unit cell that is less costly. We demonstrate our method on various pairings of target fermionic operators and hardware connectivities. We additionally show how our method can be extended to find error detecting fermionic encodings in this class.</description>
+  </item>
+
+  <item>
+    <title>The Complexity of NISQ</title>
+    <link>http://arxiv.org/pdf/2210.07234</link>
+    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
   </item>
 
 </channel>
