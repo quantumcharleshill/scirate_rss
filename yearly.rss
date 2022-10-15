@@ -135,6 +135,14 @@
   </item>
 
   <item>
+    <title>The Complexity of NISQ</title>
+    <link>http://arxiv.org/pdf/2210.07234</link>
+    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
+  </item>
+
+  <item>
     <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
     <link>http://arxiv.org/pdf/2112.02040</link>
     <author>Adam Bouland, Tudor Giurgica-Tiron</author>
@@ -239,19 +247,19 @@
   </item>
 
   <item>
-    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
-    <link>http://arxiv.org/pdf/2207.13707</link>
-    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
-    <pubDate>Jul 29 2022</pubDate>
-    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
-  </item>
-
-  <item>
     <title>The Future of Quantum Computing with Superconducting Qubits</title>
     <link>http://arxiv.org/pdf/2209.06841</link>
     <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
     <pubDate>Sep 16 2022</pubDate>
     <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
+  </item>
+
+  <item>
+    <title>Time-energy uncertainty relation for noisy quantum metrology</title>
+    <link>http://arxiv.org/pdf/2207.13707</link>
+    <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
+    <pubDate>Jul 29 2022</pubDate>
+    <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
   </item>
 
   <item>
@@ -396,14 +404,6 @@
     <author>Harriet Apel, Toby Cubitt</author>
     <pubDate>Aug 26 2022</pubDate>
     <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
-  </item>
-
-  <item>
-    <title>Multivariate trace estimation in constant quantum depth</title>
-    <link>http://arxiv.org/pdf/2206.15405</link>
-    <author>Yihui Quek, Mark M. Wilde, Eneet Kaur</author>
-    <pubDate>Jul 01 2022</pubDate>
-    <description>There is a folkloric belief that a depth-$\Theta(m)$ quantum circuit is needed to estimate the trace of the product of $m$ density matrices (i.e., a multivariate trace). We prove that this belief is overly conservative by constructing a constant quantum-depth circuit for the task, inspired by the method of Shor error correction. Furthermore, our circuit demands only local gates in a two dimensional circuit -- we show how to implement it in a highly parallelized way on an architecture similar to that of Google's Sycamore processor. With these features, our algorithm brings the task of multivariate trace estimation, crucial to applications in condensed matter and estimating nonlinear functions of quantum states, closer to the capabilities of near-term quantum processors. We instantiate the latter application with a theorem on estimating nonlinear functions of quantum states with ``well-behaved" polynomial approximations.</description>
   </item>
 
 </channel>
