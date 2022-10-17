@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>One-Wayness in Quantum Cryptography</title>
-    <link>http://arxiv.org/pdf/2210.03394</link>
-    <author>Tomoyuki Morimae, Takashi Yamakawa</author>
-    <pubDate>Oct 10 2022</pubDate>
-    <description>The existence of one-way functions is one of the most fundamental assumptions in classical cryptography. In the quantum world, on the other hand, there are evidences that some cryptographic primitives can exist even if one-way functions do not exist. We therefore have the following important open problem in quantum cryptography: What is the most fundamental element in quantum cryptography? In this direction, Brakerski, Canetti, and Qian recently defined a notion called EFI pairs, which are pairs of efficiently generatable states that are statistically distinguishable but computationally indistinguishable, and showed its equivalence with some cryptographic primitives including commitments, oblivious transfer, and general multi-party computations. However, their work focuses on decision-type primitives and does not cover search-type primitives like quantum money and digital signatures. In this paper, we study properties of one-way state generators (OWSGs), which are a quantum analogue of one-way functions. We first revisit the definition of OWSGs and generalize it by allowing mixed output states. Then we show the following results. (1) We define a weaker version of OWSGs, weak OWSGs, and show that they are equivalent to OWSGs. (2) Quantum digital signatures are equivalent to OWSGs. (3) Private-key quantum money schemes (with pure money states) imply OWSGs. (4) Quantum pseudo one-time pad schemes imply both OWSGs and EFI pairs. (5) We introduce an incomparable variant of OWSGs, which we call secretly-verifiable and statistically-invertible OWSGs, and show that they are equivalent to EFI pairs.</description>
-  </item>
-
-  <item>
     <title>Post-Quantum Zero-Knowledge with Space-Bounded Simulation</title>
     <link>http://arxiv.org/pdf/2210.06093</link>
     <author>Prabhanjan Ananth, Alex B. Grilo</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>The traditional definition of quantum zero-knowledge stipulates that the knowledge gained by any quantum polynomial-time verifier in an interactive protocol can be simulated by a quantum polynomial-time algorithm. One drawback of this definition is that it allows the simulator to consume significantly more computational resources than the verifier. We argue that this drawback renders the existing notion of quantum zero-knowledge not viable for certain settings, especially when dealing with near-term quantum devices. In this work, we initiate a fine-grained notion of post-quantum zero-knowledge that is more compatible with near-term quantum devices. We introduce the notion of $(s,f)$ space-bounded quantum zero-knowledge. In this new notion, we require that an $s$-qubit malicious verifier can be simulated by a quantum polynomial-time algorithm that uses at most $f(s)$-qubits, for some function $f(\cdot)$, and no restriction on the amount of the classical memory consumed by either the verifier or the simulator. We explore this notion and establish both positive and negative results: - For verifiers with logarithmic quantum space $s$ and (arbitrary) polynomial classical space, we show that $(s,f)$-space-bounded QZK, for $f(s)=2s$, can be achieved based on the existence of post-quantum one-way functions. Moreover, our protocol runs in constant rounds. - For verifiers with super-logarithmic quantum space $s$, assuming the existence of post-quantum secure one-way functions, we show that $(s,f)$-space-bounded QZK protocols, with fully black-box simulation (classical analogue of black-box simulation) can only be achieved for languages in BQP.</description>
+  </item>
+
+  <item>
+    <title>The Random-Bond Ising Model and its dual in Hyperbolic Spaces</title>
+    <link>http://arxiv.org/pdf/2210.07227</link>
+    <author>Benedikt Placke, Nikolas P. Breuckmann</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>We analyze the thermodynamic properties of the random-bond Ising model (RBIM) on closed hyperbolic surfaces using Monte Carlo and high-temperature series expansion techniques. We also analyze the dual-RBIM, that is the model that in the absence of disorder is related to the RBIM via the Kramers-Wannier duality. Even on self-dual lattices this model is different from the RBIM, unlike in the euclidean case. We explain this anomaly by a careful re-derivation of the Kramers--Wannier duality. For the (dual-)RBIM, we compute the paramagnet-to-ferromagnet phase transition as a function of both temperature $T$ and the fraction of antiferromagnetic bonds $p$. We find that as temperature is decreased in the RBIM, the paramagnet gives way to either a ferromagnet or a spin-glass phase via a second-order transition compatible with mean-field behavior. In contrast, the dual-RBIM undergoes a strongly first order transition from the paramagnet to the ferromagnet both in the absence of disorder and along the Nishimori line. We study both transitions for a variety of hyperbolic tessellations and comment on the role of coordination number and curvature. The extent of the ferromagnetic phase in the dual-RBIM corresponds to the correctable phase of hyperbolic surface codes under independent bit- and phase-flip noise.</description>
   </item>
 
 </channel>

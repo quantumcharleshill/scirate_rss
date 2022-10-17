@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>How Much Structure Is Needed for Huge Quantum Speedups?</title>
-    <link>http://arxiv.org/pdf/2209.06930</link>
-    <author>Scott Aaronson</author>
-    <pubDate>Sep 16 2022</pubDate>
-    <description>I survey, for a general scientific audience, three decades of research into which sorts of problems admit exponential speedups via quantum computers -- from the classics (like the algorithms of Simon and Shor), to the breakthrough of Yamakawa and Zhandry from April 2022. I discuss both the quantum circuit model, which is what we ultimately care about in practice but where our knowledge is radically incomplete, and the so-called oracle or black-box or query complexity model, where we've managed to achieve a much more thorough understanding that then informs our conjectures about the circuit model. I discuss the strengths and weaknesses of switching attention to sampling tasks, as was done in the recent quantum supremacy experiments. I make some skeptical remarks about widely-repeated claims of exponential quantum speedups for practical machine learning and optimization problems. Through many examples, I try to convey the "law of conservation of weirdness," according to which every problem admitting an exponential quantum speedup must have some unusual property to allow the amplitude to be concentrated on the unknown right answer(s).</description>
+    <title>The Complexity of NISQ</title>
+    <link>http://arxiv.org/pdf/2210.07234</link>
+    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
   </item>
 
   <item>
@@ -20,14 +20,6 @@
     <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
     <pubDate>Sep 28 2022</pubDate>
     <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
-  </item>
-
-  <item>
-    <title>The Complexity of NISQ</title>
-    <link>http://arxiv.org/pdf/2210.07234</link>
-    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
   </item>
 
   <item>
@@ -44,14 +36,6 @@
     <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
     <pubDate>Oct 04 2022</pubDate>
     <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
-    <title>The Future of Quantum Computing with Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2209.06841</link>
-    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
-    <pubDate>Sep 16 2022</pubDate>
-    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
   </item>
 
   <item>
@@ -79,11 +63,11 @@
   </item>
 
   <item>
-    <title>Quantum algorithm for ground state energy estimation using circuit depth with exponentially improved dependence on precision</title>
-    <link>http://arxiv.org/pdf/2209.06811</link>
-    <author>Guoming Wang, Daniel Stilck-França, Ruizhe Zhang, Shuchen Zhu, Peter D. Johnson</author>
-    <pubDate>Sep 15 2022</pubDate>
-    <description>A milestone in the field of quantum computing will be solving problems in quantum chemistry and materials faster than state of the art classical methods. The current understanding is that achieving quantum advantage in this area will require some degree of error correction. While hardware is improving towards this milestone, optimizing quantum algorithms also brings it closer to the present. Existing methods for ground state energy estimation require circuit depths that scale as ${\cal O}(1/\epsilon\cdot \operatorname{polylog}(1/\epsilon))$ to reach accuracy $\epsilon$. In this work, we develop and analyze ground state energy estimation algorithms that use just one auxilliary qubit and for which the circuit depths scale as ${\cal O}(1/\Delta \cdot \operatorname{polylog}(\Delta/\epsilon))$, where $\Delta\geq\epsilon$ is a lower bound on the energy gap of the Hamiltonian. With this $\widetilde{\cal O}(\Delta/\epsilon)$ reduction in circuit depth, relative to recent resource estimates of ground state energy estimation for the industrially-relevant molecules of ethelyne-carbonate and PF$_6^-$, the estimated gate count and circuit depth is reduced by a factor of 43 and 78, respectively. Furthermore, the algorithm can take advantage of larger available circuit depths to reduce the total runtime. By setting $\alpha\in[0,1]$ and using depth proportional to $\epsilon^{-\alpha} \Delta_{\rm true}^{-1+\alpha}$, the resulting total runtime is $\widetilde{{\cal O}}(\epsilon^{-2+\alpha}\Delta_{\rm true}^{1-\alpha})$, where $\Delta_{\rm true}$ is the true energy gap of the Hamiltonian. These features make our algorithm a promising candidate for realizing quantum advantage in the era of early fault-tolerant quantum computing.</description>
+    <title>Noise can be helpful for variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2210.06723</link>
+    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -103,14 +87,6 @@
   </item>
 
   <item>
-    <title>Noise can be helpful for variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2210.06723</link>
-    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
-  </item>
-
-  <item>
     <title>A streamlined quantum algorithm for topological data analysis with exponentially fewer qubits</title>
     <link>http://arxiv.org/pdf/2209.12887</link>
     <author>Sam McArdle, András Gilyén, Mario Berta</author>
@@ -124,6 +100,22 @@
     <author>Adrian She, Henry Yuen</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We study unitary property testing, where a quantum algorithm is given query access to a black-box unitary and has to decide whether it satisfies some property. In addition to containing the standard quantum query complexity model (where the unitary encodes a binary string) as a special case, this model contains "inherently quantum" problems that have no classical analogue. Characterizing the query complexity of these problems requires new algorithmic techniques and lower bound methods. Our main contribution is a generalized polynomial method for unitary property testing problems. By leveraging connections with invariant theory, we apply this method to obtain lower bounds on problems such as determining recurrence times of unitaries, approximating the dimension of a marked subspace, and approximating the entanglement entropy of a marked state. We also present a unitary property testing-based approach towards an oracle separation between $\mathsf{QMA}$ and $\mathsf{QMA(2)}$, a long standing question in quantum complexity theory.</description>
+  </item>
+
+  <item>
+    <title>Circuit depth versus energy in topologically ordered systems</title>
+    <link>http://arxiv.org/pdf/2210.06796</link>
+    <author>Arkin Tikku, Isaac H. Kim</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
+  </item>
+
+  <item>
+    <title>Quantum divide and conquer</title>
+    <link>http://arxiv.org/pdf/2210.06419</link>
+    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
   </item>
 
   <item>
@@ -151,22 +143,6 @@
   </item>
 
   <item>
-    <title>Circuit depth versus energy in topologically ordered systems</title>
-    <link>http://arxiv.org/pdf/2210.06796</link>
-    <author>Arkin Tikku, Isaac H. Kim</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
-  </item>
-
-  <item>
-    <title>Quantum divide and conquer</title>
-    <link>http://arxiv.org/pdf/2210.06419</link>
-    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
-  </item>
-
-  <item>
     <title>Quantifying Quantum Advantage in Topological Data Analysis</title>
     <link>http://arxiv.org/pdf/2209.13581</link>
     <author>Dominic W. Berry, Yuan Su, Casper Gyurik, Robbie King, Joao Basso, Alexander Del Toro Barba, Abhishek Rajput, Nathan Wiebe, Vedran Dunjko, Ryan Babbush</author>
@@ -183,27 +159,19 @@
   </item>
 
   <item>
-    <title>Quantum communication complexity of linear regression</title>
-    <link>http://arxiv.org/pdf/2210.01601</link>
-    <author>Ashley Montanaro, Changpeng Shao</author>
-    <pubDate>Oct 05 2022</pubDate>
-    <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
-  </item>
-
-  <item>
-    <title>Universal measurement-based quantum computation in a one-dimensional architecture enabled by dual-unitary circuits</title>
-    <link>http://arxiv.org/pdf/2209.06191</link>
-    <author>David T. Stephen, Wen Wei Ho, Tzu-Chieh Wei, Robert Raussendorf, Ruben Verresen</author>
-    <pubDate>Sep 14 2022</pubDate>
-    <description>A powerful tool emerging from the study of many-body quantum dynamics is that of dual-unitary circuits, which are unitary even when read `sideways', i.e., along the spatial direction. Here, we show that this provides the ideal framework to understand and expand on the notion of measurement-based quantum computation (MBQC). In particular, applying a dual-unitary circuit to a many-body state followed by appropriate measurements effectively implements quantum computation in the spatial direction. We argue that this computation can be made deterministic by enforcing a Clifford condition, and is generically universal. Remarkably, all these requirements can already be satisfied by the dynamics of the paradigmatic kicked Ising chain at specific parameter choices. Specifically, after $k$ time-steps, equivalent to a depth-$k$ quantum circuit, we obtain a resource state for universal MBQC on $\sim 3k/4$ encoded logical qubits. This removes the usual requirement of going to two dimensions to achieve universality, thereby reducing the demands imposed on potential experimental platforms. Beyond the practical advantages, we also interpret this evolution as an infinite-order entangler for symmetry-protected topological chains, which gives a vast generalization of the celebrated cluster chain and shows that our protocol is robust to symmetry-respecting deformations.</description>
-  </item>
-
-  <item>
     <title>Quantum Depth in the Random Oracle Model</title>
     <link>http://arxiv.org/pdf/2210.06454</link>
     <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
+  </item>
+
+  <item>
+    <title>Quantum communication complexity of linear regression</title>
+    <link>http://arxiv.org/pdf/2210.01601</link>
+    <author>Ashley Montanaro, Changpeng Shao</author>
+    <pubDate>Oct 05 2022</pubDate>
+    <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
   </item>
 
   <item>
@@ -223,14 +191,6 @@
   </item>
 
   <item>
-    <title>Quantum theory in finite dimension cannot explain every general process with finite memory</title>
-    <link>http://arxiv.org/pdf/2209.11225</link>
-    <author>Marco Fanizza, Josep Lumbreras, Andreas Winter</author>
-    <pubDate>Sep 23 2022</pubDate>
-    <description>Arguably, the largest class of stochastic processes generated by means of a finite memory consists of those that are sequences of observations produced by sequential measurements in a suitable generalized probabilistic theory (GPT). These are constructed from a finite-dimensional memory evolving under a set of possible linear maps, and with probabilities of outcomes determined by linear functions of the memory state. Examples of such models are given by classical hidden Markov processes, where the memory state is a probability distribution, and at each step it evolves according to a non-negative matrix, and hidden quantum Markov processes, where the memory state is a finite dimensional quantum state, and at each step it evolves according to a completely positive map. Here we show that the set of processes admitting a finite-dimensional explanation do not need to be explainable in terms of either classical probability or quantum mechanics. To wit, we exhibit families of processes that have a finite-dimensional explanation, defined manifestly by the dynamics of explicitly given GPT, but that do not admit a quantum, and therefore not even classical, explanation in finite dimension. Furthermore, we present a family of quantum processes on qubits and qutrits that do not admit a classical finite-dimensional realization, which includes examples introduced earlier by Fox, Rubin, Dharmadikari and Nadkarni as functions of infinite dimensional Markov chains, and lower bound the size of the memory of a classical model realizing a noisy version of the qubit processes.</description>
-  </item>
-
-  <item>
     <title>Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom</title>
     <link>http://arxiv.org/pdf/2209.14530</link>
     <author>Sabee Grewal, Vishnu Iyer, William Kretschmer, Daniel Liang</author>
@@ -239,11 +199,51 @@
   </item>
 
   <item>
+    <title>Quantum theory in finite dimension cannot explain every general process with finite memory</title>
+    <link>http://arxiv.org/pdf/2209.11225</link>
+    <author>Marco Fanizza, Josep Lumbreras, Andreas Winter</author>
+    <pubDate>Sep 23 2022</pubDate>
+    <description>Arguably, the largest class of stochastic processes generated by means of a finite memory consists of those that are sequences of observations produced by sequential measurements in a suitable generalized probabilistic theory (GPT). These are constructed from a finite-dimensional memory evolving under a set of possible linear maps, and with probabilities of outcomes determined by linear functions of the memory state. Examples of such models are given by classical hidden Markov processes, where the memory state is a probability distribution, and at each step it evolves according to a non-negative matrix, and hidden quantum Markov processes, where the memory state is a finite dimensional quantum state, and at each step it evolves according to a completely positive map. Here we show that the set of processes admitting a finite-dimensional explanation do not need to be explainable in terms of either classical probability or quantum mechanics. To wit, we exhibit families of processes that have a finite-dimensional explanation, defined manifestly by the dynamics of explicitly given GPT, but that do not admit a quantum, and therefore not even classical, explanation in finite dimension. Furthermore, we present a family of quantum processes on qubits and qutrits that do not admit a classical finite-dimensional realization, which includes examples introduced earlier by Fox, Rubin, Dharmadikari and Nadkarni as functions of infinite dimensional Markov chains, and lower bound the size of the memory of a classical model realizing a noisy version of the qubit processes.</description>
+  </item>
+
+  <item>
     <title>Postselected quantum hypothesis testing</title>
     <link>http://arxiv.org/pdf/2209.10550</link>
     <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
     <pubDate>Sep 23 2022</pubDate>
     <description>We study a variant of quantum hypothesis testing wherein an additional 'inconclusive' measurement outcome is added, allowing one to abstain from attempting to discriminate the hypotheses. The error probabilities are then conditioned on a successful attempt, with inconclusive trials disregarded. We completely characterise this task in both the single-shot and asymptotic regimes, providing exact formulas for the optimal error probabilities. In particular, we prove that the asymptotic error exponent of discriminating any two quantum states $\rho$ and $\sigma$ is given by the Hilbert projective metric $D_{\max}(\rho\|\sigma) + D_{\max}(\sigma \| \rho)$ in asymmetric hypothesis testing, and by the Thompson metric $\max \{ D_{\max}(\rho\|\sigma), D_{\max}(\sigma \| \rho) \}$ in symmetric hypothesis testing. This endows these two quantities with fundamental operational interpretations in quantum state discrimination. Our findings extend to composite hypothesis testing, where we show that the asymmetric error exponent with respect to any convex set of density matrices is given by a regularisation of the Hilbert projective metric. We apply our results also to quantum channels, showing that no advantage is gained by employing adaptive or even more general discrimination schemes over parallel ones, in both the asymmetric and symmetric settings. Our state discrimination results make use of no properties specific to quantum mechanics and are also valid in general probabilistic theories.</description>
+  </item>
+
+  <item>
+    <title>Quantum Subroutine Composition</title>
+    <link>http://arxiv.org/pdf/2209.14146</link>
+    <author>Stacey Jeffery</author>
+    <pubDate>Sep 29 2022</pubDate>
+    <description>An important tool in algorithm design is the ability to build algorithms from other algorithms that run as subroutines. In the case of quantum algorithms, a subroutine may be called on a superposition of different inputs, which complicates things. For example, a classical algorithm that calls a subroutine $Q$ times, where the average probability of querying the subroutine on input $i$ is $p_i$, and the cost of the subroutine on input $i$ is $T_i$, incurs expected cost $Q\sum_i p_i E[T_i]$ from all subroutine queries. While this statement is obvious for classical algorithms, for quantum algorithms, it is much less so, since naively, if we run a quantum subroutine on a superposition of inputs, we need to wait for all branches of the superposition to terminate before we can apply the next operation. We nonetheless show an analogous quantum statement (*): If $q_i$ is the average query weight on $i$ over all queries, the cost from all quantum subroutine queries is $Q\sum_i q_i E[T_i]$. Here the query weight on $i$ for a particular query is the probability of measuring $i$ in the input register if we were to measure right before the query. We prove this result using the technique of multidimensional quantum walks, recently introduced in arXiv:2208.13492. We present a more general version of their quantum walk edge composition result, which yields variable-time quantum walks, generalizing variable-time quantum search, by, for example, replacing the update cost with $\sqrt{\sum_{u,v}\pi_u P_{u,v} E[T_{u,v}^2]}$, where $T_{u,v}$ is the cost to move from vertex $u$ to vertex $v$. The same technique that allows us to compose quantum subroutines in quantum walks can also be used to compose in any quantum algorithm, which is how we prove (*).</description>
+  </item>
+
+  <item>
+    <title>Measurement-based quantum computation in finite one-dimensional systems: string order implies computational power</title>
+    <link>http://arxiv.org/pdf/2210.05089</link>
+    <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
+    <pubDate>Oct 12 2022</pubDate>
+    <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
+  </item>
+
+  <item>
+    <title>Floquet codes without parent subsystem codes</title>
+    <link>http://arxiv.org/pdf/2210.02468</link>
+    <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
+    <pubDate>Oct 07 2022</pubDate>
+    <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
+  </item>
+
+  <item>
+    <title>Classical and Quantum Iterative Optimization Algorithms Based on Matrix Legendre-Bregman Projections</title>
+    <link>http://arxiv.org/pdf/2209.14185</link>
+    <author>Zhengfeng Ji</author>
+    <pubDate>Sep 29 2022</pubDate>
+    <description>We consider Legendre-Bregman projections defined on the Hermitian matrix space and design iterative optimization algorithms based on them. A general duality theorem is established for Bregman divergences on Hermitian matrices, and it plays a crucial role in proving the convergence of the iterative algorithms. We study both exact and approximate Bregman projection algorithms. In the particular case of Kullback-Leibler divergence, our approximate iterative algorithm gives rise to the non-commutative versions of both the generalized iterative scaling (GIS) algorithm for maximum entropy inference and the AdaBoost algorithm in machine learning as special cases. As the Legendre-Bregman projections are simple matrix functions on Hermitian matrices, quantum algorithmic techniques are applicable to achieve potential speedups in each iteration of the algorithm. We discuss several quantum algorithmic design techniques applicable in our setting, including the smooth function evaluation technique, two-phase quantum minimum finding, and NISQ Gibbs state preparation.</description>
   </item>
 
 </channel>
