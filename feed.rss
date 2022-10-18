@@ -47,6 +47,14 @@
   </item>
 
   <item>
+    <title>Noise can be helpful for variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2210.06723</link>
+    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Thermalization without eigenstate thermalization</title>
     <link>http://arxiv.org/pdf/2209.09826</link>
     <author>Aram W. Harrow, Yichen Huang</author>
@@ -60,14 +68,6 @@
     <author>Marcos Crichigno, Tamara Kohler</author>
     <pubDate>Sep 27 2022</pubDate>
     <description>We tackle the long-standing question of the computational complexity of determining homology groups of simplicial complexes, a fundamental task in computational topology, posed by Kaibel and Pfetsch 20 years ago. We show that this decision problem is QMA1-hard. Moreover, we show that a version of the problem satisfying a suitable promise and certain constraints is contained in QMA. This suggests that the seemingly classical problem may in fact be quantum mechanical. In fact, we are able to significantly strengthen this by showing that the problem remains QMA1-hard in the case of clique complexes, a family of simplicial complexes specified by a graph which is relevant to the problem of topological data analysis. The proof combines a number of techniques from Hamiltonian complexity and homological algebra. We discuss potential implications for the problem of quantum advantage in topological data analysis.</description>
-  </item>
-
-  <item>
-    <title>Noise can be helpful for variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2210.06723</link>
-    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -87,14 +87,6 @@
   </item>
 
   <item>
-    <title>A streamlined quantum algorithm for topological data analysis with exponentially fewer qubits</title>
-    <link>http://arxiv.org/pdf/2209.12887</link>
-    <author>Sam McArdle, András Gilyén, Mario Berta</author>
-    <pubDate>Sep 27 2022</pubDate>
-    <description>Topological invariants of a dataset, such as the number of holes that survive from one length scale to another (persistent Betti numbers) can be used to analyse and classify data in machine learning applications. We present an improved quantum algorithm for computing persistent Betti numbers, and provide an end-to-end complexity analysis. Our approach provides large polynomial time improvements, and an exponential space saving, over existing quantum algorithms. Subject to gap dependencies, our algorithm obtains an almost quintic speedup in the number of datapoints over rigorous state-of-the-art classical algorithms for calculating the persistent Betti numbers to constant additive error - the salient task for applications. However, this may be reduced to closer to quadratic when compared against heuristic classical methods and observed scalings. We discuss whether quantum algorithms can achieve an exponential speedup for tasks of practical interest, as claimed previously. We conclude that there is currently no evidence that this is the case.</description>
-  </item>
-
-  <item>
     <title>Unitary property testing lower bounds by polynomials</title>
     <link>http://arxiv.org/pdf/2210.05885</link>
     <author>Adrian She, Henry Yuen</author>
@@ -103,19 +95,27 @@
   </item>
 
   <item>
-    <title>Circuit depth versus energy in topologically ordered systems</title>
-    <link>http://arxiv.org/pdf/2210.06796</link>
-    <author>Arkin Tikku, Isaac H. Kim</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
-  </item>
-
-  <item>
     <title>Quantum divide and conquer</title>
     <link>http://arxiv.org/pdf/2210.06419</link>
     <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
+  </item>
+
+  <item>
+    <title>A streamlined quantum algorithm for topological data analysis with exponentially fewer qubits</title>
+    <link>http://arxiv.org/pdf/2209.12887</link>
+    <author>Sam McArdle, András Gilyén, Mario Berta</author>
+    <pubDate>Sep 27 2022</pubDate>
+    <description>Topological invariants of a dataset, such as the number of holes that survive from one length scale to another (persistent Betti numbers) can be used to analyse and classify data in machine learning applications. We present an improved quantum algorithm for computing persistent Betti numbers, and provide an end-to-end complexity analysis. Our approach provides large polynomial time improvements, and an exponential space saving, over existing quantum algorithms. Subject to gap dependencies, our algorithm obtains an almost quintic speedup in the number of datapoints over rigorous state-of-the-art classical algorithms for calculating the persistent Betti numbers to constant additive error - the salient task for applications. However, this may be reduced to closer to quadratic when compared against heuristic classical methods and observed scalings. We discuss whether quantum algorithms can achieve an exponential speedup for tasks of practical interest, as claimed previously. We conclude that there is currently no evidence that this is the case.</description>
+  </item>
+
+  <item>
+    <title>Circuit depth versus energy in topologically ordered systems</title>
+    <link>http://arxiv.org/pdf/2210.06796</link>
+    <author>Arkin Tikku, Isaac H. Kim</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
   </item>
 
   <item>
@@ -231,19 +231,19 @@
   </item>
 
   <item>
+    <title>The Random-Bond Ising Model and its dual in Hyperbolic Spaces</title>
+    <link>http://arxiv.org/pdf/2210.07227</link>
+    <author>Benedikt Placke, Nikolas P. Breuckmann</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>We analyze the thermodynamic properties of the random-bond Ising model (RBIM) on closed hyperbolic surfaces using Monte Carlo and high-temperature series expansion techniques. We also analyze the dual-RBIM, that is the model that in the absence of disorder is related to the RBIM via the Kramers-Wannier duality. Even on self-dual lattices this model is different from the RBIM, unlike in the euclidean case. We explain this anomaly by a careful re-derivation of the Kramers--Wannier duality. For the (dual-)RBIM, we compute the paramagnet-to-ferromagnet phase transition as a function of both temperature $T$ and the fraction of antiferromagnetic bonds $p$. We find that as temperature is decreased in the RBIM, the paramagnet gives way to either a ferromagnet or a spin-glass phase via a second-order transition compatible with mean-field behavior. In contrast, the dual-RBIM undergoes a strongly first order transition from the paramagnet to the ferromagnet both in the absence of disorder and along the Nishimori line. We study both transitions for a variety of hyperbolic tessellations and comment on the role of coordination number and curvature. The extent of the ferromagnetic phase in the dual-RBIM corresponds to the correctable phase of hyperbolic surface codes under independent bit- and phase-flip noise.</description>
+  </item>
+
+  <item>
     <title>Floquet codes without parent subsystem codes</title>
     <link>http://arxiv.org/pdf/2210.02468</link>
     <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
-  </item>
-
-  <item>
-    <title>Classical and Quantum Iterative Optimization Algorithms Based on Matrix Legendre-Bregman Projections</title>
-    <link>http://arxiv.org/pdf/2209.14185</link>
-    <author>Zhengfeng Ji</author>
-    <pubDate>Sep 29 2022</pubDate>
-    <description>We consider Legendre-Bregman projections defined on the Hermitian matrix space and design iterative optimization algorithms based on them. A general duality theorem is established for Bregman divergences on Hermitian matrices, and it plays a crucial role in proving the convergence of the iterative algorithms. We study both exact and approximate Bregman projection algorithms. In the particular case of Kullback-Leibler divergence, our approximate iterative algorithm gives rise to the non-commutative versions of both the generalized iterative scaling (GIS) algorithm for maximum entropy inference and the AdaBoost algorithm in machine learning as special cases. As the Legendre-Bregman projections are simple matrix functions on Hermitian matrices, quantum algorithmic techniques are applicable to achieve potential speedups in each iteration of the algorithm. We discuss several quantum algorithmic design techniques applicable in our setting, including the smooth function evaluation technique, two-phase quantum minimum finding, and NISQ Gibbs state preparation.</description>
   </item>
 
 </channel>

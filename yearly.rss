@@ -47,6 +47,14 @@
   </item>
 
   <item>
+    <title>The Complexity of NISQ</title>
+    <link>http://arxiv.org/pdf/2210.07234</link>
+    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
+  </item>
+
+  <item>
     <title>Computational advantage of quantum random sampling</title>
     <link>http://arxiv.org/pdf/2206.04079</link>
     <author>Dominik Hangleiter, Jens Eisert</author>
@@ -84,14 +92,6 @@
     <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
     <pubDate>Jul 15 2022</pubDate>
     <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
-  </item>
-
-  <item>
-    <title>The Complexity of NISQ</title>
-    <link>http://arxiv.org/pdf/2210.07234</link>
-    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
   </item>
 
   <item>
@@ -143,6 +143,14 @@
   </item>
 
   <item>
+    <title>A single $T$-gate makes distribution learning hard</title>
+    <link>http://arxiv.org/pdf/2207.03140</link>
+    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
+    <pubDate>Jul 08 2022</pubDate>
+    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
+  </item>
+
+  <item>
     <title>Efficient Universal Quantum Compilation: An Inverse-free Solovay-Kitaev Algorithm</title>
     <link>http://arxiv.org/pdf/2112.02040</link>
     <author>Adam Bouland, Tudor Giurgica-Tiron</author>
@@ -156,14 +164,6 @@
     <author>Lukas Postler, Sascha Heußen, Ivan Pogorelov, Manuel Rispler, Thomas Feldker, Michael Meth, Christian D. Marciniak, Roman Stricker, Martin Ringbauer, Rainer Blatt, Philipp Schindler, Markus Müller, Thomas Monz</author>
     <pubDate>Nov 25 2021</pubDate>
     <description>Quantum computers can be protected from noise by encoding the logical quantum information redundantly into multiple qubits using error correcting codes. When manipulating the logical quantum states, it is imperative that errors caused by imperfect operations do not spread uncontrollably through the quantum register. This requires that all operations on the quantum register obey a fault-tolerant circuit design which, in general, increases the complexity of the implementation. Here, we demonstrate a fault-tolerant universal set of gates on two logical qubits in a trapped-ion quantum computer. In particular, we make use of the recently introduced paradigm of flag fault tolerance, where the absence or presence of dangerous errors is heralded by usage of few ancillary 'flag' qubits. We perform a logical two-qubit CNOT-gate between two instances of the seven qubit color code, and we also fault-tolerantly prepare a logical magic state. We then realize a fault-tolerant logical T-gate by injecting the magic state via teleportation from one logical qubit onto the other. We observe the hallmark feature of fault tolerance, a superior performance compared to a non-fault-tolerant implementation. In combination with recently demonstrated repeated quantum error correction cycles these results open the door to error-corrected universal quantum computation.</description>
-  </item>
-
-  <item>
-    <title>A single $T$-gate makes distribution learning hard</title>
-    <link>http://arxiv.org/pdf/2207.03140</link>
-    <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
-    <pubDate>Jul 08 2022</pubDate>
-    <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
   </item>
 
   <item>
@@ -215,6 +215,14 @@
   </item>
 
   <item>
+    <title>Quantum Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2210.00921</link>
+    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
+    <pubDate>Oct 04 2022</pubDate>
+    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
+  </item>
+
+  <item>
     <title>A construction of Combinatorial NLTS</title>
     <link>http://arxiv.org/pdf/2206.02741</link>
     <author>Anurag Anshu, Nikolas P. Breuckmann</author>
@@ -231,14 +239,6 @@
   </item>
 
   <item>
-    <title>Quantum Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2210.00921</link>
-    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
-    <pubDate>Oct 04 2022</pubDate>
-    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
     <title>Towards near-term quantum simulation of materials</title>
     <link>http://arxiv.org/pdf/2205.15256</link>
     <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
@@ -247,19 +247,19 @@
   </item>
 
   <item>
-    <title>The Future of Quantum Computing with Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2209.06841</link>
-    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
-    <pubDate>Sep 16 2022</pubDate>
-    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
-  </item>
-
-  <item>
     <title>Time-energy uncertainty relation for noisy quantum metrology</title>
     <link>http://arxiv.org/pdf/2207.13707</link>
     <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
     <pubDate>Jul 29 2022</pubDate>
     <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
+  </item>
+
+  <item>
+    <title>The Future of Quantum Computing with Superconducting Qubits</title>
+    <link>http://arxiv.org/pdf/2209.06841</link>
+    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
+    <pubDate>Sep 16 2022</pubDate>
+    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
   </item>
 
   <item>
@@ -375,11 +375,11 @@
   </item>
 
   <item>
-    <title>Distributed quantum inner product estimation</title>
-    <link>http://arxiv.org/pdf/2111.03273</link>
-    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
-    <pubDate>Nov 08 2021</pubDate>
-    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
+    <title>Noise can be helpful for variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2210.06723</link>
+    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -391,19 +391,19 @@
   </item>
 
   <item>
+    <title>Distributed quantum inner product estimation</title>
+    <link>http://arxiv.org/pdf/2111.03273</link>
+    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
+    <pubDate>Nov 08 2021</pubDate>
+    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
+  </item>
+
+  <item>
     <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
     <link>http://arxiv.org/pdf/2203.07263</link>
     <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
-  </item>
-
-  <item>
-    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
-    <link>http://arxiv.org/pdf/2208.11941</link>
-    <author>Harriet Apel, Toby Cubitt</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
   </item>
 
 </channel>
