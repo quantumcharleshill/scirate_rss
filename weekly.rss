@@ -31,35 +31,11 @@
   </item>
 
   <item>
-    <title>Unitary property testing lower bounds by polynomials</title>
-    <link>http://arxiv.org/pdf/2210.05885</link>
-    <author>Adrian She, Henry Yuen</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>We study unitary property testing, where a quantum algorithm is given query access to a black-box unitary and has to decide whether it satisfies some property. In addition to containing the standard quantum query complexity model (where the unitary encodes a binary string) as a special case, this model contains "inherently quantum" problems that have no classical analogue. Characterizing the query complexity of these problems requires new algorithmic techniques and lower bound methods. Our main contribution is a generalized polynomial method for unitary property testing problems. By leveraging connections with invariant theory, we apply this method to obtain lower bounds on problems such as determining recurrence times of unitaries, approximating the dimension of a marked subspace, and approximating the entanglement entropy of a marked state. We also present a unitary property testing-based approach towards an oracle separation between $\mathsf{QMA}$ and $\mathsf{QMA(2)}$, a long standing question in quantum complexity theory.</description>
-  </item>
-
-  <item>
-    <title>Quantum divide and conquer</title>
-    <link>http://arxiv.org/pdf/2210.06419</link>
-    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
-  </item>
-
-  <item>
     <title>Circuit depth versus energy in topologically ordered systems</title>
     <link>http://arxiv.org/pdf/2210.06796</link>
     <author>Arkin Tikku, Isaac H. Kim</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
-  </item>
-
-  <item>
-    <title>Quantum Depth in the Random Oracle Model</title>
-    <link>http://arxiv.org/pdf/2210.06454</link>
-    <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
   </item>
 
   <item>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
-    <title>Post-Quantum Zero-Knowledge with Space-Bounded Simulation</title>
-    <link>http://arxiv.org/pdf/2210.06093</link>
-    <author>Prabhanjan Ananth, Alex B. Grilo</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>The traditional definition of quantum zero-knowledge stipulates that the knowledge gained by any quantum polynomial-time verifier in an interactive protocol can be simulated by a quantum polynomial-time algorithm. One drawback of this definition is that it allows the simulator to consume significantly more computational resources than the verifier. We argue that this drawback renders the existing notion of quantum zero-knowledge not viable for certain settings, especially when dealing with near-term quantum devices. In this work, we initiate a fine-grained notion of post-quantum zero-knowledge that is more compatible with near-term quantum devices. We introduce the notion of $(s,f)$ space-bounded quantum zero-knowledge. In this new notion, we require that an $s$-qubit malicious verifier can be simulated by a quantum polynomial-time algorithm that uses at most $f(s)$-qubits, for some function $f(\cdot)$, and no restriction on the amount of the classical memory consumed by either the verifier or the simulator. We explore this notion and establish both positive and negative results: - For verifiers with logarithmic quantum space $s$ and (arbitrary) polynomial classical space, we show that $(s,f)$-space-bounded QZK, for $f(s)=2s$, can be achieved based on the existence of post-quantum one-way functions. Moreover, our protocol runs in constant rounds. - For verifiers with super-logarithmic quantum space $s$, assuming the existence of post-quantum secure one-way functions, we show that $(s,f)$-space-bounded QZK protocols, with fully black-box simulation (classical analogue of black-box simulation) can only be achieved for languages in BQP.</description>
+    <title>Quantum Event Learning and Gentle Random Measurements</title>
+    <link>http://arxiv.org/pdf/2210.09155</link>
+    <author>Adam Bene Watts, John Bostanci</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the \textitGentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems \textitQuantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a \textitBlended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement \textitQuantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for \textitQuantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
+  </item>
+
+  <item>
+    <title>Quantum Algorithms for Sampling Log-Concave Distributions and Estimating Normalizing Constants</title>
+    <link>http://arxiv.org/pdf/2210.06539</link>
+    <author>Andrew M. Childs, Tongyang Li, Jin-Peng Liu, Chunhao Wang, Ruizhe Zhang</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Given a convex function $f\colon\mathbb{R}^{d}\to\mathbb{R}$, the problem of sampling from a distribution $\propto e^{-f(x)}$ is called log-concave sampling. This task has wide applications in machine learning, physics, statistics, etc. In this work, we develop quantum algorithms for sampling log-concave distributions and for estimating their normalizing constants $\int_{\mathbb{R}^d}e^{-f(x)}\mathrm{d} x$. First, we use underdamped Langevin diffusion to develop quantum algorithms that match the query complexity (in terms of the condition number $\kappa$ and dimension $d$) of analogous classical algorithms that use gradient (first-order) queries, even though the quantum algorithms use only evaluation (zeroth-order) queries. For estimating normalizing constants, these algorithms also achieve quadratic speedup in the multiplicative error $\epsilon$. Second, we develop quantum Metropolis-adjusted Langevin algorithms with query complexity $\widetilde{O}(\kappa^{1/2}d)$ and $\widetilde{O}(\kappa^{1/2}d^{3/2}/\epsilon)$ for log-concave sampling and normalizing constant estimation, respectively, achieving polynomial speedups in $\kappa,d,\epsilon$ over the best known classical algorithms by exploiting quantum analogs of the Monte Carlo method and quantum walks. We also prove a $1/\epsilon^{1-o(1)}$ quantum lower bound for estimating normalizing constants, implying near-optimality of our quantum algorithms in $\epsilon$.</description>
+  </item>
+
+  <item>
+    <title>Theory for Equivariant Quantum Neural Networks</title>
+    <link>http://arxiv.org/pdf/2210.08566</link>
+    <author>Quynh T. Nguyen, Louis Schatzki, Paolo Braccia, Michael Ragone, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>Most currently used quantum neural network architectures have little-to-no inductive biases, leading to trainability and generalization issues. Inspired by a similar problem, recent breakthroughs in classical machine learning address this crux by creating models encoding the symmetries of the learning task. This is materialized through the usage of equivariant neural networks whose action commutes with that of the symmetry. In this work, we import these ideas to the quantum realm by presenting a general theoretical framework to understand, classify, design and implement equivariant quantum neural networks. As a special implementation, we show how standard quantum convolutional neural networks (QCNN) can be generalized to group-equivariant QCNNs where both the convolutional and pooling layers are equivariant under the relevant symmetry group. Our framework can be readily applied to virtually all areas of quantum machine learning, and provides hope to alleviate central challenges such as barren plateaus, poor local minima, and sample complexity.</description>
+  </item>
+
+  <item>
+    <title>Improved Product-state Approximation Algorithms for Quantum Local Hamiltonians</title>
+    <link>http://arxiv.org/pdf/2210.08680</link>
+    <author>Thiago Bergamaschi</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>The ground state energy and the free energy of Quantum Local Hamiltonians are fundamental quantities in quantum many-body physics, however, it is QMA-Hard to estimate them in general. In this paper, we develop new techniques to find classical, additive error product-state approximations for these quantities on certain families of Quantum $k$-Local Hamiltonians. Namely, those which are either dense, have low threshold rank, or are defined on a sparse graph that excludes a fixed minor, building on the methods and the systems studied by Brandão and Harrow, Gharibian and Kempe, and Bansal, Bravyi and Terhal. We present two main technical contributions. First, we discuss a connection between product-state approximations of local Hamiltonians and combinatorial graph property testing. We develop a series of weak Szemerédi regularity lemmas for $k$-local Hamiltonians, built on those of Frieze and Kannan and others. We use them to develop constant time sampling algorithms, and to characterize the `vertex sample complexity' of the Local Hamiltonian problem, in an analog to a classical result by Alon, de la Vega, Kannan and Karpinski. Second, we build on the information-theoretic product-state approximation techniques by Brandão and Harrow, extending their results to the free energy and to an asymmetric graph setting. We leverage this structure to define families of algorithms for the free energy at low temperatures, and new algorithms for certain sparse graph families.</description>
   </item>
 
 </channel>

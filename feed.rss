@@ -23,6 +23,14 @@
   </item>
 
   <item>
+    <title>The Quantum Fourier Transform Has Small Entanglement</title>
+    <link>http://arxiv.org/pdf/2210.08468</link>
+    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
+  </item>
+
+  <item>
     <title>Parallel window decoding enables scalable fault tolerant quantum computation</title>
     <link>http://arxiv.org/pdf/2209.08552</link>
     <author>Luka Skoric, Dan E. Browne, Kenton M. Barnes, Neil I. Gillespie, Earl T. Campbell</author>
@@ -36,14 +44,6 @@
     <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
     <pubDate>Oct 04 2022</pubDate>
     <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
-    <title>The Quantum Fourier Transform Has Small Entanglement</title>
-    <link>http://arxiv.org/pdf/2210.08468</link>
-    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
   </item>
 
   <item>
@@ -111,6 +111,14 @@
   </item>
 
   <item>
+    <title>Circuit depth versus energy in topologically ordered systems</title>
+    <link>http://arxiv.org/pdf/2210.06796</link>
+    <author>Arkin Tikku, Isaac H. Kim</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
+  </item>
+
+  <item>
     <title>A streamlined quantum algorithm for topological data analysis with exponentially fewer qubits</title>
     <link>http://arxiv.org/pdf/2209.12887</link>
     <author>Sam McArdle, András Gilyén, Mario Berta</author>
@@ -119,11 +127,11 @@
   </item>
 
   <item>
-    <title>Circuit depth versus energy in topologically ordered systems</title>
-    <link>http://arxiv.org/pdf/2210.06796</link>
-    <author>Arkin Tikku, Isaac H. Kim</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
+    <title>Concatenation Schemes for Topological Fault-tolerant Quantum Error Correction</title>
+    <link>http://arxiv.org/pdf/2209.09390</link>
+    <author>Zhaoyi Li, Isaac Kim, Patrick Hayden</author>
+    <pubDate>Sep 21 2022</pubDate>
+    <description>We investigate a family of fault-tolerant quantum error correction schemes based on the concatenation of small error detection or error correction codes with the three-dimensional cluster state. We propose fault-tolerant state preparation and decoding schemes that effectively convert every circuit-level error into an erasure error, leveraging the cluster state's high threshold against such errors. We find a set of codes for which such a conversion is possible, and study their performance against the standard circuit-level depolarizing model. Our best performing scheme, which is based on a concatenation with a classical code, improves the threshold by $16.5\%$ and decreases the spacetime overhead by $32\%$ compared to the scheme without concatenation, with each scheme subject to a physical error rate of $10^{-3}$ and achieving a logical error rate of $10^{-6}$.</description>
   </item>
 
   <item>
@@ -143,14 +151,6 @@
   </item>
 
   <item>
-    <title>Concatenation Schemes for Topological Fault-tolerant Quantum Error Correction</title>
-    <link>http://arxiv.org/pdf/2209.09390</link>
-    <author>Zhaoyi Li, Isaac Kim, Patrick Hayden</author>
-    <pubDate>Sep 21 2022</pubDate>
-    <description>We investigate a family of fault-tolerant quantum error correction schemes based on the concatenation of small error detection or error correction codes with the three-dimensional cluster state. We propose fault-tolerant state preparation and decoding schemes that effectively convert every circuit-level error into an erasure error, leveraging the cluster state's high threshold against such errors. We find a set of codes for which such a conversion is possible, and study their performance against the standard circuit-level depolarizing model. Our best performing scheme, which is based on a concatenation with a classical code, improves the threshold by $16.5\%$ and decreases the spacetime overhead by $32\%$ compared to the scheme without concatenation, with each scheme subject to a physical error rate of $10^{-3}$ and achieving a logical error rate of $10^{-6}$.</description>
-  </item>
-
-  <item>
     <title>Quantifying Quantum Advantage in Topological Data Analysis</title>
     <link>http://arxiv.org/pdf/2209.13581</link>
     <author>Dominic W. Berry, Yuan Su, Casper Gyurik, Robbie King, Joao Basso, Alexander Del Toro Barba, Abhishek Rajput, Nathan Wiebe, Vedran Dunjko, Ryan Babbush</author>
@@ -159,19 +159,19 @@
   </item>
 
   <item>
-    <title>Complexity-Theoretic Limitations on Quantum Algorithms for Topological Data Analysis</title>
-    <link>http://arxiv.org/pdf/2209.14286</link>
-    <author>Alexander Schmidhuber, Seth Lloyd</author>
-    <pubDate>Sep 29 2022</pubDate>
-    <description>Quantum algorithms for topological data analysis (TDA) seem to provide an exponential advantage over the best classical approach while remaining immune to dequantization procedures and the data-loading problem. In this paper, we argue that quantum algorithms for TDA run in exponential time for almost all inputs by showing that (under widely believed complexity-theoretic conjectures) the central problem of TDA - estimating Betti numbers - is intractable even for quantum computers. Specifically, we prove that the problem of computing Betti numbers exactly is \#P-hard, while the problem of approximating Betti numbers up to multiplicative error is NP-hard. Moreover, both problems retain their hardness if restricted to the regime where quantum algorithms for TDA perform best. Because quantum computers are not expected to solve \#P-hard or NP-hard problems in subexponential time, our results imply that quantum algorithms for TDA offer only a polynomial advantage. We verify our claim by showing that the seminal quantum algorithm for TDA developed by Lloyd, Garnerone and Zanardi \citeLloydAlgo achieves a quadratic speedup over the best classical approach on average, and a power-of-four speedup in the best case. Finally, we argue that an exponential quantum advantage can be recovered if the data is given as a specification of simplices rather than as a list of vertices and edges -- for example, if we wish to calculate the homology of Facebook from a list of Facebook groups and their members rather than from a list of pairwise interactions between Facebook users.</description>
-  </item>
-
-  <item>
     <title>Quantum Depth in the Random Oracle Model</title>
     <link>http://arxiv.org/pdf/2210.06454</link>
     <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
+  </item>
+
+  <item>
+    <title>Complexity-Theoretic Limitations on Quantum Algorithms for Topological Data Analysis</title>
+    <link>http://arxiv.org/pdf/2209.14286</link>
+    <author>Alexander Schmidhuber, Seth Lloyd</author>
+    <pubDate>Sep 29 2022</pubDate>
+    <description>Quantum algorithms for topological data analysis (TDA) seem to provide an exponential advantage over the best classical approach while remaining immune to dequantization procedures and the data-loading problem. In this paper, we argue that quantum algorithms for TDA run in exponential time for almost all inputs by showing that (under widely believed complexity-theoretic conjectures) the central problem of TDA - estimating Betti numbers - is intractable even for quantum computers. Specifically, we prove that the problem of computing Betti numbers exactly is \#P-hard, while the problem of approximating Betti numbers up to multiplicative error is NP-hard. Moreover, both problems retain their hardness if restricted to the regime where quantum algorithms for TDA perform best. Because quantum computers are not expected to solve \#P-hard or NP-hard problems in subexponential time, our results imply that quantum algorithms for TDA offer only a polynomial advantage. We verify our claim by showing that the seminal quantum algorithm for TDA developed by Lloyd, Garnerone and Zanardi \citeLloydAlgo achieves a quadratic speedup over the best classical approach on average, and a power-of-four speedup in the best case. Finally, we argue that an exponential quantum advantage can be recovered if the data is given as a specification of simplices rather than as a list of vertices and edges -- for example, if we wish to calculate the homology of Facebook from a list of Facebook groups and their members rather than from a list of pairwise interactions between Facebook users.</description>
   </item>
 
   <item>
@@ -215,6 +215,14 @@
   </item>
 
   <item>
+    <title>Representation Theory for Geometric Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2210.07980</link>
+    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
+    <pubDate>Oct 17 2022</pubDate>
+    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
+  </item>
+
+  <item>
     <title>Postselected quantum hypothesis testing</title>
     <link>http://arxiv.org/pdf/2209.10550</link>
     <author>Bartosz Regula, Ludovico Lami, Mark M. Wilde</author>
@@ -228,14 +236,6 @@
     <author>Stacey Jeffery</author>
     <pubDate>Sep 29 2022</pubDate>
     <description>An important tool in algorithm design is the ability to build algorithms from other algorithms that run as subroutines. In the case of quantum algorithms, a subroutine may be called on a superposition of different inputs, which complicates things. For example, a classical algorithm that calls a subroutine $Q$ times, where the average probability of querying the subroutine on input $i$ is $p_i$, and the cost of the subroutine on input $i$ is $T_i$, incurs expected cost $Q\sum_i p_i E[T_i]$ from all subroutine queries. While this statement is obvious for classical algorithms, for quantum algorithms, it is much less so, since naively, if we run a quantum subroutine on a superposition of inputs, we need to wait for all branches of the superposition to terminate before we can apply the next operation. We nonetheless show an analogous quantum statement (*): If $q_i$ is the average query weight on $i$ over all queries, the cost from all quantum subroutine queries is $Q\sum_i q_i E[T_i]$. Here the query weight on $i$ for a particular query is the probability of measuring $i$ in the input register if we were to measure right before the query. We prove this result using the technique of multidimensional quantum walks, recently introduced in arXiv:2208.13492. We present a more general version of their quantum walk edge composition result, which yields variable-time quantum walks, generalizing variable-time quantum search, by, for example, replacing the update cost with $\sqrt{\sum_{u,v}\pi_u P_{u,v} E[T_{u,v}^2]}$, where $T_{u,v}$ is the cost to move from vertex $u$ to vertex $v$. The same technique that allows us to compose quantum subroutines in quantum walks can also be used to compose in any quantum algorithm, which is how we prove (*).</description>
-  </item>
-
-  <item>
-    <title>Representation Theory for Geometric Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2210.07980</link>
-    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 17 2022</pubDate>
-    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
   </item>
 
   <item>

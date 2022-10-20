@@ -143,6 +143,14 @@
   </item>
 
   <item>
+    <title>The Quantum Fourier Transform Has Small Entanglement</title>
+    <link>http://arxiv.org/pdf/2210.08468</link>
+    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
+  </item>
+
+  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
@@ -239,14 +247,6 @@
   </item>
 
   <item>
-    <title>The Quantum Fourier Transform Has Small Entanglement</title>
-    <link>http://arxiv.org/pdf/2210.08468</link>
-    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
-  </item>
-
-  <item>
     <title>Towards near-term quantum simulation of materials</title>
     <link>http://arxiv.org/pdf/2205.15256</link>
     <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
@@ -319,6 +319,14 @@
   </item>
 
   <item>
+    <title>Noise can be helpful for variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2210.06723</link>
+    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
     <link>http://arxiv.org/pdf/2112.03708</link>
     <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
@@ -348,14 +356,6 @@
     <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
     <pubDate>Jun 14 2022</pubDate>
     <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
-  </item>
-
-  <item>
-    <title>Noise can be helpful for variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2210.06723</link>
-    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
   </item>
 
   <item>
