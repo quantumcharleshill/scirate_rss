@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The Zak transform: a framework for quantum computation with the Gottesman-Kitaev-Preskill code</title>
-    <link>http://arxiv.org/pdf/2210.09494</link>
-    <author>Giacomo Pantaleoni, Ben Q. Baragiola, Nicolas C. Menicucci</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>The Gottesman-Kitaev-Preskill (GKP) code encodes a qubit into a bosonic mode using periodic wavefunctions. This periodicity makes the GKP code a natural setting for the Zak transform, which is tailor-made to provide a simple description for periodic functions. We review the Zak transform and its connection to a Zak basis of states in Hilbert space, decompose the shift operators that underpin the stabilizers and the correctable errors, and we find that Zak transforms of the position wavefunction appear naturally in GKP error correction. We construct a new bosonic subsystem decomposition (SSD) -- the modular variable SSD -- by dividing a mode's Hilbert space, expressed in the Zak basis, into that of a virtual qubit and a virtual gauge mode. Tracing over the gauge mode gives a logical-qubit state, and preceding the trace with a particular logical-gauge interaction gives a different logical state -- that associated to GKP error correction.</description>
-  </item>
-
-  <item>
-    <title>Theoretical Guarantees for Permutation-Equivariant Quantum Neural Networks</title>
-    <link>http://arxiv.org/pdf/2210.09974</link>
-    <author>Louis Schatzki, Martin Larocca, Frederic Sauvage, M. Cerezo</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>Despite the great promise of quantum machine learning models, there are several challenges one must overcome before unlocking their full potential. For instance, models based on quantum neural networks (QNNs) can suffer from excessive local minima and barren plateaus in their training landscapes. Recently, the nascent field of geometric quantum machine learning (GQML) has emerged as a potential solution to some of those issues. The key insight of GQML is that one should design architectures, such as equivariant QNNs, encoding the symmetries of the problem at hand. Here, we focus on problems with permutation symmetry (i.e., the group of symmetry $S_n$), and show how to build $S_n$-equivariant QNNs. We provide an analytical study of their performance, proving that they do not suffer from barren plateaus, quickly reach overparametrization, and can generalize well from small amounts of data. To verify our results, we perform numerical simulations for a graph state classification task. Our work provides the first theoretical guarantees for equivariant QNNs, thus indicating the extreme power and potential of GQML.</description>
-  </item>
-
-  <item>
     <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
     <link>http://arxiv.org/pdf/2210.10255</link>
     <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>The Gauge Picture of Quantum Dynamics</title>
-    <link>http://arxiv.org/pdf/2210.09314</link>
-    <author>Kevin Slagle</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>Although local Hamiltonians exhibit local time dynamics, this locality is not explicit in the Schrödinger picture in the sense that the wavefunction amplitudes do not obey a local equation of motion. In this work, we modify the Schrödinger picture such that geometric locality is explicit. To do this, we replace the wavefunction with a collection of local wavefunctions $|\psi_J\rangle$, one for each patch of space $J$. The collection of spatial patches is chosen to cover the space; e.g. we could choose the patches to be nearest-neighbor sites on a lattice. The Hilbert spaces associated with neighboring pairs of spatial patches $I$ and $J$ are related to each other by dynamical unitary transformations $U_{IJ}$. The equations of motion for the local wavefunctions $|\psi_J\rangle$ and connections $U_{IJ}$ are explicitly local in space. We call this picture of quantum dynamics the gauge picture since it exhibits a local gauge symmetry. The local dynamics of a single spatial patch is related to the interaction picture, where the interaction Hamiltonian consists of only nearby Hamiltonian terms. We can also generalize the explicit locality to include locality in local charge and energy densities.</description>
+    <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
+    <link>http://arxiv.org/pdf/2210.10733</link>
+    <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Efficient suppression of errors without full error correction is crucial for applications with NISQ devices. Error mitigation allows us to suppress errors in extracting expectation values without the need for any error correction code, but its applications are limited to estimating expectation values, and cannot provide us with high-fidelity quantum operations acting on arbitrary quantum states. To address this challenge, we propose to use error filtration (EF) for gate-based quantum computation, as a practical error suppression scheme without resorting to full quantum error correction. The result is a general-purpose error suppression protocol where the resources required to suppress errors scale independently of the size of the quantum operation. We further analyze the application of EF to quantum random access memory, where EF offers a hardware-efficient error suppression.</description>
   </item>
 
   <item>
-    <title>Martingales for Physicists</title>
-    <link>http://arxiv.org/pdf/2210.09983</link>
-    <author>Édgar Roldán, Izaak Neri, Raphael Chetrite, Shamik Gupta, Simone Pigolotti, Frank Jülicher, Ken Sekimoto</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>We review the theory of martingales as applied to stochastic thermodynamics and stochastic processes in physics more generally.</description>
+    <title>Lattice-Based Quantum Advantage from Rotated Measurements</title>
+    <link>http://arxiv.org/pdf/2210.10143</link>
+    <author>Yusuf Alnawakhtha, Atul Mantri, Carl A. Miller, Daochen Wang</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Trapdoor claw-free functions (TCFs) are immensely valuable in cryptographic interactions between a classical client and a quantum server. Typically, a protocol has the quantum server prepare a superposition of two-bit strings of a claw and then measure it using Pauli-$X$ or $Z$ measurements. In this paper, we demonstrate a new technique that uses the entire range of qubit measurements from the $XY$-plane. We show the advantage of this approach in two applications. First, building on (Brakerski et al. 2018, Kalai et al. 2022), we show an optimized two-round proof of quantumness whose security can be expressed directly in terms of the hardness of the LWE (learning with errors) problem. Second, we construct a one-round protocol for blind remote preparation of an arbitrary state on the $XY$-plane up to a Pauli-$Z$ correction.</description>
+  </item>
+
+  <item>
+    <title>The Status of the Bayes Rule in QBism</title>
+    <link>http://arxiv.org/pdf/2210.10757</link>
+    <author>Blake C. Stacey</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>I gamely try to disentangle ideas that have been confused with one another.</description>
+  </item>
+
+  <item>
+    <title>Faster Matrix Multiplication via Asymmetric Hashing</title>
+    <link>http://arxiv.org/pdf/2210.10173</link>
+    <author>Ran Duan, Hongxun Wu, Renfei Zhou</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Fast matrix multiplication is one of the most fundamental problems in algorithm research. The exponent of the optimal time complexity of matrix multiplication is usually denoted by $\omega$. This paper discusses new ideas for improving the laser method for fast matrix multiplication. We observe that the analysis of higher powers of the Coppersmith-Winograd tensor [Coppersmith & Winograd 1990] incurs a "combination loss", and we partially compensate it by using an asymmetric version of CW's hashing method. By analyzing the 8th power of the CW tensor, we give a new bound of $\omega<2.37188$, which improves the previous best bound of $\omega<2.37286$ [Alman & V.Williams 2020]. Our result breaks the lower bound of $2.3725$ in [Ambainis et al. 2014] because of the new method for analyzing component (constituent) tensors.</description>
   </item>
 
 </channel>

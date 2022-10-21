@@ -103,6 +103,14 @@
   </item>
 
   <item>
+    <title>Dequantizing the Quantum Singular Value Transformation: Hardness and Applications to Quantum Chemistry and the Quantum PCP Conjecture</title>
+    <link>http://arxiv.org/pdf/2111.09079</link>
+    <author>Sevag Gharibian, François Le Gall</author>
+    <pubDate>Nov 18 2021</pubDate>
+    <description>The Quantum Singular Value Transformation (QSVT) is a recent technique that gives a unified framework to describe most quantum algorithms discovered so far, and may lead to the development of novel quantum algorithms. In this paper we investigate the hardness of classically simulating the QSVT. A recent result by Chia, Gilyén, Li, Lin, Tang and Wang (STOC 2020) showed that the QSVT can be efficiently "dequantized" for low-rank matrices, and discussed its implication to quantum machine learning. In this work, motivated by establishing the superiority of quantum algorithms for quantum chemistry and making progress on the quantum PCP conjecture, we focus on the other main class of matrices considered in applications of the QSVT, sparse matrices. We first show how to efficiently "dequantize", with arbitrarily small constant precision, the QSVT associated with a low-degree polynomial. We apply this technique to design classical algorithms that estimate, with constant precision, the singular values of a sparse matrix. We show in particular that a central computational problem considered by quantum algorithms for quantum chemistry (estimating the ground state energy of a local Hamiltonian when given, as an additional input, a state sufficiently close to the ground state) can be solved efficiently with constant precision on a classical computer. As a complementary result, we prove that with inverse-polynomial precision, the same problem becomes BQP-complete. This gives theoretical evidence for the superiority of quantum algorithms for chemistry, and strongly suggests that said superiority stems from the improved precision achievable in the quantum setting. We also discuss how this dequantization technique may help make progress on the central quantum PCP conjecture.</description>
+  </item>
+
+  <item>
     <title>Solving the sampling problem of the Sycamore quantum circuits</title>
     <link>http://arxiv.org/pdf/2111.03011</link>
     <author>Feng Pan, Keyang Chen, Pan Zhang</author>
@@ -116,14 +124,6 @@
     <author>Lin Lin</author>
     <pubDate>Jan 21 2022</pubDate>
     <description>This is a set of lecture notes used in a graduate topic class in applied mathematics called ``Quantum Algorithms for Scientific Computation'' at the Department of Mathematics, UC Berkeley during the fall semester of 2021. These lecture notes focus only on quantum algorithms closely related to scientific computation, and in particular, matrix computation. The main purpose of the lecture notes is to introduce quantum phase estimation (QPE) and ``post-QPE'' methods such as block encoding, quantum signal processing, and quantum singular value transformation, and to demonstrate their applications in solving eigenvalue problems, linear systems of equations, and differential equations. The intended audience is the broad computational science and engineering (CSE) community interested in using fault-tolerant quantum computers to solve challenging scientific computing problems.</description>
-  </item>
-
-  <item>
-    <title>Dequantizing the Quantum Singular Value Transformation: Hardness and Applications to Quantum Chemistry and the Quantum PCP Conjecture</title>
-    <link>http://arxiv.org/pdf/2111.09079</link>
-    <author>Sevag Gharibian, François Le Gall</author>
-    <pubDate>Nov 18 2021</pubDate>
-    <description>The Quantum Singular Value Transformation (QSVT) is a recent technique that gives a unified framework to describe most quantum algorithms discovered so far, and may lead to the development of novel quantum algorithms. In this paper we investigate the hardness of classically simulating the QSVT. A recent result by Chia, Gilyén, Li, Lin, Tang and Wang (STOC 2020) showed that the QSVT can be efficiently "dequantized" for low-rank matrices, and discussed its implication to quantum machine learning. In this work, motivated by establishing the superiority of quantum algorithms for quantum chemistry and making progress on the quantum PCP conjecture, we focus on the other main class of matrices considered in applications of the QSVT, sparse matrices. We first show how to efficiently "dequantize", with arbitrarily small constant precision, the QSVT associated with a low-degree polynomial. We apply this technique to design classical algorithms that estimate, with constant precision, the singular values of a sparse matrix. We show in particular that a central computational problem considered by quantum algorithms for quantum chemistry (estimating the ground state energy of a local Hamiltonian when given, as an additional input, a state sufficiently close to the ground state) can be solved efficiently with constant precision on a classical computer. As a complementary result, we prove that with inverse-polynomial precision, the same problem becomes BQP-complete. This gives theoretical evidence for the superiority of quantum algorithms for chemistry, and strongly suggests that said superiority stems from the improved precision achievable in the quantum setting. We also discuss how this dequantization technique may help make progress on the central quantum PCP conjecture.</description>
   </item>
 
   <item>
@@ -303,6 +303,14 @@
   </item>
 
   <item>
+    <title>Noise can be helpful for variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2210.06723</link>
+    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
     <link>http://arxiv.org/pdf/2210.03030</link>
     <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
@@ -316,14 +324,6 @@
     <author>Weiyuan Gong, Scott Aaronson</author>
     <pubDate>Sep 08 2022</pubDate>
     <description>Shadow tomography for quantum states provides a sample efficient approach for predicting the properties of quantum systems when the properties are restricted to expectation values of $2$-outcome POVMs. However, these shadow tomography procedures yield poor bounds if there are more than 2 outcomes per measurement. In this paper, we consider a general problem of learning properties from unknown quantum states: given an unknown $d$-dimensional quantum state $\rho$ and $M$ unknown quantum measurements $\mathcal{M}_1,...,\mathcal{M}_M$ with $K\geq 2$ outcomes, estimating the probability distribution for applying $\mathcal{M}_i$ on $\rho$ to within total variation distance $\epsilon$. Compared to the special case when $K=2$, we need to learn unknown distributions instead of values. We develop an online shadow tomography procedure that solves this problem with high success probability requiring $\tilde{O}(K\log^2M\log d/\epsilon^4)$ copies of $\rho$. We further prove an information-theoretic lower bound that at least $\Omega(\min\{d^2,K+\log M\}/\epsilon^2)$ copies of $\rho$ are required to solve this problem with high success probability. Our shadow tomography procedure requires sample complexity with only logarithmic dependence on $M$ and $d$ and is sample-optimal for the dependence on $K$.</description>
-  </item>
-
-  <item>
-    <title>Noise can be helpful for variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2210.06723</link>
-    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
   </item>
 
   <item>

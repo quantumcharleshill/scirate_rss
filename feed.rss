@@ -31,27 +31,11 @@
   </item>
 
   <item>
-    <title>Parallel window decoding enables scalable fault tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2209.08552</link>
-    <author>Luka Skoric, Dan E. Browne, Kenton M. Barnes, Neil I. Gillespie, Earl T. Campbell</author>
-    <pubDate>Sep 20 2022</pubDate>
-    <description>Quantum Error Correction (QEC) continuously generates a stream of syndrome data that contains information about the errors in the system. Useful fault-tolerant quantum computation requires online decoders that are capable of processing this syndrome data at the rate it is received. Otherwise, a data backlog is created that grows exponentially with the $T$-gate depth of the computation. Superconducting quantum devices can perform QEC rounds in sub-1 $\mu$s time, setting a stringent requirement on the speed of the decoders. All current decoder proposals have a maximum code size beyond which the processing of syndromes becomes too slow to keep up with the data acquisition, thereby making the fault-tolerant computation not scalable. Here, we will present a methodology that parallelizes the decoding problem and achieves almost arbitrary syndrome processing speed. Our parallelization requires some classical feedback decisions to be delayed, leading to a slow-down of the logical clock speed. However, the slow-down is now polynomial in code size and so an exponential backlog is averted. Furthermore, using known auto-teleportation gadgets the slow-down can be eliminated altogether in exchange for increased qubit overhead, all polynomially scaling. We demonstrate our parallelization speed-up using a Python implementation, combining it with both union-find and minimum weight perfect matching. Furthermore, we show that the algorithm imposes no noticeable reduction in logical fidelity compared to the original global decoder. Finally, we discuss how the same methodology can be implemented in online hardware decoders.</description>
-  </item>
-
-  <item>
     <title>Quantum Error Mitigation</title>
     <link>http://arxiv.org/pdf/2210.00921</link>
     <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
     <pubDate>Oct 04 2022</pubDate>
     <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
-    <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
-    <link>http://arxiv.org/pdf/2210.03030</link>
-    <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
   </item>
 
   <item>
@@ -63,19 +47,19 @@
   </item>
 
   <item>
+    <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
+    <link>http://arxiv.org/pdf/2210.03030</link>
+    <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
+    <pubDate>Oct 07 2022</pubDate>
+    <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
+  </item>
+
+  <item>
     <title>Thermalization without eigenstate thermalization</title>
     <link>http://arxiv.org/pdf/2209.09826</link>
     <author>Aram W. Harrow, Yichen Huang</author>
     <pubDate>Sep 21 2022</pubDate>
     <description>In an isolated quantum many-body system undergoing unitary evolution, we study the thermalization of a subsystem, treating the rest of the system as a bath. In this setting, the eigenstate thermalization hypothesis (ETH) was proposed to explain thermalization. Consider a nearly integrable Sachdev-Ye-Kitaev model obtained by adding random all-to-all $4$-body interactions as a perturbation to a random free-fermion model. When the subsystem size is larger than the square root of but is still a vanishing fraction of the system size, we prove thermalization if the system is initialized in a random product state, while almost all eigenstates violate the ETH. In this sense, the ETH is not a necessary condition for thermalization.</description>
-  </item>
-
-  <item>
-    <title>Clique Homology is QMA1-hard</title>
-    <link>http://arxiv.org/pdf/2209.11793</link>
-    <author>Marcos Crichigno, Tamara Kohler</author>
-    <pubDate>Sep 27 2022</pubDate>
-    <description>We tackle the long-standing question of the computational complexity of determining homology groups of simplicial complexes, a fundamental task in computational topology, posed by Kaibel and Pfetsch 20 years ago. We show that this decision problem is QMA1-hard. Moreover, we show that a version of the problem satisfying a suitable promise and certain constraints is contained in QMA. This suggests that the seemingly classical problem may in fact be quantum mechanical. In fact, we are able to significantly strengthen this by showing that the problem remains QMA1-hard in the case of clique complexes, a family of simplicial complexes specified by a graph which is relevant to the problem of topological data analysis. The proof combines a number of techniques from Hamiltonian complexity and homological algebra. We discuss potential implications for the problem of quantum advantage in topological data analysis.</description>
   </item>
 
   <item>
@@ -87,11 +71,11 @@
   </item>
 
   <item>
-    <title>The minimal canonical form of a tensor network</title>
-    <link>http://arxiv.org/pdf/2209.14358</link>
-    <author>Arturo Acuaviva, Visu Makam, Harold Nieuwboer, David Pérez-García, Friedrich Sittner, Michael Walter, Freek Witteveen</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>Tensor networks have a gauge degree of freedom on the virtual degrees of freedom that are contracted. A canonical form is a choice of fixing this degree of freedom. For matrix product states, choosing a canonical form is a powerful tool, both for theoretical and numerical purposes. On the other hand, for tensor networks in dimension two or greater there is only limited understanding of the gauge symmetry. Here we introduce a new canonical form, the minimal canonical form, which applies to projected entangled pair states (PEPS) in any dimension, and prove a corresponding fundamental theorem. Already for matrix product states this gives a new canonical form, while in higher dimensions it is the first rigorous definition of a canonical form valid for any choice of tensor. We show that two tensors have the same minimal canonical forms if and only if they are gauge equivalent up to taking limits; moreover, this is the case if and only if they give the same quantum state for any geometry. In particular, this implies that the latter problem is decidable - in contrast to the well-known undecidability for PEPS on grids. We also provide rigorous algorithms for computing minimal canonical forms. To achieve this we draw on geometric invariant theory and recent progress in theoretical computer science in non-commutative group optimization.</description>
+    <title>Clique Homology is QMA1-hard</title>
+    <link>http://arxiv.org/pdf/2209.11793</link>
+    <author>Marcos Crichigno, Tamara Kohler</author>
+    <pubDate>Sep 27 2022</pubDate>
+    <description>We tackle the long-standing question of the computational complexity of determining homology groups of simplicial complexes, a fundamental task in computational topology, posed by Kaibel and Pfetsch 20 years ago. We show that this decision problem is QMA1-hard. Moreover, we show that a version of the problem satisfying a suitable promise and certain constraints is contained in QMA. This suggests that the seemingly classical problem may in fact be quantum mechanical. In fact, we are able to significantly strengthen this by showing that the problem remains QMA1-hard in the case of clique complexes, a family of simplicial complexes specified by a graph which is relevant to the problem of topological data analysis. The proof combines a number of techniques from Hamiltonian complexity and homological algebra. We discuss potential implications for the problem of quantum advantage in topological data analysis.</description>
   </item>
 
   <item>
@@ -100,6 +84,14 @@
     <author>Adrian She, Henry Yuen</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We study unitary property testing, where a quantum algorithm is given query access to a black-box unitary and has to decide whether it satisfies some property. In addition to containing the standard quantum query complexity model (where the unitary encodes a binary string) as a special case, this model contains "inherently quantum" problems that have no classical analogue. Characterizing the query complexity of these problems requires new algorithmic techniques and lower bound methods. Our main contribution is a generalized polynomial method for unitary property testing problems. By leveraging connections with invariant theory, we apply this method to obtain lower bounds on problems such as determining recurrence times of unitaries, approximating the dimension of a marked subspace, and approximating the entanglement entropy of a marked state. We also present a unitary property testing-based approach towards an oracle separation between $\mathsf{QMA}$ and $\mathsf{QMA(2)}$, a long standing question in quantum complexity theory.</description>
+  </item>
+
+  <item>
+    <title>The minimal canonical form of a tensor network</title>
+    <link>http://arxiv.org/pdf/2209.14358</link>
+    <author>Arturo Acuaviva, Visu Makam, Harold Nieuwboer, David Pérez-García, Friedrich Sittner, Michael Walter, Freek Witteveen</author>
+    <pubDate>Sep 30 2022</pubDate>
+    <description>Tensor networks have a gauge degree of freedom on the virtual degrees of freedom that are contracted. A canonical form is a choice of fixing this degree of freedom. For matrix product states, choosing a canonical form is a powerful tool, both for theoretical and numerical purposes. On the other hand, for tensor networks in dimension two or greater there is only limited understanding of the gauge symmetry. Here we introduce a new canonical form, the minimal canonical form, which applies to projected entangled pair states (PEPS) in any dimension, and prove a corresponding fundamental theorem. Already for matrix product states this gives a new canonical form, while in higher dimensions it is the first rigorous definition of a canonical form valid for any choice of tensor. We show that two tensors have the same minimal canonical forms if and only if they are gauge equivalent up to taking limits; moreover, this is the case if and only if they give the same quantum state for any geometry. In particular, this implies that the latter problem is decidable - in contrast to the well-known undecidability for PEPS on grids. We also provide rigorous algorithms for computing minimal canonical forms. To achieve this we draw on geometric invariant theory and recent progress in theoretical computer science in non-commutative group optimization.</description>
   </item>
 
   <item>
@@ -135,19 +127,19 @@
   </item>
 
   <item>
-    <title>Scalable surface code decoders with parallelization in time</title>
-    <link>http://arxiv.org/pdf/2209.09219</link>
-    <author>Xinyu Tan, Fang Zhang, Rui Chao, Yaoyun Shi, Jianxin Chen</author>
-    <pubDate>Sep 20 2022</pubDate>
-    <description>Fast classical processing is essential for most quantum fault-tolerance architectures. We introduce a sliding-window decoding scheme that provides fast classical processing for the surface code through parallelism. Our scheme divides the syndromes in spacetime into overlapping windows along the time direction, which can be decoded in parallel with any inner decoder. With this parallelism, our scheme can solve the decoding throughput problem as the code scales up, even if the inner decoder is slow. When using min-weight perfect matching and union-find as the inner decoders, we observe circuit-level thresholds of $0.68\%$ and $0.55\%$, respectively, which are almost identical to $0.70\%$ and $0.55\%$ for the batch decoding.</description>
-  </item>
-
-  <item>
     <title>NLTS Hamiltonians from classical LTCs</title>
     <link>http://arxiv.org/pdf/2210.02999</link>
     <author>Zhiyang He, Chinmay Nirkhe</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>We provide a completely self-contained construction of a family of NLTS Hamiltonians [Freedman and Hastings, 2014] based on ideas from [Anshu, Breuckmann, and Nirkhe, 2022], [Cross, He, Natarajan, Szegedy, and Zhu, 2022] and [Eldar and Harrow, 2017]. Crucially, it does not require optimal-parameter quantum LDPC codes and can be built from simple classical LTCs such as the repetition code on an expander graph. Furthermore, it removes the constant-rate requirement from the construction of Anshu, Breuckmann, and Nirkhe.</description>
+  </item>
+
+  <item>
+    <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
+    <link>http://arxiv.org/pdf/2210.10255</link>
+    <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Indistinguishability of particles is a fundamental principle of quantum mechanics. For all elementary and quasiparticles observed to date - including fermions, bosons, and Abelian anyons - this principle guarantees that the braiding of identical particles leaves the system unchanged. However, in two spatial dimensions, an intriguing possibility exists: braiding of non-Abelian anyons causes rotations in a space of topologically degenerate wavefunctions. Hence, it can change the observables of the system without violating the principle of indistinguishability. Despite the well developed mathematical description of non-Abelian anyons and numerous theoretical proposals, their experimental observation has remained elusive for decades. Using a superconducting quantum processor, we prepare the ground state of the surface code and manipulate it via unitary operations to form wavefunctions that are described by non-Abelian anyons. By implementing a unitary protocol to move the anyons, we experimentally verify the fusion rules of non-Abelian Ising anyons and braid them to realize their statistics. Building on our technique, we study the prospect of employing the anyons for quantum computation and utilize braiding to create an entangled state of anyons encoding three logical qubits. Our work represents a key step towards topological quantum computing.</description>
   </item>
 
   <item>
@@ -244,6 +236,14 @@
     <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
     <pubDate>Oct 12 2022</pubDate>
     <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
+  </item>
+
+  <item>
+    <title>The Random-Bond Ising Model and its dual in Hyperbolic Spaces</title>
+    <link>http://arxiv.org/pdf/2210.07227</link>
+    <author>Benedikt Placke, Nikolas P. Breuckmann</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>We analyze the thermodynamic properties of the random-bond Ising model (RBIM) on closed hyperbolic surfaces using Monte Carlo and high-temperature series expansion techniques. We also analyze the dual-RBIM, that is the model that in the absence of disorder is related to the RBIM via the Kramers-Wannier duality. Even on self-dual lattices this model is different from the RBIM, unlike in the euclidean case. We explain this anomaly by a careful re-derivation of the Kramers--Wannier duality. For the (dual-)RBIM, we compute the paramagnet-to-ferromagnet phase transition as a function of both temperature $T$ and the fraction of antiferromagnetic bonds $p$. We find that as temperature is decreased in the RBIM, the paramagnet gives way to either a ferromagnet or a spin-glass phase via a second-order transition compatible with mean-field behavior. In contrast, the dual-RBIM undergoes a strongly first order transition from the paramagnet to the ferromagnet both in the absence of disorder and along the Nishimori line. We study both transitions for a variety of hyperbolic tessellations and comment on the role of coordination number and curvature. The extent of the ferromagnetic phase in the dual-RBIM corresponds to the correctable phase of hyperbolic surface codes under independent bit- and phase-flip noise.</description>
   </item>
 
 </channel>

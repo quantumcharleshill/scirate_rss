@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The Complexity of NISQ</title>
-    <link>http://arxiv.org/pdf/2210.07234</link>
-    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
-  </item>
-
-  <item>
     <title>The Quantum Fourier Transform Has Small Entanglement</title>
     <link>http://arxiv.org/pdf/2210.08468</link>
     <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
@@ -23,19 +15,11 @@
   </item>
 
   <item>
-    <title>Noise can be helpful for variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2210.06723</link>
-    <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Circuit depth versus energy in topologically ordered systems</title>
-    <link>http://arxiv.org/pdf/2210.06796</link>
-    <author>Arkin Tikku, Isaac H. Kim</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>We prove a nontrivial circuit-depth lower bound for preparing a low-energy state of a locally interacting quantum many-body system in two dimensions, assuming the circuit is geometrically local. For preparing any state which has an energy density of at most $\epsilon$ with respect to Kitaev's toric code Hamiltonian on a two dimensional lattice $\Lambda$, we prove a lower bound of $\Omega\left(\min\left(1/\epsilon^{\frac{1-\alpha}{2}}, \sqrt{|\Lambda|}\right)\right)$ for any $\alpha >0$. We discuss two implications. First, our bound implies that the lowest energy density obtainable from a large class of existing variational circuits (e.g., Hamiltonian variational ansatz) cannot, in general, decay exponentially with the circuit depth. Second, if long-range entanglement is present in the ground state, this can lead to a nontrivial circuit-depth lower bound even at nonzero energy density. Unlike previous approaches to prove circuit-depth lower bounds for preparing low energy states, our proof technique does not rely on the ground state to be degenerate.</description>
+    <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
+    <link>http://arxiv.org/pdf/2210.10255</link>
+    <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Indistinguishability of particles is a fundamental principle of quantum mechanics. For all elementary and quasiparticles observed to date - including fermions, bosons, and Abelian anyons - this principle guarantees that the braiding of identical particles leaves the system unchanged. However, in two spatial dimensions, an intriguing possibility exists: braiding of non-Abelian anyons causes rotations in a space of topologically degenerate wavefunctions. Hence, it can change the observables of the system without violating the principle of indistinguishability. Despite the well developed mathematical description of non-Abelian anyons and numerous theoretical proposals, their experimental observation has remained elusive for decades. Using a superconducting quantum processor, we prepare the ground state of the surface code and manipulate it via unitary operations to form wavefunctions that are described by non-Abelian anyons. By implementing a unitary protocol to move the anyons, we experimentally verify the fusion rules of non-Abelian Ising anyons and braid them to realize their statistics. Building on our technique, we study the prospect of employing the anyons for quantum computation and utilize braiding to create an entangled state of anyons encoding three logical qubits. Our work represents a key step towards topological quantum computing.</description>
   </item>
 
   <item>
@@ -47,14 +31,6 @@
   </item>
 
   <item>
-    <title>The Random-Bond Ising Model and its dual in Hyperbolic Spaces</title>
-    <link>http://arxiv.org/pdf/2210.07227</link>
-    <author>Benedikt Placke, Nikolas P. Breuckmann</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>We analyze the thermodynamic properties of the random-bond Ising model (RBIM) on closed hyperbolic surfaces using Monte Carlo and high-temperature series expansion techniques. We also analyze the dual-RBIM, that is the model that in the absence of disorder is related to the RBIM via the Kramers-Wannier duality. Even on self-dual lattices this model is different from the RBIM, unlike in the euclidean case. We explain this anomaly by a careful re-derivation of the Kramers--Wannier duality. For the (dual-)RBIM, we compute the paramagnet-to-ferromagnet phase transition as a function of both temperature $T$ and the fraction of antiferromagnetic bonds $p$. We find that as temperature is decreased in the RBIM, the paramagnet gives way to either a ferromagnet or a spin-glass phase via a second-order transition compatible with mean-field behavior. In contrast, the dual-RBIM undergoes a strongly first order transition from the paramagnet to the ferromagnet both in the absence of disorder and along the Nishimori line. We study both transitions for a variety of hyperbolic tessellations and comment on the role of coordination number and curvature. The extent of the ferromagnetic phase in the dual-RBIM corresponds to the correctable phase of hyperbolic surface codes under independent bit- and phase-flip noise.</description>
-  </item>
-
-  <item>
     <title>Quantum Event Learning and Gentle Random Measurements</title>
     <link>http://arxiv.org/pdf/2210.09155</link>
     <author>Adam Bene Watts, John Bostanci</author>
@@ -63,11 +39,11 @@
   </item>
 
   <item>
-    <title>Quantum Algorithms for Sampling Log-Concave Distributions and Estimating Normalizing Constants</title>
-    <link>http://arxiv.org/pdf/2210.06539</link>
-    <author>Andrew M. Childs, Tongyang Li, Jin-Peng Liu, Chunhao Wang, Ruizhe Zhang</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Given a convex function $f\colon\mathbb{R}^{d}\to\mathbb{R}$, the problem of sampling from a distribution $\propto e^{-f(x)}$ is called log-concave sampling. This task has wide applications in machine learning, physics, statistics, etc. In this work, we develop quantum algorithms for sampling log-concave distributions and for estimating their normalizing constants $\int_{\mathbb{R}^d}e^{-f(x)}\mathrm{d} x$. First, we use underdamped Langevin diffusion to develop quantum algorithms that match the query complexity (in terms of the condition number $\kappa$ and dimension $d$) of analogous classical algorithms that use gradient (first-order) queries, even though the quantum algorithms use only evaluation (zeroth-order) queries. For estimating normalizing constants, these algorithms also achieve quadratic speedup in the multiplicative error $\epsilon$. Second, we develop quantum Metropolis-adjusted Langevin algorithms with query complexity $\widetilde{O}(\kappa^{1/2}d)$ and $\widetilde{O}(\kappa^{1/2}d^{3/2}/\epsilon)$ for log-concave sampling and normalizing constant estimation, respectively, achieving polynomial speedups in $\kappa,d,\epsilon$ over the best known classical algorithms by exploiting quantum analogs of the Monte Carlo method and quantum walks. We also prove a $1/\epsilon^{1-o(1)}$ quantum lower bound for estimating normalizing constants, implying near-optimality of our quantum algorithms in $\epsilon$.</description>
+    <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
+    <link>http://arxiv.org/pdf/2210.10733</link>
+    <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Efficient suppression of errors without full error correction is crucial for applications with NISQ devices. Error mitigation allows us to suppress errors in extracting expectation values without the need for any error correction code, but its applications are limited to estimating expectation values, and cannot provide us with high-fidelity quantum operations acting on arbitrary quantum states. To address this challenge, we propose to use error filtration (EF) for gate-based quantum computation, as a practical error suppression scheme without resorting to full quantum error correction. The result is a general-purpose error suppression protocol where the resources required to suppress errors scale independently of the size of the quantum operation. We further analyze the application of EF to quantum random access memory, where EF offers a hardware-efficient error suppression.</description>
   </item>
 
   <item>
@@ -84,6 +60,30 @@
     <author>Thiago Bergamaschi</author>
     <pubDate>Oct 18 2022</pubDate>
     <description>The ground state energy and the free energy of Quantum Local Hamiltonians are fundamental quantities in quantum many-body physics, however, it is QMA-Hard to estimate them in general. In this paper, we develop new techniques to find classical, additive error product-state approximations for these quantities on certain families of Quantum $k$-Local Hamiltonians. Namely, those which are either dense, have low threshold rank, or are defined on a sparse graph that excludes a fixed minor, building on the methods and the systems studied by Brandão and Harrow, Gharibian and Kempe, and Bansal, Bravyi and Terhal. We present two main technical contributions. First, we discuss a connection between product-state approximations of local Hamiltonians and combinatorial graph property testing. We develop a series of weak Szemerédi regularity lemmas for $k$-local Hamiltonians, built on those of Frieze and Kannan and others. We use them to develop constant time sampling algorithms, and to characterize the `vertex sample complexity' of the Local Hamiltonian problem, in an analog to a classical result by Alon, de la Vega, Kannan and Karpinski. Second, we build on the information-theoretic product-state approximation techniques by Brandão and Harrow, extending their results to the free energy and to an asymmetric graph setting. We leverage this structure to define families of algorithms for the free energy at low temperatures, and new algorithms for certain sparse graph families.</description>
+  </item>
+
+  <item>
+    <title>The Zak transform: a framework for quantum computation with the Gottesman-Kitaev-Preskill code</title>
+    <link>http://arxiv.org/pdf/2210.09494</link>
+    <author>Giacomo Pantaleoni, Ben Q. Baragiola, Nicolas C. Menicucci</author>
+    <pubDate>Oct 19 2022</pubDate>
+    <description>The Gottesman-Kitaev-Preskill (GKP) code encodes a qubit into a bosonic mode using periodic wavefunctions. This periodicity makes the GKP code a natural setting for the Zak transform, which is tailor-made to provide a simple description for periodic functions. We review the Zak transform and its connection to a Zak basis of states in Hilbert space, decompose the shift operators that underpin the stabilizers and the correctable errors, and we find that Zak transforms of the position wavefunction appear naturally in GKP error correction. We construct a new bosonic subsystem decomposition (SSD) -- the modular variable SSD -- by dividing a mode's Hilbert space, expressed in the Zak basis, into that of a virtual qubit and a virtual gauge mode. Tracing over the gauge mode gives a logical-qubit state, and preceding the trace with a particular logical-gauge interaction gives a different logical state -- that associated to GKP error correction.</description>
+  </item>
+
+  <item>
+    <title>Theoretical Guarantees for Permutation-Equivariant Quantum Neural Networks</title>
+    <link>http://arxiv.org/pdf/2210.09974</link>
+    <author>Louis Schatzki, Martin Larocca, Frederic Sauvage, M. Cerezo</author>
+    <pubDate>Oct 19 2022</pubDate>
+    <description>Despite the great promise of quantum machine learning models, there are several challenges one must overcome before unlocking their full potential. For instance, models based on quantum neural networks (QNNs) can suffer from excessive local minima and barren plateaus in their training landscapes. Recently, the nascent field of geometric quantum machine learning (GQML) has emerged as a potential solution to some of those issues. The key insight of GQML is that one should design architectures, such as equivariant QNNs, encoding the symmetries of the problem at hand. Here, we focus on problems with permutation symmetry (i.e., the group of symmetry $S_n$), and show how to build $S_n$-equivariant QNNs. We provide an analytical study of their performance, proving that they do not suffer from barren plateaus, quickly reach overparametrization, and can generalize well from small amounts of data. To verify our results, we perform numerical simulations for a graph state classification task. Our work provides the first theoretical guarantees for equivariant QNNs, thus indicating the extreme power and potential of GQML.</description>
+  </item>
+
+  <item>
+    <title>Automated quantum error mitigation based on probabilistic error reduction</title>
+    <link>http://arxiv.org/pdf/2210.08611</link>
+    <author>Benjamin McDonough, Andrea Mari, Nathan Shammah, Nathaniel T. Stemen, Misty Wahl, William J. Zeng, Peter P. Orth</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>Current quantum computers suffer from a level of noise that prohibits extracting useful results directly from longer computations. The figure of merit in many near-term quantum algorithms is an expectation value measured at the end of the computation, which experiences a bias in the presence of hardware noise. A systematic way to remove such bias is probabilistic error cancellation (PEC). PEC requires a full characterization of the noise and introduces a sampling overhead that increases exponentially with circuit depth, prohibiting high-depth circuits at realistic noise levels. Probabilistic error reduction (PER) is a related quantum error mitigation method that systematically reduces the sampling overhead at the cost of reintroducing bias. In combination with zero-noise extrapolation, PER can yield expectation values with an accuracy comparable to PEC.Noise reduction through PER is broadly applicable to near-term algorithms, and the automated implementation of PER is thus desirable for facilitating its widespread use. To this end, we present an automated quantum error mitigation software framework that includes noise tomography and application of PER to user-specified circuits. We provide a multi-platform Python package that implements a recently developed Pauli noise tomography (PNT) technique for learning a sparse Pauli noise model and exploits a Pauli noise scaling method to carry out PER.We also provide software tools that leverage a previously developed toolchain, employing PyGSTi for gate set tomography and providing a functionality to use the software Mitiq for PER and zero-noise extrapolation to obtain error-mitigated expectation values on a user-defined circuit.</description>
   </item>
 
 </channel>
