@@ -135,19 +135,19 @@
   </item>
 
   <item>
-    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2209.12924</link>
-    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
-    <pubDate>Sep 28 2022</pubDate>
-    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
-  </item>
-
-  <item>
     <title>The Quantum Fourier Transform Has Small Entanglement</title>
     <link>http://arxiv.org/pdf/2210.08468</link>
     <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
     <pubDate>Oct 18 2022</pubDate>
     <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
+  </item>
+
+  <item>
+    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2209.12924</link>
+    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
+    <pubDate>Sep 28 2022</pubDate>
+    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
   </item>
 
   <item>
@@ -207,19 +207,19 @@
   </item>
 
   <item>
-    <title>Random quantum circuits transform local noise into global white noise</title>
-    <link>http://arxiv.org/pdf/2111.14907</link>
-    <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
-    <pubDate>Dec 01 2021</pubDate>
-    <description>We study the distribution over measurement outcomes of noisy random quantum circuits in the low-fidelity regime. We show that, for local noise that is sufficiently weak and unital, correlations (measured by the linear cross-entropy benchmark) between the output distribution $p_{\text{noisy}}$ of a generic noisy circuit instance and the output distribution $p_{\text{ideal}}$ of the corresponding noiseless instance shrink exponentially with the expected number of gate-level errors, as $F=\text{exp}(-2s\epsilon \pm O(s\epsilon^2))$, where $\epsilon$ is the probability of error per circuit location and $s$ is the number of two-qubit gates. Furthermore, if the noise is incoherent, the output distribution approaches the uniform distribution $p_{\text{unif}}$ at precisely the same rate and can be approximated as $p_{\text{noisy}} \approx Fp_{\text{ideal}} + (1-F)p_{\text{unif}}$, that is, local errors are scrambled by the random quantum circuit and contribute only white noise (uniform output). Importantly, we upper bound the total variation error (averaged over random circuit instance) in this approximation as $O(F\epsilon \sqrt{s})$, so the "white-noise approximation" is meaningful when $\epsilon \sqrt{s} \ll 1$, a quadratically weaker condition than the $\epsilon s\ll 1$ requirement to maintain high fidelity. The bound applies when the circuit size satisfies $s \geq \Omega(n\log(n))$ and the inverse error rate satisfies $\epsilon^{-1} \geq \tilde{\Omega}(n)$. The white-noise approximation is useful for salvaging the signal from a noisy quantum computation; it was an underlying assumption in complexity-theoretic arguments that low-fidelity random quantum circuits cannot be efficiently sampled classically. Our method is based on a map from second-moment quantities in random quantum circuits to expectation values of certain stochastic processes for which we compute upper and lower bounds.</description>
-  </item>
-
-  <item>
     <title>Quantum Error Mitigation</title>
     <link>http://arxiv.org/pdf/2210.00921</link>
     <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
     <pubDate>Oct 04 2022</pubDate>
     <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
+  </item>
+
+  <item>
+    <title>Random quantum circuits transform local noise into global white noise</title>
+    <link>http://arxiv.org/pdf/2111.14907</link>
+    <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
+    <pubDate>Dec 01 2021</pubDate>
+    <description>We study the distribution over measurement outcomes of noisy random quantum circuits in the low-fidelity regime. We show that, for local noise that is sufficiently weak and unital, correlations (measured by the linear cross-entropy benchmark) between the output distribution $p_{\text{noisy}}$ of a generic noisy circuit instance and the output distribution $p_{\text{ideal}}$ of the corresponding noiseless instance shrink exponentially with the expected number of gate-level errors, as $F=\text{exp}(-2s\epsilon \pm O(s\epsilon^2))$, where $\epsilon$ is the probability of error per circuit location and $s$ is the number of two-qubit gates. Furthermore, if the noise is incoherent, the output distribution approaches the uniform distribution $p_{\text{unif}}$ at precisely the same rate and can be approximated as $p_{\text{noisy}} \approx Fp_{\text{ideal}} + (1-F)p_{\text{unif}}$, that is, local errors are scrambled by the random quantum circuit and contribute only white noise (uniform output). Importantly, we upper bound the total variation error (averaged over random circuit instance) in this approximation as $O(F\epsilon \sqrt{s})$, so the "white-noise approximation" is meaningful when $\epsilon \sqrt{s} \ll 1$, a quadratically weaker condition than the $\epsilon s\ll 1$ requirement to maintain high fidelity. The bound applies when the circuit size satisfies $s \geq \Omega(n\log(n))$ and the inverse error rate satisfies $\epsilon^{-1} \geq \tilde{\Omega}(n)$. The white-noise approximation is useful for salvaging the signal from a noisy quantum computation; it was an underlying assumption in complexity-theoretic arguments that low-fidelity random quantum circuits cannot be efficiently sampled classically. Our method is based on a map from second-moment quantities in random quantum circuits to expectation values of certain stochastic processes for which we compute upper and lower bounds.</description>
   </item>
 
   <item>

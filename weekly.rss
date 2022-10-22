@@ -39,6 +39,14 @@
   </item>
 
   <item>
+    <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
+    <link>http://arxiv.org/pdf/2210.10799</link>
+    <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
+  </item>
+
+  <item>
     <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
     <link>http://arxiv.org/pdf/2210.10733</link>
     <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
@@ -47,11 +55,11 @@
   </item>
 
   <item>
-    <title>Theory for Equivariant Quantum Neural Networks</title>
-    <link>http://arxiv.org/pdf/2210.08566</link>
-    <author>Quynh T. Nguyen, Louis Schatzki, Paolo Braccia, Michael Ragone, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>Most currently used quantum neural network architectures have little-to-no inductive biases, leading to trainability and generalization issues. Inspired by a similar problem, recent breakthroughs in classical machine learning address this crux by creating models encoding the symmetries of the learning task. This is materialized through the usage of equivariant neural networks whose action commutes with that of the symmetry. In this work, we import these ideas to the quantum realm by presenting a general theoretical framework to understand, classify, design and implement equivariant quantum neural networks. As a special implementation, we show how standard quantum convolutional neural networks (QCNN) can be generalized to group-equivariant QCNNs where both the convolutional and pooling layers are equivariant under the relevant symmetry group. Our framework can be readily applied to virtually all areas of quantum machine learning, and provides hope to alleviate central challenges such as barren plateaus, poor local minima, and sample complexity.</description>
+    <title>Doubling the order of approximation via the randomized product formula</title>
+    <link>http://arxiv.org/pdf/2210.11281</link>
+    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
   </item>
 
   <item>
@@ -63,27 +71,19 @@
   </item>
 
   <item>
+    <title>Theory for Equivariant Quantum Neural Networks</title>
+    <link>http://arxiv.org/pdf/2210.08566</link>
+    <author>Quynh T. Nguyen, Louis Schatzki, Paolo Braccia, Michael Ragone, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>Most currently used quantum neural network architectures have little-to-no inductive biases, leading to trainability and generalization issues. Inspired by a similar problem, recent breakthroughs in classical machine learning address this crux by creating models encoding the symmetries of the learning task. This is materialized through the usage of equivariant neural networks whose action commutes with that of the symmetry. In this work, we import these ideas to the quantum realm by presenting a general theoretical framework to understand, classify, design and implement equivariant quantum neural networks. As a special implementation, we show how standard quantum convolutional neural networks (QCNN) can be generalized to group-equivariant QCNNs where both the convolutional and pooling layers are equivariant under the relevant symmetry group. Our framework can be readily applied to virtually all areas of quantum machine learning, and provides hope to alleviate central challenges such as barren plateaus, poor local minima, and sample complexity.</description>
+  </item>
+
+  <item>
     <title>The Zak transform: a framework for quantum computation with the Gottesman-Kitaev-Preskill code</title>
     <link>http://arxiv.org/pdf/2210.09494</link>
     <author>Giacomo Pantaleoni, Ben Q. Baragiola, Nicolas C. Menicucci</author>
     <pubDate>Oct 19 2022</pubDate>
     <description>The Gottesman-Kitaev-Preskill (GKP) code encodes a qubit into a bosonic mode using periodic wavefunctions. This periodicity makes the GKP code a natural setting for the Zak transform, which is tailor-made to provide a simple description for periodic functions. We review the Zak transform and its connection to a Zak basis of states in Hilbert space, decompose the shift operators that underpin the stabilizers and the correctable errors, and we find that Zak transforms of the position wavefunction appear naturally in GKP error correction. We construct a new bosonic subsystem decomposition (SSD) -- the modular variable SSD -- by dividing a mode's Hilbert space, expressed in the Zak basis, into that of a virtual qubit and a virtual gauge mode. Tracing over the gauge mode gives a logical-qubit state, and preceding the trace with a particular logical-gauge interaction gives a different logical state -- that associated to GKP error correction.</description>
-  </item>
-
-  <item>
-    <title>Theoretical Guarantees for Permutation-Equivariant Quantum Neural Networks</title>
-    <link>http://arxiv.org/pdf/2210.09974</link>
-    <author>Louis Schatzki, Martin Larocca, Frederic Sauvage, M. Cerezo</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>Despite the great promise of quantum machine learning models, there are several challenges one must overcome before unlocking their full potential. For instance, models based on quantum neural networks (QNNs) can suffer from excessive local minima and barren plateaus in their training landscapes. Recently, the nascent field of geometric quantum machine learning (GQML) has emerged as a potential solution to some of those issues. The key insight of GQML is that one should design architectures, such as equivariant QNNs, encoding the symmetries of the problem at hand. Here, we focus on problems with permutation symmetry (i.e., the group of symmetry $S_n$), and show how to build $S_n$-equivariant QNNs. We provide an analytical study of their performance, proving that they do not suffer from barren plateaus, quickly reach overparametrization, and can generalize well from small amounts of data. To verify our results, we perform numerical simulations for a graph state classification task. Our work provides the first theoretical guarantees for equivariant QNNs, thus indicating the extreme power and potential of GQML.</description>
-  </item>
-
-  <item>
-    <title>Automated quantum error mitigation based on probabilistic error reduction</title>
-    <link>http://arxiv.org/pdf/2210.08611</link>
-    <author>Benjamin McDonough, Andrea Mari, Nathan Shammah, Nathaniel T. Stemen, Misty Wahl, William J. Zeng, Peter P. Orth</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>Current quantum computers suffer from a level of noise that prohibits extracting useful results directly from longer computations. The figure of merit in many near-term quantum algorithms is an expectation value measured at the end of the computation, which experiences a bias in the presence of hardware noise. A systematic way to remove such bias is probabilistic error cancellation (PEC). PEC requires a full characterization of the noise and introduces a sampling overhead that increases exponentially with circuit depth, prohibiting high-depth circuits at realistic noise levels. Probabilistic error reduction (PER) is a related quantum error mitigation method that systematically reduces the sampling overhead at the cost of reintroducing bias. In combination with zero-noise extrapolation, PER can yield expectation values with an accuracy comparable to PEC.Noise reduction through PER is broadly applicable to near-term algorithms, and the automated implementation of PER is thus desirable for facilitating its widespread use. To this end, we present an automated quantum error mitigation software framework that includes noise tomography and application of PER to user-specified circuits. We provide a multi-platform Python package that implements a recently developed Pauli noise tomography (PNT) technique for learning a sparse Pauli noise model and exploits a Pauli noise scaling method to carry out PER.We also provide software tools that leverage a previously developed toolchain, employing PyGSTi for gate set tomography and providing a functionality to use the software Mitiq for PER and zero-noise extrapolation to obtain error-mitigated expectation values on a user-defined circuit.</description>
   </item>
 
 </channel>

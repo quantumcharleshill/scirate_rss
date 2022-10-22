@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2209.12924</link>
-    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
-    <pubDate>Sep 28 2022</pubDate>
-    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
-  </item>
-
-  <item>
     <title>The Quantum Fourier Transform Has Small Entanglement</title>
     <link>http://arxiv.org/pdf/2210.08468</link>
     <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
     <pubDate>Oct 18 2022</pubDate>
     <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
+  </item>
+
+  <item>
+    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2209.12924</link>
+    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
+    <pubDate>Sep 28 2022</pubDate>
+    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
   </item>
 
   <item>
@@ -119,6 +119,14 @@
   </item>
 
   <item>
+    <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
+    <link>http://arxiv.org/pdf/2210.10255</link>
+    <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Indistinguishability of particles is a fundamental principle of quantum mechanics. For all elementary and quasiparticles observed to date - including fermions, bosons, and Abelian anyons - this principle guarantees that the braiding of identical particles leaves the system unchanged. However, in two spatial dimensions, an intriguing possibility exists: braiding of non-Abelian anyons causes rotations in a space of topologically degenerate wavefunctions. Hence, it can change the observables of the system without violating the principle of indistinguishability. Despite the well developed mathematical description of non-Abelian anyons and numerous theoretical proposals, their experimental observation has remained elusive for decades. Using a superconducting quantum processor, we prepare the ground state of the surface code and manipulate it via unitary operations to form wavefunctions that are described by non-Abelian anyons. By implementing a unitary protocol to move the anyons, we experimentally verify the fusion rules of non-Abelian Ising anyons and braid them to realize their statistics. Building on our technique, we study the prospect of employing the anyons for quantum computation and utilize braiding to create an entangled state of anyons encoding three logical qubits. Our work represents a key step towards topological quantum computing.</description>
+  </item>
+
+  <item>
     <title>Concatenation Schemes for Topological Fault-tolerant Quantum Error Correction</title>
     <link>http://arxiv.org/pdf/2209.09390</link>
     <author>Zhaoyi Li, Isaac Kim, Patrick Hayden</author>
@@ -132,14 +140,6 @@
     <author>Zhiyang He, Chinmay Nirkhe</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>We provide a completely self-contained construction of a family of NLTS Hamiltonians [Freedman and Hastings, 2014] based on ideas from [Anshu, Breuckmann, and Nirkhe, 2022], [Cross, He, Natarajan, Szegedy, and Zhu, 2022] and [Eldar and Harrow, 2017]. Crucially, it does not require optimal-parameter quantum LDPC codes and can be built from simple classical LTCs such as the repetition code on an expander graph. Furthermore, it removes the constant-rate requirement from the construction of Anshu, Breuckmann, and Nirkhe.</description>
-  </item>
-
-  <item>
-    <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
-    <link>http://arxiv.org/pdf/2210.10255</link>
-    <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Indistinguishability of particles is a fundamental principle of quantum mechanics. For all elementary and quasiparticles observed to date - including fermions, bosons, and Abelian anyons - this principle guarantees that the braiding of identical particles leaves the system unchanged. However, in two spatial dimensions, an intriguing possibility exists: braiding of non-Abelian anyons causes rotations in a space of topologically degenerate wavefunctions. Hence, it can change the observables of the system without violating the principle of indistinguishability. Despite the well developed mathematical description of non-Abelian anyons and numerous theoretical proposals, their experimental observation has remained elusive for decades. Using a superconducting quantum processor, we prepare the ground state of the surface code and manipulate it via unitary operations to form wavefunctions that are described by non-Abelian anyons. By implementing a unitary protocol to move the anyons, we experimentally verify the fusion rules of non-Abelian Ising anyons and braid them to realize their statistics. Building on our technique, we study the prospect of employing the anyons for quantum computation and utilize braiding to create an entangled state of anyons encoding three logical qubits. Our work represents a key step towards topological quantum computing.</description>
   </item>
 
   <item>
@@ -183,6 +183,14 @@
   </item>
 
   <item>
+    <title>Representation Theory for Geometric Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2210.07980</link>
+    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
+    <pubDate>Oct 17 2022</pubDate>
+    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
+  </item>
+
+  <item>
     <title>Quantum Locally Testable Code with Exotic Parameters</title>
     <link>http://arxiv.org/pdf/2209.11405</link>
     <author>Andrew Cross, Zhiyang He, Anand Natarajan, Mario Szegedy, Guanyu Zhu</author>
@@ -204,14 +212,6 @@
     <author>Marco Fanizza, Josep Lumbreras, Andreas Winter</author>
     <pubDate>Sep 23 2022</pubDate>
     <description>Arguably, the largest class of stochastic processes generated by means of a finite memory consists of those that are sequences of observations produced by sequential measurements in a suitable generalized probabilistic theory (GPT). These are constructed from a finite-dimensional memory evolving under a set of possible linear maps, and with probabilities of outcomes determined by linear functions of the memory state. Examples of such models are given by classical hidden Markov processes, where the memory state is a probability distribution, and at each step it evolves according to a non-negative matrix, and hidden quantum Markov processes, where the memory state is a finite dimensional quantum state, and at each step it evolves according to a completely positive map. Here we show that the set of processes admitting a finite-dimensional explanation do not need to be explainable in terms of either classical probability or quantum mechanics. To wit, we exhibit families of processes that have a finite-dimensional explanation, defined manifestly by the dynamics of explicitly given GPT, but that do not admit a quantum, and therefore not even classical, explanation in finite dimension. Furthermore, we present a family of quantum processes on qubits and qutrits that do not admit a classical finite-dimensional realization, which includes examples introduced earlier by Fox, Rubin, Dharmadikari and Nadkarni as functions of infinite dimensional Markov chains, and lower bound the size of the memory of a classical model realizing a noisy version of the qubit processes.</description>
-  </item>
-
-  <item>
-    <title>Representation Theory for Geometric Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2210.07980</link>
-    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 17 2022</pubDate>
-    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
   </item>
 
   <item>

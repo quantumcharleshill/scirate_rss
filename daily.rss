@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
+    <link>http://arxiv.org/pdf/2210.10799</link>
+    <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
+  </item>
+
+  <item>
     <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
     <link>http://arxiv.org/pdf/2210.10733</link>
     <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
@@ -23,27 +31,19 @@
   </item>
 
   <item>
-    <title>Lattice-Based Quantum Advantage from Rotated Measurements</title>
-    <link>http://arxiv.org/pdf/2210.10143</link>
-    <author>Yusuf Alnawakhtha, Atul Mantri, Carl A. Miller, Daochen Wang</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Trapdoor claw-free functions (TCFs) are immensely valuable in cryptographic interactions between a classical client and a quantum server. Typically, a protocol has the quantum server prepare a superposition of two-bit strings of a claw and then measure it using Pauli-$X$ or $Z$ measurements. In this paper, we demonstrate a new technique that uses the entire range of qubit measurements from the $XY$-plane. We show the advantage of this approach in two applications. First, building on (Brakerski et al. 2018, Kalai et al. 2022), we show an optimized two-round proof of quantumness whose security can be expressed directly in terms of the hardness of the LWE (learning with errors) problem. Second, we construct a one-round protocol for blind remote preparation of an arbitrary state on the $XY$-plane up to a Pauli-$Z$ correction.</description>
+    <title>Doubling the order of approximation via the randomized product formula</title>
+    <link>http://arxiv.org/pdf/2210.11281</link>
+    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
   </item>
 
   <item>
-    <title>The Status of the Bayes Rule in QBism</title>
-    <link>http://arxiv.org/pdf/2210.10757</link>
-    <author>Blake C. Stacey</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>I gamely try to disentangle ideas that have been confused with one another.</description>
-  </item>
-
-  <item>
-    <title>Faster Matrix Multiplication via Asymmetric Hashing</title>
-    <link>http://arxiv.org/pdf/2210.10173</link>
-    <author>Ran Duan, Hongxun Wu, Renfei Zhou</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Fast matrix multiplication is one of the most fundamental problems in algorithm research. The exponent of the optimal time complexity of matrix multiplication is usually denoted by $\omega$. This paper discusses new ideas for improving the laser method for fast matrix multiplication. We observe that the analysis of higher powers of the Coppersmith-Winograd tensor [Coppersmith & Winograd 1990] incurs a "combination loss", and we partially compensate it by using an asymmetric version of CW's hashing method. By analyzing the 8th power of the CW tensor, we give a new bound of $\omega<2.37188$, which improves the previous best bound of $\omega<2.37286$ [Alman & V.Williams 2020]. Our result breaks the lower bound of $2.3725$ in [Ambainis et al. 2014] because of the new method for analyzing component (constituent) tensors.</description>
+    <title>Sequential Quantum Channel Discrimination</title>
+    <link>http://arxiv.org/pdf/2210.11079</link>
+    <author>Yonglong Li, Christoph Hirche, Marco Tomamichel</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>We consider the sequential quantum channel discrimination problem using adaptive and non-adaptive strategies. In this setting the number of uses of the underlying quantum channel is not fixed but a random variable that is either bounded in expectation or with high probability. We show that both types of error probabilities decrease to zero exponentially fast and, when using adaptive strategies, the rates are characterized by the measured relative entropy between two quantum channels, yielding a strictly larger region than that achievable by non-adaptive strategies. Allowing for quantum memory, we see that the optimal rates are given by the regularized channel relative entropy. Finally, we discuss achievable rates when allowing for repeated measurements via quantum instruments and conjecture that the achievable rate region is not larger than that achievable with POVMs by connecting the result to the strong converse for the quantum channel Stein's Lemma.</description>
   </item>
 
 </channel>
