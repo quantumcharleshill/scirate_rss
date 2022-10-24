@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Representation Theory for Geometric Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2210.07980</link>
-    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 17 2022</pubDate>
-    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
-  </item>
-
-  <item>
     <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
     <link>http://arxiv.org/pdf/2210.10799</link>
     <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
@@ -47,19 +39,19 @@
   </item>
 
   <item>
-    <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
-    <link>http://arxiv.org/pdf/2210.10733</link>
-    <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Efficient suppression of errors without full error correction is crucial for applications with NISQ devices. Error mitigation allows us to suppress errors in extracting expectation values without the need for any error correction code, but its applications are limited to estimating expectation values, and cannot provide us with high-fidelity quantum operations acting on arbitrary quantum states. To address this challenge, we propose to use error filtration (EF) for gate-based quantum computation, as a practical error suppression scheme without resorting to full quantum error correction. The result is a general-purpose error suppression protocol where the resources required to suppress errors scale independently of the size of the quantum operation. We further analyze the application of EF to quantum random access memory, where EF offers a hardware-efficient error suppression.</description>
-  </item>
-
-  <item>
     <title>Doubling the order of approximation via the randomized product formula</title>
     <link>http://arxiv.org/pdf/2210.11281</link>
     <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
     <pubDate>Oct 21 2022</pubDate>
     <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
+  </item>
+
+  <item>
+    <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
+    <link>http://arxiv.org/pdf/2210.10733</link>
+    <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Efficient suppression of errors without full error correction is crucial for applications with NISQ devices. Error mitigation allows us to suppress errors in extracting expectation values without the need for any error correction code, but its applications are limited to estimating expectation values, and cannot provide us with high-fidelity quantum operations acting on arbitrary quantum states. To address this challenge, we propose to use error filtration (EF) for gate-based quantum computation, as a practical error suppression scheme without resorting to full quantum error correction. The result is a general-purpose error suppression protocol where the resources required to suppress errors scale independently of the size of the quantum operation. We further analyze the application of EF to quantum random access memory, where EF offers a hardware-efficient error suppression.</description>
   </item>
 
   <item>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>The Zak transform: a framework for quantum computation with the Gottesman-Kitaev-Preskill code</title>
-    <link>http://arxiv.org/pdf/2210.09494</link>
-    <author>Giacomo Pantaleoni, Ben Q. Baragiola, Nicolas C. Menicucci</author>
+    <title>Sequential Quantum Channel Discrimination</title>
+    <link>http://arxiv.org/pdf/2210.11079</link>
+    <author>Yonglong Li, Christoph Hirche, Marco Tomamichel</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>We consider the sequential quantum channel discrimination problem using adaptive and non-adaptive strategies. In this setting the number of uses of the underlying quantum channel is not fixed but a random variable that is either bounded in expectation or with high probability. We show that both types of error probabilities decrease to zero exponentially fast and, when using adaptive strategies, the rates are characterized by the measured relative entropy between two quantum channels, yielding a strictly larger region than that achievable by non-adaptive strategies. Allowing for quantum memory, we see that the optimal rates are given by the regularized channel relative entropy. Finally, we discuss achievable rates when allowing for repeated measurements via quantum instruments and conjecture that the achievable rate region is not larger than that achievable with POVMs by connecting the result to the strong converse for the quantum channel Stein's Lemma.</description>
+  </item>
+
+  <item>
+    <title>Theoretical Guarantees for Permutation-Equivariant Quantum Neural Networks</title>
+    <link>http://arxiv.org/pdf/2210.09974</link>
+    <author>Louis Schatzki, Martin Larocca, Frederic Sauvage, M. Cerezo</author>
     <pubDate>Oct 19 2022</pubDate>
-    <description>The Gottesman-Kitaev-Preskill (GKP) code encodes a qubit into a bosonic mode using periodic wavefunctions. This periodicity makes the GKP code a natural setting for the Zak transform, which is tailor-made to provide a simple description for periodic functions. We review the Zak transform and its connection to a Zak basis of states in Hilbert space, decompose the shift operators that underpin the stabilizers and the correctable errors, and we find that Zak transforms of the position wavefunction appear naturally in GKP error correction. We construct a new bosonic subsystem decomposition (SSD) -- the modular variable SSD -- by dividing a mode's Hilbert space, expressed in the Zak basis, into that of a virtual qubit and a virtual gauge mode. Tracing over the gauge mode gives a logical-qubit state, and preceding the trace with a particular logical-gauge interaction gives a different logical state -- that associated to GKP error correction.</description>
+    <description>Despite the great promise of quantum machine learning models, there are several challenges one must overcome before unlocking their full potential. For instance, models based on quantum neural networks (QNNs) can suffer from excessive local minima and barren plateaus in their training landscapes. Recently, the nascent field of geometric quantum machine learning (GQML) has emerged as a potential solution to some of those issues. The key insight of GQML is that one should design architectures, such as equivariant QNNs, encoding the symmetries of the problem at hand. Here, we focus on problems with permutation symmetry (i.e., the group of symmetry $S_n$), and show how to build $S_n$-equivariant QNNs. We provide an analytical study of their performance, proving that they do not suffer from barren plateaus, quickly reach overparametrization, and can generalize well from small amounts of data. To verify our results, we perform numerical simulations for a graph state classification task. Our work provides the first theoretical guarantees for equivariant QNNs, thus indicating the extreme power and potential of GQML.</description>
   </item>
 
 </channel>
