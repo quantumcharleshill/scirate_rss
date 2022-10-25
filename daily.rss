@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Classical simulation of short-time quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2210.11490</link>
+    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
+  </item>
+
+  <item>
     <title>Quantum Gauge Networks: A New Kind of Tensor Network</title>
     <link>http://arxiv.org/pdf/2210.12151</link>
     <author>Kevin Slagle</author>
@@ -23,27 +31,19 @@
   </item>
 
   <item>
-    <title>Quantum Machine Learning using the ZXW-Calculus</title>
-    <link>http://arxiv.org/pdf/2210.11523</link>
-    <author>Mark Koch</author>
+    <title>Solving quantum dynamics with a Lie algebra decoupling method</title>
+    <link>http://arxiv.org/pdf/2210.11894</link>
+    <author>Sofia Qvarfort, Igor Pikovski</author>
     <pubDate>Oct 24 2022</pubDate>
-    <description>The field of quantum machine learning (QML) explores how quantum computers can be used to more efficiently solve machine learning problems. As an application of hybrid quantum-classical algorithms, it promises a potential quantum advantages in the near term. In this thesis, we use the ZXW-calculus to diagrammatically analyse two key problems that QML applications face. First, we discuss algorithms to compute gradients on quantum hardware that are needed to perform gradient-based optimisation for QML. Concretely, we give new diagrammatic proofs of the common 2- and 4-term parameter shift rules used in the literature. Additionally, we derive a novel, generalised parameter shift rule with 2n terms that is applicable to gates that can be represented with n parametrised spiders in the ZXW-calculus. Furthermore, to the best of our knowledge, we give the first proof of a conjecture by Anselmetti et al. by proving a no-go theorem ruling out more efficient alternatives to the 4-term shift rule. Secondly, we analyse the gradient landscape of quantum ansätze for barren plateaus using both empirical and analytical techniques. Concretely, we develop a tool that automatically calculates the variance of gradients and use it to detect likely barren plateaus in commonly used quantum ansätze. Furthermore, we formally prove the existence or absence of barren plateaus for a selection of ansätze using diagrammatic techniques from the ZXW-calculus.</description>
+    <description>At the heart of quantum technology development is the control of quantum systems at the level of individual quanta. Mathematically, this is realised through the study of Hamiltonians and the use of methods to solve the dynamics of quantum systems in various regimes. Here, we present a pedagogical introduction to solving the dynamics of quantum systems by the use of a Lie algebra decoupling theorem. As background, we include an overview of Lie groups and Lie algebras aimed at a general physicist audience. We then prove the theorem and apply it to three well-known examples of linear and quadratic Hamiltonian that frequently appear in quantum optics and related fields. The result is a set of differential equations that describe the most Gaussian dynamics for all linear and quadratic single-mode Hamiltonian with generic time-dependent interaction terms. We also discuss the use of the decoupling theorem beyond quadratic Hamiltonians and for solving open-system dynamics.</description>
   </item>
 
   <item>
-    <title>On amortizing convex conjugates for optimal transport</title>
-    <link>http://arxiv.org/pdf/2210.12153</link>
-    <author>Brandon Amos</author>
+    <title>An Efficient Quantum Decoder for Prime-Power Fields</title>
+    <link>http://arxiv.org/pdf/2210.11552</link>
+    <author>Lior Eldar</author>
     <pubDate>Oct 24 2022</pubDate>
-    <description>This paper focuses on computing the convex conjugate operation that arises when solving Euclidean Wasserstein-2 optimal transport problems. This conjugation, which is also referred to as the Legendre-Fenchel conjugate or $c$-transform, is considered difficult to compute and in practice, Wasserstein-2 methods are limited by not being able to exactly conjugate the dual potentials in continuous space. I show that combining amortized approximations to the conjugate with a solver for fine-tuning is computationally easy. This combination significantly improves the quality of transport maps learned for the Wasserstein-2 benchmark by Korotin et al. (2021) and is able to model many 2-dimensional couplings and flows considered in the literature. All of the baselines, methods, and solvers in this paper are available at http://github.com/facebookresearch/w2ot</description>
-  </item>
-
-  <item>
-    <title>WikiWhy: Answering and Explaining Cause-and-Effect Questions</title>
-    <link>http://arxiv.org/pdf/2210.12152</link>
-    <author>Matthew Ho, Aditya Sharma, Justin Chang, Michael Saxon, Sharon Levy, Yujie Lu, William Yang Wang</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>As large language models (LLMs) grow larger and more sophisticated, assessing their "reasoning" capabilities in natural language grows more challenging. Recent question answering (QA) benchmarks that attempt to assess reasoning are often limited by a narrow scope of covered situations and subject matters. We introduce WikiWhy, a QA dataset built around a novel auxiliary task: explaining why an answer is true in natural language. WikiWhy contains over 9,000 "why" question-answer-rationale triples, grounded on Wikipedia facts across a diverse set of topics. Each rationale is a set of supporting statements connecting the question to the answer. WikiWhy serves as a benchmark for the reasoning capabilities of LLMs because it demands rigorous explicit rationales for each answer to demonstrate the acquisition of implicit commonsense knowledge, which is unlikely to be easily memorized. GPT-3 baselines achieve only 38.7% human-evaluated correctness in the end-to-end answer & explain condition, leaving significant room for future improvements.</description>
+    <description>We consider a version of the nearest-codeword problem on finite fields $\mathbb{F}_q$ using the Manhattan distance, an analog of the Hamming metric for non-binary alphabets. Similarly to other lattice related problems, this problem is NP-hard even up to constant factor approximation. We show, however, that for $q = p^m$ where $p$ is small relative to the code block-size $n$, there is a quantum algorithm that solves the problem in time ${\rm poly}(n)$, for approximation factor $1/n$, for any $p$. On the other hand, to the best of our knowledge, classical algorithms can efficiently solve the problem only for much smaller inverse polynomial factors. Hence, the decoder provides an exponential improvement over classical algorithms, and places limitations on the cryptographic security of large-alphabet extensions of code-based cryptosystems like Classic McEliece.</description>
   </item>
 
 </channel>

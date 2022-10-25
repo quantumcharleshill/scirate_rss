@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The Quantum Fourier Transform Has Small Entanglement</title>
-    <link>http://arxiv.org/pdf/2210.08468</link>
-    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
+    <title>Exponentially tighter bounds on limitations of quantum error mitigation</title>
+    <link>http://arxiv.org/pdf/2210.11505</link>
+    <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Quantum error mitigation has been proposed as a means to combat unavoidable errors in near-term quantum computing by classically post-processing outcomes of multiple quantum circuits. It does so in a fashion that requires no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation leads to noise reduction in small systems. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We start out by presenting a formal framework that rigorously encapsulates large classes of meaningful and practically applied schemes for quantum error mitigation, including virtual distillation, Clifford data regression, zero-noise extrapolation and probabilistic error cancellation. With the framework in place, our technical contribution is to construct families of random circuits that are highly sensitive to noise, in the sense that even at log log(n) depth, a whisker beyond constant, quantum noise is seen to super-exponentially rapidly scramble their output into the maximally-mixed state. Our results exponentially tighten known arguments for error mitigation, but they go beyond that: Our arguments can be applied to kernel estimation or to compute the depth at which barren plateaus emerge, implying that the scrambling kicks in at exponentially smaller depths than previously thought. Our results also say that a noisy device must be sampled exponentially many times to estimate expectation values. There are classical algorithms that exhibit the same scaling in complexity. While improvements in quantum hardware will push noise levels down, if error mitigation is used, ultimately this can only lead to an exponential time quantum algorithm with a better exponent, putting up a strong obstruction to the hope for exponential quantum speedups in this setting.</description>
   </item>
 
   <item>
@@ -23,19 +23,19 @@
   </item>
 
   <item>
+    <title>Classical simulation of short-time quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2210.11490</link>
+    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
+  </item>
+
+  <item>
     <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
     <link>http://arxiv.org/pdf/2210.10799</link>
     <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
     <pubDate>Oct 21 2022</pubDate>
     <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
-  </item>
-
-  <item>
-    <title>Quantum Event Learning and Gentle Random Measurements</title>
-    <link>http://arxiv.org/pdf/2210.09155</link>
-    <author>Adam Bene Watts, John Bostanci</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the \textitGentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems \textitQuantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a \textitBlended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement \textitQuantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for \textitQuantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
   </item>
 
   <item>
@@ -55,22 +55,6 @@
   </item>
 
   <item>
-    <title>Theory for Equivariant Quantum Neural Networks</title>
-    <link>http://arxiv.org/pdf/2210.08566</link>
-    <author>Quynh T. Nguyen, Louis Schatzki, Paolo Braccia, Michael Ragone, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>Most currently used quantum neural network architectures have little-to-no inductive biases, leading to trainability and generalization issues. Inspired by a similar problem, recent breakthroughs in classical machine learning address this crux by creating models encoding the symmetries of the learning task. This is materialized through the usage of equivariant neural networks whose action commutes with that of the symmetry. In this work, we import these ideas to the quantum realm by presenting a general theoretical framework to understand, classify, design and implement equivariant quantum neural networks. As a special implementation, we show how standard quantum convolutional neural networks (QCNN) can be generalized to group-equivariant QCNNs where both the convolutional and pooling layers are equivariant under the relevant symmetry group. Our framework can be readily applied to virtually all areas of quantum machine learning, and provides hope to alleviate central challenges such as barren plateaus, poor local minima, and sample complexity.</description>
-  </item>
-
-  <item>
-    <title>Improved Product-state Approximation Algorithms for Quantum Local Hamiltonians</title>
-    <link>http://arxiv.org/pdf/2210.08680</link>
-    <author>Thiago Bergamaschi</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>The ground state energy and the free energy of Quantum Local Hamiltonians are fundamental quantities in quantum many-body physics, however, it is QMA-Hard to estimate them in general. In this paper, we develop new techniques to find classical, additive error product-state approximations for these quantities on certain families of Quantum $k$-Local Hamiltonians. Namely, those which are either dense, have low threshold rank, or are defined on a sparse graph that excludes a fixed minor, building on the methods and the systems studied by Brandão and Harrow, Gharibian and Kempe, and Bansal, Bravyi and Terhal. We present two main technical contributions. First, we discuss a connection between product-state approximations of local Hamiltonians and combinatorial graph property testing. We develop a series of weak Szemerédi regularity lemmas for $k$-local Hamiltonians, built on those of Frieze and Kannan and others. We use them to develop constant time sampling algorithms, and to characterize the `vertex sample complexity' of the Local Hamiltonian problem, in an analog to a classical result by Alon, de la Vega, Kannan and Karpinski. Second, we build on the information-theoretic product-state approximation techniques by Brandão and Harrow, extending their results to the free energy and to an asymmetric graph setting. We leverage this structure to define families of algorithms for the free energy at low temperatures, and new algorithms for certain sparse graph families.</description>
-  </item>
-
-  <item>
     <title>Sequential Quantum Channel Discrimination</title>
     <link>http://arxiv.org/pdf/2210.11079</link>
     <author>Yonglong Li, Christoph Hirche, Marco Tomamichel</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
+    <title>The Zak transform: a framework for quantum computation with the Gottesman-Kitaev-Preskill code</title>
+    <link>http://arxiv.org/pdf/2210.09494</link>
+    <author>Giacomo Pantaleoni, Ben Q. Baragiola, Nicolas C. Menicucci</author>
+    <pubDate>Oct 19 2022</pubDate>
+    <description>The Gottesman-Kitaev-Preskill (GKP) code encodes a qubit into a bosonic mode using periodic wavefunctions. This periodicity makes the GKP code a natural setting for the Zak transform, which is tailor-made to provide a simple description for periodic functions. We review the Zak transform and its connection to a Zak basis of states in Hilbert space, decompose the shift operators that underpin the stabilizers and the correctable errors, and we find that Zak transforms of the position wavefunction appear naturally in GKP error correction. We construct a new bosonic subsystem decomposition (SSD) -- the modular variable SSD -- by dividing a mode's Hilbert space, expressed in the Zak basis, into that of a virtual qubit and a virtual gauge mode. Tracing over the gauge mode gives a logical-qubit state, and preceding the trace with a particular logical-gauge interaction gives a different logical state -- that associated to GKP error correction.</description>
+  </item>
+
+  <item>
     <title>Theoretical Guarantees for Permutation-Equivariant Quantum Neural Networks</title>
     <link>http://arxiv.org/pdf/2210.09974</link>
     <author>Louis Schatzki, Martin Larocca, Frederic Sauvage, M. Cerezo</author>
     <pubDate>Oct 19 2022</pubDate>
     <description>Despite the great promise of quantum machine learning models, there are several challenges one must overcome before unlocking their full potential. For instance, models based on quantum neural networks (QNNs) can suffer from excessive local minima and barren plateaus in their training landscapes. Recently, the nascent field of geometric quantum machine learning (GQML) has emerged as a potential solution to some of those issues. The key insight of GQML is that one should design architectures, such as equivariant QNNs, encoding the symmetries of the problem at hand. Here, we focus on problems with permutation symmetry (i.e., the group of symmetry $S_n$), and show how to build $S_n$-equivariant QNNs. We provide an analytical study of their performance, proving that they do not suffer from barren plateaus, quickly reach overparametrization, and can generalize well from small amounts of data. To verify our results, we perform numerical simulations for a graph state classification task. Our work provides the first theoretical guarantees for equivariant QNNs, thus indicating the extreme power and potential of GQML.</description>
+  </item>
+
+  <item>
+    <title>Lattice-Based Quantum Advantage from Rotated Measurements</title>
+    <link>http://arxiv.org/pdf/2210.10143</link>
+    <author>Yusuf Alnawakhtha, Atul Mantri, Carl A. Miller, Daochen Wang</author>
+    <pubDate>Oct 20 2022</pubDate>
+    <description>Trapdoor claw-free functions (TCFs) are immensely valuable in cryptographic interactions between a classical client and a quantum server. Typically, a protocol has the quantum server prepare a superposition of two-bit strings of a claw and then measure it using Pauli-$X$ or $Z$ measurements. In this paper, we demonstrate a new technique that uses the entire range of qubit measurements from the $XY$-plane. We show the advantage of this approach in two applications. First, building on (Brakerski et al. 2018, Kalai et al. 2022), we show an optimized two-round proof of quantumness whose security can be expressed directly in terms of the hardness of the LWE (learning with errors) problem. Second, we construct a one-round protocol for blind remote preparation of an arbitrary state on the $XY$-plane up to a Pauli-$Z$ correction.</description>
   </item>
 
 </channel>
