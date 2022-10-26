@@ -39,6 +39,14 @@
   </item>
 
   <item>
+    <title>Autonomous quantum error correction and fault-tolerant quantum computation with squeezed cat qubits</title>
+    <link>http://arxiv.org/pdf/2210.13406</link>
+    <author>Qian Xu, Guo Zheng, Yu-Xin Wang, Peter Zoller, Aashish A. Clerk, Liang Jiang</author>
+    <pubDate>Oct 25 2022</pubDate>
+    <description>We propose an autonomous quantum error correction scheme using squeezed cat (SC) code against the dominant error source, excitation loss, in continuous-variable systems. Through reservoir engineering, we show that a structured dissipation can stabilize a two-component SC while autonomously correcting the errors. The implementation of such dissipation only requires low-order nonlinear couplings among three bosonic modes or between a bosonic mode and a qutrit. While our proposed scheme is device independent, it is readily implementable with current experimental platforms such as superconducting circuits and trapped-ion systems. Compared to the stabilized cat, the stabilized SC has a much lower dominant error rate and a significantly enhanced noise bias. Furthermore, the bias-preserving operations for the SC have much lower error rates. In combination, the stabilized SC leads to substantially better logical performance when concatenating with an outer discrete-variable code. The surface-SC scheme achieves more than one order of magnitude increase in the threshold ratio between the loss rate $\kappa_1$ and the engineered dissipation rate $\kappa_2$. Under a practical noise ratio $\kappa_1/\kappa_2 = 10^{-3}$, the repetition-SC scheme can reach a $10^{-15}$ logical error rate even with a small mean excitation number of 4, which already suffices for practically useful quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Doubling the order of approximation via the randomized product formula</title>
     <link>http://arxiv.org/pdf/2210.11281</link>
     <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
@@ -63,27 +71,19 @@
   </item>
 
   <item>
-    <title>The Zak transform: a framework for quantum computation with the Gottesman-Kitaev-Preskill code</title>
-    <link>http://arxiv.org/pdf/2210.09494</link>
-    <author>Giacomo Pantaleoni, Ben Q. Baragiola, Nicolas C. Menicucci</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>The Gottesman-Kitaev-Preskill (GKP) code encodes a qubit into a bosonic mode using periodic wavefunctions. This periodicity makes the GKP code a natural setting for the Zak transform, which is tailor-made to provide a simple description for periodic functions. We review the Zak transform and its connection to a Zak basis of states in Hilbert space, decompose the shift operators that underpin the stabilizers and the correctable errors, and we find that Zak transforms of the position wavefunction appear naturally in GKP error correction. We construct a new bosonic subsystem decomposition (SSD) -- the modular variable SSD -- by dividing a mode's Hilbert space, expressed in the Zak basis, into that of a virtual qubit and a virtual gauge mode. Tracing over the gauge mode gives a logical-qubit state, and preceding the trace with a particular logical-gauge interaction gives a different logical state -- that associated to GKP error correction.</description>
-  </item>
-
-  <item>
-    <title>Theoretical Guarantees for Permutation-Equivariant Quantum Neural Networks</title>
-    <link>http://arxiv.org/pdf/2210.09974</link>
-    <author>Louis Schatzki, Martin Larocca, Frederic Sauvage, M. Cerezo</author>
-    <pubDate>Oct 19 2022</pubDate>
-    <description>Despite the great promise of quantum machine learning models, there are several challenges one must overcome before unlocking their full potential. For instance, models based on quantum neural networks (QNNs) can suffer from excessive local minima and barren plateaus in their training landscapes. Recently, the nascent field of geometric quantum machine learning (GQML) has emerged as a potential solution to some of those issues. The key insight of GQML is that one should design architectures, such as equivariant QNNs, encoding the symmetries of the problem at hand. Here, we focus on problems with permutation symmetry (i.e., the group of symmetry $S_n$), and show how to build $S_n$-equivariant QNNs. We provide an analytical study of their performance, proving that they do not suffer from barren plateaus, quickly reach overparametrization, and can generalize well from small amounts of data. To verify our results, we perform numerical simulations for a graph state classification task. Our work provides the first theoretical guarantees for equivariant QNNs, thus indicating the extreme power and potential of GQML.</description>
-  </item>
-
-  <item>
     <title>Lattice-Based Quantum Advantage from Rotated Measurements</title>
     <link>http://arxiv.org/pdf/2210.10143</link>
     <author>Yusuf Alnawakhtha, Atul Mantri, Carl A. Miller, Daochen Wang</author>
     <pubDate>Oct 20 2022</pubDate>
     <description>Trapdoor claw-free functions (TCFs) are immensely valuable in cryptographic interactions between a classical client and a quantum server. Typically, a protocol has the quantum server prepare a superposition of two-bit strings of a claw and then measure it using Pauli-$X$ or $Z$ measurements. In this paper, we demonstrate a new technique that uses the entire range of qubit measurements from the $XY$-plane. We show the advantage of this approach in two applications. First, building on (Brakerski et al. 2018, Kalai et al. 2022), we show an optimized two-round proof of quantumness whose security can be expressed directly in terms of the hardness of the LWE (learning with errors) problem. Second, we construct a one-round protocol for blind remote preparation of an arbitrary state on the $XY$-plane up to a Pauli-$Z$ correction.</description>
+  </item>
+
+  <item>
+    <title>Measurements of Floquet code plaquette stabilizers</title>
+    <link>http://arxiv.org/pdf/2210.13154</link>
+    <author>James R. Wootton</author>
+    <pubDate>Oct 25 2022</pubDate>
+    <description>The recently introduced Floquet codes have already inspired several follow up works in terms of theory and simulation. Here we report the first preliminary results on their experimental implementation, using IBM Quantum hardware. Specifically, we implement the stabilizer measurements of the original Floquet code based on the honeycomb lattice model, as well as the more recently introduced Floquet Color code. The stabilizers of these are measured on a variety of systems, with the rate of syndrome changes used as a proxy for the noise of the device.</description>
   </item>
 
 </channel>
