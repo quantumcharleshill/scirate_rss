@@ -15,27 +15,11 @@
   </item>
 
   <item>
-    <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
-    <link>http://arxiv.org/pdf/2210.10255</link>
-    <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Indistinguishability of particles is a fundamental principle of quantum mechanics. For all elementary and quasiparticles observed to date - including fermions, bosons, and Abelian anyons - this principle guarantees that the braiding of identical particles leaves the system unchanged. However, in two spatial dimensions, an intriguing possibility exists: braiding of non-Abelian anyons causes rotations in a space of topologically degenerate wavefunctions. Hence, it can change the observables of the system without violating the principle of indistinguishability. Despite the well developed mathematical description of non-Abelian anyons and numerous theoretical proposals, their experimental observation has remained elusive for decades. Using a superconducting quantum processor, we prepare the ground state of the surface code and manipulate it via unitary operations to form wavefunctions that are described by non-Abelian anyons. By implementing a unitary protocol to move the anyons, we experimentally verify the fusion rules of non-Abelian Ising anyons and braid them to realize their statistics. Building on our technique, we study the prospect of employing the anyons for quantum computation and utilize braiding to create an entangled state of anyons encoding three logical qubits. Our work represents a key step towards topological quantum computing.</description>
-  </item>
-
-  <item>
     <title>Classical simulation of short-time quantum dynamics</title>
     <link>http://arxiv.org/pdf/2210.11490</link>
     <author>Dominik S. Wild, Álvaro M. Alhambra</author>
     <pubDate>Oct 24 2022</pubDate>
     <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
-  </item>
-
-  <item>
-    <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
-    <link>http://arxiv.org/pdf/2210.10799</link>
-    <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
   </item>
 
   <item>
@@ -47,6 +31,14 @@
   </item>
 
   <item>
+    <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
+    <link>http://arxiv.org/pdf/2210.10799</link>
+    <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
+  </item>
+
+  <item>
     <title>Doubling the order of approximation via the randomized product formula</title>
     <link>http://arxiv.org/pdf/2210.11281</link>
     <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
@@ -55,11 +47,11 @@
   </item>
 
   <item>
-    <title>Error Suppression for Arbitrary-Size Black Box Quantum Operations</title>
-    <link>http://arxiv.org/pdf/2210.10733</link>
-    <author>Gideon Lee, Connor T. Hann, Shruti Puri, S. M. Girvin, Liang Jiang</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Efficient suppression of errors without full error correction is crucial for applications with NISQ devices. Error mitigation allows us to suppress errors in extracting expectation values without the need for any error correction code, but its applications are limited to estimating expectation values, and cannot provide us with high-fidelity quantum operations acting on arbitrary quantum states. To address this challenge, we propose to use error filtration (EF) for gate-based quantum computation, as a practical error suppression scheme without resorting to full quantum error correction. The result is a general-purpose error suppression protocol where the resources required to suppress errors scale independently of the size of the quantum operation. We further analyze the application of EF to quantum random access memory, where EF offers a hardware-efficient error suppression.</description>
+    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
+    <link>http://arxiv.org/pdf/2210.14109</link>
+    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
   </item>
 
   <item>
@@ -71,19 +63,27 @@
   </item>
 
   <item>
-    <title>Lattice-Based Quantum Advantage from Rotated Measurements</title>
-    <link>http://arxiv.org/pdf/2210.10143</link>
-    <author>Yusuf Alnawakhtha, Atul Mantri, Carl A. Miller, Daochen Wang</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Trapdoor claw-free functions (TCFs) are immensely valuable in cryptographic interactions between a classical client and a quantum server. Typically, a protocol has the quantum server prepare a superposition of two-bit strings of a claw and then measure it using Pauli-$X$ or $Z$ measurements. In this paper, we demonstrate a new technique that uses the entire range of qubit measurements from the $XY$-plane. We show the advantage of this approach in two applications. First, building on (Brakerski et al. 2018, Kalai et al. 2022), we show an optimized two-round proof of quantumness whose security can be expressed directly in terms of the hardness of the LWE (learning with errors) problem. Second, we construct a one-round protocol for blind remote preparation of an arbitrary state on the $XY$-plane up to a Pauli-$Z$ correction.</description>
-  </item>
-
-  <item>
     <title>Measurements of Floquet code plaquette stabilizers</title>
     <link>http://arxiv.org/pdf/2210.13154</link>
     <author>James R. Wootton</author>
     <pubDate>Oct 25 2022</pubDate>
     <description>The recently introduced Floquet codes have already inspired several follow up works in terms of theory and simulation. Here we report the first preliminary results on their experimental implementation, using IBM Quantum hardware. Specifically, we implement the stabilizer measurements of the original Floquet code based on the honeycomb lattice model, as well as the more recently introduced Floquet Color code. The stabilizers of these are measured on a variety of systems, with the rate of syndrome changes used as a proxy for the noise of the device.</description>
+  </item>
+
+  <item>
+    <title>Classically Approximating Variational Quantum Machine Learning with Random Fourier Features</title>
+    <link>http://arxiv.org/pdf/2210.13200</link>
+    <author>Jonas Landman, Slimane Thabet, Constantin Dalyac, Hela Mhiri, Elham Kashefi</author>
+    <pubDate>Oct 25 2022</pubDate>
+    <description>Many applications of quantum computing in the near term rely on variational quantum circuits (VQCs). They have been showcased as a promising model for reaching a quantum advantage in machine learning with current noisy intermediate scale quantum computers (NISQ). It is often believed that the power of VQCs relies on their exponentially large feature space, and extensive works have explored the expressiveness and trainability of VQCs in that regard. In our work, we propose a classical sampling method that may closely approximate a VQC with Hamiltonian encoding, given only the description of its architecture. It uses the seminal proposal of Random Fourier Features (RFF) and the fact that VQCs can be seen as large Fourier series. We provide general theoretical bounds for classically approximating models built from exponentially large quantum feature space by sampling a few frequencies to build an equivalent low dimensional kernel, and we show experimentally that this approximation is efficient for several encoding strategies. Precisely, we show that the number of required samples grows favorably with the size of the quantum spectrum. This tool therefore questions the hope for quantum advantage from VQCs in many cases, but conversely helps to narrow the conditions for their potential success. We expect VQCs with various and complex encoding Hamiltonians, or with large input dimension, to become more robust to classical approximations.</description>
+  </item>
+
+  <item>
+    <title>Quantum Gauge Networks: A New Kind of Tensor Network</title>
+    <link>http://arxiv.org/pdf/2210.12151</link>
+    <author>Kevin Slagle</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Although tensor networks are powerful tools for simulating low-dimensional quantum physics, tensor network algorithms are very computationally costly in higher spatial dimensions. We introduce quantum gauge networks: a different kind of tensor network ansatz for which the computation cost of simulations does not explicitly increase for larger spatial dimensions. We take inspiration from the gauge picture of quantum dynamics, which consists of a local wavefunction for each patch of space, with neighboring patches related by unitary connections. A quantum gauge network (QGN) has a similar structure, except the Hilbert space dimensions of the local wavefunctions and connections are truncated. We describe how a QGN can be obtained from a generic wavefunction or matrix product state (MPS). All $2k$-point correlation functions of any wavefunction for $M$ many operators can be encoded exactly by a QGN with bond dimension $O(M^k)$. In comparison, for just $k=1$, an exponentially larger bond dimension of $2^{M/6}$ is generically required for an MPS of qubits. We provide a simple QGN algorithm for approximate simulations of quantum dynamics in any spatial dimension. The approximate dynamics can achieve exact energy conservation for time-independent Hamiltonians, and spatial symmetries can also be maintained exactly. We benchmark the algorithm by simulating the quantum quench of fermionic Hamiltonians in up to three spatial dimensions.</description>
   </item>
 
 </channel>
