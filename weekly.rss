@@ -15,11 +15,27 @@
   </item>
 
   <item>
+    <title>Learning to predict arbitrary quantum processes</title>
+    <link>http://arxiv.org/pdf/2210.14894</link>
+    <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
+  </item>
+
+  <item>
     <title>Classical simulation of short-time quantum dynamics</title>
     <link>http://arxiv.org/pdf/2210.11490</link>
     <author>Dominik S. Wild, Álvaro M. Alhambra</author>
     <pubDate>Oct 24 2022</pubDate>
     <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
+  </item>
+
+  <item>
+    <title>Quantum state preparation without coherent arithmetic</title>
+    <link>http://arxiv.org/pdf/2210.14892</link>
+    <author>Sam McArdle, András Gilyén, Mario Berta</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
   </item>
 
   <item>
@@ -31,35 +47,11 @@
   </item>
 
   <item>
-    <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
-    <link>http://arxiv.org/pdf/2210.10799</link>
-    <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
-  </item>
-
-  <item>
-    <title>Doubling the order of approximation via the randomized product formula</title>
-    <link>http://arxiv.org/pdf/2210.11281</link>
-    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
-  </item>
-
-  <item>
     <title>Hunting for quantum-classical crossover in condensed matter problems</title>
     <link>http://arxiv.org/pdf/2210.14109</link>
     <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
     <pubDate>Oct 26 2022</pubDate>
     <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
-  </item>
-
-  <item>
-    <title>Sequential Quantum Channel Discrimination</title>
-    <link>http://arxiv.org/pdf/2210.11079</link>
-    <author>Yonglong Li, Christoph Hirche, Marco Tomamichel</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>We consider the sequential quantum channel discrimination problem using adaptive and non-adaptive strategies. In this setting the number of uses of the underlying quantum channel is not fixed but a random variable that is either bounded in expectation or with high probability. We show that both types of error probabilities decrease to zero exponentially fast and, when using adaptive strategies, the rates are characterized by the measured relative entropy between two quantum channels, yielding a strictly larger region than that achievable by non-adaptive strategies. Allowing for quantum memory, we see that the optimal rates are given by the regularized channel relative entropy. Finally, we discuss achievable rates when allowing for repeated measurements via quantum instruments and conjecture that the achievable rate region is not larger than that achievable with POVMs by connecting the result to the strong converse for the quantum channel Stein's Lemma.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Kevin Slagle</author>
     <pubDate>Oct 24 2022</pubDate>
     <description>Although tensor networks are powerful tools for simulating low-dimensional quantum physics, tensor network algorithms are very computationally costly in higher spatial dimensions. We introduce quantum gauge networks: a different kind of tensor network ansatz for which the computation cost of simulations does not explicitly increase for larger spatial dimensions. We take inspiration from the gauge picture of quantum dynamics, which consists of a local wavefunction for each patch of space, with neighboring patches related by unitary connections. A quantum gauge network (QGN) has a similar structure, except the Hilbert space dimensions of the local wavefunctions and connections are truncated. We describe how a QGN can be obtained from a generic wavefunction or matrix product state (MPS). All $2k$-point correlation functions of any wavefunction for $M$ many operators can be encoded exactly by a QGN with bond dimension $O(M^k)$. In comparison, for just $k=1$, an exponentially larger bond dimension of $2^{M/6}$ is generically required for an MPS of qubits. We provide a simple QGN algorithm for approximate simulations of quantum dynamics in any spatial dimension. The approximate dynamics can achieve exact energy conservation for time-independent Hamiltonians, and spatial symmetries can also be maintained exactly. We benchmark the algorithm by simulating the quantum quench of fermionic Hamiltonians in up to three spatial dimensions.</description>
+  </item>
+
+  <item>
+    <title>Holography as a resource for non-local quantum computation</title>
+    <link>http://arxiv.org/pdf/2210.13500</link>
+    <author>Kfir Dolev, Sam Cree</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>If two parties share sufficient entanglement, they are able to implement any channel on a shared bipartite state via non-local quantum computation -- a protocol consisting of local operations and a single simultaneous round of quantum communication. Such a protocol can occur in the AdS/CFT correspondence, with the two parties represented by regions of the CFT, and the holographic state serving as a resource to provide the necessary entanglement. This boundary non-local computation is dual to the local implementation of a channel in the bulk AdS theory. Previous work on this phenomenon was obstructed by the divergent entanglement between adjacent CFT regions, and tried to circumvent this issue by assuming that certain regions are irrelevant. However, the absence of these regions introduces violent phenomena that prevent the CFT from implementing the protocol. Instead, we resolve the issue of divergent entanglement by using a finite-memory quantum simulation of the CFT. We show that any finite-memory quantum system on a circular lattice yields a protocol for non-local quantum computation. In the case of a quantum simulation of a holographic CFT, we carefully show that this protocol implements the channel performed by the local bulk dynamics. Under plausible physical assumptions about quantum computation in the bulk, our results imply that non-local quantum computation can be performed for any polynomially complex unitary with a polynomial amount of entanglement. Finally, we provide a concrete example of a holographic code whose bulk dynamics correspond to a Clifford gate, and use our results to show that this corresponds to a non-local quantum computation protocol for this gate.</description>
   </item>
 
 </channel>

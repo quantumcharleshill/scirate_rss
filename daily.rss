@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
-    <link>http://arxiv.org/pdf/2210.14109</link>
-    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
-    <pubDate>Oct 26 2022</pubDate>
-    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
-  </item>
-
-  <item>
-    <title>Holography as a resource for non-local quantum computation</title>
-    <link>http://arxiv.org/pdf/2210.13500</link>
-    <author>Kfir Dolev, Sam Cree</author>
-    <pubDate>Oct 26 2022</pubDate>
-    <description>If two parties share sufficient entanglement, they are able to implement any channel on a shared bipartite state via non-local quantum computation -- a protocol consisting of local operations and a single simultaneous round of quantum communication. Such a protocol can occur in the AdS/CFT correspondence, with the two parties represented by regions of the CFT, and the holographic state serving as a resource to provide the necessary entanglement. This boundary non-local computation is dual to the local implementation of a channel in the bulk AdS theory. Previous work on this phenomenon was obstructed by the divergent entanglement between adjacent CFT regions, and tried to circumvent this issue by assuming that certain regions are irrelevant. However, the absence of these regions introduces violent phenomena that prevent the CFT from implementing the protocol. Instead, we resolve the issue of divergent entanglement by using a finite-memory quantum simulation of the CFT. We show that any finite-memory quantum system on a circular lattice yields a protocol for non-local quantum computation. In the case of a quantum simulation of a holographic CFT, we carefully show that this protocol implements the channel performed by the local bulk dynamics. Under plausible physical assumptions about quantum computation in the bulk, our results imply that non-local quantum computation can be performed for any polynomially complex unitary with a polynomial amount of entanglement. Finally, we provide a concrete example of a holographic code whose bulk dynamics correspond to a Clifford gate, and use our results to show that this corresponds to a non-local quantum computation protocol for this gate.</description>
-  </item>
-
-  <item>
     <title>Learning to predict arbitrary quantum processes</title>
     <link>http://arxiv.org/pdf/2210.14894</link>
     <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>The power of noisy quantum states and the advantage of resource dilution</title>
-    <link>http://arxiv.org/pdf/2210.14192</link>
-    <author>Marek Miller, Manfredi Scalici, Alexander Streltsov</author>
-    <pubDate>Oct 26 2022</pubDate>
-    <description>Entanglement distillation allows to convert noisy quantum states into singlets, which can in turn be used for various quantum technological tasks, such as quantum teleportation and quantum key distribution. Entanglement dilution is the inverse process: singlets are converted into quantum states with less entanglement. While the usefulness of distillation is apparent, practical applications of entanglement dilution are less obvious. Here, we show that entanglement dilution can increase the resilience of shared quantum states to local noise. The increased resilience is observed even if diluting singlets into states with arbitrarily little entanglement. We extend our analysis to other quantum resource theories, such as quantum coherence, quantum thermodynamics, and purity. For these resource theories, we demonstrate that diluting pure quantum states into noisy ones can be advantageous for protecting the system from noise. Our results demonstrate the usefulness of quantum resource dilution, and provide a rare example for an advantage of noisy quantum states over pure states in quantum information processing.</description>
+    <title>Quantum state preparation without coherent arithmetic</title>
+    <link>http://arxiv.org/pdf/2210.14892</link>
+    <author>Sam McArdle, András Gilyén, Mario Berta</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
   </item>
 
   <item>
-    <title>The Smallest Code with Transversal T</title>
-    <link>http://arxiv.org/pdf/2210.14066</link>
-    <author>Stergios Koutsioumpas, Darren Banfield, Alastair Kay</author>
-    <pubDate>Oct 26 2022</pubDate>
-    <description>We prove that the smallest distance 3 Quantum Error Correcting Code with a transversal gate outside the Clifford group is the well-known 15-qubit Reed-Muller code, also known as a tri-orthogonal code. Our result relies on fewer assumptions than previous works. We further extend this result by finding the minimal code that also possesses any other non Clifford transversal single-qubit gate.</description>
+    <title>Uncloneable Cryptography</title>
+    <link>http://arxiv.org/pdf/2210.14265</link>
+    <author>Or Sattath</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>The no-cloning theorem asserts that, unlike classical information, quantum information cannot be copied. This seemingly undesirable phenomenon is harnessed in quantum cryptography. Uncloneable cryptography studies settings in which the impossibility of copying is a desired property, and achieves forms of security that are classically unattainable. The first example discovered and analyzed was in the context of cash. On the one hand, we want users to hold the cash; on the other hand, the cash should be hard to counterfeit. Quantum money uses variants of the no-cloning theorem to make counterfeiting impossible. In the past decade, this field developed in various directions: several flavors of quantum money, such as classically verifiable, locally verifiable, semi-quantum, quantum coins, and quantum lightning were constructed. New uncloneable primitives were introduced, such as uncloneable signatures, quantum copy protection for classical software, pseudorandom states, and several uncloneable forms of encryption. This work is a gentle introduction to these topics.</description>
+  </item>
+
+  <item>
+    <title>Functional Simulation of Real-Time Quantum Control Software</title>
+    <link>http://arxiv.org/pdf/2210.14364</link>
+    <author>Leon Riesebos, Kenneth R. Brown</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>Modern quantum computers rely heavily on real-time control systems for operation. Software for these systems is becoming increasingly more complex due to the demand for more features and more real-time devices to control. Unfortunately, testing real-time control software is often a complex process, and existing simulation software is not usable or practical for software testing. For this purpose, we implemented an interactive simulator that simulates signals at the application programming interface level. We show that our simulation infrastructure simulates kernels 6.9 times faster on average compared to execution on hardware, while the position of the timeline cursor is simulated with an average accuracy of 97.9% when choosing the appropriate configuration.</description>
+  </item>
+
+  <item>
+    <title>A classical oracle separation between QMA and QCMA</title>
+    <link>http://arxiv.org/pdf/2210.15380</link>
+    <author>Anand Natarajan, Chinmay Nirkhe</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
   </item>
 
 </channel>
