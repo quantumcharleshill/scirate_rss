@@ -23,27 +23,27 @@
   </item>
 
   <item>
-    <title>Uncloneable Cryptography</title>
-    <link>http://arxiv.org/pdf/2210.14265</link>
-    <author>Or Sattath</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>The no-cloning theorem asserts that, unlike classical information, quantum information cannot be copied. This seemingly undesirable phenomenon is harnessed in quantum cryptography. Uncloneable cryptography studies settings in which the impossibility of copying is a desired property, and achieves forms of security that are classically unattainable. The first example discovered and analyzed was in the context of cash. On the one hand, we want users to hold the cash; on the other hand, the cash should be hard to counterfeit. Quantum money uses variants of the no-cloning theorem to make counterfeiting impossible. In the past decade, this field developed in various directions: several flavors of quantum money, such as classically verifiable, locally verifiable, semi-quantum, quantum coins, and quantum lightning were constructed. New uncloneable primitives were introduced, such as uncloneable signatures, quantum copy protection for classical software, pseudorandom states, and several uncloneable forms of encryption. This work is a gentle introduction to these topics.</description>
-  </item>
-
-  <item>
-    <title>Functional Simulation of Real-Time Quantum Control Software</title>
-    <link>http://arxiv.org/pdf/2210.14364</link>
-    <author>Leon Riesebos, Kenneth R. Brown</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>Modern quantum computers rely heavily on real-time control systems for operation. Software for these systems is becoming increasingly more complex due to the demand for more features and more real-time devices to control. Unfortunately, testing real-time control software is often a complex process, and existing simulation software is not usable or practical for software testing. For this purpose, we implemented an interactive simulator that simulates signals at the application programming interface level. We show that our simulation infrastructure simulates kernels 6.9 times faster on average compared to execution on hardware, while the position of the timeline cursor is simulated with an average accuracy of 97.9% when choosing the appropriate configuration.</description>
-  </item>
-
-  <item>
     <title>A classical oracle separation between QMA and QCMA</title>
     <link>http://arxiv.org/pdf/2210.15380</link>
     <author>Anand Natarajan, Chinmay Nirkhe</author>
     <pubDate>Oct 28 2022</pubDate>
     <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
+  </item>
+
+  <item>
+    <title>A super-polynomial quantum-classical separation for density modelling</title>
+    <link>http://arxiv.org/pdf/2210.14936</link>
+    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
+    <title>Quantum error correction with metastable states of trapped ions using erasure conversion</title>
+    <link>http://arxiv.org/pdf/2210.15024</link>
+    <author>Mingyu Kang, Wesley C. Campbell, Kenneth R. Brown</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>Erasures, or errors with known locations, are a more favorable type of error for quantum error-correcting codes than Pauli errors. Converting physical noise into erasures can significantly improve the performance of quantum error correction. Here we apply the idea of performing erasure conversion by encoding qubits into metastable atomic states, proposed by Wu, Kolkowitz, Puri, and Thompson [Nat. Comm. 13, 4657 (2022)], to trapped ions. We suggest an erasure-conversion scheme for metastable trapped-ion qubits and develop a detailed model of various types of errors. We then compare the logical performance of ground and metastable qubits on the surface code under various physical constraints and discuss the trade offs.</description>
   </item>
 
 </channel>

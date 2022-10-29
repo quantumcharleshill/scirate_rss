@@ -23,6 +23,14 @@
   </item>
 
   <item>
+    <title>Quantum state preparation without coherent arithmetic</title>
+    <link>http://arxiv.org/pdf/2210.14892</link>
+    <author>Sam McArdle, András Gilyén, Mario Berta</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
+  </item>
+
+  <item>
     <title>Classical simulation of short-time quantum dynamics</title>
     <link>http://arxiv.org/pdf/2210.11490</link>
     <author>Dominik S. Wild, Álvaro M. Alhambra</author>
@@ -31,11 +39,11 @@
   </item>
 
   <item>
-    <title>Quantum state preparation without coherent arithmetic</title>
-    <link>http://arxiv.org/pdf/2210.14892</link>
-    <author>Sam McArdle, András Gilyén, Mario Berta</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
+    <title>A classical oracle separation between QMA and QCMA</title>
+    <link>http://arxiv.org/pdf/2210.15380</link>
+    <author>Anand Natarajan, Chinmay Nirkhe</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
   </item>
 
   <item>
@@ -55,27 +63,19 @@
   </item>
 
   <item>
+    <title>A super-polynomial quantum-classical separation for density modelling</title>
+    <link>http://arxiv.org/pdf/2210.14936</link>
+    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
     <title>Measurements of Floquet code plaquette stabilizers</title>
     <link>http://arxiv.org/pdf/2210.13154</link>
     <author>James R. Wootton</author>
     <pubDate>Oct 25 2022</pubDate>
     <description>The recently introduced Floquet codes have already inspired several follow up works in terms of theory and simulation. Here we report the first preliminary results on their experimental implementation, using IBM Quantum hardware. Specifically, we implement the stabilizer measurements of the original Floquet code based on the honeycomb lattice model, as well as the more recently introduced Floquet Color code. The stabilizers of these are measured on a variety of systems, with the rate of syndrome changes used as a proxy for the noise of the device.</description>
-  </item>
-
-  <item>
-    <title>Classically Approximating Variational Quantum Machine Learning with Random Fourier Features</title>
-    <link>http://arxiv.org/pdf/2210.13200</link>
-    <author>Jonas Landman, Slimane Thabet, Constantin Dalyac, Hela Mhiri, Elham Kashefi</author>
-    <pubDate>Oct 25 2022</pubDate>
-    <description>Many applications of quantum computing in the near term rely on variational quantum circuits (VQCs). They have been showcased as a promising model for reaching a quantum advantage in machine learning with current noisy intermediate scale quantum computers (NISQ). It is often believed that the power of VQCs relies on their exponentially large feature space, and extensive works have explored the expressiveness and trainability of VQCs in that regard. In our work, we propose a classical sampling method that may closely approximate a VQC with Hamiltonian encoding, given only the description of its architecture. It uses the seminal proposal of Random Fourier Features (RFF) and the fact that VQCs can be seen as large Fourier series. We provide general theoretical bounds for classically approximating models built from exponentially large quantum feature space by sampling a few frequencies to build an equivalent low dimensional kernel, and we show experimentally that this approximation is efficient for several encoding strategies. Precisely, we show that the number of required samples grows favorably with the size of the quantum spectrum. This tool therefore questions the hope for quantum advantage from VQCs in many cases, but conversely helps to narrow the conditions for their potential success. We expect VQCs with various and complex encoding Hamiltonians, or with large input dimension, to become more robust to classical approximations.</description>
-  </item>
-
-  <item>
-    <title>Quantum Gauge Networks: A New Kind of Tensor Network</title>
-    <link>http://arxiv.org/pdf/2210.12151</link>
-    <author>Kevin Slagle</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Although tensor networks are powerful tools for simulating low-dimensional quantum physics, tensor network algorithms are very computationally costly in higher spatial dimensions. We introduce quantum gauge networks: a different kind of tensor network ansatz for which the computation cost of simulations does not explicitly increase for larger spatial dimensions. We take inspiration from the gauge picture of quantum dynamics, which consists of a local wavefunction for each patch of space, with neighboring patches related by unitary connections. A quantum gauge network (QGN) has a similar structure, except the Hilbert space dimensions of the local wavefunctions and connections are truncated. We describe how a QGN can be obtained from a generic wavefunction or matrix product state (MPS). All $2k$-point correlation functions of any wavefunction for $M$ many operators can be encoded exactly by a QGN with bond dimension $O(M^k)$. In comparison, for just $k=1$, an exponentially larger bond dimension of $2^{M/6}$ is generically required for an MPS of qubits. We provide a simple QGN algorithm for approximate simulations of quantum dynamics in any spatial dimension. The approximate dynamics can achieve exact energy conservation for time-independent Hamiltonians, and spatial symmetries can also be maintained exactly. We benchmark the algorithm by simulating the quantum quench of fermionic Hamiltonians in up to three spatial dimensions.</description>
   </item>
 
   <item>

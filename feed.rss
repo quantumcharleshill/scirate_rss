@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Quantum Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2210.00921</link>
-    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
-    <pubDate>Oct 04 2022</pubDate>
-    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
     <title>Learning to predict arbitrary quantum processes</title>
     <link>http://arxiv.org/pdf/2210.14894</link>
     <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
     <pubDate>Oct 27 2022</pubDate>
     <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
+  </item>
+
+  <item>
+    <title>Quantum Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2210.00921</link>
+    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
+    <pubDate>Oct 04 2022</pubDate>
+    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
   </item>
 
   <item>
@@ -87,6 +87,14 @@
   </item>
 
   <item>
+    <title>The minimal canonical form of a tensor network</title>
+    <link>http://arxiv.org/pdf/2209.14358</link>
+    <author>Arturo Acuaviva, Visu Makam, Harold Nieuwboer, David Pérez-García, Friedrich Sittner, Michael Walter, Freek Witteveen</author>
+    <pubDate>Sep 30 2022</pubDate>
+    <description>Tensor networks have a gauge degree of freedom on the virtual degrees of freedom that are contracted. A canonical form is a choice of fixing this degree of freedom. For matrix product states, choosing a canonical form is a powerful tool, both for theoretical and numerical purposes. On the other hand, for tensor networks in dimension two or greater there is only limited understanding of the gauge symmetry. Here we introduce a new canonical form, the minimal canonical form, which applies to projected entangled pair states (PEPS) in any dimension, and prove a corresponding fundamental theorem. Already for matrix product states this gives a new canonical form, while in higher dimensions it is the first rigorous definition of a canonical form valid for any choice of tensor. We show that two tensors have the same minimal canonical forms if and only if they are gauge equivalent up to taking limits; moreover, this is the case if and only if they give the same quantum state for any geometry. In particular, this implies that the latter problem is decidable - in contrast to the well-known undecidability for PEPS on grids. We also provide rigorous algorithms for computing minimal canonical forms. To achieve this we draw on geometric invariant theory and recent progress in theoretical computer science in non-commutative group optimization.</description>
+  </item>
+
+  <item>
     <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
     <link>http://arxiv.org/pdf/2210.10255</link>
     <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
@@ -100,14 +108,6 @@
     <author>Adrian She, Henry Yuen</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We study unitary property testing, where a quantum algorithm is given query access to a black-box unitary and has to decide whether it satisfies some property. In addition to containing the standard quantum query complexity model (where the unitary encodes a binary string) as a special case, this model contains "inherently quantum" problems that have no classical analogue. Characterizing the query complexity of these problems requires new algorithmic techniques and lower bound methods. Our main contribution is a generalized polynomial method for unitary property testing problems. By leveraging connections with invariant theory, we apply this method to obtain lower bounds on problems such as determining recurrence times of unitaries, approximating the dimension of a marked subspace, and approximating the entanglement entropy of a marked state. We also present a unitary property testing-based approach towards an oracle separation between $\mathsf{QMA}$ and $\mathsf{QMA(2)}$, a long standing question in quantum complexity theory.</description>
-  </item>
-
-  <item>
-    <title>The minimal canonical form of a tensor network</title>
-    <link>http://arxiv.org/pdf/2209.14358</link>
-    <author>Arturo Acuaviva, Visu Makam, Harold Nieuwboer, David Pérez-García, Friedrich Sittner, Michael Walter, Freek Witteveen</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>Tensor networks have a gauge degree of freedom on the virtual degrees of freedom that are contracted. A canonical form is a choice of fixing this degree of freedom. For matrix product states, choosing a canonical form is a powerful tool, both for theoretical and numerical purposes. On the other hand, for tensor networks in dimension two or greater there is only limited understanding of the gauge symmetry. Here we introduce a new canonical form, the minimal canonical form, which applies to projected entangled pair states (PEPS) in any dimension, and prove a corresponding fundamental theorem. Already for matrix product states this gives a new canonical form, while in higher dimensions it is the first rigorous definition of a canonical form valid for any choice of tensor. We show that two tensors have the same minimal canonical forms if and only if they are gauge equivalent up to taking limits; moreover, this is the case if and only if they give the same quantum state for any geometry. In particular, this implies that the latter problem is decidable - in contrast to the well-known undecidability for PEPS on grids. We also provide rigorous algorithms for computing minimal canonical forms. To achieve this we draw on geometric invariant theory and recent progress in theoretical computer science in non-commutative group optimization.</description>
   </item>
 
   <item>
@@ -127,11 +127,11 @@
   </item>
 
   <item>
-    <title>Quantifying Quantum Advantage in Topological Data Analysis</title>
-    <link>http://arxiv.org/pdf/2209.13581</link>
-    <author>Dominic W. Berry, Yuan Su, Casper Gyurik, Robbie King, Joao Basso, Alexander Del Toro Barba, Abhishek Rajput, Nathan Wiebe, Vedran Dunjko, Ryan Babbush</author>
-    <pubDate>Sep 28 2022</pubDate>
-    <description>Lloyd et al. were first to demonstrate the promise of quantum algorithms for computing Betti numbers in persistent homology (a way of characterizing topological features of data sets). Here, we propose, analyze, and optimize an improved quantum algorithm for topological data analysis (TDA) with reduced scaling, including a method for preparing Dicke states based on inequality testing, a more efficient amplitude estimation algorithm using Kaiser windows, and an optimal implementation of eigenvalue projectors based on Chebyshev polynomials. We compile our approach to a fault-tolerant gate set and estimate constant factors in the Toffoli complexity. Relative to the best classical heuristic algorithms, our analysis reveals that super-quadratic quantum speedups are only possible for this problem when targeting a multiplicative error approximation and the Betti number grows asymptotically. Further, we propose a dequantization of the quantum TDA algorithm that shows that having exponentially large dimension and Betti number are necessary, but insufficient conditions, for super-polynomial advantage. We then introduce and analyze specific problem examples for which super-polynomial advantages may be achieved, and argue that quantum circuits with tens of billions of Toffoli gates can solve some seemingly classically intractable instances.</description>
+    <title>Quantum state preparation without coherent arithmetic</title>
+    <link>http://arxiv.org/pdf/2210.14892</link>
+    <author>Sam McArdle, András Gilyén, Mario Berta</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
   </item>
 
   <item>
@@ -140,6 +140,14 @@
     <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
+  </item>
+
+  <item>
+    <title>Quantifying Quantum Advantage in Topological Data Analysis</title>
+    <link>http://arxiv.org/pdf/2209.13581</link>
+    <author>Dominic W. Berry, Yuan Su, Casper Gyurik, Robbie King, Joao Basso, Alexander Del Toro Barba, Abhishek Rajput, Nathan Wiebe, Vedran Dunjko, Ryan Babbush</author>
+    <pubDate>Sep 28 2022</pubDate>
+    <description>Lloyd et al. were first to demonstrate the promise of quantum algorithms for computing Betti numbers in persistent homology (a way of characterizing topological features of data sets). Here, we propose, analyze, and optimize an improved quantum algorithm for topological data analysis (TDA) with reduced scaling, including a method for preparing Dicke states based on inequality testing, a more efficient amplitude estimation algorithm using Kaiser windows, and an optimal implementation of eigenvalue projectors based on Chebyshev polynomials. We compile our approach to a fault-tolerant gate set and estimate constant factors in the Toffoli complexity. Relative to the best classical heuristic algorithms, our analysis reveals that super-quadratic quantum speedups are only possible for this problem when targeting a multiplicative error approximation and the Betti number grows asymptotically. Further, we propose a dequantization of the quantum TDA algorithm that shows that having exponentially large dimension and Betti number are necessary, but insufficient conditions, for super-polynomial advantage. We then introduce and analyze specific problem examples for which super-polynomial advantages may be achieved, and argue that quantum circuits with tens of billions of Toffoli gates can solve some seemingly classically intractable instances.</description>
   </item>
 
   <item>
@@ -159,11 +167,27 @@
   </item>
 
   <item>
+    <title>Classical simulation of short-time quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2210.11490</link>
+    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
+  </item>
+
+  <item>
     <title>Representation Theory for Geometric Quantum Machine Learning</title>
     <link>http://arxiv.org/pdf/2210.07980</link>
     <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
     <pubDate>Oct 17 2022</pubDate>
     <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
+  </item>
+
+  <item>
+    <title>A classical oracle separation between QMA and QCMA</title>
+    <link>http://arxiv.org/pdf/2210.15380</link>
+    <author>Anand Natarajan, Chinmay Nirkhe</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
   </item>
 
   <item>
@@ -180,22 +204,6 @@
     <author>Sabee Grewal, Vishnu Iyer, William Kretschmer, Daniel Liang</author>
     <pubDate>Sep 30 2022</pubDate>
     <description>We show that quantum states with "low stabilizer complexity" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|\psi\rangle$, we give an efficient algorithm that distinguishes whether $|\psi\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\frac{1}{k}$ (i.e., has fidelity at least $\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|\psi\rangle$, our algorithm uses $O\!\left( k^{12} \log(1/\delta)\right)$ copies of $|\psi\rangle$ and $O\!\left(n k^{12} \log(1/\delta)\right)$ time to succeed with probability at least $1-\delta$, and, with access to a state preparation unitary for $|\psi\rangle$ (and its inverse), $O\!\left( k^{3} \log(1/\delta)\right)$ queries and $O\!\left(n k^{3} \log(1/\delta)\right)$ time suffice. As a corollary, we prove that $\omega(\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.</description>
-  </item>
-
-  <item>
-    <title>Classical simulation of short-time quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2210.11490</link>
-    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
-  </item>
-
-  <item>
-    <title>Quantum state preparation without coherent arithmetic</title>
-    <link>http://arxiv.org/pdf/2210.14892</link>
-    <author>Sam McArdle, András Gilyén, Mario Berta</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Benedikt Placke, Nikolas P. Breuckmann</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>We analyze the thermodynamic properties of the random-bond Ising model (RBIM) on closed hyperbolic surfaces using Monte Carlo and high-temperature series expansion techniques. We also analyze the dual-RBIM, that is the model that in the absence of disorder is related to the RBIM via the Kramers-Wannier duality. Even on self-dual lattices this model is different from the RBIM, unlike in the euclidean case. We explain this anomaly by a careful re-derivation of the Kramers--Wannier duality. For the (dual-)RBIM, we compute the paramagnet-to-ferromagnet phase transition as a function of both temperature $T$ and the fraction of antiferromagnetic bonds $p$. We find that as temperature is decreased in the RBIM, the paramagnet gives way to either a ferromagnet or a spin-glass phase via a second-order transition compatible with mean-field behavior. In contrast, the dual-RBIM undergoes a strongly first order transition from the paramagnet to the ferromagnet both in the absence of disorder and along the Nishimori line. We study both transitions for a variety of hyperbolic tessellations and comment on the role of coordination number and curvature. The extent of the ferromagnetic phase in the dual-RBIM corresponds to the correctable phase of hyperbolic surface codes under independent bit- and phase-flip noise.</description>
-  </item>
-
-  <item>
-    <title>Measurement-based quantum computation in finite one-dimensional systems: string order implies computational power</title>
-    <link>http://arxiv.org/pdf/2210.05089</link>
-    <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
-    <pubDate>Oct 12 2022</pubDate>
-    <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
   </item>
 
 </channel>
