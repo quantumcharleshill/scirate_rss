@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Exponentially tighter bounds on limitations of quantum error mitigation</title>
-    <link>http://arxiv.org/pdf/2210.11505</link>
-    <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Quantum error mitigation has been proposed as a means to combat unavoidable errors in near-term quantum computing by classically post-processing outcomes of multiple quantum circuits. It does so in a fashion that requires no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation leads to noise reduction in small systems. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We start out by presenting a formal framework that rigorously encapsulates large classes of meaningful and practically applied schemes for quantum error mitigation, including virtual distillation, Clifford data regression, zero-noise extrapolation and probabilistic error cancellation. With the framework in place, our technical contribution is to construct families of random circuits that are highly sensitive to noise, in the sense that even at log log(n) depth, a whisker beyond constant, quantum noise is seen to super-exponentially rapidly scramble their output into the maximally-mixed state. Our results exponentially tighten known arguments for error mitigation, but they go beyond that: Our arguments can be applied to kernel estimation or to compute the depth at which barren plateaus emerge, implying that the scrambling kicks in at exponentially smaller depths than previously thought. Our results also say that a noisy device must be sampled exponentially many times to estimate expectation values. There are classical algorithms that exhibit the same scaling in complexity. While improvements in quantum hardware will push noise levels down, if error mitigation is used, ultimately this can only lead to an exponential time quantum algorithm with a better exponent, putting up a strong obstruction to the hope for exponential quantum speedups in this setting.</description>
-  </item>
-
-  <item>
     <title>Learning to predict arbitrary quantum processes</title>
     <link>http://arxiv.org/pdf/2210.14894</link>
     <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
@@ -39,27 +31,11 @@
   </item>
 
   <item>
-    <title>Classical simulation of short-time quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2210.11490</link>
-    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
-  </item>
-
-  <item>
     <title>Autonomous quantum error correction and fault-tolerant quantum computation with squeezed cat qubits</title>
     <link>http://arxiv.org/pdf/2210.13406</link>
     <author>Qian Xu, Guo Zheng, Yu-Xin Wang, Peter Zoller, Aashish A. Clerk, Liang Jiang</author>
     <pubDate>Oct 25 2022</pubDate>
     <description>We propose an autonomous quantum error correction scheme using squeezed cat (SC) code against the dominant error source, excitation loss, in continuous-variable systems. Through reservoir engineering, we show that a structured dissipation can stabilize a two-component SC while autonomously correcting the errors. The implementation of such dissipation only requires low-order nonlinear couplings among three bosonic modes or between a bosonic mode and a qutrit. While our proposed scheme is device independent, it is readily implementable with current experimental platforms such as superconducting circuits and trapped-ion systems. Compared to the stabilized cat, the stabilized SC has a much lower dominant error rate and a significantly enhanced noise bias. Furthermore, the bias-preserving operations for the SC have much lower error rates. In combination, the stabilized SC leads to substantially better logical performance when concatenating with an outer discrete-variable code. The surface-SC scheme achieves more than one order of magnitude increase in the threshold ratio between the loss rate $\kappa_1$ and the engineered dissipation rate $\kappa_2$. Under a practical noise ratio $\kappa_1/\kappa_2 = 10^{-3}$, the repetition-SC scheme can reach a $10^{-15}$ logical error rate even with a small mean excitation number of 4, which already suffices for practically useful quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
-    <link>http://arxiv.org/pdf/2210.14109</link>
-    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
-    <pubDate>Oct 26 2022</pubDate>
-    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
   </item>
 
   <item>
@@ -71,6 +47,14 @@
   </item>
 
   <item>
+    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
+    <link>http://arxiv.org/pdf/2210.14109</link>
+    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
+  </item>
+
+  <item>
     <title>Discrete Bulk Reconstruction</title>
     <link>http://arxiv.org/pdf/2210.15601</link>
     <author>Scott Aaronson, Jason Pollack</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
+    <title>Quantum error correction with metastable states of trapped ions using erasure conversion</title>
+    <link>http://arxiv.org/pdf/2210.15024</link>
+    <author>Mingyu Kang, Wesley C. Campbell, Kenneth R. Brown</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>Erasures, or errors with known locations, are a more favorable type of error for quantum error-correcting codes than Pauli errors. Converting physical noise into erasures can significantly improve the performance of quantum error correction. Here we apply the idea of performing erasure conversion by encoding qubits into metastable atomic states, proposed by Wu, Kolkowitz, Puri, and Thompson [Nat. Comm. 13, 4657 (2022)], to trapped ions. We suggest an erasure-conversion scheme for metastable trapped-ion qubits and develop a detailed model of various types of errors. We then compare the logical performance of ground and metastable qubits on the surface code under various physical constraints and discuss the trade offs.</description>
+  </item>
+
+  <item>
     <title>Measurements of Floquet code plaquette stabilizers</title>
     <link>http://arxiv.org/pdf/2210.13154</link>
     <author>James R. Wootton</author>
     <pubDate>Oct 25 2022</pubDate>
     <description>The recently introduced Floquet codes have already inspired several follow up works in terms of theory and simulation. Here we report the first preliminary results on their experimental implementation, using IBM Quantum hardware. Specifically, we implement the stabilizer measurements of the original Floquet code based on the honeycomb lattice model, as well as the more recently introduced Floquet Color code. The stabilizers of these are measured on a variety of systems, with the rate of syndrome changes used as a proxy for the noise of the device.</description>
+  </item>
+
+  <item>
+    <title>Holography as a resource for non-local quantum computation</title>
+    <link>http://arxiv.org/pdf/2210.13500</link>
+    <author>Kfir Dolev, Sam Cree</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>If two parties share sufficient entanglement, they are able to implement any channel on a shared bipartite state via non-local quantum computation -- a protocol consisting of local operations and a single simultaneous round of quantum communication. Such a protocol can occur in the AdS/CFT correspondence, with the two parties represented by regions of the CFT, and the holographic state serving as a resource to provide the necessary entanglement. This boundary non-local computation is dual to the local implementation of a channel in the bulk AdS theory. Previous work on this phenomenon was obstructed by the divergent entanglement between adjacent CFT regions, and tried to circumvent this issue by assuming that certain regions are irrelevant. However, the absence of these regions introduces violent phenomena that prevent the CFT from implementing the protocol. Instead, we resolve the issue of divergent entanglement by using a finite-memory quantum simulation of the CFT. We show that any finite-memory quantum system on a circular lattice yields a protocol for non-local quantum computation. In the case of a quantum simulation of a holographic CFT, we carefully show that this protocol implements the channel performed by the local bulk dynamics. Under plausible physical assumptions about quantum computation in the bulk, our results imply that non-local quantum computation can be performed for any polynomially complex unitary with a polynomial amount of entanglement. Finally, we provide a concrete example of a holographic code whose bulk dynamics correspond to a Clifford gate, and use our results to show that this corresponds to a non-local quantum computation protocol for this gate.</description>
   </item>
 
 </channel>

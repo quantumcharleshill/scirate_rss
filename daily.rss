@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Learning to predict arbitrary quantum processes</title>
-    <link>http://arxiv.org/pdf/2210.14894</link>
-    <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
+    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2210.15844</link>
+    <author>Daniel Gottesman</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
   </item>
 
   <item>
-    <title>Quantum state preparation without coherent arithmetic</title>
-    <link>http://arxiv.org/pdf/2210.14892</link>
-    <author>Sam McArdle, András Gilyén, Mario Berta</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
+    <title>CNOT circuits need little help to implement arbitrary Hadamard-free Clifford transformations they generate</title>
+    <link>http://arxiv.org/pdf/2210.16195</link>
+    <author>Dmitri Maslov, Willers Yang</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>A Hadamard-free Clifford transformation is a circuit composed of quantum Phase (P), CZ, and CNOT gates. It is known that such a circuit can be written as a three-stage computation, -P-CZ-CNOT-, where each stage consists only of gates of the specified type. In this paper, we focus on the minimization of circuit depth by entangling gates, corresponding to the important time-to-solution metric and the reduction of noise due to decoherence. We consider two popular connectivity maps: Linear Nearest Neighbor (LNN) and all-to-all. First, we show that a Hadamard-free Clifford operation can be implemented over LNN in depth $5n$, i.e., in the same depth as the -CNOT- stage alone. This implies the ability to implement arbitrary Clifford transformation over LNN in depth no more than $7n{+}2$, improving the best previous upper bound of $9n$. Second, we report heuristic evidence that on average a random uniformly distributed Hadamard-free Clifford transformation over $n{>}6$ qubits can be implemented with only a tiny additive constant overhead over all-to-all connected architecture compared to the best-known depth-optimized implementation of the -CNOT- stage alone. This suggests the reduction of the depth of Clifford circuits from $2n\,{+}\,O(\log^2(n))$ to $1.5n\,{+}\,O(\log^2(n))$ over unrestricted architectures.</description>
   </item>
 
   <item>
-    <title>A classical oracle separation between QMA and QCMA</title>
-    <link>http://arxiv.org/pdf/2210.15380</link>
-    <author>Anand Natarajan, Chinmay Nirkhe</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
+    <title>The $2T$-qutrit, a two-mode bosonic qutrit</title>
+    <link>http://arxiv.org/pdf/2210.16188</link>
+    <author>Aurélie Denys, Anthony Leverrier</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Building on the observation that bosonic cat codes live in the span of coherent states indexed by a finite subgroup of the complex numbers, we consider a two-mode bosonic code where the coherent states now form a finite subgroup of the quaternions. We focus on the binary tetrahedral group, denoted $2T$, which admits 24 elements forming the vertices of the 24-cell, a regular four-dimensional polytope, and define a bosonic qutrit that appears to be quite robust in the regime of low loss. We initiate a study of the properties of this qutrit and identify stabilisers as well as logical operators for this bosonic code.</description>
   </item>
 
   <item>
-    <title>A super-polynomial quantum-classical separation for density modelling</title>
-    <link>http://arxiv.org/pdf/2210.14936</link>
-    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+    <title>Digital Quantum Simulation of the Spin-Boson Model under Open System Dynamics</title>
+    <link>http://arxiv.org/pdf/2210.15922</link>
+    <author>Andreas Burger, Leong Chuan Kwek, Dario Poletti</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Digital quantum computers have the potential to simulate complex quantum systems. The spin-boson model is one of such systems, used in disparate physical domains. Importantly, in a number of setups, the spin-boson model is open, i.e. the system is in contact with an external environment which can, for instance, cause the decay of the spin state. Here we study how to simulate such open quantum dynamics in a digital quantum computer, for which we use one of IBM's hardware. We consider in particular how accurate different implementations of the evolution result as a function of the level of noise in the hardware and of the parameters of the open dynamics. For the regimes studied, we show that the key aspect is to simulate the unitary portion of the dynamics, while the dissipative part can lead to a more noise-resistant simulation. We consider both a single spin coupled to a harmonic oscillator, and also two spins coupled to the oscillator. In the latter case, we show that it is possible to simulate the emergence of correlations between the spins via the oscillator.</description>
   </item>
 
   <item>
-    <title>Discrete Bulk Reconstruction</title>
-    <link>http://arxiv.org/pdf/2210.15601</link>
-    <author>Scott Aaronson, Jason Pollack</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>According to the AdS/CFT correspondence, the geometries of certain spacetimes are fully determined by quantum states that live on their boundaries -- indeed, by the von Neumann entropies of portions of those boundary states. This work investigates to what extent the geometries can be reconstructed from the entropies in polynomial time. Bouland, Fefferman, and Vazirani (2019) argued that the AdS/CFT map can be exponentially complex if one wants to reconstruct regions such as the interiors of black holes. Our main result provides a sort of converse: we show that, in the special case of a single 1D boundary, if the input data consists of a list of entropies of contiguous boundary regions, and if the entropies satisfy a single inequality called Strong Subadditivity, then we can construct a graph model for the bulk in linear time. Moreover, the bulk graph is planar, it has $O(N^2)$ vertices (the information-theoretic minimum), and it's ``universal,'' with only the edge weights depending on the specific entropies in question. From a combinatorial perspective, our problem boils down to an ``inverse'' of the famous min-cut problem: rather than being given a graph and asked to find a min-cut, here we're given the values of min-cuts separating various sets of vertices, and need to find a weighted undirected graph consistent with those values. Our solution to this problem relies on the notion of a ``bulkless'' graph, which might be of independent interest for AdS/CFT. We also make initial progress on the case of multiple 1D boundaries -- where the boundaries could be connected via wormholes -- including an upper bound of $O(N^4)$ vertices whenever a planar bulk graph exists (thus putting the problem into the complexity class $\mathsf{NP}$).</description>
+    <title>Real quantum operations and state transformations</title>
+    <link>http://arxiv.org/pdf/2210.15820</link>
+    <author>Tulja Varun Kondra, Chandan Datta, Alexander Streltsov</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Resource theory of imaginarity provides a useful framework to understand the role of complex numbers, which are essential in the formulation of quantum mechanics, in a mathematically rigorous way. In this work, we study the properties of "real" (quantum) operations and provide necessary and sufficient conditions for state transformations under real operations. We also study the properties of real operations in spatially separated bipartite settings and show the existence of "real entanglement" monotones which are independent to the "LOCC monotones". This shows that entanglement in real quantum theory is fundamentally different to the entanglement in complex quantum theory. Furthermore, when starting from pure initial states, we completely solve the problem of single copy state transformation, finding an analytical expression for the optimal fidelity of transformation, for a given probability of transformation and vice versa. Moreover, for state transformations involving arbitrary initial states and pure final states, we provide a semidefinite program to compute the optimal achievable fidelity, for a given probability of transformation.</description>
   </item>
 
 </channel>

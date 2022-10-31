@@ -31,14 +31,6 @@
   </item>
 
   <item>
-    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2209.12924</link>
-    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
-    <pubDate>Sep 28 2022</pubDate>
-    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
-  </item>
-
-  <item>
     <title>Learning to predict arbitrary quantum processes</title>
     <link>http://arxiv.org/pdf/2210.14894</link>
     <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
@@ -79,22 +71,6 @@
   </item>
 
   <item>
-    <title>Scalably learning quantum many-body Hamiltonians from dynamical data</title>
-    <link>http://arxiv.org/pdf/2209.14328</link>
-    <author>Frederik Wilde, Augustine Kshetrimayum, Ingo Roth, Dominik Hangleiter, Ryan Sweke, Jens Eisert</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>The physics of a closed quantum mechanical system is governed by its Hamiltonian. However, in most practical situations, this Hamiltonian is not precisely known, and ultimately all there is are data obtained from measurements on the system. In this work, we introduce a highly scalable, data-driven approach to learning families of interacting many-body Hamiltonians from dynamical data, by bringing together techniques from gradient-based optimization from machine learning with efficient quantum state representations in terms of tensor networks. Our approach is highly practical, experimentally friendly, and intrinsically scalable to allow for system sizes of above 100 spins. In particular, we demonstrate on synthetic data that the algorithm works even if one is restricted to one simple initial state, a small number of single-qubit observables, and time evolution up to relatively short times. For the concrete example of the one-dimensional Heisenberg model our algorithm exhibits an error constant in the system size and scaling as the inverse square root of the size of the data set.</description>
-  </item>
-
-  <item>
-    <title>The minimal canonical form of a tensor network</title>
-    <link>http://arxiv.org/pdf/2209.14358</link>
-    <author>Arturo Acuaviva, Visu Makam, Harold Nieuwboer, David Pérez-García, Friedrich Sittner, Michael Walter, Freek Witteveen</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>Tensor networks have a gauge degree of freedom on the virtual degrees of freedom that are contracted. A canonical form is a choice of fixing this degree of freedom. For matrix product states, choosing a canonical form is a powerful tool, both for theoretical and numerical purposes. On the other hand, for tensor networks in dimension two or greater there is only limited understanding of the gauge symmetry. Here we introduce a new canonical form, the minimal canonical form, which applies to projected entangled pair states (PEPS) in any dimension, and prove a corresponding fundamental theorem. Already for matrix product states this gives a new canonical form, while in higher dimensions it is the first rigorous definition of a canonical form valid for any choice of tensor. We show that two tensors have the same minimal canonical forms if and only if they are gauge equivalent up to taking limits; moreover, this is the case if and only if they give the same quantum state for any geometry. In particular, this implies that the latter problem is decidable - in contrast to the well-known undecidability for PEPS on grids. We also provide rigorous algorithms for computing minimal canonical forms. To achieve this we draw on geometric invariant theory and recent progress in theoretical computer science in non-commutative group optimization.</description>
-  </item>
-
-  <item>
     <title>Unitary property testing lower bounds by polynomials</title>
     <link>http://arxiv.org/pdf/2210.05885</link>
     <author>Adrian She, Henry Yuen</author>
@@ -119,6 +95,14 @@
   </item>
 
   <item>
+    <title>Quantum state preparation without coherent arithmetic</title>
+    <link>http://arxiv.org/pdf/2210.14892</link>
+    <author>Sam McArdle, András Gilyén, Mario Berta</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
+  </item>
+
+  <item>
     <title>NLTS Hamiltonians from classical LTCs</title>
     <link>http://arxiv.org/pdf/2210.02999</link>
     <author>Zhiyang He, Chinmay Nirkhe</author>
@@ -127,11 +111,11 @@
   </item>
 
   <item>
-    <title>Quantum state preparation without coherent arithmetic</title>
-    <link>http://arxiv.org/pdf/2210.14892</link>
-    <author>Sam McArdle, András Gilyén, Mario Berta</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
+    <title>A classical oracle separation between QMA and QCMA</title>
+    <link>http://arxiv.org/pdf/2210.15380</link>
+    <author>Anand Natarajan, Chinmay Nirkhe</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
   </item>
 
   <item>
@@ -143,35 +127,11 @@
   </item>
 
   <item>
-    <title>Quantifying Quantum Advantage in Topological Data Analysis</title>
-    <link>http://arxiv.org/pdf/2209.13581</link>
-    <author>Dominic W. Berry, Yuan Su, Casper Gyurik, Robbie King, Joao Basso, Alexander Del Toro Barba, Abhishek Rajput, Nathan Wiebe, Vedran Dunjko, Ryan Babbush</author>
-    <pubDate>Sep 28 2022</pubDate>
-    <description>Lloyd et al. were first to demonstrate the promise of quantum algorithms for computing Betti numbers in persistent homology (a way of characterizing topological features of data sets). Here, we propose, analyze, and optimize an improved quantum algorithm for topological data analysis (TDA) with reduced scaling, including a method for preparing Dicke states based on inequality testing, a more efficient amplitude estimation algorithm using Kaiser windows, and an optimal implementation of eigenvalue projectors based on Chebyshev polynomials. We compile our approach to a fault-tolerant gate set and estimate constant factors in the Toffoli complexity. Relative to the best classical heuristic algorithms, our analysis reveals that super-quadratic quantum speedups are only possible for this problem when targeting a multiplicative error approximation and the Betti number grows asymptotically. Further, we propose a dequantization of the quantum TDA algorithm that shows that having exponentially large dimension and Betti number are necessary, but insufficient conditions, for super-polynomial advantage. We then introduce and analyze specific problem examples for which super-polynomial advantages may be achieved, and argue that quantum circuits with tens of billions of Toffoli gates can solve some seemingly classically intractable instances.</description>
-  </item>
-
-  <item>
-    <title>Complexity-Theoretic Limitations on Quantum Algorithms for Topological Data Analysis</title>
-    <link>http://arxiv.org/pdf/2209.14286</link>
-    <author>Alexander Schmidhuber, Seth Lloyd</author>
-    <pubDate>Sep 29 2022</pubDate>
-    <description>Quantum algorithms for topological data analysis (TDA) seem to provide an exponential advantage over the best classical approach while remaining immune to dequantization procedures and the data-loading problem. In this paper, we argue that quantum algorithms for TDA run in exponential time for almost all inputs by showing that (under widely believed complexity-theoretic conjectures) the central problem of TDA - estimating Betti numbers - is intractable even for quantum computers. Specifically, we prove that the problem of computing Betti numbers exactly is \#P-hard, while the problem of approximating Betti numbers up to multiplicative error is NP-hard. Moreover, both problems retain their hardness if restricted to the regime where quantum algorithms for TDA perform best. Because quantum computers are not expected to solve \#P-hard or NP-hard problems in subexponential time, our results imply that quantum algorithms for TDA offer only a polynomial advantage. We verify our claim by showing that the seminal quantum algorithm for TDA developed by Lloyd, Garnerone and Zanardi \citeLloydAlgo achieves a quadratic speedup over the best classical approach on average, and a power-of-four speedup in the best case. Finally, we argue that an exponential quantum advantage can be recovered if the data is given as a specification of simplices rather than as a list of vertices and edges -- for example, if we wish to calculate the homology of Facebook from a list of Facebook groups and their members rather than from a list of pairwise interactions between Facebook users.</description>
-  </item>
-
-  <item>
     <title>Quantum communication complexity of linear regression</title>
     <link>http://arxiv.org/pdf/2210.01601</link>
     <author>Ashley Montanaro, Changpeng Shao</author>
     <pubDate>Oct 05 2022</pubDate>
     <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
-  </item>
-
-  <item>
-    <title>A classical oracle separation between QMA and QCMA</title>
-    <link>http://arxiv.org/pdf/2210.15380</link>
-    <author>Anand Natarajan, Chinmay Nirkhe</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
   </item>
 
   <item>
@@ -191,30 +151,6 @@
   </item>
 
   <item>
-    <title>Quantum LDPC Codes for Modular Architectures</title>
-    <link>http://arxiv.org/pdf/2209.14329</link>
-    <author>Armands Strikis, Lucas Berent</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>In efforts to scale the size of quantum computers, modularity plays a central role across most quantum computing technologies. In the light of fault tolerance, this necessitates designing quantum error-correcting codes that are compatible with the connectivity arising from the architectural layouts. In this paper, we aim to bridge this gap by giving a novel way to view and construct quantum LDPC codes tailored for modular architectures. We demonstrate that if the intra- and inter-modular qubit connectivity can be viewed as corresponding to some classical or quantum LDPC codes, then their hypergraph product code fully respects the architectural connectivity constraints. Finally, we show that relaxed connectivity constraints that allow twists of connections between modules pave a way to construct codes with better parameters.</description>
-  </item>
-
-  <item>
-    <title>Low-Stabilizer-Complexity Quantum States Are Not Pseudorandom</title>
-    <link>http://arxiv.org/pdf/2209.14530</link>
-    <author>Sabee Grewal, Vishnu Iyer, William Kretschmer, Daniel Liang</author>
-    <pubDate>Sep 30 2022</pubDate>
-    <description>We show that quantum states with "low stabilizer complexity" can be efficiently distinguished from Haar-random. Specifically, given an $n$-qubit pure state $|\psi\rangle$, we give an efficient algorithm that distinguishes whether $|\psi\rangle$ is (i) Haar-random or (ii) a state with stabilizer fidelity at least $\frac{1}{k}$ (i.e., has fidelity at least $\frac{1}{k}$ with some stabilizer state), promised that one of these is the case. With black-box access to $|\psi\rangle$, our algorithm uses $O\!\left( k^{12} \log(1/\delta)\right)$ copies of $|\psi\rangle$ and $O\!\left(n k^{12} \log(1/\delta)\right)$ time to succeed with probability at least $1-\delta$, and, with access to a state preparation unitary for $|\psi\rangle$ (and its inverse), $O\!\left( k^{3} \log(1/\delta)\right)$ queries and $O\!\left(n k^{3} \log(1/\delta)\right)$ time suffice. As a corollary, we prove that $\omega(\log(n))$ $T$-gates are necessary for any Clifford+$T$ circuit to prepare computationally pseudorandom quantum states, a first-of-its-kind lower bound.</description>
-  </item>
-
-  <item>
-    <title>Quantum Subroutine Composition</title>
-    <link>http://arxiv.org/pdf/2209.14146</link>
-    <author>Stacey Jeffery</author>
-    <pubDate>Sep 29 2022</pubDate>
-    <description>An important tool in algorithm design is the ability to build algorithms from other algorithms that run as subroutines. In the case of quantum algorithms, a subroutine may be called on a superposition of different inputs, which complicates things. For example, a classical algorithm that calls a subroutine $Q$ times, where the average probability of querying the subroutine on input $i$ is $p_i$, and the cost of the subroutine on input $i$ is $T_i$, incurs expected cost $Q\sum_i p_i E[T_i]$ from all subroutine queries. While this statement is obvious for classical algorithms, for quantum algorithms, it is much less so, since naively, if we run a quantum subroutine on a superposition of inputs, we need to wait for all branches of the superposition to terminate before we can apply the next operation. We nonetheless show an analogous quantum statement (*): If $q_i$ is the average query weight on $i$ over all queries, the cost from all quantum subroutine queries is $Q\sum_i q_i E[T_i]$. Here the query weight on $i$ for a particular query is the probability of measuring $i$ in the input register if we were to measure right before the query. We prove this result using the technique of multidimensional quantum walks, recently introduced in arXiv:2208.13492. We present a more general version of their quantum walk edge composition result, which yields variable-time quantum walks, generalizing variable-time quantum search, by, for example, replacing the update cost with $\sqrt{\sum_{u,v}\pi_u P_{u,v} E[T_{u,v}^2]}$, where $T_{u,v}$ is the cost to move from vertex $u$ to vertex $v$. The same technique that allows us to compose quantum subroutines in quantum walks can also be used to compose in any quantum algorithm, which is how we prove (*).</description>
-  </item>
-
-  <item>
     <title>Autonomous quantum error correction and fault-tolerant quantum computation with squeezed cat qubits</title>
     <link>http://arxiv.org/pdf/2210.13406</link>
     <author>Qian Xu, Guo Zheng, Yu-Xin Wang, Peter Zoller, Aashish A. Clerk, Liang Jiang</author>
@@ -227,7 +163,7 @@
     <link>http://arxiv.org/pdf/2210.09155</link>
     <author>Adam Bene Watts, John Bostanci</author>
     <pubDate>Oct 18 2022</pubDate>
-    <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the \textitGentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems \textitQuantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a \textitBlended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement \textitQuantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for \textitQuantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
+    <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the Gentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems Quantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a Blended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement Quantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for Quantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
   </item>
 
   <item>
@@ -244,6 +180,70 @@
     <author>Benedikt Placke, Nikolas P. Breuckmann</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>We analyze the thermodynamic properties of the random-bond Ising model (RBIM) on closed hyperbolic surfaces using Monte Carlo and high-temperature series expansion techniques. We also analyze the dual-RBIM, that is the model that in the absence of disorder is related to the RBIM via the Kramers-Wannier duality. Even on self-dual lattices this model is different from the RBIM, unlike in the euclidean case. We explain this anomaly by a careful re-derivation of the Kramers--Wannier duality. For the (dual-)RBIM, we compute the paramagnet-to-ferromagnet phase transition as a function of both temperature $T$ and the fraction of antiferromagnetic bonds $p$. We find that as temperature is decreased in the RBIM, the paramagnet gives way to either a ferromagnet or a spin-glass phase via a second-order transition compatible with mean-field behavior. In contrast, the dual-RBIM undergoes a strongly first order transition from the paramagnet to the ferromagnet both in the absence of disorder and along the Nishimori line. We study both transitions for a variety of hyperbolic tessellations and comment on the role of coordination number and curvature. The extent of the ferromagnetic phase in the dual-RBIM corresponds to the correctable phase of hyperbolic surface codes under independent bit- and phase-flip noise.</description>
+  </item>
+
+  <item>
+    <title>Measurement-based quantum computation in finite one-dimensional systems: string order implies computational power</title>
+    <link>http://arxiv.org/pdf/2210.05089</link>
+    <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
+    <pubDate>Oct 12 2022</pubDate>
+    <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
+  </item>
+
+  <item>
+    <title>Floquet codes without parent subsystem codes</title>
+    <link>http://arxiv.org/pdf/2210.02468</link>
+    <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
+    <pubDate>Oct 07 2022</pubDate>
+    <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
+  </item>
+
+  <item>
+    <title>Doubling the order of approximation via the randomized product formula</title>
+    <link>http://arxiv.org/pdf/2210.11281</link>
+    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
+  </item>
+
+  <item>
+    <title>Quantum Algorithms for Sampling Log-Concave Distributions and Estimating Normalizing Constants</title>
+    <link>http://arxiv.org/pdf/2210.06539</link>
+    <author>Andrew M. Childs, Tongyang Li, Jin-Peng Liu, Chunhao Wang, Ruizhe Zhang</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>Given a convex function $f\colon\mathbb{R}^{d}\to\mathbb{R}$, the problem of sampling from a distribution $\propto e^{-f(x)}$ is called log-concave sampling. This task has wide applications in machine learning, physics, statistics, etc. In this work, we develop quantum algorithms for sampling log-concave distributions and for estimating their normalizing constants $\int_{\mathbb{R}^d}e^{-f(x)}\mathrm{d} x$. First, we use underdamped Langevin diffusion to develop quantum algorithms that match the query complexity (in terms of the condition number $\kappa$ and dimension $d$) of analogous classical algorithms that use gradient (first-order) queries, even though the quantum algorithms use only evaluation (zeroth-order) queries. For estimating normalizing constants, these algorithms also achieve quadratic speedup in the multiplicative error $\epsilon$. Second, we develop quantum Metropolis-adjusted Langevin algorithms with query complexity $\widetilde{O}(\kappa^{1/2}d)$ and $\widetilde{O}(\kappa^{1/2}d^{3/2}/\epsilon)$ for log-concave sampling and normalizing constant estimation, respectively, achieving polynomial speedups in $\kappa,d,\epsilon$ over the best known classical algorithms by exploiting quantum analogs of the Monte Carlo method and quantum walks. We also prove a $1/\epsilon^{1-o(1)}$ quantum lower bound for estimating normalizing constants, implying near-optimality of our quantum algorithms in $\epsilon$.</description>
+  </item>
+
+  <item>
+    <title>Commitments to Quantum States</title>
+    <link>http://arxiv.org/pdf/2210.05138</link>
+    <author>Sam Gunn, Nathan Ju, Fermi Ma, Mark Zhandry</author>
+    <pubDate>Oct 12 2022</pubDate>
+    <description>What does it mean to commit to a quantum state? In this work, we propose a simple answer: a commitment to quantum messages is binding if, after the commit phase, the committed state is hidden from the sender's view. We accompany this new definition with several instantiations. We build the first non-interactive succinct quantum state commitments, which can be seen as an analogue of collision-resistant hashing for quantum messages. We also show that hiding quantum state commitments (QSCs) are implied by any commitment scheme for classical messages. All of our constructions can be based on quantum-cryptographic assumptions that are implied by but are potentially weaker than one-way functions. Commitments to quantum states open the door to many new cryptographic possibilities. Our flagship application of a succinct QSC is a quantum-communication version of Kilian's succinct arguments for any language that has quantum PCPs with constant error and polylogarithmic locality. Plugging in the PCP theorem, this yields succinct arguments for NP under significantly weaker assumptions than required classically; moreover, if the quantum PCP conjecture holds, this extends to QMA. At the heart of our security proof is a new rewinding technique for extracting quantum information.</description>
+  </item>
+
+  <item>
+    <title>Post-Quantum Zero-Knowledge with Space-Bounded Simulation</title>
+    <link>http://arxiv.org/pdf/2210.06093</link>
+    <author>Prabhanjan Ananth, Alex B. Grilo</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The traditional definition of quantum zero-knowledge stipulates that the knowledge gained by any quantum polynomial-time verifier in an interactive protocol can be simulated by a quantum polynomial-time algorithm. One drawback of this definition is that it allows the simulator to consume significantly more computational resources than the verifier. We argue that this drawback renders the existing notion of quantum zero-knowledge not viable for certain settings, especially when dealing with near-term quantum devices. In this work, we initiate a fine-grained notion of post-quantum zero-knowledge that is more compatible with near-term quantum devices. We introduce the notion of $(s,f)$ space-bounded quantum zero-knowledge. In this new notion, we require that an $s$-qubit malicious verifier can be simulated by a quantum polynomial-time algorithm that uses at most $f(s)$-qubits, for some function $f(\cdot)$, and no restriction on the amount of the classical memory consumed by either the verifier or the simulator. We explore this notion and establish both positive and negative results: - For verifiers with logarithmic quantum space $s$ and (arbitrary) polynomial classical space, we show that $(s,f)$-space-bounded QZK, for $f(s)=2s$, can be achieved based on the existence of post-quantum one-way functions. Moreover, our protocol runs in constant rounds. - For verifiers with super-logarithmic quantum space $s$, assuming the existence of post-quantum secure one-way functions, we show that $(s,f)$-space-bounded QZK protocols, with fully black-box simulation (classical analogue of black-box simulation) can only be achieved for languages in BQP.</description>
+  </item>
+
+  <item>
+    <title>A super-polynomial quantum-classical separation for density modelling</title>
+    <link>http://arxiv.org/pdf/2210.14936</link>
+    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
+    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
+    <link>http://arxiv.org/pdf/2210.14109</link>
+    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
   </item>
 
 </channel>
