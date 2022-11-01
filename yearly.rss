@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>On the complexity of quantum partition functions</title>
-    <link>http://arxiv.org/pdf/2110.15466</link>
-    <author>Sergey Bravyi, Anirban Chowdhury, David Gosset, Pawel Wocjan</author>
-    <pubDate>Nov 01 2021</pubDate>
-    <description>The partition function and free energy of a quantum many-body system determine its physical properties in thermal equilibrium. Here we study the computational complexity of approximating these quantities for $n$-qubit local Hamiltonians. First, we report a classical algorithm with $\mathrm{poly}(n)$ runtime which approximates the free energy of a given $2$-local Hamiltonian provided that it satisfies a certain denseness condition. Our algorithm combines the variational characterization of the free energy and convex relaxation methods. It contributes to a body of work on efficient approximation algorithms for dense instances of optimization problems which are hard in the general case, and can be viewed as simultaneously extending existing algorithms for (a) the ground energy of dense $2$-local Hamiltonians, and (b) the free energy of dense classical Ising models. Secondly, we establish polynomial-time equivalence between the problem of approximating the free energy of local Hamiltonians and three other natural quantum approximate counting problems, including the problem of approximating the number of witness states accepted by a QMA verifier. These results suggest that simulation of quantum many-body systems in thermal equilibrium may precisely capture the complexity of a broad family of computational problems that has yet to be defined or characterized in terms of known complexity classes. Finally, we summarize state-of-the-art classical and quantum algorithms for approximating the free energy and show how to improve their runtime and memory footprint.</description>
-  </item>
-
-  <item>
     <title>The Early Days of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2208.09964</link>
     <author>Peter W. Shor</author>
@@ -151,19 +143,19 @@
   </item>
 
   <item>
-    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
-    <link>http://arxiv.org/pdf/2209.12924</link>
-    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
-    <pubDate>Sep 28 2022</pubDate>
-    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
-  </item>
-
-  <item>
     <title>Learning to predict arbitrary quantum processes</title>
     <link>http://arxiv.org/pdf/2210.14894</link>
     <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
     <pubDate>Oct 27 2022</pubDate>
     <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
+  </item>
+
+  <item>
+    <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
+    <link>http://arxiv.org/pdf/2209.12924</link>
+    <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
+    <pubDate>Sep 28 2022</pubDate>
+    <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
   </item>
 
   <item>
@@ -223,6 +215,14 @@
   </item>
 
   <item>
+    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2210.15844</link>
+    <author>Daniel Gottesman</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
+  </item>
+
+  <item>
     <title>Random quantum circuits transform local noise into global white noise</title>
     <link>http://arxiv.org/pdf/2111.14907</link>
     <author>Alexander M. Dalzell, Nicholas Hunter-Jones, Fernando G. S. L. Brandão</author>
@@ -263,19 +263,19 @@
   </item>
 
   <item>
-    <title>The Future of Quantum Computing with Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2209.06841</link>
-    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
-    <pubDate>Sep 16 2022</pubDate>
-    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
-  </item>
-
-  <item>
     <title>Noise can be helpful for variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2210.06723</link>
     <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>The Future of Quantum Computing with Superconducting Qubits</title>
+    <link>http://arxiv.org/pdf/2209.06841</link>
+    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
+    <pubDate>Sep 16 2022</pubDate>
+    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
   </item>
 
   <item>
