@@ -39,19 +39,19 @@
   </item>
 
   <item>
-    <title>Quantum Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2210.00921</link>
-    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
-    <pubDate>Oct 04 2022</pubDate>
-    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
-  </item>
-
-  <item>
     <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
     <link>http://arxiv.org/pdf/2210.15844</link>
     <author>Daniel Gottesman</author>
     <pubDate>Oct 31 2022</pubDate>
     <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Quantum Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2210.00921</link>
+    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
+    <pubDate>Oct 04 2022</pubDate>
+    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
   </item>
 
   <item>
@@ -159,6 +159,14 @@
   </item>
 
   <item>
+    <title>Greatly improved higher-order product formulae for quantum simulation</title>
+    <link>http://arxiv.org/pdf/2210.15817</link>
+    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
+  </item>
+
+  <item>
     <title>Autonomous quantum error correction and fault-tolerant quantum computation with squeezed cat qubits</title>
     <link>http://arxiv.org/pdf/2210.13406</link>
     <author>Qian Xu, Guo Zheng, Yu-Xin Wang, Peter Zoller, Aashish A. Clerk, Liang Jiang</author>
@@ -172,14 +180,6 @@
     <author>Adam Bene Watts, John Bostanci</author>
     <pubDate>Oct 18 2022</pubDate>
     <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the Gentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems Quantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a Blended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement Quantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for Quantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
-  </item>
-
-  <item>
-    <title>Greatly improved higher-order product formulae for quantum simulation</title>
-    <link>http://arxiv.org/pdf/2210.15817</link>
-    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
   </item>
 
   <item>
@@ -223,14 +223,6 @@
   </item>
 
   <item>
-    <title>Quantum Algorithms for Sampling Log-Concave Distributions and Estimating Normalizing Constants</title>
-    <link>http://arxiv.org/pdf/2210.06539</link>
-    <author>Andrew M. Childs, Tongyang Li, Jin-Peng Liu, Chunhao Wang, Ruizhe Zhang</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Given a convex function $f\colon\mathbb{R}^{d}\to\mathbb{R}$, the problem of sampling from a distribution $\propto e^{-f(x)}$ is called log-concave sampling. This task has wide applications in machine learning, physics, statistics, etc. In this work, we develop quantum algorithms for sampling log-concave distributions and for estimating their normalizing constants $\int_{\mathbb{R}^d}e^{-f(x)}\mathrm{d} x$. First, we use underdamped Langevin diffusion to develop quantum algorithms that match the query complexity (in terms of the condition number $\kappa$ and dimension $d$) of analogous classical algorithms that use gradient (first-order) queries, even though the quantum algorithms use only evaluation (zeroth-order) queries. For estimating normalizing constants, these algorithms also achieve quadratic speedup in the multiplicative error $\epsilon$. Second, we develop quantum Metropolis-adjusted Langevin algorithms with query complexity $\widetilde{O}(\kappa^{1/2}d)$ and $\widetilde{O}(\kappa^{1/2}d^{3/2}/\epsilon)$ for log-concave sampling and normalizing constant estimation, respectively, achieving polynomial speedups in $\kappa,d,\epsilon$ over the best known classical algorithms by exploiting quantum analogs of the Monte Carlo method and quantum walks. We also prove a $1/\epsilon^{1-o(1)}$ quantum lower bound for estimating normalizing constants, implying near-optimality of our quantum algorithms in $\epsilon$.</description>
-  </item>
-
-  <item>
     <title>Commitments to Quantum States</title>
     <link>http://arxiv.org/pdf/2210.05138</link>
     <author>Sam Gunn, Nathan Ju, Fermi Ma, Mark Zhandry</author>
@@ -244,6 +236,14 @@
     <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
     <pubDate>Oct 28 2022</pubDate>
     <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
+    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
+    <link>http://arxiv.org/pdf/2210.14109</link>
+    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
   </item>
 
 </channel>

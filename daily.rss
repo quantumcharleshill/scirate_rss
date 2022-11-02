@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2210.15844</link>
-    <author>Daniel Gottesman</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
+    <title>Deterministic constant-depth preparation of the AKLT state on a quantum processor using fusion measurements</title>
+    <link>http://arxiv.org/pdf/2210.17548</link>
+    <author>Kevin C. Smith, Eleanor Crane, Nathan Wiebe, S. M. Girvin</author>
+    <pubDate>Nov 01 2022</pubDate>
+    <description>The ground state of the spin-1 Affleck, Kennedy, Lieb and Tasaki (AKLT) model is a paradigmatic example of both a matrix product state and a symmetry-protected topological phase, and additionally holds promise as a resource state for measurement-based quantum computation. Having a nonzero correlation length, the AKLT state cannot be exactly prepared by a constant-depth unitary circuit composed of local gates. In this work, we demonstrate that this no-go limit can be evaded by augmenting a constant-depth circuit with fusion measurements, such that the total preparation time is independent of system size and entirely deterministic. We elucidate our preparation scheme using the language of tensor networks, and furthermore show that the $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry of the AKLT state directly affords this speed-up over previously known preparation methods. To demonstrate the practical advantage of measurement-assisted preparation on noisy intermediate-scale quantum (NISQ) devices, we carry out our protocol on an IBM Quantum processor. We measure both the string order and entanglement spectrum of prepared AKLT chains and, employing these as metrics, find improved results over the known (purely unitary) sequential preparation approach. We conclude with a demonstration of quantum teleportation using the AKLT state prepared by our measurement-assisted scheme. This work thus serves to provide an efficient strategy to prepare a specific resource in the form of the AKLT state and, more broadly, experimentally demonstrates the possibility for realizable improvement in state preparation afforded by measurement-based circuit depth reduction strategies on NISQ-era devices.</description>
   </item>
 
   <item>
-    <title>Greatly improved higher-order product formulae for quantum simulation</title>
-    <link>http://arxiv.org/pdf/2210.15817</link>
-    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
+    <title>A Complete Hierarchy of Linear Systems for Certifying Quantum Entanglement of Subspaces</title>
+    <link>http://arxiv.org/pdf/2210.16389</link>
+    <author>Nathaniel Johnston, Benjamin Lovitz, Aravindan Vijayaraghavan</author>
+    <pubDate>Nov 01 2022</pubDate>
+    <description>We introduce a hierarchy of linear systems for showing that a given subspace of pure quantum states is entangled (i.e., contains no product states). This hierarchy outperforms known methods already at the first level, and it is complete in the sense that every entangled subspace is shown to be so at some finite level of the hierarchy. It generalizes straightforwardly to the case of higher Schmidt rank, as well as the multipartite cases of completely and genuinely entangled subspaces. These hierarchies work extremely well in practice even in very large quantum systems, as they can be implemented via elementary linear algebra techniques rather than the semidefinite programming techniques that are required by previously-known hierarchies.</description>
   </item>
 
   <item>
-    <title>The $2T$-qutrit, a two-mode bosonic qutrit</title>
-    <link>http://arxiv.org/pdf/2210.16188</link>
-    <author>Aurélie Denys, Anthony Leverrier</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Building on the observation that bosonic cat codes live in the span of coherent states indexed by a finite subgroup of the complex numbers, we consider a two-mode bosonic code where the coherent states now form a finite subgroup of the quaternions. We focus on the binary tetrahedral group, denoted $2T$, which admits 24 elements forming the vertices of the 24-cell, a regular four-dimensional polytope, and define a bosonic qutrit that appears to be quite robust in the regime of low loss. We initiate a study of the properties of this qutrit and identify stabilisers as well as logical operators for this bosonic code.</description>
+    <title>Unclonability and Quantum Cryptanalysis: From Foundations to Applications</title>
+    <link>http://arxiv.org/pdf/2210.17545</link>
+    <author>Mina Doosti</author>
+    <pubDate>Nov 01 2022</pubDate>
+    <description>The impossibility of creating perfect identical copies of unknown quantum systems is a fundamental concept in quantum theory and one of the main non-classical properties of quantum information. This limitation imposed by quantum mechanics, famously known as the no-cloning theorem, has played a central role in quantum cryptography as a key component in the security of quantum protocols. In this thesis, we look at Unclonability in a broader context in physics and computer science and more specifically through the lens of cryptography, learnability and hardware assumptions. We introduce new notions of unclonability in the quantum world, namely quantum physical unclonability, and study the relationship with cryptographic properties and assumptions such as unforgeability, and quantum pseudorandomness. The purpose of this study is to bring new insights into the field of quantum cryptanalysis and into the notion of unclonability itself. We also discuss several applications of this new type of unclonability as a cryptographic resource for designing provably secure quantum protocols. Furthermore, we present a new practical cryptanalysis technique concerning the problem of approximate cloning of quantum states. We design a quantum machine learning-based cryptanalysis algorithm to demonstrate the power of quantum learning tools as both attack strategies and powerful tools for the practical study of quantum unclonability.</description>
   </item>
 
   <item>
-    <title>New magic state distillation factories optimized by temporally encoded lattice surgery</title>
-    <link>http://arxiv.org/pdf/2210.15814</link>
-    <author>Prithviraj Prabhu, Christopher Chamberland</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Fault-tolerant quantum computers, with error correction implemented using topological codes, will most likely require lattice surgery protocols in order to implement a universal gate set. Timelike failures during lattice surgery protocols can result in logical failures during the execution of an algorithm. In addition to the spacelike distance of the topological code used to protect the qubits from errors, there is also the timelike distance which is given by the number of syndrome measurement rounds during a lattice surgery protocol. As such, a larger timelike distance requirement will result in the slowdown of an algorithm's runtime. Temporal encoding of lattice surgery (TELS) is a technique which can be used to reduce the number of syndrome measurement rounds that are required during a lattice surgery protocol. This is done by measuring an over-complete set of mutually commuting multi-qubit Pauli operators (referred to as a parallelizable Pauli set) which form codewords of a classical error correcting code. The results of the over-complete set of Pauli measurements can then be used to detect and possibly correct timelike lattice surgery failures. In this work, we introduce an improved TELS protocol and subsequently augment it with the ability to correct low-weight classical errors, resulting in greater speedups in algorithm runtimes. We also explore large families of classical error correcting codes for a wide range of parallelizable Pauli set sizes. We also apply TELS to magic state distillation protocols in the context of biased noise, where logical qubits are encoded in asymmetric surface codes. Using optimized layouts, we show improvements in the space-time cost of our magic state factories compared to previous protocols. Such improvements are achieved using computations performed in the Clifford frame.</description>
+    <title>Quantum Error Correction in the Lowest Landau Level</title>
+    <link>http://arxiv.org/pdf/2210.16957</link>
+    <author>Yale Fan, Willy Fischler, Eric Kubischta</author>
+    <pubDate>Nov 01 2022</pubDate>
+    <description>We develop finite-dimensional versions of the quantum error-correcting codes proposed by Albert, Covey, and Preskill (ACP) for continuous-variable quantum computation on configuration spaces with nonabelian symmetry groups. Our codes can be realized by a charged particle in a Landau level on a spherical geometry -- in contrast to the planar Landau level realization of the qudit codes of Gottesman, Kitaev, and Preskill (GKP) -- or more generally by spin coherent states. Our quantum error-correction scheme is inherently approximate, and the encoded states may be easier to prepare than those of GKP or ACP.</description>
   </item>
 
   <item>
-    <title>CNOT circuits need little help to implement arbitrary Hadamard-free Clifford transformations they generate</title>
-    <link>http://arxiv.org/pdf/2210.16195</link>
-    <author>Dmitri Maslov, Willers Yang</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>A Hadamard-free Clifford transformation is a circuit composed of quantum Phase (P), CZ, and CNOT gates. It is known that such a circuit can be written as a three-stage computation, -P-CZ-CNOT-, where each stage consists only of gates of the specified type. In this paper, we focus on the minimization of circuit depth by entangling gates, corresponding to the important time-to-solution metric and the reduction of noise due to decoherence. We consider two popular connectivity maps: Linear Nearest Neighbor (LNN) and all-to-all. First, we show that a Hadamard-free Clifford operation can be implemented over LNN in depth $5n$, i.e., in the same depth as the -CNOT- stage alone. This implies the ability to implement arbitrary Clifford transformation over LNN in depth no more than $7n{+}2$, improving the best previous upper bound of $9n$. Second, we report heuristic evidence that on average a random uniformly distributed Hadamard-free Clifford transformation over $n{>}6$ qubits can be implemented with only a tiny additive constant overhead over all-to-all connected architecture compared to the best-known depth-optimized implementation of the -CNOT- stage alone. This suggests the reduction of the depth of Clifford circuits from $2n\,{+}\,O(\log^2(n))$ to $1.5n\,{+}\,O(\log^2(n))$ over unrestricted architectures.</description>
+    <title>Detecting emergent continuous symmetries at quantum criticality</title>
+    <link>http://arxiv.org/pdf/2210.17539</link>
+    <author>Mingru Yang, Bram Vanhecke, Norbert Schuch</author>
+    <pubDate>Nov 01 2022</pubDate>
+    <description>New or enlarged symmetries can emerge at the low-energy spectrum of a Hamiltonian that does not possess the symmetries, if the symmetry breaking terms in the Hamiltonian are irrelevant under the renormalization group flow. In this letter, we propose a tensor network based algorithm to numerically find lattice operator approximations of the emergent conserved charges in the ground state of any quantum spin chains, without the necessity to have prior knowledge about its low-energy effective field theory. The results obtained with our method shed new light on the emergent conserved charges in the spin-1/2 $J$-$Q$ Heisenberg model and a one-dimensional version of deconfined quantum critical points (DQCP). It can also be viewed as a way to obtain the local integrals of motion of an integrable model and local parent Hamiltonians of gapless ground states.</description>
   </item>
 
 </channel>
