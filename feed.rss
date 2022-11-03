@@ -135,6 +135,14 @@
   </item>
 
   <item>
+    <title>Representation Theory for Geometric Quantum Machine Learning</title>
+    <link>http://arxiv.org/pdf/2210.07980</link>
+    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
+    <pubDate>Oct 17 2022</pubDate>
+    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
+  </item>
+
+  <item>
     <title>Quantum communication complexity of linear regression</title>
     <link>http://arxiv.org/pdf/2210.01601</link>
     <author>Ashley Montanaro, Changpeng Shao</author>
@@ -148,14 +156,6 @@
     <author>Dominik S. Wild, Álvaro M. Alhambra</author>
     <pubDate>Oct 24 2022</pubDate>
     <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
-  </item>
-
-  <item>
-    <title>Representation Theory for Geometric Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2210.07980</link>
-    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 17 2022</pubDate>
-    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
   </item>
 
   <item>
@@ -215,6 +215,14 @@
   </item>
 
   <item>
+    <title>A super-polynomial quantum-classical separation for density modelling</title>
+    <link>http://arxiv.org/pdf/2210.14936</link>
+    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Oct 28 2022</pubDate>
+    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
     <title>Doubling the order of approximation via the randomized product formula</title>
     <link>http://arxiv.org/pdf/2210.11281</link>
     <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
@@ -228,14 +236,6 @@
     <author>Sam Gunn, Nathan Ju, Fermi Ma, Mark Zhandry</author>
     <pubDate>Oct 12 2022</pubDate>
     <description>What does it mean to commit to a quantum state? In this work, we propose a simple answer: a commitment to quantum messages is binding if, after the commit phase, the committed state is hidden from the sender's view. We accompany this new definition with several instantiations. We build the first non-interactive succinct quantum state commitments, which can be seen as an analogue of collision-resistant hashing for quantum messages. We also show that hiding quantum state commitments (QSCs) are implied by any commitment scheme for classical messages. All of our constructions can be based on quantum-cryptographic assumptions that are implied by but are potentially weaker than one-way functions. Commitments to quantum states open the door to many new cryptographic possibilities. Our flagship application of a succinct QSC is a quantum-communication version of Kilian's succinct arguments for any language that has quantum PCPs with constant error and polylogarithmic locality. Plugging in the PCP theorem, this yields succinct arguments for NP under significantly weaker assumptions than required classically; moreover, if the quantum PCP conjecture holds, this extends to QMA. At the heart of our security proof is a new rewinding technique for extracting quantum information.</description>
-  </item>
-
-  <item>
-    <title>A super-polynomial quantum-classical separation for density modelling</title>
-    <link>http://arxiv.org/pdf/2210.14936</link>
-    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
   </item>
 
   <item>
