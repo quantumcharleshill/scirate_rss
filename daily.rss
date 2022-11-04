@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Finite temperature tensor network algorithm for frustrated two-dimensional quantum materials</title>
-    <link>http://arxiv.org/pdf/2211.00121</link>
-    <author>Philipp Schmoll, Christian Balz, Bella Lake, Jens Eisert, Augustine Kshetrimayum</author>
-    <pubDate>Nov 02 2022</pubDate>
-    <description>Aimed at a more realistic classical description of natural quantum systems, we present a two-dimensional tensor network algorithm to study finite temperature properties of frustrated model quantum systems and real quantum materials. For this purpose, we introduce the infinite projected entangled simplex operator ansatz to study thermodynamic properties. To obtain state-of-the-art benchmarking results, we explore the highly challenging spin-1/2 Heisenberg anti-ferromagnet on the Kagome lattice, a system for which we investigate the melting of the magnetization plateaus at finite magnetic field and temperature. Making close connection to actual experimental data of real quantum materials, we go on to studying the finite temperature properties of Ca$_{10}$Cr$_7$O$_{28}$. We compare the magnetization curve of this material in the presence of an external magnetic field at finite temperature with classically simulated data. As a first theoretical tool that incorporates both thermal fluctuations as well as quantum correlations in the study of this material, our work contributes to settling the existing controversy between the experimental data and previous theoretical works on the magnetization process.</description>
-  </item>
-
-  <item>
-    <title>Non-Abelian Floquet Spin Liquids in a Digital Rydberg Simulator</title>
-    <link>http://arxiv.org/pdf/2211.00017</link>
-    <author>Marcin Kalinowski, Nishad Maskara, Mikhail D. Lukin</author>
-    <pubDate>Nov 02 2022</pubDate>
-    <description>Understanding topological matter is an outstanding challenge across several disciplines of physical science. Programmable quantum simulators have emerged as a powerful approach to studying such systems. While quantum spin liquids of paradigmatic toric code type have recently been realized in the laboratory, controlled exploration of topological phases with non-abelian excitations remains an open problem. We introduce and analyze a new approach to simulating topological matter based on periodic driving. Specifically, we describe a model for a so-called Floquet spin liquid, obtained through a periodic sequence of parallel quantum gate operations that effectively simulates the Hamiltonian of the non-abelian spin liquid in Kitaev's honeycomb model. We show that this approach, including the toolbox for preparation, control, and readout of topological states, can be efficiently implemented in state-of-the-art experimental platforms. One specific implementation scheme is based on Rydberg atom arrays and utilizes recently demonstrated coherent qubit transport combined with controlled-phase gate operations. We describe methods for probing the non-abelian excitations, and the associated Majorana zero modes, and simulate possible fusion and braiding experiments. Our analysis demonstrates the potential of programmable quantum simulators for exploring topological phases of matter. Extensions including simulation of Kitaev materials and lattice gauge theories are also discussed.</description>
-  </item>
-
-  <item>
     <title>Quantum Pseudoentanglement</title>
     <link>http://arxiv.org/pdf/2211.00747</link>
     <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
@@ -31,19 +15,35 @@
   </item>
 
   <item>
-    <title>Ground state degeneracy on torus in a family of $\mathbb{Z}_N$ toric code</title>
-    <link>http://arxiv.org/pdf/2211.00299</link>
-    <author>Haruki Watanabe, Meng Cheng, Yohei Fuji</author>
-    <pubDate>Nov 02 2022</pubDate>
-    <description>Topologically ordered phases in $2+1$ dimensions are generally characterized by three mutually-related features: fractionalized (anyonic) excitations, topological entanglement entropy, and robust ground state degeneracy that does not require symmetry protection or spontaneous symmetry breaking. Such degeneracy is known as topological degeneracy and usually can be seen under the periodic boundary condition regardless of the choice of the system size $L_1$ and $L_2$ in each direction. In this work we introduce a family of extensions of the Kitaev toric code to $N$ level spins ($N\geq2$). The model realizes topologically ordered phases or symmetry-protected topological phases depending on parameters in the model. The most remarkable feature of the topologically ordered phases is that the ground state may be unique, depending on $L_1$ and $L_2$, despite that the translation symmetry of the model remains unbroken. Nonetheless, the topological entanglement entropy takes the nontrivial value. We argue that this behavior originates from the nontrivial action of translations permuting anyon species.</description>
-  </item>
-
-  <item>
     <title>Quantum algorithms for classical Boolean functions via adaptive measurements: Exponential reductions in space-time resources</title>
     <link>http://arxiv.org/pdf/2211.01252</link>
     <author>Austin K. Daniel, Akimasa Miyake</author>
     <pubDate>Nov 03 2022</pubDate>
     <description>The limited computational power of constant-depth quantum circuits can be boosted by adapting future gates according to the outcomes of mid-circuit measurements. We formulate computation of a variety of Boolean functions in the framework of adaptive measurement-based quantum computation using a cluster state resource and a classical side-processor that can add bits modulo 2, so-called $l2$-MBQC. Our adaptive approach overcomes a known challenge that computing these functions in the nonadaptive setting requires a resource state that is exponentially large in the size of the computational input. In particular, we construct adaptive $l2$-MBQC algorithms based on the quantum signal processing technique that compute the mod-$p$ functions with the best known scaling in the space-time resources (i.e., qubit count, quantum circuit depth, classical memory size, and number of calls to the side-processor). As the subject is diverse and has a long history, the paper includes reviews of several previously constructed algorithms and recasts them as adaptive $l2$-MBQCs using cluster state resources. Our results constitute an alternative proof of an old theorem regarding an oracular separation between the power of constant-depth quantum circuits and constant-depth classical circuits with unbounded fan-in NAND and mod-$p$ gates for any prime $p$.</description>
+  </item>
+
+  <item>
+    <title>Phase space geometry and optimal state preparation in quantum metrology with collective spins</title>
+    <link>http://arxiv.org/pdf/2211.01250</link>
+    <author>Manuel H. Muñoz-Arias, Ivan H. Deutsch, Pablo M. Poggi</author>
+    <pubDate>Nov 03 2022</pubDate>
+    <description>We revisit well-known protocols in quantum metrology using collective spins and propose a unifying picture for optimal state preparation based on a semiclassical description in phase space. We show how this framework allows for quantitative predictions of the timescales required to prepare various metrologically useful states, and that these predictions remain accurate even for moderate system sizes, surprisingly far from the classical limit. Furthermore, this framework allows us to build a geometric picture that relates optimal (exponentially fast) entangled probe preparation to the existence of separatrices connecting saddle points in phase space. We illustrate our results with the paradigmatic examples of the two-axis counter-twisting and twisting-and-turning Hamiltonians, where we provide analytical expressions for all the relevant optimal time scales. Finally, we propose a generalization of these models to include $p$-body collective interaction (or $p$-order twisting), beyond the usual case of $p=2$. Using our geometric framework, we prove a no-go theorem for the local optimality of these models for $p>2$.</description>
+  </item>
+
+  <item>
+    <title>Quantum City: simulation of a practical near-term metropolitan quantum network</title>
+    <link>http://arxiv.org/pdf/2211.01190</link>
+    <author>Raja Yehia, Simon Neves, Eleni Diamanti, Iordanis Kerenidis</author>
+    <pubDate>Nov 03 2022</pubDate>
+    <description>We present the architecture and analyze the applications of a metropolitan-scale quantum network that requires only limited hardware resources for end users. Using NetSquid, a quantum network simulation tool based on discrete events, we assess the performance of several quantum network protocols involving two or more users in various configurations in terms of topology, hardware and trust choices. Our analysis takes losses and errors into account and considers realistic parameters corresponding to present or near-term technology. Our results show that practical quantum-enhanced network functionalities are within reach today and can prepare the ground for further applications when more advanced technology becomes available.</description>
+  </item>
+
+  <item>
+    <title>Space-time optimized table lookup</title>
+    <link>http://arxiv.org/pdf/2211.01133</link>
+    <author>Thomas Häner, Vadym Kliuchnikov, Martin Roetteler, Mathias Soeken</author>
+    <pubDate>Nov 03 2022</pubDate>
+    <description>We describe a space-time optimized circuit for the table lookup subroutine from lattice-surgery surface code primitives respecting 2D grid connectivity. Table lookup circuits are ubiquitous in quantum computing, allowing the presented circuit to be used for applications ranging from cryptography to quantum chemistry. Surface code is the leading approach to scalable fault-tolerant quantum computing pursued by industry and academia. We abstract away surface code implementation details by using a minimal set of operations supported by the surface code via lattice-surgery. Our exposition is accessible to a reader not familiar with surface codes and fault-tolerant quantum computing.</description>
   </item>
 
 </channel>
