@@ -111,6 +111,14 @@
   </item>
 
   <item>
+    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2210.15844</link>
+    <author>Daniel Gottesman</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
+  </item>
+
+  <item>
     <title>Dequantizing the Quantum Singular Value Transformation: Hardness and Applications to Quantum Chemistry and the Quantum PCP Conjecture</title>
     <link>http://arxiv.org/pdf/2111.09079</link>
     <author>Sevag Gharibian, François Le Gall</author>
@@ -124,14 +132,6 @@
     <author>Feng Pan, Keyang Chen, Pan Zhang</author>
     <pubDate>Nov 05 2021</pubDate>
     <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\hat P(\mathbf s)=|\hat \psi(\mathbf s)|^2$, where the approximate state $\hat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order is made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
-  </item>
-
-  <item>
-    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2210.15844</link>
-    <author>Daniel Gottesman</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
   </item>
 
   <item>
@@ -327,6 +327,14 @@
   </item>
 
   <item>
+    <title>The learnability of Pauli noise</title>
+    <link>http://arxiv.org/pdf/2206.06362</link>
+    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
+    <pubDate>Jun 14 2022</pubDate>
+    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
+  </item>
+
+  <item>
     <title>Realizing Repeated Quantum Error Correction in a Distance-Three Surface Code</title>
     <link>http://arxiv.org/pdf/2112.03708</link>
     <author>Sebastian Krinner, Nathan Lacroix, Ants Remm, Agustin Di Paolo, Elie Genois, Catherine Leroux, Christoph Hellings, Stefania Lazar, Francois Swiadek, Johannes Herrmann, Graham J. Norris, Christian Kraglund Andersen, Markus Müller, Alexandre Blais, Christopher Eichler, Andreas Wallraff</author>
@@ -340,14 +348,6 @@
     <author>Xun Gao, Marcin Kalinowski, Chi-Ning Chou, Mikhail D. Lukin, Boaz Barak, Soonwon Choi</author>
     <pubDate>Dec 06 2021</pubDate>
     <description>Demonstrating quantum advantage requires experimental implementation of a computational task that is hard to achieve using state-of-the-art classical systems. One approach is to perform sampling from a probability distribution associated with a class of highly entangled many-body wavefunctions. It has been suggested that this approach can be certified with the Linear Cross-Entropy Benchmark (XEB). We critically examine this notion. First, in a "benign" setting where an honest implementation of noisy quantum circuits is assumed, we characterize the conditions under which the XEB approximates the fidelity. Second, in an "adversarial" setting where all possible classical algorithms are considered for comparison, we show that achieving relatively high XEB values does not imply faithful simulation of quantum dynamics. We present an efficient classical algorithm that, with 1 GPU within 2s, yields high XEB values, namely 2-12% of those obtained in experiments. By identifying and exploiting several vulnerabilities of the XEB, we achieve high XEB values without full simulation of quantum circuits. Remarkably, our algorithm features better scaling with the system size than noisy quantum devices for commonly studied random circuit ensembles. To quantitatively explain the success of our algorithm and the limitations of the XEB, we use a theoretical framework in which the average XEB and fidelity are mapped to statistical models. We illustrate the relation between the XEB and the fidelity for quantum circuits in various architectures, with different gate choices, and in the presence of noise. Our results show that XEB's utility as a proxy for fidelity hinges on several conditions, which must be checked in the benign setting but cannot be assumed in the adversarial setting. Thus, the XEB alone has limited utility as a benchmark for quantum advantage. We discuss ways to overcome these limitations.</description>
-  </item>
-
-  <item>
-    <title>The learnability of Pauli noise</title>
-    <link>http://arxiv.org/pdf/2206.06362</link>
-    <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
-    <pubDate>Jun 14 2022</pubDate>
-    <description>Recently, several noise benchmarking algorithms have been developed to characterize noisy quantum gates on today's quantum devices. A well-known issue in benchmarking is that not everything about quantum noise is learnable due to the existence of gauge freedom, leaving open the question of what information about noise is learnable and what is not, which has been unclear even for a single CNOT gate. Here we give a precise characterization of the learnability of Pauli noise channels attached to Clifford gates, showing that learnable information corresponds to the cycle space of the pattern transfer graph of the gate set, while unlearnable information corresponds to the cut space. This implies the optimality of cycle benchmarking, in the sense that it can learn all learnable information about Pauli noise. We experimentally demonstrate noise characterization of IBM's CNOT gate up to 2 unlearnable degrees of freedom, for which we obtain bounds using physical constraints. In addition, we give an attempt to characterize the unlearnable information by assuming perfect initial state preparation. However, based on the experimental data, we conclude that this assumption is inaccurate as it yields unphysical estimates, and we obtain a lower bound on state preparation noise.</description>
   </item>
 
   <item>

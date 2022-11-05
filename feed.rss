@@ -103,6 +103,14 @@
   </item>
 
   <item>
+    <title>Quantum Pseudoentanglement</title>
+    <link>http://arxiv.org/pdf/2211.00747</link>
+    <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
+    <pubDate>Nov 03 2022</pubDate>
+    <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
+  </item>
+
+  <item>
     <title>Quantum state preparation without coherent arithmetic</title>
     <link>http://arxiv.org/pdf/2210.14892</link>
     <author>Sam McArdle, András Gilyén, Mario Berta</author>
@@ -119,19 +127,19 @@
   </item>
 
   <item>
-    <title>Quantum Pseudoentanglement</title>
-    <link>http://arxiv.org/pdf/2211.00747</link>
-    <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
-    <pubDate>Nov 03 2022</pubDate>
-    <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
-  </item>
-
-  <item>
     <title>Quantum Depth in the Random Oracle Model</title>
     <link>http://arxiv.org/pdf/2210.06454</link>
     <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>We give a comprehensive characterization of the computational power of shallow quantum circuits combined with classical computation. Specifically, for classes of search problems, we show that the following statements hold, relative to a random oracle: (a) $\mathsf{BPP}^{\mathsf{QNC}^{\mathsf{BPP}}} \neq \mathsf{BQP}$. This refutes Jozsa's conjecture [QIP 05] in the random oracle model. As a result, this gives the first instantiatable separation between the classes by replacing the oracle with a cryptographic hash function, yielding a resolution to one of Aaronson's ten semi-grand challenges in quantum computing. (b) $\mathsf{BPP}^{\mathsf{QNC}} \nsubseteq \mathsf{QNC}^{\mathsf{BPP}}$ and $\mathsf{QNC}^{\mathsf{BPP}} \nsubseteq \mathsf{BPP}^{\mathsf{QNC}}$. This shows that there is a subtle interplay between classical computation and shallow quantum computation. In fact, for the second separation, we establish that, for some problems, the ability to perform adaptive measurements in a single shallow quantum circuit, is more useful than the ability to perform polynomially many shallow quantum circuits without adaptive measurements. (c) There exists a 2-message proof of quantum depth protocol. Such a protocol allows a classical verifier to efficiently certify that a prover must be performing a computation of some minimum quantum depth. Our proof of quantum depth can be instantiated using the recent proof of quantumness construction by Yamakawa and Zhandry [STOC 22].</description>
+  </item>
+
+  <item>
+    <title>Classical simulation of short-time quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2210.11490</link>
+    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
   </item>
 
   <item>
@@ -148,14 +156,6 @@
     <author>Ashley Montanaro, Changpeng Shao</author>
     <pubDate>Oct 05 2022</pubDate>
     <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
-  </item>
-
-  <item>
-    <title>Classical simulation of short-time quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2210.11490</link>
-    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
   </item>
 
   <item>
@@ -183,6 +183,14 @@
   </item>
 
   <item>
+    <title>The $2T$-qutrit, a two-mode bosonic qutrit</title>
+    <link>http://arxiv.org/pdf/2210.16188</link>
+    <author>Aurélie Denys, Anthony Leverrier</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Building on the observation that bosonic cat codes live in the span of coherent states indexed by a finite subgroup of the complex numbers, we consider a two-mode bosonic code where the coherent states now form a finite subgroup of the quaternions. We focus on the binary tetrahedral group, denoted $2T$, which admits 24 elements forming the vertices of the 24-cell, a regular four-dimensional polytope, and define a bosonic qutrit that appears to be quite robust in the regime of low loss. We initiate a study of the properties of this qutrit and identify stabilisers as well as logical operators for this bosonic code.</description>
+  </item>
+
+  <item>
     <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
     <link>http://arxiv.org/pdf/2210.10799</link>
     <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
@@ -204,14 +212,6 @@
     <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
     <pubDate>Oct 12 2022</pubDate>
     <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
-  </item>
-
-  <item>
-    <title>The $2T$-qutrit, a two-mode bosonic qutrit</title>
-    <link>http://arxiv.org/pdf/2210.16188</link>
-    <author>Aurélie Denys, Anthony Leverrier</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Building on the observation that bosonic cat codes live in the span of coherent states indexed by a finite subgroup of the complex numbers, we consider a two-mode bosonic code where the coherent states now form a finite subgroup of the quaternions. We focus on the binary tetrahedral group, denoted $2T$, which admits 24 elements forming the vertices of the 24-cell, a regular four-dimensional polytope, and define a bosonic qutrit that appears to be quite robust in the regime of low loss. We initiate a study of the properties of this qutrit and identify stabilisers as well as logical operators for this bosonic code.</description>
   </item>
 
   <item>
