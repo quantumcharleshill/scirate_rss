@@ -55,14 +55,6 @@
   </item>
 
   <item>
-    <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
-    <link>http://arxiv.org/pdf/2210.03030</link>
-    <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
-  </item>
-
-  <item>
     <title>Quantum divide and conquer</title>
     <link>http://arxiv.org/pdf/2210.06419</link>
     <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
@@ -119,14 +111,6 @@
   </item>
 
   <item>
-    <title>NLTS Hamiltonians from classical LTCs</title>
-    <link>http://arxiv.org/pdf/2210.02999</link>
-    <author>Zhiyang He, Chinmay Nirkhe</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>We provide a completely self-contained construction of a family of NLTS Hamiltonians [Freedman and Hastings, 2014] based on ideas from [Anshu, Breuckmann, and Nirkhe, 2022], [Cross, He, Natarajan, Szegedy, and Zhu, 2022] and [Eldar and Harrow, 2017]. Crucially, it does not require optimal-parameter quantum LDPC codes and can be built from simple classical LTCs such as the repetition code on an expander graph. Furthermore, it removes the constant-rate requirement from the construction of Anshu, Breuckmann, and Nirkhe.</description>
-  </item>
-
-  <item>
     <title>Quantum Depth in the Random Oracle Model</title>
     <link>http://arxiv.org/pdf/2210.06454</link>
     <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
@@ -148,14 +132,6 @@
     <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
     <pubDate>Oct 17 2022</pubDate>
     <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
-  </item>
-
-  <item>
-    <title>Quantum communication complexity of linear regression</title>
-    <link>http://arxiv.org/pdf/2210.01601</link>
-    <author>Ashley Montanaro, Changpeng Shao</author>
-    <pubDate>Oct 05 2022</pubDate>
-    <description>Dequantized algorithms show that quantum computers do not have exponential speedups for many linear algebra problems in terms of time and query complexity. In this work, we show that quantum computers can have exponential speedups in terms of communication complexity for some fundamental linear algebra problems. We mainly focus on solving linear regression and Hamiltonian simulation. In the quantum case, the task is to prepare the quantum state of the result. To allow for a fair comparison, in the classical case the task is to sample from the result. We investigate these two problems in two-party and multiparty models, propose near-optimal quantum protocols and prove quantum/classical lower bounds. In this process, we propose an efficient quantum protocol for quantum singular value transformation, which is a powerful technique for designing quantum algorithms. As a result, for many linear algebra problems where quantum computers lose exponential speedups in terms of time and query complexity, it is possible to have exponential speedups in terms of communication complexity.</description>
   </item>
 
   <item>
@@ -223,11 +199,11 @@
   </item>
 
   <item>
-    <title>Floquet codes without parent subsystem codes</title>
-    <link>http://arxiv.org/pdf/2210.02468</link>
-    <author>Margarita Davydova, Nathanan Tantivasadakarn, Shankar Balasubramanian</author>
-    <pubDate>Oct 07 2022</pubDate>
-    <description>We propose a new class of error-correcting dynamic codes in two and three dimensions that has no explicit connection to any parent subsystem code. The two-dimensional code, which we call the CSS Floquet code, is geometrically similar to that of the honeycomb code by Hastings and Haah, and also dynamically embeds an instantaneous toric code. However, unlike the honeycomb code it possesses an explicit CSS structure and its gauge checks do not form a subsystem code. Nevertheless, we show that our dynamic protocol conserves logical information and possesses a threshold for error correction. We generalize this construction to three dimensions and obtain a code that fault-tolerantly alternates between realizing two type-I fracton models, the checkerboard and the X-cube model. Finally, we show the compatibility of our CSS Floquet code protocol and the honeycomb code by showing the possibility of randomly switching between the two protocols without information loss while still measuring error syndromes. We call this more general aperiodic structure `dynamic tree codes', which we also generalize to three dimensions. Under a certain correlated randomness constraint, this code is error correcting.</description>
+    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
+    <link>http://arxiv.org/pdf/2210.14109</link>
+    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
   </item>
 
   <item>
@@ -244,6 +220,30 @@
     <author>Andrew M. Childs, Tongyang Li, Jin-Peng Liu, Chunhao Wang, Ruizhe Zhang</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>Given a convex function $f\colon\mathbb{R}^{d}\to\mathbb{R}$, the problem of sampling from a distribution $\propto e^{-f(x)}$ is called log-concave sampling. This task has wide applications in machine learning, physics, statistics, etc. In this work, we develop quantum algorithms for sampling log-concave distributions and for estimating their normalizing constants $\int_{\mathbb{R}^d}e^{-f(x)}\mathrm{d} x$. First, we use underdamped Langevin diffusion to develop quantum algorithms that match the query complexity (in terms of the condition number $\kappa$ and dimension $d$) of analogous classical algorithms that use gradient (first-order) queries, even though the quantum algorithms use only evaluation (zeroth-order) queries. For estimating normalizing constants, these algorithms also achieve quadratic speedup in the multiplicative error $\epsilon$. Second, we develop quantum Metropolis-adjusted Langevin algorithms with query complexity $\widetilde{O}(\kappa^{1/2}d)$ and $\widetilde{O}(\kappa^{1/2}d^{3/2}/\epsilon)$ for log-concave sampling and normalizing constant estimation, respectively, achieving polynomial speedups in $\kappa,d,\epsilon$ over the best known classical algorithms by exploiting quantum analogs of the Monte Carlo method and quantum walks. We also prove a $1/\epsilon^{1-o(1)}$ quantum lower bound for estimating normalizing constants, implying near-optimality of our quantum algorithms in $\epsilon$.</description>
+  </item>
+
+  <item>
+    <title>Commitments to Quantum States</title>
+    <link>http://arxiv.org/pdf/2210.05138</link>
+    <author>Sam Gunn, Nathan Ju, Fermi Ma, Mark Zhandry</author>
+    <pubDate>Oct 12 2022</pubDate>
+    <description>What does it mean to commit to a quantum state? In this work, we propose a simple answer: a commitment to quantum messages is binding if, after the commit phase, the committed state is hidden from the sender's view. We accompany this new definition with several instantiations. We build the first non-interactive succinct quantum state commitments, which can be seen as an analogue of collision-resistant hashing for quantum messages. We also show that hiding quantum state commitments (QSCs) are implied by any commitment scheme for classical messages. All of our constructions can be based on quantum-cryptographic assumptions that are implied by but are potentially weaker than one-way functions. Commitments to quantum states open the door to many new cryptographic possibilities. Our flagship application of a succinct QSC is a quantum-communication version of Kilian's succinct arguments for any language that has quantum PCPs with constant error and polylogarithmic locality. Plugging in the PCP theorem, this yields succinct arguments for NP under significantly weaker assumptions than required classically; moreover, if the quantum PCP conjecture holds, this extends to QMA. At the heart of our security proof is a new rewinding technique for extracting quantum information.</description>
+  </item>
+
+  <item>
+    <title>Deterministic constant-depth preparation of the AKLT state on a quantum processor using fusion measurements</title>
+    <link>http://arxiv.org/pdf/2210.17548</link>
+    <author>Kevin C. Smith, Eleanor Crane, Nathan Wiebe, S. M. Girvin</author>
+    <pubDate>Nov 01 2022</pubDate>
+    <description>The ground state of the spin-1 Affleck, Kennedy, Lieb and Tasaki (AKLT) model is a paradigmatic example of both a matrix product state and a symmetry-protected topological phase, and additionally holds promise as a resource state for measurement-based quantum computation. Having a nonzero correlation length, the AKLT state cannot be exactly prepared by a constant-depth unitary circuit composed of local gates. In this work, we demonstrate that this no-go limit can be evaded by augmenting a constant-depth circuit with fusion measurements, such that the total preparation time is independent of system size and entirely deterministic. We elucidate our preparation scheme using the language of tensor networks, and furthermore show that the $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry of the AKLT state directly affords this speed-up over previously known preparation methods. To demonstrate the practical advantage of measurement-assisted preparation on noisy intermediate-scale quantum (NISQ) devices, we carry out our protocol on an IBM Quantum processor. We measure both the string order and entanglement spectrum of prepared AKLT chains and, employing these as metrics, find improved results over the known (purely unitary) sequential preparation approach. We conclude with a demonstration of quantum teleportation using the AKLT state prepared by our measurement-assisted scheme. This work thus serves to provide an efficient strategy to prepare a specific resource in the form of the AKLT state and, more broadly, experimentally demonstrates the possibility for realizable improvement in state preparation afforded by measurement-based circuit depth reduction strategies on NISQ-era devices.</description>
+  </item>
+
+  <item>
+    <title>New magic state distillation factories optimized by temporally encoded lattice surgery</title>
+    <link>http://arxiv.org/pdf/2210.15814</link>
+    <author>Prithviraj Prabhu, Christopher Chamberland</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Fault-tolerant quantum computers, with error correction implemented using topological codes, will most likely require lattice surgery protocols in order to implement a universal gate set. Timelike failures during lattice surgery protocols can result in logical failures during the execution of an algorithm. In addition to the spacelike distance of the topological code used to protect the qubits from errors, there is also the timelike distance which is given by the number of syndrome measurement rounds during a lattice surgery protocol. As such, a larger timelike distance requirement will result in the slowdown of an algorithm's runtime. Temporal encoding of lattice surgery (TELS) is a technique which can be used to reduce the number of syndrome measurement rounds that are required during a lattice surgery protocol. This is done by measuring an over-complete set of mutually commuting multi-qubit Pauli operators (referred to as a parallelizable Pauli set) which form codewords of a classical error correcting code. The results of the over-complete set of Pauli measurements can then be used to detect and possibly correct timelike lattice surgery failures. In this work, we introduce an improved TELS protocol and subsequently augment it with the ability to correct low-weight classical errors, resulting in greater speedups in algorithm runtimes. We also explore large families of classical error correcting codes for a wide range of parallelizable Pauli set sizes. We also apply TELS to magic state distillation protocols in the context of biased noise, where logical qubits are encoded in asymmetric surface codes. Using optimized layouts, we show improvements in the space-time cost of our magic state factories compared to previous protocols. Such improvements are achieved using computations performed in the Clifford frame.</description>
   </item>
 
 </channel>

@@ -127,14 +127,6 @@
   </item>
 
   <item>
-    <title>Solving the sampling problem of the Sycamore quantum circuits</title>
-    <link>http://arxiv.org/pdf/2111.03011</link>
-    <author>Feng Pan, Keyang Chen, Pan Zhang</author>
-    <pubDate>Nov 05 2021</pubDate>
-    <description>We study the problem of generating independent samples from the output distribution of Google's Sycamore quantum circuits with a target fidelity, which is believed to be beyond the reach of classical supercomputers and has been used to demonstrate quantum supremacy. We propose a new method to classically solve this problem by contracting the corresponding tensor network just once, and is massively more efficient than existing methods in obtaining a large number of uncorrelated samples with a target fidelity. For the Sycamore quantum supremacy circuit with $53$ qubits and $20$ cycles, we have generated one million uncorrelated bitstrings $\{\mathbf s\}$ which are sampled from a distribution $\hat P(\mathbf s)=|\hat \psi(\mathbf s)|^2$, where the approximate state $\hat \psi$ has fidelity $F\approx 0.0037$. The whole computation has cost about $15$ hours on a computational cluster with $512$ GPUs. The obtained one million samples, the contraction code and contraction order is made public. If our algorithm could be implemented with high efficiency on a modern supercomputer with ExaFLOPS performance, we estimate that ideally, the simulation would cost a few dozens of seconds, which is faster than Google's quantum hardware.</description>
-  </item>
-
-  <item>
     <title>Learning to predict arbitrary quantum processes</title>
     <link>http://arxiv.org/pdf/2210.14894</link>
     <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
@@ -404,6 +396,14 @@
     <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
     <pubDate>Mar 15 2022</pubDate>
     <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
+  </item>
+
+  <item>
+    <title>Quantum divide and conquer</title>
+    <link>http://arxiv.org/pdf/2210.06419</link>
+    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
   </item>
 
 </channel>

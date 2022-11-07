@@ -7,35 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2210.15844</link>
-    <author>Daniel Gottesman</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
-  </item>
-
-  <item>
     <title>Quantum Pseudoentanglement</title>
     <link>http://arxiv.org/pdf/2211.00747</link>
     <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
     <pubDate>Nov 03 2022</pubDate>
     <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
-  </item>
-
-  <item>
-    <title>Greatly improved higher-order product formulae for quantum simulation</title>
-    <link>http://arxiv.org/pdf/2210.15817</link>
-    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
-  </item>
-
-  <item>
-    <title>The $2T$-qutrit, a two-mode bosonic qutrit</title>
-    <link>http://arxiv.org/pdf/2210.16188</link>
-    <author>Aurélie Denys, Anthony Leverrier</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Building on the observation that bosonic cat codes live in the span of coherent states indexed by a finite subgroup of the complex numbers, we consider a two-mode bosonic code where the coherent states now form a finite subgroup of the quaternions. We focus on the binary tetrahedral group, denoted $2T$, which admits 24 elements forming the vertices of the 24-cell, a regular four-dimensional polytope, and define a bosonic qutrit that appears to be quite robust in the regime of low loss. We initiate a study of the properties of this qutrit and identify stabilisers as well as logical operators for this bosonic code.</description>
   </item>
 
   <item>
@@ -47,19 +23,19 @@
   </item>
 
   <item>
-    <title>New magic state distillation factories optimized by temporally encoded lattice surgery</title>
-    <link>http://arxiv.org/pdf/2210.15814</link>
-    <author>Prithviraj Prabhu, Christopher Chamberland</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Fault-tolerant quantum computers, with error correction implemented using topological codes, will most likely require lattice surgery protocols in order to implement a universal gate set. Timelike failures during lattice surgery protocols can result in logical failures during the execution of an algorithm. In addition to the spacelike distance of the topological code used to protect the qubits from errors, there is also the timelike distance which is given by the number of syndrome measurement rounds during a lattice surgery protocol. As such, a larger timelike distance requirement will result in the slowdown of an algorithm's runtime. Temporal encoding of lattice surgery (TELS) is a technique which can be used to reduce the number of syndrome measurement rounds that are required during a lattice surgery protocol. This is done by measuring an over-complete set of mutually commuting multi-qubit Pauli operators (referred to as a parallelizable Pauli set) which form codewords of a classical error correcting code. The results of the over-complete set of Pauli measurements can then be used to detect and possibly correct timelike lattice surgery failures. In this work, we introduce an improved TELS protocol and subsequently augment it with the ability to correct low-weight classical errors, resulting in greater speedups in algorithm runtimes. We also explore large families of classical error correcting codes for a wide range of parallelizable Pauli set sizes. We also apply TELS to magic state distillation protocols in the context of biased noise, where logical qubits are encoded in asymmetric surface codes. Using optimized layouts, we show improvements in the space-time cost of our magic state factories compared to previous protocols. Such improvements are achieved using computations performed in the Clifford frame.</description>
-  </item>
-
-  <item>
     <title>Invertible bimodule categories and generalized Schur orthogonality</title>
     <link>http://arxiv.org/pdf/2211.01947</link>
     <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
     <pubDate>Nov 04 2022</pubDate>
     <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
+  </item>
+
+  <item>
+    <title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications</title>
+    <link>http://arxiv.org/pdf/2211.01444</link>
+    <author>Prabhanjan Ananth, Aditya Gulati, Luowen Qian, Henry Yuen</author>
+    <pubDate>Nov 04 2022</pubDate>
+    <description>Pseudorandom quantum states (PRS) are efficiently constructible states that are computationally indistinguishable from being Haar-random, and have recently found cryptographic applications. We explore new definitions, new properties and applications of pseudorandom states, and present the following contributions: 1. New Definitions: We study variants of pseudorandom function-like state (PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO'22), where the pseudorandomness property holds even when the generator can be queried adaptively or in superposition. We show feasibility of these variants assuming the existence of post-quantum one-way functions. 2. Classical Communication: We show that PRS generators with logarithmic output length imply commitment and encryption schemes with classical communication. Previous constructions of such schemes from PRS generators required quantum communication. 3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli (TCC'19) result that polynomially-many copies of uniform superposition states with random binary phases are indistinguishable from Haar-random states. 4. Necessity of Computational Assumptions: We also show that a secure PRS with output length logarithmic, or larger, in the key length necessarily requires computational assumptions.</description>
   </item>
 
   <item>
@@ -79,11 +55,35 @@
   </item>
 
   <item>
-    <title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications</title>
-    <link>http://arxiv.org/pdf/2211.01444</link>
-    <author>Prabhanjan Ananth, Aditya Gulati, Lower Qian, Henry Yuen</author>
+    <title>Finite temperature tensor network algorithm for frustrated two-dimensional quantum materials</title>
+    <link>http://arxiv.org/pdf/2211.00121</link>
+    <author>Philipp Schmoll, Christian Balz, Bella Lake, Jens Eisert, Augustine Kshetrimayum</author>
+    <pubDate>Nov 02 2022</pubDate>
+    <description>Aimed at a more realistic classical description of natural quantum systems, we present a two-dimensional tensor network algorithm to study finite temperature properties of frustrated model quantum systems and real quantum materials. For this purpose, we introduce the infinite projected entangled simplex operator ansatz to study thermodynamic properties. To obtain state-of-the-art benchmarking results, we explore the highly challenging spin-1/2 Heisenberg anti-ferromagnet on the Kagome lattice, a system for which we investigate the melting of the magnetization plateaus at finite magnetic field and temperature. Making close connection to actual experimental data of real quantum materials, we go on to studying the finite temperature properties of Ca$_{10}$Cr$_7$O$_{28}$. We compare the magnetization curve of this material in the presence of an external magnetic field at finite temperature with classically simulated data. As a first theoretical tool that incorporates both thermal fluctuations as well as quantum correlations in the study of this material, our work contributes to settling the existing controversy between the experimental data and previous theoretical works on the magnetization process.</description>
+  </item>
+
+  <item>
+    <title>Non-Abelian Floquet Spin Liquids in a Digital Rydberg Simulator</title>
+    <link>http://arxiv.org/pdf/2211.00017</link>
+    <author>Marcin Kalinowski, Nishad Maskara, Mikhail D. Lukin</author>
+    <pubDate>Nov 02 2022</pubDate>
+    <description>Understanding topological matter is an outstanding challenge across several disciplines of physical science. Programmable quantum simulators have emerged as a powerful approach to studying such systems. While quantum spin liquids of paradigmatic toric code type have recently been realized in the laboratory, controlled exploration of topological phases with non-abelian excitations remains an open problem. We introduce and analyze a new approach to simulating topological matter based on periodic driving. Specifically, we describe a model for a so-called Floquet spin liquid, obtained through a periodic sequence of parallel quantum gate operations that effectively simulates the Hamiltonian of the non-abelian spin liquid in Kitaev's honeycomb model. We show that this approach, including the toolbox for preparation, control, and readout of topological states, can be efficiently implemented in state-of-the-art experimental platforms. One specific implementation scheme is based on Rydberg atom arrays and utilizes recently demonstrated coherent qubit transport combined with controlled-phase gate operations. We describe methods for probing the non-abelian excitations, and the associated Majorana zero modes, and simulate possible fusion and braiding experiments. Our analysis demonstrates the potential of programmable quantum simulators for exploring topological phases of matter. Extensions including simulation of Kitaev materials and lattice gauge theories are also discussed.</description>
+  </item>
+
+  <item>
+    <title>On the practical usefulness of the Hardware Efficient Ansatz</title>
+    <link>http://arxiv.org/pdf/2211.01477</link>
+    <author>Lorenzo Leone, Salvatore F.E. Oliviero, Lukasz Cincio, M. Cerezo</author>
     <pubDate>Nov 04 2022</pubDate>
-    <description>Pseudorandom quantum states (PRS) are efficiently constructible states that are computationally indistinguishable from being Haar-random, and have recently found cryptographic applications. We explore new definitions, new properties and applications of pseudorandom states, and present the following contributions: 1. New Definitions: We study variants of pseudorandom function-like state (PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO'22), where the pseudorandomness property holds even when the generator can be queried adaptively or in superposition. We show feasibility of these variants assuming the existence of post-quantum one-way functions. 2. Classical Communication: We show that PRS generators with logarithmic output length imply commitment and encryption schemes with classical communication. Previous constructions of such schemes from PRS generators required quantum communication. 3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli (TCC'19) result that polynomially-many copies of uniform superposition states with random binary phases are indistinguishable from Haar-random states. 4. Necessity of Computational Assumptions: We also show that a secure PRS with output length logarithmic, or larger, in the key length necessarily requires computational assumptions.</description>
+    <description>Variational Quantum Algorithms (VQAs) and Quantum Machine Learning (QML) models train a parametrized quantum circuit to solve a given learning task. The success of these algorithms greatly hinges on appropriately choosing an ansatz for the quantum circuit. Perhaps one of the most famous ansatzes is the one-dimensional layered Hardware Efficient Ansatz (HEA), which seeks to minimize the effect of hardware noise by using native gates and connectives. The use of this HEA has generated a certain ambivalence arising from the fact that while it suffers from barren plateaus at long depths, it can also avoid them at shallow ones. In this work, we attempt to determine whether one should, or should not, use a HEA. We rigorously identify scenarios where shallow HEAs should likely be avoided (e.g., VQA or QML tasks with data satisfying a volume law of entanglement). More importantly, we identify a Goldilocks scenario where shallow HEAs could achieve a quantum speedup: QML tasks with data satisfying an area law of entanglement. We provide examples for such scenario (such as Gaussian diagonal ensemble random Hamiltonian discrimination), and we show that in these cases a shallow HEA is always trainable and that there exists an anti-concentration of loss function values. Our work highlights the crucial role that input states play in the trainability of a parametrized quantum circuit, a phenomenon that is verified in our numerics.</description>
+  </item>
+
+  <item>
+    <title>Ground state degeneracy on torus in a family of $\mathbb{Z}_N$ toric code</title>
+    <link>http://arxiv.org/pdf/2211.00299</link>
+    <author>Haruki Watanabe, Meng Cheng, Yohei Fuji</author>
+    <pubDate>Nov 02 2022</pubDate>
+    <description>Topologically ordered phases in $2+1$ dimensions are generally characterized by three mutually-related features: fractionalized (anyonic) excitations, topological entanglement entropy, and robust ground state degeneracy that does not require symmetry protection or spontaneous symmetry breaking. Such degeneracy is known as topological degeneracy and usually can be seen under the periodic boundary condition regardless of the choice of the system size $L_1$ and $L_2$ in each direction. In this work we introduce a family of extensions of the Kitaev toric code to $N$ level spins ($N\geq2$). The model realizes topologically ordered phases or symmetry-protected topological phases depending on parameters in the model. The most remarkable feature of the topologically ordered phases is that the ground state may be unique, depending on $L_1$ and $L_2$, despite that the translation symmetry of the model remains unbroken. Nonetheless, the topological entanglement entropy takes the nontrivial value. We argue that this behavior originates from the nontrivial action of translations permuting anyon species.</description>
   </item>
 
 </channel>
