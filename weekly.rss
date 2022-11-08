@@ -15,11 +15,19 @@
   </item>
 
   <item>
-    <title>Deterministic constant-depth preparation of the AKLT state on a quantum processor using fusion measurements</title>
-    <link>http://arxiv.org/pdf/2210.17548</link>
-    <author>Kevin C. Smith, Eleanor Crane, Nathan Wiebe, S. M. Girvin</author>
-    <pubDate>Nov 01 2022</pubDate>
-    <description>The ground state of the spin-1 Affleck, Kennedy, Lieb and Tasaki (AKLT) model is a paradigmatic example of both a matrix product state and a symmetry-protected topological phase, and additionally holds promise as a resource state for measurement-based quantum computation. Having a nonzero correlation length, the AKLT state cannot be exactly prepared by a constant-depth unitary circuit composed of local gates. In this work, we demonstrate that this no-go limit can be evaded by augmenting a constant-depth circuit with fusion measurements, such that the total preparation time is independent of system size and entirely deterministic. We elucidate our preparation scheme using the language of tensor networks, and furthermore show that the $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry of the AKLT state directly affords this speed-up over previously known preparation methods. To demonstrate the practical advantage of measurement-assisted preparation on noisy intermediate-scale quantum (NISQ) devices, we carry out our protocol on an IBM Quantum processor. We measure both the string order and entanglement spectrum of prepared AKLT chains and, employing these as metrics, find improved results over the known (purely unitary) sequential preparation approach. We conclude with a demonstration of quantum teleportation using the AKLT state prepared by our measurement-assisted scheme. This work thus serves to provide an efficient strategy to prepare a specific resource in the form of the AKLT state and, more broadly, experimentally demonstrates the possibility for realizable improvement in state preparation afforded by measurement-based circuit depth reduction strategies on NISQ-era devices.</description>
+    <title>Tailoring three-dimensional topological codes for biased noise</title>
+    <link>http://arxiv.org/pdf/2211.02116</link>
+    <author>Eric Huang, Arthur Pesah, Christopher T. Chubb, Michael Vasmer, Arpit Dua</author>
+    <pubDate>Nov 07 2022</pubDate>
+    <description>Tailored topological stabilizer codes in two dimensions have been shown to exhibit high storage threshold error rates and improved subthreshold performance under biased Pauli noise. Three-dimensional (3D) topological codes can allow for several advantages including a transversal implementation of non-Clifford logical gates, single-shot decoding strategies, parallelized decoding in the case of fracton codes as well as construction of fractal lattice codes. Motivated by this, we tailor 3D topological codes for enhanced storage performance under biased Pauli noise. We present Clifford deformations of various 3D topological codes, such that they exhibit a threshold error rate of $50\%$ under infinitely biased Pauli noise. Our examples include the 3D surface code on the cubic lattice, the 3D surface code on a checkerboard lattice that lends itself to a subsystem code with a single-shot decoder, the 3D color code, as well as fracton models such as the X-cube model, the Sierpinski model and the Haah code. We use the belief propagation with ordered statistics decoder (BP-OSD) to study threshold error rates at finite bias. We also present a rotated layout for the 3D surface code, which uses roughly half the number of physical qubits for the same code distance under appropriate boundary conditions. Imposing coprime periodic dimensions on this rotated layout leads to logical operators of weight $O(n)$ at infinite bias and a corresponding $\exp[-O(n)]$ subthreshold scaling of the logical failure rate, where $n$ is the number of physical qubits in the code. Even though this scaling is unstable due to the existence of logical representations with $O(1)$ low-rate Pauli errors, the number of such representations scales only polynomially for the Clifford-deformed code, leading to an enhanced effective distance.</description>
+  </item>
+
+  <item>
+    <title>Invertible subalgebras</title>
+    <link>http://arxiv.org/pdf/2211.02086</link>
+    <author>Jeongwan Haah</author>
+    <pubDate>Nov 07 2022</pubDate>
+    <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
   </item>
 
   <item>
@@ -47,14 +55,6 @@
   </item>
 
   <item>
-    <title>A Complete Hierarchy of Linear Systems for Certifying Quantum Entanglement of Subspaces</title>
-    <link>http://arxiv.org/pdf/2210.16389</link>
-    <author>Nathaniel Johnston, Benjamin Lovitz, Aravindan Vijayaraghavan</author>
-    <pubDate>Nov 01 2022</pubDate>
-    <description>We introduce a hierarchy of linear systems for showing that a given subspace of pure quantum states is entangled (i.e., contains no product states). This hierarchy outperforms known methods already at the first level, and it is complete in the sense that every entangled subspace is shown to be so at some finite level of the hierarchy. It generalizes straightforwardly to the case of higher Schmidt rank, as well as the multipartite cases of completely and genuinely entangled subspaces. These hierarchies work extremely well in practice even in very large quantum systems, as they can be implemented via elementary linear algebra techniques rather than the semidefinite programming techniques that are required by previously-known hierarchies.</description>
-  </item>
-
-  <item>
     <title>Finite temperature tensor network algorithm for frustrated two-dimensional quantum materials</title>
     <link>http://arxiv.org/pdf/2211.00121</link>
     <author>Philipp Schmoll, Christian Balz, Bella Lake, Jens Eisert, Augustine Kshetrimayum</author>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>On the practical usefulness of the Hardware Efficient Ansatz</title>
-    <link>http://arxiv.org/pdf/2211.01477</link>
-    <author>Lorenzo Leone, Salvatore F.E. Oliviero, Lukasz Cincio, M. Cerezo</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>Variational Quantum Algorithms (VQAs) and Quantum Machine Learning (QML) models train a parametrized quantum circuit to solve a given learning task. The success of these algorithms greatly hinges on appropriately choosing an ansatz for the quantum circuit. Perhaps one of the most famous ansatzes is the one-dimensional layered Hardware Efficient Ansatz (HEA), which seeks to minimize the effect of hardware noise by using native gates and connectives. The use of this HEA has generated a certain ambivalence arising from the fact that while it suffers from barren plateaus at long depths, it can also avoid them at shallow ones. In this work, we attempt to determine whether one should, or should not, use a HEA. We rigorously identify scenarios where shallow HEAs should likely be avoided (e.g., VQA or QML tasks with data satisfying a volume law of entanglement). More importantly, we identify a Goldilocks scenario where shallow HEAs could achieve a quantum speedup: QML tasks with data satisfying an area law of entanglement. We provide examples for such scenario (such as Gaussian diagonal ensemble random Hamiltonian discrimination), and we show that in these cases a shallow HEA is always trainable and that there exists an anti-concentration of loss function values. Our work highlights the crucial role that input states play in the trainability of a parametrized quantum circuit, a phenomenon that is verified in our numerics.</description>
+    <title>Conventions for Quantum Pseudocode</title>
+    <link>http://arxiv.org/pdf/2211.02559</link>
+    <author>E. Knill</author>
+    <pubDate>Nov 07 2022</pubDate>
+    <description>A few conventions for thinking about and writing quantum pseudocode are proposed. The conventions can be used for presenting any quantum algorithm down to the lowest level and are consistent with a quantum random access machine (QRAM) model for quantum computing. In principle a formal version of quantum pseudocode could be used in a future extension of a conventional language.</description>
   </item>
 
   <item>
-    <title>Ground state degeneracy on torus in a family of $\mathbb{Z}_N$ toric code</title>
-    <link>http://arxiv.org/pdf/2211.00299</link>
-    <author>Haruki Watanabe, Meng Cheng, Yohei Fuji</author>
-    <pubDate>Nov 02 2022</pubDate>
-    <description>Topologically ordered phases in $2+1$ dimensions are generally characterized by three mutually-related features: fractionalized (anyonic) excitations, topological entanglement entropy, and robust ground state degeneracy that does not require symmetry protection or spontaneous symmetry breaking. Such degeneracy is known as topological degeneracy and usually can be seen under the periodic boundary condition regardless of the choice of the system size $L_1$ and $L_2$ in each direction. In this work we introduce a family of extensions of the Kitaev toric code to $N$ level spins ($N\geq2$). The model realizes topologically ordered phases or symmetry-protected topological phases depending on parameters in the model. The most remarkable feature of the topologically ordered phases is that the ground state may be unique, depending on $L_1$ and $L_2$, despite that the translation symmetry of the model remains unbroken. Nonetheless, the topological entanglement entropy takes the nontrivial value. We argue that this behavior originates from the nontrivial action of translations permuting anyon species.</description>
+    <title>Discrete mean estimates and the Landau-Siegel zero</title>
+    <link>http://arxiv.org/pdf/2211.02515</link>
+    <author>Yitang Zhang</author>
+    <pubDate>Nov 07 2022</pubDate>
+    <description>Let $\chi$ be a real primitive character to the modulus $D$. It is proved that $$ L(1,\chi)≫(\log D)^-2022 $$ where the implied constant is absolute and effectively computable. In the proof, the lower bound for $L(1,\chi)$ is first related to the distribution of zeros of a family of Dirichlet $L$-functions in a certain region, and some results on the gaps between consecutive zeros are derived. Then, by evaluating certain discrete means of the large sieve type, a contradiction can be obtained if $L(1,\chi)$ is too small.</description>
   </item>
 
 </channel>

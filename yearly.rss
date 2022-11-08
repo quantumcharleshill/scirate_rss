@@ -63,14 +63,6 @@
   </item>
 
   <item>
-    <title>Asymptotically Good Quantum and Locally Testable Classical LDPC Codes</title>
-    <link>http://arxiv.org/pdf/2111.03654</link>
-    <author>Pavel Panteleev, Gleb Kalachev</author>
-    <pubDate>Nov 08 2021</pubDate>
-    <description>We study classical and quantum LDPC codes of constant rate obtained by the lifted product construction over non-abelian groups. We show that the obtained families of quantum LDPC codes are asymptotically good, which proves the qLDPC conjecture. Moreover, we show that the produced classical LDPC codes are also asymptotically good and locally testable with constant query and soundness parameters, which proves a well-known conjecture in the field of locally testable codes.</description>
-  </item>
-
-  <item>
     <title>The Quantum Fourier Transform Has Small Entanglement</title>
     <link>http://arxiv.org/pdf/2210.08468</link>
     <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
@@ -103,19 +95,19 @@
   </item>
 
   <item>
-    <title>Foundations for learning from noisy quantum experiments</title>
-    <link>http://arxiv.org/pdf/2204.13691</link>
-    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
-    <pubDate>Apr 29 2022</pubDate>
-    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
-  </item>
-
-  <item>
     <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
     <link>http://arxiv.org/pdf/2210.15844</link>
     <author>Daniel Gottesman</author>
     <pubDate>Oct 31 2022</pubDate>
     <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Foundations for learning from noisy quantum experiments</title>
+    <link>http://arxiv.org/pdf/2204.13691</link>
+    <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
+    <pubDate>Apr 29 2022</pubDate>
+    <description>Understanding what can be learned from experiments is central to scientific progress. In this work, we use a learning-theoretic perspective to study the task of learning physical operations in a quantum machine when all operations (state preparation, dynamics, and measurement) are a priori unknown. We prove that, without any prior knowledge, if one can explore the full quantum state space by composing the operations, then every operation can be learned. When one cannot explore the full state space but all operations are approximately known and noise in Clifford gates is gate-independent, we find an efficient algorithm for learning all operations up to a single unlearnable parameter characterizing the fidelity of the initial state. For learning a noise channel on Clifford gates to a fixed accuracy, our algorithm uses quadratically fewer experiments than previously known protocols. Under more general conditions, the true description of the noise can be unlearnable; for example, we prove that no benchmarking protocol can learn gate-dependent Pauli noise on Clifford+T gates even under perfect state preparation and measurement. Despite not being able to learn the noise, we show that a noisy quantum computer that performs entangled measurements on multiple copies of an unknown state can yield a large advantage in learning properties of the state compared to a noiseless device that measures individual copies and then processes the measurement data using a classical computer. Concretely, we prove that noisy quantum computers with two-qubit gate error rate $\epsilon$ can achieve a learning task using $N$ copies of the state, while $N^{\Omega(1/\epsilon)}$ copies are required classically.</description>
   </item>
 
   <item>
@@ -343,6 +335,14 @@
   </item>
 
   <item>
+    <title>Introduction to Quantum Error Correction and Fault Tolerance</title>
+    <link>http://arxiv.org/pdf/2111.08894</link>
+    <author>Steven M. Girvin</author>
+    <pubDate>Nov 18 2021</pubDate>
+    <description>These lecture notes from the 2019 Les Houches Summer School on 'Quantum Information Machines' are intended to provide an introduction to classical and quantum error correction with bits and qubits, and with continuous variable systems (harmonic oscillators). The focus on the latter will be on practical examples that can be realized today or in the near future with a modular architecture based on superconducting electrical circuits and microwave photons. The goal and vision is 'hardware-efficient' quantum error correction that does not require exponentially large hardware overhead in order to achieve practical and useful levels of fault tolerance and circuit depth.</description>
+  </item>
+
+  <item>
     <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
     <link>http://arxiv.org/pdf/2207.07044</link>
     <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
@@ -356,14 +356,6 @@
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
     <pubDate>May 06 2022</pubDate>
     <description>We show that the proof of the generalised quantum Stein's lemma [Brandão & Plenio, Commun. Math. Phys. 295, 791 (2010)] is not correct due to a gap in the argument leading to Lemma III.9. Hence, the main achievability result of Brandão & Plenio is not known to hold. This puts into question a number of established results in the literature, in particular the reversibility of quantum entanglement [Brandão & Plenio, Commun. Math. Phys. 295, 829 (2010); Nat. Phys. 4, 873 (2008)] and of general quantum resources [Brandão & Gour, Phys. Rev. Lett. 115, 070503 (2015)] under asymptotically resource non-generating operations. We discuss potential ways to recover variants of the newly unsettled results using other approaches.</description>
-  </item>
-
-  <item>
-    <title>Introduction to Quantum Error Correction and Fault Tolerance</title>
-    <link>http://arxiv.org/pdf/2111.08894</link>
-    <author>Steven M. Girvin</author>
-    <pubDate>Nov 18 2021</pubDate>
-    <description>These lecture notes from the 2019 Les Houches Summer School on 'Quantum Information Machines' are intended to provide an introduction to classical and quantum error correction with bits and qubits, and with continuous variable systems (harmonic oscillators). The focus on the latter will be on practical examples that can be realized today or in the near future with a modular architecture based on superconducting electrical circuits and microwave photons. The goal and vision is 'hardware-efficient' quantum error correction that does not require exponentially large hardware overhead in order to achieve practical and useful levels of fault tolerance and circuit depth.</description>
   </item>
 
   <item>
@@ -383,14 +375,6 @@
   </item>
 
   <item>
-    <title>Distributed quantum inner product estimation</title>
-    <link>http://arxiv.org/pdf/2111.03273</link>
-    <author>Anurag Anshu, Zeph Landau, Yunchao Liu</author>
-    <pubDate>Nov 08 2021</pubDate>
-    <description>As small quantum computers are becoming available on different physical platforms, a benchmarking task known as cross-platform verification has been proposed that aims to estimate the fidelity of states prepared on two quantum computers. This task is fundamentally distributed, as no quantum communication can be performed between the two physical platforms due to hardware constraints, which prohibits a joint SWAP test. In this paper we settle the sample complexity of this task across all measurement and communication settings. The essence of the task, which we call distributed quantum inner product estimation, involves two players Alice and Bob who have $k$ copies of unknown states $\rho,\sigma$ (acting on $\mathbb{C}^{d}$) respectively. Their goal is to estimate $\mathrm{Tr}(\rho\sigma)$ up to additive error $\varepsilon\in(0,1)$, using local quantum operations and classical communication. In the weakest setting where only non-adaptive single-copy measurements and simultaneous message passing are allowed, we show that $k=O(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$ copies suffice. This achieves a savings compared to full tomography which takes $\Omega(d^3)$ copies with single-copy measurements. Surprisingly, we also show that the sample complexity must be at least $\Omega(\max\{1/\varepsilon^2,\sqrt{d}/\varepsilon\})$, even in the strongest setting where adaptive multi-copy measurements and arbitrary rounds of communication are allowed. This shows that the success achieved by shadow tomography, for sample-efficiently learning the properties of a single system, cannot be generalized to the distributed setting. Furthermore, the fact that the sample complexity remains the same with single and multi-copy measurements contrasts with single system quantum property testing, which often demonstrate exponential separations in sample complexity with single and multi-copy measurements.</description>
-  </item>
-
-  <item>
     <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
     <link>http://arxiv.org/pdf/2203.07263</link>
     <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
@@ -404,6 +388,22 @@
     <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
+  </item>
+
+  <item>
+    <title>Thermalization without eigenstate thermalization</title>
+    <link>http://arxiv.org/pdf/2209.09826</link>
+    <author>Aram W. Harrow, Yichen Huang</author>
+    <pubDate>Sep 21 2022</pubDate>
+    <description>In an isolated quantum many-body system undergoing unitary evolution, we study the thermalization of a subsystem, treating the rest of the system as a bath. In this setting, the eigenstate thermalization hypothesis (ETH) was proposed to explain thermalization. Consider a nearly integrable Sachdev-Ye-Kitaev model obtained by adding random all-to-all $4$-body interactions as a perturbation to a random free-fermion model. When the subsystem size is larger than the square root of but is still a vanishing fraction of the system size, we prove thermalization if the system is initialized in a random product state, while almost all eigenstates violate the ETH. In this sense, the ETH is not a necessary condition for thermalization.</description>
+  </item>
+
+  <item>
+    <title>Verifiable Quantum Advantage without Structure</title>
+    <link>http://arxiv.org/pdf/2204.02063</link>
+    <author>Takashi Yamakawa, Mark Zhandry</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
   </item>
 
 </channel>
