@@ -47,19 +47,19 @@
   </item>
 
   <item>
-    <title>Computational advantage of quantum random sampling</title>
-    <link>http://arxiv.org/pdf/2206.04079</link>
-    <author>Dominik Hangleiter, Jens Eisert</author>
-    <pubDate>Jun 10 2022</pubDate>
-    <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
-  </item>
-
-  <item>
     <title>The Early Days of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2208.09964</link>
     <author>Peter W. Shor</author>
     <pubDate>Aug 23 2022</pubDate>
     <description>I recount some of my memories of the early development of quantum computation, including the discovery of the factoring algorithm, of error correcting codes, and of fault tolerance.</description>
+  </item>
+
+  <item>
+    <title>Computational advantage of quantum random sampling</title>
+    <link>http://arxiv.org/pdf/2206.04079</link>
+    <author>Dominik Hangleiter, Jens Eisert</author>
+    <pubDate>Jun 10 2022</pubDate>
+    <description>Quantum random sampling is the leading proposal for demonstrating a computational advantage of quantum computers over classical computers. Recently, first large-scale implementations of quantum random sampling have arguably surpassed the boundary of what can be simulated on existing classical hardware. In this article, we comprehensively review the theoretical underpinning of quantum random sampling in terms of computational complexity and verifiability, as well as the practical aspects of its experimental implementation using superconducting and photonic devices and its classical simulation. We discuss in detail open questions in the field and provide perspectives for the road ahead, including potential applications of quantum random sampling.</description>
   </item>
 
   <item>
@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
-    <link>http://arxiv.org/pdf/2207.06431</link>
-    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
-    <pubDate>Jul 15 2022</pubDate>
-    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
-  </item>
-
-  <item>
     <title>Exponentially tighter bounds on limitations of quantum error mitigation</title>
     <link>http://arxiv.org/pdf/2210.11505</link>
     <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
     <pubDate>Oct 24 2022</pubDate>
     <description>Quantum error mitigation has been proposed as a means to combat unavoidable errors in near-term quantum computing by classically post-processing outcomes of multiple quantum circuits. It does so in a fashion that requires no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation leads to noise reduction in small systems. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We start out by presenting a formal framework that rigorously encapsulates large classes of meaningful and practically applied schemes for quantum error mitigation, including virtual distillation, Clifford data regression, zero-noise extrapolation and probabilistic error cancellation. With the framework in place, our technical contribution is to construct families of random circuits that are highly sensitive to noise, in the sense that even at log log(n) depth, a whisker beyond constant, quantum noise is seen to super-exponentially rapidly scramble their output into the maximally-mixed state. Our results exponentially tighten known arguments for error mitigation, but they go beyond that: Our arguments can be applied to kernel estimation or to compute the depth at which barren plateaus emerge, implying that the scrambling kicks in at exponentially smaller depths than previously thought. Our results also say that a noisy device must be sampled exponentially many times to estimate expectation values. There are classical algorithms that exhibit the same scaling in complexity. While improvements in quantum hardware will push noise levels down, if error mitigation is used, ultimately this can only lead to an exponential time quantum algorithm with a better exponent, putting up a strong obstruction to the hope for exponential quantum speedups in this setting.</description>
+  </item>
+
+  <item>
+    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
+    <link>http://arxiv.org/pdf/2207.06431</link>
+    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
   </item>
 
   <item>
@@ -148,6 +148,14 @@
     <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
     <pubDate>Sep 28 2022</pubDate>
     <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
+  </item>
+
+  <item>
+    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
+    <link>http://arxiv.org/pdf/2211.03999</link>
+    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
   </item>
 
   <item>
@@ -303,14 +311,6 @@
   </item>
 
   <item>
-    <title>Concentration for Trotter error</title>
-    <link>http://arxiv.org/pdf/2111.05324</link>
-    <author>Chi-Fang Chen, Fernando G.S.L. Brandão</author>
-    <pubDate>Nov 10 2021</pubDate>
-    <description>Quantum simulation is expected to be one of the key applications of future quantum computers. Product formulas, or Trotterization, are the oldest and, still today, an appealing method for quantum simulation. For an accurate product formula approximation in the spectral norm, the state-of-the-art gate complexity depends on the number of Hamiltonian terms and a certain 1-norm of its local terms. This work studies the concentration aspects of Trotter error: we prove that, typically, the Trotter error exhibits 2-norm (i.e., incoherent) scaling; the current estimate with 1-norm (i.e., coherent) scaling is for the worst cases. For k-local Hamiltonians and higher-order product formulas, we obtain gate count estimates for input states drawn from a 1-design ensemble (e.g., computational basis states). Our gate count depends on the number of Hamiltonian terms but replaces the 1-norm quantity by its analog in 2-norm, giving significant speedup for systems with large connectivity. Our results generalize to Hamiltonians with Fermionic terms and when the input state is drawn from a low-particle number subspace. Further, when the Hamiltonian itself has Gaussian coefficients (e.g., the SYK models), we show the stronger result that the 2-norm behavior persists even for the worst input state. Our main technical tool is a family of simple but versatile inequalities from non-commutative martingales called uniform smoothness. We use them to derive Hypercontractivity, namely p-norm estimates for low-degree polynomials, which implies concentration via Markov's inequality. In terms of optimality, we give examples that simultaneously match our p-norm bounds and the spectral norm bounds. Therefore, our improvement is due to asking a qualitatively different question from the spectral norm bounds. Our results give evidence that product formulas in practice may generically work much better than expected.</description>
-  </item>
-
-  <item>
     <title>The learnability of Pauli noise</title>
     <link>http://arxiv.org/pdf/2206.06362</link>
     <author>Senrui Chen, Yunchao Liu, Matthew Otten, Alireza Seif, Bill Fefferman, Liang Jiang</author>
@@ -367,6 +367,14 @@
   </item>
 
   <item>
+    <title>Quantum Pseudoentanglement</title>
+    <link>http://arxiv.org/pdf/2211.00747</link>
+    <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
+    <pubDate>Nov 03 2022</pubDate>
+    <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
+  </item>
+
+  <item>
     <title>Clique Homology is QMA1-hard</title>
     <link>http://arxiv.org/pdf/2209.11793</link>
     <author>Marcos Crichigno, Tamara Kohler</author>
@@ -396,14 +404,6 @@
     <author>Aram W. Harrow, Yichen Huang</author>
     <pubDate>Sep 21 2022</pubDate>
     <description>In an isolated quantum many-body system undergoing unitary evolution, we study the thermalization of a subsystem, treating the rest of the system as a bath. In this setting, the eigenstate thermalization hypothesis (ETH) was proposed to explain thermalization. Consider a nearly integrable Sachdev-Ye-Kitaev model obtained by adding random all-to-all $4$-body interactions as a perturbation to a random free-fermion model. When the subsystem size is larger than the square root of but is still a vanishing fraction of the system size, we prove thermalization if the system is initialized in a random product state, while almost all eigenstates violate the ETH. In this sense, the ETH is not a necessary condition for thermalization.</description>
-  </item>
-
-  <item>
-    <title>Verifiable Quantum Advantage without Structure</title>
-    <link>http://arxiv.org/pdf/2204.02063</link>
-    <author>Takashi Yamakawa, Mark Zhandry</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
   </item>
 
 </channel>

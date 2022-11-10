@@ -47,6 +47,14 @@
   </item>
 
   <item>
+    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
+    <link>http://arxiv.org/pdf/2211.03999</link>
+    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
+  </item>
+
+  <item>
     <title>Noise can be helpful for variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2210.06723</link>
     <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
@@ -55,19 +63,19 @@
   </item>
 
   <item>
-    <title>Quantum divide and conquer</title>
-    <link>http://arxiv.org/pdf/2210.06419</link>
-    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
-  </item>
-
-  <item>
     <title>Quantum Pseudoentanglement</title>
     <link>http://arxiv.org/pdf/2211.00747</link>
     <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
     <pubDate>Nov 03 2022</pubDate>
     <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
+  </item>
+
+  <item>
+    <title>Quantum divide and conquer</title>
+    <link>http://arxiv.org/pdf/2210.06419</link>
+    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
   </item>
 
   <item>
@@ -111,6 +119,14 @@
   </item>
 
   <item>
+    <title>Tailoring three-dimensional topological codes for biased noise</title>
+    <link>http://arxiv.org/pdf/2211.02116</link>
+    <author>Eric Huang, Arthur Pesah, Christopher T. Chubb, Michael Vasmer, Arpit Dua</author>
+    <pubDate>Nov 07 2022</pubDate>
+    <description>Tailored topological stabilizer codes in two dimensions have been shown to exhibit high storage threshold error rates and improved subthreshold performance under biased Pauli noise. Three-dimensional (3D) topological codes can allow for several advantages including a transversal implementation of non-Clifford logical gates, single-shot decoding strategies, parallelized decoding in the case of fracton codes as well as construction of fractal lattice codes. Motivated by this, we tailor 3D topological codes for enhanced storage performance under biased Pauli noise. We present Clifford deformations of various 3D topological codes, such that they exhibit a threshold error rate of $50\%$ under infinitely biased Pauli noise. Our examples include the 3D surface code on the cubic lattice, the 3D surface code on a checkerboard lattice that lends itself to a subsystem code with a single-shot decoder, the 3D color code, as well as fracton models such as the X-cube model, the Sierpinski model and the Haah code. We use the belief propagation with ordered statistics decoder (BP-OSD) to study threshold error rates at finite bias. We also present a rotated layout for the 3D surface code, which uses roughly half the number of physical qubits for the same code distance under appropriate boundary conditions. Imposing coprime periodic dimensions on this rotated layout leads to logical operators of weight $O(n)$ at infinite bias and a corresponding $\exp[-O(n)]$ subthreshold scaling of the logical failure rate, where $n$ is the number of physical qubits in the code. Even though this scaling is unstable due to the existence of logical representations with $O(1)$ low-rate Pauli errors, the number of such representations scales only polynomially for the Clifford-deformed code, leading to an enhanced effective distance.</description>
+  </item>
+
+  <item>
     <title>Quantum Depth in the Random Oracle Model</title>
     <link>http://arxiv.org/pdf/2210.06454</link>
     <author>Atul Singh Arora, Andrea Coladangelo, Matthew Coudron, Alexandru Gheorghiu, Uttam Singh, Hendrik Waldner</author>
@@ -143,11 +159,19 @@
   </item>
 
   <item>
-    <title>Tailoring three-dimensional topological codes for biased noise</title>
-    <link>http://arxiv.org/pdf/2211.02116</link>
-    <author>Eric Huang, Arthur Pesah, Christopher T. Chubb, Michael Vasmer, Arpit Dua</author>
+    <title>Homomorphic Logical Measurements</title>
+    <link>http://arxiv.org/pdf/2211.03625</link>
+    <author>Shilin Huang, Tomas Jochym-O'Connor, Theodore J. Yoder</author>
+    <pubDate>Nov 08 2022</pubDate>
+    <description>Shor and Steane ancilla are two well-known methods for fault-tolerant logical measurements, which are successful on small codes and their concatenations. On large quantum low-density-parity-check (LDPC) codes, however, Shor and Steane measurements have impractical time and space overhead respectively. In this work, we widen the choice of ancilla codes by unifying Shor and Steane measurements into a single framework, called homomorphic measurements. For any Calderbank-Shor-Steane (CSS) code with the appropriate ancilla code, one can avoid repetitive measurements or complicated ancilla state preparation procedures such as distillation, which overcomes the difficulties of both Shor and Steane methods. As an example, we utilize the theory of covering spaces to construct homomorphic measurement protocols for arbitrary $X$- or $Z$-type logical Pauli operators on surface codes in general, including the toric code and hyperbolic surface codes. Conventional surface code decoders, such as minimum-weight perfect matching, can be directly applied to our constructions.</description>
+  </item>
+
+  <item>
+    <title>Invertible subalgebras</title>
+    <link>http://arxiv.org/pdf/2211.02086</link>
+    <author>Jeongwan Haah</author>
     <pubDate>Nov 07 2022</pubDate>
-    <description>Tailored topological stabilizer codes in two dimensions have been shown to exhibit high storage threshold error rates and improved subthreshold performance under biased Pauli noise. Three-dimensional (3D) topological codes can allow for several advantages including a transversal implementation of non-Clifford logical gates, single-shot decoding strategies, parallelized decoding in the case of fracton codes as well as construction of fractal lattice codes. Motivated by this, we tailor 3D topological codes for enhanced storage performance under biased Pauli noise. We present Clifford deformations of various 3D topological codes, such that they exhibit a threshold error rate of $50\%$ under infinitely biased Pauli noise. Our examples include the 3D surface code on the cubic lattice, the 3D surface code on a checkerboard lattice that lends itself to a subsystem code with a single-shot decoder, the 3D color code, as well as fracton models such as the X-cube model, the Sierpinski model and the Haah code. We use the belief propagation with ordered statistics decoder (BP-OSD) to study threshold error rates at finite bias. We also present a rotated layout for the 3D surface code, which uses roughly half the number of physical qubits for the same code distance under appropriate boundary conditions. Imposing coprime periodic dimensions on this rotated layout leads to logical operators of weight $O(n)$ at infinite bias and a corresponding $\exp[-O(n)]$ subthreshold scaling of the logical failure rate, where $n$ is the number of physical qubits in the code. Even though this scaling is unstable due to the existence of logical representations with $O(1)$ low-rate Pauli errors, the number of such representations scales only polynomially for the Clifford-deformed code, leading to an enhanced effective distance.</description>
+    <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
   </item>
 
   <item>
@@ -167,6 +191,14 @@
   </item>
 
   <item>
+    <title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications</title>
+    <link>http://arxiv.org/pdf/2211.01444</link>
+    <author>Prabhanjan Ananth, Aditya Gulati, Luowen Qian, Henry Yuen</author>
+    <pubDate>Nov 04 2022</pubDate>
+    <description>Pseudorandom quantum states (PRS) are efficiently constructible states that are computationally indistinguishable from being Haar-random, and have recently found cryptographic applications. We explore new definitions, new properties and applications of pseudorandom states, and present the following contributions: 1. New Definitions: We study variants of pseudorandom function-like state (PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO'22), where the pseudorandomness property holds even when the generator can be queried adaptively or in superposition. We show feasibility of these variants assuming the existence of post-quantum one-way functions. 2. Classical Communication: We show that PRS generators with logarithmic output length imply commitment and encryption schemes with classical communication. Previous constructions of such schemes from PRS generators required quantum communication. 3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli (TCC'19) result that polynomially-many copies of uniform superposition states with random binary phases are indistinguishable from Haar-random states. 4. Necessity of Computational Assumptions: We also show that a secure PRS with output length logarithmic, or larger, in the key length necessarily requires computational assumptions.</description>
+  </item>
+
+  <item>
     <title>Deterministic constant-depth preparation of the AKLT state on a quantum processor using fusion measurements</title>
     <link>http://arxiv.org/pdf/2210.17548</link>
     <author>Kevin C. Smith, Eleanor Crane, Nathan Wiebe, S. M. Girvin</author>
@@ -180,6 +212,14 @@
     <author>Aurélie Denys, Anthony Leverrier</author>
     <pubDate>Oct 31 2022</pubDate>
     <description>Building on the observation that bosonic cat codes live in the span of coherent states indexed by a finite subgroup of the complex numbers, we consider a two-mode bosonic code where the coherent states now form a finite subgroup of the quaternions. We focus on the binary tetrahedral group, denoted $2T$, which admits 24 elements forming the vertices of the 24-cell, a regular four-dimensional polytope, and define a bosonic qutrit that appears to be quite robust in the regime of low loss. We initiate a study of the properties of this qutrit and identify stabilisers as well as logical operators for this bosonic code.</description>
+  </item>
+
+  <item>
+    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
+    <link>http://arxiv.org/pdf/2210.14109</link>
+    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
+    <pubDate>Oct 26 2022</pubDate>
+    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
   </item>
 
   <item>
@@ -204,46 +244,6 @@
     <author>Robert Raussendorf, Wang Yang, Arnab Adhikary</author>
     <pubDate>Oct 12 2022</pubDate>
     <description>We present a new framework for assessing the power of measurement-based quantum computation (MBQC) on short-range entangled symmetric resource states, in spatial dimension one. It requires fewer assumptions than previously known. The formalism can handle finitely extended systems (as opposed to the thermodynamic limit), and does not require translation-invariance. Further, we strengthen the connection between MBQC computational power and string order. Namely, we establish that whenever a suitable set of string order parameters is non-zero, a corresponding set of unitary gates can be realized with fidelity arbitrarily close to unity.</description>
-  </item>
-
-  <item>
-    <title>Invertible subalgebras</title>
-    <link>http://arxiv.org/pdf/2211.02086</link>
-    <author>Jeongwan Haah</author>
-    <pubDate>Nov 07 2022</pubDate>
-    <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
-  </item>
-
-  <item>
-    <title>A super-polynomial quantum-classical separation for density modelling</title>
-    <link>http://arxiv.org/pdf/2210.14936</link>
-    <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
-  </item>
-
-  <item>
-    <title>Hunting for quantum-classical crossover in condensed matter problems</title>
-    <link>http://arxiv.org/pdf/2210.14109</link>
-    <author>Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami</author>
-    <pubDate>Oct 26 2022</pubDate>
-    <description>The intensive pursuit for quantum algorithms with speedup in terms of computational complexity has further led to this modernized crucial question: \it When and how will quantum computers outperform classical computers?. The next milestone in the context of this quantum transcendence is undoubtedly the realization of quantum acceleration in practical problems. Here we provide a clear evidence and arguments that the primary target is likely to be condensed matter physics. Our primary contributions are summarized as follows: 1) Proposal of systematic error/runtime analysis on state-of-the-art classical algorithm based on tensor networks; 2) Dedicated and high-resolution analysis on quantum resource performed at the level of executable logical instructions; 3) Clarification of quantum-classical crosspoint for ground-state simulation to be within runtime of hours using only a few hundreds of thousand physical qubits for 2d Heisenberg and 2d Fermi-Hubbard models. To our knowledge, we argue that condensed matter problems offer the earliest platform for demonstration of practical quantum advantage that is order-of-magnitude more feasible than ever known candidates, in terms of both qubit counts and total runtime.</description>
-  </item>
-
-  <item>
-    <title>Doubling the order of approximation via the randomized product formula</title>
-    <link>http://arxiv.org/pdf/2210.11281</link>
-    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
-  </item>
-
-  <item>
-    <title>Quantum Algorithms for Sampling Log-Concave Distributions and Estimating Normalizing Constants</title>
-    <link>http://arxiv.org/pdf/2210.06539</link>
-    <author>Andrew M. Childs, Tongyang Li, Jin-Peng Liu, Chunhao Wang, Ruizhe Zhang</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>Given a convex function $f\colon\mathbb{R}^{d}\to\mathbb{R}$, the problem of sampling from a distribution $\propto e^{-f(x)}$ is called log-concave sampling. This task has wide applications in machine learning, physics, statistics, etc. In this work, we develop quantum algorithms for sampling log-concave distributions and for estimating their normalizing constants $\int_{\mathbb{R}^d}e^{-f(x)}\mathrm{d} x$. First, we use underdamped Langevin diffusion to develop quantum algorithms that match the query complexity (in terms of the condition number $\kappa$ and dimension $d$) of analogous classical algorithms that use gradient (first-order) queries, even though the quantum algorithms use only evaluation (zeroth-order) queries. For estimating normalizing constants, these algorithms also achieve quadratic speedup in the multiplicative error $\epsilon$. Second, we develop quantum Metropolis-adjusted Langevin algorithms with query complexity $\widetilde{O}(\kappa^{1/2}d)$ and $\widetilde{O}(\kappa^{1/2}d^{3/2}/\epsilon)$ for log-concave sampling and normalizing constant estimation, respectively, achieving polynomial speedups in $\kappa,d,\epsilon$ over the best known classical algorithms by exploiting quantum analogs of the Monte Carlo method and quantum walks. We also prove a $1/\epsilon^{1-o(1)}$ quantum lower bound for estimating normalizing constants, implying near-optimality of our quantum algorithms in $\epsilon$.</description>
   </item>
 
 </channel>

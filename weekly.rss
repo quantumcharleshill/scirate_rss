@@ -7,11 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Quantum Pseudoentanglement</title>
-    <link>http://arxiv.org/pdf/2211.00747</link>
-    <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
-    <pubDate>Nov 03 2022</pubDate>
-    <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
+    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
+    <link>http://arxiv.org/pdf/2211.03999</link>
+    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
   </item>
 
   <item>
@@ -23,19 +23,19 @@
   </item>
 
   <item>
+    <title>Homomorphic Logical Measurements</title>
+    <link>http://arxiv.org/pdf/2211.03625</link>
+    <author>Shilin Huang, Tomas Jochym-O'Connor, Theodore J. Yoder</author>
+    <pubDate>Nov 08 2022</pubDate>
+    <description>Shor and Steane ancilla are two well-known methods for fault-tolerant logical measurements, which are successful on small codes and their concatenations. On large quantum low-density-parity-check (LDPC) codes, however, Shor and Steane measurements have impractical time and space overhead respectively. In this work, we widen the choice of ancilla codes by unifying Shor and Steane measurements into a single framework, called homomorphic measurements. For any Calderbank-Shor-Steane (CSS) code with the appropriate ancilla code, one can avoid repetitive measurements or complicated ancilla state preparation procedures such as distillation, which overcomes the difficulties of both Shor and Steane methods. As an example, we utilize the theory of covering spaces to construct homomorphic measurement protocols for arbitrary $X$- or $Z$-type logical Pauli operators on surface codes in general, including the toric code and hyperbolic surface codes. Conventional surface code decoders, such as minimum-weight perfect matching, can be directly applied to our constructions.</description>
+  </item>
+
+  <item>
     <title>Invertible subalgebras</title>
     <link>http://arxiv.org/pdf/2211.02086</link>
     <author>Jeongwan Haah</author>
     <pubDate>Nov 07 2022</pubDate>
     <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
-  </item>
-
-  <item>
-    <title>Invertible bimodule categories and generalized Schur orthogonality</title>
-    <link>http://arxiv.org/pdf/2211.01947</link>
-    <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
   </item>
 
   <item>
@@ -47,27 +47,35 @@
   </item>
 
   <item>
-    <title>Quantum algorithms for classical Boolean functions via adaptive measurements: Exponential reductions in space-time resources</title>
-    <link>http://arxiv.org/pdf/2211.01252</link>
-    <author>Austin K. Daniel, Akimasa Miyake</author>
-    <pubDate>Nov 03 2022</pubDate>
-    <description>The limited computational power of constant-depth quantum circuits can be boosted by adapting future gates according to the outcomes of mid-circuit measurements. We formulate computation of a variety of Boolean functions in the framework of adaptive measurement-based quantum computation using a cluster state resource and a classical side-processor that can add bits modulo 2, so-called $l2$-MBQC. Our adaptive approach overcomes a known challenge that computing these functions in the nonadaptive setting requires a resource state that is exponentially large in the size of the computational input. In particular, we construct adaptive $l2$-MBQC algorithms based on the quantum signal processing technique that compute the mod-$p$ functions with the best known scaling in the space-time resources (i.e., qubit count, quantum circuit depth, classical memory size, and number of calls to the side-processor). As the subject is diverse and has a long history, the paper includes reviews of several previously constructed algorithms and recasts them as adaptive $l2$-MBQCs using cluster state resources. Our results constitute an alternative proof of an old theorem regarding an oracular separation between the power of constant-depth quantum circuits and constant-depth classical circuits with unbounded fan-in NAND and mod-$p$ gates for any prime $p$.</description>
+    <title>Invertible bimodule categories and generalized Schur orthogonality</title>
+    <link>http://arxiv.org/pdf/2211.01947</link>
+    <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
+    <pubDate>Nov 04 2022</pubDate>
+    <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
   </item>
 
   <item>
-    <title>Finite temperature tensor network algorithm for frustrated two-dimensional quantum materials</title>
-    <link>http://arxiv.org/pdf/2211.00121</link>
-    <author>Philipp Schmoll, Christian Balz, Bella Lake, Jens Eisert, Augustine Kshetrimayum</author>
-    <pubDate>Nov 02 2022</pubDate>
-    <description>Aimed at a more realistic classical description of natural quantum systems, we present a two-dimensional tensor network algorithm to study finite temperature properties of frustrated model quantum systems and real quantum materials. For this purpose, we introduce the infinite projected entangled simplex operator ansatz to study thermodynamic properties. To obtain state-of-the-art benchmarking results, we explore the highly challenging spin-1/2 Heisenberg anti-ferromagnet on the Kagome lattice, a system for which we investigate the melting of the magnetization plateaus at finite magnetic field and temperature. Making close connection to actual experimental data of real quantum materials, we go on to studying the finite temperature properties of Ca$_{10}$Cr$_7$O$_{28}$. We compare the magnetization curve of this material in the presence of an external magnetic field at finite temperature with classically simulated data. As a first theoretical tool that incorporates both thermal fluctuations as well as quantum correlations in the study of this material, our work contributes to settling the existing controversy between the experimental data and previous theoretical works on the magnetization process.</description>
+    <title>Pauli topological subsystem codes from Abelian anyon theories</title>
+    <link>http://arxiv.org/pdf/2211.03798</link>
+    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We construct Pauli topological subsystem codes characterized by arbitrary two-dimensional Abelian anyon theories--this includes anyon theories with degenerate braiding relations and those without a gapped boundary to the vacuum. Our work both extends the classification of two-dimensional Pauli topological subsystem codes to systems of composite-dimensional qudits and establishes that the classification is at least as rich as that of Abelian anyon theories. We exemplify the construction with topological subsystem codes defined on four-dimensional qudits based on the $\mathbb{Z}_4^{(1)}$ anyon theory with degenerate braiding relations and the chiral semion theory--both of which cannot be captured by topological stabilizer codes. The construction proceeds by "gauging out" certain anyon types of a topological stabilizer code. This amounts to defining a gauge group generated by the stabilizer group of the topological stabilizer code and a set of anyonic string operators for the anyon types that are gauged out. The resulting topological subsystem code is characterized by an anyon theory containing a proper subset of the anyons of the topological stabilizer code. We thereby show that every Abelian anyon theory is a subtheory of a stack of toric codes and a certain family of twisted quantum doubles that generalize the double semion anyon theory. We further prove a number of general statements about the logical operators of translation invariant topological subsystem codes and define their associated anyon theories in terms of higher-form symmetries.</description>
   </item>
 
   <item>
-    <title>Non-Abelian Floquet Spin Liquids in a Digital Rydberg Simulator</title>
-    <link>http://arxiv.org/pdf/2211.00017</link>
-    <author>Marcin Kalinowski, Nishad Maskara, Mikhail D. Lukin</author>
-    <pubDate>Nov 02 2022</pubDate>
-    <description>Understanding topological matter is an outstanding challenge across several disciplines of physical science. Programmable quantum simulators have emerged as a powerful approach to studying such systems. While quantum spin liquids of paradigmatic toric code type have recently been realized in the laboratory, controlled exploration of topological phases with non-abelian excitations remains an open problem. We introduce and analyze a new approach to simulating topological matter based on periodic driving. Specifically, we describe a model for a so-called Floquet spin liquid, obtained through a periodic sequence of parallel quantum gate operations that effectively simulates the Hamiltonian of the non-abelian spin liquid in Kitaev's honeycomb model. We show that this approach, including the toolbox for preparation, control, and readout of topological states, can be efficiently implemented in state-of-the-art experimental platforms. One specific implementation scheme is based on Rydberg atom arrays and utilizes recently demonstrated coherent qubit transport combined with controlled-phase gate operations. We describe methods for probing the non-abelian excitations, and the associated Majorana zero modes, and simulate possible fusion and braiding experiments. Our analysis demonstrates the potential of programmable quantum simulators for exploring topological phases of matter. Extensions including simulation of Kitaev materials and lattice gauge theories are also discussed.</description>
+    <title>Certificate games</title>
+    <link>http://arxiv.org/pdf/2211.03396</link>
+    <author>Sourav Chakraborty, Anna Gál, Sophie Laplante, Rajat Mittal, Anupa Sunny</author>
+    <pubDate>Nov 08 2022</pubDate>
+    <description>We introduce and study Certificate Game complexity, a measure of complexity based on the probability of winning a game where two players are given inputs with different function values and are asked to output $i$ such that $x_i\neq y_i$ (zero-communication setting). We give upper and lower bounds for private coin, public coin, shared entanglement and non-signaling strategies, and give some separations. We show that complexity in the public coin model is upper bounded by Randomized query and Certificate complexity. On the other hand, it is lower bounded by fractional and randomized certificate complexity, making it a good candidate to prove strong lower bounds on randomized query complexity. Complexity in the private coin model is bounded from below by zero-error randomized query complexity. The quantum measure highlights an interesting and surprising difference between classical and quantum query models. Whereas the public coin certificate game complexity is bounded from above by randomized query complexity, the quantum certificate game complexity can be quadratically larger than quantum query complexity. We use non-signaling, a notion from quantum information, to give a lower bound of $n$ on the quantum certificate game complexity of the $OR$ function, whose quantum query complexity is $\Theta(\sqrt{n})$, then go on to show that this ``non-signaling bottleneck'' applies to all functions with high sensitivity, block sensitivity or fractional block sensitivity. We consider the single-bit version of certificate games (inputs of the two players have Hamming distance $1$). We prove that the single-bit version of certificate game complexity with shared randomness is equal to sensitivity up to constant factors, giving a new characterization of sensitivity. The single-bit version with private randomness is equal to $\lambda^2$, where $\lambda$ is the spectral sensitivity.</description>
+  </item>
+
+  <item>
+    <title>An interpretation of Union-Find Decoder on Weighted Graphs</title>
+    <link>http://arxiv.org/pdf/2211.03288</link>
+    <author>Yue Wu, Namitha Liyanage, Lin Zhong</author>
+    <pubDate>Nov 08 2022</pubDate>
+    <description>Union-Find (UF) and Minimum-Weight Perfect Matching (MWPM) are popular decoder designs for surface codes. The former has significantly lower time complexity than the latter but is considered somewhat inferior, in terms of decoding accuracy. In this work we present an interpretation of UF decoders that explains why UF and MWPM decoders perform closely in some cases: the UF decoder is an approximate implementation of the blossom algorithm used for MWPM. This interpretation allows a generalization of UF decoders for weighted decoding graphs and explains why UF decoders achieve high accuracy for certain surface codes.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>E. Knill</author>
     <pubDate>Nov 07 2022</pubDate>
     <description>A few conventions for thinking about and writing quantum pseudocode are proposed. The conventions can be used for presenting any quantum algorithm down to the lowest level and are consistent with a quantum random access machine (QRAM) model for quantum computing. In principle a formal version of quantum pseudocode could be used in a future extension of a conventional language.</description>
-  </item>
-
-  <item>
-    <title>Discrete mean estimates and the Landau-Siegel zero</title>
-    <link>http://arxiv.org/pdf/2211.02515</link>
-    <author>Yitang Zhang</author>
-    <pubDate>Nov 07 2022</pubDate>
-    <description>Let $\chi$ be a real primitive character to the modulus $D$. It is proved that $$ L(1,\chi)≫(\log D)^-2022 $$ where the implied constant is absolute and effectively computable. In the proof, the lower bound for $L(1,\chi)$ is first related to the distribution of zeros of a family of Dirichlet $L$-functions in a certain region, and some results on the gaps between consecutive zeros are derived. Then, by evaluating certain discrete means of the large sieve type, a contradiction can be obtained if $L(1,\chi)$ is too small.</description>
   </item>
 
 </channel>
