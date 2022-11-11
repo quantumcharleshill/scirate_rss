@@ -39,19 +39,11 @@
   </item>
 
   <item>
-    <title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications</title>
-    <link>http://arxiv.org/pdf/2211.01444</link>
-    <author>Prabhanjan Ananth, Aditya Gulati, Luowen Qian, Henry Yuen</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>Pseudorandom quantum states (PRS) are efficiently constructible states that are computationally indistinguishable from being Haar-random, and have recently found cryptographic applications. We explore new definitions, new properties and applications of pseudorandom states, and present the following contributions: 1. New Definitions: We study variants of pseudorandom function-like state (PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO'22), where the pseudorandomness property holds even when the generator can be queried adaptively or in superposition. We show feasibility of these variants assuming the existence of post-quantum one-way functions. 2. Classical Communication: We show that PRS generators with logarithmic output length imply commitment and encryption schemes with classical communication. Previous constructions of such schemes from PRS generators required quantum communication. 3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli (TCC'19) result that polynomially-many copies of uniform superposition states with random binary phases are indistinguishable from Haar-random states. 4. Necessity of Computational Assumptions: We also show that a secure PRS with output length logarithmic, or larger, in the key length necessarily requires computational assumptions.</description>
-  </item>
-
-  <item>
-    <title>Invertible bimodule categories and generalized Schur orthogonality</title>
-    <link>http://arxiv.org/pdf/2211.01947</link>
-    <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
+    <title>Learning quantum processes without input control</title>
+    <link>http://arxiv.org/pdf/2211.05005</link>
+    <author>Marco Fanizza, Yihui Quek, Matteo Rosati</author>
+    <pubDate>Nov 10 2022</pubDate>
+    <description>We introduce a general statistical learning theory for processes that take as input a classical random variable and output a quantum state. This is a practically motivated setting where the learner wants to find an approximate representation of an unknown quantum process, without having control on the classical inputs that govern the process itself, e.g., in learning astronomical processes, studying disordered systems and biological processes not controlled by the observer. We provide an algorithm for learning with high probability in this setting with a finite amount of samples, even if the concept class is infinite. To do this, we review and adapt existing algorithms for shadow tomography and hypothesis selection, and combine their guarantees with the uniform convergence on the data of the loss functions of interest. As a by-product we obtain sufficient conditions for performing shadow tomography of classical-quantum states with a number of copies which depend only on the dimension of the quantum register. We give concrete examples of processes that can be learned in this manner, based on quantum circuits or physically motivated scenarios like systems subject to Hamiltonians with random perturbations or data-dependent phase-shifts.</description>
   </item>
 
   <item>
@@ -71,19 +63,27 @@
   </item>
 
   <item>
+    <title>Overcoming leakage in scalable quantum error correction</title>
+    <link>http://arxiv.org/pdf/2211.04728</link>
+    <author>Kevin C. Miao, Matt McEwen, Juan Atalaya, Dvir Kafri, Leonid P. Pryadko, Andreas Bengtsson, Alex Opremcak, Kevin J. Satzinger, Zijun Chen, Paul V. Klimov, Chris Quintana, Rajeev Acharya, Kyle Anderson, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Joseph C. Bardin, Alexandre Bourassa, Jenna Bovaird, et al (97)</author>
+    <pubDate>Nov 10 2022</pubDate>
+    <description>Leakage of quantum information out of computational states into higher energy states represents a major challenge in the pursuit of quantum error correction (QEC). In a QEC circuit, leakage builds over time and spreads through multi-qubit interactions. This leads to correlated errors that degrade the exponential suppression of logical error with scale, challenging the feasibility of QEC as a path towards fault-tolerant quantum computation. Here, we demonstrate the execution of a distance-3 surface code and distance-21 bit-flip code on a Sycamore quantum processor where leakage is removed from all qubits in each cycle. This shortens the lifetime of leakage and curtails its ability to spread and induce correlated errors. We report a ten-fold reduction in steady-state leakage population on the data qubits encoding the logical state and an average leakage population of less than $1 \times 10^{-3}$ throughout the entire device. The leakage removal process itself efficiently returns leakage population back to the computational basis, and adding it to a code circuit prevents leakage from inducing correlated error across cycles, restoring a fundamental assumption of QEC. With this demonstration that leakage can be contained, we resolve a key challenge for practical QEC at scale.</description>
+  </item>
+
+  <item>
+    <title>Reducing the qubit requirement of Jordan-Wigner encodings of $N$-mode, $K$-fermion systems from $N$ to $\lceil \log_2 {N \choose K} \rceil$</title>
+    <link>http://arxiv.org/pdf/2211.04501</link>
+    <author>Brent Harrison, Dylan Nelson, Daniel Adamiak, James Whitfield</author>
+    <pubDate>Nov 10 2022</pubDate>
+    <description>To simulate a fermionic system on a quantum computer, it is necessary to encode the state of the fermions onto qubits. Fermion-to-qubit mappings such as the Jordan-Wigner and Bravyi-Kitaev transformations do this using $N$ qubits to represent systems of $N$ fermionic modes. In this work, we demonstrate that for particle number conserving systems of $K$ fermions and $N$ modes, the qubit requirement can be reduced to the information theoretic minimum of $\lceil \log_2 {N \choose K} \rceil$. This will improve the feasibility of simulation of molecules and many-body systems on near-term quantum computers with limited qubit number.</description>
+  </item>
+
+  <item>
     <title>An interpretation of Union-Find Decoder on Weighted Graphs</title>
     <link>http://arxiv.org/pdf/2211.03288</link>
     <author>Yue Wu, Namitha Liyanage, Lin Zhong</author>
     <pubDate>Nov 08 2022</pubDate>
     <description>Union-Find (UF) and Minimum-Weight Perfect Matching (MWPM) are popular decoder designs for surface codes. The former has significantly lower time complexity than the latter but is considered somewhat inferior, in terms of decoding accuracy. In this work we present an interpretation of UF decoders that explains why UF and MWPM decoders perform closely in some cases: the UF decoder is an approximate implementation of the blossom algorithm used for MWPM. This interpretation allows a generalization of UF decoders for weighted decoding graphs and explains why UF decoders achieve high accuracy for certain surface codes.</description>
-  </item>
-
-  <item>
-    <title>Conventions for Quantum Pseudocode</title>
-    <link>http://arxiv.org/pdf/2211.02559</link>
-    <author>E. Knill</author>
-    <pubDate>Nov 07 2022</pubDate>
-    <description>A few conventions for thinking about and writing quantum pseudocode are proposed. The conventions can be used for presenting any quantum algorithm down to the lowest level and are consistent with a quantum random access machine (QRAM) model for quantum computing. In principle a formal version of quantum pseudocode could be used in a future extension of a conventional language.</description>
   </item>
 
 </channel>
