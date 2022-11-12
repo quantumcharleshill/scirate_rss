@@ -23,6 +23,14 @@
   </item>
 
   <item>
+    <title>Bosonic coding: introduction and use cases</title>
+    <link>http://arxiv.org/pdf/2211.05714</link>
+    <author>Victor V. Albert</author>
+    <pubDate>Nov 11 2022</pubDate>
+    <description>Bosonic or continuous-variable coding is a field concerned with robust quantum information processing and communication with electromagnetic signals or mechanical modes. I review bosonic quantum memories, characterizing them as either bosonic stabilizer or bosonic Fock-state codes. I then enumerate various applications of bosonic encodings, four of which circumvent no-go theorems due to the intrinsic infinite-dimensionality of bosonic systems.</description>
+  </item>
+
+  <item>
     <title>Homomorphic Logical Measurements</title>
     <link>http://arxiv.org/pdf/2211.03625</link>
     <author>Shilin Huang, Tomas Jochym-O'Connor, Theodore J. Yoder</author>
@@ -36,6 +44,14 @@
     <author>Jeongwan Haah</author>
     <pubDate>Nov 07 2022</pubDate>
     <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
+  </item>
+
+  <item>
+    <title>Continuous-variable quantum state designs: theory and applications</title>
+    <link>http://arxiv.org/pdf/2211.05127</link>
+    <author>Joseph T. Iosue, Kunal Sharma, Michael J. Gullans, Victor V. Albert</author>
+    <pubDate>Nov 11 2022</pubDate>
+    <description>We generalize the notion of quantum state designs to infinite-dimensional spaces. We first prove that, under the definition of continuous-variable (CV) state $t$-designs from Comm. Math. Phys. 326, 755 (2014), no state designs exist for $t\geq2$. Similarly, we prove that no CV unitary $t$-designs exist for $t\geq 2$. We propose an alternative definition for CV state designs, which we call rigged $t$-designs, and provide explicit constructions for $t=2$. As an application of rigged designs, we develop a design-based shadow-tomography protocol for CV states. Using energy-constrained versions of rigged designs, we define an average fidelity for CV quantum channels and relate this fidelity to the CV entanglement fidelity. As an additional result of independent interest, we establish a connection between torus $2$-designs and complete sets of mutually unbiased bases.</description>
   </item>
 
   <item>
@@ -68,22 +84,6 @@
     <author>Kevin C. Miao, Matt McEwen, Juan Atalaya, Dvir Kafri, Leonid P. Pryadko, Andreas Bengtsson, Alex Opremcak, Kevin J. Satzinger, Zijun Chen, Paul V. Klimov, Chris Quintana, Rajeev Acharya, Kyle Anderson, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Joseph C. Bardin, Alexandre Bourassa, Jenna Bovaird, et al (97)</author>
     <pubDate>Nov 10 2022</pubDate>
     <description>Leakage of quantum information out of computational states into higher energy states represents a major challenge in the pursuit of quantum error correction (QEC). In a QEC circuit, leakage builds over time and spreads through multi-qubit interactions. This leads to correlated errors that degrade the exponential suppression of logical error with scale, challenging the feasibility of QEC as a path towards fault-tolerant quantum computation. Here, we demonstrate the execution of a distance-3 surface code and distance-21 bit-flip code on a Sycamore quantum processor where leakage is removed from all qubits in each cycle. This shortens the lifetime of leakage and curtails its ability to spread and induce correlated errors. We report a ten-fold reduction in steady-state leakage population on the data qubits encoding the logical state and an average leakage population of less than $1 \times 10^{-3}$ throughout the entire device. The leakage removal process itself efficiently returns leakage population back to the computational basis, and adding it to a code circuit prevents leakage from inducing correlated error across cycles, restoring a fundamental assumption of QEC. With this demonstration that leakage can be contained, we resolve a key challenge for practical QEC at scale.</description>
-  </item>
-
-  <item>
-    <title>Reducing the qubit requirement of Jordan-Wigner encodings of $N$-mode, $K$-fermion systems from $N$ to $\lceil \log_2 {N \choose K} \rceil$</title>
-    <link>http://arxiv.org/pdf/2211.04501</link>
-    <author>Brent Harrison, Dylan Nelson, Daniel Adamiak, James Whitfield</author>
-    <pubDate>Nov 10 2022</pubDate>
-    <description>To simulate a fermionic system on a quantum computer, it is necessary to encode the state of the fermions onto qubits. Fermion-to-qubit mappings such as the Jordan-Wigner and Bravyi-Kitaev transformations do this using $N$ qubits to represent systems of $N$ fermionic modes. In this work, we demonstrate that for particle number conserving systems of $K$ fermions and $N$ modes, the qubit requirement can be reduced to the information theoretic minimum of $\lceil \log_2 {N \choose K} \rceil$. This will improve the feasibility of simulation of molecules and many-body systems on near-term quantum computers with limited qubit number.</description>
-  </item>
-
-  <item>
-    <title>An interpretation of Union-Find Decoder on Weighted Graphs</title>
-    <link>http://arxiv.org/pdf/2211.03288</link>
-    <author>Yue Wu, Namitha Liyanage, Lin Zhong</author>
-    <pubDate>Nov 08 2022</pubDate>
-    <description>Union-Find (UF) and Minimum-Weight Perfect Matching (MWPM) are popular decoder designs for surface codes. The former has significantly lower time complexity than the latter but is considered somewhat inferior, in terms of decoding accuracy. In this work we present an interpretation of UF decoders that explains why UF and MWPM decoders perform closely in some cases: the UF decoder is an approximate implementation of the blossom algorithm used for MWPM. This interpretation allows a generalization of UF decoders for weighted decoding graphs and explains why UF decoders achieve high accuracy for certain surface codes.</description>
   </item>
 
 </channel>
