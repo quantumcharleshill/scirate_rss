@@ -79,19 +79,19 @@
   </item>
 
   <item>
-    <title>Exponentially tighter bounds on limitations of quantum error mitigation</title>
-    <link>http://arxiv.org/pdf/2210.11505</link>
-    <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Quantum error mitigation has been proposed as a means to combat unavoidable errors in near-term quantum computing by classically post-processing outcomes of multiple quantum circuits. It does so in a fashion that requires no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation leads to noise reduction in small systems. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We start out by presenting a formal framework that rigorously encapsulates large classes of meaningful and practically applied schemes for quantum error mitigation, including virtual distillation, Clifford data regression, zero-noise extrapolation and probabilistic error cancellation. With the framework in place, our technical contribution is to construct families of random circuits that are highly sensitive to noise, in the sense that even at log log(n) depth, a whisker beyond constant, quantum noise is seen to super-exponentially rapidly scramble their output into the maximally-mixed state. Our results exponentially tighten known arguments for error mitigation, but they go beyond that: Our arguments can be applied to kernel estimation or to compute the depth at which barren plateaus emerge, implying that the scrambling kicks in at exponentially smaller depths than previously thought. Our results also say that a noisy device must be sampled exponentially many times to estimate expectation values. There are classical algorithms that exhibit the same scaling in complexity. While improvements in quantum hardware will push noise levels down, if error mitigation is used, ultimately this can only lead to an exponential time quantum algorithm with a better exponent, putting up a strong obstruction to the hope for exponential quantum speedups in this setting.</description>
-  </item>
-
-  <item>
     <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
     <link>http://arxiv.org/pdf/2211.03999</link>
     <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
     <pubDate>Nov 09 2022</pubDate>
     <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
+  </item>
+
+  <item>
+    <title>Exponentially tighter bounds on limitations of quantum error mitigation</title>
+    <link>http://arxiv.org/pdf/2210.11505</link>
+    <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Quantum error mitigation has been proposed as a means to combat unavoidable errors in near-term quantum computing by classically post-processing outcomes of multiple quantum circuits. It does so in a fashion that requires no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation leads to noise reduction in small systems. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We start out by presenting a formal framework that rigorously encapsulates large classes of meaningful and practically applied schemes for quantum error mitigation, including virtual distillation, Clifford data regression, zero-noise extrapolation and probabilistic error cancellation. With the framework in place, our technical contribution is to construct families of random circuits that are highly sensitive to noise, in the sense that even at log log(n) depth, a whisker beyond constant, quantum noise is seen to super-exponentially rapidly scramble their output into the maximally-mixed state. Our results exponentially tighten known arguments for error mitigation, but they go beyond that: Our arguments can be applied to kernel estimation or to compute the depth at which barren plateaus emerge, implying that the scrambling kicks in at exponentially smaller depths than previously thought. Our results also say that a noisy device must be sampled exponentially many times to estimate expectation values. There are classical algorithms that exhibit the same scaling in complexity. While improvements in quantum hardware will push noise levels down, if error mitigation is used, ultimately this can only lead to an exponential time quantum algorithm with a better exponent, putting up a strong obstruction to the hope for exponential quantum speedups in this setting.</description>
   </item>
 
   <item>
