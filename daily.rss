@@ -7,6 +7,22 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Refuting spectral compatibility of quantum marginals</title>
+    <link>http://arxiv.org/pdf/2211.06349</link>
+    <author>Felix Huber, Nikolai Wyderka</author>
+    <pubDate>Nov 14 2022</pubDate>
+    <description>The spectral variant of the quantum marginal problem asks: Given prescribed spectra for a set of quantum marginals, does there exist a compatible joint state? The main idea of this work is a symmetry-reduced semidefinite programming hierarchy for detecting incompatible spectra. The hierarchy can provide refutations that are dimension-free, certifying incompatibility in all local dimensions. It equally applies to the compatibility of local unitary invariants, to the sums of Hermitian matrices problem, to optimize trace polynomials on the positive cone, and to certify vanishing Kronecker coefficients.</description>
+  </item>
+
+  <item>
+    <title>Hardware optimized parity check gates for superconducting surface codes</title>
+    <link>http://arxiv.org/pdf/2211.06382</link>
+    <author>Matthew J. Reagor, Thomas C. Bohdanowicz. David Rodriguez Perez, Eyob A. Sete, William J. Zeng</author>
+    <pubDate>Nov 14 2022</pubDate>
+    <description>Error correcting codes use multi-qubit measurements to realize fault-tolerant quantum logic steps. In fact, the resources needed to scale-up fault-tolerant quantum computing hardware are largely set by this task. Tailoring next-generation processors for joint measurements, therefore, could result in improvements to speed, accuracy, or cost -- accelerating the development large-scale quantum computers. Here, we motivate such explorations by analyzing an unconventional surface code based on multi-body interactions between superconducting transmon qubits. Our central consideration, Hardware Optimized Parity (HOP) gates, achieves stabilizer-type measurements through simultaneous multi-qubit conditional phase accumulation. Despite the multi-body effects that underpin this approach, our estimates of logical faults suggest that this design can be at least as robust to realistic noise as conventional designs. We show a higher threshold of $1.25 \times 10^{-3}$ compared to the standard code's $0.79 \times 10^{-3}$. However, in the HOP code the logical error rate decreases more slowly with decreasing physical error rate. Our results point to a fruitful path forward towards extending gate-model platforms for error correction at the dawn of its empirical development.</description>
+  </item>
+
+  <item>
     <title>Ultimate limits of exoplanet spectroscopy: a quantum approach</title>
     <link>http://arxiv.org/pdf/2211.06050</link>
     <author>Zixin Huang, Christian Schwab, Cosmo Lupo</author>
@@ -15,35 +31,19 @@
   </item>
 
   <item>
-    <title>The meso-inflationary QCD axion</title>
-    <link>http://arxiv.org/pdf/2211.06421</link>
-    <author>Michele Redi, Andrea Tesi</author>
+    <title>Quantum error mitigation for rotation symmetric bosonic codes with symmetry expansion</title>
+    <link>http://arxiv.org/pdf/2211.06164</link>
+    <author>Suguru Endo, Yasunari Suzuki, Kento Tsubouchi, Rui Asaoka, Kaoru Yamamoto, Yuichiro Matsuzaki, Yuuki Tokunaga</author>
     <pubDate>Nov 14 2022</pubDate>
-    <description>We study the possibility that the axion Peccei-Quinn symmetry is spontaneously broken after the beginning of inflation. This scenario interpolates between pre-inflationary and post-inflationary axion cosmology with significant phenomenological differences from both. Since the axion is not present at the early stages of inflation large inflationary fluctuations are produced only at scales not constrained by CMB, avoiding the strongest isocurvature constraints. The energy density in isocurvature perturbations at short scales however can be comparable with the adiabatic contribution from misalignment. These large overdensities can lead to the formation of axion mini-clusters and also to constraints from Lyman-$\alpha$ forest and future CMB spectral distortion measurements. If Peccei-Quinn symmetry is broken during the first O(25) e-foldings of inflation no axions are produced from the string network but contributions from the annihilation of domain walls can further boost the abundance. This scenario is minimally realized if the Hubble scale during inflation drops below the Peccei-Quinn symmetry breaking scale but other realizations are possible.</description>
+    <description>The rotation symmetric bosonic code (RSBC) is a unified framework of practical bosonic codes that have rotation symmetries, such as cat codes and binomial codes. While cat codes achieve the break-even point in which the coherence time of the encoded qubits exceeds that of unencoded qubits, with binomial codes nearly approaching that point, the state preparation fidelity needs to be still improved for practical quantum computing. Concerning this problem, we investigate the framework of symmetry expansion, a class of quantum error mitigation that virtually projects the state onto the noise-free symmetric subspace by exploiting the system's intrinsic symmetries and post-processing of measurement outcomes. Although symmetry expansion has been limited to error mitigation of quantum states immediately before measurement, we successfully generalize symmetry expansion for state preparation. To implement our method, we use an ancilla qubit and only two controlled-rotation gates via dispersive interactions between the bosonic code states and the ancilla qubit. Interestingly, this method also allows us to virtually prepare the RSBC states only from easy-to-prepare states, e.g., coherent states. We also discuss that the conventional symmetry expansion protocol can be applied to improve the computation fidelity when the symmetries of rotation bosonic codes are unavailable due to low measurement fidelity. By giving comprehensive analytical and numerical arguments regarding the trace distance between the error-mitigated state and the ideal state and the sampling cost of quantum error mitigation, we show that symmetry expansion dramatically suppresses the effect of photon loss. Our novel error mitigation method will significantly enhance computation accuracy in the near-term bosonic quantum computing paradigm.</description>
   </item>
 
   <item>
-    <title>The Architectural Bottleneck Principle</title>
-    <link>http://arxiv.org/pdf/2211.06420</link>
-    <author>Tiago Pimentel, Josef Valvoda, Niklas Stoehr, Ryan Cotterell</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>In this paper, we seek to measure how much information a component in a neural network could extract from the representations fed into it. Our work stands in contrast to prior probing work, most of which investigates how much information a model's representations contain. This shift in perspective leads us to propose a new principle for probing, the architectural bottleneck principle: In order to estimate how much information a given component could extract, a probe should look exactly like the component. Relying on this principle, we estimate how much syntactic information is available to transformers through our attentional probe, a probe that exactly resembles a transformer's self-attention head. Experimentally, we find that, in three models (BERT, ALBERT, and RoBERTa), a sentence's syntax tree is mostly extractable by our probe, suggesting these models have access to syntactic information while composing their contextual representations. Whether this information is actually used by these models, however, remains an open question.</description>
-  </item>
-
-  <item>
-    <title>On the Infinite Variance Problem in Fermion Models</title>
-    <link>http://arxiv.org/pdf/2211.06419</link>
-    <author>Andrei Alexandru, Paulo Bedaque, Andrea Carosso, Hyunwoo Oh</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>Monte Carlo calculations of fermionic systems with continuous auxiliary fields frequently suffer from a diverging variance. If a system has the infinite variance problem, one cannot estimate observables reliably even with an infinite number of samples. In this paper, we explore a method to deal with this problem based on sampling according to the distribution of a system with an extra time-slice. The necessary reweighting factor is computed both perturbatively and through a secondary Monte Carlo. We show that the Monte Carlo reweigthing coupled to the use of a non-biased estimator of the reweigthing factor leads to a method that eliminates the infinite variance problem at a very small extra cost. We compute the double occupancy in the Hubbard model at half-filling to demonstrate the method and compare the results to well established results obtained by other methods.</description>
-  </item>
-
-  <item>
-    <title>Re-Analyze Gauss: Bounds for Private Matrix Approximation via Dyson Brownian Motion</title>
-    <link>http://arxiv.org/pdf/2211.06418</link>
-    <author>Oren Mangoubi, Nisheeth K. Vishnoi</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>Given a symmetric matrix $M$ and a vector $\lambda$, we present new bounds on the Frobenius-distance utility of the Gaussian mechanism for approximating $M$ by a matrix whose spectrum is $\lambda$, under $(\varepsilon,\delta)$-differential privacy. Our bounds depend on both $\lambda$ and the gaps in the eigenvalues of $M$, and hold whenever the top $k+1$ eigenvalues of $M$ have sufficiently large gaps. When applied to the problems of private rank-$k$ covariance matrix approximation and subspace recovery, our bounds yield improvements over previous bounds. Our bounds are obtained by viewing the addition of Gaussian noise as a continuous-time matrix Brownian motion. This viewpoint allows us to track the evolution of eigenvalues and eigenvectors of the matrix, which are governed by stochastic differential equations discovered by Dyson. These equations allow us to bound the utility as the square-root of a sum-of-squares of perturbations to the eigenvectors, as opposed to a sum of perturbation bounds obtained via Davis-Kahan-type theorems.</description>
+    <title>Generating $k$ EPR-pairs from an n-party resource state</title>
+    <link>http://arxiv.org/pdf/2211.06497</link>
+    <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
   </item>
 
 </channel>
