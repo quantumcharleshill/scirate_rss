@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
-    <link>http://arxiv.org/pdf/2211.03999</link>
-    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
-    <pubDate>Nov 09 2022</pubDate>
-    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
-  </item>
-
-  <item>
     <title>Bosonic coding: introduction and use cases</title>
     <link>http://arxiv.org/pdf/2211.05714</link>
     <author>Victor V. Albert</author>
@@ -39,19 +31,27 @@
   </item>
 
   <item>
+    <title>Assessing requirements to scale to practical quantum advantage</title>
+    <link>http://arxiv.org/pdf/2211.07629</link>
+    <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>While quantum computers promise to solve some scientifically and commercially valuable problems thought intractable for classical machines, delivering on this promise will require a large-scale quantum machine. Understanding the impact of architecture design choices for a scaled quantum stack for specific applications, prior to full realization of the quantum system, is an important open challenge. To this end, we develop a framework for quantum resource estimation, abstracting the layers of the stack, to estimate resources required across these layers for large-scale quantum applications. Using a tool that implements this framework, we assess three scaled quantum applications and find that hundreds of thousands to millions of physical qubits are needed to achieve practical quantum advantage. We identify three qubit parameters, namely size, speed, and controllability, that are critical at scale to rendering these applications practical. A goal of our work is to accelerate progress towards practical quantum advantage by enabling the broader community to explore design choices across the stack, from algorithms to qubits.</description>
+  </item>
+
+  <item>
+    <title>Generating $k$ EPR-pairs from an n-party resource state</title>
+    <link>http://arxiv.org/pdf/2211.06497</link>
+    <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
+  </item>
+
+  <item>
     <title>Black-Hole Radiation Decoding is Quantum Cryptography</title>
     <link>http://arxiv.org/pdf/2211.05491</link>
     <author>Zvika Brakerski</author>
     <pubDate>Nov 11 2022</pubDate>
     <description>We propose to study equivalence relations between phenomena in high-energy physics and the existence of standard cryptographic primitives, and show the first example where such an equivalence holds. A small number of prior works showed that high-energy phenomena can be explained by cryptographic hardness. Examples include using the existence of one-way functions to explain the hardness of decoding black-hole Hawking radiation (Harlow and Hayden 2013, Aaronson 2016), and using pseudorandom quantum states to explain the hardness of computing AdS/CFT dictionary (Bouland, Fefferman and Vazirani, 2020). In this work we show, for the former example of black-hole radiation decoding, that it also implies the existence of secure quantum cryptography. In fact, we show an existential equivalence between the hardness of black-hole radiation decoding and a variety of cryptographic primitives, including bit-commitment schemes and oblivious transfer protocols (using quantum communication). This can be viewed (with proper disclaimers, as we discuss) as providing a physical justification for the existence of secure cryptography. We conjecture that such connections may be found in other high-energy physics phenomena.</description>
-  </item>
-
-  <item>
-    <title>Pauli topological subsystem codes from Abelian anyon theories</title>
-    <link>http://arxiv.org/pdf/2211.03798</link>
-    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Nov 09 2022</pubDate>
-    <description>We construct Pauli topological subsystem codes characterized by arbitrary two-dimensional Abelian anyon theories--this includes anyon theories with degenerate braiding relations and those without a gapped boundary to the vacuum. Our work both extends the classification of two-dimensional Pauli topological subsystem codes to systems of composite-dimensional qudits and establishes that the classification is at least as rich as that of Abelian anyon theories. We exemplify the construction with topological subsystem codes defined on four-dimensional qudits based on the $\mathbb{Z}_4^{(1)}$ anyon theory with degenerate braiding relations and the chiral semion theory--both of which cannot be captured by topological stabilizer codes. The construction proceeds by "gauging out" certain anyon types of a topological stabilizer code. This amounts to defining a gauge group generated by the stabilizer group of the topological stabilizer code and a set of anyonic string operators for the anyon types that are gauged out. The resulting topological subsystem code is characterized by an anyon theory containing a proper subset of the anyons of the topological stabilizer code. We thereby show that every Abelian anyon theory is a subtheory of a stack of toric codes and a certain family of twisted quantum doubles that generalize the double semion anyon theory. We further prove a number of general statements about the logical operators of translation invariant topological subsystem codes and define their associated anyon theories in terms of higher-form symmetries.</description>
   </item>
 
   <item>
@@ -71,19 +71,19 @@
   </item>
 
   <item>
-    <title>The X-Cube Floquet Code</title>
-    <link>http://arxiv.org/pdf/2211.05784</link>
-    <author>Zhehao Zhang, David Aasen, Sagar Vijay</author>
-    <pubDate>Nov 11 2022</pubDate>
-    <description>Inspired by the coupled-layer construction of the X-Cube model, we introduce the X-Cube Floquet code, a dynamical quantum error-correcting code where the number of encoded logical qubits grows with system size. The X-Cube Floquet code is defined on a three-dimensional lattice, built from intersecting two-dimensional layers in the $xy$, $yz$, and $xz$ directions, and consists of a periodic sequence of two-qubit measurements which couple the layers together. Within a single Floquet cycle, the codespace switches between that of the X-Cube fracton order and layers of entangled, two-dimensional toric codes. The encoded logical qubits' dynamics are analyzed, and we argue that the new code has a non-zero error threshold. We provide a new Hamiltonian realization of the X-Cube model and, more generally, explore the phase diagram related to the sequence of measurements that define the X-Cube Floquet code.</description>
+    <title>Classical shadow tomography for continuous variables quantum systems</title>
+    <link>http://arxiv.org/pdf/2211.07578</link>
+    <author>Simon Becker, Nilanjana Datta, Ludovico Lami, Cambyse Rouzé</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>In this article we develop a continuous variable (CV) shadow tomography scheme with wide ranging applications in quantum optics. Our work is motivated by the increasing experimental and technological relevance of CV systems in quantum information, quantum communication, quantum sensing, quantum simulations, quantum computing and error correction. We introduce two experimentally realisable schemes for obtaining classical shadows of CV (possibly non-Gaussian) quantum states using only randomised Gaussian unitaries and easily implementable Gaussian measurements such as homodyne and heterodyne detection. For both schemes, we show that $N=\mathcal{O}\big(\operatorname{poly}\big(\frac{1}{\epsilon},\log\big(\frac{1}{\delta}\big),M_n^{r+\alpha},\log(m)\big)\big)$ samples of an unknown $m$-mode state $\rho$ suffice to learn the expected value of any $r$-local polynomial in the canonical observables of degree $\alpha$, both with high probability $1-\delta$ and accuracy $\epsilon$, as long as the state $\rho$ has moments of order $n>\alpha$ bounded by $M_n$. By simultaneously truncating states and operators in energy and phase space, we are able to overcome new mathematical challenges that arise due to the infinite-dimensionality of CV systems. We also provide a scheme to learn nonlinear functionals of the state, such as entropies over any small number of modes, by leveraging recent energy-constrained entropic continuity bounds. Finally, we provide numerical evidence of the efficiency of our protocols in the case of CV states of relevance in quantum information theory, including ground states of quadratic Hamiltonians of many-body systems and cat qubit states. We expect our scheme to provide good recovery in learning relevant states of 2D materials and photonic crystals.</description>
   </item>
 
   <item>
-    <title>Reducing the qubit requirement of Jordan-Wigner encodings of $N$-mode, $K$-fermion systems from $N$ to $\lceil \log_2 {N \choose K} \rceil$</title>
-    <link>http://arxiv.org/pdf/2211.04501</link>
-    <author>Brent Harrison, Dylan Nelson, Daniel Adamiak, James Whitfield</author>
-    <pubDate>Nov 10 2022</pubDate>
-    <description>To simulate a fermionic system on a quantum computer, it is necessary to encode the state of the fermions onto qubits. Fermion-to-qubit mappings such as the Jordan-Wigner and Bravyi-Kitaev transformations do this using $N$ qubits to represent systems of $N$ fermionic modes. In this work, we demonstrate that for particle number conserving systems of $K$ fermions and $N$ modes, the qubit requirement can be reduced to the information theoretic minimum of $\lceil \log_2 {N \choose K} \rceil$. This will improve the feasibility of simulation of molecules and many-body systems on near-term quantum computers with limited qubit number.</description>
+    <title>Hardware optimized parity check gates for superconducting surface codes</title>
+    <link>http://arxiv.org/pdf/2211.06382</link>
+    <author>Matthew J. Reagor, Thomas C. Bohdanowicz, David Rodriguez Perez, Eyob A. Sete, William J. Zeng</author>
+    <pubDate>Nov 14 2022</pubDate>
+    <description>Error correcting codes use multi-qubit measurements to realize fault-tolerant quantum logic steps. In fact, the resources needed to scale-up fault-tolerant quantum computing hardware are largely set by this task. Tailoring next-generation processors for joint measurements, therefore, could result in improvements to speed, accuracy, or cost -- accelerating the development large-scale quantum computers. Here, we motivate such explorations by analyzing an unconventional surface code based on multi-body interactions between superconducting transmon qubits. Our central consideration, Hardware Optimized Parity (HOP) gates, achieves stabilizer-type measurements through simultaneous multi-qubit conditional phase accumulation. Despite the multi-body effects that underpin this approach, our estimates of logical faults suggest that this design can be at least as robust to realistic noise as conventional designs. We show a higher threshold of $1.25 \times 10^{-3}$ compared to the standard code's $0.79 \times 10^{-3}$. However, in the HOP code the logical error rate decreases more slowly with decreasing physical error rate. Our results point to a fruitful path forward towards extending gate-model platforms for error correction at the dawn of its empirical development.</description>
   </item>
 
 </channel>

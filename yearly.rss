@@ -47,6 +47,14 @@
   </item>
 
   <item>
+    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
+    <link>http://arxiv.org/pdf/2211.03999</link>
+    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
+  </item>
+
+  <item>
     <title>The Early Days of Quantum Computation</title>
     <link>http://arxiv.org/pdf/2208.09964</link>
     <author>Peter W. Shor</author>
@@ -68,14 +76,6 @@
     <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
     <pubDate>Oct 18 2022</pubDate>
     <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
-  </item>
-
-  <item>
-    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
-    <link>http://arxiv.org/pdf/2211.03999</link>
-    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
-    <pubDate>Nov 09 2022</pubDate>
-    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
   </item>
 
   <item>
@@ -399,11 +399,11 @@
   </item>
 
   <item>
-    <title>Verifiable Quantum Advantage without Structure</title>
-    <link>http://arxiv.org/pdf/2204.02063</link>
-    <author>Takashi Yamakawa, Mark Zhandry</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
+    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
+    <link>http://arxiv.org/pdf/2208.11941</link>
+    <author>Harriet Apel, Toby Cubitt</author>
+    <pubDate>Aug 26 2022</pubDate>
+    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
   </item>
 
 </channel>

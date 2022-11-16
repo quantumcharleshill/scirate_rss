@@ -7,35 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Refuting spectral compatibility of quantum marginals</title>
-    <link>http://arxiv.org/pdf/2211.06349</link>
-    <author>Felix Huber, Nikolai Wyderka</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>The spectral variant of the quantum marginal problem asks: Given prescribed spectra for a set of quantum marginals, does there exist a compatible joint state? The main idea of this work is a symmetry-reduced semidefinite programming hierarchy for detecting incompatible spectra. The hierarchy can provide refutations that are dimension-free, certifying incompatibility in all local dimensions. It equally applies to the compatibility of local unitary invariants, to the sums of Hermitian matrices problem, to optimize trace polynomials on the positive cone, and to certify vanishing Kronecker coefficients.</description>
-  </item>
-
-  <item>
-    <title>Hardware optimized parity check gates for superconducting surface codes</title>
-    <link>http://arxiv.org/pdf/2211.06382</link>
-    <author>Matthew J. Reagor, Thomas C. Bohdanowicz. David Rodriguez Perez, Eyob A. Sete, William J. Zeng</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>Error correcting codes use multi-qubit measurements to realize fault-tolerant quantum logic steps. In fact, the resources needed to scale-up fault-tolerant quantum computing hardware are largely set by this task. Tailoring next-generation processors for joint measurements, therefore, could result in improvements to speed, accuracy, or cost -- accelerating the development large-scale quantum computers. Here, we motivate such explorations by analyzing an unconventional surface code based on multi-body interactions between superconducting transmon qubits. Our central consideration, Hardware Optimized Parity (HOP) gates, achieves stabilizer-type measurements through simultaneous multi-qubit conditional phase accumulation. Despite the multi-body effects that underpin this approach, our estimates of logical faults suggest that this design can be at least as robust to realistic noise as conventional designs. We show a higher threshold of $1.25 \times 10^{-3}$ compared to the standard code's $0.79 \times 10^{-3}$. However, in the HOP code the logical error rate decreases more slowly with decreasing physical error rate. Our results point to a fruitful path forward towards extending gate-model platforms for error correction at the dawn of its empirical development.</description>
-  </item>
-
-  <item>
-    <title>Ultimate limits of exoplanet spectroscopy: a quantum approach</title>
-    <link>http://arxiv.org/pdf/2211.06050</link>
-    <author>Zixin Huang, Christian Schwab, Cosmo Lupo</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>One of the big challenges in exoplanet science is to determine the atmospheric makeup of extrasolar planets, and to find biosignatures that hint at the existence of biochemical processes on another world. The biomarkers we are trying to detect are gases in the exoplanet atmosphere like oxygen or methane, which have deep absorption features in the visible and near-infrared spectrum. Here we establish the ultimate quantum limit for determining the presence or absence of a spectral absorption line, for a dim source in the presence of a much brighter stellar source. We characterise the associated error exponent in both the frameworks of symmetric and asymmetric hypothesis testing. We found that a structured measurement based on spatial demultiplexing allows us to decouple the light coming from the planet and achieve the ultimate quantum limits. If the planet has intensity $\epsilon \ll 1$ relative to the star, we show that this approach significantly outperforms direct spectroscopy yielding an improvement of the error exponent by a factor $1/\epsilon$. We find the optimal measurement, which is a combination of interferometric techniques and spectrum analysis.</description>
-  </item>
-
-  <item>
-    <title>Quantum error mitigation for rotation symmetric bosonic codes with symmetry expansion</title>
-    <link>http://arxiv.org/pdf/2211.06164</link>
-    <author>Suguru Endo, Yasunari Suzuki, Kento Tsubouchi, Rui Asaoka, Kaoru Yamamoto, Yuichiro Matsuzaki, Yuuki Tokunaga</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>The rotation symmetric bosonic code (RSBC) is a unified framework of practical bosonic codes that have rotation symmetries, such as cat codes and binomial codes. While cat codes achieve the break-even point in which the coherence time of the encoded qubits exceeds that of unencoded qubits, with binomial codes nearly approaching that point, the state preparation fidelity needs to be still improved for practical quantum computing. Concerning this problem, we investigate the framework of symmetry expansion, a class of quantum error mitigation that virtually projects the state onto the noise-free symmetric subspace by exploiting the system's intrinsic symmetries and post-processing of measurement outcomes. Although symmetry expansion has been limited to error mitigation of quantum states immediately before measurement, we successfully generalize symmetry expansion for state preparation. To implement our method, we use an ancilla qubit and only two controlled-rotation gates via dispersive interactions between the bosonic code states and the ancilla qubit. Interestingly, this method also allows us to virtually prepare the RSBC states only from easy-to-prepare states, e.g., coherent states. We also discuss that the conventional symmetry expansion protocol can be applied to improve the computation fidelity when the symmetries of rotation bosonic codes are unavailable due to low measurement fidelity. By giving comprehensive analytical and numerical arguments regarding the trace distance between the error-mitigated state and the ideal state and the sampling cost of quantum error mitigation, we show that symmetry expansion dramatically suppresses the effect of photon loss. Our novel error mitigation method will significantly enhance computation accuracy in the near-term bosonic quantum computing paradigm.</description>
+    <title>Assessing requirements to scale to practical quantum advantage</title>
+    <link>http://arxiv.org/pdf/2211.07629</link>
+    <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>While quantum computers promise to solve some scientifically and commercially valuable problems thought intractable for classical machines, delivering on this promise will require a large-scale quantum machine. Understanding the impact of architecture design choices for a scaled quantum stack for specific applications, prior to full realization of the quantum system, is an important open challenge. To this end, we develop a framework for quantum resource estimation, abstracting the layers of the stack, to estimate resources required across these layers for large-scale quantum applications. Using a tool that implements this framework, we assess three scaled quantum applications and find that hundreds of thousands to millions of physical qubits are needed to achieve practical quantum advantage. We identify three qubit parameters, namely size, speed, and controllability, that are critical at scale to rendering these applications practical. A goal of our work is to accelerate progress towards practical quantum advantage by enabling the broader community to explore design choices across the stack, from algorithms to qubits.</description>
   </item>
 
   <item>
@@ -44,6 +20,30 @@
     <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
     <pubDate>Nov 15 2022</pubDate>
     <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
+  </item>
+
+  <item>
+    <title>Classical shadow tomography for continuous variables quantum systems</title>
+    <link>http://arxiv.org/pdf/2211.07578</link>
+    <author>Simon Becker, Nilanjana Datta, Ludovico Lami, Cambyse Rouzé</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>In this article we develop a continuous variable (CV) shadow tomography scheme with wide ranging applications in quantum optics. Our work is motivated by the increasing experimental and technological relevance of CV systems in quantum information, quantum communication, quantum sensing, quantum simulations, quantum computing and error correction. We introduce two experimentally realisable schemes for obtaining classical shadows of CV (possibly non-Gaussian) quantum states using only randomised Gaussian unitaries and easily implementable Gaussian measurements such as homodyne and heterodyne detection. For both schemes, we show that $N=\mathcal{O}\big(\operatorname{poly}\big(\frac{1}{\epsilon},\log\big(\frac{1}{\delta}\big),M_n^{r+\alpha},\log(m)\big)\big)$ samples of an unknown $m$-mode state $\rho$ suffice to learn the expected value of any $r$-local polynomial in the canonical observables of degree $\alpha$, both with high probability $1-\delta$ and accuracy $\epsilon$, as long as the state $\rho$ has moments of order $n>\alpha$ bounded by $M_n$. By simultaneously truncating states and operators in energy and phase space, we are able to overcome new mathematical challenges that arise due to the infinite-dimensionality of CV systems. We also provide a scheme to learn nonlinear functionals of the state, such as entropies over any small number of modes, by leveraging recent energy-constrained entropic continuity bounds. Finally, we provide numerical evidence of the efficiency of our protocols in the case of CV states of relevance in quantum information theory, including ground states of quadratic Hamiltonians of many-body systems and cat qubit states. We expect our scheme to provide good recovery in learning relevant states of 2D materials and photonic crystals.</description>
+  </item>
+
+  <item>
+    <title>Protecting Expressive Circuits with a Quantum Error Detection Code</title>
+    <link>http://arxiv.org/pdf/2211.06703</link>
+    <author>Chris N. Self, Marcello Benedetti, David Amaro</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>Quantum error correction opens the way for quantum computers to speed up relevant tasks like simulating quantum systems. However, fully fault-tolerant quantum error correction is too resource intensive for existing quantum computers. In this context we develop the $[[k+2,k,2]]$ quantum error detection code, for implementations on existing trapped-ion computers. Encoding $k$ logical qubits into $k+2$ physical qubits, this code presents fault-tolerant state initialisation and syndrome measurement circuits that can detect any single-qubit error. It provides a universal set of local and global logical rotations that, notably, have physical support on only two qubits. A high-fidelity -- though non fault-tolerant -- compilation of this universal gate set is possible thanks to the two-qubit physical rotations present in trapped-ion computers with all-to-all connectivity. Given the particular structure of the logical operators, we nickname it the Iceberg code. On the 12-qubit Quantinuum H1-2 hardware we demonstrate the protection of circuits of 8 logical qubits with up to 256 layers, saturate the logical quantum volume of $2^8$, and show the positive effect of increasing the frequency of syndrome measurements within the circuit. These results illustrate the practical usefulness of the Iceberg code to protect expressive circuits on existing trapped-ion quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Parallel repetition of local simultaneous state discrimination</title>
+    <link>http://arxiv.org/pdf/2211.06456</link>
+    <author>Llorenç Escolà Farràs, Jaròn Has, Maris Ozols, Christian Schaffner, Mehrdad Tahmasbi</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>Local simultaneous state discrimination (LSSD) is a recently introduced problem in quantum information processing. Its classical version is a non-local game played by non-communicating players against a referee. Based on a known probability distribution, the referee generates one input for each of the players and keeps one secret value. The players have to guess the referee's value and win if they all do so. For this game, we investigate the advantage of no-signalling strategies over classical ones. We show numerically that for three players and binary values, no-signalling strategies cannot provide any improvement over classical ones. For a certain LSSD game based on a binary symmetric channel, we show that no-signalling strategies are strictly better when multiple simultaneous instances of the game are played. Good classical strategies for this game can be defined by codes, and good no-signalling strategies by list-decoding schemes. We expand this example game to a class of games defined by an arbitrary channel, and extend the idea of using codes and list decoding to define strategies for multiple simultaneous instances of these games. Finally, we give an expression for the limit of the exponent of the classical winning probability, and show that no-signalling strategies based on list-decoding schemes achieve this limit.</description>
   </item>
 
 </channel>

@@ -7,19 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>The Quantum Fourier Transform Has Small Entanglement</title>
-    <link>http://arxiv.org/pdf/2210.08468</link>
-    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
-  </item>
-
-  <item>
     <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
     <link>http://arxiv.org/pdf/2211.03999</link>
     <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
     <pubDate>Nov 09 2022</pubDate>
     <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
+  </item>
+
+  <item>
+    <title>The Quantum Fourier Transform Has Small Entanglement</title>
+    <link>http://arxiv.org/pdf/2210.08468</link>
+    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
+    <pubDate>Oct 18 2022</pubDate>
+    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
   </item>
 
   <item>
@@ -151,6 +151,30 @@
   </item>
 
   <item>
+    <title>Assessing requirements to scale to practical quantum advantage</title>
+    <link>http://arxiv.org/pdf/2211.07629</link>
+    <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>While quantum computers promise to solve some scientifically and commercially valuable problems thought intractable for classical machines, delivering on this promise will require a large-scale quantum machine. Understanding the impact of architecture design choices for a scaled quantum stack for specific applications, prior to full realization of the quantum system, is an important open challenge. To this end, we develop a framework for quantum resource estimation, abstracting the layers of the stack, to estimate resources required across these layers for large-scale quantum applications. Using a tool that implements this framework, we assess three scaled quantum applications and find that hundreds of thousands to millions of physical qubits are needed to achieve practical quantum advantage. We identify three qubit parameters, namely size, speed, and controllability, that are critical at scale to rendering these applications practical. A goal of our work is to accelerate progress towards practical quantum advantage by enabling the broader community to explore design choices across the stack, from algorithms to qubits.</description>
+  </item>
+
+  <item>
+    <title>Generating $k$ EPR-pairs from an n-party resource state</title>
+    <link>http://arxiv.org/pdf/2211.06497</link>
+    <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
+  </item>
+
+  <item>
+    <title>Black-Hole Radiation Decoding is Quantum Cryptography</title>
+    <link>http://arxiv.org/pdf/2211.05491</link>
+    <author>Zvika Brakerski</author>
+    <pubDate>Nov 11 2022</pubDate>
+    <description>We propose to study equivalence relations between phenomena in high-energy physics and the existence of standard cryptographic primitives, and show the first example where such an equivalence holds. A small number of prior works showed that high-energy phenomena can be explained by cryptographic hardness. Examples include using the existence of one-way functions to explain the hardness of decoding black-hole Hawking radiation (Harlow and Hayden 2013, Aaronson 2016), and using pseudorandom quantum states to explain the hardness of computing AdS/CFT dictionary (Bouland, Fefferman and Vazirani, 2020). In this work we show, for the former example of black-hole radiation decoding, that it also implies the existence of secure quantum cryptography. In fact, we show an existential equivalence between the hardness of black-hole radiation decoding and a variety of cryptographic primitives, including bit-commitment schemes and oblivious transfer protocols (using quantum communication). This can be viewed (with proper disclaimers, as we discuss) as providing a physical justification for the existence of secure cryptography. We conjecture that such connections may be found in other high-energy physics phenomena.</description>
+  </item>
+
+  <item>
     <title>Autonomous quantum error correction and fault-tolerant quantum computation with squeezed cat qubits</title>
     <link>http://arxiv.org/pdf/2210.13406</link>
     <author>Qian Xu, Guo Zheng, Yu-Xin Wang, Peter Zoller, Aashish A. Clerk, Liang Jiang</author>
@@ -164,14 +188,6 @@
     <author>Adam Bene Watts, John Bostanci</author>
     <pubDate>Oct 18 2022</pubDate>
     <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the Gentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems Quantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a Blended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement Quantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for Quantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
-  </item>
-
-  <item>
-    <title>Black-Hole Radiation Decoding is Quantum Cryptography</title>
-    <link>http://arxiv.org/pdf/2211.05491</link>
-    <author>Zvika Brakerski</author>
-    <pubDate>Nov 11 2022</pubDate>
-    <description>We propose to study equivalence relations between phenomena in high-energy physics and the existence of standard cryptographic primitives, and show the first example where such an equivalence holds. A small number of prior works showed that high-energy phenomena can be explained by cryptographic hardness. Examples include using the existence of one-way functions to explain the hardness of decoding black-hole Hawking radiation (Harlow and Hayden 2013, Aaronson 2016), and using pseudorandom quantum states to explain the hardness of computing AdS/CFT dictionary (Bouland, Fefferman and Vazirani, 2020). In this work we show, for the former example of black-hole radiation decoding, that it also implies the existence of secure quantum cryptography. In fact, we show an existential equivalence between the hardness of black-hole radiation decoding and a variety of cryptographic primitives, including bit-commitment schemes and oblivious transfer protocols (using quantum communication). This can be viewed (with proper disclaimers, as we discuss) as providing a physical justification for the existence of secure cryptography. We conjecture that such connections may be found in other high-energy physics phenomena.</description>
   </item>
 
   <item>
@@ -228,22 +244,6 @@
     <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
     <pubDate>Oct 28 2022</pubDate>
     <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
-  </item>
-
-  <item>
-    <title>Doubling the order of approximation via the randomized product formula</title>
-    <link>http://arxiv.org/pdf/2210.11281</link>
-    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
-  </item>
-
-  <item>
-    <title>Pauli topological subsystem codes from Abelian anyon theories</title>
-    <link>http://arxiv.org/pdf/2211.03798</link>
-    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
-    <pubDate>Nov 09 2022</pubDate>
-    <description>We construct Pauli topological subsystem codes characterized by arbitrary two-dimensional Abelian anyon theories--this includes anyon theories with degenerate braiding relations and those without a gapped boundary to the vacuum. Our work both extends the classification of two-dimensional Pauli topological subsystem codes to systems of composite-dimensional qudits and establishes that the classification is at least as rich as that of Abelian anyon theories. We exemplify the construction with topological subsystem codes defined on four-dimensional qudits based on the $\mathbb{Z}_4^{(1)}$ anyon theory with degenerate braiding relations and the chiral semion theory--both of which cannot be captured by topological stabilizer codes. The construction proceeds by "gauging out" certain anyon types of a topological stabilizer code. This amounts to defining a gauge group generated by the stabilizer group of the topological stabilizer code and a set of anyonic string operators for the anyon types that are gauged out. The resulting topological subsystem code is characterized by an anyon theory containing a proper subset of the anyons of the topological stabilizer code. We thereby show that every Abelian anyon theory is a subtheory of a stack of toric codes and a certain family of twisted quantum doubles that generalize the double semion anyon theory. We further prove a number of general statements about the logical operators of translation invariant topological subsystem codes and define their associated anyon theories in terms of higher-form symmetries.</description>
   </item>
 
 </channel>
