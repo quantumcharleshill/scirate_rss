@@ -23,14 +23,6 @@
   </item>
 
   <item>
-    <title>Learning quantum processes without input control</title>
-    <link>http://arxiv.org/pdf/2211.05005</link>
-    <author>Marco Fanizza, Yihui Quek, Matteo Rosati</author>
-    <pubDate>Nov 10 2022</pubDate>
-    <description>We introduce a general statistical learning theory for processes that take as input a classical random variable and output a quantum state. This is a practically motivated setting where the learner wants to find an approximate representation of an unknown quantum process, without having control on the classical inputs that govern the process itself, e.g., in learning astronomical processes, studying disordered systems and biological processes not controlled by the observer. We provide an algorithm for learning with high probability in this setting with a finite amount of samples, even if the concept class is infinite. To do this, we review and adapt existing algorithms for shadow tomography and hypothesis selection, and combine their guarantees with the uniform convergence on the data of the loss functions of interest. As a by-product we obtain sufficient conditions for performing shadow tomography of classical-quantum states with a number of copies which depend only on the dimension of the quantum register. We give concrete examples of processes that can be learned in this manner, based on quantum circuits or physically motivated scenarios like systems subject to Hamiltonians with random perturbations or data-dependent phase-shifts.</description>
-  </item>
-
-  <item>
     <title>Assessing requirements to scale to practical quantum advantage</title>
     <link>http://arxiv.org/pdf/2211.07629</link>
     <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
@@ -55,14 +47,6 @@
   </item>
 
   <item>
-    <title>Overcoming leakage in scalable quantum error correction</title>
-    <link>http://arxiv.org/pdf/2211.04728</link>
-    <author>Kevin C. Miao, Matt McEwen, Juan Atalaya, Dvir Kafri, Leonid P. Pryadko, Andreas Bengtsson, Alex Opremcak, Kevin J. Satzinger, Zijun Chen, Paul V. Klimov, Chris Quintana, Rajeev Acharya, Kyle Anderson, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Joseph C. Bardin, Alexandre Bourassa, Jenna Bovaird, et al (97)</author>
-    <pubDate>Nov 10 2022</pubDate>
-    <description>Leakage of quantum information out of computational states into higher energy states represents a major challenge in the pursuit of quantum error correction (QEC). In a QEC circuit, leakage builds over time and spreads through multi-qubit interactions. This leads to correlated errors that degrade the exponential suppression of logical error with scale, challenging the feasibility of QEC as a path towards fault-tolerant quantum computation. Here, we demonstrate the execution of a distance-3 surface code and distance-21 bit-flip code on a Sycamore quantum processor where leakage is removed from all qubits in each cycle. This shortens the lifetime of leakage and curtails its ability to spread and induce correlated errors. We report a ten-fold reduction in steady-state leakage population on the data qubits encoding the logical state and an average leakage population of less than $1 \times 10^{-3}$ throughout the entire device. The leakage removal process itself efficiently returns leakage population back to the computational basis, and adding it to a code circuit prevents leakage from inducing correlated error across cycles, restoring a fundamental assumption of QEC. With this demonstration that leakage can be contained, we resolve a key challenge for practical QEC at scale.</description>
-  </item>
-
-  <item>
     <title>Refuting spectral compatibility of quantum marginals</title>
     <link>http://arxiv.org/pdf/2211.06349</link>
     <author>Felix Huber, Nikolai Wyderka</author>
@@ -79,11 +63,27 @@
   </item>
 
   <item>
+    <title>The X-Cube Floquet Code</title>
+    <link>http://arxiv.org/pdf/2211.05784</link>
+    <author>Zhehao Zhang, David Aasen, Sagar Vijay</author>
+    <pubDate>Nov 11 2022</pubDate>
+    <description>Inspired by the coupled-layer construction of the X-Cube model, we introduce the X-Cube Floquet code, a dynamical quantum error-correcting code where the number of encoded logical qubits grows with system size. The X-Cube Floquet code is defined on a three-dimensional lattice, built from intersecting two-dimensional layers in the $xy$, $yz$, and $xz$ directions, and consists of a periodic sequence of two-qubit measurements which couple the layers together. Within a single Floquet cycle, the codespace switches between that of the X-Cube fracton order and layers of entangled, two-dimensional toric codes. The encoded logical qubits' dynamics are analyzed, and we argue that the new code has a non-zero error threshold. We provide a new Hamiltonian realization of the X-Cube model and, more generally, explore the phase diagram related to the sequence of measurements that define the X-Cube Floquet code.</description>
+  </item>
+
+  <item>
     <title>Hardware optimized parity check gates for superconducting surface codes</title>
     <link>http://arxiv.org/pdf/2211.06382</link>
     <author>Matthew J. Reagor, Thomas C. Bohdanowicz, David Rodriguez Perez, Eyob A. Sete, William J. Zeng</author>
     <pubDate>Nov 14 2022</pubDate>
     <description>Error correcting codes use multi-qubit measurements to realize fault-tolerant quantum logic steps. In fact, the resources needed to scale-up fault-tolerant quantum computing hardware are largely set by this task. Tailoring next-generation processors for joint measurements, therefore, could result in improvements to speed, accuracy, or cost -- accelerating the development large-scale quantum computers. Here, we motivate such explorations by analyzing an unconventional surface code based on multi-body interactions between superconducting transmon qubits. Our central consideration, Hardware Optimized Parity (HOP) gates, achieves stabilizer-type measurements through simultaneous multi-qubit conditional phase accumulation. Despite the multi-body effects that underpin this approach, our estimates of logical faults suggest that this design can be at least as robust to realistic noise as conventional designs. We show a higher threshold of $1.25 \times 10^{-3}$ compared to the standard code's $0.79 \times 10^{-3}$. However, in the HOP code the logical error rate decreases more slowly with decreasing physical error rate. Our results point to a fruitful path forward towards extending gate-model platforms for error correction at the dawn of its empirical development.</description>
+  </item>
+
+  <item>
+    <title>Continuous-Variable Shadow Tomography</title>
+    <link>http://arxiv.org/pdf/2211.05149</link>
+    <author>Srilekha Gandhari, Victor V. Albert, Thomas Gerrits, Jacob M. Taylor, Michael J. Gullans</author>
+    <pubDate>Nov 11 2022</pubDate>
+    <description>Shadow tomography is a framework for constructing succinct descriptions of quantum states, called classical shadows, with powerful methods to bound the estimators used. We recast existing experimental protocols for continuous-variable tomography in the classical-shadow framework, obtaining rigorous bounds on the sample complexity for estimating density matrices from these protocols. We analyze the efficiency of homodyne, heterodyne, photon number resolving (PNR), and photon-parity protocols. To reach a desired precision on the classical shadow of an $N$-photon density matrix with a high probability, we show that homodyne detection requires an order $\mathcal{O}(N^5)$ measurements in the worst case, whereas PNR and photon-parity detection require $\mathcal{O}(N^4)$ measurements in the worst case (both up to logarithmic corrections). We benchmark these results against numerical simulation as well as experimental data from optical homodyne experiments. We find that numerical and experimental homodyne tomography significantly outperforms our bounds, exhibiting a more typical scaling of the number of measurements that is close to linear in $N$. We extend our single-mode results to an efficient construction of multimode shadows based on local measurements.</description>
   </item>
 
 </channel>

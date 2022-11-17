@@ -31,19 +31,19 @@
   </item>
 
   <item>
-    <title>Learning to predict arbitrary quantum processes</title>
-    <link>http://arxiv.org/pdf/2210.14894</link>
-    <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
-  </item>
-
-  <item>
     <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
     <link>http://arxiv.org/pdf/2210.15844</link>
     <author>Daniel Gottesman</author>
     <pubDate>Oct 31 2022</pubDate>
     <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Learning to predict arbitrary quantum processes</title>
+    <link>http://arxiv.org/pdf/2210.14894</link>
+    <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
+    <pubDate>Oct 27 2022</pubDate>
+    <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
   </item>
 
   <item>
@@ -103,14 +103,6 @@
   </item>
 
   <item>
-    <title>Representation Theory for Geometric Quantum Machine Learning</title>
-    <link>http://arxiv.org/pdf/2210.07980</link>
-    <author>Michael Ragone, Paolo Braccia, Quynh T. Nguyen, Louis Schatzki, Patrick J. Coles, Frederic Sauvage, Martin Larocca, M. Cerezo</author>
-    <pubDate>Oct 17 2022</pubDate>
-    <description>Recent advances in classical machine learning have shown that creating models with inductive biases encoding the symmetries of a problem can greatly improve performance. Importation of these ideas, combined with an existing rich body of work at the nexus of quantum theory and symmetry, has given rise to the field of Geometric Quantum Machine Learning (GQML). Following the success of its classical counterpart, it is reasonable to expect that GQML will play a crucial role in developing problem-specific and quantum-aware models capable of achieving a computational advantage. Despite the simplicity of the main idea of GQML -- create architectures respecting the symmetries of the data -- its practical implementation requires a significant amount of knowledge of group representation theory. We present an introduction to representation theory tools from the optics of quantum learning, driven by key examples involving discrete and continuous groups. These examples are sewn together by an exposition outlining the formal capture of GQML symmetries via "label invariance under the action of a group representation", a brief (but rigorous) tour through finite and compact Lie group representation theory, a reexamination of ubiquitous tools like Haar integration and twirling, and an overview of some successful strategies for detecting symmetries.</description>
-  </item>
-
-  <item>
     <title>Classical simulation of short-time quantum dynamics</title>
     <link>http://arxiv.org/pdf/2210.11490</link>
     <author>Dominik S. Wild, Álvaro M. Alhambra</author>
@@ -143,14 +135,6 @@
   </item>
 
   <item>
-    <title>Invertible subalgebras</title>
-    <link>http://arxiv.org/pdf/2211.02086</link>
-    <author>Jeongwan Haah</author>
-    <pubDate>Nov 07 2022</pubDate>
-    <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
-  </item>
-
-  <item>
     <title>Assessing requirements to scale to practical quantum advantage</title>
     <link>http://arxiv.org/pdf/2211.07629</link>
     <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
@@ -164,6 +148,14 @@
     <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
     <pubDate>Nov 15 2022</pubDate>
     <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
+  </item>
+
+  <item>
+    <title>Invertible subalgebras</title>
+    <link>http://arxiv.org/pdf/2211.02086</link>
+    <author>Jeongwan Haah</author>
+    <pubDate>Nov 07 2022</pubDate>
+    <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
   </item>
 
   <item>
@@ -244,6 +236,14 @@
     <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
     <pubDate>Oct 28 2022</pubDate>
     <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
+    <title>Doubling the order of approximation via the randomized product formula</title>
+    <link>http://arxiv.org/pdf/2210.11281</link>
+    <author>Chien Hung Cho, Dominic W. Berry, Min-Hsiu Hsieh</author>
+    <pubDate>Oct 21 2022</pubDate>
+    <description>Randomization has been applied to Hamiltonian simulation in a number of ways to improve the accuracy or efficiency of product formulas. Deterministic product formulas are often constructed in a symmetric way to provide accuracy of even order 2k. We show that by applying randomized corrections, it is possible to more than double the order to 4k + 1 (corresponding to a doubling of the order of the error). In practice, applying the corrections in a quantum algorithm requires some structure to the Hamiltonian, for example the Pauli strings as are used in the simulation of quantum chemistry.</description>
   </item>
 
 </channel>
