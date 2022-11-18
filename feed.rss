@@ -15,14 +15,6 @@
   </item>
 
   <item>
-    <title>The Quantum Fourier Transform Has Small Entanglement</title>
-    <link>http://arxiv.org/pdf/2210.08468</link>
-    <author>Jielun Chen, E.M. Stoudenmire, Steven R. White</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>The Quantum Fourier Transform (QFT) is a key component of many important quantum algorithms, most famously as being the essential ingredient in Shor's algorithm for factoring products of primes. Given its remarkable capability, one would think it can introduce large entanglement to qubit systems and would be difficult to simulate classically. While early results showed QFT indeed has maximal operator entanglement, we show that this is entirely due to the bit reversal in the QFT. The core part of the QFT has Schmidt coefficients decaying exponentially quickly, and thus it can only generate a constant amount of entanglement regardless of the number of qubits. In addition, we show the entangling power of the QFT is the same as the time evolution of a Hamiltonian with exponentially decaying interactions, and thus a variant of the area law for dynamics can be used to understand the low entanglement intuitively. Using the low entanglement property of the QFT, we show that classical simulations of the QFT on a matrix product state with low bond dimension only take time linear in the number of qubits, providing a potential speedup over the classical fast Fourier transform (FFT) on many classes of functions. We demonstrate this speedup in test calculations on some simple functions. For data vectors of length $10^6$ to $10^8$, the speedup can be a few orders of magnitude.</description>
-  </item>
-
-  <item>
     <title>Exponentially tighter bounds on limitations of quantum error mitigation</title>
     <link>http://arxiv.org/pdf/2210.11505</link>
     <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
@@ -127,6 +119,14 @@
   </item>
 
   <item>
+    <title>Real-time quantum error correction beyond break-even</title>
+    <link>http://arxiv.org/pdf/2211.09116</link>
+    <author>V. V. Sivak, A. Eickbusch, B. Royer, S. Singh, I. Tsioutsios, S. Ganjam, A. Miano, B. L. Brock, A. Z. Ding, L. Frunzio, S. M. Girvin, R. J. Schoelkopf, M. H. Devoret</author>
+    <pubDate>Nov 17 2022</pubDate>
+    <description>The ambition of harnessing the quantum for computation is at odds with the fundamental phenomenon of decoherence. The purpose of quantum error correction (QEC) is to counteract the natural tendency of a complex system to decohere. This cooperative process, which requires participation of multiple quantum and classical components, creates a special type of dissipation that removes the entropy caused by the errors faster than the rate at which these errors corrupt the stored quantum information. Previous experimental attempts to engineer such a process faced an excessive generation of errors that overwhelmed the error-correcting capability of the process itself. Whether it is practically possible to utilize QEC for extending quantum coherence thus remains an open question. We answer it by demonstrating a fully stabilized and error-corrected logical qubit whose quantum coherence is significantly longer than that of all the imperfect quantum components involved in the QEC process, beating the best of them with a coherence gain of $G = 2.27 \pm 0.07$. We achieve this performance by combining innovations in several domains including the fabrication of superconducting quantum circuits and model-free reinforcement learning.</description>
+  </item>
+
+  <item>
     <title>Learning quantum processes without input control</title>
     <link>http://arxiv.org/pdf/2211.05005</link>
     <author>Marco Fanizza, Yihui Quek, Matteo Rosati</author>
@@ -175,14 +175,6 @@
   </item>
 
   <item>
-    <title>Quantum Event Learning and Gentle Random Measurements</title>
-    <link>http://arxiv.org/pdf/2210.09155</link>
-    <author>Adam Bene Watts, John Bostanci</author>
-    <pubDate>Oct 18 2022</pubDate>
-    <description>We prove the expected disturbance caused to a quantum system by a sequence of randomly ordered two-outcome projective measurements is upper bounded by the square root of the probability that at least one measurement in the sequence accepts. We call this bound the Gentle Random Measurement Lemma. We also extend the techniques used to prove this lemma to develop protocols for problems in which we are given sample access to an unknown state $\rho$ and asked to estimate properties of the accepting probabilities $\text{Tr}[M_i \rho]$ of a set of measurements $\{M_1, M_2, ... , M_m\}$. We call these types of problems Quantum Event Learning Problems. In particular, we show randomly ordering projective measurements solves the Quantum OR problem, answering an open question of Aaronson. We also give a Quantum OR protocol which works on non-projective measurements and which outperforms both the random measurement protocol analyzed in this paper and the protocol of Harrow, Lin, and Montanaro. However, this protocol requires a more complicated type of measurement, which we call a Blended Measurement. When the total (summed) accepting probability of unlikely events is bounded, we show the random and blended measurement Quantum OR protocols developed in this paper can also be used to find a measurement $M_i$ such that $\text{Tr}[M_i \rho]$ is large. We call the problem of finding such a measurement Quantum Event Finding. Finally, we show Blended Measurements also give a sample-efficient protocol for Quantum Mean Estimation: a problem in which the goal is to estimate the average accepting probability of a set of measurements on an unknown state.</description>
-  </item>
-
-  <item>
     <title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications</title>
     <link>http://arxiv.org/pdf/2211.01444</link>
     <author>Prabhanjan Ananth, Aditya Gulati, Luowen Qian, Henry Yuen</author>
@@ -196,6 +188,14 @@
     <author>Kevin C. Smith, Eleanor Crane, Nathan Wiebe, S. M. Girvin</author>
     <pubDate>Nov 01 2022</pubDate>
     <description>The ground state of the spin-1 Affleck, Kennedy, Lieb and Tasaki (AKLT) model is a paradigmatic example of both a matrix product state and a symmetry-protected topological phase, and additionally holds promise as a resource state for measurement-based quantum computation. Having a nonzero correlation length, the AKLT state cannot be exactly prepared by a constant-depth unitary circuit composed of local gates. In this work, we demonstrate that this no-go limit can be evaded by augmenting a constant-depth circuit with fusion measurements, such that the total preparation time is independent of system size and entirely deterministic. We elucidate our preparation scheme using the language of tensor networks, and furthermore show that the $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry of the AKLT state directly affords this speed-up over previously known preparation methods. To demonstrate the practical advantage of measurement-assisted preparation on noisy intermediate-scale quantum (NISQ) devices, we carry out our protocol on an IBM Quantum processor. We measure both the string order and entanglement spectrum of prepared AKLT chains and, employing these as metrics, find improved results over the known (purely unitary) sequential preparation approach. We conclude with a demonstration of quantum teleportation using the AKLT state prepared by our measurement-assisted scheme. This work thus serves to provide an efficient strategy to prepare a specific resource in the form of the AKLT state and, more broadly, experimentally demonstrates the possibility for realizable improvement in state preparation afforded by measurement-based circuit depth reduction strategies on NISQ-era devices.</description>
+  </item>
+
+  <item>
+    <title>Invertible bimodule categories and generalized Schur orthogonality</title>
+    <link>http://arxiv.org/pdf/2211.01947</link>
+    <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
+    <pubDate>Nov 04 2022</pubDate>
+    <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
   </item>
 
   <item>
@@ -223,19 +223,19 @@
   </item>
 
   <item>
-    <title>Invertible bimodule categories and generalized Schur orthogonality</title>
-    <link>http://arxiv.org/pdf/2211.01947</link>
-    <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
-  </item>
-
-  <item>
     <title>A super-polynomial quantum-classical separation for density modelling</title>
     <link>http://arxiv.org/pdf/2210.14936</link>
     <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
     <pubDate>Oct 28 2022</pubDate>
     <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
+    <title>Pauli topological subsystem codes from Abelian anyon theories</title>
+    <link>http://arxiv.org/pdf/2211.03798</link>
+    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We construct Pauli topological subsystem codes characterized by arbitrary two-dimensional Abelian anyon theories--this includes anyon theories with degenerate braiding relations and those without a gapped boundary to the vacuum. Our work both extends the classification of two-dimensional Pauli topological subsystem codes to systems of composite-dimensional qudits and establishes that the classification is at least as rich as that of Abelian anyon theories. We exemplify the construction with topological subsystem codes defined on four-dimensional qudits based on the $\mathbb{Z}_4^{(1)}$ anyon theory with degenerate braiding relations and the chiral semion theory--both of which cannot be captured by topological stabilizer codes. The construction proceeds by "gauging out" certain anyon types of a topological stabilizer code. This amounts to defining a gauge group generated by the stabilizer group of the topological stabilizer code and a set of anyonic string operators for the anyon types that are gauged out. The resulting topological subsystem code is characterized by an anyon theory containing a proper subset of the anyons of the topological stabilizer code. We thereby show that every Abelian anyon theory is a subtheory of a stack of toric codes and a certain family of twisted quantum doubles that generalize the double semion anyon theory. We further prove a number of general statements about the logical operators of translation invariant topological subsystem codes and define their associated anyon theories in terms of higher-form symmetries.</description>
   </item>
 
   <item>
