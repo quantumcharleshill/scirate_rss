@@ -31,19 +31,11 @@
   </item>
 
   <item>
-    <title>Refuting spectral compatibility of quantum marginals</title>
-    <link>http://arxiv.org/pdf/2211.06349</link>
-    <author>Felix Huber, Nikolai Wyderka</author>
-    <pubDate>Nov 14 2022</pubDate>
-    <description>The spectral variant of the quantum marginal problem asks: Given prescribed spectra for a set of quantum marginals, does there exist a compatible joint state? The main idea of this work is a symmetry-reduced semidefinite programming hierarchy for detecting incompatible spectra. The hierarchy can provide refutations that are dimension-free, certifying incompatibility in all local dimensions. It equally applies to the compatibility of local unitary invariants, to the sums of Hermitian matrices problem, to optimize trace polynomials on the positive cone, and to certify vanishing Kronecker coefficients.</description>
-  </item>
-
-  <item>
-    <title>Classical shadow tomography for continuous variables quantum systems</title>
-    <link>http://arxiv.org/pdf/2211.07578</link>
-    <author>Simon Becker, Nilanjana Datta, Ludovico Lami, Cambyse Rouzé</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>In this article we develop a continuous variable (CV) shadow tomography scheme with wide ranging applications in quantum optics. Our work is motivated by the increasing experimental and technological relevance of CV systems in quantum information, quantum communication, quantum sensing, quantum simulations, quantum computing and error correction. We introduce two experimentally realisable schemes for obtaining classical shadows of CV (possibly non-Gaussian) quantum states using only randomised Gaussian unitaries and easily implementable Gaussian measurements such as homodyne and heterodyne detection. For both schemes, we show that $N=\mathcal{O}\big(\operatorname{poly}\big(\frac{1}{\epsilon},\log\big(\frac{1}{\delta}\big),M_n^{r+\alpha},\log(m)\big)\big)$ samples of an unknown $m$-mode state $\rho$ suffice to learn the expected value of any $r$-local polynomial in the canonical observables of degree $\alpha$, both with high probability $1-\delta$ and accuracy $\epsilon$, as long as the state $\rho$ has moments of order $n>\alpha$ bounded by $M_n$. By simultaneously truncating states and operators in energy and phase space, we are able to overcome new mathematical challenges that arise due to the infinite-dimensionality of CV systems. We also provide a scheme to learn nonlinear functionals of the state, such as entropies over any small number of modes, by leveraging recent energy-constrained entropic continuity bounds. Finally, we provide numerical evidence of the efficiency of our protocols in the case of CV states of relevance in quantum information theory, including ground states of quadratic Hamiltonians of many-body systems and cat qubit states. We expect our scheme to provide good recovery in learning relevant states of 2D materials and photonic crystals.</description>
+    <title>On the complexity of implementing Trotter steps</title>
+    <link>http://arxiv.org/pdf/2211.09133</link>
+    <author>Guang Hao Low, Yuan Su, Yu Tong, Minh C. Tran</author>
+    <pubDate>Nov 18 2022</pubDate>
+    <description>Quantum dynamics can be simulated on a quantum computer by exponentiating elementary terms from the Hamiltonian in a sequential manner. However, such an implementation of Trotter steps has gate complexity depending on the total Hamiltonian term number, comparing unfavorably to algorithms using more advanced techniques. We develop methods to perform faster Trotter steps with complexity sublinear in the number of terms. We achieve this for a class of Hamiltonians whose interaction strength decays with distance according to power law. Our methods include one based on a recursive block encoding and one based on an average-cost simulation, overcoming the normalization-factor barrier of these advanced quantum simulation techniques. We also realize faster Trotter steps when certain blocks of Hamiltonian coefficients have low rank. Combining with a tighter error analysis, we show that it suffices to use $\left(\eta^{1/3}n^{1/3}+\frac{n^{2/3}}{\eta^{2/3}}\right)n^{1+o(1)}$ gates to simulate uniform electron gas with $n$ spin orbitals and $\eta$ electrons in second quantization in real space, asymptotically improving over the best previous work. We obtain an analogous result when the external potential of nuclei is introduced under the Born-Oppenheimer approximation. We prove a circuit lower bound when the Hamiltonian coefficients take a continuum range of values, showing that generic $n$-qubit $2$-local Hamiltonians with commuting terms require at least $\Omega(n^2)$ gates to evolve with accuracy $\epsilon=\Omega(1/poly(n))$ for time $t=\Omega(\epsilon)$. Our proof is based on a gate-efficient reduction from the approximate synthesis of diagonal unitaries within the Hamming weight-$2$ subspace, which may be of independent interest. Our result thus suggests the use of Hamiltonian structural properties as both necessary and sufficient to implement Trotter steps with lower gate complexity.</description>
   </item>
 
   <item>
@@ -55,35 +47,43 @@
   </item>
 
   <item>
+    <title>Refuting spectral compatibility of quantum marginals</title>
+    <link>http://arxiv.org/pdf/2211.06349</link>
+    <author>Felix Huber, Nikolai Wyderka</author>
+    <pubDate>Nov 14 2022</pubDate>
+    <description>The spectral variant of the quantum marginal problem asks: Given prescribed spectra for a set of quantum marginals, does there exist a compatible joint state? The main idea of this work is a symmetry-reduced semidefinite programming hierarchy for detecting incompatible spectra. The hierarchy can provide refutations that are dimension-free, certifying incompatibility in all local dimensions. It equally applies to the compatibility of local unitary invariants, to the sums of Hermitian matrices problem, to optimize trace polynomials on the positive cone, and to certify vanishing Kronecker coefficients.</description>
+  </item>
+
+  <item>
+    <title>A (simple) classical algorithm for estimating Betti numbers</title>
+    <link>http://arxiv.org/pdf/2211.09618</link>
+    <author>Simon Apers, Sayantan Sen, Dániel Szabó</author>
+    <pubDate>Nov 18 2022</pubDate>
+    <description>We describe a simple algorithm for estimating the $k$-th normalized Betti number of a simplicial complex over $n$ elements using the path integral Monte Carlo method. For a general simplicial complex, the running time of our algorithm is $n^{O(\frac{1}{\gamma}\log\frac{1}{\varepsilon})}$ with $\gamma$ measuring the spectral gap of the combinatorial Laplacian and $\varepsilon \in (0,1)$ the additive precision. In the case of a clique complex, the running time of our algorithm improves to $(n/\lambda_{\max})^{O(\frac{1}{\gamma}\log\frac{1}{\varepsilon})}$ with $\lambda_{\max} \geq k$ the maximum eigenvalue of the combinatorial Laplacian. Our algorithm provides a classical benchmark for a line of quantum algorithms for estimating Betti numbers, and it matches their running time on clique complexes when the spectral gap is constant and $k \in \Omega(n)$ or $\lambda_{\max} \in \Omega(n)$.</description>
+  </item>
+
+  <item>
+    <title>Classical shadow tomography for continuous variables quantum systems</title>
+    <link>http://arxiv.org/pdf/2211.07578</link>
+    <author>Simon Becker, Nilanjana Datta, Ludovico Lami, Cambyse Rouzé</author>
+    <pubDate>Nov 15 2022</pubDate>
+    <description>In this article we develop a continuous variable (CV) shadow tomography scheme with wide ranging applications in quantum optics. Our work is motivated by the increasing experimental and technological relevance of CV systems in quantum information, quantum communication, quantum sensing, quantum simulations, quantum computing and error correction. We introduce two experimentally realisable schemes for obtaining classical shadows of CV (possibly non-Gaussian) quantum states using only randomised Gaussian unitaries and easily implementable Gaussian measurements such as homodyne and heterodyne detection. For both schemes, we show that $N=\mathcal{O}\big(\operatorname{poly}\big(\frac{1}{\epsilon},\log\big(\frac{1}{\delta}\big),M_n^{r+\alpha},\log(m)\big)\big)$ samples of an unknown $m$-mode state $\rho$ suffice to learn the expected value of any $r$-local polynomial in the canonical observables of degree $\alpha$, both with high probability $1-\delta$ and accuracy $\epsilon$, as long as the state $\rho$ has moments of order $n>\alpha$ bounded by $M_n$. By simultaneously truncating states and operators in energy and phase space, we are able to overcome new mathematical challenges that arise due to the infinite-dimensionality of CV systems. We also provide a scheme to learn nonlinear functionals of the state, such as entropies over any small number of modes, by leveraging recent energy-constrained entropic continuity bounds. Finally, we provide numerical evidence of the efficiency of our protocols in the case of CV states of relevance in quantum information theory, including ground states of quadratic Hamiltonians of many-body systems and cat qubit states. We expect our scheme to provide good recovery in learning relevant states of 2D materials and photonic crystals.</description>
+  </item>
+
+  <item>
+    <title>Digital simulation of non-Abelian anyons with 68 programmable superconducting qubits</title>
+    <link>http://arxiv.org/pdf/2211.09802</link>
+    <author>Shibo Xu, Zheng-Zhi Sun, Ke Wang, Liang Xiang, Zehang Bao, Zitian Zhu, Fanhao Shen, Zixuan Song, Pengfei Zhang, Wenhui Ren, Xu Zhang, Hang Dong, Jinfeng Deng, Jiachen Chen, Yaozu Wu, Ziqi Tan, Yu Gao, Feitong Jin, Xuhao Zhu, Chuanyu Zhang, et al (14)</author>
+    <pubDate>Nov 18 2022</pubDate>
+    <description>Non-Abelian anyons are exotic quasiparticle excitations hosted by certain topological phases of matter [1-2]. They break the fermion-boson dichotomy and obey non-Abelian braiding statistics [3-5]: their interchanges yield unitary operations, rather than merely a phase factor, in a space spanned by topologically degenerate wavefunctions. They are the building blocks of topological quantum computing [1, 6-9]. However, experimental observation of non-Abelian anyons and their characterizing braiding statistics have remained elusive hitherto, in spite of various theoretical proposals [10-21]. Here, we report such an observation with up to 68 programmable superconducting qubits arranged on a two-dimensional lattice. By implementing the toric-code model with twists through quantum circuits, we demonstrate that twists exchange electric and magnetic charges and behave as a particular type of non-Abelian anyons -- the Ising anyons. In particular, we show experimentally that these anyons follow the fusion rules and non-Abelian braiding statistics of the Ising type, and can indeed be used to encode topological logical qubits. Furthermore, we demonstrate how to implement both single- and two-qubit logical gates through applying a sequence of elementary Pauli gates on the underlying physical qubits and then measuring some nonlocal observables. Our results establish a versatile digital approach to realize and manipulate non-Abelian anyons, thus paving an alternative way to topological quantum computing.</description>
+  </item>
+
+  <item>
     <title>Hardware optimized parity check gates for superconducting surface codes</title>
     <link>http://arxiv.org/pdf/2211.06382</link>
     <author>Matthew J. Reagor, Thomas C. Bohdanowicz, David Rodriguez Perez, Eyob A. Sete, William J. Zeng</author>
     <pubDate>Nov 14 2022</pubDate>
     <description>Error correcting codes use multi-qubit measurements to realize fault-tolerant quantum logic steps. In fact, the resources needed to scale-up fault-tolerant quantum computing hardware are largely set by this task. Tailoring next-generation processors for joint measurements, therefore, could result in improvements to speed, accuracy, or cost -- accelerating the development large-scale quantum computers. Here, we motivate such explorations by analyzing an unconventional surface code based on multi-body interactions between superconducting transmon qubits. Our central consideration, Hardware Optimized Parity (HOP) gates, achieves stabilizer-type measurements through simultaneous multi-qubit conditional phase accumulation. Despite the multi-body effects that underpin this approach, our estimates of logical faults suggest that this design can be at least as robust to realistic noise as conventional designs. We show a higher threshold of $1.25 \times 10^{-3}$ compared to the standard code's $0.79 \times 10^{-3}$. However, in the HOP code the logical error rate decreases more slowly with decreasing physical error rate. Our results point to a fruitful path forward towards extending gate-model platforms for error correction at the dawn of its empirical development.</description>
-  </item>
-
-  <item>
-    <title>Error bounds for Lie Group representations in quantum mechanics</title>
-    <link>http://arxiv.org/pdf/2211.08582</link>
-    <author>Lauritz van Luijk, Niklas Galke, Alexander Hahn, Daniel Burgarth</author>
-    <pubDate>Nov 17 2022</pubDate>
-    <description>We provide state-dependent error bounds for strongly continuous unitary representations of connected Lie groups. That is, we bound the difference of two unitaries applied to a state in terms of the energy with respect to a reference Hamiltonian associated to the representation and a left-invariant metric distance on the group. Our method works for any connected Lie group and the metric is independent of the chosen representation. The approach also applies to projective representations and allows us to provide bounds on the energy constrained diamond norm distance of any suitably continuous channel representation of the group.</description>
-  </item>
-
-  <item>
-    <title>Protecting Expressive Circuits with a Quantum Error Detection Code</title>
-    <link>http://arxiv.org/pdf/2211.06703</link>
-    <author>Chris N. Self, Marcello Benedetti, David Amaro</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>Quantum error correction opens the way for quantum computers to speed up relevant tasks like simulating quantum systems. However, fully fault-tolerant quantum error correction is too resource intensive for existing quantum computers. In this context we develop the $[[k+2,k,2]]$ quantum error detection code, for implementations on existing trapped-ion computers. Encoding $k$ logical qubits into $k+2$ physical qubits, this code presents fault-tolerant state initialisation and syndrome measurement circuits that can detect any single-qubit error. It provides a universal set of local and global logical rotations that, notably, have physical support on only two qubits. A high-fidelity -- though non fault-tolerant -- compilation of this universal gate set is possible thanks to the two-qubit physical rotations present in trapped-ion computers with all-to-all connectivity. Given the particular structure of the logical operators, we nickname it the Iceberg code. On the 12-qubit Quantinuum H1-2 hardware we demonstrate the protection of circuits of 8 logical qubits with up to 256 layers, saturate the logical quantum volume of $2^8$, and show the positive effect of increasing the frequency of syndrome measurements within the circuit. These results illustrate the practical usefulness of the Iceberg code to protect expressive circuits on existing trapped-ion quantum computers.</description>
-  </item>
-
-  <item>
-    <title>Parallel repetition of local simultaneous state discrimination</title>
-    <link>http://arxiv.org/pdf/2211.06456</link>
-    <author>Llorenç Escolà Farràs, Jaròn Has, Maris Ozols, Christian Schaffner, Mehrdad Tahmasbi</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>Local simultaneous state discrimination (LSSD) is a recently introduced problem in quantum information processing. Its classical version is a non-local game played by non-communicating players against a referee. Based on a known probability distribution, the referee generates one input for each of the players and keeps one secret value. The players have to guess the referee's value and win if they all do so. For this game, we investigate the advantage of no-signalling strategies over classical ones. We show numerically that for three players and binary values, no-signalling strategies cannot provide any improvement over classical ones. For a certain LSSD game based on a binary symmetric channel, we show that no-signalling strategies are strictly better when multiple simultaneous instances of the game are played. Good classical strategies for this game can be defined by codes, and good no-signalling strategies by list-decoding schemes. We expand this example game to a class of games defined by an arbitrary channel, and extend the idea of using codes and list decoding to define strategies for multiple simultaneous instances of these games. Finally, we give an expression for the limit of the exponent of the classical winning probability, and show that no-signalling strategies based on list-decoding schemes achieve this limit.</description>
   </item>
 
 </channel>
