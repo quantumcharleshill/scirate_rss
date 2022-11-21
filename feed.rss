@@ -55,14 +55,6 @@
   </item>
 
   <item>
-    <title>Observation of non-Abelian exchange statistics on a superconducting processor</title>
-    <link>http://arxiv.org/pdf/2210.10255</link>
-    <author>Trond I. Andersen, Yuri D. Lensky, Kostyantyn Kechedzhi, Ilya Drozdov, Andreas Bengtsson, Sabrina Hong, Alexis Morvan, Xiao Mi, Alex Opremcak, Rajeev Acharya, Richard Allen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Gina Bortoli, et al (149)</author>
-    <pubDate>Oct 20 2022</pubDate>
-    <description>Indistinguishability of particles is a fundamental principle of quantum mechanics. For all elementary and quasiparticles observed to date - including fermions, bosons, and Abelian anyons - this principle guarantees that the braiding of identical particles leaves the system unchanged. However, in two spatial dimensions, an intriguing possibility exists: braiding of non-Abelian anyons causes rotations in a space of topologically degenerate wavefunctions. Hence, it can change the observables of the system without violating the principle of indistinguishability. Despite the well developed mathematical description of non-Abelian anyons and numerous theoretical proposals, their experimental observation has remained elusive for decades. Using a superconducting quantum processor, we prepare the ground state of the surface code and manipulate it via unitary operations to form wavefunctions that are described by non-Abelian anyons. By implementing a unitary protocol to move the anyons, we experimentally verify the fusion rules of non-Abelian Ising anyons and braid them to realize their statistics. Building on our technique, we study the prospect of employing the anyons for quantum computation and utilize braiding to create an entangled state of anyons encoding three logical qubits. Our work represents a key step towards topological quantum computing.</description>
-  </item>
-
-  <item>
     <title>Bosonic coding: introduction and use cases</title>
     <link>http://arxiv.org/pdf/2211.05714</link>
     <author>Victor V. Albert</author>
@@ -103,11 +95,11 @@
   </item>
 
   <item>
-    <title>Classical simulation of short-time quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2210.11490</link>
-    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
-    <pubDate>Oct 24 2022</pubDate>
-    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
+    <title>On the complexity of implementing Trotter steps</title>
+    <link>http://arxiv.org/pdf/2211.09133</link>
+    <author>Guang Hao Low, Yuan Su, Yu Tong, Minh C. Tran</author>
+    <pubDate>Nov 18 2022</pubDate>
+    <description>Quantum dynamics can be simulated on a quantum computer by exponentiating elementary terms from the Hamiltonian in a sequential manner. However, such an implementation of Trotter steps has gate complexity depending on the total Hamiltonian term number, comparing unfavorably to algorithms using more advanced techniques. We develop methods to perform faster Trotter steps with complexity sublinear in the number of terms. We achieve this for a class of Hamiltonians whose interaction strength decays with distance according to power law. Our methods include one based on a recursive block encoding and one based on an average-cost simulation, overcoming the normalization-factor barrier of these advanced quantum simulation techniques. We also realize faster Trotter steps when certain blocks of Hamiltonian coefficients have low rank. Combining with a tighter error analysis, we show that it suffices to use $\left(\eta^{1/3}n^{1/3}+\frac{n^{2/3}}{\eta^{2/3}}\right)n^{1+o(1)}$ gates to simulate uniform electron gas with $n$ spin orbitals and $\eta$ electrons in second quantization in real space, asymptotically improving over the best previous work. We obtain an analogous result when the external potential of nuclei is introduced under the Born-Oppenheimer approximation. We prove a circuit lower bound when the Hamiltonian coefficients take a continuum range of values, showing that generic $n$-qubit $2$-local Hamiltonians with commuting terms require at least $\Omega(n^2)$ gates to evolve with accuracy $\epsilon=\Omega(1/poly(n))$ for time $t=\Omega(\epsilon)$. Our proof is based on a gate-efficient reduction from the approximate synthesis of diagonal unitaries within the Hamming weight-$2$ subspace, which may be of independent interest. Our result thus suggests the use of Hamiltonian structural properties as both necessary and sufficient to implement Trotter steps with lower gate complexity.</description>
   </item>
 
   <item>
@@ -119,11 +111,11 @@
   </item>
 
   <item>
-    <title>Greatly improved higher-order product formulae for quantum simulation</title>
-    <link>http://arxiv.org/pdf/2210.15817</link>
-    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
+    <title>Classical simulation of short-time quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2210.11490</link>
+    <author>Dominik S. Wild, Álvaro M. Alhambra</author>
+    <pubDate>Oct 24 2022</pubDate>
+    <description>Locality is a key simplifying feature of many physical systems. Cluster expansion techniques provide one particular way of exploiting it. They have historically appeared in statistical physics to prove the uniqueness of Gibbs states and the decay of correlations at high temperature, among many other results. Here, we apply these techniques to quantum many-body systems evolving under local Hamiltonians. We consider the evolution of both local observables and non-local quantities such as the Loschmidt echo. We show that for a product initial state, the cluster expansion enables efficient classical computation of the dynamics up to a fixed evolution time, independent of the system size. The computational cost scales polynomially with the system size and the inverse of the approximation error. In the case of local observables, we can extend the evolution time to any constant value using analytic continuation. In more than one dimension, the resulting algorithm has a better dependence on the approximation error than algorithms based on the Lieb-Robinson bound. Our algorithms rely on the convergence of the cluster expansion, which also has important physical consequences. In particular, we establish a novel quantum speed limit, a bound on dynamical phase transitions, and a concentration bound for product states evolved for short times.</description>
   </item>
 
   <item>
@@ -135,11 +127,11 @@
   </item>
 
   <item>
-    <title>On the complexity of implementing Trotter steps</title>
-    <link>http://arxiv.org/pdf/2211.09133</link>
-    <author>Guang Hao Low, Yuan Su, Yu Tong, Minh C. Tran</author>
-    <pubDate>Nov 18 2022</pubDate>
-    <description>Quantum dynamics can be simulated on a quantum computer by exponentiating elementary terms from the Hamiltonian in a sequential manner. However, such an implementation of Trotter steps has gate complexity depending on the total Hamiltonian term number, comparing unfavorably to algorithms using more advanced techniques. We develop methods to perform faster Trotter steps with complexity sublinear in the number of terms. We achieve this for a class of Hamiltonians whose interaction strength decays with distance according to power law. Our methods include one based on a recursive block encoding and one based on an average-cost simulation, overcoming the normalization-factor barrier of these advanced quantum simulation techniques. We also realize faster Trotter steps when certain blocks of Hamiltonian coefficients have low rank. Combining with a tighter error analysis, we show that it suffices to use $\left(\eta^{1/3}n^{1/3}+\frac{n^{2/3}}{\eta^{2/3}}\right)n^{1+o(1)}$ gates to simulate uniform electron gas with $n$ spin orbitals and $\eta$ electrons in second quantization in real space, asymptotically improving over the best previous work. We obtain an analogous result when the external potential of nuclei is introduced under the Born-Oppenheimer approximation. We prove a circuit lower bound when the Hamiltonian coefficients take a continuum range of values, showing that generic $n$-qubit $2$-local Hamiltonians with commuting terms require at least $\Omega(n^2)$ gates to evolve with accuracy $\epsilon=\Omega(1/poly(n))$ for time $t=\Omega(\epsilon)$. Our proof is based on a gate-efficient reduction from the approximate synthesis of diagonal unitaries within the Hamming weight-$2$ subspace, which may be of independent interest. Our result thus suggests the use of Hamiltonian structural properties as both necessary and sufficient to implement Trotter steps with lower gate complexity.</description>
+    <title>Greatly improved higher-order product formulae for quantum simulation</title>
+    <link>http://arxiv.org/pdf/2210.15817</link>
+    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
+    <pubDate>Oct 31 2022</pubDate>
+    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
   </item>
 
   <item>
@@ -199,11 +191,11 @@
   </item>
 
   <item>
-    <title>Purification-based quantum error mitigation of pair-correlated electron simulations</title>
-    <link>http://arxiv.org/pdf/2210.10799</link>
-    <author>T. E. O'Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins, O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, I. Aleiner, R. Allen, T. I. Andersen, K. Anderson, M. Ansmann, F. Arute, K. Arya, A. Asfaw, J. Atalaya, D. Bacon, et al (156)</author>
-    <pubDate>Oct 21 2022</pubDate>
-    <description>An important measure of the development of quantum computing platforms has been the simulation of increasingly complex physical systems. Prior to fault-tolerant quantum computing, robust error mitigation strategies are necessary to continue this growth. Here, we study physical simulation within the seniority-zero electron pairing subspace, which affords both a computational stepping stone to a fully correlated model, and an opportunity to validate recently introduced ``purification-based'' error-mitigation strategies. We compare the performance of error mitigation based on doubling quantum resources in time (echo verification) or in space (virtual distillation), on up to $20$ qubits of a superconducting qubit quantum processor. We observe a reduction of error by one to two orders of magnitude below less sophisticated techniques (e.g. post-selection); the gain from error mitigation is seen to increase with the system size. Employing these error mitigation strategies enables the implementation of the largest variational algorithm for a correlated chemistry system to-date. Extrapolating performance from these results allows us to estimate minimum requirements for a beyond-classical simulation of electronic structure. We find that, despite the impressive gains from purification-based error mitigation, significant hardware improvements will be required for classically intractable variational chemistry simulations.</description>
+    <title>A (simple) classical algorithm for estimating Betti numbers</title>
+    <link>http://arxiv.org/pdf/2211.09618</link>
+    <author>Simon Apers, Sayantan Sen, Dániel Szabó</author>
+    <pubDate>Nov 18 2022</pubDate>
+    <description>We describe a simple algorithm for estimating the $k$-th normalized Betti number of a simplicial complex over $n$ elements using the path integral Monte Carlo method. For a general simplicial complex, the running time of our algorithm is $n^{O(\frac{1}{\gamma}\log\frac{1}{\varepsilon})}$ with $\gamma$ measuring the spectral gap of the combinatorial Laplacian and $\varepsilon \in (0,1)$ the additive precision. In the case of a clique complex, the running time of our algorithm improves to $(n/\lambda_{\max})^{O(\frac{1}{\gamma}\log\frac{1}{\varepsilon})}$ with $\lambda_{\max} \geq k$ the maximum eigenvalue of the combinatorial Laplacian. Our algorithm provides a classical benchmark for a line of quantum algorithms for estimating Betti numbers, and it matches their running time on clique complexes when the spectral gap is constant and $k \in \Omega(n)$ or $\lambda_{\max} \in \Omega(n)$.</description>
   </item>
 
   <item>
@@ -244,6 +236,14 @@
     <author>Niklas Pirnay, Ryan Sweke, Jens Eisert, Jean-Pierre Seifert</author>
     <pubDate>Oct 28 2022</pubDate>
     <description>Density modelling is the task of learning an unknown probability density function from samples, and is one of the central problems of unsupervised machine learning. In this work, we show that there exists a density modelling problem for which fault-tolerant quantum computers can offer a super-polynomial advantage over classical learning algorithms, given standard cryptographic assumptions. Along the way, we provide a variety of additional results and insights, of potential interest for proving future distribution learning separations between quantum and classical learning algorithms. Specifically, we (a) provide an overview of the relationships between hardness results in supervised learning and distribution learning, and (b) show that any weak pseudo-random function can be used to construct a classically hard density modelling problem. The latter result opens up the possibility of proving quantum-classical separations for density modelling based on weaker assumptions than those necessary for pseudo-random functions.</description>
+  </item>
+
+  <item>
+    <title>Pauli topological subsystem codes from Abelian anyon theories</title>
+    <link>http://arxiv.org/pdf/2211.03798</link>
+    <author>Tyler D. Ellison, Yu-An Chen, Arpit Dua, Wilbur Shirley, Nathanan Tantivasadakarn, Dominic J. Williamson</author>
+    <pubDate>Nov 09 2022</pubDate>
+    <description>We construct Pauli topological subsystem codes characterized by arbitrary two-dimensional Abelian anyon theories--this includes anyon theories with degenerate braiding relations and those without a gapped boundary to the vacuum. Our work both extends the classification of two-dimensional Pauli topological subsystem codes to systems of composite-dimensional qudits and establishes that the classification is at least as rich as that of Abelian anyon theories. We exemplify the construction with topological subsystem codes defined on four-dimensional qudits based on the $\mathbb{Z}_4^{(1)}$ anyon theory with degenerate braiding relations and the chiral semion theory--both of which cannot be captured by topological stabilizer codes. The construction proceeds by "gauging out" certain anyon types of a topological stabilizer code. This amounts to defining a gauge group generated by the stabilizer group of the topological stabilizer code and a set of anyonic string operators for the anyon types that are gauged out. The resulting topological subsystem code is characterized by an anyon theory containing a proper subset of the anyons of the topological stabilizer code. We thereby show that every Abelian anyon theory is a subtheory of a stack of toric codes and a certain family of twisted quantum doubles that generalize the double semion anyon theory. We further prove a number of general statements about the logical operators of translation invariant topological subsystem codes and define their associated anyon theories in terms of higher-form symmetries.</description>
   </item>
 
 </channel>
