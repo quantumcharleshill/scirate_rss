@@ -15,6 +15,14 @@
   </item>
 
   <item>
+    <title>Closed-form analytic expressions for shadow estimation with brickwork circuits</title>
+    <link>http://arxiv.org/pdf/2211.09835</link>
+    <author>Mirko Arienzo, Markus Heinrich, Ingo Roth, Martin Kliesch</author>
+    <pubDate>Nov 21 2022</pubDate>
+    <description>Properties of quantum systems can be estimated using classical shadows, which implement measurements based on random ensembles of unitaries. Originally derived for global Clifford unitaries and products of single-qubit Clifford gates, practical implementations are limited to the latter scheme for moderate numbers of qubits. Beyond local gates, the accurate implementation of very short random circuits with two-local gates is still experimentally feasible and, therefore, interesting for implementing measurements in near-term applications. In this work, we derive closed-form analytical expressions for shadow estimation using brickwork circuits with two layers of parallel two-local Haar-random (or Clifford) unitaries. Besides the construction of the classical shadow, our results give rise to sample-complexity guarantees for estimating Pauli observables. We then compare the performance of shadow estimation with brickwork circuits to the established approach using local Clifford unitaries and find improved sample complexity in the estimation of observables supported on sufficiently many qubits.</description>
+  </item>
+
+  <item>
     <title>Magic of Random Matrix Product States</title>
     <link>http://arxiv.org/pdf/2211.10350</link>
     <author>Liyuan Chen, Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
@@ -31,19 +39,11 @@
   </item>
 
   <item>
-    <title>Private Federated Statistics in an Interactive Setting</title>
-    <link>http://arxiv.org/pdf/2211.10082</link>
-    <author>Audra McMillan, Omid Javidbakht, Kunal Talwar, Elliot Briggs, Mike Chatzidakis, Junye Chen, John Duchi, Vitaly Feldman, Yusuf Goren, Michael Hesse, Vojta Jina, Anil Katti, Albert Liu, Cheney Lyford, Joey Meyer, Alex Palmer, David Park, Wonhee Park, Gianni Parsa, Paul Pelzl, et al (4)</author>
+    <title>Scrambling and Quantum Teleportation</title>
+    <link>http://arxiv.org/pdf/2211.10068</link>
+    <author>MuSeong Kim, Mi-Ra Hwang, Eylee Jung, DaeKil Park</author>
     <pubDate>Nov 21 2022</pubDate>
-    <description>Privately learning statistics of events on devices can enable improved user experience. Differentially private algorithms for such problems can benefit significantly from interactivity. We argue that an aggregation protocol can enable an interactive private federated statistics system where user's devices maintain control of the privacy assurance. We describe the architecture of such a system, and analyze its security properties.</description>
-  </item>
-
-  <item>
-    <title>Optimal Algorithms for Linear Algebra in the Current Matrix Multiplication Time</title>
-    <link>http://arxiv.org/pdf/2211.09964</link>
-    <author>Yeshwanth Cherapanamjeri, Sandeep Silwal, David P. Woodruff, Samson Zhou</author>
-    <pubDate>Nov 21 2022</pubDate>
-    <description>We study fundamental problems in linear algebra, such as finding a maximal linearly independent subset of rows or columns (a basis), solving linear regression, or computing a subspace embedding. For these problems, we consider input matrices $\mathbf{A}\in\mathbb{R}^{n\times d}$ with $n > d$. The input can be read in $\text{nnz}(\mathbf{A})$ time, which denotes the number of nonzero entries of $\mathbf{A}$. In this paper, we show that beyond the time required to read the input matrix, these fundamental linear algebra problems can be solved in $d^{\omega}$ time, i.e., where $\omega \approx 2.37$ is the current matrix-multiplication exponent. To do so, we introduce a constant-factor subspace embedding with the optimal $m=\mathcal{O}(d)$ number of rows, and which can be applied in time $\mathcal{O}\left(\frac{\text{nnz}(\mathbf{A})}{\alpha}\right) + d^{2 + \alpha}\text{poly}(\log d)$ for any trade-off parameter $\alpha>0$, tightening a recent result by Chepurko et. al. [SODA 2022] that achieves an $\exp(\text{poly}(\log\log n))$ distortion with $m=d\cdot\text{poly}(\log\log d)$ rows in $\mathcal{O}\left(\frac{\text{nnz}(\mathbf{A})}{\alpha}+d^{2+\alpha+o(1)}\right)$ time. Our subspace embedding uses a recently shown property of stacked Subsampled Randomized Hadamard Transforms (SRHT), which actually increase the input dimension, to "spread" the mass of an input vector among a large number of coordinates, followed by random sampling. To control the effects of random sampling, we use fast semidefinite programming to reweight the rows. We then use our constant-factor subspace embedding to give the first optimal runtime algorithms for finding a maximal linearly independent subset of columns, regression, and leverage score sampling. To do so, we also introduce a novel subroutine that iteratively grows a set of independent rows, which may be of independent interest.</description>
+    <description>Scrambling is a concept introduced from information loss problem arising in black hole. In this paper we discuss the effect of scrambling from a perspective of pure quantum information theory. We introduce $7$-qubit quantum circuit for a quantum teleportation. It is shown that the teleportation can be perfect if a maximal scrambling unitary is used. From this fact we conjecture that ``the quantity of scrambling is proportional to the fidelity of teleportation''. In order to confirm the conjecture we introduce $\theta$-dependent partially scrambling unitary, which reduces to no scrambling and maximal scrambling at $\theta = 0$ and $\theta = \pi / 2$, respectively. Then, we compute the average fidelity analytically, and numerically by making use of qiskit (version $0.36.2$) and $7$-qibit real quantum computer ibm$\_$oslo. Finally, we conclude that our conjecture can be true or false depending on the choice of qubits for Bell measurement.</description>
   </item>
 
 </channel>

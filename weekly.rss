@@ -23,19 +23,11 @@
   </item>
 
   <item>
-    <title>Assessing requirements to scale to practical quantum advantage</title>
-    <link>http://arxiv.org/pdf/2211.07629</link>
-    <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>While quantum computers promise to solve some scientifically and commercially valuable problems thought intractable for classical machines, delivering on this promise will require a large-scale quantum machine. Understanding the impact of architecture design choices for a scaled quantum stack for specific applications, prior to full realization of the quantum system, is an important open challenge. To this end, we develop a framework for quantum resource estimation, abstracting the layers of the stack, to estimate resources required across these layers for large-scale quantum applications. Using a tool that implements this framework, we assess three scaled quantum applications and find that hundreds of thousands to millions of physical qubits are needed to achieve practical quantum advantage. We identify three qubit parameters, namely size, speed, and controllability, that are critical at scale to rendering these applications practical. A goal of our work is to accelerate progress towards practical quantum advantage by enabling the broader community to explore design choices across the stack, from algorithms to qubits.</description>
-  </item>
-
-  <item>
-    <title>Generating $k$ EPR-pairs from an n-party resource state</title>
-    <link>http://arxiv.org/pdf/2211.06497</link>
-    <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
+    <title>Transversal Injection: A method for direct encoding of ancilla states for non-Clifford gates using stabiliser codes</title>
+    <link>http://arxiv.org/pdf/2211.10046</link>
+    <author>Jason Gavriel, Daniel Herr, Alexis Shaw, Michael J. Bremner, Alexandru Paler, Simon J. Devitt</author>
+    <pubDate>Nov 21 2022</pubDate>
+    <description>Fault-tolerant, error-corrected quantum computation is commonly acknowledged to be crucial to the realisation of large-scale quantum algorithms that could lead to extremely impactful scientific or commercial results. Achieving a universal set of quantum gate operations in a fault-tolerant error-corrected framework suffers from a `conservation of unpleasantness'. In general, no matter what error correction technique is employed, there is always one element of a universal gate set that carries a significant resource overhead - either in physical qubits, computational time, or both. Specifically, this is due to the application of non-Clifford gates. A common method for realising these gates for stabiliser codes such as the surface code is a combination of three protocols: state injection, distillation and gate teleportation. These protocols contribute to the resource overhead compared to logical operations such as a CNOT gate and contributes to the qubit resources for any error-corrected quantum algorithm. In this paper, we introduce a very simple protocol to potentially reduce this overhead for non-Clifford gates: Transversal Injection. Transversal injection modifies the initial physical states of all data qubits in a stabiliser code before standard encoding and results in the direct preparation of a large class of single qubit states, including resource states for non-Clifford logic gates. Preliminary results hint at high quality fidelities at larger distances and motivate further research on this technique.</description>
   </item>
 
   <item>
@@ -55,19 +47,19 @@
   </item>
 
   <item>
-    <title>Classical shadow tomography for continuous variables quantum systems</title>
-    <link>http://arxiv.org/pdf/2211.07578</link>
-    <author>Simon Becker, Nilanjana Datta, Ludovico Lami, Cambyse Rouzé</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>In this article we develop a continuous variable (CV) shadow tomography scheme with wide ranging applications in quantum optics. Our work is motivated by the increasing experimental and technological relevance of CV systems in quantum information, quantum communication, quantum sensing, quantum simulations, quantum computing and error correction. We introduce two experimentally realisable schemes for obtaining classical shadows of CV (possibly non-Gaussian) quantum states using only randomised Gaussian unitaries and easily implementable Gaussian measurements such as homodyne and heterodyne detection. For both schemes, we show that $N=\mathcal{O}\big(\operatorname{poly}\big(\frac{1}{\epsilon},\log\big(\frac{1}{\delta}\big),M_n^{r+\alpha},\log(m)\big)\big)$ samples of an unknown $m$-mode state $\rho$ suffice to learn the expected value of any $r$-local polynomial in the canonical observables of degree $\alpha$, both with high probability $1-\delta$ and accuracy $\epsilon$, as long as the state $\rho$ has moments of order $n>\alpha$ bounded by $M_n$. By simultaneously truncating states and operators in energy and phase space, we are able to overcome new mathematical challenges that arise due to the infinite-dimensionality of CV systems. We also provide a scheme to learn nonlinear functionals of the state, such as entropies over any small number of modes, by leveraging recent energy-constrained entropic continuity bounds. Finally, we provide numerical evidence of the efficiency of our protocols in the case of CV states of relevance in quantum information theory, including ground states of quadratic Hamiltonians of many-body systems and cat qubit states. We expect our scheme to provide good recovery in learning relevant states of 2D materials and photonic crystals.</description>
-  </item>
-
-  <item>
     <title>Digital simulation of non-Abelian anyons with 68 programmable superconducting qubits</title>
     <link>http://arxiv.org/pdf/2211.09802</link>
     <author>Shibo Xu, Zheng-Zhi Sun, Ke Wang, Liang Xiang, Zehang Bao, Zitian Zhu, Fanhao Shen, Zixuan Song, Pengfei Zhang, Wenhui Ren, Xu Zhang, Hang Dong, Jinfeng Deng, Jiachen Chen, Yaozu Wu, Ziqi Tan, Yu Gao, Feitong Jin, Xuhao Zhu, Chuanyu Zhang, et al (14)</author>
     <pubDate>Nov 18 2022</pubDate>
     <description>Non-Abelian anyons are exotic quasiparticle excitations hosted by certain topological phases of matter [1-2]. They break the fermion-boson dichotomy and obey non-Abelian braiding statistics [3-5]: their interchanges yield unitary operations, rather than merely a phase factor, in a space spanned by topologically degenerate wavefunctions. They are the building blocks of topological quantum computing [1, 6-9]. However, experimental observation of non-Abelian anyons and their characterizing braiding statistics have remained elusive hitherto, in spite of various theoretical proposals [10-21]. Here, we report such an observation with up to 68 programmable superconducting qubits arranged on a two-dimensional lattice. By implementing the toric-code model with twists through quantum circuits, we demonstrate that twists exchange electric and magnetic charges and behave as a particular type of non-Abelian anyons -- the Ising anyons. In particular, we show experimentally that these anyons follow the fusion rules and non-Abelian braiding statistics of the Ising type, and can indeed be used to encode topological logical qubits. Furthermore, we demonstrate how to implement both single- and two-qubit logical gates through applying a sequence of elementary Pauli gates on the underlying physical qubits and then measuring some nonlocal observables. Our results establish a versatile digital approach to realize and manipulate non-Abelian anyons, thus paving an alternative way to topological quantum computing.</description>
+  </item>
+
+  <item>
+    <title>Closed-form analytic expressions for shadow estimation with brickwork circuits</title>
+    <link>http://arxiv.org/pdf/2211.09835</link>
+    <author>Mirko Arienzo, Markus Heinrich, Ingo Roth, Martin Kliesch</author>
+    <pubDate>Nov 21 2022</pubDate>
+    <description>Properties of quantum systems can be estimated using classical shadows, which implement measurements based on random ensembles of unitaries. Originally derived for global Clifford unitaries and products of single-qubit Clifford gates, practical implementations are limited to the latter scheme for moderate numbers of qubits. Beyond local gates, the accurate implementation of very short random circuits with two-local gates is still experimentally feasible and, therefore, interesting for implementing measurements in near-term applications. In this work, we derive closed-form analytical expressions for shadow estimation using brickwork circuits with two layers of parallel two-local Haar-random (or Clifford) unitaries. Besides the construction of the classical shadow, our results give rise to sample-complexity guarantees for estimating Pauli observables. We then compare the performance of shadow estimation with brickwork circuits to the established approach using local Clifford unitaries and find improved sample complexity in the estimation of observables supported on sufficiently many qubits.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Lauritz van Luijk, Niklas Galke, Alexander Hahn, Daniel Burgarth</author>
     <pubDate>Nov 17 2022</pubDate>
     <description>We provide state-dependent error bounds for strongly continuous unitary representations of connected Lie groups. That is, we bound the difference of two unitaries applied to a state in terms of the energy with respect to a reference Hamiltonian associated to the representation and a left-invariant metric distance on the group. Our method works for any connected Lie group and the metric is independent of the chosen representation. The approach also applies to projective representations and allows us to provide bounds on the energy constrained diamond norm distance of any suitably continuous channel representation of the group.</description>
+  </item>
+
+  <item>
+    <title>Magic of Random Matrix Product States</title>
+    <link>http://arxiv.org/pdf/2211.10350</link>
+    <author>Liyuan Chen, Roy J. Garcia, Kaifeng Bu, Arthur Jaffe</author>
+    <pubDate>Nov 21 2022</pubDate>
+    <description>Magic, or nonstabilizerness, characterizes how far away a state is from the stabilizer states, making it an important resource in quantum computing. In this paper, we study the magic of the $1$-dimensional Random Matrix Product States (RMPSs) by the $L_{1}$-norm measure. We firstly relate the $L_{1}$-norm to the $L_{4}$-norm. We then employ a unitary $4$-design to map the $L_{4}$-norm to a $24$-component statistical physics model. By evaluating partition functions of the model, we obtain a lower bound on the expectation values of the $L_{1}$-norm. This bound grows exponentially with respect to the qudit number $n$, indicating that the $1$D RMPS is highly magical. Our numerical results confirm that the magic grows exponentially in the qubit case.</description>
   </item>
 
 </channel>
