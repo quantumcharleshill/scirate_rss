@@ -7,35 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A polynomial-time classical algorithm for noisy random circuit sampling</title>
-    <link>http://arxiv.org/pdf/2211.03999</link>
-    <author>Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, Umesh Vazirani</author>
-    <pubDate>Nov 09 2022</pubDate>
-    <description>We give a polynomial time classical algorithm for sampling from the output distribution of a noisy random quantum circuit in the regime of anti-concentration to within inverse polynomial total variation distance. This gives strong evidence that, in the presence of a constant rate of noise per gate, random circuit sampling (RCS) cannot be the basis of a scalable experimental violation of the extended Church-Turing thesis. Our algorithm is not practical in its current form, and does not address finite-size RCS based quantum supremacy experiments.</description>
-  </item>
-
-  <item>
-    <title>Opportunities and Challenges in Fault-Tolerant Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2210.15844</link>
-    <author>Daniel Gottesman</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>I will give an overview of what I see as some of the most important future directions in the theory of fault-tolerant quantum computation. In particular, I will give a brief summary of the major problems that need to be solved in fault tolerance based on low-density parity check codes and in hardware-specific fault tolerance. I will then conclude with a discussion of a possible new paradigm for designing fault-tolerant protocols based on a space-time picture of quantum circuits.</description>
-  </item>
-
-  <item>
-    <title>Learning to predict arbitrary quantum processes</title>
-    <link>http://arxiv.org/pdf/2210.14894</link>
-    <author>Hsin-Yuan Huang, Sitan Chen, John Preskill</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We present an efficient machine learning (ML) algorithm for predicting any unknown quantum process $\mathcal{E}$ over $n$ qubits. For a wide range of distributions $\mathcal{D}$ on arbitrary $n$-qubit states, we show that this ML algorithm can learn to predict any local property of the output from the unknown process $\mathcal{E}$, with a small average error over input states drawn from $\mathcal{D}$. The ML algorithm is computationally efficient even when the unknown process is a quantum circuit with exponentially many gates. Our algorithm combines efficient procedures for learning properties of an unknown state and for learning a low-degree approximation to an unknown observable. The analysis hinges on proving new norm inequalities, including a quantum analogue of the classical Bohnenblust-Hille inequality, which we derive by giving an improved algorithm for optimizing local Hamiltonians. Overall, our results highlight the potential for ML models to predict the output of complex quantum dynamics much faster than the time needed to run the process itself.</description>
-  </item>
-
-  <item>
-    <title>Quantum Pseudoentanglement</title>
-    <link>http://arxiv.org/pdf/2211.00747</link>
-    <author>Adam Bouland, Bill Fefferman, Soumik Ghosh, Umesh Vazirani, Zixin Zhou</author>
-    <pubDate>Nov 03 2022</pubDate>
-    <description>Quantum pseudorandom states are efficiently constructable states which nevertheless masquerade as Haar-random states to poly-time observers. First defined by Ji, Liu and Song, such states have found a number of applications ranging from cryptography to the AdS/CFT correspondence. A fundamental question is exactly how much entanglement is required to create such states. Haar-random states, as well as $t$-designs for $t\geq 2$, exhibit near-maximal entanglement. Here we provide the first construction of pseudorandom states with only polylogarithmic entanglement entropy across an equipartition of the qubits, which is the minimum possible. Our construction can be based on any one-way function secure against quantum attack. We additionally show that the entanglement in our construction is fully "tunable", in the sense that one can have pseudorandom states with entanglement $\Theta(f(n))$ for any desired function $\omega(\log n) \leq f(n) \leq O(n)$. More fundamentally, our work calls into question to what extent entanglement is a "feelable" quantity of quantum systems. Inspired by recent work of Gheorghiu and Hoban, we define a new notion which we call "pseudoentanglement", which are ensembles of efficiently constructable quantum states which hide their entanglement entropy. We show such states exist in the strongest form possible while simultaneously being pseudorandom states. We also describe diverse applications of our result from entanglement distillation to property testing to quantum gravity.</description>
+    <title>Quantum algorithms and the power of forgetting</title>
+    <link>http://arxiv.org/pdf/2211.12447</link>
+    <author>Andrew M. Childs, Matthew Coudron, Amin Shiraz Gilani</author>
+    <pubDate>Nov 23 2022</pubDate>
+    <description>The so-called welded tree problem provides an example of a black-box problem that can be solved exponentially faster by a quantum walk than by any classical algorithm. Given the name of a special ENTRANCE vertex, a quantum walk can find another distinguished EXIT vertex using polynomially many queries, though without finding any particular path from ENTRANCE to EXIT. It has been an open problem for twenty years whether there is an efficient quantum algorithm for finding such a path, or if the path-finding problem is hard even for quantum computers. We show that a natural class of efficient quantum algorithms provably cannot find a path from ENTRANCE to EXIT. Specifically, we consider algorithms that, within each branch of their superposition, always store a set of vertex labels that form a connected subgraph including the ENTRANCE, and that only provide these vertex labels as inputs to the oracle. While this does not rule out the possibility of a quantum algorithm that efficiently finds a path, it is unclear how an algorithm could benefit by deviating from this behavior. Our no-go result suggests that, for some problems, quantum algorithms must necessarily forget the path they take to reach a solution in order to outperform classical computation.</description>
   </item>
 
   <item>
@@ -47,67 +23,19 @@
   </item>
 
   <item>
-    <title>Real-time quantum error correction beyond break-even</title>
-    <link>http://arxiv.org/pdf/2211.09116</link>
-    <author>V. V. Sivak, A. Eickbusch, B. Royer, S. Singh, I. Tsioutsios, S. Ganjam, A. Miano, B. L. Brock, A. Z. Ding, L. Frunzio, S. M. Girvin, R. J. Schoelkopf, M. H. Devoret</author>
-    <pubDate>Nov 17 2022</pubDate>
-    <description>The ambition of harnessing the quantum for computation is at odds with the fundamental phenomenon of decoherence. The purpose of quantum error correction (QEC) is to counteract the natural tendency of a complex system to decohere. This cooperative process, which requires participation of multiple quantum and classical components, creates a special type of dissipation that removes the entropy caused by the errors faster than the rate at which these errors corrupt the stored quantum information. Previous experimental attempts to engineer such a process faced an excessive generation of errors that overwhelmed the error-correcting capability of the process itself. Whether it is practically possible to utilize QEC for extending quantum coherence thus remains an open question. We answer it by demonstrating a fully stabilized and error-corrected logical qubit whose quantum coherence is significantly longer than that of all the imperfect quantum components involved in the QEC process, beating the best of them with a coherence gain of $G = 2.27 \pm 0.07$. We achieve this performance by combining innovations in several domains including the fabrication of superconducting quantum circuits and model-free reinforcement learning.</description>
+    <title>Mind the gap: Achieving a super-Grover quantum speedup by jumping to the end</title>
+    <link>http://arxiv.org/pdf/2212.01513</link>
+    <author>Alexander M. Dalzell, Nicola Pancotti, Earl T. Campbell, Fernando G. S. L. Brandão</author>
+    <pubDate>Dec 06 2022</pubDate>
+    <description>We present a quantum algorithm that has rigorous runtime guarantees for several families of binary optimization problems, including Quadratic Unconstrained Binary Optimization (QUBO), Ising spin glasses ($p$-spin model), and $k$-local constraint satisfaction problems ($k$-CSP). We show that either (a) the algorithm finds the optimal solution in time $O^*(2^{(0.5-c)n})$ for an $n$-independent constant $c$, a $2^{cn}$ advantage over Grover's algorithm; or (b) there are sufficiently many low-cost solutions such that classical random guessing produces a $(1-\eta)$ approximation to the optimal cost value in sub-exponential time for arbitrarily small choice of $\eta$. Additionally, we show that for a large fraction of random instances from the $k$-spin model and for any fully satisfiable or slightly frustrated $k$-CSP formula, statement (a) is the case. The algorithm and its analysis is largely inspired by Hastings' short-path algorithm [$\textit{Quantum}$ $\textbf{2}$ (2018) 78].</description>
   </item>
 
   <item>
-    <title>A classical oracle separation between QMA and QCMA</title>
-    <link>http://arxiv.org/pdf/2210.15380</link>
-    <author>Anand Natarajan, Chinmay Nirkhe</author>
-    <pubDate>Oct 28 2022</pubDate>
-    <description>It is a long-standing open question in quantum complexity theory whether the definition of $\textit{non-deterministic}$ quantum computation requires quantum witnesses $(\textsf{QMA})$ or if classical witnesses suffice $(\textsf{QCMA})$. We make progress on this question by constructing a randomized classical oracle separating the respective computational complexity classes. Previous separations [Aaronson-Kuperberg (CCC'07), Fefferman-Kimmel (MFCS'18)] required a quantum unitary oracle. The separating problem is deciding whether a distribution supported on regular un-directed graphs either consists of multiple connected components (yes instances) or consists of one expanding connected component (no instances) where the graph is given in an adjacency-list format by the oracle. Therefore, the oracle is a distribution over $n$-bit boolean functions.</description>
-  </item>
-
-  <item>
-    <title>Bosonic coding: introduction and use cases</title>
-    <link>http://arxiv.org/pdf/2211.05714</link>
-    <author>Victor V. Albert</author>
-    <pubDate>Nov 11 2022</pubDate>
-    <description>Bosonic or continuous-variable coding is a field concerned with robust quantum information processing and communication with electromagnetic signals or mechanical modes. I review bosonic quantum memories, characterizing them as either bosonic stabilizer or bosonic Fock-state codes. I then enumerate various applications of bosonic encodings, four of which circumvent no-go theorems due to the intrinsic infinite-dimensionality of bosonic systems.</description>
-  </item>
-
-  <item>
-    <title>Tailoring three-dimensional topological codes for biased noise</title>
-    <link>http://arxiv.org/pdf/2211.02116</link>
-    <author>Eric Huang, Arthur Pesah, Christopher T. Chubb, Michael Vasmer, Arpit Dua</author>
-    <pubDate>Nov 07 2022</pubDate>
-    <description>Tailored topological stabilizer codes in two dimensions have been shown to exhibit high storage threshold error rates and improved subthreshold performance under biased Pauli noise. Three-dimensional (3D) topological codes can allow for several advantages including a transversal implementation of non-Clifford logical gates, single-shot decoding strategies, parallelized decoding in the case of fracton codes as well as construction of fractal lattice codes. Motivated by this, we tailor 3D topological codes for enhanced storage performance under biased Pauli noise. We present Clifford deformations of various 3D topological codes, such that they exhibit a threshold error rate of $50\%$ under infinitely biased Pauli noise. Our examples include the 3D surface code on the cubic lattice, the 3D surface code on a checkerboard lattice that lends itself to a subsystem code with a single-shot decoder, the 3D color code, as well as fracton models such as the X-cube model, the Sierpinski model and the Haah code. We use the belief propagation with ordered statistics decoder (BP-OSD) to study threshold error rates at finite bias. We also present a rotated layout for the 3D surface code, which uses roughly half the number of physical qubits for the same code distance under appropriate boundary conditions. Imposing coprime periodic dimensions on this rotated layout leads to logical operators of weight $O(n)$ at infinite bias and a corresponding $\exp[-O(n)]$ subthreshold scaling of the logical failure rate, where $n$ is the number of physical qubits in the code. Even though this scaling is unstable due to the existence of logical representations with $O(1)$ low-rate Pauli errors, the number of such representations scales only polynomially for the Clifford-deformed code, leading to an enhanced effective distance.</description>
-  </item>
-
-  <item>
-    <title>Quantum algorithms and the power of forgetting</title>
-    <link>http://arxiv.org/pdf/2211.12447</link>
-    <author>Andrew M. Childs, Matthew Coudron, Amin Shiraz Gilani</author>
-    <pubDate>Nov 23 2022</pubDate>
-    <description>The so-called welded tree problem provides an example of a black-box problem that can be solved exponentially faster by a quantum walk than by any classical algorithm. Given the name of a special ENTRANCE vertex, a quantum walk can find another distinguished EXIT vertex using polynomially many queries, though without finding any particular path from ENTRANCE to EXIT. It has been an open problem for twenty years whether there is an efficient quantum algorithm for finding such a path, or if the path-finding problem is hard even for quantum computers. We show that a natural class of efficient quantum algorithms provably cannot find a path from ENTRANCE to EXIT. Specifically, we consider algorithms that, within each branch of their superposition, always store a set of vertex labels that form a connected subgraph including the ENTRANCE, and that only provide these vertex labels as inputs to the oracle. While this does not rule out the possibility of a quantum algorithm that efficiently finds a path, it is unclear how an algorithm could benefit by deviating from this behavior. Our no-go result suggests that, for some problems, quantum algorithms must necessarily forget the path they take to reach a solution in order to outperform classical computation.</description>
-  </item>
-
-  <item>
-    <title>Continuous-variable quantum state designs: theory and applications</title>
-    <link>http://arxiv.org/pdf/2211.05127</link>
-    <author>Joseph T. Iosue, Kunal Sharma, Michael J. Gullans, Victor V. Albert</author>
-    <pubDate>Nov 11 2022</pubDate>
-    <description>We generalize the notion of quantum state designs to infinite-dimensional spaces. We first prove that, under the definition of continuous-variable (CV) state $t$-designs from Comm. Math. Phys. 326, 755 (2014), no state designs exist for $t\geq2$. Similarly, we prove that no CV unitary $t$-designs exist for $t\geq 2$. We propose an alternative definition for CV state designs, which we call rigged $t$-designs, and provide explicit constructions for $t=2$. As an application of rigged designs, we develop a design-based shadow-tomography protocol for CV states. Using energy-constrained versions of rigged designs, we define an average fidelity for CV quantum channels and relate this fidelity to the CV entanglement fidelity. As an additional result of independent interest, we establish a connection between torus $2$-designs and complete sets of mutually unbiased bases.</description>
-  </item>
-
-  <item>
-    <title>On the complexity of implementing Trotter steps</title>
-    <link>http://arxiv.org/pdf/2211.09133</link>
-    <author>Guang Hao Low, Yuan Su, Yu Tong, Minh C. Tran</author>
-    <pubDate>Nov 18 2022</pubDate>
-    <description>Quantum dynamics can be simulated on a quantum computer by exponentiating elementary terms from the Hamiltonian in a sequential manner. However, such an implementation of Trotter steps has gate complexity depending on the total Hamiltonian term number, comparing unfavorably to algorithms using more advanced techniques. We develop methods to perform faster Trotter steps with complexity sublinear in the number of terms. We achieve this for a class of Hamiltonians whose interaction strength decays with distance according to power law. Our methods include one based on a recursive block encoding and one based on an average-cost simulation, overcoming the normalization-factor barrier of these advanced quantum simulation techniques. We also realize faster Trotter steps when certain blocks of Hamiltonian coefficients have low rank. Combining with a tighter error analysis, we show that it suffices to use $\left(\eta^{1/3}n^{1/3}+\frac{n^{2/3}}{\eta^{2/3}}\right)n^{1+o(1)}$ gates to simulate uniform electron gas with $n$ spin orbitals and $\eta$ electrons in second quantization in real space, asymptotically improving over the best previous work. We obtain an analogous result when the external potential of nuclei is introduced under the Born-Oppenheimer approximation. We prove a circuit lower bound when the Hamiltonian coefficients take a continuum range of values, showing that generic $n$-qubit $2$-local Hamiltonians with commuting terms require at least $\Omega(n^2)$ gates to evolve with accuracy $\epsilon=\Omega(1/poly(n))$ for time $t=\Omega(\epsilon)$. Our proof is based on a gate-efficient reduction from the approximate synthesis of diagonal unitaries within the Hamming weight-$2$ subspace, which may be of independent interest. Our result thus suggests the use of Hamiltonian structural properties as both necessary and sufficient to implement Trotter steps with lower gate complexity.</description>
-  </item>
-
-  <item>
-    <title>Quantum state preparation without coherent arithmetic</title>
-    <link>http://arxiv.org/pdf/2210.14892</link>
-    <author>Sam McArdle, András Gilyén, Mario Berta</author>
-    <pubDate>Oct 27 2022</pubDate>
-    <description>We introduce a versatile method for preparing a quantum state whose amplitudes are given by some known function. Unlike existing approaches, our method does not require handcrafted reversible arithmetic circuits, or quantum memory loads, to encode the function values. Instead, we use a template quantum eigenvalue transformation circuit to convert a low cost block encoding of the sine function into the desired function. Our method uses only 4 ancilla qubits (3 if the approximating polynomial has definite parity), providing order-of-magnitude qubit count reductions compared to state-of-the-art approaches, while using a similar number of Toffoli gates if the function can be well represented by a polynomial or Fourier approximation. Like black-box methods, the complexity of our approach depends on the 'L2-norm filling-fraction' of the function. We demonstrate the efficiency of our method for preparing states commonly used in quantum algorithms, such as Gaussian and Kaiser window states.</description>
+    <title>Anyon condensation and the color code</title>
+    <link>http://arxiv.org/pdf/2212.00042</link>
+    <author>Markus S. Kesselring, Julio C. Magdalena de la Fuente, Felix Thomsen, Jens Eisert, Stephen D. Bartlett, Benjamin J. Brown</author>
+    <pubDate>Dec 02 2022</pubDate>
+    <description>The manipulation of topologically-ordered phases of matter to encode and process quantum information forms the cornerstone of many approaches to fault-tolerant quantum computing. Here, we demonstrate that fault-tolerant logical operations in these approaches, essential for scalable quantum computing, can be usefully interpreted as instances of anyon condensation. We present a constructive theory for anyon condensation and, in tandem, illustrate our theory explicitly with examples of fault-tolerant logical operations for the color-code model. We show that different condensation processes are associated with a general class of domain walls, which can exist in both space- and time-like directions. This class includes semi-transparent domain walls that condense certain bosonic subsets of anyons. We use our theory to classify topological objects and design novel fault-tolerant logic gates for the color code. As a final example, we also argue that dynamical `Floquet codes' can be viewed as a series of condensation operations. We propose a general construction for realising planar dynamically driven codes based on condensation operations on the color code. We use our construction to introduce a new Calderbank-Shor Steane-type Floquet code that we call the Floquet color code.</description>
   </item>
 
   <item>
@@ -119,67 +47,43 @@
   </item>
 
   <item>
-    <title>Assessing requirements to scale to practical quantum advantage</title>
-    <link>http://arxiv.org/pdf/2211.07629</link>
-    <author>Michael E. Beverland, Prakash Murali, Matthias Troyer, Krysta M. Svore, Torsten Hoeffler, Vadym Kliuchnikov, Guang Hao Low, Mathias Soeken, Aarthi Sundaram, Alexander Vaschillo</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>While quantum computers promise to solve some scientifically and commercially valuable problems thought intractable for classical machines, delivering on this promise will require a large-scale quantum machine. Understanding the impact of architecture design choices for a scaled quantum stack for specific applications, prior to full realization of the quantum system, is an important open challenge. To this end, we develop a framework for quantum resource estimation, abstracting the layers of the stack, to estimate resources required across these layers for large-scale quantum applications. Using a tool that implements this framework, we assess three scaled quantum applications and find that hundreds of thousands to millions of physical qubits are needed to achieve practical quantum advantage. We identify three qubit parameters, namely size, speed, and controllability, that are critical at scale to rendering these applications practical. A goal of our work is to accelerate progress towards practical quantum advantage by enabling the broader community to explore design choices across the stack, from algorithms to qubits.</description>
+    <title>Efficient classical algorithms for simulating symmetric quantum systems</title>
+    <link>http://arxiv.org/pdf/2211.16998</link>
+    <author>Eric R. Anschuetz, Andreas Bauer, Bobak T. Kiani, Seth Lloyd</author>
+    <pubDate>Dec 01 2022</pubDate>
+    <description>The presence of symmetries can convert an otherwise computationally hard task into an efficient one. In light of recently proposed quantum algorithms that incorporate symmetries in the hope of quantum advantage, we show that with symmetries that are restrictive enough, classical algorithms can efficiently emulate their quantum counterparts. As an example, we show that simulating and finding the ground state of permutation invariant Hamiltonians can be efficiently performed in polynomial classical time, further restricting the possible set of symmetries that provide quantum advantage.</description>
   </item>
 
   <item>
-    <title>Homomorphic Logical Measurements</title>
-    <link>http://arxiv.org/pdf/2211.03625</link>
-    <author>Shilin Huang, Tomas Jochym-O'Connor, Theodore J. Yoder</author>
-    <pubDate>Nov 08 2022</pubDate>
-    <description>Shor and Steane ancilla are two well-known methods for fault-tolerant logical measurements, which are successful on small codes and their concatenations. On large quantum low-density-parity-check (LDPC) codes, however, Shor and Steane measurements have impractical time and space overhead respectively. In this work, we widen the choice of ancilla codes by unifying Shor and Steane measurements into a single framework, called homomorphic measurements. For any Calderbank-Shor-Steane (CSS) code with the appropriate ancilla code, one can avoid repetitive measurements or complicated ancilla state preparation procedures such as distillation, which overcomes the difficulties of both Shor and Steane methods. As an example, we utilize the theory of covering spaces to construct homomorphic measurement protocols for arbitrary $X$- or $Z$-type logical Pauli operators on surface codes in general, including the toric code and hyperbolic surface codes. Conventional surface code decoders, such as minimum-weight perfect matching, can be directly applied to our constructions.</description>
+    <title>Optimizing the depth of variational quantum algorithms is strongly QCMA-hard to approximate</title>
+    <link>http://arxiv.org/pdf/2211.12519</link>
+    <author>Lennart Bittel, Sevag Gharibian, Martin Kliesch</author>
+    <pubDate>Nov 24 2022</pubDate>
+    <description>Variational Quantum Algorithms (VQAs), such as the Quantum Approximate Optimization Algorithm (QAOA) of [Farhi, Goldstone, Gutmann, 2014], have seen intense study towards near-term applications on quantum hardware. A crucial parameter for VQAs is the depth of the variational ansatz used - the smaller the depth, the more amenable the ansatz is to near-term quantum hardware in that it gives the circuit a chance to be fully executed before the system decoheres. This potential for depth reduction has made VQAs a staple of Noisy Intermediate-Scale Quantum (NISQ)-era research. In this work, we show that approximating the optimal depth for a given VQA ansatz is intractable. Formally, we show that for any constant $\epsilon>0$, it is QCMA-hard to approximate the optimal depth of a VQA ansatz within multiplicative factor $N^{1-\epsilon}$, for $N$ denoting the encoding size of the VQA instance. (Here, Quantum Classical Merlin-Arthur (QCMA) is a quantum generalization of NP.) We then show that this hardness persists even in the "simpler" setting of QAOAs. To our knowledge, this yields the first natural QCMA-hard-to-approximate problems. To achieve these results, we bypass the need for a PCP theorem for QCMA by appealing to the disperser-based NP-hardness of approximation construction of [Umans, FOCS 1999].</description>
   </item>
 
   <item>
-    <title>Learning quantum processes without input control</title>
-    <link>http://arxiv.org/pdf/2211.05005</link>
-    <author>Marco Fanizza, Yihui Quek, Matteo Rosati</author>
-    <pubDate>Nov 10 2022</pubDate>
-    <description>We introduce a general statistical learning theory for processes that take as input a classical random variable and output a quantum state. This is a practically motivated setting where the learner wants to find an approximate representation of an unknown quantum process, without having control on the classical inputs that govern the process itself, e.g., in learning astronomical processes, studying disordered systems and biological processes not controlled by the observer. We provide an algorithm for learning with high probability in this setting with a finite amount of samples, even if the concept class is infinite. To do this, we review and adapt existing algorithms for shadow tomography and hypothesis selection, and combine their guarantees with the uniform convergence on the data of the loss functions of interest. As a by-product we obtain sufficient conditions for performing shadow tomography of classical-quantum states with a number of copies which depend only on the dimension of the quantum register. We give concrete examples of processes that can be learned in this manner, based on quantum circuits or physically motivated scenarios like systems subject to Hamiltonians with random perturbations or data-dependent phase-shifts.</description>
+    <title>An operator extension of weak monotonicity</title>
+    <link>http://arxiv.org/pdf/2211.13372</link>
+    <author>Ting-Chun Lin, Isaac H. Kim, Min-Hsiu Hsieh</author>
+    <pubDate>Nov 28 2022</pubDate>
+    <description>Let $S(\rho)$ be the von Neumann entropy of a density matrix $\rho$. Weak monotonicity asserts that $S(\rho_{AB}) - S(\rho_A) + S(\rho_{BC}) - S(\rho_C)\geq 0$ for any tripartite density matrix $\rho_{ABC}$, a fact that is equivalent to the strong subadditivity of entropy. We prove an operator inequality, which, upon taking an expectation value with respect to the state $\rho_{ABC}$, reduces to the weak monotonicity inequality. Generalizations of this inequality to the one involving two independent density matrices, as well as their Rényi-generalizations, are also presented.</description>
   </item>
 
   <item>
-    <title>Greatly improved higher-order product formulae for quantum simulation</title>
-    <link>http://arxiv.org/pdf/2210.15817</link>
-    <author>Mauro E.S. Morales, Pedro C.S. Costa, Daniel K. Burgarth, Yuval R. Sanders, Dominic W. Berry</author>
-    <pubDate>Oct 31 2022</pubDate>
-    <description>Quantum algorithms for simulation of Hamiltonian evolution are often based on product formulae like Trotter. The fractal method of Suzuki gives a systematic way to find arbitrarily high-order product formulae, but results in a large number of exponentials. On the other hand, an alternative way, with a minimum number of exponentials, for 6th and 8th order product formulae is given by Yoshida. In this work, we not only extended Yoshida's method to 10th order, but we also found hundreds of new 8th order product formulae. Moreover, we found an 8th order product formula that is over $1000$ times more accurate than the best product formula of Yoshida.</description>
+    <title>Learning Quantum Processes and Hamiltonians via the Pauli Transfer Matrix</title>
+    <link>http://arxiv.org/pdf/2212.04471</link>
+    <author>Matthias C. Caro</author>
+    <pubDate>Dec 09 2022</pubDate>
+    <description>Learning about physical systems from quantum-enhanced experiments, relying on a quantum memory and quantum processing, can outperform learning from experiments in which only classical memory and processing are available. Whereas quantum advantages have been established for a variety of state learning tasks, quantum process learning allows for comparable advantages only with a careful problem formulation and is less understood. We establish an exponential quantum advantage for learning an unknown $n$-qubit quantum process $\mathcal{N}$. We show that a quantum memory allows to efficiently solve the following tasks: (a) learning the Pauli transfer matrix of an arbitrary $\mathcal{N}$, (b) predicting expectation values of bounded Pauli-sparse observables measured on the output of an arbitrary $\mathcal{N}$ upon input of a Pauli-sparse state, and (c) predicting expectation values of arbitrary bounded observables measured on the output of an unknown $\mathcal{N}$ with sparse Pauli transfer matrix upon input of an arbitrary state. With quantum memory, these tasks can be solved using linearly-in-$n$ many copies of the Choi state of $\mathcal{N}$, and even time-efficiently in the case of (b). In contrast, any learner without quantum memory requires exponentially-in-$n$ many queries, even when querying $\mathcal{N}$ on subsystems of adaptively chosen states and performing adaptively chosen measurements. In proving this separation, we extend existing shadow tomography upper and lower bounds from states to channels via the Choi-Jamiolkowski isomorphism. Moreover, we combine Pauli transfer matrix learning with polynomial interpolation techniques to develop a procedure for learning arbitrary Hamiltonians, which may have non-local all-to-all interactions, from short-time dynamics. Our results highlight the power of quantum-enhanced experiments for learning highly complex quantum dynamics.</description>
   </item>
 
   <item>
-    <title>Generating $k$ EPR-pairs from an n-party resource state</title>
-    <link>http://arxiv.org/pdf/2211.06497</link>
-    <author>Sergey Bravyi, Yash Sharma, Mario Szegedy, Ronald de Wolf</author>
-    <pubDate>Nov 15 2022</pubDate>
-    <description>Motivated by quantum network applications over classical channels, we initiate the study of $n$-party resource states from which LOCC protocols can create EPR-pairs between any $k$ disjoint pairs of parties. We give constructions of such states where $k$ is not too far from the optimal $n/2$ while the individual parties need to hold only a constant number of qubits. In the special case when each party holds only one qubit, we describe a family of $n$-qubit states with $k$ proportional to $\log n$ based on Reed-Muller codes, as well as small numerically found examples for $k=2$ and $k=3$. We also prove some lower bounds, for example showing that if $k=n/2$ then the parties must have at least $\Omega(\log\log n)$ qubits each.</description>
-  </item>
-
-  <item>
-    <title>Transversal Injection: A method for direct encoding of ancilla states for non-Clifford gates using stabiliser codes</title>
-    <link>http://arxiv.org/pdf/2211.10046</link>
-    <author>Jason Gavriel, Daniel Herr, Alexis Shaw, Michael J. Bremner, Alexandru Paler, Simon J. Devitt</author>
-    <pubDate>Nov 21 2022</pubDate>
-    <description>Fault-tolerant, error-corrected quantum computation is commonly acknowledged to be crucial to the realisation of large-scale quantum algorithms that could lead to extremely impactful scientific or commercial results. Achieving a universal set of quantum gate operations in a fault-tolerant error-corrected framework suffers from a `conservation of unpleasantness'. In general, no matter what error correction technique is employed, there is always one element of a universal gate set that carries a significant resource overhead - either in physical qubits, computational time, or both. Specifically, this is due to the application of non-Clifford gates. A common method for realising these gates for stabiliser codes such as the surface code is a combination of three protocols: state injection, distillation and gate teleportation. These protocols contribute to the resource overhead compared to logical operations such as a CNOT gate and contributes to the qubit resources for any error-corrected quantum algorithm. In this paper, we introduce a very simple protocol to potentially reduce this overhead for non-Clifford gates: Transversal Injection. Transversal injection modifies the initial physical states of all data qubits in a stabiliser code before standard encoding and results in the direct preparation of a large class of single qubit states, including resource states for non-Clifford logic gates. Preliminary results hint at high quality fidelities at larger distances and motivate further research on this technique.</description>
-  </item>
-
-  <item>
-    <title>A (simple) classical algorithm for estimating Betti numbers</title>
-    <link>http://arxiv.org/pdf/2211.09618</link>
-    <author>Simon Apers, Sayantan Sen, Dániel Szabó</author>
-    <pubDate>Nov 18 2022</pubDate>
-    <description>We describe a simple algorithm for estimating the $k$-th normalized Betti number of a simplicial complex over $n$ elements using the path integral Monte Carlo method. For a general simplicial complex, the running time of our algorithm is $n^{O(\frac{1}{\gamma}\log\frac{1}{\varepsilon})}$ with $\gamma$ measuring the spectral gap of the combinatorial Laplacian and $\varepsilon \in (0,1)$ the additive precision. In the case of a clique complex, the running time of our algorithm improves to $(n/\lambda_{\max})^{O(\frac{1}{\gamma}\log\frac{1}{\varepsilon})}$ with $\lambda_{\max} \geq k$ the maximum eigenvalue of the combinatorial Laplacian. Our algorithm provides a classical benchmark for a line of quantum algorithms for estimating Betti numbers, and it matches their running time on clique complexes when the spectral gap is constant and $k \in \Omega(n)$ or $\lambda_{\max} \in \Omega(n)$.</description>
-  </item>
-
-  <item>
-    <title>Invertible subalgebras</title>
-    <link>http://arxiv.org/pdf/2211.02086</link>
-    <author>Jeongwan Haah</author>
-    <pubDate>Nov 07 2022</pubDate>
-    <description>We introduce invertible subalgebras of local operator algebras on lattices. An invertible subalgebra is defined to be one such that every local operator can be locally expressed by elements of the inveritible subalgebra and those of the commutant. On a two-dimensional lattice, an invertible subalgebra hosts a chiral anyon theory by a commuting Hamiltonian, which is believed not to be possible on a full local operator algebra. We prove that the stable equivalence classes of $D$-dimensional invertible subalgebras form an abelian group under tensor product, isomorphic to the group of all $D+1$ dimensional QCA modulo blending equivalence and shifts. In an appendix, we consider a metric on the group of all QCA on infinite lattices and prove that the metric completion contains the time evolution by local Hamiltonians, which is only approximately locality-preserving. Our metric topology is strictly finer than the strong topology.</description>
+    <title>Active volume: An architecture for efficient fault-tolerant quantum computers with limited non-local connections</title>
+    <link>http://arxiv.org/pdf/2211.15465</link>
+    <author>Daniel Litinski, Naomi Nickerson</author>
+    <pubDate>Nov 29 2022</pubDate>
+    <description>In existing general-purpose architectures for surface-code-based fault-tolerant quantum computers, the cost of a quantum computation is determined by the circuit volume, i.e., the number of qubits multiplied by the number of non-Clifford gates. We introduce an architecture using non-2D-local connections in which the cost does not scale with the number of qubits, and instead only with the number of logical operations. Each logical operation has an associated active volume, such that the cost of a quantum computation can be quantified as a sum of active volumes of all operations. For quantum computations with thousands of logical qubits, the active volume can be orders of magnitude lower than the circuit volume. Importantly, the architecture does not require all-to-all connectivity between N logical qubits. Instead, each logical qubit is connected to O(log N) other sites. As an example, we show that, using the same number of logical qubits, a 2048-bit factoring algorithm can be executed 44 times faster than on a general-purpose architecture without non-local connections. With photonic qubits, long-range connections are available and we show how photonic components can be used to construct a fusion-based active-volume quantum computer.</description>
   </item>
 
   <item>
@@ -191,59 +95,155 @@
   </item>
 
   <item>
-    <title>Black-Hole Radiation Decoding is Quantum Cryptography</title>
-    <link>http://arxiv.org/pdf/2211.05491</link>
-    <author>Zvika Brakerski</author>
-    <pubDate>Nov 11 2022</pubDate>
-    <description>We propose to study equivalence relations between phenomena in high-energy physics and the existence of standard cryptographic primitives, and show the first example where such an equivalence holds. A small number of prior works showed that high-energy phenomena can be explained by cryptographic hardness. Examples include using the existence of one-way functions to explain the hardness of decoding black-hole Hawking radiation (Harlow and Hayden 2013, Aaronson 2016), and using pseudorandom quantum states to explain the hardness of computing AdS/CFT dictionary (Bouland, Fefferman and Vazirani, 2020). In this work we show, for the former example of black-hole radiation decoding, that it also implies the existence of secure quantum cryptography. In fact, we show an existential equivalence between the hardness of black-hole radiation decoding and a variety of cryptographic primitives, including bit-commitment schemes and oblivious transfer protocols (using quantum communication). This can be viewed (with proper disclaimers, as we discuss) as providing a physical justification for the existence of secure cryptography. We conjecture that such connections may be found in other high-energy physics phenomena.</description>
+    <title>Thrifty shadow estimation: re-using quantum circuits and bounding tails</title>
+    <link>http://arxiv.org/pdf/2212.06240</link>
+    <author>Jonas Helsen, Michael Walter</author>
+    <pubDate>Dec 14 2022</pubDate>
+    <description>Randomized shadow estimation is a recent protocol that allows estimating exponentially many expectation values of a quantum state from ``classical shadows'', obtained by applying random quantum circuits and computational basis measurements. In this paper we study the statistical efficiency of this approach in light of near-term quantum computing. In particular, we propose and analyze a more practically-implementable variant of the protocol, thrifty shadow estimation, in which quantum circuits are reused many times instead of having to be freshly generated for each measurement (as in the original protocol). We show that the effect of this reuse strongly depends on the family of quantum circuits that is chosen. In particular, it is maximally effective when sampling Haar random unitaries, and maximally ineffective when sampling Clifford circuits (even though the Clifford group forms a three-design). To interpolate between these two extremes, we provide an efficiently simulable family of quantum circuits inspired by a recent construction of approximate t-designs. Finally we consider tail bounds for shadow estimation and discuss when median-of-means estimation can be replaced with standard mean estimation.</description>
   </item>
 
   <item>
-    <title>Autonomous quantum error correction and fault-tolerant quantum computation with squeezed cat qubits</title>
-    <link>http://arxiv.org/pdf/2210.13406</link>
-    <author>Qian Xu, Guo Zheng, Yu-Xin Wang, Peter Zoller, Aashish A. Clerk, Liang Jiang</author>
-    <pubDate>Oct 25 2022</pubDate>
-    <description>We propose an autonomous quantum error correction scheme using squeezed cat (SC) code against the dominant error source, excitation loss, in continuous-variable systems. Through reservoir engineering, we show that a structured dissipation can stabilize a two-component SC while autonomously correcting the errors. The implementation of such dissipation only requires low-order nonlinear couplings among three bosonic modes or between a bosonic mode and a qutrit. While our proposed scheme is device independent, it is readily implementable with current experimental platforms such as superconducting circuits and trapped-ion systems. Compared to the stabilized cat, the stabilized SC has a much lower dominant error rate and a significantly enhanced noise bias. Furthermore, the bias-preserving operations for the SC have much lower error rates. In combination, the stabilized SC leads to substantially better logical performance when concatenating with an outer discrete-variable code. The surface-SC scheme achieves more than one order of magnitude increase in the threshold ratio between the loss rate $\kappa_1$ and the engineered dissipation rate $\kappa_2$. Under a practical noise ratio $\kappa_1/\kappa_2 = 10^{-3}$, the repetition-SC scheme can reach a $10^{-15}$ logical error rate even with a small mean excitation number of 4, which already suffices for practically useful quantum algorithms.</description>
+    <title>Quantum Worst-Case to Average-Case Reductions for All Linear Problems</title>
+    <link>http://arxiv.org/pdf/2212.03348</link>
+    <author>Vahid R. Asadi, Alexander Golovnev, Tom Gur, Igor Shinkar, Sathyawageeswar Subramanian</author>
+    <pubDate>Dec 08 2022</pubDate>
+    <description>We study the problem of designing worst-case to average-case reductions for quantum algorithms. For all linear problems, we provide an explicit and efficient transformation of quantum algorithms that are only correct on a small (even sub-constant) fraction of their inputs into ones that are correct on all inputs. This stands in contrast to the classical setting, where such results are only known for a small number of specific problems or restricted computational models. En route, we obtain a tight $\Omega(n^2)$ lower bound on the average-case quantum query complexity of the Matrix-Vector Multiplication problem. Our techniques strengthen and generalise the recently introduced additive combinatorics framework for classical worst-case to average-case reductions (STOC 2022) to the quantum setting. We rely on quantum singular value transformations to construct quantum algorithms for linear verification in superposition and learning Bogolyubov subspaces from noisy quantum oracles. We use these tools to prove a quantum local correction lemma, which lies at the heart of our reductions, based on a noise-robust probabilistic generalisation of Bogolyubov's lemma from additive combinatorics.</description>
   </item>
 
   <item>
-    <title>Adaptive surface code for quantum error correction in the presence of temporary or permanent defects</title>
-    <link>http://arxiv.org/pdf/2211.08468</link>
-    <author>Adam Siegel, Armands Strikis, Thomas Flatters, Simon Benjamin</author>
-    <pubDate>Nov 17 2022</pubDate>
-    <description>Whether it is at the fabrication stage or during the course of the quantum computation, e.g. because of high-energy events like cosmic rays, the qubits constituting an error correcting code may be rendered inoperable. Such defects may correspond to individual qubits or to clusters and could potentially disrupt the code sufficiently to generate logical errors. In this paper, we explore a novel adaptive approach for surface code quantum error correction on a defective lattice. We show that combining an appropriate defect detection algorithm and a quarantine of the identified zone allows one to preserve the advantage of quantum error correction at finite code sizes, at the cost of a qubit overhead that scales with the size of the defect. Our numerics indicate that the code's threshold need not be significantly affected; for example, for a certain scenario where small defects repeatedly arise in each logical qubit, the noise threshold is $2.7\%$ (versus the defect-free case of $2.9\%$). These results pave the way to the experimental implementation of large-scale quantum computers where defects will be inevitable.</description>
+    <title>Optimizing sparse fermionic Hamiltonians</title>
+    <link>http://arxiv.org/pdf/2211.16518</link>
+    <author>Yaroslav Herasymenko, Maarten Stroeks, Jonas Helsen, Barbara Terhal</author>
+    <pubDate>Dec 01 2022</pubDate>
+    <description>We consider the problem of approximating the ground state energy of a fermionic Hamiltonian using a Gaussian state. In sharp contrast to the dense case (Hastings & O'Donnell, 2022), we prove that strictly $q$-local $\rm{\textit{sparse}}$ fermionic Hamiltonians have a constant Gaussian approximation ratio; the result holds for any connectivity and interaction strengths. Sparsity means that each fermion participates in a bounded number of interactions, and strictly $q$-local means that each term involves exactly $q$ fermionic (Majorana) operators. We extend our proof to give a constant Gaussian approximation ratio for sparse fermionic Hamiltonians with both quartic and quadratic terms. With additional work, we also prove a constant Gaussian approximation ratio for the so-called sparse SYK model with strictly $4$-local interactions (sparse SYK-4 model). In each setting we show that the Gaussian state can be efficiently determined. Finally, we prove that the $O(n^{-1/2})$ Gaussian approximation ratio for the normal (dense) SYK-$4$ model extends to SYK-$q$ for even $q>4$, with an approximation ratio of $O(n^{1/2 - q/4})$. Our results identify non-sparseness as the prime reason that the SYK-4 model can fail to have a constant approximation ratio.</description>
   </item>
 
   <item>
-    <title>Overcoming leakage in scalable quantum error correction</title>
-    <link>http://arxiv.org/pdf/2211.04728</link>
-    <author>Kevin C. Miao, Matt McEwen, Juan Atalaya, Dvir Kafri, Leonid P. Pryadko, Andreas Bengtsson, Alex Opremcak, Kevin J. Satzinger, Zijun Chen, Paul V. Klimov, Chris Quintana, Rajeev Acharya, Kyle Anderson, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Joseph C. Bardin, Alexandre Bourassa, Jenna Bovaird, et al (97)</author>
-    <pubDate>Nov 10 2022</pubDate>
-    <description>Leakage of quantum information out of computational states into higher energy states represents a major challenge in the pursuit of quantum error correction (QEC). In a QEC circuit, leakage builds over time and spreads through multi-qubit interactions. This leads to correlated errors that degrade the exponential suppression of logical error with scale, challenging the feasibility of QEC as a path towards fault-tolerant quantum computation. Here, we demonstrate the execution of a distance-3 surface code and distance-21 bit-flip code on a Sycamore quantum processor where leakage is removed from all qubits in each cycle. This shortens the lifetime of leakage and curtails its ability to spread and induce correlated errors. We report a ten-fold reduction in steady-state leakage population on the data qubits encoding the logical state and an average leakage population of less than $1 \times 10^{-3}$ throughout the entire device. The leakage removal process itself efficiently returns leakage population back to the computational basis, and adding it to a code circuit prevents leakage from inducing correlated error across cycles, restoring a fundamental assumption of QEC. With this demonstration that leakage can be contained, we resolve a key challenge for practical QEC at scale.</description>
+    <title>New additivity properties of the relative entropy of entanglement and its generalizations</title>
+    <link>http://arxiv.org/pdf/2211.12804</link>
+    <author>Roberto Rubboli, Marco Tomamichel</author>
+    <pubDate>Nov 24 2022</pubDate>
+    <description>We prove that the relative entropy of entanglement is additive when at least one of the two states belongs to some specific class. We show that these classes include bipartite pure, maximally correlated, GHZ, Bell diagonal, isotropic, and generalized Dicke states. Previously, additivity was established only if both states belong to the same class. Moreover, we extend these results to entanglement monotones based on the $\alpha$-$z$ Rényi relative entropy. Notably, this family of monotones includes also the generalized robustness of entanglement and the geometric measure of entanglement. In addition, we prove that any monotone based on a quantum relative entropy is not additive for general states. Finally, we compute the value of the monotones based on the $\alpha$-$z$ Rényi relative entropy for bipartite pure, Bell diagonal, isotropic, generalized Werner, generalized Dicke, and maximally correlated Bell diagonal states. Our results rely on proving new necessary and sufficient conditions for the optimizer of the monotones based on the $\alpha$-$z$ Rényi relative entropy which allow us to reduce the original optimization problem to a simpler linear one. Even though we focus mostly on entanglement theory, we formulate some of our technical results in a general resource theory framework and we expect that they could be used to investigate other resource theories.</description>
   </item>
 
   <item>
-    <title>Pseudorandom (Function-Like) Quantum State Generators: New Definitions and Applications</title>
-    <link>http://arxiv.org/pdf/2211.01444</link>
-    <author>Prabhanjan Ananth, Aditya Gulati, Luowen Qian, Henry Yuen</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>Pseudorandom quantum states (PRS) are efficiently constructible states that are computationally indistinguishable from being Haar-random, and have recently found cryptographic applications. We explore new definitions, new properties and applications of pseudorandom states, and present the following contributions: 1. New Definitions: We study variants of pseudorandom function-like state (PRFS) generators, introduced by Ananth, Qian, and Yuen (CRYPTO'22), where the pseudorandomness property holds even when the generator can be queried adaptively or in superposition. We show feasibility of these variants assuming the existence of post-quantum one-way functions. 2. Classical Communication: We show that PRS generators with logarithmic output length imply commitment and encryption schemes with classical communication. Previous constructions of such schemes from PRS generators required quantum communication. 3. Simplified Proof: We give a simpler proof of the Brakerski--Shmueli (TCC'19) result that polynomially-many copies of uniform superposition states with random binary phases are indistinguishable from Haar-random states. 4. Necessity of Computational Assumptions: We also show that a secure PRS with output length logarithmic, or larger, in the key length necessarily requires computational assumptions.</description>
+    <title>Quantum advantage and stability to errors in analogue quantum simulators</title>
+    <link>http://arxiv.org/pdf/2212.04924</link>
+    <author>Rahul Trivedi, Adrian Franco Rubio, J. Ignacio Cirac</author>
+    <pubDate>Dec 12 2022</pubDate>
+    <description>Several quantum hardware platforms, while being unable to perform fully fault-tolerant quantum computation, can still be operated as analogue quantum simulators for addressing many-body problems. However, due to the presence of errors, it is not clear to what extent those devices can provide us with an advantage with respect to classical computers. In this work we consider the use of noisy analogue quantum simulators for computing physically relevant properties of many-body systems both in equilibrium and undergoing dynamics. We first formulate a system-size independent notion of stability against extensive errors, which we prove for Gaussian fermion models, as well as for a restricted class of spin systems. Remarkably, for the Gaussian fermion models, our analysis shows the stability of critical (gapless) models at zero temperature which have long-range correlations. Furthermore, we analyze how this stability may lead to a quantum advantage, for the problem of computing the thermodynamic limits of many-body models, in the presence of a constant error rate and without any explicit error correction.</description>
   </item>
 
   <item>
-    <title>Deterministic constant-depth preparation of the AKLT state on a quantum processor using fusion measurements</title>
-    <link>http://arxiv.org/pdf/2210.17548</link>
-    <author>Kevin C. Smith, Eleanor Crane, Nathan Wiebe, S. M. Girvin</author>
-    <pubDate>Nov 01 2022</pubDate>
-    <description>The ground state of the spin-1 Affleck, Kennedy, Lieb and Tasaki (AKLT) model is a paradigmatic example of both a matrix product state and a symmetry-protected topological phase, and additionally holds promise as a resource state for measurement-based quantum computation. Having a nonzero correlation length, the AKLT state cannot be exactly prepared by a constant-depth unitary circuit composed of local gates. In this work, we demonstrate that this no-go limit can be evaded by augmenting a constant-depth circuit with fusion measurements, such that the total preparation time is independent of system size and entirely deterministic. We elucidate our preparation scheme using the language of tensor networks, and furthermore show that the $\mathbb{Z}_2\times\mathbb{Z}_2$ symmetry of the AKLT state directly affords this speed-up over previously known preparation methods. To demonstrate the practical advantage of measurement-assisted preparation on noisy intermediate-scale quantum (NISQ) devices, we carry out our protocol on an IBM Quantum processor. We measure both the string order and entanglement spectrum of prepared AKLT chains and, employing these as metrics, find improved results over the known (purely unitary) sequential preparation approach. We conclude with a demonstration of quantum teleportation using the AKLT state prepared by our measurement-assisted scheme. This work thus serves to provide an efficient strategy to prepare a specific resource in the form of the AKLT state and, more broadly, experimentally demonstrates the possibility for realizable improvement in state preparation afforded by measurement-based circuit depth reduction strategies on NISQ-era devices.</description>
+    <title>Many bounded versions of undecidable problems are NP-hard</title>
+    <link>http://arxiv.org/pdf/2211.13532</link>
+    <author>Andreas Klingler, Mirte van der Eyden, Sebastian Stengele, Tobias Reinhart, Gemma De las Cuevas</author>
+    <pubDate>Nov 28 2022</pubDate>
+    <description>Several physically inspired problems have been proven undecidable; examples are the spectral gap problem and the membership problem for quantum correlations. Most of these results rely on reductions from a handful of undecidable problems, such as the halting problem, the tiling problem, the Post correspondence problem or the matrix mortality problem. All these problems have a common property: they have an NP-hard bounded version. This work establishes a relation between undecidable unbounded problems and their bounded NP-hard versions. Specifically, we show that NP-hardness of a bounded version follows easily from the reduction of the unbounded problems. This leads to new and simpler proofs of the NP-hardness of bounded version of the Post correspondence problem, the matrix mortality problem, the positivity of matrix product operators, the reachability problem, the tiling problem, and the ground state energy problem. This work sheds light on the intractability of problems in theoretical physics and on the computational consequences of bounding a parameter.</description>
   </item>
 
   <item>
-    <title>Invertible bimodule categories and generalized Schur orthogonality</title>
-    <link>http://arxiv.org/pdf/2211.01947</link>
-    <author>Jacob C. Bridgeman, Laurens Lootens, Frank Verstraete</author>
-    <pubDate>Nov 04 2022</pubDate>
-    <description>The Schur orthogonality relations are a cornerstone in the representation theory of groups. We utilize a generalization to weak Hopf algebras to provide a new, readily verifiable condition on the skeletal data for deciding whether a given bimodule category is invertible and therefore defines a Morita equivalence. As a first application, we provide an algorithm for the construction of the full skeletal data of the invertible bimodule category associated to a given module category, which is obtained in a unitary gauge when the underlying categories are unitary. As a second application, we show that our condition for invertibility is equivalent to the notion of MPO-injectivity, thereby closing an open question concerning tensor network representations of string-net models exhibiting topological order. We discuss applications to generalized symmetries, including a generalized Wigner-Eckart theorem.</description>
+    <title>Transversal Injection: A method for direct encoding of ancilla states for non-Clifford gates using stabiliser codes</title>
+    <link>http://arxiv.org/pdf/2211.10046</link>
+    <author>Jason Gavriel, Daniel Herr, Alexis Shaw, Michael J. Bremner, Alexandru Paler, Simon J. Devitt</author>
+    <pubDate>Nov 21 2022</pubDate>
+    <description>Fault-tolerant, error-corrected quantum computation is commonly acknowledged to be crucial to the realisation of large-scale quantum algorithms that could lead to extremely impactful scientific or commercial results. Achieving a universal set of quantum gate operations in a fault-tolerant error-corrected framework suffers from a `conservation of unpleasantness'. In general, no matter what error correction technique is employed, there is always one element of a universal gate set that carries a significant resource overhead - either in physical qubits, computational time, or both. Specifically, this is due to the application of non-Clifford gates. A common method for realising these gates for stabiliser codes such as the surface code is a combination of three protocols: state injection, distillation and gate teleportation. These protocols contribute to the resource overhead compared to logical operations such as a CNOT gate and contributes to the qubit resources for any error-corrected quantum algorithm. In this paper, we introduce a very simple protocol to potentially reduce this overhead for non-Clifford gates: Transversal Injection. Transversal injection modifies the initial physical states of all data qubits in a stabiliser code before standard encoding and results in the direct preparation of a large class of single qubit states, including resource states for non-Clifford logic gates. Preliminary results hint at high quality fidelities at larger distances and motivate further research on this technique.</description>
+  </item>
+
+  <item>
+    <title>Hardware-efficient learning of quantum many-body states</title>
+    <link>http://arxiv.org/pdf/2212.06084</link>
+    <author>Katherine Van Kirk, Jordan Cotler, Hsin-Yuan Huang, Mikhail D. Lukin</author>
+    <pubDate>Dec 13 2022</pubDate>
+    <description>Efficient characterization of highly entangled multi-particle systems is an outstanding challenge in quantum science. Recent developments have shown that a modest number of randomized measurements suffices to learn many properties of a quantum many-body system. However, implementing such measurements requires complete control over individual particles, which is unavailable in many experimental platforms. In this work, we present rigorous and efficient algorithms for learning quantum many-body states in systems with any degree of control over individual particles, including when every particle is subject to the same global field and no additional ancilla particles are available. We numerically demonstrate the effectiveness of our algorithms for estimating energy densities in a U(1) lattice gauge theory and classifying topological order using very limited measurement capabilities.</description>
+  </item>
+
+  <item>
+    <title>Single-shot error mitigation by coherent Pauli checks</title>
+    <link>http://arxiv.org/pdf/2212.03937</link>
+    <author>Ewout van den Berg, Sergey Bravyi, Jay M. Gambetta, Petar Jurcevic, Dmitri Maslov, Kristan Temme</author>
+    <pubDate>Dec 09 2022</pubDate>
+    <description>Generating samples from the output distribution of a quantum circuit is a ubiquitous task used as a building block of many quantum algorithms. Here we show how to accomplish this task on a noisy quantum processor lacking full-blown error correction for a special class of quantum circuits dominated by Clifford gates. Our approach is based on Coherent Pauli Checks (CPCs) that detect errors in a Clifford circuit by verifying commutation rules between random Pauli-type check operators and the considered circuit. Our main contributions are as follows. First, we derive a simple formula for the probability that a Clifford circuit protected by CPCs contains a logical error. In the limit of a large number of checks, the logical error probability is shown to approach the value ${\approx}7\epsilon n/5$, where $n$ is the number of qubits and $\epsilon$ is the depolarizing error rate. Our formula agrees nearly perfectly with the numerical simulation results. Second, we show that CPCs are well-suited for quantum processors with a limited qubit connectivity. For example, the difference between all-to-all and linear qubit connectivity is only a 3X increase in the number of CNOT gates required to implement CPCs. Third, we describe simplified one-sided CPCs which are well-suited for mitigating measurement errors in the single-shot settings. Finally, we report an experimental demonstration of CPCs with up to 10 logical qubits and more than 100 logical CNOT gates. Our experimental results show that CPCs provide a marked improvement in the logical error probability for the considered task of sampling the output distribution of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Quantum Cryptography in Algorithmica</title>
+    <link>http://arxiv.org/pdf/2212.00879</link>
+    <author>William Kretschmer, Luowen Qian, Makrand Sinha, Avishay Tal</author>
+    <pubDate>Dec 05 2022</pubDate>
+    <description>We construct a classical oracle relative to which $\mathsf{P} = \mathsf{NP}$ yet single-copy secure pseudorandom quantum states exist. In the language of Impagliazzo's five worlds, this is a construction of pseudorandom states in "Algorithmica," and hence shows that in a black-box setting, quantum cryptography based on pseudorandom states is possible even if one-way functions do not exist. As a consequence, we demonstrate that there exists a property of a cryptographic hash function that simultaneously (1) suffices to construct pseudorandom states, (2) holds for a random oracle, and (3) is independent of $\mathsf{P}$ vs. $\mathsf{NP}$ in the black-box setting. We also introduce a conjecture that would generalize our results to multi-copy secure pseudorandom states. We build on the recent construction by Aaronson, Ingram, and Kretschmer (CCC 2022) of an oracle relative to which $\mathsf{P} = \mathsf{NP}$ but $\mathsf{BQP} \neq \mathsf{QCMA}$, based on hardness of the OR $\circ$ Forrelation problem. Our proof also introduces a new discretely-defined variant of the Forrelation distribution, for which we prove pseudorandomness against $\mathsf{AC^0}$ circuits. This variant may be of independent interest.</description>
+  </item>
+
+  <item>
+    <title>Variations on the Choi-Jamiolkowski isomorphism</title>
+    <link>http://arxiv.org/pdf/2211.16533</link>
+    <author>Markus Frembs, Eric G. Cavalcanti</author>
+    <pubDate>Dec 01 2022</pubDate>
+    <description>We address various aspects of a widely used tool in quantum information theory: the Choi-Jamiolkowski isomorphism [A. Jamiolkowski, Rep. Math. Phys., 3, 275 (1972)]. We review different versions of the isomorphism, their properties and propose a unified description that combines them all. To this end, we identify the physical reason for the appearance of the (basis-dependent) operation of transposition in the isomorphism as used in Choi's theorem [M.-D. Choi, Lin. Alg. Appl., 10, 285 (1975)]. This requires a careful distinction between Jordan algebras and the different C*-algebras they arise from, which are distinguished by their order of composition. Physically, the latter encodes a choice of time orientation in the respective algebras, which relates to a number of recent results, including a characterisation of quantum from more general non-signalling bipartite correlations [M. Frembs and A. Döring, arXiv:2204.11471] and a classification of bipartite entanglement [M. Frembs, arXiv:2207.00024].</description>
+  </item>
+
+  <item>
+    <title>Lower Bounding Ground-State Energies of Local Hamiltonians Through the Renormalization Group</title>
+    <link>http://arxiv.org/pdf/2212.03014</link>
+    <author>Ilya Kull, Norbert Schuch, Ben Dive, Miguel Navascués</author>
+    <pubDate>Dec 07 2022</pubDate>
+    <description>Given a renormalization scheme, we show how to formulate a tractable convex relaxation of the set of feasible local density matrices of a many-body quantum system. The relaxation is obtained by introducing a hierarchy of constraints between the reduced states of ever-growing sets of lattice sites. The coarse-graining maps of the underlying renormalization procedure serve to eliminate a vast number of those constraints, such that the remaining ones can be enforced with reasonable computational means. This can be used to obtain rigorous lower bounds on the ground state energy of arbitrary local Hamiltonians, by performing a linear optimization over the resulting convex relaxation of reduced quantum states. The quality of the bounds crucially depends on the particular renormalization scheme, which must be tailored to the target Hamiltonian. We apply our method to 1D translation-invariant spin models, obtaining energy bounds comparable to those attained by optimizing over locally translation-invariant states of $n\gtrsim 100$ spins. Beyond this demonstration, the general method can be applied to a wide range of other problems, such as spin systems in higher spatial dimensions, electronic structure problems, and various other many-body optimization problems, such as entanglement and nonlocality detection.</description>
+  </item>
+
+  <item>
+    <title>A Unified Quantum Algorithm Framework for Estimating Properties of Discrete Probability Distributions</title>
+    <link>http://arxiv.org/pdf/2212.01571</link>
+    <author>Tongyang Li, Xinzhao Wang, Shengyu Zhang</author>
+    <pubDate>Dec 06 2022</pubDate>
+    <description>Estimating statistical properties is fundamental in statistics and computer science. In this paper, we propose a unified quantum algorithm framework for estimating properties of discrete probability distributions, with estimating Rényi entropies as specific examples. In particular, given a quantum oracle that prepares an $n$-dimensional quantum state $\sum_{i=1}^{n}\sqrt{p_{i}}|i\rangle$, for $\alpha>1$ and $0<\alpha<1$, our algorithm framework estimates $\alpha$-Rényi entropy $H_{\alpha}(p)$ to within additive error $\epsilon$ with probability at least $2/3$ using $\widetilde{\mathcal{O}}(n^{1-\frac{1}{2\alpha}}/\epsilon + \sqrt{n}/\epsilon^{1+\frac{1}{2\alpha}})$ and $\widetilde{\mathcal{O}}(n^{\frac{1}{2\alpha}}/\epsilon^{1+\frac{1}{2\alpha}})$ queries, respectively. This improves the best known dependence in $\epsilon$ as well as the joint dependence between $n$ and $1/\epsilon$. Technically, our quantum algorithms combine quantum singular value transformation, quantum annealing, and variable-time amplitude estimation. We believe that our algorithm framework is of general interest and has wide applications.</description>
+  </item>
+
+  <item>
+    <title>High-threshold quantum computing by fusing one-dimensional cluster states</title>
+    <link>http://arxiv.org/pdf/2212.06775</link>
+    <author>Stefano Paesani, Benjamin J. Brown</author>
+    <pubDate>Dec 14 2022</pubDate>
+    <description>We propose a measurement-based model for fault-tolerant quantum computation that can be realised with one-dimensional cluster states and fusion measurements only; basic resources that are readily available with scalable photonic hardware. Our simulations demonstrate high thresholds compared with other measurement-based models realized with basic entangled resources and two-qubit fusion measurements. Its high tolerance to noise indicates that our practical construction offers a promising route to scalable quantum computing with quantum emitters and linear-optical elements.</description>
+  </item>
+
+  <item>
+    <title>Fault-tolerant Post-Selection for Low Overhead Magic State Preparation</title>
+    <link>http://arxiv.org/pdf/2212.00813</link>
+    <author>Héctor Bombín, Mihir Pant, Sam Roberts, Karthik I. Seetharam</author>
+    <pubDate>Dec 05 2022</pubDate>
+    <description>We introduce a framework for fault-tolerant post-selection (FTPS) of fault-tolerant codes and channels -- such as those based on surface-codes -- using soft-information metrics based on visible syndrome and erasure information. We introduce several metrics for ranking configurations of syndromes and erasures. In particular, we introduce the \emphlogical gap (and variants thereof) as a powerful soft-information metric for predicting logical error rates of fault-tolerant channels based on topological error-correcting codes. The logical gap is roughly the unsigned weight difference between inequivalent logical corrections and is adaptable to any tailored noise model or decoder. We deploy this framework to prepare high-quality surface code magic states with low overhead under a model of independent and identically distributed (\emphi.i.d.) Pauli and erasure errors. Post-selection strategies based on the logical gap can suppress the encoding error rate of a magic state preparation channel to the level of the physical error rate with low overhead. For example, when operating at $60\%$ the bulk threshold of the corresponding surface code, an overall reduction of the encoding error rate by a factor of $15$ is achievable with a relative overhead factor of ${< 2}$ (approximately $23$ times less than that of simple syndrome-counting rules). We analyze a schematic buffer architecture for implementing post-selection rules on magic state factories in the context of magic state distillation. The FTPS framework can be utilized for mitigating errors in more general fault-tolerant logical channels.</description>
+  </item>
+
+  <item>
+    <title>Complementarity and the unitarity of the black hole $S$-matrix</title>
+    <link>http://arxiv.org/pdf/2212.00194</link>
+    <author>Isaac H. Kim, John Preskill</author>
+    <pubDate>Dec 02 2022</pubDate>
+    <description>Recently, Akers et al. proposed a non-isometric holographic map from the interior of a black hole to its exterior. Within this model, we study properties of the black hole $S$-matrix, which are in principle accessible to observers who stay outside the black hole. Specifically, we investigate a scenario in which an infalling agent interacts with radiation both outside and inside the black hole. Because the holographic map involves postselection, the unitarity of the $S$-matrix is not guaranteed in this scenario, but we find that unitarity is satisfied to very high precision if suitable conditions are met. If the internal black hole dynamics is described by a pseudorandom unitary transformation, and if the operations performed by the infaller have computational complexity scaling polynomially with the black hole entropy, then the $S$-matrix is unitary up to corrections that are superpolynomially small in the black hole entropy. Furthermore, while in principle quantum computation assisted by postselection can be very powerful, we find under similar assumptions that the $S$-matrix of an evaporating black hole has polynomial computational complexity.</description>
+  </item>
+
+  <item>
+    <title>Functional analytic insights into irreversibility of quantum resources</title>
+    <link>http://arxiv.org/pdf/2211.15678</link>
+    <author>Bartosz Regula, Ludovico Lami</author>
+    <pubDate>Nov 30 2022</pubDate>
+    <description>We propose an approach to the study of quantum resource manipulation based on the basic observation that quantum channels which preserve certain sets of states are contractive with respect to the base norms induced by those sets. We forgo the usual physical assumptions on quantum dynamics: instead of enforcing complete positivity, trace preservation, or resource-theoretic considerations, we study transformation protocols as norm-contractive maps. This allows us to apply to this problem a technical toolset from functional analysis, unifying previous approaches and introducing new families of bounds for the distillable resources and the resource cost, both one-shot and asymptotic. Since our expressions lend themselves naturally to single-letter forms, they can often be calculated in practice; by doing so, we demonstrate with examples that they can yield the best known bounds on quantities such as the entanglement cost. As applications, we not only give an alternative derivation of the recent result of [arXiv:2111.02438] which showed that entanglement theory is asymptotically irreversible, but also provide the quantities introduced in that work with explicit operational meaning in the context of entanglement distillation through a novel generalised form of hypothesis testing relative entropy. Besides entanglement, we reveal a new irreversible quantum resource: through improved bounds for state transformations in the resource theory of magic-state quantum computation, we show that there exist qutrit magic states that cannot be reversibly interconverted under stabiliser protocols.</description>
+  </item>
+
+  <item>
+    <title>Measuring Arbitrary Physical Properties in Analog Quantum Simulation</title>
+    <link>http://arxiv.org/pdf/2212.02517</link>
+    <author>Minh C. Tran, Daniel K. Mark, Wen Wei Ho, Soonwon Choi</author>
+    <pubDate>Dec 07 2022</pubDate>
+    <description>A central challenge in analog quantum simulation is to characterize desirable physical properties of quantum states produced in experiments. However, in conventional approaches, the extraction of arbitrary information requires performing measurements in many different bases, which necessitates a high level of control that present-day quantum devices may not have. Here, we propose and analyze a scalable protocol that leverages the ergodic nature of generic quantum dynamics, enabling the efficient extraction of many physical properties. The protocol does not require sophisticated controls and can be generically implemented in analog quantum simulation platforms today. Our protocol involves introducing ancillary degrees of freedom in a predetermined state to a system of interest, quenching the joint system under Hamiltonian dynamics native to the particular experimental platform, and then measuring globally in a single, fixed basis. We show that arbitrary information of the original quantum state is contained within such measurement data, and can be extracted using a classical data-processing procedure. We numerically demonstrate our approach with a number of examples, including the measurements of entanglement entropy, many-body Chern number, and various superconducting orders in systems of neutral atom arrays, bosonic and fermionic particles on optical lattices, respectively, only assuming existing technological capabilities. Our protocol excitingly promises to overcome limited controllability and, thus, enhance the versatility and utility of near-term quantum technologies.</description>
+  </item>
+
+  <item>
+    <title>Simple and high-precision Hamiltonian simulation by compensating Trotter error with linear combination of unitary operations</title>
+    <link>http://arxiv.org/pdf/2212.04566</link>
+    <author>Pei Zeng, Jinzhao Sun, Liang Jiang, Qi Zhao</author>
+    <pubDate>Dec 12 2022</pubDate>
+    <description>Trotter and linear-combination-of-unitary (LCU) are two popular Hamiltonian simulation methods. We propose Hamiltonian simulation algorithms using LCU to compensate Trotter error, which enjoy both of their advantages. By adding few gates after the Kth-order Trotter, we realize a better time scaling than 2Kth-order Trotter. Our first algorithm exponentially improves the accuracy scaling of the Kth-order Trotter formula. In the second algorithm, we consider the detailed structure of Hamiltonians and construct LCU for Trotter errors with commutator scaling. Consequently, for lattice Hamiltonians, the algorithm enjoys almost linear system-size dependence and quadratically improves the accuracy of the Kth-order Trotter.</description>
   </item>
 
 </channel>
