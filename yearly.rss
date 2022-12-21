@@ -159,19 +159,19 @@
   </item>
 
   <item>
-    <title>Parallel window decoding enables scalable fault tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2209.08552</link>
-    <author>Luka Skoric, Dan E. Browne, Kenton M. Barnes, Neil I. Gillespie, Earl T. Campbell</author>
-    <pubDate>Sep 20 2022</pubDate>
-    <description>Quantum Error Correction (QEC) continuously generates a stream of syndrome data that contains information about the errors in the system. Useful fault-tolerant quantum computation requires online decoders that are capable of processing this syndrome data at the rate it is received. Otherwise, a data backlog is created that grows exponentially with the $T$-gate depth of the computation. Superconducting quantum devices can perform QEC rounds in sub-1 $\mu$s time, setting a stringent requirement on the speed of the decoders. All current decoder proposals have a maximum code size beyond which the processing of syndromes becomes too slow to keep up with the data acquisition, thereby making the fault-tolerant computation not scalable. Here, we will present a methodology that parallelizes the decoding problem and achieves almost arbitrary syndrome processing speed. Our parallelization requires some classical feedback decisions to be delayed, leading to a slow-down of the logical clock speed. However, the slow-down is now polynomial in code size and so an exponential backlog is averted. Furthermore, using known auto-teleportation gadgets the slow-down can be eliminated altogether in exchange for increased qubit overhead, all polynomially scaling. We demonstrate our parallelization speed-up using a Python implementation, combining it with both union-find and minimum weight perfect matching. Furthermore, we show that the algorithm imposes no noticeable reduction in logical fidelity compared to the original global decoder. Finally, we discuss how the same methodology can be implemented in online hardware decoders.</description>
-  </item>
-
-  <item>
     <title>Quantum algorithms and the power of forgetting</title>
     <link>http://arxiv.org/pdf/2211.12447</link>
     <author>Andrew M. Childs, Matthew Coudron, Amin Shiraz Gilani</author>
     <pubDate>Nov 23 2022</pubDate>
     <description>The so-called welded tree problem provides an example of a black-box problem that can be solved exponentially faster by a quantum walk than by any classical algorithm. Given the name of a special ENTRANCE vertex, a quantum walk can find another distinguished EXIT vertex using polynomially many queries, though without finding any particular path from ENTRANCE to EXIT. It has been an open problem for twenty years whether there is an efficient quantum algorithm for finding such a path, or if the path-finding problem is hard even for quantum computers. We show that a natural class of efficient quantum algorithms provably cannot find a path from ENTRANCE to EXIT. Specifically, we consider algorithms that, within each branch of their superposition, always store a set of vertex labels that form a connected subgraph including the ENTRANCE, and that only provide these vertex labels as inputs to the oracle. While this does not rule out the possibility of a quantum algorithm that efficiently finds a path, it is unclear how an algorithm could benefit by deviating from this behavior. Our no-go result suggests that, for some problems, quantum algorithms must necessarily forget the path they take to reach a solution in order to outperform classical computation.</description>
+  </item>
+
+  <item>
+    <title>Parallel window decoding enables scalable fault tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2209.08552</link>
+    <author>Luka Skoric, Dan E. Browne, Kenton M. Barnes, Neil I. Gillespie, Earl T. Campbell</author>
+    <pubDate>Sep 20 2022</pubDate>
+    <description>Quantum Error Correction (QEC) continuously generates a stream of syndrome data that contains information about the errors in the system. Useful fault-tolerant quantum computation requires online decoders that are capable of processing this syndrome data at the rate it is received. Otherwise, a data backlog is created that grows exponentially with the $T$-gate depth of the computation. Superconducting quantum devices can perform QEC rounds in sub-1 $\mu$s time, setting a stringent requirement on the speed of the decoders. All current decoder proposals have a maximum code size beyond which the processing of syndromes becomes too slow to keep up with the data acquisition, thereby making the fault-tolerant computation not scalable. Here, we will present a methodology that parallelizes the decoding problem and achieves almost arbitrary syndrome processing speed. Our parallelization requires some classical feedback decisions to be delayed, leading to a slow-down of the logical clock speed. However, the slow-down is now polynomial in code size and so an exponential backlog is averted. Furthermore, using known auto-teleportation gadgets the slow-down can be eliminated altogether in exchange for increased qubit overhead, all polynomially scaling. We demonstrate our parallelization speed-up using a Python implementation, combining it with both union-find and minimum weight perfect matching. Furthermore, we show that the algorithm imposes no noticeable reduction in logical fidelity compared to the original global decoder. Finally, we discuss how the same methodology can be implemented in online hardware decoders.</description>
   </item>
 
   <item>
@@ -311,6 +311,14 @@
   </item>
 
   <item>
+    <title>Quantum divide and conquer</title>
+    <link>http://arxiv.org/pdf/2210.06419</link>
+    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
+    <pubDate>Oct 13 2022</pubDate>
+    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
+  </item>
+
+  <item>
     <title>On a gap in the proof of the generalised quantum Stein's lemma and its consequences for the reversibility of quantum resources</title>
     <link>http://arxiv.org/pdf/2205.02813</link>
     <author>Mario Berta, Fernando G. S. L. Brandão, Gilad Gour, Ludovico Lami, Martin B. Plenio, Bartosz Regula, Marco Tomamichel</author>
@@ -324,14 +332,6 @@
     <author>Maria Schuld, Nathan Killoran</author>
     <pubDate>Mar 04 2022</pubDate>
     <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
-  </item>
-
-  <item>
-    <title>Quantum divide and conquer</title>
-    <link>http://arxiv.org/pdf/2210.06419</link>
-    <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
-    <pubDate>Oct 13 2022</pubDate>
-    <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
   </item>
 
   <item>

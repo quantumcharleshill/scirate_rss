@@ -39,6 +39,14 @@
   </item>
 
   <item>
+    <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
+    <link>http://arxiv.org/pdf/2212.08678</link>
+    <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of practical and industrial contexts - has been identified as one of the core potential fields of applicability of near-term quantum computers. It is still unclear, however, to what extent variational quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that fault-tolerant quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work of Kearns and Valiant, we construct special instances of the integer programming problem (which in its most general form is NP-complete) that we prove to be hard-to-approximate classically but give an efficient quantum algorithm to approximate the optimal solution of those instances, hence showing a super-polynomial quantum advantage. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms.</description>
+  </item>
+
+  <item>
     <title>Sample-optimal classical shadows for pure states</title>
     <link>http://arxiv.org/pdf/2211.11810</link>
     <author>Daniel Grier, Hakop Pashayan, Luke Schaeffer</author>
@@ -87,19 +95,19 @@
   </item>
 
   <item>
-    <title>Even shorter quantum circuit for phase estimation on early fault-tolerant quantum computers with applications to ground-state energy estimation</title>
-    <link>http://arxiv.org/pdf/2211.11973</link>
-    <author>Zhiyan Ding, Lin Lin</author>
-    <pubDate>Nov 23 2022</pubDate>
-    <description>We develop a phase estimation method with a distinct feature: its maximal runtime (which determines the circuit depth) is $\delta/\epsilon$, where $\epsilon$ is the target precision, and the preconstant $\delta$ can be arbitrarily close to $0$ as the initial state approaches the target eigenstate. The total cost of the algorithm satisfies the Heisenberg-limited scaling $\widetilde{\mathcal{O}}(\epsilon^{-1})$. This is different from all previous proposals, where $\delta \gtrsim \pi$ is required even if the initial state is an exact eigenstate. As a result, our algorithm may significantly reduce the circuit depth for performing phase estimation tasks on early fault-tolerant quantum computers. The key technique is a simple subroutine called quantum complex exponential least squares (QCELS). Our algorithm can be readily applied to reduce the circuit depth for estimating the ground-state energy of a quantum Hamiltonian, when the overlap between the initial state and the ground state is large. If this initial overlap is small, we can combine our method with the Fourier filtering method developed in [Lin, Tong, PRX Quantum 3, 010318, 2022], and the resulting algorithm provably reduces the circuit depth in the presence of a large relative overlap compared to $\epsilon$. The relative overlap condition is similar to a spectral gap assumption, but it is aware of the information in the initial state and is therefore applicable to certain Hamiltonians with small spectral gaps. We observe that the circuit depth can be reduced by around two orders of magnitude in numerical experiments under various settings.</description>
-  </item>
-
-  <item>
     <title>Thrifty shadow estimation: re-using quantum circuits and bounding tails</title>
     <link>http://arxiv.org/pdf/2212.06240</link>
     <author>Jonas Helsen, Michael Walter</author>
     <pubDate>Dec 14 2022</pubDate>
     <description>Randomized shadow estimation is a recent protocol that allows estimating exponentially many expectation values of a quantum state from ``classical shadows'', obtained by applying random quantum circuits and computational basis measurements. In this paper we study the statistical efficiency of this approach in light of near-term quantum computing. In particular, we propose and analyze a more practically-implementable variant of the protocol, thrifty shadow estimation, in which quantum circuits are reused many times instead of having to be freshly generated for each measurement (as in the original protocol). We show that the effect of this reuse strongly depends on the family of quantum circuits that is chosen. In particular, it is maximally effective when sampling Haar random unitaries, and maximally ineffective when sampling Clifford circuits (even though the Clifford group forms a three-design). To interpolate between these two extremes, we provide an efficiently simulable family of quantum circuits inspired by a recent construction of approximate t-designs. Finally we consider tail bounds for shadow estimation and discuss when median-of-means estimation can be replaced with standard mean estimation.</description>
+  </item>
+
+  <item>
+    <title>Even shorter quantum circuit for phase estimation on early fault-tolerant quantum computers with applications to ground-state energy estimation</title>
+    <link>http://arxiv.org/pdf/2211.11973</link>
+    <author>Zhiyan Ding, Lin Lin</author>
+    <pubDate>Nov 23 2022</pubDate>
+    <description>We develop a phase estimation method with a distinct feature: its maximal runtime (which determines the circuit depth) is $\delta/\epsilon$, where $\epsilon$ is the target precision, and the preconstant $\delta$ can be arbitrarily close to $0$ as the initial state approaches the target eigenstate. The total cost of the algorithm satisfies the Heisenberg-limited scaling $\widetilde{\mathcal{O}}(\epsilon^{-1})$. This is different from all previous proposals, where $\delta \gtrsim \pi$ is required even if the initial state is an exact eigenstate. As a result, our algorithm may significantly reduce the circuit depth for performing phase estimation tasks on early fault-tolerant quantum computers. The key technique is a simple subroutine called quantum complex exponential least squares (QCELS). Our algorithm can be readily applied to reduce the circuit depth for estimating the ground-state energy of a quantum Hamiltonian, when the overlap between the initial state and the ground state is large. If this initial overlap is small, we can combine our method with the Fourier filtering method developed in [Lin, Tong, PRX Quantum 3, 010318, 2022], and the resulting algorithm provably reduces the circuit depth in the presence of a large relative overlap compared to $\epsilon$. The relative overlap condition is similar to a spectral gap assumption, but it is aware of the information in the initial state and is therefore applicable to certain Hamiltonians with small spectral gaps. We observe that the circuit depth can be reduced by around two orders of magnitude in numerical experiments under various settings.</description>
   </item>
 
   <item>
@@ -191,19 +199,19 @@
   </item>
 
   <item>
-    <title>A Unified Quantum Algorithm Framework for Estimating Properties of Discrete Probability Distributions</title>
-    <link>http://arxiv.org/pdf/2212.01571</link>
-    <author>Tongyang Li, Xinzhao Wang, Shengyu Zhang</author>
-    <pubDate>Dec 06 2022</pubDate>
-    <description>Estimating statistical properties is fundamental in statistics and computer science. In this paper, we propose a unified quantum algorithm framework for estimating properties of discrete probability distributions, with estimating Rényi entropies as specific examples. In particular, given a quantum oracle that prepares an $n$-dimensional quantum state $\sum_{i=1}^{n}\sqrt{p_{i}}|i\rangle$, for $\alpha>1$ and $0<\alpha<1$, our algorithm framework estimates $\alpha$-Rényi entropy $H_{\alpha}(p)$ to within additive error $\epsilon$ with probability at least $2/3$ using $\widetilde{\mathcal{O}}(n^{1-\frac{1}{2\alpha}}/\epsilon + \sqrt{n}/\epsilon^{1+\frac{1}{2\alpha}})$ and $\widetilde{\mathcal{O}}(n^{\frac{1}{2\alpha}}/\epsilon^{1+\frac{1}{2\alpha}})$ queries, respectively. This improves the best known dependence in $\epsilon$ as well as the joint dependence between $n$ and $1/\epsilon$. Technically, our quantum algorithms combine quantum singular value transformation, quantum annealing, and variable-time amplitude estimation. We believe that our algorithm framework is of general interest and has wide applications.</description>
-  </item>
-
-  <item>
     <title>High-threshold quantum computing by fusing one-dimensional cluster states</title>
     <link>http://arxiv.org/pdf/2212.06775</link>
     <author>Stefano Paesani, Benjamin J. Brown</author>
     <pubDate>Dec 14 2022</pubDate>
     <description>We propose a measurement-based model for fault-tolerant quantum computation that can be realised with one-dimensional cluster states and fusion measurements only; basic resources that are readily available with scalable photonic hardware. Our simulations demonstrate high thresholds compared with other measurement-based models realized with basic entangled resources and two-qubit fusion measurements. Its high tolerance to noise indicates that our practical construction offers a promising route to scalable quantum computing with quantum emitters and linear-optical elements.</description>
+  </item>
+
+  <item>
+    <title>A Unified Quantum Algorithm Framework for Estimating Properties of Discrete Probability Distributions</title>
+    <link>http://arxiv.org/pdf/2212.01571</link>
+    <author>Tongyang Li, Xinzhao Wang, Shengyu Zhang</author>
+    <pubDate>Dec 06 2022</pubDate>
+    <description>Estimating statistical properties is fundamental in statistics and computer science. In this paper, we propose a unified quantum algorithm framework for estimating properties of discrete probability distributions, with estimating Rényi entropies as specific examples. In particular, given a quantum oracle that prepares an $n$-dimensional quantum state $\sum_{i=1}^{n}\sqrt{p_{i}}|i\rangle$, for $\alpha>1$ and $0<\alpha<1$, our algorithm framework estimates $\alpha$-Rényi entropy $H_{\alpha}(p)$ to within additive error $\epsilon$ with probability at least $2/3$ using $\widetilde{\mathcal{O}}(n^{1-\frac{1}{2\alpha}}/\epsilon + \sqrt{n}/\epsilon^{1+\frac{1}{2\alpha}})$ and $\widetilde{\mathcal{O}}(n^{\frac{1}{2\alpha}}/\epsilon^{1+\frac{1}{2\alpha}})$ queries, respectively. This improves the best known dependence in $\epsilon$ as well as the joint dependence between $n$ and $1/\epsilon$. Technically, our quantum algorithms combine quantum singular value transformation, quantum annealing, and variable-time amplitude estimation. We believe that our algorithm framework is of general interest and has wide applications.</description>
   </item>
 
   <item>
@@ -236,14 +244,6 @@
     <author>Minh C. Tran, Daniel K. Mark, Wen Wei Ho, Soonwon Choi</author>
     <pubDate>Dec 07 2022</pubDate>
     <description>A central challenge in analog quantum simulation is to characterize desirable physical properties of quantum states produced in experiments. However, in conventional approaches, the extraction of arbitrary information requires performing measurements in many different bases, which necessitates a high level of control that present-day quantum devices may not have. Here, we propose and analyze a scalable protocol that leverages the ergodic nature of generic quantum dynamics, enabling the efficient extraction of many physical properties. The protocol does not require sophisticated controls and can be generically implemented in analog quantum simulation platforms today. Our protocol involves introducing ancillary degrees of freedom in a predetermined state to a system of interest, quenching the joint system under Hamiltonian dynamics native to the particular experimental platform, and then measuring globally in a single, fixed basis. We show that arbitrary information of the original quantum state is contained within such measurement data, and can be extracted using a classical data-processing procedure. We numerically demonstrate our approach with a number of examples, including the measurements of entanglement entropy, many-body Chern number, and various superconducting orders in systems of neutral atom arrays, bosonic and fermionic particles on optical lattices, respectively, only assuming existing technological capabilities. Our protocol excitingly promises to overcome limited controllability and, thus, enhance the versatility and utility of near-term quantum technologies.</description>
-  </item>
-
-  <item>
-    <title>Simple and high-precision Hamiltonian simulation by compensating Trotter error with linear combination of unitary operations</title>
-    <link>http://arxiv.org/pdf/2212.04566</link>
-    <author>Pei Zeng, Jinzhao Sun, Liang Jiang, Qi Zhao</author>
-    <pubDate>Dec 12 2022</pubDate>
-    <description>Trotter and linear-combination-of-unitary (LCU) are two popular Hamiltonian simulation methods. We propose Hamiltonian simulation algorithms using LCU to compensate Trotter error, which enjoy both of their advantages. By adding few gates after the Kth-order Trotter, we realize a better time scaling than 2Kth-order Trotter. Our first algorithm exponentially improves the accuracy scaling of the Kth-order Trotter formula. In the second algorithm, we consider the detailed structure of Hamiltonians and construct LCU for Trotter errors with commutator scaling. Consequently, for lattice Hamiltonians, the algorithm enjoys almost linear system-size dependence and quadratically improves the accuracy of the Kth-order Trotter.</description>
   </item>
 
 </channel>

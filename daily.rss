@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Grothendieck inequalities characterize converses to the polynomial method</title>
-    <link>http://arxiv.org/pdf/2212.08559</link>
-    <author>Jop Briët, Francisco Escudero Gutiérrez, Sander Gribling</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. Here we show that such a result does not generalize to quartic polynomials and 2-query algorithms, even when we allow for additive approximations. We also show that the additive approximation implied by their result is tight for bounded bilinear forms, which gives a new characterization of the Grothendieck constant in terms of 1-query quantum algorithms. Along the way we provide reformulations of the completely bounded norm of a form, and its dual norm.</description>
+    <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
+    <link>http://arxiv.org/pdf/2212.08678</link>
+    <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of practical and industrial contexts - has been identified as one of the core potential fields of applicability of near-term quantum computers. It is still unclear, however, to what extent variational quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that fault-tolerant quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work of Kearns and Valiant, we construct special instances of the integer programming problem (which in its most general form is NP-complete) that we prove to be hard-to-approximate classically but give an efficient quantum algorithm to approximate the optimal solution of those instances, hence showing a super-polynomial quantum advantage. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms.</description>
   </item>
 
   <item>
-    <title>From time-reversal symmetry to quantum Bayes' rules</title>
-    <link>http://arxiv.org/pdf/2212.08088</link>
-    <author>Arthur J. Parzygnat, James Fullwood</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>Bayes' rule $\mathbb{P}(B|A)\mathbb{P}(A)=\mathbb{P}(A|B)\mathbb{P}(B)$ is one of the simplest yet most profound, ubiquitous, and far-reaching results of classical probability theory, with applications in decision making, artificial intelligence, weather forecasts, betting strategies, and more generally statistical inference. Many attempts have been made to extend this rule to quantum systems, the significance of which we are only beginning to understand. In this work, we develop a systematic framework for defining Bayes' rule in the quantum setting, and we show that a vast majority of the proposed quantum Bayes' rules appearing in the literature are all instances of our definition. Moreover, our Bayes' rule is based upon a simple relationship between the notions of \emphstate over time and a time-reversal symmetry map, both of which are introduced here.</description>
+    <title>Noisy Stabilizer Formalism</title>
+    <link>http://arxiv.org/pdf/2212.08677</link>
+    <author>Maria Flors Mor-Ruiz, Wolfgang Dür</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Despite the exponential overhead to describe general multi-qubit quantum states and processes, efficient methods for certain state families and operations have been developed and utilised. The stabilizer formalism and the Gottesman-Knill theorem, where pure stabilizer or graph states are manipulated by Clifford operations and Pauli measurements, are prominent examples, and these states play a major role in many applications in quantum technologies. Here we develop a noisy stabilizer formalism, i.e., a method that allows one not only to efficiently describe and follow pure states under Clifford operations and Pauli measurements but also Pauli noise processes acting on such stabilizer states, including uncorrelated and correlated dephasing and single- or multi-qubit depolarizing noise. The method scales linearly in the number of qubits of the initial state, but exponentially in the size of the target state. Thus, whenever a noisy stabilizer state is manipulated by means of local Pauli measurements such that a multipartite entangled state of a few qubits is generated, one can efficiently describe the resulting state.</description>
   </item>
 
   <item>
-    <title>Classically Simulating Quantum Supremacy IQP Circuits trough a Random Graph Approach</title>
-    <link>http://arxiv.org/pdf/2212.08609</link>
-    <author>Julien Codsi, John van de Wetering</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>Quantum Supremacy is a demonstration of a computation by a quantum computer that can not be performed by the best classical computer in a reasonable time. A well-studied approach to demonstrating this on near-term quantum computers is to use random circuit sampling. It has been suggested that a good candidate for demonstrating quantum supremacy with random circuit sampling is to use \emphIQP circuits. These are quantum circuits where the unitary it implements is diagonal. In this paper we introduce improved techniques for classically simulating random IQP circuits. We find a simple algorithm to calculate an amplitude of an $n$-qubit IQP circuit with dense random two-qubit interactions in time $O(\frac{\log^2 n}{n} 2^n )$, which for sparse circuits (where each qubit interacts with $O(\log n)$ other qubits) runs in $o(2^n/\text{poly}(n))$ for any given polynomial. Using a more complicated stabiliser decomposition approach we improve the algorithm for dense circuits to $O\left(\frac{(\log n)^{4-\beta}}{n^{2-\beta}} 2^n \right)$ where $\beta \approx 0.396$. We benchmarked our algorithm and found that we can simulate up to 50-qubit circuits in a couple of minutes on a laptop. We estimate that 70-qubit circuits are within reach for a large computing cluster.</description>
+    <title>Upper Bounds on the Distillable Randomness of Bipartite Quantum States</title>
+    <link>http://arxiv.org/pdf/2212.09073</link>
+    <author>Ludovico Lami, Bartosz Regula, Xin Wang, Mark M. Wilde</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>The distillable randomness of a bipartite quantum state is an information-theoretic quantity equal to the largest net rate at which shared randomness can be distilled from the state by means of local operations and classical communication. This quantity has been widely used as a measure of classical correlations, and one version of it is equal to the regularized Holevo information of the ensemble that results from measuring one share of the state. However, due to the regularization, the distillable randomness is difficult to compute in general. To address this problem, we define measures of classical correlations and prove a number of their properties, most importantly that they serve as upper bounds on the distillable randomness of an arbitrary bipartite state. We then further bound these measures from above by some that are efficiently computable by means of semi-definite programming, we evaluate one of them for the example of an isotropic state, and we remark on the relation to quantities previously proposed in the literature.</description>
   </item>
 
   <item>
-    <title>Approximate counting using Taylor's theorem: a survey</title>
-    <link>http://arxiv.org/pdf/2212.08143</link>
-    <author>Viresh Patel, Guus Regts</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>In this article we consider certain well-known polynomials associated with graphs including the independence polynomial and the chromatic polynomial. These polynomials count certain objects in graphs: independent sets in the case of the independence polynomial and proper colourings in the case of the chromatic polynomial. They also have interpretations as partition functions in statistical physics. The algorithmic problem of (approximately) computing these types of polynomials has been studied for close to 50 years, especially using Markov chain techniques. Around eight years ago, Barvinok devised a new algorithmic approach based on Taylor's theorem for computing the permanent of certain matrices, and the approach has been applied to various graph polynomials since then. This article is intended as a gentle introduction to the approach as well as a partial survey of associated techniques and results.</description>
+    <title>Efficient validation of Boson Sampling from binned photon-number distributions</title>
+    <link>http://arxiv.org/pdf/2212.09643</link>
+    <author>Benoit Seron, Leonardo Novo, Alex Arkhipov, Nicolas J. Cerf</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>In order to substantiate claims of quantum computational advantage, it is crucial to develop efficient methods for validating the experimental data. We propose a test of the correct functioning of a boson sampler with single-photon inputs that is based on how photons distribute among partitions of the output modes. Our method is versatile and encompasses previous validation tests based on bunching phenomena, marginal distributions, and even some suppression laws. We show via theoretical arguments and numerical simulations that binned-mode photon number distributions can be used in practical scenarios to efficiently distinguish ideal boson samplers from those affected by realistic imperfections, especially partial distinguishability of the photons.</description>
   </item>
 
   <item>
-    <title>Surface codes, quantum circuits, and entanglement phases</title>
-    <link>http://arxiv.org/pdf/2212.08084</link>
-    <author>Jan Behrends, Florian Venn, Benjamin Béri</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>Surface codes$\unicode{x2014}$leading candidates for quantum error correction (QEC)$\unicode{x2014}$and entanglement phases$\unicode{x2014}$a key notion for many-body quantum dynamics$\unicode{x2014}$have heretofore been unrelated. Here, we establish a link between the two. We map two-dimensional (2D) surface codes under a class of incoherent or coherent errors (bit flips or uniaxial rotations) to $(1+1)$D free-fermion quantum circuits via Ising models. We show that the error-correcting phase implies a topologically nontrivial area law for the circuit's 1D long-time state $|\Psi_\infty\rangle$. Above the error threshold, we find a topologically trivial area law for incoherent errors and logarithmic entanglement in the coherent case. In establishing our results, we formulate 1D parent Hamiltonians for $|\Psi_\infty\rangle$ via linking Ising models and 2D scattering networks, the latter displaying respective insulating and metallic phases and setting the 1D fermion gap and topology via their localization length and topological invariant. We expect our results to generalize to a duality between the error-correcting phase of ($d+1$)D topological codes and $d$-dimensional area laws; this can facilitate assessing code performance under various errors. The approach of combining Ising models, scattering networks, and parent Hamiltonians can be generalized to other fermionic circuits and may be of independent interest.</description>
+    <title>The Bonsai algorithm: grow your own fermion-to-qubit mapping</title>
+    <link>http://arxiv.org/pdf/2212.09731</link>
+    <author>Aaron Miller, Zoltán Zimborás, Stefan Knecht, Sabrina Maniscalco, Guillermo García-Pérez</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Fermion-to-qubit mappings are used to represent fermionic modes on quantum computers, an essential first step in many quantum algorithms for electronic structure calculations. In this work, we present a formalism to design flexible fermion-to-qubit mappings from ternary trees. We discuss in an intuitive manner the connection between the generating trees' structure and certain properties of the resulting mapping, such as Pauli weight and the delocalisation of mode occupation. Moreover, we introduce a recipe that guarantees Fock basis states are mapped to computational basis states in qubit space, a desirable property for many applications in quantum computing. Based on this formalism, we introduce the Bonsai algorithm, which takes as input the potentially limited topology of the qubit connectivity of a quantum device and returns a tailored fermion-to-qubit mapping that reduces the SWAP overhead with respect to other paradigmatic mappings. We illustrate the algorithm by producing mappings for the heavy-hexagon topology widely used in IBM quantum computers. The resulting mappings have a favourable Pauli weight scaling $\mathcal{O}(\sqrt{N})$ on this connectivity, while ensuring that no SWAP gates are necessary for single excitation operations.</description>
   </item>
 
 </channel>

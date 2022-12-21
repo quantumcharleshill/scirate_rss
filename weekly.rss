@@ -7,19 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Thrifty shadow estimation: re-using quantum circuits and bounding tails</title>
-    <link>http://arxiv.org/pdf/2212.06240</link>
-    <author>Jonas Helsen, Michael Walter</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>Randomized shadow estimation is a recent protocol that allows estimating exponentially many expectation values of a quantum state from ``classical shadows'', obtained by applying random quantum circuits and computational basis measurements. In this paper we study the statistical efficiency of this approach in light of near-term quantum computing. In particular, we propose and analyze a more practically-implementable variant of the protocol, thrifty shadow estimation, in which quantum circuits are reused many times instead of having to be freshly generated for each measurement (as in the original protocol). We show that the effect of this reuse strongly depends on the family of quantum circuits that is chosen. In particular, it is maximally effective when sampling Haar random unitaries, and maximally ineffective when sampling Clifford circuits (even though the Clifford group forms a three-design). To interpolate between these two extremes, we provide an efficiently simulable family of quantum circuits inspired by a recent construction of approximate t-designs. Finally we consider tail bounds for shadow estimation and discuss when median-of-means estimation can be replaced with standard mean estimation.</description>
+    <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
+    <link>http://arxiv.org/pdf/2212.08678</link>
+    <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of practical and industrial contexts - has been identified as one of the core potential fields of applicability of near-term quantum computers. It is still unclear, however, to what extent variational quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that fault-tolerant quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work of Kearns and Valiant, we construct special instances of the integer programming problem (which in its most general form is NP-complete) that we prove to be hard-to-approximate classically but give an efficient quantum algorithm to approximate the optimal solution of those instances, hence showing a super-polynomial quantum advantage. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms.</description>
   </item>
 
   <item>
-    <title>High-threshold quantum computing by fusing one-dimensional cluster states</title>
-    <link>http://arxiv.org/pdf/2212.06775</link>
-    <author>Stefano Paesani, Benjamin J. Brown</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>We propose a measurement-based model for fault-tolerant quantum computation that can be realised with one-dimensional cluster states and fusion measurements only; basic resources that are readily available with scalable photonic hardware. Our simulations demonstrate high thresholds compared with other measurement-based models realized with basic entangled resources and two-qubit fusion measurements. Its high tolerance to noise indicates that our practical construction offers a promising route to scalable quantum computing with quantum emitters and linear-optical elements.</description>
+    <title>Noisy Stabilizer Formalism</title>
+    <link>http://arxiv.org/pdf/2212.08677</link>
+    <author>Maria Flors Mor-Ruiz, Wolfgang Dür</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Despite the exponential overhead to describe general multi-qubit quantum states and processes, efficient methods for certain state families and operations have been developed and utilised. The stabilizer formalism and the Gottesman-Knill theorem, where pure stabilizer or graph states are manipulated by Clifford operations and Pauli measurements, are prominent examples, and these states play a major role in many applications in quantum technologies. Here we develop a noisy stabilizer formalism, i.e., a method that allows one not only to efficiently describe and follow pure states under Clifford operations and Pauli measurements but also Pauli noise processes acting on such stabilizer states, including uncorrelated and correlated dephasing and single- or multi-qubit depolarizing noise. The method scales linearly in the number of qubits of the initial state, but exponentially in the size of the target state. Thus, whenever a noisy stabilizer state is manipulated by means of local Pauli measurements such that a multipartite entangled state of a few qubits is generated, one can efficiently describe the resulting state.</description>
   </item>
 
   <item>
@@ -31,19 +31,27 @@
   </item>
 
   <item>
-    <title>General guarantees for randomized benchmarking with random quantum circuits</title>
-    <link>http://arxiv.org/pdf/2212.06181</link>
-    <author>Markus Heinrich, Martin Kliesch, Ingo Roth</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>In its many variants, randomized benchmarking (RB) is a broadly used technique for assessing the quality of gate implementations on quantum computers. A detailed theoretical understanding and general guarantees exist for the functioning and interpretation of RB protocols if the gates under scrutiny are drawn uniformly at random from a compact group. In contrast, many practically attractive and scalable RB protocols implement random quantum circuits with local gates randomly drawn from some gate-set. Despite their abundance in practice, for those non-uniform RB protocols, general guarantees under experimentally plausible assumptions are missing. In this work, we derive such guarantees for a large class of RB protocols for random circuits that we refer to as filtered RB. Prominent examples include linear cross-entropy benchmarking, character benchmarking, Pauli-noise tomography and variants of simultaneous RB. Building upon recent results for random circuits, we show that many relevant filtered RB schemes can be realized with random quantum circuits in linear depth, and we provide explicit small constants for common instances. We further derive general sample complexity bounds for filtered RB. We show filtered RB to be sample-efficient for several relevant groups, including protocols addressing higher-order cross-talk. Our theory for non-uniform filtered RB is, in principle, flexible enough to design new protocols for non-universal and analog quantum simulators.</description>
-  </item>
-
-  <item>
     <title>Grothendieck inequalities characterize converses to the polynomial method</title>
     <link>http://arxiv.org/pdf/2212.08559</link>
     <author>Jop Briët, Francisco Escudero Gutiérrez, Sander Gribling</author>
     <pubDate>Dec 19 2022</pubDate>
     <description>A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. Here we show that such a result does not generalize to quartic polynomials and 2-query algorithms, even when we allow for additive approximations. We also show that the additive approximation implied by their result is tight for bounded bilinear forms, which gives a new characterization of the Grothendieck constant in terms of 1-query quantum algorithms. Along the way we provide reformulations of the completely bounded norm of a form, and its dual norm.</description>
+  </item>
+
+  <item>
+    <title>Upper Bounds on the Distillable Randomness of Bipartite Quantum States</title>
+    <link>http://arxiv.org/pdf/2212.09073</link>
+    <author>Ludovico Lami, Bartosz Regula, Xin Wang, Mark M. Wilde</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>The distillable randomness of a bipartite quantum state is an information-theoretic quantity equal to the largest net rate at which shared randomness can be distilled from the state by means of local operations and classical communication. This quantity has been widely used as a measure of classical correlations, and one version of it is equal to the regularized Holevo information of the ensemble that results from measuring one share of the state. However, due to the regularization, the distillable randomness is difficult to compute in general. To address this problem, we define measures of classical correlations and prove a number of their properties, most importantly that they serve as upper bounds on the distillable randomness of an arbitrary bipartite state. We then further bound these measures from above by some that are efficiently computable by means of semi-definite programming, we evaluate one of them for the example of an isotropic state, and we remark on the relation to quantities previously proposed in the literature.</description>
+  </item>
+
+  <item>
+    <title>From time-reversal symmetry to quantum Bayes' rules</title>
+    <link>http://arxiv.org/pdf/2212.08088</link>
+    <author>Arthur J. Parzygnat, James Fullwood</author>
+    <pubDate>Dec 19 2022</pubDate>
+    <description>Bayes' rule $\mathbb{P}(B|A)\mathbb{P}(A)=\mathbb{P}(A|B)\mathbb{P}(B)$ is one of the simplest yet most profound, ubiquitous, and far-reaching results of classical probability theory, with applications in decision making, artificial intelligence, weather forecasts, betting strategies, and more generally statistical inference. Many attempts have been made to extend this rule to quantum systems, the significance of which we are only beginning to understand. In this work, we develop a systematic framework for defining Bayes' rule in the quantum setting, and we show that a vast majority of the proposed quantum Bayes' rules appearing in the literature are all instances of our definition. Moreover, our Bayes' rule is based upon a simple relationship between the notions of \emphstate over time and a time-reversal symmetry map, both of which are introduced here.</description>
   </item>
 
   <item>
@@ -55,19 +63,11 @@
   </item>
 
   <item>
-    <title>Minimum Fourth-Order Trotterization Formula for a Time-Dependent Hamiltonian</title>
-    <link>http://arxiv.org/pdf/2212.06788</link>
-    <author>Tatsuhiko N. Ikeda, Asir Abrar, Isaac L. Chuang, Sho Sugiura</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>When a time propagator $e^{\delta t A}$ for duration $\delta t$ consists of two noncommuting parts $A=X+Y$, Trotterization approximately decomposes the propagator into a product of exponentials of $X$ and $Y$. Various Trotterization formulas have been utilized in quantum and classical computers, but much less is known for the Trotterization with the time-dependent generator $A(t)$. Its difficulty is that the propagator becomes a time-ordered exponential $\mathcal{T}\exp(\int_\mu^{\mu+\delta t}A(s)ds)$ for more than the second-order formula. Here, for $A(t)$ given by the sum of two operators $X$ and $Y$ with time-dependent coefficients $A(t) = x(t) X + y(t) Y$, we obtain a fourth-order Trotterization formula, whose error is $O(\delta t^5)$. The formula consists of seven exponentials of $X$ and $Y$, and we prove that there is no fourth-order Trotterization formula with fewer than seven exponentials. Its error consists of the contribution $\Gamma_5$ known for the time-independent formula plus a new contribution $\Upsilon_5$ which is intrinsic to the time dependence of $A(t)$. Finally, we numerically demonstrate that for the Hamiltonian tested our formula has errors as small as the time-dependent fourth-order Suzuki formula involving eleven exponentials.</description>
-  </item>
-
-  <item>
-    <title>From time-reversal symmetry to quantum Bayes' rules</title>
-    <link>http://arxiv.org/pdf/2212.08088</link>
-    <author>Arthur J. Parzygnat, James Fullwood</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>Bayes' rule $\mathbb{P}(B|A)\mathbb{P}(A)=\mathbb{P}(A|B)\mathbb{P}(B)$ is one of the simplest yet most profound, ubiquitous, and far-reaching results of classical probability theory, with applications in decision making, artificial intelligence, weather forecasts, betting strategies, and more generally statistical inference. Many attempts have been made to extend this rule to quantum systems, the significance of which we are only beginning to understand. In this work, we develop a systematic framework for defining Bayes' rule in the quantum setting, and we show that a vast majority of the proposed quantum Bayes' rules appearing in the literature are all instances of our definition. Moreover, our Bayes' rule is based upon a simple relationship between the notions of \emphstate over time and a time-reversal symmetry map, both of which are introduced here.</description>
+    <title>Efficient validation of Boson Sampling from binned photon-number distributions</title>
+    <link>http://arxiv.org/pdf/2212.09643</link>
+    <author>Benoit Seron, Leonardo Novo, Alex Arkhipov, Nicolas J. Cerf</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>In order to substantiate claims of quantum computational advantage, it is crucial to develop efficient methods for validating the experimental data. We propose a test of the correct functioning of a boson sampler with single-photon inputs that is based on how photons distribute among partitions of the output modes. Our method is versatile and encompasses previous validation tests based on bunching phenomena, marginal distributions, and even some suppression laws. We show via theoretical arguments and numerical simulations that binned-mode photon number distributions can be used in practical scenarios to efficiently distinguish ideal boson samplers from those affected by realistic imperfections, especially partial distinguishability of the photons.</description>
   </item>
 
   <item>
