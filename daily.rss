@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
-    <link>http://arxiv.org/pdf/2301.02356</link>
-    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
-    <pubDate>Jan 09 2023</pubDate>
-    <description>We present a quantum compilation algorithm that maps Clifford encoders, an equivalence class of quantum circuits that arise universally in quantum error correction, into a representation in the ZX calculus. In particular, we develop a canonical form in the ZX calculus and prove canonicity as well as efficient reducibility of any Clifford encoder into the canonical form. The diagrams produced by our compiler explicitly visualize information propagation and entanglement structure of the encoder, revealing properties that may be obscured in the circuit or stabilizer-tableau representation.</description>
+    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
+    <link>http://arxiv.org/pdf/2301.03763</link>
+    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
   </item>
 
   <item>
-    <title>Taming the Rotating Wave Approximation</title>
-    <link>http://arxiv.org/pdf/2301.02269</link>
-    <author>Daniel Burgarth, Paolo Facchi, Robin Hillier, Marilena Ligabò</author>
-    <pubDate>Jan 09 2023</pubDate>
-    <description>The interaction between light and matter is one of the oldest research areas of quantum mechanics, and a field that just keeps on delivering new insights and applications. With the arrival of cavity and circuit quantum electrodynamics we can now achieve strong light-matter couplings which form the basis of most implementations of quantum technology. But quantum information processing also has high demands requiring total error rates of fractions of percentage in order to be scalable (fault-tolerant) to useful applications. Since errors can also arise from modelling, this has brought into center stage one of the key approximations of quantum theory, the Rotating Wave Approximation (RWA) of the quantum Rabi model, leading to the Jaynes-Cummings Hamiltonian. While the RWA is often very good and incredibly useful to understand light-matter interactions, there is also growing experimental evidence of regimes where it is a bad approximation. Here, we ask and answer a harder question: for which experimental parameters is the RWA, although perhaps qualitatively adequate, already not good enough to match the demands of scalable quantum technology? For example, when is the error at least, and when at most, 1\%? To answer this, we develop rigorous non-perturbative bounds taming the RWA. We find that these bounds not only depend, as expected, on the ratio of the coupling strength and the oscillator frequency, but also on the average number of photons in the initial state. This confirms recent experiments on photon-dressed Bloch-Siegert shifts. We argue that with experiments reporting controllable cavity states with hundreds of photons and with quantum error correcting codes exploring more and more of Fock space, this state-dependency of the RWA is increasingly relevant for the field of quantum computation, and our results pave the way towards a better understanding of those experiments.</description>
+    <title>Drug design on quantum computers</title>
+    <link>http://arxiv.org/pdf/2301.04114</link>
+    <author>Raffaele Santagati, Alan Aspuru-Guzik, Ryan Babbush, Matthias Degroote, Leticia Gonzalez, Elica Kyoseva, Nikolaj Moll, Markus Oppel, Robert M. Parrish, Nicholas C. Rubin, Michael Streif, Christofer S. Tautermann, Horst Weiss, Nathan Wiebe, Clemens Utschig-Utschig</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>Quantum computers promise to impact industrial applications, for which quantum chemical calculations are required, by virtue of their high accuracy. This perspective explores the challenges and opportunities of applying quantum computers to drug design, discusses where they could transform industrial research and elaborates on what is needed to reach this goal.</description>
   </item>
 
   <item>
-    <title>Can the double-slit experiment distinguish between quantum interpretations?</title>
-    <link>http://arxiv.org/pdf/2301.02641</link>
-    <author>Ali Ayatollah Rafsanjani, MohammadJavad Kazemi, Alireza Bahrampour, Mehdi Golshani</author>
-    <pubDate>Jan 09 2023</pubDate>
-    <description>Despite the astonishing successes of quantum mechanics, due to some fundamental problems such as the measurement problem and quantum arrival time problem, the predictions of the theory are in some cases not quite clear and unique. Especially, there are various predictions for the joint spatiotemporal distribution of particle detection events on a screen, which are derived from different formulations and interpretations of the quantum theory. Although the differences are typically small, our studies show that these predictions can be experimentally distinguished by an unconventional double-slit configuration, which is realizable using present-day single-atom interferometry.</description>
+    <title>Qubit recycling and the path counting problem</title>
+    <link>http://arxiv.org/pdf/2301.03725</link>
+    <author>Zijian Song, Isaac H. Kim</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>Recently, it was shown that the qudits used in circuits of a convolutional form (e.g., Matrix Product State sand Multi-scale Entanglement Renormalization Ansatz) can be reset unitarily \hrefhttps://doi.org/10.1103/PhysRevA.103.042613[Phys. Rev. A 103, 042613 (2021)], even without measurement. We analyze the fidelity of this protocol for a family of quantum circuits that interpolates between such circuits and local quantum circuits, averaged over Haar-random gates. We establish a connection between this problem and a counting of directed paths on a graph, which is determined by the shape of the quantum circuit. This connection leads to an exact expression for the fidelity of the protocol for the entire family that interpolates between convolutional circuit and random quantum circuit. For convolutional circuits of constant window size, the rate of convergence to unit fidelity is shown to be $\frac{q^2}{q^2+1}$, independent of the window size, where $q$ is the local qudit dimension. Since most applications of convolutional circuits use constant-sized windows, our result suggests that the unitary reset protocol will likely work well in such a regime. We also derive two extra results in the convolutional limit, which may be of an independent interest. First, we derive exact expressions for the correlations between reset qudits and show that it decays exponentially in the distance. Second, we derive an expression for the the fidelity in the presence of noise, expressed in terms of the quantities that define the property of the channel, such as the entanglement fidelity.</description>
   </item>
 
   <item>
-    <title>Information Carried by a Single Particle in Quantum Multiple-Access Channels</title>
-    <link>http://arxiv.org/pdf/2301.02513</link>
-    <author>Xinan Chen, Yujie Zhang, Andreas Winter, Virginia O. Lorenz, Eric Chitambar</author>
-    <pubDate>Jan 09 2023</pubDate>
-    <description>Non-classical features of quantum systems have the potential to strengthen the way we currently exchange information. In this paper, we explore this enhancement on the most basic level of single particles. To be more precise, we compare how well multi-party information can be transmitted to a single receiver using just one classical or quantum particle. Our approach is based on a multiple-access communication model in which messages can be encoded into a single particle that is coherently distributed across multiple spatial modes. Theoretically, we derive lower bounds on the accessible information in the quantum setting that strictly separate it from the classical scenario. This separation is found whenever there is more than one sender, and also when there is just a single sender who has a shared phase reference with the receiver. Experimentally, we demonstrate such quantum advantage in single-particle communication by implementing a multi-port interferometer with messages being encoded along the different trajectories. Specifically, we consider a two-sender communication protocol built by a three-port optical interferometer. In this scenario, the rate sum achievable with a classical particle is upper bounded by one bit, while we experimentally observe a rate sum of $1.0152\pm0.0034$ bits in the quantum setup.</description>
+    <title>A universal framework for entanglement detection under group symmetry</title>
+    <link>http://arxiv.org/pdf/2301.03849</link>
+    <author>Sang-Jun Park, Yeong-Gwang Jung, Jeongeun Park, Sang-Gyun Youn</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>One of the most fundamental questions in quantum information theory is PPT-entanglement of quantum states, which is an NP-hard problem in general. In this paper, however, we prove that all PPT $(\overline{\pi}_A\otimes \pi_B)$-invariant quantum states are separable if and only if all extremal unital positive $(\pi_A,\pi_B)$-covariant maps are decomposable where $\pi_A,\pi_B$ are unitary representations of a compact group and $\pi_A$ is irreducible. Moreover, an extremal unital positive $(\pi_B,\pi_A)$-covariant map $\mathcal{L}$ is decomposable if and only if $\mathcal{L}$ is completely positive or completely copositive. We apply the results to prove that all PPT quantum channels of the form $$\Phi(\rho)=a\rho+b\rho^T+\fracc\textTr(\rho)d\textId_d+(1-a-b-c)\textdiag(\rho)$$ are entanglement-breaking, and that all A-BC PPT $(U\otimes \overline{U}\otimes U)$-invariant tripartite quantum states are A-BC separable. The former resolves some open questions raised in [DFV08, KMS20] and the latter is a strong contrast to the fact that there exist PPT-entangled $(U\otimes U\otimes U)$-invariant tripartite Werner states [EW01].</description>
   </item>
 
   <item>
-    <title>TarViS: A Unified Approach for Target-based Video Segmentation</title>
-    <link>http://arxiv.org/pdf/2301.02657</link>
-    <author>Ali Athar, Alexander Hermans, Jonathon Luiten, Deva Ramanan, Bastian Leibe</author>
-    <pubDate>Jan 09 2023</pubDate>
-    <description>The general domain of video segmentation is currently fragmented into different tasks spanning multiple benchmarks. Despite rapid progress in the state-of-the-art, current methods are overwhelmingly task-specific and cannot conceptually generalize to other tasks. Inspired by recent approaches with multi-task capability, we propose TarViS: a novel, unified network architecture that can be applied to any task that requires segmenting a set of arbitrarily defined 'targets' in video. Our approach is flexible with respect to how tasks define these targets, since it models the latter as abstract 'queries' which are then used to predict pixel-precise target masks. A single TarViS model can be trained jointly on a collection of datasets spanning different tasks, and can hot-swap between tasks during inference without any task-specific retraining. To demonstrate its effectiveness, we apply TarViS to four different tasks, namely Video Instance Segmentation (VIS), Video Panoptic Segmentation (VPS), Video Object Segmentation (VOS) and Point Exemplar-guided Tracking (PET). Our unified, jointly trained model achieves state-of-the-art performance on 5/7 benchmarks spanning these four tasks, and competitive performance on the remaining two.</description>
+    <title>Randomized adaptive quantum state preparation</title>
+    <link>http://arxiv.org/pdf/2301.04201</link>
+    <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
   </item>
 
 </channel>

@@ -7,43 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Unconditional Quantum Advantage for Sampling with Shallow Circuits</title>
-    <link>http://arxiv.org/pdf/2301.00995</link>
-    <author>Adam Bene Watts, Natalie Parham</author>
-    <pubDate>Jan 04 2023</pubDate>
-    <description>Recent work by Bravyi, Gosset, and Koenig showed that there exists a search problem that a constant-depth quantum circuit can solve, but that any constant-depth classical circuit with bounded fan-in cannot. They also pose the question: can we achieve a similar proof of separation for an input-independent sampling task? In this paper, we show that the answer to this question is yes. We introduce a distribution $D_{n}$ and give a constant-depth, $n$ qubit, quantum circuit that samples from a distribution close to $D_{n}$ in total variation distance. For any $\delta < 1$ we also prove, unconditionally, that any classical circuit with bounded fan-in gates that takes as input $n + n^\delta$ uniformly random bits and produces output close to $D_{n}$ in total variation distance has depth $\Omega(\log \log n)$. This gives an unconditional proof that constant-depth quantum circuits can sample from distributions which can't be reproduced by constant-depth bounded fan-in classical circuits, even up to additive error. The distribution $D_n$ and classical circuit lower bounds are based on work of Viola, in which he shows a different (but related) distribution cannot be sampled from approximately by constant-depth bounded fan-in classical circuits.</description>
-  </item>
-
-  <item>
     <title>Optimal lower bounds for Quantum Learning via Information Theory</title>
     <link>http://arxiv.org/pdf/2301.02227</link>
     <author>Shima Bab Hadiashar, Ashwin Nayak, Pulkit Sinha</author>
     <pubDate>Jan 06 2023</pubDate>
     <description>Although a concept class may be learnt more efficiently using quantum samples as compared with classical samples in certain scenarios, Arunachalam and de Wolf (JMLR, 2018) proved that quantum learners are asymptotically no more efficient than classical ones in the quantum PAC and Agnostic learning models. They established lower bounds on sample complexity via quantum state identification and Fourier analysis. In this paper, we derive optimal lower bounds for quantum sample complexity in both the PAC and agnostic models via an information-theoretic approach. The proofs are arguably simpler, and the same ideas can potentially be used to derive optimal bounds for other problems in quantum learning theory. We then turn to a quantum analogue of the Coupon Collector problem, a classic problem from probability theory also of importance in the study of PAC learning. Arunachalam, Belovs, Childs, Kothari, Rosmanis, and de Wolf (TQC, 2020) characterized the quantum sample complexity of this problem up to constant factors. First, we show that the information-theoretic approach mentioned above provably does not yield the optimal lower bound. As a by-product, we get a natural ensemble of pure states in arbitrarily high dimensions which are not easily (simultaneously) distinguishable, while the ensemble has close to maximal Holevo information. Second, we discover that the information-theoretic approach yields an asymptotically optimal bound for an approximation variant of the problem. Finally, we derive a sharp lower bound for the Quantum Coupon Collector problem, with the exact leading order term, via the Holevo-Curlander bounds on the distinguishability of an ensemble. All the aspects of the Quantum Coupon Collector problem we study rest on properties of the spectrum of the associated Gram matrix, which may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>Tailoring fusion-based error correction for high thresholds to biased fusion failures</title>
-    <link>http://arxiv.org/pdf/2301.00019</link>
-    <author>Kaavya Sahay, Jahan Claes, Shruti Puri</author>
-    <pubDate>Jan 03 2023</pubDate>
-    <description>We introduce fault-tolerant (FT) architectures for error correction with the XZZX cluster state based on performing measurements of two-qubit Pauli operators $Z\otimes Z$ and $X\otimes X$, or fusions, on a collection of few-body entangled resource states. Our construction is tailored to be effective against noise that predominantly causes faulty $X\otimes X$ measurements during fusions. This feature offers practical advantage in linear optical quantum computing with dual-rail photonic qubits, where failed fusions only erase $X\otimes X$ measurement outcomes. By applying our construction to this platform, we find a record high FT threshold to fusion failures exceeding $25\%$ in the experimentally relevant regime of non-zero loss rate per photon, considerably simplifying hardware requirements.</description>
-  </item>
-
-  <item>
-    <title>Fault-tolerant error correction for a universal non-Abelian topological quantum computer at finite temperature</title>
-    <link>http://arxiv.org/pdf/2301.00054</link>
-    <author>Alexis Schotte, Lander Burgelman, Guanyu Zhu</author>
-    <pubDate>Jan 03 2023</pubDate>
-    <description>We study fault-tolerant error correction in a quantum memory constructed as a two-dimensional model of Fibonacci anyons on a torus, in the presence of thermal noise represented by pair-creation processes and measurement errors. The correction procedure is based on the cellular automaton decoders originating in the works of Gács and Harrington. Through numerical simulations, we observe that this code behaves fault-tolerantly and that threshold behavior is likely present. Hence, we provide strong evidence for the existence of a fault-tolerant universal non-Abelian topological quantum computer.</description>
-  </item>
-
-  <item>
-    <title>Quantum simulation of exact electron dynamics can be more efficient than classical mean-field methods</title>
-    <link>http://arxiv.org/pdf/2301.01203</link>
-    <author>Ryan Babbush, William J. Huggins, Dominic W. Berry, Shu Fay Ung, Andrew Zhao, David R. Reichman, Hartmut Neven, Andrew D. Baczewski, Joonho Lee</author>
-    <pubDate>Jan 04 2023</pubDate>
-    <description>Quantum algorithms for simulating electronic ground states are slower than popular classical mean-field algorithms such as Hartree-Fock and density functional theory, but offer higher accuracy. Accordingly, quantum computers have been predominantly regarded as competitors to only the most accurate and costly classical methods for treating electron correlation. However, here we tighten bounds showing that certain first quantized quantum algorithms enable exact time evolution of electronic systems with exponentially less space and polynomially fewer operations in basis set size than conventional real-time time-dependent Hartree-Fock and density functional theory. Although the need to sample observables in the quantum algorithm reduces the speedup, we show that one can estimate all elements of the $k$-particle reduced density matrix with a number of samples scaling only polylogarithmically in basis set size. We also introduce a more efficient quantum algorithm for first quantized mean-field state preparation that is likely cheaper than the cost of time evolution. We conclude that quantum speedup is most pronounced for finite temperature simulations and suggest several practically important electron dynamics problems with potential quantum advantage.</description>
   </item>
 
   <item>
@@ -55,6 +23,22 @@
   </item>
 
   <item>
+    <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
+    <link>http://arxiv.org/pdf/2301.02356</link>
+    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
+    <pubDate>Jan 09 2023</pubDate>
+    <description>We present a quantum compilation algorithm that maps Clifford encoders, an equivalence class of quantum circuits that arise universally in quantum error correction, into a representation in the ZX calculus. In particular, we develop a canonical form in the ZX calculus and prove canonicity as well as efficient reducibility of any Clifford encoder into the canonical form. The diagrams produced by our compiler explicitly visualize information propagation and entanglement structure of the encoder, revealing properties that may be obscured in the circuit or stabilizer-tableau representation.</description>
+  </item>
+
+  <item>
+    <title>Guaranteed efficient energy estimation of quantum many-body Hamiltonians using ShadowGrouping</title>
+    <link>http://arxiv.org/pdf/2301.03385</link>
+    <author>Alexander Gresch, Martin Kliesch</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>Energy estimation in quantum many-body Hamiltonians is a paradigmatic task in various research fields. In particular, efficient energy estimation may be crucial in achieving a quantum advantage for a practically relevant problem. For instance, the measurement effort poses a crucial bottleneck in variational quantum algorithms. We aim to find the optimal strategy with single-qubit measurements that yields the highest provable accuracy given a total measurement budget. As a central tool, we establish new tail bounds for empirical estimators of the energy. They are useful for identifying measurement settings that improve the energy estimate the most. This task constitutes an NP-hard problem. However, we are able to circumvent this bottleneck and use the tail bounds to develop a practical efficient estimation strategy which we call ShadowGrouping. As the name suggests, it combines shadow estimation methods with grouping strategies for Pauli strings. In numerical experiments, we demonstrate that ShadowGrouping outperforms state-of-the-art methods in estimating the electronic ground-state energies of various small molecules, both in provable and effective accuracy benchmarks. Hence, this work provides a promising way, e.g., to tackle the measurement bottleneck of variational quantum algorithms.</description>
+  </item>
+
+  <item>
     <title>Measuring out quasi-local integrals of motion from entanglement</title>
     <link>http://arxiv.org/pdf/2301.01787</link>
     <author>B. Lu, C. Bertoni, S. J. Thomson, J. Eisert</author>
@@ -63,11 +47,27 @@
   </item>
 
   <item>
-    <title>On unital qubit channels</title>
-    <link>http://arxiv.org/pdf/2301.01358</link>
-    <author>Chi-Kwong Li, Man-Duen Choi</author>
-    <pubDate>Jan 05 2023</pubDate>
-    <description>A canonical form for unital qubit channels under local unitary transforms is obtained. In particular, it is shown that the eigenvalues of the Choi matrix of a unital quantum channel are complete invariant of the canonical form. It follows immediately that every unital qubit channel is the average of four unitary channels. More generally, a unital qubit channel can be expressed as the convex combination of unitary channels with convex coefficients $p_1, \dots, p_m$ as long as $(p_1, \dots, p_m)$ is majorized by the vector of eigenvalues of the Choi matrix of the channel. By the fact that every unital map $\Phi$ on $2\times 2$ matrices preserving trace and Hermitian matrices corresponds to a linear map $\phi$ on ${\mathbb R}^3$ that will transform the Bloch (unit) sphere in ${\mathbb R}^3$ to an ellipsoid ${\mathcal E}$, it is shown that $\Phi$ is a unital qubit channel if and only if $\phi$ is a convex combination of special orthogonal matrices.</description>
+    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
+    <link>http://arxiv.org/pdf/2301.03763</link>
+    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
+  </item>
+
+  <item>
+    <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2301.02690</link>
+    <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>In the noisy intermediate-scale quantum (NISQ) era, quantum error mitigation will be a necessary tool to extract useful performance out of quantum devices. However, there is a big gap between the noise models often assumed by error mitigation techniques and the actual noise on quantum devices. As a consequence, there arises a gap between the theoretical expectations of the techniques and their everyday performance. Cloud users of quantum devices in particular, who often take the devices as they are, feel this gap the most. How should they parametrize their uncertainty in the usefulness of these techniques and be able to make judgement calls between resources required to implement error mitigation and the accuracy required at the algorithmic level? To answer the first question, we introduce hypothesis testing within the framework of quantum error mitigation and for the second question, we propose an inclusive figure of merit that accounts for both resource requirement and mitigation efficiency of an error mitigation implementation. The figure of merit is useful to weigh the trade-offs between the scalability and accuracy of various error mitigation methods. Finally, using the hypothesis testing and the figure of merit, we experimentally evaluate $16$ error mitigation pipelines composed of singular methods such as zero noise extrapolation, randomized compilation, measurement error mitigation, dynamical decoupling, and mitigation with estimation circuits. In total our data involved running $275,640$ circuits on two IBM quantum computers.</description>
+  </item>
+
+  <item>
+    <title>Discrete holography in dual-unitary circuits</title>
+    <link>http://arxiv.org/pdf/2301.02825</link>
+    <author>Lluis Masanes</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic.</description>
   </item>
 
   <item>
@@ -79,11 +79,11 @@
   </item>
 
   <item>
-    <title>Matching upper bounds on symmetric predicates in quantum communication complexity</title>
-    <link>http://arxiv.org/pdf/2301.00370</link>
-    <author>Daiki Suruga</author>
-    <pubDate>Jan 03 2023</pubDate>
-    <description>In this paper, we focus on the quantum communication complexity of functions of the form $f \circ G = f(G(X_1, Y_1), \ldots, G(X_n, Y_n))$ where $f: \{0, 1\}^n \to \{0, 1\}$ is a symmetric function, $G: \{0, 1\}^j \times \{0, 1\}^k \to \{0, 1\}$ is any function and Alice (resp. Bob) is given $(X_i)_{i \leq n}$ (resp. $(Y_i)_{i \leq n}$). Recently, Chakraborty et al. [STACS 2022] showed that the quantum communication complexity of $f \circ G$ is $O(Q(f)\mathrm{QCC}_\mathrm{E}(G))$ when the parties are allowed to use shared entanglement, where $Q(f)$ is the query complexity of $f$ and $\mathrm{QCC}_\mathrm{E}(G)$ is the exact communication complexity of $G$. In this paper, we first show that the same statement holds \emphwithout shared entanglement, which generalizes their result. Based on the improved result, we next show tight upper bounds on $f \circ \mathrm{AND}_2$ for any symmetric function $f$ (where $\textrm{AND}_2 : \{0, 1\} \times \{0, 1\} \to \{0, 1\}$ denotes the 2-bit AND function) in both models: with shared entanglement and without shared entanglement. This matches the well-known lower bound by Razborov~[Izv. Math. 67(1) 145, 2003] when shared entanglement is allowed and improves Razborov's bound when shared entanglement is not allowed.</description>
+    <title>Drug design on quantum computers</title>
+    <link>http://arxiv.org/pdf/2301.04114</link>
+    <author>Raffaele Santagati, Alan Aspuru-Guzik, Ryan Babbush, Matthias Degroote, Leticia Gonzalez, Elica Kyoseva, Nikolaj Moll, Markus Oppel, Robert M. Parrish, Nicholas C. Rubin, Michael Streif, Christofer S. Tautermann, Horst Weiss, Nathan Wiebe, Clemens Utschig-Utschig</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>Quantum computers promise to impact industrial applications, for which quantum chemical calculations are required, by virtue of their high accuracy. This perspective explores the challenges and opportunities of applying quantum computers to drug design, discusses where they could transform industrial research and elaborates on what is needed to reach this goal.</description>
   </item>
 
 </channel>
