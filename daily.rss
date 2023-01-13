@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
-    <link>http://arxiv.org/pdf/2301.03763</link>
-    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
-  </item>
-
-  <item>
-    <title>Drug design on quantum computers</title>
-    <link>http://arxiv.org/pdf/2301.04114</link>
-    <author>Raffaele Santagati, Alan Aspuru-Guzik, Ryan Babbush, Matthias Degroote, Leticia Gonzalez, Elica Kyoseva, Nikolaj Moll, Markus Oppel, Robert M. Parrish, Nicholas C. Rubin, Michael Streif, Christofer S. Tautermann, Horst Weiss, Nathan Wiebe, Clemens Utschig-Utschig</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>Quantum computers promise to impact industrial applications, for which quantum chemical calculations are required, by virtue of their high accuracy. This perspective explores the challenges and opportunities of applying quantum computers to drug design, discusses where they could transform industrial research and elaborates on what is needed to reach this goal.</description>
-  </item>
-
-  <item>
-    <title>Qubit recycling and the path counting problem</title>
-    <link>http://arxiv.org/pdf/2301.03725</link>
-    <author>Zijian Song, Isaac H. Kim</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>Recently, it was shown that the qudits used in circuits of a convolutional form (e.g., Matrix Product State sand Multi-scale Entanglement Renormalization Ansatz) can be reset unitarily \hrefhttps://doi.org/10.1103/PhysRevA.103.042613[Phys. Rev. A 103, 042613 (2021)], even without measurement. We analyze the fidelity of this protocol for a family of quantum circuits that interpolates between such circuits and local quantum circuits, averaged over Haar-random gates. We establish a connection between this problem and a counting of directed paths on a graph, which is determined by the shape of the quantum circuit. This connection leads to an exact expression for the fidelity of the protocol for the entire family that interpolates between convolutional circuit and random quantum circuit. For convolutional circuits of constant window size, the rate of convergence to unit fidelity is shown to be $\frac{q^2}{q^2+1}$, independent of the window size, where $q$ is the local qudit dimension. Since most applications of convolutional circuits use constant-sized windows, our result suggests that the unitary reset protocol will likely work well in such a regime. We also derive two extra results in the convolutional limit, which may be of an independent interest. First, we derive exact expressions for the correlations between reset qudits and show that it decays exponentially in the distance. Second, we derive an expression for the the fidelity in the presence of noise, expressed in terms of the quantities that define the property of the channel, such as the entanglement fidelity.</description>
-  </item>
-
-  <item>
-    <title>A universal framework for entanglement detection under group symmetry</title>
-    <link>http://arxiv.org/pdf/2301.03849</link>
-    <author>Sang-Jun Park, Yeong-Gwang Jung, Jeongeun Park, Sang-Gyun Youn</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>One of the most fundamental questions in quantum information theory is PPT-entanglement of quantum states, which is an NP-hard problem in general. In this paper, however, we prove that all PPT $(\overline{\pi}_A\otimes \pi_B)$-invariant quantum states are separable if and only if all extremal unital positive $(\pi_A,\pi_B)$-covariant maps are decomposable where $\pi_A,\pi_B$ are unitary representations of a compact group and $\pi_A$ is irreducible. Moreover, an extremal unital positive $(\pi_B,\pi_A)$-covariant map $\mathcal{L}$ is decomposable if and only if $\mathcal{L}$ is completely positive or completely copositive. We apply the results to prove that all PPT quantum channels of the form $$\Phi(\rho)=a\rho+b\rho^T+\fracc\textTr(\rho)d\textId_d+(1-a-b-c)\textdiag(\rho)$$ are entanglement-breaking, and that all A-BC PPT $(U\otimes \overline{U}\otimes U)$-invariant tripartite quantum states are A-BC separable. The former resolves some open questions raised in [DFV08, KMS20] and the latter is a strong contrast to the fact that there exist PPT-entangled $(U\otimes U\otimes U)$-invariant tripartite Werner states [EW01].</description>
-  </item>
-
-  <item>
     <title>Randomized adaptive quantum state preparation</title>
     <link>http://arxiv.org/pdf/2301.04201</link>
     <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
     <pubDate>Jan 12 2023</pubDate>
     <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+  </item>
+
+  <item>
+    <title>The Basis of Design Tools for Quantum Computing: Arrays, Decision Diagrams, Tensor Networks, and ZX-Calculus</title>
+    <link>http://arxiv.org/pdf/2301.04147</link>
+    <author>Robert Wille, Lukas Burgholzer, Stefan Hillmich, Thomas Grurl, Alexander Ploier, Tom Peham</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>Quantum computers promise to efficiently solve important problems classical computers never will. However, in order to capitalize on these prospects, a fully automated quantum software stack needs to be developed. This involves a multitude of complex tasks from the classical simulation of quantum circuits, over their compilation to specific devices, to the verification of the circuits to be executed as well as the obtained results. All of these tasks are highly non-trivial and necessitate efficient data structures to tackle the inherent complexity. Starting from rather straight-forward arrays over decision diagrams (inspired by the design automation community) to tensor networks and the ZX-calculus, various complementary approaches have been proposed. This work provides a look "under the hood" of today's tools and showcases how these means are utilized in them, e.g., for simulation, compilation, and verification of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Clifford+$T$-gate Decomposition with Limited Number of $T$ gates, its Error Analysis, and Performance of Unitary Coupled Cluster Ansatz in Pre-FTQC Era</title>
+    <link>http://arxiv.org/pdf/2301.04150</link>
+    <author>Kohdai Kuroiwa, Yuya O. Nakagawa</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>Fault-tolerant quantum computation (FTQC) is essential to robustly implement quantum algorithms and thus to maximize advantages of quantum computers. In this context, a quantum circuit is decomposed into universal gates that can be fault-tolerantly implemented, for example, Clifford+$T$ gates. Here, $T$ gate is usually regarded as an essential resource for quantum computation because its action cannot be simulated efficiently on classical computers. Practically, it is highly likely that only a limited number of $T$ gates are available in the near future due to its experimental difficulty of fault-tolerant implementation. In this paper, considering this Pre-FTQC era, we investigate Clifford+$T$ decomposition with a limited budget of $T$ gates and propose a new model of the error of such decomposition. More concretely, we propose an algorithm to generate the most accurate Clifford+$T$-gate decomposition of a given single-qubit rotation gate with a fixed number of $T$ gates. We also propose to model the error of Clifford+$T$ decomposition using well-known depolarizing noise by considering the average of the effects of the error. We numerically verified our model successfully explains the decomposition error for a wide variety of molecules using our decomposition algorithm. Thus, we shed light on a first-stage application of quantum computers from a practical point of view and fuel further research towards what quantum computation can achieve in the upcoming future.</description>
+  </item>
+
+  <item>
+    <title>An Improved Approximation for Sparse Fermionic Hamiltonians</title>
+    <link>http://arxiv.org/pdf/2301.04627</link>
+    <author>Daniel Hothem, Ojas Parekh, Kevin Thompson</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>We give a classical $1/(qk+1)$-approximation for the maximum eigenvalue of $k$-sparse fermionic Hamiltonians with $q$-local terms as well as a $1/(4k+1)$-approximation when the Hamiltonian has both $2$-local and $4$-local terms</description>
+  </item>
+
+  <item>
+    <title>One-Shot Distributed Source Simulation: As Quantum as it Can Get</title>
+    <link>http://arxiv.org/pdf/2301.04301</link>
+    <author>Ian George, Min-Hsiu Hsieh, Eric Chitambar</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>Distributed source simulation is the task where two (or more) parties share some correlated randomness and use local operations and no communication to convert this into some target correlation. Wyner's seminal result showed that asymptotically the rate of uniform shared randomness needed for this task is given by a mutual information induced measure, now referred to as Wyner's common information. This asymptotic result was extended by Hayashi in the quantum setting to separable states, the largest class of states for which this task can be performed. In this work we characterize this task in the one-shot setting using the smooth entropy framework. We do this by introducing one-shot operational quantities and correlation measures that characterize them. We establish asymptotic equipartition properties for our correlation measures thereby recovering, and in fact strengthening, the aforementioned asymptotic results. In doing so, we consider technical points in one-shot network information theory and generalize the support lemma to the classical-quantum setting. We also introduce entanglement versions of the distributed source simulation task and determine bounds in this setting via quantum embezzling.</description>
   </item>
 
 </channel>

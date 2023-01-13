@@ -7,22 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Optimal lower bounds for Quantum Learning via Information Theory</title>
-    <link>http://arxiv.org/pdf/2301.02227</link>
-    <author>Shima Bab Hadiashar, Ashwin Nayak, Pulkit Sinha</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>Although a concept class may be learnt more efficiently using quantum samples as compared with classical samples in certain scenarios, Arunachalam and de Wolf (JMLR, 2018) proved that quantum learners are asymptotically no more efficient than classical ones in the quantum PAC and Agnostic learning models. They established lower bounds on sample complexity via quantum state identification and Fourier analysis. In this paper, we derive optimal lower bounds for quantum sample complexity in both the PAC and agnostic models via an information-theoretic approach. The proofs are arguably simpler, and the same ideas can potentially be used to derive optimal bounds for other problems in quantum learning theory. We then turn to a quantum analogue of the Coupon Collector problem, a classic problem from probability theory also of importance in the study of PAC learning. Arunachalam, Belovs, Childs, Kothari, Rosmanis, and de Wolf (TQC, 2020) characterized the quantum sample complexity of this problem up to constant factors. First, we show that the information-theoretic approach mentioned above provably does not yield the optimal lower bound. As a by-product, we get a natural ensemble of pure states in arbitrarily high dimensions which are not easily (simultaneously) distinguishable, while the ensemble has close to maximal Holevo information. Second, we discover that the information-theoretic approach yields an asymptotically optimal bound for an approximation variant of the problem. Finally, we derive a sharp lower bound for the Quantum Coupon Collector problem, with the exact leading order term, via the Holevo-Curlander bounds on the distinguishability of an ensemble. All the aspects of the Quantum Coupon Collector problem we study rest on properties of the spectrum of the associated Gram matrix, which may be of independent interest.</description>
-  </item>
-
-  <item>
-    <title>One-Way Ticket to Las Vegas and the Quantum Adversary</title>
-    <link>http://arxiv.org/pdf/2301.02003</link>
-    <author>Aleksandrs Belovs, Duyal Yolcu</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>We propose a new definition of quantum Las Vegas query complexity. We show that it is exactly equal to the quantum adversary bound. This is achieved by a new and very simple way of transforming a feasible solution to the adversary optimisation problem into a quantum query algorithm. This allows us to generalise the bound to include unidirectional access, multiple input oracles, and input oracles that are not unitary. As an application, we demonstrate a separation between unidirectional and bidirectional access to an input oracle for a rather natural unitary permutation inversion problem.</description>
-  </item>
-
-  <item>
     <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
     <link>http://arxiv.org/pdf/2301.02356</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
@@ -36,14 +20,6 @@
     <author>Alexander Gresch, Martin Kliesch</author>
     <pubDate>Jan 10 2023</pubDate>
     <description>Energy estimation in quantum many-body Hamiltonians is a paradigmatic task in various research fields. In particular, efficient energy estimation may be crucial in achieving a quantum advantage for a practically relevant problem. For instance, the measurement effort poses a crucial bottleneck in variational quantum algorithms. We aim to find the optimal strategy with single-qubit measurements that yields the highest provable accuracy given a total measurement budget. As a central tool, we establish new tail bounds for empirical estimators of the energy. They are useful for identifying measurement settings that improve the energy estimate the most. This task constitutes an NP-hard problem. However, we are able to circumvent this bottleneck and use the tail bounds to develop a practical efficient estimation strategy which we call ShadowGrouping. As the name suggests, it combines shadow estimation methods with grouping strategies for Pauli strings. In numerical experiments, we demonstrate that ShadowGrouping outperforms state-of-the-art methods in estimating the electronic ground-state energies of various small molecules, both in provable and effective accuracy benchmarks. Hence, this work provides a promising way, e.g., to tackle the measurement bottleneck of variational quantum algorithms.</description>
-  </item>
-
-  <item>
-    <title>Measuring out quasi-local integrals of motion from entanglement</title>
-    <link>http://arxiv.org/pdf/2301.01787</link>
-    <author>B. Lu, C. Bertoni, S. J. Thomson, J. Eisert</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>Quasi-local integrals of motion are a key concept underpinning the modern understanding of many-body localisation, an intriguing phenomenon in which interactions and disorder come together. Despite the existence of several numerical ways to compute them - and astoundingly in the light of the observation that much of the phenomenology of many properties can be derived from them - it is not obvious how to directly measure aspects of them in real quantum simulations; in fact, the smoking gun of their experimental observation is arguably still missing. In this work, we propose a way to extract the real-space properties of such quasi-local integrals of motion based on a spatially-resolved entanglement probe able to distinguish Anderson from many-body localisation from non-equilibrium dynamics. We complement these findings with a new rigorous entanglement bound and compute the relevant quantities using tensor networks. We demonstrate that the entanglement gives rise to a well-defined length scale that can be measured in experiments.</description>
   </item>
 
   <item>
@@ -63,6 +39,14 @@
   </item>
 
   <item>
+    <title>Randomized adaptive quantum state preparation</title>
+    <link>http://arxiv.org/pdf/2301.04201</link>
+    <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+  </item>
+
+  <item>
     <title>Discrete holography in dual-unitary circuits</title>
     <link>http://arxiv.org/pdf/2301.02825</link>
     <author>Lluis Masanes</author>
@@ -71,19 +55,35 @@
   </item>
 
   <item>
-    <title>Optimal one-shot entanglement sharing</title>
-    <link>http://arxiv.org/pdf/2301.01781</link>
-    <author>Vikesh Siddhu, John Smolin</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>Sharing entanglement across quantum interconnects is fundamental for quantum information processing. We discuss a practical setting where this interconnect, modeled by a quantum channel, is used once with the aim of sharing high fidelity entanglement. For any channel, we provide methods to easily find both this maximum fidelity and optimal inputs that achieve it. Unlike most metrics for sharing entanglement, this maximum fidelity can be shown to be multiplicative. This ensures a complete understanding in the sense that the maximum fidelity and optimal inputs found in our one-shot setting extend even when the channel is used multiple times, possibly with other channels. Optimal inputs need not be fully entangled. We find the minimum entanglement in these optimal inputs can even vary discontinuously with channel noise. Generally, noise parameters are hard to identify and remain unknown for most channels. However, for all qubit channels with qubit environments, we provide a rigorous noise parametrization which we explain in-terms of no-cloning. This noise parametrization and a channel representation we call the standard Kraus decomposition have pleasing properties that make them both useful more generally.</description>
-  </item>
-
-  <item>
     <title>Drug design on quantum computers</title>
     <link>http://arxiv.org/pdf/2301.04114</link>
     <author>Raffaele Santagati, Alan Aspuru-Guzik, Ryan Babbush, Matthias Degroote, Leticia Gonzalez, Elica Kyoseva, Nikolaj Moll, Markus Oppel, Robert M. Parrish, Nicholas C. Rubin, Michael Streif, Christofer S. Tautermann, Horst Weiss, Nathan Wiebe, Clemens Utschig-Utschig</author>
     <pubDate>Jan 11 2023</pubDate>
     <description>Quantum computers promise to impact industrial applications, for which quantum chemical calculations are required, by virtue of their high accuracy. This perspective explores the challenges and opportunities of applying quantum computers to drug design, discusses where they could transform industrial research and elaborates on what is needed to reach this goal.</description>
+  </item>
+
+  <item>
+    <title>Qubit recycling and the path counting problem</title>
+    <link>http://arxiv.org/pdf/2301.03725</link>
+    <author>Zijian Song, Isaac H. Kim</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>Recently, it was shown that the qudits used in circuits of a convolutional form (e.g., Matrix Product State sand Multi-scale Entanglement Renormalization Ansatz) can be reset unitarily \hrefhttps://doi.org/10.1103/PhysRevA.103.042613[Phys. Rev. A 103, 042613 (2021)], even without measurement. We analyze the fidelity of this protocol for a family of quantum circuits that interpolates between such circuits and local quantum circuits, averaged over Haar-random gates. We establish a connection between this problem and a counting of directed paths on a graph, which is determined by the shape of the quantum circuit. This connection leads to an exact expression for the fidelity of the protocol for the entire family that interpolates between convolutional circuit and random quantum circuit. For convolutional circuits of constant window size, the rate of convergence to unit fidelity is shown to be $\frac{q^2}{q^2+1}$, independent of the window size, where $q$ is the local qudit dimension. Since most applications of convolutional circuits use constant-sized windows, our result suggests that the unitary reset protocol will likely work well in such a regime. We also derive two extra results in the convolutional limit, which may be of an independent interest. First, we derive exact expressions for the correlations between reset qudits and show that it decays exponentially in the distance. Second, we derive an expression for the the fidelity in the presence of noise, expressed in terms of the quantities that define the property of the channel, such as the entanglement fidelity.</description>
+  </item>
+
+  <item>
+    <title>The Basis of Design Tools for Quantum Computing: Arrays, Decision Diagrams, Tensor Networks, and ZX-Calculus</title>
+    <link>http://arxiv.org/pdf/2301.04147</link>
+    <author>Robert Wille, Lukas Burgholzer, Stefan Hillmich, Thomas Grurl, Alexander Ploier, Tom Peham</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>Quantum computers promise to efficiently solve important problems classical computers never will. However, in order to capitalize on these prospects, a fully automated quantum software stack needs to be developed. This involves a multitude of complex tasks from the classical simulation of quantum circuits, over their compilation to specific devices, to the verification of the circuits to be executed as well as the obtained results. All of these tasks are highly non-trivial and necessitate efficient data structures to tackle the inherent complexity. Starting from rather straight-forward arrays over decision diagrams (inspired by the design automation community) to tensor networks and the ZX-calculus, various complementary approaches have been proposed. This work provides a look "under the hood" of today's tools and showcases how these means are utilized in them, e.g., for simulation, compilation, and verification of quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>Clifford+$T$-gate Decomposition with Limited Number of $T$ gates, its Error Analysis, and Performance of Unitary Coupled Cluster Ansatz in Pre-FTQC Era</title>
+    <link>http://arxiv.org/pdf/2301.04150</link>
+    <author>Kohdai Kuroiwa, Yuya O. Nakagawa</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>Fault-tolerant quantum computation (FTQC) is essential to robustly implement quantum algorithms and thus to maximize advantages of quantum computers. In this context, a quantum circuit is decomposed into universal gates that can be fault-tolerantly implemented, for example, Clifford+$T$ gates. Here, $T$ gate is usually regarded as an essential resource for quantum computation because its action cannot be simulated efficiently on classical computers. Practically, it is highly likely that only a limited number of $T$ gates are available in the near future due to its experimental difficulty of fault-tolerant implementation. In this paper, considering this Pre-FTQC era, we investigate Clifford+$T$ decomposition with a limited budget of $T$ gates and propose a new model of the error of such decomposition. More concretely, we propose an algorithm to generate the most accurate Clifford+$T$-gate decomposition of a given single-qubit rotation gate with a fixed number of $T$ gates. We also propose to model the error of Clifford+$T$ decomposition using well-known depolarizing noise by considering the average of the effects of the error. We numerically verified our model successfully explains the decomposition error for a wide variety of molecules using our decomposition algorithm. Thus, we shed light on a first-stage application of quantum computers from a practical point of view and fuel further research towards what quantum computation can achieve in the upcoming future.</description>
   </item>
 
 </channel>

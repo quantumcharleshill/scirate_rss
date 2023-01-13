@@ -47,14 +47,6 @@
   </item>
 
   <item>
-    <title>Hardware-efficient learning of quantum many-body states</title>
-    <link>http://arxiv.org/pdf/2212.06084</link>
-    <author>Katherine Van Kirk, Jordan Cotler, Hsin-Yuan Huang, Mikhail D. Lukin</author>
-    <pubDate>Dec 13 2022</pubDate>
-    <description>Efficient characterization of highly entangled multi-particle systems is an outstanding challenge in quantum science. Recent developments have shown that a modest number of randomized measurements suffices to learn many properties of a quantum many-body system. However, implementing such measurements requires complete control over individual particles, which is unavailable in many experimental platforms. In this work, we present rigorous and efficient algorithms for learning quantum many-body states in systems with any degree of control over individual particles, including when every particle is subject to the same global field and no additional ancilla particles are available. We numerically demonstrate the effectiveness of our algorithms for estimating energy densities in a U(1) lattice gauge theory and classifying topological order using very limited measurement capabilities.</description>
-  </item>
-
-  <item>
     <title>Noisy Stabilizer Formalism</title>
     <link>http://arxiv.org/pdf/2212.08677</link>
     <author>Maria Flors Mor-Ruiz, Wolfgang Dür</author>
@@ -135,14 +127,6 @@
   </item>
 
   <item>
-    <title>One-Way Ticket to Las Vegas and the Quantum Adversary</title>
-    <link>http://arxiv.org/pdf/2301.02003</link>
-    <author>Aleksandrs Belovs, Duyal Yolcu</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>We propose a new definition of quantum Las Vegas query complexity. We show that it is exactly equal to the quantum adversary bound. This is achieved by a new and very simple way of transforming a feasible solution to the adversary optimisation problem into a quantum query algorithm. This allows us to generalise the bound to include unidirectional access, multiple input oracles, and input oracles that are not unitary. As an application, we demonstrate a separation between unidirectional and bidirectional access to an input oracle for a rather natural unitary permutation inversion problem.</description>
-  </item>
-
-  <item>
     <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
     <link>http://arxiv.org/pdf/2301.02356</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
@@ -151,19 +135,11 @@
   </item>
 
   <item>
-    <title>Low-depth random Clifford circuits for quantum coding against Pauli noise using a tensor-network decoder</title>
-    <link>http://arxiv.org/pdf/2212.05071</link>
-    <author>Andrew S. Darmawan, Yoshifumi Nakata, Shiro Tamiya, Hayata Yamasaki</author>
-    <pubDate>Dec 13 2022</pubDate>
-    <description>Recent work [M. J. Gullans et al., Physical Review X, 11(3):031066 (2021)] has shown that quantum error correcting codes defined by random Clifford encoding circuits can achieve a non-zero encoding rate in correcting errors even if the random circuits on $n$ qubits, embedded in one spatial dimension (1D), have a logarithmic depth $d=\mathcal{O}(\log{n})$. However, this was demonstrated only for a simple erasure noise model. In this work, we discover that this desired property indeed holds for the conventional Pauli noise model. Specifically, we numerically demonstrate that the hashing bound, i.e., a rate known to be achieved with $d=\mathcal{O}(n)$-depth random encoding circuits, can be attained even when the circuit depth is restricted to $d=\mathcal{O}(\log n)$ in 1D for depolarizing noise of various strengths. This analysis is made possible with our development of a tensor-network maximum-likelihood decoding algorithm that works efficiently for $\log$-depth encoding circuits in 1D.</description>
-  </item>
-
-  <item>
-    <title>Algorithmic Shadow Spectroscopy</title>
-    <link>http://arxiv.org/pdf/2212.11036</link>
-    <author>Hans Hon Sang Chan, Richard Meister, Matthew L. Goh, Bálint Koczor</author>
-    <pubDate>Dec 22 2022</pubDate>
-    <description>Finding energy differences between eigenstates of a quantum system, which contains key information about its properties, is a central task in many-body physics. Quantum computers promise to perform this task more efficiently than classical hardware; however, extraction of this information remains challenging. Non-trivial protocols for this task require either a substantial increase in circuit complexity (phase estimation) or a large number of circuit repetitions (variational quantum eigensolvers). Here we present shadow spectroscopy, a novel simulator-agnostic quantum algorithm which extracts energy gaps using an extremely low number of circuit repetitions (shots) and no extra resources (ancilla qubits) beyond performing time evolution and measurements. The approach builds on the fundamental feature that every observable property of a quantum system must evolve according to the same harmonic components, whose frequencies can be extracted from classical shadows of time-evolved quantum states. Classical post processing of the large set of resulting time-periodic signals directly reveals Hamiltonian energy differences with Heisenberg-limited precision. While the classical computational complexity is linear, the number of circuit repetitions (quantum resources) required is only logarithmic in the number of analysed observables. Moreover, applying shadow spectroscopy numerically to probe model systems and CH$_2$ excited states verifies that the approach is intuitively easy to use in practice, very robust against gate noise, amiable to a new type of algorithmic-error mitigation technique, and uses orders of magnitude fewer number of shots than typical near-term quantum algorithms -- as low as 10 shots per timestep is sufficient.</description>
+    <title>One-Way Ticket to Las Vegas and the Quantum Adversary</title>
+    <link>http://arxiv.org/pdf/2301.02003</link>
+    <author>Aleksandrs Belovs, Duyal Yolcu</author>
+    <pubDate>Jan 06 2023</pubDate>
+    <description>We propose a new definition of quantum Las Vegas query complexity. We show that it is exactly equal to the quantum adversary bound. This is achieved by a new and very simple way of transforming a feasible solution to the adversary optimisation problem into a quantum query algorithm. This allows us to generalise the bound to include unidirectional access, multiple input oracles, and input oracles that are not unitary. As an application, we demonstrate a separation between unidirectional and bidirectional access to an input oracle for a rather natural unitary permutation inversion problem.</description>
   </item>
 
   <item>
@@ -175,11 +151,11 @@
   </item>
 
   <item>
-    <title>Grothendieck inequalities characterize converses to the polynomial method</title>
-    <link>http://arxiv.org/pdf/2212.08559</link>
-    <author>Jop Briët, Francisco Escudero Gutiérrez, Sander Gribling</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. Here we show that such a result does not generalize to quartic polynomials and 2-query algorithms, even when we allow for additive approximations. We also show that the additive approximation implied by their result is tight for bounded bilinear forms, which gives a new characterization of the Grothendieck constant in terms of 1-query quantum algorithms. Along the way we provide reformulations of the completely bounded norm of a form, and its dual norm.</description>
+    <title>Algorithmic Shadow Spectroscopy</title>
+    <link>http://arxiv.org/pdf/2212.11036</link>
+    <author>Hans Hon Sang Chan, Richard Meister, Matthew L. Goh, Bálint Koczor</author>
+    <pubDate>Dec 22 2022</pubDate>
+    <description>Finding energy differences between eigenstates of a quantum system, which contains key information about its properties, is a central task in many-body physics. Quantum computers promise to perform this task more efficiently than classical hardware; however, extraction of this information remains challenging. Non-trivial protocols for this task require either a substantial increase in circuit complexity (phase estimation) or a large number of circuit repetitions (variational quantum eigensolvers). Here we present shadow spectroscopy, a novel simulator-agnostic quantum algorithm which extracts energy gaps using an extremely low number of circuit repetitions (shots) and no extra resources (ancilla qubits) beyond performing time evolution and measurements. The approach builds on the fundamental feature that every observable property of a quantum system must evolve according to the same harmonic components, whose frequencies can be extracted from classical shadows of time-evolved quantum states. Classical post processing of the large set of resulting time-periodic signals directly reveals Hamiltonian energy differences with Heisenberg-limited precision. While the classical computational complexity is linear, the number of circuit repetitions (quantum resources) required is only logarithmic in the number of analysed observables. Moreover, applying shadow spectroscopy numerically to probe model systems and CH$_2$ excited states verifies that the approach is intuitively easy to use in practice, very robust against gate noise, amiable to a new type of algorithmic-error mitigation technique, and uses orders of magnitude fewer number of shots than typical near-term quantum algorithms -- as low as 10 shots per timestep is sufficient.</description>
   </item>
 
   <item>
@@ -191,11 +167,19 @@
   </item>
 
   <item>
-    <title>Non-Exponential Behaviour in Logical Randomized Benchmarking</title>
-    <link>http://arxiv.org/pdf/2212.05488</link>
-    <author>Athena Ceasura, Pavithran Iyer, Joel J. Wallman, Hakop Pashayan</author>
-    <pubDate>Dec 13 2022</pubDate>
-    <description>We construct a gate and time-independent noise model that results in the output of a logical randomized benchmarking protocol oscillating rather than decaying exponentially. To illustrate our idea, we first construct an example in standard randomized benchmarking where we assume the existence of ``hidden'' qubits, permitting a choice of representation of the Clifford group that contains multiplicities. We use the multiplicities to, with each gate application, update a hidden memory of the gate history that we use to circumvent theorems which guarantee the output decays exponentially. In our focal setting of logical randomized benchmarking, we show that the presence of machinery associated with the implementation of quantum error correction can facilitate non-exponential decay. Since, in logical randomized benchmarking, the role of the hidden qubits is assigned to the syndrome qubits used in error correction and these are strongly coupled to the logical qubits via a decoder.</description>
+    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
+    <link>http://arxiv.org/pdf/2301.03763</link>
+    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
+  </item>
+
+  <item>
+    <title>Grothendieck inequalities characterize converses to the polynomial method</title>
+    <link>http://arxiv.org/pdf/2212.08559</link>
+    <author>Jop Briët, Francisco Escudero Gutiérrez, Sander Gribling</author>
+    <pubDate>Dec 19 2022</pubDate>
+    <description>A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. Here we show that such a result does not generalize to quartic polynomials and 2-query algorithms, even when we allow for additive approximations. We also show that the additive approximation implied by their result is tight for bounded bilinear forms, which gives a new characterization of the Grothendieck constant in terms of 1-query quantum algorithms. Along the way we provide reformulations of the completely bounded norm of a form, and its dual norm.</description>
   </item>
 
   <item>
@@ -215,14 +199,6 @@
   </item>
 
   <item>
-    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
-    <link>http://arxiv.org/pdf/2301.03763</link>
-    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
-  </item>
-
-  <item>
     <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
     <link>http://arxiv.org/pdf/2301.02690</link>
     <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
@@ -239,11 +215,35 @@
   </item>
 
   <item>
+    <title>Randomized adaptive quantum state preparation</title>
+    <link>http://arxiv.org/pdf/2301.04201</link>
+    <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+  </item>
+
+  <item>
     <title>Improved Error Scaling for Trotter Simulations through Extrapolation</title>
     <link>http://arxiv.org/pdf/2212.14144</link>
     <author>Gumaro Rendon, Jacob Watkins, Nathan Wiebe</author>
     <pubDate>Jan 02 2023</pubDate>
     <description>In recent years, Trotter formulas have emerged as a leading approach for simulating quantum dynamics on quantum computers, owing to their ability to exploit locality and commutator structure of the Hamiltonian. However, a major problem facing Trotter formulas is their inability to achieve poly-logarithmic scaling with the error tolerance. We address this problem by providing a well-conditioned extrapolation scheme that takes data from Trotter-Suzuki simulations obtained for specifically chosen Trotter step sizes and estimates the value that would be seen in the limit where the Trotter step size goes to zero. We show this leads, even for the first order Trotter formula, to $\tilde{O}(1/\epsilon)$ scaling for phase estimation and $\tilde{O}(t^2/\epsilon)$ scaling for estimating time-evolved expectation values for simulation time $t$ and error tolerance $\epsilon$. This is better scaling with the error tolerance than the best known un-extrapolated Trotter formulas. Additionally, we provide a new approach for phase estimation that is unbiased and also provide a new approach for estimating the Trotter error on a quantum computer through extrapolation which yields a new way to independently assess the errors in a Trotter simulation.</description>
+  </item>
+
+  <item>
+    <title>On linear-algebraic notions of expansion</title>
+    <link>http://arxiv.org/pdf/2212.13154</link>
+    <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
+    <pubDate>Dec 27 2022</pubDate>
+    <description>A fundamental fact about bounded-degree graph expanders is that three notions of expansion -- vertex expansion, edge expansion, and spectral expansion -- are all equivalent. In this paper, we study to what extent such a statement is true for linear-algebraic notions of expansion. There are two well-studied notions of linear-algebraic expansion, namely dimension expansion (defined in analogy to graph vertex expansion) and quantum expansion (defined in analogy to graph spectral expansion). Lubotzky and Zelmanov proved that the latter implies the former. We prove that the converse is false: there are dimension expanders which are not quantum expanders. Moreover, this asymmetry is explained by the fact that there are two distinct linear-algebraic analogues of graph edge expansion. The first of these is quantum edge expansion, which was introduced by Hastings, and which he proved to be equivalent to quantum expansion. We introduce a new notion, termed dimension edge expansion, which we prove is equivalent to dimension expansion and which is implied by quantum edge expansion. Thus, the separation above is implied by a finer one: dimension edge expansion is strictly weaker than quantum edge expansion. This new notion also leads to a new, more modular proof of the Lubotzky--Zelmanov result that quantum expanders are dimension expanders.</description>
+  </item>
+
+  <item>
+    <title>Discrete holography in dual-unitary circuits</title>
+    <link>http://arxiv.org/pdf/2301.02825</link>
+    <author>Lluis Masanes</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic.</description>
   </item>
 
 </channel>
