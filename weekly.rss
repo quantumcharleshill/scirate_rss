@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>Guaranteed efficient energy estimation of quantum many-body Hamiltonians using ShadowGrouping</title>
-    <link>http://arxiv.org/pdf/2301.03385</link>
-    <author>Alexander Gresch, Martin Kliesch</author>
-    <pubDate>Jan 10 2023</pubDate>
-    <description>Energy estimation in quantum many-body Hamiltonians is a paradigmatic task in various research fields. In particular, efficient energy estimation may be crucial in achieving a quantum advantage for a practically relevant problem. For instance, the measurement effort poses a crucial bottleneck in variational quantum algorithms. We aim to find the optimal strategy with single-qubit measurements that yields the highest provable accuracy given a total measurement budget. As a central tool, we establish new tail bounds for empirical estimators of the energy. They are useful for identifying measurement settings that improve the energy estimate the most. This task constitutes an NP-hard problem. However, we are able to circumvent this bottleneck and use the tail bounds to develop a practical efficient estimation strategy which we call ShadowGrouping. As the name suggests, it combines shadow estimation methods with grouping strategies for Pauli strings. In numerical experiments, we demonstrate that ShadowGrouping outperforms state-of-the-art methods in estimating the electronic ground-state energies of various small molecules, both in provable and effective accuracy benchmarks. Hence, this work provides a promising way, e.g., to tackle the measurement bottleneck of variational quantum algorithms.</description>
-  </item>
-
-  <item>
     <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
     <link>http://arxiv.org/pdf/2301.03763</link>
     <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
     <pubDate>Jan 11 2023</pubDate>
     <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
+  </item>
+
+  <item>
+    <title>Guaranteed efficient energy estimation of quantum many-body Hamiltonians using ShadowGrouping</title>
+    <link>http://arxiv.org/pdf/2301.03385</link>
+    <author>Alexander Gresch, Martin Kliesch</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>Energy estimation in quantum many-body Hamiltonians is a paradigmatic task in various research fields. In particular, efficient energy estimation may be crucial in achieving a quantum advantage for a practically relevant problem. For instance, the measurement effort poses a crucial bottleneck in variational quantum algorithms. We aim to find the optimal strategy with single-qubit measurements that yields the highest provable accuracy given a total measurement budget. As a central tool, we establish new tail bounds for empirical estimators of the energy. They are useful for identifying measurement settings that improve the energy estimate the most. This task constitutes an NP-hard problem. However, we are able to circumvent this bottleneck and use the tail bounds to develop a practical efficient estimation strategy which we call ShadowGrouping. As the name suggests, it combines shadow estimation methods with grouping strategies for Pauli strings. In numerical experiments, we demonstrate that ShadowGrouping outperforms state-of-the-art methods in estimating the electronic ground-state energies of various small molecules, both in provable and effective accuracy benchmarks. Hence, this work provides a promising way, e.g., to tackle the measurement bottleneck of variational quantum algorithms.</description>
   </item>
 
   <item>
@@ -44,6 +44,22 @@
     <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
     <pubDate>Jan 12 2023</pubDate>
     <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+  </item>
+
+  <item>
+    <title>Simultaneous superadditivity of the direct and complementary channel capacities</title>
+    <link>http://arxiv.org/pdf/2301.05142</link>
+    <author>Satvik Singh, Sergii Strelchuk</author>
+    <pubDate>Jan 13 2023</pubDate>
+    <description>Quantum communication channels differ from their classical counterparts because their capacities can be superadditive. The principle of monogamy of entanglement suggests that superadditive improvements in the transmission capacity of a channel should reduce the amount of information loss to the environment. We challenge this intuition by demonstrating that the coherent and private information of a channel and its complement can be simultaneously superadditive for arbitrarily many channel uses. To quantify the limits of this effect, we consider the notion of max (resp. total) private information of a channel, which represents the maximum (resp. sum) of the private information of the channel itself and its complement, and study its relationship with the coherent information of the individual direct and complementary channels. For a varying number of channel uses, we show that these quantities can obey different interleaving sequences of inequalities.</description>
+  </item>
+
+  <item>
+    <title>Path integrals for classical-quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2301.04677</link>
+    <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
+    <pubDate>Jan 13 2023</pubDate>
+    <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
   </item>
 
   <item>
@@ -68,22 +84,6 @@
     <author>Zijian Song, Isaac H. Kim</author>
     <pubDate>Jan 11 2023</pubDate>
     <description>Recently, it was shown that the qudits used in circuits of a convolutional form (e.g., Matrix Product State sand Multi-scale Entanglement Renormalization Ansatz) can be reset unitarily \hrefhttps://doi.org/10.1103/PhysRevA.103.042613[Phys. Rev. A 103, 042613 (2021)], even without measurement. We analyze the fidelity of this protocol for a family of quantum circuits that interpolates between such circuits and local quantum circuits, averaged over Haar-random gates. We establish a connection between this problem and a counting of directed paths on a graph, which is determined by the shape of the quantum circuit. This connection leads to an exact expression for the fidelity of the protocol for the entire family that interpolates between convolutional circuit and random quantum circuit. For convolutional circuits of constant window size, the rate of convergence to unit fidelity is shown to be $\frac{q^2}{q^2+1}$, independent of the window size, where $q$ is the local qudit dimension. Since most applications of convolutional circuits use constant-sized windows, our result suggests that the unitary reset protocol will likely work well in such a regime. We also derive two extra results in the convolutional limit, which may be of an independent interest. First, we derive exact expressions for the correlations between reset qudits and show that it decays exponentially in the distance. Second, we derive an expression for the the fidelity in the presence of noise, expressed in terms of the quantities that define the property of the channel, such as the entanglement fidelity.</description>
-  </item>
-
-  <item>
-    <title>The Basis of Design Tools for Quantum Computing: Arrays, Decision Diagrams, Tensor Networks, and ZX-Calculus</title>
-    <link>http://arxiv.org/pdf/2301.04147</link>
-    <author>Robert Wille, Lukas Burgholzer, Stefan Hillmich, Thomas Grurl, Alexander Ploier, Tom Peham</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>Quantum computers promise to efficiently solve important problems classical computers never will. However, in order to capitalize on these prospects, a fully automated quantum software stack needs to be developed. This involves a multitude of complex tasks from the classical simulation of quantum circuits, over their compilation to specific devices, to the verification of the circuits to be executed as well as the obtained results. All of these tasks are highly non-trivial and necessitate efficient data structures to tackle the inherent complexity. Starting from rather straight-forward arrays over decision diagrams (inspired by the design automation community) to tensor networks and the ZX-calculus, various complementary approaches have been proposed. This work provides a look "under the hood" of today's tools and showcases how these means are utilized in them, e.g., for simulation, compilation, and verification of quantum circuits.</description>
-  </item>
-
-  <item>
-    <title>Clifford+$T$-gate Decomposition with Limited Number of $T$ gates, its Error Analysis, and Performance of Unitary Coupled Cluster Ansatz in Pre-FTQC Era</title>
-    <link>http://arxiv.org/pdf/2301.04150</link>
-    <author>Kohdai Kuroiwa, Yuya O. Nakagawa</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>Fault-tolerant quantum computation (FTQC) is essential to robustly implement quantum algorithms and thus to maximize advantages of quantum computers. In this context, a quantum circuit is decomposed into universal gates that can be fault-tolerantly implemented, for example, Clifford+$T$ gates. Here, $T$ gate is usually regarded as an essential resource for quantum computation because its action cannot be simulated efficiently on classical computers. Practically, it is highly likely that only a limited number of $T$ gates are available in the near future due to its experimental difficulty of fault-tolerant implementation. In this paper, considering this Pre-FTQC era, we investigate Clifford+$T$ decomposition with a limited budget of $T$ gates and propose a new model of the error of such decomposition. More concretely, we propose an algorithm to generate the most accurate Clifford+$T$-gate decomposition of a given single-qubit rotation gate with a fixed number of $T$ gates. We also propose to model the error of Clifford+$T$ decomposition using well-known depolarizing noise by considering the average of the effects of the error. We numerically verified our model successfully explains the decomposition error for a wide variety of molecules using our decomposition algorithm. Thus, we shed light on a first-stage application of quantum computers from a practical point of view and fuel further research towards what quantum computation can achieve in the upcoming future.</description>
   </item>
 
 </channel>
