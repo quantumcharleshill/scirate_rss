@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Randomized adaptive quantum state preparation</title>
-    <link>http://arxiv.org/pdf/2301.04201</link>
-    <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+    <title>Mixed-state topological order and the errorfield double formulation of decoherence-induced transitions</title>
+    <link>http://arxiv.org/pdf/2301.05687</link>
+    <author>Yimu Bao, Ruihua Fan, Ashvin Vishwanath, Ehud Altman</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>We develop an effective field theory characterizing the impact of decoherence on states with abelian topological order and on their capacity to protect quantum information. The decoherence appears as a temporal defect in the double topological quantum field theory that describes the pure density matrix of the uncorrupted state, and it drives a boundary phase transition involving anyon condensation at a critical coupling strength. The ensuing decoherence-induced phases and the loss of quantum information are classified by the Lagrangian subgroups of the double topological order. Our framework generalizes the error recovery transitions, previously derived for certain stabilizer codes, to generic topologically ordered states and shows that they stem from phase transitions in the intrinsic topological order characterizing the mixed state.</description>
   </item>
 
   <item>
-    <title>Simultaneous superadditivity of the direct and complementary channel capacities</title>
-    <link>http://arxiv.org/pdf/2301.05142</link>
-    <author>Satvik Singh, Sergii Strelchuk</author>
-    <pubDate>Jan 13 2023</pubDate>
-    <description>Quantum communication channels differ from their classical counterparts because their capacities can be superadditive. The principle of monogamy of entanglement suggests that superadditive improvements in the transmission capacity of a channel should reduce the amount of information loss to the environment. We challenge this intuition by demonstrating that the coherent and private information of a channel and its complement can be simultaneously superadditive for arbitrarily many channel uses. To quantify the limits of this effect, we consider the notion of max (resp. total) private information of a channel, which represents the maximum (resp. sum) of the private information of the channel itself and its complement, and study its relationship with the coherent information of the individual direct and complementary channels. For a varying number of channel uses, we show that these quantities can obey different interleaving sequences of inequalities.</description>
+    <title>Diagnostics of mixed-state topological order and breakdown of quantum memory</title>
+    <link>http://arxiv.org/pdf/2301.05689</link>
+    <author>Ruihua Fan, Yimu Bao, Ehud Altman, Ashvin Vishwanath</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>Topological quantum memory can protect information against local errors up to finite error thresholds. Such thresholds are usually determined based on the success of decoding algorithms rather than the intrinsic properties of the mixed states describing corrupted memories. Here we provide an intrinsic characterization of the breakdown of topological quantum memory, which both gives a bound on the performance of decoding algorithms and provides examples of topologically distinct mixed states. We employ three information-theoretical quantities that can be regarded as generalizations of the diagnostics of ground-state topological order, and serve as a definition for topological order in error-corrupted mixed states. We consider the topological contribution to entanglement negativity and two other metrics based on quantum relative entropy and coherent information. In the concrete example of the 2D Toric code with local bit-flip and phase errors, we map three quantities to observables in 2D classical spin models and analytically show they all undergo a transition at the same error threshold. This threshold is an upper bound on that achieved in any decoding algorithm and is indeed saturated by that in the optimal decoding algorithm for the Toric code.</description>
   </item>
 
   <item>
-    <title>Path integrals for classical-quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2301.04677</link>
-    <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
-    <pubDate>Jan 13 2023</pubDate>
-    <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
+    <title>Beyond MP2 initialization for unitary coupled cluster quantum circuits</title>
+    <link>http://arxiv.org/pdf/2301.05666</link>
+    <author>Mark R. Hirsbrunner, Diana Chamaki, J. Wayne Mullinax, Norm M. Tubman</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>The unitary coupled cluster singles and doubles (UCCSD) ansatz is a promising approach to prepare accurate quantum states for use in quantum algorithms. In this paper, we compared the performance of two methods for generating the initial UCCSD circuit parameters: CCSD and MP2. Our results, obtained through an efficient sparse wavefunction circuit solver, show that UCCSD circuits with CCSD parameterizations significantly outperformed those with MP2 parameterizations for systems of up to 64 qubits. These findings suggest that CCSD should be the preferred choice for generating initial parameters.</description>
   </item>
 
   <item>
-    <title>The Basis of Design Tools for Quantum Computing: Arrays, Decision Diagrams, Tensor Networks, and ZX-Calculus</title>
-    <link>http://arxiv.org/pdf/2301.04147</link>
-    <author>Robert Wille, Lukas Burgholzer, Stefan Hillmich, Thomas Grurl, Alexander Ploier, Tom Peham</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>Quantum computers promise to efficiently solve important problems classical computers never will. However, in order to capitalize on these prospects, a fully automated quantum software stack needs to be developed. This involves a multitude of complex tasks from the classical simulation of quantum circuits, over their compilation to specific devices, to the verification of the circuits to be executed as well as the obtained results. All of these tasks are highly non-trivial and necessitate efficient data structures to tackle the inherent complexity. Starting from rather straight-forward arrays over decision diagrams (inspired by the design automation community) to tensor networks and the ZX-calculus, various complementary approaches have been proposed. This work provides a look "under the hood" of today's tools and showcases how these means are utilized in them, e.g., for simulation, compilation, and verification of quantum circuits.</description>
+    <title>From Kraus Operators to the Stinespring Form of Quantum Maps: An Alternative Construction for Infinite Dimensions</title>
+    <link>http://arxiv.org/pdf/2301.05488</link>
+    <author>Frederik vom Ende</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>We present an alternative (constructive) proof of the statement that for every completely positive, trace-preserving map $\Phi$ there exists an ancilla Hilbert space $\mathcal K$ in a pure state $|\psi\rangle\langle\psi|$ as well as a unitary operator $U$ on system plus ancilla such that $\Phi$ equals $\operatorname{tr}_{\mathcal K}(U((\cdot)\otimes|\psi\rangle\langle\psi|)U^*)$. The main tool of our proof is Sz.-Nagy's dilation theorem applied to isometries defined on a subspace. In our construction, the ancilla consists of a system of dimension the Kraus rank of $\Phi$ together with a qubit which, however, only acts as a catalyst. In contrast, the original proof of Hellwig & Kraus given in the 70s yields an ancilla of dimension "Kraus rank plus one". We conclude by providing an example which illustrates how the constructions differ from each other.</description>
   </item>
 
   <item>
-    <title>Clifford+$T$-gate Decomposition with Limited Number of $T$ gates, its Error Analysis, and Performance of Unitary Coupled Cluster Ansatz in Pre-FTQC Era</title>
-    <link>http://arxiv.org/pdf/2301.04150</link>
-    <author>Kohdai Kuroiwa, Yuya O. Nakagawa</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>Fault-tolerant quantum computation (FTQC) is essential to robustly implement quantum algorithms and thus to maximize advantages of quantum computers. In this context, a quantum circuit is decomposed into universal gates that can be fault-tolerantly implemented, for example, Clifford+$T$ gates. Here, $T$ gate is usually regarded as an essential resource for quantum computation because its action cannot be simulated efficiently on classical computers. Practically, it is highly likely that only a limited number of $T$ gates are available in the near future due to its experimental difficulty of fault-tolerant implementation. In this paper, considering this Pre-FTQC era, we investigate Clifford+$T$ decomposition with a limited budget of $T$ gates and propose a new model of the error of such decomposition. More concretely, we propose an algorithm to generate the most accurate Clifford+$T$-gate decomposition of a given single-qubit rotation gate with a fixed number of $T$ gates. We also propose to model the error of Clifford+$T$ decomposition using well-known depolarizing noise by considering the average of the effects of the error. We numerically verified our model successfully explains the decomposition error for a wide variety of molecules using our decomposition algorithm. Thus, we shed light on a first-stage application of quantum computers from a practical point of view and fuel further research towards what quantum computation can achieve in the upcoming future.</description>
+    <title>Improving the speed of variational quantum algorithms for quantum error correction</title>
+    <link>http://arxiv.org/pdf/2301.05273</link>
+    <author>Fabio Zoratti, Giacomo De Palma, Vittorio Giovannetti</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>We consider the problem of devising a suitable quantum error correction procedure for a generic quantum noise acting on a quantum circuit. In general, there is no analytic universal procedure to obtain the encoding and correction unitary gates, and the problem is even harder if the noise is unknown and has to be reconstructed. The existing procedures rely on variational quantum algorithms and are very difficult to train since the size of the gradient of the cost function decays exponentially with the number of qubits. We address this problem using a cost function based on the quantum Wasserstein distance of order 1. Our results show that such cost function significantly increases both the probability of a successful training and the fidelity of the recovered state.</description>
   </item>
 
 </channel>

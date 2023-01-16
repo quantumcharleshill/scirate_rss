@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
-    <link>http://arxiv.org/pdf/2301.02356</link>
-    <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
-    <pubDate>Jan 09 2023</pubDate>
-    <description>We present a quantum compilation algorithm that maps Clifford encoders, an equivalence class of quantum circuits that arise universally in quantum error correction, into a representation in the ZX calculus. In particular, we develop a canonical form in the ZX calculus and prove canonicity as well as efficient reducibility of any Clifford encoder into the canonical form. The diagrams produced by our compiler explicitly visualize information propagation and entanglement structure of the encoder, revealing properties that may be obscured in the circuit or stabilizer-tableau representation.</description>
-  </item>
-
-  <item>
     <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
     <link>http://arxiv.org/pdf/2301.03763</link>
     <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
@@ -47,19 +39,19 @@
   </item>
 
   <item>
-    <title>Simultaneous superadditivity of the direct and complementary channel capacities</title>
-    <link>http://arxiv.org/pdf/2301.05142</link>
-    <author>Satvik Singh, Sergii Strelchuk</author>
-    <pubDate>Jan 13 2023</pubDate>
-    <description>Quantum communication channels differ from their classical counterparts because their capacities can be superadditive. The principle of monogamy of entanglement suggests that superadditive improvements in the transmission capacity of a channel should reduce the amount of information loss to the environment. We challenge this intuition by demonstrating that the coherent and private information of a channel and its complement can be simultaneously superadditive for arbitrarily many channel uses. To quantify the limits of this effect, we consider the notion of max (resp. total) private information of a channel, which represents the maximum (resp. sum) of the private information of the channel itself and its complement, and study its relationship with the coherent information of the individual direct and complementary channels. For a varying number of channel uses, we show that these quantities can obey different interleaving sequences of inequalities.</description>
-  </item>
-
-  <item>
     <title>Path integrals for classical-quantum dynamics</title>
     <link>http://arxiv.org/pdf/2301.04677</link>
     <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
     <pubDate>Jan 13 2023</pubDate>
     <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
+  </item>
+
+  <item>
+    <title>Simultaneous superadditivity of the direct and complementary channel capacities</title>
+    <link>http://arxiv.org/pdf/2301.05142</link>
+    <author>Satvik Singh, Sergii Strelchuk</author>
+    <pubDate>Jan 13 2023</pubDate>
+    <description>Quantum communication channels differ from their classical counterparts because their capacities can be superadditive. The principle of monogamy of entanglement suggests that superadditive improvements in the transmission capacity of a channel should reduce the amount of information loss to the environment. We challenge this intuition by demonstrating that the coherent and private information of a channel and its complement can be simultaneously superadditive for arbitrarily many channel uses. To quantify the limits of this effect, we consider the notion of max (resp. total) private information of a channel, which represents the maximum (resp. sum) of the private information of the channel itself and its complement, and study its relationship with the coherent information of the individual direct and complementary channels. For a varying number of channel uses, we show that these quantities can obey different interleaving sequences of inequalities.</description>
   </item>
 
   <item>
@@ -84,6 +76,14 @@
     <author>Zijian Song, Isaac H. Kim</author>
     <pubDate>Jan 11 2023</pubDate>
     <description>Recently, it was shown that the qudits used in circuits of a convolutional form (e.g., Matrix Product State sand Multi-scale Entanglement Renormalization Ansatz) can be reset unitarily \hrefhttps://doi.org/10.1103/PhysRevA.103.042613[Phys. Rev. A 103, 042613 (2021)], even without measurement. We analyze the fidelity of this protocol for a family of quantum circuits that interpolates between such circuits and local quantum circuits, averaged over Haar-random gates. We establish a connection between this problem and a counting of directed paths on a graph, which is determined by the shape of the quantum circuit. This connection leads to an exact expression for the fidelity of the protocol for the entire family that interpolates between convolutional circuit and random quantum circuit. For convolutional circuits of constant window size, the rate of convergence to unit fidelity is shown to be $\frac{q^2}{q^2+1}$, independent of the window size, where $q$ is the local qudit dimension. Since most applications of convolutional circuits use constant-sized windows, our result suggests that the unitary reset protocol will likely work well in such a regime. We also derive two extra results in the convolutional limit, which may be of an independent interest. First, we derive exact expressions for the correlations between reset qudits and show that it decays exponentially in the distance. Second, we derive an expression for the the fidelity in the presence of noise, expressed in terms of the quantities that define the property of the channel, such as the entanglement fidelity.</description>
+  </item>
+
+  <item>
+    <title>The Basis of Design Tools for Quantum Computing: Arrays, Decision Diagrams, Tensor Networks, and ZX-Calculus</title>
+    <link>http://arxiv.org/pdf/2301.04147</link>
+    <author>Robert Wille, Lukas Burgholzer, Stefan Hillmich, Thomas Grurl, Alexander Ploier, Tom Peham</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>Quantum computers promise to efficiently solve important problems classical computers never will. However, in order to capitalize on these prospects, a fully automated quantum software stack needs to be developed. This involves a multitude of complex tasks from the classical simulation of quantum circuits, over their compilation to specific devices, to the verification of the circuits to be executed as well as the obtained results. All of these tasks are highly non-trivial and necessitate efficient data structures to tackle the inherent complexity. Starting from rather straight-forward arrays over decision diagrams (inspired by the design automation community) to tensor networks and the ZX-calculus, various complementary approaches have been proposed. This work provides a look "under the hood" of today's tools and showcases how these means are utilized in them, e.g., for simulation, compilation, and verification of quantum circuits.</description>
   </item>
 
 </channel>

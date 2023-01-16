@@ -31,14 +31,6 @@
   </item>
 
   <item>
-    <title>Thrifty shadow estimation: re-using quantum circuits and bounding tails</title>
-    <link>http://arxiv.org/pdf/2212.06240</link>
-    <author>Jonas Helsen, Michael Walter</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>Randomized shadow estimation is a recent protocol that allows estimating exponentially many expectation values of a quantum state from ``classical shadows'', obtained by applying random quantum circuits and computational basis measurements. In this paper we study the statistical efficiency of this approach in light of near-term quantum computing. In particular, we propose and analyze a more practically-implementable variant of the protocol, thrifty shadow estimation, in which quantum circuits are reused many times instead of having to be freshly generated for each measurement (as in the original protocol). We show that the effect of this reuse strongly depends on the family of quantum circuits that is chosen. In particular, it is maximally effective when sampling Haar random unitaries, and maximally ineffective when sampling Clifford circuits (even though the Clifford group forms a three-design). To interpolate between these two extremes, we provide an efficiently simulable family of quantum circuits inspired by a recent construction of approximate t-designs. Finally we consider tail bounds for shadow estimation and discuss when median-of-means estimation can be replaced with standard mean estimation.</description>
-  </item>
-
-  <item>
     <title>Optimal lower bounds for Quantum Learning via Information Theory</title>
     <link>http://arxiv.org/pdf/2301.02227</link>
     <author>Shima Bab Hadiashar, Ashwin Nayak, Pulkit Sinha</author>
@@ -68,14 +60,6 @@
     <author>William Kretschmer</author>
     <pubDate>Jan 02 2023</pubDate>
     <description>We prove that for any $n$-qubit unitary transformation $U$ and for any $r = 2^{o(n / \log n)}$, there exists a quantum circuit to implement $U^{\otimes r}$ with at most $O(4^n)$ gates. This asymptotically equals the number of gates needed to implement just a single copy of a worst-case $U$. We also establish analogous results for quantum states and diagonal unitary transformations. Our techniques are based on the work of Uhlig [Math. Notes 1974], who proved a similar mass production theorem for Boolean functions.</description>
-  </item>
-
-  <item>
-    <title>High-threshold quantum computing by fusing one-dimensional cluster states</title>
-    <link>http://arxiv.org/pdf/2212.06775</link>
-    <author>Stefano Paesani, Benjamin J. Brown</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>We propose a measurement-based model for fault-tolerant quantum computation that can be realised with one-dimensional cluster states and fusion measurements only; basic resources that are readily available with scalable photonic hardware. Our simulations demonstrate high thresholds compared with other measurement-based models realized with basic entangled resources and two-qubit fusion measurements. Its high tolerance to noise indicates that our practical construction offers a promising route to scalable quantum computing with quantum emitters and linear-optical elements.</description>
   </item>
 
   <item>
@@ -175,14 +159,6 @@
   </item>
 
   <item>
-    <title>A graph-state based synthesis framework for Clifford isometries</title>
-    <link>http://arxiv.org/pdf/2212.06928</link>
-    <author>Timothée Goubault de Brugière, Simon Martiel, Christophe Vuillot</author>
-    <pubDate>Dec 15 2022</pubDate>
-    <description>We tackle the problem of Clifford isometry compilation, i.e, how to synthesize a Clifford isometry into an executable quantum circuit. We propose a simple framework for synthesis that only exploits the elementary properties of the Clifford group and one equation of the symplectic group. We highlight the versatility of our framework by showing that several normal forms of the literature are natural corollaries. We report an improvement of the two-qubit depth necessary for the execution of a Clifford circuit on an LNN architecture. We also apply our framework to the synthesis of graph states and the codiagonalization of Pauli rotations and we improve the 2-qubit count and 2-qubit depth of circuits taken from quantum chemistry experiments.</description>
-  </item>
-
-  <item>
     <title>Grothendieck inequalities characterize converses to the polynomial method</title>
     <link>http://arxiv.org/pdf/2212.08559</link>
     <author>Jop Briët, Francisco Escudero Gutiérrez, Sander Gribling</author>
@@ -215,11 +191,11 @@
   </item>
 
   <item>
-    <title>General guarantees for randomized benchmarking with random quantum circuits</title>
-    <link>http://arxiv.org/pdf/2212.06181</link>
-    <author>Markus Heinrich, Martin Kliesch, Ingo Roth</author>
-    <pubDate>Dec 14 2022</pubDate>
-    <description>In its many variants, randomized benchmarking (RB) is a broadly used technique for assessing the quality of gate implementations on quantum computers. A detailed theoretical understanding and general guarantees exist for the functioning and interpretation of RB protocols if the gates under scrutiny are drawn uniformly at random from a compact group. In contrast, many practically attractive and scalable RB protocols implement random quantum circuits with local gates randomly drawn from some gate-set. Despite their abundance in practice, for those non-uniform RB protocols, general guarantees under experimentally plausible assumptions are missing. In this work, we derive such guarantees for a large class of RB protocols for random circuits that we refer to as filtered RB. Prominent examples include linear cross-entropy benchmarking, character benchmarking, Pauli-noise tomography and variants of simultaneous RB. Building upon recent results for random circuits, we show that many relevant filtered RB schemes can be realized with random quantum circuits in linear depth, and we provide explicit small constants for common instances. We further derive general sample complexity bounds for filtered RB. We show filtered RB to be sample-efficient for several relevant groups, including protocols addressing higher-order cross-talk. Our theory for non-uniform filtered RB is, in principle, flexible enough to design new protocols for non-universal and analog quantum simulators.</description>
+    <title>Path integrals for classical-quantum dynamics</title>
+    <link>http://arxiv.org/pdf/2301.04677</link>
+    <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
+    <pubDate>Jan 13 2023</pubDate>
+    <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
   </item>
 
   <item>
@@ -231,19 +207,43 @@
   </item>
 
   <item>
-    <title>Path integrals for classical-quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2301.04677</link>
-    <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
-    <pubDate>Jan 13 2023</pubDate>
-    <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
-  </item>
-
-  <item>
     <title>Discrete holography in dual-unitary circuits</title>
     <link>http://arxiv.org/pdf/2301.02825</link>
     <author>Lluis Masanes</author>
     <pubDate>Jan 10 2023</pubDate>
     <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic.</description>
+  </item>
+
+  <item>
+    <title>Improved Error Scaling for Trotter Simulations through Extrapolation</title>
+    <link>http://arxiv.org/pdf/2212.14144</link>
+    <author>Gumaro Rendon, Jacob Watkins, Nathan Wiebe</author>
+    <pubDate>Jan 02 2023</pubDate>
+    <description>In recent years, Trotter formulas have emerged as a leading approach for simulating quantum dynamics on quantum computers, owing to their ability to exploit locality and commutator structure of the Hamiltonian. However, a major problem facing Trotter formulas is their inability to achieve poly-logarithmic scaling with the error tolerance. We address this problem by providing a well-conditioned extrapolation scheme that takes data from Trotter-Suzuki simulations obtained for specifically chosen Trotter step sizes and estimates the value that would be seen in the limit where the Trotter step size goes to zero. We show this leads, even for the first order Trotter formula, to $\tilde{O}(1/\epsilon)$ scaling for phase estimation and $\tilde{O}(t^2/\epsilon)$ scaling for estimating time-evolved expectation values for simulation time $t$ and error tolerance $\epsilon$. This is better scaling with the error tolerance than the best known un-extrapolated Trotter formulas. Additionally, we provide a new approach for phase estimation that is unbiased and also provide a new approach for estimating the Trotter error on a quantum computer through extrapolation which yields a new way to independently assess the errors in a Trotter simulation.</description>
+  </item>
+
+  <item>
+    <title>On linear-algebraic notions of expansion</title>
+    <link>http://arxiv.org/pdf/2212.13154</link>
+    <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
+    <pubDate>Dec 27 2022</pubDate>
+    <description>A fundamental fact about bounded-degree graph expanders is that three notions of expansion -- vertex expansion, edge expansion, and spectral expansion -- are all equivalent. In this paper, we study to what extent such a statement is true for linear-algebraic notions of expansion. There are two well-studied notions of linear-algebraic expansion, namely dimension expansion (defined in analogy to graph vertex expansion) and quantum expansion (defined in analogy to graph spectral expansion). Lubotzky and Zelmanov proved that the latter implies the former. We prove that the converse is false: there are dimension expanders which are not quantum expanders. Moreover, this asymmetry is explained by the fact that there are two distinct linear-algebraic analogues of graph edge expansion. The first of these is quantum edge expansion, which was introduced by Hastings, and which he proved to be equivalent to quantum expansion. We introduce a new notion, termed dimension edge expansion, which we prove is equivalent to dimension expansion and which is implied by quantum edge expansion. Thus, the separation above is implied by a finer one: dimension edge expansion is strictly weaker than quantum edge expansion. This new notion also leads to a new, more modular proof of the Lubotzky--Zelmanov result that quantum expanders are dimension expanders.</description>
+  </item>
+
+  <item>
+    <title>Optimal one-shot entanglement sharing</title>
+    <link>http://arxiv.org/pdf/2301.01781</link>
+    <author>Vikesh Siddhu, John Smolin</author>
+    <pubDate>Jan 06 2023</pubDate>
+    <description>Sharing entanglement across quantum interconnects is fundamental for quantum information processing. We discuss a practical setting where this interconnect, modeled by a quantum channel, is used once with the aim of sharing high fidelity entanglement. For any channel, we provide methods to easily find both this maximum fidelity and optimal inputs that achieve it. Unlike most metrics for sharing entanglement, this maximum fidelity can be shown to be multiplicative. This ensures a complete understanding in the sense that the maximum fidelity and optimal inputs found in our one-shot setting extend even when the channel is used multiple times, possibly with other channels. Optimal inputs need not be fully entangled. We find the minimum entanglement in these optimal inputs can even vary discontinuously with channel noise. Generally, noise parameters are hard to identify and remain unknown for most channels. However, for all qubit channels with qubit environments, we provide a rigorous noise parametrization which we explain in-terms of no-cloning. This noise parametrization and a channel representation we call the standard Kraus decomposition have pleasing properties that make them both useful more generally.</description>
+  </item>
+
+  <item>
+    <title>Fast Time-Evolution of Matrix-Product States using the QR decomposition</title>
+    <link>http://arxiv.org/pdf/2212.09782</link>
+    <author>Jakob Unfried, Johannes Hauschild, Frank Pollmann</author>
+    <pubDate>Dec 21 2022</pubDate>
+    <description>We propose and benchmark a modified time evolution block decimation (TEBD) algorithm that uses a truncation scheme based on the QR decomposition instead of the singular value decomposition (SVD). The modification reduces the scaling with the dimension of the physical Hilbert space $d$ from $d^3$ down to $d^2$. Moreover, the QR decomposition has a lower computational complexity than the SVD and allows for highly efficient implementations on GPU hardware. In a benchmark simulation of a global quench in a quantum clock model, we observe a speedup of up to three orders of magnitude comparing QR and SVD based updates on an A100 GPU.</description>
   </item>
 
 </channel>
