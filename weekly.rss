@@ -23,19 +23,19 @@
   </item>
 
   <item>
-    <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2301.02690</link>
-    <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
-    <pubDate>Jan 10 2023</pubDate>
-    <description>In the noisy intermediate-scale quantum (NISQ) era, quantum error mitigation will be a necessary tool to extract useful performance out of quantum devices. However, there is a big gap between the noise models often assumed by error mitigation techniques and the actual noise on quantum devices. As a consequence, there arises a gap between the theoretical expectations of the techniques and their everyday performance. Cloud users of quantum devices in particular, who often take the devices as they are, feel this gap the most. How should they parametrize their uncertainty in the usefulness of these techniques and be able to make judgement calls between resources required to implement error mitigation and the accuracy required at the algorithmic level? To answer the first question, we introduce hypothesis testing within the framework of quantum error mitigation and for the second question, we propose an inclusive figure of merit that accounts for both resource requirement and mitigation efficiency of an error mitigation implementation. The figure of merit is useful to weigh the trade-offs between the scalability and accuracy of various error mitigation methods. Finally, using the hypothesis testing and the figure of merit, we experimentally evaluate $16$ error mitigation pipelines composed of singular methods such as zero noise extrapolation, randomized compilation, measurement error mitigation, dynamical decoupling, and mitigation with estimation circuits. In total our data involved running $275,640$ circuits on two IBM quantum computers.</description>
-  </item>
-
-  <item>
     <title>Randomized adaptive quantum state preparation</title>
     <link>http://arxiv.org/pdf/2301.04201</link>
     <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
     <pubDate>Jan 12 2023</pubDate>
     <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+  </item>
+
+  <item>
+    <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2301.02690</link>
+    <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>In the noisy intermediate-scale quantum (NISQ) era, quantum error mitigation will be a necessary tool to extract useful performance out of quantum devices. However, there is a big gap between the noise models often assumed by error mitigation techniques and the actual noise on quantum devices. As a consequence, there arises a gap between the theoretical expectations of the techniques and their everyday performance. Cloud users of quantum devices in particular, who often take the devices as they are, feel this gap the most. How should they parametrize their uncertainty in the usefulness of these techniques and be able to make judgement calls between resources required to implement error mitigation and the accuracy required at the algorithmic level? To answer the first question, we introduce hypothesis testing within the framework of quantum error mitigation and for the second question, we propose an inclusive figure of merit that accounts for both resource requirement and mitigation efficiency of an error mitigation implementation. The figure of merit is useful to weigh the trade-offs between the scalability and accuracy of various error mitigation methods. Finally, using the hypothesis testing and the figure of merit, we experimentally evaluate $16$ error mitigation pipelines composed of singular methods such as zero noise extrapolation, randomized compilation, measurement error mitigation, dynamical decoupling, and mitigation with estimation circuits. In total our data involved running $275,640$ circuits on two IBM quantum computers.</description>
   </item>
 
   <item>
@@ -47,6 +47,14 @@
   </item>
 
   <item>
+    <title>Discrete holography in dual-unitary circuits</title>
+    <link>http://arxiv.org/pdf/2301.02825</link>
+    <author>Lluis Masanes</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic.</description>
+  </item>
+
+  <item>
     <title>Simultaneous superadditivity of the direct and complementary channel capacities</title>
     <link>http://arxiv.org/pdf/2301.05142</link>
     <author>Satvik Singh, Sergii Strelchuk</author>
@@ -55,11 +63,11 @@
   </item>
 
   <item>
-    <title>Discrete holography in dual-unitary circuits</title>
-    <link>http://arxiv.org/pdf/2301.02825</link>
-    <author>Lluis Masanes</author>
-    <pubDate>Jan 10 2023</pubDate>
-    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic.</description>
+    <title>Diagnostics of mixed-state topological order and breakdown of quantum memory</title>
+    <link>http://arxiv.org/pdf/2301.05689</link>
+    <author>Ruihua Fan, Yimu Bao, Ehud Altman, Ashvin Vishwanath</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>Topological quantum memory can protect information against local errors up to finite error thresholds. Such thresholds are usually determined based on the success of decoding algorithms rather than the intrinsic properties of the mixed states describing corrupted memories. Here we provide an intrinsic characterization of the breakdown of topological quantum memory, which both gives a bound on the performance of decoding algorithms and provides examples of topologically distinct mixed states. We employ three information-theoretical quantities that can be regarded as generalizations of the diagnostics of ground-state topological order, and serve as a definition for topological order in error-corrupted mixed states. We consider the topological contribution to entanglement negativity and two other metrics based on quantum relative entropy and coherent information. In the concrete example of the 2D Toric code with local bit-flip and phase errors, we map three quantities to observables in 2D classical spin models and analytically show they all undergo a transition at the same error threshold. This threshold is an upper bound on that achieved in any decoding algorithm and is indeed saturated by that in the optimal decoding algorithm for the Toric code.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Zijian Song, Isaac H. Kim</author>
     <pubDate>Jan 11 2023</pubDate>
     <description>Recently, it was shown that the qudits used in circuits of a convolutional form (e.g., Matrix Product State sand Multi-scale Entanglement Renormalization Ansatz) can be reset unitarily \hrefhttps://doi.org/10.1103/PhysRevA.103.042613[Phys. Rev. A 103, 042613 (2021)], even without measurement. We analyze the fidelity of this protocol for a family of quantum circuits that interpolates between such circuits and local quantum circuits, averaged over Haar-random gates. We establish a connection between this problem and a counting of directed paths on a graph, which is determined by the shape of the quantum circuit. This connection leads to an exact expression for the fidelity of the protocol for the entire family that interpolates between convolutional circuit and random quantum circuit. For convolutional circuits of constant window size, the rate of convergence to unit fidelity is shown to be $\frac{q^2}{q^2+1}$, independent of the window size, where $q$ is the local qudit dimension. Since most applications of convolutional circuits use constant-sized windows, our result suggests that the unitary reset protocol will likely work well in such a regime. We also derive two extra results in the convolutional limit, which may be of an independent interest. First, we derive exact expressions for the correlations between reset qudits and show that it decays exponentially in the distance. Second, we derive an expression for the the fidelity in the presence of noise, expressed in terms of the quantities that define the property of the channel, such as the entanglement fidelity.</description>
-  </item>
-
-  <item>
-    <title>The Basis of Design Tools for Quantum Computing: Arrays, Decision Diagrams, Tensor Networks, and ZX-Calculus</title>
-    <link>http://arxiv.org/pdf/2301.04147</link>
-    <author>Robert Wille, Lukas Burgholzer, Stefan Hillmich, Thomas Grurl, Alexander Ploier, Tom Peham</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>Quantum computers promise to efficiently solve important problems classical computers never will. However, in order to capitalize on these prospects, a fully automated quantum software stack needs to be developed. This involves a multitude of complex tasks from the classical simulation of quantum circuits, over their compilation to specific devices, to the verification of the circuits to be executed as well as the obtained results. All of these tasks are highly non-trivial and necessitate efficient data structures to tackle the inherent complexity. Starting from rather straight-forward arrays over decision diagrams (inspired by the design automation community) to tensor networks and the ZX-calculus, various complementary approaches have been proposed. This work provides a look "under the hood" of today's tools and showcases how these means are utilized in them, e.g., for simulation, compilation, and verification of quantum circuits.</description>
   </item>
 
 </channel>

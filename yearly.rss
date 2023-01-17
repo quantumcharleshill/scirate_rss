@@ -151,14 +151,6 @@
   </item>
 
   <item>
-    <title>Quantum algorithms and the power of forgetting</title>
-    <link>http://arxiv.org/pdf/2211.12447</link>
-    <author>Andrew M. Childs, Matthew Coudron, Amin Shiraz Gilani</author>
-    <pubDate>Nov 23 2022</pubDate>
-    <description>The so-called welded tree problem provides an example of a black-box problem that can be solved exponentially faster by a quantum walk than by any classical algorithm. Given the name of a special ENTRANCE vertex, a quantum walk can find another distinguished EXIT vertex using polynomially many queries, though without finding any particular path from ENTRANCE to EXIT. It has been an open problem for twenty years whether there is an efficient quantum algorithm for finding such a path, or if the path-finding problem is hard even for quantum computers. We show that a natural class of efficient quantum algorithms provably cannot find a path from ENTRANCE to EXIT. Specifically, we consider algorithms that, within each branch of their superposition, always store a set of vertex labels that form a connected subgraph including the ENTRANCE, and that only provide these vertex labels as inputs to the oracle. While this does not rule out the possibility of a quantum algorithm that efficiently finds a path, it is unclear how an algorithm could benefit by deviating from this behavior. Our no-go result suggests that, for some problems, quantum algorithms must necessarily forget the path they take to reach a solution in order to outperform classical computation.</description>
-  </item>
-
-  <item>
     <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
     <link>http://arxiv.org/pdf/2205.05668</link>
     <author>Zhi Li</author>
@@ -167,11 +159,11 @@
   </item>
 
   <item>
-    <title>Mind the gap: Achieving a super-Grover quantum speedup by jumping to the end</title>
-    <link>http://arxiv.org/pdf/2212.01513</link>
-    <author>Alexander M. Dalzell, Nicola Pancotti, Earl T. Campbell, Fernando G. S. L. Brandão</author>
-    <pubDate>Dec 06 2022</pubDate>
-    <description>We present a quantum algorithm that has rigorous runtime guarantees for several families of binary optimization problems, including Quadratic Unconstrained Binary Optimization (QUBO), Ising spin glasses ($p$-spin model), and $k$-local constraint satisfaction problems ($k$-CSP). We show that either (a) the algorithm finds the optimal solution in time $O^*(2^{(0.5-c)n})$ for an $n$-independent constant $c$, a $2^{cn}$ advantage over Grover's algorithm; or (b) there are sufficiently many low-cost solutions such that classical random guessing produces a $(1-\eta)$ approximation to the optimal cost value in sub-exponential time for arbitrarily small choice of $\eta$. Additionally, we show that for a large fraction of random instances from the $k$-spin model and for any fully satisfiable or slightly frustrated $k$-CSP formula, statement (a) is the case. The algorithm and its analysis is largely inspired by Hastings' short-path algorithm [$\textit{Quantum}$ $\textbf{2}$ (2018) 78].</description>
+    <title>Quantum algorithms and the power of forgetting</title>
+    <link>http://arxiv.org/pdf/2211.12447</link>
+    <author>Andrew M. Childs, Matthew Coudron, Amin Shiraz Gilani</author>
+    <pubDate>Nov 23 2022</pubDate>
+    <description>The so-called welded tree problem provides an example of a black-box problem that can be solved exponentially faster by a quantum walk than by any classical algorithm. Given the name of a special ENTRANCE vertex, a quantum walk can find another distinguished EXIT vertex using polynomially many queries, though without finding any particular path from ENTRANCE to EXIT. It has been an open problem for twenty years whether there is an efficient quantum algorithm for finding such a path, or if the path-finding problem is hard even for quantum computers. We show that a natural class of efficient quantum algorithms provably cannot find a path from ENTRANCE to EXIT. Specifically, we consider algorithms that, within each branch of their superposition, always store a set of vertex labels that form a connected subgraph including the ENTRANCE, and that only provide these vertex labels as inputs to the oracle. While this does not rule out the possibility of a quantum algorithm that efficiently finds a path, it is unclear how an algorithm could benefit by deviating from this behavior. Our no-go result suggests that, for some problems, quantum algorithms must necessarily forget the path they take to reach a solution in order to outperform classical computation.</description>
   </item>
 
   <item>
@@ -183,19 +175,27 @@
   </item>
 
   <item>
-    <title>Parallel window decoding enables scalable fault tolerant quantum computation</title>
-    <link>http://arxiv.org/pdf/2209.08552</link>
-    <author>Luka Skoric, Dan E. Browne, Kenton M. Barnes, Neil I. Gillespie, Earl T. Campbell</author>
-    <pubDate>Sep 20 2022</pubDate>
-    <description>Quantum Error Correction (QEC) continuously generates a stream of syndrome data that contains information about the errors in the system. Useful fault-tolerant quantum computation requires online decoders that are capable of processing this syndrome data at the rate it is received. Otherwise, a data backlog is created that grows exponentially with the $T$-gate depth of the computation. Superconducting quantum devices can perform QEC rounds in sub-1 $\mu$s time, setting a stringent requirement on the speed of the decoders. All current decoder proposals have a maximum code size beyond which the processing of syndromes becomes too slow to keep up with the data acquisition, thereby making the fault-tolerant computation not scalable. Here, we will present a methodology that parallelizes the decoding problem and achieves almost arbitrary syndrome processing speed. Our parallelization requires some classical feedback decisions to be delayed, leading to a slow-down of the logical clock speed. However, the slow-down is now polynomial in code size and so an exponential backlog is averted. Furthermore, using known auto-teleportation gadgets the slow-down can be eliminated altogether in exchange for increased qubit overhead, all polynomially scaling. We demonstrate our parallelization speed-up using a Python implementation, combining it with both union-find and minimum weight perfect matching. Furthermore, we show that the algorithm imposes no noticeable reduction in logical fidelity compared to the original global decoder. Finally, we discuss how the same methodology can be implemented in online hardware decoders.</description>
-  </item>
-
-  <item>
     <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
     <link>http://arxiv.org/pdf/2212.08678</link>
     <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
     <pubDate>Dec 20 2022</pubDate>
     <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of practical and industrial contexts - has been identified as one of the core potential fields of applicability of near-term quantum computers. It is still unclear, however, to what extent variational quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that fault-tolerant quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work of Kearns and Valiant, we construct special instances of the integer programming problem (which in its most general form is NP-complete) that we prove to be hard-to-approximate classically but give an efficient quantum algorithm to approximate the optimal solution of those instances, hence showing a super-polynomial quantum advantage. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms.</description>
+  </item>
+
+  <item>
+    <title>Mind the gap: Achieving a super-Grover quantum speedup by jumping to the end</title>
+    <link>http://arxiv.org/pdf/2212.01513</link>
+    <author>Alexander M. Dalzell, Nicola Pancotti, Earl T. Campbell, Fernando G. S. L. Brandão</author>
+    <pubDate>Dec 06 2022</pubDate>
+    <description>We present a quantum algorithm that has rigorous runtime guarantees for several families of binary optimization problems, including Quadratic Unconstrained Binary Optimization (QUBO), Ising spin glasses ($p$-spin model), and $k$-local constraint satisfaction problems ($k$-CSP). We show that either (a) the algorithm finds the optimal solution in time $O^*(2^{(0.5-c)n})$ for an $n$-independent constant $c$, a $2^{cn}$ advantage over Grover's algorithm; or (b) there are sufficiently many low-cost solutions such that classical random guessing produces a $(1-\eta)$ approximation to the optimal cost value in sub-exponential time for arbitrarily small choice of $\eta$. Additionally, we show that for a large fraction of random instances from the $k$-spin model and for any fully satisfiable or slightly frustrated $k$-CSP formula, statement (a) is the case. The algorithm and its analysis is largely inspired by Hastings' short-path algorithm [$\textit{Quantum}$ $\textbf{2}$ (2018) 78].</description>
+  </item>
+
+  <item>
+    <title>Parallel window decoding enables scalable fault tolerant quantum computation</title>
+    <link>http://arxiv.org/pdf/2209.08552</link>
+    <author>Luka Skoric, Dan E. Browne, Kenton M. Barnes, Neil I. Gillespie, Earl T. Campbell</author>
+    <pubDate>Sep 20 2022</pubDate>
+    <description>Quantum Error Correction (QEC) continuously generates a stream of syndrome data that contains information about the errors in the system. Useful fault-tolerant quantum computation requires online decoders that are capable of processing this syndrome data at the rate it is received. Otherwise, a data backlog is created that grows exponentially with the $T$-gate depth of the computation. Superconducting quantum devices can perform QEC rounds in sub-1 $\mu$s time, setting a stringent requirement on the speed of the decoders. All current decoder proposals have a maximum code size beyond which the processing of syndromes becomes too slow to keep up with the data acquisition, thereby making the fault-tolerant computation not scalable. Here, we will present a methodology that parallelizes the decoding problem and achieves almost arbitrary syndrome processing speed. Our parallelization requires some classical feedback decisions to be delayed, leading to a slow-down of the logical clock speed. However, the slow-down is now polynomial in code size and so an exponential backlog is averted. Furthermore, using known auto-teleportation gadgets the slow-down can be eliminated altogether in exchange for increased qubit overhead, all polynomially scaling. We demonstrate our parallelization speed-up using a Python implementation, combining it with both union-find and minimum weight perfect matching. Furthermore, we show that the algorithm imposes no noticeable reduction in logical fidelity compared to the original global decoder. Finally, we discuss how the same methodology can be implemented in online hardware decoders.</description>
   </item>
 
   <item>
@@ -223,19 +223,19 @@
   </item>
 
   <item>
-    <title>Towards near-term quantum simulation of materials</title>
-    <link>http://arxiv.org/pdf/2205.15256</link>
-    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
-    <pubDate>May 31 2022</pubDate>
-    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $884$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
-  </item>
-
-  <item>
     <title>Learning many-body Hamiltonians with Heisenberg-limited scaling</title>
     <link>http://arxiv.org/pdf/2210.03030</link>
     <author>Hsin-Yuan Huang, Yu Tong, Di Fang, Yuan Su</author>
     <pubDate>Oct 07 2022</pubDate>
     <description>Learning a many-body Hamiltonian from its dynamics is a fundamental problem in physics. In this work, we propose the first algorithm to achieve the Heisenberg limit for learning an interacting $N$-qubit local Hamiltonian. After a total evolution time of $\mathcal{O}(\epsilon^{-1})$, the proposed algorithm can efficiently estimate any parameter in the $N$-qubit Hamiltonian to $\epsilon$-error with high probability. The proposed algorithm is robust against state preparation and measurement error, does not require eigenstates or thermal states, and only uses $\mathrm{polylog}(\epsilon^{-1})$ experiments. In contrast, the best previous algorithms, such as recent works using gradient-based optimization or polynomial interpolation, require a total evolution time of $\mathcal{O}(\epsilon^{-2})$ and $\mathcal{O}(\epsilon^{-2})$ experiments. Our algorithm uses ideas from quantum simulation to decouple the unknown $N$-qubit Hamiltonian $H$ into noninteracting patches, and learns $H$ using a quantum-enhanced divide-and-conquer approach. We prove a matching lower bound to establish the asymptotic optimality of our algorithm.</description>
+  </item>
+
+  <item>
+    <title>Towards near-term quantum simulation of materials</title>
+    <link>http://arxiv.org/pdf/2205.15256</link>
+    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
+    <pubDate>May 31 2022</pubDate>
+    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $884$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
   </item>
 
   <item>
@@ -252,6 +252,22 @@
     <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>Saddle points constitute a crucial challenge for first-order gradient descent algorithms. In notions of classical machine learning, they are avoided for example by means of stochastic gradient descent methods. In this work, we provide evidence that the saddle points problem can be naturally avoided in variational quantum algorithms by exploiting the presence of stochasticity. We prove convergence guarantees of the approach and its practical functioning at hand of examples. We argue that the natural stochasticity of variational algorithms can be beneficial for avoiding strict saddle points, i.e., those saddle points with at least one negative Hessian eigenvalue. This insight that some noise levels could help in this perspective is expected to add a new perspective to notions of near-term variational quantum algorithms.</description>
+  </item>
+
+  <item>
+    <title>Quantum many-body systems in thermal equilibrium</title>
+    <link>http://arxiv.org/pdf/2204.08349</link>
+    <author>Álvaro M. Alhambra</author>
+    <pubDate>Apr 19 2022</pubDate>
+    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
+  </item>
+
+  <item>
+    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
+    <link>http://arxiv.org/pdf/2203.16571</link>
+    <author>Jonas Haferkamp</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\to\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.</description>
   </item>
 
   <item>
@@ -276,22 +292,6 @@
     <author>Weiyuan Gong, Scott Aaronson</author>
     <pubDate>Sep 08 2022</pubDate>
     <description>Shadow tomography for quantum states provides a sample efficient approach for predicting the properties of quantum systems when the properties are restricted to expectation values of $2$-outcome POVMs. However, these shadow tomography procedures yield poor bounds if there are more than 2 outcomes per measurement. In this paper, we consider a general problem of learning properties from unknown quantum states: given an unknown $d$-dimensional quantum state $\rho$ and $M$ unknown quantum measurements $\mathcal{M}_1,...,\mathcal{M}_M$ with $K\geq 2$ outcomes, estimating the probability distribution for applying $\mathcal{M}_i$ on $\rho$ to within total variation distance $\epsilon$. Compared to the special case when $K=2$, we need to learn unknown distributions instead of values. We develop an online shadow tomography procedure that solves this problem with high success probability requiring $\tilde{O}(K\log^2M\log d/\epsilon^4)$ copies of $\rho$. We further prove an information-theoretic lower bound that at least $\Omega(\min\{d^2,K+\log M\}/\epsilon^2)$ copies of $\rho$ are required to solve this problem with high success probability. Our shadow tomography procedure requires sample complexity with only logarithmic dependence on $M$ and $d$ and is sample-optimal for the dependence on $K$.</description>
-  </item>
-
-  <item>
-    <title>Quantum many-body systems in thermal equilibrium</title>
-    <link>http://arxiv.org/pdf/2204.08349</link>
-    <author>Álvaro M. Alhambra</author>
-    <pubDate>Apr 19 2022</pubDate>
-    <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
-  </item>
-
-  <item>
-    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
-    <link>http://arxiv.org/pdf/2203.16571</link>
-    <author>Jonas Haferkamp</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\to\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.</description>
   </item>
 
   <item>
@@ -375,6 +375,14 @@
   </item>
 
   <item>
+    <title>Verifiable Quantum Advantage without Structure</title>
+    <link>http://arxiv.org/pdf/2204.02063</link>
+    <author>Takashi Yamakawa, Mark Zhandry</author>
+    <pubDate>Apr 06 2022</pubDate>
+    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
+  </item>
+
+  <item>
     <title>Efficient classical algorithms for simulating symmetric quantum systems</title>
     <link>http://arxiv.org/pdf/2211.16998</link>
     <author>Eric R. Anschuetz, Andreas Bauer, Bobak T. Kiani, Seth Lloyd</author>
@@ -388,14 +396,6 @@
     <author>Marcos Crichigno, Tamara Kohler</author>
     <pubDate>Sep 27 2022</pubDate>
     <description>We tackle the long-standing question of the computational complexity of determining homology groups of simplicial complexes, a fundamental task in computational topology, posed by Kaibel and Pfetsch 20 years ago. We show that this decision problem is QMA1-hard. Moreover, we show that a version of the problem satisfying a suitable promise and certain constraints is contained in QMA. This suggests that the seemingly classical problem may in fact be quantum mechanical. In fact, we are able to significantly strengthen this by showing that the problem remains QMA1-hard in the case of clique complexes, a family of simplicial complexes specified by a graph which is relevant to the problem of topological data analysis. The proof combines a number of techniques from Hamiltonian complexity and homological algebra. We discuss potential implications for the problem of quantum advantage in topological data analysis.</description>
-  </item>
-
-  <item>
-    <title>Verifiable Quantum Advantage without Structure</title>
-    <link>http://arxiv.org/pdf/2204.02063</link>
-    <author>Takashi Yamakawa, Mark Zhandry</author>
-    <pubDate>Apr 06 2022</pubDate>
-    <description>We show the following hold, unconditionally unless otherwise stated, relative to a random oracle with probability 1: - There are NP search problems solvable by BQP machines but not BPP machines. - There exist functions that are one-way, and even collision resistant, against classical adversaries but are easily inverted quantumly. Similar separations hold for digital signatures and CPA-secure public key encryption (the latter requiring the assumption of a classically CPA-secure encryption scheme). Interestingly, the separation does not necessarily extend to the case of other cryptographic objects such as PRGs. - There are unconditional publicly verifiable proofs of quantumness with the minimal rounds of interaction: for uniform adversaries, the proofs are non-interactive, whereas for non-uniform adversaries the proofs are two message public coin. - Our results do not appear to contradict the Aaronson-Ambanis conjecture. Assuming this conjecture, there exist publicly verifiable certifiable randomness, again with the minimal rounds of interaction. By replacing the random oracle with a concrete cryptographic hash function such as SHA2, we obtain plausible Minicrypt instantiations of the above results. Previous analogous results all required substantial structure, either in terms of highly structured oracles and/or algebraic assumptions in Cryptomania and beyond.</description>
   </item>
 
   <item>

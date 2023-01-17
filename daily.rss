@@ -7,27 +7,11 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Mixed-state topological order and the errorfield double formulation of decoherence-induced transitions</title>
-    <link>http://arxiv.org/pdf/2301.05687</link>
-    <author>Yimu Bao, Ruihua Fan, Ashvin Vishwanath, Ehud Altman</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>We develop an effective field theory characterizing the impact of decoherence on states with abelian topological order and on their capacity to protect quantum information. The decoherence appears as a temporal defect in the double topological quantum field theory that describes the pure density matrix of the uncorrupted state, and it drives a boundary phase transition involving anyon condensation at a critical coupling strength. The ensuing decoherence-induced phases and the loss of quantum information are classified by the Lagrangian subgroups of the double topological order. Our framework generalizes the error recovery transitions, previously derived for certain stabilizer codes, to generic topologically ordered states and shows that they stem from phase transitions in the intrinsic topological order characterizing the mixed state.</description>
-  </item>
-
-  <item>
     <title>Diagnostics of mixed-state topological order and breakdown of quantum memory</title>
     <link>http://arxiv.org/pdf/2301.05689</link>
     <author>Ruihua Fan, Yimu Bao, Ehud Altman, Ashvin Vishwanath</author>
     <pubDate>Jan 16 2023</pubDate>
     <description>Topological quantum memory can protect information against local errors up to finite error thresholds. Such thresholds are usually determined based on the success of decoding algorithms rather than the intrinsic properties of the mixed states describing corrupted memories. Here we provide an intrinsic characterization of the breakdown of topological quantum memory, which both gives a bound on the performance of decoding algorithms and provides examples of topologically distinct mixed states. We employ three information-theoretical quantities that can be regarded as generalizations of the diagnostics of ground-state topological order, and serve as a definition for topological order in error-corrupted mixed states. We consider the topological contribution to entanglement negativity and two other metrics based on quantum relative entropy and coherent information. In the concrete example of the 2D Toric code with local bit-flip and phase errors, we map three quantities to observables in 2D classical spin models and analytically show they all undergo a transition at the same error threshold. This threshold is an upper bound on that achieved in any decoding algorithm and is indeed saturated by that in the optimal decoding algorithm for the Toric code.</description>
-  </item>
-
-  <item>
-    <title>Beyond MP2 initialization for unitary coupled cluster quantum circuits</title>
-    <link>http://arxiv.org/pdf/2301.05666</link>
-    <author>Mark R. Hirsbrunner, Diana Chamaki, J. Wayne Mullinax, Norm M. Tubman</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>The unitary coupled cluster singles and doubles (UCCSD) ansatz is a promising approach to prepare accurate quantum states for use in quantum algorithms. In this paper, we compared the performance of two methods for generating the initial UCCSD circuit parameters: CCSD and MP2. Our results, obtained through an efficient sparse wavefunction circuit solver, show that UCCSD circuits with CCSD parameterizations significantly outperformed those with MP2 parameterizations for systems of up to 64 qubits. These findings suggest that CCSD should be the preferred choice for generating initial parameters.</description>
   </item>
 
   <item>
@@ -39,11 +23,27 @@
   </item>
 
   <item>
-    <title>Improving the speed of variational quantum algorithms for quantum error correction</title>
-    <link>http://arxiv.org/pdf/2301.05273</link>
-    <author>Fabio Zoratti, Giacomo De Palma, Vittorio Giovannetti</author>
+    <title>Mixed-state topological order and the errorfield double formulation of decoherence-induced transitions</title>
+    <link>http://arxiv.org/pdf/2301.05687</link>
+    <author>Yimu Bao, Ruihua Fan, Ashvin Vishwanath, Ehud Altman</author>
     <pubDate>Jan 16 2023</pubDate>
-    <description>We consider the problem of devising a suitable quantum error correction procedure for a generic quantum noise acting on a quantum circuit. In general, there is no analytic universal procedure to obtain the encoding and correction unitary gates, and the problem is even harder if the noise is unknown and has to be reconstructed. The existing procedures rely on variational quantum algorithms and are very difficult to train since the size of the gradient of the cost function decays exponentially with the number of qubits. We address this problem using a cost function based on the quantum Wasserstein distance of order 1. Our results show that such cost function significantly increases both the probability of a successful training and the fidelity of the recovered state.</description>
+    <description>We develop an effective field theory characterizing the impact of decoherence on states with abelian topological order and on their capacity to protect quantum information. The decoherence appears as a temporal defect in the double topological quantum field theory that describes the pure density matrix of the uncorrupted state, and it drives a boundary phase transition involving anyon condensation at a critical coupling strength. The ensuing decoherence-induced phases and the loss of quantum information are classified by the Lagrangian subgroups of the double topological order. Our framework generalizes the error recovery transitions, previously derived for certain stabilizer codes, to generic topologically ordered states and shows that they stem from phase transitions in the intrinsic topological order characterizing the mixed state.</description>
+  </item>
+
+  <item>
+    <title>Cumulative Memory Lower Bounds for Randomized and Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2301.05680</link>
+    <author>Paul Beame, Niels Kornerup</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>Cumulative memory -- the sum of space used over the steps of a computation -- is a fine-grained measure of time-space complexity that is a more accurate measure of cost for algorithms with infrequent spikes in memory usage in the context of technologies such as cloud computing that allow dynamic allocation and de-allocation of resources during their execution. We give the first lower bounds on cumulative memory complexity that apply to general sequential classical algorithms. We also prove the first such bounds for bounded-error quantum circuits. Among many possible applications, we show that any classical sorting algorithm with success probability at least $1/\text{poly}(n)$ requires cumulative memory $\tilde \Omega(n^2)$, any classical matrix multiplication algorithm requires cumulative memory $\Omega(n^6/T)$, any quantum sorting circuit requires cumulative memory $\Omega(n^3/T)$, and any quantum circuit that finds $k$ disjoint collisions in a random function requires cumulative memory $\Omega(k^3n/T^2)$. More generally, we present theorems that can be used to convert a wide class of existing time-space tradeoff lower bounds to matching lower bounds on cumulative memory complexity.</description>
+  </item>
+
+  <item>
+    <title>Synergies Between Operations Research and Quantum Information Science</title>
+    <link>http://arxiv.org/pdf/2301.05554</link>
+    <author>Ojas Parekh</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>This article highlights synergies between quantum information science (QIS) and operations research for QIS-curious operations researchers (and vice-versa).</description>
   </item>
 
 </channel>
