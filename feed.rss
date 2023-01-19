@@ -55,6 +55,14 @@
   </item>
 
   <item>
+    <title>A note on lower bounds to variational problems with guarantees</title>
+    <link>http://arxiv.org/pdf/2301.06142</link>
+    <author>J. Eisert</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>Variational methods play an important role in the study of quantum many body problems, both in the flavour of classical variational principles based on tensor networks as well as of quantum variational principles in near-term quantum computing. This brief pedagogical note stresses that for translationally invariant lattice Hamiltonians, one can easily derive efficiently computable lower bounds to ground state energies that can and should be compared with variational principles providing upper bounds. As small technical results, it is shown that (i) the Anderson bound and a (ii) common hierarchy of semi-definite relaxations both provide approximations with performance guarantees that scale like a constant in the energy density for cubic lattices. (iii) Also, the Anderson bound is systematically improved as a hierarchy of semi-definite relaxations inspired by the marginal problem.</description>
+  </item>
+
+  <item>
     <title>Quantum Mass Production Theorems</title>
     <link>http://arxiv.org/pdf/2212.14399</link>
     <author>William Kretschmer</author>
@@ -71,14 +79,6 @@
   </item>
 
   <item>
-    <title>Asymptotic Equipartition Theorems in von Neumann algebras</title>
-    <link>http://arxiv.org/pdf/2212.14700</link>
-    <author>Omar Fawzi, Li Gao, Mizanur Rahaman</author>
-    <pubDate>Jan 02 2023</pubDate>
-    <description>The Asymptotic Equipartition Property (AEP) in information theory establishes that independent and identically distributed (i.i.d.) states behave in a way that is similar to uniform states. In particular, with appropriate smoothing, for such states both the min and the max relative entropy asymptotically coincide with the relative entropy. In this paper, we generalize several such equipartition properties to states on general von Neumann algebras. First, we show that the smooth max relative entropy of i.i.d. states on a von Neumann algebra has an asymptotic rate given by the quantum relative entropy. In fact, our AEP not only applies to states, but also to quantum channels with appropriate restrictions. In addition, going beyond the i.i.d. assumption, we show that for states that are produced by a sequential process of quantum channels, the smooth max relative entropy can be upper bounded by the sum of appropriate channel relative entropies. Our main technical contributions are to extend to the context of general von Neumann algebras a chain rule for quantum channels, as well as an additivity result for the channel relative entropy with a replacer channel.</description>
-  </item>
-
-  <item>
     <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
     <link>http://arxiv.org/pdf/2301.02356</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
@@ -87,11 +87,19 @@
   </item>
 
   <item>
-    <title>Approaching the Quantum Singleton Bound with Approximate Error Correction</title>
-    <link>http://arxiv.org/pdf/2212.09935</link>
-    <author>Thiago Bergamaschi, Louis Golowich, Sam Gunn</author>
-    <pubDate>Dec 21 2022</pubDate>
-    <description>It is well known that no quantum error correcting code of rate $R$ can correct adversarial errors on more than a $(1-R)/4$ fraction of symbols. But what if we only require our codes to *approximately* recover the message? We construct efficiently-decodable approximate quantum codes against adversarial error rates approaching the quantum Singleton bound of $(1-R)/2$, for any constant rate $R$. Moreover, the size of the alphabet is a constant independent of the message length and the recovery error is exponentially small in the message length. Central to our construction is a notion of quantum list decoding and an implementation involving folded quantum Reed-Solomon codes.</description>
+    <title>Asymptotic Equipartition Theorems in von Neumann algebras</title>
+    <link>http://arxiv.org/pdf/2212.14700</link>
+    <author>Omar Fawzi, Li Gao, Mizanur Rahaman</author>
+    <pubDate>Jan 02 2023</pubDate>
+    <description>The Asymptotic Equipartition Property (AEP) in information theory establishes that independent and identically distributed (i.i.d.) states behave in a way that is similar to uniform states. In particular, with appropriate smoothing, for such states both the min and the max relative entropy asymptotically coincide with the relative entropy. In this paper, we generalize several such equipartition properties to states on general von Neumann algebras. First, we show that the smooth max relative entropy of i.i.d. states on a von Neumann algebra has an asymptotic rate given by the quantum relative entropy. In fact, our AEP not only applies to states, but also to quantum channels with appropriate restrictions. In addition, going beyond the i.i.d. assumption, we show that for states that are produced by a sequential process of quantum channels, the smooth max relative entropy can be upper bounded by the sum of appropriate channel relative entropies. Our main technical contributions are to extend to the context of general von Neumann algebras a chain rule for quantum channels, as well as an additivity result for the channel relative entropy with a replacer channel.</description>
+  </item>
+
+  <item>
+    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
+    <link>http://arxiv.org/pdf/2301.03763</link>
+    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
   </item>
 
   <item>
@@ -100,6 +108,14 @@
     <author>Ryan Babbush, William J. Huggins, Dominic W. Berry, Shu Fay Ung, Andrew Zhao, David R. Reichman, Hartmut Neven, Andrew D. Baczewski, Joonho Lee</author>
     <pubDate>Jan 04 2023</pubDate>
     <description>Quantum algorithms for simulating electronic ground states are slower than popular classical mean-field algorithms such as Hartree-Fock and density functional theory, but offer higher accuracy. Accordingly, quantum computers have been predominantly regarded as competitors to only the most accurate and costly classical methods for treating electron correlation. However, here we tighten bounds showing that certain first quantized quantum algorithms enable exact time evolution of electronic systems with exponentially less space and polynomially fewer operations in basis set size than conventional real-time time-dependent Hartree-Fock and density functional theory. Although the need to sample observables in the quantum algorithm reduces the speedup, we show that one can estimate all elements of the $k$-particle reduced density matrix with a number of samples scaling only polylogarithmically in basis set size. We also introduce a more efficient quantum algorithm for first quantized mean-field state preparation that is likely cheaper than the cost of time evolution. We conclude that quantum speedup is most pronounced for finite temperature simulations and suggest several practically important electron dynamics problems with potential quantum advantage.</description>
+  </item>
+
+  <item>
+    <title>Approaching the Quantum Singleton Bound with Approximate Error Correction</title>
+    <link>http://arxiv.org/pdf/2212.09935</link>
+    <author>Thiago Bergamaschi, Louis Golowich, Sam Gunn</author>
+    <pubDate>Dec 21 2022</pubDate>
+    <description>It is well known that no quantum error correcting code of rate $R$ can correct adversarial errors on more than a $(1-R)/4$ fraction of symbols. But what if we only require our codes to *approximately* recover the message? We construct efficiently-decodable approximate quantum codes against adversarial error rates approaching the quantum Singleton bound of $(1-R)/2$, for any constant rate $R$. Moreover, the size of the alphabet is a constant independent of the message length and the recovery error is exponentially small in the message length. Central to our construction is a notion of quantum list decoding and an implementation involving folded quantum Reed-Solomon codes.</description>
   </item>
 
   <item>
@@ -119,19 +135,11 @@
   </item>
 
   <item>
-    <title>One-Way Ticket to Las Vegas and the Quantum Adversary</title>
-    <link>http://arxiv.org/pdf/2301.02003</link>
-    <author>Aleksandrs Belovs, Duyal Yolcu</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>We propose a new definition of quantum Las Vegas query complexity. We show that it is exactly equal to the quantum adversary bound. This is achieved by a new and very simple way of transforming a feasible solution to the adversary optimisation problem into a quantum query algorithm. This allows us to generalise the bound to include unidirectional access, multiple input oracles, and input oracles that are not unitary. As an application, we demonstrate a separation between unidirectional and bidirectional access to an input oracle for a rather natural unitary permutation inversion problem.</description>
-  </item>
-
-  <item>
-    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
-    <link>http://arxiv.org/pdf/2301.03763</link>
-    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
+    <title>Randomized adaptive quantum state preparation</title>
+    <link>http://arxiv.org/pdf/2301.04201</link>
+    <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
+    <pubDate>Jan 12 2023</pubDate>
+    <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
   </item>
 
   <item>
@@ -143,11 +151,19 @@
   </item>
 
   <item>
-    <title>Randomized adaptive quantum state preparation</title>
-    <link>http://arxiv.org/pdf/2301.04201</link>
-    <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
-    <pubDate>Jan 12 2023</pubDate>
-    <description>We develop an adaptive method for quantum state preparation that utilizes randomness as an essential component and that does not require classical optimization. Instead, a cost function is minimized to prepare a desired quantum state through an adaptively constructed quantum circuit, where each adaptive step is informed by feedback from gradient measurements in which the associated tangent space directions are randomized. We provide theoretical arguments and numerical evidence that convergence to the target state can be achieved for almost all initial states. We investigate different randomization procedures and develop lower bounds on the expected cost function change, which allows for drawing connections to barren plateaus and for assessing the applicability of the algorithm to large-scale problems.</description>
+    <title>One-Way Ticket to Las Vegas and the Quantum Adversary</title>
+    <link>http://arxiv.org/pdf/2301.02003</link>
+    <author>Aleksandrs Belovs, Duyal Yolcu</author>
+    <pubDate>Jan 06 2023</pubDate>
+    <description>We propose a new definition of quantum Las Vegas query complexity. We show that it is exactly equal to the quantum adversary bound. This is achieved by a new and very simple way of transforming a feasible solution to the adversary optimisation problem into a quantum query algorithm. This allows us to generalise the bound to include unidirectional access, multiple input oracles, and input oracles that are not unitary. As an application, we demonstrate a separation between unidirectional and bidirectional access to an input oracle for a rather natural unitary permutation inversion problem.</description>
+  </item>
+
+  <item>
+    <title>From Kraus Operators to the Stinespring Form of Quantum Maps: An Alternative Construction for Infinite Dimensions</title>
+    <link>http://arxiv.org/pdf/2301.05488</link>
+    <author>Frederik vom Ende</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>We present an alternative (constructive) proof of the statement that for every completely positive, trace-preserving map $\Phi$ there exists an ancilla Hilbert space $\mathcal K$ in a pure state $|\psi\rangle\langle\psi|$ as well as a unitary operator $U$ on system plus ancilla such that $\Phi$ equals $\operatorname{tr}_{\mathcal K}(U((\cdot)\otimes|\psi\rangle\langle\psi|)U^*)$. The main tool of our proof is Sz.-Nagy's dilation theorem applied to isometries defined on a subspace. In our construction, the ancilla consists of a system of dimension the Kraus rank of $\Phi$ together with a qubit which, however, only acts as a catalyst. In contrast, the original proof of Hellwig & Kraus given in the 70s yields an ancilla of dimension "Kraus rank plus one". We conclude by providing an example which illustrates how the constructions differ from each other.</description>
   </item>
 
   <item>
@@ -164,14 +180,6 @@
     <author>Hans Hon Sang Chan, Richard Meister, Matthew L. Goh, Bálint Koczor</author>
     <pubDate>Dec 22 2022</pubDate>
     <description>Finding energy differences between eigenstates of a quantum system, which contains key information about its properties, is a central task in many-body physics. Quantum computers promise to perform this task more efficiently than classical hardware; however, extraction of this information remains challenging. Non-trivial protocols for this task require either a substantial increase in circuit complexity (phase estimation) or a large number of circuit repetitions (variational quantum eigensolvers). Here we present shadow spectroscopy, a novel simulator-agnostic quantum algorithm which extracts energy gaps using an extremely low number of circuit repetitions (shots) and no extra resources (ancilla qubits) beyond performing time evolution and measurements. The approach builds on the fundamental feature that every observable property of a quantum system must evolve according to the same harmonic components, whose frequencies can be extracted from classical shadows of time-evolved quantum states. Classical post processing of the large set of resulting time-periodic signals directly reveals Hamiltonian energy differences with Heisenberg-limited precision. While the classical computational complexity is linear, the number of circuit repetitions (quantum resources) required is only logarithmic in the number of analysed observables. Moreover, applying shadow spectroscopy numerically to probe model systems and CH$_2$ excited states verifies that the approach is intuitively easy to use in practice, very robust against gate noise, amiable to a new type of algorithmic-error mitigation technique, and uses orders of magnitude fewer number of shots than typical near-term quantum algorithms -- as low as 10 shots per timestep is sufficient.</description>
-  </item>
-
-  <item>
-    <title>Grothendieck inequalities characterize converses to the polynomial method</title>
-    <link>http://arxiv.org/pdf/2212.08559</link>
-    <author>Jop Briët, Francisco Escudero Gutiérrez, Sander Gribling</author>
-    <pubDate>Dec 19 2022</pubDate>
-    <description>A surprising 'converse to the polynomial method' of Aaronson et al. (CCC'16) shows that any bounded quadratic polynomial can be computed exactly in expectation by a 1-query algorithm up to a universal multiplicative factor related to the famous Grothendieck constant. Here we show that such a result does not generalize to quartic polynomials and 2-query algorithms, even when we allow for additive approximations. We also show that the additive approximation implied by their result is tight for bounded bilinear forms, which gives a new characterization of the Grothendieck constant in terms of 1-query quantum algorithms. Along the way we provide reformulations of the completely bounded norm of a form, and its dual norm.</description>
   </item>
 
   <item>
@@ -203,7 +211,15 @@
     <link>http://arxiv.org/pdf/2301.02825</link>
     <author>Lluis Masanes</author>
     <pubDate>Jan 10 2023</pubDate>
-    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic.</description>
+    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic. We observe that the dynamics of a particle in such spaces strongly depends on the presence of other particles, suggesting gravitational back-reaction.</description>
+  </item>
+
+  <item>
+    <title>Diagnostics of mixed-state topological order and breakdown of quantum memory</title>
+    <link>http://arxiv.org/pdf/2301.05689</link>
+    <author>Ruihua Fan, Yimu Bao, Ehud Altman, Ashvin Vishwanath</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>Topological quantum memory can protect information against local errors up to finite error thresholds. Such thresholds are usually determined based on the success of decoding algorithms rather than the intrinsic properties of the mixed states describing corrupted memories. Here we provide an intrinsic characterization of the breakdown of topological quantum memory, which both gives a bound on the performance of decoding algorithms and provides examples of topologically distinct mixed states. We employ three information-theoretical quantities that can be regarded as generalizations of the diagnostics of ground-state topological order, and serve as a definition for topological order in error-corrupted mixed states. We consider the topological contribution to entanglement negativity and two other metrics based on quantum relative entropy and coherent information. In the concrete example of the 2D Toric code with local bit-flip and phase errors, we map three quantities to observables in 2D classical spin models and analytically show they all undergo a transition at the same error threshold. This threshold is an upper bound on that achieved in any decoding algorithm and is indeed saturated by that in the optimal decoding algorithm for the Toric code.</description>
   </item>
 
   <item>
@@ -228,22 +244,6 @@
     <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
     <pubDate>Dec 27 2022</pubDate>
     <description>A fundamental fact about bounded-degree graph expanders is that three notions of expansion -- vertex expansion, edge expansion, and spectral expansion -- are all equivalent. In this paper, we study to what extent such a statement is true for linear-algebraic notions of expansion. There are two well-studied notions of linear-algebraic expansion, namely dimension expansion (defined in analogy to graph vertex expansion) and quantum expansion (defined in analogy to graph spectral expansion). Lubotzky and Zelmanov proved that the latter implies the former. We prove that the converse is false: there are dimension expanders which are not quantum expanders. Moreover, this asymmetry is explained by the fact that there are two distinct linear-algebraic analogues of graph edge expansion. The first of these is quantum edge expansion, which was introduced by Hastings, and which he proved to be equivalent to quantum expansion. We introduce a new notion, termed dimension edge expansion, which we prove is equivalent to dimension expansion and which is implied by quantum edge expansion. Thus, the separation above is implied by a finer one: dimension edge expansion is strictly weaker than quantum edge expansion. This new notion also leads to a new, more modular proof of the Lubotzky--Zelmanov result that quantum expanders are dimension expanders.</description>
-  </item>
-
-  <item>
-    <title>Optimal one-shot entanglement sharing</title>
-    <link>http://arxiv.org/pdf/2301.01781</link>
-    <author>Vikesh Siddhu, John Smolin</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>Sharing entanglement across quantum interconnects is fundamental for quantum information processing. We discuss a practical setting where this interconnect, modeled by a quantum channel, is used once with the aim of sharing high fidelity entanglement. For any channel, we provide methods to easily find both this maximum fidelity and optimal inputs that achieve it. Unlike most metrics for sharing entanglement, this maximum fidelity can be shown to be multiplicative. This ensures a complete understanding in the sense that the maximum fidelity and optimal inputs found in our one-shot setting extend even when the channel is used multiple times, possibly with other channels. Optimal inputs need not be fully entangled. We find the minimum entanglement in these optimal inputs can even vary discontinuously with channel noise. Generally, noise parameters are hard to identify and remain unknown for most channels. However, for all qubit channels with qubit environments, we provide a rigorous noise parametrization which we explain in-terms of no-cloning. This noise parametrization and a channel representation we call the standard Kraus decomposition have pleasing properties that make them both useful more generally.</description>
-  </item>
-
-  <item>
-    <title>Fast Time-Evolution of Matrix-Product States using the QR decomposition</title>
-    <link>http://arxiv.org/pdf/2212.09782</link>
-    <author>Jakob Unfried, Johannes Hauschild, Frank Pollmann</author>
-    <pubDate>Dec 21 2022</pubDate>
-    <description>We propose and benchmark a modified time evolution block decimation (TEBD) algorithm that uses a truncation scheme based on the QR decomposition instead of the singular value decomposition (SVD). The modification reduces the scaling with the dimension of the physical Hilbert space $d$ from $d^3$ down to $d^2$. Moreover, the QR decomposition has a lower computational complexity than the SVD and allows for highly efficient implementations on GPU hardware. In a benchmark simulation of a global quench in a quantum clock model, we observe a speedup of up to three orders of magnitude comparing QR and SVD based updates on an A100 GPU.</description>
   </item>
 
 </channel>

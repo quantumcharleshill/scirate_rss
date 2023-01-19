@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Diagnostics of mixed-state topological order and breakdown of quantum memory</title>
-    <link>http://arxiv.org/pdf/2301.05689</link>
-    <author>Ruihua Fan, Yimu Bao, Ehud Altman, Ashvin Vishwanath</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>Topological quantum memory can protect information against local errors up to finite error thresholds. Such thresholds are usually determined based on the success of decoding algorithms rather than the intrinsic properties of the mixed states describing corrupted memories. Here we provide an intrinsic characterization of the breakdown of topological quantum memory, which both gives a bound on the performance of decoding algorithms and provides examples of topologically distinct mixed states. We employ three information-theoretical quantities that can be regarded as generalizations of the diagnostics of ground-state topological order, and serve as a definition for topological order in error-corrupted mixed states. We consider the topological contribution to entanglement negativity and two other metrics based on quantum relative entropy and coherent information. In the concrete example of the 2D Toric code with local bit-flip and phase errors, we map three quantities to observables in 2D classical spin models and analytically show they all undergo a transition at the same error threshold. This threshold is an upper bound on that achieved in any decoding algorithm and is indeed saturated by that in the optimal decoding algorithm for the Toric code.</description>
+    <title>A note on lower bounds to variational problems with guarantees</title>
+    <link>http://arxiv.org/pdf/2301.06142</link>
+    <author>J. Eisert</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>Variational methods play an important role in the study of quantum many body problems, both in the flavour of classical variational principles based on tensor networks as well as of quantum variational principles in near-term quantum computing. This brief pedagogical note stresses that for translationally invariant lattice Hamiltonians, one can easily derive efficiently computable lower bounds to ground state energies that can and should be compared with variational principles providing upper bounds. As small technical results, it is shown that (i) the Anderson bound and a (ii) common hierarchy of semi-definite relaxations both provide approximations with performance guarantees that scale like a constant in the energy density for cubic lattices. (iii) Also, the Anderson bound is systematically improved as a hierarchy of semi-definite relaxations inspired by the marginal problem.</description>
   </item>
 
   <item>
-    <title>From Kraus Operators to the Stinespring Form of Quantum Maps: An Alternative Construction for Infinite Dimensions</title>
-    <link>http://arxiv.org/pdf/2301.05488</link>
-    <author>Frederik vom Ende</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>We present an alternative (constructive) proof of the statement that for every completely positive, trace-preserving map $\Phi$ there exists an ancilla Hilbert space $\mathcal K$ in a pure state $|\psi\rangle\langle\psi|$ as well as a unitary operator $U$ on system plus ancilla such that $\Phi$ equals $\operatorname{tr}_{\mathcal K}(U((\cdot)\otimes|\psi\rangle\langle\psi|)U^*)$. The main tool of our proof is Sz.-Nagy's dilation theorem applied to isometries defined on a subspace. In our construction, the ancilla consists of a system of dimension the Kraus rank of $\Phi$ together with a qubit which, however, only acts as a catalyst. In contrast, the original proof of Hellwig & Kraus given in the 70s yields an ancilla of dimension "Kraus rank plus one". We conclude by providing an example which illustrates how the constructions differ from each other.</description>
+    <title>Block Belief Propagation Algorithm for 2D Tensor Networks</title>
+    <link>http://arxiv.org/pdf/2301.05844</link>
+    <author>Chu Guo, Dario Poletti, Itai Arad</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>Belief propagation is a well-studied algorithm for approximating local marginals of multivariate probability distribution over complex networks, while tensor network states are powerful tools for quantum and classical many-body problems. Building on a recent connection between the belief propagation algorithm and the problem of tensor network contraction, we propose a block belief propagation algorithm for contracting two-dimensional tensor networks and approximating the ground state of $2D$ systems. The advantages of our method are three-fold: 1) the same algorithm works for both finite and infinite systems; 2) it allows natural and efficient parallelization; 3) given its flexibility it would allow to deal with different unit cells. As applications, we use our algorithm to study the $2D$ Heisenberg and transverse Ising models, and show that the accuracy of the method is comparable to state-of-the-art results.</description>
   </item>
 
   <item>
-    <title>Mixed-state topological order and the errorfield double formulation of decoherence-induced transitions</title>
-    <link>http://arxiv.org/pdf/2301.05687</link>
-    <author>Yimu Bao, Ruihua Fan, Ashvin Vishwanath, Ehud Altman</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>We develop an effective field theory characterizing the impact of decoherence on states with abelian topological order and on their capacity to protect quantum information. The decoherence appears as a temporal defect in the double topological quantum field theory that describes the pure density matrix of the uncorrupted state, and it drives a boundary phase transition involving anyon condensation at a critical coupling strength. The ensuing decoherence-induced phases and the loss of quantum information are classified by the Lagrangian subgroups of the double topological order. Our framework generalizes the error recovery transitions, previously derived for certain stabilizer codes, to generic topologically ordered states and shows that they stem from phase transitions in the intrinsic topological order characterizing the mixed state.</description>
+    <title>Fast Quantum Algorithms for Trace Distance Estimation</title>
+    <link>http://arxiv.org/pdf/2301.06783</link>
+    <author>Qisheng Wang, Zhicheng Zhang</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>In quantum information processing, trace distance is a basic metric of distinguishability between quantum states. However, there is no known efficient approach to estimate the value of trace distance in general. In this paper, we propose efficient quantum algorithms for estimating the trace distance within additive error $\varepsilon$ between mixed quantum states of rank $r$. Specifically, we first provide a quantum algorithm using $r \cdot \widetilde O(1/\varepsilon^2)$ queries to the quantum circuits that prepare the purifications of quantum states, which achieves a linear time dependence on the rank $r$. Then, we modify this quantum algorithm to obtain another algorithm using $\widetilde O(r^2/\varepsilon^5)$ samples of quantum states, which can be applied to quantum state certification. Both algorithms have the same quantum time complexities as their query/sample complexities up to a logarithmic factor.</description>
   </item>
 
   <item>
-    <title>Cumulative Memory Lower Bounds for Randomized and Quantum Computation</title>
-    <link>http://arxiv.org/pdf/2301.05680</link>
-    <author>Paul Beame, Niels Kornerup</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>Cumulative memory -- the sum of space used over the steps of a computation -- is a fine-grained measure of time-space complexity that is a more accurate measure of cost for algorithms with infrequent spikes in memory usage in the context of technologies such as cloud computing that allow dynamic allocation and de-allocation of resources during their execution. We give the first lower bounds on cumulative memory complexity that apply to general sequential classical algorithms. We also prove the first such bounds for bounded-error quantum circuits. Among many possible applications, we show that any classical sorting algorithm with success probability at least $1/\text{poly}(n)$ requires cumulative memory $\tilde \Omega(n^2)$, any classical matrix multiplication algorithm requires cumulative memory $\Omega(n^6/T)$, any quantum sorting circuit requires cumulative memory $\Omega(n^3/T)$, and any quantum circuit that finds $k$ disjoint collisions in a random function requires cumulative memory $\Omega(k^3n/T^2)$. More generally, we present theorems that can be used to convert a wide class of existing time-space tradeoff lower bounds to matching lower bounds on cumulative memory complexity.</description>
+    <title>Probabilistic unitary synthesis with optimal accuracy</title>
+    <link>http://arxiv.org/pdf/2301.06307</link>
+    <author>Seiseki Akibue, Go Kato, Seiichiro Tani</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>The purpose of unitary synthesis is to find a gate sequence that optimally approximates a target unitary transformation. A new synthesis approach, called probabilistic synthesis, has been introduced, and its superiority has been demonstrated over traditional deterministic approaches with respect to approximation error and gate length. However, the optimality of current probabilistic synthesis algorithms is unknown. We obtain the tight lower bound on the approximation error obtained by the optimal probabilistic synthesis, which guarantees the sub-optimality of current algorithms. We also show its tight upper bound, which improves and unifies current upper bounds depending on the class of target unitaries. These two bounds reveal the fundamental relationship of approximation error between probabilistic approximation and deterministic approximation of unitary transformations. From a computational point of view, we show that the optimal probability distribution can be computed by the semidefinite program (SDP) we construct. We also construct an efficient probabilistic synthesis algorithm for single-qubit unitaries, rigorously estimate its time complexity, and show that it reduces the approximation error quadratically compared with deterministic algorithms.</description>
   </item>
 
   <item>
-    <title>Synergies Between Operations Research and Quantum Information Science</title>
-    <link>http://arxiv.org/pdf/2301.05554</link>
-    <author>Ojas Parekh</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>This article highlights synergies between quantum information science (QIS) and operations research for QIS-curious operations researchers (and vice-versa).</description>
+    <title>Unified theory of local quantum many-body dynamics: Eigenoperator thermalization theorems</title>
+    <link>http://arxiv.org/pdf/2301.07091</link>
+    <author>Berislav Buča</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>Explaining quantum many-body dynamics is a long-held goal of physics. A rigorous operator algebraic theory of dynamics in locally interacting systems in any dimension is provided here in terms of time-dependent Gibbs ensembles. The theory explains dynamics in closed, open and time-dependent systems and time-dependent Gibbs ensembles unify wide classes of quantum non-ergodic and ergodic systems. The theory is applied to quantum many-body scars, continuous, discrete and dissipative time crystals, Hilbert space fragmentation, lattice gauge theories, and disorder-free localization, among other cases. Novel pseudo-local classes of operators are introduced in the process: projected-local, which are local only for some states, crypto-local, whose locality is not manifest in terms of any finite number of local densities and transient ones, that dictate finite-time relaxation dynamics. An immediate corollary is proving saturation of the Mazur bound for the Drude weight. This proven theory is intuitively the rigorous algebraic counterpart of the weak eigenstate thermalization hypothesis and has deep implications for thermodynamics: quantum many-body systems 'out-of-equilibrium' are actually always in a time-dependent equilibrium state for any natural initial state. The work opens the possibility of designing novel out-of-equilibrium phases, with the newly identified scarring phase transition being an example.</description>
   </item>
 
 </channel>
