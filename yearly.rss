@@ -151,6 +151,14 @@
   </item>
 
   <item>
+    <title>Quantum Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2210.00921</link>
+    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
+    <pubDate>Oct 04 2022</pubDate>
+    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
+  </item>
+
+  <item>
     <title>A single $T$-gate makes distribution learning hard</title>
     <link>http://arxiv.org/pdf/2207.03140</link>
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
@@ -172,14 +180,6 @@
     <author>Andrew M. Childs, Matthew Coudron, Amin Shiraz Gilani</author>
     <pubDate>Nov 23 2022</pubDate>
     <description>The so-called welded tree problem provides an example of a black-box problem that can be solved exponentially faster by a quantum walk than by any classical algorithm. Given the name of a special ENTRANCE vertex, a quantum walk can find another distinguished EXIT vertex using polynomially many queries, though without finding any particular path from ENTRANCE to EXIT. It has been an open problem for twenty years whether there is an efficient quantum algorithm for finding such a path, or if the path-finding problem is hard even for quantum computers. We show that a natural class of efficient quantum algorithms provably cannot find a path from ENTRANCE to EXIT. Specifically, we consider algorithms that, within each branch of their superposition, always store a set of vertex labels that form a connected subgraph including the ENTRANCE, and that only provide these vertex labels as inputs to the oracle. While this does not rule out the possibility of a quantum algorithm that efficiently finds a path, it is unclear how an algorithm could benefit by deviating from this behavior. Our no-go result suggests that, for some problems, quantum algorithms must necessarily forget the path they take to reach a solution in order to outperform classical computation.</description>
-  </item>
-
-  <item>
-    <title>Quantum Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2210.00921</link>
-    <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
-    <pubDate>Oct 04 2022</pubDate>
-    <description>For quantum computers to successfully solve real-world problems, it is necessary to tackle the challenge of noise: the errors which occur in elementary physical components due to unwanted or imperfect interactions. The theory of quantum fault tolerance can provide an answer in the long term, but in the coming era of `NISQ' machines we must seek to mitigate errors rather than completely remove them. This review surveys the diverse methods that have been proposed for quantum error mitigation, assesses their in-principle efficacy, and then describes the hardware demonstrations achieved to date. We identify the commonalities and limitations among the methods, noting how mitigation methods can be chosen according to the primary type of noise present, including algorithmic errors. Open problems in the field are identified and we discuss the prospects for realising mitigation-based devices that can deliver quantum advantage with an impact on science and business.</description>
   </item>
 
   <item>
@@ -247,6 +247,14 @@
   </item>
 
   <item>
+    <title>Quantum advantage for combinatorial optimization problems, Simplified</title>
+    <link>http://arxiv.org/pdf/2212.12572</link>
+    <author>Mario Szegedy</author>
+    <pubDate>Dec 27 2022</pubDate>
+    <description>We observe that fault-tolerant quantum computers have an optimal advantage over classical computers in approximating solutions to many NP optimization problems. This observation however gives nothing in practice.</description>
+  </item>
+
+  <item>
     <title>Noise can be helpful for variational quantum algorithms</title>
     <link>http://arxiv.org/pdf/2210.06723</link>
     <author>Junyu Liu, Frederik Wilde, Antonio Anna Mele, Liang Jiang, Jens Eisert</author>
@@ -268,14 +276,6 @@
     <author>Jonas Haferkamp</author>
     <pubDate>Apr 01 2022</pubDate>
     <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\to\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.</description>
-  </item>
-
-  <item>
-    <title>Quantum advantage for combinatorial optimization problems, Simplified</title>
-    <link>http://arxiv.org/pdf/2212.12572</link>
-    <author>Mario Szegedy</author>
-    <pubDate>Dec 27 2022</pubDate>
-    <description>We observe that fault-tolerant quantum computers have an optimal advantage over classical computers in approximating solutions to many NP optimization problems. This observation however gives nothing in practice.</description>
   </item>
 
   <item>

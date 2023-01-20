@@ -7,14 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
-    <link>http://arxiv.org/pdf/2212.08678</link>
-    <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
-    <pubDate>Dec 20 2022</pubDate>
-    <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of practical and industrial contexts - has been identified as one of the core potential fields of applicability of near-term quantum computers. It is still unclear, however, to what extent variational quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that fault-tolerant quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work of Kearns and Valiant, we construct special instances of the integer programming problem (which in its most general form is NP-complete) that we prove to be hard-to-approximate classically but give an efficient quantum algorithm to approximate the optimal solution of those instances, hence showing a super-polynomial quantum advantage. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms.</description>
-  </item>
-
-  <item>
     <title>Unconditional Quantum Advantage for Sampling with Shallow Circuits</title>
     <link>http://arxiv.org/pdf/2301.00995</link>
     <author>Adam Bene Watts, Natalie Parham</author>
@@ -39,11 +31,11 @@
   </item>
 
   <item>
-    <title>Noisy Stabilizer Formalism</title>
-    <link>http://arxiv.org/pdf/2212.08677</link>
-    <author>Maria Flors Mor-Ruiz, Wolfgang Dür</author>
-    <pubDate>Dec 20 2022</pubDate>
-    <description>Despite the exponential overhead to describe general multi-qubit quantum states and processes, efficient methods for certain state families and operations have been developed and utilised. The stabilizer formalism and the Gottesman-Knill theorem, where pure stabilizer or graph states are manipulated by Clifford operations and Pauli measurements, are prominent examples, and these states play a major role in many applications in quantum technologies. Here we develop a noisy stabilizer formalism, i.e., a method that allows one not only to efficiently describe and follow pure states under Clifford operations and Pauli measurements but also Pauli noise processes acting on such stabilizer states, including uncorrelated and correlated dephasing and single- or multi-qubit depolarizing noise. The method scales linearly in the number of qubits of the initial state, but exponentially in the size of the target state. Thus, whenever a noisy stabilizer state is manipulated by means of local Pauli measurements such that a multipartite entangled state of a few qubits is generated, one can efficiently describe the resulting state.</description>
+    <title>A note on lower bounds to variational problems with guarantees</title>
+    <link>http://arxiv.org/pdf/2301.06142</link>
+    <author>J. Eisert</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>Variational methods play an important role in the study of quantum many body problems, both in the flavour of classical variational principles based on tensor networks as well as of quantum variational principles in near-term quantum computing. This brief pedagogical note stresses that for translationally invariant lattice Hamiltonians, one can easily derive efficiently computable lower bounds to ground state energies that can and should be compared with variational principles providing upper bounds. As small technical results, it is shown that (i) the Anderson bound and a (ii) common hierarchy of semi-definite relaxations both provide approximations with performance guarantees that scale like a constant in the energy density for cubic lattices. (iii) Also, the Anderson bound is systematically improved as a hierarchy of semi-definite relaxations inspired by the marginal problem.</description>
   </item>
 
   <item>
@@ -52,14 +44,6 @@
     <author>Kaavya Sahay, Jahan Claes, Shruti Puri</author>
     <pubDate>Jan 03 2023</pubDate>
     <description>We introduce fault-tolerant (FT) architectures for error correction with the XZZX cluster state based on performing measurements of two-qubit Pauli operators $Z\otimes Z$ and $X\otimes X$, or fusions, on a collection of few-body entangled resource states. Our construction is tailored to be effective against noise that predominantly causes faulty $X\otimes X$ measurements during fusions. This feature offers practical advantage in linear optical quantum computing with dual-rail photonic qubits, where failed fusions only erase $X\otimes X$ measurement outcomes. By applying our construction to this platform, we find a record high FT threshold to fusion failures exceeding $25\%$ in the experimentally relevant regime of non-zero loss rate per photon, considerably simplifying hardware requirements.</description>
-  </item>
-
-  <item>
-    <title>A note on lower bounds to variational problems with guarantees</title>
-    <link>http://arxiv.org/pdf/2301.06142</link>
-    <author>J. Eisert</author>
-    <pubDate>Jan 18 2023</pubDate>
-    <description>Variational methods play an important role in the study of quantum many body problems, both in the flavour of classical variational principles based on tensor networks as well as of quantum variational principles in near-term quantum computing. This brief pedagogical note stresses that for translationally invariant lattice Hamiltonians, one can easily derive efficiently computable lower bounds to ground state energies that can and should be compared with variational principles providing upper bounds. As small technical results, it is shown that (i) the Anderson bound and a (ii) common hierarchy of semi-definite relaxations both provide approximations with performance guarantees that scale like a constant in the energy density for cubic lattices. (iii) Also, the Anderson bound is systematically improved as a hierarchy of semi-definite relaxations inspired by the marginal problem.</description>
   </item>
 
   <item>
@@ -135,6 +119,14 @@
   </item>
 
   <item>
+    <title>From Kraus Operators to the Stinespring Form of Quantum Maps: An Alternative Construction for Infinite Dimensions</title>
+    <link>http://arxiv.org/pdf/2301.05488</link>
+    <author>Frederik vom Ende</author>
+    <pubDate>Jan 16 2023</pubDate>
+    <description>We present an alternative (constructive) proof of the statement that for every completely positive, trace-preserving map $\Phi$ there exists an ancilla Hilbert space $\mathcal K$ in a pure state $|\psi\rangle\langle\psi|$ as well as a unitary operator $U$ on system plus ancilla such that $\Phi$ equals $\operatorname{tr}_{\mathcal K}(U((\cdot)\otimes|\psi\rangle\langle\psi|)U^*)$. The main tool of our proof is Sz.-Nagy's dilation theorem applied to isometries defined on a subspace. In our construction, the ancilla consists of a system of dimension the Kraus rank of $\Phi$ together with a qubit which, however, only acts as a catalyst. In contrast, the original proof of Hellwig & Kraus given in the 70s yields an ancilla of dimension "Kraus rank plus one". We conclude by providing an example which illustrates how the constructions differ from each other.</description>
+  </item>
+
+  <item>
     <title>Randomized adaptive quantum state preparation</title>
     <link>http://arxiv.org/pdf/2301.04201</link>
     <author>Alicia B. Magann, Sophia E. Economou, Christian Arenz</author>
@@ -159,14 +151,6 @@
   </item>
 
   <item>
-    <title>From Kraus Operators to the Stinespring Form of Quantum Maps: An Alternative Construction for Infinite Dimensions</title>
-    <link>http://arxiv.org/pdf/2301.05488</link>
-    <author>Frederik vom Ende</author>
-    <pubDate>Jan 16 2023</pubDate>
-    <description>We present an alternative (constructive) proof of the statement that for every completely positive, trace-preserving map $\Phi$ there exists an ancilla Hilbert space $\mathcal K$ in a pure state $|\psi\rangle\langle\psi|$ as well as a unitary operator $U$ on system plus ancilla such that $\Phi$ equals $\operatorname{tr}_{\mathcal K}(U((\cdot)\otimes|\psi\rangle\langle\psi|)U^*)$. The main tool of our proof is Sz.-Nagy's dilation theorem applied to isometries defined on a subspace. In our construction, the ancilla consists of a system of dimension the Kraus rank of $\Phi$ together with a qubit which, however, only acts as a catalyst. In contrast, the original proof of Hellwig & Kraus given in the 70s yields an ancilla of dimension "Kraus rank plus one". We conclude by providing an example which illustrates how the constructions differ from each other.</description>
-  </item>
-
-  <item>
     <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
     <link>http://arxiv.org/pdf/2301.02690</link>
     <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
@@ -183,27 +167,19 @@
   </item>
 
   <item>
-    <title>Measuring out quasi-local integrals of motion from entanglement</title>
-    <link>http://arxiv.org/pdf/2301.01787</link>
-    <author>B. Lu, C. Bertoni, S. J. Thomson, J. Eisert</author>
-    <pubDate>Jan 06 2023</pubDate>
-    <description>Quasi-local integrals of motion are a key concept underpinning the modern understanding of many-body localisation, an intriguing phenomenon in which interactions and disorder come together. Despite the existence of several numerical ways to compute them - and astoundingly in the light of the observation that much of the phenomenology of many properties can be derived from them - it is not obvious how to directly measure aspects of them in real quantum simulations; in fact, the smoking gun of their experimental observation is arguably still missing. In this work, we propose a way to extract the real-space properties of such quasi-local integrals of motion based on a spatially-resolved entanglement probe able to distinguish Anderson from many-body localisation from non-equilibrium dynamics. We complement these findings with a new rigorous entanglement bound and compute the relevant quantities using tensor networks. We demonstrate that the entanglement gives rise to a well-defined length scale that can be measured in experiments.</description>
-  </item>
-
-  <item>
-    <title>Upper Bounds on the Distillable Randomness of Bipartite Quantum States</title>
-    <link>http://arxiv.org/pdf/2212.09073</link>
-    <author>Ludovico Lami, Bartosz Regula, Xin Wang, Mark M. Wilde</author>
-    <pubDate>Dec 20 2022</pubDate>
-    <description>The distillable randomness of a bipartite quantum state is an information-theoretic quantity equal to the largest net rate at which shared randomness can be distilled from the state by means of local operations and classical communication. This quantity has been widely used as a measure of classical correlations, and one version of it is equal to the regularized Holevo information of the ensemble that results from measuring one share of the state. However, due to the regularization, the distillable randomness is difficult to compute in general. To address this problem, we define measures of classical correlations and prove a number of their properties, most importantly that they serve as upper bounds on the distillable randomness of an arbitrary bipartite state. We then further bound these measures from above by some that are efficiently computable by means of semi-definite programming, we evaluate one of them for the example of an isotropic state, and we remark on the relation to quantities previously proposed in the literature.</description>
-  </item>
-
-  <item>
     <title>Path integrals for classical-quantum dynamics</title>
     <link>http://arxiv.org/pdf/2301.04677</link>
     <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
     <pubDate>Jan 13 2023</pubDate>
     <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
+  </item>
+
+  <item>
+    <title>Measuring out quasi-local integrals of motion from entanglement</title>
+    <link>http://arxiv.org/pdf/2301.01787</link>
+    <author>B. Lu, C. Bertoni, S. J. Thomson, J. Eisert</author>
+    <pubDate>Jan 06 2023</pubDate>
+    <description>Quasi-local integrals of motion are a key concept underpinning the modern understanding of many-body localisation, an intriguing phenomenon in which interactions and disorder come together. Despite the existence of several numerical ways to compute them - and astoundingly in the light of the observation that much of the phenomenology of many properties can be derived from them - it is not obvious how to directly measure aspects of them in real quantum simulations; in fact, the smoking gun of their experimental observation is arguably still missing. In this work, we propose a way to extract the real-space properties of such quasi-local integrals of motion based on a spatially-resolved entanglement probe able to distinguish Anderson from many-body localisation from non-equilibrium dynamics. We complement these findings with a new rigorous entanglement bound and compute the relevant quantities using tensor networks. We demonstrate that the entanglement gives rise to a well-defined length scale that can be measured in experiments.</description>
   </item>
 
   <item>
@@ -244,6 +220,30 @@
     <author>Yinan Li, Youming Qiao, Avi Wigderson, Yuval Wigderson, Chuanqi Zhang</author>
     <pubDate>Dec 27 2022</pubDate>
     <description>A fundamental fact about bounded-degree graph expanders is that three notions of expansion -- vertex expansion, edge expansion, and spectral expansion -- are all equivalent. In this paper, we study to what extent such a statement is true for linear-algebraic notions of expansion. There are two well-studied notions of linear-algebraic expansion, namely dimension expansion (defined in analogy to graph vertex expansion) and quantum expansion (defined in analogy to graph spectral expansion). Lubotzky and Zelmanov proved that the latter implies the former. We prove that the converse is false: there are dimension expanders which are not quantum expanders. Moreover, this asymmetry is explained by the fact that there are two distinct linear-algebraic analogues of graph edge expansion. The first of these is quantum edge expansion, which was introduced by Hastings, and which he proved to be equivalent to quantum expansion. We introduce a new notion, termed dimension edge expansion, which we prove is equivalent to dimension expansion and which is implied by quantum edge expansion. Thus, the separation above is implied by a finer one: dimension edge expansion is strictly weaker than quantum edge expansion. This new notion also leads to a new, more modular proof of the Lubotzky--Zelmanov result that quantum expanders are dimension expanders.</description>
+  </item>
+
+  <item>
+    <title>Optimal one-shot entanglement sharing</title>
+    <link>http://arxiv.org/pdf/2301.01781</link>
+    <author>Vikesh Siddhu, John Smolin</author>
+    <pubDate>Jan 06 2023</pubDate>
+    <description>Sharing entanglement across quantum interconnects is fundamental for quantum information processing. We discuss a practical setting where this interconnect, modeled by a quantum channel, is used once with the aim of sharing high fidelity entanglement. For any channel, we provide methods to easily find both this maximum fidelity and optimal inputs that achieve it. Unlike most metrics for sharing entanglement, this maximum fidelity can be shown to be multiplicative. This ensures a complete understanding in the sense that the maximum fidelity and optimal inputs found in our one-shot setting extend even when the channel is used multiple times, possibly with other channels. Optimal inputs need not be fully entangled. We find the minimum entanglement in these optimal inputs can even vary discontinuously with channel noise. Generally, noise parameters are hard to identify and remain unknown for most channels. However, for all qubit channels with qubit environments, we provide a rigorous noise parametrization which we explain in-terms of no-cloning. This noise parametrization and a channel representation we call the standard Kraus decomposition have pleasing properties that make them both useful more generally.</description>
+  </item>
+
+  <item>
+    <title>Fast Time-Evolution of Matrix-Product States using the QR decomposition</title>
+    <link>http://arxiv.org/pdf/2212.09782</link>
+    <author>Jakob Unfried, Johannes Hauschild, Frank Pollmann</author>
+    <pubDate>Dec 21 2022</pubDate>
+    <description>We propose and benchmark a modified time evolution block decimation (TEBD) algorithm that uses a truncation scheme based on the QR decomposition instead of the singular value decomposition (SVD). The modification reduces the scaling with the dimension of the physical Hilbert space $d$ from $d^3$ down to $d^2$. Moreover, the QR decomposition has a lower computational complexity than the SVD and allows for highly efficient implementations on GPU hardware. In a benchmark simulation of a global quench in a quantum clock model, we observe a speedup of up to three orders of magnitude comparing QR and SVD based updates on an A100 GPU.</description>
+  </item>
+
+  <item>
+    <title>Fast Quantum Algorithms for Trace Distance Estimation</title>
+    <link>http://arxiv.org/pdf/2301.06783</link>
+    <author>Qisheng Wang, Zhicheng Zhang</author>
+    <pubDate>Jan 18 2023</pubDate>
+    <description>In quantum information processing, trace distance is a basic metric of distinguishability between quantum states. However, there is no known efficient approach to estimate the value of trace distance in general. In this paper, we propose efficient quantum algorithms for estimating the trace distance within additive error $\varepsilon$ between mixed quantum states of rank $r$. Specifically, we first provide a quantum algorithm using $r \cdot \widetilde O(1/\varepsilon^2)$ queries to the quantum circuits that prepare the purifications of quantum states, which achieves a linear time dependence on the rank $r$. Then, we modify this quantum algorithm to obtain another algorithm using $\widetilde O(r^2/\varepsilon^5)$ samples of quantum states, which can be applied to quantum state certification. Both algorithms have the same quantum time complexities as their query/sample complexities up to a logarithmic factor.</description>
   </item>
 
 </channel>
