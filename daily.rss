@@ -7,43 +7,43 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Asymptotic and catalytic matrix majorization</title>
-    <link>http://arxiv.org/pdf/2301.07353</link>
-    <author>Muhammad Usman Farooq, Tobias Fritz, Erkka Haapasalo, Marco Tomamichel</author>
-    <pubDate>Jan 19 2023</pubDate>
-    <description>The matrix majorization problem asks, given two tuples of probability vectors, whether there exists a single stochastic matrix transforming one tuple into the other. Solving an open problem due to Mu et al, we show that if certain monotones - namely multivariate extensions of Renyi divergences - are strictly ordered between the two tuples, then for sufficiently large $n$, there exists a stochastic matrix taking $n$ copies of each input distribution to $n$ copies of the corresponding output distribution. The same conditions, with non-strict ordering for the monotones, are also necessary for such asymptotic matrix majorization. Our result also yields a map that approximately converts a single copy of each input distribution to the corresponding output distribution with the help of a catalyst that is returned unchanged. Allowing for transformation with arbitrarily small error, we find conditions that are both necessary and sufficient for such catalytic matrix majorization. We derive our results by building on a general algebraic theory of preordered semirings recently developed by one of the authors. This also allows us to recover various existing results on asymptotic and catalytic majorization as well as relative majorization in a unified manner.</description>
+    <title>Error Correction of Quantum Algorithms: Arbitrarily Accurate Recovery Of Noisy Quantum Signal Processing</title>
+    <link>http://arxiv.org/pdf/2301.08542</link>
+    <author>Andrew K. Tan, Yuan Liu, Minh C. Tran, Isaac L. Chuang</author>
+    <pubDate>Jan 23 2023</pubDate>
+    <description>The intrinsic probabilistic nature of quantum systems makes error correction or mitigation indispensable for quantum computation. While current error-correcting strategies focus on correcting errors in quantum states or quantum gates, these fine-grained error-correction methods can incur significant overhead for quantum algorithms of increasing complexity. We present a first step in achieving error correction at the level of quantum algorithms by combining a unified perspective on modern quantum algorithms via quantum signal processing (QSP). An error model of under- or over-rotation of the signal processing operator parameterized by $\epsilon < 1$ is introduced. It is shown that while Pauli $Z$-errors are not recoverable without additional resources, Pauli $X$ and $Y$ errors can be arbitrarily suppressed by coherently appending a noisy `recovery QSP.' Furthermore, it is found that a recovery QSP of length $O(2^k c^{k^2} d)$ is sufficient to correct any length-$d$ QSP with $c$ unique phases to $k^{th}$-order in error $\epsilon$. Allowing an additional assumption, a lower bound of $\Omega(cd)$ is shown, which is tight for $k = 1$, on the length of the recovery sequence. Our algorithmic-level error correction method is applied to Grover's fixed-point search algorithm as a demonstration.</description>
   </item>
 
   <item>
-    <title>New constructive counterexamples to additivity of minimum output Rényi entropy of quantum channels</title>
-    <link>http://arxiv.org/pdf/2301.07428</link>
-    <author>Krzysztof Szczygielski, Michał Studziński</author>
-    <pubDate>Jan 19 2023</pubDate>
-    <description>In this paper we present new families of quantum channels for which corresponding minimum output Rényi entropy is not additive. In the first part of the manuscript, motivated by work of Grudka et. al. (J. Phys. A: Math. Theor. 43, 425304 (2010)), we focus on extensions of the antisymmetric space and its subspaces. Later on we analyze a special case of completely entangled subspace proposed by Parthasarathy in Proc. Math. Sci. 114, 365-374 (2004). Our construction works for every $p>2$ and dimension high enough.</description>
+    <title>Entropy Uncertainty Relations and Strong Sub-additivity of Quantum Channels</title>
+    <link>http://arxiv.org/pdf/2301.08402</link>
+    <author>Li Gao, Marius Junge, Nicholas LaRacuente</author>
+    <pubDate>Jan 23 2023</pubDate>
+    <description>We prove an entropic uncertainty relation for two quantum channels, extending the work of Frank and Lieb for quantum measurements. This is obtained via a generalized strong super-additivity (SSA) of quantum entropy. Motivated by Petz's algebraic SSA inequality, we also obtain a generalized SSA for quantum relative entropy. As a special case, it gives an improved data processing inequality.</description>
   </item>
 
   <item>
-    <title>Remote detectability from entanglement bootstrap I: Kirby's torus trick</title>
-    <link>http://arxiv.org/pdf/2301.07119</link>
-    <author>Bowen Shi, Jin-Long Huang, John McGreevy</author>
-    <pubDate>Jan 19 2023</pubDate>
-    <description>Remote detectability is often taken as a physical assumption in the study of topologically ordered systems, and it is a central axiom of mathematical frameworks of topological quantum field theories. We show under the entanglement bootstrap approach that remote detectability is a necessary property; that is, we derive it as a theorem. Starting from a single wave function on a topologically-trivial region satisfying the entanglement bootstrap axioms, we can construct states on closed manifolds. The crucial technique is to immerse the punctured manifold into the topologically trivial region and then heal the puncture. This is analogous to Kirby's torus trick. We then analyze a special class of such manifolds, which we call pairing manifolds. For each pairing manifold, which pairs two classes of excitations, we identify an analog of the topological S-matrix. This pairing matrix is unitary, which implies remote detectability between two classes of excitations. These matrices are in general not associated with the mapping class group of the manifold. As a by-product, we can count excitation types (e.g., graph excitations in 3+1d). The pairing phenomenon occurs in many physical contexts, including systems in different dimensions, with or without gapped boundaries. We provide a variety of examples to illustrate its scope.</description>
+    <title>Multi armed bandits and quantum channel oracles</title>
+    <link>http://arxiv.org/pdf/2301.08544</link>
+    <author>Simon Buchholz, Jonas M. Kübler, Bernhard Schölkopf</author>
+    <pubDate>Jan 23 2023</pubDate>
+    <description>Multi armed bandits are one of the theoretical pillars of reinforcement learning. Recently, the investigation of quantum algorithms for multi armed bandit problems was started, and it was found that a quadratic speed-up is possible when the arms and the randomness of the rewards of the arms can be queried in superposition. Here we introduce further bandit models where we only have limited access to the randomness of the rewards, but we can still query the arms in superposition. We show that this impedes any speed-up of quantum algorithms.</description>
   </item>
 
   <item>
-    <title>Enhancing quantum computer performance via symmetrization</title>
-    <link>http://arxiv.org/pdf/2301.07233</link>
-    <author>Andrii Maksymov, Jason Nguyen, Yunseong Nam, Igor Markov</author>
-    <pubDate>Jan 19 2023</pubDate>
-    <description>Large quantum computers promise to solve some critical problems not solvable otherwise. However, modern quantum technologies suffer various imperfections such as control errors and qubit decoherence, inhibiting their potential utility. The overheads of quantum error correction are too great for near-term quantum computers, whereas error-mitigation strategies that address specific device imperfections may lose relevance as devices improve. To enhance the performance of quantum computers with high-quality qubits, we introduce a strategy based on symmetrization and nonlinear aggregation. On a commercial trapped-ion quantum computer, it improves performance of multiple practical algorithms by 100x with no qubit or gate overhead.</description>
+    <title>Superpolynomial Lower Bounds for Learning Monotone Classes</title>
+    <link>http://arxiv.org/pdf/2301.08486</link>
+    <author>Nader H. Bshouty</author>
+    <pubDate>Jan 23 2023</pubDate>
+    <description>Koch, Strassle, and Tan [SODA 2023], show that, under the randomized exponential time hypothesis, there is no distribution-free PAC-learning algorithm that runs in time $n^{\tilde O(\log\log s)}$ for the classes of $n$-variable size-$s$ DNF, size-$s$ Decision Tree, and $\log s$-Junta by DNF (that returns a DNF hypothesis). Assuming a natural conjecture on the hardness of set cover, they give the lower bound $n^{\Omega(\log s)}$. This matches the best known upper bound for $n$-variable size-$s$ Decision Tree, and $\log s$-Junta. In this paper, we give the same lower bounds for PAC-learning of $n$-variable size-$s$ Monotone DNF, size-$s$ Monotone Decision Tree, and Monotone $\log s$-Junta by~DNF. This solves the open problem proposed by Koch, Strassle, and Tan and subsumes the above results. The lower bound holds, even if the learner knows the distribution, can draw a sample according to the distribution in polynomial time, and can compute the target function on all the points of the support of the distribution in polynomial time.</description>
   </item>
 
   <item>
-    <title>stateQIP = statePSPACE</title>
-    <link>http://arxiv.org/pdf/2301.07730</link>
-    <author>Tony Metger, Henry Yuen</author>
-    <pubDate>Jan 20 2023</pubDate>
-    <description>Complexity theory traditionally studies the hardness of solving classical computational problems. In the quantum setting, it is also natural to consider a different notion of complexity, namely the complexity of physically preparing a certain quantum state. We study the relation between two such state complexity classes: statePSPACE, which contains states that can be generated by space-uniform polynomial-space quantum circuits, and stateQIP, which contains states that a polynomial-time quantum verifier can generate by interacting with an all-powerful untrusted quantum prover. The latter class was recently introduced by Rosenthal and Yuen (ITCS 2022), who proved that statePSPACE $\subseteq$ stateQIP. Our main result is the reverse inclusion, stateQIP $\subseteq$ statePSPACE, thereby establishing equality of the two classes and providing a natural state-complexity analogue to the celebrated QIP = PSPACE theorem of Jain, et al. (J. ACM 2011). To prove this, we develop a polynomial-space quantum algorithm for solving exponentially large "PSPACE-computable" semidefinite programs (SDPs), which also prepares an optimiser encoded in a quantum state. Our SDP solver relies on recent block-encoding techniques from quantum algorithms, demonstrating that these techniques are also useful for complexity theory. Using similar techniques, we also show that optimal prover strategies for general quantum interactive protocols can be implemented in quantum polynomial space. We prove this by studying an algorithmic version of Uhlmann's theorem and establishing an upper bound on the complexity of implementing Uhlmann transformations.</description>
+    <title>FlatFormer: Flattened Window Attention for Efficient Point Cloud Transformer</title>
+    <link>http://arxiv.org/pdf/2301.08739</link>
+    <author>Zhijian Liu, Xinyu Yang, Haotian Tang, Shang Yang, Song Han</author>
+    <pubDate>Jan 23 2023</pubDate>
+    <description>Transformer, as an alternative to CNN, has been proven effective in many modalities (e.g., texts and images). For 3D point cloud transformers, existing efforts focus primarily on pushing their accuracy to the state-of-the-art level. However, their latency lags behind sparse convolution-based models (3x slower), hindering their usage in resource-constrained, latency-sensitive applications (such as autonomous driving). This inefficiency comes from point clouds' sparse and irregular nature, whereas transformers are designed for dense, regular workloads. This paper presents FlatFormer to close this latency gap by trading spatial proximity for better computational regularity. We first flatten the point cloud with window-based sorting and partition points into groups of equal sizes rather than windows of equal shapes. This effectively avoids expensive structuring and padding overheads. We then apply self-attention within groups to extract local features, alternate sorting axis to gather features from different directions, and shift windows to exchange features across groups. FlatFormer delivers state-of-the-art accuracy on Waymo Open Dataset with 4.6x speedup over (transformer-based) SST and 1.4x speedup over (sparse convolutional) CenterPoint. This is the first point cloud transformer that achieves real-time performance on edge GPUs and is faster than sparse convolutional methods while achieving on-par or even superior accuracy on large-scale benchmarks. Code to reproduce our results will be made publicly available.</description>
   </item>
 
 </channel>
