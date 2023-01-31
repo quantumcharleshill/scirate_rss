@@ -7,35 +7,19 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>Lower Bounds on Learning Pauli Channels</title>
-    <link>http://arxiv.org/pdf/2301.09192</link>
-    <author>Omar Fawzi, Aadil Oufkir, Daniel Stilck França</author>
-    <pubDate>Jan 24 2023</pubDate>
-    <description>Understanding the noise affecting a quantum device is of fundamental importance for scaling quantum technologies. A particularly important class of noise models is that of Pauli channels, as randomized compiling techniques can effectively bring any quantum channel to this form and are significantly more structured than general quantum channels. In this paper, we show fundamental lower bounds on the sample complexity for learning Pauli channels in diamond norm with unentangled measurements. We consider both adaptive and non-adaptive strategies. In the non-adaptive setting, we show a lower bound of $\Omega(2^{3n}\epsilon^{-2})$ to learn an $n$-qubit Pauli channel. In particular, this shows that the recently introduced learning procedure by Flammia and Wallman is essentially optimal. In the adaptive setting, we show a lower bound of $\Omega(2^{2.5n}\epsilon^{-2})$ for $\epsilon=\mathcal{O}(2^{-n})$, and a lower bound of $\Omega(2^{2n}\epsilon^{-2} )$ for any $\epsilon > 0$. This last lower bound even applies for arbitrarily many sequential uses of the channel, as long as they are only interspersed with other unital operations.</description>
-  </item>
-
-  <item>
-    <title>Error Correction of Quantum Algorithms: Arbitrarily Accurate Recovery Of Noisy Quantum Signal Processing</title>
-    <link>http://arxiv.org/pdf/2301.08542</link>
-    <author>Andrew K. Tan, Yuan Liu, Minh C. Tran, Isaac L. Chuang</author>
-    <pubDate>Jan 23 2023</pubDate>
-    <description>The intrinsic probabilistic nature of quantum systems makes error correction or mitigation indispensable for quantum computation. While current error-correcting strategies focus on correcting errors in quantum states or quantum gates, these fine-grained error-correction methods can incur significant overhead for quantum algorithms of increasing complexity. We present a first step in achieving error correction at the level of quantum algorithms by combining a unified perspective on modern quantum algorithms via quantum signal processing (QSP). An error model of under- or over-rotation of the signal processing operator parameterized by $\epsilon < 1$ is introduced. It is shown that while Pauli $Z$-errors are not recoverable without additional resources, Pauli $X$ and $Y$ errors can be arbitrarily suppressed by coherently appending a noisy `recovery QSP.' Furthermore, it is found that a recovery QSP of length $O(2^k c^{k^2} d)$ is sufficient to correct any length-$d$ QSP with $c$ unique phases to $k^{th}$-order in error $\epsilon$. Allowing an additional assumption, a lower bound of $\Omega(cd)$ is shown, which is tight for $k = 1$, on the length of the recovery sequence. Our algorithmic-level error correction method is applied to Grover's fixed-point search algorithm as a demonstration.</description>
-  </item>
-
-  <item>
-    <title>An Exponential Separation Between Quantum Query Complexity and the Polynomial Degree</title>
-    <link>http://arxiv.org/pdf/2301.09218</link>
-    <author>Andris Ambainis, Aleksandrs Belovs</author>
-    <pubDate>Jan 24 2023</pubDate>
-    <description>While it is known that there is at most a polynomial separation between quantum query complexity and the polynomial degree for total functions, the precise relationship between the two is not clear for partial functions. In this paper, we demonstrate an exponential separation between exact polynomial degree and approximate quantum query complexity for a partial Boolean function. For an unbounded alphabet size, we have a constant versus polynomial separation.</description>
-  </item>
-
-  <item>
     <title>A Direct Reduction from the Polynomial to the Adversary Method</title>
     <link>http://arxiv.org/pdf/2301.10317</link>
     <author>Aleksandrs Belovs</author>
     <pubDate>Jan 26 2023</pubDate>
     <description>The polynomial and the adversary methods are the two main tools for proving lower bounds on query complexity of quantum algorithms. Both methods have found a large number of applications, some problems more suitable for one method, some for the other. It is known though that the adversary method, in its general negative-weighted version, is tight for bounded-error quantum algorithms, whereas the polynomial method is not. By the tightness of the former, for any polynomial lower bound, there ought to exist a corresponding adversary lower bound. However, direct reduction was not known. In this paper, we give a simple and direct reduction from the polynomial method (in the form of a dual polynomial) to the adversary method. This shows that any lower bound in the form of a dual polynomial is actually an adversary lower bound of a specific form.</description>
+  </item>
+
+  <item>
+    <title>On classical simulation algorithms for noisy Boson Sampling</title>
+    <link>http://arxiv.org/pdf/2301.11532</link>
+    <author>Changhun Oh, Liang Jiang, Bill Fefferman</author>
+    <pubDate>Jan 30 2023</pubDate>
+    <description>We present a classical algorithm that approximately samples from the output distribution of certain noisy Boson Sampling experiments. This algorithm is inspired by a recent result of Aharonov, Gao, Landau, Liu and Vazirani and makes use of an observation originally due to Kalai and Kindler that the output probability of Boson Sampling experiments with a Gaussian noise model can be approximated by sparse low-degree polynomials. This observation alone does not suffice for classical sampling, because its marginal probabilities might not be approximated by sparse low-degree polynomials, and furthermore, the approximated probabilities might be negative. We solve this problem by employing the first quantization representation to give an algorithm for computing the marginal probabilities of these experiments. We prove that when the overall noise rate is constant, the algorithm runs in time quasi-polynomial in the number of input photons $N$ and accuracy. When the overall noise rate scales as $1-x_1^\gamma$ for constant $x_1$ and $\gamma=\Omega(\log N)$, the running time becomes polynomial. Furthermore, we study noisy Boson Sampling with practically relevant noise models such as partial distinguishability and photon loss. We show that the same technique does not immediately apply in these settings, leaving open the possibility of a scalable demonstration of noisy quantum advantage for these noise models in certain parameter regimes.</description>
   </item>
 
   <item>
@@ -47,35 +31,19 @@
   </item>
 
   <item>
-    <title>Entropy Uncertainty Relations and Strong Sub-additivity of Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2301.08402</link>
-    <author>Li Gao, Marius Junge, Nicholas LaRacuente</author>
-    <pubDate>Jan 23 2023</pubDate>
-    <description>We prove an entropic uncertainty relation for two quantum channels, extending the work of Frank and Lieb for quantum measurements. This is obtained via a generalized strong super-additivity (SSA) of quantum entropy. Motivated by Petz's algebraic SSA inequality, we also obtain a generalized SSA for quantum relative entropy. As a special case, it gives an improved data processing inequality.</description>
+    <title>An operator-algebraic formulation of self-testing</title>
+    <link>http://arxiv.org/pdf/2301.11291</link>
+    <author>Connor Paddock, William Slofstra, Yuming Zhao, Yangchen Zhou</author>
+    <pubDate>Jan 27 2023</pubDate>
+    <description>We give a new definition of self-testing for correlations in terms of states on $C^*$-algebras. We show that this definition is equivalent to the standard definition for any class of finite-dimensional quantum models which is closed, provided that the correlation is extremal and has a full-rank model in the class. This last condition automatically holds for the class of POVM quantum models, but does not necessarily hold for the class of projective models by a result of Kaniewski and Mančinska. For extremal binary correlations and for extremal synchronous correlations, we show that any self-test for projective models is a self-test for POVM models. The question of whether there is a self-test for projective models which is not a self-test for POVM models remains open. An advantage of our new definition is that it extends naturally to commuting operator models. We show that an extremal correlation is a self-test for finite-dimensional quantum models if and only if it is a self-test for finite-dimensional commuting operator models, and also observe that many known finite-dimensional self-tests are in fact self-tests for infinite-dimensional commuting operator models.</description>
   </item>
 
   <item>
-    <title>Scalable Quantum Error Correction for Surface Codes using FPGA</title>
-    <link>http://arxiv.org/pdf/2301.08419</link>
-    <author>Namitha Liyanage, Yue Wu, Alexander Deters, Lin Zhong</author>
-    <pubDate>Jan 23 2023</pubDate>
-    <description>A fault-tolerant quantum computer must decode and correct errors faster than they appear. The faster errors can be corrected, the more time the computer can do useful work. The Union-Find (UF) decoder is promising with an average time complexity slightly higher than $O(d^3)$. We report a distributed version of the UF decoder that exploits parallel computing resources for further speedup. Using an FPGA-based implementation, we empirically show that this distributed UF decoder has a sublinear average time complexity with regard to $d$, given $O(d^3)$ parallel computing resources. The decoding time per measurement round decreases as $d$ increases, a first time for a quantum error decoder. The implementation employs a scalable architecture called Helios that organizes parallel computing resources into a hybrid tree-grid structure. Using Xilinx's cycle-accurate simulator, we present cycle-accurate decoding time for $d$ up to 15, with the phenomenological noise model with $p=0.1\%$. We are able to implement $d$ up to 7 with a Xilinx ZC106 FPGA, for which an average decoding time is 120 ns per measurement round. Since the decoding time per measurement round of Helios decreases with $d$, Helios can decode a surface code of arbitrarily large $d$ without a growing backlog.</description>
-  </item>
-
-  <item>
-    <title>Sketching phase diagrams using low-depth variational quantum algorithms</title>
-    <link>http://arxiv.org/pdf/2301.09369</link>
-    <author>Jan Lukas Bosse, Raul Santos, Ashley Montanaro</author>
-    <pubDate>Jan 24 2023</pubDate>
-    <description>Mapping out phase diagrams of quantum systems using classical simulations can be challenging or intractable due to the computational resources required to simulate even small quantum systems far away from the thermodynamic limit. We investigate using quantum computers and the Variational Quantum Eigensolver (VQE) for this task. In contrast to the task of preparing the exact ground state using VQE, sketching phase diagrams might require less quantum resources and accuracy, because low fidelity approximations to the ground state may be enough to correctly identify different phases. We used classical numerical simulations of low-depth VQE circuits to compute order parameters for four well-studied spin and fermion models which represent a mix of 1D and 2D, and exactly-solvable and classically hard systems. We find that it is possible to predict the location of phase transitions up to reasonable accuracy using states produced by VQE even when their overlap with the true ground state is small. Further, we introduce a model-agnostic predictor of phase transitions based on the speed with which the VQE energy improves with respect to the circuit depth, and find that in some cases this is also able to predict phase transitions.</description>
-  </item>
-
-  <item>
-    <title>On the (Im)plausibility of Public-Key Quantum Money from Collision-Resistant Hash Functions</title>
-    <link>http://arxiv.org/pdf/2301.09236</link>
-    <author>Prabhanjan Ananth, Zihan Hu, Henry Yuen</author>
-    <pubDate>Jan 24 2023</pubDate>
-    <description>Public-key quantum money is a cryptographic proposal for using highly entangled quantum states as currency that is publicly verifiable yet resistant to counterfeiting due to the laws of physics. Despite significant interest, constructing provably-secure public-key quantum money schemes based on standard cryptographic assumptions has remained an elusive goal. Even proposing plausibly-secure candidate schemes has been a challenge. These difficulties call for a deeper and systematic study of the structure of public-key quantum money schemes and the assumptions they can be based on. Motivated by this, we present the first black-box separation of quantum money and cryptographic primitives. Specifically, we show that collision-resistant hash functions cannot be used as a black-box to construct public-key quantum money schemes where the banknote verification makes classical queries to the hash function. Our result involves a novel combination of state synthesis techniques from quantum complexity theory and simulation techniques, including Zhandry's compressed oracle technique.</description>
+    <title>Everything is a quantum Ising model</title>
+    <link>http://arxiv.org/pdf/2301.11917</link>
+    <author>Ruben Verresen</author>
+    <pubDate>Jan 30 2023</pubDate>
+    <description>This work shows that any $k$-local Hamiltonian of qubits can be obtained from a 4-state 'Ising' model with $k$-local diagonal interactions and a single-site transverse field -- giving a new theoretical and experimental handle on quantum matter. In particular, the classical Ising interactions can be determined by replacing each Pauli operator with a $4 \times 4$ diagonal matrix. Subsequently tuning a large transverse field projects out two of the four states, recovering the original qubit model, with qudit generalizations. This leads to striking correspondences, such as the spin-1/2 XY and Heisenberg models arising from the large-field limit of 3-state and 4-state Potts models, respectively. Similarly, the Kitaev honeycomb model emerges from classical interactions which enforce loop states on the honeycomb lattice. These generalized Ising models also display rich physics for smaller fields, including quantum criticality and topological phases of matter. This work expands what is experimentally achievable by showing how to realize any quantum spin model using only diagonal interactions and a tuneable field -- ingredients found in, e.g., tweezer arrays of Rydberg atoms or polar molecules. More broadly, 4-state spins can also be encoded in the positions of itinerant particles, exemplified by a Bose-Hubbard model realizing the Kitaev honeycomb model -- giving an experimental path to its $\mathbb Z_2$ and non-Abelian topological quantum liquids.</description>
   </item>
 
   <item>
@@ -84,6 +52,38 @@
     <author>Josu Etxezarreta Martinez, Antonio deMarti iOlius, Pedro M. Crespo</author>
     <pubDate>Jan 25 2023</pubDate>
     <description>Quantum channel capacity is a fundamental quantity in order to understand how good can quantum information be transmitted or corrected when subjected to noise. However, it is generally not known how to compute such quantities, since the quantum channel coherent information is not additive for all channels, implying that it must be maximized over an unbounded number of channel uses. This leads to the phenomenon known as superadditivity, which refers to the fact that the regularized coherent information of $n$ channel uses exceeds one-shot coherent information. In this letter, we study how the gain in quantum capacity of qudit depolarizing channels relates to the dimension of the systems considered. We make use of an argument based on the no-cloning bound in order to proof that the possible superaditive effects decrease as a function of the dimension for such family of channels. In addition, we prove that the capacity of the qudit depolarizing channel coincides with the coherent information when $d\rightarrow\infty$. We conclude that when high dimensional qudits experiencing depolarizing noise are considered, the coherent information of the channel is not only an achievable rate but essentially the maximum possible rate for any quantum block code.</description>
+  </item>
+
+  <item>
+    <title>A Useful Inequality for the Binary Entropy Function</title>
+    <link>http://arxiv.org/pdf/2301.09664</link>
+    <author>Ravi B. Boppana</author>
+    <pubDate>Jan 25 2023</pubDate>
+    <description>We provide a simple proof of a curious inequality for the binary entropy function, an inequality that has been used in two different contexts. In the 1980's, Boppana used this entropy inequality to prove lower bounds on Boolean formulas. More recently, the inequality was used to achieve major progress on Frankl's union-closed sets conjecture. Our proof of the entropy inequality uses basic differential calculus.</description>
+  </item>
+
+  <item>
+    <title>Covariant catalysis requires correlations and good quantum reference frames degrade little</title>
+    <link>http://arxiv.org/pdf/2301.09877</link>
+    <author>Lauritz van Luijk, Reinhard F. Werner, Henrik Wilming</author>
+    <pubDate>Jan 25 2023</pubDate>
+    <description>Catalysts are quantum systems that open up dynamical pathways between quantum states which are otherwise inaccessible under a given set of operational restrictions while, at the same time, they do not change their quantum state. We here consider the restrictions imposed by symmetries and conservation laws, where any quantum channel has to be covariant with respect to the unitary representation of a symmetry group, and present two results. First, for an exact catalyst to be useful, it has to build up correlations to either the system of interest or the degrees of freedom dilating the given process to covariant unitary dynamics. This explains why catalysts in pure states are useless. Second, if a quantum system ("reference frame") is used to simulate to high precision unitary dynamics (which possibly violates the conservation law) on another system via a global, covariant quantum channel, then this channel can be chosen so that the reference frame is approximately catalytic. In other words, a reference frame that simulates unitary dynamics to high precision degrades only very little.</description>
+  </item>
+
+  <item>
+    <title>Any consistent coupling between classical gravity and quantum matter is fundamentally irreversible</title>
+    <link>http://arxiv.org/pdf/2301.10261</link>
+    <author>Thomas D. Galley, Flaminia Giacomini, John H. Selby</author>
+    <pubDate>Jan 26 2023</pubDate>
+    <description>When gravity is sourced by a quantum system, there is tension between its role as the mediator of a fundamental interaction, which is expected to acquire nonclassical features, and its role in determining the properties of spacetime, which is inherently classical. Fundamentally, this tension should result in breaking one of the fundamental principles of quantum theory or general relativity, but it is usually hard to assess which one without resorting to a specific model. Here, we answer this question in a theory-independent way using General Probabilistic Theories (GPTs). We consider the interactions of the gravitational field with a single matter system, and derive a no-go theorem showing that when gravity is classical at least one of the following assumptions needs to be violated: (i) Matter degrees of freedom are described by fully non-classical degrees of freedom; (ii) Interactions between matter degrees of freedom and the gravitational field are reversible; (iii) Matter degrees of freedom back-react on the gravitational field. We argue that this implies that theories of classical gravity and quantum matter must be fundamentally irreversible, as is the case in the recent model of Oppenheim et al. Conversely if we require that the interaction between quantum matter and the gravitational field are reversible, then the gravitational field must be non-classical.</description>
+  </item>
+
+  <item>
+    <title>Strategies for practical advantage of fault-tolerant circuit design in noisy trapped-ion quantum computers</title>
+    <link>http://arxiv.org/pdf/2301.10017</link>
+    <author>Sascha Heußen, Lukas Postler, Manuel Rispler, Ivan Pogorelov, Christian D. Marciniak, Thomas Monz, Philipp Schindler, Markus Müller</author>
+    <pubDate>Jan 25 2023</pubDate>
+    <description>Fault-tolerant quantum error correction provides a strategy to protect information processed by a quantum computer against noise which would otherwise corrupt the data. A fault-tolerant universal quantum computer must implement a universal gate set on the logical level in order to perform arbitrary calculations to in principle unlimited precision. We characterize the recent demonstration of a fault-tolerant universal gate set in a trapped-ion quantum computer [Postler et al. Nature 605.7911 (2022)] and identify aspects to improve the design of experimental setups to reach an advantage of logical over physical qubit operation. We show that various criteria to assess the break-even point for fault-tolerant quantum operations are within reach for the ion trap quantum computing architecture under consideration. We analyze the influence of crosstalk in entangling gates for logical state preparation circuits. These circuits can be designed to respect fault tolerance for specific microscopic noise models. We find that an experimentally-informed depolarizing noise model captures the essential noise dynamics of the fault-tolerant experiment, and crosstalk is negligible in the currently accessible regime of physical error rates. For deterministic Pauli state preparation, we provide a fault-tolerant unitary logical qubit initialization circuit, which can be realized without in-sequence measurement and feed-forward of classical information. We show that non-deterministic state preparation schemes for logical Pauli and magic states perform with higher logical fidelity over their deterministic counterparts for the current and anticipated future regime of physical error rates. Our results offer guidance on improvements of physical qubit operations and validate the experimentally-informed noise model as a tool to predict logical failure rates in quantum computing architectures based on trapped ions.</description>
   </item>
 
 </channel>
