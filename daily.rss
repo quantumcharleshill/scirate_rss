@@ -7,30 +7,6 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
-    <title>On classical simulation algorithms for noisy Boson Sampling</title>
-    <link>http://arxiv.org/pdf/2301.11532</link>
-    <author>Changhun Oh, Liang Jiang, Bill Fefferman</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>We present a classical algorithm that approximately samples from the output distribution of certain noisy Boson Sampling experiments. This algorithm is inspired by a recent result of Aharonov, Gao, Landau, Liu and Vazirani and makes use of an observation originally due to Kalai and Kindler that the output probability of Boson Sampling experiments with a Gaussian noise model can be approximated by sparse low-degree polynomials. This observation alone does not suffice for classical sampling, because its marginal probabilities might not be approximated by sparse low-degree polynomials, and furthermore, the approximated probabilities might be negative. We solve this problem by employing the first quantization representation to give an algorithm for computing the marginal probabilities of these experiments. We prove that when the overall noise rate is constant, the algorithm runs in time quasi-polynomial in the number of input photons $N$ and accuracy. When the overall noise rate scales as $1-x_1^\gamma$ for constant $x_1$ and $\gamma=\Omega(\log N)$, the running time becomes polynomial. Furthermore, we study noisy Boson Sampling with practically relevant noise models such as partial distinguishability and photon loss. We show that the same technique does not immediately apply in these settings, leaving open the possibility of a scalable demonstration of noisy quantum advantage for these noise models in certain parameter regimes.</description>
-  </item>
-
-  <item>
-    <title>Everything is a quantum Ising model</title>
-    <link>http://arxiv.org/pdf/2301.11917</link>
-    <author>Ruben Verresen</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>This work shows that any $k$-local Hamiltonian of qubits can be obtained from a 4-state 'Ising' model with $k$-local diagonal interactions and a single-site transverse field -- giving a new theoretical and experimental handle on quantum matter. In particular, the classical Ising interactions can be determined by replacing each Pauli operator with a $4 \times 4$ diagonal matrix. Subsequently tuning a large transverse field projects out two of the four states, recovering the original qubit model, with qudit generalizations. This leads to striking correspondences, such as the spin-1/2 XY and Heisenberg models arising from the large-field limit of 3-state and 4-state Potts models, respectively. Similarly, the Kitaev honeycomb model emerges from classical interactions which enforce loop states on the honeycomb lattice. These generalized Ising models also display rich physics for smaller fields, including quantum criticality and topological phases of matter. This work expands what is experimentally achievable by showing how to realize any quantum spin model using only diagonal interactions and a tuneable field -- ingredients found in, e.g., tweezer arrays of Rydberg atoms or polar molecules. More broadly, 4-state spins can also be encoded in the positions of itinerant particles, exemplified by a Bose-Hubbard model realizing the Kitaev honeycomb model -- giving an experimental path to its $\mathbb Z_2$ and non-Abelian topological quantum liquids.</description>
-  </item>
-
-  <item>
-    <title>Security of differential phase shift QKD from relativistic principles</title>
-    <link>http://arxiv.org/pdf/2301.11340</link>
-    <author>Martin Sandfuchs, Marcus Haberland, V. Vilasini, Ramona Wolf</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>The design of quantum protocols for secure key generation poses many challenges: On the one hand, they need to be practical concerning experimental realisations. On the other hand, their theoretical description must be simple enough to allow for a security proof against all possible attacks. Often, these two requirements are in conflict with each other, and the differential phase shift (DPS) QKD protocol is an excellent example of this: It is designed to be implementable with current optical telecommunication technology, which, for this protocol, comes at the cost that many standard security proof techniques do not apply to it. In this work, we give the first full security proof of DPS QKD against general attacks, including finite-size effects. The proof combines techniques from quantum information theory, quantum optics, and relativity. We first give a security proof of a QKD protocol whose security stems from relativistic constraints. We then show that DPS QKD can be formulated as an instance of the relativistic protocol. In addition, we show that coherent attacks on the DPS protocol are, in fact, stronger than collective attacks.</description>
-  </item>
-
-  <item>
     <title>Improved machine learning algorithm for predicting ground state properties</title>
     <link>http://arxiv.org/pdf/2301.13169</link>
     <author>Laura Lewis, Hsin-Yuan Huang, Viet T. Tran, Sebastian Lehner, Richard Kueng, John Preskill</author>
@@ -39,11 +15,35 @@
   </item>
 
   <item>
-    <title>Entanglement Purification of Hypergraph States</title>
-    <link>http://arxiv.org/pdf/2301.11341</link>
-    <author>Lina Vandré, Otfried Gühne</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>Entanglement purification describes a primitive in quantum information processing, where several copies of noisy quantum states are distilled into few copies of nearly-pure states of high quality via local operations and classical communication. Especially in the multiparticle case, the task of entanglement purification is complicated, as many inequivalent forms of pure state entanglement exist and purification protocols need to be tailored for different target states. In this paper we present optimized protocols for the purification of hypergraph states, which form a family of multi-qubit states that are relevant from several perspectives. We start by reformulating an existing purification protocol in a graphical language. This allows for systematical optimization and we present improvements in three directions. First, one can optimize the sequences of the protocol with respect to the ordering of the parties. Second, one can use adaptive schemes, where the measurement results obtained within the protocol are used to modify the protocols. Finally, one can improve the protocol with respect to the efficiency, requiring fewer copies of noisy states to reach a certain target state.</description>
+    <title>Efficient learning of ground & thermal states within phases of matter</title>
+    <link>http://arxiv.org/pdf/2301.12946</link>
+    <author>Emilio Onorati, Cambyse Rouzé, Daniel Stilck França, James D. Watson</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>We consider two related tasks: (a) estimating a parameterisation of a given Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision. For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians with exponential decay of correlations and the approximate Markov property. We show it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality -- an exponential improvement. This set of properties includes expected values of quasi-local observables and entropies. For the second task, we develop efficient algorithms for learning observables in a phase of matter of a quantum system. By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ to precision $\epsilon$ with using only $N=O\big(\log\big(\frac{M}{\delta}\big)e^{polylog(\epsilon^{-1})}\big)$ samples -- an exponential improvement on the precision over previous bounds. Our results apply to both families of ground states of Hamiltonians displaying local topological quantum order, and thermal phases of matter with exponential decay of correlations. In addition, our sample complexity applies to the worse case setting whereas previous results only applied on average. Furthermore, we develop tools of independent interest, such as robust shadow tomography algorithms, Gibbs approximations to ground states, and generalisations of transportation cost inequalities for Gibbs states.</description>
+  </item>
+
+  <item>
+    <title>State polynomials: positivity, optimization and nonlinear Bell inequalities</title>
+    <link>http://arxiv.org/pdf/2301.12513</link>
+    <author>Igor Klep, Victor Magron, Jurij Volčič, Jie Wang</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>This paper introduces state polynomials, i.e., polynomials in noncommuting variables and formal states of their products. A state analog of Artin's solution to Hilbert's 17th problem is proved showing that state polynomials, positive over all matrices and matricial states, are sums of squares with denominators. Somewhat surprisingly, it is also established that a Krivine-Stengle Positivstellensatz fails to hold in the state polynomial setting. Further, archimedean Positivstellensätze in the spirit of Putinar and Helton-McCullough are presented leading to a hierarchy of semidefinite relaxations converging monotonically to the optimum of a state polynomial subject to state constraints. This hierarchy can be seen as a state analog of the Lasserre hierarchy for optimization of polynomials, and the Navascués-Pironio-Acín scheme for optimization of noncommutative polynomials. The motivation behind this theory arises from the study of correlations in quantum networks. Determining the maximal quantum violation of a polynomial Bell inequality for an arbitrary network is reformulated as a state polynomial optimization problem. Several examples of quadratic Bell inequalities in the bipartite and the bilocal tripartite scenario are analyzed. To reduce the size of the constructed SDPs, sparsity, sign symmetry and conditional expectation of the observables' group structure are exploited. To obtain the above-mentioned results, techniques from noncommutative algebra, real algebraic geometry, operator theory, and convex optimization are employed.</description>
+  </item>
+
+  <item>
+    <title>How universal is the relation between sign problem and phase transition</title>
+    <link>http://arxiv.org/pdf/2301.12438</link>
+    <author>Zheng Yan, Jun-Song Sun, Gaopei Pan, Chen Cheng, Nvsen Ma</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>The mystery of the infamous sign problem in quantum Monte Carlo simulations mightily restricts applications of the method in fermionic and frustrated systems. A recent work [Science \textbf375, 417 (2022)] made a remarkable breakthrough in the sign problem and suggested a positive connection between the sign and phase transition. How general this argument is can be crucial in various fields related to many-body systems, such as condensed matter physics, quantum chemistry, and nuclear physics. Based on universal analyses of typical examples and numerical simulations from different approaches, we discuss when and how studying the sign can provide helpful information on phase transitions in general systems independent of specific models and algorithms. While our results support that the notorious sign offers new angles in exploring quantum many-body problems, we also notice that taking advantage of the sign can even be as challenging as neutralizing the sign problem itself in unknown systems.</description>
+  </item>
+
+  <item>
+    <title>Quantum Ridgelet Transform: Winning Lottery Ticket of Neural Networks with Quantum Computation</title>
+    <link>http://arxiv.org/pdf/2301.11936</link>
+    <author>Hayata Yamasaki, Sathyawageeswar Subramanian, Satoshi Hayakawa, Sho Sonoda</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>Ridgelet transform has been a fundamental mathematical tool in the theoretical studies of neural networks. However, the practical applicability of ridgelet transform to conducting learning tasks was limited since its numerical implementation by conventional classical computation requires an exponential runtime $\exp(O(D))$ as data dimension $D$ increases. To address this problem, we develop a quantum ridgelet transform (QRT), which implements the ridgelet transform of a quantum state within a linear runtime $O(D)$ of quantum computation. As an application, we also show that one can use QRT as a fundamental subroutine for quantum machine learning (QML) to efficiently find a sparse trainable subnetwork of large shallow wide neural networks without conducting large-scale optimization of the original network. This application discovers an efficient way in this regime to demonstrate the lottery ticket hypothesis on finding such a sparse trainable neural network. These results open an avenue of QML for accelerating learning tasks with commonly used classical neural networks.</description>
   </item>
 
 </channel>

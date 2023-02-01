@@ -63,6 +63,22 @@
   </item>
 
   <item>
+    <title>Improved machine learning algorithm for predicting ground state properties</title>
+    <link>http://arxiv.org/pdf/2301.13169</link>
+    <author>Laura Lewis, Hsin-Yuan Huang, Viet T. Tran, Sebastian Lehner, Richard Kueng, John Preskill</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>Finding the ground state of a quantum many-body system is a fundamental problem in quantum physics. In this work, we give a classical machine learning (ML) algorithm for predicting ground state properties with an inductive bias encoding geometric locality. The proposed ML model can efficiently predict ground state properties of an $n$-qubit gapped local Hamiltonian after learning from only $\mathcal{O}(\log(n))$ data about other Hamiltonians in the same quantum phase of matter. This improves substantially upon previous results that require $\mathcal{O}(n^c)$ data for a large constant $c$. Furthermore, the training and prediction time of the proposed ML model scale as $\mathcal{O}(n \log n)$ in the number of qubits $n$. Numerical experiments on physical systems with up to 45 qubits confirm the favorable scaling in predicting ground state properties using a small training dataset.</description>
+  </item>
+
+  <item>
+    <title>Efficient learning of ground & thermal states within phases of matter</title>
+    <link>http://arxiv.org/pdf/2301.12946</link>
+    <author>Emilio Onorati, Cambyse Rouzé, Daniel Stilck França, James D. Watson</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>We consider two related tasks: (a) estimating a parameterisation of a given Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision. For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians with exponential decay of correlations and the approximate Markov property. We show it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality -- an exponential improvement. This set of properties includes expected values of quasi-local observables and entropies. For the second task, we develop efficient algorithms for learning observables in a phase of matter of a quantum system. By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ to precision $\epsilon$ with using only $N=O\big(\log\big(\frac{M}{\delta}\big)e^{polylog(\epsilon^{-1})}\big)$ samples -- an exponential improvement on the precision over previous bounds. Our results apply to both families of ground states of Hamiltonians displaying local topological quantum order, and thermal phases of matter with exponential decay of correlations. In addition, our sample complexity applies to the worse case setting whereas previous results only applied on average. Furthermore, we develop tools of independent interest, such as robust shadow tomography algorithms, Gibbs approximations to ground states, and generalisations of transportation cost inequalities for Gibbs states.</description>
+  </item>
+
+  <item>
     <title>Tailoring fusion-based error correction for high thresholds to biased fusion failures</title>
     <link>http://arxiv.org/pdf/2301.00019</link>
     <author>Kaavya Sahay, Jahan Claes, Shruti Puri</author>
@@ -87,19 +103,19 @@
   </item>
 
   <item>
+    <title>On classical simulation algorithms for noisy Boson Sampling</title>
+    <link>http://arxiv.org/pdf/2301.11532</link>
+    <author>Changhun Oh, Liang Jiang, Bill Fefferman</author>
+    <pubDate>Jan 30 2023</pubDate>
+    <description>We present a classical algorithm that approximately samples from the output distribution of certain noisy Boson Sampling experiments. This algorithm is inspired by a recent result of Aharonov, Gao, Landau, Liu and Vazirani and makes use of an observation originally due to Kalai and Kindler that the output probability of Boson Sampling experiments with a Gaussian noise model can be approximated by sparse low-degree polynomials. This observation alone does not suffice for classical sampling, because its marginal probabilities might not be approximated by sparse low-degree polynomials, and furthermore, the approximated probabilities might be negative. We solve this problem by employing the first quantization representation to give an algorithm for computing the marginal probabilities of these experiments. We prove that when the overall noise rate is constant, the algorithm runs in time quasi-polynomial in the number of input photons $N$ and accuracy. When the overall noise rate scales as $1-x_1^\gamma$ for constant $x_1$ and $\gamma=\Omega(\log N)$, the running time becomes polynomial. Furthermore, we study noisy Boson Sampling with practically relevant noise models such as partial distinguishability and photon loss. We show that the same technique does not immediately apply in these settings, leaving open the possibility of a scalable demonstration of noisy quantum advantage for these noise models in certain parameter regimes.</description>
+  </item>
+
+  <item>
     <title>Graphical quantum Clifford-encoder compilers from the ZX calculus</title>
     <link>http://arxiv.org/pdf/2301.02356</link>
     <author>Andrey Boris Khesin, Jonathan Z. Lu, Peter W. Shor</author>
     <pubDate>Jan 09 2023</pubDate>
     <description>We present a quantum compilation algorithm that maps Clifford encoders, an equivalence class of quantum circuits that arise universally in quantum error correction, into a representation in the ZX calculus. In particular, we develop a canonical form in the ZX calculus and prove canonicity as well as efficient reducibility of any Clifford encoder into the canonical form. The diagrams produced by our compiler explicitly visualize information propagation and entanglement structure of the encoder, revealing properties that may be obscured in the circuit or stabilizer-tableau representation.</description>
-  </item>
-
-  <item>
-    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
-    <link>http://arxiv.org/pdf/2301.03763</link>
-    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
-    <pubDate>Jan 11 2023</pubDate>
-    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
   </item>
 
   <item>
@@ -111,19 +127,19 @@
   </item>
 
   <item>
+    <title>Quantum Speedups for Zero-Sum Games via Improved Dynamic Gibbs Sampling</title>
+    <link>http://arxiv.org/pdf/2301.03763</link>
+    <author>Adam Bouland, Yosheb Getachew, Yujia Jin, Aaron Sidford, Kevin Tian</author>
+    <pubDate>Jan 11 2023</pubDate>
+    <description>We give a quantum algorithm for computing an $\epsilon$-approximate Nash equilibrium of a zero-sum game in a $m \times n$ payoff matrix with bounded entries. Given a standard quantum oracle for accessing the payoff matrix our algorithm runs in time $\widetilde{O}(\sqrt{m + n}\cdot \epsilon^{-2.5} + \epsilon^{-3})$ and outputs a classical representation of the $\epsilon$-approximate Nash equilibrium. This improves upon the best prior quantum runtime of $\widetilde{O}(\sqrt{m + n} \cdot \epsilon^{-3})$ obtained by [vAG19] and the classic $\widetilde{O}((m + n) \cdot \epsilon^{-2})$ runtime due to [GK95] whenever $\epsilon = \Omega((m +n)^{-1})$. We obtain this result by designing new quantum data structures for efficiently sampling from a slowly-changing Gibbs distribution.</description>
+  </item>
+
+  <item>
     <title>Asymptotic Equipartition Theorems in von Neumann algebras</title>
     <link>http://arxiv.org/pdf/2212.14700</link>
     <author>Omar Fawzi, Li Gao, Mizanur Rahaman</author>
     <pubDate>Jan 02 2023</pubDate>
     <description>The Asymptotic Equipartition Property (AEP) in information theory establishes that independent and identically distributed (i.i.d.) states behave in a way that is similar to uniform states. In particular, with appropriate smoothing, for such states both the min and the max relative entropy asymptotically coincide with the relative entropy. In this paper, we generalize several such equipartition properties to states on general von Neumann algebras. First, we show that the smooth max relative entropy of i.i.d. states on a von Neumann algebra has an asymptotic rate given by the quantum relative entropy. In fact, our AEP not only applies to states, but also to quantum channels with appropriate restrictions. In addition, going beyond the i.i.d. assumption, we show that for states that are produced by a sequential process of quantum channels, the smooth max relative entropy can be upper bounded by the sum of appropriate channel relative entropies. Our main technical contributions are to extend to the context of general von Neumann algebras a chain rule for quantum channels, as well as an additivity result for the channel relative entropy with a replacer channel.</description>
-  </item>
-
-  <item>
-    <title>On classical simulation algorithms for noisy Boson Sampling</title>
-    <link>http://arxiv.org/pdf/2301.11532</link>
-    <author>Changhun Oh, Liang Jiang, Bill Fefferman</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>We present a classical algorithm that approximately samples from the output distribution of certain noisy Boson Sampling experiments. This algorithm is inspired by a recent result of Aharonov, Gao, Landau, Liu and Vazirani and makes use of an observation originally due to Kalai and Kindler that the output probability of Boson Sampling experiments with a Gaussian noise model can be approximated by sparse low-degree polynomials. This observation alone does not suffice for classical sampling, because its marginal probabilities might not be approximated by sparse low-degree polynomials, and furthermore, the approximated probabilities might be negative. We solve this problem by employing the first quantization representation to give an algorithm for computing the marginal probabilities of these experiments. We prove that when the overall noise rate is constant, the algorithm runs in time quasi-polynomial in the number of input photons $N$ and accuracy. When the overall noise rate scales as $1-x_1^\gamma$ for constant $x_1$ and $\gamma=\Omega(\log N)$, the running time becomes polynomial. Furthermore, we study noisy Boson Sampling with practically relevant noise models such as partial distinguishability and photon loss. We show that the same technique does not immediately apply in these settings, leaving open the possibility of a scalable demonstration of noisy quantum advantage for these noise models in certain parameter regimes.</description>
   </item>
 
   <item>
@@ -143,14 +159,6 @@
   </item>
 
   <item>
-    <title>Fault-tolerant error correction for a universal non-Abelian topological quantum computer at finite temperature</title>
-    <link>http://arxiv.org/pdf/2301.00054</link>
-    <author>Alexis Schotte, Lander Burgelman, Guanyu Zhu</author>
-    <pubDate>Jan 03 2023</pubDate>
-    <description>We study fault-tolerant error correction in a quantum memory constructed as a two-dimensional model of Fibonacci anyons on a torus, in the presence of thermal noise represented by pair-creation processes and measurement errors. The correction procedure is based on the cellular automaton decoders originating in the works of Gács and Harrington. Through numerical simulations, we observe that this code behaves fault-tolerantly and that threshold behavior is likely present. Hence, we provide strong evidence for the existence of a fault-tolerant universal non-Abelian topological quantum computer.</description>
-  </item>
-
-  <item>
     <title>Guaranteed efficient energy estimation of quantum many-body Hamiltonians using ShadowGrouping</title>
     <link>http://arxiv.org/pdf/2301.03385</link>
     <author>Alexander Gresch, Martin Kliesch</author>
@@ -159,11 +167,27 @@
   </item>
 
   <item>
+    <title>Fault-tolerant error correction for a universal non-Abelian topological quantum computer at finite temperature</title>
+    <link>http://arxiv.org/pdf/2301.00054</link>
+    <author>Alexis Schotte, Lander Burgelman, Guanyu Zhu</author>
+    <pubDate>Jan 03 2023</pubDate>
+    <description>We study fault-tolerant error correction in a quantum memory constructed as a two-dimensional model of Fibonacci anyons on a torus, in the presence of thermal noise represented by pair-creation processes and measurement errors. The correction procedure is based on the cellular automaton decoders originating in the works of Gács and Harrington. Through numerical simulations, we observe that this code behaves fault-tolerantly and that threshold behavior is likely present. Hence, we provide strong evidence for the existence of a fault-tolerant universal non-Abelian topological quantum computer.</description>
+  </item>
+
+  <item>
     <title>One-Way Ticket to Las Vegas and the Quantum Adversary</title>
     <link>http://arxiv.org/pdf/2301.02003</link>
     <author>Aleksandrs Belovs, Duyal Yolcu</author>
     <pubDate>Jan 06 2023</pubDate>
     <description>We propose a new definition of quantum Las Vegas query complexity. We show that it is exactly equal to the quantum adversary bound. This is achieved by a new and very simple way of transforming a feasible solution to the adversary optimisation problem into a quantum query algorithm. This allows us to generalise the bound to include unidirectional access, multiple input oracles, and input oracles that are not unitary. As an application, we demonstrate a separation between unidirectional and bidirectional access to an input oracle for a rather natural unitary permutation inversion problem.</description>
+  </item>
+
+  <item>
+    <title>Everything is a quantum Ising model</title>
+    <link>http://arxiv.org/pdf/2301.11917</link>
+    <author>Ruben Verresen</author>
+    <pubDate>Jan 30 2023</pubDate>
+    <description>This work shows that any $k$-local Hamiltonian of qubits can be obtained from a 4-state 'Ising' model with $k$-local diagonal interactions and a single-site transverse field -- giving a new theoretical and experimental handle on quantum matter. In particular, the classical Ising interactions can be determined by replacing each Pauli operator with a $4 \times 4$ diagonal matrix. Subsequently tuning a large transverse field projects out two of the four states, recovering the original qubit model, with qudit generalizations. This leads to striking correspondences, such as the spin-1/2 XY and Heisenberg models arising from the large-field limit of 3-state and 4-state Potts models, respectively. Similarly, the Kitaev honeycomb model emerges from classical interactions which enforce loop states on the honeycomb lattice. These generalized Ising models also display rich physics for smaller fields, including quantum criticality and topological phases of matter. This work expands what is experimentally achievable by showing how to realize any quantum spin model using only diagonal interactions and a tuneable field -- ingredients found in, e.g., tweezer arrays of Rydberg atoms or polar molecules. More broadly, 4-state spins can also be encoded in the positions of itinerant particles, exemplified by a Bose-Hubbard model realizing the Kitaev honeycomb model -- giving an experimental path to its $\mathbb Z_2$ and non-Abelian topological quantum liquids.</description>
   </item>
 
   <item>
@@ -183,19 +207,19 @@
   </item>
 
   <item>
-    <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
-    <link>http://arxiv.org/pdf/2301.02690</link>
-    <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
-    <pubDate>Jan 10 2023</pubDate>
-    <description>In the noisy intermediate-scale quantum (NISQ) era, quantum error mitigation will be a necessary tool to extract useful performance out of quantum devices. However, there is a big gap between the noise models often assumed by error mitigation techniques and the actual noise on quantum devices. As a consequence, there arises a gap between the theoretical expectations of the techniques and their everyday performance. Cloud users of quantum devices in particular, who often take the devices as they are, feel this gap the most. How should they parametrize their uncertainty in the usefulness of these techniques and be able to make judgement calls between resources required to implement error mitigation and the accuracy required at the algorithmic level? To answer the first question, we introduce hypothesis testing within the framework of quantum error mitigation and for the second question, we propose an inclusive figure of merit that accounts for both resource requirement and mitigation efficiency of an error mitigation implementation. The figure of merit is useful to weigh the trade-offs between the scalability and accuracy of various error mitigation methods. Finally, using the hypothesis testing and the figure of merit, we experimentally evaluate $16$ error mitigation pipelines composed of singular methods such as zero noise extrapolation, randomized compilation, measurement error mitigation, dynamical decoupling, and mitigation with estimation circuits. In total our data involved running $275,640$ circuits on two IBM quantum computers.</description>
-  </item>
-
-  <item>
     <title>Fast Quantum Algorithms for Trace Distance Estimation</title>
     <link>http://arxiv.org/pdf/2301.06783</link>
     <author>Qisheng Wang, Zhicheng Zhang</author>
     <pubDate>Jan 18 2023</pubDate>
     <description>In quantum information processing, trace distance is a basic metric of distinguishability between quantum states. However, there is no known efficient approach to estimate the value of trace distance in general. In this paper, we propose efficient quantum algorithms for estimating the trace distance within additive error $\varepsilon$ between mixed quantum states of rank $r$. Specifically, we first provide a quantum algorithm using $r \cdot \widetilde O(1/\varepsilon^2)$ queries to the quantum circuits that prepare the purifications of quantum states, which achieves a linear time dependence on the rank $r$. Then, we modify this quantum algorithm to obtain another algorithm using $\widetilde O(r^2/\varepsilon^5)$ samples of quantum states, which can be applied to quantum state certification. Both algorithms have the same quantum time complexities as their query/sample complexities up to a logarithmic factor.</description>
+  </item>
+
+  <item>
+    <title>Hypothesis Testing for Error Mitigation: How to Evaluate Error Mitigation</title>
+    <link>http://arxiv.org/pdf/2301.02690</link>
+    <author>Abdullah Ash Saki, Amara Katabarwa, Salonik Resch, George Umbrarescu</author>
+    <pubDate>Jan 10 2023</pubDate>
+    <description>In the noisy intermediate-scale quantum (NISQ) era, quantum error mitigation will be a necessary tool to extract useful performance out of quantum devices. However, there is a big gap between the noise models often assumed by error mitigation techniques and the actual noise on quantum devices. As a consequence, there arises a gap between the theoretical expectations of the techniques and their everyday performance. Cloud users of quantum devices in particular, who often take the devices as they are, feel this gap the most. How should they parametrize their uncertainty in the usefulness of these techniques and be able to make judgement calls between resources required to implement error mitigation and the accuracy required at the algorithmic level? To answer the first question, we introduce hypothesis testing within the framework of quantum error mitigation and for the second question, we propose an inclusive figure of merit that accounts for both resource requirement and mitigation efficiency of an error mitigation implementation. The figure of merit is useful to weigh the trade-offs between the scalability and accuracy of various error mitigation methods. Finally, using the hypothesis testing and the figure of merit, we experimentally evaluate $16$ error mitigation pipelines composed of singular methods such as zero noise extrapolation, randomized compilation, measurement error mitigation, dynamical decoupling, and mitigation with estimation circuits. In total our data involved running $275,640$ circuits on two IBM quantum computers.</description>
   </item>
 
   <item>
@@ -207,11 +231,11 @@
   </item>
 
   <item>
-    <title>Everything is a quantum Ising model</title>
-    <link>http://arxiv.org/pdf/2301.11917</link>
-    <author>Ruben Verresen</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>This work shows that any $k$-local Hamiltonian of qubits can be obtained from a 4-state 'Ising' model with $k$-local diagonal interactions and a single-site transverse field -- giving a new theoretical and experimental handle on quantum matter. In particular, the classical Ising interactions can be determined by replacing each Pauli operator with a $4 \times 4$ diagonal matrix. Subsequently tuning a large transverse field projects out two of the four states, recovering the original qubit model, with qudit generalizations. This leads to striking correspondences, such as the spin-1/2 XY and Heisenberg models arising from the large-field limit of 3-state and 4-state Potts models, respectively. Similarly, the Kitaev honeycomb model emerges from classical interactions which enforce loop states on the honeycomb lattice. These generalized Ising models also display rich physics for smaller fields, including quantum criticality and topological phases of matter. This work expands what is experimentally achievable by showing how to realize any quantum spin model using only diagonal interactions and a tuneable field -- ingredients found in, e.g., tweezer arrays of Rydberg atoms or polar molecules. More broadly, 4-state spins can also be encoded in the positions of itinerant particles, exemplified by a Bose-Hubbard model realizing the Kitaev honeycomb model -- giving an experimental path to its $\mathbb Z_2$ and non-Abelian topological quantum liquids.</description>
+    <title>Sketching phase diagrams using low-depth variational quantum algorithms</title>
+    <link>http://arxiv.org/pdf/2301.09369</link>
+    <author>Jan Lukas Bosse, Raul Santos, Ashley Montanaro</author>
+    <pubDate>Jan 24 2023</pubDate>
+    <description>Mapping out phase diagrams of quantum systems using classical simulations can be challenging or intractable due to the computational resources required to simulate even small quantum systems far away from the thermodynamic limit. We investigate using quantum computers and the Variational Quantum Eigensolver (VQE) for this task. In contrast to the task of preparing the exact ground state using VQE, sketching phase diagrams might require less quantum resources and accuracy, because low fidelity approximations to the ground state may be enough to correctly identify different phases. We used classical numerical simulations of low-depth VQE circuits to compute order parameters for four well-studied spin and fermion models which represent a mix of 1D and 2D, and exactly-solvable and classically hard systems. We find that it is possible to predict the location of phase transitions up to reasonable accuracy using states produced by VQE even when their overlap with the true ground state is small. Further, we introduce a model-agnostic predictor of phase transitions based on the speed with which the VQE energy improves with respect to the circuit depth, and find that in some cases this is also able to predict phase transitions.</description>
   </item>
 
   <item>
@@ -220,30 +244,6 @@
     <author>Namitha Liyanage, Yue Wu, Alexander Deters, Lin Zhong</author>
     <pubDate>Jan 23 2023</pubDate>
     <description>A fault-tolerant quantum computer must decode and correct errors faster than they appear. The faster errors can be corrected, the more time the computer can do useful work. The Union-Find (UF) decoder is promising with an average time complexity slightly higher than $O(d^3)$. We report a distributed version of the UF decoder that exploits parallel computing resources for further speedup. Using an FPGA-based implementation, we empirically show that this distributed UF decoder has a sublinear average time complexity with regard to $d$, given $O(d^3)$ parallel computing resources. The decoding time per measurement round decreases as $d$ increases, a first time for a quantum error decoder. The implementation employs a scalable architecture called Helios that organizes parallel computing resources into a hybrid tree-grid structure. Using Xilinx's cycle-accurate simulator, we present cycle-accurate decoding time for $d$ up to 15, with the phenomenological noise model with $p=0.1\%$. We are able to implement $d$ up to 7 with a Xilinx ZC106 FPGA, for which an average decoding time is 120 ns per measurement round. Since the decoding time per measurement round of Helios decreases with $d$, Helios can decode a surface code of arbitrarily large $d$ without a growing backlog.</description>
-  </item>
-
-  <item>
-    <title>Entropy Uncertainty Relations and Strong Sub-additivity of Quantum Channels</title>
-    <link>http://arxiv.org/pdf/2301.08402</link>
-    <author>Li Gao, Marius Junge, Nicholas LaRacuente</author>
-    <pubDate>Jan 23 2023</pubDate>
-    <description>We prove an entropic uncertainty relation for two quantum channels, extending the work of Frank and Lieb for quantum measurements. This is obtained via a generalized strong super-additivity (SSA) of quantum entropy. Motivated by Petz's algebraic SSA inequality, we also obtain a generalized SSA for quantum relative entropy. As a special case, it gives an improved data processing inequality.</description>
-  </item>
-
-  <item>
-    <title>Path integrals for classical-quantum dynamics</title>
-    <link>http://arxiv.org/pdf/2301.04677</link>
-    <author>Jonathan Oppenheim, Zachary Weller-Davies</author>
-    <pubDate>Jan 13 2023</pubDate>
-    <description>Consistent dynamics which couples classical and quantum degrees of freedom exists. This dynamics is linear in the hybrid state, completely positive and trace preserving. Starting from completely positive classical-quantum master equations, we derive a general path integral representation for such dynamics in terms of a classical-quantum action, which includes the necessary and sufficient conditions for complete positivity and trace preservation. The path integral we study is a generalization of the Feynman path integral for quantum systems, and the stochastic path integral used to study classical stochastic processes, allowing for interaction between the classical and quantum systems. When the classical-quantum Hamiltonian is at most quadratic in the momenta we are able to derive a configuration space path integral, providing a map between master equations and covariant classical-quantum path integrals.</description>
-  </item>
-
-  <item>
-    <title>Discrete holography in dual-unitary circuits</title>
-    <link>http://arxiv.org/pdf/2301.02825</link>
-    <author>Lluis Masanes</author>
-    <pubDate>Jan 10 2023</pubDate>
-    <description>We introduce a family of dual-unitary circuits in 1+1 dimensions which constitute a discrete analog of conformal field theories. These circuits are quantum cellular automata which are invariant under the joint action of Lorentz and scale transformations. Dual unitaries are four-legged tensors which satisfy the unitarity condition across the time as well as the space direction, a property that makes the model mathematically tractable. Using dual unitaries too, we construct tensor-network states for our 1+1 model, which are interpreted as spatial slices of curved 2+1 discrete geometries, where the metric distance is defined by the entanglement structure of the state, following Ryu-Takayanagi's prescription. The dynamics of the circuit induces a natural dynamics on these geometries, which we study for flat and anti-de Sitter spaces, and in the presence or absence of matter. We observe that the dynamics of spaces with two or more particles differs from that of zero or one, suggesting the presence of black holes. But this contrasts with the fact that the family of models appears to be non-chaotic. We observe that the dynamics of a particle in such spaces strongly depends on the presence of other particles, suggesting gravitational back-reaction.</description>
   </item>
 
 </channel>

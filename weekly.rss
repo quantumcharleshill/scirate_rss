@@ -7,6 +7,22 @@
   <description>The feed lists the top "scited" papers on the scirate website, often featuring the most widely appreciated quantum physics (quant-ph) preprints.</description>
 
   <item>
+    <title>Improved machine learning algorithm for predicting ground state properties</title>
+    <link>http://arxiv.org/pdf/2301.13169</link>
+    <author>Laura Lewis, Hsin-Yuan Huang, Viet T. Tran, Sebastian Lehner, Richard Kueng, John Preskill</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>Finding the ground state of a quantum many-body system is a fundamental problem in quantum physics. In this work, we give a classical machine learning (ML) algorithm for predicting ground state properties with an inductive bias encoding geometric locality. The proposed ML model can efficiently predict ground state properties of an $n$-qubit gapped local Hamiltonian after learning from only $\mathcal{O}(\log(n))$ data about other Hamiltonians in the same quantum phase of matter. This improves substantially upon previous results that require $\mathcal{O}(n^c)$ data for a large constant $c$. Furthermore, the training and prediction time of the proposed ML model scale as $\mathcal{O}(n \log n)$ in the number of qubits $n$. Numerical experiments on physical systems with up to 45 qubits confirm the favorable scaling in predicting ground state properties using a small training dataset.</description>
+  </item>
+
+  <item>
+    <title>Efficient learning of ground & thermal states within phases of matter</title>
+    <link>http://arxiv.org/pdf/2301.12946</link>
+    <author>Emilio Onorati, Cambyse Rouzé, Daniel Stilck França, James D. Watson</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>We consider two related tasks: (a) estimating a parameterisation of a given Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision. For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians with exponential decay of correlations and the approximate Markov property. We show it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality -- an exponential improvement. This set of properties includes expected values of quasi-local observables and entropies. For the second task, we develop efficient algorithms for learning observables in a phase of matter of a quantum system. By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ to precision $\epsilon$ with using only $N=O\big(\log\big(\frac{M}{\delta}\big)e^{polylog(\epsilon^{-1})}\big)$ samples -- an exponential improvement on the precision over previous bounds. Our results apply to both families of ground states of Hamiltonians displaying local topological quantum order, and thermal phases of matter with exponential decay of correlations. In addition, our sample complexity applies to the worse case setting whereas previous results only applied on average. Furthermore, we develop tools of independent interest, such as robust shadow tomography algorithms, Gibbs approximations to ground states, and generalisations of transportation cost inequalities for Gibbs states.</description>
+  </item>
+
+  <item>
     <title>A Direct Reduction from the Polynomial to the Adversary Method</title>
     <link>http://arxiv.org/pdf/2301.10317</link>
     <author>Aleksandrs Belovs</author>
@@ -20,6 +36,14 @@
     <author>Changhun Oh, Liang Jiang, Bill Fefferman</author>
     <pubDate>Jan 30 2023</pubDate>
     <description>We present a classical algorithm that approximately samples from the output distribution of certain noisy Boson Sampling experiments. This algorithm is inspired by a recent result of Aharonov, Gao, Landau, Liu and Vazirani and makes use of an observation originally due to Kalai and Kindler that the output probability of Boson Sampling experiments with a Gaussian noise model can be approximated by sparse low-degree polynomials. This observation alone does not suffice for classical sampling, because its marginal probabilities might not be approximated by sparse low-degree polynomials, and furthermore, the approximated probabilities might be negative. We solve this problem by employing the first quantization representation to give an algorithm for computing the marginal probabilities of these experiments. We prove that when the overall noise rate is constant, the algorithm runs in time quasi-polynomial in the number of input photons $N$ and accuracy. When the overall noise rate scales as $1-x_1^\gamma$ for constant $x_1$ and $\gamma=\Omega(\log N)$, the running time becomes polynomial. Furthermore, we study noisy Boson Sampling with practically relevant noise models such as partial distinguishability and photon loss. We show that the same technique does not immediately apply in these settings, leaving open the possibility of a scalable demonstration of noisy quantum advantage for these noise models in certain parameter regimes.</description>
+  </item>
+
+  <item>
+    <title>Everything is a quantum Ising model</title>
+    <link>http://arxiv.org/pdf/2301.11917</link>
+    <author>Ruben Verresen</author>
+    <pubDate>Jan 30 2023</pubDate>
+    <description>This work shows that any $k$-local Hamiltonian of qubits can be obtained from a 4-state 'Ising' model with $k$-local diagonal interactions and a single-site transverse field -- giving a new theoretical and experimental handle on quantum matter. In particular, the classical Ising interactions can be determined by replacing each Pauli operator with a $4 \times 4$ diagonal matrix. Subsequently tuning a large transverse field projects out two of the four states, recovering the original qubit model, with qudit generalizations. This leads to striking correspondences, such as the spin-1/2 XY and Heisenberg models arising from the large-field limit of 3-state and 4-state Potts models, respectively. Similarly, the Kitaev honeycomb model emerges from classical interactions which enforce loop states on the honeycomb lattice. These generalized Ising models also display rich physics for smaller fields, including quantum criticality and topological phases of matter. This work expands what is experimentally achievable by showing how to realize any quantum spin model using only diagonal interactions and a tuneable field -- ingredients found in, e.g., tweezer arrays of Rydberg atoms or polar molecules. More broadly, 4-state spins can also be encoded in the positions of itinerant particles, exemplified by a Bose-Hubbard model realizing the Kitaev honeycomb model -- giving an experimental path to its $\mathbb Z_2$ and non-Abelian topological quantum liquids.</description>
   </item>
 
   <item>
@@ -39,38 +63,6 @@
   </item>
 
   <item>
-    <title>Everything is a quantum Ising model</title>
-    <link>http://arxiv.org/pdf/2301.11917</link>
-    <author>Ruben Verresen</author>
-    <pubDate>Jan 30 2023</pubDate>
-    <description>This work shows that any $k$-local Hamiltonian of qubits can be obtained from a 4-state 'Ising' model with $k$-local diagonal interactions and a single-site transverse field -- giving a new theoretical and experimental handle on quantum matter. In particular, the classical Ising interactions can be determined by replacing each Pauli operator with a $4 \times 4$ diagonal matrix. Subsequently tuning a large transverse field projects out two of the four states, recovering the original qubit model, with qudit generalizations. This leads to striking correspondences, such as the spin-1/2 XY and Heisenberg models arising from the large-field limit of 3-state and 4-state Potts models, respectively. Similarly, the Kitaev honeycomb model emerges from classical interactions which enforce loop states on the honeycomb lattice. These generalized Ising models also display rich physics for smaller fields, including quantum criticality and topological phases of matter. This work expands what is experimentally achievable by showing how to realize any quantum spin model using only diagonal interactions and a tuneable field -- ingredients found in, e.g., tweezer arrays of Rydberg atoms or polar molecules. More broadly, 4-state spins can also be encoded in the positions of itinerant particles, exemplified by a Bose-Hubbard model realizing the Kitaev honeycomb model -- giving an experimental path to its $\mathbb Z_2$ and non-Abelian topological quantum liquids.</description>
-  </item>
-
-  <item>
-    <title>The superadditivity effects of quantum capacity decrease with the dimension for qudit depolarizing channels</title>
-    <link>http://arxiv.org/pdf/2301.10132</link>
-    <author>Josu Etxezarreta Martinez, Antonio deMarti iOlius, Pedro M. Crespo</author>
-    <pubDate>Jan 25 2023</pubDate>
-    <description>Quantum channel capacity is a fundamental quantity in order to understand how good can quantum information be transmitted or corrected when subjected to noise. However, it is generally not known how to compute such quantities, since the quantum channel coherent information is not additive for all channels, implying that it must be maximized over an unbounded number of channel uses. This leads to the phenomenon known as superadditivity, which refers to the fact that the regularized coherent information of $n$ channel uses exceeds one-shot coherent information. In this letter, we study how the gain in quantum capacity of qudit depolarizing channels relates to the dimension of the systems considered. We make use of an argument based on the no-cloning bound in order to proof that the possible superaditive effects decrease as a function of the dimension for such family of channels. In addition, we prove that the capacity of the qudit depolarizing channel coincides with the coherent information when $d\rightarrow\infty$. We conclude that when high dimensional qudits experiencing depolarizing noise are considered, the coherent information of the channel is not only an achievable rate but essentially the maximum possible rate for any quantum block code.</description>
-  </item>
-
-  <item>
-    <title>A Useful Inequality for the Binary Entropy Function</title>
-    <link>http://arxiv.org/pdf/2301.09664</link>
-    <author>Ravi B. Boppana</author>
-    <pubDate>Jan 25 2023</pubDate>
-    <description>We provide a simple proof of a curious inequality for the binary entropy function, an inequality that has been used in two different contexts. In the 1980's, Boppana used this entropy inequality to prove lower bounds on Boolean formulas. More recently, the inequality was used to achieve major progress on Frankl's union-closed sets conjecture. Our proof of the entropy inequality uses basic differential calculus.</description>
-  </item>
-
-  <item>
-    <title>Covariant catalysis requires correlations and good quantum reference frames degrade little</title>
-    <link>http://arxiv.org/pdf/2301.09877</link>
-    <author>Lauritz van Luijk, Reinhard F. Werner, Henrik Wilming</author>
-    <pubDate>Jan 25 2023</pubDate>
-    <description>Catalysts are quantum systems that open up dynamical pathways between quantum states which are otherwise inaccessible under a given set of operational restrictions while, at the same time, they do not change their quantum state. We here consider the restrictions imposed by symmetries and conservation laws, where any quantum channel has to be covariant with respect to the unitary representation of a symmetry group, and present two results. First, for an exact catalyst to be useful, it has to build up correlations to either the system of interest or the degrees of freedom dilating the given process to covariant unitary dynamics. This explains why catalysts in pure states are useless. Second, if a quantum system ("reference frame") is used to simulate to high precision unitary dynamics (which possibly violates the conservation law) on another system via a global, covariant quantum channel, then this channel can be chosen so that the reference frame is approximately catalytic. In other words, a reference frame that simulates unitary dynamics to high precision degrades only very little.</description>
-  </item>
-
-  <item>
     <title>Any consistent coupling between classical gravity and quantum matter is fundamentally irreversible</title>
     <link>http://arxiv.org/pdf/2301.10261</link>
     <author>Thomas D. Galley, Flaminia Giacomini, John H. Selby</author>
@@ -79,11 +71,19 @@
   </item>
 
   <item>
-    <title>Strategies for practical advantage of fault-tolerant circuit design in noisy trapped-ion quantum computers</title>
-    <link>http://arxiv.org/pdf/2301.10017</link>
-    <author>Sascha Heußen, Lukas Postler, Manuel Rispler, Ivan Pogorelov, Christian D. Marciniak, Thomas Monz, Philipp Schindler, Markus Müller</author>
-    <pubDate>Jan 25 2023</pubDate>
-    <description>Fault-tolerant quantum error correction provides a strategy to protect information processed by a quantum computer against noise which would otherwise corrupt the data. A fault-tolerant universal quantum computer must implement a universal gate set on the logical level in order to perform arbitrary calculations to in principle unlimited precision. We characterize the recent demonstration of a fault-tolerant universal gate set in a trapped-ion quantum computer [Postler et al. Nature 605.7911 (2022)] and identify aspects to improve the design of experimental setups to reach an advantage of logical over physical qubit operation. We show that various criteria to assess the break-even point for fault-tolerant quantum operations are within reach for the ion trap quantum computing architecture under consideration. We analyze the influence of crosstalk in entangling gates for logical state preparation circuits. These circuits can be designed to respect fault tolerance for specific microscopic noise models. We find that an experimentally-informed depolarizing noise model captures the essential noise dynamics of the fault-tolerant experiment, and crosstalk is negligible in the currently accessible regime of physical error rates. For deterministic Pauli state preparation, we provide a fault-tolerant unitary logical qubit initialization circuit, which can be realized without in-sequence measurement and feed-forward of classical information. We show that non-deterministic state preparation schemes for logical Pauli and magic states perform with higher logical fidelity over their deterministic counterparts for the current and anticipated future regime of physical error rates. Our results offer guidance on improvements of physical qubit operations and validate the experimentally-informed noise model as a tool to predict logical failure rates in quantum computing architectures based on trapped ions.</description>
+    <title>State polynomials: positivity, optimization and nonlinear Bell inequalities</title>
+    <link>http://arxiv.org/pdf/2301.12513</link>
+    <author>Igor Klep, Victor Magron, Jurij Volčič, Jie Wang</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>This paper introduces state polynomials, i.e., polynomials in noncommuting variables and formal states of their products. A state analog of Artin's solution to Hilbert's 17th problem is proved showing that state polynomials, positive over all matrices and matricial states, are sums of squares with denominators. Somewhat surprisingly, it is also established that a Krivine-Stengle Positivstellensatz fails to hold in the state polynomial setting. Further, archimedean Positivstellensätze in the spirit of Putinar and Helton-McCullough are presented leading to a hierarchy of semidefinite relaxations converging monotonically to the optimum of a state polynomial subject to state constraints. This hierarchy can be seen as a state analog of the Lasserre hierarchy for optimization of polynomials, and the Navascués-Pironio-Acín scheme for optimization of noncommutative polynomials. The motivation behind this theory arises from the study of correlations in quantum networks. Determining the maximal quantum violation of a polynomial Bell inequality for an arbitrary network is reformulated as a state polynomial optimization problem. Several examples of quadratic Bell inequalities in the bipartite and the bilocal tripartite scenario are analyzed. To reduce the size of the constructed SDPs, sparsity, sign symmetry and conditional expectation of the observables' group structure are exploited. To obtain the above-mentioned results, techniques from noncommutative algebra, real algebraic geometry, operator theory, and convex optimization are employed.</description>
+  </item>
+
+  <item>
+    <title>Security of differential phase shift QKD from relativistic principles</title>
+    <link>http://arxiv.org/pdf/2301.11340</link>
+    <author>Martin Sandfuchs, Marcus Haberland, V. Vilasini, Ramona Wolf</author>
+    <pubDate>Jan 30 2023</pubDate>
+    <description>The design of quantum protocols for secure key generation poses many challenges: On the one hand, they need to be practical concerning experimental realisations. On the other hand, their theoretical description must be simple enough to allow for a security proof against all possible attacks. Often, these two requirements are in conflict with each other, and the differential phase shift (DPS) QKD protocol is an excellent example of this: It is designed to be implementable with current optical telecommunication technology, which, for this protocol, comes at the cost that many standard security proof techniques do not apply to it. In this work, we give the first full security proof of DPS QKD against general attacks, including finite-size effects. The proof combines techniques from quantum information theory, quantum optics, and relativity. We first give a security proof of a QKD protocol whose security stems from relativistic constraints. We then show that DPS QKD can be formulated as an instance of the relativistic protocol. In addition, we show that coherent attacks on the DPS protocol are, in fact, stronger than collective attacks.</description>
   </item>
 
 </channel>

@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>The Complexity of NISQ</title>
-    <link>http://arxiv.org/pdf/2210.07234</link>
-    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
-    <pubDate>Oct 14 2022</pubDate>
-    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
-  </item>
-
-  <item>
     <title>The randomized measurement toolbox</title>
     <link>http://arxiv.org/pdf/2203.11374</link>
     <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
     <pubDate>Mar 23 2022</pubDate>
     <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
+  </item>
+
+  <item>
+    <title>The Complexity of NISQ</title>
+    <link>http://arxiv.org/pdf/2210.07234</link>
+    <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
+    <pubDate>Oct 14 2022</pubDate>
+    <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
   </item>
 
   <item>
@@ -151,6 +151,14 @@
   </item>
 
   <item>
+    <title>Mind the gap: Achieving a super-Grover quantum speedup by jumping to the end</title>
+    <link>http://arxiv.org/pdf/2212.01513</link>
+    <author>Alexander M. Dalzell, Nicola Pancotti, Earl T. Campbell, Fernando G. S. L. Brandão</author>
+    <pubDate>Dec 06 2022</pubDate>
+    <description>We present a quantum algorithm that has rigorous runtime guarantees for several families of binary optimization problems, including Quadratic Unconstrained Binary Optimization (QUBO), Ising spin glasses ($p$-spin model), and $k$-local constraint satisfaction problems ($k$-CSP). We show that either (a) the algorithm finds the optimal solution in time $O^*(2^{(0.5-c)n})$ for an $n$-independent constant $c$, a $2^{cn}$ advantage over Grover's algorithm; or (b) there are sufficiently many low-cost solutions such that classical random guessing produces a $(1-\eta)$ approximation to the optimal cost value in sub-exponential time for arbitrarily small choice of $\eta$. Additionally, we show that for a large fraction of random instances from the $k$-spin model and for any fully satisfiable or slightly frustrated $k$-CSP formula, statement (a) is the case. The algorithm and its analysis is largely inspired by Hastings' short-path algorithm [$\textit{Quantum}$ $\textbf{2}$ (2018) 78].</description>
+  </item>
+
+  <item>
     <title>Quantum Error Mitigation</title>
     <link>http://arxiv.org/pdf/2210.00921</link>
     <author>Zhenyu Cai, Ryan Babbush, Simon C. Benjamin, Suguru Endo, William J. Huggins, Ying Li, Jarrod R. McClean, Thomas E. O'Brien</author>
@@ -164,14 +172,6 @@
     <author>Marcel Hinsche, Marios Ioannou, Alexander Nietner, Jonas Haferkamp, Yihui Quek, Dominik Hangleiter, Jean-Pierre Seifert, Jens Eisert, Ryan Sweke</author>
     <pubDate>Jul 08 2022</pubDate>
     <description>The task of learning a probability distribution from samples is ubiquitous across the natural sciences. The output distributions of local quantum circuits form a particularly interesting class of distributions, of key importance both to quantum advantage proposals and a variety of quantum machine learning algorithms. In this work, we provide an extensive characterization of the learnability of the output distributions of local quantum circuits. Our first result yields insight into the relationship between the efficient learnability and the efficient simulatability of these distributions. Specifically, we prove that the density modelling problem associated with Clifford circuits can be efficiently solved, while for depth $d=n^{\Omega(1)}$ circuits the injection of a single $T$-gate into the circuit renders this problem hard. This result shows that efficient simulatability does not imply efficient learnability. Our second set of results provides insight into the potential and limitations of quantum generative modelling algorithms. We first show that the generative modelling problem associated with depth $d=n^{\Omega(1)}$ local quantum circuits is hard for any learning algorithm, classical or quantum. As a consequence, one cannot use a quantum algorithm to gain a practical advantage for this task. We then show that, for a wide variety of the most practically relevant learning algorithms -- including hybrid-quantum classical algorithms -- even the generative modelling problem associated with depth $d=\omega(\log(n))$ Clifford circuits is hard. This result places limitations on the applicability of near-term hybrid quantum-classical generative modelling algorithms.</description>
-  </item>
-
-  <item>
-    <title>Mind the gap: Achieving a super-Grover quantum speedup by jumping to the end</title>
-    <link>http://arxiv.org/pdf/2212.01513</link>
-    <author>Alexander M. Dalzell, Nicola Pancotti, Earl T. Campbell, Fernando G. S. L. Brandão</author>
-    <pubDate>Dec 06 2022</pubDate>
-    <description>We present a quantum algorithm that has rigorous runtime guarantees for several families of binary optimization problems, including Quadratic Unconstrained Binary Optimization (QUBO), Ising spin glasses ($p$-spin model), and $k$-local constraint satisfaction problems ($k$-CSP). We show that either (a) the algorithm finds the optimal solution in time $O^*(2^{(0.5-c)n})$ for an $n$-independent constant $c$, a $2^{cn}$ advantage over Grover's algorithm; or (b) there are sufficiently many low-cost solutions such that classical random guessing produces a $(1-\eta)$ approximation to the optimal cost value in sub-exponential time for arbitrarily small choice of $\eta$. Additionally, we show that for a large fraction of random instances from the $k$-spin model and for any fully satisfiable or slightly frustrated $k$-CSP formula, statement (a) is the case. The algorithm and its analysis is largely inspired by Hastings' short-path algorithm [$\textit{Quantum}$ $\textbf{2}$ (2018) 78].</description>
   </item>
 
   <item>
@@ -207,14 +207,6 @@
   </item>
 
   <item>
-    <title>A construction of Combinatorial NLTS</title>
-    <link>http://arxiv.org/pdf/2206.02741</link>
-    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
-    <pubDate>Jun 07 2022</pubDate>
-    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
-  </item>
-
-  <item>
     <title>Towards near-term quantum simulation of materials</title>
     <link>http://arxiv.org/pdf/2205.15256</link>
     <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
@@ -223,11 +215,11 @@
   </item>
 
   <item>
-    <title>Quantum advantage for combinatorial optimization problems, Simplified</title>
-    <link>http://arxiv.org/pdf/2212.12572</link>
-    <author>Mario Szegedy</author>
-    <pubDate>Dec 27 2022</pubDate>
-    <description>We observe that fault-tolerant quantum computers have an optimal advantage over classical computers in approximating solutions to many NP optimization problems. This observation however gives nothing in practice.</description>
+    <title>A construction of Combinatorial NLTS</title>
+    <link>http://arxiv.org/pdf/2206.02741</link>
+    <author>Anurag Anshu, Nikolas P. Breuckmann</author>
+    <pubDate>Jun 07 2022</pubDate>
+    <description>The NLTS (No Low-Energy Trivial State) conjecture of Freedman and Hastings [2014] posits that there exist families of Hamiltonians with all low energy states of high complexity (with complexity measured by the quantum circuit depth preparing the state). Here, we prove a weaker version called the combinatorial NLTS, where a quantum circuit lower bound is shown against states that violate a (small) constant fraction of local terms. This generalizes the prior NLETS results (Eldar and Harrow [2017]; Nirkhe, Vazirani and Yuen [2018]). Our construction is obtained by combining tensor networks with expander codes (Sipser and Spielman [1996]). The Hamiltonian is the parent Hamiltonian of a perturbed tensor network, inspired by the `uncle Hamiltonian' of Fernandez-Gonzalez et. al. [2015]. Thus, we deviate from the quantum CSS code Hamiltonians considered in most prior works.</description>
   </item>
 
   <item>
@@ -239,11 +231,27 @@
   </item>
 
   <item>
+    <title>Quantum advantage for combinatorial optimization problems, Simplified</title>
+    <link>http://arxiv.org/pdf/2212.12572</link>
+    <author>Mario Szegedy</author>
+    <pubDate>Dec 27 2022</pubDate>
+    <description>We observe that fault-tolerant quantum computers have an optimal advantage over classical computers in approximating solutions to many NP optimization problems. This observation however gives nothing in practice.</description>
+  </item>
+
+  <item>
     <title>Time-energy uncertainty relation for noisy quantum metrology</title>
     <link>http://arxiv.org/pdf/2207.13707</link>
     <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
     <pubDate>Jul 29 2022</pubDate>
     <description>Detection of weak forces and precise measurement of time are two of the many applications of quantum metrology to science and technology. We consider a quantum system initialized in a pure state and whose evolution is goverened by a Hamiltonian $H$; a measurement can later estimate the time $t$ for which the system has evolved. In this work, we introduce and study a fundamental trade-off which relates the amount by which noise reduces the accuracy of a quantum clock to the amount of information about the energy of the clock that leaks to the environment. Specifically, we consider an idealized scenario in which Alice prepares an initial pure state of the clock, allows the clock to evolve for a time $t$ that is not precisely known, and then transmits the clock through a noisy channel to Bob. The environment (Eve) receives any information that is lost. We prove that Bob's loss of quantum Fisher information (QFI) about $t$ is equal to Eve's gain of QFI about a complementary energy parameter. We also prove a more general trade-off that applies when Bob and Eve wish to estimate the values of parameters associated with two non-commuting observables. We derive the necessary and sufficient conditions for the accuracy of the clock to be unaffected by the noise. These are a subset of the Knill-Laflamme error-correction conditions; states satisfying these conditions are said to form a metrological code. We provide a scheme to construct metrological codes in the stabilizer formalism. We show that there are metrological codes that cannot be written as a quantum error-correcting code with similar distance in which the Hamiltonian acts as a logical operator, potentially offering new schemes for constructing states that do not lose any sensitivity upon application of a noisy channel. We discuss applications of our results to sensing using a many-body state subject to erasure or amplitude-damping noise.</description>
+  </item>
+
+  <item>
+    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
+    <link>http://arxiv.org/pdf/2203.16571</link>
+    <author>Jonas Haferkamp</author>
+    <pubDate>Apr 01 2022</pubDate>
+    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\to\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.</description>
   </item>
 
   <item>
@@ -268,14 +276,6 @@
     <author>Álvaro M. Alhambra</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
-  </item>
-
-  <item>
-    <title>Random quantum circuits are approximate unitary $t$-designs in depth $O\left(nt^{5+o(1)}\right)$</title>
-    <link>http://arxiv.org/pdf/2203.16571</link>
-    <author>Jonas Haferkamp</author>
-    <pubDate>Apr 01 2022</pubDate>
-    <description>The applications of random quantum circuits range from quantum computing and quantum many-body systems to the physics of black holes. Many of these applications are related to the generation of quantum pseudorandomness: Random quantum circuits are known to approximate unitary $t$-designs. Unitary $t$-designs are probability distributions that mimic Haar randomness up to $t$th moments. In a seminal paper, Brandão, Harrow and Horodecki prove that random quantum circuits on qubits in a brickwork architecture of depth $O(n t^{10.5})$ are approximate unitary $t$-designs. In this work, we revisit this argument, which lower bounds the spectral gap of moment operators for local random quantum circuits by $\Omega(n^{-1}t^{-9.5})$. We improve this lower bound to $\Omega(n^{-1}t^{-4-o(1)})$, where the $o(1)$ term goes to $0$ as $t\to\infty$. A direct consequence of this scaling is that random quantum circuits generate approximate unitary $t$-designs in depth $O(nt^{5+o(1)})$. Our techniques involve Gao's quantum union bound and the unreasonable effectiveness of the Clifford group. As an auxiliary result, we prove fast convergence to the Haar measure for random Clifford unitaries interleaved with Haar random single qubit unitaries.</description>
   </item>
 
   <item>
@@ -335,6 +335,14 @@
   </item>
 
   <item>
+    <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
+    <link>http://arxiv.org/pdf/2207.07044</link>
+    <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>We consider the computational task of sampling a bit string $x$ from a distribution $\pi(x)=|\langle x|\psi\rangle|^2$, where $\psi$ is the unique ground state of a local Hamiltonian $H$. Our main result describes a direct link between the inverse spectral gap of $H$ and the mixing time of an associated continuous-time Markov Chain with steady state $\pi$. The Markov Chain can be implemented efficiently whenever ratios of ground state amplitudes $\langle y|\psi\rangle/\langle x|\psi\rangle$ are efficiently computable and the starting state of the chain satisfies a mild technical condition that can be efficiently checked. This extends a previously known relationship between sign-problem free Hamiltonians and Markov chains. The tool which enables this generalization is the so-called fixed-node Hamiltonian construction, previously used in Quantum Monte Carlo simulations to address the fermionic sign problem. We implement the proposed sampling algorithm numerically and use it to sample from the ground state of Haldane-Shastry Hamiltonian with up to 56 qubits. We observe empirically that our Markov chain based on the fixed-node Hamiltonian mixes more rapidly than the standard Metropolis-Hastings Markov chain.</description>
+  </item>
+
+  <item>
     <title>Bosonic coding: introduction and use cases</title>
     <link>http://arxiv.org/pdf/2211.05714</link>
     <author>Victor V. Albert</author>
@@ -348,22 +356,6 @@
     <author>Andrew M. Childs, Robin Kothari, Matt Kovacs-Deak, Aarthi Sundaram, Daochen Wang</author>
     <pubDate>Oct 13 2022</pubDate>
     <description>The divide-and-conquer framework, used extensively in classical algorithm design, recursively breaks a problem of size $n$ into smaller subproblems (say, $a$ copies of size $n/b$ each), along with some auxiliary work of cost $C^{\textrm{aux}}(n)$, to give a recurrence relation $$C(n) ≤a \,C(n/b) + C^\textrmaux(n)$$ for the classical complexity $C(n)$. We describe a quantum divide-and-conquer framework that, in certain cases, yields an analogous recurrence relation $$C_Q(n) ≤\sqrta \u2009C_Q(n/b) + O(C^\textrmaux_Q(n))$$ that characterizes the quantum query complexity. We apply this framework to obtain near-optimal quantum query complexities for various string problems, such as (i) recognizing regular languages; (ii) decision versions of String Rotation and String Suffix; and natural parameterized versions of (iii) Longest Increasing Subsequence and (iv) Longest Common Subsequence.</description>
-  </item>
-
-  <item>
-    <title>A rapidly mixing Markov chain from any gapped quantum many-body system</title>
-    <link>http://arxiv.org/pdf/2207.07044</link>
-    <author>Sergey Bravyi, Giuseppe Carleo, David Gosset, Yinchen Liu</author>
-    <pubDate>Jul 15 2022</pubDate>
-    <description>We consider the computational task of sampling a bit string $x$ from a distribution $\pi(x)=|\langle x|\psi\rangle|^2$, where $\psi$ is the unique ground state of a local Hamiltonian $H$. Our main result describes a direct link between the inverse spectral gap of $H$ and the mixing time of an associated continuous-time Markov Chain with steady state $\pi$. The Markov Chain can be implemented efficiently whenever ratios of ground state amplitudes $\langle y|\psi\rangle/\langle x|\psi\rangle$ are efficiently computable and the starting state of the chain satisfies a mild technical condition that can be efficiently checked. This extends a previously known relationship between sign-problem free Hamiltonians and Markov chains. The tool which enables this generalization is the so-called fixed-node Hamiltonian construction, previously used in Quantum Monte Carlo simulations to address the fermionic sign problem. We implement the proposed sampling algorithm numerically and use it to sample from the ground state of Haldane-Shastry Hamiltonian with up to 56 qubits. We observe empirically that our Markov chain based on the fixed-node Hamiltonian mixes more rapidly than the standard Metropolis-Hastings Markov chain.</description>
-  </item>
-
-  <item>
-    <title>Efficient classical algorithms for simulating symmetric quantum systems</title>
-    <link>http://arxiv.org/pdf/2211.16998</link>
-    <author>Eric R. Anschuetz, Andreas Bauer, Bobak T. Kiani, Seth Lloyd</author>
-    <pubDate>Dec 01 2022</pubDate>
-    <description>The presence of symmetries can convert an otherwise computationally hard task into an efficient one. In light of recently proposed quantum algorithms that incorporate symmetries in the hope of quantum advantage, we show that with symmetries that are restrictive enough, classical algorithms can efficiently emulate their quantum counterparts. As an example, we show that simulating and finding the ground state of permutation invariant Hamiltonians can be efficiently performed in polynomial classical time, further restricting the possible set of symmetries that provide quantum advantage.</description>
   </item>
 
   <item>
@@ -391,6 +383,14 @@
   </item>
 
   <item>
+    <title>Efficient classical algorithms for simulating symmetric quantum systems</title>
+    <link>http://arxiv.org/pdf/2211.16998</link>
+    <author>Eric R. Anschuetz, Andreas Bauer, Bobak T. Kiani, Seth Lloyd</author>
+    <pubDate>Dec 01 2022</pubDate>
+    <description>The presence of symmetries can convert an otherwise computationally hard task into an efficient one. In light of recently proposed quantum algorithms that incorporate symmetries in the hope of quantum advantage, we show that with symmetries that are restrictive enough, classical algorithms can efficiently emulate their quantum counterparts. As an example, we show that simulating and finding the ground state of permutation invariant Hamiltonians can be efficiently performed in polynomial classical time, further restricting the possible set of symmetries that provide quantum advantage.</description>
+  </item>
+
+  <item>
     <title>Thermalization without eigenstate thermalization</title>
     <link>http://arxiv.org/pdf/2209.09826</link>
     <author>Aram W. Harrow, Yichen Huang</author>
@@ -399,11 +399,11 @@
   </item>
 
   <item>
-    <title>A mathematical framework for quantum Hamiltonian simulation and duality</title>
-    <link>http://arxiv.org/pdf/2208.11941</link>
-    <author>Harriet Apel, Toby Cubitt</author>
-    <pubDate>Aug 26 2022</pubDate>
-    <description>Analogue Hamiltonian simulation is a promising near-term application of quantum computing and has recently been put on a theoretical footing. In Hamiltonian simulation, a physical Hamiltonian is engineered to have identical physics to another - often very different - Hamiltonian. This is qualitatively similar to the notion of duality in physics, whereby two superficially different theories are mathematically equivalent in some precise sense. However, existing characterisations of Hamiltonian simulations are not sufficiently general to extend to all dualities in physics. In particular, they cannot encompass the important cases of strong/weak and high-temperature/low-temperature dualities. In this work, we give three physically motivated axiomatisations of duality, formulated respectively in terms of observables, partition functions and entropies. We prove that these axiomatisations are equivalent, and characterise the mathematical form that any duality satisfying these axioms must take. A building block in one of our results is a strengthening of earlier results on entropy-preserving maps to maps that are entropy-preserving up to an additive constant, which we prove decompose as a direct sum of unitary and anti-unitary components, which may be of independent mathematical interest.</description>
+    <title>Logical shadow tomography: Efficient estimation of error-mitigated observables</title>
+    <link>http://arxiv.org/pdf/2203.07263</link>
+    <author>Hong-Ye Hu, Ryan LaRose, Yi-Zhuang You, Eleanor Rieffel, Zhihui Wang</author>
+    <pubDate>Mar 15 2022</pubDate>
+    <description>We introduce a technique to estimate error-mitigated expectation values on noisy quantum computers. Our technique performs shadow tomography on a logical state to produce a memory-efficient classical reconstruction of the noisy density matrix. Using efficient classical post-processing, one can mitigate errors by projecting a general nonlinear function of the noisy density matrix into the codespace. The subspace expansion and virtual distillation can be viewed as special cases of the new framekwork. We show our method is favorable in the quantum and classical resources overhead. Relative to subspace expansion which requires $O\left(2^{N} \right)$ samples to estimate a logical Pauli observable with $[[N, k]]$ error correction code, our technique requires only $O\left(4^{k} \right)$ samples. Relative to virtual distillation, our technique can compute powers of the density matrix without additional copies of quantum states or quantum memory. We present numerical evidence using logical states encoded with up to sixty physical qubits and show fast convergence to error-free expectation values with only $10^5$ samples under 1% depolarizing noise.</description>
   </item>
 
 </channel>
