@@ -15,19 +15,19 @@
   </item>
 
   <item>
-    <title>The randomized measurement toolbox</title>
-    <link>http://arxiv.org/pdf/2203.11374</link>
-    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
-    <pubDate>Mar 23 2022</pubDate>
-    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
-  </item>
-
-  <item>
     <title>The Complexity of NISQ</title>
     <link>http://arxiv.org/pdf/2210.07234</link>
     <author>Sitan Chen, Jordan Cotler, Hsin-Yuan Huang, Jerry Li</author>
     <pubDate>Oct 14 2022</pubDate>
     <description>The recent proliferation of NISQ devices has made it imperative to understand their computational power. In this work, we define and study the complexity class $\textsf{NISQ} $, which is intended to encapsulate problems that can be efficiently solved by a classical computer with access to a NISQ device. To model existing devices, we assume the device can (1) noisily initialize all qubits, (2) apply many noisy quantum gates, and (3) perform a noisy measurement on all qubits. We first give evidence that $\textsf{BPP}\subsetneq \textsf{NISQ}\subsetneq \textsf{BQP}$, by demonstrating super-polynomial oracle separations among the three classes, based on modifications of Simon's problem. We then consider the power of $\textsf{NISQ}$ for three well-studied problems. For unstructured search, we prove that $\textsf{NISQ}$ cannot achieve a Grover-like quadratic speedup over $\textsf{BPP}$. For the Bernstein-Vazirani problem, we show that $\textsf{NISQ}$ only needs a number of queries logarithmic in what is required for $\textsf{BPP}$. Finally, for a quantum state learning problem, we prove that $\textsf{NISQ}$ is exponentially weaker than classical computation with access to noiseless constant-depth quantum circuits.</description>
+  </item>
+
+  <item>
+    <title>The randomized measurement toolbox</title>
+    <link>http://arxiv.org/pdf/2203.11374</link>
+    <author>Andreas Elben, Steven T. Flammia, Hsin-Yuan Huang, Richard Kueng, John Preskill, Benoît Vermersch, Peter Zoller</author>
+    <pubDate>Mar 23 2022</pubDate>
+    <description>Increasingly sophisticated programmable quantum simulators and quantum computers are opening unprecedented opportunities for exploring and exploiting the properties of highly entangled complex quantum systems. The complexity of large quantum systems is the source of their power, but also makes them difficult to control precisely or characterize accurately using measured classical data. We review recently developed protocols for probing the properties of complex many-qubit systems using measurement schemes that are practical using today's quantum platforms. In all these protocols, a quantum state is repeatedly prepared and measured in a randomly chosen basis; then a classical computer processes the measurement outcomes to estimate the desired property. The randomization of the measurement procedure has distinct advantages; for example, a single data set can be employed multiple times to pursue a variety of applications, and imperfections in the measurements are mapped to a simplified noise model that can more easily be mitigated. We discuss a range of use cases that have already been realized in quantum devices, including Hamiltonian simulation tasks, probes of quantum chaos, measurements of nonlocal order parameters, and comparison of quantum states produced in distantly separated laboratories. By providing a workable method for translating a complex quantum state into a succinct classical representation that preserves a rich variety of relevant physical properties, the randomized measurement toolbox strengthens our ability to grasp and control the quantum world.</description>
   </item>
 
   <item>
@@ -95,6 +95,14 @@
   </item>
 
   <item>
+    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
+    <link>http://arxiv.org/pdf/2207.06431</link>
+    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
+    <pubDate>Jul 15 2022</pubDate>
+    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
+  </item>
+
+  <item>
     <title>Foundations for learning from noisy quantum experiments</title>
     <link>http://arxiv.org/pdf/2204.13691</link>
     <author>Hsin-Yuan Huang, Steven T. Flammia, John Preskill</author>
@@ -111,19 +119,19 @@
   </item>
 
   <item>
-    <title>Suppressing quantum errors by scaling a surface code logical qubit</title>
-    <link>http://arxiv.org/pdf/2207.06431</link>
-    <author>Rajeev Acharya, Igor Aleiner, Richard Allen, Trond I. Andersen, Markus Ansmann, Frank Arute, Kunal Arya, Abraham Asfaw, Juan Atalaya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Joao Basso, Andreas Bengtsson, Sergio Boixo, Gina Bortoli, Alexandre Bourassa, Jenna Bovaird, Leon Brill, Michael Broughton, et al (137)</author>
-    <pubDate>Jul 15 2022</pubDate>
-    <description>Practical quantum computing will require error rates that are well below what is achievable with physical qubits. Quantum error correction offers a path to algorithmically-relevant error rates by encoding logical qubits within many physical qubits, where increasing the number of physical qubits enhances protection against physical errors. However, introducing more qubits also increases the number of error sources, so the density of errors must be sufficiently low in order for logical performance to improve with increasing code size. Here, we report the measurement of logical qubit performance scaling across multiple code sizes, and demonstrate that our system of superconducting qubits has sufficient performance to overcome the additional errors from increasing qubit number. We find our distance-5 surface code logical qubit modestly outperforms an ensemble of distance-3 logical qubits on average, both in terms of logical error probability over 25 cycles and logical error per cycle ($2.914\%\pm 0.016\%$ compared to $3.028\%\pm 0.023\%$). To investigate damaging, low-probability error sources, we run a distance-25 repetition code and observe a $1.7\times10^{-6}$ logical error per round floor set by a single high-energy event ($1.6\times10^{-7}$ when excluding this event). We are able to accurately model our experiment, and from this model we can extract error budgets that highlight the biggest challenges for future systems. These results mark the first experimental demonstration where quantum error correction begins to improve performance with increasing qubit number, illuminating the path to reaching the logical error rates required for computation.</description>
-  </item>
-
-  <item>
     <title>Shallow shadows: Expectation estimation using low-depth random Clifford circuits</title>
     <link>http://arxiv.org/pdf/2209.12924</link>
     <author>Christian Bertoni, Jonas Haferkamp, Marcel Hinsche, Marios Ioannou, Jens Eisert, Hakop Pashayan</author>
     <pubDate>Sep 28 2022</pubDate>
     <description>We provide practical and powerful schemes for learning many properties of an unknown n-qubit quantum state using a sparing number of copies of the state. Specifically, we present a depth-modulated randomized measurement scheme that interpolates between two known classical shadows schemes based on random Pauli measurements and random Clifford measurements. These can be seen within our scheme as the special cases of zero and infinite depth, respectively. We focus on the regime where depth scales logarithmically in n and provide evidence that this retains the desirable properties of both extremal schemes whilst, in contrast to the random Clifford scheme, also being experimentally feasible. We present methods for two key tasks; estimating expectation values of certain observables from generated classical shadows and, computing upper bounds on the depth-modulated shadow norm, thus providing rigorous guarantees on the accuracy of the output estimates. We consider observables that can be written as a linear combination of poly(n) Paulis and observables that can be written as a low bond dimension matrix product operator. For the former class of observables both tasks are solved efficiently in n. For the latter class, we do not guarantee efficiency but present a method that works in practice; by variationally computing a heralded approximate inverses of a tensor network that can then be used for efficiently executing both these tasks.</description>
+  </item>
+
+  <item>
+    <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
+    <link>http://arxiv.org/pdf/2212.08678</link>
+    <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
+    <pubDate>Dec 20 2022</pubDate>
+    <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of scientific and industrial contexts - has been identified as one of the core potential fields of applicability of quantum computers. It is still unclear, however, to what extent quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work by Kearns and Valiant, we have identified special types of problems that are hard for classical computers to approximate. Despite this, we give a quantum algorithm such that an optimal solution can be efficiently approximated by quantum computers. The advantage for special instances of the so-called integer programming problem is shown to be super-polynomial. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms. Our results also give clear guidance on how to construct such advantage-bearing problem instances.</description>
   </item>
 
   <item>
@@ -143,19 +151,27 @@
   </item>
 
   <item>
-    <title>A super-polynomial quantum advantage for combinatorial optimization problems</title>
-    <link>http://arxiv.org/pdf/2212.08678</link>
-    <author>Niklas Pirnay, Vincent Ulitzsch, Frederik Wilde, Jens Eisert, Jean-Pierre Seifert</author>
-    <pubDate>Dec 20 2022</pubDate>
-    <description>Combinatorial optimization - a field of research addressing problems that feature strongly in a wealth of practical and industrial contexts - has been identified as one of the core potential fields of applicability of near-term quantum computers. It is still unclear, however, to what extent variational quantum algorithms can actually outperform classical algorithms for this type of problems. In this work, by resorting to computational learning theory and cryptographic notions, we prove that fault-tolerant quantum computers feature a super-polynomial advantage over classical computers in approximating solutions to combinatorial optimization problems. Specifically, building on seminal work of Kearns and Valiant, we construct special instances of the integer programming problem (which in its most general form is NP-complete) that we prove to be hard-to-approximate classically but give an efficient quantum algorithm to approximate the optimal solution of those instances, hence showing a super-polynomial quantum advantage. This result shows that quantum devices have the power to approximate combinatorial optimization solutions beyond the reach of classical efficient algorithms.</description>
-  </item>
-
-  <item>
     <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
     <link>http://arxiv.org/pdf/2205.05668</link>
     <author>Zhi Li</author>
     <pubDate>May 12 2022</pubDate>
     <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
+  </item>
+
+  <item>
+    <title>Sparse random Hamiltonians are quantumly easy</title>
+    <link>http://arxiv.org/pdf/2302.03394</link>
+    <author>Chi-Fang Chen, Alexander M. Dalzell, Mario Berta, Fernando G.S.L. Brandão, Joel A. Tropp</author>
+    <pubDate>Feb 08 2023</pubDate>
+    <description>A candidate application for quantum computers is to simulate the low-temperature properties of quantum systems. For this task, there is a well-studied quantum algorithm that performs quantum phase estimation on an initial trial state that has a nonnegligible overlap with a low-energy state. However, it is notoriously hard to give theoretical guarantees that such a trial state can be prepared efficiently. Moreover, the heuristic proposals that are currently available, such as with adiabatic state preparation, appear insufficient in practical cases. This paper shows that, for most random sparse Hamiltonians, the maximally mixed state is a sufficiently good trial state, and phase estimation efficiently prepares states with energy arbitrarily close to the ground energy. Furthermore, any low-energy state must have nonnegligible quantum circuit complexity, suggesting that low-energy states are classically nontrivial and phase estimation is the optimal method for preparing such states (up to polynomial factors). These statements hold for two models of random Hamiltonians: (i) a sum of random signed Pauli strings and (ii) a random signed $d$-sparse Hamiltonian. The main technical argument is based on some new results in nonasymptotic random matrix theory. In particular, a refined concentration bound for the spectral density is required to obtain complexity guarantees for these random Hamiltonians.</description>
+  </item>
+
+  <item>
+    <title>Efficient learning of ground & thermal states within phases of matter</title>
+    <link>http://arxiv.org/pdf/2301.12946</link>
+    <author>Emilio Onorati, Cambyse Rouzé, Daniel Stilck França, James D. Watson</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>We consider two related tasks: (a) estimating a parameterisation of a given Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision. For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians with exponential decay of correlations and the approximate Markov property. We show it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality -- an exponential improvement. This set of properties includes expected values of quasi-local observables and entropies. For the second task, we develop efficient algorithms for learning observables in a phase of matter of a quantum system. By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ to precision $\epsilon$ with using only $N=O\big(\log\big(\frac{M}{\delta}\big)e^{polylog(\epsilon^{-1})}\big)$ samples -- an exponential improvement on the precision over previous bounds. Our results apply to both families of ground states of Hamiltonians displaying local topological quantum order, and thermal phases of matter with exponential decay of correlations. In addition, our sample complexity applies to the worse case setting whereas previous results only applied on average. Furthermore, we develop tools of independent interest, such as robust shadow tomography algorithms, Gibbs approximations to ground states, and generalisations of transportation cost inequalities for Gibbs states.</description>
   </item>
 
   <item>
@@ -199,11 +215,11 @@
   </item>
 
   <item>
-    <title>Towards near-term quantum simulation of materials</title>
-    <link>http://arxiv.org/pdf/2205.15256</link>
-    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
-    <pubDate>May 31 2022</pubDate>
-    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $884$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
+    <title>Improved machine learning algorithm for predicting ground state properties</title>
+    <link>http://arxiv.org/pdf/2301.13169</link>
+    <author>Laura Lewis, Hsin-Yuan Huang, Viet T. Tran, Sebastian Lehner, Richard Kueng, John Preskill</author>
+    <pubDate>Jan 31 2023</pubDate>
+    <description>Finding the ground state of a quantum many-body system is a fundamental problem in quantum physics. In this work, we give a classical machine learning (ML) algorithm for predicting ground state properties with an inductive bias encoding geometric locality. The proposed ML model can efficiently predict ground state properties of an $n$-qubit gapped local Hamiltonian after learning from only $\mathcal{O}(\log(n))$ data about other Hamiltonians in the same quantum phase of matter. This improves substantially upon previous results that require $\mathcal{O}(n^c)$ data for a large constant $c$. Furthermore, the training and prediction time of the proposed ML model scale as $\mathcal{O}(n \log n)$ in the number of qubits $n$. Numerical experiments on physical systems with up to 45 qubits confirm the favorable scaling in predicting ground state properties using a small training dataset.</description>
   </item>
 
   <item>
@@ -220,6 +236,14 @@
     <author>Henry Yuen</author>
     <pubDate>Jun 23 2022</pubDate>
     <description>We show that $\Omega(rd/\epsilon)$ copies of an unknown rank-$r$, dimension-$d$ quantum mixed state are necessary in order to learn a classical description with $1 - \epsilon$ fidelity. This improves upon the tomography lower bounds obtained by Haah, et al. and Wright (when closeness is measured with respect to the fidelity function).</description>
+  </item>
+
+  <item>
+    <title>Towards near-term quantum simulation of materials</title>
+    <link>http://arxiv.org/pdf/2205.15256</link>
+    <author>Laura Clinton, Toby Cubitt, Brian Flynn, Filippo Maria Gambetta, Joel Klassen, Ashley Montanaro, Stephen Piddock, Raul A. Santos, Evan Sheridan</author>
+    <pubDate>May 31 2022</pubDate>
+    <description>Simulation of materials is one of the most promising applications of quantum computers. On near-term hardware the crucial constraint on these simulations is circuit depth. Many quantum simulation algorithms rely on a layer of unitary evolutions generated by each term in a Hamiltonian. This appears in time-dynamics as a single Trotter step, and in variational quantum eigensolvers under the Hamiltonian variational ansatz as a single ansatz layer. We present a new quantum algorithm design for materials modelling where the depth of a layer is independent of the system size. This design takes advantage of the locality of materials in the Wannier basis and employs a tailored fermionic encoding that preserves locality. We analyse the circuit costs of this approach and present a compiler that transforms density functional theory data into quantum circuit instructions -- connecting the physics of the material to the simulation circuit. The compiler automatically optimises circuits at multiple levels, from the base gate level to optimisations derived from the physics of the specific target material. We present numerical results for materials spanning a wide structural and technological range. Our results demonstrate a reduction of many orders of magnitude in circuit depth over standard prior methods that do not consider the structure of the Hamiltonian. For example our results improve resource requirements for Strontium Vanadate (SrVO$_3$) from 864 to 180 qubits for a $3\times3\times3$ lattice, and the circuit depth of a single Trotter or variational layer from $7.5\times 10^8$ to depth $884$. Although this is still beyond current hardware, our results show that materials simulation may be feasible on quantum computers without necessarily requiring scalable, fault-tolerant quantum computers, provided quantum algorithm design incorporates understanding of the materials and applications.</description>
   </item>
 
   <item>
@@ -271,6 +295,14 @@
   </item>
 
   <item>
+    <title>The Future of Quantum Computing with Superconducting Qubits</title>
+    <link>http://arxiv.org/pdf/2209.06841</link>
+    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
+    <pubDate>Sep 16 2022</pubDate>
+    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
+  </item>
+
+  <item>
     <title>Time-energy uncertainty relation for noisy quantum metrology</title>
     <link>http://arxiv.org/pdf/2207.13707</link>
     <author>Philippe Faist, Mischa P. Woods, Victor V. Albert, Joseph M. Renes, Jens Eisert, John Preskill</author>
@@ -284,14 +316,6 @@
     <author>Álvaro M. Alhambra</author>
     <pubDate>Apr 19 2022</pubDate>
     <description>The thermal or equilibrium ensemble is one of the most ubiquitous states of matter. For models comprised of many locally interacting quantum particles, it describes a wide range of physical situations, relevant to condensed matter physics, high energy physics, quantum chemistry and quantum computing, among others. We give a pedagogical overview of some of the most important universal features about the physics and complexity of these states, which have the locality of the Hamiltonian at its core. We focus on mathematically rigorous statements, many of them inspired by ideas and tools from quantum information theory. These include bounds on their correlations, the form of the subsystems, various statistical properties, and the performance of classical and quantum algorithms. We also include a summary of a few of the most important technical tools, as well as some self-contained proofs.</description>
-  </item>
-
-  <item>
-    <title>The Future of Quantum Computing with Superconducting Qubits</title>
-    <link>http://arxiv.org/pdf/2209.06841</link>
-    <author>Sergey Bravyi, Oliver Dial, Jay M. Gambetta, Dario Gil, Zaira Nazario</author>
-    <pubDate>Sep 16 2022</pubDate>
-    <description>For the first time in history, we are seeing a branching point in computing paradigms with the emergence of quantum processing units (QPUs). Extracting the full potential of computation and realizing quantum algorithms with a super-polynomial speedup will most likely require major advances in quantum error correction technology. Meanwhile, achieving a computational advantage in the near term may be possible by combining multiple QPUs through circuit knitting techniques, improving the quality of solutions through error suppression and mitigation, and focusing on heuristic versions of quantum algorithms with asymptotic speedups. For this to happen, the performance of quantum computing hardware needs to improve and software needs to seamlessly integrate quantum and classical processors together to form a new architecture that we are calling quantum-centric supercomputing. Long term, we see hardware that exploits qubit connectivity in higher than 2D topologies to realize more efficient quantum error correcting codes, modular architectures for scaling QPUs and parallelizing workloads, and software that evolves to make the intricacies of the technology invisible to the users and realize the goal of ubiquitous, frictionless quantum computing.</description>
   </item>
 
   <item>
@@ -311,11 +335,11 @@
   </item>
 
   <item>
-    <title>Efficient learning of ground & thermal states within phases of matter</title>
-    <link>http://arxiv.org/pdf/2301.12946</link>
-    <author>Emilio Onorati, Cambyse Rouzé, Daniel Stilck França, James D. Watson</author>
-    <pubDate>Jan 31 2023</pubDate>
-    <description>We consider two related tasks: (a) estimating a parameterisation of a given Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision. For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians with exponential decay of correlations and the approximate Markov property. We show it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality -- an exponential improvement. This set of properties includes expected values of quasi-local observables and entropies. For the second task, we develop efficient algorithms for learning observables in a phase of matter of a quantum system. By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ to precision $\epsilon$ with using only $N=O\big(\log\big(\frac{M}{\delta}\big)e^{polylog(\epsilon^{-1})}\big)$ samples -- an exponential improvement on the precision over previous bounds. Our results apply to both families of ground states of Hamiltonians displaying local topological quantum order, and thermal phases of matter with exponential decay of correlations. In addition, our sample complexity applies to the worse case setting whereas previous results only applied on average. Furthermore, we develop tools of independent interest, such as robust shadow tomography algorithms, Gibbs approximations to ground states, and generalisations of transportation cost inequalities for Gibbs states.</description>
+    <title>Lower Bounds on Learning Pauli Channels</title>
+    <link>http://arxiv.org/pdf/2301.09192</link>
+    <author>Omar Fawzi, Aadil Oufkir, Daniel Stilck França</author>
+    <pubDate>Jan 24 2023</pubDate>
+    <description>Understanding the noise affecting a quantum device is of fundamental importance for scaling quantum technologies. A particularly important class of noise models is that of Pauli channels, as randomized compiling techniques can effectively bring any quantum channel to this form and are significantly more structured than general quantum channels. In this paper, we show fundamental lower bounds on the sample complexity for learning Pauli channels in diamond norm with unentangled measurements. We consider both adaptive and non-adaptive strategies. In the non-adaptive setting, we show a lower bound of $\Omega(2^{3n}\epsilon^{-2})$ to learn an $n$-qubit Pauli channel. In particular, this shows that the recently introduced learning procedure by Flammia and Wallman is essentially optimal. In the adaptive setting, we show a lower bound of $\Omega(2^{2.5n}\epsilon^{-2})$ for $\epsilon=\mathcal{O}(2^{-n})$, and a lower bound of $\Omega(2^{2n}\epsilon^{-2} )$ for any $\epsilon > 0$. This last lower bound even applies for arbitrarily many sequential uses of the channel, as long as they are only interspersed with other unital operations.</description>
   </item>
 
   <item>
@@ -339,15 +363,7 @@
     <link>http://arxiv.org/pdf/2203.01340</link>
     <author>Maria Schuld, Nathan Killoran</author>
     <pubDate>Mar 04 2022</pubDate>
-    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of "beating" classical machine learning should continue to dominate the literature the way it does, and provide a few examples for alternative research questions.</description>
-  </item>
-
-  <item>
-    <title>Improved machine learning algorithm for predicting ground state properties</title>
-    <link>http://arxiv.org/pdf/2301.13169</link>
-    <author>Laura Lewis, Hsin-Yuan Huang, Viet T. Tran, Sebastian Lehner, Richard Kueng, John Preskill</author>
-    <pubDate>Jan 31 2023</pubDate>
-    <description>Finding the ground state of a quantum many-body system is a fundamental problem in quantum physics. In this work, we give a classical machine learning (ML) algorithm for predicting ground state properties with an inductive bias encoding geometric locality. The proposed ML model can efficiently predict ground state properties of an $n$-qubit gapped local Hamiltonian after learning from only $\mathcal{O}(\log(n))$ data about other Hamiltonians in the same quantum phase of matter. This improves substantially upon previous results that require $\mathcal{O}(n^c)$ data for a large constant $c$. Furthermore, the training and prediction time of the proposed ML model scale as $\mathcal{O}(n \log n)$ in the number of qubits $n$. Numerical experiments on physical systems with up to 45 qubits confirm the favorable scaling in predicting ground state properties using a small training dataset.</description>
+    <description>Machine learning is frequently listed among the most promising applications for quantum computing. This is in fact a curious choice: Today's machine learning algorithms are notoriously powerful in practice, but remain theoretically difficult to study. Quantum computing, in contrast, does not offer practical benchmarks on realistic scales, and theory is the main tool we have to judge whether it could become relevant for a problem. In this perspective we explain why it is so difficult to say something about the practical power of quantum computers for machine learning with the tools we are currently using. We argue that these challenges call for a critical debate on whether quantum advantage and the narrative of 'beating' classical machine learning should continue to dominate the literature the way it does, and highlight examples for how other perspectives in existing research provide an important alternative to the focus on advantage.</description>
   </item>
 
   <item>
@@ -375,35 +391,19 @@
   </item>
 
   <item>
+    <title>stateQIP = statePSPACE</title>
+    <link>http://arxiv.org/pdf/2301.07730</link>
+    <author>Tony Metger, Henry Yuen</author>
+    <pubDate>Jan 20 2023</pubDate>
+    <description>Complexity theory traditionally studies the hardness of solving classical computational problems. In the quantum setting, it is also natural to consider a different notion of complexity, namely the complexity of physically preparing a certain quantum state. We study the relation between two such state complexity classes: statePSPACE, which contains states that can be generated by space-uniform polynomial-space quantum circuits, and stateQIP, which contains states that a polynomial-time quantum verifier can generate by interacting with an all-powerful untrusted quantum prover. The latter class was recently introduced by Rosenthal and Yuen (ITCS 2022), who proved that statePSPACE $\subseteq$ stateQIP. Our main result is the reverse inclusion, stateQIP $\subseteq$ statePSPACE, thereby establishing equality of the two classes and providing a natural state-complexity analogue to the celebrated QIP = PSPACE theorem of Jain, et al. (J. ACM 2011). To prove this, we develop a polynomial-space quantum algorithm for solving exponentially large "PSPACE-computable" semidefinite programs (SDPs), which also prepares an optimiser encoded in a quantum state. Our SDP solver relies on recent block-encoding techniques from quantum algorithms, demonstrating that these techniques are also useful for complexity theory. Using similar techniques, we also show that optimal prover strategies for general quantum interactive protocols can be implemented in quantum polynomial space. We prove this by studying an algorithmic version of Uhlmann's theorem and establishing an upper bound on the complexity of implementing Uhlmann transformations.</description>
+  </item>
+
+  <item>
     <title>Sample-optimal classical shadows for pure states</title>
     <link>http://arxiv.org/pdf/2211.11810</link>
     <author>Daniel Grier, Hakop Pashayan, Luke Schaeffer</author>
     <pubDate>Nov 23 2022</pubDate>
     <description>We consider the classical shadows task for pure states in the setting of both joint and independent measurements. The task is to measure few copies of an unknown pure state $\rho$ in order to learn a classical description which suffices to later estimate expectation values of observables. Specifically, the goal is to approximate $\mathrm{Tr}(O \rho)$ for any Hermitian observable $O$ to within additive error $\epsilon$ provided $\mathrm{Tr}(O^2)\leq B$ and $\lVert O \rVert = 1$. Our main result applies to the joint measurement setting, where we show $\tilde{\Theta}(\sqrt{B}\epsilon^{-1} + \epsilon^{-2})$ samples of $\rho$ are necessary and sufficient to succeed with high probability. The upper bound is a quadratic improvement on the previous best sample complexity known for this problem. For the lower bound, we see that the bottleneck is not how fast we can learn the state but rather how much any classical description of $\rho$ can be compressed for observable estimation. In the independent measurement setting, we show that $\mathcal O(\sqrt{Bd} \epsilon^{-1} + \epsilon^{-2})$ samples suffice. Notably, this implies that the random Clifford measurements algorithm of Huang, Kueng, and Preskill, which is sample-optimal for mixed states, is not optimal for pure states. Interestingly, our result also uses the same random Clifford measurements but employs a different estimator.</description>
-  </item>
-
-  <item>
-    <title>Bosonic coding: introduction and use cases</title>
-    <link>http://arxiv.org/pdf/2211.05714</link>
-    <author>Victor V. Albert</author>
-    <pubDate>Nov 11 2022</pubDate>
-    <description>Bosonic or continuous-variable coding is a field concerned with robust quantum information processing and communication with electromagnetic signals or mechanical modes. I review bosonic quantum memories, characterizing them as either bosonic stabilizer or bosonic Fock-state codes. I then enumerate various applications of bosonic encodings, four of which circumvent no-go theorems due to the intrinsic infinite-dimensionality of bosonic systems.</description>
-  </item>
-
-  <item>
-    <title>Efficient classical algorithms for simulating symmetric quantum systems</title>
-    <link>http://arxiv.org/pdf/2211.16998</link>
-    <author>Eric R. Anschuetz, Andreas Bauer, Bobak T. Kiani, Seth Lloyd</author>
-    <pubDate>Dec 01 2022</pubDate>
-    <description>The presence of symmetries can convert an otherwise computationally hard task into an efficient one. In light of recently proposed quantum algorithms that incorporate symmetries in the hope of quantum advantage, we show that with symmetries that are restrictive enough, classical algorithms can efficiently emulate their quantum counterparts given certain classical descriptions of the input or the results of efficiently obtainable quantum measurements. As an example, we study permutation invariant Hamiltonians which can be efficiently simulated in polynomial classical time, further restricting the possible set of symmetries that provide quantum advantage.</description>
-  </item>
-
-  <item>
-    <title>Clique Homology is QMA1-hard</title>
-    <link>http://arxiv.org/pdf/2209.11793</link>
-    <author>Marcos Crichigno, Tamara Kohler</author>
-    <pubDate>Sep 27 2022</pubDate>
-    <description>We tackle the long-standing question of the computational complexity of determining homology groups of simplicial complexes, a fundamental task in computational topology, posed by Kaibel and Pfetsch 20 years ago. We show that this decision problem is QMA1-hard. Moreover, we show that a version of the problem satisfying a suitable promise and certain constraints is contained in QMA. This suggests that the seemingly classical problem may in fact be quantum mechanical. In fact, we are able to significantly strengthen this by showing that the problem remains QMA1-hard in the case of clique complexes, a family of simplicial complexes specified by a graph which is relevant to the problem of topological data analysis. The proof combines a number of techniques from Hamiltonian complexity and homological algebra. We discuss potential implications for the problem of quantum advantage in topological data analysis.</description>
   </item>
 
 </channel>
