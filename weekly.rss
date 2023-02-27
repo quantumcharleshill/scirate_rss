@@ -23,11 +23,11 @@
   </item>
 
   <item>
-    <title>A Herculean task: Classical simulation of quantum computers</title>
-    <link>http://arxiv.org/pdf/2302.08880</link>
-    <author>Xiaosi Xu, Simon Benjamin, Jinzhao Sun, Xiao Yuan, Pan Zhang</author>
-    <pubDate>Feb 20 2023</pubDate>
-    <description>In the effort to develop useful quantum computers simulating quantum machines with conventional computing resources is a key capability. Such simulations will always face limits preventing the emulation of quantum computers of substantial scale but by pushing the envelope as far as possible through optimal choices of algorithms and hardware the value of the simulator tool is maximized. This work reviews the state-of-the-art numerical simulation methods i.e. the classical algorithms that emulate quantum computer evolution under specific operations. We focus on the mainstream state-vector and tensor-network paradigms while briefly mentioning alternative methods. Moreover we review the diverse applications of simulation across different facets of quantum computer development such as understanding the fundamental difference between quantum and classical computations exploring algorithm design spaces for quantum advantage predicting quantum processor performance at the design stage and characterizing fabricated devices efficiently for fast iterations. This review complements recent surveys on today's tools and implementations here we seek to acquaint the reader with an essential understanding of the theoretical basis of classical simulations detailed discussions on the advantages and limitations of different methods and the demands and challenges arising from practical use cases.</description>
+    <title>Basic quantum subroutines: finding multiple marked elements and summing numbers</title>
+    <link>http://arxiv.org/pdf/2302.10244</link>
+    <author>Joran van Apeldoorn, Sander Gribling, Harold Nieuwboer</author>
+    <pubDate>Feb 22 2023</pubDate>
+    <description>We show how to find all $k$ marked elements in a list of size $N$ using the optimal number $O(\sqrt{N k})$ of quantum queries and only a polylogarithmic overhead in the gate complexity, in the setting where one has a small quantum memory. Previous algorithms either incurred a factor $k$ overhead in the gate complexity, or had an extra factor $\log(k)$ in the query complexity. We then consider the problem of finding a multiplicative $\delta$-approximation of $s = \sum_{i=1}^N v_i$ where $v=(v_i) \in [0,1]^N$, given quantum query access to a binary description of $v$. We give an algorithm that does so, with probability at least $1-\rho$, using $O(\sqrt{N \log(1/\rho) / \delta})$ queries (under mild assumptions on $\rho$). This quadratically improves the dependence on $1/\delta$ and $\log(1/\rho)$ compared to a straightforward application of amplitude estimation. To obtain the improved $\log(1/\rho)$ dependence we use the first result.</description>
   </item>
 
   <item>
@@ -39,27 +39,11 @@
   </item>
 
   <item>
-    <title>Basic quantum subroutines: finding multiple marked elements and summing numbers</title>
-    <link>http://arxiv.org/pdf/2302.10244</link>
-    <author>Joran van Apeldoorn, Sander Gribling, Harold Nieuwboer</author>
-    <pubDate>Feb 22 2023</pubDate>
-    <description>We show how to find all $k$ marked elements in a list of size $N$ using the optimal number $O(\sqrt{N k})$ of quantum queries and only a polylogarithmic overhead in the gate complexity, in the setting where one has a small quantum memory. Previous algorithms either incurred a factor $k$ overhead in the gate complexity, or had an extra factor $\log(k)$ in the query complexity. We then consider the problem of finding a multiplicative $\delta$-approximation of $s = \sum_{i=1}^N v_i$ where $v=(v_i) \in [0,1]^N$, given quantum query access to a binary description of $v$. We give an algorithm that does so, with probability at least $1-\rho$, using $O(\sqrt{N \log(1/\rho) / \delta})$ queries (under mild assumptions on $\rho$). This quadratically improves the dependence on $1/\delta$ and $\log(1/\rho)$ compared to a straightforward application of amplitude estimation. To obtain the improved $\log(1/\rho)$ dependence we use the first result.</description>
-  </item>
-
-  <item>
     <title>Block-encoding structured matrices for data input in quantum computing</title>
     <link>http://arxiv.org/pdf/2302.10949</link>
     <author>Christoph Sünderhauf, Earl Campbell, Joan Camps</author>
     <pubDate>Feb 23 2023</pubDate>
     <description>The cost of data input can dominate the run-time of quantum algorithms. Here, we consider data input of arithmetically structured matrices via block encoding circuits, the input model for the quantum singular value transform and related algorithms. We demonstrate how to construct block encoding circuits based on an arithmetic description of the sparsity and pattern of repeated values of a matrix. We present schemes yielding different subnormalisations of the block encoding; a comparison shows that the best choice depends on the specific matrix. The resulting circuits reduce flag qubit number according to sparsity, and data loading cost according to repeated values, leading to an exponential improvement for certain matrices. We give examples of applying our block encoding schemes to a few families of matrices, including Toeplitz and tridiagonal matrices.</description>
-  </item>
-
-  <item>
-    <title>Hamiltonian variational ansatz without barren plateaus</title>
-    <link>http://arxiv.org/pdf/2302.08529</link>
-    <author>Chae-Yeun Park, Nathan Killoran</author>
-    <pubDate>Feb 20 2023</pubDate>
-    <description>Combining highly expressive parameterized quantum circuits (PQCs) with parameter optimization techniques in machine learning, variational quantum algorithms are one of the most promising applications of a near-term quantum computer. However, the cost function landscape of a randomly initialized PQC is often too flat, limiting trainability of the model beyond tens of qubits. This problem, dubbed barren plateaus, gained lots of attention recently, but a general solution is still not available. In this paper, we solve this problem for the Hamiltonian Variational Ansatz (HVA), which is widely studied for solving quantum many-body problems. After showing that a circuit described by local Hamiltonian evolution does not have exponentially small gradients, we derive parameter conditions such that the HVA is well approximated by local Hamiltonian evolution. Based on this result, we further propose an initialization scheme for the variational quantum eigensolver as well as a parameter-constrained ansatz that is free from barren plateaus.</description>
   </item>
 
   <item>
@@ -84,6 +68,22 @@
     <author>Han Zhong, Jiachen Hu, Yecheng Xue, Tongyang Li, Liwei Wang</author>
     <pubDate>Feb 22 2023</pubDate>
     <description>While quantum reinforcement learning (RL) has attracted a surge of attention recently, its theoretical understanding is limited. In particular, it remains elusive how to design provably efficient quantum RL algorithms that can address the exploration-exploitation trade-off. To this end, we propose a novel UCRL-style algorithm that takes advantage of quantum computing for tabular Markov decision processes (MDPs) with $S$ states, $A$ actions, and horizon $H$, and establish an $\mathcal{O}(\mathrm{poly}(S, A, H, \log T))$ worst-case regret for it, where $T$ is the number of episodes. Furthermore, we extend our results to quantum RL with linear function approximation, which is capable of handling problems with large state spaces. Specifically, we develop a quantum algorithm based on value target regression (VTR) for linear mixture MDPs with $d$-dimensional linear representation and prove that it enjoys $\mathcal{O}(\mathrm{poly}(d, H, \log T))$ regret. Our algorithms are variants of UCRL/UCRL-VTR algorithms in classical RL, which also leverage a novel combination of lazy updating mechanisms and quantum estimation subroutines. This is the key to breaking the $\Omega(\sqrt{T})$-regret barrier in classical RL. To the best of our knowledge, this is the first work studying the online exploration in quantum RL with provable logarithmic worst-case regret.</description>
+  </item>
+
+  <item>
+    <title>The Complexity of Learning (Pseudo)random Dynamics of Black Holes and Other Chaotic Systems</title>
+    <link>http://arxiv.org/pdf/2302.11013</link>
+    <author>Lisa Yang, Netta Engelhardt</author>
+    <pubDate>Feb 23 2023</pubDate>
+    <description>It has been recently proposed that the naive semiclassical prediction of non-unitary black hole evaporation can be understood in the fundamental description of the black hole as a consequence of ignorance of high-complexity information. Validity of this conjecture implies that any algorithm which is polynomially bounded in computational complexity cannot accurately reconstruct the black hole dynamics. In this work, we prove that such bounded quantum algorithms cannot accurately predict (pseudo)random unitary dynamics, even if they are given access to an arbitrary set of polynomially complex observables under this time evolution; this shows that "learning" a (pseudo)random unitary is computationally hard. We use the common simplification of modeling black holes and more generally chaotic systems via (pseudo)random dynamics. The quantum algorithms that we consider are completely general, and their attempted guess for the time evolution of black holes is likewise unconstrained: it need not be a linear operator, and may be as general as an arbitrary (e.g. decohering) quantum channel.</description>
+  </item>
+
+  <item>
+    <title>On the power of quantum entanglement in multipartite quantum XOR games</title>
+    <link>http://arxiv.org/pdf/2302.11800</link>
+    <author>Marius Junge, Carlos Palazuelos</author>
+    <pubDate>Feb 24 2023</pubDate>
+    <description>In this paper we show that, given $k\geq 3$, there exist $k$-player quantum XOR games for which the entangled bias can be arbitrarily larger than the bias of the game when the players are restricted to separable strategies. In particular, quantum entanglement can be a much more powerful resource than local operations and classical communication to play these games. This result shows a strong contrast to the bipartite case, where it was recently proved that the entangled bias is always upper bounded by a universal constant times the one-way classical communication bias.</description>
   </item>
 
 </channel>

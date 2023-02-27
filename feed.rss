@@ -127,14 +127,6 @@
   </item>
 
   <item>
-    <title>A Direct Reduction from the Polynomial to the Adversary Method</title>
-    <link>http://arxiv.org/pdf/2301.10317</link>
-    <author>Aleksandrs Belovs</author>
-    <pubDate>Jan 26 2023</pubDate>
-    <description>The polynomial and the adversary methods are the two main tools for proving lower bounds on query complexity of quantum algorithms. Both methods have found a large number of applications, some problems more suitable for one method, some for the other. It is known though that the adversary method, in its general negative-weighted version, is tight for bounded-error quantum algorithms, whereas the polynomial method is not. By the tightness of the former, for any polynomial lower bound, there ought to exist a corresponding adversary lower bound. However, direct reduction was not known. In this paper, we give a simple and direct reduction from the polynomial method (in the form of a dual polynomial) to the adversary method. This shows that any lower bound in the form of a dual polynomial is actually an adversary lower bound of a specific form.</description>
-  </item>
-
-  <item>
     <title>Experimental demonstration of the advantage of adaptive quantum circuits</title>
     <link>http://arxiv.org/pdf/2302.03029</link>
     <author>Michael Foss-Feig, Arkin Tikku, Tsung-Cheng Lu, Karl Mayer, Mohsin Iqbal, Thomas M. Gatterman, Justin A. Gerber, Kevin Gilmore, Dan Gresh, Aaron Hankin, Nathan Hewitt, Chandler V. Horst, Mitchell Matheny, Tanner Mengle, Brian Neyenhuis, Henrik Dreyer, David Hayes, Timothy H. Hsieh, Isaac H. Kim</author>
@@ -167,11 +159,11 @@
   </item>
 
   <item>
-    <title>Testing quantum satisfiability</title>
-    <link>http://arxiv.org/pdf/2301.10699</link>
-    <author>Ashley Montanaro, Changpeng Shao, Dominic Verdon</author>
-    <pubDate>Jan 26 2023</pubDate>
-    <description>Quantum k-SAT (the problem of determining whether a k-local Hamiltonian is frustration-free) is known to be QMA_1-complete for k >= 3, and hence likely hard for quantum computers to solve. Building on a classical result of Alon and Shapira, we show that quantum k-SAT can be solved in randomised polynomial time given the `property testing' promise that the instance is either satisfiable (by any state) or far from satisfiable by a product state; by `far from satisfiable by a product state' we mean that \epsilon n^k constraints must be removed before a product state solution exists, for some fixed \epsilon > 0. The proof has two steps: we first show that for a satisfiable instance of quantum k-SAT, most subproblems on a constant number of qubits are satisfiable by a product state. We then show that for an instance of quantum k-SAT which is far from satisfiable by a product state, most subproblems are unsatisfiable by a product state. Given the promise, quantum k-SAT may therefore be solved by checking satisfiability by a product state on randomly chosen subsystems of constant size.</description>
+    <title>Basic quantum subroutines: finding multiple marked elements and summing numbers</title>
+    <link>http://arxiv.org/pdf/2302.10244</link>
+    <author>Joran van Apeldoorn, Sander Gribling, Harold Nieuwboer</author>
+    <pubDate>Feb 22 2023</pubDate>
+    <description>We show how to find all $k$ marked elements in a list of size $N$ using the optimal number $O(\sqrt{N k})$ of quantum queries and only a polylogarithmic overhead in the gate complexity, in the setting where one has a small quantum memory. Previous algorithms either incurred a factor $k$ overhead in the gate complexity, or had an extra factor $\log(k)$ in the query complexity. We then consider the problem of finding a multiplicative $\delta$-approximation of $s = \sum_{i=1}^N v_i$ where $v=(v_i) \in [0,1]^N$, given quantum query access to a binary description of $v$. We give an algorithm that does so, with probability at least $1-\rho$, using $O(\sqrt{N \log(1/\rho) / \delta})$ queries (under mild assumptions on $\rho$). This quadratically improves the dependence on $1/\delta$ and $\log(1/\rho)$ compared to a straightforward application of amplitude estimation. To obtain the improved $\log(1/\rho)$ dependence we use the first result.</description>
   </item>
 
   <item>
@@ -199,14 +191,6 @@
   </item>
 
   <item>
-    <title>Basic quantum subroutines: finding multiple marked elements and summing numbers</title>
-    <link>http://arxiv.org/pdf/2302.10244</link>
-    <author>Joran van Apeldoorn, Sander Gribling, Harold Nieuwboer</author>
-    <pubDate>Feb 22 2023</pubDate>
-    <description>We show how to find all $k$ marked elements in a list of size $N$ using the optimal number $O(\sqrt{N k})$ of quantum queries and only a polylogarithmic overhead in the gate complexity, in the setting where one has a small quantum memory. Previous algorithms either incurred a factor $k$ overhead in the gate complexity, or had an extra factor $\log(k)$ in the query complexity. We then consider the problem of finding a multiplicative $\delta$-approximation of $s = \sum_{i=1}^N v_i$ where $v=(v_i) \in [0,1]^N$, given quantum query access to a binary description of $v$. We give an algorithm that does so, with probability at least $1-\rho$, using $O(\sqrt{N \log(1/\rho) / \delta})$ queries (under mild assumptions on $\rho$). This quadratically improves the dependence on $1/\delta$ and $\log(1/\rho)$ compared to a straightforward application of amplitude estimation. To obtain the improved $\log(1/\rho)$ dependence we use the first result.</description>
-  </item>
-
-  <item>
     <title>Error Mitigation Thresholds in Noisy Quantum Circuits</title>
     <link>http://arxiv.org/pdf/2302.04278</link>
     <author>Pradeep Niroula, Sarang Gopalakrishnan, Michael J. Gullans</author>
@@ -231,6 +215,14 @@
   </item>
 
   <item>
+    <title>Quantum spherical codes</title>
+    <link>http://arxiv.org/pdf/2302.11593</link>
+    <author>Shubham P. Jain, Joseph T. Iosue, Alexander Barg, Victor V. Albert</author>
+    <pubDate>Feb 24 2023</pubDate>
+    <description>We introduce a framework for constructing quantum codes defined on spheres by recasting such codes as quantum analogues of the classical spherical codes. We apply this framework to bosonic coding, obtaining multimode extensions of the cat codes that can outperform previous constructions while requiring a similar type of overhead. Our polytope-based cat codes consist of sets of points with large separation that at the same time form averaging sets known as spherical designs. We also recast concatenations of qubit CSS codes with cat codes as quantum spherical codes.</description>
+  </item>
+
+  <item>
     <title>High threshold codes for neutral atom qubits with biased erasure errors</title>
     <link>http://arxiv.org/pdf/2302.03063</link>
     <author>Kaavya Sahay, Junlan Jin, Jahan Claes, Jeff D. Thompson, Shruti Puri</author>
@@ -239,11 +231,19 @@
   </item>
 
   <item>
-    <title>An operator-algebraic formulation of self-testing</title>
-    <link>http://arxiv.org/pdf/2301.11291</link>
-    <author>Connor Paddock, William Slofstra, Yuming Zhao, Yangchen Zhou</author>
-    <pubDate>Jan 27 2023</pubDate>
-    <description>We give a new definition of self-testing for correlations in terms of states on $C^*$-algebras. We show that this definition is equivalent to the standard definition for any class of finite-dimensional quantum models which is closed, provided that the correlation is extremal and has a full-rank model in the class. This last condition automatically holds for the class of POVM quantum models, but does not necessarily hold for the class of projective models by a result of Kaniewski and Mančinska. For extremal binary correlations and for extremal synchronous correlations, we show that any self-test for projective models is a self-test for POVM models. The question of whether there is a self-test for projective models which is not a self-test for POVM models remains open. An advantage of our new definition is that it extends naturally to commuting operator models. We show that an extremal correlation is a self-test for finite-dimensional quantum models if and only if it is a self-test for finite-dimensional commuting operator models, and also observe that many known finite-dimensional self-tests are in fact self-tests for infinite-dimensional commuting operator models.</description>
+    <title>Guidable Local Hamiltonian Problems with Implications to Heuristic Ansätze State Preparation and the Quantum PCP Conjecture</title>
+    <link>http://arxiv.org/pdf/2302.11578</link>
+    <author>Jordi Weggemans, Marten Folkertsma, Chris Cade</author>
+    <pubDate>Feb 24 2023</pubDate>
+    <description>We introduce 'Merlinized' versions of the recently defined Guided Local Hamiltonian problem, which we call 'Guidable Local Hamiltonian' problems. Unlike their guided counterparts, these problems do not have a guiding state provided as a part of the input, but merely come with the promise that one exists and that it satisfies certain constraints. We consider in particular two classes of guiding states: those that can be prepared efficiently by a quantum circuit; and those belonging to a class of quantum states we call classically evaluatable, which have a short classical description from which it is possible to efficiently compute expectation values of local observables classically. We show that guidable local Hamiltonian problems for both classes of guiding states are $\mathsf{QCMA}$-complete in the inverse-polynomial precision setting, but lie within $\mathsf{NP}$ (or $\mathsf{NqP}$) in certain parameter regimes when the guiding state is classically evaluatable. We discuss the implications of these results to heuristic ansätze state preparation and the quantum PCP conjecture. Our completeness results show that, from a complexity-theoretic perspective, classical ansätze prepared by classical heuristics are just as powerful as quantum ansätze prepared by quantum heuristics, so long as one has access to quantum phase estimation. In relation to the quantum PCP conjecture, we (i) define a PCP for $\mathsf{QCMA}$ and show that it is equal to $\mathsf{NP}$ under quantum reductions; (ii) show several no-go results for the existence of quantum gap amplification procedures that preserve certain ground state properties; and (iii) propose two conjectures that can be viewed as stronger versions of the NLTS theorem. Finally, we show that many of our results can be directly modified to obtain similar results for the class $\mathsf{MA}$.</description>
+  </item>
+
+  <item>
+    <title>Thermodynamic AI and the fluctuation frontier</title>
+    <link>http://arxiv.org/pdf/2302.06584</link>
+    <author>Patrick J. Coles</author>
+    <pubDate>Feb 14 2023</pubDate>
+    <description>Many Artificial Intelligence (AI) algorithms are inspired by physics and employ stochastic fluctuations. We connect these physics-inspired AI algorithms by unifying them under a single mathematical framework that we call Thermodynamic AI. Seemingly disparate algorithmic classes can be described by this framework, for example, (1) Generative diffusion models, (2) Bayesian neural networks, (3) Monte Carlo sampling and (4) Simulated annealing. Such Thermodynamic AI algorithms are currently run on digital hardware, ultimately limiting their scalability and overall potential. Stochastic fluctuations naturally occur in physical thermodynamic systems, and such fluctuations can be viewed as a computational resource. Hence, we propose a novel computing paradigm, where software and hardware become inseparable. Our algorithmic unification allows us to identify a single full-stack paradigm, involving Thermodynamic AI hardware, that could accelerate such algorithms. We contrast Thermodynamic AI hardware with quantum computing where noise is a roadblock rather than a resource. Thermodynamic AI hardware can be viewed as a novel form of computing, since it uses a novel fundamental building block. We identify stochastic bits (s-bits) and stochastic modes (s-modes) as the respective building blocks for discrete and continuous Thermodynamic AI hardware. In addition to these stochastic units, Thermodynamic AI hardware employs a Maxwell's demon device that guides the system to produce non-trivial states. We provide a few simple physical architectures for building these devices and we develop a formalism for programming the hardware via gate sequences. We hope to stimulate discussion around this new computing paradigm. Beyond acceleration, we believe it will impact the design of both hardware and algorithms, while also deepening our understanding of the connection between physics and intelligence.</description>
   </item>
 
 </channel>
