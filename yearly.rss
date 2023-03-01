@@ -75,7 +75,7 @@
     <link>http://arxiv.org/pdf/2210.11505</link>
     <author>Yihui Quek, Daniel Stilck França, Sumeet Khatri, Johannes Jakob Meyer, Jens Eisert</author>
     <pubDate>Oct 24 2022</pubDate>
-    <description>Quantum error mitigation has been proposed as a means to combat unavoidable errors in near-term quantum computing by classically post-processing outcomes of multiple quantum circuits. It does so in a fashion that requires no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation leads to noise reduction in small systems. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We start out by presenting a formal framework that rigorously encapsulates large classes of meaningful and practically applied schemes for quantum error mitigation, including virtual distillation, Clifford data regression, zero-noise extrapolation and probabilistic error cancellation. With the framework in place, our technical contribution is to construct families of random circuits that are highly sensitive to noise, in the sense that even at log log(n) depth, a whisker beyond constant, quantum noise is seen to super-exponentially rapidly scramble their output into the maximally-mixed state. Our results exponentially tighten known arguments for error mitigation, but they go beyond that: Our arguments can be applied to kernel estimation or to compute the depth at which barren plateaus emerge, implying that the scrambling kicks in at exponentially smaller depths than previously thought. Our results also say that a noisy device must be sampled exponentially many times to estimate expectation values. There are classical algorithms that exhibit the same scaling in complexity. While improvements in quantum hardware will push noise levels down, if error mitigation is used, ultimately this can only lead to an exponential time quantum algorithm with a better exponent, putting up a strong obstruction to the hope for exponential quantum speedups in this setting.</description>
+    <description>Quantum error mitigation has been proposed as a means to combat unwanted and unavoidable errors in near-term quantum computing using no or few additional quantum resources, in contrast to fault-tolerant schemes that come along with heavy overheads. Error mitigation has been successfully applied to reduce noise in near-term applications. In this work, however, we identify strong limitations to the degree to which quantum noise can be effectively `undone' for larger system sizes. We set up a framework that rigorously captures large classes of error mitigation schemes in use today. The core of our argument combines fundamental limits of statistical inference with a construction of families of random circuits that are highly sensitive to noise. We show that even at poly log log n depth, a super-polynomial number of samples is needed in the worst case to estimate the expectation values of noiseless observables, the principal task of error mitigation. Notably, our construction implies that scrambling due to noise can kick in at exponentially smaller depths than previously thought. They also impact other near-term applications, constraining kernel estimation in quantum machine learning, causing an earlier emergence of noise-induced barren plateaus in variational quantum algorithms and ruling out exponential quantum speed-ups in estimating expectation values in the presence of noise or preparing the ground state of a Hamiltonian.</description>
   </item>
 
   <item>
@@ -151,14 +151,6 @@
   </item>
 
   <item>
-    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
-    <link>http://arxiv.org/pdf/2205.05668</link>
-    <author>Zhi Li</author>
-    <pubDate>May 12 2022</pubDate>
-    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
-  </item>
-
-  <item>
     <title>Sparse random Hamiltonians are quantumly easy</title>
     <link>http://arxiv.org/pdf/2302.03394</link>
     <author>Chi-Fang Chen, Alexander M. Dalzell, Mario Berta, Fernando G.S.L. Brandão, Joel A. Tropp</author>
@@ -172,6 +164,14 @@
     <author>Emilio Onorati, Cambyse Rouzé, Daniel Stilck França, James D. Watson</author>
     <pubDate>Jan 31 2023</pubDate>
     <description>We consider two related tasks: (a) estimating a parameterisation of a given Gibbs state and expectation values of Lipschitz observables on this state; and (b) learning the expectation values of local observables within a thermal or quantum phase of matter. In both cases, we wish to minimise the number of samples we use to learn these properties to a given precision. For the first task, we develop new techniques to learn parameterisations of classes of systems, including quantum Gibbs states of non-commuting Hamiltonians with exponential decay of correlations and the approximate Markov property. We show it is possible to infer the expectation values of all extensive properties of the state from a number of copies that not only scales polylogarithmically with the system size, but polynomially in the observable's locality -- an exponential improvement. This set of properties includes expected values of quasi-local observables and entropies. For the second task, we develop efficient algorithms for learning observables in a phase of matter of a quantum system. By exploiting the locality of the Hamiltonian, we show that $M$ local observables can be learned with probability $1-\delta$ to precision $\epsilon$ with using only $N=O\big(\log\big(\frac{M}{\delta}\big)e^{polylog(\epsilon^{-1})}\big)$ samples -- an exponential improvement on the precision over previous bounds. Our results apply to both families of ground states of Hamiltonians displaying local topological quantum order, and thermal phases of matter with exponential decay of correlations. In addition, our sample complexity applies to the worse case setting whereas previous results only applied on average. Furthermore, we develop tools of independent interest, such as robust shadow tomography algorithms, Gibbs approximations to ground states, and generalisations of transportation cost inequalities for Gibbs states.</description>
+  </item>
+
+  <item>
+    <title>Short Proofs of Linear Growth of Quantum Circuit Complexity</title>
+    <link>http://arxiv.org/pdf/2205.05668</link>
+    <author>Zhi Li</author>
+    <pubDate>May 12 2022</pubDate>
+    <description>The complexity of a quantum gate, defined as the minimal number of elementary gates to build it, is an important concept in quantum information and computation. It is shown recently that the complexity of quantum gates built from random quantum circuits almost surely grows linearly with the number of building blocks. In this article, we provide two short proofs of this fact. We also discuss a discrete version of quantum circuit complexity growth.</description>
   </item>
 
   <item>

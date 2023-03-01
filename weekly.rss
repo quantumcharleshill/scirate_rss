@@ -15,27 +15,11 @@
   </item>
 
   <item>
-    <title>A Qubit, a Coin, and an Advice String Walk Into a Relational Problem</title>
-    <link>http://arxiv.org/pdf/2302.10332</link>
-    <author>Scott Aaronson, Harry Buhrman, William Kretschmer</author>
-    <pubDate>Feb 22 2023</pubDate>
-    <description>Relational problems (those with many possible valid outputs) are different from decision problems, but it is easy to forget just how different. This paper initiates the study of FBQP/qpoly, the class of relational problems solvable in quantum polynomial-time with the help of polynomial-sized quantum advice, along with its analogues for deterministic and randomized computation (FP, FBPP) and advice (/poly, /rpoly). Our first result is that FBQP/qpoly != FBQP/poly, unconditionally, with no oracle -- a striking contrast with what we know about the analogous decision classes. The proof repurposes the separation between quantum and classical one-way communication complexities due to Bar-Yossef, Jayram, and Kerenidis. We discuss how this separation raises the prospect of near-term experiments to demonstrate "quantum information supremacy," a form of quantum supremacy that would not depend on unproved complexity assumptions. Our second result is that FBPP is not contained in FP/poly -- that is, Adleman's Theorem fails for relational problems -- unless PSPACE is contained in NP/poly. Our proof uses IP=PSPACE and time-bounded Kolmogorov complexity. On the other hand, we show that proving FBPP not in FP/poly will be hard, as it implies a superpolynomial circuit lower bound for PromiseBPEXP. We prove the following further results: * Unconditionally, FP != FBPP and FP/poly != FBPP/poly (even when these classes are carefully defined). * FBPP/poly = FBPP/rpoly (and likewise for FBQP). For sampling problems, by contrast, SampBPP/poly != SampBPP/rpoly (and likewise for SampBQP).</description>
-  </item>
-
-  <item>
-    <title>Basic quantum subroutines: finding multiple marked elements and summing numbers</title>
-    <link>http://arxiv.org/pdf/2302.10244</link>
-    <author>Joran van Apeldoorn, Sander Gribling, Harold Nieuwboer</author>
-    <pubDate>Feb 22 2023</pubDate>
-    <description>We show how to find all $k$ marked elements in a list of size $N$ using the optimal number $O(\sqrt{N k})$ of quantum queries and only a polylogarithmic overhead in the gate complexity, in the setting where one has a small quantum memory. Previous algorithms either incurred a factor $k$ overhead in the gate complexity, or had an extra factor $\log(k)$ in the query complexity. We then consider the problem of finding a multiplicative $\delta$-approximation of $s = \sum_{i=1}^N v_i$ where $v=(v_i) \in [0,1]^N$, given quantum query access to a binary description of $v$. We give an algorithm that does so, with probability at least $1-\rho$, using $O(\sqrt{N \log(1/\rho) / \delta})$ queries (under mild assumptions on $\rho$). This quadratically improves the dependence on $1/\delta$ and $\log(1/\rho)$ compared to a straightforward application of amplitude estimation. To obtain the improved $\log(1/\rho)$ dependence we use the first result.</description>
-  </item>
-
-  <item>
-    <title>Quantum entropy thermalization</title>
-    <link>http://arxiv.org/pdf/2302.10165</link>
-    <author>Yichen Huang, Aram W. Harrow</author>
-    <pubDate>Feb 21 2023</pubDate>
-    <description>In an isolated quantum many-body system undergoing unitary evolution, the entropy of a subsystem (smaller than half the system size) thermalizes if at long times, it is to leading order equal to the thermodynamic entropy of the subsystem at the same energy. In this paper, we prove entropy thermalization for a nearly integrable Sachdev-Ye-Kitaev model initialized in a pure product state. The model is obtained by adding random all-to-all $4$-body interactions as a perturbation to a random free-fermion model.</description>
+    <title>A Theory of Direct Randomized Benchmarking</title>
+    <link>http://arxiv.org/pdf/2302.13853</link>
+    <author>Anthony M. Polloreno, Arnaud Carignan-Dugas, Jordan Hines, Robin Blume-Kohout, Kevin Young, Timothy Proctor</author>
+    <pubDate>Feb 28 2023</pubDate>
+    <description>Randomized benchmarking (RB) protocols are widely used to measure an average error rate for a set of quantum logic gates. However, the standard version of RB is limited because it only benchmarks a processor's native gates indirectly, by using them in composite $n$-qubit Clifford gates. Standard RB's reliance on $n$-qubit Clifford gates restricts it to the few-qubit regime, because the fidelity of a typical composite $n$-qubit Clifford gate decreases rapidly with increasing $n$. Furthermore, although standard RB is often used to infer the error rate of native gates, by rescaling standard RB's error per Clifford to an error per native gate, this is an unreliable extrapolation. Direct RB is a method that addresses these limitations of standard RB, by directly benchmarking a customizable gate set, such as a processor's native gates. Here we provide a detailed introduction to direct RB, we discuss how to design direct RB experiments, and we present two complementary theories for direct RB. The first of these theories uses the concept of error propagation or scrambling in random circuits to show that direct RB is reliable for gates that experience stochastic Pauli errors. We prove that the direct RB decay is a single exponential, and that the decay rate is equal to the average infidelity of the benchmarked gates, under broad circumstances. This theory shows that group twirling is not required for reliable RB. Our second theory proves that direct RB is reliable for gates that experience general gate-dependent Markovian errors, using similar techniques to contemporary theories for standard RB. Our two theories for direct RB have complementary regimes of applicability, and they provide complementary perspectives on why direct RB works. Together these theories provide comprehensive guarantees on the reliability of direct RB.</description>
   </item>
 
   <item>
@@ -44,6 +28,14 @@
     <author>Christoph Sünderhauf, Earl Campbell, Joan Camps</author>
     <pubDate>Feb 23 2023</pubDate>
     <description>The cost of data input can dominate the run-time of quantum algorithms. Here, we consider data input of arithmetically structured matrices via block encoding circuits, the input model for the quantum singular value transform and related algorithms. We demonstrate how to construct block encoding circuits based on an arithmetic description of the sparsity and pattern of repeated values of a matrix. We present schemes yielding different subnormalisations of the block encoding; a comparison shows that the best choice depends on the specific matrix. The resulting circuits reduce flag qubit number according to sparsity, and data loading cost according to repeated values, leading to an exponential improvement for certain matrices. We give examples of applying our block encoding schemes to a few families of matrices, including Toeplitz and tridiagonal matrices.</description>
+  </item>
+
+  <item>
+    <title>Quantum trapdoor functions from classical one-way functions</title>
+    <link>http://arxiv.org/pdf/2302.12821</link>
+    <author>Andrea Coladangelo</author>
+    <pubDate>Feb 27 2023</pubDate>
+    <description>We introduce the notion of a quantum trapdoor function. This is an efficiently computable unitary that takes as input a "public" quantum state and a classical string $x$, and outputs a quantum state. This map is such that (i) it is hard to invert, in the sense that it is hard to recover $x$ given the output state (and many copies of the public state), and (ii) there is a classical trapdoor that allows efficient inversion. We show that a quantum trapdoor function can be constructed from any quantum-secure one-way function. A direct consequence of this result is that, assuming just the existence of quantum-secure one-way functions, there exist: (i) a public-key encryption scheme with a quantum public key, and (ii) a two-message key-exchange protocol, assuming an appropriate notion of a quantum authenticated channel.</description>
   </item>
 
   <item>
@@ -63,11 +55,27 @@
   </item>
 
   <item>
-    <title>Provably Efficient Exploration in Quantum Reinforcement Learning with Logarithmic Worst-Case Regret</title>
-    <link>http://arxiv.org/pdf/2302.10796</link>
-    <author>Han Zhong, Jiachen Hu, Yecheng Xue, Tongyang Li, Liwei Wang</author>
-    <pubDate>Feb 22 2023</pubDate>
-    <description>While quantum reinforcement learning (RL) has attracted a surge of attention recently, its theoretical understanding is limited. In particular, it remains elusive how to design provably efficient quantum RL algorithms that can address the exploration-exploitation trade-off. To this end, we propose a novel UCRL-style algorithm that takes advantage of quantum computing for tabular Markov decision processes (MDPs) with $S$ states, $A$ actions, and horizon $H$, and establish an $\mathcal{O}(\mathrm{poly}(S, A, H, \log T))$ worst-case regret for it, where $T$ is the number of episodes. Furthermore, we extend our results to quantum RL with linear function approximation, which is capable of handling problems with large state spaces. Specifically, we develop a quantum algorithm based on value target regression (VTR) for linear mixture MDPs with $d$-dimensional linear representation and prove that it enjoys $\mathcal{O}(\mathrm{poly}(d, H, \log T))$ regret. Our algorithms are variants of UCRL/UCRL-VTR algorithms in classical RL, which also leverage a novel combination of lazy updating mechanisms and quantum estimation subroutines. This is the key to breaking the $\Omega(\sqrt{T})$-regret barrier in classical RL. To the best of our knowledge, this is the first work studying the online exploration in quantum RL with provable logarithmic worst-case regret.</description>
+    <title>Field Theory and The Sum-of-Squares for Quantum Systems</title>
+    <link>http://arxiv.org/pdf/2302.14006</link>
+    <author>M. B. Hastings</author>
+    <pubDate>Feb 28 2023</pubDate>
+    <description>This is a collection of various result and notes, addressing the sum-of-squares hierarchy for spin and fermion systems using some ideas from quantum field theory, including higher order perturbation theory, critical phenomena, nonlocal coupling in time, and auxiliary field Monte Carlo. This paper should be seen as a sequel to Refs. 1,2. Additionally in this paper, we consider the difficulty of approximating the ground state energy of the Sachdev-Ye-Kitaev (SYK) model using other methods. We provide limitations on the power of the Lanczos method, starting with a Gausian wavefunction, and on the power of a sum of Gaussian wavefunctions (in this case under an assumption).</description>
+  </item>
+
+  <item>
+    <title>(Non-)Universality in symmetric quantum circuits: Why Abelian symmetries are special</title>
+    <link>http://arxiv.org/pdf/2302.12466</link>
+    <author>Iman Marvian</author>
+    <pubDate>Feb 27 2023</pubDate>
+    <description>In this work, we develop the theory of symmetric quantum circuits with Abelian symmetries. It has been recently shown that general unitary transformations that respect a global symmetry can not be realized by composing unitaries that respect the same symmetry but do not act on all the subsystems in the system. For a general symmetry group, such as SU(d), the locality of interactions imposes different types of constraints on the realizable unitaries. For instance, the unitary realized in a subspace with one irreducible representation (charge) of the symmetry dictates the realized unitaries in multiple other sectors with inequivalent representations of the symmetry. Furthermore, in certain sectors rather than all unitaries that respect the symmetry, the realizable unitaries are the symplectic, or the orthogonal subgroups of this group. We show that none of the aforementioned restrictions appear in the case of Abelian symmetries: While the locality of interactions still imposes additional constraints on the realizable unitaries, they are of the following two types: (i) constraints on the relative phases between subspaces with different charges, and (ii) constraints due to the presence of multiple invariant subspaces inside a subspace with a given charge, which results in extra conserved observables. The latter type of constraint can be removed by k-local symmetric unitaries with sufficiently large k (independent of the system size), whereas to remove the former constraints, in general, one needs an ancillary qudit.</description>
+  </item>
+
+  <item>
+    <title>Implementing Linear Combination of Unitaries on Intermediate-term Quantum Computers</title>
+    <link>http://arxiv.org/pdf/2302.13555</link>
+    <author>Shantanav Chakraborty</author>
+    <pubDate>Feb 28 2023</pubDate>
+    <description>Over the years, the framework of Linear combination of unitaries (LCU) has been extremely useful for designing a plethora of quantum algorithms. In this work, we explore whether this widely applicable paradigm can be implemented on quantum computers that will be available immediately after the current NISQ stage. To this end, we develop three variants of LCU and apply each, to quantum algorithms of practical interest. First, we develop a physically motivated, continuous-time analogue of LCU (``Analog LCU''). This technique, implementable on hybrid qubit-qumode systems, is simpler than its discrete-time counterpart. We use this method to develop analog quantum algorithms for ground state preparation and quantum linear systems. We also develop a randomized quantum algorithm to sample from functions of Hamiltonians applied to quantum states (``Single-Ancilla LCU''). This approach repeatedly samples from a short-depth quantum circuit and uses only a single ancilla qubit. We use this to estimate expectation values of observables in the ground states of a Hamiltonian, and in the solution of quantum linear systems. This method is suitable for early fault-tolerant quantum computers. Our third approach stems from the observation that for several applications, it suffices to replace LCU with randomized sampling of unitaries according to the distribution of the LCU coefficients (``Ancilla-free LCU''). This is particularly useful when one is interested in the projection of a quantum state implemented by an LCU procedure in some subspace of interest. We demonstrate that this technique applies to the spatial search problem and helps establish a relationship between discrete and continuous-time quantum walks with their classical counterparts. Our work demonstrates that generic quantum algorithmic paradigms, such as LCU, can potentially be implemented on intermediate-term quantum devices.</description>
   </item>
 
   <item>
@@ -76,14 +84,6 @@
     <author>Lisa Yang, Netta Engelhardt</author>
     <pubDate>Feb 23 2023</pubDate>
     <description>It has been recently proposed that the naive semiclassical prediction of non-unitary black hole evaporation can be understood in the fundamental description of the black hole as a consequence of ignorance of high-complexity information. Validity of this conjecture implies that any algorithm which is polynomially bounded in computational complexity cannot accurately reconstruct the black hole dynamics. In this work, we prove that such bounded quantum algorithms cannot accurately predict (pseudo)random unitary dynamics, even if they are given access to an arbitrary set of polynomially complex observables under this time evolution; this shows that "learning" a (pseudo)random unitary is computationally hard. We use the common simplification of modeling black holes and more generally chaotic systems via (pseudo)random dynamics. The quantum algorithms that we consider are completely general, and their attempted guess for the time evolution of black holes is likewise unconstrained: it need not be a linear operator, and may be as general as an arbitrary (e.g. decohering) quantum channel.</description>
-  </item>
-
-  <item>
-    <title>On the power of quantum entanglement in multipartite quantum XOR games</title>
-    <link>http://arxiv.org/pdf/2302.11800</link>
-    <author>Marius Junge, Carlos Palazuelos</author>
-    <pubDate>Feb 24 2023</pubDate>
-    <description>In this paper we show that, given $k\geq 3$, there exist $k$-player quantum XOR games for which the entangled bias can be arbitrarily larger than the bias of the game when the players are restricted to separable strategies. In particular, quantum entanglement can be a much more powerful resource than local operations and classical communication to play these games. This result shows a strong contrast to the bipartite case, where it was recently proved that the entangled bias is always upper bounded by a universal constant times the one-way classical communication bias.</description>
   </item>
 
 </channel>

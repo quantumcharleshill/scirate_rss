@@ -55,19 +55,19 @@
   </item>
 
   <item>
-    <title>Fault-Tolerant Connection of Error-Corrected Qubits with Noisy Links</title>
-    <link>http://arxiv.org/pdf/2302.01296</link>
-    <author>Joshua Ramette, Josiah Sinclair, Nikolas P. Breuckmann, Vladan Vuletić</author>
-    <pubDate>Feb 03 2023</pubDate>
-    <description>One of the most promising routes towards scalable quantum computing is a modular approach. We show that distinct surface code patches can be connected in a fault-tolerant manner even in the presence of substantial noise along their connecting interface. We quantify analytically and numerically the combined effect of errors across the interface and bulk. We show that the system can tolerate 14 times higher noise at the interface compared to the bulk, with only a small effect on the code's threshold and sub-threshold behavior, reaching threshold with $\sim 1 \%$ bulk errors and $\sim 10 \%$ interface errors. This implies that fault-tolerant scaling of error-corrected modular devices is within reach using existing technology.</description>
-  </item>
-
-  <item>
     <title>A Qubit, a Coin, and an Advice String Walk Into a Relational Problem</title>
     <link>http://arxiv.org/pdf/2302.10332</link>
     <author>Scott Aaronson, Harry Buhrman, William Kretschmer</author>
     <pubDate>Feb 22 2023</pubDate>
     <description>Relational problems (those with many possible valid outputs) are different from decision problems, but it is easy to forget just how different. This paper initiates the study of FBQP/qpoly, the class of relational problems solvable in quantum polynomial-time with the help of polynomial-sized quantum advice, along with its analogues for deterministic and randomized computation (FP, FBPP) and advice (/poly, /rpoly). Our first result is that FBQP/qpoly != FBQP/poly, unconditionally, with no oracle -- a striking contrast with what we know about the analogous decision classes. The proof repurposes the separation between quantum and classical one-way communication complexities due to Bar-Yossef, Jayram, and Kerenidis. We discuss how this separation raises the prospect of near-term experiments to demonstrate "quantum information supremacy," a form of quantum supremacy that would not depend on unproved complexity assumptions. Our second result is that FBPP is not contained in FP/poly -- that is, Adleman's Theorem fails for relational problems -- unless PSPACE is contained in NP/poly. Our proof uses IP=PSPACE and time-bounded Kolmogorov complexity. On the other hand, we show that proving FBPP not in FP/poly will be hard, as it implies a superpolynomial circuit lower bound for PromiseBPEXP. We prove the following further results: * Unconditionally, FP != FBPP and FP/poly != FBPP/poly (even when these classes are carefully defined). * FBPP/poly = FBPP/rpoly (and likewise for FBQP). For sampling problems, by contrast, SampBPP/poly != SampBPP/rpoly (and likewise for SampBQP).</description>
+  </item>
+
+  <item>
+    <title>Fault-Tolerant Connection of Error-Corrected Qubits with Noisy Links</title>
+    <link>http://arxiv.org/pdf/2302.01296</link>
+    <author>Joshua Ramette, Josiah Sinclair, Nikolas P. Breuckmann, Vladan Vuletić</author>
+    <pubDate>Feb 03 2023</pubDate>
+    <description>One of the most promising routes towards scalable quantum computing is a modular approach. We show that distinct surface code patches can be connected in a fault-tolerant manner even in the presence of substantial noise along their connecting interface. We quantify analytically and numerically the combined effect of errors across the interface and bulk. We show that the system can tolerate 14 times higher noise at the interface compared to the bulk, with only a small effect on the code's threshold and sub-threshold behavior, reaching threshold with $\sim 1 \%$ bulk errors and $\sim 10 \%$ interface errors. This implies that fault-tolerant scaling of error-corrected modular devices is within reach using existing technology.</description>
   </item>
 
   <item>
@@ -127,6 +127,14 @@
   </item>
 
   <item>
+    <title>Elementary Proof of QAOA Convergence</title>
+    <link>http://arxiv.org/pdf/2302.04968</link>
+    <author>Lennart Binkowski, Gereon Koßmann, Timo Ziegler, René Schwonnek</author>
+    <pubDate>Feb 13 2023</pubDate>
+    <description>The Quantum Alternating Operator Ansatz (QAOA) and its predecessor, the Quantum Approximate Optimization Algorithm, are one of the most widely used quantum algorithms for solving combinatorial optimization problems. However, as there is yet no rigorous proof of convergence for the QAOA, we provide one in this paper. The proof involves retracing the connection between the Quantum Adiabatic Algorithm and the QAOA, and naturally suggests a refined definition of the `phase separator' and `mixer' keywords.</description>
+  </item>
+
+  <item>
     <title>Experimental demonstration of the advantage of adaptive quantum circuits</title>
     <link>http://arxiv.org/pdf/2302.03029</link>
     <author>Michael Foss-Feig, Arkin Tikku, Tsung-Cheng Lu, Karl Mayer, Mohsin Iqbal, Thomas M. Gatterman, Justin A. Gerber, Kevin Gilmore, Dan Gresh, Aaron Hankin, Nathan Hewitt, Chandler V. Horst, Mitchell Matheny, Tanner Mengle, Brian Neyenhuis, Henrik Dreyer, David Hayes, Timothy H. Hsieh, Isaac H. Kim</author>
@@ -135,11 +143,11 @@
   </item>
 
   <item>
-    <title>Elementary Proof of QAOA Convergence</title>
-    <link>http://arxiv.org/pdf/2302.04968</link>
-    <author>Lennart Binkowski, Gereon Koßmann, Timo Ziegler, René Schwonnek</author>
-    <pubDate>Feb 13 2023</pubDate>
-    <description>The Quantum Alternating Operator Ansatz (QAOA) and its predecessor, the Quantum Approximate Optimization Algorithm, are one of the most widely used quantum algorithms for solving combinatorial optimization problems. However, as there is yet no rigorous proof of convergence for the QAOA, we provide one in this paper. The proof involves retracing the connection between the Quantum Adiabatic Algorithm and the QAOA, and naturally suggests a refined definition of the `phase separator' and `mixer' keywords.</description>
+    <title>A Theory of Direct Randomized Benchmarking</title>
+    <link>http://arxiv.org/pdf/2302.13853</link>
+    <author>Anthony M. Polloreno, Arnaud Carignan-Dugas, Jordan Hines, Robin Blume-Kohout, Kevin Young, Timothy Proctor</author>
+    <pubDate>Feb 28 2023</pubDate>
+    <description>Randomized benchmarking (RB) protocols are widely used to measure an average error rate for a set of quantum logic gates. However, the standard version of RB is limited because it only benchmarks a processor's native gates indirectly, by using them in composite $n$-qubit Clifford gates. Standard RB's reliance on $n$-qubit Clifford gates restricts it to the few-qubit regime, because the fidelity of a typical composite $n$-qubit Clifford gate decreases rapidly with increasing $n$. Furthermore, although standard RB is often used to infer the error rate of native gates, by rescaling standard RB's error per Clifford to an error per native gate, this is an unreliable extrapolation. Direct RB is a method that addresses these limitations of standard RB, by directly benchmarking a customizable gate set, such as a processor's native gates. Here we provide a detailed introduction to direct RB, we discuss how to design direct RB experiments, and we present two complementary theories for direct RB. The first of these theories uses the concept of error propagation or scrambling in random circuits to show that direct RB is reliable for gates that experience stochastic Pauli errors. We prove that the direct RB decay is a single exponential, and that the decay rate is equal to the average infidelity of the benchmarked gates, under broad circumstances. This theory shows that group twirling is not required for reliable RB. Our second theory proves that direct RB is reliable for gates that experience general gate-dependent Markovian errors, using similar techniques to contemporary theories for standard RB. Our two theories for direct RB have complementary regimes of applicability, and they provide complementary perspectives on why direct RB works. Together these theories provide comprehensive guarantees on the reliability of direct RB.</description>
   </item>
 
   <item>
@@ -175,6 +183,22 @@
   </item>
 
   <item>
+    <title>CSS code surgery as a universal construction</title>
+    <link>http://arxiv.org/pdf/2301.13738</link>
+    <author>Alexander Cowtan, Simon Burton</author>
+    <pubDate>Feb 01 2023</pubDate>
+    <description>We define code maps between Calderbank-Shor-Steane (CSS) codes using maps between chain complexes, and describe code surgery between such codes using a specific colimit in the category of chain complexes. As well as describing a surgery operation, this gives a general recipe for new codes. As an application we describe how to `merge' and `split' along a shared $\overline{X}$ or $\overline{Z}$ operator between arbitrary CSS codes in a fault-tolerant manner, so long as certain technical conditions concerning gauge fixing and code distance are satisfied. We prove that such merges and splits on LDPC codes yield codes which are themselves LDPC.</description>
+  </item>
+
+  <item>
+    <title>Block-encoding structured matrices for data input in quantum computing</title>
+    <link>http://arxiv.org/pdf/2302.10949</link>
+    <author>Christoph Sünderhauf, Earl Campbell, Joan Camps</author>
+    <pubDate>Feb 23 2023</pubDate>
+    <description>The cost of data input can dominate the run-time of quantum algorithms. Here, we consider data input of arithmetically structured matrices via block encoding circuits, the input model for the quantum singular value transform and related algorithms. We demonstrate how to construct block encoding circuits based on an arithmetic description of the sparsity and pattern of repeated values of a matrix. We present schemes yielding different subnormalisations of the block encoding; a comparison shows that the best choice depends on the specific matrix. The resulting circuits reduce flag qubit number according to sparsity, and data loading cost according to repeated values, leading to an exponential improvement for certain matrices. We give examples of applying our block encoding schemes to a few families of matrices, including Toeplitz and tridiagonal matrices.</description>
+  </item>
+
+  <item>
     <title>Quantum free games</title>
     <link>http://arxiv.org/pdf/2302.04322</link>
     <author>Anand Natarajan, Tina Zhang</author>
@@ -183,11 +207,19 @@
   </item>
 
   <item>
-    <title>CSS code surgery as a universal construction</title>
-    <link>http://arxiv.org/pdf/2301.13738</link>
-    <author>Alexander Cowtan, Simon Burton</author>
-    <pubDate>Feb 01 2023</pubDate>
-    <description>We define code maps between Calderbank-Shor-Steane (CSS) codes using maps between chain complexes, and describe code surgery between such codes using a specific colimit in the category of chain complexes. As well as describing a surgery operation, this gives a general recipe for new codes. As an application we describe how to `merge' and `split' along a shared $\overline{X}$ or $\overline{Z}$ operator between arbitrary CSS codes in a fault-tolerant manner, so long as the participating qubits satisfy a technical condition related to gauge fixing. We prove that such merges and splits on LDPC codes yield codes which are themselves LDPC.</description>
+    <title>Quantum trapdoor functions from classical one-way functions</title>
+    <link>http://arxiv.org/pdf/2302.12821</link>
+    <author>Andrea Coladangelo</author>
+    <pubDate>Feb 27 2023</pubDate>
+    <description>We introduce the notion of a quantum trapdoor function. This is an efficiently computable unitary that takes as input a "public" quantum state and a classical string $x$, and outputs a quantum state. This map is such that (i) it is hard to invert, in the sense that it is hard to recover $x$ given the output state (and many copies of the public state), and (ii) there is a classical trapdoor that allows efficient inversion. We show that a quantum trapdoor function can be constructed from any quantum-secure one-way function. A direct consequence of this result is that, assuming just the existence of quantum-secure one-way functions, there exist: (i) a public-key encryption scheme with a quantum public key, and (ii) a two-message key-exchange protocol, assuming an appropriate notion of a quantum authenticated channel.</description>
+  </item>
+
+  <item>
+    <title>Quantum spherical codes</title>
+    <link>http://arxiv.org/pdf/2302.11593</link>
+    <author>Shubham P. Jain, Joseph T. Iosue, Alexander Barg, Victor V. Albert</author>
+    <pubDate>Feb 24 2023</pubDate>
+    <description>We introduce a framework for constructing quantum codes defined on spheres by recasting such codes as quantum analogues of the classical spherical codes. We apply this framework to bosonic coding, obtaining multimode extensions of the cat codes that can outperform previous constructions while requiring a similar type of overhead. Our polytope-based cat codes consist of sets of points with large separation that at the same time form averaging sets known as spherical designs. We also recast concatenations of qubit CSS codes with cat codes as quantum spherical codes.</description>
   </item>
 
   <item>
@@ -207,43 +239,11 @@
   </item>
 
   <item>
-    <title>Block-encoding structured matrices for data input in quantum computing</title>
-    <link>http://arxiv.org/pdf/2302.10949</link>
-    <author>Christoph Sünderhauf, Earl Campbell, Joan Camps</author>
-    <pubDate>Feb 23 2023</pubDate>
-    <description>The cost of data input can dominate the run-time of quantum algorithms. Here, we consider data input of arithmetically structured matrices via block encoding circuits, the input model for the quantum singular value transform and related algorithms. We demonstrate how to construct block encoding circuits based on an arithmetic description of the sparsity and pattern of repeated values of a matrix. We present schemes yielding different subnormalisations of the block encoding; a comparison shows that the best choice depends on the specific matrix. The resulting circuits reduce flag qubit number according to sparsity, and data loading cost according to repeated values, leading to an exponential improvement for certain matrices. We give examples of applying our block encoding schemes to a few families of matrices, including Toeplitz and tridiagonal matrices.</description>
-  </item>
-
-  <item>
-    <title>Quantum spherical codes</title>
-    <link>http://arxiv.org/pdf/2302.11593</link>
-    <author>Shubham P. Jain, Joseph T. Iosue, Alexander Barg, Victor V. Albert</author>
-    <pubDate>Feb 24 2023</pubDate>
-    <description>We introduce a framework for constructing quantum codes defined on spheres by recasting such codes as quantum analogues of the classical spherical codes. We apply this framework to bosonic coding, obtaining multimode extensions of the cat codes that can outperform previous constructions while requiring a similar type of overhead. Our polytope-based cat codes consist of sets of points with large separation that at the same time form averaging sets known as spherical designs. We also recast concatenations of qubit CSS codes with cat codes as quantum spherical codes.</description>
-  </item>
-
-  <item>
-    <title>High threshold codes for neutral atom qubits with biased erasure errors</title>
-    <link>http://arxiv.org/pdf/2302.03063</link>
-    <author>Kaavya Sahay, Junlan Jin, Jahan Claes, Jeff D. Thompson, Shruti Puri</author>
-    <pubDate>Feb 08 2023</pubDate>
-    <description>The requirements for fault-tolerant quantum error correction can be simplified by leveraging structure in the noise of the underlying hardware. In this work, we identify a new type of structured noise motivated by neutral atom qubits, biased erasure errors, which arises when qubit errors are dominated by detectable leakage from only one of the computational states of the qubit. We study the performance of this model using gate-level simulations of the XZZX surface code. Using the predicted erasure fraction and bias of metastable $^{171}$Yb qubits, we find a threshold of 8.2%, which is 1.9 times higher than the threshold for unbiased erasures, and 7.5 times higher than the threshold for depolarizing errors. Surprisingly, the improved threshold is achieved without bias-preserving controlled-not gates, and instead results from the lower noise entropy in this model. We also introduce an XZZX cluster state construction for measurement-based error correction, hybrid-fusion, that is optimized for this noise model. By combining fusion operations and deterministic entangling gates, this construction preserves the intrinsic symmetry of the XZZX code, leading to a higher threshold of 10.3% and enabling the use of rectangular codes with fewer qubits.</description>
-  </item>
-
-  <item>
     <title>Guidable Local Hamiltonian Problems with Implications to Heuristic Ansätze State Preparation and the Quantum PCP Conjecture</title>
     <link>http://arxiv.org/pdf/2302.11578</link>
     <author>Jordi Weggemans, Marten Folkertsma, Chris Cade</author>
     <pubDate>Feb 24 2023</pubDate>
     <description>We introduce 'Merlinized' versions of the recently defined Guided Local Hamiltonian problem, which we call 'Guidable Local Hamiltonian' problems. Unlike their guided counterparts, these problems do not have a guiding state provided as a part of the input, but merely come with the promise that one exists and that it satisfies certain constraints. We consider in particular two classes of guiding states: those that can be prepared efficiently by a quantum circuit; and those belonging to a class of quantum states we call classically evaluatable, which have a short classical description from which it is possible to efficiently compute expectation values of local observables classically. We show that guidable local Hamiltonian problems for both classes of guiding states are $\mathsf{QCMA}$-complete in the inverse-polynomial precision setting, but lie within $\mathsf{NP}$ (or $\mathsf{NqP}$) in certain parameter regimes when the guiding state is classically evaluatable. We discuss the implications of these results to heuristic ansätze state preparation and the quantum PCP conjecture. Our completeness results show that, from a complexity-theoretic perspective, classical ansätze prepared by classical heuristics are just as powerful as quantum ansätze prepared by quantum heuristics, so long as one has access to quantum phase estimation. In relation to the quantum PCP conjecture, we (i) define a PCP for $\mathsf{QCMA}$ and show that it is equal to $\mathsf{NP}$ under quantum reductions; (ii) show several no-go results for the existence of quantum gap amplification procedures that preserve certain ground state properties; and (iii) propose two conjectures that can be viewed as stronger versions of the NLTS theorem. Finally, we show that many of our results can be directly modified to obtain similar results for the class $\mathsf{MA}$.</description>
-  </item>
-
-  <item>
-    <title>Thermodynamic AI and the fluctuation frontier</title>
-    <link>http://arxiv.org/pdf/2302.06584</link>
-    <author>Patrick J. Coles</author>
-    <pubDate>Feb 14 2023</pubDate>
-    <description>Many Artificial Intelligence (AI) algorithms are inspired by physics and employ stochastic fluctuations. We connect these physics-inspired AI algorithms by unifying them under a single mathematical framework that we call Thermodynamic AI. Seemingly disparate algorithmic classes can be described by this framework, for example, (1) Generative diffusion models, (2) Bayesian neural networks, (3) Monte Carlo sampling and (4) Simulated annealing. Such Thermodynamic AI algorithms are currently run on digital hardware, ultimately limiting their scalability and overall potential. Stochastic fluctuations naturally occur in physical thermodynamic systems, and such fluctuations can be viewed as a computational resource. Hence, we propose a novel computing paradigm, where software and hardware become inseparable. Our algorithmic unification allows us to identify a single full-stack paradigm, involving Thermodynamic AI hardware, that could accelerate such algorithms. We contrast Thermodynamic AI hardware with quantum computing where noise is a roadblock rather than a resource. Thermodynamic AI hardware can be viewed as a novel form of computing, since it uses a novel fundamental building block. We identify stochastic bits (s-bits) and stochastic modes (s-modes) as the respective building blocks for discrete and continuous Thermodynamic AI hardware. In addition to these stochastic units, Thermodynamic AI hardware employs a Maxwell's demon device that guides the system to produce non-trivial states. We provide a few simple physical architectures for building these devices and we develop a formalism for programming the hardware via gate sequences. We hope to stimulate discussion around this new computing paradigm. Beyond acceleration, we believe it will impact the design of both hardware and algorithms, while also deepening our understanding of the connection between physics and intelligence.</description>
   </item>
 
 </channel>
